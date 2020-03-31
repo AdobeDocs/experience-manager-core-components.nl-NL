@@ -1,5 +1,5 @@
 ---
-source-git-commit: 1273505a2b00913a89606b856d2e7c3811a3bd72
+source-git-commit: 926ecdff624327b0937ec643ce9d8fab957699ef
 translation-type: tm+mt
 
 ---
@@ -25,13 +25,15 @@ Bijdragen die niet aan deze normen voldoen, kunnen worden afgewezen.
 
 De documentatie van AEM behandelt standaardgebruiksgevallen. Gebruiksgevallen die buiten het bereik van de standaardinstallatie en het standaardgebruik van het product vallen, maken geen deel uit van de AEM-documentatie.
 
-### We documenteren geen bugs of hun aanraakpunten.
+### In het algemeen documenteren we geen bugs of hun aanraakpunten.
 
-Omdat de documentatie AEM standaardgebruiksgevallen behandelt, zijn de insecten, die gevolgen door insecten worden veroorzaakt, en de alternerende actie voor insecten niet gedocumenteerd.
+De documentatie van AEM behandelt standaardgebruiksgevallen. Daarom worden bugs, effecten die door bugs worden veroorzaakt en tijdelijke oorzaken voor bugs over het algemeen niet gedocumenteerd.
+
+Uitzonderingen op deze regel zijn van toepassing op de opmerkingen bij de release waar bekende problemen kunnen worden vermeld met mogelijke oplossingen die zijn goedgekeurd door AEM Product Management.
 
 ### De bijdragen van de documentatie zijn niet voor het beantwoorden van technische vragen.
 
-Alle ideeën die u eventueel nodig hebt om de AEM-documentatie te verbeteren, zijn welkom als bijdragen. Opmerkingen, problemen en intrekkingsverzoeken zijn echter alleen bedoeld voor *bijdragen* . Ze zijn niet bedoeld om je vragen te beantwoorden over hoe je AEM kunt gebruiken of technische problemen kunt oplossen.
+Alle ideeën die u eventueel nodig hebt om de AEM-documentatie te verbeteren, zijn welkom als bijdragen. Opmerkingen, problemen en intrekkingsverzoeken zijn echter alleen bedoeld voor *bijdragen* . Ze zijn niet bedoeld om u te helpen uw vragen te beantwoorden over het gebruik van AEM, het implementeren van uw AEM-project of het oplossen van technische problemen.
 
 Vragen over het gebruik van AEM of technische fouten die u mogelijk hebt, moeten via het normale supportproces via het [Experience Manager Support Portal](https://daycare.day.com/home.html) worden gemeld of in de [Experience Manager-community](http://help-forums.adobe.com/content/adobeforums/en/experience-manager-forum/adobe-experience-manager.html)worden besproken.
 
@@ -41,13 +43,13 @@ Vragen over het gebruik van AEM of technische fouten die u mogelijk hebt, moeten
 
 Als u een probleemmelding maakt om verbeteringen in de documentatie voor te stellen, moet u koppelingen naar de betreffende pagina&#39;s opnemen. Als u een probleemmelding maakt met de koppeling **Deze pagina bewerken** op een documentatiepagina, wordt de probleemmelding automatisch gemaakt met een koppeling naar de pagina.
 
-Dit geldt niet voor pull-aanvragen omdat pull-aanvragen per definitie de betrokken pagina&#39;s bevatten.
+Dit is niet van toepassing op trekkingsverzoeken aangezien trekkingsverzoeken door hun aard verwijzen naar de betrokken pagina(&#39;s).
 
 ## Documentatierichtlijnen
 
 Wij vragen dat bij alle bijdragen aan onze documentatie bepaalde stijlrichtlijnen worden gevolgd.
 
-Door deze richtlijnen te volgen wordt de revisie van uw bijdrage gemakkelijker en daarom is integratie in onze documentatie sneller. Niet-naleving of onvolledige naleving van deze richtsnoeren betekent echter niet dat de bijdrage zal worden afgewezen.
+Door deze richtlijnen te volgen wordt de revisie van uw bijdrage gemakkelijker en daarom is integratie in onze documentatie sneller.
 
 ### Taal en stijl
 
