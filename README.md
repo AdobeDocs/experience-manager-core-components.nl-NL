@@ -1,9 +1,9 @@
 ---
-source-git-commit: 69124c62893f1e74714d04a5edaaa9fe80033c8d
+source-git-commit: aa978d6ddf04912e3fc108f86450fac6a90d2caf
 translation-type: tm+mt
 
 ---
-# Documentatie voor AEM Core Components
+# Documentatie over kerncomponenten van Adobe Experience Manager
 
 ## Documentatie over kernonderdelen
 
@@ -15,6 +15,6 @@ Uw bijdragen aan de documentatie zijn welkom. Zie de volgende bronnen:
 * [Guidelines.md](guidelines.md) Voor een overzicht van wat in bijdragen wordt verwacht en hoe te om uw documentatiebijdragen samen te stellen.
 * [gedragscode.md](code-of-conduct.md) Voor een overzicht van de normen van gedrag wij verwachten aangezien u aan dit documentatieproject bijdraagt.
 
-## AEM Core-componenten
+## Bewaarplaats voor kerncomponenten
 
-De [Adobe Experience Manager Core Components](https://github.com/adobe/aem-core-wcm-components) zelf worden onderhouden als een aparte opslagplaats. Controleer dat project als u technische/ontwikkelaarsdocumentatie over de componenten nodig hebt, zelf een bijdrage aan de componenten wilt leveren of een probleem met de functionaliteit of functies van de kerncomponenten moet indienen.
+De [Adobe Experience Manager Core Components](https://github.com/adobe/aem-core-wcm-components) zelf worden als een project onderhouden in een aparte opslagplaats. Controleer dat project als u technische/ontwikkelaarsdocumentatie over de componenten nodig hebt, zelf een bijdrage aan de componenten wilt leveren of een probleem met de functionaliteit of functies van de kerncomponenten moet indienen.
