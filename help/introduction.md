@@ -2,7 +2,7 @@
 title: Introductie van kerncomponenten
 description: 'De Componenten van de kern werden geïntroduceerd om robuuste en verlengbare basiscomponenten te verstrekken, die op de recentste technologie en beste praktijken worden voortgebouwd. '
 translation-type: tm+mt
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+source-git-commit: 71c1cca664dde91968df16848650df9f0f0a5218
 
 ---
 
@@ -11,111 +11,83 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 In Adobe Experience Manager zijn componenten de structuurelementen die de inhoud vormen van de pagina&#39;s die worden gemaakt. Componenten zijn altijd een fundamenteel element geweest van de AEM-ervaring. Hierdoor is het maken van pagina&#39;s eenvoudig maar krachtig voor de auteur en de ontwikkeling van componenten flexibel en uitbreidbaar voor de ontwikkelaar.
 
-De Componenten van de kern werden geïntroduceerd om robuuste en verlengbare basiscomponenten te verstrekken, die op de recentste technologie en beste praktijken worden voortgebouwd, en het naleven van toegankelijkheidsrichtlijnen en zijn volgzaam met de norm WCAG 2.0 AA. De componenten van de kern maken paginaontwerp flexibeler en klantgericht, en het uitbreiden van hen om douanefunctionaliteit aan te bieden is eenvoudig voor de ontwikkelaar.
+De kerncomponenten zijn een reeks gestandaardiseerde WCM-componenten (Web Content Management) voor AEM om de ontwikkelingstijd te versnellen en de onderhoudskosten van uw websites te verlagen.
 
-## Core Components uitproberen
+## Bronnen {#resources}
 
-Als u meteen aan de slag wilt gaan met het uitproberen van de Core Components, ga dan naar de [Component Library](https://adobe.com/go/aem_cmp_library). De componentenbibliotheek is een online showcase van de huidige versie van de meeste Core Components, die u toestaat om met variaties van de componenten in wisselwerking te staan evenals steekproefHTML en output JSON te zien.
+* **[Componentbibliotheek:](https://www.adobe.com/go/aem_cmp_library)**Een inzameling van voorbeelden om de componenten in hun diverse configuraties te bekijken.
+* **Componentdocumentatie (dit document):** Voor ontwikkelaars en auteurs, met details over elke component.
+* Aan de slag:
+   * **[Succes met de kerncomponenten:](/help/developing/success.md)**Richtlijnen die ruim vóór de aanvang van om het even welk project moeten overwegen dat de Componenten van de Kern zal gebruiken.
+   * **[WKND-zelfstudie:](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**Een zelfstudie van twee dagen voor het bouwen van een nieuwe site.
+   * **[Zelfstudie top:](https://expleague.azureedge.net/labs/L767/index.html)**Een zelfstudie van twee uur voor het bouwen van een nieuwe site (van een Lab op de VS-top in 2019).
+   * **[Gems Webinar:](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)**Een rondleiding door de Core Components (opgenomen in december 2018).
 
-De [WKND-zelfstudie](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) illustreert ook hoe de kerncomponenten kunnen worden gebruikt.
+## Features {#features}
 
-## Core Components - Core-functies {#core-components-core-features}
+|||—|—||Productie-Klaar| De Componenten van de Kern zijn 27 robuuste componenten die goed worden getest, wijd worden gebruikt, en die goed presteren.||Klaar voor cloud| Of ze nu werken op [AEM als cloudservice](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html), op [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)of op locatie.||Versatile| De componenten vertegenwoordigen generische concepten waarmee de auteurs bijna om het even welke lay-out kunnen assembleren.||Configurable| Sjabloon-vlakke [inhoudsbeleid](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) bepaalt welke eigenschappen de paginaauteurs worden toegestaan om te gebruiken of niet te gebruiken.||Toegankelijk| Ze voldoen aan de [WCAG 2.1-standaard](https://www.w3.org/TR/WCAG21/), bieden ARIA-labels en ondersteunen toetsenbordnavigatie ([bekende problemen](https://github.com/adobe/aem-core-wcm-components/issues?utf8= ✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)).||SEO-Friendly| De HTML-uitvoer is semantisch en biedt [schema.org](https://schema.org) -microgegevensannotaties.||WebApp-Ready| De [gestroomlijnde JSON-uitvoer](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) staat renderen aan de clientzijde toe, met de mogelijkheid om [in-context te bewerken](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html).||Design Kit| Met een [UI-kit voor Adobe XD](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) kunnen ontwerpers draadframes maken die zij vervolgens naar wens [kunnen](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd)opmaken.||Themeable| De componenten voeren het Systeem [van de](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/style-system.html)Stijl uit, en de prijsverhoging volgt [BEM CSS overeenkomsten](http://getbem.com/).||Aanpasbaar| Met verschillende patronen kunt u de HTML [eenvoudig aanpassen](developing/customizing.md), van het aanpassen van de HTML tot het hergebruik van de geavanceerde functionaliteit.||Versioning| Het [versiebeleid](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) zorgt ervoor dat de Componenten van de Kern uw plaats niet breken wanneer het verbeteren van dingen die u zouden kunnen beïnvloeden.||Lokaliseerbaar|Met slimme verwijzingsresolutie kunnen bepaalde componenten automatisch [corresponderende gelokaliseerde inhoud zoeken en](get-started/localization.md)renderen.||Open Bronnen| Als iets anders is dan zou moeten, [draagt u bij aan de verbeteringen!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md)|
 
-De kerncomponenten zijn:
-
-|  |  |
-|--- |--- |
-| Pre-Configureerbaar | Sjablonen kunnen definiëren hoe de auteurs van de pagina deze kunnen gebruiken. |
-| Veelzijdig | Auteurs kunnen de meeste soorten inhoud met hen tot stand brengen. |
-| Gebruiksvriendelijk | Auteurs kunnen op efficiënte wijze inhoud maken en beheren. |
-| Gereed voor productie | Gebruikbaar buiten de doos! Ze zijn robuust, goed getest en presteren goed. |
-| Toegankelijk | Ze voldoen aan de WCAG 2.0-standaard, bieden ARIA-labels en ondersteunen toetsenbordnavigatie. |
-| Eenvoudig in stijl | De componenten voeren het Systeem van de Stijl uit en de prijsverhoging volgt CSS BEM noemend. |
-| SEO Friendly | De HTML-uitvoer is semantisch en biedt microgegevensannotaties van schema.org. |
-| PWA/SPA/App Ready | Hun gestroomlijnde JSON-uitvoer kan ook worden gebruikt voor rendering op de client. |
-| Uitbreidbaar | Alles kan worden uitgebreid om tegemoet te komen aan aangepaste behoeften, maar zonder helemaal opnieuw te beginnen. |
-| Bron openen | Als iets niet zoals het zou moeten zijn, bijdragen verbeteringen op GitHub (Vergunning Apache). |
-| Versioned | De kerncomponenten breken de site niet wanneer u de verbeteringen doorvoert die van invloed kunnen zijn op uw site. |
-| [Gelokaliseerd](get-started/localization.md) | Met slimme verwijzingsresolutie kunnen bepaalde componenten automatisch corresponderende gelokaliseerde inhoud zoeken en renderen |
-
-## Beschikbare componenten {#available-components}
+## De componenten {#the-components}
 
 In de huidige versie van Core Components zijn de volgende componenten beschikbaar.
 
-* [Accordeon](components/accordion.md)
+### Sjablooncomponenten {#template-components}
+
+* [Pagina](components/page.md)
+* [Navigatie](components/navigation.md)
+* [Taalnavigatie](components/language-navigation.md)
 * [Broodkruimel](components/breadcrumb.md)
+* [Snel zoeken](components/quick-search.md)
+
+### Componenten voor paginaontwerp {#page-authoring-components}
+
+* [Titel](components/title.md)
+* [Tekst](components/text.md)
+* [Afbeelding](components/image.md)
 * [Knop](components/button.md)
-* [Container](components/container.md)
-* [Carousel](components/carousel.md)
+* [Teaser](components/teaser.md)
+* [Downloaden](components/download.md)
+* [Lijst](components/list.md)
+* [Ervaar fragment](components/experience-fragment.md)
 * [Inhoudsfragment](components/content-fragment-component.md)
 * [Lijst met inhoudsfragmenten](components/content-fragment-list.md)
-* [Downloaden](components/download.md)
 * [Insluiten](components/embed.md)
-* [Ervaar fragment](components/experience-fragment.md)
-* [Formulierknop](components/forms/form-button.md)
-* [Formuliercontainer](components/forms/form-container.md)
-* [Formulier verborgen](components/forms/form-hidden.md)
-* [Formulieropties](components/forms/form-options.md)
-* [Formuliertekst](components/forms/form-text.md)
-* [Afbeelding](components/image.md)
-* [Taalnavigatie](components/language-navigation.md)
-* [Lijst](components/list.md)
-* [Navigatie](components/navigation.md)
-* [Pagina](components/page.md)
-* [Snel zoeken](components/quick-search.md)
-* [Scheidingsteken](components/separator.md)
 * [Delen van sociale media](components/sharing.md)
+* [Scheidingsteken](components/separator.md)
+
+### Containeronderdelen {#container-components}
+
+* [Container](components/container.md)
+* [Carousel](components/carousel.md)
 * [Tabs](components/tabs.md)
-* [Tekst](components/text.md)
-* [Titel](components/title.md)
+* [Accordeon](components/accordion.md)
+
+### Formuliercomponenten {#form-components}
+
+* [Formuliercontainer](components/forms/form-container.md)
+* [Formuliertekst](components/forms/form-text.md)
+* [Formulieropties](components/forms/form-options.md)
+* [Formulier verborgen](components/forms/form-hidden.md)
+* [Formulierknop](components/forms/form-button.md)
 
 >[!NOTE]
 >
 >De Componenten van de kern zijn niet onmiddellijk beschikbaar aan auteurs, moet het [ontwikkelingsteam hen aan uw milieu](get-started/using.md)eerst integreren. Zodra geïntegreerd, kunnen zij beschikbaar worden gemaakt en via de [malplaatjeredacteur](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)worden gevormd.
 
->[!CAUTION]
+>[!NOTE]
 >
 >Sommige versies van afzonderlijke Core Components zijn mogelijk alleen compatibel met bepaalde versies van AEM.
 >
 >Zie de afzonderlijke Help-pagina (die is gekoppeld aan de vorige lijst) voor de specifieke component voor compatibiliteitsinformatie of raadpleeg het document [Core Components Versions](versions.md) voor meer informatie.
 
-## Wanneer gebruiken Core Components {#when-to-use-core-components}
+## Systeemvereisten {#system-requirements}
 
-Aangezien de Componenten van de Kern allen-nieuw zijn, en veelvoudige voordelen aanbieden, wordt het geadviseerd voor nieuwe projecten AEM om hen te gebruiken. Voor bestaande projecten zou een migratie deel moeten uitmaken van een grotere projectinspanning, bijvoorbeeld een herbranding of het totale refactoring.
+| Kernonderdelen | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | AEM 6.3 | Java SE | Maven |
+---------|---------|---------|---------|---------|---------|---------
+| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | Continu | 6.5.0.0+ | 6.4.4.0+ | 6.3.3.4+ | 8, 11 | 3.3.9+ |
 
-Zie [Wanneer moet u de kerncomponenten gebruiken voor specifieke gebruiksaanbevelingen?](developing/overview.md#when-to-use-the-core-components) in het document [Developing Core Components](developing/overview.md) .
+Zie [Core Components Versions](versions.md)voor de vereisten van eerdere versies van Core Component.
 
-## Overzicht van Gems-sessie {#gems-session-overview}
+De componenten van de Kern vereisen het gebruik van [editable malplaatjes](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) en steunen geen Klassieke UI noch statische malplaatjes. Controleer indien nodig de [moderniseringsgereedschappen](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) van AEM om uw project bij te werken met deze moderne AEM-functies.
 
-Bekijk voor een inleiding op de Core Components, de functies die ze bieden en de manier waarop ze in AEM worden gebruikt, de AEM Gems Session [AEM Core Components.](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
-
-[Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) is een aantal technische diepteduiken die door Adobe-experts worden geleverd. Deze reeks is een aanvulling op de productdocumentatie en alle andere technische kanalen, zodat ontwikkelaars contact kunnen opnemen en dieper kunnen gaan op een specifiek onderwerp.
-
-## Ontwikkelen met de kerncomponenten {#developing-core-components}
-
-De componenten van de Kern verstrekken robuuste en verlengbare basiscomponenten die verscheidene patronen uitvoeren die gemakkelijke aanpassing, van eenvoudig het stileren aan geavanceerd functionaliteit hergebruik toestaan. Zie de [Core Components die documentatie](developing/overview.md) ontwikkelt voor meer informatie.
-
-Ga aan de slag met het ontwikkelen van AEM-sites met Core Components door [de WKND-zelfstudie te volgen.](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
-
-Vergeet niet om uw eigen AEM-project te starten met behulp van het [AEM Project Archetype](developing/archetype/overview.md) met de nieuwste ingebouwde Core Components!
-
-## Ondersteuning voor kerncomponenten {#core-components-support}
-
-De Componenten van de kern zijn een integraal deel van AEM en gesteund zoals is, onder de zelfde voorwaarden alsof zij als deel van Quickstart werden geleverd.
-
-Net als andere productkenmerken is de algemene regel van het einde van de levensduur:
-
-* Componenten worden eerst aangekondigd te worden vervangen voordat ze worden verwijderd
-* Op zijn vroegst worden ze na de aankondiging uit de AEM-release verwijderd.
-
-Dit geeft klanten minstens één versiecyclus om naar de nieuwe versie van de component te bewegen, alvorens steun beëindigt.
-
-De versie van elke component geeft duidelijk aan welke AEM-versies worden ondersteund. Wanneer de steun voor een versie van AEM ophoudt, dan ook de steun van de Componenten van de Kern voor die versie van AEM.
-
-Zie de pagina Core Components [](developing/customizing.md) aanpassen van de relevante versie van Core Components voor meer informatie over de ondersteuning van componentaanpassingen.
-
-## Ondersteuning van stichtingscomponenten {#foundation-component-support}
-
-Aangezien de componenten van de Stichting als basis voor zoveel projectontwikkeling in vele versies hebben gediend, zullen zij in de nabije toekomst verder worden gesteund.
-
-De ontwikkelingsnadruk van Adobe is echter verschoven naar de kerncomponenten en er worden nieuwe functies aan toegevoegd, terwijl [bijna alle stichtingscomponenten zijn vervangen door AEM 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) en er alleen opgeloste problemen worden aangebracht in de verdere ontwikkeling van de stichtingscomponenten.
+Als u uw lokale ontwikkelomgeving wilt instellen, raadpleegt u [dit overzicht voor AEM als Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) of dit document [voor oudere versies van AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
