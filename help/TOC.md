@@ -1,8 +1,8 @@
 ---
-sub-product: AEM Core Components
-user-guide-title: AEM Core Components
+sub-product: AEM Core-componenten
+user-guide-title: AEM Core-componenten
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
 
 ---
 
@@ -10,6 +10,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 # Help bij AEM Core Components {#using}
 
 + [Introductie van kerncomponenten](introduction.md)
++ [Paden naar succes](developing/success.md)
 + [Componentbibliotheek](https://adobe.com/go/aem_cmp_library)
 + [Core Components-versies](versions.md)
 + Aan de slag {#get-started}
@@ -60,11 +61,13 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
          + [Formuliertekst (v1)](components/v1/form-text-v1.md)
 + Ontwikkeling {#developing}
    + [Basiscomponenten ontwikkelen](developing/overview.md)
+   + [Paden naar succes](developing/success.md)
    + [Zelfstudie voor WKND-ontwikkelaars](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Kerncomponenten aanpassen](developing/customizing.md)
    + [Componentrichtlijnen](developing/guidelines.md)
    + AEM-projectarchetype {#archetype}
       + [Overzicht van Archetype](developing/archetype/overview.md)
+      + [Archetype gebruiken](developing/archetype/using.md)
       + [Kernmodule](developing/archetype/core.md)
       + [ui.apps-module](developing/archetype/uiapps.md)
       + [ui.content Module](developing/archetype/uicontent.md)
