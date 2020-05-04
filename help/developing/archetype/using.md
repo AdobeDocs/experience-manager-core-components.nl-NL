@@ -2,7 +2,7 @@
 title: AEM-projectarchetype gebruiken
 description: Gedetailleerde gebruiksinstructies voor het AEM Project Archetype
 translation-type: tm+mt
-source-git-commit: 477a1774a856725f52b9db7a978c534de4700661
+source-git-commit: 0d8089c53d2ef95e88379e6f381738cd137e6b33
 
 ---
 
@@ -15,7 +15,7 @@ Het AEM Project Archetype leidt tot een minimaal, op best-praktijken-gebaseerd p
 
 Met het AEM Project Archetype kunt u een AEM-project op basis van best practices bouwen met slechts een paar toetsaanslagen. Door het archetype te gebruiken, zullen alle stukken reeds op zijn plaats zijn zodat terwijl het resulterende project minimaal is, het reeds alle [belangrijkste eigenschappen](#features) van AEM uitvoert zodat alles u moet doen voortbouwen en zich uitbreiden.
 
-Natuurlijk zijn er vele elementen die in een succesvol AEM- project gaan, maar het gebruiken van het Archieftype van het Project AEM is een correcte stichting en sterk geadviseerd voor om het even welk AEM- project.
+Natuurlijk zijn er vele elementen die in een succesvol AEM- project gaan, maar het gebruiken van het Archetype van het Project AEM is een correcte stichting en sterk geadviseerd voor om het even welk AEM- project.
 
 ## Aan de slag {#getting-started}
 
@@ -34,7 +34,7 @@ Het AEM Archetype bestaat uit modules:
 * **[ui.content](uicontent.md)**: bevat voorbeeldinhoud met behulp van de componenten uit de module ui.apps.
 * **[ui.tests](uitests.md)**: is een Java-bundel met JUnit-tests die op de server worden uitgevoerd. Deze bundel moet niet op productie worden opgesteld.
 * **ui.launch**: bevat lijm die de bundel ui.tests (en afhankelijke bundels) aan de server opstelt en de verre uitvoering JUnit teweegbrengt.
-* **[ui.frontend.general](uifrontend.md)**:**(facultatief)**bevat de artefacten die worden vereist om de algemene Web-pack-gebaseerde front-end bouwstijlmodule te gebruiken.
+* **[ui.frontend.general](uifrontend.md)**:**(facultatief)**bevat de artefacten die worden vereist om de algemene Web-pack-gebaseerde voorste-eind bouwstijlmodule te gebruiken.
 * **[ui.frontend.response](uifrontend-react.md)**:**(facultatief)**bevat de artefacten die wanneer het gebruiken van archetype worden vereist om tot een projecten van het KUUROORD te leiden die op Reageren worden gebaseerd.
 * **[ui.frontend.angular](uifrontend-angular.md)**:**(facultatief)**bevat de artefacten die wanneer het gebruiken van archetype worden vereist om tot een projecten van het KUUROORD te leiden die op Hoekig worden gebaseerd.
 
@@ -166,9 +166,9 @@ Deze eigenschappen worden opstelling om aan een lokale instantie AEM op te stell
 
 Deze eigenschappen zijn opstelling zodat zij kunnen worden met voeten getreden wanneer het opstellen aan hogere niveaumilieu&#39;s. Op deze manier hoeven de POM-bestanden niet te worden gewijzigd, maar variabelen zoals `aem.host` en `sling.password` kunnen via opdrachtregelargumenten worden overschreven:
 
-````
+```
 mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.password=productionpasswd
-````
+```
 
 ### Modulestructuur {#module-structure}
 
