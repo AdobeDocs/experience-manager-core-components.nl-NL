@@ -2,7 +2,10 @@
 title: Taalnavigatie-component
 description: De component Taalnavigatie biedt een taal-/landnavigatie voor een site, zodat bezoekers naar dezelfde pagina in een andere landinstelling kunnen navigeren.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '832'
+ht-degree: 1%
 
 ---
 
@@ -26,9 +29,9 @@ De huidige versie van de taalnavigatiecomponent is v1, die in januari 2018 is ge
 
 In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
 
-| Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v1 | Compatibel | Compatibel | Compatibel | Compatibel |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v1 | Compatibel | Compatibel | Compatibel |
 
 Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
 
@@ -50,7 +53,7 @@ Doorgaans hoeven deze configuraties alleen op paginasjabloonniveau te worden uit
 
 ### Tabblad Eigenschappen {#properties-tab}
 
-![](/help/assets/screen_shot_2018-01-12at133642.png)
+![Ontwerpdialoogvenster taalnavigatie-component](/help/assets/language-navigation-design.png)
 
 * **Navigatieroot**
    * Hier moet de taalnavigatie van de site worden gestart.
@@ -67,7 +70,7 @@ Laten we zeggen dat de inhoud er zo uitziet:
 
 ```
 /content
-+-- we-retail
++-- wknd
    +-- language-masters
    +-- us
       +-- en
@@ -80,9 +83,9 @@ Laten we zeggen dat de inhoud er zo uitziet:
 \-- wknd-shop
 ```
 
-Voor de plaats wij.Retail, zou u waarschijnlijk de component van de Navigatie van de Taal op een paginamalplaatje als deel van de kopbal willen plaatsen. Als een onderdeel van de sjabloon is gemaakt, kunt u de **navigatieroot** van de component instellen op `/content/we-retail` aangezien dat het begin is van de gelokaliseerde inhoud voor die site. U wilt ook de **taalstructuurdiepte** instellen `2` omdat uw structuur op twee niveaus ligt (land en taal).
+Voor de plaats WKND, zou u waarschijnlijk de component van de Navigatie van de Taal op een paginamalplaatje als deel van de kopbal willen plaatsen. Als een onderdeel van de sjabloon is gemaakt, kunt u de **navigatieroot** van de component instellen op `/content/wknd` aangezien dat het begin is van de gelokaliseerde inhoud voor die site. U wilt ook de **taalstructuurdiepte** instellen `2` omdat uw structuur op twee niveaus ligt (land en taal).
 
-Met de waarde van de **Basis** van de Navigatie, weet de Component van de Taal dat na `/content/we-retail` dat de navigatie begint en het taalnavigatieopties kan produceren door de volgende twee niveaus in de inhoudsboom als de taalnavigatiestructuur van de plaats (zoals die door de waarde van de Diepte **van de Structuur van de** Taal wordt bepaald) te erkennen.
+Met de waarde van de **Basis** van de Navigatie, weet de Component van de Taal dat na `/content/wknd` dat de navigatie begint en het taalnavigatieopties kan produceren door de volgende twee niveaus in de inhoudsboom als de taalnavigatiestructuur van de plaats (zoals die door de waarde van de Diepte **van de Structuur van de** Taal wordt bepaald) te erkennen.
 
 Ongeacht welke pagina een gebruiker bekijkt, kan de component van de Navigatie van de Taal de overeenkomstige pagina in een andere taal vinden, door de plaats van de huidige pagina te kennen en achterwaarts aan de wortel te werken, en dan door:sturen aan de overeenkomstige pagina.
 
@@ -94,4 +97,10 @@ De taalnavigatiecomponent ondersteunt het AEM- [stijlsysteem](/help/get-started/
 
 Doorgaans hoeft de component Taalnavigatie alleen aan de paginasjablonen van een site te worden toegevoegd en geconfigureerd. Als de component Taalnavigatie echter moet worden toegevoegd aan een afzonderlijke inhoudspagina, kan het dialoogvenster Bewerken een auteur van de inhoud dezelfde waarden configureren als in het [ontwerpdialoogvenster](#design-dialog)worden beschreven.
 
-![](/help/assets/screen_shot_2018-01-12at133353.png)
+Bovendien kunt u een **id** instellen. Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de [gegevenslaag](/help/developing/data-layer/overview.md).
+
+* Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
+* Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
+* Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
+
+![Dialoogvenster Taalnavigatie-component bewerken](/help/assets/language-navigation-edit.png)
