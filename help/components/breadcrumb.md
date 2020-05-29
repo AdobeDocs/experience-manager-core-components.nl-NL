@@ -2,7 +2,10 @@
 title: Broodkruimelcomponent
 description: De component van de Breadcrumb van de Component van de Kern is een navigatiecomponent die een broodkruimel van verbindingen bouwt die op de plaats van de pagina in de inhoudshiërarchie wordt gebaseerd.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '713'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +28,7 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM-ve
 
 | Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
-| v2 | Compatibel | Compatibel | Compatibel | Compatibel |
+| v2 | - | Compatibel | Compatibel | Compatibel |
 | [v1](v1/breadcrumb-v1.md) | Compatibel | Compatibel | Compatibel | - |
 
 Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
@@ -48,16 +51,21 @@ Meer details over het ontwikkelen van de Componenten van de Kern kunnen in de de
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud verborgen en actieve pagina&#39;s in de broodkruimels onderdrukken, evenals de diepte in de hiërarchie die moet worden weergegeven.
 
-![](/help/assets/screen_shot_2018-01-12at124250.png)
+![Dialoogvenster voor bewerken van component Breadcrumb](/help/assets/breadcrumb-edit.png)
 
 * **Beginniveau** navigatie - Waar in de hiërarchie moet de component breadcrumb omlaag gaan naar de huidige pagina. Bijvoorbeeld in We.Retail:
 
    * 0 begint bij `/content`
-   * 1 begint bij `/content/we-retail`
-   * 2 begint bij `/content/we-retail/<country>`
+   * 1 begint bij `/content/<yourSite>`
+   * 2 begint bij `/content/<yourSite>/<country>`
 
 * **Verborgen navigatie-items** tonen - Pagina&#39;s tonen die zijn gemarkeerd als verborgen in de broodkruimel (deze worden standaard niet weergegeven)
 * **Huidige pagina** verbergen - De huidige pagina in de broodkruimel onderdrukken (standaard wordt deze weergegeven)
+* **Schaduwen** uitschakelen - Als de pagina in de hiërarchie een omleiding is, wordt de naam van de omleidingspagina weergegeven in plaats van het doel. Zie Ondersteuning [van](navigation.md#shadow-structure) schaduwsitestructuur van de navigatiecomponent voor meer informatie.
+* **ID** - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de [gegevenslaag](/help/developing/data-layer/overview.md).
+   * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
+   * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
+   * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -65,7 +73,7 @@ In het ontwerpdialoogvenster kan de sjabloonauteur definiëren wat de standaardw
 
 ### Hoofdtabblad {#main-tab}
 
-![](/help/assets/screen_shot_2018-01-12at124437.png)
+![](/help/assets/breadcrumb-design.png)
 
 * **Beginniveau** van navigatie - Definieert de standaardwaarde voor de positie in de hiërarchie waar de component breadcrumb naar beneden moet lopen naar de huidige pagina wanneer de component breadcrumb aan een pagina wordt toegevoegd.
 * **Verborgen navigatie-items** tonen - Hiermee definieert u de standaardwaarde van de optie Verborgen navigatie-items **** weergeven wanneer de component breadcrumb aan een pagina wordt toegevoegd.
@@ -75,6 +83,8 @@ In het ontwerpdialoogvenster kan de sjabloonauteur definiëren wat de standaardw
 * **Huidige pagina** verbergen - Hiermee wordt de standaardwaarde van de optie Huidige pagina **** verbergen gedefinieerd wanneer de component breadcrumb aan een pagina wordt toegevoegd.
 
    * Hiermee wordt de optie voor de auteur niet in- of uitgeschakeld. Hiermee wordt alleen de standaardwaarde ingesteld.
+
+* **Schaduwen** uitschakelen - Hiermee definieert u de standaardwaarde van de optie Schaduwen **** uitschakelen wanneer de component breadcrumb aan een pagina wordt toegevoegd.
 
 ### Tabblad Stijlen {#styles-tab}
 
