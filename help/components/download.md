@@ -2,7 +2,10 @@
 title: Component downloaden
 description: Met de component Core Component Download kunt u een downloadoptie op een pagina maken.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '687'
+ht-degree: 1%
 
 ---
 
@@ -24,9 +27,9 @@ De huidige versie van de Download Component is v1, die in juni 2019 met versie 2
 
 In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
 
-| Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | Compatibel | Compatibel | Compatibel | Compatibel |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| v1 | Compatibel | Compatibel | Compatibel |
 
 Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
 
@@ -44,7 +47,7 @@ Meer details over het ontwikkelen van de Componenten van de Kern kunnen in de de
 
 In het dialoogvenster Configureren kan de auteur van de inhoud het downloaditem definiëren en bepalen hoe het zich gedraagt en wordt weergegeven voor een bezoeker van de pagina.
 
-![](/help/assets/screen-shot-2019-06-17-09.49.14.png)
+![Het tabblad Middelen van het dialoogvenster Bewerken van component downloaden](/help/assets/download-edit-asset.png)
 
 ### Tabblad Element {#asset-tab}
 
@@ -57,7 +60,7 @@ De selectie van een downloadmiddel is zeer gelijkaardig aan de functionaliteit v
 
 ### Tabblad Eigenschappen {#properties-tab}
 
-![](/help/assets/screen-shot-2019-06-17-09.49.51.png)
+![Eigenschappen, tabblad van het dialoogvenster Bewerken van downloadcomponent](/help/assets/download-edit-properties.png)
 
 * **Titel** - Wordt weergegeven als een kop voor het downloaditem
    * **Titel ophalen van DAM-element** - Als deze optie is geselecteerd, wordt de titel automatisch gevuld met de titel van het DAM-element.
@@ -66,6 +69,10 @@ De selectie van een downloadmiddel is zeer gelijkaardig aan de functionaliteit v
 * **Tekst** van handeling - wordt weergegeven als actietekst voor het downloaditem
    * Dit veld is vereist wanneer u een element uploadt van het bestandssysteem.
    * **Inline** weergeven - Als u deze optie selecteert, wordt de opgegeven **handelingstekst** inline weergegeven.
+* **ID** - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de [gegevenslaag](/help/developing/data-layer/overview.md).
+   * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
+   * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
+   * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -73,9 +80,8 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de opties definiëren die bes
 
 ### Tabblad Eigenschappen {#properties-tab-design}
 
-![](/help/assets/screen-shot-2019-06-17-10.04.31.png)
+![Het dialoogvenster Ontwerpen van de component Download](/help/assets/download-design.png)
 
-* **Standaardhandelingstekst** - Definieert de standaardtekst voor **handelingen** die wordt opgegeven wanneer een auteur de component Download aan een pagina toevoegt.
 * **Uploaden vanuit bestandssysteem** toestaan - Hiermee kan de auteur van de inhoud een element uit zijn/haar lokale bestandssysteem uploaden als het downloadmiddel.
    * De standaardwaarde is niet geselecteerd.
 * **Titeltype** : het HTML-element dat wordt gebruikt voor de titel van de component Download.
