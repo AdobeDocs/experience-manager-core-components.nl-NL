@@ -2,7 +2,10 @@
 title: Teaser-component
 description: De teaser-component kan een afbeelding, een titel, RTF-tekst en eventueel een koppeling naar andere inhoud weergeven.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 1%
 
 ---
 
@@ -23,9 +26,9 @@ De huidige versie van de Teaser Component is v1, die in juli 2018 is geïntroduc
 
 In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
 
-| Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|---|
-| v1 | Compatibel | Compatibel | Compatibel | Compatibel |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Compatibel | Compatibel | Compatibel |
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
@@ -43,7 +46,7 @@ De auteur van de inhoud kan het dialoogvenster Configure gebruiken om de eigensc
 
 ### Image {#image}
 
-![](/help/assets/screen_shot_2018-07-03at104125.png)
+![Het tabblad Afbeelding van het dialoogvenster Bewerken van de Teasercomponent](/help/assets/teaser-edit-image.png)
 
 * **Afbeeldingselement**
    * Zet een element neer vanuit de [middelenbrowser](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of tik op de **bladeroptie** om te uploaden vanaf een lokaal bestandssysteem.
@@ -52,19 +55,24 @@ De auteur van de inhoud kan het dialoogvenster Configure gebruiken om de eigensc
 
 ### Tekst {#text}
 
-![](/help/assets/screen_shot_2018-07-03at104138.png)
+![Het teksttabblad van het dialoogvenster Bewerken van de component Teaser](/help/assets/teaser-edit-text.png)
 
-* **Titel** definieert een titel die moet worden weergegeven als de kop voor het gereedschap Taser.
-* **De titel ophalen van de gekoppelde pagina** Als deze optie is ingeschakeld, wordt de titel van de gekoppelde pagina ingevuld.
-* **Omschrijving** definieert een beschrijving die wordt weergegeven als subcode van het gummetje.
-* **Beschrijving van gekoppelde pagina** ophalen Als deze optie is ingeschakeld, wordt de beschrijving gevuld met de beschrijving van de gekoppelde pagina.
+* **Voortitel** - De voortitel wordt vóór de titel van het gummetje weergegeven.
+* **Titel** - Definieert een titel die moet worden weergegeven als de kop voor het gummetje.
+   * **Titel ophalen van gekoppelde pagina** - Als deze optie is ingeschakeld, wordt de titel van de gekoppelde pagina gevuld.
+* **Beschrijving** - Hiermee definieert u een beschrijving die u wilt weergeven als subcode van het gummetje.
+   * **Beschrijving ophalen van gekoppelde pagina** - Als deze optie is ingeschakeld, wordt de beschrijving gevuld met de beschrijving van de gekoppelde pagina.
+* **ID** - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de [gegevenslaag](/help/developing/data-layer/overview.md).
+   * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
+   * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
+   * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
 ### Koppelingen en handelingen {#links-actions}
 
-![](/help/assets/screen_shot_2018-07-03at104146.png)
+![Het tabblad voor het dialoogvenster voor het bewerken van de component Teaser](/help/assets/teaser-edit-link.png)
 
-* **Koppelingskoppeling** toegepast op het taser. Gebruik de padbrowser om het doel van de koppeling te selecteren.
-* **Laat vraag-aan-Acties** toe wanneer gecontroleerd, laat definitie van vraag-aan-Acties toe. De eerste vraag-aan-actie verbinding in de lijst wordt gebruikt als verbinding voor andere teaser elementen.
+* **Koppeling** - Koppeling toegepast op het taser. Gebruik de padbrowser om het doel van de koppeling te selecteren.
+* **Laat vraag-aan-Acties** toe - wanneer gecontroleerd, laat definitie van vraag-aan-Acties toe. De eerste vraag-aan-actie verbinding in de lijst wordt gebruikt als verbinding voor andere teaser elementen.
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
@@ -76,19 +84,20 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de teasopties definiëren die
 
 ### Taser Tab {#teaser-tab}
 
-![](/help/assets/screen_shot_2018-07-03at105958.png)
+![Ontwerpdialoogvenster van de Teaser Component](/help/assets/teaser-design.png)
 
 * **Oproep tot actie**
-   * **Schakel Vraag-aan-Acties** onbruikbaar makenVerberg de **vraag-aan-Acties** optie voor inhoudsauteurs
+   * **Schakel Vraag-aan-Acties** uit - verberg de **vraag-aan-Acties** optie voor inhoudsauteurs
 * **Elementen**
-   * **Titel verbergen**
-      * Hiermee verbergt u de optie **Titel** voor auteurs van inhoud
+   * **Voortitel** verbergen - Verbergt de optie **Voortitel** voor auteurs van inhoud
+   * **Titel** verbergen - Verbergt de optie **Titel** voor auteurs van inhoud
       * Wanneer u deze optie selecteert, wordt het **titeltype** verborgen
-   * **Beschrijving** verbergen De optie **Beschrijving** verbergen voor auteurs van inhoud
-* **Titeltype** definieert de tag H die moet worden gebruikt door de titel van het gummetje.
+   * **Beschrijving** verbergen - De optie **Beschrijving** verbergen voor auteurs van inhoud
+* **Titeltype** - Hiermee definieert u de tag H die door de titel van het gummetje moet worden gebruikt.
 * **Koppelingen**
-   * **Koppel de afbeelding** niet aan als deze is geselecteerd, wordt de laserafbeelding niet gekoppeld
-   * **Koppel de titel** niet als deze is geselecteerd. De teastitel is dan niet gekoppeld
+   * **Koppel de afbeelding** niet. Als deze optie is geselecteerd, wordt de laserafbeelding niet gekoppeld
+   * **De titel** niet koppelen - Als deze optie is geselecteerd, is de teastitel niet gekoppeld
+* **Afbeelding gedelegeerd** - Informatieweergave die aangeeft aan welke component de taser de beeldverwerking delegeert.
 
 ### Tabblad Stijlen {#styles-tab}
 
