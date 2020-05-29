@@ -2,7 +2,10 @@
 sub-product: AEM Core-componenten
 user-guide-title: AEM Core-componenten
 translation-type: tm+mt
-source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
+source-git-commit: afd846b1f124ac9b326e59ff71b145f7b9efeb11
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 2%
 
 ---
 
@@ -33,6 +36,7 @@ source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
    + [Lijst](components/list.md)
    + [Navigatie](components/navigation.md)
    + [Pagina](components/page.md)
+   + [Voortgangsbalk](components/progress-bar.md)
    + [Snel zoeken](components/quick-search.md)
    + [Scheidingsteken](components/separator.md)
    + [Delen van sociale media](components/sharing.md)
@@ -65,6 +69,10 @@ source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
    + [Zelfstudie voor WKND-ontwikkelaars](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Kerncomponenten aanpassen](developing/customizing.md)
    + [Componentrichtlijnen](developing/guidelines.md)
+   + [Gegevenslaag Adobe-client gebruiken]{#data-layer}
+      + [Core Components and the Adobe Client Data Layer](developing/data-layer/overview.md)
+      + [Integratie met Adobe Launch](developing/data-layer/launch-integration.md)
+      + [Integratie met Adobe Analytics](developing/data-layer/analytics-integration.md)
    + AEM-projectarchetype {#archetype}
       + [Overzicht van Archetype](developing/archetype/overview.md)
       + [Archetype gebruiken](developing/archetype/using.md)
