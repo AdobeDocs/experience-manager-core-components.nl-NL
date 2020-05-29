@@ -2,7 +2,10 @@
 title: Carousel-component
 description: Met de Carousel-component kan de auteur van de inhoud inhoud inhoud presenteren in een roterende carrousel.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '1112'
+ht-degree: 0%
 
 ---
 
@@ -23,9 +26,9 @@ De huidige versie van de Carousel-component is v1, die in oktober 2018 is geïnt
 
 In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
 
-| Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v1 | Compatibel | Compatibel | Compatibel | Compatibel |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v1 | Compatibel | Compatibel | Compatibel |
 
 Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
 
@@ -45,7 +48,7 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud dia&#39;s toevoegen, 
 
 ### Tabblad Items {#items-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.01.39.png)
+![Tabblad Items van het dialoogvenster Bewerken van de Carousel-component](/help/assets/carousel-edit-items.png)
 
 Gebruik de knop **Toevoegen** om de componentkiezer te openen en te kiezen welke component u als tab wilt toevoegen. Nadat een item is toegevoegd, wordt het toegevoegd aan de lijst met de volgende kolommen:
 
@@ -60,13 +63,17 @@ Gebruik de knop **Toevoegen** om de componentkiezer te openen en te kiezen welke
 
 ### Tabblad Eigenschappen {#properties-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.01.57.png)
+![Het tabblad Eigenschappen van het dialoogvenster Bewerken van de Carousel-component](/help/assets/carousel-edit-properties.png)
 
 Op het tabblad **Eigenschappen** kan de auteur van de inhoud de dia&#39;s instellen op een automatische overgang.
 
 * **Dia&#39;s** automatisch overschakelen - Als deze actief zijn, gaat de component na een opgegeven vertraging automatisch naar de volgende dia.
 * **Vertraging** overgang - Wanneer de dia&#39;s voor automatische overgang zijn geselecteerd, wordt deze waarde gebruikt om de vertraging tussen overgangen (in milliseconden) te bepalen.
 * **Automatisch pauzeren uitschakelen bij aanwijzen** - Als **Automatisch overgangsdia** is geselecteerd, wordt de carrouselovergang automatisch gepauzeerd wanneer de cursor boven de carrousel wordt geplaatst. Selecteer deze optie om de overgang niet te pauzeren.
+* **ID** - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de [gegevenslaag](/help/developing/data-layer/overview.md).
+   * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
+   * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
+   * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
 >[!NOTE]
 >
@@ -76,7 +83,7 @@ Op het tabblad **Eigenschappen** kan de auteur van de inhoud de dia&#39;s instel
 
 ### Tabblad Toegankelijkheid {#accessibility-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.02.22.png)
+![Het tabblad Toegankelijkheid van het dialoogvenster Bewerken van de Carousel-component](/help/assets/carousel-edit-accessibility.png)
 
 Op het tabblad **Toegankelijkheid** kunnen waarden worden ingesteld voor [ARIA-toegankelijkheidslabels](https://www.w3.org/WAI/standards-guidelines/aria/) voor de component.
 
@@ -86,14 +93,14 @@ Op het tabblad **Toegankelijkheid** kunnen waarden worden ingesteld voor [ARIA-t
 
 De auteur van de inhoud kan de optie Deelvenster **** selecteren op de componentwerkbalk gebruiken om over te schakelen op een andere dia die u kunt bewerken en om de volgorde van de dia&#39;s gemakkelijk te wijzigen.
 
-![](/help/assets/screenshot_2018-10-11at165417.png)
+![Pictogram van deelvenster Selecteren](/help/assets/select-panel-icon.png)
 
 Nadat u de optie Deelvenster **** selecteren op de componentwerkbalk hebt geselecteerd, worden de geconfigureerde dia&#39;s weergegeven als een vervolgkeuzelijst.
 
 * De lijst wordt geordend door de toegewezen rangschikking van de dia&#39;s en wordt weerspiegeld in de nummering.
 * Het componenttype van de dia wordt eerst weergegeven, gevolgd door de beschrijving van de dia in een lichter lettertype.
 
-![](/help/assets/opera_snapshot_2018-11-28141537localhost.png)
+![Deelvenster Selecteren](/help/assets/select-panel-popover.png)
 
 * Als u op een item in het vervolgkeuzemenu tikt of erop klikt, wordt de weergave in de editor naar die dia verplaatst.
 * U kunt de volgorde van de dia op de juiste plaats wijzigen door de sleepgrepen te gebruiken.
@@ -106,7 +113,7 @@ In het ontwerpdialoogvenster kan de sjabloonauteur definiëren welke componenten
 
 Het tabblad **Eigenschappen** wordt gebruikt om de standaardinstellingen voor de diaovergangen te definiëren wanneer de auteur van de inhoud de carrouselcomponent aan een pagina toevoegt.
 
-![](/help/assets/screenshot_2018-11-28at141824.png)
+![Dialoogvenster Ontwerpen van de Carousel-component](/help/assets/carousel-design.png)
 
 * **Automatische overgangsdia** &#39;s - Hiermee wordt gedefinieerd of de optie om de carrousel automatisch naar de volgende dia te verplaatsen standaard is ingeschakeld wanneer de auteur van de inhoud de carrouselcomponent aan een pagina toevoegt.
 * **Vertraging** overgang - Definieert de standaardwaarde van de overgangsvertraging tussen dia&#39;s (in milliseconden) wanneer de auteur van de inhoud de carrouselcomponent aan een pagina toevoegt.
