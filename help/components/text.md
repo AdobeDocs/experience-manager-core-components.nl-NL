@@ -2,7 +2,10 @@
 title: Tekstcomponent
 description: De component Text is een component voor tekstbewerking en -compositie met tekstopmaak die op locatie kan worden bewerkt.
 translation-type: tm+mt
-source-git-commit: 4df8e147fc9d0151c3a211473b067c78b807e52e
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '2202'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +28,7 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM-ve
 
 | Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|---|
-| v2 | Compatibel | Compatibel | Compatibel | Compatibel |
+| v2 | - | Compatibel | Compatibel | Compatibel |
 | [v1](v1/text-v1.md) | Compatibel | Compatibel | Compatibel | - |
 
 Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
@@ -54,11 +57,11 @@ De rest van dit artikel toont de standaardconfiguratie van de Component van de T
 
 Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak die de gebruiker zou verwachten bij het samenstellen van tekst.
 
-![](/help/assets/screen_shot_2018-01-11at143025.png)
+![Dialoogvenster voor bewerken van tekstcomponent](/help/assets/text-edit.png)
 
 ### Vet
 
-![](/help/assets/screen_shot_2018-01-11at125602.png)
+![Vet pictogram](/help/assets/text-bold.png)
 
 Wordt gebruikt om vette opmaak toe te passen op geselecteerde tekst of opgemaakte tekst die na de cursor wordt ingevoerd.
 
@@ -66,7 +69,7 @@ Wordt gebruikt om vette opmaak toe te passen op geselecteerde tekst of opgemaakt
 
 ### Cursief
 
-![](/help/assets/screen_shot_2018-01-11at125609.png)
+![Cursief pictogram](/help/assets/text-italic.png)
 
 Wordt gebruikt om cursieve opmaak toe te passen op geselecteerde tekst of om tekst die na de cursor wordt ingevoerd, cursief te maken.
 
@@ -74,7 +77,7 @@ Wordt gebruikt om cursieve opmaak toe te passen op geselecteerde tekst of om tek
 
 ### Onderstrepen
 
-![](/help/assets/screen_shot_2018-01-11at125615.png)
+![Pictogram Onderstrepen](/help/assets/text-underline.png)
 
 Wordt gebruikt om onderstreepte opmaak toe te passen op geselecteerde tekst of onderstreepte tekst die na de cursor wordt ingevoerd.
 
@@ -82,45 +85,46 @@ Wordt gebruikt om onderstreepte opmaak toe te passen op geselecteerde tekst of o
 
 ### Subscript
 
-![](/help/assets/screen_shot_2018-01-11at125703.png)
+![Subscript-pictogram](/help/assets/text-subscript.png)
 
 Wordt gebruikt om geselecteerde tekst of tekst die na de cursor is ingevoerd, op te maken als een subscript.
 
 ### Superscript
 
-![](/help/assets/screen_shot_2018-01-11at125708.png)
+![Pictogram Superscript](/help/assets/text-superscript.png)
 
 Wordt gebruikt om geselecteerde tekst of tekst die na de cursor is ingevoerd, op te maken als superscript.
 
 ### Plakken als tekst
 
-![](/help/assets/screen_shot_2018-01-11at125713.png)
+![Plakken als tekstpictogram](/help/assets/text-paste-text.png)
 
 Hiermee plakt u alle gekopieerde tekst als onbewerkte tekst zonder opmaak.
 
 Wanneer u deze optie selecteert, wordt een venster geopend waarin de tekst als onbewerkte tekst zonder opmaak kan worden geplakt als een voorvertoning voordat deze in de tekst wordt ingevoegd. Accepteren door te tikken of op het vinkje te klikken, annuleren door te tikken of op de x te klikken.
 
-![](/help/assets/screen_shot_2018-01-11at143234.png)
+![Plakken als tekstvoorbeeld](/help/assets/text-paste-text-example.png)
 
 ### Plakken vanuit Word
 
-![](/help/assets/screen_shot_2018-01-11at125717.png)
+![Plakken vanuit Word-pictogram](/help/assets/text-paste-word.png)
 
 Wanneer u deze optie selecteert, wordt een venster geopend waarin de tekst kan worden geplakt met behoud van de opmaak als voorvertoning voordat deze in de tekst wordt ingevoegd. Accepteren door te tikken of op het vinkje te klikken, annuleren door te tikken of op de x te klikken.
 
-![](/help/assets/screen_shot_2018-01-11at143250.png)
+![Voorbeeld van plakken in Word](/help/assets/text-paste-word-example.png)
 
 ### Hyperlink
 
-![](/help/assets/screen_shot_2018-01-11at125839.png)
+![Pictogram Hyperlink](/help/assets/text-hyperlink.png)
 
 Met deze optie kunt u de geselecteerde tekst omzetten in een hyperlink of een reeds gedefinieerde koppeling wijzigen. Deze optie is alleen actief als er al tekst is geselecteerd en er een venster wordt geopend met aanvullende opties voor het instellen van de koppeling.
 
-![](/help/assets/screen_shot_2018-01-11at130003.png)
+![Voorbeeld van hyperlink](/help/assets/text-hyperlink-example.png)
 
-* Voer de locatie in
+* Het pad invoeren
    * Kies een pad in AEM met het dialoogvenster Selectie openen
-   * Als de koppeling zich niet binnen AEM bevindt, voert u de absolute URL in (niet-absolute paden worden geïnterpreteerd als relatief ten opzichte van AEM)
+   * Als de koppeling zich niet binnen AEM bevindt, voert u de absolute URL in
+      * Niet-absolute paden worden geïnterpreteerd als relatief ten opzichte van AEM
 * Alternatieve beschrijvende tekst voor de koppeling invoeren
 * Koppelingsgedrag selecteren
    * Doel
@@ -132,71 +136,72 @@ Met deze optie kunt u de geselecteerde tekst omzetten in een hyperlink of een re
 
 ### Ontkoppelen
 
-![](/help/assets/screen_shot_2018-01-11at125901.png)
+![Pictogram Ontkoppelen](/help/assets/text-unlink.png)
 
 Gebruik deze optie om een koppeling te verwijderen die al op de geselecteerde tekst is toegepast. Deze optie is alleen actief als er al een koppeling is geselecteerd.
 
 ### Zoeken
 
-![](/help/assets/screen_shot_2018-01-11at125906.png)
+![Pictogram Zoeken](/help/assets/text-find.png)
 
 Met deze optie kunt u de tekst doorzoeken op een opgegeven tekstreeks. Als u deze optie selecteert, wordt een venster geopend waarin u de zoekopties kunt opgeven.
 
-![](/help/assets/screen_shot_2018-01-11at130107.png)
+![Voorbeeld van zoeken](/help/assets/text-find-example.png)
 
 Voer de tekst in waarvoor u wilt zoeken en tikken of klik op **Zoeken** om de zoekopdracht te starten. Tik of klik op de x om te annuleren.
 Als u een exacte overeenkomst wilt uitvoeren op basis van het hoofdlettergebruik, selecteert u de optie **Hoofdlettergebruik** afstemmen voordat u de zoekopdracht start.
 Als een overeenkomst wordt gevonden, wordt deze gemarkeerd en wordt het zoekdialoogvenster gedimd weergegeven. Tik of klik nogmaals op de knop **Zoeken** in het grijze dialoogvenster om naar de volgende instantie te zoeken.
 
-![](/help/assets/screen_shot_2018-01-11at130145.png)
+![Voorbeeld van zoeken gevonden](/help/assets/text-find-example-found.png)
 
 Als er geen andere exemplaren worden gevonden, wordt een bericht weergegeven en wordt de zoekopdracht opnieuw gestart vanaf het begin van de tekst.
 
-![](/help/assets/screen_shot_2018-01-11at130241.png)
+![Voorbeeld niet meer zoeken](/help/assets/text-find-example-found-end.png)
 
 ### Replace
 
-![](/help/assets/screen_shot_2018-01-11at125910.png)
+![Pictogram Vervangen](/help/assets/text-replace.png)
 
 Gebruik deze optie om de tekst te zoeken op instanties van een opgegeven tekenreeks en de overeenkomsten te vervangen door een andere tekenreeks. Als u deze optie selecteert, wordt een venster geopend waarin u de opties voor zoeken en vervangen kunt opgeven.
 
-![](/help/assets/screen_shot_2018-01-11at130441.png)
+![Voorbeeld vervangen](/help/assets/text-replace-example.png)
 
 Voer de tekst in waarnaar u wilt zoeken en de tekst waarmee u deze wilt vervangen.
 
-Tik of klik op **Zoeken** om te beginnen met zoeken. Klik of tik op de x om te annuleren.
-
-Als u een exacte overeenkomst wilt uitvoeren op basis van het hoofdlettergebruik, selecteert u de optie **Hoofdlettergebruik** afstemmen voordat u de zoekopdracht start.
+* Tik of klik op **Zoeken** om te beginnen met zoeken. Klik of tik op de x om te annuleren.
+* Als u een exacte overeenkomst wilt uitvoeren op basis van het hoofdlettergebruik, selecteert u de optie **Hoofdlettergebruik** afstemmen voordat u de zoekopdracht start.
+* Selecteer Alles **** vervangen om alle instanties van de tekst tegelijk te vervangen.
 
 Als een overeenkomst wordt gevonden, wordt deze gemarkeerd en wordt het zoekdialoogvenster gedimd weergegeven. Klik nogmaals op de knop **Zoeken** in het grijze dialoogvenster om naar de volgende instantie te zoeken of selecteer de knop **Vervangen** om de gemarkeerde, overeenkomende tekst te vervangen. De knop **Vervangen** is alleen actief nadat een overeenkomst is gemaakt.
 
-Selecteer Alles **** vervangen om alle instanties van de tekst tegelijk te vervangen.
-
-Wanneer u de vervangingsfunctie gebruikt, moet de te vervangen tekenreeks op hetzelfde moment worden ingevoerd als de zoektekenreeks. U kunt echter nog steeds op Zoeken klikken om de tekenreeks te zoeken voordat u deze vervangt. Als de vervangingstekenreeks wordt ingevoerd nadat op Zoeken is geklikt, wordt de zoekopdracht opnieuw ingesteld op het begin van de tekst.
-
 Het dialoogvenster Zoeken en vervangen wordt transparant wanneer op Zoeken wordt geklikt en wordt dekkend wanneer op Vervangen wordt geklikt. Hierdoor kan de auteur de tekst controleren die de auteur vervangt.
+
+>[!NOTE]
+>
+>Wanneer u de vervangingsfunctie gebruikt, moet de te vervangen tekenreeks op hetzelfde moment worden ingevoerd als de zoektekenreeks. U kunt echter nog steeds op Zoeken klikken om de tekenreeks te zoeken voordat u deze vervangt. Als de vervangingstekenreeks wordt ingevoerd nadat op Zoeken is geklikt, wordt de zoekopdracht opnieuw ingesteld op het begin van de tekst.
+
 
 ### Tekst links uitlijnen
 
-![](/help/assets/screen_shot_2018-01-11at142012.png)
+![Pictogram Links uitlijnen](/help/assets/text-left.png)
 
 Wordt gebruikt om de tekst uit te lijnen met de linkermarge.
 
 ### Tekst centreren
 
-![](/help/assets/screen_shot_2018-01-11at142017.png)
+![Pictogram Tekst centreren](/help/assets/text-center.png)
 
 Wordt gebruikt om de tekst te centreren.
 
 ### Tekst rechts uitlijnen
 
-![](/help/assets/screen_shot_2018-01-11at142021.png)
+![Pictogram rechts uitlijnen](/help/assets/text-right.png)
 
 Wordt gebruikt om de tekst uit te lijnen met de rechtermarge.
 
 ### Opsommingsteken
 
-![](/help/assets/screen_shot_2018-01-11at142025.png)
+![Pictogram opsommingsteken](/help/assets/text-bullet.png)
 
 Wordt gebruikt om de geselecteerde tekst op te maken als een lijst met opsommingstekens of om te beginnen met het invoegen van een lijst met opsommingstekens na de cursor.
 
@@ -204,7 +209,7 @@ Tik of klik nogmaals op de knop **Opsommingsteken** of voer twee regeleinden in 
 
 ### Genummerd
 
-![](/help/assets/screen_shot_2018-01-11at142030.png)
+![Pictogram Genummerde lijst](/help/assets/text-numbered.png)
 
 Hiermee maakt u de geselecteerde tekst op als een genummerde lijst of begint u met het invoegen van een genummerde lijst na de cursor.
 
@@ -212,7 +217,7 @@ Tik of klik nogmaals op de knop **Genummerd** of voer twee regeleinden in om een
 
 ### Uitspringen
 
-![](/help/assets/screen_shot_2018-01-11at141917.png)
+![Pictogram Uitspringen](/help/assets/text-outdent.png)
 
 Wordt gebruikt om het inspringingsniveau te verlagen van de geselecteerde tekst of tekst die na de cursor wordt ingevoerd.
 
@@ -220,35 +225,35 @@ Alleen actief als de geselecteerde tekst of positie van de cursor al is ingespro
 
 ### Inspringen
 
-![](/help/assets/screen_shot_2018-01-11at141922.png)
+![Pictogram Inspringen](/help/assets/text-outdent.png)
 
 Wordt gebruikt om het inspringingsniveau te verhogen van de geselecteerde tekst of tekst die na de cursor wordt ingevoerd.
 
 ### Tabel
 
-![](/help/assets/screen_shot_2018-01-11at141928.png)
+![Tabelpictogram](/help/assets/text-table.png)
 
 Wordt gebruikt om een tabel in de tekst in te voegen. Als u deze optie selecteert, wordt een venster geopend waarin u de details van de tabel kunt opgeven.
 
-![](/help/assets/screen_shot_2018-01-11at142405.png)
+![Tabelvoorbeeld](/help/assets/text-table-example.png)
 
-* **Kolommen** Het aantal kolommen van de tabel (vereist)
-* **Rijen** Het aantal rijen van de tabel (vereist)
-* **Breedte** De breedte van de tabel
-* **Hoogte** De hoogte van de tabel
-* **Celopvulling** van cellen De ruimte rondom de celinhoud
-* **Celafstand** De ruimte tussen cellen
-* **Rand** Het gewicht van de randlijnen van de tabel
-* Indien voor de koptekst van de tabel:
-   * De eerste rij moet worden gebruikt
-   * De eerste kolom moet worden gebruikt
-   * De eerste rij en de eerste kolom moeten worden gebruikt
-   * Of er moet geen header worden gebruikt.
-* **Bijschrift** Het bijschrift van de tabel
+* **Kolommen** - Het aantal kolommen van de tabel (vereist)
+* **Rijen** - Het aantal rijen van de tabel (vereist)
+* **Breedte** - De breedte van de tabel
+* **Hoogte** - De hoogte van de tabel
+* **Celopvulling** : de ruimte rondom de celinhoud
+* **Celafstand** - De ruimte tussen cellen
+* **Rand** - Het gewicht van de randlijnen van de tabel
+   * Indien voor de koptekst van de tabel:
+      * De eerste rij moet worden gebruikt
+      * De eerste kolom moet worden gebruikt
+      * De eerste rij en de eerste kolom moeten worden gebruikt
+      * Of er moet geen header worden gebruikt.
+* **Bijschrift** - Het bijschrift van de tabel
 
 ### Spellingcontrole
 
-![](/help/assets/screen_shot_2018-01-11at141935.png)
+![Spellingpictogram controleren](/help/assets/text-spellcheck.png)
 
 Wordt gebruikt om de spelling van de tekstinhoud te controleren. Mogelijke spelfouten worden onderstreept met gebroken, rode lijnen.
 
@@ -256,17 +261,17 @@ Meer informatie over spellingcontrole en het aanpassen van de woordenboeken van 
 
 ### Speciale tekens {#special-characters}
 
-![](/help/assets/screen_shot_2018-01-11at142600.png)
+![Pictogram Speciale tekens](/help/assets/text-special-characters.png)
 
 Wordt gebruikt om speciale tekens in te voegen in de tekst. Als u deze optie selecteert, wordt een venster geopend waarin de beschikbare tekens worden weergegeven.
 
-![](/help/assets/screen_shot_2018-01-11at142635.png)
+![Voorbeeld van speciale tekens](/help/assets/text-special-characters-example.png)
 
 Tik op het gewenste teken of klik op het gewenste teken om het teken na de cursor in te voegen in de tekst. U kunt meerdere tekens invoegen. Tik of klik op de x om het selectievenster te sluiten.
 
 ### Bron bewerken
 
-![](/help/assets/screen_shot_2018-01-11at142746.png)
+![Pictogram Bron bewerken](/help/assets/text-source.png)
 
 Wordt gebruikt om de HTML-bron van de tekst weer te geven en te wijzigen.
 
@@ -284,15 +289,25 @@ Tik of klik op het pictogram **Bron bewerken** om de inhoud van de tekst in de o
 
 ### Alineaopmaak
 
-![](/help/assets/screen_shot_2018-01-11at142752.png)
+![Pictogram Alineaopmaak](/help/assets/text-paragraph.png)
 
 Wordt gebruikt om alineaopmaak toe te passen op de geselecteerde tekst of op tekst die na de cursor wordt ingevoegd. Als u deze optie selecteert, wordt een vervolgkeuzelijst geopend waarin de alineaopmaak wordt geselecteerd.
 
-![](/help/assets/screen_shot_2018-01-11at142828.png)
+![Voorbeeld van alineaopmaak](/help/assets/text-paragraph-example.png)
+
+### In-line bewerking {#in-line-editing}
 
 De tekstcomponent kan ook in regels worden bewerkt, maar vanwege ruimtebeperkingen zijn niet alle opmaakopties in regels beschikbaar. Schakel over naar de modus Volledig scherm om alle opties weer te geven.
 
-![](/help/assets/screen_shot_2018-01-11at142921.png)
+![Voorbeeld van inline bewerken](/help/assets/text-edit-inline-example.png)
+
+### Instellen en id {#setting-id}
+
+Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de [gegevenslaag](/help/developing/data-layer/overview.md).
+
+* Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
+* Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
+* Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -304,7 +319,7 @@ Het tabblad Insteekmodules wordt gebruikt om verschillende tekstopmaakopties die
 
 ### Features {#features}
 
-![](/help/assets/chlimage_1-28.png)
+![Dialoogvenster Ontwerpen](/help/assets/text-design-features.png)
 
 De volgende functies kunnen voor de component worden geactiveerd of gedeactiveerd.
 
@@ -312,24 +327,25 @@ De volgende functies kunnen voor de component worden geactiveerd of gedeactiveer
 * Plakken van woord
 * Zoeken en vervangen
 * Spellingcontrole
-* Bronbewerking
+* Opties voor het wijzigen van ingevoegde afbeeldingen
+* HTML-bronbewerking
 
 ### Opmaak {#formatting}
 
-![](/help/assets/chlimage_1-29.png)
+![Opmaak van dialoogvenster Ontwerp](/help/assets/text-design-formatting.png)
 
 De volgende opmaakopties kunnen voor de component worden geactiveerd of gedeactiveerd.
 
 * Tabel
-* Lijsten
-* Uitlijning
+* Lijsten (opsommingsteken, nummer, inspringing, inspringing)
+* Uitlijning (links, rechts, gecentreerd)
 * Vet, cursief, onderstrepen
-* Koppelingen
+* Koppelen (en ontkoppelen)
 * Subscript/superscript
 
 ### Alineastijlen {#paragraph-styles}
 
-![](/help/assets/chlimage_1-30.png)
+![Alineastijlen in het dialoogvenster Ontwerpen](/help/assets/text-design-paragraph.png)
 
 Alineastijlen kunnen voor de component worden geactiveerd of gedeactiveerd. Als deze optie is geactiveerd, kunnen de toegestane indelingen worden gedefinieerd.
 
@@ -338,9 +354,9 @@ Alineastijlen kunnen voor de component worden geactiveerd of gedeactiveerd. Als 
 * Als u een stijltik wilt verwijderen of op de knop **Verwijderen** wilt klikken.
 * Tik of klik op de handgrepen om de volgorde van de indelingen te wijzigen.
 
-### Speciale tekens configureren {#configuring-special-characters}
+### Speciale tekens {#configuring-special-characters}
 
-![](/help/assets/chlimage_1-31.png)
+![Speciale tekens in het dialoogvenster Ontwerpen](/help/assets/text-design-special-characters.png)
 
 De optie voor het invoegen van speciale tekens kan voor de component worden geactiveerd of gedeactiveerd. Als deze optie is geactiveerd, kunnen de toegestane tekens worden gedefinieerd.
 
