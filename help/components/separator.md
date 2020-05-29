@@ -2,7 +2,10 @@
 title: Scheidingscomponent
 description: De component separator maakt een einde tussen componenten op een pagina
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '304'
+ht-degree: 2%
 
 ---
 
@@ -21,9 +24,9 @@ De huidige versie van de Scheidingscomponent is v1, die in februari 2019 met ver
 
 In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
 
-| Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|---|
-| v1 | Compatibel | Compatibel | Compatibel | Compatibel |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Compatibel | Compatibel | Compatibel |
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
@@ -37,7 +40,12 @@ Meer details over het ontwikkelen van de Componenten van de Kern kunnen in de de
 
 ## Dialoogvenster configureren {#configure-dialog}
 
-De component van de Scheiding heeft geen Configure dialoog.
+![Dialoogvenster voor bewerken van scheidingscomponent](/help/assets/separator-edit.png)
+
+* **ID** - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de [gegevenslaag](/help/developing/data-layer/overview.md).
+   * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
+   * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
+   * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
