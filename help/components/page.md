@@ -2,7 +2,10 @@
 title: Pagina-component
 description: De component Pagina is een uitbreidbare paginacomponent die wordt ontworpen om met de malplaatjeredacteur te werken en paginakopbal/footer en structuurcomponenten toe te laten om met de malplaatjedacteur worden samengesteld.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '666'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +28,7 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM-ve
 
 | Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|---|
-| v2 | Compatibel | Compatibel | Compatibel | Compatibel |
+| v2 | - | Compatibel | Compatibel | Compatibel |
 | [v1](v1/page-v1.md) | Compatibel | Compatibel | Compatibel | - |
 
 Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
@@ -33,14 +36,6 @@ Zie het document [Core Components Versions](/help/versions.md)voor meer informat
 >[!NOTE]
 >
 >Om omleiding op `cq:Page` niveau voor versie 2 van de paginacomponent en AEM 6.3 toe te laten, wordt de [dienstpak 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp2-release-notes.html) of later vereist. Een dergelijke omleiding was niet beschikbaar in eerdere releases.
-
-## Uitvoer van voorbeeldcomponent {#sample-component-output}
-
-Hier volgt een voorbeeld van [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
-
-### Schermafbeelding {#screenshot}
-
-![](/help/assets/chlimage_1.png)
 
 ### Technische details {#technical-details}
 
@@ -56,7 +51,7 @@ Omdat de component de gehele pagina vertegenwoordigt, worden instellingen die no
 
 Omdat de component de gehele pagina vertegenwoordigt, is het dialoogvenster Ontwerpen toegankelijk via **Pagina-informatie -> Paginabeleid** bij het bewerken van de paginasjabloon.
 
-![](/help/assets/screen_shot_2018-04-03at113410.png)
+![Paginabeleid](/help/assets/page-policy.png)
 
 >[!NOTE]
 >
@@ -66,14 +61,16 @@ Omdat de component de gehele pagina vertegenwoordigt, is het dialoogvenster Ontw
 
 Met behulp van het venster Paginaontwerp kunt u de te laden clientbibliotheken en de bibliotheek met webbronnen voor de pagina definiëren.
 
-* **Clientbibliotheken** Hiermee worden de categorieën in de clientbibliotheek gedefinieerd die moeten worden geladen. JavaScript wordt toegevoegd aan het hoofdgedeelte en de CSS wordt toegevoegd aan de paginakop.
-* **JavaScript-paginakop** van clientbibliothekenDit definieert de JavaScript-clientbibliotheekcategorieën die in de paginakop moeten worden geladen.
+* **Clientbibliotheken** - Hiermee worden de categorieën in de clientbibliotheek gedefinieerd die moeten worden geladen. JavaScript wordt toegevoegd aan het hoofdgedeelte en de CSS wordt toegevoegd aan de paginakop.
+* **JavaScript-paginakop** Client-bibliotheken - Hiermee worden de JavaScript-clientbibliotheekcategorieën gedefinieerd die in de paginakop moeten worden geladen.
    * Voor de categorieën die hier worden gedefinieerd en die ook voorkomen in het veld **Clientbibliotheken** , wordt JavaScript geladen in de paginakop in plaats van aan het body-einde.
    * CSS wordt alleen geladen als de categorie ook aanwezig is in het veld **Clientbibliotheken** .
 
-* **De Bibliotheek** van de Cliënt van Middelen van het Web de categorie van de cliëntbibliotheek die wordt gebruikt om Webmiddelen zoals favicons te dienen.
+* **De Bibliotheek** van de Cliënt van Middelen van het Web - de categorie van de cliëntbibliotheek die wordt gebruikt om Webmiddelen zoals favicons te dienen.
 
-![](/help/assets/screenshot_2018-10-19at104949.png)
+* **Overslaan naar de kiezer** voor het element met de hoofdinhoud - Wordt gebruikt als toegankelijkheidsfunctie om rechtstreeks naar de hoofdinhoud van de pagina over te slaan
+
+![Dialoogvenster Pagina-componentontwerp](/help/assets/page-design.png)
 
 Bibliotheken kunnen als volgt worden geconfigureerd voor zowel de velden **Clientbibliotheken** als JavaScript-paginakoppen **van** Client-bibliotheken:
 
