@@ -2,7 +2,10 @@
 title: Component Snel zoeken
 description: De component Snel zoeken biedt zoekmogelijkheden voor een website en biedt zoekresultaten zodat bezoekers de site kunnen doorzoeken en de resultaten kunnen filteren.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 1%
 
 ---
 
@@ -23,55 +26,11 @@ De huidige versie van de Snelle component van het Onderzoek is v1, die met versi
 
 In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
 
-| Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v1 | Compatibel | Compatibel | Compatibel | Compatibel |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v1 | Compatibel | Compatibel | Compatibel |
 
 Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
-
-## Uitvoer van voorbeeldcomponent {#sample-component-output}
-
-Hier volgt een voorbeeld van [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
-
-### Schermafbeelding {#screenshot}
-
-![](/help/assets/screen_shot_2018-01-19at094248.png)
-
-### HTML {#html}
-
-```
-<section class="cmp-search" role="search" data-cmp-is="search" data-cmp-min-length="3" data-cmp-results-size="10">
-    <form class="cmp-search__form" data-cmp-hook-search="form" method="get" action="/content/we-retail/us/en/equipment.searchresults.json/_jcr_content/root/responsivegrid/search" autocomplete="off">
-        <div class="cmp-search__field">
-            <i class="cmp-search__icon" data-cmp-hook-search="icon"></i>
-            <span class="cmp-search__loading-indicator" data-cmp-hook-search="loadingIndicator"></span>
-            <input class="cmp-search__input" data-cmp-hook-search="input" type="text" name="fulltext" placeholder="Search" role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-invalid="false">
-            <button class="cmp-search__clear" data-cmp-hook-search="clear">
-                <i class="cmp-search__clear-icon"></i>
-            </button>
-        </div>
-    </form>
-    <div class="cmp-search__results" data-cmp-hook-search="results" role="listbox" aria-multiselectable="false"></div>
-    
-<script data-cmp-hook-search="itemTemplate" type="x-template">
-    <a class="cmp-search__item" data-cmp-hook-search="item">
-        <span class="cmp-search__item-title" data-cmp-hook-search="itemTitle"></span>
-    </a>
-</script>
-</section>
-```
-
-### JSON {#json}
-
-```
-"search":{  
-                     "columnClassNames":"aem-GridColumn aem-GridColumn--default--12",
-                     "relativePath":"/jcr:content/root/responsivegrid/search",
-                     "resultsSize":10,
-                     "searchTermMinimumLength":3,
-                     ":type":"core/wcm/components/search/v1/search"
-                  }
-```
 
 ### Technische details {#technical-details}
 
@@ -87,9 +46,13 @@ Meer details over het ontwikkelen van de Componenten van de Kern kunnen in de de
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud definiëren waar in de inhoudsstructuur de zoekopdracht moet beginnen.
 
-![](/help/assets/screen_shot_2018-04-03at120132.png)
+![Dialoogvenster Snel zoeken in component bewerken](/help/assets/quick-search-edit.png)
 
 **Hoofdmap** zoeken - De hoofdpagina vanaf waar de zoekopdracht moet worden gestart. De hoofdmap van de zoekopdracht kan een standaardpagina of een hoofdstramien voor de blauwdruk zijn.
+* **ID** - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de [gegevenslaag](/help/developing/data-layer/overview.md).
+   * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
+   * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
+   * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -97,7 +60,7 @@ Met behulp van het ontwerpdialoogvenster kan de sjabloonauteur de standaardwaard
 
 ### Tabblad Eigenschappen {#properties-tab}
 
-![](/help/assets/screen_shot_2018-04-03at120028.png)
+![Het ontwerpdialoogvenster van de component Snel zoeken](/help/assets/quick-search-design.png)
 
 * **Hoofdmap** zoeken De standaardwaarde van de zoekhoofdmap wanneer een auteur van inhoud de component Snel zoeken op een inhoudspagina plaatst
 * **Grootte** van resultaten Het maximum aantal resultaten dat door een onderzoeksverzoek wordt gehaald
