@@ -2,7 +2,10 @@
 title: Component Button
 description: Met de component Knop Core-component kunt u een knop maken en weergeven.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 1%
 
 ---
 
@@ -24,9 +27,9 @@ De huidige versie van de component Button is v1, die in juni 2019 is geïntroduc
 
 In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
 
-| Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | Compatibel | Compatibel | Compatibel | Compatibel |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| v1 | Compatibel | Compatibel | Compatibel |
 
 Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
 
@@ -46,16 +49,20 @@ In het dialoogvenster Configureren kan de auteur van de inhoud de knop definiër
 
 ### Tabblad Eigenschappen {#properties-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.19.32.png)
+![Het tabblad Eigenschappen van het dialoogvenster Bewerken van component Button](/help/assets/button-edit-properties.png)
 
 * **Tekst** - De tekst die op de knop moet worden weergegeven
 * **Koppeling** - Koppeling maken naar een inhoudspagina in AEM, een externe bron of een anker
    * Kies in het dialoogvenster **** Selectie een pad in AEM.
 * **Pictogram** - Id voor weergave van een pictogram in de knop
+* **ID** - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de [gegevenslaag](/help/developing/data-layer/overview.md).
+   * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
+   * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
+   * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
 ### Tabblad Toegankelijkheid {#accessibility-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.19.43.png)
+![Toegankelijkheid, tabblad van het dialoogvenster Bewerken van component Button](/help/assets/button-edit-accessibility.png)
 
 Op het tabblad **Toegankelijkheid** kunnen waarden worden ingesteld voor [ARIA-toegankelijkheidslabels](https://www.w3.org/WAI/standards-guidelines/aria/) voor de component.
 
