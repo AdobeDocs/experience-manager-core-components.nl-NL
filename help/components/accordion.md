@@ -2,7 +2,10 @@
 title: Accordion-component
 description: Met de component Core Component Accordion kunt u een verzameling deelvensters maken die zijn gerangschikt in een accordeon op een pagina.
 translation-type: tm+mt
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '1051'
+ht-degree: 1%
 
 ---
 
@@ -19,15 +22,29 @@ Met de component Core Component Accordion kunt u een verzameling componenten mak
 * De volgorde van de deelvensters van de accordeon kan worden gedefinieerd in het dialoogvenster Configureren en in de pop-up [van het deelvenster](#select-panel-popover)Selecteren.
 * De standaardinstellingen voor de component Accordion wanneer deze aan een pagina wordt toegevoegd, kunnen worden gedefinieerd in het [ontwerpdialoogvenster](#design-dialog).
 
+## Diep koppelen aan een deelvenster {#deep-linking}
+
+De componenten [Accordion en](tabs.md) Tabs ondersteunen het rechtstreeks koppelen naar een deelvenster binnen de component.
+
+Dit doet u als volgt:
+
+1. Bekijk de pagina met de component gebruikend de **[Mening als Gepubliceerde](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)**optie in de paginaredacteur.
+1. Controleer de inhoud van de pagina en identificeer de id van het deelvenster.
+   * Bijvoorbeeld `id="accordion-86196c94d3-item-ca319dbb0b"`
+1. De id wordt het anker dat u met een hash (`#`) aan de URL kunt toevoegen.
+   * Bijvoorbeeld `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
+
+Wanneer u met de deelvenster-id als anker naar de URL navigeert, schuift de browser rechtstreeks naar de desbetreffende component en geeft deze het opgegeven deelvenster weer. Als het deelvenster is geconfigureerd om niet standaard te worden uitgevouwen, wordt het automatisch uitgevouwen.
+
 ## Versie en compatibiliteit {#version-and-compatibility}
 
 De huidige versie van de Accordion Component is v1, die in juni 2019 met versie 2.5.0 van de Core Components is geïntroduceerd en in dit document wordt beschreven.
 
 In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
 
-| Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | Compatibel | Compatibel | Compatibel | Compatibel |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| v1 | Compatibel | Compatibel | Compatibel |
 
 Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
 
@@ -47,7 +64,7 @@ In het dialoogvenster Configureren kan de auteur van de inhoud het accordeonitem
 
 ### Tabblad Items {#items-tab}
 
-![](/help/assets/screen-shot-2019-06-21-08.26.38.png)
+![Tabblad Items van dialoogvenster Bewerken van accordeoncomponent](/help/assets/accordion-edit-items.png)
 
 Gebruik de knop **Toevoegen** om de componentkiezer te openen en te kiezen welke component u als deelvenster wilt toevoegen. Nadat een item is toegevoegd, wordt het toegevoegd aan de lijst met de volgende kolommen:
 
@@ -62,22 +79,26 @@ Gebruik de knop **Toevoegen** om de componentkiezer te openen en te kiezen welke
 
 ### Tabblad Eigenschappen {#properties-tab}
 
-![](/help/assets/screen-shot-2019-06-21-08.26.53.png)
+![Het tabblad Eigenschappen van het dialoogvenster Bewerken van de accordeoncomponent](/help/assets/accordion-edit-properties.png)
 
 * **Eén item uitbreiden** - Als deze optie is geselecteerd, wordt één accordeonitem tegelijkertijd uitgebreid. Als u één item uitvouwt, worden alle andere items samengevouwen.
 * **Uitgebreide items** - Met deze optie worden de items gedefinieerd die standaard worden uitgevouwen wanneer de pagina wordt geladen.
    * Als **Eén item is uitgevouwen** , moet er één deelvenster zijn geselecteerd. Standaard is het eerste deelvenster geselecteerd.
    * Als **Eén item niet is uitgevouwen** , is deze optie een meervoudige selectie en optioneel.
+* **ID** - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de [gegevenslaag](/help/developing/data-layer/overview.md).
+   * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
+   * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
+   * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
 ## Pop-upmenu van deelvenster selecteren {#select-panel-popover}
 
 De auteur van de inhoud kan de optie Deelvenster **** selecteren op de werkbalk van de component gebruiken om de volgorde van de deelvensters in de accordeon te wijzigen en deze te bewerken.
 
-![](/help/assets/screen-shot-2019-06-21-08.49.36.png)
+![Pictogram van deelvenster Selecteren](/help/assets/select-panel-icon.png)
 
 Nadat u de optie Deelvenster **** selecteren op de componentwerkbalk hebt geselecteerd, worden de geconfigureerde accordeondeelvensters weergegeven als een vervolgkeuzelijst.
 
-![](/help/assets/screen-shot-2019-06-21-08.52.14.png)
+![Pop-upmenu van deelvenster selecteren](/help/assets/select-panel-popover.png)
 
 * De lijst wordt geordend door de toegewezen rangschikking van de deelvensters en wordt weergegeven in de nummering.
 * Het componenttype van het deelvenster wordt eerst weergegeven, gevolgd door de beschrijving van het deelvenster in lichtere lettertypen.
@@ -90,7 +111,7 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur de opties definiëren die 
 
 ### Tabblad Eigenschappen {#properties-tab-design}
 
-![](/help/assets/screen-shot-2019-06-21-08.58.11.png)
+![Dialoogvenster Ontwerp, tabblad](/help/assets/accordion-design-properties.png)
 
 * **Toegestane kopelementen** - Deze meerkeuzekeuzelijst definieert de HTML-elementen van de koptekst van de accordeon-item die door een auteur mogen worden geselecteerd.
 * **Standaardkopelement** - Deze vervolgkeuzelijst definieert het standaard HTML-element voor de kop van accordeonitems.
