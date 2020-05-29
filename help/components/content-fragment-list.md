@@ -2,7 +2,10 @@
 title: Component lijst met inhoudsfragmenten
 description: Met de component Lijst met inhoudfragmenten van de kerncomponent kunt u een lijst met inhoudsfragmenten weergeven.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '762'
+ht-degree: 0%
 
 ---
 
@@ -24,9 +27,9 @@ De huidige versie van de Content Fragment Component is v1, die in mei 2019 is ge
 
 In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
 
-| Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | Compatibel | Compatibel | Compatibel | Compatibel |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| v1 | Compatibel | Compatibel | Compatibel |
 
 Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
 
@@ -48,7 +51,7 @@ In het dialoogvenster voor configureren kan de auteur van de inhoud definiëren 
 
 Op het tabblad **Eigenschappen** wordt gedefinieerd welke inhoudsfragmenten in de lijst worden opgenomen. Dit is voornamelijk gebaseerd op een geselecteerd inhoudsfragmentmodel, maar er zijn andere filteropties beschikbaar.
 
-![](/help/assets/screen-shot-2019-09-25-10.32.10.png)
+![Het tabblad Eigenschappen van het dialoogvenster Bewerken van de component Lijst met inhoudsfragmenten](/help/assets/content-fragment-list-properties.png)
 
 * **Model** - Pad naar het model van het inhoudsfragment waarop de lijst is gebaseerd.
    * Standaard worden alle inhoudsfragmenten van het model dat is gedefinieerd als **modelpad** , opgenomen in de lijst.
@@ -64,6 +67,10 @@ Op het tabblad **Eigenschappen** wordt gedefinieerd welke inhoudsfragmenten in d
    * Oplopend of aflopend
 * **Max. items** - Maximum aantal items dat in de lijst moet worden weergegeven
    * Geen waarde retourneert alle items.
+* **ID** - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de [gegevenslaag](/help/developing/data-layer/overview.md).
+   * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
+   * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
+   * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
 >[!NOTE]
 >De opties **Volgorde door**, **Sorteervolgorde** en **Max. items** zijn geïntroduceerd met versie 2.7.0 van de Core Components.
@@ -72,7 +79,7 @@ Op het tabblad **Eigenschappen** wordt gedefinieerd welke inhoudsfragmenten in d
 
 Standaard worden alle elementen van het inhoudsfragmentmodel opgenomen in de lijst (tenzij deze worden beperkt door het veld **Max. items** ). Op het tabblad **Elements** kunt u alleen specifieke elementen opgeven die u wilt opnemen.
 
-![](/help/assets/screen-shot-2019-05-08-10.47.34.png)
+![Het tabblad Elementen van het dialoogvenster Bewerken van de component Lijst met inhoudsfragmenten](/help/assets/content-fragment-list-elements.png)
 
 * **Elementen** - Alleen de elementen van de inhoudsfragmenten in de opgegeven lijst worden weergegeven.
    * Klik op de knop **Toevoegen** of tik erop om een nieuw element toe te voegen.
