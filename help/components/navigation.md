@@ -2,7 +2,10 @@
 title: Navigatie-component
 description: Met de navigatiecomponent kunnen gebruikers gemakkelijk door een geglobaliseerde sitestructuur navigeren.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '1369'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +35,7 @@ Laten we zeggen dat de inhoud er zo uitziet:
 
 ```
 /content
-+-- we-retail
++-- wknd
    +-- language-masters
       +-- de
          \-- experience
@@ -58,13 +61,13 @@ Laten we zeggen dat de inhoud er zo uitziet:
 \-- wknd-shop
 ```
 
-Voor de plaats wij.Retail, zou u waarschijnlijk de Component van de Navigatie op een paginamalplaatje als deel van de kopbal willen plaatsen. Als een onderdeel van de sjabloon is gemaakt, kunt u de **navigatieroot** van de component instellen op `/content/we-retail/language-masters/en` aangezien dat het begin is van de hoofdinhoud van die site. U zou misschien ook de diepte **van de** Navigatiestructuur willen plaatsen om te zijn `2` aangezien u waarschijnlijk niet de volledige inhoudsboom door de component, maar eerder de eerste twee niveaus wilt worden getoond zodat het als overzicht dient.
+Voor de plaats wij.Retail, zou u waarschijnlijk de Component van de Navigatie op een paginamalplaatje als deel van de kopbal willen plaatsen. Als een onderdeel van de sjabloon is gemaakt, kunt u de **navigatieroot** van de component instellen op `/content/wknd/language-masters/en` aangezien dat het begin is van de hoofdinhoud van die site. U zou misschien ook de diepte **van de** Navigatiestructuur willen plaatsen om te zijn `2` aangezien u waarschijnlijk niet de volledige inhoudsboom door de component, maar eerder de eerste twee niveaus wilt worden getoond zodat het als overzicht dient.
 
-Met de waarde van de **Basis** van de Navigatie, weet de Component van de Navigatie dat na `/content/we-retail/language-masters/en` dat de navigatie begint en het navigatieopties kan produceren door de structuur van de plaats twee niveaus neer (zoals die door de waarde van de Diepte **van de Structuur van de** Navigatie wordt bepaald) te recurseren.
+Met de waarde van de **Basis** van de Navigatie, weet de Component van de Navigatie dat na `/content/wknd/language-masters/en` dat de navigatie begint en het navigatieopties kan produceren door de structuur van de plaats twee niveaus neer (zoals die door de waarde van de Diepte **van de Structuur van de** Navigatie wordt bepaald) te recurseren.
 
 Ongeacht welke gelokaliseerde pagina een gebruiker bekijkt, kan de component van de Navigatie de overeenkomstige gelokaliseerde pagina vinden door de plaats van de huidige pagina te kennen, achterwaarts te werken aan de wortel, en dan door:sturen aan de overeenkomstige pagina.
 
-Dus als een bezoeker `/content/ch/de/experience/arctic-surfing-in-lofoten`de navigatie bekijkt, weet de component dat hij de navigatiestructuur moet genereren op basis van `/content/we-retail/language-masters/de`. Op dezelfde manier als de bezoeker `/content/us/en/experience/arctic-surfing-in-lofoten`de navigatiestructuur bekijkt, kan de component de navigatiestructuur genereren op basis van `/content/we-retail/language-masters/en`.
+Dus als een bezoeker `/content/ch/de/experience/arctic-surfing-in-lofoten`de navigatie bekijkt, weet de component dat hij de navigatiestructuur moet genereren op basis van `/content/wknd/language-masters/de`. Op dezelfde manier als de bezoeker `/content/us/en/experience/arctic-surfing-in-lofoten`de navigatiestructuur bekijkt, kan de component de navigatiestructuur genereren op basis van `/content/wknd/language-masters/en`.
 
 ## Ondersteuning voor schaduwsitestructuur {#shadow-structure}
 
@@ -91,9 +94,9 @@ De huidige versie van de Navigation Component is v1, die in januari 2018 is geï
 
 In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
 
-| Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v1 | Compatibel | Compatibel | Compatibel | Compatibel |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v1 | Compatibel | Compatibel | Compatibel |
 
 Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
 
@@ -117,7 +120,7 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud de basispagina voor n
 
 ### Tabblad Eigenschappen {#properties-tab}
 
-![](/help/assets/screen-shot-2019-12-04at12.50.51.png)
+![Eigenschappen tabblad van dialoogvenster Bewerken van navigatiecomponent](/help/assets/navigation-edit-properties.png)
 
 * **Navigation Root** - De hoofdpagina, die wordt gebruikt om de boomstructuur te genereren.
 * **Exclusief basisniveaus** - vaak moet de hoofdmap niet worden opgenomen in de navigatie. Met deze optie kunt u opgeven hoeveel niveaus boven het basisniveau u wilt uitsluiten. Bijvoorbeeld:
@@ -127,10 +130,15 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud de basispagina voor n
    * enz.
 * **Alle onderliggende pagina&#39;s** verzamelen - Alle pagina&#39;s die onderliggende waarden zijn van de basisnavigatie verzamelen.
 * **Navigatiestructuurdiepte** - Hiermee wordt gedefinieerd hoeveel niveaus onder de navigatiestructuur de component moet weergeven ten opzichte van de basisnavigatie (alleen beschikbaar als **Alle onderliggende pagina** &#39;s verzamelen niet is geselecteerd).
+* **Schaduwen** uitschakelen - Als de pagina in de hiërarchie een omleiding is, wordt de naam van de omleidingspagina weergegeven in plaats van het doel. Zie Ondersteuning [van](#shadow-structure) schaduwsitestructuren voor meer informatie.
+* **ID** - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de [gegevenslaag](/help/developing/data-layer/overview.md).
+   * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
+   * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
+   * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
 ### Tabblad Toegankelijkheid {#accessibility-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.23.53.png)
+![Toegankelijkheidstabblad van dialoogvenster Navigatiecomponent bewerken](/help/assets/navigation-edit-accessibility.png)
 
 Op het tabblad **Toegankelijkheid** kunnen waarden worden ingesteld voor [ARIA-toegankelijkheidslabels](https://www.w3.org/WAI/standards-guidelines/aria/) voor de component.
 
@@ -142,7 +150,7 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur de standaardwaarden instel
 
 ### Tabblad Eigenschappen {#properties-tab-design}
 
-![](/help/assets/screen-shot-2019-12-04at12.53.32.png)
+![Ontwerpdialoogvenster van navigatiecomponent](/help/assets/navigation-design.png)
 
 * **Navigation Root** - De standaardwaarde van de basispagina van de navigatiestructuur, die wordt gebruikt om de navigatiestructuur te genereren en die standaard wordt ingesteld wanneer de auteur van de inhoud de component aan de pagina toevoegt.
 * **Exclusief basisniveaus** - vaak moet de hoofdmap niet worden opgenomen in de navigatie. Met deze optie kunt u de standaardinstelling opgeven voor hoeveel niveaus boven het basisniveau u wilt uitsluiten. Bijvoorbeeld:
@@ -152,6 +160,7 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur de standaardwaarden instel
    * enz.
 * **Alle onderliggende pagina&#39;s** verzamelen - De standaardwaarde van de optie om alle pagina&#39;s te verzamelen die afstammen van de basisnavigatie.
 * **Navigatiestructuurdiepte** - De standaardwaarde van de diepte van de navigatiestructuur.
+* **Schaduwen** uitschakelen - De standaardwaarde als schaduwen moet worden uitgeschakeld bij het toevoegen van een navigatiecomponent
 
 ### Tabblad Stijlen {#styles-tab}
 
