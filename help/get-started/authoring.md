@@ -2,7 +2,10 @@
 title: Ontwerpen met kerncomponenten
 description: In AEM, zijn de componenten de structurele elementen die de inhoud van de pagina's vormen die - de Componenten van de Kern bieden flexibele en eigenschap-rijke auteursfunctionaliteit aan.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 4281f6421482682f603f6a7f5e18df61f9a6d98c
+workflow-type: tm+mt
+source-wordcount: '778'
+ht-degree: 0%
 
 ---
 
@@ -80,50 +83,6 @@ Zie de documentatie van het [Stijlsysteem](https://docs.adobe.com/content/help/e
 >[!NOTE]
 >
 >In AEM 6.3, wordt de dienstpak 2 (6.3.2.0) of nieuwer vereist om de eigenschap van het stijlsysteem toe te laten.
-
-## Lijst met beschikbare kerncomponenten {#list-of-core-components-available}
-
-Hieronder volgt een lijst met de beschikbare kerncomponenten die zijn gekoppeld aan pagina&#39;s en die hun mogelijkheden in het dialoogvenster Bewerken en Ontwerpen gedetailleerd beschrijven.
-
-In de huidige versie van Core Components zijn de volgende componenten beschikbaar.
-
-* [Accordeon](/help/components/accordion.md)
-* [Broodkruimel](/help/components/breadcrumb.md)
-* [Knop](/help/components/button.md)
-* [Container](/help/components/container.md)
-* [Carousel](/help/components/carousel.md)
-* [Inhoudsfragment](/help/components/content-fragment-component.md)
-* [Lijst met inhoudsfragmenten](/help/components/content-fragment-list.md)
-* [Downloaden](/help/components/download.md)
-* [Insluiten](/help/components/embed.md)
-* [Ervaar fragment](/help/components/experience-fragment.md)
-* [Formulierknop](/help/components/forms/form-button.md)
-* [Formuliercontainer](/help/components/forms/form-container.md)
-* [Formulier verborgen](/help/components/forms/form-hidden.md)
-* [Formulieropties](/help/components/forms/form-options.md)
-* [Formuliertekst](/help/components/forms/form-text.md)
-* [Afbeelding](/help/components/image.md)
-* [Taalnavigatie](/help/components/language-navigation.md)
-* [Lijst](/help/components/list.md)
-* [Navigatie](/help/components/navigation.md)
-* [Pagina](/help/components/page.md)
-* [Snel zoeken](/help/components/quick-search.md)
-* [Scheidingsteken](/help/components/separator.md)
-* [Delen van sociale media](/help/components/sharing.md)
-* [Tabs](/help/components/tabs.md)
-* [Tekst](/help/components/text.md)
-* [Titel](/help/components/title.md)
-
->[!CAUTION]
->
->Sommige versies van afzonderlijke Core Components zijn mogelijk alleen compatibel met bepaalde versies van AEM.
->
->Zie de afzonderlijke Help-pagina (die is gekoppeld aan de vorige lijst) voor de specifieke component voor compatibiliteitsinformatie of raadpleeg het document [Core Components Versions](/help/versions.md) voor meer informatie.
-
->[!NOTE]
->
->Afhankelijk van uw instantie kunt u aangepaste componenten hebben die uitdrukkelijk voor uw vereisten worden ontwikkeld. Deze kunnen zelfs de zelfde naam hebben zoals sommige componenten hier besproken.
->De kerncomponenten van het formulier zijn niet gerelateerd aan AEM Forms.
 
 ## Bronnen voor ontwikkelaars {#developer-resources}
 
