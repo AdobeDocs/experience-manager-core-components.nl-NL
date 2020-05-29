@@ -2,7 +2,10 @@
 title: Component Formulierknop
 description: Met de component Core Component Form Hidden kunt u een verborgen veld in een formulier opnemen.
 translation-type: tm+mt
-source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +28,7 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM-ve
 
 | Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
-| v2 | Compatibel | Compatibel | Compatibel | Compatibel |
+| v2 | - | Compatibel | Compatibel | Compatibel |
 | [v1](/help/components/v1/form-button-v1.md) | Compatibel | Compatibel | Compatibel | - |
 
 Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
@@ -46,7 +49,7 @@ In het dialoogvenster voor configureren kan de auteur van de inhoud de parameter
 
 ### Tabblad Eigenschappen {#properties-tab}
 
-![](/help/assets/screen_shot_2018-01-12at120433.png)
+![Het dialoogvenster Bewerken van component Form Button](/help/assets/form-button-edit.png)
 
 * **Type**
 
@@ -59,6 +62,11 @@ In het dialoogvenster voor configureren kan de auteur van de inhoud de parameter
 
 * **Naam** - De naam van de knop die samen met de formuliergegevens wordt verzonden
 * **Waarde** - De waarde van de knop die samen met de formuliergegevens wordt verzonden
+
+* **ID** - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de [gegevenslaag](/help/developing/data-layer/overview.md).
+   * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
+   * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
+   * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
