@@ -2,7 +2,10 @@
 title: Component Inhoudsfragment
 description: Met de component Inhoudsfragment van de kerncomponent kunt u een inhoudsfragment weergeven.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '659'
+ht-degree: 1%
 
 ---
 
@@ -29,9 +32,9 @@ De huidige versie van de Content Fragment Component is v1, die in oktober 2017 i
 
 In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
 
-| Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | Compatibel | Compatibel | Compatibel | Compatibel |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| v1 | Compatibel | Compatibel | Compatibel |
 
 >[!NOTE]
 >
@@ -61,14 +64,19 @@ Meer details over het ontwikkelen van de Componenten van de Kern kunnen in de de
 
 In het dialoogvenster Configureren kan de auteur van de inhoud definiëren welk inhoudsfragment en de elementen van dat fragment moeten worden opgenomen.
 
-![](/help/assets/chlimage_1-87.png)
+### Tabblad Eigenschappen {#properties-tab}
+
+![Component Inhoudsfragment](/help/assets/content-fragment-edit-properties.png)
 
 * **Inhoudsfragment**
 
    * Pad naar het gewenste inhoudsfragment
    * U kunt het fragment zoeken in het dialoogvenster **** Selectie
 
-* **Element** - Het element van het inhoudsfragment dat moet worden opgenomen
+* **Weergavemodus**
+   * **Eén tekstelement** - Schakelt de selectie van één tekstelement met meerdere regels in en schakelt de opties voor alinealijnbeheer in
+   * **Meerdere elementen** - Hiermee kunt u een of meer elementen van het geselecteerde inhoudsfragment selecteren
+* **Element** - Het element of de elementen van het inhoudsfragment dat moet worden opgenomen
 * **Variatie** - Welke variatie van het inhoudfragment moet worden gebruikt (standaard ingesteld op **Stramien**)
 
 * **Alinea&#39;s**
@@ -78,18 +86,25 @@ In het dialoogvenster Configureren kan de auteur van de inhoud definiëren welk 
 
       * Bereiken opgeven voor alinea&#39;s die moeten worden weergegeven, gescheiden door een puntkomma
       * Bijvoorbeeld `1;3-5;7;9-*` de eerste, de derde tot de vijfde, de zevende en de negende alinea tot de laatste alinea
+* **ID** - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de [gegevenslaag](/help/developing/data-layer/overview.md).
+   * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
+   * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
+   * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
+### Tabblad Alinealijn {#paragraph-control-tab}
+
+Dit tabblad is niet beschikbaar als de modus **Meerdere elementen** is geselecteerd.
+
+![Component Inhoudsfragment](/help/assets/content-fragment-edit-paragraph.png)
+
+* **Alinea** - Selectie van alle alinea&#39;s of een bereik toestaan
 * **Koptekst verwerken als eigen alinea&#39;s**
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
-In het dialoogvenster Ontwerpen kan de sjabloonauteur de typen bronnen definiëren die worden gebruikt voor het verwerken van afbeeldingen met gemengde media en responsieve rasters.
+In het ontwerpdialoogvenster kan de sjabloonauteur de typen bronnen definiëren die worden gebruikt voor het verwerken van afbeeldingen met gemengde media en responsieve rasters.
 
-![](/help/assets/chlimage_1-88.png)
-
-* **Afbeeldingstype Gemengde media**
-
-   * Een Sling-brontype dat wordt gebruikt voor het renderen van afbeeldingen met gemengde media
+![Het dialoogvenster Ontwerpen van de component Content Fragment](/help/assets/content-fragment-design.png)
 
 * **Intern responsief raster**
 
