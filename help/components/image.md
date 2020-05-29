@@ -2,7 +2,10 @@
 title: Afbeeldingscomponent
 description: De Core Component Image is een adaptieve beeldcomponent die ter plekke kan worden bewerkt.
 translation-type: tm+mt
-source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '1934'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +34,7 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM-ve
 
 | Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
-| v2 | Compatibel | Compatibel | Compatibel | Compatibel |
+| v2 | - | Compatibel | Compatibel | Compatibel |
 | [v1](v1/image-v1.md) | Compatibel | Compatibel | Compatibel | - |
 
 Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
@@ -72,7 +75,7 @@ Naast het standaarddialoogvenster [](#edit-dialog) Bewerken en [Ontwerpdialoogve
 
 ### Tabblad Element {#asset-tab}
 
-![](/help/assets/screen_shot_2018-01-08at114245.png)
+![Tabblad Element van het dialoogvenster Configureren van Image Component](/help/assets/image-configure-asset.png)
 
 * **Afbeeldingselement**
    * Zet een element neer vanuit de [middelenbrowser](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of tik op de **bladeroptie** om te uploaden vanaf een lokaal bestandssysteem.
@@ -81,7 +84,7 @@ Naast het standaarddialoogvenster [](#edit-dialog) Bewerken en [Ontwerpdialoogve
 
 ### Tabblad Metagegevens {#metadata-tab}
 
-![](/help/assets/screen_shot_2018-01-08at114527.png)
+![Tabblad Metagegevens van het dialoogvenster Configureren van Image Component](/help/assets/image-configure-metadata.png)
 
 * **Afbeelding is decoratief**. Controleer of de afbeelding door hulpprogramma&#39;s moet worden genegeerd en of er daarom geen alternatieve tekst nodig is. Dit geldt alleen voor decoratieve afbeeldingen.
 * **Alternatieve tekst** Alternatief tekstalternatief voor de betekenis of functie van de afbeelding, voor slechtzienden.
@@ -96,15 +99,20 @@ Naast het standaarddialoogvenster [](#edit-dialog) Bewerken en [Ontwerpdialoogve
    * In het dialoogvenster Selecteren kunt u een koppeling maken naar een andere AEM-bron.
    * Als u geen koppeling naar een AEM-bron maakt, voert u de absolute URL in. Niet-absolute URL&#39;s worden geïnterpreteerd als relatief ten opzichte van AEM.
 
+* **ID** - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de [gegevenslaag](/help/developing/data-layer/overview.md).
+   * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
+   * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
+   * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
+
 ## Dialoogvenster Bewerken {#edit-dialog}
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud uitsnijden, de startkaart wijzigen en inzoomen op de afbeelding.
 
-![](/help/assets/chlimage_1-8.png)
+![Bewerkingsdialoogvenster van afbeeldingscomponent](/help/assets/image-edit.png)
 
 * Uitsnijden starten
 
-   ![](/help/assets/chlimage_1-9.png)
+   ![Uitsnijdpictogram starten](/help/assets/image-start-crop.png)
 
    Als u deze optie selecteert, wordt een vervolgkeuzelijst geopend voor vooraf gedefinieerde verhoudingen voor uitsnijden.
 
@@ -112,76 +120,43 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud uitsnijden, de startk
    * Kies de optie Uitsnijden **** verwijderen om het oorspronkelijke element weer te geven.
    Als een uitsnijdoptie is geselecteerd, gebruikt u de blauwe handgrepen om het uitsnijden op de afbeelding te vergroten of te verkleinen.
 
-   ![](/help/assets/chlimage_1-10.png)
+   ![Opties voor uitsnijden](/help/assets/image-crop-options.png)
 
 * Rechtsom roteren
 
-   ![](/help/assets/chlimage_1-11.png)
+   ![Pictogram rechtsom roteren](/help/assets/image-rotate-right.png)
 
    Gebruik deze optie als u de afbeelding 90° rechtsom wilt roteren.
 
 * Horizontaal spiegelen
 
-   ![](/help/assets/screen_shot_2018-04-16at091404.png)
+   ![Pictogram Horizontaal spiegelen](/help/assets/image-flip-horizontal.png)
 
    Met deze optie kunt u de afbeelding horizontaal draaien of 180° langs de y-as draaien.
 
 * Verticaal spiegelen
 
-   ![](/help/assets/screen_shot_2018-04-16at091410.png)
+   ![Pictogram verticaal spiegelen](/help/assets/image-flip-vertical.png)
 
    Gebruik deze optie om de afbeelding 180° verticaal om te draaien of om de afbeelding 180° langs de x-as om te draaien.
 
-* Toewijzing starten
-
-   >[!CAUTION]
-   >
-   >Voor de functie Launch Map is versie 2.1.0 van de Core Components of hoger vereist, samen met [servicepack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) voor AEM 6.4 of [servicepack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) voor AEM 6.3 of hoger, ter ondersteuning van [nieuwe functies](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) voor beeldbewerkingsprogramma&#39;s in AEM.
-
-   ![](/help/assets/chlimage_1-12.png)
-
-   Gebruik deze optie om een startkaart toe te passen op de afbeelding. Als u deze optie selecteert, wordt een nieuw venster geopend waarin de gebruiker de vorm van de kaart kan selecteren:
-
-   * **Rechthoekige kaart toevoegen**
-   * **Cirkelvormige kaart toevoegen**
-   * **Veelhoekkaart toevoegen**
-      * Standaard wordt een driehoekige kaart toegevoegd. Dubbelklik op een lijn van de vorm om een nieuwe blauwe formaatgreep aan een nieuwe zijde toe te voegen.
-   Als een vorm van een kaart is geselecteerd, wordt deze over de afbeelding heen geplaatst, zodat het formaat kan worden gewijzigd. Sleep de blauwe formaatgrepen om de vorm aan te passen.
-
-   ![](/help/assets/chlimage_1-13.png)
-
-   Nadat u de grootte van de startkaart hebt aangepast, klikt u erop om een zwevende werkbalk te openen om het pad van de koppeling te definiëren.
-
-   * **Pad**
-      * Gebruik de optie Padkiezer om een pad te selecteren in AEM
-      * Gebruik de absolute URL als het pad zich niet in AEM bevindt. Niet-absolute paden worden ten opzichte van AEM geïnterpreteerd.
-   * **Alt-tekst** Alternatieve beschrijving van het paddoel
-   * **Doel**
-      * **Zelfde tabblad**
-      * **Nieuw tabblad**
-      * **Bovenliggend frame**
-      * **Bovenste frame**
-   Tik of klik op het blauwe vinkje dat u wilt opslaan, de zwarte x die u wilt annuleren en de rode prullenbak om de kaart te verwijderen.
-
-   ![](/help/assets/chlimage_1-14.png)
-
 * Zoomen herstellen
 
-   ![](/help/assets/chlimage_1-15.png)
+   ![Zoompictogram opnieuw instellen](/help/assets/image-reset-zoom.png)
 
    Als al op de afbeelding is ingezoomd, gebruikt u deze optie om het zoomniveau opnieuw in te stellen.
 
 * Zoomregelaar openen
 
-   ![](/help/assets/chlimage_1-16.png)
+   ![Pictogram van zoomregelaar openen](/help/assets/image-zoom.png)
 
    Met deze optie geeft u een schuifregelaar weer om het zoomniveau van de afbeelding te bepalen.
 
-   ![](/help/assets/chlimage_1-17.png)
+   ![Besturing van zoomregelaar](/help/assets/image-zoom-slider.png)
 
 U kunt de interne editor ook gebruiken om de afbeelding te wijzigen. Vanwege ruimtebeperkingen zijn alleen de basisopties online beschikbaar. Voor volledige bewerkingsopties gebruikt u de modus Volledig scherm.
 
-![](/help/assets/chlimage_1-18.png)
+![Opties voor Op plaats bewerken van afbeeldingen](/help/assets/image-in-place-edit.png)
 
 >[!NOTE]
 >
@@ -197,7 +172,7 @@ Op het tabblad **Main** kunt u een lijst met breedten in pixels voor de afbeeldi
 
 Bovendien kunt u bepalen welke algemene componentenopties automatisch of gehandicapt zijn wanneer de auteur de component aan een pagina toevoegt.
 
-![](/help/assets/screenshot_2018-10-19at102756.png)
+![Het hoofdtabblad van het dialoogvenster Ontwerp van de afbeeldingscomponent](/help/assets/image-design-main.png)
 
 * **Lazy laden** Definiëren inschakelen als de luie laadoptie automatisch wordt ingeschakeld wanneer de afbeeldingscomponent aan een pagina wordt toegevoegd.
 * **Afbeelding is decoratief**. Definieer of de optie Decoratieve afbeelding automatisch is ingeschakeld wanneer u de afbeeldingscomponent aan een pagina toevoegt.
@@ -214,7 +189,7 @@ Bovendien kunt u bepalen welke algemene componentenopties automatisch of gehandi
       * Selecteer de optie **Lazy load** uitschakelen om de afbeeldingen bij het laden van de pagina te laden.
 * **JPEG-kwaliteit** De kwaliteitsfactor (als percentage van 0 en 100) voor getransformeerde JPEG-afbeeldingen (bijvoorbeeld geschaald of uitgesneden).
 
->[!CAUTION]
+>[!NOTE]
 >
 >De optie JPEG-kwaliteit is beschikbaar vanaf release 2.2.0 van de Core Components.
 
@@ -228,13 +203,13 @@ Op het tabblad **Functies** kunt u opgeven welke opties beschikbaar zijn voor de
 
 * Bron
 
-   ![](/help/assets/chlimage_1-19.png)
+   ![Dialoogvenster Eigenschappen van het ontwerpdialoogvenster van de component Image](/help/assets/image-design-features-source.png)
 
    Selecteer de optie **Het uploaden van middelen vanaf het bestandssysteem** toestaan om auteurs van inhoud toe te staan afbeeldingen te uploaden vanaf hun lokale computer. Schakel deze optie uit als u wilt dat auteurs van inhoud alleen elementen van AEM selecteren.
 
 * Afdrukstand
 
-   ![](/help/assets/chlimage_1-20.png)
+   ![Dialoogvenster Eigenschappen van het ontwerpdialoogvenster van de component Image](/help/assets/image-design-features-orientation.png)
 
 * **Roteren** Gebruik deze optie als de auteur van de inhoud de optie Rechtsom **** roteren moet gebruiken.
 * **Met deze optie spiegelen** kunt u de auteur van de inhoud toestaan de opties **Horizontaal** omdraaien en Verticaal **** omdraaien te gebruiken.
@@ -245,7 +220,7 @@ Op het tabblad **Functies** kunt u opgeven welke opties beschikbaar zijn voor de
 
 * Uitsnijden
 
-   ![](/help/assets/chlimage_1-21.png)
+   ![Dialoogvenster Eigenschappen van het ontwerpdialoogvenster van de component Image](/help/assets/image-design-features-cropping.png)
 
    Selecteer de optie Uitsnijden **** toestaan om de auteur van de inhoud toe te staan de afbeelding uit te snijden in de component in het dialoogvenster Bewerken.
    * Klik op **Toevoegen** om een vooraf gedefinieerde hoogte-breedteverhouding voor uitsnijden toe te voegen.
