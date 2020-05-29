@@ -2,9 +2,9 @@
 title: Introductie van kerncomponenten
 description: 'De Componenten van de kern werden geïntroduceerd om robuuste en verlengbare basiscomponenten te verstrekken, die op de recentste technologie en beste praktijken worden voortgebouwd. '
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: c07dc21b1973ec541a1d96047f8a30aca8cfb886
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '841'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,7 @@ De kerncomponenten zijn een reeks gestandaardiseerde WCM-componenten (Web Conten
 
 * **[Componentbibliotheek:](https://www.adobe.com/go/aem_cmp_library)**Een inzameling van voorbeelden om de componenten in hun diverse configuraties te bekijken.
 * **Componentdocumentatie (dit document):** Voor ontwikkelaars en auteurs, met details over elke component.
+* **[De Bewaarplaats van GitHub van de Componenten van de kern:](https://github.com/adobe/aem-core-wcm-components)**Voor de details van de ontwikkelaar van elke component en projectdownload.
 * Aan de slag:
    * **[Succes met de kerncomponenten:](/help/developing/success.md)**Richtlijnen die ruim vóór de aanvang van om het even welk project moeten overwegen dat de Componenten van de Kern zal gebruiken.
    * **[WKND-zelfstudie:](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**Een zelfstudie van twee dagen voor het bouwen van een nieuwe site.
@@ -43,6 +44,7 @@ De kerncomponenten zijn een reeks gestandaardiseerde WCM-componenten (Web Conten
 | Versioning | Het [versiebeleid](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) zorgt ervoor dat de Componenten van de Kern uw plaats niet breken wanneer het verbeteren van dingen die u zouden kunnen beïnvloeden. |
 | Lokaliseerbaar | Met slimme verwijzingsresolutie kunnen bepaalde componenten automatisch [corresponderende gelokaliseerde inhoud zoeken en](get-started/localization.md)renderen. |
 | Open Bronnen | Als iets anders is dan zou moeten, [draagt u bij aan uw verbeteringen!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
+| Overtrekbaar | De belangrijkste componenten worden [geïntegreerd met de Laag van de Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md) |
 
 ## De componenten {#the-components}
 
