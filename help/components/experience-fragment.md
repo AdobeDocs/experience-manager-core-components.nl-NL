@@ -2,7 +2,10 @@
 title: Experience Fragment
 description: Met de ervaringsfragmentcomponent kan de auteur van de inhoud een ervaringsfragmentvariatie aan een pagina toevoegen.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '816'
+ht-degree: 0%
 
 ---
 
@@ -35,12 +38,12 @@ Dit gedrag is beperkt tot Geniet van fragmentcomponenten die aan sjablonen zijn 
 
 ### Voorbeeld {#example}
 
-Laten we zeggen dat uw inhoud er ongeveer als volgt uitziet:
+Laten we zeggen dat de inhoud er zo uitziet:
 
 ```
 /content
 +-- experience-fragments
-   \-- we-retail
+   \-- wknd
       +-- language-masters
       +-- us
          +-- en
@@ -59,7 +62,7 @@ Laten we zeggen dat uw inhoud er ongeveer als volgt uitziet:
          \-- it
             +-- footerTextXf
             \-- headerTextXf
-+-- we-retail
++-- wknd
    +-- language-masters
    +-- us
       +-- en
@@ -72,11 +75,11 @@ Laten we zeggen dat uw inhoud er ongeveer als volgt uitziet:
 \-- wknd-shop
 ```
 
-De structuur hieronder `/content/experience-fragments/we-retail` spiegelt de structuur van `/content/we-retail`.
+De structuur hieronder `/content/experience-fragments/wknd` spiegelt de structuur van `/content/wknd`.
 
-In dit geval, als de component van het Fragment van de Ervaring op een malplaatje `/content/experience-fragments/we-retail/us/en/footerTextXf` wordt geplaatst, zullen de gelokaliseerde pagina&#39;s die op dat malplaatje worden gecreeerd automatisch het gelokaliseerde ervaringsfragment teruggeven dat aan de gelokaliseerde inhoudspagina beantwoordt.
+In dit geval, als de component van het Fragment van de Ervaring op een malplaatje `/content/experience-fragments/wknd/us/en/footerTextXf` wordt geplaatst, zullen de gelokaliseerde pagina&#39;s die op dat malplaatje worden gecreeerd automatisch het gelokaliseerde ervaringsfragment teruggeven dat aan de gelokaliseerde inhoudspagina beantwoordt.
 
-Als u dus naar een inhoudspagina navigeert onder `/content/we-retail/ch/de` die dezelfde sjabloon gebruikt, `/content/experience-fragments/we-retail/ch/de/footerTextXf` wordt deze weergegeven in plaats van `/content/experience-fragments/we-retail/us/en/footerTextXf`.
+Als u dus naar een inhoudspagina navigeert onder `/content/wknd/ch/de` die dezelfde sjabloon gebruikt, `/content/experience-fragments/wknd/ch/de/footerTextXf` wordt deze weergegeven in plaats van `/content/experience-fragments/wknd/us/en/footerTextXf`.
 
 ### Fallback {#fallback}
 
@@ -93,9 +96,9 @@ De huidige versie van de Experience Fragment Component is v1, die in september 2
 
 In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
 
-| Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | Compatibel | Compatibel | Compatibel | Compatibel |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| v1 | Compatibel | Compatibel | Compatibel |
 
 Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
 
@@ -113,16 +116,22 @@ Meer details over het ontwikkelen van de Componenten van de Kern kunnen in de de
 
 In het dialoogvenster Configureren kan de auteur van de inhoud de variatie van het ervaringsfragment selecteren die op de pagina moet worden weergegeven.
 
-![](/help/assets/screen-shot-2019-08-23-10.49.21.png)
+![Het bewerkingsdialoogvenster van de fragmentcomponent beleven](/help/assets/experience-fragment-edit.png)
 
 Gebruik de knop Dialoogvenster **Selectie** openen om de componentkiezer te openen en te kiezen welke fragmentcomponentvariatie u aan de inhoudspagina wilt toevoegen.
 
 Als u de Component van het Fragment van de Ervaring aan een malplaatje toevoegt, merk op dat het automatisch zal worden gelokaliseerd op voorwaarde dat de Fragmenten van de Ervaring worden gelokaliseerd, zodat wat op de pagina wordt teruggegeven van de component kan variëren u uitdrukkelijk selecteert. [Zie het bovenstaande](#example) voorbeeld voor meer informatie.
 
+U kunt ook een **id** definiëren. Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de [gegevenslaag](/help/developing/data-layer/overview.md).
+
+* Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
+* Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
+* Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
+
 ## Ontwerpdialoogvenster {#design-dialog}
 
 In het dialoogvenster Ontwerpen kan de sjabloonauteur de opties definiëren die beschikbaar zijn voor de auteur van de inhoud die de component Experience Fragment gebruikt en de standaardinstellingen die zijn ingesteld bij het plaatsen van de Experience Fragment-component.
 
-![](/help/assets/screen-shot-2019-08-23-10.48.36.png)
+### Tabblad Stijlen {#styles-tab}
 
 De component Experience Fragment ondersteunt het AEM [Style System](/help/get-started/authoring.md#component-styling).
