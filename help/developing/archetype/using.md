@@ -2,7 +2,10 @@
 title: AEM-projectarchetype gebruiken
 description: Gedetailleerde gebruiksinstructies voor het AEM Project Archetype
 translation-type: tm+mt
-source-git-commit: 0d8089c53d2ef95e88379e6f381738cd137e6b33
+source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+workflow-type: tm+mt
+source-wordcount: '2057'
+ht-degree: 0%
 
 ---
 
@@ -13,9 +16,9 @@ Het AEM Project Archetype leidt tot een minimaal, op best-praktijken-gebaseerd p
 
 ## Waarom het Archetype gebruiken {#why-use-the-archetype}
 
-Met het AEM Project Archetype kunt u een AEM-project op basis van best practices bouwen met slechts een paar toetsaanslagen. Door het archetype te gebruiken, zullen alle stukken reeds op zijn plaats zijn zodat terwijl het resulterende project minimaal is, het reeds alle [belangrijkste eigenschappen](#features) van AEM uitvoert zodat alles u moet doen voortbouwen en zich uitbreiden.
+Met het AEM Project Archetype kunt u een AEM-project op basis van best practices bouwen met slechts een paar toetsaanslagen. Door het archetype te gebruiken, zullen alle stukken reeds op zijn plaats zijn zodat terwijl het resulterende project minimaal is, het reeds alle [belangrijkste eigenschappen](#what-you-get) van AEM uitvoert zodat alles u moet doen voortbouwen en zich uitbreiden.
 
-Natuurlijk zijn er vele elementen die in een succesvol AEM- project gaan, maar het gebruiken van het Archetype van het Project AEM is een correcte stichting en sterk geadviseerd voor om het even welk AEM- project.
+Natuurlijk zijn er vele elementen die in een succesvol AEM- project gaan, maar het gebruiken van het Archieftype van het Project AEM is een correcte stichting en sterk geadviseerd voor om het even welk AEM- project.
 
 ## Aan de slag {#getting-started}
 
