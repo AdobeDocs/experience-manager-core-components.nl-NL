@@ -2,7 +2,10 @@
 title: Component insluiten
 description: Met de component Embed kunt u externe inhoud insluiten in een AEM-inhoudspagina.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '944'
+ht-degree: 2%
 
 ---
 
@@ -24,9 +27,9 @@ De huidige versie van de Embed Component is v1, die in september 2019 met versie
 
 In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
 
-| Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | Compatibel | Compatibel | Compatibel | Compatibel |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| v1 | Compatibel | Compatibel | Compatibel |
 
 Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
 
@@ -48,6 +51,12 @@ In het dialoogvenster voor configureren kan de auteur van de inhoud de externe b
 * [Insluitbaar](#embeddable)
 * [HTML](#html)
 
+Voor elk type insluitbaar kunt u een **id** voor de advertentie definiëren. Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de [gegevenslaag](/help/developing/data-layer/overview.md).
+
+* Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
+* Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
+* Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
+
 ### URL {#url}
 
 De eenvoudigste insluiting is de URL. Plak gewoon de URL van de bron die u wilt insluiten in het veld **URL** . De component probeert toegang te krijgen tot de bron en als deze door een van de processors kan worden gerenderd, wordt een bevestigingsbericht weergegeven onder het veld **URL** . Als dat niet het geval is, wordt het veld als een fout gemarkeerd.
@@ -59,7 +68,7 @@ De component Embed wordt geleverd bij processors voor de volgende typen bronnen:
 
 Ontwikkelaars kunnen extra URL-processors toevoegen door [de ontwikkelaarsdocumentatie van de Embed Component te volgen.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
-![](/help/assets/screen-shot-2019-09-25-10.08.29.png)
+![Dialoogvenster voor bewerken van component insluiten voor URL](/help/assets/embed-url.png)
 
 ### Insluitbaar {#embeddable}
 
@@ -73,7 +82,7 @@ Het veld **Insluitbaar** definieert het type processor dat u wilt gebruiken. In 
 
 Andere insluitbare bestanden bieden vergelijkbare velden en kunnen door een ontwikkelaar worden gedefinieerd aan de hand van de ontwikkelaarsdocumentatie van de Embed-component. [](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
-![](/help/assets/screen-shot-2019-09-25-10.15.00.png)
+![Dialoogvenster voor bewerken van component insluiten voor insluitbare bestanden](/help/assets/embed-embeddable.png)
 
 >[!NOTE]
 >Ingesloten tabellen moeten op sjabloonniveau via het dialoogvenster [](#design-dialog) Ontwerpen zijn ingeschakeld om beschikbaar te zijn voor de auteur van de pagina.
@@ -82,7 +91,7 @@ Andere insluitbare bestanden bieden vergelijkbare velden en kunnen door een ontw
 
 Met de component Embed kunt u vrije HTML aan de pagina toevoegen.
 
-![](/help/assets/screen-shot-2019-09-25-10.20.00.png)
+![Dialoogvenster voor bewerken van component insluiten voor HTML](/help/assets/embed-html.png)
 
 >[!NOTE]
 >Eventuele onveilige tags, zoals scripts, worden gefilterd vanuit de ingevoerde HTML en worden niet weergegeven op de resulterende pagina.
@@ -104,7 +113,7 @@ Aanvullende beveiligingsinformatie vindt u in de [AEM-ontwikkelaarsdocumentatie 
 
 In het ontwerpdialoogvenster kan de sjabloonauteur de opties definiëren die beschikbaar zijn voor de inhoudauteur die de component Embed gebruikt en de standaardinstellingen die zijn ingesteld bij het plaatsen van de component Embed.
 
-![](/help/assets/screen-shot-2019-09-25-10.25.28.png)
+![Dialoogvenster Ontwerp van component insluiten](/help/assets/embed-design.png)
 
 * **URL** uitschakelen - Schakelt de optie **URL** voor de auteur van de inhoud uit wanneer deze is geselecteerd
 * **Uitschakelen Ingesloten** - Schakelt de optie **Insluitbaar** uit voor de auteur van de inhoud wanneer deze is geselecteerd, ongeacht welke insluitbare processors zijn toegestaan.
