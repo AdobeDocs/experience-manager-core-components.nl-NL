@@ -2,7 +2,10 @@
 title: Kernmodule van het AEM Project Archetype
 description: Kernmodule van het AEM Project Archetype
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+workflow-type: tm+mt
+source-wordcount: '159'
+ht-degree: 0%
 
 ---
 
@@ -13,7 +16,7 @@ De kernmodule (`<src-directory>/<project>/core`) bevat alle Java-code die nodig 
 
 De in de `<src-directory>/<project>/core/pom.xml` definitie gedefinieerde bundelinsteekmodule Geweven is verantwoordelijk voor het compileren van de Java-code in een OSGi-bundel die door de OSGi-container van AEM kan worden herkend. Hier wordt de locatie van verkoopmodellen gedefinieerd.
 
-Hoewel het zeldzaam is dat de kernbundel onafhankelijk van de module ui.apps in hogere niveaumilieu&#39;s moet worden opgesteld, is het direct opstellen van de kernbundel nuttig tijdens lokale ontwikkeling/het testen. Met de plug-in Maven Sling kan de kernbundel worden geïmplementeerd in AEM door rechtstreeks gebruik te maken van het `autoInstallBundle` profiel zoals gedefinieerd in de [bovenliggende POM](overview.md#parent-pom).
+Hoewel het zeldzaam is dat de kernbundel onafhankelijk van de module ui.apps in hogere niveaumilieu&#39;s moet worden opgesteld, is het direct opstellen van de kernbundel nuttig tijdens lokale ontwikkeling/het testen. Met de plug-in Maven Sling kan de kernbundel worden geïmplementeerd in AEM door rechtstreeks gebruik te maken van het `autoInstallBundle` profiel zoals gedefinieerd in de [bovenliggende POM](/help/developing/archetype/using.md#parent-pom).
 
 ```
 mvn -PautoInstallBundle clean install
