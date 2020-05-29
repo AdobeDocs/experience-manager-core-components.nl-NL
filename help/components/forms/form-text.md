@@ -2,7 +2,10 @@
 title: Formuliertekstcomponent
 description: Met de component Tekst van formulier voor kerncomponenttekst kan formuliertekst worden verzonden.
 translation-type: tm+mt
-source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '579'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +26,7 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM-ve
 
 | Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
-| v2 | Compatibel | Compatibel | Compatibel | Compatibel |
+| v2 | - | Compatibel | Compatibel | Compatibel |
 | [v1](/help/components/v1/form-text-v1.md) | Compatibel | Compatibel | Compatibel | - |
 
 Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
@@ -42,11 +45,11 @@ Meer details over het ontwikkelen van de Componenten van de Kern kunnen in de de
 
 In het dialoogvenster Configureren kan de auteur van de inhoud het type tekst definiëren dat moet worden ingevoerd, evenals standaardwaarden en -labels.
 
-### Hoofdtabblad {#main-tab}
+### Tabblad Eigenschappen {#properties-tab}
 
-![](/help/assets/chlimage_1-23.png)
+![Eigenschappen, tabblad](/help/assets/form-text-edit-properties.png)
 
-* **Restrictie** Het type tekst dat moet worden ingevoerd en waarvoor validatie wordt uitgevoerd
+* **Restrictie** - Het type tekst dat moet worden ingevoerd en waartegen moet worden gevalideerd
    * **Tekst**
    * **Tekstgebied**
    * **E-mail**
@@ -54,29 +57,36 @@ In het dialoogvenster Configureren kan de auteur van de inhoud het type tekst de
    * **Date**
    * **Getal**
    * **Wachtwoord**
-* **Tekstregels** Aantal regels dat in het tekstgebied moet worden weergegeven (alleen wordt weergegeven wanneer **Restrictie** is ingesteld op **Tekstgebied**)
-* **Label** Het label dat voor het veld wordt weergegeven
-* **Verberg het label zodat het niet wordt weergegeven** Nodig als het label alleen nodig is voor toegankelijkheidsdoeleinden en geen aanvullende visuele informatie over het veld bevat
-* **Elementnaam** De naam van het veld dat met de formuliergegevens wordt verzonden
-* **Waarde** standaardwaarde die vooraf in het veld is ingevuld
+* **Tekstregels** - Aantal regels dat in het tekstgebied moet worden weergegeven (wordt alleen weergegeven wanneer **Restrictie** is ingesteld op **Tekstgebied**)
+* **Label** - Het label dat voor het veld wordt weergegeven
+* **Het label verbergen zodat het niet kan worden weergegeven** - Dit is nodig als het label alleen nodig is voor toegankelijkheidsdoeleinden en geen aanvullende visuele informatie over het veld bevat
+* **Elementnaam** - De naam van het veld dat met de formuliergegevens wordt verzonden
+* **Waarde** - Standaardwaarde die vooraf in het veld is ingevuld
+* **ID** - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de [gegevenslaag](/help/developing/data-layer/overview.md).
+   * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
+   * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
+   * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
 ### Info over Tab {#about-tab}
 
-![](/help/assets/chlimage_1-24.png)
+![Over, tabblad](/help/assets/form-text-edit-about.png)
 
-* **Help Message** A hint to the user of what can enter in the field
-* **Help-bericht weergeven als tijdelijke aanduiding** Om het Help-bericht in de formulierinvoer weer te geven wanneer het leeg is en geen focus heeft
+* **Help-bericht** - Een tip voor de gebruiker wat in het veld kan worden ingevoerd
+* **Help-bericht weergeven als tijdelijke aanduiding** - Het Help-bericht weergeven in de formulierinvoer als deze leeg en niet geconcentreerd is
 
 ### Tabblad Restricties {#constraints-tab}
 
-![](/help/assets/chlimage_1-25.png)
+![Tabblad Restricties](/help/assets/form-text-edit-constraints.png)
 
 * **Restrictiebericht**
    * Bericht weergegeven als knopinfo bij het verzenden van het formulier als de waarde het gekozen type niet valideert
    * Niet weergegeven voor restrictietypen **Tekst** en **Tekstgebied**
-* **Vereist** als deze optie is geselecteerd, moet de gebruiker een waarde invullen voordat het formulier wordt verzonden
-* **Alleen**-lezen maken Als deze optie is geselecteerd, kan de gebruiker de waarde van het veld niet wijzigen
+* **Vereist** - Als deze optie is geselecteerd, moet de gebruiker een waarde invullen voordat het formulier wordt verzonden
+   * **Vereist bericht** - Bericht weergegeven als knopinfo als het veld leeg blijft
+* **Alleen** -lezen maken - Als deze optie is geselecteerd, kan de gebruiker de waarde van het veld niet wijzigen
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
-Er is geen ontwerpdialoogvenster voor de component Formuliertekst.
+### Tabblad Stijlen {#styles-tab}
+
+De component Form Text ondersteunt het AEM- [stijlsysteem](/help/get-started/authoring.md#component-styling).
