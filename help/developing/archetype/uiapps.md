@@ -2,7 +2,10 @@
 title: ui.apps Module van het AEM Project Archetype
 description: ui.apps Module van het AEM Project Archetype
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+workflow-type: tm+mt
+source-wordcount: '335'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ Met de Apache Jackrabbit FileVault Package-insteekmodule wordt de inhoud van de 
 
 ## Bovenliggende POM {#parent-pom}
 
-[Het bovenliggende POM](overview.md#parent-pom) (`<src>/<project>/pom.xml`) bevat `<plugin>` secties die verschillende configuraties definiëren voor de plug-ins die in het project worden gebruikt. Dit omvat een configuratie voor de `filterSource` voor de insteekmodule van het Pakket van het Pakket Jackrabbit FileVault. De `filterSource` punten verwijzen naar de locatie van het `filter.xml` bestand dat wordt gebruikt om de JCr-paden te definiëren die in het pakket worden opgenomen.
+[Het bovenliggende POM](/help/developing/archetype/using.md#parent-pom) (`<src>/<project>/pom.xml`) bevat `<plugin>` secties die verschillende configuraties definiëren voor de plug-ins die in het project worden gebruikt. Dit omvat een configuratie voor de `filterSource` voor de insteekmodule van het Pakket van het Pakket Jackrabbit FileVault. De `filterSource` punten verwijzen naar de locatie van het `filter.xml` bestand dat wordt gebruikt om de JCr-paden te definiëren die in het pakket worden opgenomen.
 
 Naast de Jackrabbit FileVault Package Plugin is een definitie van de Content Package Plugin die wordt gebruikt om het pakket vervolgens in AEM te duwen. Merk op dat de variabelen voor `aem.host`, `aem.port`, `vault.user`en `vault.password` worden gebruikt die aan de globale eigenschappen beantwoorden die in zelfde ouderPOM worden bepaald.
 
@@ -25,7 +28,7 @@ De pom (`<src>/<project>/ui.apps/pom.xml`) van ui.apps bevat de `embedded` tags 
 
 Merk op dat de pakketten core.wcm.components.all en core.wcm.components.examples als subpakket worden omvat. Hierdoor wordt het pakket Core Components samen met de WKND-code telkens geïmplementeerd.
 
-core.wcm.components.all en core.wcm.components.examples zijn inbegrepen als gebiedsdelen in de gebiedsdeellijst. Nochtans als beste praktijken, worden de versies voor gebiedsdelen hier weggelaten en in het [ouderpoomdossier](overview.md#core-components)beheerd.
+core.wcm.components.all en core.wcm.components.examples zijn inbegrepen als gebiedsdelen in de gebiedsdeellijst. Nochtans als beste praktijken, worden de versies voor gebiedsdelen hier weggelaten en in het [ouderpoomdossier](/help/developing/archetype/using.md#core-components)beheerd.
 
 ## filter.xml {#filter}
 
