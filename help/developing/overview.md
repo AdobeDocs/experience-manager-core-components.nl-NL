@@ -2,7 +2,10 @@
 title: Basiscomponenten ontwikkelen
 description: De componenten van de Kern verstrekken robuuste en verlengbare basiscomponenten die eigenschap-rijke mogelijkheden, ononderbroken levering, componentenversioning, moderne implementatie, leuning prijsverhoging, en JSON de uitvoer van inhoud aanbieden.
 translation-type: tm+mt
-source-git-commit: c338428a681f652d17bb972fb6a2abf216a338c3
+source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+workflow-type: tm+mt
+source-wordcount: '1425'
+ht-degree: 1%
 
 ---
 
@@ -15,9 +18,9 @@ Aangezien de Componenten van de Kern allen-nieuw zijn, en veelvoudige voordelen 
 
 Daarom geeft Adobe de volgende aanbevelingen:
 
-* **Nieuwe Projecten** Nieuwe projecten zouden altijd moeten proberen om de Componenten van de Kern te gebruiken. Als de Componenten van de Kern niet direct kunnen worden gebruikt of [uitgebreid](customizing.md) om aan projectvereisten te voldoen, dan creeer een douanecomponent na de componentenarchitectuur die in kerncomponenten wordt vermeld. Vermijd het gebruik van de [basiscomponenten](#foundation-component-support), tenzij dit anderszins mogelijk is.
-* **De bestaande** Aanbeveling van Projecten [blijft het gebruiken van de](#foundation-component-support)stichtingscomponenten, tenzij een plaats of componentenrefactoring wordt gepland.\
-   Aangezien de stichtingscomponenten in de meeste bestaande projecten op grote schaal worden gebruikt, [zullen zij verder worden ondersteund.](#foundation-component-support)
+* **Nieuwe Projecten** Nieuwe projecten zouden altijd moeten proberen om de Componenten van de Kern te gebruiken. Als de Componenten van de Kern niet direct kunnen worden gebruikt of [uitgebreid](customizing.md) om aan projectvereisten te voldoen, dan creeer een douanecomponent na de componentenarchitectuur die in kerncomponenten wordt vermeld. Vermijd het gebruik van de [basiscomponenten](/help/versions.md#foundation-component-support), tenzij dit anderszins mogelijk is.
+* **De bestaande** Aanbeveling van Projecten [blijft het gebruiken van de](/help/versions.md#foundation-component-support)stichtingscomponenten, tenzij een plaats of componentenrefactoring wordt gepland.\
+   Aangezien de stichtingscomponenten in de meeste bestaande projecten op grote schaal worden gebruikt, [zullen zij verder worden ondersteund.](/help/versions.md#foundation-component-support)
 * **Nieuwe aangepaste componenten** bepalen of een bestaande [kerncomponent kan worden aangepast](customizing.md).\
    Zo niet, dan wordt aanbevolen een nieuwe aangepaste component te maken volgens de [Componentrichtlijnen](guidelines.md).
 * **Bestaande aangepaste componenten** Als uw componenten naar behoren werken, kunt u ze op de juiste wijze houden.\
@@ -111,6 +114,7 @@ De volgende lijst maakt een lijst van de beschikbare Componenten van de Kern, di
 | [Downloaden](https://adobe.com/go/aem_cmp_tech_download_v1) | Een downloadbaar element toevoegen aan een pagina | `-` |
 | [Ervaar fragment](https://adobe.com/go/aem_cmp_tech_xf_v1) | Een ervaringsfragment toevoegen aan een pagina | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [Insluiten](https://adobe.com/go/aem_cmp_tech_embed_v1) | Een externe bron in een pagina insluiten | - |
+| [Voortgangsbalk](https://adobe.com/go/aem_cmp_tech_progress_v1) | Een visuele weergave geven van de voortgang in de richting van een doel | - |
 
 ### Aanstaande componenten {#upcoming-components}
 
