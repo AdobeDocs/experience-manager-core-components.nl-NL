@@ -2,9 +2,9 @@
 title: Introductie van kerncomponenten
 description: 'De Componenten van de kern werden geïntroduceerd om robuuste en verlengbare basiscomponenten te verstrekken, die op de recentste technologie en beste praktijken worden voortgebouwd. '
 translation-type: tm+mt
-source-git-commit: c07dc21b1973ec541a1d96047f8a30aca8cfb886
+source-git-commit: b7e864686f31be8c0342b3f16750d276f554d219
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '846'
 ht-degree: 2%
 
 ---
@@ -35,6 +35,7 @@ De kerncomponenten zijn een reeks gestandaardiseerde WCM-componenten (Web Conten
 | Klaar voor cloud | Of het nu gaat om [AEM als Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html), [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)of on-premise, ze werken gewoon. |
 | Veelzijdig | De componenten vertegenwoordigen generische concepten waarmee de auteurs vrijwel elke lay-out kunnen samenstellen. |
 | Configureerbaar | In het inhoudsbeleid [](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) op sjabloonniveau wordt gedefinieerd welke functies de auteurs van de pagina al dan niet mogen gebruiken. |
+| Overtrekbaar | Met de integratie [van de gegevenslaag van de](/help/developing/data-layer/overview.md) Adobe-client kunt u alle aspecten van de ervaring van de bezoeker bijhouden. |
 | Toegankelijk | Ze voldoen aan de [WCAG 2.1-standaard](https://www.w3.org/TR/WCAG21/), bieden ARIA-labels en ondersteunen toetsenbordnavigatie ([bekende problemen](https://github.com/adobe/aem-core-wcm-components/issues?utf8= ✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
 | SEO-vriendelijk | De HTML-uitvoer is semantisch en biedt [schema.org](https://schema.org) -microgegevensannotaties. |
 | WebApp-Ready | Met de [gestroomlijnde JSON-uitvoer](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) is rendering op de client mogelijk, maar [in de context nog steeds](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html). |
@@ -44,7 +45,6 @@ De kerncomponenten zijn een reeks gestandaardiseerde WCM-componenten (Web Conten
 | Versioning | Het [versiebeleid](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) zorgt ervoor dat de Componenten van de Kern uw plaats niet breken wanneer het verbeteren van dingen die u zouden kunnen beïnvloeden. |
 | Lokaliseerbaar | Met slimme verwijzingsresolutie kunnen bepaalde componenten automatisch [corresponderende gelokaliseerde inhoud zoeken en](get-started/localization.md)renderen. |
 | Open Bronnen | Als iets anders is dan zou moeten, [draagt u bij aan uw verbeteringen!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
-| Overtrekbaar | De belangrijkste componenten worden [geïntegreerd met de Laag van de Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md) |
 
 ## De componenten {#the-components}
 
