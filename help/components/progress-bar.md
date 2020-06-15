@@ -2,7 +2,7 @@
 title: Component Voortgangsbalk
 description: De component van de vooruitgangsbar vertegenwoordigt visueel vooruitgang in de richting van een doel
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: cba1d898d7789af7f4045ef9aa052b4da6a6b33a
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 2%
@@ -30,7 +30,7 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM-ve
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Ga naar de [componentbibliotheek](https://adobe.com/go/aem_cmp_library_progress)voor meer informatie over de component Progress Bar en voorbeelden van de bijbehorende configuratieopties en over HTML- en JSON-uitvoer.
+Ga naar de [componentbibliotheek](https://adobe.com/go/aem_cmp_library_progressbar)voor meer informatie over de component Progress Bar en voorbeelden van de bijbehorende configuratieopties en over HTML- en JSON-uitvoer.
 
 ### Technische details {#technical-details}
 
