@@ -2,9 +2,9 @@
 title: Core Components-versies
 description: De Componenten van de kern worden gepubliceerd als versies die meer dan één versie van de zelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies beschikbaar zijn en hoe u de compatibiliteit met Core Components en AEM kunt begrijpen.
 translation-type: tm+mt
-source-git-commit: bbbd918c7caf508866ae6dadbb8c815dca4e900b
+source-git-commit: cef65c3fdf99130086136fe9019ca759bbf1926c
 workflow-type: tm+mt
-source-wordcount: '1714'
+source-wordcount: '1717'
 ht-degree: 12%
 
 ---
@@ -45,12 +45,12 @@ De volgende lijst, waarvan de inhoud op GitHub met volledige versiedetails [](ht
 | [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | Implementatie van JSON-export op alle componenten, introductie van de component Content Fragment | 6.3.1.0 | 6.4.0.0+ | - | - | 8 | 10 oktober 2017 |
 | [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | Verschillende correcties voor de component Image | 6.3.0.0+ | 6.4.0.0+ | - | - | 8 | 4 augustus 2017 |
 | [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | Oplossingen voor pagina-component, afbeeldingscomponent, diverse algemene correcties en verbeteringen | 6.3.0.0+ | 6.4.0.0+ | - | - | 8 | 26 april 2017 |
-| [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | Fixes for animated GIF images in Image component | 6.3.0.0+ | 6.4.0.0+ | - | - | 7 | 22 March 2017 |
-| [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | Initial release of Core Components | 6.3.0.0+ | 6.4.0.0+ | - | - | 7 | 20 March 2017 |
+| [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | Oplossingen voor geanimeerde GIF-afbeeldingen in de afbeeldingscomponent | 6.3.0.0+ | 6.4.0.0+ | - | - | 7 | 22 maart 2017 |
+| [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | Eerste release van Core Components | 6.3.0.0+ | 6.4.0.0+ | - | - | 7 | 20 maart 2017 |
 
 >[!NOTE]
 >
->As with AEM, Adobe recommends that developers use the [latest release and versions of the Core Components](https://github.com/adobe/aem-core-wcm-components/releases/latest) available that is compatible with the version of AEM that they are running in order to benefit from the most up-to-date fixes and features.
+>Net als bij AEM raadt Adobe ontwikkelaars aan de [nieuwste versie en versies van de beschikbare kerncomponenten](https://github.com/adobe/aem-core-wcm-components/releases/latest) te gebruiken die compatibel zijn met de versie van AEM die ze uitvoeren, zodat ze kunnen profiteren van de meest actuele oplossingen en functies.
 
 ### Componentversies en -releases {#component-versions-and-releases}
 
@@ -85,12 +85,13 @@ De volgende lijst specificeert welke versies van welke componenten bevat zijn wa
 | **[Ervaar fragment](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[Insluiten](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 | v1 |
 | **[Voortgangsbalk](components/progress-bar.md)** |  |  |  |  |  |  |  |  |  |  | v1 |
+| **[PDF-viewer](components/pdf-viewer.md)** |  |  |  |  |  |  |  |  |  |  | v1 |
 
 ## Versies en releases {#versions-and-releases}
 
-Core Components are distributed via GitHub. This allows Adobe to more quickly add functionality to the components and also allow for community input outside of the AEM release cycle.
+De Componenten van de kern worden verdeeld via GitHub. Op deze manier kan Adobe sneller functionaliteit toevoegen aan de componenten en kan ook community-invoer buiten de AEM-releasecyclus plaatsvinden.
 
-The Core Components are made available with defined AEM versions with which they are compatible. Dit betekent dat één AEM-versie meerdere versies of versies van de Core Components kan ondersteunen. Dit geeft meer flexibiliteit dan de vroegere Componenten van de Stichting, die aan een specifieke versie van AEM gebonden waren.
+De kerncomponenten worden beschikbaar gesteld met gedefinieerde AEM-versies waarmee ze compatibel zijn. Dit betekent dat één AEM-versie meerdere versies of versies van de Core Components kan ondersteunen. Dit geeft meer flexibiliteit dan de vroegere Componenten van de Stichting, die aan een specifieke versie van AEM gebonden waren.
 
 ### Versies {#versions}
 
