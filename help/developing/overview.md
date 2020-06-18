@@ -2,10 +2,10 @@
 title: Basiscomponenten ontwikkelen
 description: De componenten van de Kern verstrekken robuuste en verlengbare basiscomponenten die eigenschap-rijke mogelijkheden, ononderbroken levering, componentenversioning, moderne implementatie, leuning prijsverhoging, en JSON de uitvoer van inhoud aanbieden.
 translation-type: tm+mt
-source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+source-git-commit: bbbd918c7caf508866ae6dadbb8c815dca4e900b
 workflow-type: tm+mt
-source-wordcount: '1425'
-ht-degree: 1%
+source-wordcount: '1443'
+ht-degree: 2%
 
 ---
 
@@ -38,10 +38,10 @@ Een grotere inspanning op een bestaand project (bijvoorbeeld rebranding of het a
 
 [Met de moderniseringsinstrumenten](http://opensource.adobe.com/aem-modernize-tools/) van AEM kunt u gemakkelijk converteren naar:
 
-* Statische sjablonen naar bewerkbare sjablonen
-* Configuraties ontwerpen naar beleid
-* Elementaire componenten naar kerncomponenten
-* Klassieke interface naar interface met aanraakbediening
+* Statische sjablonen converteren naar bewerkbare sjablonen
+* Ontwerpconfiguraties omzetten naar beleid
+* Elementaire componenten omzetten naar kerncomponenten
+* De klassieke interface converteren naar een interface met aanraakbediening
 
 Raadpleeg de documentatie [](http://opensource.adobe.com/aem-modernize-tools/)bij deze gereedschappen voor meer informatie over het gebruik van deze gereedschappen.
 
@@ -91,7 +91,7 @@ De volgende lijst maakt een lijst van de beschikbare Componenten van de Kern, di
 | [Broodkruimel](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2) | Navigatie in paginahiërarchie | `/libs/foundation/components/breadcrumb` |
 | [Titel](https://adobe.com/go/aem_cmp_tech_title_v2) | H1-H6-titel | `/libs/foundation/components/title /libs/wcm/foundation/components/title` |
 | [Tekst](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text) | RTF | `/libs/foundation/components/text /libs/foundation/components/table /libs/wcm/foundation/components/text` |
-| [Afbeelding](https://adobe.com/go/aem_cmp_tech_image_v2) | Slim en wazig laden van optimale renditiegrootte | `/libs/foundation/components/image /libs/foundation/components/adaptiveimage /libs/foundation/components/logo /libs/foundation/components/mobileimage  /libs/foundation/components/mobilelogo /libs/wcm/foundation/components/image` |
+| [Afbeelding](https://adobe.com/go/aem_cmp_tech_image_v2) | Slim en wazig laden van optimale weergavegrootte | `/libs/foundation/components/image /libs/foundation/components/adaptiveimage /libs/foundation/components/logo /libs/foundation/components/mobileimage  /libs/foundation/components/mobilelogo /libs/wcm/foundation/components/image` |
 | [Lijst](https://adobe.com/go/aem_cmp_tech_list_v2) | Lijst met pagina&#39;s | `/libs/foundation/components/list /libs/foundation/components/mobilelist /libs/wcm/foundation/components/list` |
 | [Delen van sociale media](https://adobe.com/go/aem_cmp_tech_sharing_v1) | Widget Facebook en Pinterest delen | `-` |
 | [Formuliercontainer](https://adobe.com/go/aem_cmp_tech_form_container_v2) | Responsief formulieralineasysteem | `/libs/foundation/components/form/start /libs/foundation/components/form/end` |
@@ -115,6 +115,7 @@ De volgende lijst maakt een lijst van de beschikbare Componenten van de Kern, di
 | [Ervaar fragment](https://adobe.com/go/aem_cmp_tech_xf_v1) | Een ervaringsfragment toevoegen aan een pagina | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [Insluiten](https://adobe.com/go/aem_cmp_tech_embed_v1) | Een externe bron in een pagina insluiten | - |
 | [Voortgangsbalk](https://adobe.com/go/aem_cmp_tech_progress_v1) | Een visuele weergave geven van de voortgang in de richting van een doel | - |
+| [PDF-viewer](https://adobe.com/go/aem_cmp_tech_pdf_viewer_v1) | Hiermee wordt een PDF-document op een pagina gepresenteerd | - |
 
 ### Aanstaande componenten {#upcoming-components}
 
