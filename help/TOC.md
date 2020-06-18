@@ -2,9 +2,9 @@
 sub-product: AEM Core-componenten
 user-guide-title: AEM Core-componenten
 translation-type: tm+mt
-source-git-commit: c07dc21b1973ec541a1d96047f8a30aca8cfb886
+source-git-commit: d344b5bf90099f9df6284cb097e006feac4973a3
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '183'
 ht-degree: 2%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 2%
    + [Lijst](components/list.md)
    + [Navigatie](components/navigation.md)
    + [Pagina](components/page.md)
+   + [PDF-viewer](components/pdf-viewer.md)
    + [Voortgangsbalk](components/progress-bar.md)
    + [Snel zoeken](components/quick-search.md)
    + [Scheidingsteken](components/separator.md)
