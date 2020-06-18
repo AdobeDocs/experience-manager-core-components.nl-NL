@@ -2,17 +2,17 @@
 title: Introductie van kerncomponenten
 description: 'De Componenten van de kern werden geïntroduceerd om robuuste en verlengbare basiscomponenten te verstrekken, die op de recentste technologie en beste praktijken worden voortgebouwd. '
 translation-type: tm+mt
-source-git-commit: b7e864686f31be8c0342b3f16750d276f554d219
+source-git-commit: bbbd918c7caf508866ae6dadbb8c815dca4e900b
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 2%
+source-wordcount: '848'
+ht-degree: 3%
 
 ---
 
 
 # Introductie van kerncomponenten{#core-components-introduction}
 
-In Adobe Experience Manager zijn componenten de structuurelementen die de inhoud vormen van de pagina&#39;s die worden gemaakt. Componenten zijn altijd een fundamenteel element geweest van de AEM-ervaring. Hierdoor is het maken van pagina&#39;s eenvoudig maar krachtig voor de auteur en de ontwikkeling van componenten flexibel en uitbreidbaar voor de ontwikkelaar.
+In Adobe Experience Manager, zijn de componenten de structurele elementen die de inhoud van de pagina&#39;s vormen die worden geschreven. Componenten zijn altijd een fundamenteel element geweest van de AEM-ervaring. Hierdoor is het maken van pagina&#39;s eenvoudig maar krachtig voor de auteur en de ontwikkeling van componenten flexibel en uitbreidbaar voor de ontwikkelaar.
 
 De kerncomponenten zijn een reeks gestandaardiseerde WCM-componenten (Web Content Management) voor AEM om de ontwikkelingstijd te versnellen en de onderhoudskosten van uw websites te verlagen.
 
@@ -32,7 +32,7 @@ De kerncomponenten zijn een reeks gestandaardiseerde WCM-componenten (Web Conten
 |  |  |
 |---|---|
 | Gereed voor productie | De componenten van de Kern zijn 28 robuuste componenten die goed worden getest, wijd worden gebruikt, en die goed presteren. |
-| Klaar voor cloud | Of het nu gaat om [AEM als Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html), [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)of on-premise, ze werken gewoon. |
+| Klaar voor cloud | Of het nu gaat om [AEM als Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html), op [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)of op locatie, ze werken gewoon. |
 | Veelzijdig | De componenten vertegenwoordigen generische concepten waarmee de auteurs vrijwel elke lay-out kunnen samenstellen. |
 | Configureerbaar | In het inhoudsbeleid [](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) op sjabloonniveau wordt gedefinieerd welke functies de auteurs van de pagina al dan niet mogen gebruiken. |
 | Overtrekbaar | Met de integratie [van de gegevenslaag van de](/help/developing/data-layer/overview.md) Adobe-client kunt u alle aspecten van de ervaring van de bezoeker bijhouden. |
@@ -43,8 +43,8 @@ De kerncomponenten zijn een reeks gestandaardiseerde WCM-componenten (Web Conten
 | Doordrukbaar | De componenten voeren het Systeem [van de](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/style-system.html)Stijl uit, en de prijsverhoging volgt [BEM CSS overeenkomsten](http://getbem.com/). |
 | Aanpasbaar | Met verschillende patronen kunt u de HTML [eenvoudig aanpassen](developing/customizing.md), van het aanpassen van de HTML tot het hergebruik van de geavanceerde functionaliteit. |
 | Versioning | Het [versiebeleid](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) zorgt ervoor dat de Componenten van de Kern uw plaats niet breken wanneer het verbeteren van dingen die u zouden kunnen beïnvloeden. |
-| Lokaliseerbaar | Met slimme verwijzingsresolutie kunnen bepaalde componenten automatisch [corresponderende gelokaliseerde inhoud zoeken en](get-started/localization.md)renderen. |
-| Open Bronnen | Als iets anders is dan zou moeten, [draagt u bij aan uw verbeteringen!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
+| Localizable | Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md). |
+| Open Sourced | Als iets anders is dan zou moeten, [draagt u bij aan uw verbeteringen!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
 
 ## De componenten {#the-components}
 
@@ -74,6 +74,7 @@ In de huidige versie van Core Components zijn de volgende componenten beschikbaa
 * [Delen van sociale media](components/sharing.md)
 * [Scheidingsteken](components/separator.md)
 * [Voortgangsbalk](components/progress-bar.md)
+* [PDF-viewer](components/pdf-viewer.md)
 
 ### Containeronderdelen {#container-components}
 
@@ -104,10 +105,10 @@ In de huidige versie van Core Components zijn de volgende componenten beschikbaa
 
 | Kernonderdelen | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 ---------|---------|---------|---------|---------|---------
-| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | Continu | 6.5.0.0+ | 6.4.4.0+ | 8, 11 | 3.3.9+ |
+| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | Continu | 6.5.0.0+ | 6.4.4.0+ | 8, 11 | 3.3.9+ |
 
 Zie [Core Components Versions](versions.md)voor de vereisten van eerdere versies van Core Component.
 
 De componenten van de Kern vereisen het gebruik van [editable malplaatjes](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) en steunen geen Klassieke UI noch statische malplaatjes. Controleer indien nodig de [moderniseringsgereedschappen](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) van AEM om uw project bij te werken met deze moderne AEM-functies.
 
-Als u uw lokale ontwikkelomgeving wilt instellen, raadpleegt u [dit overzicht voor AEM als Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) of dit document [voor oudere versies van AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
+Als u uw lokale ontwikkelomgeving wilt instellen, raadpleegt u [dit overzicht voor AEM als Cloud Service-SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) of dit document [voor oudere versies van AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
