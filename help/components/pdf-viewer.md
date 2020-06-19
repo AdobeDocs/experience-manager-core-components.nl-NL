@@ -2,9 +2,9 @@
 title: PDF Viewer-component
 description: Met de component PDF Viewer kunt u een PDF-document weergeven.
 translation-type: tm+mt
-source-git-commit: 0df759a020020c21d776eb8f45d40cb7aff45cea
+source-git-commit: b08fc5ec49126f7be19b7433a3d71de877d9e442
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '644'
 ht-degree: 1%
 
 ---
@@ -33,11 +33,11 @@ Zie het document [Core Components Versions](/help/versions.md)voor meer informat
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Ga naar de [componentbibliotheek](https://adobe.com/go/aem_cmp_library_pdf_viewer)om de PDF Viewer Component te bekijken en voorbeelden van de bijbehorende configuratieopties en HTML- en JSON-uitvoer te bekijken.
+Ga naar de [componentbibliotheek](https://adobe.com/go/aem_cmp_library_pdfviewer)om de PDF Viewer Component te bekijken en voorbeelden van de bijbehorende configuratieopties en HTML- en JSON-uitvoer te bekijken.
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Kijker PDF [kan op GitHub](https://adobe.com/go/aem_cmp_tech_pdf-viewer_v1)worden gevonden.
+De recentste technische documentatie over de Component van de Kijker PDF [kan op GitHub](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1)worden gevonden.
 
 Meer details over het ontwikkelen van de Componenten van de Kern kunnen in de de ontwikkelaarsdocumentatie [van de](/help/developing/overview.md)Componenten worden gevonden.
 
