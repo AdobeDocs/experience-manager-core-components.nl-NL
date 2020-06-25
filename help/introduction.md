@@ -2,7 +2,7 @@
 title: Introductie van kerncomponenten
 description: 'De Componenten van de kern werden geïntroduceerd om robuuste en verlengbare basiscomponenten te verstrekken, die op de recentste technologie en beste praktijken worden voortgebouwd. '
 translation-type: tm+mt
-source-git-commit: bbbd918c7caf508866ae6dadbb8c815dca4e900b
+source-git-commit: 5a953588f83e13e50924a2bd9afa2466e3ef6f4d
 workflow-type: tm+mt
 source-wordcount: '848'
 ht-degree: 3%
@@ -43,8 +43,8 @@ De kerncomponenten zijn een reeks gestandaardiseerde WCM-componenten (Web Conten
 | Doordrukbaar | De componenten voeren het Systeem [van de](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/style-system.html)Stijl uit, en de prijsverhoging volgt [BEM CSS overeenkomsten](http://getbem.com/). |
 | Aanpasbaar | Met verschillende patronen kunt u de HTML [eenvoudig aanpassen](developing/customizing.md), van het aanpassen van de HTML tot het hergebruik van de geavanceerde functionaliteit. |
 | Versioning | Het [versiebeleid](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) zorgt ervoor dat de Componenten van de Kern uw plaats niet breken wanneer het verbeteren van dingen die u zouden kunnen beïnvloeden. |
-| Localizable | Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md). |
-| Open Sourced | Als iets anders is dan zou moeten, [draagt u bij aan uw verbeteringen!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
+| Lokaliseerbaar | Met slimme verwijzingsresolutie kunnen bepaalde componenten automatisch [corresponderende gelokaliseerde inhoud zoeken en](get-started/localization.md)renderen. |
+| Open Bronnen | Als iets anders is dan zou moeten, [draagt u bij aan uw verbeteringen!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
 
 ## De componenten {#the-components}
 
@@ -105,7 +105,7 @@ In de huidige versie van Core Components zijn de volgende componenten beschikbaa
 
 | Kernonderdelen | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 ---------|---------|---------|---------|---------|---------
-| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | Continu | 6.5.0.0+ | 6.4.4.0+ | 8, 11 | 3.3.9+ |
+| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | Continu | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
 
 Zie [Core Components Versions](versions.md)voor de vereisten van eerdere versies van Core Component.
 
