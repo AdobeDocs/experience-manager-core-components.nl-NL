@@ -2,21 +2,21 @@
 title: De gegevenslaag van de Adobe-client gebruiken met de kerncomponenten
 description: De gegevenslaag van de Adobe-client gebruiken met de kerncomponenten
 translation-type: tm+mt
-source-git-commit: 539a4250c954ac830731a9ecf010e129b2cf9c3a
+source-git-commit: 57116fa8f8a71259400881609775af4047cd2225
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
 
 
-# Using the Adobe Client Data Layer with the Core Components {#data-layer-core-components}
+# De gegevenslaag van de Adobe-client gebruiken met de kerncomponenten {#data-layer-core-components}
 
 Het doel van de gegevenslaag van de Cliënt van Adobe is de inspanning aan instrumentwebsites te verminderen door een gestandaardiseerde methode te verstrekken om om het even welk soort gegevens voor om het even welk manuscript bloot te stellen en toegang te hebben.
 
-The Adobe Client Data Layer is platform agnostic, but is fully integrated into the Core Components for use with AEM.
+De gegevenslaag van de Cliënt van Adobe is platform agnostic, maar is volledig geïntegreerd in de Componenten van de Kern voor gebruik met AEM.
 
-Like the Core Components, the code for the Adobe Client Data Layer is available on GitHub along with its developer documentation. Dit document geeft een overzicht van hoe de Componenten van de Kern met de Laag van Gegevens in wisselwerking staan, maar de volledige technische details worden uitgesteld aan de documentatie GitHub.
+Zoals de Componenten van de Kern, is de code voor de Laag van Gegevens van de Cliënt van Adobe beschikbaar op GitHub samen met zijn ontwikkelaardocumentatie. Dit document geeft een overzicht van hoe de Componenten van de Kern met de Laag van Gegevens in wisselwerking staan, maar de volledige technische details worden uitgesteld aan de documentatie GitHub.
 
 >[!TIP]
 >
@@ -29,20 +29,21 @@ Like the Core Components, the code for the Adobe Client Data Layer is available 
 
 Vanaf versie 2.9.0 van de Componenten van de Kern, wordt de Laag van Gegevens gedistribueerd met de Componenten van de Kern als cliëntlib. Installatie is niet nodig.
 
-However the Data Layer is not activated by default. To activate the Data Layer
+De gegevenslaag wordt echter niet standaard geactiveerd. De gegevenslaag activeren
 
-1. Create the following structure below the `/conf` node:
+1. Maak de volgende structuur onder het `/conf` knooppunt:
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
-1. Add a boolean property called `enabled` and set it to `true`.
-1. Add a `sling:configRef` property to the `jcr:content` node of your site below `/content` (e.g. `/content/<mySite>/jcr:content`) and set it to `/conf/<mySite>`.
+   * Type knooppunt: `nt:unstructured`
+1. Voeg een booleaanse eigenschap met de naam toe `enabled` en stel deze in op `true`.
+1. Voeg hieronder een `sling:configRef` eigenschap toe aan het `jcr:content` knooppunt van uw site `/content` (bijvoorbeeld `/content/<mySite>/jcr:content`) en instellen op `/conf/<mySite>`.
 
-Once enabled, you can verify the activation by loading a page of the site outside of the editor. When you inspect the page you will see that the Adobe Client Data Layer is loaded.
+Zodra toegelaten, kunt u de activering verifiëren door een pagina van de plaats buiten de redacteur te laden. Wanneer u de pagina inspecteert, ziet u dat de gegevenslaag van de Cliënt van Adobe wordt geladen.
 
-## Core Components Data Schemas {#data-schemas}
+## Gegevensschema&#39;s voor kerncomponenten {#data-schemas}
 
 Het volgende is een lijst van schema&#39;s die de Componenten van de Kern met de Laag van Gegevens gebruiken.
 
-### Component/Container Item Schema {#item}
+### Component-/containeritemschema {#item}
 
 Het schema Component/Container Item wordt gebruikt in de volgende componenten:
 
@@ -96,7 +97,7 @@ id: {
 
 ### Containerschema {#container}
 
-The Container schema is used by the following components:
+Het containerschema wordt gebruikt door de volgende componenten:
 
 * [Accordeon](/help/components/accordion.md)
 * [Tabs](/help/components/tabs.md)
