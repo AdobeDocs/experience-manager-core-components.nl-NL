@@ -2,7 +2,7 @@
 title: AEM-projectarchetype gebruiken
 description: Gedetailleerde gebruiksinstructies voor het AEM Project Archetype
 translation-type: tm+mt
-source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+source-git-commit: 55b4dde320dcb38935b55b273d4df8d0cc2f16e6
 workflow-type: tm+mt
 source-wordcount: '2057'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # AEM-projectarchetype {#aem-project-archetype}
 
-Het AEM Project Archetype leidt tot een minimaal, op best-praktijken-gebaseerd project van de Manager van de Ervaring van Adobe als uitgangspunt voor uw eigen projecten AEM. De eigenschappen die moeten worden verstrekt wanneer het gebruiken van dit archetype staat u toe om de namen voor alle delen van dit project te specificeren evenals bepaalde facultatieve eigenschappen te controleren.
+Het AEM Project Archetype leidt tot een minimaal, op best-praktijken-gebaseerd project van de Adobe Experience Manager als uitgangspunt voor uw eigen projecten AEM. De eigenschappen die moeten worden verstrekt wanneer het gebruiken van dit archetype staat u toe om de namen voor alle delen van dit project te specificeren evenals bepaalde facultatieve eigenschappen te controleren.
 
 ## Waarom het Archetype gebruiken {#why-use-the-archetype}
 
@@ -24,7 +24,7 @@ Natuurlijk zijn er vele elementen die in een succesvol AEM- project gaan, maar h
 
 Met het projectarchetype is het gemakkelijk om aan de slag te gaan met de ontwikkeling van AEM. U kunt de eerste stappen op verschillende manieren uitvoeren.
 
-* WKND-zelfstudie - Voor een geweldige introductie van het ontwikkelen op AEM, inclusief hoe u het archetype optimaal kunt benutten, raadpleegt u de [Getting Started with AEM Sites - WKND-zelfstudie](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) voor een praktisch voorbeeld waarin u het archetype gebruikt om een eenvoudig project te implementeren.
+* WKND-zelfstudie - Voor een grote introductie van het ontwikkelen van een AEM, inclusief hoe u het archetype kunt benutten, raadpleegt u de [Getting Started with AEM Sites - WKND-zelfstudie](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) voor een praktisch voorbeeld waarin u het archetype gebruikt om een eenvoudig project te implementeren.
 * WKND-gebeurtenissenzelfstudie - Als u bijzonder geïnteresseerd bent in de ontwikkeling van één pagina (SPA) voor toepassingen op AEM, moet u de speciale [WKND-gebeurtenissenzelfstudie](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)uitchecken.
 * Download en start alleen! - U kunt het huidige project archetype gemakkelijk downloaden beschikbaar op GitHub en uw eerste project tot stand brengen door de eenvoudige hieronder [stappen te](#how-to-use-the-archetype)volgen.
 
@@ -72,7 +72,7 @@ mvn -B archetype:generate \
 
 * Stel dit in `XX` op het [versienummer](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md) van het nieuwste AEM-projecttype.
 * Set `aemVersion=cloud` for [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html);\
-   Stel deze optie in `aemVersion=6.5.0` voor [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)of on-premise.
+   Instellen `aemVersion=6.5.0` voor [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)of on-premise.
 De afhankelijkheid van kerncomponenten wordt alleen toegevoegd voor versies met een andere naam dan de cloud, aangezien de Core Components OTB voor AEM als CloudService wordt geleverd.
 * Pas `appTitle="My Site"` de titel van de website en de groepen componenten aan.
 * Pas `appId="mysite"` aan om Maven artifactId, de component, config en de namen van de inhoudsomslag, evenals de namen van de cliëntbibliotheek te bepalen.
@@ -97,19 +97,21 @@ De volgende eigenschappen zijn beschikbaar wanneer het creëren van een project 
 | `groupId` |  | Basis-Maven-groep-id (bijvoorbeeld `"com.mysite"`). |
 | `package` | *`${groupId}`* | Java-bronpakket (bijvoorbeeld `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Projectversie (bijvoorbeeld `1.0-SNAPSHOT`). |
-| `aemVersion` | `6.5.0` | Doel-AEM-versie (kan `cloud` voor [AEM als cloudservice](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)worden gebruikt; of `6.5.0`, `6.4.4`, of `6.3.3` voor [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) of on-premise). |
+| `aemVersion` | `6.5.0` | Target AEM-versie (kan `cloud` voor [AEM als Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)zijn; of `6.5.0`, `6.4.4`, of `6.3.3` voor [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) of on-premise). |
 | `sdkVersion` | `latest` | Wanneer `aemVersion=cloud` een [SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) -versie kan worden opgegeven (bijvoorbeeld `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Bevat een configuratie van de dispatcher voor de cloud of voor AMS/on-premise, afhankelijk van de waarde van `aemVersion` (kan zijn `y` of `n`). |
 | `frontendModule` | `none` | Omvat een vooraf ingebouwd module Webpack die de cliëntbibliotheken (kan `general` of `none` voor regelmatige plaatsen zijn) produceert; kan `angular` of `react` voor een Enige PaginaApp zijn die de Redacteur [van het](https://docs.adobe.com/content/help/en/experience-manager-65/developing/headless/spas/spa-overview.html)KUUROORD) uitvoert. |
 | `languageCountry` | `en_us` | Taal- en landcode waarmee de inhoudsstructuur wordt gemaakt (bijvoorbeeld `en_us`). |
-| `singleCountry` | `y` | Bevat een taalstramieninhoudsstructuur (kan zijn `y`, of `n`). |
+| `singleCountry` | `y` | Omvat een taal-master inhoudsstructuur (kan zijn, `y`of `n`). |
 | `includeExamples` | `y` | Bevat een voorbeeldsite van de [componentbibliotheek](https://www.aemcomponents.dev/) (kan `y`of `n`). |
 | `includeErrorHandler` | `n` | Bevat een aangepaste 404-responspagina die globaal is voor de gehele instantie (kan zijn `y` of `n`). |
 
 >[!NOTE]
+>
 > Als het archetype de eerste keer op interactieve wijze wordt uitgevoerd, kunnen de eigenschappen met standaardwaarden niet worden veranderd (zie [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) voor meer details). De waarde kan worden gewijzigd wanneer de vastgoedbevestiging aan het einde wordt geweigerd en de vragenlijst wordt herhaald, of door de parameter in de opdrachtregel door te geven (bijvoorbeeld `-DoptionIncludeExamples=n`).
 
 >[!NOTE]
+>
 >Wanneer het lopen op Vensters en het produceren van de berichtcherconfiguratie, zou u in een opgeheven bevelherinnering of Subsysteem van Vensters voor Linux (zie [kwestie 329](https://github.com/adobe/aem-project-archetype/issues/329)) moeten lopen.
 
 ### Profielen {#profiles}
