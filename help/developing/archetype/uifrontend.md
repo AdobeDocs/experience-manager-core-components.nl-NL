@@ -2,7 +2,10 @@
 title: AEM-projectarchetype front-end build
 description: Een projectmalplaatje voor op AEM-Gebaseerde toepassingen
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 55b4dde320dcb38935b55b273d4df8d0cc2f16e6
+workflow-type: tm+mt
+source-wordcount: '1613'
+ht-degree: 0%
 
 ---
 
@@ -29,6 +32,7 @@ Als u deze functie uitvoert, `npm run dev` wordt het constructieproces op de voo
 Wanneer het volledige AEM projectarchetype gebruikend `mvn clean install -PautoInstallPackage` alle projectartefacten met inbegrip van ClientLibs dan aan de instantie AEM wordt geduwd.
 
 >[!TIP]
+>
 >Meer informatie over ClientLibs vindt u in de [AEM-ontwikkelingsdocumentatie](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) en [hoe de module ui.frontend deze hieronder](#clientlib-generation)gebruikt.
 
 ## Overzicht van ClientLibs {#clientlibs}
@@ -145,6 +149,7 @@ De module ui.frontend compileert de code onder de `ui.frontend/src` omslag en ou
 * Brontoewijzing - alleen ontwikkelingsbuild
 
 >[!NOTE]
+>
 >De voorkant bouwt optie gebruikt dev-slechts en prod-enige webpack configuratiedossiers die een gemeenschappelijk configuratiedossier delen. Op deze manier kunnen de ontwikkelings- en productiemontages onafhankelijk worden gewijzigd.
 
 ### Client Library Generation {#clientlib-generation}
