@@ -2,9 +2,9 @@
 title: Introductie van kerncomponenten
 description: 'De Componenten van de kern werden geïntroduceerd om robuuste en verlengbare basiscomponenten te verstrekken, die op de recentste technologie en beste praktijken worden voortgebouwd. '
 translation-type: tm+mt
-source-git-commit: 5a953588f83e13e50924a2bd9afa2466e3ef6f4d
+source-git-commit: 6d21773dbf09b5e6622c51c662c4070e0242b7d6
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '863'
 ht-degree: 3%
 
 ---
@@ -39,6 +39,7 @@ De kerncomponenten zijn een reeks gestandaardiseerde WCM-componenten (Web Conten
 | Toegankelijk | Ze voldoen aan de [WCAG 2.1-standaard](https://www.w3.org/TR/WCAG21/), bieden ARIA-labels en ondersteunen toetsenbordnavigatie ([bekende problemen](https://github.com/adobe/aem-core-wcm-components/issues?utf8= ✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
 | SEO-vriendelijk | De HTML-uitvoer is semantisch en biedt [schema.org](https://schema.org) -microgegevensannotaties. |
 | WebApp-Ready | Met de [gestroomlijnde JSON-uitvoer](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) is rendering op de client mogelijk, maar [in de context nog steeds](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html). |
+| AMP-ondersteuning | De componenten hebben ingebouwde [ondersteuning voor de AMP-standaard,](/help/developing/amp.md) waardoor uw mobiele ervaring sneller wordt. |
 | Design Kit | Met een [UI-kit voor Adobe XD](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) kunnen ontwerpers draadframes maken die zij vervolgens naar wens [kunnen](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd)opmaken. |
 | Doordrukbaar | De componenten voeren het Systeem [van de](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/style-system.html)Stijl uit, en de prijsverhoging volgt [BEM CSS overeenkomsten](http://getbem.com/). |
 | Aanpasbaar | Met verschillende patronen kunt u de HTML [eenvoudig aanpassen](developing/customizing.md), van het aanpassen van de HTML tot het hergebruik van de geavanceerde functionaliteit. |
@@ -105,7 +106,7 @@ In de huidige versie van Core Components zijn de volgende componenten beschikbaa
 
 | Kernonderdelen | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 ---------|---------|---------|---------|---------|---------
-| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | Continu | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
+| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | Continu | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
 
 Zie [Core Components Versions](versions.md)voor de vereisten van eerdere versies van Core Component.
 
