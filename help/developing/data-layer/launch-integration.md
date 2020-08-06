@@ -1,8 +1,8 @@
 ---
-title: De gegevenslaag van de Cliënt van Adobe gebruiken om de Componenten van de Kern en de Lancering van Adobe te integreren
-description: Adobe Launch configureren voor het registreren van Core Component-gebeurtenissen met Adobe Launch
+title: De gegevenslaag van de Cliënt van Adobe gebruiken om de Componenten van de Kern en de Lancering van de Adobe te integreren
+description: Hoe te om Adobe Launch te vormen om de gebeurtenissen van de Component van de Kern te registreren gebruikend Adobe Launch
 translation-type: tm+mt
-source-git-commit: f930a0d6004a29369b189137dd9c52e637ea3a61
+source-git-commit: 85fb3612aed12b7bfdc05f0a569ae7c7364e6121
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 0%
@@ -10,9 +10,9 @@ ht-degree: 0%
 ---
 
 
-# De gegevenslaag van de Cliënt van Adobe gebruiken om de Componenten van de Kern en de Lancering van Adobe te integreren {#launch-integration}
+# De gegevenslaag van de Cliënt van Adobe gebruiken om de Componenten van de Kern en de Lancering van de Adobe te integreren {#launch-integration}
 
-De kerncomponenten kunnen worden geïntegreerd met Adobe Launch met behulp van de Adobe Client Data Layer. In dit document wordt beschreven hoe u Adobe Launch configureert om klikgebeurtenissen voor afbeeldingscomponenten bij te houden.
+De Componenten van de Kern kunnen met de Opstarten van de Adobe worden geïntegreerd door de Laag van de Gegevens van de Cliënt van de Adobe te gebruiken. In dit document wordt beschreven hoe u Adobe Launch configureert om klikgebeurtenissen voor afbeeldingscomponenten bij te houden.
 
 Wanneer gevormd, zal de Lancering de volgende output in de browser console veroorzaken wanneer een component van het Beeld van de Kern wordt geklikt.
 
@@ -20,14 +20,14 @@ Wanneer gevormd, zal de Lancering de volgende output in de browser console veroo
 
 ## Integratie met AEM starten {#launch-aem}
 
-De eerste keer dat Adobe Launch wordt gestart, moet deze zijn geïntegreerd met uw AEM-site.
+De eerste keer dat Adobe wordt gestart, moet worden geïntegreerd met uw AEM.
 
-### Stap 1 - Een integratie maken in Adobe I/O {#create-io-integration}
+### Stap 1 - creeer een Integratie in Adobe I/O {#create-io-integration}
 
-Meld u eerst aan bij de Adobe I/O om een integratie te configureren.
+Meld u eerst aan bij Adobe I/O om een integratie te configureren.
 
-1. Ga naar `https://console.adobe.io`.
-1. Meld u aan met uw Adobe-id.
+1. Go to `https://console.adobe.io`.
+1. Meld u aan met uw Adobe ID.
 1. Klik in de sectie Snel starten op Integratie **** maken.
 1. Selecteer **Toegang tot API** en klik **verdergaan**.
 1. Selecteer **Experience Platform Launch API** onder Adobe Experience Platform en klik op **Doorgaan**.
@@ -36,49 +36,49 @@ Meld u eerst aan bij de Adobe I/O om een integratie te configureren.
 
 In AEM moet u de integratie bepalen die u in Adobe I/O begon te vormen.
 
-1. Ga naar de startpagina van AEM, klik **Hulpmiddelen -> Veiligheid -> de Configuraties** van Adobe IMS.
+1. Ga naar de AEM homepage, klik **Hulpmiddelen -> Veiligheid -> de Configuraties** van IMS van de Adobe.
 1. Klik op **Maken**.
-1. Als **Cloud-oplossing** selecteert u **Adobe Launch**.
+1. Als **Cloud-oplossing** selecteert u **Adobe starten**.
 1. Schakel **Nieuw certificaat** maken in.
 1. Voer een alias voor het certificaat in, bijvoorbeeld een **aem-launch-certificate**.
 1. Klik op **Certificaat** maken en klik in het pop-upvenster op **OK** om het certificaat te maken.
 1. Klik op Openbare sleutel **** downloaden en klik in het pop-upvenster op **Downloaden**.
 
-### Stap 3 - Adobe I/O-configuratie voltooien {#finish-io}
+### Stap 3 - Voltooi Adobe I/O-configuratie {#finish-io}
 
-Met het certificaat en de sleutel die in de configuratie van AEM IMS worden gecreeerd, kunt u uw configuratie van Adobe I/O voltooien.
+Met het certificaat en de sleutel die in AEM configuratie IMS worden gecreeerd, kunt u uw Adobe I/O configuratie voltooien.
 
 1. Ga terug naar de Adobe I/O-console zoals in [stap 1.](#create-io-integration)
-1. Voer in het venster **Een nieuwe integratie** maken een naam en beschrijving in, zoals de gegevenslaag **voor het starten van** AEM.
+1. Voer in het **venster Een nieuwe integratie** maken een naam en beschrijving in, zoals de gegevenslaag **** AEM Starten.
 1. Upload onder **Openbare sleutelcertificaten** het certificaat dat u in [stap 2 hebt gemaakt.](#ims-configuration)
 1. Selecteer het profiel **Start - Prod**.
 1. Klik op Integratie **maken**.
-1. Klik op **Doorgaan naar integratiegegevens**. U hebt deze details later nodig om de IMS-configuratie in uw AEM-instantie te voltooien.
+1. Klik op **Doorgaan naar integratiegegevens**. U zult deze details later nodig hebben om de configuratie IMS in uw AEM te voltooien.
 
 ### Stap 4 - Voltooi IMS-configuratie {#finish-ims}
 
-Met de Adobe I/O-integratiedetails kunt u de AEM IMS-configuratie voltooien.
+Met de Adobe I/O integratiedetails, kunt u de AEM configuratie voltooien IMS.
 
-1. Klik op het tabblad AEM op het tabblad Configuratie **technische account van** Adobe IMS van [stap 2 op](#ims-configuration) Volgende ****.
+1. Klik op het tabblad AEM op het tabblad Configuratie **technische account van** Adobe IMS vanuit [stap 2 op](#ims-configuration) Volgende ****.
 1. Voer een titel in, zoals de **IMS-configuratie voor het starten** van Adobe.
 1. Kopieer op het tabblad Adobe I/O de **API-sleutel (client-id)**.
 1. Plak op het tabblad AEM de voormalige gekopieerde sleutel in het veld **** API-sleutel.
-1. Klik in Adobe I/O op **Client Secret** ophalen en kopieer deze.
-1. Plak het op het tabblad AEM in het veld **Clientgeheim** .
+1. Klik in Adobe I/O op **Clientgeheim** ophalen en kopieer het.
+1. Op het tabblad AEM plakt u deze in het veld **Clientgeheim** .
 1. Selecteer op het tabblad Adobe I/O het tabblad **JWT** en kopieer de URL, bijvoorbeeld `https://ims-na1.adobelogin.com`.
 1. Plak op het tabblad AEM de URL in het veld **Autorisatieserver** .
-1. Kopieer op het tabblad Adobe I/O de JWT-payload (de code tussen de haakjes).
+1. Kopieer op het tabblad Adobe I/O de JWT-payload (de code tussen de accolades).
 1. Plak het op het tabblad AEM in het veld **Payload** .
 1. Klik op **Maken** om de IMS-configuratie in AEM te maken.
 
-### Stap 5a - Een eigenschap maken in Adobe Launch {#create-property}
+### Stap 5a - een bezit in de Lancering van Adobe tot stand brengen {#create-property}
 
 Een eigenschap definieert functies die met Starten op uw site kunnen worden geïnjecteerd.
 
-1. Ga naar Adobe Launch om `https://launch.adobe.com`.
-1. Meld u aan met uw Adobe-id.
+1. Ga naar Adobe Starten bij `https://launch.adobe.com`.
+1. Meld u aan met uw Adobe ID.
 1. Klik op **Nieuwe eigenschap**.
-1. Voer een naam in, zoals AEM-gegevenslaag **** starten.
+1. Voer een naam in, zoals **Opstarten AEM gegevenslaag**.
 1. Voer uw domein in.
 1. Click **Save**.
 
@@ -86,7 +86,7 @@ Een eigenschap definieert functies die met Starten op uw site kunnen worden geï
 
 Met de eigenschap die u hebt gemaakt, kunt u een regel definiëren die aangeeft wat er moet gebeuren wanneer een handeling plaatsvindt.
 
-1. Klik op de nieuw toegevoegde eigenschap uit [stap 5](#create-property) AEM-gegevenslaag **** starten.
+1. Klik op de nieuwe eigenschap uit [stap 5](#create-property) **Launch AEM Data Layer**.
 1. Selecteer het tabblad **Regels** en klik op **Nieuwe regel** maken.
 1. Voer een naam in, bijvoorbeeld **klikken** op afbeelding.
 1. Klik op de knop **+** onder **Gebeurtenissen**.
@@ -101,9 +101,9 @@ Met de eigenschap die u hebt gemaakt, kunt u een regel definiëren die aangeeft 
 
 ### Stap 6 - Publiceer de Regel van de Lancering {#publish-rule}
 
-Als u de nieuwe regel beschikbaar wilt maken voor uw AEM-site, moet u deze publiceren.
+Als u de nieuwe regel beschikbaar wilt maken voor uw AEM site, moet u deze publiceren.
 
-1. Selecteer op het tabblad **Adobe Launch** het tabblad **Publishing** .
+1. Selecteer op het tabblad **Adobe starten** het tabblad **Publiceren** .
 1. Klik op Nieuwe bibliotheek **toevoegen**.
 1. Voer de gewenste **naam** in, bijvoorbeeld **demo-1**.
 1. Selecteer voor **Milieu** de juiste keuze, zoals **Ontwikkeling (ontwikkeling)**.
@@ -121,32 +121,32 @@ Als u de nieuwe regel beschikbaar wilt maken voor uw AEM-site, moet u deze publi
 
 ### Stap 7 - Cloud Configurations inschakelen voor uw site {#enable-configurations}
 
-Als u de integratie wilt gebruiken, moet deze worden toegewezen in AEM als een cloudconfiguratie.
+Als u de integratie wilt gebruiken, moet deze in AEM als cloudconfiguratie worden toegewezen.
 
-1. In the AEM console, click **Tools -> General -> Configuration Browser**.
+1. Klik in de AEM op **Gereedschappen -> Algemeen -> Configuratiebrowser**.
 1. Controleer de Voorbeelden **van de** Componenten van de Kern en klik **Eigenschappen**.
-1. Check the **Cloud Configurations** and click **Save &amp; Close**.
+1. Controleer de **Cloud Configurations** en klik op **Opslaan en sluiten**.
 
-### Step 8 - Create a Launch Integration with Your Site in AEM {#create-launch-integration}
+### Stap 8 - creeer een Integratie van de Lancering met Uw Plaats in AEM {#create-launch-integration}
 
 Een integratie van de Lancering is noodzakelijk voor AEM om met Lancering te werken
 
-1. In the AEM console, click **Tools -> Cloud Services -> Adobe Launch Configurations**.
-1. Select **Core Component Examples** and click **Create**.
-1. Enter a **Title** such as **Launch configuration**.
-1. Select the IMS configuration that you created in [step 4.](#finish-ims)
+1. Klik in de AEM op **Gereedschappen -> Cloud Services -> Configuraties** van Adobe starten.
+1. Selecteer Voorbeelden van **kerncomponenten** en klik op **Maken**.
+1. Voer een **titel** in, zoals de configuratie **** Starten.
+1. Selecteer de IMS-configuratie die u in [stap 4 hebt gemaakt.](#finish-ims)
 1. Als **Bedrijf** selecteert u de gewenste keuze.
-1. As **Property** select the newly added Launch property created in [step 5.](#create-property)
-1. Move the **Include Production Code on Author** slider to the right and click **Next**.
+1. Als **Eigenschap** selecteert u de nieuwe, in [stap 5 gemaakte opstarteigenschap.](#create-property)
+1. Verplaats de schuifregelaar **Inclusief productiecode op auteur** naar rechts en klik op **Volgende**.
 1. Klik op **Next**.
 1. Klik op **Next**.
 1. Klik op **Maken**.
 
-### Stap 9 - Verbind uw AEM Plaats met de Integratie van de Lancering {#connect-aem}
+### Stap 9 - Verbind uw AEM met de Integratie van de Lancering {#connect-aem}
 
 Voor AEM om de integratie van de Lancering te gebruiken moet het als wolkenconfiguratie worden toegewezen.
 
-1. Klik in de AEM-console op **Sites** en controleer de site **Core** Components.
+1. Klik in de AEM op **Sites** en controleer de site **Core** Components.
 1. Klik op **Eigenschappen**.
 1. Selecteer het tabblad **Geavanceerd** .
 1. Als **Cloud-configuratie** selecteert u de Voorbeelden **van** kerncomponenten en klikt u op **Selecteren**.
@@ -163,14 +163,14 @@ Test of de stappen tot nu toe succesvol zijn geweest.
 
 Nu de Integratie tussen AEM en Lancering opstelling is, kunnen wij met de Laag van Gegevens integreren.
 
-### Stap 1 - Een regel maken in Adobe Launch {#create-rule}
+### Stap 1 - creeer een regel in de Lancering van Adobe {#create-rule}
 
-Herhaal de stappen in [stap 5](#launch-rule) om een nieuwe regel toe te voegen in Adobe Launch met de volgende waarden.
+Herhaal de stappen in [stap 5](#launch-rule) om een nieuwe regel toe te voegen bij het starten van de Adobe met de volgende waarden.
 
 * Naam: `image-click-data-layer`
 * GEBEURTENISSEN:
    * Extensie: Kern
-   * Event Type: DOM Ready
+   * Type gebeurtenis: gereed voor DOM
 * ACTIES:
    * Extensie: Kern
    * Type handeling: Aangepaste code
@@ -184,13 +184,13 @@ Herhaal de stappen in [stap 5](#launch-rule) om een nieuwe regel toe te voegen i
         adobeDataLayer.addEventListener('image clicked', onImageClick);
       ```
 
-### Stap 2 - Publiceer de Regel van de Lancering om het aan Uw Plaats van AEM ter beschikking te stellen {#publish-rule-2}
+### Stap 2 - Publiceer de Regel van de Lancering om het aan Uw Plaats van de AEM ter beschikking te stellen {#publish-rule-2}
 
 Herhaal de stappen in [stap 6](#publish-rule) om de nieuwe regel te publiceren.
 
 ### Stap 3 - verifieer dat de Logica van de Lancering op de Pagina wordt toegepast {#verify}
 
 1. Open de pagina Afbeelding van de Core Components Library in de voorvertoningsmodus: `http://<host&gt;:<port&gt;/editor.html/content/core-components-examples/library/page-authoring/image.html`
-1. Click an image and verify that the following message is displayed in the browser console:
+1. Klik op een afbeelding en controleer of het volgende bericht wordt weergegeven in de browserconsole:
 
    ![Uitvoer gegevenslaagconsole](/help/assets/data-layer-console-output.png)
