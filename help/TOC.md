@@ -1,17 +1,17 @@
 ---
-sub-product: AEM Core-componenten
-user-guide-title: AEM Core-componenten
+sub-product: AEM kerncomponenten
+user-guide-title: AEM kerncomponenten
 user-guide-description: Use the extensible Core Components to let authors easily create content.
 translation-type: tm+mt
-source-git-commit: dc8d63bca14996f230d4f8e68b7706d315955e06
+source-git-commit: 77123951c73f41f1673c7ca04f3af87f08e73775
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '191'
 ht-degree: 2%
 
 ---
 
 
-# Help bij AEM Core Components {#using}
+# Help AEM Core Components {#using}
 
 + [Introductie van kerncomponenten](introduction.md)
 + [Paden naar succes](developing/success.md)
@@ -72,11 +72,13 @@ ht-degree: 2%
    + [Kerncomponenten aanpassen](developing/customizing.md)
    + [Componentrichtlijnen](developing/guidelines.md)
    + [AMP-ondersteuning](developing/amp.md)
+   + [Contextbewuste configuraties](developing/context-aware-configs.md)
    + Gegevenslaag Adobe-client {#data-layer}
-      + [Core Components and the Adobe Client Data Layer](developing/data-layer/overview.md)
+      + [De Componenten van de kern en de Gegevens van de Adobe Cliënt Laag](developing/data-layer/overview.md)
       + [Integratie met Adobe Launch](developing/data-layer/launch-integration.md)
       + [Integratie met Adobe Analytics](developing/data-layer/analytics-integration.md)
-   + AEM-projectarchetype {#archetype}
+      + [De gegevenslaag uitbreiden](developing/data-layer/extending.md)
+   + Projectarchetype AEM {#archetype}
       + [Overzicht van Archetype](developing/archetype/overview.md)
       + [Archetype gebruiken](developing/archetype/using.md)
       + [Kernmodule](developing/archetype/core.md)
