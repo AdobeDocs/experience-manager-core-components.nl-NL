@@ -1,35 +1,34 @@
 ---
-title: De gegevenslaag van de Adobe-client gebruiken met de kerncomponenten
-description: De gegevenslaag van de Adobe-client gebruiken met de kerncomponenten
+title: Het gebruiken van de Laag van de Gegevens van de Cliënt van Adobe met de Componenten van de Kern
+description: Het gebruiken van de Laag van de Gegevens van de Cliënt van Adobe met de Componenten van de Kern
 translation-type: tm+mt
-source-git-commit: 57116fa8f8a71259400881609775af4047cd2225
+source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
 
 
-# De gegevenslaag van de Adobe-client gebruiken met de kerncomponenten {#data-layer-core-components}
+# Het gebruiken van de Laag van de Gegevens van de Cliënt van Adobe met de Componenten van de Kern {#data-layer-core-components}
 
-Het doel van de gegevenslaag van de Cliënt van Adobe is de inspanning aan instrumentwebsites te verminderen door een gestandaardiseerde methode te verstrekken om om het even welk soort gegevens voor om het even welk manuscript bloot te stellen en toegang te hebben.
+Het doel van de de Gegevens van de Cliënt van Adobe is de inspanning aan instrumentwebsites te verminderen door een gestandaardiseerde methode te verstrekken om om het even welk soort gegevens voor om het even welk manuscript bloot te stellen en toegang te hebben.
 
 De gegevenslaag van de Cliënt van Adobe is platform agnostic, maar is volledig geïntegreerd in de Componenten van de Kern voor gebruik met AEM.
 
-Zoals de Componenten van de Kern, is de code voor de Laag van Gegevens van de Cliënt van Adobe beschikbaar op GitHub samen met zijn ontwikkelaardocumentatie. Dit document geeft een overzicht van hoe de Componenten van de Kern met de Laag van Gegevens in wisselwerking staan, maar de volledige technische details worden uitgesteld aan de documentatie GitHub.
+Als de Componenten van de Kern, is de code voor de Laag van Gegevens van de Cliënt van Adobe beschikbaar op GitHub samen met zijn ontwikkelaardocumentatie. Dit document geeft een overzicht van hoe de Componenten van de Kern met de Laag van Gegevens in wisselwerking staan, maar de volledige technische details worden uitgesteld aan de documentatie GitHub.
 
 >[!TIP]
 >
->Voor meer informatie over de Laag van Gegevens van de Cliënt van Adobe, [verwijs naar de middelen in zijn bewaarplaats GitHub.](https://github.com/adobe/adobe-client-data-layer)
+>Voor verdere informatie over de Laag van Gegevens van de Cliënt van Adobe, [verwijs naar de middelen in zijn bewaarplaats GitHub.](https://github.com/adobe/adobe-client-data-layer)
 >
->Zie het [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) bestand in de opslagplaats voor kerncomponenten voor meer technische details over de integratie van de Adobe Client Data Layer met de Core Components.
-
+>Voor verdere technische details over de integratie van de de Gegevens van de Cliënt van Adobe met de Componenten van de Kern, zie het [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) dossier in de bewaarplaats van de Componenten van de Kern.
 
 ## Installatie en activering {#installation-activation}
 
 Vanaf versie 2.9.0 van de Componenten van de Kern, wordt de Laag van Gegevens gedistribueerd met de Componenten van de Kern als cliëntlib. Installatie is niet nodig.
 
-De gegevenslaag wordt echter niet standaard geactiveerd. De gegevenslaag activeren
+De gegevenslaag wordt echter niet standaard geactiveerd. Om de Laag van Gegevens te activeren moet u een [context-bewuste configuratie](/help/developing/context-aware-configs.md) voor het tot stand brengen:
 
 1. Maak de volgende structuur onder het `/conf` knooppunt:
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
@@ -37,7 +36,7 @@ De gegevenslaag wordt echter niet standaard geactiveerd. De gegevenslaag activer
 1. Voeg een booleaanse eigenschap met de naam toe `enabled` en stel deze in op `true`.
 1. Voeg hieronder een `sling:configRef` eigenschap toe aan het `jcr:content` knooppunt van uw site `/content` (bijvoorbeeld `/content/<mySite>/jcr:content`) en instellen op `/conf/<mySite>`.
 
-Zodra toegelaten, kunt u de activering verifiëren door een pagina van de plaats buiten de redacteur te laden. Wanneer u de pagina inspecteert, ziet u dat de gegevenslaag van de Cliënt van Adobe wordt geladen.
+Zodra toegelaten, kunt u de activering verifiëren door een pagina van de plaats buiten de redacteur te laden. Wanneer u de pagina inspecteert zult u zien dat de Laag van Gegevens van de Cliënt van Adobe wordt geladen.
 
 ## Gegevensschema&#39;s voor kerncomponenten {#data-schemas}
 
