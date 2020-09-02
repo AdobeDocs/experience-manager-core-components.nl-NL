@@ -2,16 +2,15 @@
 title: PDF Viewer-component
 description: Met de component PDF Viewer kunt u een PDF-document weergeven.
 translation-type: tm+mt
-source-git-commit: b08fc5ec49126f7be19b7433a3d71de877d9e442
+source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '705'
 ht-degree: 1%
 
 ---
 
 
 # PDF Viewer-component {#pdf-viewer-component}
-
 
 Met de component Core Component PDF Viewer kunt u een PDF-document op een pagina opnemen.
 
@@ -23,9 +22,9 @@ De component Core Component PDF Viewer sluit een viewer in om PDF-bestanden weer
 
 De huidige versie van de PDF Viewer Component is v1, die in juni 2020 is geïntroduceerd met release 2.10.0 van de Core Components, en die in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
+In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
 
-| Componentversie | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
 |--- |--- |---|---|
 | v1 | Compatibel | Compatibel | Compatibel |
 
@@ -40,6 +39,10 @@ Ga naar de [componentbibliotheek](https://adobe.com/go/aem_cmp_library_pdfviewer
 De recentste technische documentatie over de Component van de Kijker PDF [kan op GitHub](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1)worden gevonden.
 
 Meer details over het ontwikkelen van de Componenten van de Kern kunnen in de de ontwikkelaarsdocumentatie [van de](/help/developing/overview.md)Componenten worden gevonden.
+
+>[!NOTE]
+>
+>De component PDF Viewer maakt gebruik van API&#39;s van Document Services voor [Adobe en vereist dat uw beheerder een configuratie](https://www.adobe.io/apis/documentcloud/dcsdk.html) met [](/help/developing/context-aware-configs.md) contextkennis configureert om deze services te kunnen gebruiken. Raadpleeg de technische documentatie van de component voor [meer informatie over deze configuratie.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
 
 ## Dialoogvenster configureren {#configure-dialog}
 
