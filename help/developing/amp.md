@@ -2,9 +2,9 @@
 title: AMP-ondersteuning voor de kerncomponenten
 description: De kerncomponenten ondersteunen AMP - Versnelde mobiele pagina's
 translation-type: tm+mt
-source-git-commit: 905096d909d4fbf624152ba3b5cbc1d80637245f
+source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
@@ -26,26 +26,18 @@ Ondersteuning voor AMP in de Core Components is [volledig configureerbaar.](#ena
 
 De kerncomponenten worden gebruikt `amp` als een verkiesbare kiezer om een AMP-pagina te renderen. Zo `example.html` zou de normale pagina worden weergegeven en `example.amp.html` zou dit de AMP-versie zijn.
 
-### Vereisten {#requirements}
-
-Wanneer u AMP gebruikt met de Core Components, is het belangrijkste verschil dat AMP vereist dat alle CSS in het `<head>` element worden gealigneerd en geoptimaliseerd.
-
-Hiertoe wordt een aangepaste pagina-component gebruikt, die alleen de AMP-specifieke CSS laadt voor componenten die op de pagina aanwezig zijn.
-
-Voor verdere vereisten en technische details, gelieve te zien de [GitHub ontwikkelaarsdocumentatie.](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
-
-### AMP gebruiken in de kerncomponenten {#using-amp}
-
 Individuele projecten kunnen beslissen of zij AMP al dan niet zullen benutten. Omdat AMP- en standaard HTML-pagina&#39;s parallel kunnen worden geleverd, kan een project ervoor kiezen om AMP alleen op bepaalde pagina&#39;s van het project te gebruiken.
 
-### AMP-ondersteuning installeren {#installing-amp}
+## Aan de slag met AMP-ondersteuning in uw project {#getting-started}
 
-Omdat AMP optioneel is, wordt het als een uitbreiding aan de Componenten van de Kern geleverd.
+Hoewel AMP-ondersteuning veel flexibiliteit biedt, zijn er slechts enkele eenvoudige stappen nodig om snel aan de slag te gaan:
 
-* Voor AEM als projecten van de Cloud Service, is de uitbreiding automatisch beschikbaar.
-* Voor on-premise en projecten van AMS, moet de uitbreiding uitdrukkelijk worden geïnstalleerd wanneer het installeren van de Componenten van de Kern.
-
-Nadat de extensie is geïnstalleerd, moet de auteur van de component de supertypen van de component gewoon naar de supertypen in de extensie verwijzen.
+1. Installeer indien nodig de extensie voor AMP-ondersteuning.
+   * Voor AEM als projecten van de Cloud Service, is de uitbreiding automatisch beschikbaar met de Componenten van de Kern en geen installatie is noodzakelijk.
+   * Voor on-premise en projecten van AMS, moet de uitbreiding uitdrukkelijk worden geïnstalleerd wanneer het installeren van de Componenten van de Kern.
+1. Zodra de uitbreiding AMP wordt geïnstalleerd, moet de componentenauteur de componentensupertypes aan die in de uitbreiding eenvoudig richten.
+1. [Schakel AMP-ondersteuning](#enabling-amp) in op sjabloonniveau of op afzonderlijke pagina&#39;s.
+1. [Gebruik indien nodig inline CSS](#css-requirements) .
 
 ### AMP inschakelen voor pagina&#39;s {#enabling-amp}
 
@@ -61,7 +53,15 @@ De AMP-instellingen voor een pagina kunnen ook worden overschreven in de [Pagina
 
 ![Eigenschappen van AMP-pagina](/help/assets/amp-page-properties.png)
 
-* **Overnemen van paginasjabloon** - Dit is de standaardwaarde, waardoor de instelling kan worden overgenomen uit het beleid van de paginasjabloon.
+* **Overnemen van paginasjabloon** - Dit is de standaardwaarde, waarmee de instelling kan worden overgenomen uit het beleid van de paginasjabloon.
 * **Geen AMP** - De pagina wordt alleen als standaard-HTML geleverd.
 * **AMP** met paden - De pagina wordt als AMP en HTML geleverd.
 * **Alleen** AMP - De pagina wordt alleen als AMP geleverd.
+
+### CSS-vereisten {#css-requirements}
+
+Wanneer u AMP gebruikt met de Core Components, is het belangrijkste verschil dat AMP vereist dat alle CSS in het `<head>` element worden gealigneerd en geoptimaliseerd.
+
+Hiertoe wordt een aangepaste pagina-component gebruikt, die alleen de AMP-specifieke CSS laadt voor componenten die op de pagina aanwezig zijn.
+
+Voor verdere vereisten en technische details, gelieve te zien de [GitHub ontwikkelaarsdocumentatie.](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
