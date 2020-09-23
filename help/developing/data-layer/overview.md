@@ -2,10 +2,10 @@
 title: Het gebruiken van de Laag van de Gegevens van de Cliënt van Adobe met de Componenten van de Kern
 description: Het gebruiken van de Laag van de Gegevens van de Cliënt van Adobe met de Componenten van de Kern
 translation-type: tm+mt
-source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
+source-git-commit: 4a44a5f584efa736320556f6b4e2f4126d058a48
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 0%
+source-wordcount: '575'
+ht-degree: 1%
 
 ---
 
@@ -57,7 +57,7 @@ Het schema Component/Container Item wordt gebruikt in de volgende componenten:
 
 Het schema Component/Container Item is als volgt gedefinieerd.
 
-```
+```javascript
 id: {                   // component ID
     @type               // resource type
     repo:modifyDate     // last modified date
@@ -69,6 +69,9 @@ id: {                   // component ID
 }
 ```
 
+De volgende [gebeurtenis](#events) is relevant voor het Component/Container-itemschema:
+
+* `cmp:click`
 
 ### Paginaschema {#page}
 
@@ -78,7 +81,7 @@ Het paginaschema wordt gebruikt door de volgende component:
 
 Het paginaschema wordt als volgt gedefinieerd.
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -104,7 +107,7 @@ Het containerschema wordt gebruikt door de volgende componenten:
 
 Het containerschema wordt als volgt gedefinieerd.
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -117,6 +120,12 @@ id: {
 }
 ```
 
+De volgende [gebeurtenissen](#events) zijn relevant voor het containerschema:
+
+* `cmp:click`
+* `cmp:show`
+* `cmp:hide`
+
 ### Afbeeldingsschema {#image}
 
 Het schema van het Beeld wordt gebruikt door de volgende component:
@@ -125,7 +134,7 @@ Het schema van het Beeld wordt gebruikt door de volgende component:
 
 Het afbeeldingsschema wordt als volgt gedefinieerd.
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -138,13 +147,17 @@ id: {
 }
 ```
 
+De volgende [gebeurtenis](#events) is relevant voor het afbeeldingsschema:
+
+* `cmp:click`
+
 ### Elementschema {#asset}
 
 Het schema Elementen wordt gebruikt binnen de component [Afbeelding.](/help/components/image.md)
 
 Het schema Asset wordt als volgt gedefinieerd.
 
-```
+```javascript
 id: {
     repo:id             // asset UUID
     repo:path           // asset path
@@ -154,3 +167,28 @@ id: {
 }
 ```
 
+De volgende [gebeurtenis](#events) is relevant voor het schema Elementen:
+
+* `cmp:click`
+
+## Gebeurtenissen {#events}
+
+Er zijn een aantal gebeurtenissen die de gegevenslaag teweegbrengt.
+
+* **`cmp:click`** - Als u op een klikbaar element (een element met een `data-cmp-clickable` kenmerk) klikt, activeert de gegevenslaag een `cmp:click` gebeurtenis.
+* **`cmp:show`** en **`cmp:hide`** - De componenten van de accordeon (uitvouwen/samenvouwen), de carrousel (knoppen Volgende/Vorige) en de tabbladen (selecteren door tabbladen) zorgen ervoor dat de gegevenslaag respectievelijk gebeurtenissen activeert `cmp:show` en `cmp:hide` activeert.
+* **`cmp:loaded`** - Zodra de gegevenslaag is gevuld met de kerncomponenten op de pagina, activeert de gegevenslaag een `cmp:loaded` gebeurtenis.
+
+### Gebeurtenissen geactiveerd door component {#events-components}
+
+In de volgende tabellen worden de standaard Core Components weergegeven die gebeurtenissen met deze gebeurtenissen activeert.
+
+| Component | Gebeurtenis(sen) |
+|---|---|
+| [Navigatie](/help/components/navigation.md) | `cmp:click` |
+| [Taalnavigatie](/help/components/language-navigation.md) | `cmp:click` |
+| [Broodkruimel](/help/components/breadcrumb.md) | `cmp:click` |
+| [Knop](/help/components/button.md) | `cmp:click` |
+| [Carousel](/help/components/carousel.md) | `cmp:show` and `cmp:hide` |
+| [Tabs](/help/components/tabs.md) | `cmp:show` and `cmp:hide` |
+| [Accordeon](/help/components/accordion.md) | `cmp:show` and `cmp:hide` |
