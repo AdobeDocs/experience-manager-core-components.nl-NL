@@ -1,22 +1,22 @@
 ---
-title: AEM-projectarchetype front-end build
-description: Een projectmalplaatje voor op AEM-Gebaseerde toepassingen
+title: AEM project archetype front-end build
+description: Een projectmalplaatje voor op AEM gebaseerde toepassingen
 translation-type: tm+mt
-source-git-commit: 55b4dde320dcb38935b55b273d4df8d0cc2f16e6
+source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
 
 
-# ui.frontend Module van het Archetype van het Project AEM {#uifrontend-module}
+# ui.frontend Module van het Archetype van het AEM Project {#uifrontend-module}
 
-Het AEM Project Archetype omvat een facultatief, specifiek front-end bouwstijlmechanisme dat op Webpack wordt gebaseerd. De module ui.frontend wordt dus de centrale locatie voor alle front-end bronnen van het project, waaronder JavaScript- en CSS-bestanden. Om ten volle gebruik te maken van deze nuttige en flexibele functie, is het belangrijk te begrijpen hoe front-end ontwikkeling past in een AEM-project.
+Het AEM Project Archetype omvat een facultatief, specifiek front-end bouwstijlmechanisme dat op Webpack wordt gebaseerd. De module ui.frontend wordt dus de centrale locatie voor alle front-end bronnen van het project, waaronder JavaScript- en CSS-bestanden. Om volledig gebruik te maken van deze nuttige en flexibele functie, is het belangrijk om te begrijpen hoe front-end ontwikkeling past in een AEM project.
 
-## AEM-projecten en front-endontwikkeling {#aem-and-front-end-development}
+## AEM projecten en front-end ontwikkeling {#aem-and-front-end-development}
 
-In sterk vereenvoudigde termen kunnen AEM-projecten worden beschouwd als bestaande uit twee afzonderlijke, maar verwante onderdelen:
+In sterk vereenvoudigde termen kunnen AEM projecten worden beschouwd als bestaande uit twee afzonderlijke maar verwante delen:
 
 * De ontwikkeling van het achterste deel die de logica van AEM drijft en Java bibliotheken, de diensten OSGi, enz. produceert
 * Front-end ontwikkeling die de presentatie en het gedrag van de resulterende website aandrijft en JavaScript en CSS bibliotheken produceert
@@ -27,13 +27,13 @@ Omdat deze twee ontwikkelingsprocessen zich richten op verschillende delen van h
 
 Voor elk project moet echter gebruik worden gemaakt van de resultaten van beide ontwikkelingsinspanningen, d.w.z. zowel back-end als front-end.
 
-Als u deze functie uitvoert, `npm run dev` wordt het constructieproces op de voorgrond gestart dat de JavaScript- en CSS-bestanden verzamelt die zijn opgeslagen in de module ui.frontend en dat twee geminificeerde clientbibliotheken of ClientLibs genereert die worden aangeroepen `clientlib-site` en `clientlib-dependencies` en in de module ui.apps worden opgeslagen. ClientLibs kan worden geïmplementeerd op AEM en biedt u de mogelijkheid om uw clientcode op te slaan in de opslagplaats.
+Als u deze functie uitvoert, `npm run dev` wordt het constructieproces op de voorgrond gestart dat de JavaScript- en CSS-bestanden verzamelt die zijn opgeslagen in de module ui.frontend en dat twee geminificeerde clientbibliotheken of ClientLibs genereert die worden aangeroepen `clientlib-site` en `clientlib-dependencies` en in de module ui.apps worden opgeslagen. ClientLibs kan worden geïmplementeerd om te AEM en u kunt uw code aan de clientzijde opslaan in de opslagplaats.
 
-Wanneer het volledige AEM projectarchetype gebruikend `mvn clean install -PautoInstallPackage` alle projectartefacten met inbegrip van ClientLibs dan aan de instantie AEM wordt geduwd.
+Wanneer het volledige AEM projectarchetype gebruikend `mvn clean install -PautoInstallPackage` alle projectartefacten met inbegrip van ClientLibs dan aan de AEM instantie wordt geduwd.
 
 >[!TIP]
 >
->Meer informatie over ClientLibs vindt u in de [AEM-ontwikkelingsdocumentatie](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) en [hoe de module ui.frontend deze hieronder](#clientlib-generation)gebruikt.
+>Leer meer over hoe AEM ClientLibs in de [AEM ontwikkelingsdocumentatie](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html)behandelt, hoe te om hen [](/help/developing/including-clientlibs.md)op te nemen, of zie hieronder [hoe de module ui.frontend hen gebruikt.](#clientlib-generation)
 
 ## Overzicht van ClientLibs {#clientlibs}
 
@@ -42,9 +42,9 @@ De frontend module wordt ter beschikking gesteld gebruikend een [AEM ClientLib](
 Een ClientLib bestaat uit de volgende bestanden en mappen:
 
 * `css/`: CSS-bestanden die kunnen worden aangevraagd in de HTML
-* `css.txt`: Vertelt AEM de orde en de namen van dossiers in `css/` zodat zij kunnen samenvoegen
+* `css.txt`: Hiermee AEM u de volgorde en namen van bestanden zodat deze kunnen worden samengevoegd `css/`
 * `js/`: JavaScript-bestanden die kunnen worden aangevraagd in de HTML
-* `js.txt` Vertelt AEM de orde en de namen van dossiers in `js/` zodat zij kunnen samenvoegen
+* `js.txt` Hiermee AEM u de volgorde en namen van bestanden zodat deze kunnen worden samengevoegd `js/`
 * `resources/`: Bronkaarten, niet-invoerpuntcodeschunks (als gevolg van code splitsen), statische elementen (bijvoorbeeld pictogrammen) enz.
 
 ## Mogelijke front-end ontwikkelingsworkflows {#possible-workflows}
@@ -53,14 +53,14 @@ De bouwstijlmodule aan de voorzijde is een nuttig en zeer flexibel instrument, m
 
 ### Statische ontwikkelingsserver van Webpack gebruiken {#using-webpack}
 
-Met Webpack kunt u stijl en ontwikkeling toepassen op basis van statische uitvoer van AEM-webpagina&#39;s in de module ui.frontend.
+Met Webpack kunt u stijl en ontwikkeling toepassen op basis van de statische uitvoer van AEM webpagina&#39;s in de module ui.frontend.
 
-1. Voorvertoning van pagina weergeven in AEM met de modus Voorvertoning van pagina of door `wcmmode=disabled` te geven in de URL
+1. Pagina voorvertonen in AEM met de modus Paginavoorvertoning of doorgeven in `wcmmode=disabled` de URL
 1. Paginabron weergeven en opslaan als statische HTML in de module ui.frontend
 1. [Webpack](#webpack-dev-server) starten en opmaak beginnen en de benodigde JavaScript en CSS genereren
 1. Uitvoeren `npm run dev` om de ClientLibs te genereren
 
-In deze flow kan een AEM-ontwikkelaar stappen 1 en 2 uitvoeren en de statische HTML doorgeven aan de front-end ontwikkelaar die zich ontwikkelt op basis van de AEM HTML-uitvoer.
+In deze flow kan een AEM ontwikkelaar stappen 1 en 2 uitvoeren en de statische HTML doorgeven aan de front-end ontwikkelaar die zich ontwikkelt op basis van de AEM HTML-uitvoer.
 
 >[!TIP]
 >
@@ -68,7 +68,7 @@ In deze flow kan een AEM-ontwikkelaar stappen 1 en 2 uitvoeren en de statische H
 
 ### Winybook gebruiken {#using-storybook}
 
-Met [Storybook](https://storybook.js.org) kunt u meer atomische front-end ontwikkeling uitvoeren. Hoewel Storybook niet is opgenomen in het AEM Project Archetype, kunt u het installeren en uw Storybook artefacten opslaan binnen de module ui.frontend. Als ze klaar zijn om te worden getest in AEM, kunnen ze worden geïmplementeerd als ClientLibs door te werken `npm run dev`.
+Met [Storybook](https://storybook.js.org) kunt u meer atomische front-end ontwikkeling uitvoeren. Hoewel Storybook niet is opgenomen in het AEM Project Archetype, kunt u het installeren en uw objecten uit het Storybook opslaan in de module ui.frontend. Als ze klaar zijn om te worden getest binnen AEM, kunnen ze worden geïmplementeerd als ClientLibs door te werken `npm run dev`.
 
 >[!NOTE]
 >
@@ -76,7 +76,7 @@ Met [Storybook](https://storybook.js.org) kunt u meer atomische front-end ontwik
 
 ### De markering bepalen {#determining-markup}
 
-Welke ontwikkelworkflow op de voorgrond u ook wilt implementeren voor uw project, de back-end ontwikkelaars en front-end ontwikkelaars moeten het eerst eens worden over de markering. AEM definieert doorgaans de opmaak, die wordt geleverd door de kerncomponenten. [Dit kan echter zo nodig](/help/developing/customizing.md#customizing-the-markup)worden aangepast.
+Welke ontwikkelworkflow op de voorgrond u ook wilt implementeren voor uw project, de back-end ontwikkelaars en front-end ontwikkelaars moeten het eerst eens worden over de markering. AEM definieert doorgaans de markering, die wordt geleverd door de kerncomponenten. [Dit kan echter zo nodig](/help/developing/customizing.md#customizing-the-markup)worden aangepast.
 
 ## De module ui.frontend {#ui-frontend-module}
 
@@ -191,18 +191,18 @@ In de module ui.frontend is een webpack-dev-server inbegrepen die levende herlad
 
 * `ui.frontend/webpack.dev.js`
    * Dit bevat de configuratie voor webpack-dev-serve en wijst naar de HTML-sjabloon die moet worden gebruikt.
-   * Het bevat ook een proxyconfiguratie voor een AEM-instantie die wordt uitgevoerd op localhost:4502.
+   * Het bevat ook een volmachtsconfiguratie aan een AEM instantie die op localhost:4502 loopt.
 * `ui.frontend/src/main/webpack/static/index.html`
    * Dit is de statische HTML waartegen de server zal lopen.
    * Op deze manier kan een ontwikkelaar CSS/JS-wijzigingen aanbrengen en deze direct in de opmaak weergeven.
-   * Aangenomen wordt dat de markering die in dit bestand is geplaatst, de gegenereerde opmaak van AEM-componenten correct weerspiegelt.
-   * Opmaak in dit bestand wordt niet automatisch gesynchroniseerd met opmaakcodes voor AEM-componenten.
-   * Dit bestand bevat ook verwijzingen naar clientbibliotheken die zijn opgeslagen in AEM, zoals de CSS van de Core Component en de CSS van het responsieve raster.
+   * Aangenomen wordt dat de markering die in dit bestand is geplaatst, de gegenereerde opmaak van AEM componenten correct weerspiegelt.
+   * Opmaak in dit bestand wordt niet automatisch gesynchroniseerd met AEM componentmarkeringen.
+   * Dit bestand bevat ook verwijzingen naar clientbibliotheken die zijn opgeslagen in AEM, zoals de CSS van de kerncomponent en de CSS van het responsieve raster.
    * De webpack-ontwikkelingsserver is ingesteld op proxy die door deze CSS/JS wordt opgenomen vanuit een lokale actieve AEM-instantie op basis van de configuratie in `ui.frontend/webpack.dev.js`.
 
 #### Gebruiken {#using-webpack-server}
 
-1. Van binnen de wortel van het project stel het bevel in werking `mvn -PautoInstallSinglePackage clean install` om het volledige project aan een instantie te installeren AEM die bij loopt `localhost:4502`.
+1. Van binnen de wortel van het project stel het bevel in werking `mvn -PautoInstallSinglePackage clean install` om het volledige project aan een AEM instantie te installeren die bij loopt `localhost:4502`.
 1. Navigeer in de `ui.frontend` map.
 1. Voer de volgende opdracht uit `npm run start` om de webpack-ontwikkelserver te starten. Nadat u de toepassing hebt gestart, opent u een browser (`localhost:8080` of de volgende beschikbare poort).
 
