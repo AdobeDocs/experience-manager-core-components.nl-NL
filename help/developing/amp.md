@@ -2,7 +2,7 @@
 title: AMP-ondersteuning voor de kerncomponenten
 description: De kerncomponenten ondersteunen AMP - Versnelde mobiele pagina's
 translation-type: tm+mt
-source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
+source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -60,7 +60,7 @@ De AMP-instellingen voor een pagina kunnen ook worden overschreven in de [Pagina
 
 ### CSS-vereisten {#css-requirements}
 
-Wanneer u AMP gebruikt met de Core Components, is het belangrijkste verschil dat AMP vereist dat alle CSS in het `<head>` element worden gealigneerd en geoptimaliseerd.
+Bij gebruik van AMP met de Core Components, is het belangrijkste verschil dat AMP vereist dat alle [CSS zowel in het](including-clientlibs.md#inlining) element als geoptimaliseerd worden weergegeven `<head>` .
 
 Hiertoe wordt een aangepaste pagina-component gebruikt, die alleen de AMP-specifieke CSS laadt voor componenten die op de pagina aanwezig zijn.
 
