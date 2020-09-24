@@ -4,9 +4,9 @@ user-guide-title: AEM kerncomponenten
 breadcrumb-title: Core Components Guide
 user-guide-description: Use the extensible Core Components to let authors easily create content.
 translation-type: tm+mt
-source-git-commit: b35b951a203b100e296bc3a115e34e27727293ae
+source-git-commit: 81d2282d33ef3f20e4115e38abbd0c801e03c974
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '188'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 + [Paden naar succes](developing/success.md)
 + [Componentbibliotheek](https://adobe.com/go/aem_cmp_library)
 + [Core Components-versies](versions.md)
-+ Aan de slag {#get-started}
++ Dominiëren {#get-started}
    + [Ontwerpen met kerncomponenten](get-started/authoring.md)
    + [Basiscomponenten gebruiken](get-started/using.md)
    + [Localisatiefuncties](get-started/localization.md)
@@ -74,6 +74,7 @@ ht-degree: 2%
    + [Componentrichtlijnen](developing/guidelines.md)
    + [AMP-ondersteuning](developing/amp.md)
    + [Contextbewuste configuraties](developing/context-aware-configs.md)
+   + [Inclusief clientbibliotheken](developing/including-clientlibs.md)
    + Gegevenslaag Adobe-client {#data-layer}
       + [Overzicht van de Laag van Gegevens](developing/data-layer/overview.md)
       + [Integratie met de Laag van Gegevens](developing/data-layer/integrations.md)
