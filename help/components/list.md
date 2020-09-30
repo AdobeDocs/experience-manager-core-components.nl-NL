@@ -2,9 +2,9 @@
 title: Component List
 description: De component van de Lijst van de Component van de Kern staat voor de gemakkelijke verwezenlijking van dynamische en statische lijsten toe.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '966'
 ht-degree: 1%
 
 ---
@@ -22,12 +22,12 @@ De component List kan worden gebruikt om bijvoorbeeld een dynamische lijst met o
 
 De huidige versie van de component List is v2, die in januari 2018 is geïntroduceerd met release 2.0.0 van de Core Components, en die in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
+In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
 
-| Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | Compatibel | Compatibel | Compatibel |
-| [v1](v1/list-v1.md) | Compatibel | Compatibel | Compatibel | - |
+| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v2 | Compatibel | Compatibel | Compatibel |
+| [v1](v1/list-v1.md) | Compatibel | Compatibel | - |
 
 Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
 
@@ -80,13 +80,13 @@ De lijst kan worden samengesteld met behulp van een vaste lijst met items.
 
 Tik of klik op de knop **Toevoegen** om een nieuw item aan de lijst toe te voegen.
 
-* Voer tekst in voor het item in de lijst of kies een item in AEM in het dialoogvenster **** Selectie.
+* Voer tekst in voor het item in de lijst of gebruik het dialoogvenster **** Selectie om een item uit AEM te kiezen.
 * Gebruik de sleepgreep om de items in de lijst opnieuw te rangschikken.
 * Gebruik het prullenbakpictogram om items in de lijst te verwijderen.
 
 #### Zoeken {#search-options}
 
-De lijst kan worden samengesteld met behulp van de resultaten van een zoekopdracht naar AEM-inhoud.
+De lijst kan worden samengesteld met behulp van de resultaten van een zoekopdracht naar AEM inhoud.
 
 ![Opties voor zoeklijsten](/help/assets/list-edit-search.png)
 
@@ -167,4 +167,4 @@ Op het tabblad **Iteminstellingen** kunnen de opmaakopties voor de afzonderlijke
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component Image ondersteunt het AEM- [stijlsysteem](/help/get-started/authoring.md#component-styling).
+De component van het Beeld steunt het systeem [van de](/help/get-started/authoring.md#component-styling)Stijl van het AEM.
