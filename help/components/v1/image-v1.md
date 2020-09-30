@@ -3,7 +3,10 @@ title: Afbeeldingscomponent (v1)
 description: De Core Component Image is een adaptieve beeldcomponent die ter plekke kan worden bewerkt.
 index: n
 translation-type: tm+mt
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+source-git-commit: 78202dc777b90f795f66873921c55e21ef8a239c
+workflow-type: tm+mt
+source-wordcount: '1229'
+ht-degree: 0%
 
 ---
 
@@ -20,11 +23,11 @@ De toegestane afbeeldingsbreedten en uitsnijdinstellingen en aanvullende instell
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-In dit document wordt versie 1 van de Image Component beschreven. Deze versie is oorspronkelijk geïntroduceerd met versie 1.0.0 van de Core Components met AEM 6.3.
+In dit document wordt versie 1 van de Image Component beschreven, die oorspronkelijk is geïntroduceerd met versie 1.0.0 van de Core Components met AEM 6.3.
 
 In de volgende tabel wordt de compatibiliteit van versie 1 van de component Image weergegeven.
 
-| AEM-versie | Afbeeldingscomponent v1 |
+| AEM | Afbeeldingscomponent v1 |
 |--- |--- |
 | 6.3 | Compatibel |
 | 6.4 | Compatibel |
@@ -87,8 +90,8 @@ Naast het standaarddialoogvenster [](#edit-dialog) Bewerken en [Ontwerpdialoogve
 * **Alternatieve tekst** : een tekstalternatief met de betekenis of functie van de afbeelding voor slechtzienden.
 * **Koppeling**
    * Koppel de afbeelding aan een andere bron.
-   * In het dialoogvenster Selecteren kunt u een koppeling maken naar een andere AEM-bron.
-   * Als u geen koppeling naar een AEM-bron maakt, voert u de absolute URL in. Niet-absolute URL&#39;s worden geïnterpreteerd als relatief ten opzichte van AEM.
+   * In het dialoogvenster Selecteren kunt u een koppeling maken naar een andere AEM.
+   * Als u geen koppeling naar een AEM maakt, voert u de absolute URL in. Niet-absolute URL&#39;s worden geïnterpreteerd als relatief ten opzichte van AEM.
 
 * **Bijschrift** - Standaard wordt aanvullende informatie over de afbeelding weergegeven onder de afbeelding.
 * **Bijschrift weergeven als pop-up** - Als dit selectievakje is ingeschakeld, wordt het bijschrift niet weergegeven onder de afbeelding, maar als een pop-up die door sommige browsers wordt weergegeven wanneer de muisaanwijzer op de afbeelding wordt geplaatst.
@@ -107,6 +110,7 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud uitsnijden, de startk
 
    * Kies de optie **Free Hand** om uw eigen uitsnijding te definiëren.
    * Kies de optie Uitsnijden **** verwijderen om het oorspronkelijke element weer te geven.
+
    Als een uitsnijdoptie is geselecteerd, gebruikt u de blauwe handgrepen om het uitsnijden op de afbeelding te vergroten of te verkleinen.
 
    ![](/help/assets/chlimage_1-10.png)
@@ -128,6 +132,7 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud uitsnijden, de startk
    * **Veelhoekkaart toevoegen**
 
       * Standaard wordt een driehoekige kaart toegevoegd. Dubbelklik op een lijn van de vorm om een nieuwe blauwe formaatgreep aan een nieuwe zijde toe te voegen.
+
    Als een vorm van een kaart is geselecteerd, wordt deze over de afbeelding heen geplaatst, zodat het formaat kan worden gewijzigd. Sleep de blauwe formaatgrepen om de vorm aan te passen.
 
    ![](/help/assets/chlimage_1-13.png)
@@ -136,7 +141,7 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud uitsnijden, de startk
 
    * **Pad**
       * Gebruik de optie Padkiezer om een pad te selecteren in AEM
-      * Gebruik de absolute URL als het pad zich niet in AEM bevindt. Niet-absolute paden worden ten opzichte van AEM geïnterpreteerd.
+      * Als het pad niet in AEM staat, gebruikt u de absolute URL. Niet-absolute paden worden ten opzichte van AEM geïnterpreteerd.
 
       * **Alt-tekst** Alternatieve beschrijving van het paddoel
       * **Doel**
@@ -144,6 +149,7 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud uitsnijden, de startk
          * **Nieuw tabblad**
          * **Bovenliggend frame**
          * **Bovenste frame**
+
    Tik of klik op het blauwe vinkje dat u wilt opslaan, de zwarte x die u wilt annuleren en de rode prullenbak om de kaart te verwijderen.
 
    ![](/help/assets/chlimage_1-14.png)
@@ -195,25 +201,18 @@ Op het tabblad **Functies** kunt u opgeven welke opties beschikbaar zijn voor de
 
    ![](/help/assets/chlimage_1-19.png)
 
-   Selecteer de optie **Het uploaden van middelen vanaf het bestandssysteem** toestaan om auteurs van inhoud toe te staan afbeeldingen te uploaden vanaf hun lokale computer. Schakel deze optie uit als u wilt dat auteurs van inhoud alleen elementen van AEM selecteren.
+   Selecteer de optie **Het uploaden van middelen vanaf het bestandssysteem** toestaan om auteurs van inhoud toe te staan afbeeldingen te uploaden vanaf hun lokale computer. Schakel deze optie uit als u wilt dat inhoudsauteurs alleen elementen uit AEM selecteren.
 
 * Afdrukstand
 
    ![](/help/assets/chlimage_1-20.png)
 
    * **Roteren** - Gebruik deze optie als de auteur van de inhoud de optie Rechtsom **** roteren mag gebruiken.
-   * **Met deze optie spiegelen** kunt u de auteur van de inhoud toestaan de opties **Horizontaal** omdraaien en Verticaal **** omdraaien te gebruiken.
+   * **Met deze optie spiegelen** kan de auteur van de inhoud de opdracht 
+**Opties voor Horizontaal** spiegelen en **Verticaal** spiegelen.
    >[!CAUTION]
    >
-   >De optie **Spiegelen** is standaard uitgeschakeld. Als u deze optie inschakelt, worden de knoppen **Verticaal** spiegelen en Horizontaal **** spiegelen weergegeven in het dialoogvenster Bewerken van de afbeeldingscomponent. De functie wordt momenteel echter niet ondersteund door AEM en wijzigingen die met deze opties zijn aangebracht, blijven niet behouden.
-
-<!-- 
-Comment Type: remark
-Last Modified By: Chris Bohnert (bohnert)
-Last Modified Date: 2017-11-20T05:51:34.378-0500
-
-<p>Added caution based on CQDOC-11457. Hid the flip options in the procedure using the <strong>Draft</strong> option so that when this feature is implemented in CQ-4221539, the <strong>Draft</strong> property can simply be removed along with the caution.</p>
--->
+   >De optie **Spiegelen** is standaard uitgeschakeld. Als u deze optie inschakelt, worden de knoppen **Verticaal** omdraaien en Horizontaal **** omdraaien weergegeven in het dialoogvenster Bewerken van de afbeeldingscomponent. De functie wordt momenteel echter niet ondersteund door AEM en wijzigingen die met deze opties zijn aangebracht, blijven niet behouden.
 
 * Uitsnijden
 
@@ -225,6 +224,7 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
    * Voer de numerieke verhouding van het aspect in.
    * Gebruik de sleephandgrepen om de volgorde van de hoogte-breedteverhoudingen te wijzigen
    * Gebruik het prullenbakpictogram om een hoogte-breedteverhouding te verwijderen.
+
    >[!CAUTION]
    >
    >In AEM worden de hoogte-breedteverhoudingen voor uitsnijden gedefinieerd als **hoogte/breedte**. Dit verschilt van de conventionele definitie van breedte/hoogte en wordt gedaan om oude compatibiliteitsredenen. De auteurs van de inhoud zullen zich niet van enig verschil bewust zijn zolang u een duidelijke naam van de verhouding verstrekt aangezien de naam in UI en niet de verhouding zelf wordt getoond.
