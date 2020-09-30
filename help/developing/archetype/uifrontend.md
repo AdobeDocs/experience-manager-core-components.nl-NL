@@ -2,9 +2,9 @@
 title: AEM project archetype front-end build
 description: Een projectmalplaatje voor op AEM gebaseerde toepassingen
 translation-type: tm+mt
-source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Wanneer het volledige AEM projectarchetype gebruikend `mvn clean install -PautoI
 
 ## Overzicht van ClientLibs {#clientlibs}
 
-De frontend module wordt ter beschikking gesteld gebruikend een [AEM ClientLib](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html). Wanneer het uitvoeren van NPM bouwt manuscript, wordt app gebouwd en het aem-client-generator-generatorpakket neemt de resulterende bouwstijloutput en transformeert het in zulk een ClientLib.
+De frontend module wordt ter beschikking gesteld gebruikend een [AEM ClientLib](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html). Wanneer het uitvoeren van NPM bouwt manuscript, wordt app gebouwd en het aem-client-generator-generatorpakket neemt de resulterende bouwstijloutput en transformeert het in zulk een ClientLib.
 
 Een ClientLib bestaat uit de volgende bestanden en mappen:
 
@@ -161,7 +161,7 @@ Het ui.frontend module bouwproces gebruikt de [aem-clientlib-generator](https://
 
 ### Inclusief clientbibliotheken op pagina&#39;s {#clientlib-inclusion}
 
-`clientlib-site` en `clientlib-dependencies` categorieën worden op pagina&#39;s opgenomen via de configuratie [van het Beleid van de](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#template-definitions) Pagina als deel van het standaardmalplaatje. Als u het beleid wilt weergeven, bewerkt u Sjabloon voor **inhoudspagina > Pagina-informatie > Paginabeleid**.
+`clientlib-site` en `clientlib-dependencies` categorieën worden op pagina&#39;s opgenomen via de configuratie [van het Beleid van de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions) Pagina als deel van het standaardmalplaatje. Als u het beleid wilt weergeven, bewerkt u Sjabloon voor **inhoudspagina > Pagina-informatie > Paginabeleid**.
 
 De uiteindelijke opname van clientbibliotheken op de sitepagina ziet er als volgt uit:
 
