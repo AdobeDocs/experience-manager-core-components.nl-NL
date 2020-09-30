@@ -2,10 +2,10 @@
 title: Component Formulieropties
 description: Met de component Core Component Form Options kunt u vooraf gedefinieerde opties in verschillende indelingen selecteren.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ Met de component Formulieropties kerncomponent kunt u vooraf gedefinieerde optie
 
 ## Gebruik {#usage}
 
-Met de component Formulieropties voor de kerncomponent kunnen verschillende typen opties worden verzonden die op verschillende manieren worden gepresenteerd. Deze component is bedoeld voor gebruik samen met de component [](form-container.md)Formuliercontainer.
+Met de component Formulieropties voor kerncomponenten kunt u verschillende typen opties indienen die op verschillende manieren worden gepresenteerd. Deze opties zijn bedoeld voor gebruik in combinatie met de component [](form-container.md)Formuliercontainer.
 
 De presentatie van de opties, de etiketten, en de individuele opties kunnen door de inhoudsredacteur in [vormen dialoog](#configure-dialog)worden bepaald.
 
@@ -24,12 +24,12 @@ De presentatie van de opties, de etiketten, en de individuele opties kunnen door
 
 De huidige versie van de component Formulieropties is v2, die in januari 2018 is geïntroduceerd met versie 2.0.0 van de Core Components, en die in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
+In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
 
-| Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | Compatibel | Compatibel | Compatibel |
-| [v1](/help/components/v1/form-options-v1.md) | Compatibel | Compatibel | Compatibel | - |
+| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v2 | Compatibel | Compatibel | Compatibel |
+| [v1](/help/components/v1/form-options-v1.md) | Compatibel | Compatibel | - |
 
 Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
 
@@ -78,4 +78,4 @@ In het dialoogvenster Configureren kan de auteur van de inhoud het type opties d
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component Formulieropties ondersteunt het AEM- [stijlsysteem](/help/get-started/authoring.md#component-styling).
+De component Formulieropties ondersteunt het [Stijlsysteem](/help/get-started/authoring.md#component-styling)AEM.
