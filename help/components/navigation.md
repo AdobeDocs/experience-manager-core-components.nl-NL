@@ -2,7 +2,7 @@
 title: Navigatie-component
 description: Met de navigatiecomponent kunnen gebruikers gemakkelijk door een geglobaliseerde sitestructuur navigeren.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
 workflow-type: tm+mt
 source-wordcount: '1369'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Websites worden vaak in meerdere talen aangeboden voor verschillende regio&#39;s
 
 ### Voorbeeld {#example-localization}
 
-Laten we zeggen dat de inhoud er zo uitziet:
+Laten we zeggen dat uw inhoud er ongeveer als volgt uitziet:
 
 ```
 /content
@@ -61,13 +61,13 @@ Laten we zeggen dat de inhoud er zo uitziet:
 \-- wknd-shop
 ```
 
-Voor de plaats wij.Retail, zou u waarschijnlijk de Component van de Navigatie op een paginamalplaatje als deel van de kopbal willen plaatsen. Als een onderdeel van de sjabloon is gemaakt, kunt u de **navigatieroot** van de component instellen op `/content/wknd/language-masters/en` aangezien dat het begin is van de hoofdinhoud van die site. U zou misschien ook de diepte **van de** Navigatiestructuur willen plaatsen om te zijn `2` aangezien u waarschijnlijk niet de volledige inhoudsboom door de component, maar eerder de eerste twee niveaus wilt worden getoond zodat het als overzicht dient.
+Voor de plaats WKND, zou u waarschijnlijk de Component van de Navigatie op een paginamalplaatje als deel van de kopbal willen plaatsen. Als u eenmaal een deel van de sjabloon hebt gemaakt, kunt u de **navigatieroot** van de component instellen op `/content/wknd/language-masters/en` aangezien dat de plaats is waar de master inhoud van die site begint. U zou misschien ook de diepte **van de** Navigatiestructuur willen plaatsen om te zijn `2` aangezien u waarschijnlijk niet de volledige inhoudsboom door de component, maar eerder de eerste twee niveaus wilt worden getoond zodat het als overzicht dient.
 
 Met de waarde van de **Basis** van de Navigatie, weet de Component van de Navigatie dat na `/content/wknd/language-masters/en` dat de navigatie begint en het navigatieopties kan produceren door de structuur van de plaats twee niveaus neer (zoals die door de waarde van de Diepte **van de Structuur van de** Navigatie wordt bepaald) te recurseren.
 
 Ongeacht welke gelokaliseerde pagina een gebruiker bekijkt, kan de component van de Navigatie de overeenkomstige gelokaliseerde pagina vinden door de plaats van de huidige pagina te kennen, achterwaarts te werken aan de wortel, en dan door:sturen aan de overeenkomstige pagina.
 
-Dus als een bezoeker `/content/ch/de/experience/arctic-surfing-in-lofoten`de navigatie bekijkt, weet de component dat hij de navigatiestructuur moet genereren op basis van `/content/wknd/language-masters/de`. Op dezelfde manier als de bezoeker `/content/us/en/experience/arctic-surfing-in-lofoten`de navigatiestructuur bekijkt, kan de component de navigatiestructuur genereren op basis van `/content/wknd/language-masters/en`.
+Dus als een bezoeker `/content/ch/de/experience/arctic-surfing-in-lofoten`de navigatie bekijkt, weet de component dat hij de navigatiestructuur moet genereren op basis van `/content/wknd/language-masters/de`. Op dezelfde manier als de bezoeker `/content/us/en/experience/arctic-surfing-in-lofoten`de navigatiestructuur bekijkt, weet de component dat de navigatiestructuur op basis van `/content/wknd/language-masters/en`.
 
 ## Ondersteuning voor schaduwsitestructuur {#shadow-structure}
 
@@ -92,9 +92,9 @@ De component Navigation geeft het menu vervolgens weer op basis van de structuur
 
 De huidige versie van de Navigation Component is v1, die in januari 2018 is geïntroduceerd met versie 2.0.0 van de Core Components, en in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
+In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
 
-| Componentversie | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
 | v1 | Compatibel | Compatibel | Compatibel |
 
@@ -164,4 +164,4 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur de standaardwaarden instel
 
 ### Tabblad Stijlen {#styles-tab}
 
-De navigatiecomponent ondersteunt het AEM- [stijlsysteem](/help/get-started/authoring.md#component-styling).
+De component Navigation ondersteunt het [Stijlsysteem](/help/get-started/authoring.md#component-styling)AEM.
