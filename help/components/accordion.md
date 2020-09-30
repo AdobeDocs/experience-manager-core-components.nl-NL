@@ -2,9 +2,9 @@
 title: Accordion-component
 description: Met de component Core Component Accordion kunt u een verzameling deelvensters maken die zijn gerangschikt in een accordeon op een pagina.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1054'
 ht-degree: 1%
 
 ---
@@ -28,8 +28,8 @@ De componenten [Accordion en](tabs.md) Tabs ondersteunen het rechtstreeks koppel
 
 Dit doet u als volgt:
 
-1. Bekijk de pagina met de component gebruikend de **[Mening als Gepubliceerde](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)**optie in de paginaredacteur.
-1. Controleer de inhoud van de pagina en identificeer de id van het deelvenster.
+1. Bekijk de pagina met de component gebruikend de **[Mening als Gepubliceerde](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** optie in de paginaredacteur.
+1. Inspect de inhoud van de pagina en identificeer de id van het deelvenster.
    * Bijvoorbeeld `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. De id wordt het anker dat u met een hash (`#`) aan de URL kunt toevoegen.
    * Bijvoorbeeld `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
@@ -40,9 +40,9 @@ Wanneer u met de deelvenster-id als anker naar de URL navigeert, schuift de brow
 
 De huidige versie van de Accordion Component is v1, die in juni 2019 met versie 2.5.0 van de Core Components is geïntroduceerd en in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
+In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
 
-| Componentversie | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
 |--- |--- |---|---|
 | v1 | Compatibel | Compatibel | Compatibel |
 
@@ -120,8 +120,8 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur de opties definiëren die 
 
 Het tabblad **Toegestane componenten** wordt gebruikt om te definiëren welke componenten door de auteur van de inhoud als items aan deelvensters in de component Accordion kunnen worden toegevoegd.
 
-Het tabblad Toegestane componenten werkt op dezelfde manier als het tabblad met dezelfde naam wanneer u het beleid en de eigenschappen van een container voor de layout in de Sjablooneditor [definieert.](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/templates.html)
+Het tabblad Toegestane componenten werkt op dezelfde manier als het tabblad met dezelfde naam wanneer u het beleid en de eigenschappen van een container voor de layout in de Sjablooneditor [definieert.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component Accordion ondersteunt het AEM- [stijlsysteem](/help/get-started/authoring.md#component-styling).
+De component Accordion ondersteunt het [Stijlsysteem](/help/get-started/authoring.md#component-styling)voor AEM.
