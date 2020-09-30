@@ -2,7 +2,10 @@
 title: Basiscomponenten gebruiken
 description: '"Om aan de slag te gaan met de Componenten van de Kern in uw eigen project, zijn er drie stappen te volgen: download en installeer, creeer volmachtscomponenten, laad de kernstijlen, en sta de componenten op uw malplaatjes toe."'
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 78202dc777b90f795f66873921c55e21ef8a239c
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,25 +22,15 @@ Om aan de slag te gaan met de Componenten van de Kern in uw eigen project, zijn 
 >[!NOTE]
 >
 >Alternatief, voor bredere instructies op hoe te om van begin met de projectopstelling, de Componenten van de Kern, Bewerkbare Malplaatjes, de Bibliotheken van de Cliënt en componentenontwikkeling te beginnen, zou de volgende multi-part leerprogramma van belang kunnen zijn:\
->[Aan de slag met AEM-sites - WKND-zelfstudie](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+>[Aan de slag met AEM Sites - WKND-zelfstudie](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 ## Downloaden en installeren {#download-and-install}
 
-Een van de drijvende ideeën achter de kerncomponenten is flexibiliteit. Als u vaker nieuwe versies van de Core Components publiceert, kan Adobe flexibeler werken met nieuwe functies. Ontwikkelaars kunnen op hun beurt flexibel zijn in welke onderdelen zij kiezen om in hun projecten te integreren en hoe vaak zij deze willen bijwerken.
+Een van de drijvende ideeën achter de kerncomponenten is flexibiliteit. Door nieuwe versies van de Core Components vrij te geven, kan Adobe zich flexibeler opstellen bij het aanbieden van nieuwe functies. Ontwikkelaars kunnen op hun beurt flexibel zijn in welke onderdelen zij kiezen om in hun projecten te integreren en hoe vaak zij deze willen bijwerken.
 
-Daarom maken de Core Components geen deel uit van de snelstartprocedure wanneer de productiemodus wordt gestart (zonder voorbeeldinhoud). Daarom is uw eerste stap het recentste vrijgegeven inhoudspakket van GitHub [te](https://github.com/adobe/aem-core-wcm-components/releases/latest) downloaden en het op uw milieu&#39;s te installeren AEM.
+Daarom maken de Core Components geen deel uit van de snelstartprocedure wanneer de productiemodus wordt gestart (zonder voorbeeldinhoud). Daarom moet uw eerste stap het recentste vrijgegeven inhoudspakket van GitHub [](https://github.com/adobe/aem-core-wcm-components/releases/latest) downloaden en het op uw AEM milieu&#39;s installeren.
 
 Er zijn verschillende manieren om dit te automatiseren, maar de eenvoudigste manier om een inhoudspakket op een instantie snel te installeren is door de Manager van het Pakket te gebruiken; zie Pakketten [installeren](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages). Wanneer u een publicatie-instantie ook hebt uitgevoerd, moet u dat pakket ook naar de uitgever repliceren. zie [Replicating Packages](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages).
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T16:42:59.142-0400
-
-Should we be promoting embedding the core-component package as an artifact in a customer application, reasoning as follows: 1) a customer application is required to leverage core components (at a minimum, proxy components must be defined) 2) a customer application must be updated to leverage new versions of core components (since it requires adjusting the sling:resourceSuperType to point at the new version of the component) It seems the only time theres an advantage to installing a release directly is if a bug-fix (non version-changing) release of core-components is cut, and it doesnt coincide with an application deployment. WDYT? For example, recommend doing this for ACS Commons which has a similar use-case (https://adobe-consulting-services.github.io/acs-aem-commons/pages/maven.html) We can of course keep the instructions for manually deploying, since some will want to do this, or the bug-fix use-case will appear.
-
- -->
 
 ## Proxycomponenten maken {#create-proxy-components}
 
@@ -66,39 +59,9 @@ Dus voor elke Core-component die voor een site moet worden gebruikt, moet u:
    jcr:description="Section Heading"
    ```
 
-Bijvoorbeeld, bekijk de [titelcomponent van de Web.Retail verwijzingsplaats](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/blob/master/ui.apps/src/main/content/jcr_root/apps/weretail/components/content/title/.content.xml), die een goed voorbeeld van een volmachtscomponent is die op die manier wordt gebouwd.
+Kijk bijvoorbeeld naar de [titelcomponent van de WKND-site](https://github.com/adobe/aem-guides-wknd/blob/master/ui.apps/src/main/content/jcr_root/apps/wknd/components/title/.content.xml). Dit is een goed voorbeeld van een proxycomponent die op die manier is gemaakt.
 
 ## De kernstijlen laden {#load-the-core-styles}
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T16:57:16.414-0400
-
-Styles is odd in that most Core Components do not have CSS; very few even have structural CSS (breadcrumbs, list) It may be more apt to title this section: Load the Core JavaScript and CSS or Load the Core Client Libraries ?
-
- -->
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T17:41:37.115-0400
-
-This section seems to cover the "sites" clientlibs for core components; Do we need a section for ensuring the editor clientlibs are loaded in the Page Editor? Pending: https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/issues/15
-
- -->
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: cotescu
-Last Modified Date: 2018-03-09T10:45:52.812-0500
-
-Load the Core Client Libraries sounds way better
-
- -->
 
 1. Als u dit nog niet hebt gedaan, maakt u een [clientbibliotheek](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) die alle CSS- en JS-bestanden bevat die nodig zijn voor uw site.
 1. Voor de Bibliotheek van de Cliënt van uw plaats, voeg de gebiedsdelen aan de Componenten van de Kern toe die nodig zouden kunnen zijn. Dit wordt gedaan door een `embed` bezit toe te voegen.
