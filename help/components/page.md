@@ -2,10 +2,10 @@
 title: Pagina-component
 description: De component Pagina is een uitbreidbare paginacomponent die wordt ontworpen om met de malplaatjeredacteur te werken en paginakopbal/footer en structuurcomponenten toe te laten om met de malplaatjedacteur worden samengesteld.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,18 +24,14 @@ In het [ontwerpdialoogvenster](#design-dialog)kunnen aangepaste clientbibliothek
 
 De huidige versie van de paginacomponent is v2, die in januari 2018 is geïntroduceerd met versie 2.0.0 van de kerncomponenten en in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
+In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
 
-| Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|---|
-| v2 | - | Compatibel | Compatibel | Compatibel |
-| [v1](v1/page-v1.md) | Compatibel | Compatibel | Compatibel | - |
+| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
+|---|---|---|---|
+| v2 | Compatibel | Compatibel | Compatibel |
+| [v1](v1/page-v1.md) | Compatibel | Compatibel | - |
 
 Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
-
->[!NOTE]
->
->Om omleiding op `cq:Page` niveau voor versie 2 van de paginacomponent en AEM 6.3 toe te laten, wordt de [dienstpak 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp2-release-notes.html) of later vereist. Een dergelijke omleiding was niet beschikbaar in eerdere releases.
 
 ### Technische details {#technical-details}
 
@@ -55,7 +51,7 @@ Omdat de component de gehele pagina vertegenwoordigt, is het dialoogvenster Ontw
 
 >[!NOTE]
 >
->In eerdere versies van AEM heette **Paginabeleid** **Paginaontwerp**.
+>In vorige versies van AEM heette **Paginabeleid** **Paginaontwerp**.
 
 ### Tabblad Eigenschappen {#properties-tab}
 
@@ -86,4 +82,4 @@ Voor meer informatie over het gebruiken van cliënt-zijbibliotheken zie het [Geb
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component Page ondersteunt het AEM- [stijlsysteem](/help/get-started/authoring.md#component-styling).
+De component Pagina ondersteunt het [Stijlsysteem](/help/get-started/authoring.md#component-styling)voor AEM.
