@@ -2,9 +2,9 @@
 title: Verborgen component van formulier
 description: Met de component Core Component Form Hidden kunt u een verborgen veld weergeven.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '428'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ Met de component Core Component Form Hidden kunt u een verborgen veld weergeven.
 
 ## Gebruik {#usage}
 
-Met de component Core Component Form Hidden kunt u verborgen velden maken die informatie over de huidige pagina teruggeven aan AEM. Deze component is bedoeld voor gebruik samen met de [component](form-container.md)van de formuliercontainer.
+Met de component Core Component Form Hidden kunt u verborgen velden maken die informatie over de huidige pagina teruggeven aan AEM en die samen met de [formuliercontainercomponent](form-container.md)moet worden gebruikt.
 
 De veldeigenschappen kunnen door de inhoudsredacteur in [vormen dialoog](form-hidden.md)worden bepaald.
 
@@ -24,12 +24,12 @@ De veldeigenschappen kunnen door de inhoudsredacteur in [vormen dialoog](form-hi
 
 De huidige versie van de component Form Hidden is v2, die in januari 2018 is geïntroduceerd met versie 2.0.0 van de Core Components, en die in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
+In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
 
-| Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | Compatibel | Compatibel | Compatibel |
-| [v1](/help/components/v1/form-hidden-v1.md) | Compatibel | Compatibel | Compatibel | - |
+| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v2 | Compatibel | Compatibel | Compatibel |
+| [v1](/help/components/v1/form-hidden-v1.md) | Compatibel | Compatibel | - |
 
 Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
 
@@ -64,4 +64,4 @@ Omdat de component Formulier verborgen normaal geen zichtbare kenmerken heeft, g
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component Form Hidden ondersteunt het AEM- [stijlsysteem](/help/get-started/authoring.md#component-styling).
+De component Form Hidden ondersteunt het systeem [van de AEM](/help/get-started/authoring.md#component-styling)stijl.
