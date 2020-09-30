@@ -2,7 +2,10 @@
 title: Componentrichtlijnen
 description: De componenten van de Kern volgen moderne implementatiepatronen die vrij verschillend van de stichtingscomponenten zijn.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +34,7 @@ Het is doorgaans een goede gewoonte om de logica (of het model) van een componen
 
 Sling Models is een reeks aantekeningen van Java om tot noodzakelijke variabelen van POJOs gemakkelijk toegang te hebben, en daarom een eenvoudige, krachtige, en efficiënte manier te bieden om Java logica voor componenten uit te voeren.
 
-HTL is ontworpen als een veilige en eenvoudige sjabloontaal die is ontworpen voor AEM. Het kan vele vormen van logica noemen, die het zeer flexibel maakt.
+HTML is ontworpen als een veilige en eenvoudige sjabloontaal die is toegesneden op AEM. Het kan vele vormen van logica noemen, die het zeer flexibel maakt.
 
 ## Herbruikbare componentpatronen {#reusable-component-patterns}
 
@@ -82,7 +85,7 @@ Hieronder volgt een overzicht van het volledige middeltype bindingsstructuur, di
 
 ![Overzicht van binding met bronnen](/help/assets/chlimage_1-32.png)
 
-Hieronder volgt een ander overzicht, dat niet de details van implementatie POJO toont, maar onthult hoe de bijbehorende [malplaatjes en het beleid](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html) van verwijzingen worden voorzien.
+Hieronder volgt een ander overzicht, dat niet de details van implementatie POJO toont, maar onthult hoe de bijbehorende [malplaatjes en het beleid](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html) van verwijzingen worden voorzien.
 
 De `cq:allowedTemplates` eigenschap bepaalt welke sjablonen voor een site kunnen worden gebruikt en de eigenschap `cq:template` vertelt voor elke pagina wat de bijbehorende sjabloon is. Elke sjabloon bestaat uit de volgende drie delen:
 
@@ -92,9 +95,9 @@ De `cq:allowedTemplates` eigenschap bepaalt welke sjablonen voor een site kunnen
 
 ![Overzicht van sjablonen en beleid](/help/assets/screen_shot_2018-12-07at093102.png)
 
-## AEM-projectarchetype {#aem-project-archetype}
+## Projectarchetype AEM {#aem-project-archetype}
 
-[Het AEM Project Archetype](/help/developing/archetype/overview.md) leidt tot een minimaal project van de Manager van de Ervaring van Adobe als uitgangspunt voor uw eigen projecten, met inbegrip van een voorbeeld van douaneHTML componenten met SlingModels voor de logica en juiste implementatie van de Componenten van de Kern met het geadviseerde volmachtspatroon.
+[Het AEM Archetype](/help/developing/archetype/overview.md) van het Project leidt tot een minimaal project van Adobe Experience Manager als uitgangspunt voor uw eigen projecten, met inbegrip van een voorbeeld van douaneHTML componenten met SlingModels voor de logica en juiste implementatie van de Componenten van de Kern met het geadviseerde volmachtspatroon.
 
 **Volgende lezen:**
 
