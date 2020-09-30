@@ -1,10 +1,10 @@
 ---
 title: Core Components-versies
-description: De Componenten van de kern worden gepubliceerd als versies die meer dan één versie van de zelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies beschikbaar zijn en hoe u de compatibiliteit met Core Components en AEM kunt begrijpen.
+description: De Componenten van de kern worden gepubliceerd als versies die meer dan één versie van de zelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies beschikbaar zijn en hoe u de compatibiliteit met Core Components en AEM begrijpt.
 translation-type: tm+mt
-source-git-commit: 3136a82a0b523e13227def893d516017873f4365
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '1735'
+source-wordcount: '1681'
 ht-degree: 12%
 
 ---
@@ -16,42 +16,42 @@ De huidige versie van de Core Components is 2.11.0 en is compatibel met [AEM als
 
 ## Historie en compatibiliteit vrijgeven {#release-history-and-compatibility}
 
-De Core Components zijn voor het eerst uitgebracht met AEM 6.3 en zijn ontworpen voor flexibiliteit en compatibiliteit met alle ondersteunde AEM-versies. Daarom kan een versie van de componenten meerdere versies van dezelfde component bevatten.
+De Core Components zijn ontworpen om flexibel te zijn en compatibel met alle ondersteunde AEM versies. Daarom kan een versie van de componenten meerdere versies van dezelfde component bevatten.
 
 De volgende lijsten illustreren de verenigbaarheid van de versies van de Componenten van de Kern samen welke componentenversies bevat zijn waarin versies.
 
 ### Historie en vereisten vrijgeven {#release-history-requirements}
 
-De volgende lijst, waarvan de inhoud op GitHub met volledige versiedetails [](https://github.com/adobe/aem-core-wcm-components/releases)beschikbaar is, geeft een overzicht van de versies van de Componenten van de Kern en hun verenigbaarheid met versies AEM en Java.
+De volgende lijst, waarvan de inhoud op GitHub met volledige versiedetails [](https://github.com/adobe/aem-core-wcm-components/releases)beschikbaar is, geeft een overzicht van de versies van de Componenten van de Kern en hun verenigbaarheid met AEM versies en van Java.
 
-| Geen | Beschrijving | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Releasedatum |
-|---|---|---|---|---|---|---|---|
-| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | In deze release werd AMP-ondersteuning geïntroduceerd. | - | 6.4.8.1+ | 6.5.5.0+ | Continu | 8, 11 | 20 juli 2020 |
-| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | In deze versie is de PDF Viewer-component geïntroduceerd. | - | 6.4.8.1+ | 6.5.5.0+ | Continu | 8, 11 | 17 juni 2020 |
-| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | Deze release maakte integratie met de Adobe Client Data Layer en introduceerde de component Progress Bar. | - | 6.4.8.0+ | 6.5.4.0+ | Continu | 8, 11 | 29 mei 2020 |
-| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | Deze release was gericht op oplossingen met kleine verbeteringen. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | Continu | 8, 11 | 5 december 2019 |
-| [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | In deze versie is de nieuwe component Embed geïntroduceerd | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | Continu | 8, 11 | 25 september 2019 |
-| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | Deze release introduceerde de nieuwe Experience Fragment-component | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | Continu | 8, 11 | 6 september 2019 |
-| [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | Deze versie introduceerde de nieuwe componenten Accordion, Button, Container en Download. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | Continu | 8, 11 | 25 juni 2019 |
-| [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | In deze versie is de component Lijst met inhoudsfragmenten geïntroduceerd | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | Continu | 8, 11 | 7 mei 2019 |
-| [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | Deze release was vooral bedoeld voor verfijningen in de componentbibliotheek, maar bevat ook enkele functieverbeteringen voor de scheidingscomponent | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | Continu | 8 | 14 maart 2019 |
-| [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | Deze versie was gericht op de componentenbibliotheek en introduceerde de nieuwe separatorcomponent, maar bevat ook enkele eigenschapverhogingen voor de Component van het Beeld | 6.3.3.0+ | 6.4.2.0+ | - | - | 8 | 11 februari 2019 |
-| [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | Deze release was vooral gericht op foutoplossingen, maar bevat ook enkele functieverbeteringen voor de Carousel-component | 6.3.3.0+ | 6.4.2.0+ | - | - | 8 | 27 november 2018 |
-| [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | Er zijn tabs en carrouselcomponenten geïntroduceerd, verbeteringen in de afbeelding, pagina en titelcomponenten en verbeterde tekstspatiëring | 6.3.3.0+ | 6.4.2.0+ | - | - | 8 | 16 oktober 2018 |
-| [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | Teaser Component geïntroduceerd, Image Component-verbeteringen en talrijke opgeloste problemen | 6.3.3.0+ | 6.4.2.0+ | - | - | 8 | 13 juli 2018 |
-| [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | Bugfix-release | 6.3.2.0+ | 6.4.0.0+ | - | - | 8 | 12 juni 2018 |
-| [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | Extra verbeteringen onder de wasdom, foutoplossingen en kleine verbeteringen, waaronder ondersteuning voor het spiegelen van afbeeldingen. | 6.3.2.0+ | 6.4.0.0+ | - | - | 8 | 11 april 2018 |
-| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | Meestal verbeteringen onder de wasdom, foutoplossingen en enkele kleine verbeteringen in de componenten van het fragment Afbeelding, Pagina en Inhoud | 6.3.2.0+ | 6.4.0.0+ | - | - | 8 | 7 maart 2018 |
-| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | Navigatie, Taalnavigatie en Snel zoeken geïntroduceerde componenten. Stijlsysteem geïmplementeerd voor alle componenten. | 6.3.2.0+ | 6.4.0.0+ | - | - | 8 | 16 januari 2018 |
-| [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | Implementatie van JSON-export op alle componenten, introductie van de component Content Fragment | 6.3.1.0 | 6.4.0.0+ | - | - | 8 | 10 oktober 2017 |
-| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | Verschillende correcties voor de component Image | 6.3.0.0+ | 6.4.0.0+ | - | - | 8 | 4 augustus 2017 |
-| [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | Oplossingen voor pagina-component, afbeeldingscomponent, diverse algemene correcties en verbeteringen | 6.3.0.0+ | 6.4.0.0+ | - | - | 8 | 26 april 2017 |
-| [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | Oplossingen voor geanimeerde GIF-afbeeldingen in de afbeeldingscomponent | 6.3.0.0+ | 6.4.0.0+ | - | - | 7 | 22 maart 2017 |
-| [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | Eerste release van Core Components | 6.3.0.0+ | 6.4.0.0+ | - | - | 7 | 20 maart 2017 |
+| Geen | Beschrijving | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service | Java | Releasedatum |
+|---|---|---|---|---|---|---|
+| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | In deze release werd AMP-ondersteuning geïntroduceerd. | 6.4.8.1+ | 6.5.5.0+ | Continu | 8, 11 | 20 juli 2020 |
+| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | In deze versie is de PDF Viewer-component geïntroduceerd. | 6.4.8.1+ | 6.5.5.0+ | Continu | 8, 11 | 17 juni 2020 |
+| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | Deze versie liet integratie met de Laag van Gegevens van de Cliënt van Adobe toe en introduceerde de component van de Bar van de Voortgang. | 6.4.8.0+ | 6.5.4.0+ | Continu | 8, 11 | 29 mei 2020 |
+| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | Deze release was gericht op oplossingen met kleine verbeteringen. | 6.4.4.0+ | 6.5.0.0+ | Continu | 8, 11 | 5 december 2019 |
+| [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | In deze versie is de nieuwe component Embed geïntroduceerd | 6.4.4.0+ | 6.5.0.0+ | Continu | 8, 11 | 25 september 2019 |
+| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | Deze release introduceerde de nieuwe Experience Fragment-component | 6.4.4.0+ | 6.5.0.0+ | Continu | 8, 11 | 6 september 2019 |
+| [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | Deze versie introduceerde de nieuwe componenten Accordion, Button, Container en Download. | 6.4.2.0+ | 6.5.0.0+ | Continu | 8, 11 | 25 juni 2019 |
+| [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | In deze versie is de component Lijst met inhoudsfragmenten geïntroduceerd | 6.4.2.0+ | 6.5.0.0+ | Continu | 8, 11 | 7 mei 2019 |
+| [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | Deze release was vooral bedoeld voor verfijningen in de componentbibliotheek, maar bevat ook enkele functieverbeteringen voor de scheidingscomponent | 6.4.2.0+ | 6.5.0.0+ | Continu | 8 | 14 maart 2019 |
+| [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | Deze versie was gericht op de componentenbibliotheek en introduceerde de nieuwe separatorcomponent, maar bevat ook enkele eigenschapverhogingen voor de Component van het Beeld | 6.4.2.0+ | - | - | 8 | 11 februari 2019 |
+| [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | Deze release was vooral gericht op foutoplossingen, maar bevat ook enkele functieverbeteringen voor de Carousel-component | 6.4.2.0+ | - | - | 8 | 27 november 2018 |
+| [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | Er zijn tabs en carrouselcomponenten geïntroduceerd, verbeteringen in de afbeelding, pagina en titelcomponenten en verbeterde tekstspatiëring | 6.4.2.0+ | - | - | 8 | 16 oktober 2018 |
+| [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | Teaser Component geïntroduceerd, Image Component-verbeteringen en talrijke opgeloste problemen | 6.4.2.0+ | - | - | 8 | 13 juli 2018 |
+| [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | Bugfix-release | 6.4.0.0+ | - | - | 8 | 12 juni 2018 |
+| [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | Extra verbeteringen onder de wasdom, foutoplossingen en kleine verbeteringen, waaronder ondersteuning voor het spiegelen van afbeeldingen. | 6.4.0.0+ | - | - | 8 | 11 april 2018 |
+| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | Meestal verbeteringen onder de wasdom, foutoplossingen en enkele kleine verbeteringen in de componenten van het fragment Afbeelding, Pagina en Inhoud | 6.4.0.0+ | - | - | 8 | 7 maart 2018 |
+| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | Navigatie, Taalnavigatie en Snel zoeken geïntroduceerde componenten. Stijlsysteem geïmplementeerd voor alle componenten. | 6.4.0.0+ | - | - | 8 | 16 januari 2018 |
+| [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | Implementatie van JSON-export op alle componenten, introductie van de component Content Fragment | 6.4.0.0+ | - | - | 8 | 10 oktober 2017 |
+| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | Verschillende correcties voor de component Image | 6.4.0.0+ | - | - | 8 | 4 augustus 2017 |
+| [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | Oplossingen voor pagina-component, afbeeldingscomponent, diverse algemene correcties en verbeteringen | 6.4.0.0+ | - | - | 8 | 26 april 2017 |
+| [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | Oplossingen voor geanimeerde GIF-afbeeldingen in de afbeeldingscomponent | 6.4.0.0+ | - | - | 7 | 22 maart 2017 |
+| [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | Eerste release van Core Components | 6.4.0.0+ | - | - | 7 | 20 maart 2017 |
 
 >[!NOTE]
 >
->Net als bij AEM raadt Adobe ontwikkelaars aan de [nieuwste versie en versies van de beschikbare kerncomponenten](https://github.com/adobe/aem-core-wcm-components/releases/latest) te gebruiken die compatibel zijn met de versie van AEM die ze uitvoeren, zodat ze kunnen profiteren van de meest actuele oplossingen en functies.
+>Net als bij AEM raadt Adobe ontwikkelaars aan de [nieuwste versie en versies van de beschikbare Core Components](https://github.com/adobe/aem-core-wcm-components/releases/latest) te gebruiken die compatibel zijn met de versie van AEM die ze uitvoeren om te profiteren van de meest actuele oplossingen en functies.
 
 ### Componentversies en -releases {#component-versions-and-releases}
 
@@ -90,9 +90,9 @@ De volgende lijst specificeert welke versies van welke componenten bevat zijn wa
 
 ## Versies en releases {#versions-and-releases}
 
-De Componenten van de kern worden verdeeld via GitHub. Op deze manier kan Adobe sneller functionaliteit toevoegen aan de componenten en kan ook community-invoer buiten de AEM-releasecyclus plaatsvinden.
+De Componenten van de kern worden verdeeld via GitHub. Hierdoor kan Adobe sneller functionaliteit toevoegen aan de componenten en kan ook gemeenschapsinvoer buiten de AEM releasecyclus plaatsvinden.
 
-De kerncomponenten worden beschikbaar gesteld met gedefinieerde AEM-versies waarmee ze compatibel zijn. Dit betekent dat één AEM-versie meerdere versies of versies van de Core Components kan ondersteunen. Dit geeft meer flexibiliteit dan de vroegere Componenten van de Stichting, die aan een specifieke versie van AEM gebonden waren.
+De Core Components worden beschikbaar gesteld met bepaalde AEM versies waarmee zij compatibel zijn. Dit betekent dat één AEM versie meerdere versies of versies van de Componenten van de Kern kan steunen. Dit geeft meer flexibiliteit dan de vroegere Componenten van de Stichting, die aan een specifieke versie van AEM gebonden waren.
 
 ### Versies {#versions}
 
@@ -123,16 +123,16 @@ De Componenten van de kern zijn een integraal deel van AEM en gesteund zoals is,
 Net als andere productkenmerken is de algemene regel van het einde van de levensduur:
 
 * Componenten worden eerst aangekondigd te worden vervangen voordat ze worden verwijderd
-* Op zijn vroegst worden ze na de aankondiging uit de AEM-release verwijderd.
+* Op zijn vroegst worden ze na de aankondiging uit de AEM gehaald.
 
 Dit geeft klanten minstens één versiecyclus om naar de nieuwe versie van de component te bewegen, alvorens steun beëindigt.
 
-De versie van elke component geeft duidelijk aan welke AEM-versies worden ondersteund. Wanneer de steun voor een versie van AEM ophoudt, dan ook de steun van de Componenten van de Kern voor die versie van AEM.
+In de versie van elke component worden duidelijk de AEM versies vermeld die worden ondersteund. Wanneer de steun voor een versie van AEM beëindigt, dan ook de steun van de Componenten van de Kern voor die versie van AEM.
 
-Zie de pagina Core Components [](developing/customizing.md) aanpassen van de relevante versie van Core Components voor meer informatie over de ondersteuning van componentaanpassingen.
+Meer informatie over de ondersteuning van componentaanpassingen vindt u op de pagina Core Components [Customizing](developing/customizing.md) (Kerncomponenten aanpassen) van de relevante versie van Core Components.
 
 ## Ondersteuning van stichtingscomponenten {#foundation-component-support}
 
-Aangezien de componenten van de Stichting als basis voor zoveel projectontwikkeling in vele versies hebben gediend, zullen zij in de nabije toekomst verder worden gesteund.
+De nadruk op Adobe is verschoven naar de kerncomponenten en er worden nieuwe functies toegevoegd.
 
-De ontwikkelingsnadruk van Adobe is echter verschoven naar de kerncomponenten en er worden nieuwe functies aan toegevoegd, terwijl [bijna alle stichtingscomponenten zijn vervangen door AEM 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) en er alleen opgeloste problemen worden aangebracht in de verdere ontwikkeling van de stichtingscomponenten.
+[Bijna zijn alle Componenten van de Stichting verouderd met AEM 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) en slechts zullen de belangrijkste insectenmoeilijke situaties voor de Componenten van de Stichting in de toekomst worden overwogen.
