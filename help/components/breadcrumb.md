@@ -2,9 +2,9 @@
 title: Broodkruimelcomponent
 description: De component van de Breadcrumb van de Component van de Kern is een navigatiecomponent die een broodkruimel van verbindingen bouwt die op de plaats van de pagina in de inhoudshiërarchie wordt gebaseerd.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '709'
 ht-degree: 1%
 
 ---
@@ -24,18 +24,18 @@ Beschikbare opties, zoals het standaardnavigatieniveau en de mogelijkheid om de 
 
 De huidige versie van de Breadcrumb Component is v2, die in januari 2018 is geïntroduceerd met release 2.0.0 van de Core Components, en die in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
+In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
 
-| Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | Compatibel | Compatibel | Compatibel |
-| [v1](v1/breadcrumb-v1.md) | Compatibel | Compatibel | Compatibel | - |
+| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
+|--- | --- |--- |---|
+| v2 | Compatibel | Compatibel | Compatibel |
+| [v1](v1/breadcrumb-v1.md) | Compatibel | Compatibel | - |
 
 Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Ga naar de [componentbibliotheek](https://adobe.com/go/aem_cmp_library_breadcrumb)om de component Breadcrumb te ervaren en voorbeelden van de bijbehorende configuratieopties en de HTML- en JSON-uitvoer te zien.
+Ga naar de [componentbibliotheek](https://adobe.com/go/aem_cmp_library_breadcrumb)om de component Breadcrumb te bekijken en voorbeelden van de bijbehorende configuratieopties en de HTML- en JSON-uitvoer te bekijken.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud verborgen en actieve 
 
 ![Dialoogvenster voor bewerken van component Breadcrumb](/help/assets/breadcrumb-edit.png)
 
-* **Beginniveau** navigatie - Waar in de hiërarchie moet de component breadcrumb omlaag gaan naar de huidige pagina. Bijvoorbeeld in We.Retail:
+* **Beginniveau** navigatie - Waar in de hiërarchie moet de component breadcrumb omlaag gaan naar de huidige pagina. Bijvoorbeeld:
 
    * 0 begint bij `/content`
    * 1 begint bij `/content/<yourSite>`
@@ -88,4 +88,4 @@ In het ontwerpdialoogvenster kan de sjabloonauteur definiëren wat de standaardw
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component Breadcrumb ondersteunt het AEM- [stijlsysteem](/help/get-started/authoring.md#component-styling).
+De component Breadcrumb ondersteunt het [Stijlsysteem](/help/get-started/authoring.md#component-styling)AEM.
