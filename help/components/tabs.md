@@ -2,10 +2,10 @@
 title: Component Tabs
 description: Met de component Tabs kunt u meerdere tabbladen maken om de inhoud op een pagina te rangschikken.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,8 +32,8 @@ Met de tabbladen en [accordeoncomponenten](accordion.md) kunt u rechtstreeks kop
 
 Dit doet u als volgt:
 
-1. Bekijk de pagina met de component gebruikend de **[Mening als Gepubliceerde](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)**optie in de paginaredacteur.
-1. Controleer de inhoud van de pagina en identificeer de id van het deelvenster.
+1. Bekijk de pagina met de component gebruikend de **[Mening als Gepubliceerde](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** optie in de paginaredacteur.
+1. Inspect de inhoud van de pagina en identificeer de id van het deelvenster.
    * Bijvoorbeeld `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. De id wordt het anker dat u met een hash (`#`) aan de URL kunt toevoegen.
    * Bijvoorbeeld `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
@@ -42,11 +42,11 @@ Wanneer u met de deelvenster-id als anker naar de URL navigeert, schuift de brow
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-The current version of the Tabs Component is v1, which was introduced with release 2.2.0 of the Core Components in October 2018, and is described in this document.
+De huidige versie van de Tabs Component is v1, die in oktober 2018 is geïntroduceerd met release 2.2.0 van de Core Components (Basiscomponenten). Deze versie wordt in dit document beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
+In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
 
-| Componentversie | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
 | v1 | Compatibel | Compatibel | Compatibel |
 
@@ -54,7 +54,7 @@ Zie het document [Core Components Versions](/help/versions.md)voor meer informat
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-To experience the Tabs Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_tabs).
+Ga naar de [componentbibliotheek](https://adobe.com/go/aem_cmp_library_tabs)om de component Tabs te bekijken en voorbeelden van de bijbehorende configuratieopties en HTML- en JSON-uitvoer te bekijken.
 
 ### Technische details {#technical-details}
 
@@ -64,9 +64,9 @@ Meer details over het ontwikkelen van de Componenten van de Kern kunnen in de de
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
-The edit dialog allows the content author to create, rename, and rearrange tabs as well as define the active tab.
+In het dialoogvenster Bewerken kan de auteur van de inhoud tabbladen maken, hernoemen en opnieuw rangschikken, en het actieve tabblad definiëren.
 
-### Items Tab {#items-tab}
+### Tabblad Items {#items-tab}
 
 ![Tabs Component&#39;s edit dialog items tab](/help/assets/tabs-edit-items.png)
 
@@ -79,7 +79,7 @@ Gebruik de knop **Toevoegen** om de componentkiezer te openen en te kiezen welke
 
 >[!TIP]
 >
->Als de viewport van de pagina wordt verminderd zodat het bewerkingsdialoogvenster volledig scherm wordt, wordt de knop **Toevoegen** verborgen. Componenten kunnen nog steeds worden toegevoegd aan de component Tabs door de [component te slepen vanuit de browser Component en neer te zetten op de component Tabs in de pagina-editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component).
+>Als de viewport van de pagina wordt verminderd zodat het bewerkingsdialoogvenster volledig scherm wordt, wordt de knop **Toevoegen** verborgen. Componenten kunnen nog steeds worden toegevoegd aan de component Tabs door de [deelvensterbrowser te slepen en neer te zetten op de component Tabs in de pagina-editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component).
 
 ### Tabblad Eigenschappen {#properties-tab}
 
@@ -94,7 +94,7 @@ Gebruik de knop **Toevoegen** om de componentkiezer te openen en te kiezen welke
 
 ### Tabblad Toegankelijkheid {#accessibility-tab}
 
-![Tabs Component&#39;s edit dialog accessibility tab](/help/assets/tabs-edit-accessibility.png)
+![Toegankelijkheidstabblad van dialoogvenster dialoogvenster voor bewerken van tabs Component](/help/assets/tabs-edit-accessibility.png)
 
 Op het tabblad **Toegankelijkheid** kunnen waarden worden ingesteld voor [ARIA-toegankelijkheidslabels](https://www.w3.org/WAI/standards-guidelines/aria/) voor de component.
 
@@ -118,11 +118,11 @@ Nadat u de optie Deelvenster **** selecteren op de werkbalk van de component heb
 
 >[!NOTE]
 >
->Tabs kunnen niet door de auteur worden geselecteerd in de modus **Bewerken** . Gebruik de modus **[Voorvertoning](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)**of de optie**[Weergeven als gepubliceerd](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** om te communiceren met de tabbladen als een lezer van de gepubliceerde inhoud.
+>Tabs kunnen niet door de auteur worden geselecteerd in de modus **Bewerken** . Gebruik de modus **[Voorvertoning](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)** of de optie **[Weergeven als gepubliceerd](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** om te communiceren met de tabbladen als een lezer van de gepubliceerde inhoud.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
-The design dialog allows the template author to define which components can be added as items to the tabs component as well as define which custom styles are available to the content author.
+In het ontwerpdialoogvenster kan de sjabloonauteur definiëren welke componenten als items aan de component tabs kunnen worden toegevoegd en welke aangepaste stijlen beschikbaar zijn voor de auteur van de inhoud.
 
 ### Tabblad Toegestane componenten {#allowed-components-tab}
 
@@ -132,4 +132,4 @@ Het tabblad Toegestane componenten werkt op dezelfde manier als het tabblad met 
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component Tabs ondersteunt het AEM- [stijlsysteem](/help/get-started/authoring.md#component-styling).
+De component Tabs ondersteunt het [Stijlsysteem](/help/get-started/authoring.md#component-styling)AEM.
