@@ -2,9 +2,9 @@
 title: Component Form Container
 description: Met de Core Component Form Container Component kunnen eenvoudige verzendformulieren worden gemaakt.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -28,12 +28,12 @@ Door het dialoogvenster [](#configure-dialog) configureren te gebruiken, kan de 
 
 De huidige versie van de Form Container Component is v2, die in januari 2018 is geïntroduceerd met versie 2.0.0 van de Core Components, en in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
+In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
 
-| Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | Compatibel | Compatibel | Compatibel |
-| [v1](/help/components/v1/form-container-v1.md) | Compatibel | Compatibel | Compatibel | - |
+| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v2 | Compatibel | Compatibel | Compatibel |
+| [v1](/help/components/v1/form-container-v1.md) | Compatibel | Compatibel | - |
 
 Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
 
@@ -90,8 +90,8 @@ Ongeacht het geselecteerde handelingstype, kan een pagina van dank u altijd word
 ![Algemene opties in het dialoogvenster Bewerken van component Form Container](/help/assets/form-container-edit-general.png)
 
 * **Hartelijk dank, pagina** - De gebruiker wordt na het verzenden van het formulier omgeleid naar de opgegeven pagina.
-   * Gebruik het dialoogvenster Selectie om een bron in AEM te selecteren.
-   * Geef de absolute URL op als de pagina Hartelijk dank zich niet in AEM bevindt. Niet-absolute URL&#39;s worden geïnterpreteerd ten opzichte van AEM.
+   * Gebruik het dialoogvenster Selectie om een bron binnen AEM te selecteren.
+   * Geef de absolute URL op als de pagina voor bedankt niet in AEM is. Niet-absolute URL&#39;s worden ten opzichte van AEM geïnterpreteerd.
    * Laat leeg om het formulier na verzending opnieuw weer te geven.
 * **ID** - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de [gegevenslaag](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
@@ -104,4 +104,4 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de toegestane componenten en 
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component Form Container ondersteunt het AEM- [stijlsysteem](/help/get-started/authoring.md#component-styling).
+De component Form Container ondersteunt het [Stijlsysteem](/help/get-started/authoring.md#component-styling)AEM.
