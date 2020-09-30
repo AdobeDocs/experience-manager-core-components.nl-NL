@@ -1,10 +1,10 @@
 ---
 title: Ontwerpen met kerncomponenten
-description: In AEM, zijn de componenten de structurele elementen die de inhoud van de pagina's vormen die - de Componenten van de Kern bieden flexibele en eigenschap-rijke auteursfunctionaliteit aan.
+description: In AEM, zijn de componenten de structurele elementen die de inhoud van de pagina's vormen die worden ontworpen - de Componenten van de Kern bieden flexibele en eigenschap-rijke auteursfunctionaliteit aan.
 translation-type: tm+mt
-source-git-commit: 4281f6421482682f603f6a7f5e18df61f9a6d98c
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ De componenten van de Kern bieden flexibele en eigenschap-rijke auteursfunctiona
 
 Ga naar de [componentbibliotheek](https://adobe.com/go/aem_cmp_library)voor meer informatie over de Core Components en voorbeelden van hun configuratieopties en de HTML- en JSON-uitvoer.
 
-Voor een meer diepgaande, op ontwikkelaars-georiënteerde inleiding aan het uitvoeren van de Componenten van de Kern op een AEM- project door de Archetype [van het Project van](/help/developing/archetype/overview.md) AEM controle uit [het WKND leerprogramma te gebruiken.](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+Voor een meer diepgaande, ontwikkelaar-georiënteerde inleiding aan het uitvoeren van de Componenten van de Kern op een AEM project door het [AEM Archetype](/help/developing/archetype/overview.md) van het Project te gebruiken controle uit [het WKND leerprogramma.](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Voor een meer diepgaande, op ontwikkelaars-georiënteerde inleiding aan het uitv
 
 >[!CAUTION]
 >
->Core Components [vereist AEM 6.3 of hoger](/help/versions.md) en [bewerkbare sjablonen](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html). Zij werken niet met Klassieke UI noch met statische malplaatjes.
+>De Componenten van de kern [vereisen AEM 6.4 of hoger](/help/versions.md) en vereisen het gebruik van [editable malplaatjes](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html). Zij werken niet met Klassieke UI noch met statische malplaatjes.
 
 ## Ontwerpen met kerncomponenten {#authoring-with-core-components}
 
@@ -73,16 +73,12 @@ Omdat de Componenten van de Kern door malplaatjeauteurs kunnen worden pre-gevorm
 
 ### Componentstijlen {#component-styling}
 
-De stijlen van de meeste Core Components kunnen worden gedefinieerd met behulp van het AEM-stijlsysteem.
+De stijlen van de meeste Core Components kunnen worden bepaald gebruikend het de stijlsysteem van de AEM.
 
 * Een sjabloonauteur kan bepalen welke stijlen beschikbaar zijn voor een bepaalde component in het dialoogvenster Ontwerpen van die component.
 * De auteur van de inhoud kan vervolgens kiezen welke stijlen u wilt toepassen bij het toevoegen van de component en het maken van inhoud.
 
 Zie de documentatie van het [Stijlsysteem](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html) voor meer informatie.
-
->[!NOTE]
->
->In AEM 6.3, wordt de dienstpak 2 (6.3.2.0) of nieuwer vereist om de eigenschap van het stijlsysteem toe te laten.
 
 ## Bronnen voor ontwikkelaars {#developer-resources}
 
