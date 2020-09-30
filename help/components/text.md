@@ -2,9 +2,9 @@
 title: Tekstcomponent
 description: De component Text is een component voor tekstbewerking en -compositie met tekstopmaak die op locatie kan worden bewerkt.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '2202'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -24,12 +24,12 @@ Het dialoogvenster [](#edit-dialog) Bewerken bevat inline bewerkingen met beperk
 
 De huidige versie van de Tekstcomponent is v2, die in januari 2018 is geïntroduceerd met versie 2.0.0 van de Core Components, en die in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
+In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
 
-| Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|---|
-| v2 | - | Compatibel | Compatibel | Compatibel |
-| [v1](v1/text-v1.md) | Compatibel | Compatibel | Compatibel | - |
+| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
+|---|---|---|---|
+| v2 | Compatibel | Compatibel | Compatibel |
+| [v1](v1/text-v1.md) | Compatibel | Compatibel | - |
 
 Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
 
@@ -45,13 +45,13 @@ Meer details over het ontwikkelen van de Componenten van de Kern kunnen in de de
 
 ## De component Text en de RTF-editor {#the-text-component-and-the-rich-text-editor}
 
-De component van de Tekst van de Componenten van de Kern gebruikt de Redacteur van de Tekst van AEM Rich (RTE). RTE voorziet inhoudsauteurs van een brede waaier van functionaliteit voor het uitgeven van hun tekstinhoud. RTE is zeer flexibel in zijn configuratie en biedt een aantal opties aan. Meer details over hoe RTE kan worden gevormd kunnen in de artikelen worden gevonden [vormen de Rich Text Editor](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/rich-text-editor.html) en [vormen de Rich Text Editor stop-ins](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html).
+De component van de Tekst van de Componenten van de Kern gebruikt de AEM Rich Text Editor (RTE). RTE voorziet inhoudsauteurs van een brede waaier van functionaliteit voor het uitgeven van hun tekstinhoud. RTE is zeer flexibel in zijn configuratie en biedt een aantal opties aan. Meer details over hoe RTE kan worden gevormd kunnen in de artikelen worden gevonden [vormen de Rich Text Editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) en [vormen de Rich Text Editor stop-ins](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 De rest van dit artikel toont de standaardconfiguratie van de Component van de Tekst van de Componenten van de Kern met de uit-van-de-doos configuratie van RTE aan.
 
 >[!NOTE]
 >
->Alleen opties die door [UI-configuraties van de RTE](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html) worden ingeschakeld, zijn beschikbaar door de component Text.
+>Alleen opties die door [UI-configuraties van de RTE](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) worden ingeschakeld, zijn beschikbaar door de component Text.
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
@@ -122,7 +122,7 @@ Met deze optie kunt u de geselecteerde tekst omzetten in een hyperlink of een re
 ![Voorbeeld van hyperlink](/help/assets/text-hyperlink-example.png)
 
 * Het pad invoeren
-   * Kies een pad in AEM met het dialoogvenster Selectie openen
+   * Kies in het dialoogvenster Selectie openen een pad in AEM
    * Als de koppeling zich niet binnen AEM bevindt, voert u de absolute URL in
       * Niet-absolute paden worden geïnterpreteerd als relatief ten opzichte van AEM
 * Alternatieve beschrijvende tekst voor de koppeling invoeren
@@ -132,6 +132,7 @@ Met deze optie kunt u de geselecteerde tekst omzetten in een hyperlink of een re
    * Nieuw tabblad
    * Bovenliggend frame
    * Bovenste frame
+
    Tik of klik op het vinkje om de koppeling toe te passen of klik op de x om te annuleren.
 
 ### Ontkoppelen
@@ -257,7 +258,7 @@ Wordt gebruikt om een tabel in de tekst in te voegen. Als u deze optie selecteer
 
 Wordt gebruikt om de spelling van de tekstinhoud te controleren. Mogelijke spelfouten worden onderstreept met gebroken, rode lijnen.
 
-Meer informatie over spellingcontrole en het aanpassen van de woordenboeken van de spellingcontrole kunt u in het document vinden [vormt de Rich Text Editor stop-Ins](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html).
+Meer informatie over spellingcontrole en het aanpassen van de woordenboeken van de spellingcontrole kunt u in het document vinden [vormt de Rich Text Editor stop-Ins](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 ### Speciale tekens {#special-characters}
 
@@ -267,7 +268,7 @@ Wordt gebruikt om speciale tekens in te voegen in de tekst. Als u deze optie sel
 
 ![Voorbeeld van speciale tekens](/help/assets/text-special-characters-example.png)
 
-Tik op het gewenste teken of klik op het gewenste teken om het teken na de cursor in te voegen in de tekst. U kunt meerdere tekens invoegen. Tik of klik op de x om het selectievenster te sluiten.
+Tik op het gewenste teken of klik op het gewenste teken om het na de cursor in de tekst in te voegen. U kunt meerdere tekens invoegen. Tik of klik op de x om het selectievenster te sluiten.
 
 ### Bron bewerken
 
@@ -367,4 +368,4 @@ De optie voor het invoegen van speciale tekens kan voor de component worden geac
 
 ## Tabblad Stijlen {#styles-tab}
 
-De component Text ondersteunt het AEM- [stijlsysteem](/help/get-started/authoring.md#component-styling).
+De component Text ondersteunt het [stijlsysteem](/help/get-started/authoring.md#component-styling)AEM.
