@@ -2,9 +2,9 @@
 title: AMP-ondersteuning voor de kerncomponenten
 description: De kerncomponenten ondersteunen AMP - Versnelde mobiele pagina's
 translation-type: tm+mt
-source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Hoewel AMP-ondersteuning veel flexibiliteit biedt, zijn er slechts enkele eenvou
 
 ### AMP inschakelen voor pagina&#39;s {#enabling-amp}
 
-Als u AMP voor een pagina wilt inschakelen, moet de **AMP-modus** zijn geselecteerd in het [paginabeleid.](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/templates.html#editingatemplatepagepolicies)
+Als u AMP voor een pagina wilt inschakelen, moet de **AMP-modus** zijn geselecteerd in het [paginabeleid.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)
 
 ![Opties voor AMP-paginabeleid](/help/assets/amp-policy.png)
 
@@ -49,7 +49,7 @@ Als u AMP voor een pagina wilt inschakelen, moet de **AMP-modus** zijn geselecte
 * **AMP** met paden - De pagina wordt als AMP en HTML geleverd.
 * **Alleen** AMP - De pagina wordt alleen als AMP geleverd.
 
-De AMP-instellingen voor een pagina kunnen ook worden overschreven in de [Pagina-eigenschappen](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-page-properties.html) voor een afzonderlijke pagina.
+De AMP-instellingen voor een pagina kunnen ook worden overschreven in de [Pagina-eigenschappen](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) voor een afzonderlijke pagina.
 
 ![Eigenschappen van AMP-pagina](/help/assets/amp-page-properties.png)
 
