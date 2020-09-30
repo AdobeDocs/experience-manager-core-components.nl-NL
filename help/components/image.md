@@ -2,9 +2,9 @@
 title: Afbeeldingscomponent
 description: De Core Component Image is een adaptieve beeldcomponent die ter plekke kan worden bewerkt.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '1934'
+source-wordcount: '1921'
 ht-degree: 0%
 
 ---
@@ -30,12 +30,12 @@ Bovendien ondersteunt de component Afbeelding lui laden om het laden van het eig
 
 De huidige versie van de Image Component is v2, die in januari 2018 is geïntroduceerd met versie 2.0.0 van de Core Components, en in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
+In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
 
-| Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | Compatibel | Compatibel | Compatibel |
-| [v1](v1/image-v1.md) | Compatibel | Compatibel | Compatibel | - |
+| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v2 | Compatibel | Compatibel | Compatibel |
+| [v1](v1/image-v1.md) | Compatibel | Compatibel | - |
 
 Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
 
@@ -53,7 +53,7 @@ Vanwege beveiligingsredenen wordt de oorspronkelijke SVG nooit rechtstreeks aang
 
 >[!CAUTION]
 >
->Voor SVG-ondersteuning is versie 2.1.0 van de Core Components of hoger vereist, samen met [servicepack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) voor AEM 6.4 of [servicepack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) voor AEM 6.3 of hoger, ter ondersteuning van [nieuwe functies](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) voor beeldeditors in AEM.
+>Voor SVG-ondersteuning is versie 2.1.0 van de Core Components of hoger vereist, samen met [servicepack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) voor AEM 6.4 of hoger, ter ondersteuning van de functies [voor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html) afbeeldingseditors in AEM.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
@@ -91,13 +91,14 @@ Naast het standaarddialoogvenster [](#edit-dialog) Bewerken en [Ontwerpdialoogve
    * Alternatieve tekst ophalen van DAM - Bij controle wordt de alternatieve tekst van de afbeelding gevuld met de waarde van de `dc:description` metagegevens in DAM.
 
 * **Bijschrift** Aanvullende informatie over de afbeelding die standaard onder de afbeelding wordt weergegeven.
-   * **Bijschrift ophalen van DAM** Als deze optie is ingeschakeld, wordt de bijschrifttekst van de afbeelding gevuld met de waarde van de `dc:title` metagegevens in DAM.
+   * **Bijschrift ophalen van DAM** Als deze optie is ingeschakeld, wordt het bijschrift van de afbeelding gevuld met de waarde van de optie 
+`dc:title` metagegevens in DAM.
    * **Bijschrift weergeven als pop-up** Als deze optie is ingeschakeld, wordt het bijschrift niet weergegeven onder de afbeelding, maar als pop-up die wordt weergegeven door sommige browsers wanneer de muisaanwijzer op de afbeelding wordt geplaatst.
 
 * **Koppeling**
    * Koppel de afbeelding aan een andere bron.
-   * In het dialoogvenster Selecteren kunt u een koppeling maken naar een andere AEM-bron.
-   * Als u geen koppeling naar een AEM-bron maakt, voert u de absolute URL in. Niet-absolute URL&#39;s worden geïnterpreteerd als relatief ten opzichte van AEM.
+   * In het dialoogvenster Selecteren kunt u een koppeling maken naar een andere AEM.
+   * Als u geen koppeling naar een AEM maakt, voert u de absolute URL in. Niet-absolute URL&#39;s worden geïnterpreteerd als relatief ten opzichte van AEM.
 
 * **ID** - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de [gegevenslaag](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
@@ -118,6 +119,7 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud uitsnijden, de startk
 
    * Kies de optie **Free Hand** om uw eigen uitsnijding te definiëren.
    * Kies de optie Uitsnijden **** verwijderen om het oorspronkelijke element weer te geven.
+
    Als een uitsnijdoptie is geselecteerd, gebruikt u de blauwe handgrepen om het uitsnijden op de afbeelding te vergroten of te verkleinen.
 
    ![Opties voor uitsnijden](/help/assets/image-crop-options.png)
@@ -205,18 +207,20 @@ Op het tabblad **Functies** kunt u opgeven welke opties beschikbaar zijn voor de
 
    ![Dialoogvenster Eigenschappen van het ontwerpdialoogvenster van de component Image](/help/assets/image-design-features-source.png)
 
-   Selecteer de optie **Het uploaden van middelen vanaf het bestandssysteem** toestaan om auteurs van inhoud toe te staan afbeeldingen te uploaden vanaf hun lokale computer. Schakel deze optie uit als u wilt dat auteurs van inhoud alleen elementen van AEM selecteren.
+   Selecteer de optie **Het uploaden van middelen vanaf het bestandssysteem** toestaan om auteurs van inhoud toe te staan afbeeldingen te uploaden vanaf hun lokale computer. Schakel deze optie uit als u wilt dat inhoudsauteurs alleen elementen uit AEM selecteren.
 
 * Afdrukstand
 
    ![Dialoogvenster Eigenschappen van het ontwerpdialoogvenster van de component Image](/help/assets/image-design-features-orientation.png)
 
-* **Roteren** Gebruik deze optie als de auteur van de inhoud de optie Rechtsom **** roteren moet gebruiken.
-* **Met deze optie spiegelen** kunt u de auteur van de inhoud toestaan de opties **Horizontaal** omdraaien en Verticaal **** omdraaien te gebruiken.
+* **Roteren** Gebruik deze optie als de auteur van de inhoud de optie 
+**Rechtsom** roteren.
+* **Met deze optie spiegelen** kan de auteur van de inhoud de opdracht 
+**Opties voor Horizontaal** spiegelen en **Verticaal** spiegelen.
 
    >[!CAUTION]
    >
-   >De optie **Spiegelen** is standaard uitgeschakeld. Als u deze optie inschakelt, worden de knoppen **Verticaal** spiegelen en Horizontaal **** spiegelen weergegeven in het dialoogvenster Bewerken van de afbeeldingscomponent. De functie wordt momenteel echter niet ondersteund door AEM en wijzigingen die met deze opties zijn aangebracht, blijven niet behouden.
+   >De optie **Spiegelen** is standaard uitgeschakeld. Als u deze optie inschakelt, worden de knoppen **Verticaal** omdraaien en Horizontaal **** omdraaien weergegeven in het dialoogvenster Bewerken van de afbeeldingscomponent. De functie wordt momenteel echter niet ondersteund door AEM en wijzigingen die met deze opties zijn aangebracht, blijven niet behouden.
 
 * Uitsnijden
 
@@ -228,13 +232,14 @@ Op het tabblad **Functies** kunt u opgeven welke opties beschikbaar zijn voor de
    * Voer de numerieke verhouding van het aspect in.
    * Gebruik de sleephandgrepen om de volgorde van de hoogte-breedteverhoudingen te wijzigen
    * Gebruik het prullenbakpictogram om een hoogte-breedteverhouding te verwijderen.
+
    >[!CAUTION]
    >
    >In AEM worden de hoogte-breedteverhoudingen voor uitsnijden gedefinieerd als **hoogte/breedte**. Dit verschilt van de conventionele definitie van breedte/hoogte en wordt gedaan om oude compatibiliteitsredenen. De auteurs van de inhoud zullen zich niet van enig verschil bewust zijn zolang u een duidelijke naam van de verhouding verstrekt aangezien de naam in UI en niet de verhouding zelf wordt getoond.
 
 ### Tabblad Stijlen {#styles-tab-1}
 
-De component Image ondersteunt het AEM- [stijlsysteem](/help/get-started/authoring.md#component-styling).
+De component van het Beeld steunt het systeem [van de](/help/get-started/authoring.md#component-styling)Stijl van het AEM.
 
 ## Adaptieve afbeeldingsserver {#adaptive-image-servlet}
 
@@ -244,4 +249,4 @@ De component Image maakt gebruik van de Adaptive Image Servlet van de Core-compo
 >
 >Voorwaardelijke verzoeken via de `Last-Modified` header worden ondersteund door de Adaptive Image Servlet, maar het in cache plaatsen van de `Last-Modified` header [moet worden ingeschakeld in de Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
 >
->[De voorbeeldweergave-configuratie van de AEM Project Archetype](/help/developing/archetype/overview.md)bevat deze configuratie al.
+>[De de steekproefconfiguratie van de Verzender van de Projectarchetype](/help/developing/archetype/overview.md)van het AEM bevat reeds deze configuratie.
