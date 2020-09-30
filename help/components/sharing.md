@@ -2,10 +2,10 @@
 title: Component voor sociaal delen
 description: De Core Component Social Sharing Component is een widget voor delen via Facebook en Pinterest.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,11 +22,11 @@ In tegenstelling tot andere componenten worden de instellingen voor de component
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De huidige versie van de component voor sociaal delen is v1, die is geïntroduceerd met versie 1.0.0 van de Core Components met AEM 6.3. Deze versie wordt in dit document beschreven.
+De huidige versie van de component Sociaal delen is v1, die is geïntroduceerd met versie 1.0.0 van de Core Components en wordt beschreven in dit document.
 
-In de volgende tabel staan alle ondersteunde versies van de component en de AEM-versies waarmee de versies van de component compatibel zijn.
+In de volgende tabel staan alle ondersteunde versies van de component en de AEM versies waarmee de versies van de component compatibel zijn.
 
-| Componentversie | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
 | v1 | Compatibel | Compatibel | Compatibel |
 
