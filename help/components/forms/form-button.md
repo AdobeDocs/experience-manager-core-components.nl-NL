@@ -2,10 +2,10 @@
 title: Component Formulierknop
 description: Met de component Core Component Form Hidden kunt u een verborgen veld in een formulier opnemen.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ Met de component Core Component Form Button kan een knop worden opgenomen waarme
 
 ## Gebruik {#usage}
 
-Met de component Core Component Form Button kunt u knopvelden maken, vaak om de verzending van het formulier te activeren en deze component is bedoeld voor gebruik samen met de component [](form-container.md)Form Container.
+Met de component Core Component Form Button kunt u knopveld maken, vaak om de verzending van het formulier te activeren en wordt deze component samen met de component [](form-container.md)Form Container gebruikt.
 
 De knoopeigenschappen kunnen door de inhoudsredacteur in [vormen dialoog](#configure-dialog)worden bepaald.
 
@@ -24,18 +24,18 @@ De knoopeigenschappen kunnen door de inhoudsredacteur in [vormen dialoog](#confi
 
 De huidige versie van de component Form Button is v2, die in januari 2018 is geïntroduceerd met versie 2.0.0 van de Core Components, en die in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
+In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
 
-| Componentversie | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | Compatibel | Compatibel | Compatibel |
-| [v1](/help/components/v1/form-button-v1.md) | Compatibel | Compatibel | Compatibel | - |
+| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v2 | Compatibel | Compatibel | Compatibel |
+| [v1](/help/components/v1/form-button-v1.md) | Compatibel | Compatibel | - |
 
 Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Ga naar de [componentbibliotheek](https://adobe.com/go/aem_cmp_library_form_button)voor meer informatie over de component Formulierknoppen en voorbeelden van de configuratieopties ervan en over HTML- en JSON-uitvoer.
+Ga naar de [componentbibliotheek](https://adobe.com/go/aem_cmp_library_form_button)voor meer informatie over de component Formulierknoppen en voorbeelden van de bijbehorende configuratieopties en over HTML- en JSON-uitvoer.
 
 ### Technische details {#technical-details}
 
@@ -72,4 +72,4 @@ In het dialoogvenster voor configureren kan de auteur van de inhoud de parameter
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component Form Button ondersteunt het AEM- [stijlsysteem](/help/get-started/authoring.md#component-styling).
+De component van de Knoop van de Vorm steunt het Systeem [van de](/help/get-started/authoring.md#component-styling)Stijl van de AEM.
