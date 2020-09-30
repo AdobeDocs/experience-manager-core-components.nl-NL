@@ -2,7 +2,7 @@
 title: Het gebruiken van de Laag van de Gegevens van de Cliënt van Adobe met de Componenten van de Kern
 description: Het gebruiken van de Laag van de Gegevens van de Cliënt van Adobe met de Componenten van de Kern
 translation-type: tm+mt
-source-git-commit: 7b0edac1b5ffd068443cc4805a0fa97d243b6e9e
+source-git-commit: 79a063951a790261e2f00c33d8a76f31f781da0c
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 1%
@@ -35,7 +35,7 @@ Om de Laag van Gegevens manueel te activeren moet u een [context-bewuste configu
    * Waar elke knoop een `jcr:primaryType` reeks aan heeft `nt:unstructured`.
 1. Voeg een booleaanse eigenschap met de naam toe `enabled` en stel deze in op `true`.
 
-   ![Locatie van DataLayerConfig in WKND Reference Site](../../assets/datalayer-contextaware-sling-config.png)
+   ![Locatie van DataLayerConfig in WKND Reference Site](/help/assets/datalayer-contextaware-sling-config.png)
 
    *Locatie van DataLayerConfig in WKND Reference Site*
 
@@ -59,7 +59,7 @@ Om de Laag van Gegevens manueel te activeren moet u een [context-bewuste configu
 
 1. U kunt ook de ontwikkelaarsgereedschappen van uw browser openen en in de console moet het `adobeDataLayer` JavaScript-object beschikbaar zijn. Ga het volgende bevel in om de staat van de Laag van Gegevens van uw huidige pagina te krijgen:
 
-   ```js
+   ```javascript
    window.adobeDataLayer.getState();
    ```
 
@@ -238,7 +238,7 @@ Waar `<component-path>` is het JSON-pad naar de component in de gegevenslaag die
 
 Bijvoorbeeld:
 
-```js
+```javascript
 function logEventObject(event) {
     if(event.hasOwnProperty("eventInfo") && event.eventInfo.hasOwnProperty("path")) {
         var dataObject = window.adobeDataLayer.getState(event.eventInfo.path);
