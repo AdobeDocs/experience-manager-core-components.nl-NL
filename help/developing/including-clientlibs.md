@@ -2,7 +2,7 @@
 title: Inclusief clientbibliotheken
 description: Afhankelijk van uw gebruiksscenario zijn er verschillende manieren om clientbibliotheken op te nemen.
 translation-type: tm+mt
-source-git-commit: 24f718be2ba66113eda970c213c6ce4baec51752
+source-git-commit: 87e39566617f64b91bd8e98b3779b9b5c426c31c
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 3%
@@ -49,7 +49,7 @@ Als u hetzelfde wilt doen voor meerdere clientbibliotheekcategorieën tegelijk, 
 ## Alleen CSS of JS {#css-js-only}
 
 Vaak wilt u de CSS-include-bestanden in het HTML- `head` element plaatsen en de JS-code net vóór het sluiten van het `body` element.
-&#x200B;
+
 Als u in het `head`gedeelte alleen de CSS en niet de JS wilt opnemen, gebruikt u `cssIncludes`:
 
 ```html
@@ -84,7 +84,9 @@ Voor het toepassen van kenmerken op de gegenereerde CSS- `link` elementen en/of 
 
 CSS- `link` kenmerken die kunnen worden doorgegeven aan `jsAndCssIncludes` en `cssIncludes`:
 
-* `media`: tekenreeks &#x200B; JS- `script` kenmerken die kunnen worden doorgegeven aan `jsAndCssIncludes` en `jsIncludes`:
+* `media`: string
+
+JS- `script` kenmerken die kunnen worden doorgegeven aan `jsAndCssIncludes` en `jsIncludes`:
 
 * `async`: boolean
 * `defer`: boolean
@@ -94,7 +96,7 @@ CSS- `link` kenmerken die kunnen worden doorgegeven aan `jsAndCssIncludes` en `c
 ## Invoering {#inlining}
 
 In sommige gevallen, voor optimalisatie, of voor e-mail of [AMP,](amp.md) zou het kunnen worden vereist om CSS of JS in de output van HTML in te line.
-&#x200B;
+
 Als u de CSS wilt inline, `cssInline` kunt u deze gebruiken. In dat geval moet u het omringende `style` element schrijven:
 
 ```html
