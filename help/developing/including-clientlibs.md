@@ -2,7 +2,7 @@
 title: Inclusief clientbibliotheken
 description: Afhankelijk van uw gebruiksscenario zijn er verschillende manieren om clientbibliotheken op te nemen.
 translation-type: tm+mt
-source-git-commit: 87e39566617f64b91bd8e98b3779b9b5c426c31c
+source-git-commit: f74883359561e5ff6ca679d58bedbdeb100f7b0b
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 3%
@@ -84,10 +84,7 @@ Voor het toepassen van kenmerken op de gegenereerde CSS- `link` elementen en/of 
 
 CSS- `link` kenmerken die kunnen worden doorgegeven aan `jsAndCssIncludes` en `cssIncludes`:
 
-* `media`: string
-
-JS- `script` kenmerken die kunnen worden doorgegeven aan `jsAndCssIncludes` en `jsIncludes`:
-
+* `media`: tekenreeks-JS- `script` kenmerken die kunnen worden doorgegeven aan `jsAndCssIncludes` en `jsIncludes`:
 * `async`: boolean
 * `defer`: boolean
 * `onload`: string
