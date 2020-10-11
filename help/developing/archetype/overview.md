@@ -2,9 +2,9 @@
 title: Projectarchetype AEM
 description: Een projectmalplaatje voor op AEM gebaseerde toepassingen
 translation-type: tm+mt
-source-git-commit: 8b8f0ad528c77cfb6080981438786275bd9fbef1
+source-git-commit: 52f2c4dbba54261863a98fa2b992fe4690da3511
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1035'
 ht-degree: 3%
 
 ---
@@ -41,6 +41,7 @@ Het AEM Project Archetype is een Geweven malplaatje dat tot een minimaal, op bes
 * **Stijlsysteem:** Vermijd het bouwen van aangepaste componenten door auteurs toe te staan verschillende stijlen [op hen toe te](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/style-system.html) passen.
 * **Front-end build:** Ontwikkelaars aan de voorzijde kunnen [AEM pagina](uifrontend.md#webpack-dev-server) &#39;s modelleren en clientbibliotheken [](uifrontend.md) bouwen met Webpack, TypeScript en SASS.
 * **WebApp-Ready:** Voor plaatsen die React [of](uifrontend-react.md) Hoekig [gebruiken, gebruik het](uifrontend-angular.md)KUUROORD SDK [om](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/developing.html) in-context het schrijven van app [](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)te behouden.
+* **Handel ingeschakeld:** Voor projecten die [AEM Handel](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/commerce/home.html) met handelsoplossingen zoals [Magento](https://magento.com/) willen integreren gebruikend de Componenten [van de Kern van de](https://github.com/adobe/aem-core-cif-components)Handel.
 * **Voorbeeldcode:** Controle uit de component HelloWorld, en de steekproefmodellen, servlets, filters, en planners.
 * **Open Bronnen:** Als iets anders is dan zou moeten, [draagt](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) u uw verbeteringen bij!
 
