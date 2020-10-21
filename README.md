@@ -1,13 +1,20 @@
 ---
-source-git-commit: aa978d6ddf04912e3fc108f86450fac6a90d2caf
+source-git-commit: 68b8587bc943d30229d8be742904ebc4b93da9d4
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '233'
+ht-degree: 1%
 
 ---
-# Documentatie over kerncomponenten van Adobe Experience Manager
+# Documentatie over Adobe Experience Manager Core Components
+
+| EXL-PR | EXL | Voorvertoning | Activeren | Gepubliceerd | Help |
+|--- |--- |--- |--- |--- |--- |
+| [![Status samenstellen](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-core-components.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-core-components.en_pr-exl/lastBuild/) | [![Status samenstellen](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-core-components.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-core-components.en_exl/lastBuild/lastBuild) | [Voorbeeld-URL](https://experienceleague.corp.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [Live URL](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=en) | [Ontwerphandleiding](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 ## Documentatie over kernonderdelen
 
-Dit is de opslagplaats voor de ***documentatie*** van Adobe Experience Manager Core Components. Deze documentatie behandelt de installatie, het ontwerpgebruik, en hoe te om de kerncomponenten aan te passen.
+Dit is de opslagplaats voor Adobe Experience Manager Core Components- ***documentatie***. Deze documentatie behandelt de installatie, het ontwerpgebruik, en hoe te om de kerncomponenten aan te passen.
 
 Uw bijdragen aan de documentatie zijn welkom. Zie de volgende bronnen:
 
