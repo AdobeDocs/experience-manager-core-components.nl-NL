@@ -2,9 +2,9 @@
 title: De gegevenslaag van de Cliënt van Adobe uitbreiden
 description: De de Gegevens Laag van de Cliënt van Adobe kan na sommige basispatronen worden uitgebreid
 translation-type: tm+mt
-source-git-commit: 896ed679ed3351cb309a34b38bf97fe81adc2cfe
+source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -25,3 +25,7 @@ Een component van de Kern zoals de component [van de](https://github.com/adobe/a
 Daarom kan uw aangepaste Sling-model een `getData` methode bevatten die een object retourneert dat zich uitbreidt `ComponentData` om meer velden te retourneren.
 
 Als u dit doet, wordt een `data-cmp-data-layer` kenmerk toegevoegd aan het HTML-element van uw component met de JSON-code van de gegevens die worden gevuld met de gegevenslaag. Op dit punt kunt u scripts implementeren die naar deze gegevens of verwante gebeurtenissen luisteren.
+
+>[!TIP]
+>
+>Om de flexibiliteit van de Laag van Gegevens verder te onderzoeken, herzie over de integratieopties met inbegrip van hoe te om de Laag van Gegevens voor uw douanecomponenten toe te laten.
