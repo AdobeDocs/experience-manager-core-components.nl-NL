@@ -2,9 +2,9 @@
 title: Component Form Container
 description: Met de Core Component Form Container Component kunnen eenvoudige verzendformulieren worden gemaakt.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: 499047a8c15a6423a56b370f41fd020740481f80
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Met de Core Component Form Container Component kunnen eenvoudige verzendformulie
 
 Met de component Form Container kunt u formulieren en functies voor eenvoudige informatieverzending maken door eenvoudige WCM-formulieren te ondersteunen en door een geneste structuur te gebruiken om extra formuliercomponenten toe te staan.
 
-Door het dialoogvenster [](#configure-dialog) configureren te gebruiken, kan de inhoudseditor de actie definiëren die wordt geactiveerd door het verzenden van formulieren, waar de verzonden inhoud moet worden opgeslagen en of een workflow moet worden geactiveerd. De sjabloonauteur kan het [ontwerpdialoogvenster](#design-dialog) gebruiken om de toegestane componenten en de bijbehorende toewijzingen te definiëren, net als in het ontwerpdialoogvenster voor de [standaardlay-outcontainer in de sjablooneditor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
+Door het dialoogvenster [](#configure-dialog) configureren te gebruiken, kan de inhoudseditor de actie definiëren die wordt geactiveerd door het verzenden van formulieren, de URL die de verzending moet verwerken en of een workflow moet worden geactiveerd. De sjabloonauteur kan het [ontwerpdialoogvenster](#design-dialog) gebruiken om de toegestane componenten en de bijbehorende toewijzingen te definiëren, net als in het ontwerpdialoogvenster voor de [standaardlay-outcontainer in de sjablooneditor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 >[!NOTE]
 >
@@ -53,10 +53,23 @@ In het dialoogvenster voor configureren kan de auteur van de inhoud definiëren 
 
 Afhankelijk van het geselecteerde **handelingstype** veranderen de beschikbare opties in de container. De beschikbare actietypen zijn:
 
+* [Formuliergegevens verzenden](#post-data)
 * [Mail](#mail)
 * [Winkelinhoud](#store-content)
 
 Ongeacht het type zijn er [algemene instellingen](#general-settings) die van toepassing zijn op elke actie.
+
+### Formuliergegevens verzenden {#post-data}
+
+Wanneer het formulier wordt verzonden, worden de ingediende gegevens door het actietype voor postformuliergegevens doorgegeven aan een derde als JSON voor verwerking.
+
+![Opties voor gegevens na formulier in het bewerkingsdialoogvenster van de component Form Container](/help/assets/form-container-edit-post.png)
+
+* **Eindpunt** - de volledig - gekwalificeerde dienst HTTPS die de gegevens zal verwerken
+* **Foutbericht** - Bericht om weer te geven als de verzending niet is gelukt
+
+>[!TIP]
+>Er zijn extra time-outopties die een systeembeheerder kan aanpassen om de verwerking van doorgestuurde formuliergegevens af te handelen. [Zie de technische documentatie op GitHub voor meer informatie.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
 ### Mail {#mail}
 
@@ -82,6 +95,12 @@ Wanneer het formulier wordt verzonden, wordt de inhoud van het formulier opgesla
 * **Inhoudspad** - Pad naar opslagplaats voor inhoud waar verzonden inhoud wordt opgeslagen
 * **Gegevens** weergeven - Tik of klik om opgeslagen verzonden gegevens weer te geven als JSON
 * **Workflow** starten - Configureren om een workflow met de opgeslagen inhoud te starten als lading bij het verzenden van het formulier
+
+>[!NOTE]
+>
+>Om het beheer van gebruikersgegevens eenvoudiger te maken en scheiding van zorgen af te dwingen, wordt het over het algemeen niet aanbevolen door gebruikers gegenereerde inhoud in de opslagplaats op te slaan.
+>
+>Gebruik in plaats daarvan het actietype [Formuliergegevens](#post-data) verzenden om gebruikersinhoud door te geven aan een specifieke serviceprovider.
 
 ### Algemene instellingen {#general-settings}
 
