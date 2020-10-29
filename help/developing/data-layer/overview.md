@@ -2,9 +2,9 @@
 title: Het gebruiken van de Laag van de Gegevens van de Cliënt van Adobe met de Componenten van de Kern
 description: Het gebruiken van de Laag van de Gegevens van de Cliënt van Adobe met de Componenten van de Kern
 translation-type: tm+mt
-source-git-commit: 79a063951a790261e2f00c33d8a76f31f781da0c
+source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '893'
 ht-degree: 1%
 
 ---
@@ -256,3 +256,7 @@ window.adobeDataLayer.push(function (dl) {
 ## Zelfstudie
 
 Wilt u de componenten van de Laag en van de Kern van Gegevens meer in detail onderzoeken? [Bekijk deze praktische zelfstudie](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html).
+
+>[!TIP]
+>
+>Om de flexibiliteit van de Laag van Gegevens verder te onderzoeken, herzie over de integratieopties met inbegrip van hoe te om de Laag van Gegevens voor uw douanecomponenten toe te laten.
