@@ -2,7 +2,7 @@
 title: Core Components-versies
 description: De Componenten van de kern worden gepubliceerd als versies die meer dan één versie van de zelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies beschikbaar zijn en hoe u de compatibiliteit met Core Components en AEM begrijpt.
 translation-type: tm+mt
-source-git-commit: a35054397619e3efe051e557951e2d62634c678a
+source-git-commit: d815058a1fe295eba5988a283c17de576ef06c5e
 workflow-type: tm+mt
 source-wordcount: '1783'
 ht-degree: 11%
@@ -26,7 +26,7 @@ De volgende lijst, waarvan de inhoud op GitHub met volledige versiedetails [](ht
 
 | Geen | Beschrijving | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service | Java | Releasedatum |
 |---|---|---|---|---|---|---|
-| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | Deze versie introduceerde [een nieuwe POST vormmanager;](/help/components/forms/form-container.md#post-data) de mogelijkheid om aangepaste CSS-, JavaScript- en metagegevenstags op te nemen via een contextbewuste configuratie; [](/help/developing/including-clientlibs.md#context-aware-loading) en een `DataLayerBuilder` nut om de integratie van de gegevenslaag in douanecomponenten te [vereenvoudigen.](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ | 6.5.5.0+ | Continu | 8, 11 | 27 oktober 2020 |
+| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | Deze versie introduceerde [een nieuwe POST vormmanager;](/help/components/forms/form-container.md#post-data) de mogelijkheid om aangepaste CSS-, JavaScript- en metagegevenstags op te nemen via een contextbewuste configuratie; [](/help/developing/including-clientlibs.md#context-aware-loading) en een `DataLayerBuilder` nut om de integratie van de gegevenslaag in douanecomponenten te [vereenvoudigen.](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ | 6.5.5.0+ | Continu | 8, 11 | 29 oktober 2020 |
 | [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | Deze release introduceerde ondersteuning voor [AMP.](/help/developing/amp.md) | 6.4.8.1+ | 6.5.5.0+ | Continu | 8, 11 | 20 juli 2020 |
 | [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | In deze versie is de component [PDF Viewer geïntroduceerd.](/help/components/pdf-viewer.md) | 6.4.8.1+ | 6.5.5.0+ | Continu | 8, 11 | 17 juni 2020 |
 | [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | Deze versie liet integratie met de Laag [van Gegevens van de Cliënt van](/help/developing/data-layer/overview.md) Adobe toe en introduceerde de component van de Bar van de [Voortgang.](/help/components/progress-bar.md) | 6.4.8.0+ | 6.5.4.0+ | Continu | 8, 11 | 29 mei 2020 |
