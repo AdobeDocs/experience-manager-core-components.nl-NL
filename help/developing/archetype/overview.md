@@ -2,9 +2,9 @@
 title: Projectarchetype AEM
 description: Een projectmalplaatje voor op AEM gebaseerde toepassingen
 translation-type: tm+mt
-source-git-commit: 52f2c4dbba54261863a98fa2b992fe4690da3511
+source-git-commit: c9ec069a9eb12b8625be09d1c38dcaaf437bd5cb
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1280'
 ht-degree: 3%
 
 ---
@@ -40,7 +40,7 @@ Het AEM Project Archetype is een Geweven malplaatje dat tot een minimaal, op bes
 * **Koptekst en voettekst:** U kunt ze zonder code samenstellen en lokaliseren met de [lokalisatiefuncties van de componenten](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/get-started/localization.html).
 * **Stijlsysteem:** Vermijd het bouwen van aangepaste componenten door auteurs toe te staan verschillende stijlen [op hen toe te](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/style-system.html) passen.
 * **Front-end build:** Ontwikkelaars aan de voorzijde kunnen [AEM pagina](uifrontend.md#webpack-dev-server) &#39;s modelleren en clientbibliotheken [](uifrontend.md) bouwen met Webpack, TypeScript en SASS.
-* **WebApp-Ready:** Voor plaatsen die React [of](uifrontend-react.md) Hoekig [gebruiken, gebruik het](uifrontend-angular.md)KUUROORD SDK [om](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/developing.html) in-context het schrijven van app [](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)te behouden.
+* **WebApp-Ready:** Voor sites die gebruikmaken van [React](uifrontend-react.md) of [Angular](uifrontend-angular.md), gebruikt u de [SPA SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/developing.html) om het [in-context ontwerpen van de app](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)te behouden.
 * **Handel ingeschakeld:** Voor projecten die [AEM Handel](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/commerce/home.html) met handelsoplossingen zoals [Magento](https://magento.com/) willen integreren gebruikend de Componenten [van de Kern van de](https://github.com/adobe/aem-core-cif-components)Handel.
 * **Voorbeeldcode:** Controle uit de component HelloWorld, en de steekproefmodellen, servlets, filters, en planners.
 * **Open Bronnen:** Als iets anders is dan zou moeten, [draagt](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) u uw verbeteringen bij!
@@ -80,7 +80,7 @@ De afhankelijkheid van kerncomponenten wordt alleen toegevoegd voor versies met 
 | `aemVersion` | `cloud` | AEM (kan `cloud` voor [AEM als Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)zijn; of `6.5.0`, of `6.4.4` voor [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) of on-premise). |
 | `sdkVersion` | `latest` | Wanneer `aemVersion=cloud` een [SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) -versie kan worden opgegeven (bijvoorbeeld `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Bevat een configuratie van de dispatcher voor de cloud of voor AMS/on-premise, afhankelijk van de waarde van `aemVersion` (kan zijn `y` of `n`). |
-| `frontendModule` | `general` | Omvat een vooraf ingebouwd module Webpack die de cliëntbibliotheken (kan `general` of `none` voor regelmatige plaatsen zijn) produceert; kan `angular` of `react` voor een Enige PaginaApp zijn die de Redacteur [van het](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)KUUROORD) uitvoert. |
+| `frontendModule` | `general` | Omvat een vooraf ingebouwd module Webpack die de cliëntbibliotheken (kan `general` of `none` voor regelmatige plaatsen zijn) produceert; kan `angular` of `react` voor een app van één pagina zijn die de [SPA Editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)implementeert). |
 | `language` | `en` | Taalcode (ISO 639-1) waarmee de inhoudsstructuur wordt gemaakt (bijvoorbeeld `en`, `deu`). |
 | `country` | `us` | Landcode (ISO 3166-1) om de inhoudsstructuur te maken op basis van (bijvoorbeeld `US`). |
 | `singleCountry` | `y` | Omvat een taal-master inhoudsstructuur (kan zijn, `y`of `n`). |
@@ -90,6 +90,21 @@ De afhankelijkheid van kerncomponenten wordt alleen toegevoegd voor versies met 
 | `commerceEndpoint` |  | Alleen vereist voor CIF. Facultatief eindpunt van het handelssysteem te gebruiken dienst GraphQL (b.v. `https://hostname.com/grapql`). |
 | `datalayer` | `y` | Activeer integratie met de Gegevenslaag [van de Cliënt van](/help/developing/data-layer/overview.md)Adobe. |
 | `amp` | `n` | Schakel [AMP](/help/developing/amp.md) -ondersteuning voor gegenereerde projectsjablonen in. |
+
+## Module Analyzer {#analyzer-module}
+
+De AEM analyzer Maven plugin analyseert de structuur van de diverse projecten van inhoudspakketten.
+
+Raadpleeg de documentatie [van de plug-in](https://github.com/adobe/aemanalyser-maven-plugin/blob/main/aemanalyser-maven-plugin/README.md) AEM Analyzer Maven voor informatie over het opnemen van de plug-in in een AEM project. De plug-in is opgenomen in AEM Maven archetype versie 25 en hoger.
+
+Hieronder ziet u een tabel met een beschrijving van de analyseapparaten die als onderdeel van deze stap worden uitgevoerd. Sommige worden uitgevoerd in de lokale SDK, terwijl andere alleen worden uitgevoerd tijdens de implementatie van de Cloud Manager-pijplijn.
+
+| Module | Functie, voorbeeld en probleemoplossing | Lokale SDK | Cloud Manager |
+|---|---|---|---|
+| `api-regions-exportsimports` | Controleert of alle OSGI-bundels hun import-Package-declaraties hebben die zijn voldaan aan de aangifte Export-package van andere opgenomen bundels in het Maven-project. <p> </p> Om problemen op te lossen, bekijk manifest van de bundel die u zou verwachten om te bepalen als de verkeerde naam of de verkeerde versie werd gebruikt. | Ja | Ja |
+| `requirements-capabilities` | Controleert of aan alle eisen die in de OSGI-bundels worden gesteld, wordt voldaan door de capaciteitsdeclaraties van andere bundels die in het Maven-project zijn opgenomen. <p> </p> Om problemen op te lossen, bekijk manifest van de bundel die u een vermogen zou verwachten te verklaren om te bepalen waarom het mist. | Ja | Ja |
+| `bundle-content` | Geeft een waarschuwing als een bundel aanvankelijke inhoud bevat die met Sling-Initial-Content wordt gespecificeerd, die in de AEM als Cloud Service gegroepeerde milieu problematisch is. | Ja | Ja |
+| `api-regions-crossfeature-dups` | Valideert dat de klant OSGI-pakketten geen declaraties voor exportpakketten hebben die AEM als openbare API van een Cloud Service overschrijven | Ja | Ja |
 
 ## Systeemvereisten
 
