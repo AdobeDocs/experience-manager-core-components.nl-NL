@@ -2,9 +2,9 @@
 title: Core Components-versies
 description: De Componenten van de kern worden gepubliceerd als versies die meer dan één versie van de zelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies beschikbaar zijn en hoe u de compatibiliteit met Core Components en AEM begrijpt.
 translation-type: tm+mt
-source-git-commit: c64276bb95aeaef4223fc2a0dc2c3cfdf8609f5a
+source-git-commit: 850fbeec3cb31f4ea6873daa2555953684fd5a8d
 workflow-type: tm+mt
-source-wordcount: '1848'
+source-wordcount: '1870'
 ht-degree: 11%
 
 ---
@@ -26,7 +26,8 @@ De volgende lijst, waarvan de inhoud op GitHub met volledige versiedetails [](ht
 
 | Geen | Beschrijving | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service | Java | Releasedatum |
 |---|---|---|---|---|---|---|
-| [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.1) | Dit was een flardversie voor 2.12.0 die een belangrijkste insect in de Component van het Beeld verhelpt. | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 5 november 2020 |
+| [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.2) | Dit was een patchrelease voor 2.12.0 inclusief kleine correcties. | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 11 november 2020 |
+| [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.1) | Dit was een flardversie voor 2.12.0 die een belangrijkste insect in de Component van het [Beeld verhelpt.](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 5 november 2020 |
 | [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | Deze versie introduceerde [een nieuwe POST vormmanager;](/help/components/forms/form-container.md#post-data) de mogelijkheid om aangepaste CSS-, JavaScript- en metagegevenstags op te nemen via een contextbewuste configuratie; [](/help/developing/including-clientlibs.md#context-aware-loading) en een `DataLayerBuilder` nut om de integratie van de gegevenslaag in douanecomponenten te [vereenvoudigen.](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 29 oktober 2020 |
 | [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | Deze release introduceerde ondersteuning voor [AMP.](/help/developing/amp.md) | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 20 juli 2020 |
 | [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | In deze versie is de component [PDF Viewer geïntroduceerd.](/help/components/pdf-viewer.md) | 6.4.8.1+ | 6.5.5.0+ | Continu | 8, 11 | 17 juni 2020 |
