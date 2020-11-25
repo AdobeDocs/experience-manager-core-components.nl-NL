@@ -4,9 +4,9 @@ user-guide-title: AEM kerncomponenten
 breadcrumb-title: Handleiding voor kerncomponenten
 user-guide-description: Met de uitbreidbare Core Components kunnen auteurs eenvoudig inhoud maken.
 translation-type: tm+mt
-source-git-commit: 81d2282d33ef3f20e4115e38abbd0c801e03c974
+source-git-commit: e32521f35f33897cd72892de393073b01ad963f1
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '206'
 ht-degree: 2%
 
 ---
@@ -89,3 +89,4 @@ ht-degree: 2%
       + [ui.frontend.response Module](developing/archetype/uifrontend-react.md)
       + [ui.frontend.angular Module](developing/archetype/uifrontend-angular.md)
       + [ui.test-module](developing/archetype/uitests.md)
+      + [Insteekmodule voor analyse van build](developing/archetype/build-analyzer-maven-plugin.md)
