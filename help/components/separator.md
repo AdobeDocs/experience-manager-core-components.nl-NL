@@ -22,27 +22,27 @@ Met de scheidingscomponent kan de auteur van de inhoud eenvoudig een horizontale
 
 De huidige versie van de Scheidingscomponent is v1, die in februari 2019 met versie 2.3.0 van de Core Components is geïntroduceerd en in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
+In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
 
-| Componentversie | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
 |---|---|---|---|
 | v1 | Compatibel | Compatibel | Compatibel |
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Ga naar de [componentbibliotheek](https://adobe.com/go/aem_cmp_library_separator)om de scheidingscomponent te ervaren en voorbeelden van de bijbehorende configuratieopties en HTML- en JSON-uitvoer te bekijken.
+Ga naar [Componentbibliotheek](https://adobe.com/go/aem_cmp_library_separator) om de Scheidingscomponent te ervaren en voorbeelden van de bijbehorende configuratieopties en HTML- en JSON-uitvoer te bekijken.
 
 ### Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Scheiding [kan op GitHub](https://adobe.com/go/aem_cmp_tech_separator_v1)worden gevonden.
+De recentste technische documentatie over de Component van de Scheiding [kan op GitHub](https://adobe.com/go/aem_cmp_tech_separator_v1) worden gevonden.
 
-Meer details over het ontwikkelen van de Componenten van de Kern kunnen in de de ontwikkelaarsdocumentatie [van de](/help/developing/overview.md)Componenten worden gevonden.
+Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
-## Dialoogvenster configureren {#configure-dialog}
+## Dialoogvenster {#configure-dialog} configureren
 
 ![Dialoogvenster voor bewerken van scheidingscomponent](/help/assets/separator-edit.png)
 
-* **ID** - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de [gegevenslaag](/help/developing/data-layer/overview.md).
+* **ID**  - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de  [gegevenslaag](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
@@ -53,4 +53,4 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur de stijlen definiëren die
 
 ### Tabblad Stijlen {#styles-tab}
 
-De scheidingscomponent ondersteunt het AEM- [stijlsysteem](/help/get-started/authoring.md#component-styling).
+De scheidingscomponent ondersteunt het AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
