@@ -16,9 +16,9 @@ Met de component Core Component Form Hidden kunt u een verborgen veld weergeven.
 
 ## Gebruik {#usage}
 
-Met de component Core Component Form Hidden kunt u verborgen velden maken die informatie over de huidige pagina teruggeven aan AEM en die samen met de [formuliercontainercomponent](form-container.md)moet worden gebruikt.
+Met de component Core Component Form Hidden kunt u verborgen velden maken die informatie over de huidige pagina teruggeven aan AEM. Deze component is bedoeld voor gebruik samen met de [component Form container](form-container.md).
 
-De veldeigenschappen kunnen door de inhoudsredacteur in [vormen dialoog](form-hidden.md)worden bepaald.
+De veldeigenschappen kunnen door de inhoudsredacteur in [vormen dialoog](form-hidden.md) worden bepaald.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -31,32 +31,32 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 | v2 | Compatibel | Compatibel | Compatibel |
 | [v1](/help/components/v1/form-hidden-v1.md) | Compatibel | Compatibel | - |
 
-Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
+Voor meer informatie over de versies en versies van de Component van de Kern, zie het document [de Versies van de Componenten van de Kern](/help/versions.md).
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Ga naar de [componentbibliotheek](https://adobe.com/go/aem_cmp_library_form_hidden)voor meer informatie over de component Formulier Verborgen en voorbeelden van de bijbehorende configuratieopties en over HTML- en JSON-uitvoer.
+Ga naar [Componentbibliotheek](https://adobe.com/go/aem_cmp_library_form_hidden) voor meer informatie over de component Formulier Verborgen en voorbeelden van de bijbehorende configuratieopties en de HTML- en JSON-uitvoer.
 
 ### Technische details {#technical-details}
 
-De recentste technische documentatie over de Vorm Verborgen Component [kan op GitHub](https://adobe.com/go/aem_cmp_tech_form_hidden_v2)worden gevonden.
+De recentste technische documentatie over de Vorm Verborgen Component [kan op GitHub](https://adobe.com/go/aem_cmp_tech_form_hidden_v2) worden gevonden.
 
-Meer details over het ontwikkelen van de Componenten van de Kern kunnen in de de ontwikkelaarsdocumentatie [van de](/help/developing/overview.md)Componenten worden gevonden.
+Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
-## Dialoogvenster configureren {#configure-dialog}
+## Dialoogvenster {#configure-dialog} configureren
 
 In het dialoogvenster voor configureren kan de auteur van de inhoud de parameters van het verborgen veld definiëren.
 
 ![Dialoogvenster Formulier verborgen bewerken](/help/assets/form-hidden-edit.png)
 
-* **Naam** - De naam van het veld dat met de formuliergegevens wordt verzonden
-* **Waarde** - De waarde van het veld dat met de formuliergegevens wordt verzonden
-* **ID** - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de [gegevenslaag](/help/developing/data-layer/overview.md).
+* **Naam**  - De naam van het veld dat met de formuliergegevens wordt verzonden
+* **Waarde**  - De waarde van het veld dat met de formuliergegevens wordt verzonden
+* **ID**  - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de  [gegevenslaag](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
-Omdat de component Formulier verborgen normaal geen zichtbare kenmerken heeft, geeft de tijdelijke aanduiding van de component in de editor de waarden van de velden **Naam** en **Waarde** weer als deze zijn toegewezen, zodat de auteur de juiste component Formulier verborgen kan identificeren.
+Aangezien de component Formulier verborgen normaal geen zichtbare kenmerken heeft, worden in de tijdelijke aanduiding van de component in de editor de veldwaarden **Naam** en **Waarde** weergegeven als deze zijn toegewezen, zodat de auteur de juiste component Formulier verborgen kan identificeren.
 
 ![Voorbeeld van een component Formulier Verborgen](/help/assets/form-hidden-example.png)
 
@@ -64,4 +64,4 @@ Omdat de component Formulier verborgen normaal geen zichtbare kenmerken heeft, g
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component Form Hidden ondersteunt het systeem [van de AEM](/help/get-started/authoring.md#component-styling)stijl.
+De component Formulier verborgen ondersteunt het AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
