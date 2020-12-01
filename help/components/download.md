@@ -10,7 +10,7 @@ ht-degree: 1%
 ---
 
 
-# Component downloaden{#download-component}
+# Component{#download-component} downloaden
 
 Met de component Core Component Download kunt u een downloadoptie op een pagina maken.
 
@@ -18,58 +18,58 @@ Met de component Core Component Download kunt u een downloadoptie op een pagina 
 
 Met de component Core Component Download kunnen een downloadoptie en het bijbehorende element op een pagina worden opgenomen.
 
-* De eigenschappen van de downloadoptie kunnen worden geselecteerd in het dialoogvenster [](#configure-dialog)configureren.
-* De standaardwaarden voor de downloadcomponent kunnen worden gedefinieerd in het dialoogvenster [](#design-dialog)Ontwerp.
+* De eigenschappen van de downloadoptie kunnen worden geselecteerd in [vorm dialoog](#configure-dialog).
+* De standaardwaarden voor de downloadcomponent kunnen worden gedefinieerd in het [ontwerpdialoogvenster](#design-dialog).
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
 De huidige versie van de Download Component is v1, die in juni 2019 met versie 2.5.0 van de Core Components is geïntroduceerd en in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
+In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
 
-| Componentversie | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
 |--- |--- |---|---|
 | v1 | Compatibel | Compatibel | Compatibel |
 
-Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
+Voor meer informatie over de versies en versies van de Component van de Kern, zie het document [de Versies van de Componenten van de Kern](/help/versions.md).
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Ga naar de [componentbibliotheek](https://adobe.com/go/aem_cmp_library_download)voor meer informatie over de downloadcomponent en voorbeelden van de configuratieopties en over HTML- en JSON-uitvoer.
+Ga naar [Componentbibliotheek](https://adobe.com/go/aem_cmp_library_download) om de Download-component te ervaren en voorbeelden van de configuratieopties en de HTML- en JSON-uitvoer te bekijken.
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Download [kan op GitHub](https://adobe.com/go/aem_cmp_tech_download_v1)worden gevonden.
+De recentste technische documentatie over de Component van de Download [kan op GitHub](https://adobe.com/go/aem_cmp_tech_download_v1) worden gevonden.
 
-Meer details over het ontwikkelen van de Componenten van de Kern kunnen in de de ontwikkelaarsdocumentatie [van de](/help/developing/overview.md)Componenten worden gevonden.
+Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
-## Dialoogvenster configureren {#configure-dialog}
+## Dialoogvenster {#configure-dialog} configureren
 
 In het dialoogvenster Configureren kan de auteur van de inhoud het downloaditem definiëren en bepalen hoe het zich gedraagt en wordt weergegeven voor een bezoeker van de pagina.
 
 ![Het tabblad Middelen van het dialoogvenster Bewerken van component downloaden](/help/assets/download-edit-asset.png)
 
-### Tabblad Element {#asset-tab}
+### Tabblad Elementen {#asset-tab}
 
-De selectie van een downloadmiddel is zeer gelijkaardig aan de functionaliteit van de Component [van het](image.md) Beeld en gebruikt eveneens DAM van AEM.
+De selectie van een downloadmiddel is zeer gelijkaardig aan de functionaliteit van [de Component van het Beeld](image.md) en ook hefboomwerkingen AEM DAM.
 
 * **Element downloaden**
-   * Zet een element neer vanuit de [middelenbrowser](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of tik op de **bladeroptie** om te uploaden vanaf een lokaal bestandssysteem.
+   * Zet een element neer vanuit de [assetbrowser](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of tik op de optie **browse** om te uploaden vanaf een lokaal bestandssysteem.
    * Tik of klik op **Wissen** om de selectie van de geselecteerde afbeelding ongedaan te maken.
-   * Tik of klik op **Bewerken** om de uitvoeringen van het element [in de middeleneditor te](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) beheren.
+   * Tik of klik op **Bewerken** om de uitvoeringen van het element te beheren](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in de elementeneditor.[
 
 ### Tabblad Eigenschappen {#properties-tab}
 
 ![Eigenschappen, tabblad van het dialoogvenster Bewerken van downloadcomponent](/help/assets/download-edit-properties.png)
 
-* **Titel** - Wordt weergegeven als een kop voor het downloaditem
-   * **Titel ophalen van DAM-element** - Als deze optie is geselecteerd, wordt de titel automatisch gevuld met de titel van het DAM-element.
-* **Beschrijving** - Wordt weergegeven als een beschrijvende subkop van het downloaditem
-   * **Beschrijving ophalen van DAM-element** - Als deze optie is geselecteerd, wordt de beschrijving automatisch gevuld met de beschrijving van het DAM-element.
-* **Tekst** van handeling - wordt weergegeven als actietekst voor het downloaditem
+* **Titel**  - Toont als titel voor het downloadpunt
+   * **Haal de titel op van DAM-element** . Als deze optie is geselecteerd, wordt de titel automatisch ingevuld met de titel van het DAM-element.
+* **Beschrijving**  - Wordt weergegeven als een beschrijvende subkop van het downloaditem
+   * **Beschrijving ophalen van DAM-element**  - Als deze optie is geselecteerd, wordt de beschrijving automatisch gevuld met de beschrijving van het DAM-element.
+* **Tekst**  van handeling - wordt weergegeven als actietekst voor het downloaditem
    * Dit veld is vereist wanneer u een element uploadt van het bestandssysteem.
-   * **Inline** weergeven - Als u deze optie selecteert, wordt de opgegeven **handelingstekst** inline weergegeven.
-* **ID** - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de [gegevenslaag](/help/developing/data-layer/overview.md).
+   * **Inline**  weergeven - Als u deze optie selecteert, wordt de opgegeven  **Action** Text inline weergegeven.
+* **ID**  - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de  [gegevenslaag](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
@@ -82,17 +82,17 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de opties definiëren die bes
 
 ![Het dialoogvenster Ontwerpen van de component Download](/help/assets/download-design.png)
 
-* **Uploaden vanuit bestandssysteem** toestaan - Hiermee kan de auteur van de inhoud een element uit zijn/haar lokale bestandssysteem uploaden als het downloadmiddel.
+* **Uploaden vanuit bestandssysteem**  toestaan - Hiermee kan de auteur van de inhoud een element uit zijn/haar lokale bestandssysteem uploaden als het downloadmiddel.
    * De standaardwaarde is niet geselecteerd.
 * **Titeltype** : het HTML-element dat wordt gebruikt voor de titel van de component Download.
    * Als er geen waarde is geselecteerd, is de standaardwaarde H3.
-* **Bestandsgrootte** weergeven - Als u deze optie selecteert, wordt de bestandsgrootte van het element weergegeven in de downloadcomponent.
+* **Bestandsgrootte**  weergeven - Als u deze optie selecteert, wordt de bestandsgrootte van het element weergegeven in de downloadcomponent.
    * De standaardwaarde is geselecteerd.
-* **Bestandsindeling** weergeven - Als u deze optie selecteert, wordt de bestandsindeling van het element weergegeven in de downloadcomponent.
+* **Bestandsindeling**  weergeven - Als u deze optie selecteert, wordt de bestandsindeling van het element weergegeven in de downloadcomponent.
    * De standaardwaarde is geselecteerd.
-* **Bestandsnaam** weergeven - Als deze optie is geselecteerd, wordt de bestandsnaam van het element weergegeven in de downloadcomponent.
+* **Bestandsnaam**  weergeven - Als deze optie is geselecteerd, wordt de bestandsnaam van het element weergegeven in de downloadcomponent.
    * De standaardwaarde is geselecteerd.
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component Image ondersteunt het AEM- [stijlsysteem](/help/get-started/authoring.md#component-styling).
+De component van het Beeld steunt het AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
