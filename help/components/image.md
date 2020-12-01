@@ -18,7 +18,7 @@ De component Core Component Image is een adaptieve afbeeldingscomponent die op l
 
 De component Afbeelding biedt een adaptieve selectie van afbeeldingen en een responsief gedrag bij het lui laden voor de bezoeker van de pagina en bij het eenvoudig plaatsen en uitsnijden van de afbeelding voor de auteur van de inhoud.
 
-De breedte van de afbeelding en de uitsnijdbreedte en aanvullende instellingen kunnen door de sjabloonauteur in het [ontwerpdialoogvenster](#design-dialog)worden gedefinieerd. De inhoudseditor kan elementen uploaden of selecteren in het dialoogvenster [](#configure-dialog) configureren en de afbeelding uitsnijden in het dialoogvenster [](#edit-dialog)Bewerken. Voor meer gebruiksgemak is het ook mogelijk de afbeelding op een eenvoudige plaats aan te passen.
+De breedte van de afbeelding en de uitsnijdbreedte en aanvullende instellingen kunnen door de sjabloonauteur worden gedefinieerd in het dialoogvenster [ontwerp](#design-dialog). De inhoudeditor kan elementen uploaden of selecteren in het [dialoogvenster configureren](#configure-dialog) en de afbeelding uitsnijden in het [dialoogvenster Bewerken](#edit-dialog). Voor meer gebruiksgemak is het ook mogelijk de afbeelding op een eenvoudige plaats aan te passen.
 
 ## Responsieve functies {#responsive-features}
 
@@ -37,7 +37,7 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 | v2 | Compatibel | Compatibel | Compatibel |
 | [v1](v1/image-v1.md) | Compatibel | Compatibel | - |
 
-Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
+Voor meer informatie over de versies en versies van de Component van de Kern, zie het document [de Versies van de Componenten van de Kern](/help/versions.md).
 
 ## SVG-ondersteuning {#svg-support}
 
@@ -49,63 +49,68 @@ SVG (Scalable Vector Graphics) wordt ondersteund door de component Image.
 
 ### Beveiliging {#security}
 
-Vanwege beveiligingsredenen wordt de oorspronkelijke SVG nooit rechtstreeks aangeroepen door de Afbeeldingseditor. Het wordt doorgeroepen `<img src=“path-to-component”>`. Hierdoor wordt voorkomen dat de browser scripts uitvoert die in het SVG-bestand zijn ingesloten.
+Vanwege beveiligingsredenen wordt de oorspronkelijke SVG nooit rechtstreeks aangeroepen door de Afbeeldingseditor. Het wordt geroepen door `<img src=“path-to-component”>`. Hierdoor wordt voorkomen dat de browser scripts uitvoert die in het SVG-bestand zijn ingesloten.
 
 >[!CAUTION]
 >
->Voor SVG-ondersteuning is versie 2.1.0 van de Core Components of hoger vereist, samen met [servicepack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) voor AEM 6.4 of hoger, ter ondersteuning van de functies [voor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html) afbeeldingseditors in AEM.
+>Voor SVG-ondersteuning is versie 2.1.0 van de Core Components of hoger vereist, samen met [servicepack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) voor AEM 6.4 of hoger, ter ondersteuning van de [functies voor afbeeldingseditors](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html) in AEM.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Ga naar de [componentbibliotheek](https://adobe.com/go/aem_cmp_library_image)voor meer informatie over de component Image en voorbeelden van de configuratieopties ervan en over HTML- en JSON-uitvoer.
+Ga naar [Componentbibliotheek](https://adobe.com/go/aem_cmp_library_image) om de Image Component te bekijken en voorbeelden van de configuratieopties en de HTML- en JSON-uitvoer te bekijken.
 
 ### Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van het Beeld [kan op GitHub](https://adobe.com/go/aem_cmp_tech_image_v2)worden gevonden.
+De recentste technische documentatie over de Component van het Beeld [kan op GitHub](https://adobe.com/go/aem_cmp_tech_image_v2) worden gevonden.
 
-Meer details over het ontwikkelen van de Componenten van de Kern kunnen in de de ontwikkelaarsdocumentatie [van de](/help/developing/overview.md)Componenten worden gevonden.
+Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
 >[!NOTE]
 >
 >Vanaf versie 2.1.0 van de Componenten van de Kern, steunt de Component van het Beeld [schema.org microdata](https://schema.org).
 
-## Dialoogvenster configureren {#configure-dialog}
+## Dialoogvenster {#configure-dialog} configureren
 
-Naast het standaarddialoogvenster [](#edit-dialog) Bewerken en [Ontwerpdialoogvenster](#design-dialog)biedt de component Image een configuratiedialoogvenster waarin de afbeelding zelf wordt gedefinieerd, samen met de beschrijving en basiseigenschappen.
+Naast de standaard [bewerkingsdialoog](#edit-dialog) en [ontwerpdialoog](#design-dialog), biedt de component van het beeld een configuratievenster waarin het beeld zelf met zijn beschrijving en basiseigenschappen wordt bepaald.
 
-### Tabblad Element {#asset-tab}
+### Tabblad Elementen {#asset-tab}
 
 ![Tabblad Element van het dialoogvenster Configureren van Image Component](/help/assets/image-configure-asset.png)
 
 * **Afbeeldingselement**
-   * Zet een element neer vanuit de [middelenbrowser](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of tik op de **bladeroptie** om te uploaden vanaf een lokaal bestandssysteem.
+   * Zet een element neer vanuit de [assetbrowser](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of tik op de optie **browse** om te uploaden vanaf een lokaal bestandssysteem.
    * Tik of klik op **Wissen** om de selectie van de geselecteerde afbeelding ongedaan te maken.
-   * Tik of klik op **Bewerken** om de uitvoeringen van het element [in de middeleneditor te](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) beheren.
+   * Tik of klik op **Bewerken** om de uitvoeringen van het element te beheren](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in de elementeneditor.[
 
 ### Tabblad Metagegevens {#metadata-tab}
 
 ![Tabblad Metagegevens van het dialoogvenster Configureren van Image Component](/help/assets/image-configure-metadata.png)
 
-* **Afbeelding is decoratief**. Controleer of de afbeelding door hulpprogramma&#39;s moet worden genegeerd en of er daarom geen alternatieve tekst nodig is. Dit geldt alleen voor decoratieve afbeeldingen.
-* **Alternatieve tekst** Alternatief tekstalternatief voor de betekenis of functie van de afbeelding, voor slechtzienden.
-   * Alternatieve tekst ophalen van DAM - Bij controle wordt de alternatieve tekst van de afbeelding gevuld met de waarde van de `dc:description` metagegevens in DAM.
+* **Afbeelding is**
+decoratiefControleer of de afbeelding door hulpprogramma&#39;s moet worden genegeerd en dus geen alternatieve tekst nodig heeft. Dit geldt alleen voor decoratieve afbeeldingen.
+* **Alternatief**
+textTextual-alternatief voor de betekenis of functie van de afbeelding, voor slechtzienden.
+   * Alternatieve tekst ophalen van DAM - Bij controle wordt de alternatieve tekst van de afbeelding gevuld met de waarde van de `dc:description`-metagegevens in DAM.
 
-* **Bijschrift** Aanvullende informatie over de afbeelding die standaard onder de afbeelding wordt weergegeven.
-   * **Bijschrift ophalen van DAM** Als deze optie is ingeschakeld, wordt het bijschrift van de afbeelding gevuld met de waarde van de optie 
+* ****
+BijschriftAanvullende informatie over de afbeelding, standaard weergegeven onder de afbeelding.
+   * **Bijschrift ophalen van**
+DAMWet controleren van bijschrifttekst van afbeelding wordt gevuld met de waarde van de optie 
 `dc:title` metagegevens in DAM.
-   * **Bijschrift weergeven als pop-up** Als deze optie is ingeschakeld, wordt het bijschrift niet weergegeven onder de afbeelding, maar als pop-up die wordt weergegeven door sommige browsers wanneer de muisaanwijzer op de afbeelding wordt geplaatst.
+   * **Bijschrift weergeven als pop-**
+upAls dit selectievakje is ingeschakeld, wordt het bijschrift niet weergegeven onder de afbeelding, maar als een pop-up die wordt weergegeven door sommige browsers wanneer de muisaanwijzer op de afbeelding wordt geplaatst.
 
 * **Koppeling**
    * Koppel de afbeelding aan een andere bron.
    * In het dialoogvenster Selecteren kunt u een koppeling maken naar een andere AEM.
    * Als u geen koppeling naar een AEM maakt, voert u de absolute URL in. Niet-absolute URL&#39;s worden geïnterpreteerd als relatief ten opzichte van AEM.
 
-* **ID** - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de [gegevenslaag](/help/developing/data-layer/overview.md).
+* **ID**  - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de  [gegevenslaag](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
-## Dialoogvenster Bewerken {#edit-dialog}
+## Dialoogvenster {#edit-dialog} bewerken
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud uitsnijden, de startkaart wijzigen en inzoomen op de afbeelding.
 
@@ -118,7 +123,7 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud uitsnijden, de startk
    Als u deze optie selecteert, wordt een vervolgkeuzelijst geopend voor vooraf gedefinieerde verhoudingen voor uitsnijden.
 
    * Kies de optie **Free Hand** om uw eigen uitsnijding te definiëren.
-   * Kies de optie Uitsnijden **** verwijderen om het oorspronkelijke element weer te geven.
+   * Kies de optie **Uitsnijden verwijderen** om het oorspronkelijke element weer te geven.
 
    Als een uitsnijdoptie is geselecteerd, gebruikt u de blauwe handgrepen om het uitsnijden op de afbeelding te vergroten of te verkleinen.
 
@@ -170,26 +175,34 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de opties voor uitsnijden, up
 
 ### Hoofdtabblad {#main-tab}
 
-Op het tabblad **Main** kunt u een lijst met breedten in pixels voor de afbeelding definiëren. De component laadt automatisch de meest geschikte breedte op basis van de browsergrootte. Dit is een belangrijk onderdeel van de [responsieve functies](#responsive-features) van de afbeeldingscomponent.
+Op het **Main** lusje kunt u een lijst van breedten in pixel voor het beeld bepalen en de component zal automatisch de meest aangewezen breedte laden die op browser grootte wordt gebaseerd. Dit is een belangrijk onderdeel van de [responsieve functies](#responsive-features) van de component Image.
 
 Bovendien kunt u bepalen welke algemene componentenopties automatisch of gehandicapt zijn wanneer de auteur de component aan een pagina toevoegt.
 
 ![Het hoofdtabblad van het dialoogvenster Ontwerp van de afbeeldingscomponent](/help/assets/image-design-main.png)
 
-* **Lazy laden** Definiëren inschakelen als de luie laadoptie automatisch wordt ingeschakeld wanneer de afbeeldingscomponent aan een pagina wordt toegevoegd.
-* **Afbeelding is decoratief**. Definieer of de optie Decoratieve afbeelding automatisch is ingeschakeld wanneer u de afbeeldingscomponent aan een pagina toevoegt.
-* **U kunt alternatieve tekst ophalen van DAM** Define als de optie om de alternatieve tekst van de DAM op te halen automatisch is ingeschakeld wanneer de afbeeldingscomponent aan een pagina wordt toegevoegd.
-* **Hiermee wordt een bijschrift opgehaald van DAM** Define als de optie om het bijschrift op te halen van de DAM automatisch is ingeschakeld wanneer de afbeeldingscomponent aan een pagina wordt toegevoegd.
-* **Bijschrift weergeven als pop-up** Definiëren als de optie om het bijschrift van de afbeelding als pop-up weer te geven automatisch is ingeschakeld wanneer de afbeeldingscomponent aan een pagina wordt toegevoegd.
-* **Schakel UUID-** controle van bijhouden uit om het bijhouden van de UUID van het afbeeldingselement uit te schakelen.
+* **Lazy**
+loadingDefine inschakelen als de luie laadoptie automatisch wordt ingeschakeld wanneer de afbeeldingscomponent aan een pagina wordt toegevoegd.
+* **Afbeelding is**
+decoratiefDefinieer of de optie Decoratieve afbeelding automatisch is ingeschakeld wanneer u de afbeeldingscomponent aan een pagina toevoegt.
+* **Alternatieve tekst ophalen uit**
+DAMDefine als de optie om de alternatieve tekst van de DAM op te halen automatisch is ingeschakeld wanneer de afbeeldingscomponent aan een pagina wordt toegevoegd.
+* **Hiermee wordt een bijschrift opgehaald van**
+DAMDefine als de optie om het bijschrift op te halen van de DAM automatisch is ingeschakeld wanneer de afbeeldingscomponent aan een pagina wordt toegevoegd.
+* **Bijschrift weergeven als pop-**
+upDefiniëren als de optie om het bijschrift van de afbeelding als pop-up weer te geven automatisch is ingeschakeld wanneer de afbeeldingscomponent aan een pagina wordt toegevoegd.
+* **Schakel UUID-**
+traceringscontrole uit om het bijhouden van de UUID van het afbeeldingselement uit te schakelen.
 
-* **Breedten** Definieert een lijst met breedten in pixels voor de afbeelding en de component laadt automatisch de meest geschikte breedte op basis van de browsergrootte.
+* ****
+WidthsDefinieert een lijst met breedten in pixels voor de afbeelding en de component laadt automatisch de meest geschikte breedte op basis van de browsergrootte.
    * Tik of klik op de knop **Toevoegen** om een andere grootte toe te voegen.
       * Gebruik de grepen om de volgorde van de formaten te wijzigen.
-      * Gebruik het pictogram **Verwijderen** om een breedte te verwijderen.
+      * Gebruik het pictogram **Delete** om een breedte te verwijderen.
    * Het laden van afbeeldingen wordt standaard uitgesteld totdat ze zichtbaar worden.
-      * Selecteer de optie **Lazy load** uitschakelen om de afbeeldingen bij het laden van de pagina te laden.
-* **JPEG-kwaliteit** De kwaliteitsfactor (als percentage van 0 en 100) voor getransformeerde JPEG-afbeeldingen (bijvoorbeeld geschaald of uitgesneden).
+      * Selecteer de optie **Uitgestelde laadbewerking** uitschakelen om de afbeeldingen te laden bij het laden van de pagina.
+* **JPEG-**
+kwaliteitDe kwaliteitsfactor (als percentage van 0 en 100) voor getransformeerde JPEG-afbeeldingen (bijvoorbeeld geschaald of uitgesneden).
 
 >[!NOTE]
 >
@@ -197,38 +210,40 @@ Bovendien kunt u bepalen welke algemene componentenopties automatisch of gehandi
 
 >[!NOTE]
 >
->Vanaf release 2.2.0 van Core Components voegt de Image Component het unieke UUID-kenmerk toe `data-asset-id` aan het afbeeldingselement, zodat het aantal weergaven dat afzonderlijke elementen ontvangen kan worden bijgehouden en geanalyseerd.
+>Vanaf release 2.2.0 van Core Components voegt de Image Component het unieke UUID-kenmerk `data-asset-id` toe aan het afbeeldingselement, zodat het aantal weergaven dat afzonderlijke elementen ontvangen kan worden bijgehouden en geanalyseerd.
 
 ### Tabblad Functies {#features-tab}
 
-Op het tabblad **Functies** kunt u opgeven welke opties beschikbaar zijn voor de auteurs van de inhoud wanneer de component wordt gebruikt, inclusief opties voor uploaden, richting en uitsnijden.
+Op het tabblad **Functies** kunt u bepalen welke opties beschikbaar zijn voor de auteurs van de inhoud wanneer u de component gebruikt, inclusief opties voor uploaden, richting en uitsnijden.
 
 * Bron
 
    ![Dialoogvenster Eigenschappen van het ontwerpdialoogvenster van de component Image](/help/assets/image-design-features-source.png)
 
-   Selecteer de optie **Het uploaden van middelen vanaf het bestandssysteem** toestaan om auteurs van inhoud toe te staan afbeeldingen te uploaden vanaf hun lokale computer. Schakel deze optie uit als u wilt dat inhoudsauteurs alleen elementen uit AEM selecteren.
+   Selecteer de optie **Het uploaden van elementen vanuit het bestandssysteem toestaan** om auteurs van inhoud toe te staan afbeeldingen te uploaden vanaf hun lokale computer. Schakel deze optie uit als u wilt dat inhoudsauteurs alleen elementen uit AEM selecteren.
 
 * Afdrukstand
 
    ![Dialoogvenster Eigenschappen van het ontwerpdialoogvenster van de component Image](/help/assets/image-design-features-orientation.png)
 
-* **Roteren** Gebruik deze optie als de auteur van de inhoud de optie 
-**Rechtsom** roteren.
-* **Met deze optie spiegelen** kan de auteur van de inhoud de opdracht 
-**Opties voor Horizontaal** spiegelen en **Verticaal** spiegelen.
+* **RoterenGebruik deze optie**
+als u wilt dat de auteur van de inhoud de opdracht 
+**Roteer** de optie.
+* ****
+FlipUse this option to allow the content ontwerper to use the 
+**Opties voor** Horizontaal spiegelen en  **Verticaal** spiegelen.
 
    >[!CAUTION]
    >
-   >De optie **Spiegelen** is standaard uitgeschakeld. Als u deze optie inschakelt, worden de knoppen **Verticaal** omdraaien en Horizontaal **** omdraaien weergegeven in het dialoogvenster Bewerken van de afbeeldingscomponent. De functie wordt momenteel echter niet ondersteund door AEM en wijzigingen die met deze opties zijn aangebracht, blijven niet behouden.
+   >De optie **Flip** is standaard uitgeschakeld. Als u deze functie inschakelt, worden de knoppen **Verticaal spiegelen** en **Horizontaal spiegelen** weergegeven in het dialoogvenster Bewerken van de afbeeldingscomponent. De functie wordt momenteel echter niet ondersteund door AEM en wijzigingen die met deze opties zijn aangebracht, blijven niet behouden.
 
 * Uitsnijden
 
    ![Dialoogvenster Eigenschappen van het ontwerpdialoogvenster van de component Image](/help/assets/image-design-features-cropping.png)
 
-   Selecteer de optie Uitsnijden **** toestaan om de auteur van de inhoud toe te staan de afbeelding uit te snijden in de component in het dialoogvenster Bewerken.
-   * Klik op **Toevoegen** om een vooraf gedefinieerde hoogte-breedteverhouding voor uitsnijden toe te voegen.
-   * Voer een beschrijvende naam in, die wordt weergegeven in het vervolgkeuzemenu Uitsnijden **** starten.
+   Selecteer de optie **Uitsnijden toestaan** om de auteur van de inhoud toe te staan om de afbeelding uit te snijden in de component in het dialoogvenster Bewerken.
+   * Klik **Toevoegen** om een vooraf gedefinieerde hoogte-breedteverhouding voor uitsnijden toe te voegen.
+   * Voer een beschrijvende naam in, die wordt weergegeven in het vervolgkeuzemenu **Uitsnijden starten**.
    * Voer de numerieke verhouding van het aspect in.
    * Gebruik de sleephandgrepen om de volgorde van de hoogte-breedteverhoudingen te wijzigen
    * Gebruik het prullenbakpictogram om een hoogte-breedteverhouding te verwijderen.
@@ -239,14 +254,14 @@ Op het tabblad **Functies** kunt u opgeven welke opties beschikbaar zijn voor de
 
 ### Tabblad Stijlen {#styles-tab-1}
 
-De component van het Beeld steunt het systeem [van de](/help/get-started/authoring.md#component-styling)Stijl van het AEM.
+De component van het Beeld steunt het AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
 
 ## Adaptieve afbeeldingsserver {#adaptive-image-servlet}
 
-De component Image maakt gebruik van de Adaptive Image Servlet van de Core-component. [De Adaptive Image Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) is verantwoordelijk voor beeldverwerking en streaming en kan door ontwikkelaars worden benut bij hun [aanpassingen van de Core Components](/help/developing/customizing.md).
+De component Image maakt gebruik van de Adaptive Image Servlet van de Core-component. [De Adaptive Image ](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) Servletis verantwoordelijk voor beeldverwerking en het stromen en kan door ontwikkelaars in hun  [aanpassingen van de Componenten](/help/developing/customizing.md) van de Kern worden gebruikt.
 
 >[!NOTE]
 >
->Voorwaardelijke verzoeken via de `Last-Modified` header worden ondersteund door de Adaptive Image Servlet, maar het in cache plaatsen van de `Last-Modified` header [moet worden ingeschakeld in de Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
+>Voorwaardelijke aanvragen via de `Last-Modified`-header worden ondersteund door de Adaptive Image Servlet, maar het in cache plaatsen van de `Last-Modified`-header [moet worden ingeschakeld in de Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
 >
->[De de steekproefconfiguratie van de Verzender van de Projectarchetype](/help/developing/archetype/overview.md)van het AEM bevat reeds deze configuratie.
+>[De de steekproefconfiguratie van de Verzender van de Projectarchetype](/help/developing/archetype/overview.md) van het AEM bevat reeds deze configuratie.
