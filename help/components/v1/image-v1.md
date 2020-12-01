@@ -19,7 +19,7 @@ De Core Component Image is een adaptieve beeldcomponent die ter plekke kan worde
 
 Met de component Afbeelding kunt u afbeeldingselementen eenvoudig plaatsen en op locatie bewerken. Deze functie biedt een adaptieve selectie van afbeeldingen met uitgestelde laadtijd en uitsnijden voor de auteur van de inhoud.
 
-De toegestane afbeeldingsbreedten en uitsnijdinstellingen en aanvullende instellingen kunnen door de sjabloonauteur in het [ontwerpdialoogvenster](#design-dialog)worden gedefinieerd. De inhoudseditor kan elementen uploaden of selecteren in het dialoogvenster [](#configure-dialog) configureren en de afbeelding uitsnijden in het dialoogvenster [](#edit-dialog)Bewerken. Voor meer gebruiksgemak is het ook mogelijk de afbeelding op een eenvoudige plaats aan te passen.
+De toegestane afbeeldingsbreedten en de uitsnijdinstellingen en aanvullende instellingen kunnen door de sjabloonauteur worden gedefinieerd in het dialoogvenster [ontwerp](#design-dialog). De inhoudeditor kan elementen uploaden of selecteren in het [dialoogvenster configureren](#configure-dialog) en de afbeelding uitsnijden in het [dialoogvenster Bewerken](#edit-dialog). Voor meer gebruiksgemak is het ook mogelijk de afbeelding op een eenvoudige plaats aan te passen.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -29,8 +29,8 @@ In de volgende tabel wordt de compatibiliteit van versie 1 van de component Imag
 
 | AEM | Afbeeldingscomponent v1 |
 |--- |--- |
-| 6.3 | Compatibel |
-| 6.4 | Compatibel |
+| 6,3 | Compatibel |
+| 6,4 | Compatibel |
 
 >[!CAUTION]
 >
@@ -40,9 +40,9 @@ In de volgende tabel wordt de compatibiliteit van versie 1 van de component Imag
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Hier volgt een voorbeeld van [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende voorbeeld wordt genomen uit [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
-### Schermafbeelding {#screenshot}
+### Screenshot {#screenshot}
 
 ![](/help/assets/chlimage_1-7.png)
 
@@ -73,30 +73,30 @@ Hier volgt een voorbeeld van [We.Retail](https://helpx.adobe.com/experience-mana
 
 >[!NOTE]
 >
->Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Zie de [compatibiliteitsinformatie voor Core Components v1](/help/versions.md) voor meer informatie.
+>Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Zie [compatibiliteitsinformatie voor Core Components v1](/help/versions.md) voor meer informatie.
 
-## Dialoogvenster configureren {#configure-dialog}
+## Dialoogvenster {#configure-dialog} configureren
 
-Naast het standaarddialoogvenster [](#edit-dialog) Bewerken en [Ontwerpdialoogvenster](#design-dialog)biedt de component Image een configuratiedialoogvenster waarin de afbeelding zelf wordt gedefinieerd, samen met de beschrijving en basiseigenschappen.
+Naast de standaard [bewerkingsdialoog](#edit-dialog) en [ontwerpdialoog](#design-dialog), biedt de component van het beeld een configuratievenster waarin het beeld zelf met zijn beschrijving en basiseigenschappen wordt bepaald.
 
 ![](/help/assets/chlimage_1-50.png)
 
 * **Afbeeldingselement**
-   * Zet een element neer vanuit de [middelenbrowser](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title) of tik op de **bladeroptie** om te uploaden vanaf een lokaal bestandssysteem.
+   * Zet een element neer vanuit de [assetbrowser](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title) of tik op de optie **browse** om te uploaden vanaf een lokaal bestandssysteem.
    * Tik of klik op **Wissen** om de selectie van de geselecteerde afbeelding ongedaan te maken.
-   * Tik of klik op **Bewerken** om de uitvoeringen van het element [in de middeleneditor te](https://helpx.adobe.com/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) beheren.
+   * Tik of klik op **Bewerken** om de uitvoeringen van het element te beheren](https://helpx.adobe.com/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) in de elementeneditor.[
 
-* **Afbeelding is decoratief** - Controleer of de afbeelding door hulpprogramma&#39;s moet worden genegeerd en of er daarom geen alternatieve tekst nodig is. Dit geldt alleen voor decoratieve afbeeldingen.
+* **Afbeelding is decoratief** . Controleer of de afbeelding door hulpprogramma&#39;s moet worden genegeerd en of er daarom geen alternatieve tekst nodig is. Dit geldt alleen voor decoratieve afbeeldingen.
 * **Alternatieve tekst** : een tekstalternatief met de betekenis of functie van de afbeelding voor slechtzienden.
 * **Koppeling**
    * Koppel de afbeelding aan een andere bron.
    * In het dialoogvenster Selecteren kunt u een koppeling maken naar een andere AEM.
    * Als u geen koppeling naar een AEM maakt, voert u de absolute URL in. Niet-absolute URL&#39;s worden geïnterpreteerd als relatief ten opzichte van AEM.
 
-* **Bijschrift** - Standaard wordt aanvullende informatie over de afbeelding weergegeven onder de afbeelding.
-* **Bijschrift weergeven als pop-up** - Als dit selectievakje is ingeschakeld, wordt het bijschrift niet weergegeven onder de afbeelding, maar als een pop-up die door sommige browsers wordt weergegeven wanneer de muisaanwijzer op de afbeelding wordt geplaatst.
+* **Bijschrift**  - Standaard wordt aanvullende informatie over de afbeelding weergegeven onder de afbeelding.
+* **Bijschrift weergeven als pop-up**  - Als dit selectievakje is ingeschakeld, wordt het bijschrift niet weergegeven onder de afbeelding, maar als een pop-up die wordt weergegeven door sommige browsers wanneer de muisaanwijzer op de afbeelding wordt geplaatst.
 
-## Dialoogvenster Bewerken {#edit-dialog}
+## Dialoogvenster {#edit-dialog} bewerken
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud uitsnijden, de startkaart wijzigen en inzoomen op de afbeelding.
 
@@ -109,7 +109,7 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud uitsnijden, de startk
    Als u deze optie selecteert, wordt een vervolgkeuzelijst geopend voor vooraf gedefinieerde verhoudingen voor uitsnijden.
 
    * Kies de optie **Free Hand** om uw eigen uitsnijding te definiëren.
-   * Kies de optie Uitsnijden **** verwijderen om het oorspronkelijke element weer te geven.
+   * Kies de optie **Uitsnijden verwijderen** om het oorspronkelijke element weer te geven.
 
    Als een uitsnijdoptie is geselecteerd, gebruikt u de blauwe handgrepen om het uitsnijden op de afbeelding te vergroten of te verkleinen.
 
@@ -143,7 +143,8 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud uitsnijden, de startk
       * Gebruik de optie Padkiezer om een pad te selecteren in AEM
       * Als het pad niet in AEM staat, gebruikt u de absolute URL. Niet-absolute paden worden ten opzichte van AEM geïnterpreteerd.
 
-      * **Alt-tekst** Alternatieve beschrijving van het paddoel
+      * **Alternatieve**
+beschrijving van padbestemming
       * **Doel**
          * **Zelfde tabblad**
          * **Nieuw tabblad**
@@ -191,36 +192,37 @@ Tik of klik op de knop Toevoegen om een andere grootte toe te voegen.
 * Gebruik de grepen om de volgorde van de formaten te wijzigen.
 * Gebruik het verwijderpictogram om een breedte te verwijderen.
 
-Het laden van afbeeldingen wordt standaard uitgesteld totdat ze zichtbaar worden. Selecteer de optie **Lazy load** uitschakelen om de afbeeldingen bij het laden van de pagina te laden.
+Het laden van afbeeldingen wordt standaard uitgesteld totdat ze zichtbaar worden. Selecteer de optie **Uitgestelde laadbewerking** uitschakelen om de afbeeldingen te laden bij het laden van de pagina.
 
-### Features {#features}
+### Functies {#features}
 
-Op het tabblad **Functies** kunt u opgeven welke opties beschikbaar zijn voor de auteurs van de inhoud wanneer de component wordt gebruikt, inclusief opties voor uploaden, richting en uitsnijden.
+Op het tabblad **Functies** kunt u bepalen welke opties beschikbaar zijn voor de auteurs van de inhoud wanneer u de component gebruikt, inclusief opties voor uploaden, richting en uitsnijden.
 
 * Bron
 
    ![](/help/assets/chlimage_1-19.png)
 
-   Selecteer de optie **Het uploaden van middelen vanaf het bestandssysteem** toestaan om auteurs van inhoud toe te staan afbeeldingen te uploaden vanaf hun lokale computer. Schakel deze optie uit als u wilt dat inhoudsauteurs alleen elementen uit AEM selecteren.
+   Selecteer de optie **Het uploaden van elementen vanuit het bestandssysteem toestaan** om auteurs van inhoud toe te staan afbeeldingen te uploaden vanaf hun lokale computer. Schakel deze optie uit als u wilt dat inhoudsauteurs alleen elementen uit AEM selecteren.
 
 * Afdrukstand
 
    ![](/help/assets/chlimage_1-20.png)
 
-   * **Roteren** - Gebruik deze optie als de auteur van de inhoud de optie Rechtsom **** roteren mag gebruiken.
-   * **Met deze optie spiegelen** kan de auteur van de inhoud de opdracht 
-**Opties voor Horizontaal** spiegelen en **Verticaal** spiegelen.
+   * **Roteren**  - Gebruik deze optie als u wilt dat de auteur van de inhoud de optie  **Roteren** kiest.
+   * ****
+FlipUse this option to allow the content ontwerper to use the 
+**Opties voor** Horizontaal spiegelen en  **Verticaal** spiegelen.
    >[!CAUTION]
    >
-   >De optie **Spiegelen** is standaard uitgeschakeld. Als u deze optie inschakelt, worden de knoppen **Verticaal** omdraaien en Horizontaal **** omdraaien weergegeven in het dialoogvenster Bewerken van de afbeeldingscomponent. De functie wordt momenteel echter niet ondersteund door AEM en wijzigingen die met deze opties zijn aangebracht, blijven niet behouden.
+   >De optie **Flip** is standaard uitgeschakeld. Als u deze functie inschakelt, worden de knoppen **Verticaal spiegelen** en **Horizontaal spiegelen** weergegeven in het dialoogvenster Bewerken van de afbeeldingscomponent. De functie wordt momenteel echter niet ondersteund door AEM en wijzigingen die met deze opties zijn aangebracht, blijven niet behouden.
 
 * Uitsnijden
 
    ![](/help/assets/chlimage_1-21.png)
 
-   Selecteer de optie Uitsnijden **** toestaan om de auteur van de inhoud toe te staan de afbeelding uit te snijden in de component in het dialoogvenster Bewerken.
-   * Klik op **Toevoegen** om een vooraf gedefinieerde hoogte-breedteverhouding voor uitsnijden toe te voegen.
-   * Voer een beschrijvende naam in, die wordt weergegeven in het vervolgkeuzemenu Uitsnijden **** starten.
+   Selecteer de optie **Uitsnijden toestaan** om de auteur van de inhoud toe te staan om de afbeelding uit te snijden in de component in het dialoogvenster Bewerken.
+   * Klik **Toevoegen** om een vooraf gedefinieerde hoogte-breedteverhouding voor uitsnijden toe te voegen.
+   * Voer een beschrijvende naam in, die wordt weergegeven in het vervolgkeuzemenu **Uitsnijden starten**.
    * Voer de numerieke verhouding van het aspect in.
    * Gebruik de sleephandgrepen om de volgorde van de hoogte-breedteverhoudingen te wijzigen
    * Gebruik het prullenbakpictogram om een hoogte-breedteverhouding te verwijderen.
@@ -231,8 +233,8 @@ Op het tabblad **Functies** kunt u opgeven welke opties beschikbaar zijn voor de
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van het Beeld [kan op GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v1/image)worden gevonden.
+De recentste technische documentatie over de Component van het Beeld [kan op GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v1/image) worden gevonden.
 
 Het volledige kerncomponentenproject kan van GitHub worden gedownload.
 
-Meer details over het ontwikkelen van de Componenten van de Kern kunnen in de de ontwikkelaarsdocumentatie [van de](/help/developing/overview.md)Componenten worden gevonden.
+Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
