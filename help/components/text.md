@@ -4,7 +4,7 @@ description: De component Text is een component voor tekstbewerking en -composit
 translation-type: tm+mt
 source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2200'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ De component Core Component Text is een component voor tekstbewerking en -compos
 
 De component Text biedt een robuuste teksteditor met tekstopmaak die het mogelijk maakt tekst eenvoudig te bewerken in een vereenvoudigde, inline editor en in een volledige schermopmaak.
 
-Het dialoogvenster [](#edit-dialog) Bewerken bevat inline bewerkingen met beperkte opties en volledige functionaliteit in het dialoogvenster Bewerken op volledig scherm. In het dialoogvenster [](#design-dialog)Ontwerp kunt u opmaakopties voor tekst, zoals koppen, speciale tekens en alineastijlen, configureren voor de sjabloon voor de auteur van de inhoud.
+Het [bewerkingsdialoogvenster](#edit-dialog) bevat inline bewerking met beperkte opties met volledige functionaliteit beschikbaar in het dialoogvenster Volledig scherm bewerken. Met behulp van het [ontwerpdialoogvenster](#design-dialog) kunnen opties voor tekstopmaak, zoals koppen, speciale tekens en alineastijlen, worden geconfigureerd voor de sjabloon voor de auteur van de inhoud.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -31,29 +31,29 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 | v2 | Compatibel | Compatibel | Compatibel |
 | [v1](v1/text-v1.md) | Compatibel | Compatibel | - |
 
-Zie het document [Core Components Versions](/help/versions.md)voor meer informatie over Core Component-versies en -versies.
+Voor meer informatie over de versies en versies van de Component van de Kern, zie het document [de Versies van de Componenten van de Kern](/help/versions.md).
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Ga naar de [componentbibliotheek](https://adobe.com/go/aem_cmp_library_text)om de component Text te ervaren en voorbeelden van de bijbehorende configuratieopties en de HTML- en JSON-uitvoer te bekijken.
+Ga naar [Componentbibliotheek](https://adobe.com/go/aem_cmp_library_text) om de tekstcomponent te ervaren en voorbeelden van de bijbehorende configuratieopties en HTML- en JSON-uitvoer te bekijken.
 
 ### Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Tekst [kan op GitHub](https://adobe.com/go/aem_cmp_tech_text_v2)worden gevonden.
+De recentste technische documentatie over de Component van de Tekst [kan op GitHub](https://adobe.com/go/aem_cmp_tech_text_v2) worden gevonden.
 
-Meer details over het ontwikkelen van de Componenten van de Kern kunnen in de de ontwikkelaarsdocumentatie [van de](/help/developing/overview.md)Componenten worden gevonden.
+Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
-## De component Text en de RTF-editor {#the-text-component-and-the-rich-text-editor}
+## De component Text en de Rich Text Editor {#the-text-component-and-the-rich-text-editor}
 
-De component van de Tekst van de Componenten van de Kern gebruikt de AEM Rich Text Editor (RTE). RTE voorziet inhoudsauteurs van een brede waaier van functionaliteit voor het uitgeven van hun tekstinhoud. RTE is zeer flexibel in zijn configuratie en biedt een aantal opties aan. Meer details over hoe RTE kan worden gevormd kunnen in de artikelen worden gevonden [vormen de Rich Text Editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) en [vormen de Rich Text Editor stop-ins](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+De component van de Tekst van de Componenten van de Kern gebruikt de AEM Rich Text Editor (RTE). RTE voorziet inhoudsauteurs van een brede waaier van functionaliteit voor het uitgeven van hun tekstinhoud. RTE is zeer flexibel in zijn configuratie en biedt een aantal opties aan. Meer details over hoe RTE kan worden gevormd kunnen in de artikelen [vormen Rich Text Editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) en [vormen de Rich Text Editor stop-ins](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) worden gevonden.
 
 De rest van dit artikel toont de standaardconfiguratie van de Component van de Tekst van de Componenten van de Kern met de uit-van-de-doos configuratie van RTE aan.
 
 >[!NOTE]
 >
->Alleen opties die door [UI-configuraties van de RTE](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) worden ingeschakeld, zijn beschikbaar door de component Text.
+>Alleen opties die zijn ingeschakeld door [UI-configuraties van de RTE](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) zijn beschikbaar door in de Tekstcomponent.
 
-## Dialoogvenster Bewerken {#edit-dialog}
+## Dialoogvenster {#edit-dialog} bewerken
 
 Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak die de gebruiker zou verwachten bij het samenstellen van tekst.
 
@@ -65,7 +65,7 @@ Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak di
 
 Wordt gebruikt om vette opmaak toe te passen op geselecteerde tekst of opgemaakte tekst die na de cursor wordt ingevoerd.
 
-**Ctrl+B** kan worden gebruikt als een sneltoets.
+**Ctrl+** Bcan wordt gebruikt als een sneltoets.
 
 ### Cursief
 
@@ -73,7 +73,7 @@ Wordt gebruikt om vette opmaak toe te passen op geselecteerde tekst of opgemaakt
 
 Wordt gebruikt om cursieve opmaak toe te passen op geselecteerde tekst of om tekst die na de cursor wordt ingevoerd, cursief te maken.
 
-**Ctrl+I** kan als sneltoets worden gebruikt.
+**Ctrl+** Ican be used as a keyboard shortcut.
 
 ### Onderstrepen
 
@@ -81,7 +81,7 @@ Wordt gebruikt om cursieve opmaak toe te passen op geselecteerde tekst of om tek
 
 Wordt gebruikt om onderstreepte opmaak toe te passen op geselecteerde tekst of onderstreepte tekst die na de cursor wordt ingevoerd.
 
-**Ctrl+U** kan als sneltoets worden gebruikt.
+**Ctrl+** Ucan be used as a keyboard shortcut.
 
 ### Subscript
 
@@ -150,7 +150,7 @@ Met deze optie kunt u de tekst doorzoeken op een opgegeven tekstreeks. Als u dez
 ![Voorbeeld van zoeken](/help/assets/text-find-example.png)
 
 Voer de tekst in waarvoor u wilt zoeken en tikken of klik op **Zoeken** om de zoekopdracht te starten. Tik of klik op de x om te annuleren.
-Als u een exacte overeenkomst wilt uitvoeren op basis van het hoofdlettergebruik, selecteert u de optie **Hoofdlettergebruik** afstemmen voordat u de zoekopdracht start.
+Als u een nauwkeurige gelijke volgens het geval wilt doen, selecteer de optie **Kwestie** alvorens het onderzoek te beginnen.
 Als een overeenkomst wordt gevonden, wordt deze gemarkeerd en wordt het zoekdialoogvenster gedimd weergegeven. Tik of klik nogmaals op de knop **Zoeken** in het grijze dialoogvenster om naar de volgende instantie te zoeken.
 
 ![Voorbeeld van zoeken gevonden](/help/assets/text-find-example-found.png)
@@ -170,10 +170,10 @@ Gebruik deze optie om de tekst te zoeken op instanties van een opgegeven tekenre
 Voer de tekst in waarnaar u wilt zoeken en de tekst waarmee u deze wilt vervangen.
 
 * Tik of klik op **Zoeken** om te beginnen met zoeken. Klik of tik op de x om te annuleren.
-* Als u een exacte overeenkomst wilt uitvoeren op basis van het hoofdlettergebruik, selecteert u de optie **Hoofdlettergebruik** afstemmen voordat u de zoekopdracht start.
-* Selecteer Alles **** vervangen om alle instanties van de tekst tegelijk te vervangen.
+* Als u een nauwkeurige gelijke volgens het geval wilt doen, selecteer de optie **Kwestie** alvorens het onderzoek te beginnen.
+* Selecteer **Alles vervangen** om alle instanties van de tekst tegelijk te vervangen.
 
-Als een overeenkomst wordt gevonden, wordt deze gemarkeerd en wordt het zoekdialoogvenster gedimd weergegeven. Klik nogmaals op de knop **Zoeken** in het grijze dialoogvenster om naar de volgende instantie te zoeken of selecteer de knop **Vervangen** om de gemarkeerde, overeenkomende tekst te vervangen. De knop **Vervangen** is alleen actief nadat een overeenkomst is gemaakt.
+Als een overeenkomst wordt gevonden, wordt deze gemarkeerd en wordt het zoekdialoogvenster gedimd weergegeven. Klik nogmaals op de knop **Zoeken** in het grijze dialoogvenster om naar de volgende instantie te zoeken of selecteer de knop **Vervangen** om de gemarkeerde, overeenkomende tekst te vervangen. De knop **Vervangen** is alleen actief als er een overeenkomst is gemaakt.
 
 Het dialoogvenster Zoeken en vervangen wordt transparant wanneer op Zoeken wordt geklikt en wordt dekkend wanneer op Vervangen wordt geklikt. Hierdoor kan de auteur de tekst controleren die de auteur vervangt.
 
@@ -238,19 +238,19 @@ Wordt gebruikt om een tabel in de tekst in te voegen. Als u deze optie selecteer
 
 ![Tabelvoorbeeld](/help/assets/text-table-example.png)
 
-* **Kolommen** - Het aantal kolommen van de tabel (vereist)
-* **Rijen** - Het aantal rijen van de tabel (vereist)
-* **Breedte** - De breedte van de tabel
-* **Hoogte** - De hoogte van de tabel
+* **Kolommen**  - Het aantal kolommen van de tabel (vereist)
+* **Rijen**  - Het aantal rijen van de tabel (vereist)
+* **Breedte**  - De breedte van de tabel
+* **Hoogte**  - De hoogte van de tabel
 * **Celopvulling** : de ruimte rondom de celinhoud
-* **Celafstand** - De ruimte tussen cellen
-* **Rand** - Het gewicht van de randlijnen van de tabel
+* **Celafstand** : de ruimte tussen cellen
+* **Rand**  - Het gewicht van de randlijnen van de tabel
    * Indien voor de koptekst van de tabel:
       * De eerste rij moet worden gebruikt
       * De eerste kolom moet worden gebruikt
       * De eerste rij en de eerste kolom moeten worden gebruikt
       * Of er moet geen header worden gebruikt.
-* **Bijschrift** - Het bijschrift van de tabel
+* **Bijschrift**  - Het bijschrift van de tabel
 
 ### Spellingcontrole
 
@@ -258,7 +258,7 @@ Wordt gebruikt om een tabel in de tekst in te voegen. Als u deze optie selecteer
 
 Wordt gebruikt om de spelling van de tekstinhoud te controleren. Mogelijke spelfouten worden onderstreept met gebroken, rode lijnen.
 
-Meer informatie over spellingcontrole en het aanpassen van de woordenboeken van de spellingcontrole kunt u in het document vinden [vormt de Rich Text Editor stop-Ins](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+Meer informatie over spellingcontrole en het aanpassen van de woordenboeken van de spellingcontrole kan in het document [vormen de Rich Text Editor stop-Ins](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) worden gevonden.
 
 ### Speciale tekens {#special-characters}
 
@@ -276,17 +276,17 @@ Tik op het gewenste teken of klik op het gewenste teken om het na de cursor in d
 
 Wordt gebruikt om de HTML-bron van de tekst weer te geven en te wijzigen.
 
-Tik of klik op het pictogram **Bron bewerken** om de inhoud van de tekst in de opgemaakte weergave te wijzigen en de onbewerkte HTML weer te geven. In deze modus zijn alle andere opmaakopties uitgeschakeld. Tik of klik nogmaals op het pictogram **Bron bewerken** om terug te keren naar de opgemaakte weergave.
+Tik of klik op het pictogram **Bron bewerken** om de inhoud van de tekst vanuit de opgemaakte weergave te wijzigen en de onbewerkte HTML weer te geven. In deze modus zijn alle andere opmaakopties uitgeschakeld. Tik of klik nogmaals op het pictogram **Bron bewerken** om terug te keren naar de opgemaakte weergave.
 
 >[!CAUTION]
 >
->Zoals altijd het geval met toegang tot onbewerkte HTML, moet de voorzichtigheid wanneer het gebruiken van de **Bron geeft** optie uit!
+>Zoals altijd het geval met toegang tot ruwe HTML, moet de voorzichtigheid worden uitgeoefend wanneer het gebruiken van **Bron geeft** optie uit!
 >
->HTML die is ingevoerd via **Bronbewerking** , wordt gescand op XSS-risico&#39;s en alle scripts die worden ingevoegd, worden verwijderd en worden niet weergegeven op de resulterende pagina. In **Source Edit** ingevoerde misvormde HTML kan de sjabloon voor de pagina echter verbreken, wat resulteert in een onverwachte opmaak of een onbruikbare weergave van de resulterende pagina.
+>HTML die is ingevoerd via **Source Edit** wordt gescand op XSS-risico&#39;s en alle scripts die worden ingevoegd, worden verwijderd en worden niet weergegeven op de resulterende pagina. Maar misvormde HTML die is ingevoerd in **Source Edit** kan de sjabloon voor de pagina onderbreken, wat resulteert in onverwachte opmaak of het onbruikbaar maken van de resulterende pagina.
 
 >[!NOTE]
 >
->Omdat HTML die is ingevoerd via **Bronbewerking** wordt gescand op XSS-risico&#39;s en alle scripts en de gevonden scripts automatisch verwijdert, kan de werkelijke inhoud die wordt weergegeven afwijken van wat is ingevoerd in **Bronbewerking**. Om deze reden, om veranderingen te bewaren die gebruikend **Bron worden aangebracht geef uit**, moet u **Bron eerst weggaan uitgeven** om de tekst in de normale redacteur te bekijken alvorens op te slaan.
+>Omdat HTML die is ingevoerd via **Source Edit** wordt gescand op XSS-risico&#39;s en alle scripts en de gevonden scripts automatisch worden verwijderd, kan de werkelijke inhoud die wordt weergegeven afwijken van wat is ingevoerd in **Source Edit**. Daarom moet u **Bron bewerken** eerst afsluiten om de tekst in de normale editor weer te geven voordat u de tekst opslaat. Als u de wijzigingen wilt opslaan met **Bron bewerken**, moet u &lt;a2/>Bron bewerken&lt;a3/> eerst afsluiten.
 
 ### Alineaopmaak
 
@@ -296,7 +296,7 @@ Wordt gebruikt om alineaopmaak toe te passen op de geselecteerde tekst of op tek
 
 ![Voorbeeld van alineaopmaak](/help/assets/text-paragraph-example.png)
 
-### In-line bewerking {#in-line-editing}
+### In line bewerken {#in-line-editing}
 
 De tekstcomponent kan ook in regels worden bewerkt, maar vanwege ruimtebeperkingen zijn niet alle opmaakopties in regels beschikbaar. Schakel over naar de modus Volledig scherm om alle opties weer te geven.
 
@@ -304,7 +304,7 @@ De tekstcomponent kan ook in regels worden bewerkt, maar vanwege ruimtebeperking
 
 ### Instellen en id {#setting-id}
 
-Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de [gegevenslaag](/help/developing/data-layer/overview.md).
+Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de [Gegevenslaag](/help/developing/data-layer/overview.md).
 
 * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
 * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
@@ -318,7 +318,7 @@ In het ontwerpdialoogvenster kan de sjabloonauteur definiëren welke tekstopmaak
 
 Het tabblad Insteekmodules wordt gebruikt om verschillende tekstopmaakopties die beschikbaar zijn voor de auteurs van de inhoud in en uit te schakelen.
 
-### Features {#features}
+### Functies {#features}
 
 ![Dialoogvenster Ontwerpen](/help/assets/text-design-features.png)
 
@@ -352,7 +352,7 @@ Alineastijlen kunnen voor de component worden geactiveerd of gedeactiveerd. Als 
 
 * Tik of klik op de knop **Toevoegen** om een nieuwe stijl in te voegen.
 * Voer de code in van de stijl en een beschrijving die worden weergegeven in het dialoogvenster Bewerken.
-* Als u een stijltik wilt verwijderen of op de knop **Verwijderen** wilt klikken.
+* Als u een stijltik wilt verwijderen of op de knop **Delete** wilt klikken.
 * Tik of klik op de handgrepen om de volgorde van de indelingen te wijzigen.
 
 ### Speciale tekens {#configuring-special-characters}
@@ -368,4 +368,4 @@ De optie voor het invoegen van speciale tekens kan voor de component worden geac
 
 ## Tabblad Stijlen {#styles-tab}
 
-De component Text ondersteunt het [stijlsysteem](/help/get-started/authoring.md#component-styling)AEM.
+De component Text ondersteunt het AEM [stijlsysteem](/help/get-started/authoring.md#component-styling).
