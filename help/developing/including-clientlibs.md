@@ -12,11 +12,11 @@ ht-degree: 2%
 
 # Inclusief clientbibliotheken {#including-client-libraries}
 
-Afhankelijk van uw gebruiksscenario zijn er verschillende manieren om [clientbibliotheken](/help/developing/archetype/uifrontend.md#clientlibs) op te nemen. Dit document bevat voorbeelden en voorbeelden van [HTML-fragmenten](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) voor beide.
+Er zijn een aantal verschillende manieren om [cliëntbibliotheken](/help/developing/archetype/uifrontend.md#clientlibs) afhankelijk van uw gebruiksgeval op te nemen. Dit document bevat voorbeelden en voorbeelden [HTL-fragmenten](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) voor beide.
 
 ## Aanbevolen standaardgebruik {#recommended-default-usage}
 
-Als u geen tijd hebt om te onderzoeken wat in uw situatie het beste is, dan omvat uw cliëntbibliotheken door de volgende lijnen van HTML binnen uw paginalement te plaatsen `head` :
+Als u geen tijd hebt om te onderzoeken wat het beste in uw situatie is, dan omvat uw cliëntbibliotheken door de volgende lijnen van HTML binnen uw pagina `head` element te plaatsen:
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @
@@ -25,7 +25,7 @@ Als u geen tijd hebt om te onderzoeken wat in uw situatie het beste is, dan omva
 </sly>
 ```
 
-Dit omvat zowel de CSS als JS in uw pagina `head`, maar het toevoegen van het `defer` attribuut aan uw JS `script` omvat, zodat browsers op DOM wachten klaar te zijn alvorens uw manuscripten uit te voeren, en daarom optimaliserend de snelheid van de paginading.
+Dit omvat zowel het CSS als JS in uw pagina `head`, maar het toevoegen van `defer` attribuut aan uw JS `script` omvat, zodat browsers op DOM wachten alvorens uw manuscripten uit te voeren, en daarom optimaliserend de snelheid van de paginading.
 
 ## Standaardgebruik {#basic-usage}
 
@@ -37,7 +37,7 @@ De basissyntaxis voor zowel JS als CSS van een categorie van de cliëntbibliothe
 </sly>
 ```
 
-Als u hetzelfde wilt doen voor meerdere clientbibliotheekcategorieën tegelijk, kan een array met tekenreeksen worden doorgegeven aan de `categories` parameter:
+Als u hetzelfde wilt doen voor meerdere clientbibliotheekcategorieën tegelijk, kan een array van tekenreeksen worden doorgegeven aan de parameter `categories`:
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @
@@ -48,9 +48,9 @@ Als u hetzelfde wilt doen voor meerdere clientbibliotheekcategorieën tegelijk, 
 
 ## Alleen CSS of JS {#css-js-only}
 
-Vaak wilt u de CSS-include-bestanden in het HTML- `head` element plaatsen en de JS-code net vóór het sluiten van het `body` element.
+Vaak wilt u de CSS-include-bestanden in het element HTML `head` plaatsen en de JS-code net vóór het sluiten van het element `body`.
 
-Als u in het `head`gedeelte alleen de CSS en niet de JS wilt opnemen, gebruikt u `cssIncludes`:
+Als u in `head` alleen de CSS en niet de JS wilt opnemen, gebruikt u `cssIncludes`:
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @ categories='wknd.base'}">
@@ -58,7 +58,7 @@ Als u in het `head`gedeelte alleen de CSS en niet de JS wilt opnemen, gebruikt u
 </sly>
 ```
 
-Gebruik vóór het `body` sluiten de volgende opties om alleen de JS en niet de CSS op te nemen `jsIncludes`:
+Gebruik `jsIncludes` voordat u `body` sluit om alleen de JS en niet de CSS op te nemen:
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @ categories='wknd.base'}">
@@ -66,9 +66,9 @@ Gebruik vóór het `body` sluiten de volgende opties om alleen de JS en niet de 
 </sly>
 ```
 
-## Attributen {#attributes}
+## Kenmerken {#attributes}
 
-Voor het toepassen van kenmerken op de gegenereerde CSS- `link` elementen en/of JS- `script` elementen is een aantal parameters mogelijk:
+Als u kenmerken wilt toepassen op de gegenereerde CSS `link`-elementen en/of JS `script`-elementen, is een aantal parameters mogelijk:
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @
@@ -82,19 +82,19 @@ Voor het toepassen van kenmerken op de gegenereerde CSS- `link` elementen en/of 
 </sly>
 ```
 
-CSS- `link` kenmerken die kunnen worden doorgegeven aan `jsAndCssIncludes` en `cssIncludes`:
+CSS `link`-kenmerken die kunnen worden doorgegeven aan `jsAndCssIncludes` en `cssIncludes`:
 
-* `media`: tekenreeks-JS- `script` kenmerken die kunnen worden doorgegeven aan `jsAndCssIncludes` en `jsIncludes`:
+* `media`: tekenreeks-JS- `script` kenmerken die kunnen worden doorgegeven aan  `jsAndCssIncludes` en  `jsIncludes`:
 * `async`: boolean
 * `defer`: boolean
 * `onload`: string
 * `crossorigin`: string
 
-## Invoering {#inlining}
+## {#inlining} onderstrepen
 
-In sommige gevallen, voor optimalisatie, of voor e-mail of [AMP,](amp.md) zou het kunnen worden vereist om CSS of JS in de output van HTML in te line.
+In sommige gevallen, voor optimalisatie, of voor e-mail of [AMP, ](amp.md) zou het kunnen worden vereist om CSS of JS in de output van HTML te inline.
 
-Als u de CSS wilt inline, `cssInline` kunt u deze gebruiken. In dat geval moet u het omringende `style` element schrijven:
+Als u de CSS wilt inline, kunt u `cssInline` gebruiken. In dat geval moet u het omringende `style`-element schrijven:
 
 ```html
 <style type="text/css"
@@ -103,7 +103,7 @@ Als u de CSS wilt inline, `cssInline` kunt u deze gebruiken. In dat geval moet u
 </style>
 ```
 
-Op dezelfde manier om JS in te zetten, `jsInline` kan worden gebruikt, in welk geval u het omringende `script` element moet schrijven:
+Op dezelfde manier kunt u `jsInline` gebruiken om JS in te line, in welk geval u het omringende `script` element moet schrijven:
 
 ```html
 <script type="text/javascript"
@@ -112,11 +112,11 @@ Op dezelfde manier om JS in te zetten, `jsInline` kan worden gebruikt, in welk g
 </script>
 ```
 
-## CSS en JavaScript met behoud van context laden {#context-aware-loading}
+## CSS en JavaScript {#context-aware-loading} laden met behoud van context
 
-De component [Pagina](/help/components/page.md) ondersteunt ook het laden van door ontwikkelaars gedefinieerde contextgevoelige CSS-, JavaScript- of metatags.
+De [Paginacomponent](/help/components/page.md) ondersteunt ook het laden van door ontwikkelaars gedefinieerde contextgevoelige CSS-, JavaScript- of metatags.
 
-Dit wordt gedaan door een [context-bewuste middel](context-aware-configs.md) voor het `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` gebruiken van de volgende structuur te creëren:
+Dit wordt gedaan door een [context-bewuste middel](context-aware-configs.md) voor `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` te creëren gebruikend de volgende structuur:
 
 ```text
 com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
