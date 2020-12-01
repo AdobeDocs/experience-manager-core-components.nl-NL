@@ -10,7 +10,7 @@ ht-degree: 2%
 ---
 
 
-# Basiscomponenten ontwikkelen {#developing-core-components}
+# Kerncomponenten ontwikkelen {#developing-core-components}
 
 ## Wanneer moet u de kerncomponenten gebruiken? {#when-to-use-the-core-components}
 
@@ -18,18 +18,22 @@ Aangezien de Componenten van de Kern allen-nieuw zijn, en veelvoudige voordelen 
 
 Daarom geeft Adobe de volgende aanbevelingen:
 
-* **Nieuwe Projecten** Nieuwe projecten zouden altijd moeten proberen om de Componenten van de Kern te gebruiken. Als de Componenten van de Kern niet direct kunnen worden gebruikt of [uitgebreid](customizing.md) om aan projectvereisten te voldoen, dan creeer een douanecomponent na de componentenarchitectuur die in kerncomponenten wordt vermeld. Vermijd het gebruik van de [basiscomponenten](/help/versions.md#foundation-component-support), tenzij dit anderszins mogelijk is.
-* **De bestaande** Aanbeveling van Projecten [blijft het gebruiken van de](/help/versions.md#foundation-component-support)stichtingscomponenten, tenzij een plaats of componentenrefactoring wordt gepland.\
-   Aangezien de stichtingscomponenten in de meeste bestaande projecten op grote schaal worden gebruikt, [zullen zij verder worden ondersteund.](/help/versions.md#foundation-component-support)
-* **Nieuwe aangepaste componenten** bepalen of een bestaande [kerncomponent kan worden aangepast](customizing.md).\
+* **Nieuwe**
+ProjectenNieuwe projecten zouden altijd moeten proberen om de Componenten van de Kern te gebruiken. Als de Componenten van de Kern niet direct of [extended](customizing.md) kunnen worden gebruikt om aan projectvereisten te voldoen, dan creeer een douanecomponent na de componentenarchitectuur die in kerncomponenten wordt vermeld. Vermijd het gebruik van [stichtingscomponenten](/help/versions.md#foundation-component-support), tenzij anders mogelijk.
+* **Bestaande**
+ProjectenRecommendation blijft het gebruiken van de  [stichtingscomponenten](/help/versions.md#foundation-component-support), tenzij een plaats of componentenrefactoring wordt gepland.\
+   Aangezien zij zeer wijd door de meeste bestaande projecten worden gebruikt, zullen de stichtingscomponenten [blijven worden gesteund.](/help/versions.md#foundation-component-support)
+* **Nieuwe aangepaste**
+componentenBepaal of een bestaande  [kerncomponent kan worden aangepast](customizing.md).\
    Zo niet, dan wordt aanbevolen een nieuwe aangepaste component te maken volgens de [Componentrichtlijnen](guidelines.md).
-* **Bestaande aangepaste componenten** Als uw componenten naar behoren werken, kunt u ze op de juiste wijze houden.
+* **Bestaande aangepaste**
+componentenAls uw componenten naar behoren werken, kunt u ze op de juiste wijze houden.
 \
    Als dat niet het geval is, raadpleegt u &quot;Nieuwe aangepaste componenten&quot; hierboven.
 
-## Hoe te met de Componenten van de Kern Succes {#how-to-succeed}
+## Hoe te met de Componenten van de Kern {#how-to-succeed} Succes
 
-De kerncomponenten zijn krachtig, flexibel en gebruiksvriendelijk. [Na een paar zeer belangrijke richtlijnen](success.md) zullen ervoor zorgen dat uw project met de Componenten van de Kern een succes is.
+De kerncomponenten zijn krachtig, flexibel en gebruiksvriendelijk. [Op basis van enkele belangrijke ](success.md) richtlijnen kunt u ervoor zorgen dat uw project met de Core Components een succes wordt.
 
 ## Migreren naar de kerncomponenten
 
@@ -37,42 +41,42 @@ Om het even welk nieuw project zou met de Componenten van de Kern moeten worden 
 
 Een grotere inspanning op een bestaand project (bijvoorbeeld rebranding of het algemene refactoring) biedt vaak een kans om aan de Componenten van de Kern te migreren. Om deze migratie te vergemakkelijken, heeft Adobe een aantal migratiehulpmiddelen verstrekt om de goedkeuring van de Componenten van de Kern en de recentste AEM aan te moedigen.
 
-[Met de AEM moderniseringsinstrumenten](http://opensource.adobe.com/aem-modernize-tools/) kunt u gemakkelijk converteren naar:
+[De ](http://opensource.adobe.com/aem-modernize-tools/) Toolsallow van de Modernisering van de AEM voor de gemakkelijke omzetting van:
 
 * Statische sjablonen converteren naar bewerkbare sjablonen
 * Ontwerpconfiguraties omzetten naar beleid
 * Elementaire componenten omzetten naar kerncomponenten
 * De klassieke interface converteren naar een interface met aanraakbediening
 
-Raadpleeg de documentatie [](http://opensource.adobe.com/aem-modernize-tools/)bij deze gereedschappen voor meer informatie over het gebruik van deze gereedschappen.
+Voor meer informatie over het gebruik van deze hulpmiddelen, [zie hun documentatie](http://opensource.adobe.com/aem-modernize-tools/).
 
 >[!NOTE]
 >
 >De AEM Moderniseren Hulpmiddelen zijn een communautaire inspanning en niet gesteund of door Adobe gewaarborgd.
 
-## Ondersteuning van kerncomponenten {#core-component-support}
+## Ondersteuning voor kerncomponenten {#core-component-support}
 
 De Componenten van de kern zijn een integraal deel van AEM en gesteund zoals is, onder de zelfde voorwaarden alsof zij als deel van Quickstart werden geleverd.
 
-Net als andere AEM productkenmerken is de algemene regel: Componenten worden eerst aangekondigd te worden vervangen en de oudste verwijderd voor de volgende AEM. Dit geeft klanten minstens één versiecyclus om naar de nieuwe versie van de component te bewegen, alvorens zijn steun te laten vallen.
+De algemene regel is, net als andere AEM productkenmerken: Componenten worden eerst aangekondigd te worden vervangen en de oudste verwijderd voor de volgende AEM. Dit geeft klanten minstens één versiecyclus om naar de nieuwe versie van de component te bewegen, alvorens zijn steun te laten vallen.
 
 In de versie van elke component worden duidelijk de AEM versies vermeld die worden ondersteund. Wanneer de steun voor een versie van AEM beëindigt, dan ook de steun van de Componenten van de Kern voor die versie van AEM.
 
-Zie de pagina Core Components [](customizing.md) aanpassen voor meer informatie over de ondersteuning van componentaanpassingen.
+Zie de pagina [Kerncomponenten aanpassen](customizing.md) voor meer informatie over de ondersteuning van componentaanpassingen.
 
 
 ## Technische mogelijkheden {#technical-capabilities}
 
 De volgende lijst geeft een overzicht van de verschillen tussen kerncomponenten en stichtingscomponenten.
 
-Voor details over hun auteursmogelijkheden en opties om hen vooraf te vormen, [verwijs naar de auteurspagina over hen](/help/get-started/authoring.md).
+Voor details over hun auteursmogelijkheden en opties om hen pre-configureerbaar te maken, [verwijs naar de auteurspagina over hen](/help/get-started/authoring.md).
 
 | **Capaciteit** | **Kerncomponent** | **Foundation-component** |
 |-----|---|---|
-| Logische implementatie | Java POJO&#39;s met annotaties [Sling Models](https://sling.apache.org/documentation/bundles/models.html) | JSP-code |
-| Opmaakdefinitie | [HTML Template Language](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) (HTL) syntaxis | JSP-code |
+| Logische implementatie | Java POJO&#39;s met [Sling Models](https://sling.apache.org/documentation/bundles/models.html) annotaties | JSP-code |
+| Opmaakdefinitie | [HTML-sjabloonsyntaxis](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html)  (HTL) | JSP-code |
 | XSS-ontsmetting | Geautomatiseerd door HTML | Meestal handmatig |
-| Naam van CSS-klassen | Gestandaardiseerde naamgevingsconventie gebaseerd op [blokelement Modifier](https://getbem.com/) (BEM)-notatie (vanaf release 2.0.0) | Aangepaste schema&#39;s |
+| Naam van CSS-klassen | Gestandaardiseerde naamgevingsconventie gebaseerd op de notatie [Blokelelement modifier](https://getbem.com/) (BEM) (vanaf release 2.0.0) | Aangepaste schema&#39;s |
 | Dialoogdefinitie | [Koraal 3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Koraal 2 + klassieke gebruikersinterface |
 | JSON-uitvoer | [Sling Modellen Exporter met Jackson serialization](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | Standaard Sling-servlet |
 | Versioning | [Voor het model en het HTL](guidelines.md) | Geen |
@@ -80,7 +84,7 @@ Voor details over hun auteursmogelijkheden en opties om hen vooraf te vormen, [v
 | Aflevering | [Via public GitHub](https://github.com/adobe/aem-core-wcm-components) | Via Quickstart |
 | Licentie | [Apache-licentie](https://www.apache.org/licenses/LICENSE-2.0) | Adobe-bedrijfseigen |
 | Bijdrage | Via pull request | Niet mogelijk |
-| Toegankelijkheid | Volledig conform de [WCAG 2.0 AA-standaard](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | Slechts gedeeltelijk compatibel met de norm [WCAG 2.0 AA](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
+| Toegankelijkheid | Volledig compatibel met de [WCAG 2.0 AA-standaard](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | Slechts gedeeltelijk compatibel met [WCAG 2.0 AA norm](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
 
 ## Componentlijst {#component-list}
 
@@ -120,12 +124,12 @@ De volgende lijst maakt een lijst van de beschikbare Componenten van de Kern, di
 
 ### Aanstaande componenten {#upcoming-components}
 
-Voor een overzicht van de aanstaande wegenkaart van de Component van de Kern zie de [projectwiki op GitHub](https://github.com/adobe/aem-core-wcm-components/wiki/home).
+Voor een overzicht van de aanstaande wegenkaart van de Component van de Kern zie [projectwiki op GitHub](https://github.com/adobe/aem-core-wcm-components/wiki/home).
 
 ## Upgrade van kerncomponenten {#upgrade-of-core-components}
 
 Een voordeel van versioned componenten is dat het toestaat om de migratie aan een nieuwe AEM versie van de migratie aan nieuwe componentenversies te scheiden. Als er nieuwe componentversies beschikbaar zijn, is het bovendien mogelijk om elke component afzonderlijk naar de nieuwe versie te migreren.
 
-Migraties naar een nieuwe AEM hebben geen invloed op de werking van de Core Components, op voorwaarde dat de versies ervan ook ondersteuning bieden voor de nieuwe AEM die wordt gemigreerd naar. De aanpassingen aan de Componenten van de Kern zouden ook niet moeten worden beïnvloed, zolang zij geen APIs gebruiken die zijn [verouderd of verwijderd](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
+Migraties naar een nieuwe AEM hebben geen invloed op de werking van de Core Components, op voorwaarde dat de versies ervan ook ondersteuning bieden voor de nieuwe AEM die wordt gemigreerd naar. Aanpassingen aan de Componenten van de Kern zouden ook niet moeten worden beïnvloed, zolang zij geen APIs gebruiken die [afgekeurd of verwijderd](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) zijn.
 
-De migraties aan nieuwe versies van de Componenten van de Kern zullen niet beïnvloeden hoe de component ook werkt, maar de nieuwe eigenschappen zouden aan paginaauteurs kunnen worden geïntroduceerd, die één of andere configuratie door een malplaatjeredacteur zouden kunnen vereisen, voor het geval dat het standaardgedrag niet wordt gewenst. De aanpassingen zouden echter moeten worden aangepast, voor meer details zie de het Aanpassen pagina van de Componenten [](customizing.md#upgrade-compatibility-of-customizations) van de Kern.
+De migraties aan nieuwe versies van de Componenten van de Kern zullen niet beïnvloeden hoe de component ook werkt, maar de nieuwe eigenschappen zouden aan paginaauteurs kunnen worden geïntroduceerd, die één of andere configuratie door een malplaatjeredacteur zouden kunnen vereisen, voor het geval dat het standaardgedrag niet wordt gewenst. Aanpassingen kunnen echter moeten worden aangepast, voor meer details zie de pagina [Kerncomponenten aanpassen](customizing.md#upgrade-compatibility-of-customizations).
