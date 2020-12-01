@@ -4,6 +4,9 @@ description: De component Text is een component voor tekstbewerking en -composit
 index: n
 translation-type: tm+mt
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+workflow-type: tm+mt
+source-wordcount: '1657'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +19,7 @@ De component Text is een component voor tekstbewerking en -compositie met teksto
 
 De component Text biedt een robuuste teksteditor met tekstopmaak die het mogelijk maakt tekst eenvoudig te bewerken in een vereenvoudigde, inline editor en in een volledige schermopmaak.
 
-Het dialoogvenster [](#edit-dialog) Bewerken bevat inline bewerkingen met beperkte opties en volledige functionaliteit in het dialoogvenster Bewerken op volledig scherm. In het dialoogvenster [](#design-dialog)Ontwerp kunt u opmaakopties voor tekst, zoals koppen, speciale tekens en alineastijlen, configureren voor de sjabloon voor de auteur van de inhoud.
+Het [bewerkingsdialoogvenster](#edit-dialog) bevat inline bewerking met beperkte opties met volledige functionaliteit beschikbaar in het dialoogvenster Volledig scherm bewerken. Met behulp van het [ontwerpdialoogvenster](#design-dialog) kunnen opties voor tekstopmaak, zoals koppen, speciale tekens en alineastijlen, worden geconfigureerd voor de sjabloon voor de auteur van de inhoud.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -24,22 +27,22 @@ In dit document wordt versie 1 van de tekstcomponent beschreven, die oorspronkel
 
 In de volgende tabel wordt de compatibiliteit van v1 van de tekstcomponent weergegeven.
 
-| AEM-versie | Tekstcomponent v1 |
+| AEM | Tekstcomponent v1 |
 |--- |--- |
-| 6.3 | Compatibel |
-| 6.4 | Compatibel |
+| 6,3 | Compatibel |
+| 6,4 | Compatibel |
 
 >[!CAUTION]
 >
 >In dit document wordt versie 1 van de tekstcomponent beschreven.
 >
->Zie het document [Tekstcomponent](/help/components/text.md) voor meer informatie over de huidige versie van de Tekstcomponent.
+>Zie het document [Tekstcomponent](/help/components/text.md) voor meer informatie over de huidige versie van de tekstcomponent.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Hier volgt een voorbeeld van [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende voorbeeld wordt genomen uit [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
-### Schermafbeelding {#screenshot}
+### Screenshot {#screenshot}
 
 ![](/help/assets/chlimage_1-27.png)
 
@@ -65,9 +68,9 @@ Hier volgt een voorbeeld van [We.Retail](https://helpx.adobe.com/experience-mana
 
 >[!NOTE]
 >
->Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Zie de [compatibiliteitsinformatie voor Core Components v1](/help/versions.md) voor meer informatie.
+>Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Zie [compatibiliteitsinformatie voor Core Components v1](/help/versions.md) voor meer informatie.
 
-## Dialoogvenster Bewerken {#edit-dialog}
+## Dialoogvenster {#edit-dialog} bewerken
 
 Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak die de gebruiker zou verwachten bij het samenstellen van tekst.
 
@@ -79,7 +82,7 @@ Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak di
 
    Wordt gebruikt om vette opmaak toe te passen op geselecteerde tekst of opgemaakte tekst die na de cursor wordt ingevoerd.
 
-   **Ctrl+B** kan worden gebruikt als een sneltoets.
+   **Ctrl+** Bcan wordt gebruikt als een sneltoets.
 
 * Cursief
 
@@ -87,7 +90,7 @@ Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak di
 
    Wordt gebruikt om cursieve opmaak toe te passen op geselecteerde tekst of om tekst die na de cursor wordt ingevoerd, cursief te maken.
 
-   **Ctrl+I** kan als sneltoets worden gebruikt.
+   **Ctrl+** Ican be used as a keyboard shortcut.
 
 * Onderstrepen
 
@@ -95,7 +98,7 @@ Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak di
 
    Wordt gebruikt om onderstreepte opmaak toe te passen op geselecteerde tekst of onderstreepte tekst die na de cursor wordt ingevoerd.
 
-   **Ctrl+U** kan als sneltoets worden gebruikt.
+   **Ctrl+** Ucan be used as a keyboard shortcut.
 
 * Subscript
 
@@ -137,7 +140,7 @@ Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak di
 
    * Voer de locatie in
 
-      * Kies een pad in AEM met het dialoogvenster Selectie openen
+      * Kies in het dialoogvenster Selectie openen een pad in AEM
       * Als de koppeling zich niet binnen AEM bevindt, voert u de absolute URL in (niet-absolute paden worden geïnterpreteerd als relatief ten opzichte van AEM)
    * Alternatieve beschrijvende tekst voor de koppeling invoeren
    * Koppelingsgedrag selecteren
@@ -147,6 +150,7 @@ Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak di
       * Nieuw tabblad
       * Bovenliggend frame
       * Bovenste frame
+
    Tik of klik op het vinkje om de koppeling toe te passen of klik op de x om te annuleren.
 
 * Ontkoppelen
@@ -165,7 +169,7 @@ Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak di
 
    Voer de tekst in waarvoor u wilt zoeken en tikken of klik op **Zoeken** om de zoekopdracht te starten. Tik of klik op de x om te annuleren.
 
-   Als u een exacte overeenkomst wilt uitvoeren op basis van het hoofdlettergebruik, selecteert u de optie **Hoofdlettergebruik** afstemmen voordat u de zoekopdracht start.
+   Als u een nauwkeurige gelijke volgens het geval wilt doen, selecteer de optie **Kwestie** alvorens het onderzoek te beginnen.
 
    Als een overeenkomst wordt gevonden, wordt deze gemarkeerd en wordt het zoekdialoogvenster gedimd weergegeven. Tik of klik nogmaals op de knop **Zoeken** in het grijze dialoogvenster om naar de volgende instantie te zoeken.
 
@@ -187,11 +191,11 @@ Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak di
 
    Tik of klik op **Zoeken** om te beginnen met zoeken. Klik of tik op de x om te annuleren.
 
-   Als u een exacte overeenkomst wilt uitvoeren op basis van het hoofdlettergebruik, selecteert u de optie **Hoofdlettergebruik** afstemmen voordat u de zoekopdracht start.
+   Als u een nauwkeurige gelijke volgens het geval wilt doen, selecteer de optie **Kwestie** alvorens het onderzoek te beginnen.
 
-   Als een overeenkomst wordt gevonden, wordt deze gemarkeerd en wordt het zoekdialoogvenster gedimd weergegeven. Klik nogmaals op de knop **Zoeken** in het grijze dialoogvenster om naar de volgende instantie te zoeken of selecteer de knop **Vervangen** om de gemarkeerde, overeenkomende tekst te vervangen. De knop **Vervangen** is alleen actief nadat een overeenkomst is gemaakt.
+   Als een overeenkomst wordt gevonden, wordt deze gemarkeerd en wordt het zoekdialoogvenster gedimd weergegeven. Klik nogmaals op de knop **Zoeken** in het grijze dialoogvenster om naar de volgende instantie te zoeken of selecteer de knop **Vervangen** om de gemarkeerde, overeenkomende tekst te vervangen. De knop **Vervangen** is alleen actief als er een overeenkomst is gemaakt.
 
-   Selecteer Alles **** vervangen om alle instanties van de tekst tegelijk te vervangen.
+   Selecteer **Alles vervangen** om alle instanties van de tekst tegelijk te vervangen.
 
 * Tekst links uitlijnen
 
@@ -249,20 +253,20 @@ Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak di
 
    ![](/help/assets/chlimage_1-79.png)
 
-   * **Kolommen** - Het aantal kolommen van de tabel (vereist)
-   * **Rijen** - Het aantal rijen van de tabel (vereist)
-   * **Breedte** - De breedte van de tabel
-   * **Hoogte** - De hoogte van de tabel
+   * **Kolommen**  - Het aantal kolommen van de tabel (vereist)
+   * **Rijen**  - Het aantal rijen van de tabel (vereist)
+   * **Breedte**  - De breedte van de tabel
+   * **Hoogte**  - De hoogte van de tabel
    * **Celopvulling**- De ruimte rondom de celinhoud
-   * **Celafstand** - De ruimte tussen cellen
-   * **Rand** - Het gewicht van de randlijnen van de tabel
+   * **Celafstand** : de ruimte tussen cellen
+   * **Rand**  - Het gewicht van de randlijnen van de tabel
    * Indien voor de koptekst van de tabel:
 
       * De eerste rij moet worden gebruikt
       * De eerste kolom moet worden gebruikt
       * De eerste rij en de eerste kolom moeten worden gebruikt
       * Of er moet geen header worden gebruikt.
-   * **Bijschrift** - Het bijschrift van de tabel
+   * **Bijschrift**  - Het bijschrift van de tabel
 
 
 * Spellingcontrole
@@ -279,7 +283,7 @@ Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak di
 
    ![](/help/assets/chlimage_1-82.png)
 
-   Tik op het gewenste teken of klik op het gewenste teken om het teken na de cursor in te voegen in de tekst. U kunt meerdere tekens invoegen. Tik of klik op de x om het selectievenster te sluiten.
+   Tik op het gewenste teken of klik op het gewenste teken om het na de cursor in de tekst in te voegen. U kunt meerdere tekens invoegen. Tik of klik op de x om het selectievenster te sluiten.
 
 * Bron bewerken
 
@@ -287,14 +291,14 @@ Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak di
 
    Wordt gebruikt om de HTML-bron van de tekst weer te geven en te wijzigen.
 
-   Tik of klik op het pictogram **Bron bewerken** om de inhoud van de tekst in de opgemaakte weergave te wijzigen en de onbewerkte HTML weer te geven. In deze modus zijn alle andere opmaakopties uitgeschakeld. Tik of klik nogmaals op het pictogram **Bron bewerken** om terug te keren naar de opgemaakte weergave.
+   Tik of klik op het pictogram **Bron bewerken** om de inhoud van de tekst vanuit de opgemaakte weergave te wijzigen en de onbewerkte HTML weer te geven. In deze modus zijn alle andere opmaakopties uitgeschakeld. Tik of klik nogmaals op het pictogram **Bron bewerken** om terug te keren naar de opgemaakte weergave.
 
    >[!CAUTION]
    >
-   >Zoals altijd het geval met toegang tot onbewerkte HTML, moet de voorzichtigheid wanneer het gebruiken van de **Bron geeft** optie uit!
+   >Zoals altijd het geval met toegang tot ruwe HTML, moet de voorzichtigheid worden uitgeoefend wanneer het gebruiken van **Bron geeft** optie uit!
    >
    >
-   >HTML die is ingevoerd via **Bronbewerking** , wordt gescand op XSS-risico&#39;s en alle scripts die worden ingevoegd, worden verwijderd en worden niet weergegeven op de resulterende pagina. In **Source Edit** ingevoerde misvormde HTML kan de sjabloon voor de pagina echter verbreken, wat resulteert in een onverwachte opmaak of een onbruikbare weergave van de resulterende pagina.
+   >HTML die is ingevoerd via **Source Edit** wordt gescand op XSS-risico&#39;s en alle scripts die worden ingevoegd, worden verwijderd en worden niet weergegeven op de resulterende pagina. Maar misvormde HTML die is ingevoerd in **Source Edit** kan de sjabloon voor de pagina onderbreken, wat resulteert in onverwachte opmaak of het onbruikbaar maken van de resulterende pagina.
 
 * Alineaopmaak
 
@@ -312,7 +316,7 @@ De tekstcomponent kan ook in regels worden bewerkt, maar vanwege ruimtebeperking
 
 In het ontwerpdialoogvenster kan de sjabloonauteur definiëren welke tekstopmaakopties beschikbaar zijn voor de auteurs van de inhoud.
 
-### Features {#features}
+### Functies {#features}
 
 ![](/help/assets/chlimage_1-28.png)
 
@@ -345,7 +349,7 @@ Alineastijlen kunnen voor de component worden geactiveerd of gedeactiveerd. Als 
 
 * Tik of klik op de knop **Toevoegen** om een nieuwe stijl in te voegen.
 * Voer de code in van de stijl en een beschrijving die worden weergegeven in het dialoogvenster Bewerken.
-* Als u een stijltik wilt verwijderen of op de knop **Verwijderen** wilt klikken.
+* Als u een stijltik wilt verwijderen of op de knop **Delete** wilt klikken.
 * Tik of klik op de handgrepen om de volgorde van de indelingen te wijzigen.
 
 ### Speciale tekens {#special-characters}
@@ -361,8 +365,8 @@ De optie voor het invoegen van speciale tekens kan voor de component worden geac
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Tekst [kan op GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text)worden gevonden.
+De recentste technische documentatie over de Component van de Tekst [kan op GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text) worden gevonden.
 
 Het volledige kerncomponentenproject kan van GitHub worden gedownload.
 
-Meer details over het ontwikkelen van de Componenten van de Kern kunnen in de de ontwikkelaarsdocumentatie [van de](/help/developing/overview.md)Componenten worden gevonden.
+Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
