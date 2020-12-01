@@ -4,19 +4,22 @@ description: De component Pagina is een uitbreidbare paginacomponent die wordt o
 index: n
 translation-type: tm+mt
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+workflow-type: tm+mt
+source-wordcount: '490'
+ht-degree: 0%
 
 ---
 
 
 # Paginacomponent (v1) {#page-component-v}
 
-De component Pagina is een uitbreidbare paginacomponent die wordt ontworpen om met de [malplaatjeredacteur](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) te werken en paginakopbal/footer en structuurcomponenten toe te laten om met de malplaatjedacteur worden samengesteld.
+De component van de Pagina is een verlengbare paginacomponent die wordt ontworpen om met [malplaatjeredacteur ](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) te werken en paginakopbal/footer en structuurcomponenten toe te laten om met de malplaatjedacteur worden samengesteld.
 
 ## Gebruik {#usage}
 
 De component Pagina vormt de basis van alle pagina&#39;s die zijn ontworpen met de kerncomponenten en bewerkbare sjablonen. Door de paginacomponent, kunnen de kopballen, footers, en de structuur van de pagina als malplaatje worden bepaald gebruikend de andere kerncomponenten.
 
-In het [ontwerpdialoogvenster](#design-dialog)kunnen aangepaste clientbibliotheken voor de pagina worden gedefinieerd. In tegenstelling tot andere componenten met een bewerkingsdialoogvenster dat rechtstreeks vanuit de component toegankelijk is, omdat de component de pagina zelf is, is het dialoogvenster [](#edit-dialog) Bewerken van de paginacomponent het venster met pagina-eigenschappen.
+Met behulp van het [ontwerpdialoogvenster](#design-dialog) kunnen aangepaste client-side bibliotheken worden gedefinieerd voor de pagina. In tegenstelling tot andere componenten met een bewerkingsdialoogvenster dat rechtstreeks toegankelijk is vanuit de component, omdat de component de pagina zelf is, is het [edit dialog](#edit-dialog) van de paginacomponent het pagina-eigenschappenvenster.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -24,26 +27,26 @@ In dit document wordt versie 1 van de pagina-component beschreven, die oorspronk
 
 In de volgende tabel wordt de compatibiliteit van v1 van de paginacomponent weergegeven.
 
-| AEM-versie | Pagina-component v1 |
+| AEM | Pagina-component v1 |
 |--- |--- |
-| 6.3 | Compatibel |
-| 6.4 | Compatibel |
+| 6,3 | Compatibel |
+| 6,4 | Compatibel |
 
 >[!CAUTION]
 >
 >In dit document wordt versie 1 van de pagina-component beschreven.
 >
->Zie het document [Paginacomponent](/help/components/page.md) voor meer informatie over de huidige versie van de pagina-component.
+>Zie het document [Paginacomponent](/help/components/page.md) voor meer informatie over de huidige versie van de paginacomponent.
 
 >[!NOTE]
 >
->v1 van de component page ondersteunt geen omleiding van de pagina. Gebruik de [huidige versie van de paginacomponent](/help/components/page.md) voor ondersteuning voor het omleiden van pagina&#39;s.
+>v1 van de component page ondersteunt geen omleiding van de pagina. Gebruik de [huidige versie van de paginacomponent](/help/components/page.md) voor ondersteuning van paginaomleiding.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Hier volgt een voorbeeld van [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende voorbeeld wordt genomen uit [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
-### Schermafbeelding {#screenshot}
+### Screenshot {#screenshot}
 
 ![](/help/assets/chlimage_1-93.png)
 
@@ -675,32 +678,32 @@ Hier volgt een voorbeeld van [We.Retail](https://helpx.adobe.com/experience-mana
 
 >[!NOTE]
 >
->Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Zie de [compatibiliteitsinformatie voor Core Components v1](/help/versions.md) voor meer informatie.
+>Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Zie [compatibiliteitsinformatie voor Core Components v1](/help/versions.md) voor meer informatie.
 
-## Dialoogvenster Bewerken {#edit-dialog}
+## Dialoogvenster {#edit-dialog} bewerken
 
-Omdat de component de gehele pagina vertegenwoordigt, worden instellingen die normaal gesproken in een bewerkingsdialoogvenster staan, gevonden in het venster [Pagina-eigenschappen](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html) .
+Aangezien de component de gehele pagina vertegenwoordigt, worden instellingen die normaal gesproken in een bewerkingsdialoogvenster staan, gevonden in het venster [Pagina-eigenschappen](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html).
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
-Omdat de component de gehele pagina vertegenwoordigt, is het dialoogvenster Ontwerp toegankelijk via **Pagina-informatie -> Paginaontwerp**.
+Omdat de component de gehele pagina vertegenwoordigt, is het dialoogvenster Ontwerpen toegankelijk via **Pagina-informatie -> Paginaontwerp**.
 
 ![](/help/assets/chlimage_1-94.png)
 
 Met behulp van het venster Paginaontwerp kunt u bibliotheken aan de clientzijde definiëren die met de pagina moeten worden geladen.
 
-* Als u een nieuw veld wilt toevoegen, klikt u of tikt u op de knop **Toevoegen** onder de velden.
+* Als u een nieuw veld wilt toevoegen, klikt u op de knop **Toevoegen** onder de velden.
 * Als u een veld wilt verwijderen, klikt of tikt u op het prullenbakpictogram naast het veld dat u wilt verwijderen.
 * Als u de laadvolgorde wilt wijzigen, klikt of tikt u op de greep naast het te verplaatsen veld.
 
-Voor meer informatie over het gebruiken van cliënt-zijbibliotheken zie het [Gebruiken van de Bibliotheken](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html)van de Kant van de Cliënt.
+Zie [Client Side Libraries gebruiken](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html) voor meer informatie over het gebruik van client-side bibliotheken.
 
 ![](/help/assets/chlimage_1-95.png)
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Pagina [kan op GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page)worden gevonden.
+De recentste technische documentatie over de Component van de Pagina [kan op GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page) worden gevonden.
 
 Het volledige kerncomponentenproject kan van GitHub worden gedownload.
 
-Meer details over het ontwikkelen van de Componenten van de Kern kunnen in de de ontwikkelaarsdocumentatie [van de](/help/developing/overview.md)Componenten worden gevonden.
+Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
