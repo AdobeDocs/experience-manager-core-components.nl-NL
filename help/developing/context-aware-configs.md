@@ -2,17 +2,17 @@
 title: Sling Context-Aware Configurations en Core Components
 description: De Core Components hefboomwerking Sling contextbewuste configuraties voor bepaalde eigenschappen
 translation-type: tm+mt
-source-git-commit: 11e2c6da0fa93084b601437fd45fd65dd8d73231
+source-git-commit: aff9046008dcea6c0cbda4b3de400df77a507097
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
 
 
-# Sling Context-Aware Configurations en Core Components {#sling-context-aware-configurations}
+# Sling Context-Aware Configurations en de Componenten van de Kern {#sling-context-aware-configurations}
 
-Contextbewuste configuraties zijn een eigenschap van het Verdelen en zijn configuraties die met een inhoudsmiddel of een middelboom verwant zijn en door de Componenten van de Kern worden gebruikt om plaats-brede configuraties toe te staan.
+Contextbewuste configuraties zijn een [functie van Sling](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html). Zij zijn configuraties die met een inhoudsmiddel of een middelboom verwant zijn en door de Componenten van de Kern worden gebruikt om plaats-brede configuraties toe te staan.
 
 ## Contextbewuste configuraties verkopen {#context-aware-configurations}
 
@@ -20,7 +20,7 @@ Uw site heeft mogelijk verschillende configuraties voor verschillende sitegebied
 
 Voor details over configuraties in AEM, [zie de Documentatie van Configuraties en Browser van de Configuratie.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/configurations.html)
 
-## In de kerncomponenten gebruiken {#core-components}
+## Gebruik in de Componenten van de Kern {#core-components}
 
 Een aantal Core Components-onderdelen maakt gebruik van contextbewuste configuraties. Al dergelijke configuraties worden gevestigd onder de volgende knoop:
 
