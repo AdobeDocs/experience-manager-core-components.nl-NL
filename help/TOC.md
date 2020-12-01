@@ -12,7 +12,7 @@ ht-degree: 2%
 ---
 
 
-# Help AEM Core Components {#using}
+# Help bij AEM Core Components {#using}
 
 + [Introductie van kerncomponenten](introduction.md)
 + [Paden naar succes](developing/success.md)
@@ -75,11 +75,11 @@ ht-degree: 2%
    + [AMP-ondersteuning](developing/amp.md)
    + [Contextbewuste configuraties](developing/context-aware-configs.md)
    + [Inclusief clientbibliotheken](developing/including-clientlibs.md)
-   + Gegevenslaag Adobe-client {#data-layer}
+   + Adobe-gegevenslaag client {#data-layer}
       + [Overzicht van de Laag van Gegevens](developing/data-layer/overview.md)
       + [Integratie met de Laag van Gegevens](developing/data-layer/integrations.md)
       + [De gegevenslaag uitbreiden](developing/data-layer/extending.md)
-   + Projectarchetype AEM {#archetype}
+   + Projectarchetype {#archetype} AEM
       + [Overzicht van Archetype](developing/archetype/overview.md)
       + [Archetype gebruiken](developing/archetype/using.md)
       + [Kernmodule](developing/archetype/core.md)
