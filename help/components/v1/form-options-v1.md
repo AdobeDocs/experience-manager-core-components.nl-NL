@@ -4,19 +4,22 @@ description: Met de component Core Component Form Options kunt u vooraf gedefini
 index: n
 translation-type: tm+mt
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+workflow-type: tm+mt
+source-wordcount: '476'
+ht-degree: 1%
 
 ---
 
 
-# Component Formulieropties (v1) {#form-options-component-v}
+# Formulieropties Component (v1) {#form-options-component-v}
 
 Met de component Core Component Form Options kunt u vooraf gedefinieerde opties in verschillende indelingen selecteren.
 
 ## Gebruik {#usage}
 
-Met de component Core Component Form Options kunnen verschillende typen opties worden ingediend die op verschillende manieren worden gepresenteerd. Deze component is bedoeld voor gebruik in combinatie met de [component](form-container-v1.md)van de formuliercontainer.
+De component van de Opties van de Vorm van de Component van de Kern staat voor de voorlegging van verschillende types van opties toe die op vele verschillende manieren worden voorgesteld en is bedoeld om samen met de [component van de vormcontainer ](form-container-v1.md) worden gebruikt.
 
-De presentatie van de opties, de etiketten, en de individuele opties kunnen door de inhoudsredacteur in [vormen dialoog](#configure-dialog)worden bepaald.
+De presentatie van de opties, de etiketten, en de individuele opties kunnen door de inhoudsredacteur in [vormen dialoog](#configure-dialog) worden bepaald.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -24,7 +27,7 @@ In dit document wordt versie 1 van de component Formulieropties beschreven, die 
 
 In de volgende tabel wordt de compatibiliteit van versie 1 van de component Formulieropties weergegeven.
 
-| Componentversie | AEM 6.3 | AEM 6.4 |
+| Componentversie | AEM 6,3 | AEM 6,4 |
 |--- |--- |--- |
 | v2 | Compatibel | Compatibel |
 | v1 | Compatibel | Compatibel |
@@ -33,13 +36,13 @@ In de volgende tabel wordt de compatibiliteit van versie 1 van de component Form
 >
 >In dit document wordt versie 1 van de component Formulieropties beschreven.
 >
->Meer informatie over de huidige versie van de component Formulieropties vindt u in het document van de component [Formulieropties](/help/components/forms/form-options.md) .
+>Zie het document [Formulieropties Component](/help/components/forms/form-options.md) voor meer informatie over de huidige versie van de component Formulieropties.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Hier volgt een voorbeeld van [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende voorbeeld wordt genomen uit [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
-### Schermafbeelding {#screenshot}
+### Screenshot {#screenshot}
 
 ![](/help/assets/chlimage_1-89.png)
 
@@ -107,37 +110,38 @@ Hier volgt een voorbeeld van [We.Retail](https://helpx.adobe.com/experience-mana
 
 >[!NOTE]
 >
->Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Zie de [compatibiliteitsinformatie voor Core Components v1](/help/versions.md) voor meer informatie.
+>Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Zie [compatibiliteitsinformatie voor Core Components v1](/help/versions.md) voor meer informatie.
 
-## Dialoogvenster configureren {#configure-dialog}
+## Dialoogvenster {#configure-dialog} configureren
 
 In het dialoogvenster Configureren kan de auteur van de inhoud het type opties definiëren dat moet worden weergegeven, de labels en de beschikbare opties.
 
 ![](/help/assets/chlimage_1-90.png)
 
-* **Typen** Hoe de opties worden weergegeven
+* **Typen**
+Hoe de opties worden weergegeven
 
    * **Selectievakjes**
    * **Keuzerondjes**
    * **Vervolgkeuzelijst**
    * **Vervolgkeuzelijst Multi-select**
 
-* **Titel** - De titel die als label voor de opties wordt weergegeven
-* **Naam** - De naam van het veld dat met de formuliergegevens is verzonden
-* **Bron** - Waar zijn de opties gedefinieerd
+* **Titel**  - De titel die als label voor de opties wordt weergegeven
+* **Naam**  - De naam van het veld dat met de formuliergegevens is verzonden
+* **Bron**  - Waar worden de opties gedefinieerd
 
-   * **Lokaal** - Gedefinieerd binnen de component
-      * Tik of klik op de knop **Toevoegen** om een waarde toe te voegen, **verwijder** om een waarde te verwijderen
-      * **Waarde** - De waarde die wordt opgeslagen wanneer die optie wordt geselecteerd wanneer het formulier wordt verzonden
-      * **Tekst** - Het label voor de optie die op het formulier wordt weergegeven
-      * **Actief** - De optie wordt gemarkeerd als geselecteerd wanneer het formulier wordt geladen
-      * **Uitgeschakeld** - De optie kan niet worden geselecteerd, maar wordt wel weergegeven
-      * **List** - Een statische lijst die elders in AEM is gedefinieerd, wordt gebruikt voor de optie
-         * **List** - Het pad van de statische lijst in AEM
+   * **Lokaal**  - Gedefinieerd binnen de component
+      * Tik of klik op de knop **Toevoegen** om een waarde toe te voegen, **Verwijderen** om een waarde te verwijderen
+      * **Waarde**  - De waarde die wordt opgeslagen wanneer die optie is geselecteerd bij het verzenden van het formulier
+      * **Tekst**  - Het label voor de optie die op het formulier wordt weergegeven
+      * **Actief**  - De optie is gemarkeerd als geselecteerd wanneer het formulier wordt geladen
+      * **Uitgeschakeld**  - De optie kan niet worden geselecteerd, maar wordt wel weergegeven
+      * **List**  - Een statische lijst die elders in AEM is gedefinieerd, wordt gebruikt voor de optie
+         * **List**  - Het pad van de statische lijst in AEM
             * Gebruik de Browse knoop om van het lijstmiddel de plaats te bepalen
-      * **Gegevensbron** - Een gegevensbron wordt gebruikt voor de opties
-         * **Gegevensbron** - brontype van de gegevensbron
-* **Help-bericht** - Een tip voor de gebruiker wat in het veld kan worden ingevoerd
+      * **Gegevensbron**  - Een gegevensbron wordt gebruikt voor de opties
+         * **Gegevensbron**  - brontype van de gegevensbron
+* **Help-bericht**  - Een tip voor de gebruiker wat in het veld kan worden ingevoerd
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -145,8 +149,8 @@ Er is geen dialoogvenster voor het ontwerp van de component Formulieropties.
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Opties van de Vorm [kan op GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options)worden gevonden.
+De recentste technische documentatie over de Component van de Opties van de Vorm [kan op GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options) worden gevonden.
 
 Het volledige kerncomponentenproject kan van GitHub worden gedownload.
 
-Meer details over het ontwikkelen van de Componenten van de Kern kunnen in de de ontwikkelaarsdocumentatie [van de](/help/developing/overview.md)Componenten worden gevonden.
+Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
