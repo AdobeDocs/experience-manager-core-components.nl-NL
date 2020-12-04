@@ -2,9 +2,9 @@
 title: Afbeeldingscomponent
 description: De Core Component Image is een adaptieve beeldcomponent die ter plekke kan worden bewerkt.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: c20d02aa93cce60b583a2d22c77b08ca7eb9b765
 workflow-type: tm+mt
-source-wordcount: '1921'
+source-wordcount: '2157'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,12 @@ De breedte van de afbeelding en de uitsnijdbreedte en aanvullende instellingen k
 De component Image wordt geleverd met robuuste responsieve functies die direct uit de verpakking kunnen worden geleverd. Op het niveau van het paginasjabloon kunt u het [ontwerpdialoogvenster](#design-dialog) gebruiken om de standaardbreedten van het afbeeldingselement te definiëren. De component van het Beeld zal dan automatisch de correcte breedte aan vertoning afhankelijk van de grootte van het browser venster laden. Wanneer het formaat van het venster wordt gewijzigd, laadt de component Image dynamisch de juiste afbeeldingsgrootte. Componentontwikkelaars hoeven zich geen zorgen te maken over het definiëren van aangepaste mediaquery&#39;s, aangezien de component Image al is geoptimaliseerd om uw inhoud te laden.
 
 Bovendien ondersteunt de component Afbeelding lui laden om het laden van het eigenlijke afbeeldingselement uit te stellen totdat het element zichtbaar is in de browser, waardoor de reacties op uw pagina&#39;s sneller worden.
+
+## Ondersteuning voor dynamische media {#dynamic-media}
+
+De component Image (vanaf [versie 2.13.0](/help/versions.md)) ondersteunt [Dynamische media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia) elementen. [Als deze functies zijn ingeschakeld, kunt ](#design-dialog) u dynamische media-afbeeldingselementen toevoegen met een eenvoudige sleepfunctie of via de middelenbrowser, net als elke andere afbeelding. Daarnaast worden ook afbeeldingsaanpassingen, voorinstellingen voor afbeeldingen en slimme gewassen ondersteund.
+
+Uw webervaringen die zijn gemaakt met Core Components kunnen geen geavanceerde, op Sensei gebaseerde, robuuste, krachtige, platformonafhankelijke mogelijkheden voor Dynamic Media Image bieden.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -65,9 +71,7 @@ De recentste technische documentatie over de Component van het Beeld [kan op Git
 
 Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
->[!NOTE]
->
->Vanaf versie 2.1.0 van de Componenten van de Kern, steunt de Component van het Beeld [schema.org microdata](https://schema.org).
+De component van het Beeld steunt [schema.org microdata](https://schema.org).
 
 ## Dialoogvenster {#configure-dialog} configureren
 
@@ -86,33 +90,35 @@ Naast de standaard [bewerkingsdialoog](#edit-dialog) en [ontwerpdialoog](#design
 
 ![Tabblad Metagegevens van het dialoogvenster Configureren van Image Component](/help/assets/image-configure-metadata.png)
 
-* **Afbeelding is**
-decoratiefControleer of de afbeelding door hulpprogramma&#39;s moet worden genegeerd en dus geen alternatieve tekst nodig heeft. Dit geldt alleen voor decoratieve afbeeldingen.
-* **Alternatief**
-textTextual-alternatief voor de betekenis of functie van de afbeelding, voor slechtzienden.
-   * Alternatieve tekst ophalen van DAM - Bij controle wordt de alternatieve tekst van de afbeelding gevuld met de waarde van de `dc:description`-metagegevens in DAM.
-
-* ****
-BijschriftAanvullende informatie over de afbeelding, standaard weergegeven onder de afbeelding.
-   * **Bijschrift ophalen van**
-DAMWet controleren van bijschrifttekst van afbeelding wordt gevuld met de waarde van de optie 
-`dc:title` metagegevens in DAM.
-   * **Bijschrift weergeven als pop-**
-upAls dit selectievakje is ingeschakeld, wordt het bijschrift niet weergegeven onder de afbeelding, maar als een pop-up die wordt weergegeven door sommige browsers wanneer de muisaanwijzer op de afbeelding wordt geplaatst.
-
-* **Koppeling**
-   * Koppel de afbeelding aan een andere bron.
+* **Type**  voorinstelling - Hiermee definieert u de typen voorinstellingen voor afbeeldingen die beschikbaar zijn,  **Voorinstelling** afbeelding of  **Slim uitsnijden**. Deze voorinstelling is alleen beschikbaar wanneer de  [functies ](#dynamic-meida) Dynamische media zijn ingeschakeld.
+   * **Voorinstelling**  afbeelding - Wanneer  **Voorinstelling** voor type  **voorinstelling** afbeelding is geselecteerd, kunt u de keuzelijst met beschikbare voorinstellingen voor  **afbeelding** gebruiken, zodat u een keuze kunt maken uit de beschikbare voorinstellingen voor dynamische media. Dit is alleen beschikbaar als er voorinstellingen zijn gedefinieerd voor het geselecteerde element.
+   * **Slim uitsnijden**  - Als  **Voorinstelling** voor  **slim** uitsnijden is geselecteerd, is de vervolgkeuzelijst  **** Vertoning beschikbaar, zodat u kunt kiezen uit de beschikbare uitvoeringen van het geselecteerde element. Dit is alleen beschikbaar als uitvoeringen zijn gedefinieerd voor het geselecteerde element.
+   * **Image Modifiers**  - Aanvullende opdrachten voor dynamische media-afbeeldingen kunnen hier worden gedefinieerd door  `&`, ongeacht welk  **type** voorinstelling is geselecteerd.
+* **Afbeelding is decoratief** . Controleer of de afbeelding door hulpprogramma&#39;s moet worden genegeerd en of er daarom geen alternatieve tekst nodig is. Dit geldt alleen voor decoratieve afbeeldingen.
+* **Alternatieve tekst** : een tekstalternatief met de betekenis of functie van de afbeelding voor slechtzienden.
+   * **Alternatieve tekst ophalen van DAM**  - Bij controle wordt de alternatieve tekst van de afbeelding gevuld met de waarde van de  `dc:description` metagegevens in DAM.
+* **Bijschrift**  - Aanvullende informatie over de afbeelding die standaard onder de afbeelding wordt weergegeven.
+   * **Bijschrift ophalen van DAM**  - Bij controle wordt de waarde van de  `dc:title` metagegevens in DAM ingevuld bij de bijschrifttekst van de afbeelding.
+   * **Bijschrift weergeven als pop-up**  - Als dit selectievakje is ingeschakeld, wordt het bijschrift niet weergegeven onder de afbeelding, maar als een pop-up die wordt weergegeven door sommige browsers wanneer de muisaanwijzer op de afbeelding wordt geplaatst.
+* **Koppeling**  - Koppel de afbeelding aan een andere bron.
    * In het dialoogvenster Selecteren kunt u een koppeling maken naar een andere AEM.
    * Als u geen koppeling naar een AEM maakt, voert u de absolute URL in. Niet-absolute URL&#39;s worden geïnterpreteerd als relatief ten opzichte van AEM.
-
 * **ID**  - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de  [gegevenslaag](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
+>[!TIP]
+>
+>**De optie Slim** uitsnijden en  **Voorinstelling** afbeelding sluiten elkaar uit. Als een auteur een vooraf ingestelde afbeelding samen met een uitvoering voor Slim uitsnijden moet gebruiken, moet de auteur de **Voorinstellingen voor afbeeldingen** handmatig toevoegen.
+
 ## Dialoogvenster {#edit-dialog} bewerken
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud uitsnijden, de startkaart wijzigen en inzoomen op de afbeelding.
+
+>[!NOTE]
+>
+>Uitsnijden, roteren en zoomen zijn niet van toepassing op dynamische media-elementen. Als de [Dynamische mediafuncties](#dynamic-media) zijn ingeschakeld, moet het bewerken van dynamische media-elementen worden uitgevoerd via het dialoogvenster [Configureren.](#configure-dialog)
 
 ![Bewerkingsdialoogvenster van afbeeldingscomponent](/help/assets/image-edit.png)
 
@@ -181,36 +187,20 @@ Bovendien kunt u bepalen welke algemene componentenopties automatisch of gehandi
 
 ![Het hoofdtabblad van het dialoogvenster Ontwerp van de afbeeldingscomponent](/help/assets/image-design-main.png)
 
-* **Lazy**
-loadingDefine inschakelen als de luie laadoptie automatisch wordt ingeschakeld wanneer de afbeeldingscomponent aan een pagina wordt toegevoegd.
-* **Afbeelding is**
-decoratiefDefinieer of de optie Decoratieve afbeelding automatisch is ingeschakeld wanneer u de afbeeldingscomponent aan een pagina toevoegt.
-* **Alternatieve tekst ophalen uit**
-DAMDefine als de optie om de alternatieve tekst van de DAM op te halen automatisch is ingeschakeld wanneer de afbeeldingscomponent aan een pagina wordt toegevoegd.
-* **Hiermee wordt een bijschrift opgehaald van**
-DAMDefine als de optie om het bijschrift op te halen van de DAM automatisch is ingeschakeld wanneer de afbeeldingscomponent aan een pagina wordt toegevoegd.
-* **Bijschrift weergeven als pop-**
-upDefiniëren als de optie om het bijschrift van de afbeelding als pop-up weer te geven automatisch is ingeschakeld wanneer de afbeeldingscomponent aan een pagina wordt toegevoegd.
-* **Schakel UUID-**
-traceringscontrole uit om het bijhouden van de UUID van het afbeeldingselement uit te schakelen.
-
-* ****
-WidthsDefinieert een lijst met breedten in pixels voor de afbeelding en de component laadt automatisch de meest geschikte breedte op basis van de browsergrootte.
+* **Schakel DM-functies**  in. Als deze optie is ingeschakeld, zijn de  [functies ](#dynamic-media) Dynamische media inschakelen beschikbaar.
+* **Lazy laden**  inschakelen - Definieer of de luie laadoptie automatisch is ingeschakeld wanneer u de afbeeldingscomponent aan een pagina toevoegt.
+* **Afbeelding is decoratief** . Definieer of de optie Decoratieve afbeelding automatisch is ingeschakeld wanneer u de afbeeldingscomponent aan een pagina toevoegt.
+* **Alternatieve tekst ophalen van DAM** - Definiëren of de optie voor het ophalen van de alternatieve tekst van de DAM automatisch is ingeschakeld wanneer de afbeeldingscomponent aan een pagina wordt toegevoegd.
+* **Bijschrift ophalen van DAM**  - Definieer of de optie om het bijschrift op te halen van de DAM automatisch is ingeschakeld wanneer u de afbeeldingscomponent aan een pagina toevoegt.
+* **Bijschrift weergeven als pop-up**  - Definieer of de optie om het bijschrift van de afbeelding als pop-up weer te geven automatisch is ingeschakeld wanneer u de afbeeldingscomponent aan een pagina toevoegt.
+* **UUID-tracking**  uitschakelen - Schakel deze optie in om het bijhouden van de UUID van het afbeeldingselement uit te schakelen.
+* **Breedten**  - Definieert een lijst met breedten in pixels voor de afbeelding en de component laadt automatisch de meest geschikte breedte op basis van de browsergrootte.
    * Tik of klik op de knop **Toevoegen** om een andere grootte toe te voegen.
       * Gebruik de grepen om de volgorde van de formaten te wijzigen.
       * Gebruik het pictogram **Delete** om een breedte te verwijderen.
    * Het laden van afbeeldingen wordt standaard uitgesteld totdat ze zichtbaar worden.
       * Selecteer de optie **Uitgestelde laadbewerking** uitschakelen om de afbeeldingen te laden bij het laden van de pagina.
-* **JPEG-**
-kwaliteitDe kwaliteitsfactor (als percentage van 0 en 100) voor getransformeerde JPEG-afbeeldingen (bijvoorbeeld geschaald of uitgesneden).
-
->[!NOTE]
->
->De optie JPEG-kwaliteit is beschikbaar vanaf release 2.2.0 van de Core Components.
-
->[!NOTE]
->
->Vanaf release 2.2.0 van Core Components voegt de Image Component het unieke UUID-kenmerk `data-asset-id` toe aan het afbeeldingselement, zodat het aantal weergaven dat afzonderlijke elementen ontvangen kan worden bijgehouden en geanalyseerd.
+* **JPEG-kwaliteit** : de kwaliteitsfactor (als percentage van 0 en 100) voor getransformeerde JPEG-afbeeldingen (bijvoorbeeld geschaald of uitgesneden).
 
 ### Tabblad Functies {#features-tab}
 
@@ -262,6 +252,6 @@ De component Image maakt gebruik van de Adaptive Image Servlet van de Core-compo
 
 >[!NOTE]
 >
->Voorwaardelijke aanvragen via de `Last-Modified`-header worden ondersteund door de Adaptive Image Servlet, maar het in cache plaatsen van de `Last-Modified`-header [moet worden ingeschakeld in de Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
+>Voorwaardelijke aanvragen via de `Last-Modified`-header worden ondersteund door de Adaptive Image Servlet, maar het in cache plaatsen van de `Last-Modified`-header [moet worden ingeschakeld in de Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers).
 >
 >[De de steekproefconfiguratie van de Verzender van de Projectarchetype](/help/developing/archetype/overview.md) van het AEM bevat reeds deze configuratie.
