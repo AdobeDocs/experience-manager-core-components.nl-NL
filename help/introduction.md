@@ -2,9 +2,9 @@
 title: Introductie van kerncomponenten
 description: 'De kerncomponenten bieden robuuste en uitbreidbare basiscomponenten die zijn gebaseerd op de nieuwste technologie en best practices. '
 translation-type: tm+mt
-source-git-commit: 882c67a5a1b0d52c21180d4100f16aa663385c86
+source-git-commit: 456bd449f5776355923bcd859a2afb6b00f33d5c
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '889'
 ht-degree: 3%
 
 ---
@@ -40,7 +40,7 @@ De kerncomponenten zijn een reeks gestandaardiseerde WCM-componenten (Web Conten
 | SEO-vriendelijk | De HTML-uitvoer is semantisch en biedt microgegevensannotaties [schema.org](https://schema.org). |
 | WebApp-Ready | Met de [gestroomlijnde JSON-uitvoer](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) is rendering op de client mogelijk, maar met de mogelijkheid om [in-context te bewerken](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html). |
 | AMP-ondersteuning | De componenten hebben ingebouwde [ondersteuning voor de AMP-standaard,](/help/developing/amp.md) versnelt uw mobiele beleving. |
-| Design Kit | Met een [UI-kit voor Adobe XD](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) kunnen ontwerpers draadframes maken die ze vervolgens [desgewenst kunnen opmaken](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd). |
+| Design Kit | Met een [UI-kit voor Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) kunnen ontwerpers draadframes maken die ze vervolgens [desgewenst kunnen opmaken](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd). |
 | Doordrukbaar | De componenten voeren [Stijlsysteem](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/style-system.html) uit, en de prijsverhoging volgt [BEM CSS overeenkomsten](http://getbem.com/). |
 | Aanpasbaar | Met verschillende patronen kunt u [gemakkelijk aanpassen](developing/customizing.md), van het aanpassen van de HTML aan geavanceerd hergebruik van de functionaliteit. |
 | Versioning | Het [versieringsbeleid](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) zorgt ervoor dat de Componenten van de Kern uw plaats niet zullen breken wanneer het verbeteren van dingen die u zouden kunnen beïnvloeden. |
