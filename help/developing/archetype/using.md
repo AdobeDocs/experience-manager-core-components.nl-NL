@@ -2,7 +2,7 @@
 title: Het gebruiken van het AEM Project Archetype
 description: Gedetailleerde gebruiksinstructies voor het AEM Project Archetype
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: 794408e8b643de2234664e69e59e1108cf286cd7
 workflow-type: tm+mt
 source-wordcount: '2057'
 ht-degree: 0%
@@ -57,9 +57,9 @@ Om begonnen te worden kunt u de [AEM uitbreiding van de Verduistering ](https://
 
 Natuurlijk kunt u ook Maven rechtstreeks aanroepen.
 
-```
+```shell
 mvn -B archetype:generate \
- -D archetypeGroupId=com.adobe.granite.archetypes \
+ -D archetypeGroupId=com.adobe.aem \
  -D archetypeArtifactId=aem-project-archetype \
  -D archetypeVersion=XX \
  -D aemVersion=cloud \
@@ -132,31 +132,31 @@ Het gegenereerde beheerde project ondersteunt verschillende implementatieprofiel
 
 Om alle modules te bouwen die in de folder van de projectwortel lopen, gebruik het volgende Gemaakt bevel.
 
-```
+```shell
 mvn clean install
 ```
 
 Als u een lopende AEM instantie hebt, kunt u het volledige project bouwen en verpakken en in AEM met het volgende Geweven bevel opstellen.
 
-```
+```shell
 mvn clean install -PautoInstallPackage
 ```
 
 Voer deze opdracht uit om de opdracht te implementeren in een publicatieinstantie.
 
-```
+```shell
 mvn clean install -PautoInstallPackagePublish
 ```
 
 U kunt ook deze opdracht uitvoeren als u wilt implementeren in een publicatieinstantie.
 
-```
+```shell
 mvn clean install -PautoInstallPackage -Daem.port=4503
 ```
 
 U kunt ook alleen de bundel naar de auteur implementeren door deze opdracht uit te voeren.
 
-```
+```shell
 mvn clean install -PautoInstallBundle
 ```
 
@@ -172,7 +172,7 @@ Deze eigenschappen worden opstelling om aan een lokale AEM instantie op te stell
 
 Deze eigenschappen zijn opstelling zodat zij kunnen worden met voeten getreden wanneer het opstellen aan hogere niveaumilieu&#39;s. Op deze manier hoeven de POM-bestanden niet te worden gewijzigd, maar variabelen zoals `aem.host` en `sling.password` kunnen via opdrachtregelargumenten worden overschreven:
 
-```
+```shell
 mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.password=productionpasswd
 ```
 
