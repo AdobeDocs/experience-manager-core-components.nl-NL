@@ -2,9 +2,9 @@
 title: Teaser-component
 description: De teaser-component kan een afbeelding, een titel, RTF-tekst en eventueel een koppeling naar andere inhoud weergeven.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: e7aeff3a24cff14fbcd468561632ee1927c07b4e
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '762'
 ht-degree: 1%
 
 ---
@@ -52,6 +52,10 @@ De auteur van de inhoud kan het dialoogvenster Configure gebruiken om de eigensc
    * Zet een element neer vanuit de [assetbrowser](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of tik op de optie **browse** om te uploaden vanaf een lokaal bestandssysteem.
    * Tik of klik op **Wissen** om de selectie van de geselecteerde afbeelding ongedaan te maken.
    * Tik of klik op **Bewerken** om de uitvoeringen van het element te beheren](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in de elementeneditor.[
+
+>[!NOTE]
+>
+>[Dynamic Media-](image.md#dynamic-media) functies zijn momenteel niet beschikbaar in de Taser-component.
 
 ### Tekst {#text}
 
