@@ -2,7 +2,7 @@
 title: Component Button
 description: Met de component Knop Core-component kunt u een knop maken en weergeven.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: df42f9e3fa26cbb26aa44688e26e5c9a7de4752e
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 1%
@@ -72,4 +72,4 @@ Op het tabblad **Toegankelijkheid** kunnen waarden worden ingesteld voor [ARIA-t
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van het Beeld steunt het AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+De component Button ondersteunt het AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
