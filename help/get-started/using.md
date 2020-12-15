@@ -2,9 +2,9 @@
 title: Basiscomponenten gebruiken
 description: '"Om aan de slag te gaan met de Componenten van de Kern in uw eigen project, zijn er drie stappen te volgen: download en installeer, creeer volmachtscomponenten, laad de kernstijlen, en sta de componenten op uw malplaatjes toe."'
 translation-type: tm+mt
-source-git-commit: 78202dc777b90f795f66873921c55e21ef8a239c
+source-git-commit: 10090b836397af3c9428f99bba72313263f34596
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Kijk bijvoorbeeld naar de [titelcomponent van de WKND-site](https://github.com/a
 
 ## De kernstijlen {#load-the-core-styles} laden
 
-1. Als dit nog niet het geval is, maakt u een [Clientbibliotheek](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) die alle CSS- en JS-bestanden bevat die nodig zijn voor uw site.
+1. Als dit nog niet het geval is, maakt u een [Clientbibliotheek](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html) die alle CSS- en JS-bestanden bevat die nodig zijn voor uw site.
 1. Voor de Bibliotheek van de Cliënt van uw plaats, voeg de gebiedsdelen aan de Componenten van de Kern toe die nodig zouden kunnen zijn. Dit wordt gedaan door een `embed` bezit toe te voegen.
 
    Als u bijvoorbeeld de clientbibliotheken van alle v1 Core-componenten wilt opnemen, moet u de volgende eigenschap toevoegen:
