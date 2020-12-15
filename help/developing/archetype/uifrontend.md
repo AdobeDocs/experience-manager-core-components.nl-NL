@@ -2,9 +2,9 @@
 title: AEM project archetype front-end build
 description: Een projectmalplaatje voor op AEM gebaseerde toepassingen
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: 10090b836397af3c9428f99bba72313263f34596
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1620'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,11 @@ Wanneer het volledige AEM projectarchetype in werking wordt gesteld gebruikend `
 
 >[!TIP]
 >
->Meer informatie over hoe AEM ClientLibs verwerkt in de [AEM ontwikkelingsdocumentatie](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html), hoe u deze [opneemt](/help/developing/including-clientlibs.md), of zie hieronder [hoe de module ui.frontend deze gebruikt.](#clientlib-generation)
+>Meer informatie over hoe AEM ClientLibs verwerkt in de [AEM ontwikkelingsdocumentatie](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html), hoe u deze [opneemt](/help/developing/including-clientlibs.md), of zie hieronder [hoe de module ui.frontend deze gebruikt.](#clientlib-generation)
 
 ## Overzicht van ClientLibs {#clientlibs}
 
-De frontend module wordt ter beschikking gesteld gebruikend [AEM ClientLib](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html). Wanneer het uitvoeren van NPM bouwt manuscript, wordt app gebouwd en het aem-client-generator-generatorpakket neemt de resulterende bouwstijloutput en transformeert het in zulk een ClientLib.
+De frontend module wordt ter beschikking gesteld gebruikend [AEM ClientLib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html). Wanneer het uitvoeren van NPM bouwt manuscript, wordt app gebouwd en het aem-client-generator-generatorpakket neemt de resulterende bouwstijloutput en transformeert het in zulk een ClientLib.
 
 Een ClientLib bestaat uit de volgende bestanden en mappen:
 
