@@ -2,9 +2,9 @@
 title: Het gebruiken van het AEM Project Archetype
 description: Gedetailleerde gebruiksinstructies voor het AEM Project Archetype
 translation-type: tm+mt
-source-git-commit: 794408e8b643de2234664e69e59e1108cf286cd7
+source-git-commit: 10090b836397af3c9428f99bba72313263f34596
 workflow-type: tm+mt
-source-wordcount: '2057'
+source-wordcount: '2055'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Het bouwen van het project met Maven leidt tot de artefacten (pakketten en bunde
 
 ### Een project {#create-project} maken
 
-Om begonnen te worden kunt u de [AEM uitbreiding van de Verduistering ](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/aem-eclipse.html) het eenvoudigst gebruiken en de Nieuwe tovenaar van het Project volgen en **AEM Monster Meervoudig-Module Project** kiezen om een vrijgegeven versie van archetype te gebruiken.
+Om begonnen te worden kunt u de [AEM uitbreiding van de Verduistering ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/eclipse.html) het eenvoudigst gebruiken en de Nieuwe tovenaar van het Project volgen en **AEM Monster Meervoudig-Module Project** kiezen om een vrijgegeven versie van archetype te gebruiken.
 
 Natuurlijk kunt u ook Maven rechtstreeks aanroepen.
 
