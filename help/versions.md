@@ -2,9 +2,9 @@
 title: Core Components-versies
 description: De Componenten van de kern worden gepubliceerd als versies die meer dan één versie van de zelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies beschikbaar zijn en hoe u de compatibiliteit met Core Components en AEM begrijpt.
 translation-type: tm+mt
-source-git-commit: 0f2994657ac42d4110e3b802753968a2bfdf0e5a
+source-git-commit: 857c0c5f7c48c69b50df55c478511619ca8c491f
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1901'
 ht-degree: 11%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 # Core Components Versies {#core-components-versions}
 
-De huidige versie van de Core Components is 2.13.0 en is compatibel met [AEM als Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) en [on-premise AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) installaties.
+De huidige versie van de Core Components is 2.13.2 en is compatibel met [AEM als Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) en [on-premise AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) installaties.
 
 ## Historie en compatibiliteit {#release-history-and-compatibility} opheffen
 
@@ -26,7 +26,8 @@ De volgende lijst, waarvan de inhoud [beschikbaar op GitHub met volledige versie
 
 | Geen | Beschrijving | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service | Java | Releasedatum |
 |---|---|---|---|---|---|---|
-| [2.13.0.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | Deze release bevat nieuwe functies voor dynamische media voor de [afbeeldingscomponent.](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 4 december 2020 |
+| [2.13.2.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | Dit was een flardversie richtend een kwestie met RTE wanneer gebruikt op AEMaaCS | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 16 december 2020 |
+| [2.13.0.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | Deze release bevat nieuwe Dynamic Media-functies voor de [Afbeeldingscomponent.](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 4 december 2020 |
 | [2.12.2.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | Dit was een patchrelease voor 2.12.0 inclusief kleine correcties. | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 11 november 2020 |
 | [2.12.1.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.1) | Dit was een flardversie voor 2.12.0 die een belangrijke insect in [de Component van het Beeld.](/help/components/image.md) verhelpt | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 5 november 2020 |
 | [2.12.0.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.0) | Deze release introduceerde [een nieuwe POST formulierhandler;](/help/components/forms/form-container.md#post-data) de mogelijkheid om aangepaste CSS-, Javascript- en metagegevenstags op te nemen via contextbewuste configuratie;](/help/developing/including-clientlibs.md#context-aware-loading) en een `DataLayerBuilder`-hulpprogramma om de integratie van gegevenslagen in aangepaste componenten te vereenvoudigen.](/help/developing/data-layer/integrations.md#enabling-custom-components)[[ | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 29 oktober 2020 |
