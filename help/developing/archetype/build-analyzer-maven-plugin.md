@@ -2,9 +2,9 @@
 title: AEM als Cloud Service SDK Build Analyzer Maven Plugin
 description: Documentatie voor de lokale Maven-plug-in voor analyse van de build
 translation-type: tm+mt
-source-git-commit: b95515dba74486add7f50bc8984f4358090e735c
+source-git-commit: 37ec5c245d3806d98dd8a8538c81fc10154a2dfc
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '425'
 ht-degree: 3%
 
 ---
@@ -26,3 +26,4 @@ Hieronder ziet u een tabel met een beschrijving van de analyseapparaten die als 
 | `bundle-resources` | Geeft een waarschuwing als een bundel middelen bevat die met Sling-Bundle-Middelen kopbal worden gespecificeerd, die in de AEM als Cloud Service gegroepeerde milieu problematisch is. De waarschuwing ziet er als volgt uit:<p> </p> `[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Found bundle resources : [/libs/sling/explorer!/resources/explorer]`<p> </p> Zie [Documentatie opnieuw aanwijzen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=en#repo-init) om problemen op te lossen bij het omzetten van de bronnen naar instructies. | Ja | Ja |
 | `api-regions`<p> </p>`api-regions-check-order`<p> </p>`api-regions-dependencies`<p> </p>`api-regions-duplicates` | Deze analysatoren controleren sommige details met betrekking tot het [inhoudspakket om model omzettingsproces te kenmerken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#deploying) dat artefacten tot stand brengt die aan het Model van de Eigenschap van de Verkoop aanpassen. Eventuele fouten moeten worden gemeld aan de Adobe Klantenondersteuning. | Ja | Ja |
 | `api-regions-crossfeature-dups` | Valideert dat de klant-OSGI-pakketten geen declaraties voor het exporteren hebben die AEM als openbare API van een Cloud Service overschrijven<p> </p>`[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Package overlap found between region global and bundle org.acme:mybundle:0.0.1.SNAPSHOT which comes from feature: [org.acme:myproject.analyse:slingosgifeature:0.0.1-SNAPSHOT]. Both export package: com.day.util`<p> </p>U kunt een pakket dat deel uitmaakt van de openbare API van de AEM niet meer exporteren. | Ja | Ja |
+| `repoinit` | Controleert de syntaxis van alle opnieuw aanwijssecties | Ja | Ja |
