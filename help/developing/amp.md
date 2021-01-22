@@ -2,9 +2,9 @@
 title: AMP-ondersteuning voor de kerncomponenten
 description: De kerncomponenten ondersteunen AMP - Versnelde mobiele pagina's
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: a4df0c8603614cf831ffd66cbcfc1f7ef964c25b
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -63,5 +63,9 @@ De AMP-instellingen voor een pagina kunnen ook worden overschreven in [Pagina-ei
 Bij gebruik van AMP met de kerncomponenten is het belangrijkste verschil dat AMP vereist dat alle [CSS in het `<head>`-element worden gealigneerd en geoptimaliseerd.](including-clientlibs.md#inlining)
 
 Hiertoe wordt een aangepaste pagina-component gebruikt, die alleen de AMP-specifieke CSS laadt voor componenten die op de pagina aanwezig zijn.
+
+>[!NOTE]
+>
+>Vanwege ontwerpbeperkingen van AMP biedt Adobe geen ondersteuning voor het gebruik van het responsieve raster met de AMP-versie van uw pagina.
 
 Voor verdere vereisten en technische details, te zien gelieve de [documentatie van de ontwikkelaar van GitHub.](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
