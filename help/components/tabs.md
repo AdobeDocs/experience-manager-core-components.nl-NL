@@ -2,9 +2,9 @@
 title: Component Tabs
 description: Met de component Tabs kunt u meerdere tabbladen maken om de inhoud op een pagina te rangschikken.
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1040'
 ht-degree: 1%
 
 ---
@@ -133,3 +133,7 @@ Het tabblad Toegestane componenten werkt op dezelfde manier als het tabblad met 
 ### Tabblad Stijlen {#styles-tab}
 
 De component van Lusjes steunt het AEM [Systeem van de Stijl](/help/get-started/authoring.md#component-styling).
+
+## Adobe-gegevenslaag client {#data-layer}
+
+De component Tabs ondersteunt de [Adobe-laag voor clientgegevens.](/help/developing/data-layer/overview.md)
