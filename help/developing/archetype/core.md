@@ -2,9 +2,9 @@
 title: De Module van de kern van het AEM Project Archetype
 description: De Module van de kern van het AEM Project Archetype
 translation-type: tm+mt
-source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,16 @@ De in `<src-directory>/<project>/core/pom.xml` gedefinieerde bundelinsteekmodule
 
 Hoewel het zeldzaam is dat de kernbundel onafhankelijk van de module ui.apps in hogere niveaumilieu&#39;s moet worden opgesteld, is het direct opstellen van de kernbundel nuttig tijdens lokale ontwikkeling/het testen. Met de plug-in Maven Sling kan de kernbundel worden geïmplementeerd om het profiel `autoInstallBundle` rechtstreeks te AEM, zoals gedefinieerd in de [bovenliggende POM](/help/developing/archetype/using.md#parent-pom).
 
-```
+```shell
 mvn -PautoInstallBundle clean install
 ```
 
 Nadat de uitvoering is voltooid, kunt u de bundelconsole weergeven op `http://<host>:<port>/system/console/bundles`.
+
+##  Eenheidstests {#unit-tests}
+
+De eenheidstest in de kernmodule toont de klassieke eenheidstests van de code in de bundel. Om te testen, voer uit:
+
+```shell
+mvn clean test
+```
