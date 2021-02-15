@@ -2,7 +2,7 @@
 title: Front-end build voor React SPA
 description: Een beschrijving van het front-end bouwstijlproces voor React-based SPA projecten
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -26,7 +26,7 @@ In de projectfolder, kunt u de volgende bevelen in werking stellen:
 
 ### npm start {#npm-start}
 
-```
+```shell
 npm start
 ```
 
@@ -45,7 +45,7 @@ Als u fouten met betrekking tot CORS krijgt, zou u AEM als volgt kunnen willen v
 
 ### npm-test {#npm-test}
 
-```
+```shell
 npm test
 ```
 
@@ -53,7 +53,7 @@ Met deze opdracht start u de testruntime in de interactieve controlemodus. Zie [
 
 ### npm run build {#npm-run-build}
 
-```
+```shell
 npm run build
 ```
 
@@ -69,7 +69,7 @@ Standaard gebruikt dit project de standaardinstelling [Browserslist](https://git
 
 De React app wordt gevormd om gebruik te maken van [code het splitsen](https://webpack.js.org/guides/code-splitting) door gebrek. Wanneer u de app voor productie maakt, wordt de code in verschillende delen uitgevoerd:
 
-```
+```shell
 $ ls build/static/js
 2.5b77f553.chunk.js
 2.5b77f553.chunk.js.map
