@@ -2,9 +2,9 @@
 title: Broodkruimelcomponent
 description: De component van de Breadcrumb van de Component van de Kern is een navigatiecomponent die een broodkruimel van verbindingen bouwt die op de plaats van de pagina in de inhoudshiërarchie wordt gebaseerd.
 translation-type: tm+mt
-source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '722'
 ht-degree: 1%
 
 ---
@@ -89,3 +89,7 @@ In het ontwerpdialoogvenster kan de sjabloonauteur definiëren wat de standaardw
 ### Tabblad Stijlen {#styles-tab}
 
 De component Breadcrumb ondersteunt het AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+
+## Adobe-gegevenslaag client {#data-layer}
+
+De component Breadcrumb ondersteunt de [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
