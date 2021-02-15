@@ -2,9 +2,9 @@
 title: Teaser-component
 description: De teaser-component kan een afbeelding, een titel, RTF-tekst en eventueel een koppeling naar andere inhoud weergeven.
 translation-type: tm+mt
-source-git-commit: e7aeff3a24cff14fbcd468561632ee1927c07b4e
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '775'
 ht-degree: 1%
 
 ---
@@ -106,3 +106,7 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de teasopties definiëren die
 ### Tabblad Stijlen {#styles-tab}
 
 De component Teaser ondersteunt het AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+
+## Adobe-gegevenslaag client {#data-layer}
+
+De component Teaser ondersteunt de [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
