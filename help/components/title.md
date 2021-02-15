@@ -2,9 +2,9 @@
 title: Component Title
 description: De component van de Titel van de Component van de Kern is een component van de sectiekop die op zijn plaats het uitgeven kenmerkt.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '569'
 ht-degree: 1%
 
 ---
@@ -82,3 +82,7 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur het standaardkopniveau def
 ### Tabblad Stijlen {#styles-tab}
 
 De component Title ondersteunt het AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+
+## Adobe-gegevenslaag client {#data-layer}
+
+De component van de Titel steunt [de Laag van Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)
