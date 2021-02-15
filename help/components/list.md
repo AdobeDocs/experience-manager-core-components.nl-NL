@@ -2,9 +2,9 @@
 title: Component List
 description: De component van de Lijst van de Component van de Kern staat voor de gemakkelijke verwezenlijking van dynamische en statische lijsten toe.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '979'
 ht-degree: 1%
 
 ---
@@ -188,3 +188,7 @@ Datum tonen inschakelen in het dialoogvenster  [Bewerken](#edit-dialog)
 ### Tabblad Stijlen {#styles-tab}
 
 De component van het Beeld steunt het AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+
+## Adobe-gegevenslaag client {#data-layer}
+
+De component List ondersteunt de [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
