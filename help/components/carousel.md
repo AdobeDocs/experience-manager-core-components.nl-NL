@@ -2,9 +2,9 @@
 title: Carousel-component
 description: Met de Carousel-component kan de auteur van de inhoud inhoud inhoud presenteren in een roterende carrousel.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1125'
 ht-degree: 0%
 
 ---
@@ -128,3 +128,7 @@ Het tabblad Toegestane componenten werkt op dezelfde manier als het tabblad met 
 ### Tabblad Stijlen {#styles-tab}
 
 De Carousel-component ondersteunt het AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+
+## Adobe-gegevenslaag client {#data-layer}
+
+De Carousel-component ondersteunt de [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
