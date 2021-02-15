@@ -2,9 +2,9 @@
 title: Component Button
 description: Met de component Knop Core-component kunt u een knop maken en weergeven.
 translation-type: tm+mt
-source-git-commit: df42f9e3fa26cbb26aa44688e26e5c9a7de4752e
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '451'
 ht-degree: 1%
 
 ---
@@ -73,3 +73,7 @@ Op het tabblad **Toegankelijkheid** kunnen waarden worden ingesteld voor [ARIA-t
 ### Tabblad Stijlen {#styles-tab}
 
 De component Button ondersteunt het AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+
+## Adobe-gegevenslaag client {#data-layer}
+
+De component Button ondersteunt de [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
