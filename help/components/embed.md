@@ -2,10 +2,10 @@
 title: Component insluiten
 description: Met de component Embed kunt u externe inhoud insluiten in een AEM inhoudspagina.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 601bee9df2a82255c92fcf30b8dacde70b0583dc
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 2%
+source-wordcount: '1341'
+ht-degree: 1%
 
 ---
 
@@ -72,13 +72,20 @@ Ontwikkelaars kunnen extra URL-processors toevoegen door [de ontwikkelaarsdocume
 
 ### Insluitbaar {#embeddable}
 
-Met insluitbare bestanden kunt u de ingesloten bron verder aanpassen. U kunt hier parameters aan toewijzen en aanvullende informatie opnemen. Een auteur kan kiezen uit vooraf geconfigureerde vertrouwde insluitbare bestanden en de component wordt geleverd met een YouTube-insluitbare out-of-the-box.
+Met insluitbare bestanden kunt u de ingesloten bron verder aanpassen. U kunt hier parameters aan toewijzen en aanvullende informatie opnemen. Een auteur kan een keuze maken uit vooraf geconfigureerde vertrouwde insluitbare bestanden en de component wordt geleverd met een YouTube-insluitbare insluitbare indeling.
 
 Het veld **Insluitbaar** definieert het type processor dat u wilt gebruiken. In het geval van de insluitbare YouTube-modus kunt u het volgende definiëren:
 
 * **Video-id** : de unieke video-id van YouTube van de bron die u wilt insluiten
 * **Breedte** : de breedte van de ingesloten video
 * **Hoogte**  - De hoogte van de ingesloten video
+* **Dempen**  inschakelen - Deze parameter geeft aan of de video standaard wordt gedempt. Als u deze optie inschakelt, wordt de kans dat Automatisch afspelen werkt in moderne browsers groter.
+* **Automatisch afspelen**  inschakelen - Deze parameter geeft aan of de eerste video automatisch wordt afgespeeld wanneer de speler wordt geladen. Dit is alleen effectief voor de publicatie-instantie of wanneer de optie **Weergeven als gepubliceerd** op de ontwerpinstantie wordt gebruikt.
+* **Lus**  inschakelen - In het geval van één video geeft deze parameter aan of de speler de eerste video herhaaldelijk moet afspelen. In het geval van een afspeellijst speelt de speler de volledige afspeellijst af en begint vervolgens opnieuw bij de eerste video.
+* **Inline afspelen inschakelen (iOS)**  - Deze parameter bepaalt of video&#39;s inline (ingeschakeld) of op volledig scherm (uitgeschakeld) worden afgespeeld in een HTML5-speler op iOS.
+* **Onbeperkte verwante video** &#39;s - Als deze optie is uitgeschakeld, komen verwante video&#39;s van hetzelfde kanaal als de video die net is afgespeeld, anders komen ze van elk kanaal.
+
+De opties voor inschakelen moeten worden geactiveerd via het [dialoogvenster Ontwerpen](#design-dialog) en kunnen worden ingesteld als standaardwaarden.
 
 Andere insluitbare bestanden bieden vergelijkbare velden en kunnen door een ontwikkelaar worden gedefinieerd door [de ontwikkelaarsdocumentatie van de Embed-component te volgen.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
@@ -102,7 +109,7 @@ De HTML-opmaak die de auteur kan invoeren, wordt voor beveiligingsdoeleinden gef
 
 *In het algemeen worden* alle script- en  `style` elementen, alsmede alle  `on*` en  `style` kenmerken uit de uitvoer verwijderd.
 
-De regels zijn echter gecompliceerder omdat de Embed-component de algemene filterregelset van het HTML AntiSamy-sanitatieframework van AEM volgt, die u kunt vinden op `/libs/cq/xssprotection/config.xml`. Dit kan voor project-specifieke configuratie door een ontwikkelaar indien vereist worden bedekt.
+De regels zijn echter gecompliceerder omdat de component Embed AEM algemene filterregelset van het HTML AntiSamy-sanitatieframework volgt, die u kunt vinden op `/libs/cq/xssprotection/config.xml`. Dit kan voor project-specifieke configuratie door een ontwikkelaar indien vereist worden bedekt.
 
 Aanvullende beveiligingsinformatie vindt u in de [AEM ontwikkelaarsdocumentatie voor on-premise installaties](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html) en [AEM als Cloud Service installaties.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/home.html)
 
@@ -113,9 +120,26 @@ Aanvullende beveiligingsinformatie vindt u in de [AEM ontwikkelaarsdocumentatie 
 
 In het ontwerpdialoogvenster kan de sjabloonauteur de opties definiëren die beschikbaar zijn voor de inhoudauteur die de component Embed gebruikt en de standaardinstellingen die zijn ingesteld bij het plaatsen van de component Embed.
 
+### Tabblad Insluitbare typen {#embeddable-types-tab}
+
 ![Dialoogvenster Ontwerp van component insluiten](/help/assets/embed-design.png)
 
 * **URL**  uitschakelen - Schakelt de  **** URL-optie voor de auteur van de inhoud uit wanneer deze is geselecteerd
 * **Uitschakelen Ingesloten**  - Schakelt de optie  **** Insluitbaar voor de auteur van de inhoud uit wanneer deze is geselecteerd, ongeacht welke insluitbare processors zijn toegestaan.
 * **HTML**  uitschakelen - Schakelt de  **** HTML-optie voor de auteur van de inhoud uit wanneer deze is geselecteerd.
-* **Toegestane insluitbare bestanden**  - Meerdere selecties waarmee wordt gedefinieerd welke insluitbare processors beschikbaar zijn voor de auteur van de inhoud, op voorwaarde dat de optie  **** Insluitbaar actief is.
+* **Toegestane insluitbare bestanden**  - Multiselect die definieert welke insluitbare processoren beschikbaar zijn voor de auteur van de inhoud, op voorwaarde dat de optie  **** Insluitbaar actief is.
+
+### YouTube-tabblad {#youtube-tab}
+
+![Het tabblad YouTube van het dialoogvenster Ontwerp van de component insluiten](/help/assets/embed-design-youtube.png)
+
+* **Configuratie van dempingsgedrag**  toestaan - Hiermee kan de auteur van de inhoud de optie  **** Muteoption inschakelen in de component configureren wanneer het ingesloten YouTube-type is geselecteerd
+   * **Standaardwaarde van dempen**  - Hiermee wordt de optie  **Muteoption** inschakelen automatisch ingesteld wanneer het ingesloten YouTube-type is geselecteerd
+* **Configuratie van gedrag**  bij automatisch afspelen toestaan - Hiermee kan de auteur van de inhoud de optie  **Automatisch afspelen** inschakelen in de component configureren wanneer het ingesloten YouTube-type is geselecteerd
+   * **Standaardwaarde voor automatisch afspelen**  - Hiermee wordt de optie  **Automatisch afspelen** inschakelen automatisch ingesteld wanneer het ingesloten YouTube-type is geselecteerd
+* **Configuratie van lusgedrag**  toestaan - Hiermee kan de auteur van de inhoud de optie  **Loopoptie** inschakelen in de component configureren wanneer het ingesloten YouTube-type is geselecteerd
+   * **Standaardwaarde van lus**  - Hiermee wordt  **de optie** Herhalen inschakelen automatisch ingesteld wanneer het ingesloten YouTube-type is geselecteerd
+* **Configuratie van inline afspelen toestaan (iOS)**  - Hiermee kan de auteur van de inhoud de  **optie Inline afspelen** inschakelen (iOS) configureren in de component wanneer het ingesloten YouTube-type is geselecteerd
+   * **Standaardwaarde voor inline afspelen (iOS)**  - Hiermee wordt de  **optie Inline afspelen** inschakelen (iOS) automatisch ingesteld wanneer het ingesloten YouTube-type is geselecteerd
+* **Configuratie van inlinevideo** &#39;s toestaan - Hiermee kan de auteur van de inhoud de optie  **Onbeperkte verwante** video&#39;s in de component configureren wanneer het ingesloten YouTube-type is geselecteerd
+   * **Standaardwaarde van onbeperkte verwante video** &#39;s - Hiermee wordt de optie  **Onbeperkte verwante** video&#39;s automatisch ingesteld wanneer het ingesloten YouTube-type is geselecteerd
