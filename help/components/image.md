@@ -2,9 +2,9 @@
 title: Afbeeldingscomponent
 description: De Core Component Image is een adaptieve beeldcomponent die ter plekke kan worden bewerkt.
 translation-type: tm+mt
-source-git-commit: c20d02aa93cce60b583a2d22c77b08ca7eb9b765
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2170'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ De component Image wordt geleverd met robuuste responsieve functies die direct u
 
 Bovendien ondersteunt de component Afbeelding lui laden om het laden van het eigenlijke afbeeldingselement uit te stellen totdat het element zichtbaar is in de browser, waardoor de reacties op uw pagina&#39;s sneller worden.
 
-## Ondersteuning voor dynamische media {#dynamic-media}
+## Dynamic Media-ondersteuning {#dynamic-media}
 
-De component Image (vanaf [versie 2.13.0](/help/versions.md)) ondersteunt [Dynamische media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia) elementen. [Als deze functies zijn ingeschakeld, kunt ](#design-dialog) u dynamische media-afbeeldingselementen toevoegen met een eenvoudige sleepfunctie of via de middelenbrowser, net als elke andere afbeelding. Daarnaast worden ook afbeeldingsaanpassingen, voorinstellingen voor afbeeldingen en slimme gewassen ondersteund.
+De component Image (vanaf [versie 2.13.0](/help/versions.md)) ondersteunt [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia)-elementen. [Als deze functies zijn ingeschakeld, kunt ](#design-dialog) u Dynamic Media-afbeeldingselementen toevoegen met een eenvoudige sleepfunctie of via de middelenbrowser, net als elke andere afbeelding. Daarnaast worden ook afbeeldingsaanpassingen, voorinstellingen voor afbeeldingen en slimme gewassen ondersteund.
 
-Uw webervaringen die zijn gemaakt met Core Components kunnen geen geavanceerde, op Sensei gebaseerde, robuuste, krachtige, platformonafhankelijke mogelijkheden voor Dynamic Media Image bieden.
+Uw webervaringen die zijn gemaakt met Core Components kunnen geen geavanceerde, op Sensei gebaseerde, robuuste, krachtige Dynamic Media Image-mogelijkheden voor meerdere platforms bieden.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -90,10 +90,10 @@ Naast de standaard [bewerkingsdialoog](#edit-dialog) en [ontwerpdialoog](#design
 
 ![Tabblad Metagegevens van het dialoogvenster Configureren van Image Component](/help/assets/image-configure-metadata.png)
 
-* **Type**  voorinstelling - Hiermee definieert u de typen voorinstellingen voor afbeeldingen die beschikbaar zijn,  **Voorinstelling** afbeelding of  **Slim uitsnijden**. Deze voorinstelling is alleen beschikbaar wanneer de  [functies ](#dynamic-meida) Dynamische media zijn ingeschakeld.
-   * **Voorinstelling**  afbeelding - Wanneer  **Voorinstelling** voor type  **voorinstelling** afbeelding is geselecteerd, kunt u de keuzelijst met beschikbare voorinstellingen voor  **afbeelding** gebruiken, zodat u een keuze kunt maken uit de beschikbare voorinstellingen voor dynamische media. Dit is alleen beschikbaar als er voorinstellingen zijn gedefinieerd voor het geselecteerde element.
+* **Type**  voorinstelling - Hiermee definieert u de typen voorinstellingen voor afbeeldingen die beschikbaar zijn,  **Voorinstelling** afbeelding of  **Slim uitsnijden**. Deze voorinstelling is alleen beschikbaar wanneer  [Dynamic Media-](#dynamic-meida) functies zijn ingeschakeld.
+   * **Voorinstelling**  afbeelding - Wanneer  **Voorinstelling** voor type  **voorinstelling** afbeelding is geselecteerd, kunt u de keuzelijst met  **voorinstellingen** voor afbeelding openen, zodat u kunt kiezen uit de beschikbare Dynamic Media-voorinstellingen. Dit is alleen beschikbaar als er voorinstellingen zijn gedefinieerd voor het geselecteerde element.
    * **Slim uitsnijden**  - Als  **Voorinstelling** voor  **slim** uitsnijden is geselecteerd, is de vervolgkeuzelijst  **** Vertoning beschikbaar, zodat u kunt kiezen uit de beschikbare uitvoeringen van het geselecteerde element. Dit is alleen beschikbaar als uitvoeringen zijn gedefinieerd voor het geselecteerde element.
-   * **Image Modifiers**  - Aanvullende opdrachten voor dynamische media-afbeeldingen kunnen hier worden gedefinieerd door  `&`, ongeacht welk  **type** voorinstelling is geselecteerd.
+   * **Image Modifiers** : extra opdrachten voor Dynamic Media-beeldserving kunnen hier worden gedefinieerd door  `&`, ongeacht welk  **type** voorinstelling is geselecteerd.
 * **Afbeelding is decoratief** . Controleer of de afbeelding door hulpprogramma&#39;s moet worden genegeerd en of er daarom geen alternatieve tekst nodig is. Dit geldt alleen voor decoratieve afbeeldingen.
 * **Alternatieve tekst** : een tekstalternatief met de betekenis of functie van de afbeelding voor slechtzienden.
    * **Alternatieve tekst ophalen van DAM**  - Bij controle wordt de alternatieve tekst van de afbeelding gevuld met de waarde van de  `dc:description` metagegevens in DAM.
@@ -118,7 +118,7 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud uitsnijden, de startk
 
 >[!NOTE]
 >
->Uitsnijden, roteren en zoomen zijn niet van toepassing op dynamische media-elementen. Als de [Dynamische mediafuncties](#dynamic-media) zijn ingeschakeld, moet het bewerken van dynamische media-elementen worden uitgevoerd via het dialoogvenster [Configureren.](#configure-dialog)
+>Uitsnijden, roteren en zoomen zijn niet van toepassing op Dynamic Media-elementen. Als de [Dynamic Media-functies](#dynamic-media) zijn ingeschakeld, moet het bewerken van Dynamic Media-elementen worden uitgevoerd via het [Dialoogvenster configureren.](#configure-dialog)
 
 ![Bewerkingsdialoogvenster van afbeeldingscomponent](/help/assets/image-edit.png)
 
@@ -187,7 +187,7 @@ Bovendien kunt u bepalen welke algemene componentenopties automatisch of gehandi
 
 ![Het hoofdtabblad van het dialoogvenster Ontwerp van de afbeeldingscomponent](/help/assets/image-design-main.png)
 
-* **Schakel DM-functies**  in. Als deze optie is ingeschakeld, zijn de  [functies ](#dynamic-media) Dynamische media inschakelen beschikbaar.
+* **Functies**  voor DM inschakelen - Als deze optie is ingeschakeld, zijn de functies voor  [Dynamic Media inschakelen ](#dynamic-media) beschikbaar.
 * **Lazy laden**  inschakelen - Definieer of de luie laadoptie automatisch is ingeschakeld wanneer u de afbeeldingscomponent aan een pagina toevoegt.
 * **Afbeelding is decoratief** . Definieer of de optie Decoratieve afbeelding automatisch is ingeschakeld wanneer u de afbeeldingscomponent aan een pagina toevoegt.
 * **Alternatieve tekst ophalen van DAM** - Definiëren of de optie voor het ophalen van de alternatieve tekst van de DAM automatisch is ingeschakeld wanneer de afbeeldingscomponent aan een pagina wordt toegevoegd.
@@ -255,3 +255,7 @@ De component Image maakt gebruik van de Adaptive Image Servlet van de Core-compo
 >Voorwaardelijke aanvragen via de `Last-Modified`-header worden ondersteund door de Adaptive Image Servlet, maar het in cache plaatsen van de `Last-Modified`-header [moet worden ingeschakeld in de Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers).
 >
 >[De de steekproefconfiguratie van de Verzender van de Projectarchetype](/help/developing/archetype/overview.md) van het AEM bevat reeds deze configuratie.
+
+## Adobe-gegevenslaag client {#data-layer}
+
+De component van het Beeld steunt de [Laag van de Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)
