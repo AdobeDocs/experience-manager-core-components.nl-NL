@@ -2,9 +2,9 @@
 title: Accordion-component
 description: Met de component Core Component Accordion kunt u een verzameling deelvensters maken die zijn gerangschikt in een accordeon op een pagina.
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1067'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Voor meer informatie over de versies en versies van de Component van de Kern, zi
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Ga naar [Componentbibliotheek](https://adobe.com/go/aem_cmp_library_accordion) om de Accordeon-component te ervaren en voorbeelden van de bijbehorende configuratieopties en HTML- en JSON-uitvoer te bekijken.
+Ga naar [Componentbibliotheek](https://adobe.com/go/aem_cmp_library_accordion) om de component Accordion te ervaren en voorbeelden van de bijbehorende configuratieopties en HTML- en JSON-uitvoer te bekijken.
 
 ## Technische details {#technical-details}
 
@@ -125,3 +125,7 @@ Het tabblad Toegestane componenten werkt op dezelfde manier als het tabblad met 
 ### Tabblad Stijlen {#styles-tab}
 
 De component Accordion ondersteunt het AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+
+## Adobe-gegevenslaag client {#data-layer}
+
+De component Accordion ondersteunt de [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
