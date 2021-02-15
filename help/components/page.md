@@ -2,9 +2,9 @@
 title: Pagina-component
 description: De component Pagina is een uitbreidbare paginacomponent die wordt ontworpen om met de malplaatjeredacteur te werken en paginakopbal/footer en structuurcomponenten toe te laten om met de malplaatjedacteur worden samengesteld.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '644'
 ht-degree: 1%
 
 ---
@@ -83,3 +83,7 @@ Zie [Client Side Libraries gebruiken](https://helpx.adobe.com/experience-manager
 ### Tabblad Stijlen {#styles-tab}
 
 De component van de Pagina steunt het AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+
+## Adobe-gegevenslaag client {#data-layer}
+
+De component van de Pagina steunt [Adobe de Laag van de Gegevens van de Cliënt.](/help/developing/data-layer/overview.md)
