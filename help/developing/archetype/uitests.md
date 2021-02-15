@@ -1,10 +1,10 @@
 ---
 title: ui.tests Module van AEM Project Archetype
-description: JUnit-tests voor AEM projectontwerp gebruiken
+description: Hoe te om de Tests UI van de Archetype van het Project van de AEM te gebruiken
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -14,24 +14,22 @@ ht-degree: 0%
 
 Het project bevat drie testniveaus:
 
-## Eenheidstests {#unit-tests}
+* [Eenheidstests](core.md#unit-tests)
+* [Integratietests](ittests.md)
+* UI-tests
 
-De eenheidstest in [kernmodule](core.md) toont klassieke eenheidstests van de code in de bundel. Om te testen, voer uit:
+Dit artikel beschrijft de tests UI beschikbaar als deel van de module ui.tests.
 
-```
-mvn clean test
-```
+## UI-tests {#running-tests} uitvoeren
 
-## Integratietests {#integration-tests}
+Om te testen, voer uit:
 
-Met de integratietests aan de serverzijde kunnen eenheidstests worden uitgevoerd in de AEM-omgeving, d.w.z. op de AEM server. Om te testen, voer uit:
-
-```
-mvn clean verify -PintegrationTests
+```shell
+mvn verify -Pui-tests-local-execution
 ```
 
-## Client-Side Tests {#client-side-tests}
+Na uitvoering zijn rapporten en logbestanden beschikbaar in de map `target/reports`.
 
-De tests `client-side Hobbes.js` zijn op JavaScript gebaseerde browser-zijtests die browser-zijgedrag verifiëren.
+## Aanvullende opties {#additional-options}
 
-Als u wilt testen, opent u de pagina in **Developer mode** door het linkervenster te openen en over te schakelen op het tabblad **Tests** en de gegenereerde **MyName Tests** te zoeken en uit te voeren.
+De tests UI kunnen met vele verschillende opties worden in werking gesteld met inbegrip van voor hoofdloze het testen tegen lokale browser en als beeld van het Dokker. Zie het [README.md- dossier van ui.tests module](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/ui.tests) voor verdere informatie.
