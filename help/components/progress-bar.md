@@ -2,9 +2,9 @@
 title: Component Voortgangsbalk
 description: De component van de vooruitgangsbar vertegenwoordigt visueel vooruitgang in de richting van een doel
 translation-type: tm+mt
-source-git-commit: cba1d898d7789af7f4045ef9aa052b4da6a6b33a
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '338'
 ht-degree: 2%
 
 ---
@@ -55,3 +55,7 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de stijlen definiëren die zi
 ### Tabblad Stijlen {#styles-tab}
 
 De component ProgressBar ondersteunt het AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+
+## Adobe-gegevenslaag client {#data-layer}
+
+De component van de Bar van de Voortgang steunt [de Laag van de Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)
