@@ -2,9 +2,9 @@
 title: Het gebruiken van de Laag van de Gegevens van de Cliënt van Adobe met de Componenten van de Kern
 description: Het gebruiken van de Laag van de Gegevens van de Cliënt van Adobe met de Componenten van de Kern
 translation-type: tm+mt
-source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
+source-git-commit: 57582c5c938e0f345b27785bd6fd6d5ed5454bd0
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '974'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ Om de Laag van Gegevens manueel te activeren moet u een [context-bewuste configu
 
 1. Voeg een eigenschap `sling:configRef` toe aan het `jcr:content`-knooppunt van uw site onder `/content` (bijvoorbeeld `/content/<mySite>/jcr:content`) en stel deze in op `/conf/<mySite>` uit de vorige stap.
 
-1. Zodra toegelaten, kunt u de activering verifiëren door een pagina van de plaats buiten de redacteur te laden. Inspect de paginabron en de tag `<body>` moeten een kenmerk `data-cmp-data-layer-enabled` bevatten
+1. Zodra toegelaten, kunt u de activering verifiëren door een pagina van de plaats buiten de redacteur te laden, bijvoorbeeld door **Mening te gebruiken zoals Gepubliceerd** optie in de redacteur. Inspect de paginabron en de tag `<body>` moeten een kenmerk `data-cmp-data-layer-enabled` bevatten
 
    ```html
    <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
@@ -62,6 +62,28 @@ Om de Laag van Gegevens manueel te activeren moet u een [context-bewuste configu
    ```javascript
    window.adobeDataLayer.getState();
    ```
+
+## Ondersteunde componenten {#supported-components}
+
+De volgende componenten steunen de Laag van Gegevens.
+
+* [Accordeon](/help/components/accordion.md)
+* [Broodkruimel](/help/components/breadcrumb.md)
+* [Knop](/help/components/button.md)
+* [Carousel](/help/components/carousel.md)
+* [Inhoudsfragment](/help/components/content-fragment-component.md)
+* [Afbeelding](/help/components/image.md)
+* [Taalnavigatie](/help/components/language-navigation.md)
+* [Lijst](/help/components/list.md)
+* [Navigatie](/help/components/navigation.md)
+* [Pagina](/help/components/page.md)
+* [Voortgangsbalk](/help/components/progress-bar.md)
+* [Tabs](/help/components/tabs.md)
+* [Teaser](/help/components/teaser.md)
+* [Tekst](/help/components/text.md)
+* [Titel](/help/components/title.md)
+
+Verwijs ook naar [gebeurtenissen die door de componenten worden teweeggebracht.](#events-components)
 
 ## Gegevensschema&#39;s voor kerncomponenten {#data-schemas}
 
@@ -174,7 +196,7 @@ id: {
 }
 ```
 
-De volgende [gebeurtenis](#events) is relevant voor het afbeeldingsschema:
+De volgende [gebeurtenis](#events) is relevant voor het beeldschema:
 
 * `cmp:click`
 
@@ -197,6 +219,34 @@ id: {
 De volgende [gebeurtenis](#events) is relevant voor het schema Asset:
 
 * `cmp:click`
+
+### Inhoudsfragmentatieschema {#content-fragment}
+
+Het inhoudsfragmentschema wordt gebruikt door de [Inhoudsfragmentcomponent.](/help/components/content-fragment-component.md)
+
+Het inhoudsfragmentschema wordt als volgt gedefinieerd.
+
+```javascript
+id: {
+    @type
+    repo:modifyDate
+    dc:title
+    dc:description
+    xdm:text
+    xdm:linkURL
+    parentId
+    elements            // array of the Content Fragment elements
+}
+```
+
+Het schema dat voor het element Inhoudsfragment wordt gebruikt, ziet er als volgt uit.
+
+```javascript
+{
+    xdm:title           // title
+    xdm:text            // text
+}
+```
 
 ## Gebeurtenissen kerncomponent {#events}
 
