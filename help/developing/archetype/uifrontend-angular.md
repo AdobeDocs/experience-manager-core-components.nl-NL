@@ -2,7 +2,7 @@
 title: Front-end build voor hoekige SPA
 description: Een beschrijving van het proces van de front-end bouwstijl voor Hoekgebaseerde SPA projecten
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Als u fouten met betrekking tot CORS krijgt, zou u AEM als volgt kunnen willen v
 
 ### npm-test {#npm-test}
 
-```
+```shell
 npm test
 ```
 
@@ -53,7 +53,7 @@ Met deze opdracht start u de Karma-testruntime. Zie de [Hoekdocumentatie over he
 
 ### npm run test:debug {#npm-run-test-debug}
 
-```
+```shell
 npm run test:debug
 ```
 
@@ -61,7 +61,7 @@ Met deze opdracht start u de Karma-testruntime in de interactieve controlemodus.
 
 ### npm run build {#npm-run-build}
 
-```
+```shell
 npm run build
 ```
 
