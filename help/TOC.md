@@ -4,9 +4,9 @@ user-guide-title: AEM kerncomponenten
 breadcrumb-title: Handleiding voor kerncomponenten
 user-guide-description: Met de uitbreidbare Core Components kunnen auteurs eenvoudig inhoud maken.
 translation-type: tm+mt
-source-git-commit: e32521f35f33897cd72892de393073b01ad963f1
+source-git-commit: f4bed5d9d0f5387259d083fe46220208347052b3
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '214'
 ht-degree: 2%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 2%
          + [Formuliertekst (v1)](components/v1/form-text-v1.md)
 + Ontwikkeling {#developing}
    + [Basiscomponenten ontwikkelen](developing/overview.md)
-   + [Paden naar succes](developing/success.md)
+   + [Paden naar succes](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
    + [Zelfstudie voor WKND-ontwikkelaars](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Kerncomponenten aanpassen](developing/customizing.md)
    + [Componentrichtlijnen](developing/guidelines.md)
@@ -89,4 +89,5 @@ ht-degree: 2%
       + [ui.frontend.response Module](developing/archetype/uifrontend-react.md)
       + [ui.frontend.angular Module](developing/archetype/uifrontend-angular.md)
       + [ui.test-module](developing/archetype/uitests.md)
+      + [it.tests Module](developing/archetype/ittests.md)
       + [Insteekmodule voor analyse van build](developing/archetype/build-analyzer-maven-plugin.md)
