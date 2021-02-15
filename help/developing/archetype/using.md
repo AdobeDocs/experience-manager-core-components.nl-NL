@@ -2,9 +2,9 @@
 title: Het gebruiken van het AEM Project Archetype
 description: Gedetailleerde gebruiksinstructies voor het AEM Project Archetype
 translation-type: tm+mt
-source-git-commit: 10090b836397af3c9428f99bba72313263f34596
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
-source-wordcount: '2055'
+source-wordcount: '2064'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,16 @@ Het project archetype maakt het gemakkelijk om zich op AEM te beginnen ontwikkel
 Het AEM Archetype bestaat uit modules:
 
 * **[kern](core.md)**: is een bundel van Java die alle kernfunctionaliteit zoals de diensten OSGi, luisteraars, en planners, evenals component-verwante code van Java zoals servlets en verzoekfilters bevat.
-* **[ui.apps](uiapps.md)**: bevat de  `/apps` en  `/etc` delen van het project, d.w.z. JS en CSS clientlibs, componenten, sjablonen, runmode-specifieke configuraties, en Hobbes-tests.
+* **[it.tests](ittests.md)**: zijn op Java gebaseerde integratietests.
+* **[ui.apps](uiapps.md)**: bevat de  `/apps` en  `/etc` delen van het project, d.w.z. JS en CSS-clientlibs, componenten en sjablonen.
 * **[ui.content](uicontent.md)**: bevat voorbeeldinhoud met behulp van de componenten uit de module ui.apps.
-* **[ui.tests](uitests.md)**: is een Java-bundel met JUnit-tests die op de server worden uitgevoerd. Deze bundel moet niet op productie worden opgesteld.
-* **ui.launch**: bevat lijm die de bundel ui.tests (en afhankelijke bundels) aan de server opstelt en de verre uitvoering JUnit teweegbrengt.
+* **ui.config**: bevat runtime-specifieke OSGi vormen voor het project.
 * **[ui.frontend.general](uifrontend.md)**:  **(facultatief)** bevat de artefacten die worden vereist om de algemene Web-pack-gebaseerde voorste-eind bouwstijlmodule te gebruiken.
 * **[ui.frontend.response](uifrontend-react.md)**:  **(facultatief)** bevat de artefacten die wanneer het gebruiken van archetype worden vereist om tot SPA projecten te leiden die op React worden gebaseerd.
 * **[ui.frontend.angular](uifrontend-angular.md)**:  **(facultatief)** bevat de artefacten die wanneer het gebruiken van archetype worden vereist om een SPA tot stand te brengen die op Hoekig worden gebaseerd.
+* **[ui.tests](uitests.md)**: bevat op selenium gebaseerde UI-tests.
+* **alle**: is één enkel inhoudspakket dat alle gecompileerde modules (bundels en inhoudspakketten) met inbegrip van om het even welke verkopersgebiedsdelen inbedt.
+* **analyseren**: stelt analyse op het project in werking, dat extra bevestiging voor het opstellen in AEM als Cloud Service verstrekt.
 
 ![](/help/assets/archetype-structure.png)
 
