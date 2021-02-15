@@ -2,9 +2,9 @@
 title: Component Inhoudsfragment
 description: Met de component Inhoudsfragment van de kerncomponent kunt u een inhoudsfragment weergeven.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '673'
 ht-degree: 1%
 
 ---
@@ -110,3 +110,6 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de typen bronnen definiëren 
 
    * Het Sling-brontype dat wordt gebruikt voor het interne responsieve raster
 
+## Adobe-gegevenslaag client {#data-layer}
+
+De component van het Fragment van de Inhoud steunt [de Laag van de Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)
