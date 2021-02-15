@@ -2,9 +2,9 @@
 title: Taalnavigatie-component
 description: De component Taalnavigatie biedt een taal-/landnavigatie voor een site, zodat bezoekers naar dezelfde pagina in een andere landinstelling kunnen navigeren.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '846'
 ht-degree: 1%
 
 ---
@@ -104,3 +104,7 @@ Daarnaast kunt u een **ID** instellen. Met deze optie kunt u de unieke id van de
 * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
 ![Dialoogvenster Taalnavigatie-component bewerken](/help/assets/language-navigation-edit.png)
+
+## Adobe-gegevenslaag client {#data-layer}
+
+De component van de Navigatie van de Taal steunt [de Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)
