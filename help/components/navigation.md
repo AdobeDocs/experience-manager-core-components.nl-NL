@@ -2,9 +2,9 @@
 title: Navigatie-component
 description: Met de navigatiecomponent kunnen gebruikers gemakkelijk door een geglobaliseerde sitestructuur navigeren.
 translation-type: tm+mt
-source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1382'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Laten we zeggen dat uw inhoud er ongeveer als volgt uitziet:
 \-- wknd-shop
 ```
 
-Voor de plaats WKND, zou u waarschijnlijk de Component van de Navigatie op een paginamalplaatje als deel van de kopbal willen plaatsen. Als een onderdeel van de sjabloon is gemaakt, kunt u de **Navigation Root** van de component instellen op `/content/wknd/language-masters/en`, aangezien dat de plaats is waar de master inhoud voor die site begint. U zou misschien ook **Navigatiestructuurdiepte** willen plaatsen om `2` te zijn aangezien u waarschijnlijk niet de volledige inhoudsboom door de component, maar eerder de eerste twee niveaus wilt worden getoond zodat het als overzicht dient.
+Voor de plaats WKND, zou u waarschijnlijk de Component van de Navigatie op een paginamalplaatje als deel van de kopbal willen plaatsen. Als een onderdeel van de sjabloon is gemaakt, kunt u de **Navigation Root** van de component instellen op `/content/wknd/language-masters/en`, aangezien dat het punt is waar de master inhoud voor die site begint. U zou misschien ook **Navigatiestructuurdiepte** willen plaatsen om `2` te zijn aangezien u waarschijnlijk niet de volledige inhoudsboom door de component, maar eerder de eerste twee niveaus wilt worden getoond zodat het als overzicht dient.
 
 Met de waarde **Navigation Root** weet de navigatiecomponent dat nadat `/content/wknd/language-masters/en` dat de navigatie begint en het navigatieopties kan produceren door de structuur van de plaats twee niveaus neer (zoals die door **de waarde van de Diepte van de Structuur** van de Navigatie wordt bepaald) te recurseren.
 
@@ -165,3 +165,7 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur de standaardwaarden instel
 ### Tabblad Stijlen {#styles-tab}
 
 De component Navigation ondersteunt het AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+
+## Adobe-gegevenslaag client {#data-layer}
+
+De component van de Navigatie steunt [de Laag van de Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)
