@@ -2,9 +2,9 @@
 title: Tekstcomponent
 description: De component Text is een component voor tekstbewerking en -compositie met tekstopmaak die op locatie kan worden bewerkt.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2213'
 ht-degree: 0%
 
 ---
@@ -286,7 +286,7 @@ Tik of klik op het pictogram **Bron bewerken** om de inhoud van de tekst vanuit 
 
 >[!NOTE]
 >
->Omdat HTML die is ingevoerd via **Source Edit** wordt gescand op XSS-risico&#39;s en alle scripts en de gevonden scripts automatisch worden verwijderd, kan de werkelijke inhoud die wordt weergegeven afwijken van wat is ingevoerd in **Source Edit**. Daarom moet u **Bron bewerken** eerst afsluiten om de tekst in de normale editor weer te geven voordat u de tekst opslaat. Als u de wijzigingen wilt opslaan met **Bron bewerken**, moet u &lt;a2/>Bron bewerken&lt;a3/> eerst afsluiten.
+>Omdat HTML die is ingevoerd via **Source Edit** wordt gescand op XSS-risico&#39;s en alle scripts en de gevonden scripts automatisch worden verwijderd, kan de werkelijke inhoud die wordt weergegeven afwijken van wat is ingevoerd in **Source Edit**. Daarom moet u **Bron bewerken** eerst afsluiten om de tekst in de normale editor weer te geven voordat u de tekst opslaat. Als u de wijzigingen wilt opslaan met **Bron bewerken**, moet u Bron bewerken eerst afsluiten.
 
 ### Alineaopmaak
 
@@ -369,3 +369,7 @@ De optie voor het invoegen van speciale tekens kan voor de component worden geac
 ## Tabblad Stijlen {#styles-tab}
 
 De component Text ondersteunt het AEM [stijlsysteem](/help/get-started/authoring.md#component-styling).
+
+## Adobe-gegevenslaag client {#data-layer}
+
+De component Text ondersteunt de [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
