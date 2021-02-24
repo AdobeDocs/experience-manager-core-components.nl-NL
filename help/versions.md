@@ -2,9 +2,9 @@
 title: Core Components-versies
 description: De Componenten van de kern worden gepubliceerd als versies die meer dan één versie van de zelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies beschikbaar zijn en hoe u de compatibiliteit met Core Components en AEM begrijpt.
 translation-type: tm+mt
-source-git-commit: defc6f2cf4cac817577f3e74372da5e420a45ead
+source-git-commit: 0f188a1d380e29674c8c8c6a6c9e773e0276743f
 workflow-type: tm+mt
-source-wordcount: '1938'
+source-wordcount: '1971'
 ht-degree: 11%
 
 ---
@@ -26,7 +26,8 @@ De volgende lijst, waarvan de inhoud [beschikbaar op GitHub met volledige versie
 
 | Geen | Beschrijving | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service | Java | Releasedatum |
 |---|---|---|---|---|---|---|
-| [2.14.0.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | Deze release bevat nieuwe opties voor de [Ingesloten component](/help/components/embed.md) en introduceert de Merk Slug op het [page](/help/components/page.md)-niveau en het aanpakken van vele problemen. | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 8 februari 2021 |
+| [2.15.0.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | Deze release bevat ondersteuning voor progressieve webapps in de [Paginacomponent](/help/components/page.md) en ondersteunt versie 2.0.0 van de [gegevenslaag Adobe.](/help/developing/data-layer/overview.md) | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 23 februari 2021 |
+| [2.14.0.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | Deze release bevat nieuwe opties voor de [Ingesloten component](/help/components/embed.md) en introduceert de Merk Slug op het [page](/help/components/page.md)-niveau en het aanpakken van vele problemen. | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 9 februari 2021 |
 | [2.13.2.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | Dit was een flardversie richtend een kwestie met RTE wanneer gebruikt op AEMaaCS | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 16 december 2020 |
 | [2.13.0.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | Deze release bevat nieuwe Dynamic Media-functies voor de [Afbeeldingscomponent.](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 4 december 2020 |
 | [2.12.2.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | Dit was een patchrelease voor 2.12.0 inclusief kleine correcties. | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 11 november 2020 |
