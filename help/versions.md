@@ -2,7 +2,7 @@
 title: Core Components-versies
 description: De Componenten van de kern worden gepubliceerd als versies die meer dan één versie van de zelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies beschikbaar zijn en hoe u de compatibiliteit met Core Components en AEM begrijpt.
 translation-type: tm+mt
-source-git-commit: 0f188a1d380e29674c8c8c6a6c9e773e0276743f
+source-git-commit: 3c5749d6660af1ad94f4911f261951e0369fa139
 workflow-type: tm+mt
 source-wordcount: '1971'
 ht-degree: 11%
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 # Core Components Versies {#core-components-versions}
 
-De huidige versie van de Core Components is 2.14.0 en is compatibel met [AEM als Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) en [on-premise AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) installaties.
+De huidige versie van de Core Components is 2.15.0 en is compatibel met [AEM als Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) en [on-premise AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) installaties.
 
 ## Historie en compatibiliteit {#release-history-and-compatibility} opheffen
 
