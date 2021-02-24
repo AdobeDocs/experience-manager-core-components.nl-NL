@@ -2,9 +2,9 @@
 title: Pagina-component
 description: De component Pagina is een uitbreidbare paginacomponent die wordt ontworpen om met de malplaatjeredacteur te werken en paginakopbal/footer en structuurcomponenten toe te laten om met de malplaatjedacteur worden samengesteld.
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: 2748fea0aca82b1262585b3f8c191f61607f7735
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '691'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,13 @@ De component van de Pagina is een verlengbare paginacomponent die wordt ontworpe
 
 ## Gebruik {#usage}
 
-De paginacomponent vormt de basis van alle pagina&#39;s die zijn ontworpen met de kerncomponenten en bewerkbare sjablonen. Door de paginacomponent, kunnen de kopballen, footers, en de structuur van de pagina als malplaatje worden bepaald gebruikend de andere kerncomponenten.
+De component Pagina vormt de basis van alle pagina&#39;s die zijn ontworpen met de kerncomponenten en bewerkbare sjablonen. Met de component Pagina kunt u kop- en voetteksten en de structuur van de pagina definiëren als een sjabloon met de andere kerncomponenten.
 
-Met behulp van het [ontwerpdialoogvenster](#design-dialog) kunnen aangepaste client-side bibliotheken worden gedefinieerd voor de pagina. In tegenstelling tot andere componenten met een bewerkingsdialoogvenster dat rechtstreeks toegankelijk is vanuit de component, omdat de component de pagina zelf is, is het [edit dialog](#edit-dialog) van de paginacomponent het pagina-eigenschappenvenster.
+Met behulp van het [ontwerpdialoogvenster](#design-dialog) kunnen aangepaste client-side bibliotheken worden gedefinieerd voor de pagina. In tegenstelling tot andere componenten die een bewerkingsdialoogvenster hebben dat rechtstreeks toegankelijk is vanuit de component, omdat de component Pagina de pagina zelf is, is het [bewerkingsdialoogvenster](#edit-dialog) van de component Pagina het venster met pagina-eigenschappen.
+
+## Progressieve ondersteuning voor webtoepassingen {#pwa-support}
+
+Versie 2.15.0 van de Core Components introduceerde steun voor AEM ingebouwde [Progressieve eigenschappen van Web Apps (PWA) ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) in de Component van de Pagina. Met een eenvoudige configuratie op siteniveau verandert u uw AEM in een PWA!
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
