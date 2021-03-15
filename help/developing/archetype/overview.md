@@ -25,7 +25,7 @@ Het AEM Project Archetype is een Geweven malplaatje dat tot een minimaal, op bes
    * **[ui.frontend:](uifrontend.md)** Hoe te om het vooreind te gebruiken bouwt module
 * De volgende zelfstudies zijn gebaseerd op dit archetype:
    * **[WKND-site:](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** Meer informatie over het starten van een nieuwe website.
-   * **[WKND App met één pagina:](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)** Leer hoe u een React- of Hoekige webapp maakt die in AEM volledig kan worden geschreven.
+   * **[WKND App met één pagina:](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)** Leer hoe u een React- of Angular-webapp maakt die volledig in AEM kan worden geschreven.
 
 ## Functies {#features}
 
@@ -40,7 +40,7 @@ Het AEM Project Archetype is een Geweven malplaatje dat tot een minimaal, op bes
 * **Koptekst en voettekst:deze zonder code** samenstellen en lokaliseren, met de  [lokalisatiefuncties van de componenten](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/get-started/localization.html).
 * **Stijlsysteem:** bouw geen aangepaste componenten door auteurs toe te staan verschillende stijlen op  [hen ](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/style-system.html) toe te passen.
 * **Front-End Build:** Front-end ontwikkelaars kunnen  [AEM ](uifrontend.md#webpack-dev-server) pagina&#39;s modelleren en  [clientbibliotheken ](uifrontend.md) bouwen met Webpack, TypeScript en SASS.
-* **WebApp-Ready:** Voor sites die  [](uifrontend-react.md) Reactor  [Hoekig](uifrontend-angular.md) gebruiken, gebruikt u de  [SPA ](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/developing.html) SDK om het  [in-context schrijven van de app](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html) te behouden.
+* **WebApp-Ready:** Voor sites die  [](uifrontend-react.md) Reactor- [Angular](uifrontend-angular.md) gebruiken, gebruikt u de  [SPA ](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/developing.html) SDK om het  [in-context schrijven van de app](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html) te behouden.
 * **Handel ingeschakeld:** voor projecten die  [AEM ](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/commerce/home.html) Handel met handelsoplossingen zoals  [](https://magento.com/) Magentousing willen integreren de Componenten [ van de Kern van de ](https://github.com/adobe/aem-core-cif-components)Handel.
 * **Voorbeeldcode:** Uitchecken van de component HelloWorld en de voorbeeldmodellen, servlets, filters en planners.
 * **Open Bronced:** Als iets anders is dan zou moeten,  [](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) levert dit uw verbeteringen op!
