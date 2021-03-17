@@ -2,7 +2,7 @@
 title: Projectarchetype AEM
 description: Een projectmalplaatje voor op AEM gebaseerde toepassingen
 translation-type: tm+mt
-source-git-commit: 794408e8b643de2234664e69e59e1108cf286cd7
+source-git-commit: 4ea3f1da41d9dd63707135c9eb9466c31d3dbe51
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 3%
@@ -53,7 +53,7 @@ Om een project te produceren, pas de volgende bevellijn aan uw behoeften aan:
 mvn -B archetype:generate \
  -D archetypeGroupId=com.adobe.aem \
  -D archetypeArtifactId=aem-project-archetype \
- -D archetypeVersion=24 \
+ -D archetypeVersion=26 \
  -D appTitle="My Site" \
  -D appId="mysite" \
  -D groupId="com.mysite" \
@@ -95,7 +95,7 @@ De afhankelijkheid van kerncomponenten wordt alleen toegevoegd voor versies met 
 
 | Archetype | AEM as a Cloud Service | AEM 6,5 | AEM 6,4 | Java SE | Maven |
 |---------|---------|---------|---------|---------|---------|
-| [24](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-24) | Continu | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
+| [26](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-26) | Continu | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
 
 Stel uw lokale ontwikkelomgeving in voor [AEM als Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) of voor [oudere versies van AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
