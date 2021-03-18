@@ -1,10 +1,11 @@
 ---
 title: Containercomponent
 description: Met de component Core Component Container kunt u een container maken voor meerdere aanvullende componenten op een pagina.
+role: Architect, ontwikkelaar, beheerder, praktijkgerichte
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '797'
 ht-degree: 1%
 
 ---
