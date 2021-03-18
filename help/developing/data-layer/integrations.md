@@ -1,10 +1,12 @@
 ---
 title: Integratie en de Adobe Client Data Layer
 description: Leer hoe de Adobe Client Data Layer kan worden geïntegreerd met uw aangepaste componenten en hoe integratie met Adobe Analytics en Adobe Target u kan helpen inzicht in uw website te krijgen
+feature: Core Components, Adobe Client Data Layer
+role: Architect, ontwikkelaar, beheerder
 translation-type: tm+mt
-source-git-commit: ea7a0e08ea1b769b400fce275c8ce7e0db6f9407
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
