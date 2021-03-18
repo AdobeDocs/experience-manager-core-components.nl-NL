@@ -1,10 +1,11 @@
 ---
 title: Basiscomponenten ontwikkelen
 description: De componenten van de Kern verstrekken robuuste en verlengbare basiscomponenten die eigenschap-rijke mogelijkheden, ononderbroken levering, componentenversioning, moderne implementatie, leuning prijsverhoging, en JSON de uitvoer van inhoud aanbieden.
+role: Architect, ontwikkelaar, beheerder
 translation-type: tm+mt
-source-git-commit: d2e69e5657ed32cc0579579df49ee083212b9333
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1445'
 ht-degree: 2%
 
 ---
@@ -58,7 +59,7 @@ Voor meer informatie over het gebruik van deze hulpmiddelen, [zie hun documentat
 
 De Componenten van de kern zijn een integraal deel van AEM en gesteund zoals is, onder de zelfde voorwaarden alsof zij als deel van Quickstart werden geleverd.
 
-De algemene regel is, net als andere AEM productkenmerken: Componenten worden eerst aangekondigd te worden vervangen en de oudste verwijderd voor de volgende AEM. Dit geeft klanten minstens één versiecyclus om naar de nieuwe versie van de component te bewegen, alvorens zijn steun te laten vallen.
+Net als andere AEM productkenmerken is de algemene regel: Componenten worden eerst aangekondigd te worden vervangen en de oudste verwijderd voor de volgende AEM. Dit geeft klanten minstens één versiecyclus om naar de nieuwe versie van de component te bewegen, alvorens zijn steun te laten vallen.
 
 In de versie van elke component worden duidelijk de AEM versies vermeld die worden ondersteund. Wanneer de steun voor een versie van AEM beëindigt, dan ook de steun van de Componenten van de Kern voor die versie van AEM.
 
