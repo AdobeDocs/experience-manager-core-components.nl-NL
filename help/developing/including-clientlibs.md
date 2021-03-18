@@ -1,10 +1,11 @@
 ---
 title: Inclusief clientbibliotheken
 description: Afhankelijk van uw gebruiksscenario zijn er verschillende manieren om clientbibliotheken op te nemen.
+role: Architect, ontwikkelaar, beheerder
 translation-type: tm+mt
-source-git-commit: afce571ada011c38c83830628f09a9e268658965
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '397'
 ht-degree: 2%
 
 ---
