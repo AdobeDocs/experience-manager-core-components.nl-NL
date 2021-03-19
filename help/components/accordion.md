@@ -1,10 +1,11 @@
 ---
 title: Accordion-component
 description: Met de component Core Component Accordion kunt u een verzameling deelvensters maken die zijn gerangschikt in een accordeon op een pagina.
+role: Architect, ontwikkelaar, beheerder, praktijkgerichte
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1072'
 ht-degree: 1%
 
 ---
