@@ -1,10 +1,12 @@
 ---
 title: Het gebruiken van het AEM Project Archetype
 description: Gedetailleerde gebruiksinstructies voor het AEM Project Archetype
+feature: Core Components, AEM Project Archetype
+role: Architect, ontwikkelaar, beheerder
 translation-type: tm+mt
-source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '2064'
+source-wordcount: '2072'
 ht-degree: 0%
 
 ---
@@ -39,7 +41,7 @@ Het AEM Archetype bestaat uit modules:
 * **ui.config**: bevat runtime-specifieke OSGi vormen voor het project.
 * **[ui.frontend.general](uifrontend.md)**:  **(facultatief)** bevat de artefacten die worden vereist om de algemene Web-pack-gebaseerde voorste-eind bouwstijlmodule te gebruiken.
 * **[ui.frontend.response](uifrontend-react.md)**:  **(facultatief)** bevat de artefacten die wanneer het gebruiken van archetype worden vereist om tot SPA projecten te leiden die op React worden gebaseerd.
-* **[ui.frontend.angular](uifrontend-angular.md)**:  **(facultatief)** bevat de artefacten die wanneer het gebruiken van archetype worden vereist om een SPA tot stand te brengen die op Hoekig worden gebaseerd.
+* **[ui.frontend.angular](uifrontend-angular.md)**:  **(facultatief)** bevat de artefacten die wanneer het gebruiken van archetype worden vereist om tot SPA projecten te leiden die op Angular worden gebaseerd.
 * **[ui.tests](uitests.md)**: bevat op selenium gebaseerde UI-tests.
 * **alle**: is één enkel inhoudspakket dat alle gecompileerde modules (bundels en inhoudspakketten) met inbegrip van om het even welke verkopersgebiedsdelen inbedt.
 * **analyseren**: stelt analyse op het project in werking, dat extra bevestiging voor het opstellen in AEM als Cloud Service verstrekt.
