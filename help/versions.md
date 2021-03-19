@@ -1,10 +1,11 @@
 ---
 title: Core Components-versies
 description: De Componenten van de kern worden gepubliceerd als versies die meer dan één versie van de zelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies beschikbaar zijn en hoe u de compatibiliteit met Core Components en AEM begrijpt.
+role: Architect, ontwikkelaar, beheerder, praktijkgerichte
 translation-type: tm+mt
-source-git-commit: 3c5749d6660af1ad94f4911f261951e0369fa139
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '1976'
 ht-degree: 11%
 
 ---
