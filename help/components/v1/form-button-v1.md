@@ -2,10 +2,11 @@
 title: Component Formulierknop (v1)
 description: Met de component Core Component Form Hidden kunt u een verborgen veld in een formulier opnemen.
 index: n
+role: Architect, ontwikkelaar, beheerder, praktijkgerichte
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '347'
 ht-degree: 2%
 
 ---
