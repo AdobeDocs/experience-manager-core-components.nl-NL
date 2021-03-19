@@ -1,10 +1,11 @@
 ---
 title: Component lijst met inhoudsfragmenten
 description: Met de component Lijst met inhoudfragmenten van de kerncomponent kunt u een lijst met inhoudsfragmenten weergeven.
+role: Architect, ontwikkelaar, beheerder, praktijkgerichte
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -51,7 +52,7 @@ In het dialoogvenster voor configureren kan de auteur van de inhoud definiëren 
 
 Het tabblad **Eigenschappen** definieert welke inhoudsfragmenten in de lijst worden opgenomen. Dit is voornamelijk gebaseerd op een geselecteerd inhoudsfragmentmodel, maar er zijn andere filteropties beschikbaar.
 
-![Het tabblad Eigenschappen van het dialoogvenster Bewerken van de component Lijst met inhoudsfragmenten](/help/assets/content-fragment-list-properties.png)
+![Het tabblad Eigenschappen van het dialoogvenster Bewerken van de component Lijst van inhoudsfragmenten](/help/assets/content-fragment-list-properties.png)
 
 * **Model**  - Pad naar het model van het inhoudsfragment waarop de lijst is gebaseerd.
    * Standaard worden alle inhoudsfragmenten van het model dat is gedefinieerd als **Model-pad** opgenomen in de lijst.
