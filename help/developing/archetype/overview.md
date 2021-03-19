@@ -1,10 +1,12 @@
 ---
 title: Projectarchetype AEM
 description: Een projectmalplaatje voor op AEM gebaseerde toepassingen
+feature: Core Components, AEM Project Archetype
+role: Architect, ontwikkelaar, beheerder
 translation-type: tm+mt
-source-git-commit: 4ea3f1da41d9dd63707135c9eb9466c31d3dbe51
+source-git-commit: 0e737fc766225e00c6d9f5a4c2240e05b49a9a62
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1043'
 ht-degree: 3%
 
 ---
