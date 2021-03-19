@@ -1,10 +1,11 @@
 ---
 title: Localisatiefuncties van de kerncomponenten
 description: Localisatiefuncties van de kerncomponenten
+role: Architect, ontwikkelaar, beheerder, praktijkgerichte
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
@@ -67,7 +68,7 @@ De Core Components kunnen via de gespiegelde lokalisatiestructuur de vereiste ge
 
 De Experience Fragment-component is zeer flexibel en goed geschikt voor een paginakop of -voettekst.
 
-Omdat onze hypothetische website in het Engels en Frans wordt aangeboden, zullen wij twee Fragments van de Ervaring moeten tot stand brengen, allebei genoemd `footer` [op de plaatsen die wij eerder beschreven.](#content-structure)
+Omdat onze hypothetische website in het Engels en Frans wordt aangeboden, zullen wij twee Fragments van de Ervaring moeten creëren, allebei genoemd `footer` [op de plaatsen die wij eerder beschreven.](#content-structure)
 
 ![](/help/assets/screen-shot-2019-09-09-11.08.28.png)
 
