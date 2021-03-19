@@ -1,10 +1,11 @@
 ---
 title: Kerncomponenten aanpassen
 description: De componenten van de Kern voeren verscheidene patronen uit die gemakkelijke aanpassing, van eenvoudig het stileren aan geavanceerd functionaliteit hergebruik toestaan.
+role: Architect, ontwikkelaar, beheerder
 translation-type: tm+mt
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1109'
 ht-degree: 1%
 
 ---
