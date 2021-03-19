@@ -1,10 +1,11 @@
 ---
 title: Component Formulieropties
 description: Met de component Core Component Form Options kunt u vooraf gedefinieerde opties in verschillende indelingen selecteren.
+role: Architect, ontwikkelaar, beheerder, praktijkgerichte
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '550'
 ht-degree: 1%
 
 ---
@@ -12,7 +13,7 @@ ht-degree: 1%
 
 # Component Formulieropties {#form-options-component}
 
-Met de component Core Component Form Options kunt u vooraf gedefinieerde opties in verschillende indelingen selecteren.
+Met de component Formulieropties kerncomponent kunt u vooraf gedefinieerde opties in verschillende indelingen selecteren.
 
 ## Gebruik {#usage}
 
