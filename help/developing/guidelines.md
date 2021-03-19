@@ -1,10 +1,11 @@
 ---
 title: Componentrichtlijnen
 description: De componenten van de Kern volgen moderne implementatiepatronen die vrij verschillend van de stichtingscomponenten zijn.
+role: Architect, ontwikkelaar, beheerder
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1262'
 ht-degree: 1%
 
 ---
@@ -54,7 +55,7 @@ Nochtans, voor de project-specifieke componenten om het even welke code niet te 
 
 ### Componentversie {#component-versioning}
 
-Componenten moeten in de loop der tijd volledig compatibel blijven, maar soms zijn wijzigingen die niet compatibel kunnen worden gehouden noodzakelijk. Één oplossing aan deze tegengestelde behoeften is component het versioning door een aantal in hun middel typepad toe te voegen, en in volledig - gekwalificeerde de klassennamen van Java van hun implementaties te introduceren. Dit versienummer vertegenwoordigt een belangrijke versie zoals die door [semantische versiesrichtlijnen](https://semver.org/) wordt bepaald, die slechts voor veranderingen wordt verhoogd die niet achterwaarts-compatibel zijn.
+Componenten moeten in de loop der tijd volledig compatibel blijven, maar soms zijn wijzigingen die niet compatibel kunnen worden gehouden noodzakelijk. Één oplossing aan deze tegengestelde behoeften is component het versioning door een aantal in hun middeltypepad toe te voegen, en in volledig - gekwalificeerde de klassennamen van Java van hun implementaties te introduceren. Dit versienummer vertegenwoordigt een belangrijke versie zoals die door [semantische versiesrichtlijnen](https://semver.org/) wordt bepaald, die slechts voor veranderingen wordt verhoogd die niet achterwaarts-compatibel zijn.
 
 Niet-compatibele wijzigingen in de volgende aspecten van componenten resulteren in een nieuwe versie ervan:
 
@@ -66,7 +67,7 @@ Niet-compatibele wijzigingen in de volgende aspecten van componenten resulteren 
 
 Voor verdere details, zie [Versioning Beleid](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-Policies) document in GitHub.
 
-Componentversioning creëert een vorm van contract die belangrijk is voor upgrades omdat het duidelijk maakt wanneer iets moet worden vernieuwd. Zie ook de sectie [Compatibiliteit van aanpassingen bijwerken](customizing.md#upgrade-compatibility-of-customizations), die verklaart welke overwegingen verschillende vormen van aanpassingen voor een verbetering vereisen.
+De versioning van de component leidt tot een vorm van contract die voor verbeteringen belangrijk is aangezien het verduidelijkt wanneer iets zou kunnen moeten worden verfrist. Zie ook de sectie [Compatibiliteit van aanpassingen bijwerken](customizing.md#upgrade-compatibility-of-customizations), die verklaart welke overwegingen verschillende vormen van aanpassingen voor een verbetering vereisen.
 
 Om pijnlijke inhoudsmigraties te vermijden, is het belangrijk om aan versioned componenten van inhoudsmiddelen nooit direct te richten. Als regel van duim, moet een `sling:resourceType` van de inhoud nooit een versieaantal in het hebben, of de verbeterende componenten zullen vereisen dat de inhoud wordt verfrist. De beste manier om dit te vermijden is het [hierboven beschreven Patroon van de Component van de Volmacht](#proxy-component-pattern) te volgen.
 
