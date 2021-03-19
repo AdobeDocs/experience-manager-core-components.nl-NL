@@ -1,22 +1,24 @@
 ---
-title: Front-end build voor hoekige SPA
-description: Een beschrijving van het proces van de front-end bouwstijl voor Hoekgebaseerde SPA projecten
+title: Front-end build voor SPA Angular
+description: Een beschrijving van het front-end bouwstijlproces voor op Angular-gebaseerde SPA projecten
+feature: Core Components, AEM Project Archetype
+role: Architect, ontwikkelaar, beheerder
 translation-type: tm+mt
-source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
 
 
-# Front-end build voor hoekige SPA {#frontend-angular}
+# Front-End Build for Angular SPA {#frontend-angular}
 
-In dit document worden de details uitgelegd van het project dat is gemaakt wanneer u het archetype gebruikt om een toepassing van één pagina (SPA) te maken op basis van het hoekframework. D.w.z. wanneer u de optie `frontendModule` op `angular` plaatst.
+In dit document worden de details uitgelegd van het project dat is gemaakt wanneer u het archetype gebruikt om een toepassing van één pagina (SPA) te maken die is gebaseerd op het raamwerk van de Angular. D.w.z. wanneer u de optie `frontendModule` op `angular` plaatst.
 
 ## Overzicht {#overview}
 
-Dit project is opgestart met de [Hoekige CLI](https://github.com/angular/angular-cli).
+Dit project is opgestart met de [Angular CLI](https://github.com/angular/angular-cli).
 
 Deze toepassing is ontworpen om het AEM van een site te gebruiken. De lay-out wordt automatisch gegenereerd met behulp van de helpercomponenten uit het [@adobe/cq-angular-editable-components](https://www.npmjs.com/package/@adobe/cq-angular-editable-components)-pakket.
 
@@ -49,7 +51,7 @@ Als u fouten met betrekking tot CORS krijgt, zou u AEM als volgt kunnen willen v
 npm test
 ```
 
-Met deze opdracht start u de Karma-testruntime. Zie de [Hoekdocumentatie over het uitvoeren van tests](https://angular.io/guide/testing) voor meer informatie.
+Met deze opdracht start u de Karma-testruntime. Zie de [documentatie van de Angular over het runnen van tests](https://angular.io/guide/testing) voor meer informatie.
 
 ### npm run test:debug {#npm-run-test-debug}
 
@@ -65,7 +67,7 @@ Met deze opdracht start u de Karma-testruntime in de interactieve controlemodus.
 npm run build
 ```
 
-Met deze opdracht wordt de app voor productie naar de map build gemaakt. De toepassing bundelt hoekig in de productiemodus en optimaliseert de build voor de beste prestaties. Zie de [Hoekige documentatie over implementatie](https://angular.io/guide/deployment) voor meer informatie.
+Met deze opdracht wordt de app voor productie naar de map build gemaakt. Het bundelt Angular in productiemodus en optimaliseert de build voor de beste prestaties. Zie de [documentatie van de Angular over plaatsing](https://angular.io/guide/deployment) voor meer informatie.
 
 Bovendien wordt uit de toepassing een AEM ClientLib gegenereerd met behulp van het [aem-clientlib-generator](https://github.com/wcm-io-frontend/aem-clientlib-generator)-pakket.
 
