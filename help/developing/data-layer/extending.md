@@ -1,10 +1,12 @@
 ---
 title: De gegevenslaag van de Cliënt van Adobe uitbreiden
 description: De de Gegevens Laag van de Cliënt van Adobe kan na sommige basispatronen worden uitgebreid
+feature: Core Components, Adobe Client Data Layer
+role: Architect, ontwikkelaar, beheerder
 translation-type: tm+mt
-source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
