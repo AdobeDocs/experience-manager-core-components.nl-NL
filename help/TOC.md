@@ -3,8 +3,9 @@ sub-product: AEM kerncomponenten
 user-guide-title: AEM kerncomponenten
 breadcrumb-title: Handleiding voor kerncomponenten
 user-guide-description: Met de uitbreidbare Core Components kunnen auteurs eenvoudig inhoud maken.
+feature-set: Experience Manager Sites
 translation-type: tm+mt
-source-git-commit: f4bed5d9d0f5387259d083fe46220208347052b3
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 2%
