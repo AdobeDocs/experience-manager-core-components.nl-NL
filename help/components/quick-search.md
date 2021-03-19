@@ -1,10 +1,11 @@
 ---
 title: Component Snel zoeken
 description: De component Snel zoeken biedt zoekmogelijkheden voor een website en biedt zoekresultaten zodat bezoekers de site kunnen doorzoeken en de resultaten kunnen filteren.
+role: Architect, ontwikkelaar, beheerder, praktijkgerichte
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '597'
 ht-degree: 1%
 
 ---
@@ -18,7 +19,7 @@ De component Snel zoeken biedt zoekmogelijkheden voor een website en biedt zoekr
 
 Met de component Snel zoeken kunnen sitebezoekers naar inhoud zoeken, de resultaten op hun plaats bekijken en eenvoudig naar de overeenkomende pagina&#39;s navigeren. Nieuwe resultaten worden dynamisch opgehaald terwijl de gebruiker door de zoekresultaten schuift.
 
-In het dialoogvenster [Bewerken](#edit-dialog) kan de auteur van de inhoud definiëren waar in de inhoudsstructuur de zoekopdracht moet beginnen. Met behulp van het [ontwerpdialoogvenster](#design-dialog) kan de sjabloonauteur de standaardwaarde instellen voor de plaats in de inhoudsstructuur waar de zoekopdracht moet beginnen, evenals een maximale ingestelde grootte en minimale lengte van de zoekterm.
+In het dialoogvenster [Bewerken](#edit-dialog) kan de auteur van de inhoud definiëren waar in de inhoudsstructuur de zoekopdracht moet beginnen. Met behulp van het [ontwerpdialoogvenster](#design-dialog) kan de sjabloonauteur de standaardwaarde instellen voor de plaats in de inhoudsstructuur waar de zoekopdracht moet beginnen, evenals een maximale resultaatingestelde grootte en minimale lengte van de zoekterm.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
