@@ -1,10 +1,11 @@
 ---
 title: Component Form Container
 description: Met de Core Component Form Container Component kunnen eenvoudige verzendformulieren worden gemaakt.
+role: Architect, ontwikkelaar, beheerder, praktijkgerichte
 translation-type: tm+mt
-source-git-commit: 499047a8c15a6423a56b370f41fd020740481f80
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '961'
 ht-degree: 0%
 
 ---
@@ -109,7 +110,7 @@ Ongeacht het geselecteerde handelingstype, kan een pagina van dank u altijd word
 ![Algemene opties in het dialoogvenster Bewerken van component Form Container](/help/assets/form-container-edit-general.png)
 
 * **Hartelijk dank, pagina**  - De gebruiker wordt na het verzenden van het formulier omgeleid naar de opgegeven pagina.
-   * Gebruik het dialoogvenster Selectie om een bron binnen AEM te selecteren.
+   * Gebruik het dialoogvenster Selectie om een bron in AEM te selecteren.
    * Geef de absolute URL op als de pagina voor bedankt niet in AEM is. Niet-absolute URL&#39;s worden ten opzichte van AEM geïnterpreteerd.
    * Laat leeg om het formulier na verzending opnieuw weer te geven.
 * **ID**  - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de  [gegevenslaag](/help/developing/data-layer/overview.md).
