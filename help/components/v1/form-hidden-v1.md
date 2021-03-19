@@ -2,10 +2,11 @@
 title: Formulier verborgen component (v1)
 description: Met de component Core Component Form Hidden kunt u een verborgen veld weergeven.
 index: n
+role: Architect, ontwikkelaar, beheerder, praktijkgerichte
 translation-type: tm+mt
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '340'
 ht-degree: 1%
 
 ---
