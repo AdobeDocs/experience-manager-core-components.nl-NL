@@ -3,9 +3,9 @@ title: Pagina-component
 description: De component Pagina is een uitbreidbare paginacomponent die wordt ontworpen om met de malplaatjeredacteur te werken en paginakopbal/footer en structuurcomponenten toe te laten om met de malplaatjedacteur worden samengesteld.
 role: Architect, ontwikkelaar, beheerder, praktijkgerichte
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: fa8ead438093681071b6b6f8ccfbba523f6d3bee
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '696'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Met behulp van het [ontwerpdialoogvenster](#design-dialog) kunnen aangepaste cli
 
 ## Progressieve ondersteuning voor webtoepassingen {#pwa-support}
 
-Versie 2.15.0 van de Componenten van de Kern introduceerde steun voor AEM als ingebouwde de Progressieve eigenschappen van het Web van de Cloud Service (PWA). Met een eenvoudige configuratie op siteniveau verandert u uw AEM in een PWA!
+Versie 2.15.0 van de Componenten van de Kern introduceerde steun voor AEM als ingebouwde [Progressieve eigenschappen van de Web Apps (PWA) van de Cloud Service.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) Met een eenvoudige configuratie op siteniveau verandert u uw AEM in een PWA!
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
