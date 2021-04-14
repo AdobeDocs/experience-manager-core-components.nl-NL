@@ -1,15 +1,15 @@
 ---
 title: Introductie van kerncomponenten
 description: 'De kerncomponenten bieden robuuste en uitbreidbare basiscomponenten die zijn gebaseerd op de nieuwste technologie en best practices. '
-role: Architect, ontwikkelaar, beheerder, praktijkgerichte
+role: Architect, Developer, Administrator, Business Practitioner
+exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 translation-type: tm+mt
-source-git-commit: fa8ead438093681071b6b6f8ccfbba523f6d3bee
+source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '936'
 ht-degree: 3%
 
 ---
-
 
 # Introductie van kerncomponenten{#core-components-introduction}
 
@@ -118,3 +118,9 @@ Voor de vereisten van vorige versies van de Component van de Kern, zie [Versies 
 De Componenten van de Kern vereisen het gebruik van [editable malplaatjes](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) en steunen geen Klassieke UI noch statische malplaatjes. Indien nodig, controleer [AEM ModerniseringsHulpmiddelen](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) om uw project met deze moderne AEM eigenschappen bij te werken.
 
 Als u uw lokale ontwikkelomgeving wilt instellen, raadpleegt u [dit overzicht voor AEM als Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) of dit document [voor oudere versies van AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
+
+>[!TIP]
+>
+>De Core Components maken automatisch deel uit van AEM als Cloud Service en u hebt altijd de nieuwste versie van de Core Components.
+>
+>Zie [Het gebruiken van het document van de Componenten van de Kern](/help/get-started/using.md) voor meer informatie over hoe te beginnen met de Componenten van de Kern zowel in AEMaaCS als op gebouw.
