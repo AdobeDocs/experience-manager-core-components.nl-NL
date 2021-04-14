@@ -1,15 +1,15 @@
 ---
 title: Componentrichtlijnen
 description: De componenten van de Kern volgen moderne implementatiepatronen die vrij verschillend van de stichtingscomponenten zijn.
-role: Architect, ontwikkelaar, beheerder
+role: Architect, Developer, Administrator
+exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1272'
 ht-degree: 1%
 
 ---
-
 
 # Componentrichtlijnen {#component-guidelines}
 
@@ -52,6 +52,10 @@ Om componenten zo herbruikbaar mogelijk te maken, zouden zij van zinvolle opties
 Aangezien elk inhoudsmiddel een `sling:resourceType` bezit heeft dat verwijzingen de component om het terug te geven, is het gewoonlijk goede praktijk om deze eigenschappen te hebben die aan plaats-specifieke componenten richten, in plaats van het richten aan componenten die door veelvoudige plaatsen worden gedeeld. Dit zal meer flexibiliteit aanbieden en inhoud het refactoring vermijden als één plaats een verschillend gedrag voor een component nodig heeft, omdat deze aanpassing dan op de plaats-specifieke component kan worden bereikt en niet de andere plaatsen zal beïnvloeden.
 
 Nochtans, voor de project-specifieke componenten om het even welke code niet te dupliceren, zouden zij elk naar de gedeelde oudercomponent met het `sling:resourceSuperType` bezit moeten verwijzen. Deze project-specifieke componenten die het meest enkel naar oudercomponenten verwijzen worden genoemd &quot;volmachtscomponenten&quot;. Proxycomponenten kunnen volledig leeg zijn als ze de functionaliteit volledig overnemen of als ze bepaalde aspecten van de component opnieuw kunnen definiëren.
+
+>[!TIP]
+>
+>Zie [Core Components](/help/get-started/using.md#create-proxy-components) gebruiken voor meer informatie over hoe te om volmachtscomponenten tot stand te brengen.
 
 ### Componentversie {#component-versioning}
 
