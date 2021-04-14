@@ -1,15 +1,15 @@
 ---
 title: Basiscomponenten ontwikkelen
 description: De componenten van de Kern verstrekken robuuste en verlengbare basiscomponenten die eigenschap-rijke mogelijkheden, ononderbroken levering, componentenversioning, moderne implementatie, leuning prijsverhoging, en JSON de uitvoer van inhoud aanbieden.
-role: Architect, ontwikkelaar, beheerder
+role: Architect, Developer, Administrator
+exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: b01fdc7ab6b4d4bb4200d28aaa3706c58ccdea9f
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1591'
 ht-degree: 2%
 
 ---
-
 
 # Kerncomponenten ontwikkelen {#developing-core-components}
 
@@ -40,7 +40,9 @@ De kerncomponenten zijn krachtig, flexibel en gebruiksvriendelijk. [Op basis van
 
 Om het even welk nieuw project zou met de Componenten van de Kern moeten worden uitgevoerd. Nochtans zullen de bestaande projecten gewoonlijk uitgebreide implementaties van de Componenten van de Stichting hebben.
 
-Een grotere inspanning op een bestaand project (bijvoorbeeld rebranding of het algemene refactoring) biedt vaak een kans om aan de Componenten van de Kern te migreren. Om deze migratie te vergemakkelijken, heeft Adobe een aantal migratiehulpmiddelen verstrekt om de goedkeuring van de Componenten van de Kern en de recentste AEM aan te moedigen.
+### Migreren van stichtingscomponenten {#from-foundation}
+
+Een grotere inspanning op een bestaand project (bijvoorbeeld rebranding of het algemene refactoring) biedt vaak een kans om aan de Componenten van de Kern te migreren. Om deze migratie te vergemakkelijken, heeft Adobe een aantal migratiehulpmiddelen verstrekt om de goedkeuring van de Componenten van de Kern en de recentste AEM technologie te bevorderen.
 
 [De ](http://opensource.adobe.com/aem-modernize-tools/) Toolsallow van de Modernisering van de AEM voor de gemakkelijke omzetting van:
 
@@ -55,11 +57,28 @@ Voor meer informatie over het gebruik van deze hulpmiddelen, [zie hun documentat
 >
 >De AEM Moderniseren Hulpmiddelen zijn een communautaire inspanning en niet gesteund of door Adobe gewaarborgd.
 
+## Migratie via Verplaatsen naar AEM als Cloud Service {#via-aemaacs}
+
+Omdat AEM als Cloud Service automatisch met de recentste versie van de Componenten van de Kern komt, wanneer u zich van een op-gebouw AEM installatie beweegt, zult u om het even welke gebiedsdeel aan de Componenten van de Kern in uw projecten `pom.xml` dossier moeten verwijderen.
+
+Uw proxycomponenten werken nog steeds zoals voorheen, omdat   proxy&#39;s verwijzen naar het vereiste supertype en het supertekstpad heeft de versie erin. Op deze manier, eenvoudig het verwijderen van de gebiedsdelen laat de Componenten van de Kern toe om in AEMaaCS te werken enkel zoals zij op-gebouw deden.
+
+Net als bij elk ander AEMaaCS-project moet u ook een afhankelijkheid toevoegen aan de AEM SDK-jar. Dit is niet specifiek voor de Core Components, maar is vereist.
+
+```xml
+<dependency>
+   <groupId>com.adobe.aem</groupId>
+   <artifactId>aem-sdk-api</artifactId>
+</dependency>
+```
+
+Zie het document [AEM Projectstructuur](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) voor meer informatie over projecten AEMaaCS.
+
 ## Ondersteuning voor kerncomponenten {#core-component-support}
 
 De Componenten van de kern zijn een integraal deel van AEM en gesteund zoals is, onder de zelfde voorwaarden alsof zij als deel van Quickstart werden geleverd.
 
-Net als andere AEM productkenmerken is de algemene regel: Componenten worden eerst aangekondigd te worden vervangen en de oudste verwijderd voor de volgende AEM. Dit geeft klanten minstens één versiecyclus om naar de nieuwe versie van de component te bewegen, alvorens zijn steun te laten vallen.
+De algemene regel is, net als andere AEM productkenmerken: Componenten worden eerst aangekondigd te worden vervangen en de oudste verwijderd voor de volgende AEM. Dit geeft klanten minstens één versiecyclus om naar de nieuwe versie van de component te bewegen, alvorens zijn steun te laten vallen.
 
 In de versie van elke component worden duidelijk de AEM versies vermeld die worden ondersteund. Wanneer de steun voor een versie van AEM beëindigt, dan ook de steun van de Componenten van de Kern voor die versie van AEM.
 
