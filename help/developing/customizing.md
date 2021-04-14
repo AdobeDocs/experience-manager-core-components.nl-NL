@@ -1,15 +1,15 @@
 ---
 title: Kerncomponenten aanpassen
 description: De componenten van de Kern voeren verscheidene patronen uit die gemakkelijke aanpassing, van eenvoudig het stileren aan geavanceerd functionaliteit hergebruik toestaan.
-role: Architect, ontwikkelaar, beheerder
+role: Architect, Developer, Administrator
+exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1106'
 ht-degree: 1%
 
 ---
-
 
 # Kerncomponenten aanpassen{#customizing-core-components}
 
@@ -105,7 +105,7 @@ Voor verdere details over het delegatiepatroon zie het artikel van GitHub Wiki v
 
 Soms is voor geavanceerde opmaak een andere markeringsstructuur van de component vereist.
 
-Dit kan gemakkelijk worden gedaan door de HTML- dossiers te kopiëren die van de Component van de Kern in de volmachtscomponent moeten worden gewijzigd.
+Dit kan gemakkelijk worden gedaan door de HTML- dossiers te kopiëren die van de Component van de Kern in [volmachtscomponent moeten worden gewijzigd.](guidelines.md#proxy-component-pattern)
 
 Als u het voorbeeld van de Core Breadcrumb-component nogmaals gebruikt en de markeringsuitvoer ervan wilt aanpassen, moet het `breadcrumb.html`-bestand worden gekopieerd naar de sitespecifieke component met een `sling:resourceSuperTypes` die naar de Core Breadcrumb-component wijst.
 
