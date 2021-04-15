@@ -1,15 +1,15 @@
 ---
 title: Component Snel zoeken
 description: De component Snel zoeken biedt zoekmogelijkheden voor een website en biedt zoekresultaten zodat bezoekers de site kunnen doorzoeken en de resultaten kunnen filteren.
-role: Architect, ontwikkelaar, beheerder, praktijkgerichte
+role: Architect, Developer, Administrator, Business Practitioner
+exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 72b8864a5dca24b938cecd808ab4cdededb1abec
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '614'
 ht-degree: 1%
 
 ---
-
 
 # Quick Search-component {#quick-search-component}
 
@@ -54,6 +54,10 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud definiëren waar in d
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
+
+>[!NOTE]
+>
+>Als **Zoekbasis** niet is geconfigureerd of niet kan worden opgelost, wordt standaard onder de huidige pagina gezocht in de Snelle zoekopdracht.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
