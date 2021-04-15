@@ -4,7 +4,7 @@ description: De component Snel zoeken biedt zoekmogelijkheden voor een website e
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 translation-type: tm+mt
-source-git-commit: 72b8864a5dca24b938cecd808ab4cdededb1abec
+source-git-commit: 6eff0c8584605e034fc6516416783715fce10095
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 1%
@@ -50,7 +50,7 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud definiëren waar in d
 ![Dialoogvenster Snel zoeken in component bewerken](/help/assets/quick-search-edit.png)
 
 **Hoofdmap**  zoeken - De hoofdpagina vanaf waar de zoekopdracht moet worden gestart. De hoofdmap van de zoekopdracht kan een master, master of reguliere pagina met een blauwdruk zijn.
-* **ID**  - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de  [gegevenslaag](/help/developing/data-layer/overview.md).
+* **ID**  - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de  [gegevenslaag.](/help/developing/data-layer/overview.md)
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
