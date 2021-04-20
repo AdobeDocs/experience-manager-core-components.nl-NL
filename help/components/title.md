@@ -1,7 +1,7 @@
 ---
 title: Component Title
 description: De component van de Titel van de Component van de Kern is een component van de sectiekop die op zijn plaats het uitgeven kenmerkt.
-role: Architect, ontwikkelaar, beheerder, praktijkgerichte
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

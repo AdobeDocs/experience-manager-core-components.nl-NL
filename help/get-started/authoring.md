@@ -1,7 +1,7 @@
 ---
 title: Ontwerpen met kerncomponenten
 description: In AEM, zijn de componenten de structurele elementen die de inhoud van de pagina's vormen die worden ontworpen - de Componenten van de Kern bieden flexibele en eigenschap-rijke auteursfunctionaliteit aan.
-role: Architect, ontwikkelaar, beheerder, praktijkgerichte
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

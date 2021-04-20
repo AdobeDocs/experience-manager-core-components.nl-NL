@@ -2,7 +2,7 @@
 title: it.tests Module van AEM Project Archetype
 description: Hoe te om de Tests van de Integratie van de Archetype van het AEM te gebruiken
 feature: Core Components, AEM Project Archetype
-role: Architect, ontwikkelaar, beheerder
+role: Architect, Developer, Administrator
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

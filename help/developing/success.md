@@ -1,7 +1,7 @@
 ---
 title: Paden naar succes met de kerncomponenten
 description: Hoe kan ik slagen wanneer u uw project implementeert met de Core Components
-role: Architect, ontwikkelaar, beheerder, praktijkgerichte
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

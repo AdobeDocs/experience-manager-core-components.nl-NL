@@ -2,7 +2,7 @@
 title: Lijstcomponent (v1)
 description: De component van de Lijst van de Component van de Kern staat voor de gemakkelijke verwezenlijking van dynamische en statische lijsten toe.
 index: n
-role: Architect, ontwikkelaar, beheerder, praktijkgerichte
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

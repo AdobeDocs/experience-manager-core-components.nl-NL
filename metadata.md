@@ -1,7 +1,7 @@
 ---
 product: adobe experience manager
 solution: Experience Manager Sites
-type: Documentatie
+type: Documentation
 description: Documentatie voor de Adobe Experience Manager Core-componenten
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-core-components.nl-NL
 index: y

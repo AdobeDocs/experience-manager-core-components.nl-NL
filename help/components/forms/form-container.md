@@ -1,7 +1,7 @@
 ---
 title: Component Form Container
 description: Met de Core Component Form Container Component kunnen eenvoudige verzendformulieren worden gemaakt.
-role: Architect, ontwikkelaar, beheerder, praktijkgerichte
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

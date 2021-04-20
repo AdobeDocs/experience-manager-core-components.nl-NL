@@ -2,7 +2,7 @@
 title: Het gebruiken van de Laag van de Gegevens van de Cliënt van Adobe met de Componenten van de Kern
 description: Het gebruiken van de Laag van de Gegevens van de Cliënt van Adobe met de Componenten van de Kern
 feature: Core Components, Adobe Client Data Layer
-role: Architect, ontwikkelaar, beheerder
+role: Architect, Developer, Administrator
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
