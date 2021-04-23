@@ -5,9 +5,9 @@ breadcrumb-title: Handleiding voor kerncomponenten
 user-guide-description: Met de uitbreidbare Core Components kunnen auteurs eenvoudig inhoud maken.
 feature-set: Experience Manager Sites
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 74cbb94c35e7b62332f88245ed48c72d1ac07796
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '216'
 ht-degree: 2%
 
 ---
@@ -92,3 +92,4 @@ ht-degree: 2%
       + [ui.test-module](developing/archetype/uitests.md)
       + [it.tests Module](developing/archetype/ittests.md)
       + [Insteekmodule voor analyse van build](developing/archetype/build-analyzer-maven-plugin.md)
++ [Verborgen pagina](hidden.md)
