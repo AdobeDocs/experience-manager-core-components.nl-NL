@@ -2,14 +2,14 @@
 title: Paden naar succes met de kerncomponenten
 description: Hoe kan ik slagen wanneer u uw project implementeert met de Core Components
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 056c5bc15ac9e669c3bf6d5da7f060d6eef02608
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
-
 
 # Paden naar succes met de Core Components {#paths-to-success}
 
@@ -41,7 +41,7 @@ Verwijs [Component Library](https://adobe.com/go/aem_cmp_library) reeds in de on
 
 ### De UI-kit voor Adobe XD gebruiken {#ui-kit}
 
-Zodra er een aantoonbare behoefte aan een douanecomponent is, hefboomwerking de [UI uitrusting voor Adobe XD](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) zodat de ontwerpers kunnen beginnen draadframes en de ontwerpen met de Componenten van de Kern als bouwstenen te bouwen.
+Zodra er een aantoonbare behoefte aan een douanecomponent is, hefboomwerking de [UI uitrusting voor Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) zodat de ontwerpers kunnen beginnen draadframes en de ontwerpen met de Componenten van de Kern als bouwstenen te bouwen.
 
 ## Laat krachtige functies {#powerful-features} niet over
 
@@ -59,4 +59,4 @@ Als een auteur onderdelen (een fragment van een ervaring) van een pagina opnieuw
 
 ### De component Embed {#embed-component}
 
-[Met de ](/help/components/embed.md) component Embed kunt u niet alleen externe bronnen, zoals YouTube-video-inhoud, opnemen, maar ook inhoud die specifiek is voor de behoeften van een project uitbreiden.
+[Met de ](/help/components/embed.md) component Embed kunt u niet alleen eenvoudig externe bronnen, zoals YouTube-video-inhoud, opnemen, maar kunt u deze ook uitbreiden om inhoud die specifiek is voor de behoeften van een project, te kunnen bevatten.
