@@ -3,9 +3,9 @@ title: Core Components-versies
 description: De Componenten van de kern worden gepubliceerd als versies die meer dan één versie van de zelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies beschikbaar zijn en hoe u de compatibiliteit met Core Components en AEM begrijpt.
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 46d97324ed1b903c315725429fe36b11a1856aa9
+source-git-commit: 6dc5c5959410f643ff169989d4d98c6f65f98076
 workflow-type: tm+mt
-source-wordcount: '2067'
+source-wordcount: '2072'
 ht-degree: 11%
 
 ---
@@ -26,10 +26,10 @@ De volgende lijst, waarvan de inhoud [beschikbaar op GitHub met volledige versie
 
 | Geen | Beschrijving | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service | Java | Releasedatum |
 |---|---|---|---|---|---|---|
-| [2.16.2.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | Dit was een flardversie om kwesties met betrekking tot de Handler van de Verbinding te bevestigen. Ook aan PWA zijn kleine verbeteringen aangebracht. | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 15 mei 2021 |
+| [2.16.2.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | Dit was een flardversie hoofdzakelijk die een kwestie met de nieuwe manager van de Verbinding verhelpen en een verhoging toevoegde om multi-page toepassingen voor [PWA te steunen.](/help/components/page.md#pwa-support) | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 15 mei 2021 |
 | [2.16.0.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.0) | Deze versie concentreerde zich op toegankelijkheidsverbeteringen en introduceerde een nieuwe Handler van de Verbinding aan bestaande componenten. | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 22 april 2021 |
 | [2.15.2.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.2) | Dit was een patchrelease die voornamelijk problemen oplost met [Gegevenslaag](/help/developing/data-layer/overview.md) achterwaartse compatibiliteit en IT-tests die in bepaalde situaties mislukken. | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 16 maart 2021 |
-| [2.15.0.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | Deze release bevat ondersteuning voor progressieve webapps in de [Paginacomponent](/help/components/page.md) en ondersteunt versie 2.0.0 van de [gegevenslaag Adobe.](/help/developing/data-layer/overview.md) | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 23 februari 2021 |
+| [2.15.0.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | Deze release bevat ondersteuning voor [progressieve web-apps (PWA) in de Page Component](/help/components/page.md#pwa-support) en ondersteunt versie 2.0.0 van de [Adobe-gegevenslaag.](/help/developing/data-layer/overview.md) | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 23 februari 2021 |
 | [2.14.0.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | Deze release bevat nieuwe opties voor de [Ingesloten component](/help/components/embed.md) en introduceert de Merk Slug op het [page](/help/components/page.md)-niveau en het aanpakken van vele problemen. | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 9 februari 2021 |
 | [2.13.2.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | Dit was een flardversie richtend een kwestie met RTE wanneer gebruikt op AEMaaCS | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 16 december 2020 |
 | [2.13.0.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | Deze release bevat nieuwe Dynamic Media-functies voor de [Afbeeldingscomponent.](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 4 december 2020 |
