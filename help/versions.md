@@ -3,17 +3,16 @@ title: Core Components-versies
 description: De Componenten van de kern worden gepubliceerd als versies die meer dan één versie van de zelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies beschikbaar zijn en hoe u de compatibiliteit met Core Components en AEM begrijpt.
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-translation-type: tm+mt
-source-git-commit: f151a70c5ff7db042d4e10adc7ed8a9752ea9c87
+source-git-commit: 46d97324ed1b903c315725429fe36b11a1856aa9
 workflow-type: tm+mt
-source-wordcount: '2034'
+source-wordcount: '2067'
 ht-degree: 11%
 
 ---
 
 # Core Components Versies {#core-components-versions}
 
-De huidige versie van de Core Components is 2.16.0 en is compatibel met [AEM als Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) en [on-premise AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) installaties.
+De huidige versie van de Core Components is 2.16.2 en is compatibel met [AEM als Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) en [on-premise AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) installaties.
 
 ## Historie en compatibiliteit {#release-history-and-compatibility} opheffen
 
@@ -27,6 +26,7 @@ De volgende lijst, waarvan de inhoud [beschikbaar op GitHub met volledige versie
 
 | Geen | Beschrijving | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service | Java | Releasedatum |
 |---|---|---|---|---|---|---|
+| [2.16.2.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | Dit was een flardversie om kwesties met betrekking tot de Handler van de Verbinding te bevestigen. Ook aan PWA zijn kleine verbeteringen aangebracht. | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 15 mei 2021 |
 | [2.16.0.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.0) | Deze versie concentreerde zich op toegankelijkheidsverbeteringen en introduceerde een nieuwe Handler van de Verbinding aan bestaande componenten. | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 22 april 2021 |
 | [2.15.2.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.2) | Dit was een patchrelease die voornamelijk problemen oplost met [Gegevenslaag](/help/developing/data-layer/overview.md) achterwaartse compatibiliteit en IT-tests die in bepaalde situaties mislukken. | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 16 maart 2021 |
 | [2.15.0.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | Deze release bevat ondersteuning voor progressieve webapps in de [Paginacomponent](/help/components/page.md) en ondersteunt versie 2.0.0 van de [gegevenslaag Adobe.](/help/developing/data-layer/overview.md) | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 23 februari 2021 |
@@ -116,7 +116,7 @@ De ontwikkelaars en de beheerders kunnen versies van de kerncomponenten door een
 
 Raadpleeg de [documentatie voor ontwikkelaars van Core Components](developing/guidelines.md) voor meer informatie over kerncomponentversies.
 
-### {#releases} wordt vrijgegeven
+### Uitstoot {#releases}
 
 De kerncomponenten worden ter beschikking gesteld door **releases** en [vertegenwoordigen de daadwerkelijke gepubliceerde artefacten beschikbaar op GitHub](https://github.com/adobe/aem-core-wcm-components/releases). De versies worden aangegeven met een decimaal aantal van formaat X.Y.Z en verzamelen alle kerncomponenten samen als te leveren pakket.
 
