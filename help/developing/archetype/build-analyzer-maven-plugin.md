@@ -3,14 +3,13 @@ title: AEM als Cloud Service SDK Build Analyzer Maven Plugin
 description: Documentatie voor de lokale Maven-plug-in voor analyseprogramma's
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+exl-id: de26b310-a294-42d6-a0db-91f6036a328c
+source-git-commit: de1bb63dc965e6674652bc3e61b515f8f045c6bc
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 3%
+source-wordcount: '510'
+ht-degree: 4%
 
 ---
-
 
 # AEM als Cloud Service SDK Build Analyzer Maven Plugin {#maven-analyzer-plugin}
 
@@ -21,6 +20,8 @@ Zie de [documentatie van de Geweven Insteekmodule](https://github.com/adobe/aema
 >[!NOTE]
 >
 >U wordt aangeraden uw Maven-project bij te werken en te verwijzen naar de meest recente versie van de plug-in in de Maven Central-opslagplaats, op deze locatie: https://repo1.maven.org/maven2/com/adobe/aem/aemanalyser-maven-plugin/
+
+De insteekmodule gebruikt de nieuwste beschikbare SDK in plaats van de SDK die in het project is geconfigureerd.
 
 Hieronder ziet u een tabel met een beschrijving van de analyseapparaten die als onderdeel van deze stap worden uitgevoerd. <!-- Note that some are executed in the local SDK, while others are only executed during the Cloud Manager pipeline deployment. -->
 
@@ -34,3 +35,6 @@ Hieronder ziet u een tabel met een beschrijving van de analyseapparaten die als 
 | `api-regions-crossfeature-dups` | Valideert dat de klant-OSGI-pakketten geen declaraties voor het exporteren hebben die AEM als openbare API van een Cloud Service overschrijven<p> </p>`[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Package overlap found between region global and bundle org.acme:mybundle:0.0.1.SNAPSHOT which comes from feature: [org.acme:myproject.analyse:slingosgifeature:0.0.1-SNAPSHOT]. Both export package: com.day.util`<p> </p>U kunt een pakket dat deel uitmaakt van de openbare API van de AEM niet meer exporteren. | Ja | Ja |
 | `repoinit` | Controleert de syntaxis van alle opnieuw aanwijssecties | Ja | Ja |
 | `bundle-nativecode` | Valideert dat OSGI-bundels geen native code installeren. | Ja | Ja |
+| `configuration-api` | Valideert belangrijke OSGi-configuraties. <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | Ja | Ja |
+| `region-deprecated-api` | Controleert of [afgekeurde api](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html) wordt gebruikt <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Ja | Ja |
+
