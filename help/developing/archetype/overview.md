@@ -4,21 +4,20 @@ description: Een projectmalplaatje voor op AEM gebaseerde toepassingen
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Administrator
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-translation-type: tm+mt
-source-git-commit: 32679158dd71c361f01904b4462a6ec8b33d305c
+source-git-commit: 8b3f98d5087ddca6928950daf2db1eb7728fa44e
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 3%
+source-wordcount: '1111'
+ht-degree: 2%
 
 ---
 
-# Projectarchetype {#aem-project-archetype} AEM
+# Projectarchetype AEM {#aem-project-archetype}
 
 Het AEM Project Archetype is een Geweven malplaatje dat tot een minimaal, op best-praktijken-gebaseerd Adobe Experience Manager (AEM) project als uitgangspunt voor uw website leidt.
 
 >[!TIP]
 >
->Het recentste AEM Archetype van het Project [kan op GitHub](https://github.com/adobe/aem-project-archetype) worden gevonden.
+>Het recentste AEM Archetype van het Project [kan op GitHub worden gevonden.](https://github.com/adobe/aem-project-archetype)
 
 ## Bronnen {#resources}
 
@@ -47,7 +46,7 @@ Het AEM Project Archetype is een Geweven malplaatje dat tot een minimaal, op bes
 * **Voorbeeldcode:** Uitchecken van de component HelloWorld en de voorbeeldmodellen, servlets, filters en planners.
 * **Open Bronced:** Als iets anders is dan zou moeten,  [](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) levert dit uw verbeteringen op!
 
-## Gebruik
+## Gebruik {#usage}
 
 Om een project te produceren, pas de volgende bevellijn aan uw behoeften aan:
 
@@ -69,10 +68,10 @@ De afhankelijkheid van kerncomponenten wordt alleen toegevoegd voor versies met 
 * Pas `groupId="com.mysite"` aan om Maven groupId en het Bron Pakket van Java te bepalen.
 * Zoek de lijst met beschikbare eigenschappen op om te zien of u meer eigenschappen wilt aanpassen.
 
-## Beschikbare eigenschappen
+## Beschikbare eigenschappen {#available-properties}
 
 | Naam | Standaard | Beschrijving |
---------------------------|----------------|--------------------
+|---------------------------|----------------|--------------------|
 | `appTitle` |  | Toepassingstitel, wordt gebruikt voor de titel van de website en voor componentgroepen (bijvoorbeeld `"My Site"`). |
 | `appId` |  | De technische naam, zal voor component, config en de namen van de inhoudsomslag, evenals de namen van de cliëntbibliotheek worden gebruikt (b.v. `"mysite"`). |
 | `artifactId` | *`${appId}`* | Basis-Maven-artefactverwijzing (bijvoorbeeld `"mysite"`). |
@@ -92,21 +91,25 @@ De afhankelijkheid van kerncomponenten wordt alleen toegevoegd voor versies met 
 | `commerceEndpoint` |  | Alleen vereist voor CIF. Facultatief eindpunt van het handelssysteem te gebruiken dienst GraphQL (b.v. `https://hostname.com/grapql`). |
 | `datalayer` | `y` | Activeer integratie met [Adobe Client Data Layer](/help/developing/data-layer/overview.md). |
 | `amp` | `n` | Schakel [AMP](/help/developing/amp.md)-ondersteuning voor gegenereerde projectsjablonen in. |
+| `enableDynamicMedia` | `n` | Laat stichting DynamicMedia componenten in de montages van het projectbeleid toe en activeert de eigenschappen van Dynamic Media in het beleid van de component van het Beeld van de Kern. |
+| `enableSSR` | `n` | Optie om SSR voor het front-end project toe te laten |
 
-## Systeemvereisten
+## Systeemvereisten {#requirements}
 
-| Archetype | AEM as a Cloud Service | AEM 6,5 | AEM 6,4 | Java SE | Maven |
-|---------|---------|---------|---------|---------|---------|
-| [26](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-27) | Continu | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
+| Archetype | AEM as a Cloud Service | AEM 6,5 | Java SE | Maven |
+|---------|---------|---------|---------|---------|
+| [28](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-28) | Continu | 6.5.7.0+ | 8, 11 | 3.3.9+ |
 
 Stel uw lokale ontwikkelomgeving in voor [AEM als Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) of voor [oudere versies van AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
-### Bekende problemen
+### Bekende problemen {#known-issues}
 
 Wanneer het lopen op Vensters en het produceren van de berichtconfiguratie, zou u in een opgeheven bevelherinnering of Subsysteem van Vensters voor Linux (zie [#329](https://github.com/adobe/aem-project-archetype/issues/329)) moeten lopen.
 
 Wanneer het uitvoeren van archetype op interactieve wijze (zonder de `-B` parameter), kunnen de eigenschappen met standaardwaarden niet worden veranderd, tenzij de definitieve bevestiging wordt verworpen, die dan de vragen door de eigenschappen met standaardwaarden in de vragen te omvatten herhaalt (zie
 [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) voor meer informatie).
+
+U kunt dit archetype in Eclipse niet gebruiken wanneer het beginnen van een nieuw project met `File -> New -> Maven Project` aangezien het post generatiescript `archetype-post-generate.groovy` niet wegens een [kwestie van de Verduistering zal worden uitgevoerd.](https://bugs.eclipse.org/bugs/show_bug.cgi?id=514993) De oplossing is om de bovengenoemde bevellijn en dan in Eclipse gebruik te gebruiken  `File -> Import -> Existing Maven Project`.
 
 ## Meer informatie {#further-reading}
 
