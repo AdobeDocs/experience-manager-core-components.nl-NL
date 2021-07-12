@@ -2,17 +2,16 @@
 title: Front-end build voor React SPA
 description: Een beschrijving van het front-end bouwstijlproces voor React-based SPA projecten
 feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin
+exl-id: dd8ef13a-9686-47a9-b6af-e486ff10c4d8
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
 
-
-# Front-End Build for React SPA {#frontend-react}
+# Front-end build voor React SPA {#frontend-react}
 
 In dit document worden de details van het gemaakte project uitgelegd wanneer u het archetype gebruikt om een toepassing van één pagina (SPA) te maken die is gebaseerd op het React-framework. D.w.z. wanneer u de optie `frontendModule` op `react` plaatst.
 
@@ -53,7 +52,7 @@ npm test
 
 Met deze opdracht start u de testruntime in de interactieve controlemodus. Zie [Documentatie van de Reactie over het runnen van tests](https://facebook.github.io/create-react-app/docs/running-tests) voor meer informatie.
 
-### npm run build {#npm-run-build}
+### npm-run-build {#npm-run-build}
 
 ```shell
 npm run build
