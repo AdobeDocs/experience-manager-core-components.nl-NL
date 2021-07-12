@@ -1,15 +1,14 @@
 ---
 title: Containercomponent
 description: Met de component Core Component Container kunt u een container maken voor meerdere aanvullende componenten op een pagina.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '792'
 ht-degree: 1%
 
 ---
-
 
 # Containercomponent{#container-component}
 
@@ -44,7 +43,7 @@ De recentste technische documentatie over de Component van de Container [kan op 
 
 Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
-## Dialoogvenster {#configure-dialog} configureren
+## Dialoogvenster configureren {#configure-dialog}
 
 In het dialoogvenster configureren kan de auteur van de inhoud het containeritem definiëren en bepalen hoe het zich gedraagt en wordt weergegeven voor een bezoeker van de pagina.
 
@@ -74,7 +73,7 @@ Het tabblad Toegestane componenten werkt op dezelfde manier als het tabblad met 
 
 Het lusje Standaard van Componenten wordt gebruikt om te bepalen welke component aan de component wordt toegevoegd wanneer een bepaald elementtype op de container wordt gelaten vallen, gelijkend op [hoe de standaardcomponenten op het paginamalplaatje](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) worden bepaald.
 
-### Tabblad Responsieve instellingen {#responsive-settings-tab}
+### Tab Instellingen voor responsief {#responsive-settings-tab}
 
 ![Het tabblad Responsieve instellingen van het dialoogvenster Ontwerp van de Container-component](/help/assets/container-design-responsive.png)
 
