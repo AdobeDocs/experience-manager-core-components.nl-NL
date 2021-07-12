@@ -1,15 +1,14 @@
 ---
 title: Broodkruimelcomponent
 description: De component van de Breadcrumb van de Component van de Kern is een navigatiecomponent die een broodkruimel van verbindingen bouwt die op de plaats van de pagina in de inhoudshiërarchie wordt gebaseerd.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '722'
 ht-degree: 1%
 
 ---
-
 
 # Broodkruimelcomponent{#breadcrumb-component}
 
@@ -48,7 +47,7 @@ De recentste technische documentatie over de Component van Breadcrumb [kan op Gi
 
 Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
-## Dialoogvenster {#edit-dialog} bewerken
+## Dialoogvenster Bewerken {#edit-dialog}
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud verborgen en actieve pagina&#39;s in de broodkruimels onderdrukken, evenals de diepte in de hiërarchie die moet worden weergegeven.
 
@@ -91,6 +90,6 @@ In het ontwerpdialoogvenster kan de sjabloonauteur definiëren wat de standaardw
 
 De component Breadcrumb ondersteunt het AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
 
-## Adobe-gegevenslaag client {#data-layer}
+## Gegevenslaag Adobe-client {#data-layer}
 
 De component Breadcrumb ondersteunt de [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
