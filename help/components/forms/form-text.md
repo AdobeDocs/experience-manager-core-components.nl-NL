@@ -1,15 +1,14 @@
 ---
 title: Formuliertekstcomponent
 description: Met de component Tekst van formulier voor kerncomponenttekst kan formuliertekst worden verzonden.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: e8fa3881-51fb-4726-9654-8f93acfb7464
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '577'
 ht-degree: 2%
 
 ---
-
 
 # Formuliertekstcomponent{#form-text-component}
 
@@ -42,7 +41,7 @@ De recentste technische documentatie over de Component van de Tekst van de Vorm 
 
 Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
-## Dialoogvenster {#configure-dialog} configureren
+## Dialoogvenster configureren {#configure-dialog}
 
 In het dialoogvenster Configureren kan de auteur van de inhoud het type tekst definiëren dat moet worden ingevoerd, evenals standaardwaarden en -labels.
 
@@ -75,7 +74,7 @@ In het dialoogvenster Configureren kan de auteur van de inhoud het type tekst de
 * **Help-bericht**  - Een tip voor de gebruiker wat in het veld kan worden ingevoerd
 * **Help-bericht weergeven als tijdelijke aanduiding**  - Het Help-bericht weergeven in de formulierinvoer als het leeg en niet gefocust is
 
-### Tabblad Beperkingen {#constraints-tab}
+### Tabblad Restricties {#constraints-tab}
 
 ![Tabblad Restricties](/help/assets/form-text-edit-constraints.png)
 
