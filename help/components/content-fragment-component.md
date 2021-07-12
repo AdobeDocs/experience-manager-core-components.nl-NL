@@ -1,17 +1,16 @@
 ---
 title: Component Inhoudsfragment
 description: Met de component Inhoudsfragment van de kerncomponent kunt u een inhoudsfragment weergeven.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '673'
 ht-degree: 1%
 
 ---
 
-
-# Inhoudsfragmentcomponent{#content-fragment-component}
+# Component Inhoudsfragment{#content-fragment-component}
 
 Met de component Inhoudsfragment van kerncomponent kunt u een [inhoudsfragment](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) weergeven.
 
@@ -61,7 +60,7 @@ De recentste technische documentatie over de Component van het Fragment van de I
 
 Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
-## Dialoogvenster {#configure-dialog} configureren
+## Dialoogvenster configureren {#configure-dialog}
 
 In het dialoogvenster Configureren kan de auteur van de inhoud definiëren welk inhoudsfragment en de elementen van dat fragment moeten worden opgenomen.
 
@@ -92,7 +91,7 @@ In het dialoogvenster Configureren kan de auteur van de inhoud definiëren welk 
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
-### Tabblad Alinealabel {#paragraph-control-tab}
+### Tabblad Alinealijn {#paragraph-control-tab}
 
 Dit tabblad is niet beschikbaar wanneer de modus **Meerdere elementen** is geselecteerd.
 
@@ -111,6 +110,6 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de typen bronnen definiëren 
 
    * Het Sling-brontype dat wordt gebruikt voor het interne responsieve raster
 
-## Adobe-gegevenslaag client {#data-layer}
+## Gegevenslaag Adobe-client {#data-layer}
 
 De component van het Fragment van de Inhoud steunt [de Laag van de Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)
