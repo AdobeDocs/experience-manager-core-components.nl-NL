@@ -1,17 +1,16 @@
 ---
 title: Taalnavigatie-component
 description: De component Taalnavigatie biedt een taal-/landnavigatie voor een site, zodat bezoekers naar dezelfde pagina in een andere landinstelling kunnen navigeren.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '846'
 ht-degree: 1%
 
 ---
 
-
-# Taalnavigatiecomponent{#language-navigation-component}
+# Taalnavigatie-component{#language-navigation-component}
 
 De taalnavigatiecomponent biedt een taal-/landnavigatie voor een site, zodat bezoekers naar dezelfde pagina in een andere landinstelling kunnen navigeren.
 
@@ -94,7 +93,7 @@ Ongeacht welke pagina een gebruiker bekijkt, kan de component van de Navigatie v
 
 De component van de Navigatie van de Taal steunt het AEM [Systeem van de Stijl](/help/get-started/authoring.md#component-styling).
 
-## Dialoogvenster {#edit-dialog} bewerken
+## Dialoogvenster Bewerken {#edit-dialog}
 
 Doorgaans hoeft de component Taalnavigatie alleen aan de paginasjablonen van een site te worden toegevoegd en geconfigureerd. Als de component Taalnavigatie echter moet worden toegevoegd aan een afzonderlijke inhoudspagina, kan het dialoogvenster voor bewerken een auteur van de inhoud dezelfde waarden configureren als in het ontwerpdialoogvenster [a1/> worden beschreven.](#design-dialog)
 
@@ -106,6 +105,6 @@ Daarnaast kunt u een **ID** instellen. Met deze optie kunt u de unieke id van de
 
 ![Dialoogvenster Taalnavigatie-component bewerken](/help/assets/language-navigation-edit.png)
 
-## Adobe-gegevenslaag client {#data-layer}
+## Gegevenslaag Adobe-client {#data-layer}
 
 De component van de Navigatie van de Taal steunt [de Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)
