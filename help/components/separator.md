@@ -1,15 +1,14 @@
 ---
 title: Scheidingscomponent
 description: De component separator maakt een einde tussen componenten op een pagina
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 79f19368-67fa-4864-93f7-2aa801d13fdb
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '304'
 ht-degree: 2%
 
 ---
-
 
 # Scheidingscomponent {#separator-component}
 
@@ -39,7 +38,7 @@ De recentste technische documentatie over de Component van de Scheiding [kan op 
 
 Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
-## Dialoogvenster {#configure-dialog} configureren
+## Dialoogvenster configureren {#configure-dialog}
 
 ![Dialoogvenster voor bewerken van scheidingscomponent](/help/assets/separator-edit.png)
 
