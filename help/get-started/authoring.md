@@ -1,15 +1,14 @@
 ---
 title: Ontwerpen met kerncomponenten
 description: In AEM, zijn de componenten de structurele elementen die de inhoud van de pagina's vormen die worden ontworpen - de Componenten van de Kern bieden flexibele en eigenschap-rijke auteursfunctionaliteit aan.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 56e58303-a178-45ab-b59d-e374c9cf90cf
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
-
 
 # Auteur met kerncomponenten
 
@@ -55,7 +54,7 @@ Componenten worden gegroepeerd volgens categorieën die componentgroepen worden 
 >
 >Voeg de vereiste componenten toe aan een zichtbare groep of pas deze aan zodat ze beschikbaar zijn voor auteurs.
 
-## Vooraf configureren van kerncomponenten {#pre-configuring-core-components}
+## Basiscomponenten vooraf configureren {#pre-configuring-core-components}
 
 Het vormen de Componenten van de Stichting was de baan van een ontwikkelaar. Nochtans met de Componenten van de Kern, kan een malplaatjeauteur een aantal mogelijkheden via de malplaatjeredacteur nu vormen.
 
@@ -63,7 +62,7 @@ Als het uploaden van afbeeldingen vanuit het bestandssysteem bijvoorbeeld niet i
 
 Zie [Paginasjablonen maken](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) voor meer informatie.
 
-### Dialoogvensters {#edit-and-design-dialogs} bewerken en ontwerpen
+### Dialoogvensters Bewerken en Ontwerpen {#edit-and-design-dialogs}
 
 Omdat de Componenten van de Kern door malplaatjeauteurs kunnen worden pre-gevormd om te bepalen welke opties als deel van een malplaatje worden toegestaan, en dan verder door de paginaauteur worden gevormd om daadwerkelijke paginainhoud te bepalen, kan elke component opties in twee verschillende dialogen hebben.
 
