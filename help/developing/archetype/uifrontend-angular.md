@@ -2,17 +2,16 @@
 title: Front-end build voor SPA Angular
 description: Een beschrijving van het front-end bouwstijlproces voor op Angular-gebaseerde SPA projecten
 feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin
+exl-id: 5726e29d-081c-42bb-bf4e-2852043b21d6
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
 
-
-# Front-End Build for Angular SPA {#frontend-angular}
+# Front-end build voor SPA Angular {#frontend-angular}
 
 In dit document worden de details uitgelegd van het project dat is gemaakt wanneer u het archetype gebruikt om een toepassing van één pagina (SPA) te maken die is gebaseerd op het raamwerk van de Angular. D.w.z. wanneer u de optie `frontendModule` op `angular` plaatst.
 
@@ -53,7 +52,7 @@ npm test
 
 Met deze opdracht start u de Karma-testruntime. Zie de [documentatie van de Angular over het runnen van tests](https://angular.io/guide/testing) voor meer informatie.
 
-### npm run test:debug {#npm-run-test-debug}
+### npm run test:foutopsporing {#npm-run-test-debug}
 
 ```shell
 npm run test:debug
@@ -61,7 +60,7 @@ npm run test:debug
 
 Met deze opdracht start u de Karma-testruntime in de interactieve controlemodus.
 
-### npm run build {#npm-run-build}
+### npm-run-build {#npm-run-build}
 
 ```shell
 npm run build
