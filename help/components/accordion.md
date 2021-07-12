@@ -1,17 +1,16 @@
 ---
 title: Accordion-component
 description: Met de component Core Component Accordion kunt u een verzameling deelvensters maken die zijn gerangschikt in een accordeon op een pagina.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1067'
 ht-degree: 1%
 
 ---
 
-
-# Accordeoncomponent{#accordion-component}
+# Accordion-component{#accordion-component}
 
 Met de component Core Component Accordion kunt u een verzameling deelvensters maken die zijn gerangschikt in een accordeon op een pagina.
 
@@ -59,7 +58,7 @@ De recentste technische documentatie over de Component van de Accordeon [kan op 
 
 Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
-## Dialoogvenster {#configure-dialog} configureren
+## Dialoogvenster configureren {#configure-dialog}
 
 In het dialoogvenster Configureren kan de auteur van de inhoud het accordeonitem, de deelvensters definiëren en bepalen hoe het zich gedraagt en wordt weergegeven voor een bezoeker van de pagina.
 
@@ -91,7 +90,7 @@ Gebruik de knop **Toevoegen** om de componentkiezer te openen en te kiezen welke
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
-## Pop-over {#select-panel-popover} in deelvenster selecteren
+## Pop-upmenu van deelvenster selecteren {#select-panel-popover}
 
 De auteur van de inhoud kan de optie **Select Panel** op de componentwerkbalk gebruiken om over te schakelen naar een ander deelvenster om te bewerken en om de volgorde van de deelvensters in de accordeon eenvoudig te wijzigen.
 
@@ -127,6 +126,6 @@ Het tabblad Toegestane componenten werkt op dezelfde manier als het tabblad met 
 
 De component Accordion ondersteunt het AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
 
-## Adobe-gegevenslaag client {#data-layer}
+## Gegevenslaag Adobe-client {#data-layer}
 
 De component Accordion ondersteunt de [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
