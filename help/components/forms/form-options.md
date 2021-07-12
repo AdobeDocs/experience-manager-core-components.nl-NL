@@ -1,19 +1,18 @@
 ---
 title: Component Formulieropties
 description: Met de component Core Component Form Options kunt u vooraf gedefinieerde opties in verschillende indelingen selecteren.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 8a74bd37-9b12-4fa6-bff2-53e337b16251
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '545'
 ht-degree: 1%
 
 ---
 
-
 # Component Formulieropties {#form-options-component}
 
-Met de component Formulieropties kerncomponent kunt u vooraf gedefinieerde opties in verschillende indelingen selecteren.
+Met de component Core Component Form Options kunt u vooraf gedefinieerde opties in verschillende indelingen selecteren.
 
 ## Gebruik {#usage}
 
@@ -44,7 +43,7 @@ De recentste technische documentatie over de Component van de Opties van de Vorm
 
 Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
-## Dialoogvenster {#configure-dialog} configureren
+## Dialoogvenster configureren {#configure-dialog}
 
 In het dialoogvenster Configureren kan de auteur van de inhoud het type opties definiëren dat moet worden weergegeven, de labels en de beschikbare opties.
 
