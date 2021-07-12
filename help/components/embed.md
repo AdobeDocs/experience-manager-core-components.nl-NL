@@ -1,15 +1,14 @@
 ---
 title: Component insluiten
 description: Met de component Embed kunt u externe inhoud insluiten in een AEM inhoudspagina.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1341'
 ht-degree: 1%
 
 ---
-
 
 # Component insluiten{#embed-component}
 
@@ -44,7 +43,7 @@ De recentste technische documentatie over de Embed Component [kan op GitHub](htt
 
 Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
-## Dialoogvenster {#configure-dialog} configureren
+## Dialoogvenster configureren {#configure-dialog}
 
 In het dialoogvenster voor configureren kan de auteur van de inhoud de externe bron definiëren die op de pagina moet worden ingesloten. Kies eerst welk type bron moet worden ingesloten:
 
@@ -64,7 +63,7 @@ De eenvoudigste insluiting is de URL. Plak gewoon de URL van de bron die u wilt 
 
 De component Embed wordt geleverd bij processors voor de volgende typen bronnen:
 
-* Bronnen die voldoen aan de [Insluiten-standaard](https://oembed.com/), waaronder Facebook Post, Instagram, SoundCloud, Twitter en YouTube
+* Bronnen die voldoen aan de [Insluiten-standaard](https://oembed.com/) inclusief Facebook Post, Instagram, SoundCloud, Twitter en YouTube
 * Pinterest
 
 Ontwikkelaars kunnen extra URL-processors toevoegen door [de ontwikkelaarsdocumentatie van de Embed Component te volgen.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
@@ -73,11 +72,11 @@ Ontwikkelaars kunnen extra URL-processors toevoegen door [de ontwikkelaarsdocume
 
 ### Insluitbaar {#embeddable}
 
-Met insluitbare bestanden kunt u de ingesloten bron verder aanpassen. U kunt hier parameters aan toewijzen en aanvullende informatie opnemen. Een auteur kan een keuze maken uit vooraf geconfigureerde vertrouwde insluitbare bestanden en de component wordt geleverd met een YouTube-insluitbare insluitbare indeling.
+Met insluitbare bestanden kunt u de ingesloten bron verder aanpassen. U kunt hier parameters aan toewijzen en aanvullende informatie opnemen. Een auteur kan een keuze maken uit vooraf geconfigureerde vertrouwde insluitbare bestanden en de component wordt geleverd met een YouTube-insluitbare out-of-the-box.
 
-Het veld **Insluitbaar** definieert het type processor dat u wilt gebruiken. In het geval van de insluitbare YouTube-modus kunt u het volgende definiëren:
+Het veld **Insluitbaar** definieert het type processor dat u wilt gebruiken. In het geval van de insluitbare YouTube kunt u het volgende definiëren:
 
-* **Video-id** : de unieke video-id van YouTube van de bron die u wilt insluiten
+* **Video-id** : de unieke video-id uit YouTube van de bron die u wilt insluiten
 * **Breedte** : de breedte van de ingesloten video
 * **Hoogte**  - De hoogte van de ingesloten video
 * **Dempen**  inschakelen - Deze parameter geeft aan of de video standaard wordt gedempt. Als u deze optie inschakelt, wordt de kans dat Automatisch afspelen werkt in moderne browsers groter.
@@ -130,17 +129,17 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de opties definiëren die bes
 * **HTML**  uitschakelen - Schakelt de  **** HTML-optie voor de auteur van de inhoud uit wanneer deze is geselecteerd.
 * **Toegestane insluitbare bestanden**  - Multiselect die definieert welke insluitbare processoren beschikbaar zijn voor de auteur van de inhoud, op voorwaarde dat de optie  **** Insluitbaar actief is.
 
-### YouTube-tabblad {#youtube-tab}
+### YouTube Tab {#youtube-tab}
 
-![Het tabblad YouTube van het dialoogvenster Ontwerp van de component insluiten](/help/assets/embed-design-youtube.png)
+![Het tabblad YouTube van het dialoogvenster Ontwerp van de component Embed](/help/assets/embed-design-youtube.png)
 
-* **Configuratie van dempingsgedrag**  toestaan - Hiermee kan de auteur van de inhoud de optie  **** Muteoption inschakelen in de component configureren wanneer het ingesloten YouTube-type is geselecteerd
-   * **Standaardwaarde van dempen**  - Hiermee wordt de optie  **Muteoption** inschakelen automatisch ingesteld wanneer het ingesloten YouTube-type is geselecteerd
-* **Configuratie van gedrag**  bij automatisch afspelen toestaan - Hiermee kan de auteur van de inhoud de optie  **Automatisch afspelen** inschakelen in de component configureren wanneer het ingesloten YouTube-type is geselecteerd
-   * **Standaardwaarde voor automatisch afspelen**  - Hiermee wordt de optie  **Automatisch afspelen** inschakelen automatisch ingesteld wanneer het ingesloten YouTube-type is geselecteerd
-* **Configuratie van lusgedrag**  toestaan - Hiermee kan de auteur van de inhoud de optie  **Loopoptie** inschakelen in de component configureren wanneer het ingesloten YouTube-type is geselecteerd
-   * **Standaardwaarde van lus**  - Hiermee wordt  **de optie** Herhalen inschakelen automatisch ingesteld wanneer het ingesloten YouTube-type is geselecteerd
-* **Configuratie van inline afspelen toestaan (iOS)**  - Hiermee kan de auteur van de inhoud de  **optie Inline afspelen** inschakelen (iOS) configureren in de component wanneer het ingesloten YouTube-type is geselecteerd
-   * **Standaardwaarde voor inline afspelen (iOS)**  - Hiermee wordt de  **optie Inline afspelen** inschakelen (iOS) automatisch ingesteld wanneer het ingesloten YouTube-type is geselecteerd
-* **Configuratie van inlinevideo** &#39;s toestaan - Hiermee kan de auteur van de inhoud de optie  **Onbeperkte verwante** video&#39;s in de component configureren wanneer het ingesloten YouTube-type is geselecteerd
-   * **Standaardwaarde van onbeperkte verwante video** &#39;s - Hiermee wordt de optie  **Onbeperkte verwante** video&#39;s automatisch ingesteld wanneer het ingesloten YouTube-type is geselecteerd
+* **Configuratie van dempingsgedrag**  toestaan - Hiermee kan de auteur van de inhoud de optie  **** Muteoption inschakelen in de component configureren wanneer het ingesloten type YouTube is geselecteerd
+   * **Standaardwaarde van dempen**  - Hiermee wordt de optie  **Muteoption** inschakelen automatisch ingesteld als het ingesloten type YouTube is geselecteerd
+* **Configuratie van gedrag**  bij automatisch afspelen toestaan - Hiermee kan de auteur van de inhoud de optie  **Automatisch afspelen** inschakelen in de component configureren wanneer het ingesloten type YouTube is geselecteerd
+   * **Standaardwaarde voor automatisch afspelen**  - Hiermee wordt de optie  **Automatisch afspelen** inschakelen automatisch ingesteld wanneer het ingesloten type YouTube is geselecteerd
+* **Configuratie van lusgedrag**  toestaan - Hiermee stelt u de auteur van de inhoud in staat de optie  **Herhalen** inschakelen in de component te configureren wanneer het ingesloten type YouTube is geselecteerd
+   * **Standaardwaarde van lus**  - Hiermee wordt de optie  **Herhalen** inschakelen automatisch ingesteld wanneer het ingesloten type YouTube is geselecteerd
+* **Configuratie van inline afspelen toestaan (iOS)**  - Hiermee kan de auteur van de inhoud de  **optie Inline afspelen** inschakelen (iOS) configureren in de component wanneer het YouTube-insluittype is geselecteerd
+   * **Standaardwaarde voor inline afspelen (iOS)**  - Hiermee wordt de  **optie Inline afspelen** inschakelen (iOS) automatisch ingesteld wanneer het YouTube-insluittype is geselecteerd
+* **Configuratie van inlinevideo** &#39;s toestaan - Hiermee kan de auteur van de inhoud de optie  **Onbeperkte verwante** video&#39;s in de component configureren wanneer het insluitingstype van YouTube is geselecteerd
+   * **Standaardwaarde voor onbeperkte verwante video** &#39;s - Hiermee wordt de optie  **Onbeperkte verwante** video&#39;s automatisch ingesteld wanneer het ingesloten type YouTube is geselecteerd
