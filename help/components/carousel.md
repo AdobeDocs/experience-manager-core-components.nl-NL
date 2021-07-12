@@ -1,15 +1,14 @@
 ---
 title: Carousel-component
 description: Met de Carousel-component kan de auteur van de inhoud inhoud inhoud presenteren in een roterende carrousel.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1125'
 ht-degree: 0%
 
 ---
-
 
 # Carousel-component{#carousel-component}
 
@@ -43,7 +42,7 @@ De recentste technische documentatie over de Component van Carousel [kan op GitH
 
 Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
-## Dialoogvenster {#edit-dialog} bewerken
+## Dialoogvenster Bewerken {#edit-dialog}
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud dia&#39;s toevoegen, hernoemen en opnieuw rangschikken en de instellingen voor automatische overgangen definiëren.
 
@@ -90,7 +89,7 @@ Op het tabblad **Toegankelijkheid** kunnen waarden worden ingesteld voor [ARIA-t
 
 * **Label**  - waarde van een ARIA-labelkenmerk voor de component
 
-## Deelvenster {#select-panel} selecteren
+## Deelvenster selecteren {#select-panel}
 
 De auteur van de inhoud kan de optie **Select Panel** op de componentwerkbalk gebruiken om over te schakelen naar een andere dia voor bewerking en om de volgorde van de dia&#39;s gemakkelijk te wijzigen.
 
@@ -130,6 +129,6 @@ Het tabblad Toegestane componenten werkt op dezelfde manier als het tabblad met 
 
 De Carousel-component ondersteunt het AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
 
-## Adobe-gegevenslaag client {#data-layer}
+## Gegevenslaag Adobe-client {#data-layer}
 
 De Carousel-component ondersteunt de [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
