@@ -3,7 +3,7 @@ title: Introductie van kerncomponenten
 description: 'De kerncomponenten bieden robuuste en uitbreidbare basiscomponenten die zijn gebaseerd op de nieuwste technologie en best practices. '
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: cc1fc14e1ca9125a24c13ac68716951ef790afea
+source-git-commit: 85904d334091f1b9345023a84e8f12abeeb54692
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 3%
@@ -77,7 +77,7 @@ In de huidige versie van Core Components zijn de volgende componenten beschikbaa
 * [Voortgangsbalk](components/progress-bar.md)
 * [PDF-viewer](components/pdf-viewer.md)
 
-### Containercomponenten {#container-components}
+### Containeronderdelen {#container-components}
 
 * [Container](components/container.md)
 * [Carousel](components/carousel.md)
@@ -106,7 +106,7 @@ In de huidige versie van Core Components zijn de volgende componenten beschikbaa
 
 | Kernonderdelen | AEM as a Cloud Service | AEM 6,5 | AEM 6,4 | Java SE | Maven |
 |---------|---------|---------|---------|---------|---------|
-| [2.17.0.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | Continu | 6.5.6.0+ * | 6.4.8.4+ * | 8, 11 | 3.3.9+ |
+| [2.17.2.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | Continu | 6.5.6.0+ * | 6.4.8.4+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >
