@@ -1,15 +1,14 @@
 ---
 title: Inclusief clientbibliotheken
 description: Afhankelijk van uw gebruiksscenario zijn er verschillende manieren om clientbibliotheken op te nemen.
-role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin
+exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '394'
 ht-degree: 2%
 
 ---
-
 
 # Inclusief clientbibliotheken {#including-client-libraries}
 
@@ -67,7 +66,7 @@ Gebruik `jsIncludes` voordat u `body` sluit om alleen de JS en niet de CSS op te
 </sly>
 ```
 
-## Kenmerken {#attributes}
+## Attributen {#attributes}
 
 Als u kenmerken wilt toepassen op de gegenereerde CSS `link`-elementen en/of JS `script`-elementen, is een aantal parameters mogelijk:
 
@@ -91,7 +90,7 @@ CSS `link`-kenmerken die kunnen worden doorgegeven aan `jsAndCssIncludes` en `cs
 * `onload`: string
 * `crossorigin`: string
 
-## {#inlining} onderstrepen
+## Invoering {#inlining}
 
 In sommige gevallen, voor optimalisatie, of voor e-mail of [AMP, ](amp.md) zou het kunnen worden vereist om CSS of JS in de output van HTML te inline.
 
@@ -113,7 +112,7 @@ Op dezelfde manier kunt u `jsInline` gebruiken om JS in te line, in welk geval u
 </script>
 ```
 
-## CSS en JavaScript {#context-aware-loading} laden met behoud van context
+## CSS en JavaScript met behoud van context laden {#context-aware-loading}
 
 De [Paginacomponent](/help/components/page.md) ondersteunt ook het laden van door ontwikkelaars gedefinieerde contextgevoelige CSS-, JavaScript- of metatags.
 
