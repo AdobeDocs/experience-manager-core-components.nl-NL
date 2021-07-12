@@ -2,23 +2,22 @@
 title: De gegevenslaag van de Cliënt van Adobe uitbreiden
 description: De de Gegevens Laag van de Cliënt van Adobe kan na sommige basispatronen worden uitgebreid
 feature: Core Components, Adobe Client Data Layer
-role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin
+exl-id: f3d5555b-4f08-49de-ab0f-dc0fb04aadf8
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
 
-
-# De gegevenslaag van de Adobe-client uitbreiden {#extending-acdl}
+# De gegevenslaag van de Cliënt van Adobe uitbreiden {#extending-acdl}
 
 U kunt de Componenten van de Kern met de opties van de douanedialoog uitbreiden die inhoudsauteurs toestaan om extra informatie met betrekking tot de Laag van Gegevens in te gaan.
 
 Om deze gebieden in de Laag van Gegevens te omvatten die door de Componenten van de Kern wordt verstrekt, moet u het model van de component uitbreiden die zijn eigen specifieke methodes van de gegevenslaag uitvoert.
 
-## Voorbeeld: Titelcomponent {#example}
+## Voorbeeld: Component Title {#example}
 
 Een kerncomponent zoals de [Titelcomponent](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/Title.java) breidt [Component](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/Title.java) uit, die een `getData` methode heeft die door gebrek [`ComponentData` terugkeert.](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/datalayer/ComponentData.java).
 
