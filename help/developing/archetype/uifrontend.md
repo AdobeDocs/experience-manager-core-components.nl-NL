@@ -2,15 +2,14 @@
 title: AEM project archetype front-end build
 description: Een projectmalplaatje voor op AEM gebaseerde toepassingen
 feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin
+exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1625'
 ht-degree: 0%
 
 ---
-
 
 # ui.frontend Module van het Archetype van het AEM Project {#uifrontend-module}
 
@@ -53,7 +52,7 @@ Een ClientLib bestaat uit de volgende bestanden en mappen:
 
 De bouwstijlmodule aan de voorzijde is een nuttig en zeer flexibel instrument, maar stelt geen specifieke mening over hoe deze moet worden gebruikt. Het volgende is twee voorbeelden van *mogelijk* gebruik, maar uw individuele projectbehoeften kunnen andere gebruiksmodellen dicteren.
 
-### Statische ontwikkelingsserver voor webpack gebruiken {#using-webpack}
+### Statische ontwikkelingsserver van Webpack gebruiken {#using-webpack}
 
 Met Webpack kunt u stijl en ontwikkeling toepassen op basis van de statische uitvoer van AEM webpagina&#39;s in de module ui.frontend.
 
@@ -68,7 +67,7 @@ In deze flow kan een AEM ontwikkelaar stappen 1 en 2 uitvoeren en de statische H
 >
 >U kunt ook de [Componentbibliotheek](https://adobe.com/go/aem_cmp_library) gebruiken om voorbeelden van de opmaakuitvoer van elke component vast te leggen om op componentniveau te werken in plaats van op paginaniveau.
 
-### Het gebruiken van Storybook {#using-storybook}
+### Winybook gebruiken {#using-storybook}
 
 Met [Storybook](https://storybook.js.org) kunt u meer atomische front-end ontwikkeling uitvoeren. Hoewel Storybook niet is opgenomen in het AEM Project Archetype, kunt u het installeren en uw objecten uit het Storybook opslaan in de module ui.frontend. Als ze klaar zijn om te worden getest binnen AEM, kunnen ze worden geïmplementeerd als ClientLibs door `npm run dev` uit te voeren.
 
@@ -76,7 +75,7 @@ Met [Storybook](https://storybook.js.org) kunt u meer atomische front-end ontwik
 >
 >[](https://storybook.js.org) Storybookis niet inbegrepen in het AEM Project Archetype. Als u ervoor kiest om het te gebruiken, moet u het afzonderlijk installeren.
 
-### Markering {#determining-markup} bepalen
+### De markering bepalen {#determining-markup}
 
 Welke ontwikkelworkflow op de voorgrond u ook wilt implementeren voor uw project, de back-end ontwikkelaars en front-end ontwikkelaars moeten het eerst eens worden over de markering. AEM definieert doorgaans de markering, die wordt geleverd door de kerncomponenten. [Dit kan echter zo nodig](/help/developing/customizing.md#customizing-the-markup) worden aangepast.
 
@@ -203,7 +202,7 @@ In de module ui.frontend is een webpack-dev-server inbegrepen die levende herlad
    * Dit bestand bevat ook verwijzingen naar clientbibliotheken die zijn opgeslagen in AEM, zoals de CSS van de kerncomponent en de CSS van het responsieve raster.
    * De webpack-ontwikkelingsserver is ingesteld op proxy die door deze CSS/JS wordt opgenomen vanuit een lokale actieve AEM-instantie op basis van de configuratie in `ui.frontend/webpack.dev.js`.
 
-#### {#using-webpack-server} gebruiken
+#### Gebruiken {#using-webpack-server}
 
 1. Van binnen de wortel van het project stel het bevel `mvn -PautoInstallSinglePackage clean install` in werking om het volledige project aan een AEM instantie te installeren die bij `localhost:4502` loopt.
 1. Navigeer in de map `ui.frontend`.
