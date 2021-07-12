@@ -1,17 +1,16 @@
 ---
 title: Experience Fragment
 description: Met de ervaringsfragmentcomponent kan de auteur van de inhoud een ervaringsfragmentvariatie aan een pagina toevoegen.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
 
-
-# De Component van het Fragment van de ervaring{#experience-fragment-component}
+# Experience Fragment{#experience-fragment-component}
 
 Met de Core Component Experience Fragment Component kan de auteur van de inhoud een ervaringsfragmentvariatie op een pagina plaatsen en een gelokaliseerde sitestructuur ondersteunen.
 
@@ -82,7 +81,7 @@ In dit geval, als de component van het Fragment van de Ervaring `/content/experi
 
 Als u dus naar een inhoudspagina navigeert onder `/content/wknd/ch/de` die dezelfde sjabloon gebruikt, wordt `/content/experience-fragments/wknd/ch/de/footerTextXf` weergegeven in plaats van `/content/experience-fragments/wknd/us/en/footerTextXf`.
 
-### Terugvalfunctie {#fallback}
+### Fallback {#fallback}
 
 De component van het Fragment van de Ervaring zal proberen om een overeenkomstige gelokaliseerde component in de volgende orde te vinden.
 
@@ -113,7 +112,7 @@ De recentste technische documentatie over de Component van het Fragment van de E
 
 Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
-## Dialoogvenster {#configure-dialog} configureren
+## Dialoogvenster configureren {#configure-dialog}
 
 In het dialoogvenster Configureren kan de auteur van de inhoud de variatie van het ervaringsfragment selecteren die op de pagina moet worden weergegeven.
 
