@@ -1,17 +1,16 @@
 ---
 title: Teaser-component
 description: De teaser-component kan een afbeelding, een titel, RTF-tekst en eventueel een koppeling naar andere inhoud weergeven.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '775'
 ht-degree: 1%
 
 ---
 
-
-# Taser-component {#teaser-component}
+# Teaser-component {#teaser-component}
 
 De component van de Teaser Component van de Kern kan een beeld, een titel, rijke-tekst, en naar keuze verbinding aan verdere inhoud tonen.
 
@@ -41,7 +40,7 @@ De recentste technische documentatie over de Component van het Taser [kan op Git
 
 Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
-## Dialoogvenster {#configure-dialog} configureren
+## Dialoogvenster configureren {#configure-dialog}
 
 De auteur van de inhoud kan het dialoogvenster Configure gebruiken om de eigenschappen van de afzonderlijke teaser te definiëren. Er is ook een [bewerkingsdialoogvenster](#edit-dialog) om de laserafbeelding te wijzigen als er een is geselecteerd.
 
@@ -79,7 +78,7 @@ De auteur van de inhoud kan het dialoogvenster Configure gebruiken om de eigensc
 * **Koppeling**  - Koppeling toegepast op het taser. Gebruik de padbrowser om het doel van de koppeling te selecteren.
 * **Laat vraag-aan-Acties**  toe wanneer gecontroleerd, laat definitie van vraag-aan-Acties toe. De eerste vraag-aan-actie verbinding in de lijst wordt gebruikt als verbinding voor andere teaser elementen.
 
-## Dialoogvenster {#edit-dialog} bewerken
+## Dialoogvenster Bewerken {#edit-dialog}
 
 De component Teaser delegeert het renderen van afbeeldingen aan de [Image Component](image.md). Daarom is het dialoogvenster [bewerken](image.md#edit-dialog van de Image Component beschikbaar voor de auteur van de inhoud om de teasafbeelding te bewerken.
 
@@ -87,7 +86,7 @@ De component Teaser delegeert het renderen van afbeeldingen aan de [Image Compon
 
 In het ontwerpdialoogvenster kan de sjabloonauteur de teasopties definiëren die de auteur van de inhoud heeft bij het gebruik van deze component.
 
-### Tabblad Taser {#teaser-tab}
+### Taser Tab {#teaser-tab}
 
 ![Ontwerpdialoogvenster van de Teaser Component](/help/assets/teaser-design.png)
 
@@ -108,6 +107,6 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de teasopties definiëren die
 
 De component Teaser ondersteunt het AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
 
-## Adobe-gegevenslaag client {#data-layer}
+## Gegevenslaag Adobe-client {#data-layer}
 
 De component Teaser ondersteunt de [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
