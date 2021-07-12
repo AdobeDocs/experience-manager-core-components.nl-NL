@@ -1,15 +1,14 @@
 ---
 title: Verborgen component van formulier
 description: Met de component Core Component Form Hidden kunt u een verborgen veld weergeven.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 0364cd3b-3c09-46db-9392-a67e3f9ea7a5
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '428'
 ht-degree: 1%
 
 ---
-
 
 # Verborgen component van formulier{#form-hidden-component}
 
@@ -44,7 +43,7 @@ De recentste technische documentatie over de Vorm Verborgen Component [kan op Gi
 
 Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
-## Dialoogvenster {#configure-dialog} configureren
+## Dialoogvenster configureren {#configure-dialog}
 
 In het dialoogvenster voor configureren kan de auteur van de inhoud de parameters van het verborgen veld definiëren.
 
