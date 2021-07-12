@@ -2,15 +2,14 @@
 title: Tekstcomponent (v1)
 description: De component Text is een component voor tekstbewerking en -compositie met tekstopmaak die op locatie kan worden bewerkt.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: c9fe3052-a33d-412e-9456-52c9a0cea292
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1657'
 ht-degree: 1%
 
 ---
-
 
 # Tekstcomponent (v1) {#text-component-v}
 
@@ -43,7 +42,7 @@ In de volgende tabel wordt de compatibiliteit van v1 van de tekstcomponent weerg
 
 Het volgende voorbeeld wordt genomen uit [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
-### Screenshot {#screenshot}
+### Schermafbeelding {#screenshot}
 
 ![](/help/assets/chlimage_1-27.png)
 
@@ -71,7 +70,7 @@ Het volgende voorbeeld wordt genomen uit [We.Retail](https://helpx.adobe.com/exp
 >
 >Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Zie [compatibiliteitsinformatie voor Core Components v1](/help/versions.md) voor meer informatie.
 
-## Dialoogvenster {#edit-dialog} bewerken
+## Dialoogvenster Bewerken {#edit-dialog}
 
 Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak die de gebruiker zou verwachten bij het samenstellen van tekst.
 
