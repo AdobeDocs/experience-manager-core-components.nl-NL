@@ -2,15 +2,14 @@
 title: Afbeeldingscomponent (v1)
 description: De Core Component Image is een adaptieve beeldcomponent die ter plekke kan worden bewerkt.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1229'
 ht-degree: 0%
 
 ---
-
 
 # Afbeeldingscomponent (v1) {#image-component-v}
 
@@ -43,7 +42,7 @@ In de volgende tabel wordt de compatibiliteit van versie 1 van de component Imag
 
 Het volgende voorbeeld wordt genomen uit [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
-### Screenshot {#screenshot}
+### Schermafbeelding {#screenshot}
 
 ![](/help/assets/chlimage_1-7.png)
 
@@ -76,7 +75,7 @@ Het volgende voorbeeld wordt genomen uit [We.Retail](https://helpx.adobe.com/exp
 >
 >Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Zie [compatibiliteitsinformatie voor Core Components v1](/help/versions.md) voor meer informatie.
 
-## Dialoogvenster {#configure-dialog} configureren
+## Dialoogvenster configureren {#configure-dialog}
 
 Naast de standaard [bewerkingsdialoog](#edit-dialog) en [ontwerpdialoog](#design-dialog), biedt de component van het beeld een configuratievenster waarin het beeld zelf met zijn beschrijving en basiseigenschappen wordt bepaald.
 
@@ -97,7 +96,7 @@ Naast de standaard [bewerkingsdialoog](#edit-dialog) en [ontwerpdialoog](#design
 * **Bijschrift**  - Standaard wordt aanvullende informatie over de afbeelding weergegeven onder de afbeelding.
 * **Bijschrift weergeven als pop-up**  - Als dit selectievakje is ingeschakeld, wordt het bijschrift niet weergegeven onder de afbeelding, maar als een pop-up die wordt weergegeven door sommige browsers wanneer de muisaanwijzer op de afbeelding wordt geplaatst.
 
-## Dialoogvenster {#edit-dialog} bewerken
+## Dialoogvenster Bewerken {#edit-dialog}
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud uitsnijden, de startkaart wijzigen en inzoomen op de afbeelding.
 
