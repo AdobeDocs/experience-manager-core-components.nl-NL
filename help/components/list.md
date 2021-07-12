@@ -1,17 +1,16 @@
 ---
 title: Component List
 description: De component van de Lijst van de Component van de Kern staat voor de gemakkelijke verwezenlijking van dynamische en statische lijsten toe.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '979'
 ht-degree: 1%
 
 ---
 
-
-# List Component{#list-component}
+# Component List{#list-component}
 
 De component van de Lijst van de Component van de Kern staat voor de gemakkelijke verwezenlijking van dynamische en statische lijsten toe.
 
@@ -42,7 +41,7 @@ De recentste technische documentatie over de Component van de Lijst [kan op GitH
 
 Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
-## Dialoogvenster {#edit-dialog} bewerken
+## Dialoogvenster Bewerken {#edit-dialog}
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud de lijst en de lijstitems configureren.
 
@@ -99,7 +98,7 @@ inWaar de zoekopdracht moet worden uitgevoerd
    * Kies de locatie in AEM ****
    * Huidige pagina gebruiken als deze leeg blijft
 
-#### Labels {#tags}
+#### Tags {#tags}
 
 De lijst kan worden samengesteld met pagina&#39;s die overeenkomen met bepaalde codes onder een bepaalde locatie.
 
@@ -190,6 +189,6 @@ Datum tonen inschakelen in het dialoogvenster  [Bewerken](#edit-dialog)
 
 De component van het Beeld steunt het AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
 
-## Adobe-gegevenslaag client {#data-layer}
+## Gegevenslaag Adobe-client {#data-layer}
 
 De component List ondersteunt de [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
