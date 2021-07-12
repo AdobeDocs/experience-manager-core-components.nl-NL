@@ -1,17 +1,16 @@
 ---
 title: Component lijst met inhoudsfragmenten
 description: Met de component Lijst met inhoudfragmenten van de kerncomponent kunt u een lijst met inhoudsfragmenten weergeven.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
 
-
-# Component Inhoudsfragmentlijst{#content-fragment-list-component}
+# Component lijst met inhoudsfragmenten{#content-fragment-list-component}
 
 De component van de Lijst van het Fragmentlijst van de Inhoud van de Component van de Kern staat voor de vertoning van een lijst van [inhoudsfragmenten](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) toe.
 
@@ -44,7 +43,7 @@ De recentste technische documentatie over de Component van de Lijst van het Frag
 
 Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
-## Dialoogvenster {#configure-dialog} configureren
+## Dialoogvenster configureren {#configure-dialog}
 
 In het dialoogvenster voor configureren kan de auteur van de inhoud definiëren welke inhoudsfragmenten de lijst vormen en welke elementen van die fragmenten moeten worden opgenomen.
 
