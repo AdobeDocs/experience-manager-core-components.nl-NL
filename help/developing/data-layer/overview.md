@@ -2,17 +2,16 @@
 title: Het gebruiken van de Laag van de Gegevens van de Cliënt van Adobe met de Componenten van de Kern
 description: Het gebruiken van de Laag van de Gegevens van de Cliënt van Adobe met de Componenten van de Kern
 feature: Core Components, Adobe Client Data Layer
-role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin
+exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '980'
 ht-degree: 1%
 
 ---
 
-
-# De gegevenslaag van de Adobe-client gebruiken met de kerncomponenten {#data-layer-core-components}
+# Het gebruiken van de Laag van de Gegevens van de Cliënt van Adobe met de Componenten van de Kern {#data-layer-core-components}
 
 Het doel van de de Gegevens van de Cliënt van Adobe is de inspanning aan instrumentwebsites te verminderen door een gestandaardiseerde methode te verstrekken om om het even welk soort gegevens voor om het even welk manuscript bloot te stellen en toegang te hebben.
 
@@ -202,7 +201,7 @@ De volgende [gebeurtenis](#events) is relevant voor het beeldschema:
 
 * `cmp:click`
 
-### Middelenschema {#asset}
+### Elementschema {#asset}
 
 Het schema Asset wordt gebruikt in de [Afbeeldingscomponent.](/help/components/image.md)
 
@@ -222,7 +221,7 @@ De volgende [gebeurtenis](#events) is relevant voor het schema Asset:
 
 * `cmp:click`
 
-### Inhoudsfragmentatieschema {#content-fragment}
+### Inhoudsfragmentschema {#content-fragment}
 
 Het inhoudsfragmentschema wordt gebruikt door de [Inhoudsfragmentcomponent.](/help/components/content-fragment-component.md)
 
@@ -276,7 +275,7 @@ In de volgende tabellen worden de standaard Core Components weergegeven die gebe
 | [Tabs](/help/components/tabs.md) | `cmp:show` en  `cmp:hide` |
 | [Teaser](/help/components/teaser.md) | `cmp:click` |
 
-### Informatie over gebeurtenispad {#event-path-info}
+### Info van gebeurtenispad {#event-path-info}
 
 Elke gebeurtenis van de Laag van Gegevens die door een AEM Component van de Kern wordt teweeggebracht zal een lading met het volgende voorwerp JSON omvatten:
 
