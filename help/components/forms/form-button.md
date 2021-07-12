@@ -1,17 +1,16 @@
 ---
 title: Component Formulierknop
 description: Met de component Core Component Form Hidden kunt u een verborgen veld in een formulier opnemen.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 1e5cff43-57db-4bfc-b2d2-23307eaf5eb3
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '412'
 ht-degree: 2%
 
 ---
 
-
-# Formulierknopcomponent {#form-button-component}
+# Component Formulierknop {#form-button-component}
 
 Met de component Core Component Form Button kan een knop worden opgenomen waarmee een handeling op een pagina wordt geactiveerd.
 
@@ -44,7 +43,7 @@ De recentste technische documentatie over de Component van de Knoop van de Vorm 
 
 Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
-## Dialoogvenster {#configure-dialog} configureren
+## Dialoogvenster configureren {#configure-dialog}
 
 In het dialoogvenster voor configureren kan de auteur van de inhoud de parameters van de knop definiëren.
 
