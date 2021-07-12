@@ -1,15 +1,14 @@
 ---
 title: Tekstcomponent
 description: De component Text is een component voor tekstbewerking en -compositie met tekstopmaak die op locatie kan worden bewerkt.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '2218'
+source-wordcount: '2213'
 ht-degree: 0%
 
 ---
-
 
 # Tekstcomponent{#text-component}
 
@@ -44,7 +43,7 @@ De recentste technische documentatie over de Component van de Tekst [kan op GitH
 
 Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
-## De component Text en de Rich Text Editor {#the-text-component-and-the-rich-text-editor}
+## De component Text en de RTF-editor {#the-text-component-and-the-rich-text-editor}
 
 De component van de Tekst van de Componenten van de Kern gebruikt de AEM Rich Text Editor (RTE). RTE voorziet inhoudsauteurs van een brede waaier van functionaliteit voor het uitgeven van hun tekstinhoud. RTE is zeer flexibel in zijn configuratie en biedt een aantal opties aan. Meer details over hoe RTE kan worden gevormd kunnen in de artikelen [vormen Rich Text Editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) en [vormen de Rich Text Editor stop-ins](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) worden gevonden.
 
@@ -54,7 +53,7 @@ De rest van dit artikel toont de standaardconfiguratie van de Component van de T
 >
 >Alleen opties die zijn ingeschakeld door [UI-configuraties van de RTE](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) zijn beschikbaar door in de Tekstcomponent.
 
-## Dialoogvenster {#edit-dialog} bewerken
+## Dialoogvenster Bewerken {#edit-dialog}
 
 Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak die de gebruiker zou verwachten bij het samenstellen van tekst.
 
@@ -297,7 +296,7 @@ Wordt gebruikt om alineaopmaak toe te passen op de geselecteerde tekst of op tek
 
 ![Voorbeeld van alineaopmaak](/help/assets/text-paragraph-example.png)
 
-### In line bewerken {#in-line-editing}
+### In-line bewerking {#in-line-editing}
 
 De tekstcomponent kan ook in regels worden bewerkt, maar vanwege ruimtebeperkingen zijn niet alle opmaakopties in regels beschikbaar. Schakel over naar de modus Volledig scherm om alle opties weer te geven.
 
@@ -371,6 +370,6 @@ De optie voor het invoegen van speciale tekens kan voor de component worden geac
 
 De component Text ondersteunt het AEM [stijlsysteem](/help/get-started/authoring.md#component-styling).
 
-## Adobe-gegevenslaag client {#data-layer}
+## Gegevenslaag Adobe-client {#data-layer}
 
 De component Text ondersteunt de [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
