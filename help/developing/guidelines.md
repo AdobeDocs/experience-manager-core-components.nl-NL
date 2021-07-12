@@ -1,10 +1,9 @@
 ---
 title: Componentrichtlijnen
 description: De componenten van de Kern volgen moderne implementatiepatronen die vrij verschillend van de stichtingscomponenten zijn.
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
-translation-type: tm+mt
-source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1272'
 ht-degree: 1%
@@ -47,7 +46,7 @@ Naast het dialoogvenster Bewerken dat wordt gebruikt door auteurs van pagina&#39
 
 Om componenten zo herbruikbaar mogelijk te maken, zouden zij van zinvolle opties moeten worden voorzien om vooraf te vormen. Hierdoor kunnen functies van de componenten worden in- of uitgeschakeld, zodat deze voldoen aan de specifieke behoeften van verschillende sites.
 
-### Patroon proxycomponent {#proxy-component-pattern}
+### Proxycomponentpatroon {#proxy-component-pattern}
 
 Aangezien elk inhoudsmiddel een `sling:resourceType` bezit heeft dat verwijzingen de component om het terug te geven, is het gewoonlijk goede praktijk om deze eigenschappen te hebben die aan plaats-specifieke componenten richten, in plaats van het richten aan componenten die door veelvoudige plaatsen worden gedeeld. Dit zal meer flexibiliteit aanbieden en inhoud het refactoring vermijden als één plaats een verschillend gedrag voor een component nodig heeft, omdat deze aanpassing dan op de plaats-specifieke component kan worden bereikt en niet de andere plaatsen zal beïnvloeden.
 
@@ -100,7 +99,7 @@ De eigenschap `cq:allowedTemplates` vertelt welke sjablonen voor een site kunnen
 
 ![Overzicht van sjablonen en beleid](/help/assets/screen_shot_2018-12-07at093102.png)
 
-## Projectarchetype {#aem-project-archetype} AEM
+## Projectarchetype AEM {#aem-project-archetype}
 
 [Het AEM Project ](/help/developing/archetype/overview.md) Archetypecureert een minimaal project van Adobe Experience Manager als uitgangspunt voor uw eigen projecten, met inbegrip van een voorbeeld van douaneHTML componenten met SlingModels voor de logica en juiste implementatie van de Componenten van de Kern met het geadviseerde volmachtspatroon.
 
