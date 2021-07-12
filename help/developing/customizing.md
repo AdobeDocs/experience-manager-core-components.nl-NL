@@ -1,10 +1,9 @@
 ---
 title: Kerncomponenten aanpassen
 description: De componenten van de Kern voeren verscheidene patronen uit die gemakkelijke aanpassing, van eenvoudig het stileren aan geavanceerd functionaliteit hergebruik toestaan.
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-translation-type: tm+mt
-source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 1%
@@ -30,13 +29,13 @@ De Core Components zijn vanaf het begin ontworpen om flexibel en uitbreidbaar te
 
 En alle kerncomponenten voeren [Stijlsysteem](#styling-the-components) uit.
 
-## Projectarchetype {#aem-project-archetype} AEM
+## Projectarchetype AEM {#aem-project-archetype}
 
 [Het AEM Project ](/help/developing/archetype/overview.md) Archetypecureert een minimaal project van Adobe Experience Manager als uitgangspunt voor uw eigen projecten, met inbegrip van een voorbeeld van douaneHTML component met SlingModels voor de logica en juiste implementatie van de Componenten van de Kern met het geadviseerde volmachtspatroon.
 
 ## Aanpassingspatronen {#customization-patterns}
 
-### Dialoogvensters {#customizing-dialogs} aanpassen
+### Dialoogvensters aanpassen {#customizing-dialogs}
 
 Het kan wenselijk zijn om de configuratieopties aan te passen beschikbaar in een kerncomponentendialoog, of het [Dialoogvenster van het Ontwerp of Edit Dialog](/help/get-started/authoring.md).
 
@@ -101,7 +100,7 @@ public class PageHeadline implements Title {
 
 Voor verdere details over het delegatiepatroon zie het artikel van GitHub Wiki van de Componenten van de Kern [Het Patroon van de Delegatie voor het Verdelen Modellen](https://github.com/adobe/aem-core-wcm-components/wiki/Delegation-Pattern-for-Sling-Models).
 
-### De markering {#customizing-the-markup} aanpassen
+### De opmaak aanpassen {#customizing-the-markup}
 
 Soms is voor geavanceerde opmaak een andere markeringsstructuur van de component vereist.
 
