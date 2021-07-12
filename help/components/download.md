@@ -1,17 +1,16 @@
 ---
 title: Component downloaden
 description: Met de component Core Component Download kunt u een downloadoptie op een pagina maken.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '687'
 ht-degree: 1%
 
 ---
 
-
-# Component{#download-component} downloaden
+# Component downloaden{#download-component}
 
 Met de component Core Component Download kunt u een downloadoptie op een pagina maken.
 
@@ -44,13 +43,13 @@ De recentste technische documentatie over de Component van de Download [kan op G
 
 Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
-## Dialoogvenster {#configure-dialog} configureren
+## Dialoogvenster configureren {#configure-dialog}
 
 In het dialoogvenster Configureren kan de auteur van de inhoud het downloaditem definiëren en bepalen hoe het zich gedraagt en wordt weergegeven voor een bezoeker van de pagina.
 
 ![Het tabblad Middelen van het dialoogvenster Bewerken van component downloaden](/help/assets/download-edit-asset.png)
 
-### Tabblad Elementen {#asset-tab}
+### Tabblad Element {#asset-tab}
 
 De selectie van een downloadmiddel is zeer gelijkaardig aan de functionaliteit van [de Component van het Beeld](image.md) en ook hefboomwerkingen AEM DAM.
 
