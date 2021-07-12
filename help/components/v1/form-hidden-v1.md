@@ -2,15 +2,14 @@
 title: Formulier verborgen component (v1)
 description: Met de component Core Component Form Hidden kunt u een verborgen veld weergeven.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 8e30dac0-5b4b-4fc7-af99-5791c98c90bf
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '335'
 ht-degree: 1%
 
 ---
-
 
 # Formulier verborgen component (v1) {#form-hidden-component-v}
 
@@ -83,7 +82,7 @@ Het volgende voorbeeld wordt genomen uit [We.Retail](https://helpx.adobe.com/exp
 >
 >Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Zie [compatibiliteitsinformatie voor Core Components v1](/help/versions.md#release-history-and-compatibility) voor meer informatie.
 
-## Dialoogvenster {#configure-dialog} configureren
+## Dialoogvenster configureren {#configure-dialog}
 
 In het dialoogvenster voor configureren kan de auteur van de inhoud de parameters van het verborgen veld definiëren.
 
