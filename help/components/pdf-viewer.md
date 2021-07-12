@@ -1,17 +1,16 @@
 ---
 title: PDF Viewer-component
 description: Met de component PDF Viewer kunt u een PDF-document weergeven.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: deb635f5-2b73-4e7a-9838-3a941e39e898
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '705'
 ht-degree: 1%
 
 ---
 
-
-# PDF-viewercomponent {#pdf-viewer-component}
+# PDF Viewer-component {#pdf-viewer-component}
 
 Met de component Core Component PDF Viewer kunt u een PDF-document op een pagina opnemen.
 
@@ -45,7 +44,7 @@ Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de o
 >
 >De PDF Viewer Component gebruikt [Document Services API&#39;s](https://www.adobe.io/apis/documentcloud/dcsdk.html) en vereist dat uw beheerder een [contextbewuste configuratie](/help/developing/context-aware-configs.md) configureert om deze services te kunnen gebruiken. Controleer de technische documentatie van de component voor [details op deze configuratie.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
 
-## Dialoogvenster {#configure-dialog} configureren
+## Dialoogvenster configureren {#configure-dialog}
 
 In het dialoogvenster Configureren kan de auteur van de inhoud de viewer definiëren en bepalen hoe deze zich gedraagt en wordt weergegeven voor een bezoeker van de pagina.
 
@@ -55,7 +54,7 @@ Op het tabblad Configuratie kan de auteur definiëren welke PDF moet worden weer
 
 ![Tabblad Configuratie van het dialoogvenster Bewerken van de component PDF Viewer](/help/assets/pdf-viewer-edit-configuration.png)
 
-### Tab {#customize-tab} aanpassen
+### Tab aanpassen {#customize-tab}
 
 Op het tabblad Aanpassen kan de auteur de opties definiëren die beschikbaar zijn in de viewer voor de lezer en kunt u aangeven hoe de viewer moet worden weergegeven.
 
@@ -85,7 +84,7 @@ Het weergavegebied wordt weergegeven in de volledige browser. Dit is het meest g
    * Koppelen
    * Loskoppelen
 
-#### Container {#sized-container}
+#### Container op maat {#sized-container}
 
 Het weergavegebied wordt weergegeven in de volledige browser. Dit is het meest geschikt voor opslag- en productiviteitstoepassingen.
 
@@ -98,7 +97,7 @@ Het weergavegebied wordt weergegeven in de volledige browser. Dit is het meest g
    * Koppelen
    * Loskoppelen
 
-#### In-line {#in-line}
+#### In line {#in-line}
 
 Alle PDF-pagina&#39;s worden op één regel binnen een webpagina gerenderd. Dit is het meest geschikt voor het lezen van toepassingen.
 
