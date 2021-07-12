@@ -1,21 +1,20 @@
 ---
 title: Localisatiefuncties van de kerncomponenten
 description: Localisatiefuncties van de kerncomponenten
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
 
-
-# Localisatiefuncties van de Core Components {#localization-features-of-the-core-components}
+# Localisatiefuncties van de kerncomponenten {#localization-features-of-the-core-components}
 
 Veel websites vereisen dat inhoud wordt geleverd in een gelokaliseerde indeling voor verschillende talen en geografische regio&#39;s. Geselecteerde kerncomponenten hebben een slimme verwijzingsresolutie, zodat u eenvoudig een uniforme sjabloon kunt maken voor al uw gelokaliseerde inhoud die automatisch wordt aangepast op basis van uw gelokaliseerde sitestructuur.
 
-## Voorbeeld - Gelokaliseerde pagina met navigatie- en voetteksten {#example}
+## Voorbeeld - Gelokaliseerde pagina met navigatie en voetteksten {#example}
 
 Voor de meeste sites is een voettekst vereist die op alle pagina&#39;s aanwezig is. Deze voetteksten zijn over het algemeen consistent in alle inhoud van de pagina. Voor een gelokaliseerde inhoudspagina moet echter een gelokaliseerde versie van die kop- of voettekst worden weergegeven.
 
@@ -106,7 +105,7 @@ De component Navigatiecomponent en Experience Fragment komen uit de paginasjablo
 
 ![](/help/assets/screen-shot-2019-09-09-11.22.14.png)
 
-## Alles passend maken {#fitting-it-all-together}
+## Alles samenvoegen {#fitting-it-all-together}
 
 Hier is het volledige beeld van hoe deze eenvoudige, maar krachtige elementen samenwerken om gelokaliseerde pagina&#39;s voor de auteurs van de inhoud te leveren.
 
