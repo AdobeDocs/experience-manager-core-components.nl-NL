@@ -1,17 +1,16 @@
 ---
 title: Navigatie-component
 description: Met de navigatiecomponent kunnen gebruikers gemakkelijk door een geglobaliseerde sitestructuur navigeren.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1382'
 ht-degree: 0%
 
 ---
 
-
-# Navigatiecomponent{#navigation-component}
+# Navigatie-component{#navigation-component}
 
 Met de navigatiecomponent kunnen gebruikers gemakkelijk door een geglobaliseerde sitestructuur navigeren.
 
@@ -115,7 +114,7 @@ Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de o
 >
 >Vanaf versie 2.1.0 van de Componenten van de Kern, steunt de Component van de Navigatie [schema.org microdata](https://schema.org).
 
-## Dialoogvenster {#edit-dialog} bewerken
+## Dialoogvenster Bewerken {#edit-dialog}
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud de basispagina voor navigatie en de diepte van de navigatiestructuur definiëren.
 
@@ -167,6 +166,6 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur de standaardwaarden instel
 
 De component Navigation ondersteunt het AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
 
-## Adobe-gegevenslaag client {#data-layer}
+## Gegevenslaag Adobe-client {#data-layer}
 
 De component van de Navigatie steunt [de Laag van de Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)
