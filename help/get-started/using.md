@@ -1,17 +1,16 @@
 ---
 title: Basiscomponenten gebruiken
 description: '"Om aan de slag te gaan met de Componenten van de Kern in uw eigen project, zijn er drie stappen te volgen: download en installeer, creeer volmachtscomponenten, laad de kernstijlen, en sta de componenten op uw malplaatjes toe."'
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
-translation-type: tm+mt
-source-git-commit: 45a17fe42146516f351f897e85a4a48dcf3aadab
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 0%
 
 ---
 
-# Core Components{#using-core-components} gebruiken
+# Basiscomponenten gebruiken{#using-core-components}
 
 Om aan de slag te gaan met de Componenten van de Kern in uw eigen project, zijn er vier stappen, die individueel in secties hieronder worden beschreven:
 
@@ -29,7 +28,7 @@ Om aan de slag te gaan met de Componenten van de Kern in uw eigen project, zijn 
 >
 >Als u [AEM Project Archetype gebruikt, ](/help/developing/archetype/overview.md) zijn de Componenten van de Kern automatisch inbegrepen in uw project dat op Adobe aanbevelingen wordt gebaseerd.
 
-## {#download-and-install} downloaden en installeren
+## Downloaden en installeren {#download-and-install}
 
 Een van de drijvende ideeën achter de kerncomponenten is flexibiliteit. Door nieuwe versies van de Core Components vrij te geven, kan Adobe zich flexibeler opstellen bij het aanbieden van nieuwe functies. Ontwikkelaars kunnen op hun beurt flexibel zijn in welke onderdelen zij kiezen om in hun projecten te integreren en hoe vaak zij deze willen bijwerken. Dit resulteert in een afzonderlijk releaseproces voor zowel AEM als de Core Components.
 
@@ -85,7 +84,7 @@ ExampleAdd volgende eigenschappen:
 
 Kijk bijvoorbeeld naar de [titelcomponent van de WKND-site](https://github.com/adobe/aem-guides-wknd/blob/master/ui.apps/src/main/content/jcr_root/apps/wknd/components/title/.content.xml), die een goed voorbeeld is van een proxycomponent die op die manier is gemaakt.
 
-## De kernstijlen {#load-the-core-styles} laden
+## De kernstijlen laden {#load-the-core-styles}
 
 1. Als dit nog niet het geval is, maakt u een [Clientbibliotheek](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html) die alle CSS- en JS-bestanden bevat die nodig zijn voor uw site.
 1. Voor de Bibliotheek van de Cliënt van uw plaats, voeg de gebiedsdelen aan de Componenten van de Kern toe die nodig zouden kunnen zijn. Dit wordt gedaan door een `embed` bezit toe te voegen.
@@ -104,7 +103,7 @@ Kijk bijvoorbeeld naar de [titelcomponent van de WKND-site](https://github.com/a
 
 Controleer of uw proxycomponenten en clientbibliotheken zijn geïmplementeerd in uw AEM-omgeving voordat u naar de volgende sectie gaat.
 
-## De componenten {#allow-the-components} toestaan
+## De componenten toestaan {#allow-the-components}
 
 De volgende stappen worden uitgevoerd in [Sjablooneditor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
