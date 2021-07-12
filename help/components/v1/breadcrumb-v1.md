@@ -2,15 +2,14 @@
 title: Breadcrumb-component (v1)
 description: De component van de Breadcrumb van de Component van de Kern is een navigatiecomponent die een broodkruimel van verbindingen bouwt die op de plaats van de pagina in de inhoudshiërarchie wordt gebaseerd.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 4845e649-033a-43a8-b5ee-892a3f2a8b98
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
-
 
 # Breadcrumb-component (v1) {#breadcrumb-component-v}
 
@@ -42,7 +41,7 @@ In de volgende tabel wordt de compatibiliteit van v1 van de component Breadcrumb
 
 Het volgende voorbeeld wordt genomen uit [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
-### Screenshot {#screenshot}
+### Schermafbeelding {#screenshot}
 
 ![](/help/assets/chlimage_1-33.png)
 
@@ -87,7 +86,7 @@ Het volgende voorbeeld wordt genomen uit [We.Retail](https://helpx.adobe.com/exp
 >
 >Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Zie [compatibiliteitsinformatie voor Core Components v1](/help/versions.md) voor meer informatie.
 
-## Dialoogvenster {#edit-dialog} bewerken
+## Dialoogvenster Bewerken {#edit-dialog}
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud verborgen en actieve pagina&#39;s in de broodkruimels onderdrukken, evenals de diepte in de hiërarchie die moet worden weergegeven.
 
