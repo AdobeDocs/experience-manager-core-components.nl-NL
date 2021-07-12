@@ -1,17 +1,16 @@
 ---
 title: Component Tabs
 description: Met de component Tabs kunt u meerdere tabbladen maken om de inhoud op een pagina te rangschikken.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 0031c5f3-447c-4932-898f-2f453801e492
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1040'
 ht-degree: 1%
 
 ---
 
-
-# Tabs-component {#tabs-component}
+# Component Tabs {#tabs-component}
 
 Met de component Core Component Tabs kunt u inhoud op meerdere tabbladen ordenen.
 
@@ -63,7 +62,7 @@ De recentste technische documentatie over de Component van Lusjes [kan op GitHub
 
 Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
-## Dialoogvenster {#edit-dialog} bewerken
+## Dialoogvenster Bewerken {#edit-dialog}
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud tabbladen maken, hernoemen en opnieuw rangschikken, en het actieve tabblad definiëren.
 
@@ -101,7 +100,7 @@ Op het tabblad **Toegankelijkheid** kunnen waarden worden ingesteld voor [ARIA-t
 
 * **Label**  - waarde van een ARIA-labelkenmerk voor de component
 
-## Deelvenster {#select-panel} selecteren
+## Deelvenster selecteren {#select-panel}
 
 De auteur van de inhoud kan de optie **Select Panel** op de componentwerkbalk gebruiken om over te schakelen naar een ander deelvenster voor bewerking en om de tabvolgorde gemakkelijk te wijzigen.
 
@@ -135,6 +134,6 @@ Het tabblad Toegestane componenten werkt op dezelfde manier als het tabblad met 
 
 De component van Lusjes steunt het AEM [Systeem van de Stijl](/help/get-started/authoring.md#component-styling).
 
-## Adobe-gegevenslaag client {#data-layer}
+## Gegevenslaag Adobe-client {#data-layer}
 
 De component Tabs ondersteunt de [Adobe-laag voor clientgegevens.](/help/developing/data-layer/overview.md)
