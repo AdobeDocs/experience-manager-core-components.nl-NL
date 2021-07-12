@@ -1,17 +1,16 @@
 ---
 title: Component Form Container
 description: Met de Core Component Form Container Component kunnen eenvoudige verzendformulieren worden gemaakt.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
 
-
-# Formuliercontainercomponent {#form-container-component}
+# Component Form Container {#form-container-component}
 
 Met de Core Component Form Container Component kunnen eenvoudige verzendformulieren worden gemaakt.
 
@@ -48,7 +47,7 @@ De recentste technische documentatie over de Component van de Container van de V
 
 Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
-## Dialoogvenster {#configure-dialog} configureren
+## Dialoogvenster configureren {#configure-dialog}
 
 In het dialoogvenster voor configureren kan de auteur van de inhoud definiëren welke handelingen worden uitgevoerd wanneer de component wordt verzonden.
 
@@ -60,7 +59,7 @@ Afhankelijk van het geselecteerde **Type handeling** veranderen de beschikbare o
 
 Ongeacht het type, zijn er [algemene montages](#general-settings) die op elke actie van toepassing zijn.
 
-### Formuliergegevens {#post-data} plaatsen
+### Formuliergegevens verzenden {#post-data}
 
 Wanneer het formulier wordt verzonden, worden de ingediende gegevens door het actietype voor postformuliergegevens doorgegeven aan een derde als JSON voor verwerking.
 
@@ -87,7 +86,7 @@ Wanneer het formulier wordt verzonden, verzendt het type e-mailactie een e-mail 
    * Tik of klik op de knop **Toevoegen** om extra adressen toe te voegen
    * Tik of klik op de knop **Verwijderen** om een e-mailadres te verwijderen
 
-### Inhoud opslaan {#store-content}
+### Winkelinhoud {#store-content}
 
 Wanneer het formulier wordt verzonden, wordt de inhoud van het formulier opgeslagen in een aangewezen opslagplaats.
 
@@ -110,7 +109,7 @@ Ongeacht het geselecteerde handelingstype, kan een pagina van dank u altijd word
 ![Algemene opties in het dialoogvenster Bewerken van component Form Container](/help/assets/form-container-edit-general.png)
 
 * **Hartelijk dank, pagina**  - De gebruiker wordt na het verzenden van het formulier omgeleid naar de opgegeven pagina.
-   * Gebruik het dialoogvenster Selectie om een bron in AEM te selecteren.
+   * Gebruik het dialoogvenster Selectie om een bron binnen AEM te selecteren.
    * Geef de absolute URL op als de pagina voor bedankt niet in AEM is. Niet-absolute URL&#39;s worden ten opzichte van AEM geïnterpreteerd.
    * Laat leeg om het formulier na verzending opnieuw weer te geven.
 * **ID**  - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de  [gegevenslaag](/help/developing/data-layer/overview.md).
