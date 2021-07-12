@@ -1,17 +1,16 @@
 ---
 title: Basiscomponenten ontwikkelen
 description: De componenten van de Kern verstrekken robuuste en verlengbare basiscomponenten die eigenschap-rijke mogelijkheden, ononderbroken levering, componentenversioning, moderne implementatie, leuning prijsverhoging, en JSON de uitvoer van inhoud aanbieden.
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-translation-type: tm+mt
-source-git-commit: b01fdc7ab6b4d4bb4200d28aaa3706c58ccdea9f
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1591'
 ht-degree: 2%
 
 ---
 
-# Kerncomponenten ontwikkelen {#developing-core-components}
+# Basiscomponenten ontwikkelen {#developing-core-components}
 
 ## Wanneer moet u de kerncomponenten gebruiken? {#when-to-use-the-core-components}
 
@@ -32,7 +31,7 @@ componentenAls uw componenten naar behoren werken, kunt u ze op de juiste wijze 
 \
    Als dat niet het geval is, raadpleegt u &quot;Nieuwe aangepaste componenten&quot; hierboven.
 
-## Hoe te met de Componenten van de Kern {#how-to-succeed} Succes
+## Hoe te met de Componenten van de Kern Succes {#how-to-succeed}
 
 De kerncomponenten zijn krachtig, flexibel en gebruiksvriendelijk. [Op basis van enkele belangrijke ](success.md) richtlijnen kunt u ervoor zorgen dat uw project met de Core Components een succes wordt.
 
@@ -42,7 +41,7 @@ Om het even welk nieuw project zou met de Componenten van de Kern moeten worden 
 
 ### Migreren van stichtingscomponenten {#from-foundation}
 
-Een grotere inspanning op een bestaand project (bijvoorbeeld rebranding of het algemene refactoring) biedt vaak een kans om aan de Componenten van de Kern te migreren. Om deze migratie te vergemakkelijken, heeft Adobe een aantal migratiehulpmiddelen verstrekt om de goedkeuring van de Componenten van de Kern en de recentste AEM technologie te bevorderen.
+Een grotere inspanning op een bestaand project (bijvoorbeeld rebranding of het algemene refactoring) biedt vaak een kans om aan de Componenten van de Kern te migreren. Om deze migratie te vergemakkelijken, heeft Adobe een aantal migratiehulpmiddelen verstrekt om de goedkeuring van de Componenten van de Kern en de recentste AEM aan te moedigen.
 
 [De ](http://opensource.adobe.com/aem-modernize-tools/) Toolsallow van de Modernisering van de AEM voor de gemakkelijke omzetting van:
 
@@ -74,7 +73,7 @@ Net als bij elk ander AEMaaCS-project moet u ook een afhankelijkheid toevoegen a
 
 Zie het document [AEM Projectstructuur](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) voor meer informatie over projecten AEMaaCS.
 
-## Ondersteuning voor kerncomponenten {#core-component-support}
+## Ondersteuning van kerncomponenten {#core-component-support}
 
 De Componenten van de kern zijn een integraal deel van AEM en gesteund zoals is, onder de zelfde voorwaarden alsof zij als deel van Quickstart werden geleverd.
 
@@ -118,7 +117,7 @@ De volgende lijst maakt een lijst van de beschikbare Componenten van de Kern, di
 | [Tekst](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text) | RTF | `/libs/foundation/components/text /libs/foundation/components/table /libs/wcm/foundation/components/text` |
 | [Afbeelding](https://adobe.com/go/aem_cmp_tech_image_v2) | Slim en wazig laden van optimale weergavegrootte | `/libs/foundation/components/image /libs/foundation/components/adaptiveimage /libs/foundation/components/logo /libs/foundation/components/mobileimage  /libs/foundation/components/mobilelogo /libs/wcm/foundation/components/image` |
 | [Lijst](https://adobe.com/go/aem_cmp_tech_list_v2) | Lijst met pagina&#39;s | `/libs/foundation/components/list /libs/foundation/components/mobilelist /libs/wcm/foundation/components/list` |
-| [Delen van sociale media](https://adobe.com/go/aem_cmp_tech_sharing_v1) | Widget Facebook en Pinterest delen | `-` |
+| [Delen van sociale media](https://adobe.com/go/aem_cmp_tech_sharing_v1) | Delen via facebook en Pinterest widget | `-` |
 | [Formuliercontainer](https://adobe.com/go/aem_cmp_tech_form_container_v2) | Responsief formulieralineasysteem | `/libs/foundation/components/form/start /libs/foundation/components/form/end` |
 | [Formuliertekst](https://adobe.com/go/aem_cmp_tech_form_text_v2) | Tekstinvoerveld | `/libs/foundation/components/form/text /libs/foundation/components/form/password` |
 | [Formulieropties](https://adobe.com/go/aem_cmp_tech_form_options_v2) | Invoerveld Meerdere opties | `/libs/foundation/components/form/checkbox /libs/foundation/components/form/radio /libs/foundation/components/form/dropdown` |
