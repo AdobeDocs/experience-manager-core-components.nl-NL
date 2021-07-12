@@ -1,17 +1,16 @@
 ---
 title: Component Voortgangsbalk
 description: De component van de vooruitgangsbar vertegenwoordigt visueel vooruitgang in de richting van een doel
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 47afc5a6-ac57-4b6c-92c4-015ca956a20b
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '338'
 ht-degree: 2%
 
 ---
 
-
-# Voortgangsbalkcomponent {#progress-bar-component}
+# Component Voortgangsbalk {#progress-bar-component}
 
 De component van de Bar van de Voortgang van de Component van de Kern vertegenwoordigt visueel vooruitgang in de richting van een doel.
 
@@ -39,7 +38,7 @@ De recentste technische documentatie over de Component van de Bar van de Voortga
 
 Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
-## Dialoogvenster {#configure-dialog} configureren
+## Dialoogvenster configureren {#configure-dialog}
 
 ![Dialoogvenster voor bewerken van component Progress](/help/assets/progress-bar-edit.png)
 
@@ -57,6 +56,6 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de stijlen definiëren die zi
 
 De component ProgressBar ondersteunt het AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
 
-## Adobe-gegevenslaag client {#data-layer}
+## Gegevenslaag Adobe-client {#data-layer}
 
 De component van de Bar van de Voortgang steunt [de Laag van de Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)
