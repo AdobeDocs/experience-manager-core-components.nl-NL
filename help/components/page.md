@@ -1,17 +1,16 @@
 ---
 title: Pagina-component
 description: De component Pagina is een uitbreidbare paginacomponent die wordt ontworpen om met de malplaatjeredacteur te werken en paginakopbal/footer en structuurcomponenten toe te laten om met de malplaatjedacteur worden samengesteld.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: fa8ead438093681071b6b6f8ccfbba523f6d3bee
+role: Architect, Developer, Admin, User
+exl-id: 2503e067-abed-427d-8a54-8b79e3451487
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '691'
 ht-degree: 1%
 
 ---
 
-
-# Paginacomponent{#page-component}
+# Pagina-component{#page-component}
 
 De component van de Pagina is een verlengbare paginacomponent die wordt ontworpen om met [malplaatjeredacteur ](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) te werken en paginakopbal/footer en structuurcomponenten toe te laten om met de malplaatjedacteur worden samengesteld.
 
@@ -44,7 +43,7 @@ De recentste technische documentatie over de Component van de Pagina [kan op Git
 
 Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
-## Dialoogvenster {#edit-dialog} bewerken
+## Dialoogvenster Bewerken {#edit-dialog}
 
 Aangezien de component de gehele pagina vertegenwoordigt, worden instellingen die normaal gesproken in een bewerkingsdialoogvenster staan, gevonden in het venster [Pagina-eigenschappen](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
 
@@ -89,6 +88,6 @@ Zie [Client Side Libraries gebruiken](https://helpx.adobe.com/experience-manager
 
 De component van de Pagina steunt het AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
 
-## Adobe-gegevenslaag client {#data-layer}
+## Gegevenslaag Adobe-client {#data-layer}
 
 De component van de Pagina steunt [Adobe de Laag van de Gegevens van de Cliënt.](/help/developing/data-layer/overview.md)
