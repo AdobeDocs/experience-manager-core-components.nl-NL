@@ -1,23 +1,22 @@
 ---
 title: Component voor sociaal delen
-description: De Core Component Social Sharing Component is een widget voor delen via Facebook en Pinterest.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+description: De Core Component Social Sharing is een deelwidget Facebook en Pinterest.
+role: Architect, Developer, Admin, User
+exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '427'
 ht-degree: 1%
 
 ---
 
-
 # Component voor sociaal delen{#social-sharing-component}
 
-De Core Component Social Sharing Component is een widget voor delen via Facebook en Pinterest.
+De Core Component Social Sharing is een deelwidget Facebook en Pinterest.
 
 ## Gebruik {#usage}
 
-De component Sociaal delen voegt koppelingen voor delen via Facebook en Pinterest toe aan de pagina. Deze wordt vaak opgenomen in kop- of voetteksten van pagina&#39;s.
+Met de component Sociaal delen voegt u koppelingen naar Facebook en Pinterest voor delen toe aan de pagina. Deze wordt vaak opgenomen in kop- of voetteksten van pagina&#39;s.
 
 In tegenstelling tot andere componenten worden de instellingen voor de component voor sociaal delen uitgevoerd door de sjabloonauteur via [Initiële pagina-eigenschappen](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) en door de auteur van de inhoud via [Pagina-eigenschappen](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
 
@@ -43,7 +42,7 @@ De recentste technische documentatie over de het Delen Component [kan op GitHub]
 
 Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
 
-## Dialoogvenster {#edit-dialog} bewerken
+## Dialoogvenster Bewerken {#edit-dialog}
 
 ![Dialoogvenster voor bewerken van component delen](/help/assets/sharing-edit.png)
 
