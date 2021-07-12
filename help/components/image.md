@@ -1,15 +1,14 @@
 ---
 title: Afbeeldingscomponent
 description: De Core Component Image is een adaptieve beeldcomponent die ter plekke kan worden bewerkt.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '2175'
+source-wordcount: '2170'
 ht-degree: 0%
 
 ---
-
 
 # Afbeeldingscomponent{#image-component}
 
@@ -74,11 +73,11 @@ Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de o
 
 De component van het Beeld steunt [schema.org microdata](https://schema.org).
 
-## Dialoogvenster {#configure-dialog} configureren
+## Dialoogvenster configureren {#configure-dialog}
 
 Naast de standaard [bewerkingsdialoog](#edit-dialog) en [ontwerpdialoog](#design-dialog), biedt de component van het beeld een configuratievenster waarin het beeld zelf met zijn beschrijving en basiseigenschappen wordt bepaald.
 
-### Tabblad Elementen {#asset-tab}
+### Tabblad Element {#asset-tab}
 
 ![Tabblad Element van het dialoogvenster Configureren van Image Component](/help/assets/image-configure-asset.png)
 
@@ -113,7 +112,7 @@ Naast de standaard [bewerkingsdialoog](#edit-dialog) en [ontwerpdialoog](#design
 >
 >**De optie Slim** uitsnijden en  **Voorinstelling** afbeelding sluiten elkaar uit. Als een auteur een vooraf ingestelde afbeelding samen met een uitvoering voor Slim uitsnijden moet gebruiken, moet de auteur de **Voorinstellingen voor afbeeldingen** handmatig toevoegen.
 
-## Dialoogvenster {#edit-dialog} bewerken
+## Dialoogvenster Bewerken {#edit-dialog}
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud uitsnijden, de startkaart wijzigen en inzoomen op de afbeelding.
 
@@ -257,6 +256,6 @@ De component Image maakt gebruik van de Adaptive Image Servlet van de Core-compo
 >
 >[De de steekproefconfiguratie van de Verzender van de Projectarchetype](/help/developing/archetype/overview.md) van het AEM bevat reeds deze configuratie.
 
-## Adobe-gegevenslaag client {#data-layer}
+## Gegevenslaag Adobe-client {#data-layer}
 
 De component van het Beeld steunt de [Laag van de Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)
