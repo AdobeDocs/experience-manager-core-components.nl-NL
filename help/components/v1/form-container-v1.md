@@ -2,15 +2,14 @@
 title: Formuliercontainercomponent (v1)
 description: Met de Core Component Form Container Component kunnen eenvoudige verzendformulieren worden gemaakt.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 1e34219f-fa82-494e-82e2-1b4d63d37fea
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
-
 
 # Formuliercontainercomponent (v1) {#form-container-component-v1}
 
@@ -69,7 +68,7 @@ Wanneer het formulier wordt verzonden, verzendt het type e-mailactie een e-mail 
    * Tik of klik op de knop **Toevoegen** om extra adressen toe te voegen
    * Tik of klik op de knop **Verwijderen** om een e-mailadres te verwijderen
 
-### Inhoud opslaan {#store-content}
+### Winkelinhoud {#store-content}
 
 Wanneer het formulier wordt verzonden, wordt de inhoud van het formulier opgeslagen in een aangewezen opslagplaats.
 
@@ -79,13 +78,13 @@ Wanneer het formulier wordt verzonden, wordt de inhoud van het formulier opgesla
 * **Gegevens**  weergeven - Tik of klik om opgeslagen verzonden gegevens weer te geven als JSON
 * **Workflow**  starten - Configureren om een workflow met de opgeslagen inhoud te starten als lading bij het verzenden van het formulier
 
-### Bestelling {#submit-order} verzenden
+### Bestelling verzenden {#submit-order}
 
 Wanneer het formulier wordt ingediend, wordt de bestelling verzonden.
 
 ![](/help/assets/chlimage_1-3.png)
 
-### Volgorde {#update-order} bijwerken
+### Volgorde bijwerken {#update-order}
 
 Wanneer het formulier wordt verzonden, wordt de volgorde bijgewerkt.
 
