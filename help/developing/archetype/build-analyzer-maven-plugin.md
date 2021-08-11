@@ -4,9 +4,9 @@ description: Documentatie voor de lokale Maven-plug-in voor analyseprogramma's
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: a6c28db9eaf20e194b4b3355e59f710e2c251305
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '595'
 ht-degree: 4%
 
 ---
@@ -38,3 +38,25 @@ Hieronder ziet u een tabel met een beschrijving van de analyseapparaten die als 
 | `configuration-api` | Valideert belangrijke OSGi-configuraties. <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | Ja | Ja |
 | `region-deprecated-api` | Controleert of [afgekeurde api](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html) wordt gebruikt <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Ja | Ja |
 
+## Bekende problemen
+
+Hieronder ziet u een lijst met bekende problemen wanneer u de plug-in Analysator maken gebruikt.
+
+### Kan de plug-in Build Analyzer Maven niet uitvoeren in lokale SDK
+
+Als u de lokale SDK gebruikt met een lagere versie van de plug-in voor analyse van build dan `1.1.2`, kan het uitvoeren van de plug-in leiden tot de onderstaande fout. In dit geval werkt u uw project bij naar de meest recente versie van de plug-in.
+
+```txt
+[ERROR] Failed to execute goal com.adobe.aem:aemanalyser-maven-plugin:1.1.0:analyse (default-analyse) on project mysite.analyse: Execution default-analyse of goal com.adobe.aem:aemanalyser-maven-plugin:1.1.0:analyse failed: arraycopy: source index -1 out of bounds for char[65536] -> [Help 1]
+```
+
+Als u het AEM Projectarchetype aan opstelling uw project gebruikte, zorg ervoor om het bezit in de wortel aan te passen Maven `pom.xml` zoals hieronder.
+
+```xml
+   ...
+   <properties>
+      ...
+      <aemanalyser.version>1.1.2</aemanalyser.version> <!-- Make sure to use the latest release -->
+      ...
+   </properties>
+```
