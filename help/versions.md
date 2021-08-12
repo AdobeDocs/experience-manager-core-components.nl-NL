@@ -3,16 +3,16 @@ title: Core Components-versies
 description: De Componenten van de kern worden gepubliceerd als versies die meer dan één versie van de zelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies beschikbaar zijn en hoe u de compatibiliteit met Core Components en AEM begrijpt.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: cc8c3275bf251b4c390ee66588f34bac7c0ec218
 workflow-type: tm+mt
-source-wordcount: '2174'
+source-wordcount: '2233'
 ht-degree: 11%
 
 ---
 
 # Core Components-versies {#core-components-versions}
 
-De huidige versie van de Core Components is 2.17.2 en is compatibel met [AEM als Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) en [on-premise AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) installaties.
+De huidige versie van de Core Components is 2.17.8 en is compatibel met [AEM als Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) en [on-premise AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) installaties.
 
 ## Historie en compatibiliteit vrijgeven {#release-history-and-compatibility}
 
@@ -26,6 +26,8 @@ De volgende lijst, waarvan de inhoud [beschikbaar op GitHub met volledige versie
 
 | Geen | Beschrijving | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service | Java | Releasedatum |
 |---|---|---|---|---|---|---|
+| [2.17.8.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | Deze flardversie Dit is een flardversie om een achterwaartse onverenigbare verandering te bevestigen die eerder werd geïntroduceerd. | 6.4.8.4+ * | 6.5.6.0+ * | Continu | 8, 11 | 2 augustus 2021 |
+| [2.17.6.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | Deze patchrelease biedt ondersteuning voor site maps voor pagina&#39;s en bevat verschillende toegankelijkheidsverbeteringen. | 6.4.8.4+ * | 6.5.6.0+ * | Continu | 8, 11 | 29 juli 2021 |
 | [2.17.2.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | Deze flardversie omvat een moeilijke situatie voor [de Laag van Gegevens](/help/developing/data-layer/overview.md) werkt niet met AEMaaCS. | 6.4.8.4+ * | 6.5.6.0+ * | Continu | 8, 11 | 8 juli 2021 |
 | [2.17.0.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | Deze release bevat technische voorvertoningen van veel nieuwe componentversies die ondersteuning bieden voor functies voor het afhandelen van koppelingen en een technische voorvertoning van een functie voor aanbevolen afbeeldingen voor de [Paginacomponent.](/help/components/page.md) Verschillende opgeloste problemen zijn ook opgenomen. | 6.4.8.4+ * | 6.5.6.0+ * | Continu | 8, 11 | 16 juni 2021 |
 | [2.16.4.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.4) | Dit is een flardversie om een kwestie met de nieuwe manager van de Verbinding te bevestigen. | 6.4.8.1+ * | 6.5.5.0+ * | Continu | 8, 11 | 19 mei 2021 |
