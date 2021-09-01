@@ -3,9 +3,9 @@ title: Component List
 description: De component van de Lijst van de Component van de Kern staat voor de gemakkelijke verwezenlijking van dynamische en statische lijsten toe.
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: eea159ad494150c3f132166d48f624605eb92e64
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '1064'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,17 @@ De component van de Lijst van de Component van de Kern staat voor de gemakkelijk
 ## Gebruik {#usage}
 
 De component List kan worden gebruikt om bijvoorbeeld een dynamische lijst met onderliggende pagina&#39;s of een statische lijst met willekeurig gedefinieerde items te maken. Het type van beschikbare lijsten en opmaakopties kan door de malplaatjeauteur in [ontwerpdialoog](#design-dialog) worden bepaald. De inhoudeditor kan kiezen uit beschikbare lijsttypen en hoe de lijstelementen worden opgemaakt in het dialoogvenster [bewerken](#edit-dialog).
+
+## Omleiding in lijsten {#redirects}
+
+Wanneer een pagina een omleidingsdoel heeft (ongeacht of deze naar een externe URL of naar een andere AEM pagina verwijst), dan een lijst die koppelingen naar dat punt rechtstreeks naar de URL van het omleidingsdoel bevat.
+
+### Voorbeeld {#redirect-example}
+
+* Maak een pagina A die wordt omgeleid naar pagina B.
+* Een pagina C maken die wordt omgeleid naar `https://aemcomponents.dev`
+* Voeg op een pagina D een lijstcomponent in die de pagina&#39;s A en C bevat
+* De respectievelijke koppelingen die vervolgens worden gegenereerd, verwijzen rechtstreeks naar pagina B en `https://aemcomponents.dev`
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 

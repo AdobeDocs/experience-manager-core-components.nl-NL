@@ -3,9 +3,9 @@ title: Navigatie-component
 description: Met de navigatiecomponent kunnen gebruikers gemakkelijk door een geglobaliseerde sitestructuur navigeren.
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: eea159ad494150c3f132166d48f624605eb92e64
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1469'
 ht-degree: 0%
 
 ---
@@ -87,6 +87,18 @@ De component Navigation geeft het menu vervolgens weer op basis van de structuur
 
 >[!NOTE]
 >Bij het renderen van een schaduwsitestructuur worden alleen de schaduwpagina&#39;s teruggezet door de navigatielogica. De logica recurdeert niet de structuur van de omleidingsbestemmingen.
+
+## Omleiding in navigatie {#redirects}
+
+Wanneer een pagina een omleidingsdoel heeft (ongeacht of deze naar een externe URL of naar een andere AEM pagina verwijst), dan een navigatiecomponent die koppelingen naar dat punt rechtstreeks naar de URL van het omleidingsdoel bevat.
+
+### Voorbeeld {#redirect-example}
+
+* Maak een pagina A die wordt omgeleid naar pagina B.
+* Een pagina C maken die wordt omgeleid naar `https://aemcomponents.dev`
+* Voeg op pagina D een navigatie- of navigatiecomponent in die pagina A en C bevat
+* De respectievelijke koppelingen die vervolgens worden gegenereerd, verwijzen rechtstreeks naar pagina B en `https://aemcomponents.dev`
+
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
