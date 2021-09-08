@@ -4,9 +4,9 @@ description: Documentatie voor de lokale Maven-plug-in voor analyseprogramma's
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-source-git-commit: a6c28db9eaf20e194b4b3355e59f710e2c251305
+source-git-commit: db33866f0a9e87e34eaaa061d308438c6f5bebb4
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '605'
 ht-degree: 4%
 
 ---
@@ -37,6 +37,7 @@ Hieronder ziet u een tabel met een beschrijving van de analyseapparaten die als 
 | `bundle-nativecode` | Valideert dat OSGI-bundels geen native code installeren. | Ja | Ja |
 | `configuration-api` | Valideert belangrijke OSGi-configuraties. <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | Ja | Ja |
 | `region-deprecated-api` | Controleert of [afgekeurde api](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html) wordt gebruikt <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Ja | Ja |
+| `artifact-rules` | Valideert afhankelijkheden zoals bundels en inhoudspakketten om bekende problemen in artefacten te voorkomen.<p> </p>`[WARNING] [artifact-rules] com.adobe.acs:acs-aem-commons-bundle:5.0.4: Use at least version 5.0.10 (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Ja | Ja |
 
 ## Bekende problemen
 
