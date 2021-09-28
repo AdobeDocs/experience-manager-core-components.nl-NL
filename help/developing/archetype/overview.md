@@ -4,9 +4,9 @@ description: Een projectmalplaatje voor op AEM gebaseerde toepassingen
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 5271174f5c325a9793dc155c763054752c7308b8
+source-git-commit: 69be45e2aa80753789fa19b12374b8e15eb6a394
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1138'
 ht-degree: 2%
 
 ---
@@ -94,6 +94,7 @@ De afhankelijkheid van kerncomponenten wordt alleen toegevoegd voor versies met 
 | `amp` | `n` | Schakel [AMP](/help/developing/amp.md)-ondersteuning voor gegenereerde projectsjablonen in. |
 | `enableDynamicMedia` | `n` | Laat stichting DynamicMedia componenten in de montages van het projectbeleid toe en activeert de eigenschappen van Dynamic Media in het beleid van de component van het Beeld van de Kern. |
 | `enableSSR` | `n` | Optie om SSR voor het front-end project toe te laten |
+| `precompiledScripts` | `n` | Optie om [de server-zijmanuscripten van `ui.apps` vooraf te compileren en hen aan de bouw als secundair bundelartefact in het `ui.apps` project vast te maken. ](/help/developing/archetype/precompiled-bundled-scripts.md) `aemVersion` moet worden ingesteld op  `cloud`. |
 
 ## Systeemvereisten {#requirements}
 

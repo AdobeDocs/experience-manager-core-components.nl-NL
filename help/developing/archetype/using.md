@@ -4,9 +4,9 @@ description: Gedetailleerde gebruiksinstructies voor het AEM Project Archetype
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 69be45e2aa80753789fa19b12374b8e15eb6a394
 workflow-type: tm+mt
-source-wordcount: '2147'
+source-wordcount: '2209'
 ht-degree: 0%
 
 ---
@@ -117,6 +117,7 @@ De volgende eigenschappen zijn beschikbaar wanneer het creëren van een project 
 | `amp` | `n` | Schakel [AMP](/help/developing/amp.md)-ondersteuning voor gegenereerde projectsjablonen in. |
 | `enableDynamicMedia` | `n` | Laat stichting DynamicMedia componenten in de montages van het projectbeleid toe en activeert de eigenschappen van Dynamic Media in het beleid van de component van het Beeld van de Kern. |
 | `enableSSR` | `n` | Optie om SSR voor het front-end project toe te laten |
+| `precompiledScripts` | `n` | Optie om [de server-zijmanuscripten van `ui.apps` vooraf te compileren en hen aan de bouw als secundair bundelartefact in het `ui.apps` project vast te maken. ](/help/developing/archetype/precompiled-bundled-scripts.md) `aemVersion` moet worden ingesteld op  `cloud`. |
 
 >[!NOTE]
 >
@@ -138,6 +139,7 @@ Het gegenereerde beheerde project ondersteunt verschillende implementatieprofiel
 | `autoInstallSinglePackage` | Installeer het inhoudspakket `all` met de insteekmodule content-package-maven in het pakketbeheer om de standaardversie van de auteur op localhost, poort 4502, te gebruiken. Hostnaam en poort kunnen worden gewijzigd met de door de gebruiker gedefinieerde eigenschappen `aem.host` en `aem.port`. |
 | `autoInstallSinglePackagePublish` | Installeer het `all`-inhoudspakket met de insteekmodule content-package-maven in het pakketbeheer om de standaardpublicatie-instantie op localhost, poort 4503, in te stellen. Hostnaam en poort kunnen worden gewijzigd met de door de gebruiker gedefinieerde eigenschappen `aem.host` en `aem.port`. |
 | `integrationTests` | Voert de verstrekte integratietests op de AEM instantie (slechts voor de `verify` fase) in werking |
+| `precompiledScripts` | Wordt automatisch gedefinieerd wanneer het project wordt gegenereerd met de eigenschap `precompiledScripts` ingesteld op `y`. Het profiel is standaard actief en genereert een OSGi-bundel in `ui.apps` met de vooraf gecompileerde scripts, die worden opgenomen in het inhoudspakket `all`. Het profiel kan worden uitgeschakeld met `-DskipScriptPrecompilation=true`. |
 
 ### Samenstellen en installeren {#building-and-installing}
 

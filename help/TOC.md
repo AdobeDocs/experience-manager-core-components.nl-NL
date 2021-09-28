@@ -1,19 +1,18 @@
 ---
-sub-product: AEM kerncomponenten
+sub-product: AEM Core Components
 user-guide-title: AEM kerncomponenten
 breadcrumb-title: Handleiding voor kerncomponenten
 user-guide-description: Met de uitbreidbare Core Components kunnen auteurs eenvoudig inhoud maken.
 feature-set: Experience Manager Sites
-translation-type: tm+mt
-source-git-commit: 15aa2145a4872a9e9c46e639f42f212363823d75
+source-git-commit: 7bff1282bdd05b98e7ce33ab0e1a1be7080bb209
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 
-# Help bij AEM Core Components {#using}
+# Help AEM Core Components {#using}
 
 + [Introductie van kerncomponenten](introduction.md)
 + [Paden naar succes](developing/success.md)
@@ -85,6 +84,7 @@ ht-degree: 2%
       + [Archetype gebruiken](developing/archetype/using.md)
       + [Kernmodule](developing/archetype/core.md)
       + [ui.apps-module](developing/archetype/uiapps.md)
+      + [Vooraf gecompileerde, gecompileerde scripts](developing/archetype/precompiled-bundled-scripts.md)
       + [ui.content Module](developing/archetype/uicontent.md)
       + [ui.frontend.general Module](developing/archetype/uifrontend.md)
       + [ui.frontend.response Module](developing/archetype/uifrontend-react.md)
