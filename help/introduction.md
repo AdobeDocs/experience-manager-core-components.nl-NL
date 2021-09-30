@@ -3,9 +3,9 @@ title: Introductie van kerncomponenten
 description: 'De kerncomponenten bieden robuuste en uitbreidbare basiscomponenten die zijn gebaseerd op de nieuwste technologie en best practices. '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 5271174f5c325a9793dc155c763054752c7308b8
+source-git-commit: 19a7057d0a37d8222dcb2441bba1e479d786fb10
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '937'
 ht-degree: 3%
 
 ---
@@ -36,7 +36,7 @@ De kerncomponenten zijn een reeks gestandaardiseerde WCM-componenten (Web Conten
 | Veelzijdig | De componenten vertegenwoordigen generische concepten waarmee de auteurs vrijwel elke lay-out kunnen samenstellen. |
 | Configureerbaar | Sjabloonniveau [inhoudsbeleid](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#content-policies) bepaalt welke eigenschappen de paginaauteurs mogen gebruiken of niet mogen gebruiken. |
 | Overtrekbaar | Met de [integratie van de gegevenslaag van de Adobe-client](/help/developing/data-layer/overview.md) kunt u alle aspecten van de ervaring van de bezoeker bijhouden. |
-| Toegankelijk | Zij voldoen [WCAG 2.1 norm](https://www.w3.org/TR/WCAG21/), verstrekken ARIA etiketten, en steunen toetsenbordnavigatie ([bekende kwesties](https://github.com/adobe/aem-core-wcm-components/issues?utf8= ✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
+| Toegankelijk | Zij voldoen aan [WCAG 2.1 norm](https://www.w3.org/TR/WCAG21/), verstrekken etiketten ARIA, en steunen toetsenbordnavigatie ([bekende kwesties](https://github.com/adobe/aem-core-wcm-components/issues?utf8= ✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
 | SEO-vriendelijk | De HTML-uitvoer is semantisch en biedt microgegevensannotaties [schema.org](https://schema.org). |
 | WebApp-Ready | Met de [gestroomlijnde JSON-uitvoer](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) is rendering op de client mogelijk, maar met de mogelijkheid om [in-context te bewerken](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html). |
 | AMP-ondersteuning | De componenten hebben ingebouwde [ondersteuning voor de AMP-standaard,](/help/developing/amp.md) versnelt uw mobiele beleving. |
