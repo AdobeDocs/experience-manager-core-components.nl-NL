@@ -3,10 +3,10 @@ title: Kerncomponenten aanpassen
 description: De componenten van de Kern voeren verscheidene patronen uit die gemakkelijke aanpassing, van eenvoudig het stileren aan geavanceerd functionaliteit hergebruik toestaan.
 role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -122,7 +122,7 @@ Bekijk bijvoorbeeld het HTML-bestand van de v1 Core Breadcrumb-component: [bread
 .cmp-breadcrumb a {}
 ```
 
-Bovendien maakt elk van de Componenten van de Kern hefboomwerking AEM [de eigenschap van het Systeem van de Stijl](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html) die malplaatjeauteurs toestaat om extra CSS klassennamen te bepalen die op de component door de paginaauteurs kunnen worden toegepast. Op deze manier kunt u voor elke sjabloon een lijst met toegestane componentstijlen definiëren en aangeven of een van deze stijlen standaard moet worden toegepast op alle componenten van dat type.
+Bovendien maakt elk van de Componenten van de Kern hefboomwerking AEM [de eigenschap van het Systeem van de Stijl](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html) die malplaatjeauteurs toestaat om extra CSS klassennamen te bepalen die op de component door de paginaauteurs kunnen worden toegepast. Op deze manier kunt u voor elke sjabloon een lijst met toegestane componentstijlen definiëren en aangeven of een van deze stijlen standaard moet worden toegepast op alle componenten van dat type.
 
 ## Compatibiliteit van aanpassingen upgraden {#upgrade-compatibility-of-customizations}
 
@@ -132,7 +132,7 @@ Er zijn drie verschillende soorten upgrades mogelijk:
 * de Core Components upgraden naar een nieuwe secundaire versie
 * de Core Components upgraden naar een belangrijke versie
 
-Doorgaans heeft de upgrade van AEM naar een nieuwe versie geen invloed op de uitgevoerde Core Components of aanpassingen, op voorwaarde dat de versies van de componenten ook de nieuwe AEM versie ondersteunen waarnaar wordt gemigreerd en dat aanpassingen geen API&#39;s gebruiken die [verouderd of verwijderd](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) zijn.
+Doorgaans heeft de upgrade van AEM naar een nieuwe versie geen invloed op de uitgevoerde Core Components of aanpassingen, op voorwaarde dat de versies van de componenten ook de nieuwe AEM versie ondersteunen waarnaar wordt gemigreerd en dat aanpassingen geen API&#39;s gebruiken die [verouderd of verwijderd](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) zijn.
 
 Als u de kerncomponenten upgradet zonder over te schakelen op een nieuwere hoofdversie, heeft dit geen invloed op aanpassingen, zolang de aanpassingspatronen die op deze pagina worden beschreven, worden gebruikt.
 
@@ -152,7 +152,7 @@ Zoals voor om het even welke AEM component, zijn er een aantal dingen om zich va
 
 1. **Functionaliteit is vervangen en verwijderd.**
 
-   Zorg ervoor dat elke nieuwe AEM die wordt bijgewerkt, actueel blijft door de pagina [Vervangen en Verwijderde functies](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) in het oog te houden.
+   Zorg ervoor dat elke nieuwe AEM die wordt bijgewerkt, actueel blijft door de pagina [Vervangen en Verwijderde functies](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) in het oog te houden.
 
 Zie ook de [Kerncomponentondersteuning](overview.md#core-component-support) sectie.
 

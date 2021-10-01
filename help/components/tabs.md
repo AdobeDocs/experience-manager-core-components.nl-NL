@@ -3,10 +3,10 @@ title: Component Tabs
 description: Met de component Tabs kunt u meerdere tabbladen maken om de inhoud op een pagina te rangschikken.
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ Met het dialoogvenster [bewerken](#edit-dialog) kan de auteur van de inhoud meer
 >
 >Geneste tabcomponenten (tabs binnen tabs) worden ondersteund.
 >
->Eenvoudige (niet-geneste) tabcomponenten kunnen worden gevonden/geselecteerd met behulp van de [inhoudsstructuur](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree), maar geneste tabbladen kunnen niet worden gevonden.
+>Eenvoudige (niet-geneste) tabcomponenten kunnen worden gevonden/geselecteerd met behulp van de [inhoudsstructuur](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree), maar geneste tabbladen kunnen niet worden gevonden.
 
 ## Diep koppelen aan een deelvenster {#deep-linking}
 
@@ -32,7 +32,7 @@ De tabs en [Accordeoncomponenten](accordion.md) ondersteunen het rechtstreeks ko
 
 Dit doet u als volgt:
 
-1. Bekijk de pagina met de component gebruikend **[Mening als Gepubliceerd](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** optie in de paginaredacteur.
+1. Bekijk de pagina met de component gebruikend **[Mening als Gepubliceerd](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** optie in de paginaredacteur.
 1. Inspect de inhoud van de pagina en identificeer de id van het deelvenster.
    * Bijvoorbeeld `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. De id wordt het anker dat u met een hash (`#`) aan de URL kunt toevoegen.
@@ -79,7 +79,7 @@ Gebruik de **Add** knoop om de componentenselecteur te openen om te kiezen welke
 
 >[!TIP]
 >
->Als de viewport van de pagina wordt verminderd zodat het bewerkingsdialoogvenster volledig scherm wordt, wordt de **Add** knoop verborgen. Componenten kunnen nog steeds worden toegevoegd aan de component Tabs door [te slepen vanuit de componentenbrowser en neer te zetten op de component Tabs in de pagina-editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component).
+>Als de viewport van de pagina wordt verminderd zodat het bewerkingsdialoogvenster volledig scherm wordt, wordt de **Add** knoop verborgen. Componenten kunnen nog steeds worden toegevoegd aan de component Tabs door [te slepen vanuit de componentenbrowser en neer te zetten op de component Tabs in de pagina-editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component).
 
 ### Tabblad Eigenschappen {#properties-tab}
 
@@ -118,7 +118,7 @@ Nadat u de optie **Deelvenster selecteren** hebt geselecteerd op de componentwer
 
 >[!NOTE]
 >
->Tabs kunnen niet door de auteur worden geselecteerd in de modus **Bewerken**. Gebruik de **[modus Voorvertoning](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)** of de optie **[Weergeven als gepubliceerd](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** om te communiceren met de tabbladen als een lezer van de gepubliceerde inhoud.
+>Tabs kunnen niet door de auteur worden geselecteerd in de modus **Bewerken**. Gebruik de **[modus Voorvertoning](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)** of de optie **[Weergeven als gepubliceerd](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** om te communiceren met de tabbladen als een lezer van de gepubliceerde inhoud.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -128,7 +128,7 @@ In het ontwerpdialoogvenster kan de sjabloonauteur definiëren welke componenten
 
 Het tabblad **Toegestane componenten** wordt gebruikt om te definiëren welke componenten door de auteur van de inhoud als items aan de component tabs kunnen worden toegevoegd.
 
-Het tabblad Toegestane componenten werkt op dezelfde manier als het tabblad met dezelfde naam wanneer [het beleid en de eigenschappen van een container voor de layout in de Sjablooneditor worden gedefinieerd.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
+Het tabblad Toegestane componenten werkt op dezelfde manier als het tabblad met dezelfde naam wanneer [het beleid en de eigenschappen van een container voor de layout in de Sjablooneditor worden gedefinieerd.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Tabblad Stijlen {#styles-tab}
 

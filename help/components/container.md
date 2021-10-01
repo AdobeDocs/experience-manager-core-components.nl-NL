@@ -3,9 +3,9 @@ title: Containercomponent
 description: Met de component Core Component Container kunt u een container maken voor meerdere aanvullende componenten op een pagina.
 role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '786'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ In het dialoogvenster configureren kan de auteur van de inhoud het containeritem
 
 * **Layout**  - Deze optie definieert het gedrag of het lay-outgedrag van de Container Component.
    * **Eenvoudig**  - Definieert een container als een eenvoudige verzameling componenten
-   * **Responsief raster**  - Definieert een container als een  [AEM responsieve lay-out](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
+   * **Responsief raster**  - Definieert een container als een  [AEM responsieve lay-out](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
 * **Achtergrondkleur** : kan worden gedefinieerd als vrije RGB-waarden of met de kleurkiezer,  [afhankelijk van de configuratie](#background-tab)
 * **Achtergrondafbeelding**  - Definieert een achtergrondkleur voor de container,   [afhankelijk van de configuratie](#background-tab)
 * **ID**  - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de  [gegevenslaag](/help/developing/data-layer/overview.md).
@@ -67,11 +67,11 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de opties definiëren die bes
 
 Het tabblad **Toegestane componenten** wordt gebruikt om te definiëren welke componenten door de auteur van de inhoud als items aan de Container-component kunnen worden toegevoegd.
 
-Het tabblad Toegestane componenten werkt op dezelfde manier als het tabblad met dezelfde naam wanneer [het beleid en de eigenschappen van een container voor de layout in de Sjablooneditor worden gedefinieerd.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
+Het tabblad Toegestane componenten werkt op dezelfde manier als het tabblad met dezelfde naam wanneer [het beleid en de eigenschappen van een container voor de layout in de Sjablooneditor worden gedefinieerd.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Tabblad Standaardcomponenten {#default-components-tab}
 
-Het lusje Standaard van Componenten wordt gebruikt om te bepalen welke component aan de component wordt toegevoegd wanneer een bepaald elementtype op de container wordt gelaten vallen, gelijkend op [hoe de standaardcomponenten op het paginamalplaatje](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) worden bepaald.
+Het lusje Standaard van Componenten wordt gebruikt om te bepalen welke component aan de component wordt toegevoegd wanneer een bepaald elementtype op de container wordt gelaten vallen, gelijkend op [hoe de standaardcomponenten op het paginamalplaatje](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) worden bepaald.
 
 ### Tab Instellingen voor responsief {#responsive-settings-tab}
 

@@ -4,9 +4,9 @@ description: Gedetailleerde gebruiksinstructies voor het AEM Project Archetype
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: 69be45e2aa80753789fa19b12374b8e15eb6a394
+source-git-commit: 017790c5a0e53ba6203a5c3d5ddebcce9c00cb01
 workflow-type: tm+mt
-source-wordcount: '2209'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Natuurlijk zijn er vele elementen die in een succesvol AEM project gaan, maar he
 
 Het project archetype maakt het gemakkelijk om zich op AEM te beginnen ontwikkelen. U kunt de eerste stappen op verschillende manieren uitvoeren.
 
-* WKND-zelfstudie - Voor een grote inleiding tot het ontwikkelen op AEM, inclusief hoe u het archetype optimaal kunt benutten, raadpleegt u de [Aan de slag met AEM Sites - WKND-zelfstudie](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) voor een praktisch voorbeeld waarin u het archetype gebruikt om een eenvoudig project te implementeren.
+* WKND-zelfstudie - Voor een grote inleiding tot het ontwikkelen op AEM, inclusief hoe u het archetype optimaal kunt benutten, raadpleegt u de [Aan de slag met AEM Sites - WKND-zelfstudie](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) voor een praktisch voorbeeld waarin u het archetype gebruikt om een eenvoudig project te implementeren.
 * Zelfstudie voor WKND-gebeurtenissen - Als u bijzonder geïnteresseerd bent in de ontwikkeling van toepassingen (SPA) op AEM met één pagina, moet u de speciale [WKND-gebeurtenissenzelfstudie](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html) uitchecken.
 * Download en start alleen! - U kunt het huidige project archetype gemakkelijk downloaden beschikbaar op GitHub en uw eerste project door [na de eenvoudige stappen onder](#how-to-use-the-archetype) tot stand brengen.
 
@@ -75,7 +75,7 @@ mvn -B archetype:generate \
 ```
 
 * Stel `XX` in op het [versienummer](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md) van het nieuwste AEM Projectarchetype.
-* `aemVersion=cloud` voor [AEM instellen als een Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html);\
+* `aemVersion=cloud` voor [AEM instellen als een Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html);\
    Stel `aemVersion=6.5.0` in voor [Beheerde services van Adobe](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) of op locatie.
 De afhankelijkheid van kerncomponenten wordt alleen toegevoegd voor versies zonder cloudnaam omdat de kerncomponenten OTB voor AEM als cloud worden geleverd
 Service.
@@ -102,10 +102,10 @@ De volgende eigenschappen zijn beschikbaar wanneer het creëren van een project 
 | `groupId` |  | Basis-Maven-groep-id (bijvoorbeeld `"com.mysite"`). |
 | `package` | *`${groupId}`* | Java-bronpakket (bijvoorbeeld `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Projectversie (bijvoorbeeld `1.0-SNAPSHOT`). |
-| `aemVersion` | `cloud` | AEM (kan `cloud` voor [AEM als Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) zijn; of `6.5.0`, of `6.4.4` voor [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) of on-premise). |
-| `sdkVersion` | `latest` | Wanneer `aemVersion=cloud` een [SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html)-versie kan worden opgegeven (bijvoorbeeld `2020.02.2265.20200217T222518Z-200130`). |
+| `aemVersion` | `cloud` | AEM (kan `cloud` voor [AEM als Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) zijn; of `6.5.0`, of `6.4.4` voor [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) of on-premise). |
+| `sdkVersion` | `latest` | Wanneer `aemVersion=cloud` een [SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html)-versie kan worden opgegeven (bijvoorbeeld `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Bevat een configuratie van de verzender voor cloud of voor AMS/on-premise, afhankelijk van de waarde van `aemVersion` (kan `y` of `n` zijn). |
-| `frontendModule` | `general` | Omvat een vooraf gebouwde module Webpack die de cliëntbibliotheken (kan `general` of `none` voor regelmatige plaatsen zijn; kan `angular` of `react` voor een Enige Pagina zijn app die [SPA Redacteur ](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)) uitvoert. |
+| `frontendModule` | `general` | Omvat een vooraf gebouwde module Webpack die de cliëntbibliotheken (kan `general` of `none` voor regelmatige plaatsen zijn; kan `angular` of `react` voor een Enige Pagina zijn app die [SPA Redacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)) uitvoert. |
 | `language` | `en` | Taalcode (ISO 639-1) waarmee de inhoudsstructuur wordt gemaakt (bijvoorbeeld `en`, `deu`). |
 | `country` | `us` | Landcode (ISO 3166-1) om de inhoudsstructuur te maken op basis van (bijvoorbeeld `US`). |
 | `singleCountry` | `y` | Omvat een taal-master inhoudsstructuur (kan `y`, of `n` zijn). |
@@ -199,7 +199,7 @@ De `<dependencyManagement>` sectie van ouderPOM bepaalt alle gebiedsdelen en ver
 
 #### Uber-Jar {#uber-jar}
 
-Één van de belangrijkste gebiedsdelen is [AEM uber-jar](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/ht-projects-maven.html#ExperienceManagerAPIDependencies). Dit omvat alle AEM APIs met enkel één enkele gebiedsdeelingang voor de versie van AEM.
+Één van de belangrijkste gebiedsdelen is [AEM Java API Jar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html). Dit omvat alle AEM APIs met enkel één enkele gebiedsdeelingang voor de versie van AEM.
 
 >[!NOTE]
 >
@@ -209,7 +209,7 @@ De `<dependencyManagement>` sectie van ouderPOM bepaalt alle gebiedsdelen en ver
 
 Het AEM Projectarchetype van natuurlijk hefboomwerkingen de Componenten van de Kern.
 
-De kerncomponenten worden automatisch in AEM in de standaardrunmode geïnstalleerd en door de steekproefWKND plaats gebruikt. In een [productiestroom](https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/production-ready.html) (`nosamplecontent`) zijn de Componenten van de Kern niet beschikbaar.
+De kerncomponenten worden automatisch in AEM in de standaardrunmode geïnstalleerd en door de steekproefWKND plaats gebruikt. In een [productiestroom](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#runmodes) (`nosamplecontent`) zijn de Componenten van de Kern niet beschikbaar.
 
 Daarom is het, om de Componenten van de Kern in alle plaatsingen te gebruiken, een beste praktijk om hen als deel van het Maven project te omvatten.
 
@@ -233,7 +233,7 @@ Het project bevat drie testniveaus en omdat het verschillende typen tests zijn, 
    * `mvn clean verify -PintegrationTests`
 * Client-side Hobbes.js-tests: Dit zijn op JavaScript gebaseerde browsertests die gedrag aan de browserzijde controleren. Testen:
    1. Laad AEM in uw browser zoals u een pagina zou schrijven.
-   1. Open de pagina in [Modus Ontwikkelaar](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/developer-mode.html)
+   1. Open de pagina in [Modus Ontwikkelaar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/developer-mode.html)
    1. Open het linkerdeelvenster en schakel over naar het tabblad **Tests**.
    1. Zoek de gegenereerde **MyName Tests** en voer deze uit.
 
@@ -242,6 +242,6 @@ Het project bevat drie testniveaus en omdat het verschillende typen tests zijn, 
 Dus u hebt het AEM Project Archetype gebouwd en geïnstalleerd. Wat nu? Goed, is het archetype klein, maar bestaat uit vele voorbeelden van krachtige AEM eigenschappen die volgens geadviseerde beste praktijken worden gevormd. Gebruik deze opties om aan te geven hoe u deze functies in uw project kunt gebruiken. Voor elk project moet u waarschijnlijk:
 
 * [Componenten aanpassen door de bestaande kerncomponenten uit te breiden](/help/developing/customizing.md)
-* [Extra sjablonen toevoegen](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
-* [De lokalisatiestructuur aanpassen](https://docs.adobe.com/content/help/en/experience-manager-65/administering/introduction/tc-prep.html)
+* [Extra sjablonen toevoegen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+* [De lokalisatiestructuur aanpassen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html)
 * [Meer informatie over de front-end build-module](uifrontend.md)

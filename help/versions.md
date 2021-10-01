@@ -3,16 +3,16 @@ title: Core Components-versies
 description: De Componenten van de kern worden gepubliceerd als versies die meer dan één versie van de zelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies beschikbaar zijn en hoe u de compatibiliteit met Core Components en AEM begrijpt.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: fdca922ff637dc905fc90e80a1018c214a38e8c8
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
 workflow-type: tm+mt
-source-wordcount: '2279'
-ht-degree: 11%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Core Components-versies {#core-components-versions}
 
-De huidige versie van de Core Components is 2.17.8 en is compatibel met [AEM als Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) en [on-premise AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) installaties.
+De huidige versie van de Core Components is 2.17.10 en is compatibel met [AEM als Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) en [on-premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installaties.
 
 ## Historie en compatibiliteit vrijgeven {#release-history-and-compatibility}
 
@@ -155,4 +155,4 @@ Zie de pagina [Kerncomponenten aanpassen](developing/customizing.md) van de rele
 
 De nadruk op Adobe is verschoven naar de kerncomponenten en er worden nieuwe functies toegevoegd.
 
-[Bijna zijn alle Componenten van de Stichting verouderd met AEM 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) en slechts zullen de belangrijkste insectenmoeilijke situaties voor de Componenten van de Stichting in de toekomst worden overwogen.
+[Bijna zijn alle Componenten van de Stichting verouderd met AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html) en slechts zullen de belangrijkste insectenmoeilijke situaties voor de Componenten van de Stichting in de toekomst worden overwogen.

@@ -3,10 +3,10 @@ title: Component insluiten
 description: Met de component Embed kunt u externe inhoud insluiten in een AEM inhoudspagina.
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 1%
+source-wordcount: '1337'
+ht-degree: 0%
 
 ---
 
@@ -111,7 +111,7 @@ De HTML-opmaak die de auteur kan invoeren, wordt voor beveiligingsdoeleinden gef
 
 De regels zijn echter gecompliceerder omdat de component Embed AEM algemene filterregelset van het HTML AntiSamy-sanitatieframework volgt, die u kunt vinden op `/libs/cq/xssprotection/config.xml`. Dit kan voor project-specifieke configuratie door een ontwikkelaar indien vereist worden bedekt.
 
-Aanvullende beveiligingsinformatie vindt u in de [AEM ontwikkelaarsdocumentatie voor on-premise installaties](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html) en [AEM als Cloud Service installaties.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/home.html)
+Aanvullende beveiligingsinformatie vindt u in de [AEM ontwikkelaarsdocumentatie voor on-premise installaties](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html) en [AEM als Cloud Service installaties.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)
 
 >[!NOTE]
 >Hoewel de regels van het AntiSamy- sanitatieframework door `/libs/cq/xssprotection/config.xml` te bedekken kunnen worden gevormd, beïnvloeden deze veranderingen al gedrag HTML en JSP en niet alleen de Embed Component van de Kern.

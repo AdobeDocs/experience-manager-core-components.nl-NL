@@ -3,10 +3,10 @@ title: Componentrichtlijnen
 description: De componenten van de Kern volgen moderne implementatiepatronen die vrij verschillend van de stichtingscomponenten zijn.
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ Om dit een stap verder te zetten, als de componenten over plaatsen of projecten 
 
 ### Scheiding van bezorgdheid {#separation-of-concerns}
 
-Het is doorgaans een goede gewoonte om de logica (of het model) van een component los te houden van de opmaaksjabloon (of weergave). Er zijn verscheidene manieren om dat te bereiken, nochtans adviseert men [Sling Models](https://sling.apache.org/documentation/bundles/models.html) voor de logica en [Taal van het Malplaatje van HTML](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) (HTL) voor de prijsverhoging te gebruiken, zoals de Componenten van de Kern ook doen.
+Het is doorgaans een goede gewoonte om de logica (of het model) van een component los te houden van de opmaaksjabloon (of weergave). Er zijn verscheidene manieren om dat te bereiken, nochtans adviseert men [Sling Models](https://sling.apache.org/documentation/bundles/models.html) voor de logica en [Taal van het Malplaatje van HTML](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) (HTL) voor de prijsverhoging te gebruiken, zoals de Componenten van de Kern ook doen.
 
 Sling Models is een reeks aantekeningen van Java om tot noodzakelijke variabelen van POJOs gemakkelijk toegang te hebben, en daarom een eenvoudige, krachtige, en efficiënte manier te bieden om Java logica voor componenten uit te voeren.
 
@@ -42,7 +42,7 @@ De richtlijnen in deze sectie kunnen ook voor om het even welk soort component w
 
 ### Vooraf configureerbare mogelijkheden {#pre-configurable-capabilities}
 
-Naast het dialoogvenster Bewerken dat wordt gebruikt door auteurs van pagina&#39;s, kunnen componenten ook een ontwerpdialoogvenster hebben waarin sjabloonauteurs ze vooraf kunnen configureren. Met de [Sjablooneditor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) kunt u al deze voorconfiguraties instellen. Deze worden &#39;Beleid&#39; genoemd.
+Naast het dialoogvenster Bewerken dat wordt gebruikt door auteurs van pagina&#39;s, kunnen componenten ook een ontwerpdialoogvenster hebben waarin sjabloonauteurs ze vooraf kunnen configureren. Met de [Sjablooneditor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) kunt u al deze voorconfiguraties instellen. Deze worden &#39;Beleid&#39; genoemd.
 
 Om componenten zo herbruikbaar mogelijk te maken, zouden zij van zinvolle opties moeten worden voorzien om vooraf te vormen. Hierdoor kunnen functies van de componenten worden in- of uitgeschakeld, zodat deze voldoen aan de specifieke behoeften van verschillende sites.
 
@@ -85,11 +85,11 @@ Wanneer gecombineerd met het [hierboven beschreven Proxy Component Pattern](#pro
 
 ## Alles samenvoegen {#putting-it-all-together}
 
-Hieronder volgt een overzicht van het volledige middeltype bindingsstructuur, die het voorbeeld van de Component van de Kern van de Titel neemt. Het illustreert hoe een plaats-specifieke volmachtscomponent toestaat om componentenversioning op te lossen, om te vermijden dat het inhoudsmiddel om het even welk versieaantal bevat. Vervolgens wordt getoond hoe het bestand `title.html` [HTL](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) van de component wordt gebruikt voor de modelinterface, terwijl de implementatie zich bindt aan de specifieke versie van de component via [Sling Model](https://sling.apache.org/documentation/bundles/models.html) annotaties.
+Hieronder volgt een overzicht van het volledige middeltype bindingsstructuur, die het voorbeeld van de Component van de Kern van de Titel neemt. Het illustreert hoe een plaats-specifieke volmachtscomponent toestaat om componentenversioning op te lossen, om te vermijden dat het inhoudsmiddel om het even welk versieaantal bevat. Vervolgens wordt getoond hoe het bestand `title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) van de component wordt gebruikt voor de modelinterface, terwijl de implementatie zich bindt aan de specifieke versie van de component via [Sling Model](https://sling.apache.org/documentation/bundles/models.html) annotaties.
 
 ![Overzicht van binding met bronnen](/help/assets/chlimage_1-32.png)
 
-Hieronder volgt een ander overzicht, dat niet de details van de implementatie POJO toont, maar onthult hoe de bijbehorende [sjablonen en het beleid](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html) van verwijzingen worden voorzien.
+Hieronder volgt een ander overzicht, dat niet de details van de implementatie POJO toont, maar onthult hoe de bijbehorende [sjablonen en het beleid](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/templates.html) van verwijzingen worden voorzien.
 
 De eigenschap `cq:allowedTemplates` vertelt welke sjablonen voor een site kunnen worden gebruikt en de `cq:template` geeft voor elke pagina aan wat de bijbehorende sjabloon is. Elke sjabloon bestaat uit de volgende drie delen:
 

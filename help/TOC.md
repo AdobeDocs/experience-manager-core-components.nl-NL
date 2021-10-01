@@ -4,10 +4,10 @@ user-guide-title: AEM kerncomponenten
 breadcrumb-title: Handleiding voor kerncomponenten
 user-guide-description: Met de uitbreidbare Core Components kunnen auteurs eenvoudig inhoud maken.
 feature-set: Experience Manager Sites
-source-git-commit: 7bff1282bdd05b98e7ce33ab0e1a1be7080bb209
+source-git-commit: 04adfb00ca5908714e611f8b5de6cd2b6d127a37
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 3%
 + Ontwikkeling {#developing}
    + [Basiscomponenten ontwikkelen](developing/overview.md)
    + [Paden naar succes](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
-   + [Zelfstudie voor WKND-ontwikkelaars](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+   + [Zelfstudie voor WKND-ontwikkelaars](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Kerncomponenten aanpassen](developing/customizing.md)
    + [Componentrichtlijnen](developing/guidelines.md)
    + [AMP-ondersteuning](developing/amp.md)

@@ -3,16 +3,16 @@ title: Component Inhoudsfragment
 description: Met de component Inhoudsfragment van de kerncomponent kunt u een inhoudsfragment weergeven.
 role: Architect, Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Component Inhoudsfragment{#content-fragment-component}
 
-Met de component Inhoudsfragment van kerncomponent kunt u een [inhoudsfragment](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) weergeven.
+Met de component Inhoudsfragment van kerncomponent kunt u een [inhoudsfragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) weergeven.
 
 >[!NOTE]
 >
@@ -20,11 +20,11 @@ Met de component Inhoudsfragment van kerncomponent kunt u een [inhoudsfragment](
 
 ## Gebruik {#usage}
 
-De component van het Fragment van de Inhoud van de Component van de Kern staat voor de opneming van een [inhoudsfragment](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) op een pagina toe.
+De component van het Fragment van de Inhoud van de Component van de Kern staat voor de opneming van een [inhoudsfragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) op een pagina toe.
 
 * Het fragment en zijn eigenschappen kunnen in [vorm dialoog](#configure-dialog) worden geselecteerd.
 * De types van middelen om bepaalde beelden en netten te behandelen kunnen in [ontwerpdialoog](#design-dialog) worden bepaald.
-* Met de optie Bewerken wordt het geselecteerde fragment geopend in de [inhoudfragmenteditor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html).
+* Met de optie Bewerken wordt het geselecteerde fragment geopend in de [inhoudfragmenteditor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html).
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 

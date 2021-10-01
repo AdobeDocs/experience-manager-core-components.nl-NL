@@ -3,9 +3,9 @@ title: Carousel-component
 description: Met de Carousel-component kan de auteur van de inhoud inhoud inhoud presenteren in een roterende carrousel.
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1115'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Gebruik de **Add** knoop om de componentenselecteur te openen om te kiezen welke
 
 >[!TIP]
 >
->Als de viewport van de pagina wordt verminderd zodat het bewerkingsdialoogvenster volledig scherm wordt, wordt de **Add** knoop verborgen. Componenten kunnen nog steeds aan de Carousel-component worden toegevoegd door [vanuit de componentbrowser te slepen en neer te zetten op de Carousel-component in de pagina-editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser).
+>Als de viewport van de pagina wordt verminderd zodat het bewerkingsdialoogvenster volledig scherm wordt, wordt de **Add** knoop verborgen. Componenten kunnen nog steeds aan de Carousel-component worden toegevoegd door [vanuit de componentbrowser te slepen en neer te zetten op de Carousel-component in de pagina-editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser).
 
 ### Tabblad Eigenschappen {#properties-tab}
 
@@ -77,9 +77,9 @@ Op het tabblad **Eigenschappen** kan de auteur van de inhoud de dia&#39;s instel
 
 >[!NOTE]
 >
->De besturingselementen voor diavoorstellingen worden niet ingeschakeld in de modus **Bewerken**. Gebruik [**Voorvertoning** modus](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) of de optie **[Weergeven als gepubliceerd](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** om te communiceren met de carrousel als een lezer van de gepubliceerde inhoud.
+>De besturingselementen voor diavoorstellingen worden niet ingeschakeld in de modus **Bewerken**. Gebruik [**Voorvertoning** modus](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) of de optie **[Weergeven als gepubliceerd](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** om te communiceren met de carrousel als een lezer van de gepubliceerde inhoud.
 >
->De functie voor automatisch vooruitgaan is niet ingeschakeld in de modus **Bewerken**. Gebruik **[Weergeven als gepubliceerd](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** optie om de functie voor automatisch vooruitgaan te zien als een lezer van de gepubliceerde inhoud.
+>De functie voor automatisch vooruitgaan is niet ingeschakeld in de modus **Bewerken**. Gebruik **[Weergeven als gepubliceerd](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** optie om de functie voor automatisch vooruitgaan te zien als een lezer van de gepubliceerde inhoud.
 
 ### Tabblad Toegankelijkheid {#accessibility-tab}
 
@@ -123,7 +123,7 @@ Het tabblad **Eigenschappen** wordt gebruikt om de standaardinstellingen voor de
 
 Het tabblad **Toegestane componenten** wordt gebruikt om te definiëren welke componenten door de auteur van de inhoud als dia&#39;s aan de Carousel-component kunnen worden toegevoegd.
 
-Het tabblad Toegestane componenten werkt op dezelfde manier als het tabblad met dezelfde naam wanneer [het beleid en de eigenschappen van een container voor de layout in de Sjablooneditor worden gedefinieerd.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
+Het tabblad Toegestane componenten werkt op dezelfde manier als het tabblad met dezelfde naam wanneer [het beleid en de eigenschappen van een container voor de layout in de Sjablooneditor worden gedefinieerd.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Tabblad Stijlen {#styles-tab}
 

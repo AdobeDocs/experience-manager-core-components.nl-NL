@@ -3,10 +3,10 @@ title: Basiscomponenten ontwikkelen
 description: De componenten van de Kern verstrekken robuuste en verlengbare basiscomponenten die eigenschap-rijke mogelijkheden, ononderbroken levering, componentenversioning, moderne implementatie, leuning prijsverhoging, en JSON de uitvoer van inhoud aanbieden.
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 2%
+source-wordcount: '1583'
+ht-degree: 1%
 
 ---
 
@@ -41,7 +41,7 @@ Om het even welk nieuw project zou met de Componenten van de Kern moeten worden 
 
 ### Migreren van stichtingscomponenten {#from-foundation}
 
-Een grotere inspanning op een bestaand project (bijvoorbeeld rebranding of het algemene refactoring) biedt vaak een kans om aan de Componenten van de Kern te migreren. Om deze migratie te vergemakkelijken, heeft Adobe een aantal migratiehulpmiddelen verstrekt om de goedkeuring van de Componenten van de Kern en de recentste AEM aan te moedigen.
+Een grotere inspanning op een bestaand project (bijvoorbeeld rebranding of het algemene refactoring) biedt vaak een kans om aan de Componenten van de Kern te migreren. Om deze migratie te vergemakkelijken, heeft Adobe een aantal migratiehulpmiddelen verstrekt om de goedkeuring van de Componenten van de Kern en de recentste AEM technologie te bevorderen.
 
 [De ](http://opensource.adobe.com/aem-modernize-tools/) Toolsallow van de Modernisering van de AEM voor de gemakkelijke omzetting van:
 
@@ -93,7 +93,7 @@ Voor details over hun auteursmogelijkheden en opties om hen pre-configureerbaar 
 | **Capaciteit** | **Kerncomponent** | **Foundation-component** |
 |-----|---|---|
 | Logische implementatie | Java POJO&#39;s met [Sling Models](https://sling.apache.org/documentation/bundles/models.html) annotaties | JSP-code |
-| Opmaakdefinitie | [HTML-sjabloonsyntaxis](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html)  (HTL) | JSP-code |
+| Opmaakdefinitie | [HTML-sjabloonsyntaxis](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html)  (HTL) | JSP-code |
 | XSS-ontsmetting | Geautomatiseerd door HTML | Meestal handmatig |
 | Naam van CSS-klassen | Gestandaardiseerde naamgevingsconventie gebaseerd op de notatie [Blokelelement modifier](https://getbem.com/) (BEM) (vanaf release 2.0.0) | Aangepaste schema&#39;s |
 | Dialoogdefinitie | [Koraal 3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Koraal 2 + klassieke gebruikersinterface |
@@ -103,7 +103,7 @@ Voor details over hun auteursmogelijkheden en opties om hen pre-configureerbaar 
 | Aflevering | [Via public GitHub](https://github.com/adobe/aem-core-wcm-components) | Via Quickstart |
 | Licentie | [Apache-licentie](https://www.apache.org/licenses/LICENSE-2.0) | Adobe-bedrijfseigen |
 | Bijdrage | Via pull request | Niet mogelijk |
-| Toegankelijkheid | Volledig compatibel met de [WCAG 2.0 AA-standaard](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | Slechts gedeeltelijk compatibel met [WCAG 2.0 AA norm](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
+| Toegankelijkheid | Volledig compatibel met de [WCAG 2.0 AA-standaard](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | Slechts gedeeltelijk compatibel met [WCAG 2.0 AA norm](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
 
 ## Componentlijst {#component-list}
 
@@ -149,6 +149,6 @@ Voor een overzicht van de aanstaande wegenkaart van de Component van de Kern zie
 
 Een voordeel van versioned componenten is dat het toestaat om de migratie aan een nieuwe AEM versie van de migratie aan nieuwe componentenversies te scheiden. Als er nieuwe componentversies beschikbaar zijn, is het bovendien mogelijk om elke component afzonderlijk naar de nieuwe versie te migreren.
 
-Migraties naar een nieuwe AEM hebben geen invloed op de werking van de Core Components, op voorwaarde dat de versies ervan ook ondersteuning bieden voor de nieuwe AEM die wordt gemigreerd naar. Aanpassingen aan de Componenten van de Kern zouden ook niet moeten worden beïnvloed, zolang zij geen APIs gebruiken die [afgekeurd of verwijderd](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) zijn.
+Migraties naar een nieuwe AEM hebben geen invloed op de werking van de Core Components, op voorwaarde dat de versies ervan ook ondersteuning bieden voor de nieuwe AEM die wordt gemigreerd naar. Aanpassingen aan de Componenten van de Kern zouden ook niet moeten worden beïnvloed, zolang zij geen APIs gebruiken die [afgekeurd of verwijderd](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) zijn.
 
 De migraties aan nieuwe versies van de Componenten van de Kern zullen niet beïnvloeden hoe de component ook werkt, maar de nieuwe eigenschappen zouden aan paginaauteurs kunnen worden geïntroduceerd, die één of andere configuratie door een malplaatjeredacteur zouden kunnen vereisen, voor het geval dat het standaardgedrag niet wordt gewenst. Aanpassingen kunnen echter moeten worden aangepast, voor meer details zie de pagina [Kerncomponenten aanpassen](customizing.md#upgrade-compatibility-of-customizations).

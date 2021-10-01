@@ -3,10 +3,10 @@ title: Teaser-component
 description: De teaser-component kan een afbeelding, een titel, RTF-tekst en eventueel een koppeling naar andere inhoud weergeven.
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -49,9 +49,9 @@ De auteur van de inhoud kan het dialoogvenster Configure gebruiken om de eigensc
 ![Het tabblad Afbeelding van het dialoogvenster Bewerken van de Teasercomponent](/help/assets/teaser-edit-image.png)
 
 * **Afbeeldingselement**
-   * Zet een element neer vanuit de [assetbrowser](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of tik op de optie **browse** om te uploaden vanaf een lokaal bestandssysteem.
+   * Zet een element neer vanuit de [assetbrowser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of tik op de optie **browse** om te uploaden vanaf een lokaal bestandssysteem.
    * Tik of klik op **Wissen** om de selectie van de geselecteerde afbeelding ongedaan te maken.
-   * Tik of klik op **Bewerken** om de uitvoeringen van het element te beheren](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in de elementeneditor.[
+   * Tik of klik op **Bewerken** om de uitvoeringen van het element te beheren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in de elementeneditor.[
 
 >[!NOTE]
 >

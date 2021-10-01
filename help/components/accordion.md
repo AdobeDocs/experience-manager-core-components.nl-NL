@@ -3,10 +3,10 @@ title: Accordion-component
 description: Met de component Core Component Accordion kunt u een verzameling deelvensters maken die zijn gerangschikt in een accordeon op een pagina.
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ De componenten Accordion en [Tabs](tabs.md) ondersteunen het rechtstreeks koppel
 
 Dit doet u als volgt:
 
-1. Bekijk de pagina met de component gebruikend **[Mening als Gepubliceerd](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** optie in de paginaredacteur.
+1. Bekijk de pagina met de component gebruikend **[Mening als Gepubliceerd](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** optie in de paginaredacteur.
 1. Inspect de inhoud van de pagina en identificeer de id van het deelvenster.
    * Bijvoorbeeld `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. De id wordt het anker dat u met een hash (`#`) aan de URL kunt toevoegen.
@@ -120,7 +120,7 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur de opties definiëren die 
 
 Het tabblad **Toegestane componenten** wordt gebruikt om te definiëren welke componenten door de auteur van de inhoud als items aan deelvensters in de component Accordion kunnen worden toegevoegd.
 
-Het tabblad Toegestane componenten werkt op dezelfde manier als het tabblad met dezelfde naam wanneer [het beleid en de eigenschappen van een container voor de layout in de Sjablooneditor worden gedefinieerd.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
+Het tabblad Toegestane componenten werkt op dezelfde manier als het tabblad met dezelfde naam wanneer [het beleid en de eigenschappen van een container voor de layout in de Sjablooneditor worden gedefinieerd.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
 
 ### Tabblad Stijlen {#styles-tab}
 

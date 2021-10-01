@@ -3,9 +3,9 @@ title: Component Form Container
 description: Met de Core Component Form Container Component kunnen eenvoudige verzendformulieren worden gemaakt.
 role: Architect, Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Met de Core Component Form Container Component kunnen eenvoudige verzendformulie
 
 Met de component Form Container kunt u formulieren en functies voor eenvoudige informatieverzending maken door eenvoudige WCM-formulieren te ondersteunen en door een geneste structuur te gebruiken om extra formuliercomponenten toe te staan.
 
-Door [vorm dialoog](#configure-dialog) te gebruiken kan de inhoudsredacteur de actie bepalen die door vormvoorlegging, URl wordt teweeggebracht die de voorlegging zou moeten behandelen, en of een werkschema zou moeten worden teweeggebracht. De sjabloonauteur kan het [ontwerpdialoogvenster](#design-dialog) gebruiken om de toegestane componenten en de bijbehorende toewijzingen te definiëren, vergelijkbaar met het ontwerpdialoogvenster voor de [standaardlay-outcontainer in de sjablooneditor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
+Door [vorm dialoog](#configure-dialog) te gebruiken kan de inhoudsredacteur de actie bepalen die door vormvoorlegging, URl wordt teweeggebracht die de voorlegging zou moeten behandelen, en of een werkschema zou moeten worden teweeggebracht. De sjabloonauteur kan het [ontwerpdialoogvenster](#design-dialog) gebruiken om de toegestane componenten en de bijbehorende toewijzingen te definiëren, vergelijkbaar met het ontwerpdialoogvenster voor de [standaardlay-outcontainer in de sjablooneditor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 >[!NOTE]
 >
->De kerncomponenten Form Container Component ondersteunen alleen het gebruik van basiscomponenten van componenten (knop, tekst, verborgen enz.). Het gebruik van [stichtingscomponenten](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) formuliercomponenten binnen de kerncomponenten van de container (en andersom) wordt niet ondersteund.
+>De kerncomponenten Form Container Component ondersteunen alleen het gebruik van basiscomponenten van componenten (knop, tekst, verborgen enz.). Het gebruik van [stichtingscomponenten](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html) formuliercomponenten binnen de kerncomponenten van de container (en andersom) wordt niet ondersteund.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -109,7 +109,7 @@ Ongeacht het geselecteerde handelingstype, kan een pagina van dank u altijd word
 ![Algemene opties in het dialoogvenster Bewerken van component Form Container](/help/assets/form-container-edit-general.png)
 
 * **Hartelijk dank, pagina**  - De gebruiker wordt na het verzenden van het formulier omgeleid naar de opgegeven pagina.
-   * Gebruik het dialoogvenster Selectie om een bron binnen AEM te selecteren.
+   * Gebruik het dialoogvenster Selectie om een bron in AEM te selecteren.
    * Geef de absolute URL op als de pagina voor bedankt niet in AEM is. Niet-absolute URL&#39;s worden ten opzichte van AEM geïnterpreteerd.
    * Laat leeg om het formulier na verzending opnieuw weer te geven.
 * **ID**  - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de  [gegevenslaag](/help/developing/data-layer/overview.md).
@@ -119,7 +119,7 @@ Ongeacht het geselecteerde handelingstype, kan een pagina van dank u altijd word
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
-In het ontwerpdialoogvenster kan de sjabloonauteur de toegestane componenten en de bijbehorende toewijzingen voor de container definiëren, vergelijkbaar met het ontwerpdialoogvenster voor de standaardlay-outcontainer [in de sjablooneditor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
+In het ontwerpdialoogvenster kan de sjabloonauteur de toegestane componenten en de bijbehorende toewijzingen voor de container definiëren, vergelijkbaar met het ontwerpdialoogvenster voor de standaardlay-outcontainer [in de sjablooneditor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 ### Tabblad Stijlen {#styles-tab}
 

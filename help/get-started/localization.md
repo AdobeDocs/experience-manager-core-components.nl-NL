@@ -3,9 +3,9 @@ title: Localisatiefuncties van de kerncomponenten
 description: Localisatiefuncties van de kerncomponenten
 role: Architect, Developer, Admin, User
 exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Voor de meeste sites is een voettekst vereist die op alle pagina&#39;s aanwezig 
 
 Een navigatiecomponent moet gewoonlijk ook op alle pagina&#39;s worden getoond. De inhoud van de gelokaliseerde pagina&#39;s moet echter wel in de code worden opgenomen.
 
-Met de lokalisatiefuncties van de [Navigation Core Component](/help/components/navigation.md) en [Experience Fragment Core Component](/help/components/experience-fragment.md) samen met de [bewerkbare sjablonen van AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) wordt dit een eenvoudige taak. Het voorbeeld zou verder kunnen worden uitgebreid om [Taalnavigatie Component](/help/components/language-navigation.md) eveneens te gebruiken.
+Met de lokalisatiefuncties van de [Navigation Core Component](/help/components/navigation.md) en [Experience Fragment Core Component](/help/components/experience-fragment.md) samen met de [bewerkbare sjablonen van AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) wordt dit een eenvoudige taak. Het voorbeeld zou verder kunnen worden uitgebreid om [Taalnavigatie Component](/help/components/language-navigation.md) eveneens te gebruiken.
 
 ## De inhoudsstructuur {#content-structure}
 

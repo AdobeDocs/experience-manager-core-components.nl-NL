@@ -4,9 +4,9 @@ description: Een projectmalplaatje voor op AEM gebaseerde toepassingen
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -163,7 +163,7 @@ Het ui.frontend module bouwproces gebruikt [aem-clientlib-generator](https://www
 
 ### Inclusief clientbibliotheken op pagina&#39;s {#clientlib-inclusion}
 
-`clientlib-site` en  `clientlib-dependencies` categorieën worden op pagina&#39;s opgenomen via de configuratie  [ ](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions) Paginabeleid als onderdeel van de standaardsjabloon. Als u het beleid wilt weergeven, bewerkt u **Sjabloon voor inhoudspagina > Pagina-informatie > Paginabeleid**.
+`clientlib-site` en  `clientlib-dependencies` categorieën worden op pagina&#39;s opgenomen via de configuratie  [ ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions) Paginabeleid als onderdeel van de standaardsjabloon. Als u het beleid wilt weergeven, bewerkt u **Sjabloon voor inhoudspagina > Pagina-informatie > Paginabeleid**.
 
 De uiteindelijke opname van clientbibliotheken op de sitepagina ziet er als volgt uit:
 

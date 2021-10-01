@@ -3,9 +3,9 @@ title: Afbeeldingscomponent
 description: De Core Component Image is een adaptieve beeldcomponent die ter plekke kan worden bewerkt.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
 workflow-type: tm+mt
-source-wordcount: '2170'
+source-wordcount: '2162'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Vanwege beveiligingsredenen wordt de oorspronkelijke SVG nooit rechtstreeks aang
 
 >[!CAUTION]
 >
->Voor SVG-ondersteuning is versie 2.1.0 van de Core Components of hoger vereist, samen met [servicepack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) voor AEM 6.4 of hoger, ter ondersteuning van de [functies voor afbeeldingseditors](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html) in AEM.
+>Voor SVG-ondersteuning is versie 2.1.0 van de Core Components of hoger vereist, samen met [servicepack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html) voor AEM 6.4 of hoger, ter ondersteuning van de [functies voor afbeeldingseditors](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/image-editor.html) in AEM.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
@@ -82,9 +82,9 @@ Naast de standaard [bewerkingsdialoog](#edit-dialog) en [ontwerpdialoog](#design
 ![Tabblad Element van het dialoogvenster Configureren van Image Component](/help/assets/image-configure-asset.png)
 
 * **Afbeeldingselement**
-   * Zet een element neer vanuit de [assetbrowser](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of tik op de optie **browse** om te uploaden vanaf een lokaal bestandssysteem.
+   * Zet een element neer vanuit de [assetbrowser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of tik op de optie **browse** om te uploaden vanaf een lokaal bestandssysteem.
    * Tik of klik op **Wissen** om de selectie van de geselecteerde afbeelding ongedaan te maken.
-   * Tik of klik op **Bewerken** om de uitvoeringen van het element te beheren](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in de elementeneditor.[
+   * Tik of klik op **Bewerken** om de uitvoeringen van het element te beheren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in de elementeneditor.[
 
 ### Tabblad Metagegevens {#metadata-tab}
 

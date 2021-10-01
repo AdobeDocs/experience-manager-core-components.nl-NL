@@ -3,16 +3,16 @@ title: Pagina-component
 description: De component Pagina is een uitbreidbare paginacomponent die wordt ontworpen om met de malplaatjeredacteur te werken en paginakopbal/footer en structuurcomponenten toe te laten om met de malplaatjedacteur worden samengesteld.
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '687'
 ht-degree: 1%
 
 ---
 
 # Pagina-component{#page-component}
 
-De component van de Pagina is een verlengbare paginacomponent die wordt ontworpen om met [malplaatjeredacteur ](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) te werken en paginakopbal/footer en structuurcomponenten toe te laten om met de malplaatjedacteur worden samengesteld.
+De component van de Pagina is een verlengbare paginacomponent die wordt ontworpen om met [malplaatjeredacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) te werken en paginakopbal/footer en structuurcomponenten toe te laten om met de malplaatjedacteur worden samengesteld.
 
 ## Gebruik {#usage}
 
@@ -45,7 +45,7 @@ Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de o
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
-Aangezien de component de gehele pagina vertegenwoordigt, worden instellingen die normaal gesproken in een bewerkingsdialoogvenster staan, gevonden in het venster [Pagina-eigenschappen](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
+Aangezien de component de gehele pagina vertegenwoordigt, worden instellingen die normaal gesproken in een bewerkingsdialoogvenster staan, gevonden in het venster [Pagina-eigenschappen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
 
 ## Ontwerpdialoogvenster {#design-dialog}
 

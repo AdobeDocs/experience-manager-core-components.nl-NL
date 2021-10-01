@@ -3,16 +3,16 @@ title: Inclusief clientbibliotheken
 description: Afhankelijk van uw gebruiksscenario zijn er verschillende manieren om clientbibliotheken op te nemen.
 role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Inclusief clientbibliotheken {#including-client-libraries}
 
-Er zijn een aantal verschillende manieren om [cliëntbibliotheken](/help/developing/archetype/uifrontend.md#clientlibs) afhankelijk van uw gebruiksgeval op te nemen. Dit document bevat voorbeelden en voorbeelden [HTL-fragmenten](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) voor beide.
+Er zijn een aantal verschillende manieren om [cliëntbibliotheken](/help/developing/archetype/uifrontend.md#clientlibs) afhankelijk van uw gebruiksgeval op te nemen. Dit document bevat voorbeelden en voorbeelden [HTL-fragmenten](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) voor beide.
 
 ## Aanbevolen standaardgebruik {#recommended-default-usage}
 

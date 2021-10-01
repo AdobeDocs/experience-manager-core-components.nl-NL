@@ -3,9 +3,9 @@ title: Sling Context-Aware Configurations en Core Components
 description: De Core Components hefboomwerking Sling contextbewuste configuraties voor bepaalde eigenschappen
 role: Architect, Developer, Admin
 exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Contextbewuste configuraties zijn een [functie van Sling](https://sling.apache.o
 
 Uw site heeft mogelijk verschillende configuraties voor verschillende sitegebieden nodig, bijvoorbeeld waar bepaalde parameters kunnen worden gedeeld, waarvoor overerving voor geneste contexten en globale terugvalwaarden vereist is. AEM gebruikmaakt van contextbewuste configuraties die deze mogelijkheid mogelijk maken.
 
-Voor details over configuraties in AEM, [zie de Documentatie van Configuraties en Browser van de Configuratie.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/configurations.html)
+Voor details over configuraties in AEM, [zie de Documentatie van Configuraties en Browser van de Configuratie.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/configurations.html)
 
 ## In de kerncomponenten gebruiken {#core-components}
 

@@ -3,10 +3,10 @@ title: Component downloaden
 description: Met de component Core Component Download kunt u een downloadoptie op een pagina maken.
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -54,9 +54,9 @@ In het dialoogvenster Configureren kan de auteur van de inhoud het downloaditem 
 De selectie van een downloadmiddel is zeer gelijkaardig aan de functionaliteit van [de Component van het Beeld](image.md) en ook hefboomwerkingen AEM DAM.
 
 * **Element downloaden**
-   * Zet een element neer vanuit de [assetbrowser](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of tik op de optie **browse** om te uploaden vanaf een lokaal bestandssysteem.
+   * Zet een element neer vanuit de [assetbrowser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of tik op de optie **browse** om te uploaden vanaf een lokaal bestandssysteem.
    * Tik of klik op **Wissen** om de selectie van de geselecteerde afbeelding ongedaan te maken.
-   * Tik of klik op **Bewerken** om de uitvoeringen van het element te beheren](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in de elementeneditor.[
+   * Tik of klik op **Bewerken** om de uitvoeringen van het element te beheren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in de elementeneditor.[
 
 ### Tabblad Eigenschappen {#properties-tab}
 
