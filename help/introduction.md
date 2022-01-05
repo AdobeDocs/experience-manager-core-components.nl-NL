@@ -3,7 +3,7 @@ title: Introductie van kerncomponenten
 description: 'De kerncomponenten bieden robuuste en uitbreidbare basiscomponenten die zijn gebaseerd op de nieuwste technologie en best practices. '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 35d29c28672f53812de4a348c9f75f6766b2a7e7
+source-git-commit: ef18f65be72295f7886a132a26bdd4f8bc2fbd50
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 2%
@@ -18,34 +18,34 @@ De kerncomponenten zijn een reeks gestandaardiseerde WCM-componenten (Web Conten
 
 ## Bronnen {#resources}
 
-* **[Componentbibliotheek:](https://www.adobe.com/go/aem_cmp_library)** een verzameling voorbeelden om de componenten in hun verschillende configuraties weer te geven.
-* **Componentdocumentatie (dit document):** voor ontwikkelaars en auteurs, met details over elke component.
-* **[De Bewaarplaats van GitHub van de Componenten van de kern:](https://github.com/adobe/aem-core-wcm-components)** Voor ontwikkelaardetails van elke component en projectdownload.
+* **[Componentbibliotheek:](https://www.adobe.com/go/aem_cmp_library)** Een inzameling van voorbeelden om de componenten in hun diverse configuraties te bekijken.
+* **Componentdocumentatie (dit document):** Voor ontwikkelaars en auteurs, met details over elke component.
+* **[De Bewaarplaats van GitHub van de Componenten van de kern:](https://github.com/adobe/aem-core-wcm-components)** Voor de details van de ontwikkelaar van elke component en projectdownload.
 * Aan de slag:
-   * **[Succes met de Componenten van de Kern:](/help/developing/success.md)** Richtlijnen om ruim vóór de aanvang van om het even welk project te overwegen dat de Componenten van de Kern zal gebruiken.
-   * **[WKND-zelfstudie:](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** een zelfstudie van twee dagen om een nieuwe site te maken.
-   * **[Zelfstudie voor top:](https://expleague.azureedge.net/labs/L767/index.html)** Een zelfstudie van twee uur voor het bouwen van een nieuwe site (van een Lab op de VS-top in 2019).
-   * **[Gems Webinar: ](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)** Een begeleide rondleiding door de Core Components (opgenomen in december 2018).
+   * **[Succes met de kerncomponenten:](/help/developing/success.md)** Richtlijnen die ruim vóór de aanvang van om het even welk project moeten overwegen dat de Componenten van de Kern zal gebruiken.
+   * **[WKND-zelfstudie:](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** Een zelfstudie van twee dagen voor het bouwen van een nieuwe site.
+   * **[Zelfstudie top:](https://expleague.azureedge.net/labs/L767/index.html)** Een zelfstudie van twee uur voor het bouwen van een nieuwe site (van een Lab op de VS-top in 2019).
+   * **[Gems Webinar:](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)** Een rondleiding door de Core Components (opgenomen in december 2018).
 
 ## Functies {#features}
 
 |  |  |
 |---|---|
 | Gereed voor productie | De componenten van de Kern zijn 28 robuuste componenten die goed worden getest, wijd worden gebruikt, en die goed presteren. |
-| Klaar voor cloud | Of het nu gaat om [AEM als Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html), op [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) of op locatie, ze werken alleen. |
+| Klaar voor cloud | Of aan [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html), op [Beheerde services van Adobe](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)Op locatie werken ze gewoon. |
 | Veelzijdig | De componenten vertegenwoordigen generische concepten waarmee de auteurs vrijwel elke lay-out kunnen samenstellen. |
-| Configureerbaar | Sjabloonniveau [inhoudsbeleid](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/templates.html#content-policies) bepaalt welke eigenschappen de paginaauteurs mogen gebruiken of niet mogen gebruiken. |
-| Overtrekbaar | Met de [integratie van de gegevenslaag van de Adobe-client](/help/developing/data-layer/overview.md) kunt u alle aspecten van de ervaring van de bezoeker bijhouden. |
-| Toegankelijk | Zij voldoen aan [WCAG 2.1 norm](https://www.w3.org/TR/WCAG21/), verstrekken etiketten ARIA, en steunen toetsenbordnavigatie ([bekende kwesties](https://github.com/adobe/aem-core-wcm-components/issues?utf8= ✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
-| SEO-vriendelijk | De HTML-uitvoer is semantisch en biedt microgegevensannotaties [schema.org](https://schema.org). |
-| WebApp-Ready | Met de [gestroomlijnde JSON-uitvoer](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) is rendering op de client mogelijk, maar met de mogelijkheid om [in-context te bewerken](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html). |
-| AMP-ondersteuning | De componenten hebben ingebouwde [ondersteuning voor de AMP-standaard,](/help/developing/amp.md) versnelt uw mobiele beleving. |
-| Design Kit | Met een [UI-kit voor Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) kunnen ontwerpers draadframes maken die ze vervolgens [desgewenst kunnen opmaken](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd). |
-| Doordrukbaar | De componenten voeren [Stijlsysteem](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/style-system.html) uit, en de prijsverhoging volgt [BEM CSS overeenkomsten](http://getbem.com/). |
-| Aanpasbaar | Met verschillende patronen kunt u [gemakkelijk aanpassen](developing/customizing.md), van het aanpassen van de HTML aan geavanceerd hergebruik van de functionaliteit. |
-| Versioning | Het [versieringsbeleid](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) zorgt ervoor dat de Componenten van de Kern uw plaats niet zullen breken wanneer het verbeteren van dingen die u zouden kunnen beïnvloeden. |
-| Lokaliseerbaar | Met de slimme verwijzingsresolutie kunnen bepaalde componenten automatisch corresponderende gelokaliseerde inhoud zoeken en [renderen](get-started/localization.md). |
-| Open Bronnen | Als iets niet zoals het zou moeten zijn, [bijdragen uw verbeteringen!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
+| Configureerbaar | Sjabloonniveau [inhoudsbeleid](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/templates.html#content-policies) bepalen welke functies de auteurs van de pagina al dan niet mogen gebruiken. |
+| Overtrekbaar | De [Integratie van gegevenslaag voor Adobe client](/help/developing/data-layer/overview.md) Hiermee kunnen alle aspecten van de ervaring van de bezoeker worden bijgehouden. |
+| Toegankelijk | Zij voldoen aan [WCAG 2.1-standaard](https://www.w3.org/TR/WCAG21/), biedt ARIA-labels en ondersteunt toetsenbordnavigatie ([bekende problemen](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
+| SEO-vriendelijk | De HTML-uitvoer is semantisch en biedt [schema.org](https://schema.org) microgegevensannotaties. |
+| WebApp-Ready | De [gestroomlijnde JSON-uitvoer](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) renderen aan de clientzijde is mogelijk, maar met de mogelijkheid van [contextbewerking](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html). |
+| AMP-ondersteuning | De componenten hebben ingebouwde [steun voor de AMP-norm;](/help/developing/amp.md) uw mobiele beleving versnellen. |
+| Design Kit | A [UI-kit voor Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) kunnen ontwerpers draadframes maken die ze vervolgens kunnen maken [stijl indien nodig](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd). |
+| Doordrukbaar | De componenten implementeren de [Stijlsysteem](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/style-system.html)en volgt de markering [BEM CSS-conventies](http://getbem.com/). |
+| Aanpasbaar | Meerdere patronen zijn toegestaan [eenvoudig aanpassen](developing/customizing.md), van het aanpassen van de HTML naar het hergebruik van geavanceerde functies. |
+| Versioning | De [versiebeleid](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) zorgt ervoor dat de componenten van de Kern uw plaats niet breken wanneer het verbeteren van dingen die u zouden kunnen beïnvloeden. |
+| Lokaliseerbaar | Met de slimme verwijzingsresolutie kunnen bepaalde componenten worden gevonden en [overeenkomstige gelokaliseerde inhoud automatisch renderen](get-started/localization.md). |
+| Open Bronnen | Als iets anders is dan zou moeten, [bijdragen aan uw verbeteringen!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
 
 ## De componenten {#the-components}
 
@@ -75,7 +75,7 @@ In de huidige versie van Core Components zijn de volgende componenten beschikbaa
 * [Delen van sociale media](components/sharing.md)
 * [Scheidingsteken](components/separator.md)
 * [Voortgangsbalk](components/progress-bar.md)
-* [PDF-viewer](components/pdf-viewer.md)
+* [PDF Viewer](components/pdf-viewer.md)
 
 ### Containeronderdelen {#container-components}
 
@@ -94,32 +94,32 @@ In de huidige versie van Core Components zijn de volgende componenten beschikbaa
 
 >[!NOTE]
 >
->De Componenten van de kern zijn niet onmiddellijk beschikbaar aan auteurs, [ontwikkelingsteam moet hen eerst aan uw milieu integreren](get-started/using.md). Zodra geïntegreerd, kunnen zij via [malplaatjeredacteur](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) ter beschikking worden gesteld en worden gevormd.
+>De belangrijkste componenten zijn niet onmiddellijk beschikbaar aan auteurs, [ontwikkelingsteam moet deze eerst integreren in uw omgeving](get-started/using.md). Zodra geïntegreerd, kunnen zij beschikbaar worden gemaakt en vooraf gevormd via [sjablooneditor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 >[!NOTE]
 >
 >Sommige versies van individuele Core Components zijn mogelijk alleen compatibel met bepaalde versies van AEM.
 >
->Zie de individuele hulppagina (verbonden aan in de vorige lijst) voor de specifieke component voor verenigbaarheidsinformatie of verwijs [de Versies van de Componenten van de Kern ](versions.md) document voor meer informatie.
+>Zie de afzonderlijke Help-pagina (gekoppeld aan in de vorige lijst) voor de specifieke component voor compatibiliteitsinformatie of raadpleeg de [Core Components-versies](versions.md) voor meer informatie.
 
 ## Systeemvereisten {#system-requirements}
 
 | Kernonderdelen | AEM as a Cloud Service | AEM 6,5 | AEM 6,4 | Java SE | Maven |
 |---------|---------|---------|---------|---------|---------|
-| [2.17.12.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Continu | 6.5.6.0+ * | 6.4.8.4+ * | 8, 11 | 3.3.9+ |
+| [2.17.14.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.14) | Continu | 6.5.6.0+ * | 6.4.8.4+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >
->(*) Sinds versie 2.11.0 is `org.apache.sling.models.impl` versie 1.4.12 of hoger vereist (vanwege [SLING-8781](https://issues.apache.org/jira/browse/SLING-8781)). Dit zal voor AEM 6.4 en 6.5 in een toekomstig Service Pack worden verstrekt. Tot die tijd, is de bundel van Modellen Sling inbegrepen in `core.wcm.components.all` pakket.
+>(*) Sinds versie 2.11.0, `org.apache.sling.models.impl` versie 1.4.12 of hoger is vereist (vanwege [SLING-8781](https://issues.apache.org/jira/browse/SLING-8781)). Dit zal voor AEM 6.4 en 6.5 in een toekomstig Service Pack worden verstrekt. Tot die tijd is de bundel Sling Models opgenomen in de `core.wcm.components.all` pakket.
 
-Voor de vereisten van vorige versies van de Component van de Kern, zie [Versies van de Componenten van de Kern](versions.md).
+Voor de vereisten van eerdere versies van Core Component, zie [Core Components-versies](versions.md).
 
-De Componenten van de Kern vereisen het gebruik van [editable malplaatjes](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) en steunen geen Klassieke UI noch statische malplaatjes. Indien nodig, controleer [AEM ModerniseringsHulpmiddelen](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) om uw project met deze moderne AEM eigenschappen bij te werken.
+De kerncomponenten vereisen het gebruik van [bewerkbare sjablonen](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) en ondersteunen geen klassieke UI of statische sjablonen. Controleer indien nodig de [AEM moderniseringsinstrumenten](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) om uw project bij te werken met deze moderne AEM.
 
-Als u uw lokale ontwikkelomgeving wilt instellen, raadpleegt u [dit overzicht voor AEM als Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) of dit document [voor oudere versies van AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
+Als u uw lokale ontwikkelomgeving wilt instellen, checkt u uit [dit overzicht voor AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) of dit document [voor oudere versies van AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
 >[!TIP]
 >
->De Core Components maken automatisch deel uit van AEM als Cloud Service en u hebt altijd de nieuwste versie van de Core Components.
+>De Core Components maken automatisch deel uit van AEM as a Cloud Service en u beschikt altijd over de nieuwste versie van de Core Components.
 >
->Zie [Het gebruiken van het document van de Componenten van de Kern](/help/get-started/using.md) voor meer informatie over hoe te beginnen met de Componenten van de Kern zowel in AEMaaCS als op gebouw.
+>Zie de [Basiscomponenten gebruiken](/help/get-started/using.md) document voor meer informatie over hoe u aan de slag kunt met de Core Components in AEMaaCS en in de bedrijfsruimten.
