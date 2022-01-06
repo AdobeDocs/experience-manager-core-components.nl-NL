@@ -4,7 +4,7 @@ description: Een projectmalplaatje voor op AEM gebaseerde toepassingen
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: acff746b66c69dd3a0f4beb7c0c4e9eb0e3e116c
+source-git-commit: 9ae35572f7ef60ea5140a7b48be087f34e39ce3a
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Het AEM Project Archetype is een Geweven malplaatje dat tot een minimaal, op bes
 * **Archetype Documentatie (dit document):** Overzicht van de architectuur archetype en zijn verschillende modules.
    * **[Archetype gebruiken:](using.md)** nadere bijzonderheden over het gebruik van het archetype en de beschikbare modules
    * **[ui.frontend:](uifrontend.md)** Hoe te om het vooreind te gebruiken bouwt module
-* De volgende zelfstudies zijn gebaseerd op dit archetype:
+* **De volgende zelfstudies zijn gebaseerd op dit archetype:**
    * **[WKND-site:](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** Leer hoe u een nieuwe website kunt starten.
    * **[WKND App met één pagina:](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)** Leer hoe u een React- of Angular-webapp ontwikkelt die volledig in AEM kan worden geschreven.
 
@@ -102,7 +102,7 @@ De afhankelijkheid van kerncomponenten wordt alleen toegevoegd voor versies met 
 
 | Archetype | AEM as a Cloud Service | AEM 6,5 | Java SE | Maven |
 |---------|---------|---------|---------|---------|
-| [32](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-32) | Continu | 6.5.7.0+ | 8, 11 | 3.3.9+ |
+| [34](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-34) | Continu | 6.5.7.0+ | 8, 11 | 3.3.9+ |
 
 Stel uw lokale ontwikkelomgeving in voor [as a Cloud Service SDK AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) of voor [oudere versies van AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
