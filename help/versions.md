@@ -3,7 +3,7 @@ title: Core Components-versies
 description: De Componenten van de kern worden gepubliceerd als versies die meer dan één versie van de zelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies beschikbaar zijn en hoe u de compatibiliteit met Core Components en AEM begrijpt.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 06fc67134b312d2fa0311dc9f2250c82b8eee3f6
+source-git-commit: 4f5ab401aee70b979217738dce4f1a72de940ae9
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 12%
@@ -26,7 +26,7 @@ De volgende tabel, waarvan de inhoud [beschikbaar op GitHub met volledige versie
 
 | Geen | Beschrijving | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service | Java | Releasedatum |
 |---|---|---|---|---|---|---|
-| [2.18.0.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | Deze belangrijke versie van de kerncomponenten ziet de introductie van een nieuwe verbindingsmanager over nieuwe versies van veelvoudige componenten samen met vele toegankelijkheidsverbeteringen en insectenmoeilijke situaties. | - | 6.5.10.0+ * | Continu | 8, 11 | 24 februari 2022 |
+| [2.18.0.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | Deze belangrijke versie van de kerncomponenten ziet de introductie van een nieuwe verbindingsmanager over nieuwe versies van veelvoudige componenten samen met vele toegankelijkheidsverbeteringen en insectenmoeilijke situaties. | - | 6.5.10.0+ * | Continu | 8, 11 | 16 februari 2022 |
 | [2.17.14.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Dit is een patchrelease. | 6.4.8.4+ * | 6.5.6.0+ * | Continu | 8, 11 | 13 december 2021 |
 | [2.17.12.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Dit is een patchrelease die een regressie verhelpt die bij de vorige release werd geïntroduceerd. | 6.4.8.4+ * | 6.5.6.0+ * | Continu | 8, 11 | 1 oktober 2021 |
 | [2.17.10.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | Deze patch verbetert de [Lijst](/help/components/list.md) en [Navigatie](/help/components/navigation.md) componenten om de externe URL voor omleidingsdoelen weer te geven, schakelt paginaafbeeldingsovererving in voor de komende v2 van de [Teaser](/help/components/teaser.md) en bevat aanvullende opgeloste problemen. | 6.4.8.4+ * | 6.5.6.0+ * | Continu | 8, 11 | 31 augustus 2021 |

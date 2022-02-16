@@ -4,9 +4,9 @@ user-guide-title: AEM kerncomponenten
 breadcrumb-title: Handleiding voor kerncomponenten
 user-guide-description: Met de uitbreidbare Core Components kunnen auteurs eenvoudig inhoud maken.
 feature-set: Experience Manager Sites
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
+source-git-commit: 4f5ab401aee70b979217738dce4f1a72de940ae9
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '242'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 + [Introductie van kerncomponenten](introduction.md)
 + [Paden naar succes](developing/success.md)
 + [Componentbibliotheek](https://adobe.com/go/aem_cmp_library)
-+ [Core Components-versies](versions.md)
++ [Versies](versions.md)
 + Aan de slag {#get-started}
    + [Ontwerpen met kerncomponenten](get-started/authoring.md)
    + [Basiscomponenten gebruiken](get-started/using.md)
