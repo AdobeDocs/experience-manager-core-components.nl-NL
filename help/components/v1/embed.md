@@ -1,16 +1,16 @@
 ---
-title: Component insluiten
+title: Component insluiten (v1)
 description: Met de component Embed kunt u externe inhoud insluiten in een AEM inhoudspagina.
 role: Architect, Developer, Admin, User
-exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1298'
 ht-degree: 0%
 
 ---
 
-# Component insluiten {#embed-component}
+
+# Component insluiten (v1) {#embed-component}
 
 Met de component Core Components Embed kunt u externe inhoud insluiten in een AEM inhoudspagina.
 
@@ -23,16 +23,13 @@ Met de component Core Component Embed kan de auteur van de inhoud geselecteerde 
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De huidige versie van de Embed Component is v2, die in februari 2022 met versie 2.18.0 van de Componenten van de Kern werd geïntroduceerd, en in dit document wordt beschreven.
+In dit document wordt versie 1 van de Embed-component beschreven. Deze is in september 2019 geïntroduceerd met versie 2.7.0 van de Core Components.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
-
-| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v2 | - | Compatibel | Compatibel |
-| [v1](v1/embed.md) | Compatibel | Compatibel | Compatibel |
-
-Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
+>[!CAUTION]
+>
+>In dit document wordt versie 1 van de component Embed beschreven.
+>
+>Voor meer informatie over de huidige versie van de component Embed raadpleegt u de [Component insluiten](/help/components/embed.md) document.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
@@ -46,23 +43,19 @@ Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Document
 
 ## Dialoogvenster configureren {#configure-dialog}
 
-In het dialoogvenster voor configureren kan de auteur van de inhoud de externe bron definiëren die op de pagina moet worden ingesloten.
-
-### Tabblad Eigenschappen {#properties-tab}
-
-Kies eerst welk type bron moet worden ingesloten:
+In het dialoogvenster voor configureren kan de auteur van de inhoud de externe bron definiëren die op de pagina moet worden ingesloten. Kies eerst welk type bron moet worden ingesloten:
 
 * [URL](#url)
 * [Insluitbaar](#embeddable)
 * [HTML](#html)
 
-Voor elk type insluitbaar kunt u een **ID**. Met deze optie kunt u de unieke id van de component in de HTML en in de [Gegevenslaag](/help/developing/data-layer/overview.md).
+Voor elk type insluitbaar kunt u een advertentie definiëren **ID**. Met deze optie kunt u de unieke id van de component in de HTML en in de [Gegevenslaag](/help/developing/data-layer/overview.md).
 
 * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
 * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
 * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
-#### URL {#url}
+### URL {#url}
 
 De eenvoudigste insluiting is de URL. Plak gewoon de URL van de bron die u wilt insluiten in het **URL** veld. De component probeert toegang te krijgen tot de bron en als deze door een van de processors kan worden gerenderd, wordt onder de **URL** veld. Als dat niet het geval is, wordt het veld als een fout gemarkeerd.
 
@@ -75,7 +68,7 @@ Ontwikkelaars kunnen extra URL-processors toevoegen door [volgt u de ontwikkelaa
 
 ![Dialoogvenster voor bewerken van component insluiten voor URL](/help/assets/embed-url.png)
 
-#### Insluitbaar {#embeddable}
+### Insluitbaar {#embeddable}
 
 Met insluitbare bestanden kunt u de ingesloten bron verder aanpassen. U kunt hier parameters aan toewijzen en aanvullende informatie opnemen. Een auteur kan een keuze maken uit vooraf geconfigureerde vertrouwde insluitbare bestanden en de component wordt geleverd met een YouTube-insluitbare out-of-the-box.
 
@@ -90,15 +83,16 @@ De **Insluitbaar** in het veld wordt het type processor gedefinieerd dat u wilt 
 * **Inline afspelen inschakelen (iOS)** - Deze parameter bepaalt of video&#39;s inline (ingeschakeld) of op volledig scherm (uitgeschakeld) worden afgespeeld in een HTML5-speler op iOS.
 * **Onbeperkte verwante video&#39;s** - Als deze optie is uitgeschakeld, komen verwante video&#39;s van hetzelfde kanaal als de video die net is afgespeeld, anders komen ze van elk kanaal.
 
+De opties voor inschakelen moeten worden geactiveerd via het dialoogvenster [Ontwerpdialoogvenster](#design-dialog) en kan worden ingesteld als standaardwaarden.
+
 Andere insluitbare bestanden bieden vergelijkbare velden en kunnen door een ontwikkelaar worden gedefinieerd door [volgt u de ontwikkelaarsdocumentatie van de Embed Component.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
 ![Dialoogvenster voor bewerken van component insluiten voor insluitbare bestanden](/help/assets/embed-embeddable.png)
 
 >[!NOTE]
->
 >Ingesloten tabellen moeten op sjabloonniveau zijn ingeschakeld via het dialoogvenster [Ontwerpdialoogvenster](#design-dialog) beschikbaar zijn voor de auteur van de pagina.
 
-#### HTML {#html}
+### HTML {#html}
 
 Met de component Embed kunt u HTML in een vrije vorm aan de pagina toevoegen.
 
@@ -107,29 +101,18 @@ Met de component Embed kunt u HTML in een vrije vorm aan de pagina toevoegen.
 >[!NOTE]
 >Eventuele onveilige tags, zoals scripts, worden gefilterd vanaf de ingevoerde HTML en niet weergegeven op de resulterende pagina.
 
-##### Beveiliging {#security}
+#### Beveiliging {#security}
 
 De HTML-opmaak die de auteur kan invoeren, wordt gefilterd voor beveiligingsdoeleinden om scriptaanvallen te voorkomen die verwijzen naar andere sites en waarmee auteurs bijvoorbeeld beheerdersrechten kunnen verkrijgen.
 
-In het algemeen, al manuscript en `style` en alle `on*` en `style` kenmerken worden uit de uitvoer verwijderd.
+*In het algemeen:* alle script en `style` en alle `on*` en `style` kenmerken worden uit de uitvoer verwijderd.
 
 De regels zijn echter gecompliceerder omdat de component Embed AEM algemene filterregelset van het HTML AntiSamy-sanitatieframework volgt, die u kunt vinden op `/libs/cq/xssprotection/config.xml`. Dit kan voor project-specifieke configuratie door een ontwikkelaar indien vereist worden bedekt.
 
 Aanvullende beveiligingsinformatie vindt u in het gedeelte [AEM ontwikkelaarsdocumentatie voor installaties op locatie](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html) alsmede [AEM as a Cloud Service installaties.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)
 
 >[!NOTE]
->
 >Hoewel de regels van het AntiSamy sanitation framework kunnen worden geconfigureerd door bedekking `/libs/cq/xssprotection/config.xml`Deze wijzigingen zijn van invloed op al het HTML- en JSP-gedrag en niet alleen op de Embed Core Component.
-
-### Tabblad Stijlen {#styles-tab-edit}
-
-![Het tabblad Stijlen van het dialoogvenster Component bewerken](/help/assets/embed-styles.png)
-
-De component Embed ondersteunt de AEM [Stijlsysteem.](/help/get-started/authoring.md#component-styling).
-
-Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
-
-De stijlen moeten voor deze component in worden gevormd [ontwerpdialoogvenster](#design-dialog) zodat het vervolgkeuzemenu beschikbaar is.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 

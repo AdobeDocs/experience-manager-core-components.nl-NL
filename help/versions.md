@@ -3,16 +3,16 @@ title: Core Components-versies
 description: De Componenten van de kern worden gepubliceerd als versies die meer dan één versie van de zelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies beschikbaar zijn en hoe u de compatibiliteit met Core Components en AEM begrijpt.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: ef18f65be72295f7886a132a26bdd4f8bc2fbd50
+source-git-commit: 06fc67134b312d2fa0311dc9f2250c82b8eee3f6
 workflow-type: tm+mt
-source-wordcount: '2318'
-ht-degree: 11%
+source-wordcount: '2389'
+ht-degree: 12%
 
 ---
 
 # Core Components-versies {#core-components-versions}
 
-De huidige versie van de Core Components is 2.17.14 en is compatibel met [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) en [AEM op locatie](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installaties.
+De huidige versie van de Core Components is 2.18.0 en is compatibel met [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) en [AEM op locatie](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installaties.
 
 ## Historie en compatibiliteit vrijgeven {#release-history-and-compatibility}
 
@@ -26,8 +26,9 @@ De volgende tabel, waarvan de inhoud [beschikbaar op GitHub met volledige versie
 
 | Geen | Beschrijving | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service | Java | Releasedatum |
 |---|---|---|---|---|---|---|
+| [2.18.0.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | Deze belangrijke versie van de kerncomponenten ziet de introductie van een nieuwe verbindingsmanager over nieuwe versies van veelvoudige componenten samen met vele toegankelijkheidsverbeteringen en insectenmoeilijke situaties. | - | 6.5.10.0+ * | Continu | 8, 11 | 24 februari 2022 |
 | [2.17.14.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Dit is een patchrelease. | 6.4.8.4+ * | 6.5.6.0+ * | Continu | 8, 11 | 13 december 2021 |
-| [2.17.12.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Dit is een patchrelease die een regressie verhelpt die bij de vorige release is ontstaan. | 6.4.8.4+ * | 6.5.6.0+ * | Continu | 8, 11 | 1 oktober 2021 |
+| [2.17.12.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Dit is een patchrelease die een regressie verhelpt die bij de vorige release werd geïntroduceerd. | 6.4.8.4+ * | 6.5.6.0+ * | Continu | 8, 11 | 1 oktober 2021 |
 | [2.17.10.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | Deze patch verbetert de [Lijst](/help/components/list.md) en [Navigatie](/help/components/navigation.md) componenten om de externe URL voor omleidingsdoelen weer te geven, schakelt paginaafbeeldingsovererving in voor de komende v2 van de [Teaser](/help/components/teaser.md) en bevat aanvullende opgeloste problemen. | 6.4.8.4+ * | 6.5.6.0+ * | Continu | 8, 11 | 31 augustus 2021 |
 | [2.17.8.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | Deze flardversie Dit is een flardversie om een achterwaartse onverenigbare verandering te bevestigen die eerder werd geïntroduceerd. | 6.4.8.4+ * | 6.5.6.0+ * | Continu | 8, 11 | 2 augustus 2021 |
 | [2.17.6.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | Deze patchrelease biedt ondersteuning voor site maps voor pagina&#39;s en bevat verschillende toegankelijkheidsverbeteringen. | 6.4.8.4+ * | 6.5.6.0+ * | Continu | 8, 11 | 29 juli 2021 |
@@ -79,42 +80,42 @@ De volgende tabel, waarvan de inhoud [beschikbaar op GitHub met volledige versie
 
 De volgende lijst specificeert welke versies van welke componenten bevat zijn waarin versies van de Componenten van de Kern.
 
-|  | Release 1.0.0 - 1.0.6 | Release 1.1.0 | Release 2.0.0 - 2.0.8 | Release 2.1.0 | Release 2.2.0-2.2.0 | Release 2.3.0-2.3.2 | Release 2.4.0 | Release 2.5.0 | Release 2.6.0 | Release 2.7.0-2.8.0 | Release 2.9.0+ |
-|---|---|---|---|---|---|---|---|---|---|---|---|
-| **[Pagina](components/page.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Titel](components/title.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Afbeelding](components/image.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Lijst](components/list.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Broodkruimel](components/breadcrumb.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Delen van sociale media](components/sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Formuliercontainer](components/forms/form-container.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Formuliertekst](components/forms/form-text.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Formulieropties](components/forms/form-options.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Formulier verborgen](components/forms/form-hidden.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Formulierknop](components/forms/form-button.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Inhoudsfragment](components/content-fragment-component.md)** |  | Sandbox | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 |
-| **[Navigatie](components/navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Taalnavigatie](components/language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Snel zoeken](components/quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Teaser](components/teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Tabs](components/tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Carousel](components/carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Scheidingsteken](components/separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Lijst met inhoudsfragmenten](components/content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
-| **[Accordeon](components/accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
-| **[Knop](components/button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
-| **[Container](components/container.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
-| **[Downloaden](components/download.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
-| **[Ervaar fragment](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 | v1 |
-| **[Insluiten](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 | v1 |
-| **[Voortgangsbalk](components/progress-bar.md)** |  |  |  |  |  |  |  |  |  |  | v1 |
-| **[PDF Viewer](components/pdf-viewer.md)** |  |  |  |  |  |  |  |  |  |  | v1 |
+|  | Release 1.0.0 - 1.0.6 | Release 1.1.0 | Release 2.0.0 - 2.0.8 | Release 2.1.0 | Release 2.2.0-2.2.0 | Release 2.3.0-2.3.2 | Release 2.4.0 | Release 2.5.0 | Release 2.6.0 | Release 2.7.0-2.8.0 | Release 2.9.0-2.17.14 | Release 2.18.0+ |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| **[Pagina](components/page.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2, v3 |
+| **[Titel](components/title.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2, v3 |
+| **[Afbeelding](components/image.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2, v3 |
+| **[Lijst](components/list.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2, v3 |
+| **[Broodkruimel](components/breadcrumb.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2, v3 |
+| **[Delen van sociale media](components/sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Formuliercontainer](components/forms/form-container.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Formuliertekst](components/forms/form-text.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Formulieropties](components/forms/form-options.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Formulier verborgen](components/forms/form-hidden.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Formulierknop](components/forms/form-button.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Inhoudsfragment](components/content-fragment-component.md)** |  | Sandbox | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 |
+| **[Navigatie](components/navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 |
+| **[Taalnavigatie](components/language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 |
+| **[Snel zoeken](components/quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Teaser](components/teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 |
+| **[Tabs](components/tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Carousel](components/carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Scheidingsteken](components/separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Lijst met inhoudsfragmenten](components/content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1, v2 |
+| **[Accordeon](components/accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
+| **[Knop](components/button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1, v2 |
+| **[Container](components/container.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
+| **[Downloaden](components/download.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1, v2 |
+| **[Ervaar fragment](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 | v1 | v1, v2 |
+| **[Insluiten](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 | v1 | v1, v2 |
+| **[Voortgangsbalk](components/progress-bar.md)** |  |  |  |  |  |  |  |  |  |  | v1 | v1 |
+| **[PDF Viewer](components/pdf-viewer.md)** |  |  |  |  |  |  |  |  |  |  | v1 | v1 |
 
 ## Versies en releases {#versions-and-releases}
 
 De Componenten van de kern worden verdeeld via GitHub. Hierdoor kan Adobe sneller functionaliteit toevoegen aan de componenten en kan ook gemeenschapsinvoer buiten de AEM releasecyclus plaatsvinden.
 
-De Core Components worden beschikbaar gesteld met bepaalde AEM versies waarmee zij compatibel zijn. Dit betekent dat één AEM versie meerdere versies of versies van de Componenten van de Kern kan steunen. Dit geeft meer flexibiliteit dan de vroegere Componenten van de Stichting, die aan een specifieke versie van AEM gebonden waren.
+De Core Components worden beschikbaar gesteld met bepaalde AEM versies waarmee zij compatibel zijn. Dit betekent dat één AEM versie meerdere versies of versies van de Componenten van de Kern kan steunen.
 
 ### Versies {#versions}
 
@@ -126,11 +127,11 @@ Voor meer informatie over kerncomponentenversies, zie [ontwikkelaarsdocumentatie
 
 ### Uitstoot {#releases}
 
-De kerncomponenten worden beschikbaar gesteld via **lozingen** en [vertegenwoordigen de daadwerkelijke gepubliceerde artefacten beschikbaar op GitHub](https://github.com/adobe/aem-core-wcm-components/releases). De versies worden aangegeven met een decimaal aantal van formaat X.Y.Z en verzamelen alle kerncomponenten samen als te leveren pakket.
+De kerncomponenten worden beschikbaar gesteld via **lozingen** en [vertegenwoordigen de daadwerkelijke gepubliceerde artefacten beschikbaar op GitHub](https://github.com/adobe/aem-core-wcm-components/releases). De versies worden aangeduid met een decimaal aantal van het formaat `X.Y.Z` en verzamel alle kerncomponenten samen als een te leveren pakket.
 
-* **Grote introducties** U kunt nieuwe versies van bestaande componenten samen met volledig nieuwe componenten evenals standaardinsectenmoeilijke situaties introduceren. Dit wordt vertegenwoordigd door een toename in de component X van het versieaantal.
-* **Belangrijke releases** U kunt nieuwe functionaliteit aan bestaande versies van componenten samen met insectenmoeilijke situaties introduceren. Dit wordt vertegenwoordigd door een toename in de component Y van het versieaantal.
-* **Kleine introducties** bevat alleen opgeloste problemen. Dit wordt vertegenwoordigd door een verhoging in de component van Z van het versieaantal.
+* **Grote introducties** introduceer volledig nieuwe componenten, verbeteringen aan bestaande versie van componenten, evenals standaardinsectenmoeilijke situaties. Dit wordt vertegenwoordigd door een toename in de `X` component van het releasenummer.
+* **Kleine introducties** introduceer nieuwe componenten, nieuwe functionaliteit aan bestaande versies van componenten, evenals insectenmoeilijke situaties. Dit wordt vertegenwoordigd door een toename in de `Y` component van het releasenummer.
+* **Patchreleases** bevat alleen opgeloste problemen. Dit wordt vertegenwoordigd door een toename in de `Z` component van het releasenummer.
 
 >[!NOTE]
 >
@@ -140,7 +141,7 @@ De kerncomponenten worden beschikbaar gesteld via **lozingen** en [vertegenwoord
 
 ## Ondersteuning voor kerncomponenten {#core-components-support}
 
-De Componenten van de kern zijn een integraal deel van AEM en gesteund zoals is, onder de zelfde voorwaarden alsof zij als deel van Quickstart werden geleverd.
+De Componenten van de kern zijn een integraal deel van AEM en worden gesteund onder de zelfde voorwaarden alsof zij als deel van QuickStart werden geleverd.
 
 Net als andere productkenmerken is de algemene regel van het einde van de levensduur:
 

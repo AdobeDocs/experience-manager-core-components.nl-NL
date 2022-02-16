@@ -1,16 +1,16 @@
 ---
-title: Broodkruimelcomponent
+title: Breadcrumb-component (v2)
 description: De component van de Breadcrumb van de Component van de Kern is een navigatiecomponent die een broodkruimel van verbindingen bouwt die op de plaats van de pagina in de inhoudshiërarchie wordt gebaseerd.
 role: Architect, Developer, Admin, User
-exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 1%
+source-wordcount: '680'
+ht-degree: 0%
 
 ---
 
-# Broodkruimelcomponent{#breadcrumb-component}
+
+# Breadcrumb-component (v2) {#breadcrumb-component}
 
 De component van de Breadcrumb van de Component van de Kern is een navigatiecomponent die een broodkruimel van verbindingen bouwt die op de plaats van de pagina in de inhoudshiërarchie wordt gebaseerd.
 
@@ -22,17 +22,13 @@ Beschikbare opties, zoals het standaardnavigatieniveau en de mogelijkheid om de 
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De huidige versie van de Breadcrumb Component is v3, die in februari 2022 werd geïntroduceerd met versie 2.18.0 van de Core Components, en in dit document wordt beschreven.
+In dit document wordt versie 2 van de Breadcrumb Component beschreven, die in januari 2018 is geïntroduceerd met release 2.0.0 van de Core Components.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
-
-| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
-|--- | --- |--- |---|
-| v3 | - | Compatibel | Compatibel |
-| [v2](v2/breadcrumb.md) | Compatibel | Compatibel | Compatibel |
-| [v1](v1/breadcrumb-v1.md) | Compatibel | Compatibel | - |
-
-Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
+>[!CAUTION]
+>
+>In dit document wordt versie 2 van de component Breadcrumb beschreven.
+>
+>Voor meer informatie over de huidige versie van de component Breadcrumb raadpleegt u de [Broodkruimelcomponent](/help/components/breadcrumb.md) document.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
@@ -52,8 +48,6 @@ Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Document
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud verborgen en actieve pagina&#39;s in de broodkruimels onderdrukken, evenals de diepte in de hiërarchie die moet worden weergegeven.
 
-## Tabblad Eigenschappen {#properties-tab}
-
 ![Dialoogvenster voor bewerken van component Breadcrumb](/help/assets/breadcrumb-edit.png)
 
 * **Beginniveau navigatie** - Waar in de hiërarchie de breadcrumb-component naar beneden moet lopen naar de huidige pagina. Bijvoorbeeld:
@@ -64,21 +58,11 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud verborgen en actieve 
 
 * **Verborgen navigatie-items tonen** - Pagina&#39;s tonen die zijn gemarkeerd als verborgen in de broodkruimel (deze worden standaard niet weergegeven)
 * **Huidige pagina verbergen** - Onderdruk de huidige pagina in de broodkruimel (door gebrek zal het worden getoond)
-* **Schaduwen uitschakelen** - Als de pagina in de hiërarchie een omleiding is, wordt de naam van de omleidingspagina weergegeven in plaats van het doel. Zie de [Ondersteuning voor schaduwsitestructuur](navigation.md#shadow-structure) van de navigatiecomponent voor meer informatie.
+* **Schaduwen uitschakelen** - Als de pagina in de hiërarchie een omleiding is, wordt de naam van de omleidingspagina weergegeven in plaats van het doel. Zie de [Ondersteuning voor schaduwsitestructuur](../v1/navigation.md#shadow-structure) van de navigatiecomponent voor meer informatie.
 * **ID** - Met deze optie kunt u de unieke id van de component in de HTML en in de [Gegevenslaag](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
-
-### Tabblad Stijlen {#styles-tab-edit}
-
-![Het tabblad Stijlen van het dialoogvenster Bewerken van de component Breadcrumb-lijst](/help/assets/breadcrumb-edit-styles.png)
-
-De component Breadcrumb ondersteunt de AEM [Stijlsysteem.](/help/get-started/authoring.md#component-styling).
-
-Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
-
-De stijlen moeten voor deze component in worden gevormd [ontwerpdialoogvenster](#design-dialog) zodat het vervolgkeuzemenu beschikbaar is.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 

@@ -1,16 +1,16 @@
 ---
-title: Experience Fragment
+title: Experience Fragment Component (v1)
 description: Met de ervaringsfragmentcomponent kan de auteur van de inhoud een ervaringsfragmentvariatie aan een pagina toevoegen.
 role: Architect, Developer, Admin, User
-exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 1%
+source-wordcount: '780'
+ht-degree: 0%
 
 ---
 
-# Experience Fragment{#experience-fragment-component}
+
+# Experience Fragment Component (v1) {#experience-fragment-component}
 
 Met de Core Component Experience Fragment Component kan de auteur van de inhoud een ervaringsfragmentvariatie op een pagina plaatsen en een gelokaliseerde sitestructuur ondersteunen.
 
@@ -23,16 +23,13 @@ Met de Core Component Experience Fragment Component kan de auteur van de inhoud 
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De huidige versie van de Experience Fragment Component is v2, die in februari 2022 werd geïntroduceerd met release 2.18.0 van de Core Components, en die in dit document wordt beschreven.
+In dit document wordt versie 1 van de Experience Fragment Component beschreven, die in september 2019 werd geïntroduceerd met release 2.6.0 van de Core Components.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
-
-| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v2 | - | Compatibel | Compatibel |
-| [v1](v1/experience-fragment.md) | Compatibel | Compatibel | Compatibel |
-
-Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
+>[!CAUTION]
+>
+>In dit document wordt versie 1 van de Experience Fragment-component beschreven.
+>
+>Zie voor meer informatie over de huidige versie van de Experience Fragment Component [Experience Fragment](/help/components/experience-fragment.md) document.
 
 ## Ondersteuning voor gelokaliseerde sitestructuur {#localized-site-structure}
 
@@ -128,16 +125,6 @@ U kunt ook een **ID**. Met deze optie kunt u de unieke id van de component in de
 * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
 * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
 * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
-
-### Tabblad Stijlen {#styles-tab-edit}
-
-![Stijlen, tabblad van het dialoogvenster Bewerken van Experience Fragment Component](/help/assets/experience-fragment-edit-styles.png)
-
-De ervaringsfragmentcomponent ondersteunt de AEM [Stijlsysteem.](/help/get-started/authoring.md#component-styling).
-
-Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
-
-De stijlen moeten voor deze component in worden gevormd [ontwerpdialoogvenster](#design-dialog) zodat het vervolgkeuzemenu beschikbaar is.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 

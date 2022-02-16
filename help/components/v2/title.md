@@ -1,16 +1,16 @@
 ---
-title: Component Title
+title: Titelcomponent (v2)
 description: De component van de Titel van de Component van de Kern is een component van de sectiekop die op zijn plaats het uitgeven kenmerkt.
 role: Architect, Developer, Admin, User
-exl-id: 393af72c-549f-4609-afb0-2712f827b549
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 1%
+source-wordcount: '527'
+ht-degree: 0%
 
 ---
 
-# Component Title{#title-component}
+
+# Titelcomponent (v2) {#title-component}
 
 De component van de Titel van de Component van de Kern is een component van de sectiekop die op zijn plaats het uitgeven kenmerkt.
 
@@ -20,17 +20,13 @@ De component Titel is bedoeld voor gebruik als de titel of koptekst van een sect
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De huidige versie van de component Title is v3, die in februari 2022 is geïntroduceerd met release 2.18.0 van de Core Components, en die in dit document wordt beschreven.
+In dit document wordt versie 2 van de component Title beschreven, die in januari 2018 is geïntroduceerd met versie 2.0.0 van de Core Components.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
-
-| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
-|---|---|---|---|
-| v3 | - | Compatibel | Compatibel |
-| [v2](v2/title.md) | Compatibel | Compatibel | Compatibel |
-| [v1](v1/title-v1.md) | Compatibel | Compatibel | - |
-
-Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
+>[!CAUTION]
+>
+>In dit document wordt versie 2 van de component Title beschreven.
+>
+>Voor meer informatie over de huidige versie van de component Title raadpleegt u de [Component Title](/help/components/title.md) document.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
@@ -49,7 +45,6 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud de titeltekst defini�
 * **Titel** - Als de paginatitel leeg is, wordt deze gebruikt
 * **Tekst/grootte** - Definieert het kopniveau van de titel
 * **Koppeling** - Hiermee definieert u de inhoud waaraan de titel wordt gekoppeld. Dit kan een pad zijn naar een inhoudspagina, een externe URL of een pagina-anker.
-* **Koppeling openen op nieuw tabblad** - Als deze optie is ingeschakeld, wordt de koppeling geopend in een nieuw browsertabblad.
 * **ID** - Met deze optie kunt u de unieke id van de component in de HTML en in de [Gegevenslaag](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
@@ -57,19 +52,13 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud de titeltekst defini�
 
 ![Dialoogvenster voor bewerken van titelcomponent](/help/assets/title-edit.png)
 
+>[!NOTE]
+>
+>De capaciteit om een verbinding voor de titel te bepalen werd geïntroduceerd met versie 2.2.0 van de Componenten van de Kern.
+
 U kunt de editor op zijn plaats ook gebruiken om de tekst van de titelcomponent te bewerken.
 
 ![Lokaal bewerken van component Title](/help/assets/title-edit-inline.png)
-
-### Tabblad Stijlen {#styles-tab-edit}
-
-De component Title ondersteunt de AEM [Stijlsysteem.](/help/get-started/authoring.md#component-styling).
-
-Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
-
-De stijlen moeten voor deze component in worden gevormd [ontwerpdialoogvenster](#design-dialog) zodat het vervolgkeuzemenu beschikbaar is.
-
-![Het tabblad Stijlen van het dialoogvenster Titel-component bewerken](/help/assets/title-edit-styles.png)
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -82,6 +71,10 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur het standaardkopniveau def
 * **Toegestane typen/grootten voor auteurs** - Schakel koptypen in of uit die beschikbaar zijn voor auteurs van inhoud wanneer zij de component Titel gebruiken.
 * **Standaardtype/grootte**- Definieer het koptype dat automatisch wordt toegewezen wanneer een auteur van de inhoud de component Titel aan een pagina toevoegt.
 * **Koppeling uitschakelen**- Schakel ondersteuning voor koppelingen in de component title uit om te voorkomen dat auteurs van inhoud koppelingen naar titels maken.
+
+>[!NOTE]
+>
+>De capaciteit om een verbinding voor de titel te bepalen werd geïntroduceerd met versie 2.2.0 van de Componenten van de Kern.
 
 ### Tabblad Stijlen {#styles-tab}
 

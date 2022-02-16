@@ -1,16 +1,16 @@
 ---
-title: Taalnavigatie-component
+title: Taalnavigatiecomponent (v1)
 description: De component Taalnavigatie biedt een taal-/landnavigatie voor een site, zodat bezoekers naar dezelfde pagina in een andere landinstelling kunnen navigeren.
 role: Architect, Developer, Admin, User
-exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
-source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 1%
+source-wordcount: '810'
+ht-degree: 0%
 
 ---
 
-# Taalnavigatie-component{#language-navigation-component}
+
+# Taalnavigatiecomponent (v1) {#language-navigation-component}
 
 De taalnavigatiecomponent biedt een taal-/landnavigatie voor een site, zodat bezoekers naar dezelfde pagina in een andere landinstelling kunnen navigeren.
 
@@ -25,16 +25,13 @@ De [dialoogvenster bewerken](#edit-dialog) Hiermee kunt u de globale hoofdmap vo
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De huidige versie van de taalnavigatiecomponent is v2, die in februari 2022 is geïntroduceerd met versie 2.18.0 van de kerncomponenten en in dit document wordt beschreven.
+In dit document wordt versie 1 van de taalnavigatiecomponent beschreven, die in januari 2018 is geïntroduceerd met versie 2.0.0 van de kerncomponenten.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
-
-| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v2 | - | Compatibel | Compatibel |
-| [v1](v1/language-navigation.md) | Compatibel | Compatibel | Compatibel |
-
-Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
+>[!CAUTION]
+>
+>In dit document wordt versie 1 van de taalnavigatiecomponent beschreven.
+>
+>Zie voor meer informatie over de huidige versie van de taalnavigatiecomponent de sectie [Taalnavigatie-component](/help/components/language-navigation.md) document.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
@@ -48,7 +45,7 @@ Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Document
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
-In het dialoogvenster Ontwerpen kunt u de globale hoofdmap voor sitenavigatie definiëren en aangeven hoe diep de structuur van de navigatie in moet gaan.
+In het dialoogvenster Bewerken kunt u de globale hoofdmap voor sitenavigatie definiëren en aangeven hoe diep de structuur van de navigatie in moet gaan.
 
 Doorgaans hoeven deze configuraties alleen op paginasjabloonniveau te worden uitgevoerd. Deze kunnen echter op paginaniveau worden gewijzigd via de [dialoogvenster bewerken](#edit-dialog).
 
@@ -96,9 +93,7 @@ De taalnavigatiecomponent ondersteunt de AEM [Stijlsysteem](/help/get-started/au
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
-### Tabblad Eigenschappen {#properties-tab-edit}
-
-Doorgaans hoeft de component Taalnavigatie alleen aan de paginasjablonen van een site te worden toegevoegd en geconfigureerd. Als de component Taalnavigatie echter moet worden toegevoegd aan een afzonderlijke inhoudspagina, kan het dialoogvenster voor bewerken een auteur van de inhoud dezelfde waarden configureren als in het dialoogvenster [ontwerpdialoogvenster](#design-dialog)
+Doorgaans hoeft de component Taalnavigatie alleen aan de paginasjablonen van een site te worden toegevoegd en geconfigureerd. Als de component Taalnavigatie echter moet worden toegevoegd aan een afzonderlijke inhoudspagina, kan het dialoogvenster voor bewerken een auteur van de inhoud dezelfde waarden configureren als in het dialoogvenster [ontwerpdialoogvenster](#design-dialog).
 
 Bovendien kunt u een **ID**. Met deze optie kunt u de unieke id van de component in de HTML en in de [Gegevenslaag](/help/developing/data-layer/overview.md).
 
@@ -107,22 +102,6 @@ Bovendien kunt u een **ID**. Met deze optie kunt u de unieke id van de component
 * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
 ![Dialoogvenster Taalnavigatie-component bewerken](/help/assets/language-navigation-edit.png)
-
-### Tabblad Toegankelijkheid {#accessibility-tab}
-
-* **Label** - Deze optie moet worden gedefinieerd als er meer dan één taalnavigatie op de pagina is om het aria-labelkenmerk van de component in te stellen.
-
-![Toegankelijkheid taalnavigatie, tabblad](/help/assets/language-navigation-edit-accessibility.png)
-
-### Tabblad Stijlen {#styles-tab-edit}
-
-De taalnavigatiecomponent ondersteunt de AEM [Stijlsysteem.](/help/get-started/authoring.md#component-styling).
-
-Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
-
-De stijlen moeten voor deze component in worden gevormd [ontwerpdialoogvenster](#design-dialog) zodat het vervolgkeuzemenu beschikbaar is.
-
-![Het tabblad Stijlen van het dialoogvenster Taalnavigatie-component bewerken](/help/assets/language-navigation-edit-styles.png)
 
 ## Gegevenslaag Adobe-client {#data-layer}
 

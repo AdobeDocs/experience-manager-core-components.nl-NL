@@ -3,9 +3,9 @@ title: Component Voortgangsbalk
 description: De component van de vooruitgangsbar vertegenwoordigt visueel vooruitgang in de richting van een doel
 role: Architect, Developer, Admin, User
 exl-id: 47afc5a6-ac57-4b6c-92c4-015ca956a20b
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '342'
 ht-degree: 2%
 
 ---
@@ -26,24 +26,24 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 
 | Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
 |---|---|---|---|
-| v1 | Compatibel | Compatibel | Compatibel |
+| v1 | Compatibel met<br>[release 2.17.4](/help/versions.md) en eerdere | Compatibel | Compatibel |
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Ga naar [Componentbibliotheek](https://adobe.com/go/aem_cmp_library_progressbar) om de component Progress Bar te ervaren en voorbeelden van de bijbehorende configuratieopties en HTML- en JSON-uitvoer te bekijken.
+Als u de component ProgressBar wilt ervaren en voorbeelden wilt zien van de configuratieopties en van de HTML- en JSON-uitvoer, gaat u naar de [Componentbibliotheek](https://adobe.com/go/aem_cmp_library_progressbar).
 
 ### Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Bar van de Voortgang [kan op GitHub](https://adobe.com/go/aem_cmp_tech_progress_v1) worden gevonden.
+De meest recente technische documentatie over de component ProgressBar [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_progress_v1).
 
-Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
+Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
 ![Dialoogvenster voor bewerken van component Progress](/help/assets/progress-bar-edit.png)
 
-* **Voltooiing**  - De vooruitgang uitgedrukt in een percentage
-* **ID**  - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de  [gegevenslaag](/help/developing/data-layer/overview.md).
+* **Voltooiing** - De vooruitgang uitgedrukt als een percentage
+* **ID** - Met deze optie kunt u de unieke id van de component in de HTML en in de [Gegevenslaag](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
@@ -54,8 +54,8 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de stijlen definiëren die zi
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component ProgressBar ondersteunt het AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+De component ProgressBar ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
 
 ## Gegevenslaag Adobe-client {#data-layer}
 
-De component van de Bar van de Voortgang steunt [de Laag van de Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)
+De component ProgressBar ondersteunt de component [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)

@@ -1,16 +1,16 @@
 ---
-title: Component List
+title: Lijstcomponent (v2)
 description: De component van de Lijst van de Component van de Kern staat voor de gemakkelijke verwezenlijking van dynamische en statische lijsten toe.
 role: Architect, Developer, Admin, User
-exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 1%
+source-wordcount: '1022'
+ht-degree: 0%
 
 ---
 
-# Component List{#list-component}
+
+# Lijstcomponent (v2) {#list-component}
 
 De component van de Lijst van de Component van de Kern staat voor de gemakkelijke verwezenlijking van dynamische en statische lijsten toe.
 
@@ -20,17 +20,13 @@ De component List kan worden gebruikt om bijvoorbeeld een dynamische lijst met o
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De huidige versie van de component List is v3, die in februari 2022 is geïntroduceerd met release 2.18.0 van de Core Components, en die in dit document wordt beschreven.
+In dit document wordt versie 1 van de component List beschreven. Deze versie is in januari 2018 geïntroduceerd met versie 2.0.0 van de kerncomponenten.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
-
-| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v3 | - | Compatibel | Compatibel |
-| [v2](v2/list.md) | Compatibel | Compatibel | Compatibel |
-| [v1](v1/list-v1.md) | Compatibel | Compatibel | - |
-
-Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
+>[!CAUTION]
+>
+>In dit document wordt versie 2 van de component List beschreven.
+>
+>Voor meer informatie over de huidige versie van de component List raadpleegt u de [Component List](/help/components/list.md) document.
 
 ## Omleiding in lijsten {#redirects}
 
@@ -156,20 +152,12 @@ Met het tabblad Iteminstellingen kunt u de opmaak van de lijstelementen configur
 
 ![Iteminstellingen](/help/assets/list-edit-items.png)
 
-* **Items koppelen** - Items koppelen aan de corresponderende pagina
-* **Beschrijving tonen** - Beschrijvingen van het koppelingsitem weergeven
-* **Datum tonen** - Wijzigingsdatum van het koppelingsitem tonen
-* **Weergeven als taser** - Als deze optie is ingeschakeld, wordt het item weergegeven als een gummetje
-
-### Tabblad Stijlen {#styles-tab-edit}
-
-De component List ondersteunt de AEM [Stijlsysteem.](/help/get-started/authoring.md#component-styling).
-
-Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
-
-De stijlen moeten voor deze component in worden gevormd [ontwerpdialoogvenster](#design-dialog) zodat het vervolgkeuzemenu beschikbaar is.
-
-![Het tabblad Stijlen van het dialoogvenster Bewerken van component List](/help/assets/list-edit-styles.png)
+* **Items koppelen**
+Items koppelen aan de corresponderende pagina
+* **Beschrijving tonen**
+Beschrijvingen van het koppelingsitem weergeven
+* **Datum tonen**
+Wijzigingsdatum van het koppelingsitem weergeven
 
 ## Ontwerpdialoogvenster {#design-dialog}
 

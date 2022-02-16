@@ -1,16 +1,16 @@
 ---
-title: Component lijst met inhoudsfragmenten
+title: Component lijst met inhoudsfragmenten (v1)
 description: Met de component Lijst met inhoudfragmenten van de kerncomponent kunt u een lijst met inhoudsfragmenten weergeven.
 role: Architect, Developer, Admin, User
-exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
 
-# Component lijst met inhoudsfragmenten{#content-fragment-list-component}
+
+# Component lijst met inhoudsfragmenten (v1) {#content-fragment-list-component}
 
 De component van de Lijst van het Fragment van de Lijst van de Inhoud van de Component van de Kern staat voor de vertoning van een lijst van [inhoudsfragmenten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html).
 
@@ -23,16 +23,13 @@ De component van de Lijst van het Fragmentlijst van de Inhoud van de Component v
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De huidige versie van de Content Fragment Component is v2, die in februari 2022 is geïntroduceerd met release 2.18.0 van de Core Components, en die in dit document wordt beschreven.
+In het document wordt versie 1 van de Content Fragment Component beschreven. Deze is in mei 2019 geïntroduceerd met release 2.4.0 van de Core Components.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
-
-| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
-|---|----|---|---|
-| v2 | - | Compatibel | Compatibel |
-| [v1](v1/content-fragment-list.md) | Compatibel | Compatibel | Compatibel |
-
-Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
+>[!CAUTION]
+>
+>In dit document wordt versie 1 van de component Lijst met inhoudsfragmenten beschreven.
+>
+>Zie voor meer informatie over de huidige versie van de component Content Fragment List de klasse [Component lijst met inhoudsfragmenten](/help/components/content-fragment-list.md) document.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
@@ -87,18 +84,6 @@ Standaard worden alle elementen van het Content Fragment-model opgenomen in de l
    * Klik of tik op **Verwijderen** om een geselecteerd element te verwijderen.
    * Sleep de **Volgorde** om de volgorde van de elementen te wijzigen.
 
-### Tabblad Stijlen {#styles-tab-edit}
-
-![Het tabblad Stijlen van het dialoogvenster Inhoud-fragmentlijstcomponent bewerken](/help/assets/content-fragment-list-styles.png)
-
-De component Lijst van inhoudsfragmenten ondersteunt de AEM [Stijlsysteem.](/help/get-started/authoring.md#component-styling).
-
-Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
-
-De stijlen moeten voor deze component in worden gevormd [ontwerpdialoogvenster](#design-dialog) zodat het vervolgkeuzemenu beschikbaar is.
-
 ## Ontwerpdialoogvenster {#design-dialog}
 
-### Tabblad Stijlen {#styles-tab}
-
-De component Lijst van inhoudsfragmenten ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+In het dialoogvenster Ontwerpen kan de sjabloonauteur de stijlen definiëren die zijn toegepast op de component Lijst met inhoudsfragmenten.

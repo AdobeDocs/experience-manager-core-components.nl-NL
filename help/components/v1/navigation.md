@@ -1,16 +1,16 @@
 ---
-title: Navigatie-component
+title: Navigatiecomponent (v1)
 description: Met de navigatiecomponent kunnen gebruikers gemakkelijk door een geglobaliseerde sitestructuur navigeren.
 role: Architect, Developer, Admin, User
-exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1430'
 ht-degree: 0%
 
 ---
 
-# Navigatie-component{#navigation-component}
+
+# Navigatiecomponent (v1) {#navigation-component}
 
 Met de navigatiecomponent kunnen gebruikers gemakkelijk door een geglobaliseerde sitestructuur navigeren.
 
@@ -24,16 +24,13 @@ De [dialoogvenster bewerken](#edit-dialog) Hiermee kan de auteur van de inhoud d
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De huidige versie van de Navigation Component is v2, die in februari 2022 werd geïntroduceerd met versie 2.18.0 van de Core Components, en in dit document wordt beschreven.
+In dit document wordt versie 1 van de Navigation Component beschreven, die in januari 2018 is geïntroduceerd met release 2.0.0 van de Core Components.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
-
-| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v2 | - | Compatibel | Compatibel |
-| [v1](v1/navigation.md) | Compatibel | Compatibel | Compatibel |
-
-Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
+>[!CAUTION]
+>
+>In dit document wordt versie 1 van de navigatiecomponent beschreven.
+>
+>Zie voor meer informatie over de huidige versie van de navigatiecomponent de sectie [Navigatie-component](/help/components/navigation.md) document.
 
 ## Ondersteuning voor gelokaliseerde sitestructuur {#localized-site-structure}
 
@@ -155,16 +152,6 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud de basispagina voor n
 Op de **Toegankelijkheid** tab, waarden kunnen worden ingesteld voor [Toegankelijkheid ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) labels voor de component.
 
 * **Label** - Waarde van een ARIA-labelkenmerk voor de component
-
-### Tabblad Stijlen {#styles-tab-edit}
-
-De navigatiecomponent ondersteunt de AEM [Stijlsysteem.](/help/get-started/authoring.md#component-styling).
-
-Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
-
-De stijlen moeten voor deze component in worden gevormd [ontwerpdialoogvenster](#design-dialog) zodat het vervolgkeuzemenu beschikbaar is.
-
-![Het tabblad Stijlen van het dialoogvenster Navigatie-component bewerken](/help/assets/navigation-edit-styles.png)
 
 ## Ontwerpdialoogvenster {#design-dialog}
 

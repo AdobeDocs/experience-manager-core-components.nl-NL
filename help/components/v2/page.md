@@ -1,16 +1,16 @@
 ---
-title: Pagina-component
+title: Paginacomponent (v2)
 description: De component Pagina is een uitbreidbare paginacomponent die wordt ontworpen om met de malplaatjeredacteur te werken en paginakopbal/footer en structuurcomponenten toe te laten om met de malplaatjedacteur worden samengesteld.
 role: Architect, Developer, Admin, User
-exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: dbc1ba9ae0f9caa3bc52a7a5e08899c457813003
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 1%
+source-wordcount: '645'
+ht-degree: 0%
 
 ---
 
-# Pagina-component{#page-component}
+
+# Paginacomponent (v2) {#page-component}
 
 De component Pagina is een uitbreidbare pagina-component die is ontworpen om te werken met de [sjablooneditor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) en staat toe dat paginakoptekst/voettekst en structuurcomponenten met de malplaatjeredacteur worden samengesteld.
 
@@ -22,17 +22,13 @@ Met de [ontwerpdialoogvenster](#design-dialog)aangepaste clientbibliotheken kunn
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De huidige versie van de pagina-component is v3, die in februari 2022 is geïntroduceerd met release 2.18.0 van de Core Components, en die in dit document wordt beschreven.
+In dit document wordt versie 2 van de Page Component beschreven. Deze versie is in januari 2018 geïntroduceerd met versie 2.0.0 van de Core Components.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
-
-| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
-|---|---|---|---|
-| v3 | - | Compatibel | Compatibel |
-| [v2](v2/page.md) | Compatibel | Compatibel | Compatibel |
-| [v1](v1/page-v1.md) | Compatibel | Compatibel | - |
-
-Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
+>[!CAUTION]
+>
+>In dit document wordt versie 2 van de component Pagina beschreven.
+>
+>Zie voor meer informatie over de huidige versie van de pagina-component de sectie [Pagina-component](/help/components/page.md) document.
 
 ## Progressieve ondersteuning voor webtoepassingen {#pwa-support}
 
@@ -70,8 +66,6 @@ Met behulp van het venster Paginaontwerp kunt u de te laden clientbibliotheken e
 * **Web Resources Client Library** - De categorie van de clientbibliotheek die wordt gebruikt voor webbronnen, zoals favicons.
 
 * **Overslaan naar de selectie van het hoofdelement** - Wordt gebruikt als toegankelijkheidsfunctie om rechtstreeks naar de hoofdinhoud van de pagina te gaan
-
-* **Koppelingen naar alternatieve talen renderen** - Indien ingeschakeld, worden koppelingen naar alternatieve taalversies van de pagina op dezelfde site toegevoegd aan de kop van de pagina.
 
 ![Dialoogvenster Pagina-componentontwerp](/help/assets/page-design.png)
 

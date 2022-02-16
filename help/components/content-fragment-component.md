@@ -3,16 +3,16 @@ title: Component Inhoudsfragment
 description: Met de component Inhoudsfragment van de kerncomponent kunt u een inhoudsfragment weergeven.
 role: Architect, Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
-source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '671'
+ht-degree: 1%
 
 ---
 
 # Component Inhoudsfragment{#content-fragment-component}
 
-Met de component Inhoudsfragment van kerncomponent kunt u een [inhoudsfragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) weergeven.
+De component van het Fragment van de Inhoud van de Component van de Kern staat voor de vertoning van toe [inhoudsfragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html).
 
 >[!NOTE]
 >
@@ -20,11 +20,11 @@ Met de component Inhoudsfragment van kerncomponent kunt u een [inhoudsfragment](
 
 ## Gebruik {#usage}
 
-De component van het Fragment van de Inhoud van de Component van de Kern staat voor de opneming van een [inhoudsfragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) op een pagina toe.
+Met de component Core Component Content Fragment kunt u een [inhoudsfragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) op een pagina.
 
-* Het fragment en zijn eigenschappen kunnen in [vorm dialoog](#configure-dialog) worden geselecteerd.
-* De types van middelen om bepaalde beelden en netten te behandelen kunnen in [ontwerpdialoog](#design-dialog) worden bepaald.
-* Met de optie Bewerken wordt het geselecteerde fragment geopend in de [inhoudfragmenteditor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html).
+* Het fragment en de bijbehorende eigenschappen kunnen worden geselecteerd in het dialoogvenster [dialoogvenster configureren](#configure-dialog).
+* De typen bronnen voor het verwerken van bepaalde afbeeldingen en rasters kunnen worden gedefinieerd in het dialoogvenster [ontwerpdialoogvenster](#design-dialog).
+* Met de optie Bewerken wordt het geselecteerde fragment geopend in het dialoogvenster [inhoudsfragmenteditor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html).
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -34,7 +34,7 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 
 | Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
 |--- |--- |---|---|
-| v1 | Compatibel | Compatibel | Compatibel |
+| v1 | Compatibel met<br>[release 2.17.4](/help/versions.md) en eerdere | Compatibel | Compatibel |
 
 >[!NOTE]
 >
@@ -48,17 +48,17 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 >
 >Hoewel beide v1 zijn, vereist om het even welke component van het Fragment van de Inhoud die van de omslag van uitbreidingen werd gebruikt een migratie van zijn verwante volmachtscomponenten om het nieuwe middeltype te gebruiken wanneer het bevorderen om 2.4.0 of hoger van de Componenten van de Kern vrij te geven.
 
-Voor meer informatie over de versies en versies van de Component van de Kern, zie het document [de Versies van de Componenten van de Kern](/help/versions.md).
+Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Ga naar [Componentbibliotheek](https://adobe.com/go/aem_cmp_library_cf) om de component Content Fragment te bekijken en voorbeelden van de bijbehorende configuratieopties en HTML- en JSON-uitvoer te bekijken.
+Als u de component Inhoudsfragment wilt ervaren en voorbeelden wilt zien van de configuratieopties en van de HTML- en JSON-uitvoer, gaat u naar de [Componentbibliotheek](https://adobe.com/go/aem_cmp_library_cf).
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van het Fragment van de Inhoud [kan op GitHub](https://adobe.com/go/aem_cmp_tech_cf_v1) worden gevonden.
+De meest recente technische documentatie over de component Content Fragment [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_cf_v1).
 
-Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
+Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -71,33 +71,33 @@ In het dialoogvenster Configureren kan de auteur van de inhoud definiëren welk 
 * **Inhoudsfragment**
 
    * Pad naar het gewenste inhoudsfragment
-   * Het dialoogvenster **Selectie** kan worden gebruikt om het fragment te zoeken
+   * De **Dialoogvenster Selectie** kan worden gebruikt om het fragment te zoeken
 
 * **Weergavemodus**
-   * **Single Text Element**  - Schakelt selectie van één tekstelement met meerdere regels in en schakelt opties voor alinealijnbeheer in
-   * **Meerdere elementen**  - Hiermee kunt u een of meer elementen van het geselecteerde inhoudsfragment selecteren
-* **Element**  - Het element of de elementen van het inhoudsfragment dat moet worden opgenomen
-* **Variatie**  - Welke variatie van het inhoudfragment moet worden gebruikt (standaard ingesteld op  **Master**)
+   * **Element voor één tekst** - Schakelt de selectie van één tekstelement met meerdere regels in en schakelt de opties voor alineacontrole in
+   * **Meerdere elementen** - Hiermee kunt u een of meer elementen van het geselecteerde inhoudsfragment selecteren
+* **Element** - Het element of de elementen van het inhoudsfragment dat moet worden opgenomen
+* **Variatie** - Welke variatie van het inhoudfragment moet worden gebruikt (standaard ingesteld op **Master**)
 
 * **Alinea&#39;s**
 
-   * **Alles**  - Alle alinea&#39;s weergeven
+   * **Alles** - Alle alinea&#39;s weergeven
    * **Bereik**
 
       * Bereiken opgeven voor alinea&#39;s die moeten worden weergegeven, gescheiden door een puntkomma
-      * Als u bijvoorbeeld `1;3-5;7;9-*` wilt opnemen in de eerste, de derde tot de vijfde, de zevende en de negende alinea tot de laatste alinea
-* **ID**  - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de  [gegevenslaag](/help/developing/data-layer/overview.md).
+      * Bijvoorbeeld `1;3-5;7;9-*` de eerste, de derde tot de vijfde, de zevende en de negende alinea
+* **ID** - Met deze optie kunt u de unieke id van de component in de HTML en in de [Gegevenslaag](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
 ### Tabblad Alinealijn {#paragraph-control-tab}
 
-Dit tabblad is niet beschikbaar wanneer de modus **Meerdere elementen** is geselecteerd.
+Dit tabblad is niet beschikbaar als **Meerdere elementen** is geselecteerd.
 
 ![Component Inhoudsfragment](/help/assets/content-fragment-edit-paragraph.png)
 
-* **Alinea** - Selectie van alle alinea&#39;s of een bereik toestaan
+* **Alinea&#39;s** - Selectie van alle alinea&#39;s of een bereik toestaan
 * **Koptekst verwerken als eigen alinea&#39;s**
 
 ## Ontwerpdialoogvenster {#design-dialog}
@@ -112,4 +112,4 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de typen bronnen definiëren 
 
 ## Gegevenslaag Adobe-client {#data-layer}
 
-De component van het Fragment van de Inhoud steunt [de Laag van de Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)
+De component Inhoudsfragment ondersteunt de [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)

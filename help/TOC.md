@@ -4,10 +4,10 @@ user-guide-title: AEM kerncomponenten
 breadcrumb-title: Handleiding voor kerncomponenten
 user-guide-description: Met de uitbreidbare Core Components kunnen auteurs eenvoudig inhoud maken.
 feature-set: Experience Manager Sites
-source-git-commit: 04adfb00ca5908714e611f8b5de6cd2b6d127a37
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '244'
+ht-degree: 2%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 0%
    + [Lijst](components/list.md)
    + [Navigatie](components/navigation.md)
    + [Pagina](components/page.md)
-   + [PDF-viewer](components/pdf-viewer.md)
+   + [PDF Viewer](components/pdf-viewer.md)
    + [Voortgangsbalk](components/progress-bar.md)
    + [Snel zoeken](components/quick-search.md)
    + [Scheidingsteken](components/separator.md)
@@ -55,9 +55,17 @@ ht-degree: 0%
       + [Formuliertekst](components/forms/form-text.md)
    + v1-componenten {#v1-components}
       + [Broodkruimel (v1)](components/v1/breadcrumb-v1.md)
+      + [Knop (v1)](components/v1/button.md)
+      + [Lijst met inhoudsfragmenten (v1)](components/v1/content-fragment-list.md)
+      + [Downloaden (v1)](components/v1/download.md)
+      + [Insluiten (v1)](components/v1/embed.md)
+      + [Experience Fragment (v1)](components/v1/experience-fragment.md)
       + [Afbeelding (v1)](components/v1/image-v1.md)
+      + [Taalnavigatie (v1)](components/v1/language-navigation.md)
       + [Lijst (v1)](components/v1/list-v1.md)
+      + [Navigatie (v1)](components/v1/navigation.md)
       + [Pagina (v1)](components/v1/page-v1.md)
+      + [Taser (v1)](components/v1/teaser.md)
       + [Tekst (v1)](components/v1/text-v1.md)
       + [Titel (v1)](components/v1/title-v1.md)
       + v1-formuliercomponenten {#v1-forms}
@@ -66,6 +74,12 @@ ht-degree: 0%
          + [Formulier verborgen (v1)](components/v1/form-hidden-v1.md)
          + [Formulieropties (v1)](components/v1/form-options-v1.md)
          + [Formuliertekst (v1)](components/v1/form-text-v1.md)
+   + v2-componenten {#v2-components}
+      + [Broodkruimel (v2)](components/v2/breadcrumb.md)
+      + [Afbeelding (v2)](components/v2/image.md)
+      + [Lijst (v2)](components/v2/list.md)
+      + [Pagina (v2)](components/v2/page.md)
+      + [Titel (v2)](components/v2/title.md)
 + Ontwikkeling {#developing}
    + [Basiscomponenten ontwikkelen](developing/overview.md)
    + [Paden naar succes](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
@@ -75,11 +89,11 @@ ht-degree: 0%
    + [AMP-ondersteuning](developing/amp.md)
    + [Contextbewuste configuraties](developing/context-aware-configs.md)
    + [Inclusief clientbibliotheken](developing/including-clientlibs.md)
-   + Adobe-gegevenslaag client {#data-layer}
+   + Gegevenslaag Adobe-client {#data-layer}
       + [Overzicht van de Laag van Gegevens](developing/data-layer/overview.md)
       + [Integratie met de Laag van Gegevens](developing/data-layer/integrations.md)
       + [De gegevenslaag uitbreiden](developing/data-layer/extending.md)
-   + Projectarchetype {#archetype} AEM
+   + Projectarchetype AEM {#archetype}
       + [Overzicht van Archetype](developing/archetype/overview.md)
       + [Archetype gebruiken](developing/archetype/using.md)
       + [Kernmodule](developing/archetype/core.md)

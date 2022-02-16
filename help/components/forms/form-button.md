@@ -3,9 +3,9 @@ title: Component Formulierknop
 description: Met de component Core Component Form Hidden kunt u een verborgen veld in een formulier opnemen.
 role: Architect, Developer, Admin, User
 exl-id: 1e5cff43-57db-4bfc-b2d2-23307eaf5eb3
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '416'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,9 @@ Met de component Core Component Form Button kan een knop worden opgenomen waarme
 
 ## Gebruik {#usage}
 
-De component van de Knoop van de Vorm van de Component van de Kern staat voor de verwezenlijking van knoopgebied toe, vaak om de voorlegging van de vorm teweeg te brengen en is bedoeld om samen met de [component van de Container van de Vorm ](form-container.md) worden gebruikt.
+Met de component Core Component Form Button kunt u een knopveld maken dat vaak de verzending van het formulier activeert en dat samen met het [component Form Container](form-container.md).
 
-De knoopeigenschappen kunnen door de inhoudsredacteur in [vormen dialoog](#configure-dialog) worden bepaald.
+De knopeigenschappen kunnen door de inhoudeditor in het dialoogvenster [dialoogvenster configureren](#configure-dialog).
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -28,20 +28,20 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 
 | Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v2 | Compatibel | Compatibel | Compatibel |
+| v2 | Compatibel met<br>[release 2.17.4](/help/versions.md) en eerdere | Compatibel | Compatibel |
 | [v1](/help/components/v1/form-button-v1.md) | Compatibel | Compatibel | - |
 
-Voor meer informatie over de versies en versies van de Component van de Kern, zie het document [de Versies van de Componenten van de Kern](/help/versions.md).
+Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Ga naar [Componentbibliotheek](https://adobe.com/go/aem_cmp_library_form_button) voor meer informatie over de component Formulierknopcomponent en voorbeelden van de bijbehorende configuratieopties, alsook over HTML- en JSON-uitvoer.
+Als u de component Form Button wilt ervaren en voorbeelden wilt zien van de configuratieopties en van de HTML- en JSON-uitvoer, gaat u naar de [Componentbibliotheek](https://adobe.com/go/aem_cmp_library_form_button).
 
 ### Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Knoop van de Vorm [kan op GitHub](https://adobe.com/go/aem_cmp_tech_form_button_v2) worden gevonden.
+De meest recente technische documentatie over de component FormButton [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_form_button_v2).
 
-Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
+Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -56,14 +56,14 @@ In het dialoogvenster voor configureren kan de auteur van de inhoud de parameter
    * **Knop**
    * **Verzenden**
 
-* **Titel**  - De tekst die op de knop wordt weergegeven
+* **Titel** - De tekst die op de knop wordt weergegeven
 
    * Als er niets is opgegeven, wordt het knoptype standaard ingesteld
 
-* **Naam**  - De naam van de knop die samen met de formuliergegevens wordt verzonden
-* **Waarde**  - De waarde van de knop die samen met de formuliergegevens wordt verzonden
+* **Naam** - De naam van de knop, die samen met de formuliergegevens wordt verzonden
+* **Waarde** - De waarde van de knop, die samen met de formuliergegevens wordt verzonden
 
-* **ID**  - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de  [gegevenslaag](/help/developing/data-layer/overview.md).
+* **ID** - Met deze optie kunt u de unieke id van de component in de HTML en in de [Gegevenslaag](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
@@ -72,4 +72,4 @@ In het dialoogvenster voor configureren kan de auteur van de inhoud de parameter
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van de Knoop van de Vorm steunt het AEM [Systeem van de Stijl](/help/get-started/authoring.md#component-styling).
+De component Form Button ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).

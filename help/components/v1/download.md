@@ -1,16 +1,16 @@
 ---
-title: Component downloaden
+title: Component downloaden (v1)
 description: Met de component Core Component Download kunt u een downloadoptie op een pagina maken.
 role: Architect, Developer, Admin, User
-exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 1%
+source-wordcount: '644'
+ht-degree: 0%
 
 ---
 
-# Component downloaden{#download-component}
+
+# Component downloaden (v1) {#download-component}
 
 Met de component Core Component Download kunt u een downloadoptie op een pagina maken.
 
@@ -23,16 +23,13 @@ Met de component Core Component Download kunnen een downloadoptie en het bijbeho
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De huidige versie van de Download Component is v2, die in februari 2022 werd geïntroduceerd met versie 2.18.0 van de Core Components, en in dit document wordt beschreven.
+In dit document wordt versie 1 van de Download Component beschreven, die in juni 2019 is geïntroduceerd met versie 2.5.0 van de Core Components.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
-
-| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v2 | - | Compatibel | Compatibel |
-| [v1](v1/download.md) | Compatibel | Compatibel | Compatibel |
-
-Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
+>[!CAUTION]
+>
+>In dit document wordt versie 1 van de downloadcomponent beschreven.
+>
+>Voor meer informatie over de huidige versie van de Download-component raadpleegt u de [Component downloaden](/help/components/download.md) document.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
@@ -52,7 +49,7 @@ In het dialoogvenster Configureren kan de auteur van de inhoud het downloaditem 
 
 ### Tabblad Element {#asset-tab}
 
-De selectie van een downloadmiddel lijkt sterk op de functionaliteit van de [Afbeeldingscomponent](image.md) en ook als hefboom AEM DAM.
+De selectie van een downloadmiddel lijkt sterk op de functionaliteit van de [Afbeeldingscomponent](image-v1.md) en ook als hefboom AEM DAM.
 
 * **Element downloaden**
    * Middelen uit het deelvenster [middelenbrowser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of tik op **doorbladeren** uploaden vanuit een lokaal bestandssysteem.
@@ -74,16 +71,6 @@ De selectie van een downloadmiddel lijkt sterk op de functionaliteit van de [Afb
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
-
-### Tabblad Stijlen {#styles-tab-edit}
-
-![Het tabblad Stijlen van het dialoogvenster voor bewerken van component downloaden](/help/assets/download-edit-styles.png)
-
-De component Download ondersteunt de AEM [Stijlsysteem.](/help/get-started/authoring.md#component-styling).
-
-Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
-
-De stijlen moeten voor deze component in worden gevormd [ontwerpdialoogvenster](#design-dialog) zodat het vervolgkeuzemenu beschikbaar is.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
