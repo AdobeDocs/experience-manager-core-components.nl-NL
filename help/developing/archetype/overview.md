@@ -4,9 +4,9 @@ description: Een projectmalplaatje voor op AEM gebaseerde toepassingen
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 3407b5d086dca4ba18eeaf2e57b648923a4557b4
+source-git-commit: a4ed30ad613efab89f10788a41a5dee8d663bf6c
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1150'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ Het AEM Project Archetype is een Geweven malplaatje dat tot een minimaal, op bes
 * **Koptekst en voettekst:** U kunt ze samenstellen en lokaliseren zonder code, met de opdracht [lokalisatiefuncties van de componenten](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html).
 * **Stijlsysteem:** Vermijd het bouwen van aangepaste componenten door auteurs toe te staan om [verschillende stijlen toepassen](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/style-system.html) aan hen.
 * **Front-end build:** Ontwikkelaars aan de voorzijde kunnen [AEM](uifrontend.md#webpack-dev-server) en [build-clientbibliotheken](uifrontend.md) met Webpack, TypeScript en SASS.
-* **WebApp-Ready:** Voor sites die [Reageren](uifrontend-react.md) of [Angular](uifrontend-angular.md), gebruikt u de [SPA SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/headless/spa/developing.html) behouden [contextontwerp van de app](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html).
+* **WebApp-Ready:** Voor sites die [Reageren](uifrontend-react.md) of [Angular](uifrontend-angular.md), gebruikt u de [SPA SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/developing.html) behouden [contextontwerp van de app](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html).
 * **Handel ingeschakeld:** Voor projecten die willen integreren [AEM Commerce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/home.html) met handelsoplossingen zoals [Magento](https://magento.com/) met de [Core Components](https://github.com/adobe/aem-core-cif-components).
 * **Voorbeeldcode:** Controle uit de component HelloWorld, en de steekproefmodellen, servlets, filters, en planners.
 * **Open Bronnen:** Als iets anders is dan zou moeten, [bijdragen](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) uw verbeteringen!
@@ -82,7 +82,7 @@ De afhankelijkheid van kerncomponenten wordt alleen toegevoegd voor versies met 
 | `aemVersion` | `cloud` | AEM (kan `cloud` for [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html); of `6.5.0`, of `6.4.4` for [Beheerde services van Adobe](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) of op locatie). |
 | `sdkVersion` | `latest` | Wanneer `aemVersion=cloud` een [SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) versie kan worden opgegeven (bijvoorbeeld `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Bevat een configuratie van de verzender voor cloud of voor AMS/on-premise, afhankelijk van de waarde van `aemVersion` (kan `y` of `n`). |
-| `frontendModule` | `general` | Omvat een vooraf ingebouwd module Webpack die de cliëntbibliotheken (kan) produceert `general` of `none` voor gewone locaties; kan `angular` of `react` voor een app voor één pagina die het [SPA Editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)). |
+| `frontendModule` | `general` | Omvat een vooraf ingebouwd module Webpack die de cliëntbibliotheken (kan) produceert `general` of `none` voor gewone locaties; kan `angular` of `react` voor een app voor één pagina die het [SPA Editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/editor-overview.html)). |
 | `language` | `en` | Taalcode (ISO 639-1) waarmee de inhoudsstructuur wordt gemaakt (bijvoorbeeld `en`, `deu`). |
 | `country` | `us` | Landcode (ISO 3166-1) om de inhoudsstructuur te maken op basis van (bijvoorbeeld `US`). |
 | `singleCountry` | `y` | Omvat een taal-master inhoudsstructuur (kan `y`, of `n`). |

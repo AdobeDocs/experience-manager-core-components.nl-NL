@@ -4,9 +4,9 @@ description: Gedetailleerde gebruiksinstructies voor het AEM Project Archetype
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: 017790c5a0e53ba6203a5c3d5ddebcce9c00cb01
+source-git-commit: 06a620980c9cda02d1190747b12b929498fb79c2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2194'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Met het AEM Project Archetype maakt u een minimaal Adobe Experience Manager-proj
 
 ## Waarom het Archetype gebruiken {#why-use-the-archetype}
 
-Het gebruiken van het AEM Archetype van het Project plaatst u op de weg naar de bouw van een op best-praktijken-gebaseerd AEM project met enkel een paar aanslagen. Door archetype te gebruiken, zullen alle stukken reeds op zijn plaats zijn zodat terwijl het resulterende project minimaal is, het reeds alle [zeer belangrijke eigenschappen](#what-you-get) van AEM uitvoert zodat alles u moet doen op bovenkant bouwt en zich uitbreidt.
+Het gebruiken van het AEM Archetype van het Project plaatst u op de weg naar de bouw van een op best-praktijken-gebaseerd AEM project met enkel een paar aanslagen. Door het archetype te gebruiken, zullen alle stukken reeds op zijn plaats zijn zodat terwijl het resulterende project minimaal is, het reeds alle [sleutelfuncties](#what-you-get) AEM zodat je alleen maar verder moet bouwen en uitbreiden.
 
 Natuurlijk zijn er vele elementen die in een succesvol AEM project gaan, maar het gebruiken van het AEM Project Archetype is een correcte stichting en sterk geadviseerd voor om het even welk AEM project.
 
@@ -25,9 +25,9 @@ Natuurlijk zijn er vele elementen die in een succesvol AEM project gaan, maar he
 
 Het project archetype maakt het gemakkelijk om zich op AEM te beginnen ontwikkelen. U kunt de eerste stappen op verschillende manieren uitvoeren.
 
-* WKND-zelfstudie - Voor een grote inleiding tot het ontwikkelen op AEM, inclusief hoe u het archetype optimaal kunt benutten, raadpleegt u de [Aan de slag met AEM Sites - WKND-zelfstudie](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) voor een praktisch voorbeeld waarin u het archetype gebruikt om een eenvoudig project te implementeren.
-* Zelfstudie voor WKND-gebeurtenissen - Als u bijzonder geïnteresseerd bent in de ontwikkeling van toepassingen (SPA) op AEM met één pagina, moet u de speciale [WKND-gebeurtenissenzelfstudie](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html) uitchecken.
-* Download en start alleen! - U kunt het huidige project archetype gemakkelijk downloaden beschikbaar op GitHub en uw eerste project door [na de eenvoudige stappen onder](#how-to-use-the-archetype) tot stand brengen.
+* WKND-zelfstudie - Voor een grote introductie over het ontwikkelen van AEM, inclusief hoe u het archetype kunt gebruiken, raadpleegt u de [Aan de slag met AEM Sites - WKND-zelfstudie](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) voor een praktisch voorbeeld dat u door het gebruiken van archetype loopt om een eenvoudig project uit te voeren.
+* Zelfstudie voor WKND-gebeurtenissen - Als u bijzonder geïnteresseerd bent in de ontwikkeling van toepassingen (SPA) op AEM voor één pagina, moet u de speciale code uitchecken [Zelfstudie over WKND-gebeurtenissen](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html).
+* Download en start alleen! - U kunt het huidige project archetype gemakkelijk downloaden beschikbaar op GitHub en uw eerste project creëren door [onderstaande eenvoudige stappen volgen](#how-to-use-the-archetype).
 
 ## Wat u krijgt met Archetype {#what-you-get}
 
@@ -35,15 +35,15 @@ Het AEM Archetype bestaat uit modules:
 
 * **[kern](core.md)**: is een bundel van Java die alle kernfunctionaliteit zoals de diensten OSGi, luisteraars, en planners, evenals component-verwante code van Java zoals servlets en verzoekfilters bevat.
 * **[it.tests](ittests.md)**: zijn op Java gebaseerde integratietests.
-* **[ui.apps](uiapps.md)**: bevat de  `/apps` en  `/etc` delen van het project, d.w.z. JS en CSS-clientlibs, componenten en sjablonen.
+* **[ui.apps](uiapps.md)**: bevat de `/apps` en `/etc` delen van het project, d.w.z. JS en CSS clientlibs, componenten, en malplaatjes.
 * **[ui.content](uicontent.md)**: bevat voorbeeldinhoud met behulp van de componenten uit de module ui.apps.
 * **ui.config**: bevat runtime-specifieke OSGi vormen voor het project.
-* **[ui.frontend.general](uifrontend.md)**:  **(facultatief)** bevat de artefacten die worden vereist om de algemene Web-pack-gebaseerde voorste-eind bouwstijlmodule te gebruiken.
-* **[ui.frontend.response](uifrontend-react.md)**:  **(facultatief)** bevat de artefacten die wanneer het gebruiken van archetype worden vereist om tot SPA projecten te leiden die op React worden gebaseerd.
-* **[ui.frontend.angular](uifrontend-angular.md)**:  **(facultatief)** bevat de artefacten die wanneer het gebruiken van archetype worden vereist om tot SPA projecten te leiden die op Angular worden gebaseerd.
+* **[ui.frontend.general](uifrontend.md)**: **(optioneel)** Bevat de artefacten die worden vereist om de algemene Web-pack-Gebaseerde voorste bouwstijlmodule te gebruiken.
+* **[ui.frontend.response](uifrontend-react.md)**: **(optioneel)** bevat de artefacten die wanneer het gebruiken van archetype worden vereist om een SPA tot stand te brengen die op Reageren worden gebaseerd.
+* **[ui.frontend.angular](uifrontend-angular.md)**: **(optioneel)** bevat de artefacten die wanneer het gebruiken van archetype worden vereist om een SPA tot stand te brengen die projecten op Angular worden gebaseerd.
 * **[ui.tests](uitests.md)**: bevat op selenium gebaseerde UI-tests.
-* **alle**: is één enkel inhoudspakket dat alle gecompileerde modules (bundels en inhoudspakketten) met inbegrip van om het even welke verkopersgebiedsdelen inbedt.
-* **analyseren**: stelt analyse op het project in werking, dat extra bevestiging voor het opstellen in AEM als Cloud Service verstrekt.
+* **alles**: is één enkel inhoudspakket dat alle gecompileerde modules (bundels en inhoudspakketten) met inbegrip van om het even welke verkopersgebiedsdelen inbedt.
+* **analyseren**: stelt analyse op het project in werking, dat extra bevestiging voor het opstellen in AEM as a Cloud Service verstrekt.
 
 ![](/help/assets/archetype-structure.png)
 
@@ -51,13 +51,13 @@ De modules van AEM Archetype die in Maven worden vertegenwoordigd worden opgeste
 
 ## Het gebruiken van Archetype {#how-to-use-the-archetype}
 
-Om archetype te gebruiken, moet u eerst een project tot stand brengen, dat de modules in een lokale dossierstructuur zoals [eerder beschreven ](#what-you-get) produceert. Als deel van projectgeneratie, kan een aantal eigenschappen voor uw project worden bepaald zoals projectnaam, versie, enz.
+Om archetype te gebruiken, moet u eerst een project tot stand brengen, dat de modules in een lokale dossierstructuur als produceert [eerder beschreven](#what-you-get). Als deel van projectgeneratie, kan een aantal eigenschappen voor uw project worden bepaald zoals projectnaam, versie, enz.
 
 Het bouwen van het project met Maven leidt tot de artefacten (pakketten en bundels OSGi), die aan AEM kunnen worden opgesteld. De extra Gemaakt bevelen en de profielen kunnen worden gebruikt om de projectartefacten aan een AEM instantie op te stellen.
 
 ### Een project maken {#create-project}
 
-Om begonnen te worden kunt u de [AEM uitbreiding van de Verduistering ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/eclipse.html) het eenvoudigst gebruiken en de Nieuwe tovenaar van het Project volgen en **AEM Monster Meervoudig-Module Project** kiezen om een vrijgegeven versie van archetype te gebruiken.
+Om aan de slag te gaan, kunt u het eenvoudigst de [AEM Eclipse-extensie](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/eclipse.html) en volgt u de wizard Nieuw project en kiest u **AEM Monster nemen van project met meerdere modules** om een vrijgegeven versie van archetype te gebruiken.
 
 Natuurlijk kunt u ook Maven rechtstreeks aanroepen.
 
@@ -74,21 +74,20 @@ mvn -B archetype:generate \
  -D includeExamples=n
 ```
 
-* Stel `XX` in op het [versienummer](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md) van het nieuwste AEM Projectarchetype.
-* `aemVersion=cloud` voor [AEM instellen als een Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html);\
-   Stel `aemVersion=6.5.0` in voor [Beheerde services van Adobe](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) of op locatie.
-De afhankelijkheid van kerncomponenten wordt alleen toegevoegd voor versies zonder cloudnaam omdat de kerncomponenten OTB voor AEM als cloud worden geleverd
-Service.
-* Pas `appTitle="My Site"` aan om de titel van de website en componentengroepen te bepalen.
-* Pas `appId="mysite"` aan om Maven artifactId, de component, config en de namen van de inhoudsomslag, evenals de namen van de cliëntbibliotheek te bepalen.
-* Pas `groupId="com.mysite"` aan om Maven groupId en het Bron Pakket van Java te bepalen.
+* Set `XX` aan de [versienummer](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md) van de nieuwste AEM Project Archetype.
+* Set `aemVersion=cloud` for [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html);\
+   Set `aemVersion=6.5.0` for [Beheerde services van Adobe](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)of op locatie.
+De afhankelijkheid van kerncomponenten wordt alleen toegevoegd voor versies met een andere naam dan de cloud, aangezien de Core Components OTB voor AEM as a Cloud Service wordt geleverd.
+* Aanpassen `appTitle="My Site"` om de titel van de website en de groepen componenten te definiëren.
+* Aanpassen `appId="mysite"` om Maven artifactId, de component, config en de namen van de inhoudsomslag, evenals de namen van de cliëntbibliotheek te bepalen.
+* Aanpassen `groupId="com.mysite"` om Maven groupId en het Bron Pakket van Java te bepalen.
 * Zoek de lijst met beschikbare eigenschappen op om te zien of u meer eigenschappen wilt aanpassen.
 
 >[!NOTE]
 >
->Het wordt aanbevolen om het `adobe-public`-profiel toe te voegen aan het gemaakte `settings.xml`-bestand om automatisch repo.adobe.com toe te voegen aan het gemaakte constructieproces.
+>Het is aan te raden de `adobe-public` profiel naar uw Maven `settings.xml` om automatisch repo.adobe.com toe te voegen aan het gemaakte buildproces.
 >
->Een voorbeeld van POM [vindt u hier](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
+>Een voorbeeld-POM [hier te vinden](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
 
 ### Eigenschappen {#properties}
 
@@ -102,44 +101,44 @@ De volgende eigenschappen zijn beschikbaar wanneer het creëren van een project 
 | `groupId` |  | Basis-Maven-groep-id (bijvoorbeeld `"com.mysite"`). |
 | `package` | *`${groupId}`* | Java-bronpakket (bijvoorbeeld `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Projectversie (bijvoorbeeld `1.0-SNAPSHOT`). |
-| `aemVersion` | `cloud` | AEM (kan `cloud` voor [AEM als Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) zijn; of `6.5.0`, of `6.4.4` voor [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) of on-premise). |
-| `sdkVersion` | `latest` | Wanneer `aemVersion=cloud` een [SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html)-versie kan worden opgegeven (bijvoorbeeld `2020.02.2265.20200217T222518Z-200130`). |
-| `includeDispatcherConfig` | `y` | Bevat een configuratie van de verzender voor cloud of voor AMS/on-premise, afhankelijk van de waarde van `aemVersion` (kan `y` of `n` zijn). |
-| `frontendModule` | `general` | Omvat een vooraf gebouwde module Webpack die de cliëntbibliotheken (kan `general` of `none` voor regelmatige plaatsen zijn; kan `angular` of `react` voor een Enige Pagina zijn app die [SPA Redacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)) uitvoert. |
+| `aemVersion` | `cloud` | AEM (kan `cloud` for [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html); of `6.5.0`, of `6.4.4` for [Beheerde services van Adobe](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) of op locatie). |
+| `sdkVersion` | `latest` | Wanneer `aemVersion=cloud` een [SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) versie kan worden opgegeven (bijvoorbeeld `2020.02.2265.20200217T222518Z-200130`). |
+| `includeDispatcherConfig` | `y` | Bevat een configuratie van de verzender voor cloud of voor AMS/on-premise, afhankelijk van de waarde van `aemVersion` (kan `y` of `n`). |
+| `frontendModule` | `general` | Omvat een vooraf ingebouwd module Webpack die de cliëntbibliotheken (kan) produceert `general` of `none` voor gewone locaties; kan `angular` of `react` voor een app voor één pagina die het [SPA Editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/editor-overview.html)). |
 | `language` | `en` | Taalcode (ISO 639-1) waarmee de inhoudsstructuur wordt gemaakt (bijvoorbeeld `en`, `deu`). |
 | `country` | `us` | Landcode (ISO 3166-1) om de inhoudsstructuur te maken op basis van (bijvoorbeeld `US`). |
-| `singleCountry` | `y` | Omvat een taal-master inhoudsstructuur (kan `y`, of `n` zijn). |
-| `includeExamples` | `n` | Bevat een [Component Library](https://www.aemcomponents.dev/) voorbeeldsite (kan `y` of `n` zijn). |
-| `includeErrorHandler` | `n` | Bevat een aangepaste 404-responspagina die globaal is voor de gehele instantie (kan `y` of `n` zijn). |
-| `includeCommerce` | `n` | Omvat [CIF Core Components](https://github.com/adobe/aem-core-cif-components) gebiedsdelen en produceert overeenkomstige artefacten. |
+| `singleCountry` | `y` | Omvat een taal-master inhoudsstructuur (kan `y`, of `n`). |
+| `includeExamples` | `n` | Bevat een [Componentbibliotheek](https://www.aemcomponents.dev/) voorbeeldsite (kan `y`, of `n`). |
+| `includeErrorHandler` | `n` | Bevat een aangepaste 404-responspagina die globaal is voor de gehele instantie (kan `y` of `n`). |
+| `includeCommerce` | `n` | Inclusief [CIF Core-componenten](https://github.com/adobe/aem-core-cif-components) afhankelijkheden en genereert overeenkomstige artefacten. |
 | `commerceEndpoint` |  | Alleen vereist voor CIF. Facultatief eindpunt van het handelssysteem te gebruiken dienst GraphQL (b.v. `https://hostname.com/grapql`). |
-| `datalayer` | `y` | Activeer integratie met [Adobe Client Data Layer](/help/developing/data-layer/overview.md). |
-| `amp` | `n` | Schakel [AMP](/help/developing/amp.md)-ondersteuning voor gegenereerde projectsjablonen in. |
+| `datalayer` | `y` | Integratie activeren met [Gegevenslaag Adobe-client](/help/developing/data-layer/overview.md). |
+| `amp` | `n` | Inschakelen [AMP](/help/developing/amp.md) ondersteuning voor gegenereerde projectsjablonen. |
 | `enableDynamicMedia` | `n` | Laat stichting DynamicMedia componenten in de montages van het projectbeleid toe en activeert de eigenschappen van Dynamic Media in het beleid van de component van het Beeld van de Kern. |
 | `enableSSR` | `n` | Optie om SSR voor het front-end project toe te laten |
-| `precompiledScripts` | `n` | Optie om [de server-zijmanuscripten van `ui.apps` vooraf te compileren en hen aan de bouw als secundair bundelartefact in het `ui.apps` project vast te maken. ](/help/developing/archetype/precompiled-bundled-scripts.md) `aemVersion` moet worden ingesteld op  `cloud`. |
+| `precompiledScripts` | `n` | Optie naar [vooraf compileren](/help/developing/archetype/precompiled-bundled-scripts.md) de serverscripts van `ui.apps` en als secundair bundelartefact aan het gebouw koppelen in het `ui.apps` project. `aemVersion` moet worden ingesteld op `cloud`. |
 
 >[!NOTE]
 >
-> Als archetype de eerste keer op interactieve wijze wordt uitgevoerd, kunnen de eigenschappen met standaardwaarden niet worden veranderd (zie [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) voor meer details). De waarde kan worden gewijzigd wanneer de vastgoedbevestiging aan het einde wordt geweigerd en de vragenlijst wordt herhaald, of door de parameter in de opdrachtregel door te geven (bijvoorbeeld `-DoptionIncludeExamples=n`).
+> Als het archetype de eerste keer op interactieve wijze wordt uitgevoerd, kunnen de eigenschappen met standaardwaarden niet worden veranderd (zie [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) voor meer informatie ). De waarde kan worden gewijzigd wanneer de vastgoedbevestiging aan het einde wordt geweigerd en de vragenlijst wordt herhaald, of door de parameter in de opdrachtregel door te geven (bijvoorbeeld `-DoptionIncludeExamples=n`).
 
 >[!NOTE]
 >
->Wanneer het lopen op Vensters en het produceren van de verzender configuratie, zou u in een opgeheven bevelherinnering of Subsysteem van Vensters voor Linux (zie [kwestie 329](https://github.com/adobe/aem-project-archetype/issues/329)) moeten lopen.
+>Wanneer het lopen op Vensters en het produceren van de dispatcherconfiguratie, zou u in een opgeheven bevelherinnering of Subsysteem van Vensters voor Linux moeten lopen (zie [uitgave 329](https://github.com/adobe/aem-project-archetype/issues/329)).
 
 ### Profielen {#profiles}
 
-Het gegenereerde beheerde project ondersteunt verschillende implementatieprofielen wanneer `mvn install` wordt uitgevoerd.
+Het gegenereerde beheerde project ondersteunt verschillende implementatieprofielen bij het uitvoeren `mvn install`.
 
 | Profiel-id | Beschrijving |
 | --------------------------|------------------------------|
 | `autoInstallBundle` | De kernbundel installeren met de maven-sling-plug-in op de felix-console |
-| `autoInstallPackage` | Installeer het inhoudspakket ui.content en ui.apps met de insteekmodule content-package-maven naar pakketbeheer om de standaardversie van de auteur op localhost, poort 4502, te gebruiken. Hostnaam en poort kunnen worden gewijzigd met de door de gebruiker gedefinieerde eigenschappen `aem.host` en `aem.port`. |
-| `autoInstallPackagePublish` | Installeer het inhoudspakket ui.content en ui.apps met de insteekmodule content-package-maven naar het pakketbeheer om standaard een publicatie-instantie te publiceren op localhost, poort 4503. Hostnaam en poort kunnen worden gewijzigd met de door de gebruiker gedefinieerde eigenschappen `aem.host` en `aem.port`. |
-| `autoInstallSinglePackage` | Installeer het inhoudspakket `all` met de insteekmodule content-package-maven in het pakketbeheer om de standaardversie van de auteur op localhost, poort 4502, te gebruiken. Hostnaam en poort kunnen worden gewijzigd met de door de gebruiker gedefinieerde eigenschappen `aem.host` en `aem.port`. |
-| `autoInstallSinglePackagePublish` | Installeer het `all`-inhoudspakket met de insteekmodule content-package-maven in het pakketbeheer om de standaardpublicatie-instantie op localhost, poort 4503, in te stellen. Hostnaam en poort kunnen worden gewijzigd met de door de gebruiker gedefinieerde eigenschappen `aem.host` en `aem.port`. |
-| `integrationTests` | Voert de verstrekte integratietests op de AEM instantie (slechts voor de `verify` fase) in werking |
-| `precompiledScripts` | Wordt automatisch gedefinieerd wanneer het project wordt gegenereerd met de eigenschap `precompiledScripts` ingesteld op `y`. Het profiel is standaard actief en genereert een OSGi-bundel in `ui.apps` met de vooraf gecompileerde scripts, die worden opgenomen in het inhoudspakket `all`. Het profiel kan worden uitgeschakeld met `-DskipScriptPrecompilation=true`. |
+| `autoInstallPackage` | Installeer het inhoudspakket ui.content en ui.apps met de insteekmodule content-package-maven naar pakketbeheer om de standaardversie van de auteur op localhost, poort 4502, te gebruiken. Hostnaam en poort kunnen worden gewijzigd met de `aem.host` en `aem.port` door de gebruiker gedefinieerde eigenschappen. |
+| `autoInstallPackagePublish` | Installeer het inhoudspakket ui.content en ui.apps met de insteekmodule content-package-maven naar het pakketbeheer om standaard een publicatie-instantie te publiceren op localhost, poort 4503. Hostnaam en poort kunnen worden gewijzigd met de `aem.host` en `aem.port` door de gebruiker gedefinieerde eigenschappen. |
+| `autoInstallSinglePackage` | Installeer de `all` inhoudspakket met de insteekmodule content-package-maven naar pakketbeheer om de standaardversie van de auteur op localhost, poort 4502, in te stellen. Hostnaam en poort kunnen worden gewijzigd met de `aem.host` en `aem.port` door de gebruiker gedefinieerde eigenschappen. |
+| `autoInstallSinglePackagePublish` | Installeer de `all` inhoudspakket met de insteekmodule content-package-maven naar pakketbeheer om de standaardpublicatie-instantie op localhost, poort 4503, in te stellen. Hostnaam en poort kunnen worden gewijzigd met de `aem.host` en `aem.port` door de gebruiker gedefinieerde eigenschappen. |
+| `integrationTests` | Hiermee worden de opgegeven integratietests uitgevoerd op de AEM instantie (alleen voor de `verify` fase) |
+| `precompiledScripts` | Wordt automatisch gedefinieerd wanneer het project met de `precompiledScripts` eigenschap ingesteld op `y`. Het profiel is standaard actief en genereert een OSGi-bundel binnen `ui.apps` met de vooraf gecompileerde scripts, die in de `all` inhoudspakket. Het profiel kan worden uitgeschakeld met `-DskipScriptPrecompilation=true`. |
 
 ### Samenstellen en installeren {#building-and-installing}
 
@@ -175,15 +174,15 @@ mvn clean install -PautoInstallBundle
 
 ## Bovenliggende POM {#parent-pom}
 
-`pom.xml` bij de wortel van het project (`<src-directory>/<project>/pom.xml`) is gekend als ouder POM en drijft de structuur van het project evenals beheert gebiedsdelen en bepaalde globale eigenschappen van het project.
+De `pom.xml` aan de basis van het project (`<src-directory>/<project>/pom.xml`) staat bekend als de bovenliggende POM en drijft de structuur van het project en beheert afhankelijkheden en bepaalde algemene eigenschappen van het project.
 
 ### Algemene projecteigenschappen {#global-properties}
 
-Het `<properties>` gedeelte van bovenliggende POM definieert verschillende algemene eigenschappen die belangrijk zijn voor de implementatie van uw project op een AEM instantie, zoals gebruikersnaam/wachtwoord, hostnaam/poort, enz.
+De `<properties>` sectie van ouderPOM bepaalt verscheidene globale eigenschappen die voor de plaatsing van uw project op een AEM instantie zoals gebruikersnaam/wachtwoord, gastheernaam/haven, enz. belangrijk zijn.
 
 Deze eigenschappen worden opstelling om aan een lokale AEM instantie op te stellen, aangezien dit de gemeenschappelijkste bouwstijl is die de ontwikkelaars zullen doen. Er zijn eigenschappen die in een auteurinstantie en een publicatieinstantie moeten worden geïmplementeerd. Dit is ook waar de geloofsbrieven worden geplaatst om met de AEM instantie voor authentiek te verklaren. De standaardreferenties voor admin:admin worden gebruikt.
 
-Deze eigenschappen zijn opstelling zodat zij kunnen worden met voeten getreden wanneer het opstellen aan hogere niveaumilieu&#39;s. Op deze manier hoeven de POM-bestanden niet te worden gewijzigd, maar variabelen zoals `aem.host` en `sling.password` kunnen via opdrachtregelargumenten worden overschreven:
+Deze eigenschappen zijn opstelling zodat zij kunnen worden met voeten getreden wanneer het opstellen aan hogere niveaumilieu&#39;s. Op deze manier hoeven de POM-bestanden niet te worden gewijzigd, maar variabelen zoals `aem.host` en `sling.password` kan worden overschreven via opdrachtregelargumenten:
 
 ```shell
 mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.password=productionpasswd
@@ -191,7 +190,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 ### Modulestructuur {#module-structure}
 
-De `<modules>` sectie van ouderPOM bepaalt de modules die het project zal bouwen. Door gebrek bouwt het project [de eerder bepaalde standaardmodules](#what-you-get): core, ui.apps, ui.content, ui.tests, en it.launch. Meer modules kunnen altijd worden toegevoegd aangezien een project evolueert.
+De `<modules>` de sectie van ouderPOM bepaalt de modules die het project zal bouwen. Standaard wordt het project gebouwd [de eerder gedefinieerde standaardmodules](#what-you-get): core, ui.apps, ui.content, ui.tests, en it.launch. Meer modules kunnen altijd worden toegevoegd aangezien een project evolueert.
 
 ### Afhankelijkheden {#dependencies}
 
@@ -199,7 +198,7 @@ De `<dependencyManagement>` sectie van ouderPOM bepaalt alle gebiedsdelen en ver
 
 #### Uber-Jar {#uber-jar}
 
-Één van de belangrijkste gebiedsdelen is [AEM Java API Jar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html). Dit omvat alle AEM APIs met enkel één enkele gebiedsdeelingang voor de versie van AEM.
+Een van de belangrijkste afhankelijkheden is de [Java API-jar AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html). Dit omvat alle AEM APIs met enkel één enkele gebiedsdeelingang voor de versie van AEM.
 
 >[!NOTE]
 >
@@ -209,7 +208,7 @@ De `<dependencyManagement>` sectie van ouderPOM bepaalt alle gebiedsdelen en ver
 
 Het AEM Projectarchetype van natuurlijk hefboomwerkingen de Componenten van de Kern.
 
-De kerncomponenten worden automatisch in AEM in de standaardrunmode geïnstalleerd en door de steekproefWKND plaats gebruikt. In een [productiestroom](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#runmodes) (`nosamplecontent`) zijn de Componenten van de Kern niet beschikbaar.
+De kerncomponenten worden automatisch in AEM in de standaardrunmode geïnstalleerd en door de steekproefWKND plaats gebruikt. In een [productiestop](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#runmodes) (`nosamplecontent`) zijn de Core Components niet beschikbaar.
 
 Daarom is het, om de Componenten van de Kern in alle plaatsingen te gebruiken, een beste praktijk om hen als deel van het Maven project te omvatten.
 
@@ -233,9 +232,9 @@ Het project bevat drie testniveaus en omdat het verschillende typen tests zijn, 
    * `mvn clean verify -PintegrationTests`
 * Client-side Hobbes.js-tests: Dit zijn op JavaScript gebaseerde browsertests die gedrag aan de browserzijde controleren. Testen:
    1. Laad AEM in uw browser zoals u een pagina zou schrijven.
-   1. Open de pagina in [Modus Ontwikkelaar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/developer-mode.html)
-   1. Open het linkerdeelvenster en schakel over naar het tabblad **Tests**.
-   1. Zoek de gegenereerde **MyName Tests** en voer deze uit.
+   1. De pagina openen in [Modus Ontwikkelaar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/developer-mode.html)
+   1. Open het linkerdeelvenster en schakel over naar het **Tests** tab.
+   1. De gegenereerde zoekopdracht zoeken **MyName-tests** en voert ze uit.
 
 ## Volgende stappen {#next-steps}
 

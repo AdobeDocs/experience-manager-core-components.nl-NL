@@ -4,9 +4,9 @@ description: Een projectmalplaatje voor op AEM gebaseerde toepassingen
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: 0e8082b0c5db1f2efc7db51f13123b5264a3a608
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Het AEM Project Archetype omvat een facultatief, specifiek front-end bouwstijlmechanisme dat op Webpack wordt gebaseerd. De module ui.frontend wordt dus de centrale locatie voor alle front-end bronnen van het project, waaronder JavaScript- en CSS-bestanden. Om volledig gebruik te maken van deze nuttige en flexibele functie, is het belangrijk om te begrijpen hoe front-end ontwikkeling past in een AEM project.
 
-## AEM projecten en front-end ontwikkeling {#aem-and-front-end-development}
+## AEM en front-end ontwikkeling {#aem-and-front-end-development}
 
 In sterk vereenvoudigde termen kunnen AEM projecten worden beschouwd als bestaande uit twee afzonderlijke maar verwante delen:
 
@@ -28,56 +28,56 @@ Omdat deze twee ontwikkelingsprocessen zich richten op verschillende delen van h
 
 Voor elk project moet echter gebruik worden gemaakt van de resultaten van beide ontwikkelingsinspanningen, d.w.z. zowel back-end als front-end.
 
-Als u `npm run dev` uitvoert, wordt het &#39;front-end&#39; ontwikkelproces gestart dat de JavaScript- en CSS-bestanden verzamelt die zijn opgeslagen in de module ui.frontend en twee geminificeerde clientbibliotheken of ClientLibs met de namen `clientlib-site` en `clientlib-dependencies` produceert, en deze opslaat in de module ui.apps. ClientLibs kan worden geïmplementeerd om te AEM en u kunt uw code aan de clientzijde opslaan in de opslagplaats.
+Wordt uitgevoerd `npm run dev` start het front-end constructieproces dat de JavaScript- en CSS-bestanden verzamelt die zijn opgeslagen in de module ui.frontend en dat twee geminificeerde clientbibliotheken of ClientLibs genereert die `clientlib-site` en `clientlib-dependencies` en zet ze neer in de module ui.apps. ClientLibs kan worden geïmplementeerd om te AEM en u kunt uw code aan de clientzijde opslaan in de opslagplaats.
 
-Wanneer het volledige AEM projectarchetype in werking wordt gesteld gebruikend `mvn clean install -PautoInstallPackage` worden alle projectartefacten met inbegrip van ClientLibs dan geduwd aan de AEM instantie.
+Wanneer het volledige AEM project archetype in werking wordt gesteld `mvn clean install -PautoInstallPackage` alle projectartefacten met inbegrip van ClientLibs worden dan geduwd aan de AEM instantie.
 
 >[!TIP]
 >
->Meer informatie over hoe AEM ClientLibs verwerkt in de [AEM ontwikkelingsdocumentatie](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html), hoe u deze [opneemt](/help/developing/including-clientlibs.md), of zie hieronder [hoe de module ui.frontend deze gebruikt.](#clientlib-generation)
+>Meer informatie over hoe AEM ClientLibs in de [AEM ontwikkelingsdocumentatie](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html), hoe [opnemen](/help/developing/including-clientlibs.md)of zie hieronder [hoe de ui.frontend module hen gebruikt.](#clientlib-generation)
 
 ## Overzicht van ClientLibs {#clientlibs}
 
-De frontend module wordt ter beschikking gesteld gebruikend [AEM ClientLib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html). Wanneer het uitvoeren van NPM bouwt manuscript, wordt app gebouwd en het aem-client-generator-generatorpakket neemt de resulterende bouwstijloutput en transformeert het in zulk een ClientLib.
+De voorste module is beschikbaar via een [AEM ClientLib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html). Wanneer het uitvoeren van NPM bouwt manuscript, wordt app gebouwd en het aem-client-generator-generatorpakket neemt de resulterende bouwstijloutput en transformeert het in zulk een ClientLib.
 
 Een ClientLib bestaat uit de volgende bestanden en mappen:
 
 * `css/`: CSS-bestanden die kunnen worden aangevraagd in de HTML
-* `css.txt`: Hiermee AEM u de volgorde en namen van bestanden,  `css/` zodat deze kunnen worden samengevoegd
+* `css.txt`: Hiermee AEM u de volgorde en namen van bestanden in `css/` zodat ze kunnen worden samengevoegd
 * `js/`: JavaScript-bestanden die kunnen worden aangevraagd in de HTML
-* `js.txt` Hiermee AEM u de volgorde en namen van bestanden,  `js/` zodat deze kunnen worden samengevoegd
+* `js.txt` Hiermee AEM u de volgorde en namen van bestanden in `js/` zodat ze kunnen worden samengevoegd
 * `resources/`: Bronkaarten, niet-invoerpuntcodeschunks (als gevolg van code splitsen), statische elementen (bijvoorbeeld pictogrammen) enz.
 
 ## Mogelijke front-end ontwikkelingsworkflows {#possible-workflows}
 
-De bouwstijlmodule aan de voorzijde is een nuttig en zeer flexibel instrument, maar stelt geen specifieke mening over hoe deze moet worden gebruikt. Het volgende is twee voorbeelden van *mogelijk* gebruik, maar uw individuele projectbehoeften kunnen andere gebruiksmodellen dicteren.
+De bouwstijlmodule aan de voorzijde is een nuttig en zeer flexibel instrument, maar stelt geen specifieke mening over hoe deze moet worden gebruikt. Hieronder volgen twee voorbeelden: *mogelijk* gebruik, maar uw individuele projectbehoeften kunnen andere gebruiksmodellen dicteren.
 
 ### Statische ontwikkelingsserver van Webpack gebruiken {#using-webpack}
 
 Met Webpack kunt u stijl en ontwikkeling toepassen op basis van de statische uitvoer van AEM webpagina&#39;s in de module ui.frontend.
 
-1. Pagina voorvertonen in AEM met de modus Paginavoorvertoning of doorgeven in `wcmmode=disabled` in de URL
+1. Pagina voorvertonen in AEM met de modus Voorvertoning van pagina of doorgeven in `wcmmode=disabled` in de URL
 1. Paginabron weergeven en opslaan als statische HTML in de module ui.frontend
-1. [Webpakket starten en ](#webpack-dev-server) opmaak beginnen en de benodigde JavaScript en CSS genereren
-1. `npm run dev` uitvoeren om de ClientLibs te genereren
+1. [Webpack starten](#webpack-dev-server) en beginnen met opmaken en de benodigde JavaScript en CSS genereren
+1. Uitvoeren `npm run dev` om de ClientLibs te genereren
 
-In deze flow kan een AEM ontwikkelaar stappen 1 en 2 uitvoeren en de statische HTML doorgeven aan de front-end ontwikkelaar die zich ontwikkelt op basis van de AEM HTML-uitvoer.
+In deze stroom, kan een AEM ontwikkelaar stappen één en twee uitvoeren en statische HTML van de tot de front-end ontwikkelaar overgaan die zich op de output van AEM HTML baseert.
 
 >[!TIP]
 >
->U kunt ook de [Componentbibliotheek](https://adobe.com/go/aem_cmp_library) gebruiken om voorbeelden van de opmaakuitvoer van elke component vast te leggen om op componentniveau te werken in plaats van op paginaniveau.
+>Je zou ook de [Componentbibliotheek](https://adobe.com/go/aem_cmp_library) om voorbeelden van de prijsverhogingsoutput van elke component te vangen om op componentenniveau eerder dan op paginaniveau te werken.
 
 ### Winybook gebruiken {#using-storybook}
 
-Met [Storybook](https://storybook.js.org) kunt u meer atomische front-end ontwikkeling uitvoeren. Hoewel Storybook niet is opgenomen in het AEM Project Archetype, kunt u het installeren en uw objecten uit het Storybook opslaan in de module ui.frontend. Als ze klaar zijn om te worden getest binnen AEM, kunnen ze worden geïmplementeerd als ClientLibs door `npm run dev` uit te voeren.
+Gebruiken [Winkelboek](https://storybook.js.org) u kunt meer atomische front-end ontwikkeling uitvoeren. Hoewel Storybook niet is opgenomen in het AEM Project Archetype, kunt u het installeren en uw objecten uit het Storybook opslaan in de module ui.frontend. Als ze klaar zijn om te worden getest binnen AEM, kunnen ze worden geïmplementeerd als ClientLibs door ze uit te voeren `npm run dev`.
 
 >[!NOTE]
 >
->[](https://storybook.js.org) Storybookis niet inbegrepen in het AEM Project Archetype. Als u ervoor kiest om het te gebruiken, moet u het afzonderlijk installeren.
+>[Winkelboek](https://storybook.js.org) is niet opgenomen in het AEM Projectarchetype. Als u ervoor kiest om het te gebruiken, moet u het afzonderlijk installeren.
 
 ### De markering bepalen {#determining-markup}
 
-Welke ontwikkelworkflow op de voorgrond u ook wilt implementeren voor uw project, de back-end ontwikkelaars en front-end ontwikkelaars moeten het eerst eens worden over de markering. AEM definieert doorgaans de markering, die wordt geleverd door de kerncomponenten. [Dit kan echter zo nodig](/help/developing/customizing.md#customizing-the-markup) worden aangepast.
+Welke ontwikkelworkflow op de voorgrond u ook wilt implementeren voor uw project, de back-end ontwikkelaars en front-end ontwikkelaars moeten het eerst eens worden over de markering. AEM definieert doorgaans de markering, die wordt geleverd door de kerncomponenten. [Dit kan echter zo nodig worden aangepast](/help/developing/customizing.md#customizing-the-markup).
 
 ## De module ui.frontend {#ui-frontend-module}
 
@@ -89,12 +89,12 @@ Het AEM Project Archetype omvat een facultatief specifiek front-end bouwstijlmec
 * Globalisering
    * Geen noodzaak om overal import toe te voegen
    * Alle JS- en CSS-bestanden kunnen nu aan elke component worden toegevoegd.
-      * De beste praktijken zijn onder `/clientlib/js`, `/clientlib/css`, of `/clientlib/scss`
-   * Er zijn geen `.content.xml`- of `js.txt`/`css.txt`-bestanden nodig omdat alles via Webpack wordt uitgevoerd.
-   * De globber trekt in alle JS- dossiers onder de `/component/` omslag.
+      * Beste praktijken zijn onder `/clientlib/js`, `/clientlib/css`, of `/clientlib/scss`
+   * Nee `.content.xml` of `js.txt`/`css.txt` bestanden zijn nodig omdat alles via Webpack wordt uitgevoerd.
+   * De globber trekt in alle JS- dossiers onder `/component/` map.
       * Met Webpack kunnen CSS-/SCSS-bestanden via JS-bestanden in een keten worden geplaatst.
-      * Zij worden binnen getrokken door de twee ingangspunten, `sites.js` en `vendors.js`.
-   * Het enige bestand dat AEM gebruikt, zijn de uitvoerbestanden `site.js` en `site.css` in `/clientlib-site`, alsook `dependencies.js` en `dependencies.css` in `/clientlib-dependencies`
+      * Ze worden door de twee ingangspunten naar binnen getrokken. `sites.js` en `vendors.js`.
+   * Het enige bestand dat AEM gebruikt, zijn de uitvoerbestanden `site.js` en `site.css` in `/clientlib-site` alsmede `dependencies.js` en `dependencies.css` in `/clientlib-dependencies`
 * Chunks
    * Hoofd (site-js/css)
    * Leveranciers (afhankelijkheden js/css)
@@ -103,16 +103,16 @@ Het AEM Project Archetype omvat een facultatief specifiek front-end bouwstijlmec
 
 >[!NOTE]
 >
->Voor meer technische informatie betreffende de module ui.frontend, te zien gelieve de [documentatie op GitHub](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend.general/README.md).
+>Voor meer technische informatie over de module ui.frontend raadpleegt u de [documentatie over GitHub](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend.general/README.md).
 
 ## Installatie {#installation}
 
-1. Installeer [NodeJS](https://nodejs.org/en/download/) (v10+), globaal. Hierdoor wordt ook npm geïnstalleerd.
-1. Navigeer naar ui.frontend in uw project en voer `npm install` uit.
+1. Installeren [NodeJS](https://nodejs.org/en/download/) (v10+), globaal. Hierdoor wordt ook npm geïnstalleerd.
+1. Navigeer naar ui.frontend in uw project en voer deze uit `npm install`.
 
 >[!NOTE]
 >
->U moet [in werking stellen archetype](overview.md) met de optie `-DoptionIncludeFrontendModule=y` hebben om de omslag ui.frontend te bevolken.
+>U moet [Voer het archetype uit](overview.md) met de optie `-DoptionIncludeFrontendModule=y` om de map ui.frontend te vullen.
 
 ## Gebruik {#usage}
 
@@ -124,10 +124,10 @@ De volgende npm manuscripten drijven de frontend werkschema:
 
 ## Uitvoer {#output}
 
-De module ui.frontend compileert de code onder de `ui.frontend/src` omslag en output gecompileerde CSS en JS, en om het even welke middelen onder een omslag genoemd `ui.frontend/dist`.
+De module ui.frontend compileert de code onder de `ui.frontend/src` en geeft de gecompileerde CSS en JS en alle bronnen onder een map met de naam `ui.frontend/dist`.
 
-* **Site** -  `site.js`en een  `site.css` map voor lay-outafhankelijke afbeeldingen en lettertypen worden gemaakt in een map op de  `resources/`   `dist/`clientlib-site.
-* **Afhankelijkheden** -  `dependencies.js` en  `dependencies.css` worden gemaakt in een  `dist/clientlib-dependencies` map.
+* **Site** - `site.js`, `site.css` en `resources/` map voor lay-outafhankelijke afbeeldingen en lettertypen worden gemaakt in een `dist/`clientlib-site map.
+* **Afhankelijkheden** - `dependencies.js` en `dependencies.css` worden gemaakt in een `dist/clientlib-dependencies` map.
 
 ### JavaScript {#javascript}
 
@@ -137,8 +137,7 @@ De module ui.frontend compileert de code onder de `ui.frontend/src` omslag en ou
 
 * Automatisch voormaken - Alle CSS wordt uitgevoerd via een voorvoegsel en alle eigenschappen die voorfixeren vereisen, worden automatisch toegevoegd aan de CSS.
 * Optimalisatie - Alle CSS wordt na de publicatie uitgevoerd via een optimalisator (cssnano) die de standaard instelt op de volgende regels:
-   * Vermindert CSS calc uitdrukking waar mogelijk, die zowel browser verenigbaarheid als compressie verzekert
-Hiermee wordt een waarde tussen equivalente lengte, tijd en hoek omgezet. De lengtewaarden worden standaard niet omgezet.
+   * Vermindert CSS calc uitdrukking waar mogelijk, die zowel browser verenigbaarheid als compressie verzekeren zet tussen gelijkwaardige lengte, tijd en hoekwaarden om. De lengtewaarden worden standaard niet omgezet.
    * Hiermee verwijdert u opmerkingen in en rondom regels, kiezers en declaraties
    * Hiermee worden dubbele regels, at-rules en declaraties verwijderd
       * Dit werkt alleen voor exacte duplicaten.
@@ -146,7 +145,7 @@ Hiermee wordt een waarde tussen equivalente lengte, tijd en hoek omgezet. De len
    * Voegt aangrenzende regels samen door kiezers en overlappende eigenschap/waardeparen
    * Zorgt ervoor dat het CSS-bestand slechts één @charset bevat en verplaatst het naar de bovenkant van het document
    * Hiermee vervangt u het oorspronkelijke CSS-trefwoord door de werkelijke waarde wanneer de resulterende uitvoer kleiner is
-   * Hiermee comprimeert u inline SVG-definities met SVGO
+   * Hiermee worden inline SVG-definities gecomprimeerd met SVGO
 * Schoonmaken - Omvat expliciete schone taak voor het wissen van de geproduceerde CSS, JS en Kaart dossiers op bestelling.
 * Brontoewijzing - alleen ontwikkelingsbuild
 
@@ -156,14 +155,14 @@ Hiermee wordt een waarde tussen equivalente lengte, tijd en hoek omgezet. De len
 
 ### Client Library Generation {#clientlib-generation}
 
-Het ui.frontend module bouwproces gebruikt [aem-clientlib-generator](https://www.npmjs.com/package/aem-clientlib-generator) plugin om gecompileerde CSS, JS en om het even welke middelen in de module ui.apps te bewegen. De aem-clientlib-generatorconfiguratie wordt bepaald in `clientlib.config.js`. De volgende clientbibliotheken worden gegenereerd:
+De ui.frontend module bouwt proces hefboomwerkingen de [aem-clientlib-generator](https://www.npmjs.com/package/aem-clientlib-generator) om de gecompileerde CSS, JS en alle bronnen naar de module ui.apps te verplaatsen. De aem-clientlib-generator configuratie wordt bepaald in `clientlib.config.js`. De volgende clientbibliotheken worden gegenereerd:
 
-* **clientlib-site** -  `ui.apps/src/main/content/jcr_root/apps/<app>/clientlibs/clientlib-site`
-* **clientlib-afhankelijkheden** -  `ui.apps/src/main/content/jcr_root/apps/<app>/clientlibs/clientlib-dependencies`
+* **clientlib-site** - `ui.apps/src/main/content/jcr_root/apps/<app>/clientlibs/clientlib-site`
+* **clientlib-afhankelijkheden** - `ui.apps/src/main/content/jcr_root/apps/<app>/clientlibs/clientlib-dependencies`
 
 ### Inclusief clientbibliotheken op pagina&#39;s {#clientlib-inclusion}
 
-`clientlib-site` en  `clientlib-dependencies` categorieën worden op pagina&#39;s opgenomen via de configuratie  [ ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions) Paginabeleid als onderdeel van de standaardsjabloon. Als u het beleid wilt weergeven, bewerkt u **Sjabloon voor inhoudspagina > Pagina-informatie > Paginabeleid**.
+`clientlib-site` en `clientlib-dependencies` categorieën worden op pagina&#39;s opgenomen via de [Configuratie van paginabeleid](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#template-definitions) als onderdeel van de standaardsjabloon. Als u het beleid wilt weergeven, bewerkt u de **Content Page Template > Page Information > Page Policy**.
 
 De uiteindelijke opname van clientbibliotheken op de sitepagina ziet er als volgt uit:
 
@@ -195,17 +194,17 @@ In de module ui.frontend is een webpack-dev-server inbegrepen die levende herlad
    * Dit bevat de configuratie voor webpack-dev-serve en wijst naar de HTML-sjabloon die moet worden gebruikt.
    * Het bevat ook een volmachtsconfiguratie aan een AEM instantie die op localhost:4502 loopt.
 * `ui.frontend/src/main/webpack/static/index.html`
-   * Dit is de statische HTML waartegen de server zal lopen.
+   * Dit is de statische HTML waarop de server wordt uitgevoerd.
    * Op deze manier kan een ontwikkelaar CSS/JS-wijzigingen aanbrengen en deze direct in de opmaak weergeven.
    * Aangenomen wordt dat de markering die in dit bestand is geplaatst, de gegenereerde opmaak van AEM componenten correct weerspiegelt.
    * Opmaak in dit bestand wordt niet automatisch gesynchroniseerd met AEM componentmarkeringen.
    * Dit bestand bevat ook verwijzingen naar clientbibliotheken die zijn opgeslagen in AEM, zoals de CSS van de kerncomponent en de CSS van het responsieve raster.
-   * De webpack-ontwikkelingsserver is ingesteld op proxy die door deze CSS/JS wordt opgenomen vanuit een lokale actieve AEM-instantie op basis van de configuratie in `ui.frontend/webpack.dev.js`.
+   * De webpack-ontwikkelingsserver is ingesteld op proxy die deze CSS/JS bevat van een lokale actieve AEM-instantie op basis van de configuratie in `ui.frontend/webpack.dev.js`.
 
 #### Gebruiken {#using-webpack-server}
 
-1. Van binnen de wortel van het project stel het bevel `mvn -PautoInstallSinglePackage clean install` in werking om het volledige project aan een AEM instantie te installeren die bij `localhost:4502` loopt.
-1. Navigeer in de map `ui.frontend`.
-1. Voer de volgende opdracht `npm run start` uit om de webpack-ontwikkelserver te starten. Als de toepassing eenmaal is gestart, moet deze een browser (`localhost:8080` of de volgende beschikbare poort) openen.
+1. Van binnen de wortel van het project stelt het bevel in werking `mvn -PautoInstallSinglePackage clean install` om het volledige project aan een AEM instantie te installeren die bij loopt `localhost:4502`.
+1. Navigeren in het deelvenster `ui.frontend` map.
+1. Voer de volgende opdracht uit `npm run start` om de webpack-ontwikkelserver te starten. Als de functie eenmaal is gestart, wordt een browser geopend (`localhost:8080` of de volgende beschikbare poort).
 
 U kunt nu CSS-, JS-, SCSS- en TS-bestanden wijzigen en de wijzigingen direct bekijken die worden weerspiegeld in de webpack-ontwikkelserver.

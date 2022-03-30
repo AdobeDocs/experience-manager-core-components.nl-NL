@@ -2,13 +2,13 @@
 title: Afbeeldingscomponent (v2)
 description: De Core Component Image is een adaptieve beeldcomponent die ter plekke kan worden bewerkt.
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
+exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
+source-git-commit: c64cdbf3779318c9cf018658d43684946de9c15b
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: '2231'
 ht-degree: 0%
 
 ---
-
 
 # Afbeeldingscomponent (v2) {#image-component}
 
@@ -60,7 +60,7 @@ Om veiligheidsredenen wordt de originele SVG nooit direct geroepen door de Redac
 
 >[!CAUTION]
 >
->Voor SVG-ondersteuning is release 2.1.0 van de Core Components of hoger vereist, samen met [servicepack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html) voor AEM 6.4 of hoger [functies voor afbeeldingseditor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/image-editor.html) binnen AEM.
+>Voor SVG-ondersteuning is release 2.1.0 van de Core Components of hoger vereist, samen met [servicepack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html) voor AEM 6.4 of hoger [functies voor afbeeldingseditor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/image-editor.html) binnen AEM.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
