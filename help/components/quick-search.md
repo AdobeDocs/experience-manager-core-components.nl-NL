@@ -3,9 +3,9 @@ title: Component Snel zoeken
 description: De component Snel zoeken biedt zoekmogelijkheden voor een website en biedt zoekresultaten zodat bezoekers de site kunnen doorzoeken en de resultaten kunnen filteren.
 role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+source-git-commit: fce9b5b2693acf96724c4c6e9872012fda7d36d9
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '620'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,8 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 
 | Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v1 | Compatibel met<br>[release 2.17.4](/help/versions.md) en eerdere | Compatibel | Compatibel |
+| v2 | - | Compatibel | Compatibel |
+| [v1](/help/components/v1/quick-search.md) | Compatibel met<br>[release 2.17.4](/help/versions.md) en eerdere | Compatibel | - |
 
 Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
 
