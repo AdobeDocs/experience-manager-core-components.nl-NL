@@ -2,8 +2,8 @@
 title: Component Snel zoeken (v1)
 description: De component Snel zoeken biedt zoekmogelijkheden voor een website en biedt zoekresultaten zodat bezoekers de site kunnen doorzoeken en de resultaten kunnen filteren.
 role: Architect, Developer, Admin, User
-exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: 64aa6ab38738b6969d01971817bde892348be05d
+exl-id: 60a043b7-d82c-4bc1-b91a-b77f748f7bc2
+source-git-commit: ae2e1d0aaadbc0ad04847ce9aecb382e10cbedf1
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 1%
@@ -29,59 +29,63 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 | Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
 | v1 | Compatibel met<br>[release 2.17.4](/help/versions.md) en eerdere | Compatibel | Compatibel |
-| [!CAUTION]](/help/components/v1/quick-search.md) | In dit document wordt versie 1 van de Quick Search-component beschreven. >Zie voor meer informatie over de huidige versie van de Snelle zoekcomponent de sectie [Component Snel zoeken](/help/components/quick-search.md) document. | Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md). | Technische details |
 
-[!NOTE]](/help/versions.md)
-
-### De component van het Onderzoek of om het even welke AEM gebaseerde toepassing tegen DOS aanvallen zouden op een hoger niveau moeten worden uitgevoerd, bijvoorbeeld door te gebruiken `mod_security` op de verzender. {#technical-details}
-
->De meest recente technische documentatie over de Quick Search-component [kan op GitHub worden gevonden[#$tu26].
+>[!CAUTION]
 >
+>In dit document wordt versie 1 van de Quick Search-component beschreven.
+>Zie voor meer informatie over de huidige versie van de Snelle zoekcomponent de sectie [Component Snel zoeken](/help/components/quick-search.md) document.
+
+Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
+
+### Technische details {#technical-details}
+
+>[!NOTE]
 >
+>De component van het Onderzoek of om het even welke AEM gebaseerde toepassing tegen DOS aanvallen zouden op een hoger niveau moeten worden uitgevoerd, bijvoorbeeld door te gebruiken `mod_security` op de verzender.
 
+De meest recente technische documentatie over de Quick Search-component [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_search_v1).
 
+Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
 
-In het dialoogvenster Bewerken kan de auteur van de inhoud definiëren waar in de inhoudsstructuur de zoekopdracht moet beginnen.[](/help/developing/overview.md)
+## Dialoogvenster Bewerken {#edit-dialog}
 
-## ![Dialoogvenster Snel zoeken in component bewerken](/help/assets/quick-search-edit.png) {#edit-dialog}
+In het dialoogvenster Bewerken kan de auteur van de inhoud definiëren waar in de inhoudsstructuur de zoekopdracht moet beginnen.
+
+![Dialoogvenster Snel zoeken in component bewerken](/help/assets/quick-search-edit.png)
 
 **Hoofdmap zoeken** - De hoofdpagina vanaf waar de zoekopdracht moet worden gestart. De hoofdmap van de zoekopdracht kan een master, master of reguliere pagina met een blauwdruk zijn.
-
-**ID** - Met deze optie kunt u de unieke id van de component in de HTML en in de [Gegevenslaag.](/help/developing/data-layer/overview.md)
-
-**Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.**
-* **Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.**[](/help/developing/data-layer/overview.md)
+* **ID** - Met deze optie kunt u de unieke id van de component in de HTML en in de [Gegevenslaag.](/help/developing/data-layer/overview.md)
+   * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
+   * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
-   * [!NOTE]
-   * Als de **Hoofdmap zoeken** is niet geconfigureerd of kan niet worden opgelost, wordt voor Snel zoeken standaard gezocht onder de huidige pagina.
 
->[!NOTE]Ontwerpdialoogvenster
+>[!NOTE]
 >
->Met behulp van het ontwerpdialoogvenster kan de sjabloonauteur de standaardwaarde instellen voor de plaats in de inhoudsstructuur waar de zoekopdracht moet beginnen, alsmede een maximale grootte voor de resultaatset en een minimale lengte voor de zoekterm. In het dialoogvenster Ontwerp kan de sjabloonauteur definiëren welke opties voor tekstopmaak beschikbaar zijn voor de auteurs van de inhoud.****
+>Als de **Hoofdmap zoeken** is niet geconfigureerd of kan niet worden opgelost, wordt voor Snel zoeken standaard gezocht onder de huidige pagina.
 
-## Tabblad Eigenschappen {#design-dialog}
+## Ontwerpdialoogvenster {#design-dialog}
+
+Met behulp van het ontwerpdialoogvenster kan de sjabloonauteur de standaardwaarde instellen voor de plaats in de inhoudsstructuur waar de zoekopdracht moet beginnen, alsmede een maximale grootte voor de resultaatset en een minimale lengte voor de zoekterm. In het dialoogvenster Ontwerp kan de sjabloonauteur definiëren welke opties voor tekstopmaak beschikbaar zijn voor de auteurs van de inhoud.
+
+### Tabblad Eigenschappen {#properties-tab}
 
 ![Het ontwerpdialoogvenster van de component Snel zoeken](/help/assets/quick-search-design.png)
 
-### **Hoofdmap zoeken**
-De standaardwaarde van zoekroot wanneer een auteur van inhoud de component Snel zoeken op een inhoudspagina plaatst {#properties-tab}
-
-**Grootte van resultaten**
+* **Hoofdmap zoeken**
+De standaardwaarde van zoekroot wanneer een auteur van inhoud de component Snel zoeken op een inhoudspagina plaatst
+* **Grootte van resultaten**
 Het maximumaantal resultaten dat wordt opgehaald door een zoekaanvraag
-
 * **Minimumlengte zoekterm**
 Minimale lengte van de zoekterm om de zoekopdracht te starten
-* [!NOTE]**
-* **Grootte van resultaten** en **Minimumlengte zoekterm** kan alleen worden ingesteld in de ontwerpmodus en daarom alleen op sjabloonniveau. Dit betekent dat auteurs van inhoud deze waarden niet kunnen wijzigen.
+
+>[!NOTE]
+>
+>**Grootte van resultaten** en **Minimumlengte zoekterm** kan alleen worden ingesteld in de ontwerpmodus en daarom alleen op sjabloonniveau. Dit betekent dat auteurs van inhoud deze waarden niet kunnen wijzigen.
 
 >[!CAUTION]
 >
 >**Grootte van resultaten** en **Minimumlengte zoekterm** kan prestatieeffecten hebben als deze respectievelijk te hoog of te laag zijn ingesteld.
 
->[!CAUTION]Tabblad Stijlen
->
->De component Snel zoeken ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).****
+### Tabblad Stijlen {#styles-tab}
 
-### Styles Tab {#styles-tab}
-
-The Quick Search Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+De component Snel zoeken ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
