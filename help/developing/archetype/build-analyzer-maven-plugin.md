@@ -4,9 +4,9 @@ description: Documentatie voor de lokale Maven-plug-in voor analyseprogramma's
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-source-git-commit: 79eb9cc18a66c09deeef1477c4d26d8616ba55de
+source-git-commit: 98d8fac2a626a1f89ef1b109aa8cba27abf8203a
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '646'
 ht-degree: 4%
 
 ---
@@ -39,6 +39,8 @@ Hieronder ziet u een tabel met een beschrijving van de analyseapparaten die als 
 | `region-deprecated-api` | Controleert of [afgekeurde api](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html) wordt gebruikt <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Ja | Ja |
 | `artifact-rules` | Valideert afhankelijkheden zoals bundels en inhoudspakketten om bekende problemen in artefacten te voorkomen.<p> </p>`[WARNING] [artifact-rules] com.adobe.acs:acs-aem-commons-bundle:5.0.4: Use at least version 5.0.10 (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Ja | Ja |
 | `content-package-validation` | Hiermee worden validators voor bestanden uitgevoerd. Door gebrek wordt jakobbit-docviewparser toegelaten die op goed gevormde inhoudssyntaxis van xml binnenpakketten controleert die tijdens plaatsing zullen worden geïnstalleerd.<p> </p>`[main] WARN org.apache.sling.feature.analyser.task.impl.CheckContentPackages - ValidationViolation: "jackrabbit-docviewparser: Invalid XML found: The reference to entity "se" must end with the ';' delimiter.", filePath=jcr_root/apps/somename/configs/com.adobe.test.Invalid.xml, nodePath=/apps/somename/configs/com.adobe.test.Invalid`<p> </p>Als u dit wilt corrigeren, controleert u het bestand dat door de analysator is benoemd op XML-problemen. | Ja | Ja |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Bekende problemen
 
