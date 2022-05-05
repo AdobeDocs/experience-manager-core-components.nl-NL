@@ -2,13 +2,13 @@
 title: Taser-component (v1)
 description: De teaser-component kan een afbeelding, een titel, RTF-tekst en eventueel een koppeling naar andere inhoud weergeven.
 role: Architect, Developer, Admin, User
-source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
+exl-id: 48e56938-660a-43e7-9e62-8069283ae73f
+source-git-commit: 84e09fa64b3a7ae40ff3ff1a04ea1c7504db29d2
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
-
 
 # Taser-component (v1) {#teaser-component}
 
@@ -80,7 +80,7 @@ De auteur van de inhoud kan het dialoogvenster Configure gebruiken om de eigensc
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
-De component Teaser delegeert het renderen van afbeeldingen aan de [Afbeeldingscomponent](image-v1.md). Daarom [dialoogvenster bewerken](image-v1.md#edit-dialog van de Image Component is beschikbaar voor de auteur van de inhoud om de teasafbeelding te bewerken.
+De component Teaser delegeert het renderen van afbeeldingen aan de [Afbeeldingscomponent](image-v1.md). Daarom [dialoogvenster bewerken](image-v1.md#edit-dialog) van de Afbeeldingscomponent is beschikbaar voor de auteur van de inhoud om de laserafbeelding te bewerken.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
