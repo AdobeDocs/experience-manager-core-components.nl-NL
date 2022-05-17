@@ -1,11 +1,11 @@
 ---
 title: Introductie van kerncomponenten
-description: 'De kerncomponenten bieden robuuste en uitbreidbare basiscomponenten die zijn gebaseerd op de nieuwste technologie en best practices. '
+description: 'Oplossingen voor problemen met de Core Components en anderen toestaan elementen te ontwerpen binnen AEM. '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: fce9b5b2693acf96724c4c6e9872012fda7d36d9
+source-git-commit: 72f774c7e4bbcf0e2dfefb6f8294dd729eb0ea1b
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '924'
 ht-degree: 2%
 
 ---
