@@ -3,9 +3,9 @@ title: Basiscomponenten ontwikkelen
 description: De componenten van de Kern verstrekken robuuste en verlengbare basiscomponenten die eigenschap-rijke mogelijkheden, ononderbroken levering, componentenversioning, moderne implementatie, leuning prijsverhoging, en JSON de uitvoer van inhoud aanbieden.
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: faf73c70a4bff387bed2f8cf6e48c39e597e51c7
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1559'
 ht-degree: 1%
 
 ---
@@ -18,22 +18,22 @@ Aangezien de Componenten van de Kern allen-nieuw zijn, en veelvoudige voordelen 
 
 Daarom geeft Adobe de volgende aanbevelingen:
 
-* **Nieuwe**
-ProjectenNieuwe projecten zouden altijd moeten proberen om de Componenten van de Kern te gebruiken. Als de Componenten van de Kern niet direct of [extended](customizing.md) kunnen worden gebruikt om aan projectvereisten te voldoen, dan creeer een douanecomponent na de componentenarchitectuur die in kerncomponenten wordt vermeld. Vermijd het gebruik van [stichtingscomponenten](/help/versions.md#foundation-component-support), tenzij anders mogelijk.
-* **Bestaande**
-ProjectenRecommendation blijft het gebruiken van de  [stichtingscomponenten](/help/versions.md#foundation-component-support), tenzij een plaats of componentenrefactoring wordt gepland.\
-   Aangezien zij zeer wijd door de meeste bestaande projecten worden gebruikt, zullen de stichtingscomponenten [blijven worden gesteund.](/help/versions.md#foundation-component-support)
-* **Nieuwe aangepaste**
-componentenBepaal of een bestaande  [kerncomponent kan worden aangepast](customizing.md).\
-   Zo niet, dan wordt aanbevolen een nieuwe aangepaste component te maken volgens de [Componentrichtlijnen](guidelines.md).
-* **Bestaande aangepaste**
-componentenAls uw componenten naar behoren werken, kunt u ze op de juiste wijze houden.
+* **Nieuwe projecten**
+De nieuwe projecten zouden altijd moeten proberen om de Componenten van de Kern te gebruiken. Als kerncomponenten niet rechtstreeks kunnen worden gebruikt of [uitgebreid](customizing.md) om aan projectvereisten te voldoen, creeer dan een douanecomponent na de componentenarchitectuur die in kerncomponenten wordt vermeld. Vermijd het gebruik van de [stichtingscomponenten](/help/versions.md#foundation-component-support).
+* **Bestaande projecten**
+De aanbeveling blijft de [stichtingscomponenten](/help/versions.md#foundation-component-support), tenzij een locatie of onderdeel wordt gereflecteerd.\
+   Aangezien zij zeer wijd door de meeste bestaande projecten worden gebruikt, de stichtingscomponenten [wordt ondersteund.](/help/versions.md#foundation-component-support)
+* **Nieuwe aangepaste componenten**
+Bepalen of een bestaande [De kerncomponent kan worden aangepast](customizing.md).\
+   Als niet, is de aanbeveling om een nieuwe douanecomponent na te bouwen [Componentrichtlijnen](guidelines.md).
+* **Bestaande aangepaste componenten**
+Als uw componenten zoals verwacht werken, dan houd hen zoals zij zijn.
 \
    Als dat niet het geval is, raadpleegt u &quot;Nieuwe aangepaste componenten&quot; hierboven.
 
 ## Hoe te met de Componenten van de Kern Succes {#how-to-succeed}
 
-De kerncomponenten zijn krachtig, flexibel en gebruiksvriendelijk. [Op basis van enkele belangrijke ](success.md) richtlijnen kunt u ervoor zorgen dat uw project met de Core Components een succes wordt.
+De kerncomponenten zijn krachtig, flexibel en gebruiksvriendelijk. [Enkele belangrijke richtlijnen volgen](success.md) zorgt ervoor dat uw project met de Core Components een succes wordt.
 
 ## Migreren naar de kerncomponenten
 
@@ -41,26 +41,26 @@ Om het even welk nieuw project zou met de Componenten van de Kern moeten worden 
 
 ### Migreren van stichtingscomponenten {#from-foundation}
 
-Een grotere inspanning op een bestaand project (bijvoorbeeld rebranding of het algemene refactoring) biedt vaak een kans om aan de Componenten van de Kern te migreren. Om deze migratie te vergemakkelijken, heeft Adobe een aantal migratiehulpmiddelen verstrekt om de goedkeuring van de Componenten van de Kern en de recentste AEM technologie te bevorderen.
+Een grotere inspanning op een bestaand project (bijvoorbeeld rebranding of het algemene refactoring) biedt vaak een kans om aan de Componenten van de Kern te migreren. Om deze migratie te vergemakkelijken, heeft Adobe een aantal migratiehulpmiddelen verstrekt om de goedkeuring van de Componenten van de Kern en de recentste AEM aan te moedigen.
 
-[De ](http://opensource.adobe.com/aem-modernize-tools/) Toolsallow van de Modernisering van de AEM voor de gemakkelijke omzetting van:
+[De AEM moderniseringsinstrumenten](http://opensource.adobe.com/aem-modernize-tools/) de gemakkelijke omzetting mogelijk maken van:
 
 * Statische sjablonen converteren naar bewerkbare sjablonen
 * Ontwerpconfiguraties omzetten naar beleid
 * Elementaire componenten omzetten naar kerncomponenten
 * De klassieke interface converteren naar een interface met aanraakbediening
 
-Voor meer informatie over het gebruik van deze hulpmiddelen, [zie hun documentatie](http://opensource.adobe.com/aem-modernize-tools/).
+Voor meer informatie over het gebruik van deze instrumenten, [zie de documentatie](http://opensource.adobe.com/aem-modernize-tools/).
 
 >[!NOTE]
 >
 >De AEM Moderniseren Hulpmiddelen zijn een communautaire inspanning en niet gesteund of door Adobe gewaarborgd.
 
-## Migratie via Verplaatsen naar AEM als Cloud Service {#via-aemaacs}
+## Migratie via Verplaatsen naar AEM as a Cloud Service {#via-aemaacs}
 
-Omdat AEM als Cloud Service automatisch met de recentste versie van de Componenten van de Kern komt, wanneer u zich van een op-gebouw AEM installatie beweegt, zult u om het even welke gebiedsdeel aan de Componenten van de Kern in uw projecten `pom.xml` dossier moeten verwijderen.
+Omdat AEM as a Cloud Service met de recentste versie van de Componenten van de Kern automatisch komt, wanneer u zich van een op-gebouw AEM installatie beweegt, zult u om het even welk gebiedsdeel aan de Componenten van de Kern in uw projecten moeten verwijderen `pom.xml` bestand.
 
-Uw proxycomponenten werken nog steeds zoals voorheen, omdat   proxy&#39;s verwijzen naar het vereiste supertype en het supertekstpad heeft de versie erin. Op deze manier, eenvoudig het verwijderen van de gebiedsdelen laat de Componenten van de Kern toe om in AEMaaCS te werken enkel zoals zij op-gebouw deden.
+Uw proxycomponenten werken nog steeds zoals voorheen, omdat proxy&#39;s verwijzen naar het benodigde supertype en het supertype pad de versie bevat. Op deze manier, eenvoudig het verwijderen van de gebiedsdelen laat de Componenten van de Kern toe om in AEMaaCS te werken enkel zoals zij op-gebouw deden.
 
 Net als bij elk ander AEMaaCS-project moet u ook een afhankelijkheid toevoegen aan de AEM SDK-jar. Dit is niet specifiek voor de Core Components, maar is vereist.
 
@@ -71,7 +71,7 @@ Net als bij elk ander AEMaaCS-project moet u ook een afhankelijkheid toevoegen a
 </dependency>
 ```
 
-Zie het document [AEM Projectstructuur](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) voor meer informatie over projecten AEMaaCS.
+Zie het document [AEM projectstructuur](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) voor meer informatie over AEMaaCS-projecten.
 
 ## Ondersteuning van kerncomponenten {#core-component-support}
 
@@ -81,21 +81,21 @@ De algemene regel is, net als andere AEM productkenmerken: Componenten worden ee
 
 In de versie van elke component worden duidelijk de AEM versies vermeld die worden ondersteund. Wanneer de steun voor een versie van AEM beëindigt, dan ook de steun van de Componenten van de Kern voor die versie van AEM.
 
-Zie de pagina [Kerncomponenten aanpassen](customizing.md) voor meer informatie over de ondersteuning van componentaanpassingen.
+Raadpleeg voor meer informatie over de ondersteuning van componentaanpassingen de [Kerncomponenten aanpassen](customizing.md) pagina.
 
 
 ## Technische mogelijkheden {#technical-capabilities}
 
 De volgende lijst geeft een overzicht van de verschillen tussen kerncomponenten en stichtingscomponenten.
 
-Voor details over hun auteursmogelijkheden en opties om hen pre-configureerbaar te maken, [verwijs naar de auteurspagina over hen](/help/get-started/authoring.md).
+Voor details over hun auteursmogelijkheden en opties om hen pre-configureerbaar te maken, [verwijzen naar de ontwerppagina hierover](/help/get-started/authoring.md).
 
 | **Capaciteit** | **Kerncomponent** | **Foundation-component** |
 |-----|---|---|
-| Logische implementatie | Java POJO&#39;s met [Sling Models](https://sling.apache.org/documentation/bundles/models.html) annotaties | JSP-code |
-| Opmaakdefinitie | [HTML-sjabloonsyntaxis](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html)  (HTL) | JSP-code |
+| Logische implementatie | Java POJO&#39;s met [Verkoopmodellen](https://sling.apache.org/documentation/bundles/models.html) annotaties | JSP-code |
+| Opmaakdefinitie | [HTML Sjabloontaal](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) (HTL) syntaxis | JSP-code |
 | XSS-ontsmetting | Geautomatiseerd door HTML | Meestal handmatig |
-| Naam van CSS-klassen | Gestandaardiseerde naamgevingsconventie gebaseerd op de notatie [Blokelelement modifier](https://getbem.com/) (BEM) (vanaf release 2.0.0) | Aangepaste schema&#39;s |
+| Naam van CSS-klassen | Gestandaardiseerde naamgevingsconventie gebaseerd op [Element-wijziging blokkeren](https://getbem.com/) (BEM) notatie (vanaf release 2.0.0) | Aangepaste schema&#39;s |
 | Dialoogdefinitie | [Koraal 3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Koraal 2 + klassieke gebruikersinterface |
 | JSON-uitvoer | [Sling Modellen Exporter met Jackson serialization](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | Standaard Sling-servlet |
 | Versioning | [Voor het model en het HTL](guidelines.md) | Geen |
@@ -103,7 +103,7 @@ Voor details over hun auteursmogelijkheden en opties om hen pre-configureerbaar 
 | Aflevering | [Via public GitHub](https://github.com/adobe/aem-core-wcm-components) | Via Quickstart |
 | Licentie | [Apache-licentie](https://www.apache.org/licenses/LICENSE-2.0) | Adobe-bedrijfseigen |
 | Bijdrage | Via pull request | Niet mogelijk |
-| Toegankelijkheid | Volledig compatibel met de [WCAG 2.0 AA-standaard](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | Slechts gedeeltelijk compatibel met [WCAG 2.0 AA norm](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
+| Toegankelijkheid | Volledig conform de [WCAG 2.0 AA-standaard](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | Slechts gedeeltelijk compatibel met het [WCAG 2.0 AA-standaard](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
 
 ## Componentlijst {#component-list}
 
@@ -139,16 +139,12 @@ De volgende lijst maakt een lijst van de beschikbare Componenten van de Kern, di
 | [Ervaar fragment](https://adobe.com/go/aem_cmp_tech_xf_v1) | Een ervaringsfragment toevoegen aan een pagina | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [Insluiten](https://adobe.com/go/aem_cmp_tech_embed_v1) | Een externe bron in een pagina insluiten | - |
 | [Voortgangsbalk](https://adobe.com/go/aem_cmp_tech_progress_v1) | Een visuele weergave geven van de voortgang in de richting van een doel | - |
-| [PDF-viewer](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1) | Hiermee wordt een PDF-document op een pagina gepresenteerd | - |
-
-### Aanstaande componenten {#upcoming-components}
-
-Voor een overzicht van de aanstaande wegenkaart van de Component van de Kern zie [projectwiki op GitHub](https://github.com/adobe/aem-core-wcm-components/wiki/home).
+| [PDF Viewer](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1) | Hiermee wordt een PDF-document op een pagina gepresenteerd | - |
 
 ## Upgrade van kerncomponenten {#upgrade-of-core-components}
 
 Een voordeel van versioned componenten is dat het toestaat om de migratie aan een nieuwe AEM versie van de migratie aan nieuwe componentenversies te scheiden. Als er nieuwe componentversies beschikbaar zijn, is het bovendien mogelijk om elke component afzonderlijk naar de nieuwe versie te migreren.
 
-Migraties naar een nieuwe AEM hebben geen invloed op de werking van de Core Components, op voorwaarde dat de versies ervan ook ondersteuning bieden voor de nieuwe AEM die wordt gemigreerd naar. Aanpassingen aan de Componenten van de Kern zouden ook niet moeten worden beïnvloed, zolang zij geen APIs gebruiken die [afgekeurd of verwijderd](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) zijn.
+Migraties naar een nieuwe AEM hebben geen invloed op de werking van de Core Components, op voorwaarde dat de versies ervan ook ondersteuning bieden voor de nieuwe AEM die wordt gemigreerd naar. De aanpassingen aan de Componenten van de Kern zouden ook niet moeten worden beïnvloed, zolang zij geen APIs gebruiken die zijn geweest [afgekeurd of verwijderd](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
 
-De migraties aan nieuwe versies van de Componenten van de Kern zullen niet beïnvloeden hoe de component ook werkt, maar de nieuwe eigenschappen zouden aan paginaauteurs kunnen worden geïntroduceerd, die één of andere configuratie door een malplaatjeredacteur zouden kunnen vereisen, voor het geval dat het standaardgedrag niet wordt gewenst. Aanpassingen kunnen echter moeten worden aangepast, voor meer details zie de pagina [Kerncomponenten aanpassen](customizing.md#upgrade-compatibility-of-customizations).
+De migraties aan nieuwe versies van de Componenten van de Kern zullen niet beïnvloeden hoe de component ook werkt, maar de nieuwe eigenschappen zouden aan paginaauteurs kunnen worden geïntroduceerd, die één of andere configuratie door een malplaatjeredacteur zouden kunnen vereisen, voor het geval dat het standaardgedrag niet wordt gewenst. Aanpassingen kunnen echter moeten worden aangepast, voor meer details raadpleegt u de [Kerncomponenten aanpassen](customizing.md#upgrade-compatibility-of-customizations) pagina.

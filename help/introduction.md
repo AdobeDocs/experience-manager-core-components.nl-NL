@@ -3,9 +3,9 @@ title: Introductie van kerncomponenten
 description: 'Oplossingen voor problemen met de Core Components en anderen toestaan elementen te ontwerpen binnen AEM. '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 72f774c7e4bbcf0e2dfefb6f8294dd729eb0ea1b
+source-git-commit: c572a2f5ab4e975e0ef467ab071fd25b373be18b
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '927'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ De kerncomponenten zijn een reeks gestandaardiseerde WCM-componenten (Web Conten
 
 |  |  |
 |---|---|
-| Gereed voor productie | De componenten van de Kern zijn 28 robuuste componenten die goed worden getest, wijd worden gebruikt, en die goed presteren. |
+| Gereed voor productie | De componenten van de Kern zijn 30 robuuste componenten die goed worden getest, wijd worden gebruikt, en die goed presteren. |
 | Klaar voor cloud | Of aan [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html), op [Beheerde services van Adobe](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)Op locatie werken ze gewoon. |
 | Veelzijdig | De componenten vertegenwoordigen generische concepten waarmee de auteurs vrijwel elke lay-out kunnen samenstellen. |
 | Configureerbaar | Sjabloonniveau [inhoudsbeleid](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies) bepalen welke functies de auteurs van de pagina al dan niet mogen gebruiken. |
@@ -58,6 +58,7 @@ In de huidige versie van Core Components zijn de volgende componenten beschikbaa
 * [Taalnavigatie](components/language-navigation.md)
 * [Broodkruimel](components/breadcrumb.md)
 * [Snel zoeken](components/quick-search.md)
+* [Inhoudsopgave](components/tableofcontents.md)
 
 ### Componenten voor paginaontwerp {#page-authoring-components}
 
@@ -106,7 +107,7 @@ In de huidige versie van Core Components zijn de volgende componenten beschikbaa
 
 | Versie kerncomponenten | AEM as a Cloud Service | AEM 6.5 Patchniveau | Java SE-versie | Geweven versie |
 |---------|---------|---------|---------|---------|
-| [2.19.0.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | Continu | 6.5.10.0+ * | 8, 11 | 3.3.9+ |
+| [2.20.0.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | Continu | 6.5.10.0+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >

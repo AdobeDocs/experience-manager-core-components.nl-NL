@@ -4,10 +4,10 @@ user-guide-title: AEM kerncomponenten
 breadcrumb-title: Handleiding voor kerncomponenten
 user-guide-description: Met de uitbreidbare Core Components kunnen auteurs eenvoudig inhoud maken.
 feature-set: Experience Manager Sites
-source-git-commit: fce9b5b2693acf96724c4c6e9872012fda7d36d9
+source-git-commit: d67fe6776bac26e5060d1e83feb4c078c0a45295
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 2%
+source-wordcount: '248'
+ht-degree: 4%
 
 ---
 
@@ -43,6 +43,7 @@ ht-degree: 2%
    + [Snel zoeken](components/quick-search.md)
    + [Scheidingsteken](components/separator.md)
    + [Delen van sociale media](components/sharing.md)
+   + [Inhoudsopgave](components/tableofcontents.md)
    + [Tekst](components/text.md)
    + [Tabs](components/tabs.md)
    + [Teaser](components/teaser.md)
