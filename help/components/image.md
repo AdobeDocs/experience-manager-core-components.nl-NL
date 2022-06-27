@@ -3,9 +3,9 @@ title: Afbeeldingscomponent
 description: De Core Component Image is een adaptieve beeldcomponent die ter plekke kan worden bewerkt.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 1a02aea6cda2bb1f70ab97d7a439e2c8e64add52
+source-git-commit: 2af48e397e47916760656cde8b0295b2f75cb0a6
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1662'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 |--- |--- |--- |---|
 | v3 | - | Compatibel | Compatibel |
 | [v2](v2/image.md) | Compatibel | Compatibel | Compatibel |
-| [v1](v1/image-v1.md) | Compatibel | Compatibel | - |
+| [v1](v1/image-v1.md) | Compatibel | Compatibel | Compatibel |
 
 Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
 
@@ -40,22 +40,18 @@ De component Image wordt geleverd met robuuste responsieve functies die direct u
 
 Bovendien ondersteunt de component Afbeelding lui laden om het laden van het eigenlijke afbeeldingselement uit te stellen totdat het element zichtbaar is in de browser, waardoor de reacties op uw pagina&#39;s sneller worden.
 
->[!TIP]
->
->Zie de sectie [Adaptieve afbeeldingsserver](#adaptive-image-servlet) voor meer technische details over deze functies en tips voor het optimaliseren van de selectie van uitvoeringen.
-
 ## Dynamic Media-ondersteuning {#dynamic-media}
 
 De afbeeldingscomponent (vanaf [release 2.13.0](/help/versions.md)) ondersteunt [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html#dynamicmedia) activa. [Indien ingeschakeld,](#design-dialog) Met deze functies kunt u Dynamic Media-afbeeldingselementen toevoegen met een eenvoudige sleepfunctie of via de middelenbrowser, net als met andere afbeeldingen. Daarnaast worden ook afbeeldingsaanpassingen, voorinstellingen voor afbeeldingen en slimme gewassen ondersteund.
 
-Uw webbeleving die is gebouwd met Core Components kan geen geavanceerde, op Sensei gebaseerde, robuuste, krachtige Dynamic Media Image-mogelijkheden voor meerdere platforms bieden.
+Uw webervaringen die zijn gemaakt met Core Components kunnen beschikken over uitgebreide, op Sensei gebaseerde, robuuste, krachtige Dynamic Media Image-mogelijkheden voor meerdere platforms.
 
 ## SVG-ondersteuning {#svg-support}
 
 Schaalbare vectorafbeeldingen (SVG) worden ondersteund door de afbeeldingscomponent.
 
 * De belemmering-en-daling van SVG activa van DAM en het uploaden van een SVG dossier van een lokaal dossiersysteem worden allebei gesteund.
-* De Adaptive Image Server streamt het oorspronkelijke SVG-bestand (transformaties worden overgeslagen).
+* Het oorspronkelijke SVG-bestand wordt gestreamd (transformaties worden overgeslagen).
 * Voor een SVG-afbeelding worden de &quot;slimme afbeeldingen&quot; en de &quot;slimme formaten&quot; ingesteld op een lege array in het afbeeldingsmodel.
 
 ### Beveiliging {#security}
@@ -135,10 +131,15 @@ De stijlen moeten voor deze component in worden gevormd [ontwerpdialoogvenster](
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
+### Hoofdtabblad {#main-tab}
+
 ![Het hoofdtabblad van het dialoogvenster Ontwerp van de afbeeldingscomponent](/help/assets/image-design-main.png)
 
 * **DM-functies inschakelen** - Indien ingeschakeld, [Dynamic Media-functies](#dynamic-media) zijn beschikbaar.
    * Deze optie wordt alleen weergegeven als Dynamic Media is ingeschakeld in de omgeving.
+* **Geoptimaliseerde webafbeeldingen inschakelen** - Indien ingeschakeld, [de webgeoptimaliseerde service voor het leveren van afbeeldingen](/help/developing/web-optimized-image-delivery.md) Hiermee worden afbeeldingen in de WebP-indeling geleverd. De afbeeldingen worden gemiddeld met 25% verkleind.
+   * Deze optie is alleen beschikbaar in AEMaaCS.
+   * Als deze optie niet is ingeschakeld of als de service voor het leveren van afbeeldingen voor het web niet beschikbaar is, [Adaptieve afbeeldingsserver](/help/developing/adaptive-image-servlet.md) wordt gebruikt.
 * **Lazy load uitschakelen** - Als deze optie is ingeschakeld, worden alle afbeeldingen vooraf geladen zonder dat dit wordt vertraagd.
 * **Afbeelding is decoratief** - Definieer of de optie Decoratieve afbeelding automatisch wordt ingeschakeld wanneer u de afbeeldingscomponent aan een pagina toevoegt.
 * **Alternatieve tekst ophalen van DAM**- Definieer of de optie voor het ophalen van de alternatieve tekst van de DAM automatisch is ingeschakeld wanneer u de afbeeldingscomponent aan een pagina toevoegt.
@@ -161,27 +162,11 @@ U kunt een lijst van breedten in pixel voor het beeld bepalen en de component za
 
 >[!TIP]
 >
->Zie de sectie [Adaptieve afbeeldingsserver](#adaptive-image-servlet) voor meer technische details over zijn eigenschappen en uiteinden voor het optimaliseren van vertoningsselectie door zorgvuldig uw breedten te bepalen.
+>Zie het document [Adaptieve afbeeldingsserver](/help/developing/adaptive-image-servlet.md) voor tips voor het optimaliseren van de selectie van uitvoeringen door uw breedten zorgvuldig te definiëren.
 
 ### Tabblad Stijlen {#styles-tab}
 
 De component Image ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
-
-## Adaptieve afbeeldingsserver {#adaptive-image-servlet}
-
-De component Image maakt gebruik van de Adaptive Image Servlet van de Core-component. [De Adaptive Image Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) is verantwoordelijk voor beeldverwerking en streaming en kan door ontwikkelaars in hun [aanpassingen van de kerncomponenten](/help/developing/customizing.md).
-
-### Renderingsselectie optimaliseren {#optimizing-rendition-selection}
-
-De Adaptive Image Server probeert de beste uitvoering te kiezen voor de gewenste afbeeldingsgrootte en het gewenste type. Het wordt aanbevolen dat DAM-uitvoeringen en toegestane breedten van afbeeldingscomponenten synchroon worden gedefinieerd, zodat de Adaptive Image Servlet zo weinig mogelijk verwerkt.
-
-Hierdoor worden de prestaties verbeterd en worden sommige afbeeldingen niet correct verwerkt door de onderliggende afbeeldingsverwerkingsbibliotheek.
-
->[!NOTE]
->
->Voorwaardelijke verzoeken via de `Last-Modified` de header wordt ondersteund door de Adaptive Image Servlet, maar het in cache plaatsen van de `Last-Modified` header [moet worden ingeschakeld in de Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers).
->
->[Het AEM Project Archetype](/help/developing/archetype/overview.md)De voorbeeldconfiguratie van Dispatcher bevat al deze configuratie.
 
 ## Gegevenslaag Adobe-client {#data-layer}
 

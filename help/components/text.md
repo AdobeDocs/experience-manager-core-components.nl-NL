@@ -3,9 +3,9 @@ title: Tekstcomponent
 description: De component Text is een component voor tekstbewerking en -compositie met tekstopmaak die op locatie kan worden bewerkt.
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: c041439e31a7da62739b6d5130c52dea36662a0c
+source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
 workflow-type: tm+mt
-source-wordcount: '2209'
+source-wordcount: '2210'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 | Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
 |---|---|---|---|
 | v2 | Compatibel met<br>[release 2.17.4](/help/versions.md) en eerdere | Compatibel | Compatibel |
-| [v1](v1/text-v1.md) | Compatibel | Compatibel | - |
+| [v1](v1/text-v1.md) | Compatibel | Compatibel | Compatibel |
 
 Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
 

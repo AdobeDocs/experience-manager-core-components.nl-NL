@@ -4,10 +4,10 @@ user-guide-title: AEM kerncomponenten
 breadcrumb-title: Handleiding voor kerncomponenten
 user-guide-description: Met de uitbreidbare Core Components kunnen auteurs eenvoudig inhoud maken.
 feature-set: Experience Manager Sites
-source-git-commit: d67fe6776bac26e5060d1e83feb4c078c0a45295
+source-git-commit: 3ff1343ab4ef7a52f910984a0bcd8fc4201441bf
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 4%
+source-wordcount: '255'
+ht-degree: 3%
 
 ---
 
@@ -91,6 +91,8 @@ ht-degree: 4%
    + [AMP-ondersteuning](developing/amp.md)
    + [Contextbewuste configuraties](developing/context-aware-configs.md)
    + [Inclusief clientbibliotheken](developing/including-clientlibs.md)
+   + [De Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md)
+   + [Webgeoptimaliseerde afbeeldingslevering](/help/developing/web-optimized-image-delivery.md)
    + Gegevenslaag Adobe-client {#data-layer}
       + [Overzicht van de Laag van Gegevens](developing/data-layer/overview.md)
       + [Integratie met de Laag van Gegevens](developing/data-layer/integrations.md)

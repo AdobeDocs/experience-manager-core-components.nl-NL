@@ -3,9 +3,9 @@ title: Component List
 description: De component van de Lijst van de Component van de Kern staat voor de gemakkelijke verwezenlijking van dynamische en statische lijsten toe.
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1152'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 |--- |--- |--- |---|
 | v3 | - | Compatibel | Compatibel |
 | [v2](v2/list.md) | Compatibel | Compatibel | Compatibel |
-| [v1](v1/list-v1.md) | Compatibel | Compatibel | - |
+| [v1](v1/list-v1.md) | Compatibel | Compatibel | Compatibel |
 
 Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
 

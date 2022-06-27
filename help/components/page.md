@@ -3,9 +3,9 @@ title: Pagina-component
 description: De component Pagina is een uitbreidbare paginacomponent die wordt ontworpen om met de malplaatjeredacteur te werken en paginakopbal/footer en structuurcomponenten toe te laten om met de malplaatjedacteur worden samengesteld.
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: dbc1ba9ae0f9caa3bc52a7a5e08899c457813003
+source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '716'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 |---|---|---|---|
 | v3 | - | Compatibel | Compatibel |
 | [v2](v2/page.md) | Compatibel | Compatibel | Compatibel |
-| [v1](v1/page-v1.md) | Compatibel | Compatibel | - |
+| [v1](v1/page-v1.md) | Compatibel | Compatibel | Compatibel |
 
 Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
 

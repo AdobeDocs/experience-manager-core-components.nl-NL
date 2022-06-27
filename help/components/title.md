@@ -3,9 +3,9 @@ title: Component Title
 description: De component van de Titel van de Component van de Kern is een component van de sectiekop die op zijn plaats het uitgeven kenmerkt.
 role: Architect, Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 |---|---|---|---|
 | v3 | - | Compatibel | Compatibel |
 | [v2](v2/title.md) | Compatibel | Compatibel | Compatibel |
-| [v1](v1/title-v1.md) | Compatibel | Compatibel | - |
+| [v1](v1/title-v1.md) | Compatibel | Compatibel | Compatibel |
 
 Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
 

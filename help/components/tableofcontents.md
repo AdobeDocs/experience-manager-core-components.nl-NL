@@ -2,9 +2,10 @@
 title: Component Inhoudsopgave
 description: De component Inhoudsopgave maakt een inhoudsopgave op basis van de titels in de pagina-inhoud, zodat uw lezers snel door de pagina kunnen navigeren.
 role: Architect, Developer, Admin, User
-source-git-commit: 52c63ecb014e5d4fda4d166d92e8efb3163633ba
+exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
+source-git-commit: 394a8b968d7bcde7e766ed719c5914ec5cb60744
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,11 @@ De component Inhoudsopgave maakt een inhoudsopgave op basis van de titels in de 
 
 ## Gebruik {#usage}
 
-Met de component Inhoudsopgave kunnen sitebezoekers snel door de inhoud van uw pagina navigeren via een Inhoudsopgave die is gegenereerd op basis van de titels van de pagina-inhoud.
+Met de component Inhoudsopgave kunnen sitebezoekers snel door de inhoud van uw pagina navigeren via een efficiënt gegenereerde inhoudsopgave op basis van de titels van de pagina-inhoud.
+
+* De ToC wordt geproduceerd serverzijde.
+* Deze wordt volledig in cache geplaatst door de verzender voor snelle levering.
+* Het werkt met alle componenten op de pagina, niet alleen de Componenten van de Kern.
 
 De [dialoogvenster bewerken](#edit-dialog) Hiermee kan de auteur van de inhoud het bereik definiëren van titels die in de inhoudsopgave moeten worden gebruikt. Met de [ontwerpdialoogvenster](#design-dialog), kan de sjabloonauteur de standaardwaarde voor de titels instellen wanneer een inhoudsontwerper een inhoudsopgave-component aan een pagina toevoegt en titels in de inhoudsopgave beperken op basis van klassenamen.
 
