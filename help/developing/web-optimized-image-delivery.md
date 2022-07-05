@@ -2,13 +2,13 @@
 title: Webgeoptimaliseerde afbeeldingslevering
 description: Leer hoe de Core Components AEM as a Cloud Service webgeoptimaliseerde functies voor het leveren van afbeeldingen kunnen gebruiken om afbeeldingen efficiënter te leveren.
 role: Architect, Developer, Admin, User
-source-git-commit: 20436ffb5d6a6346738be1e6f5e6e2e8a68e76c9
+exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
+source-git-commit: df0ae972ca698e809a5cb8a5ad2d41ad89c2db8e
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
-
 
 # Webgeoptimaliseerde afbeeldingslevering {#web-optimized-image-delivery}
 
@@ -16,7 +16,7 @@ Leer hoe de Core Components AEM as a Cloud Service webgeoptimaliseerde functies 
 
 >[!NOTE]
 >
->De webgeoptimaliseerde service voor het leveren van images is een pre-releasefunctie met de release van juni 2022 van AEM die as a Cloud Service is met GA, die in juli wordt verwacht.
+>De webgeoptimaliseerde service voor het leveren van images is een pre-releasefunctie en de release van juni 2022 van AEM die as a Cloud Service is met GA wordt in juli verwacht.
 >
 >Raadpleeg het document voor meer informatie over de pre-releasefuncties van AEMaaCS [Adobe Experience Manager as a Cloud Service Prerelease-kanaal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html)
 
@@ -122,6 +122,6 @@ Zie de vorige sectie [Webgeoptimaliseerde afbeeldingslevering activeren voor ker
 
 Nee, dat mag nooit gebeuren.
 
-* In HTML, verandert de prijsverhoging niet wanneer het toelaten van Web geoptimaliseerde beelden, slechts verandert de waarde van de SCR attributen op het beeldelement.
+* In de HTML verandert de markering niet wanneer u voor het web geoptimaliseerde afbeeldingen inschakelt, verandert alleen de waarde van het kenmerk SRC in het afbeeldingselement.
 * Wanneer de nieuwe beeldservice niet beschikbaar is of de gewenste afbeelding niet kan verwerken, wordt de gegenereerde URL [fallback naar de Adaptive Image Servlet.](#fallback)
 * De verzendingsregels kunnen de webgeoptimaliseerde afbeeldingsservice blokkeren en [moet worden gecontroleerd tijdens het activeren van de functie.](#activating)
