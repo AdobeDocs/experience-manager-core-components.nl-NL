@@ -3,7 +3,7 @@ title: Webgeoptimaliseerde afbeeldingslevering
 description: Leer hoe de Core Components AEM as a Cloud Service webgeoptimaliseerde functies voor het leveren van afbeeldingen kunnen gebruiken om afbeeldingen efficiënter te leveren.
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: df0ae972ca698e809a5cb8a5ad2d41ad89c2db8e
+source-git-commit: a134c2593593efef4df7b01e3a870e03e9860640
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Leer hoe de Core Components AEM as a Cloud Service webgeoptimaliseerde functies 
 >
 >Raadpleeg het document voor meer informatie over de pre-releasefuncties van AEMaaCS [Adobe Experience Manager as a Cloud Service Prerelease-kanaal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html)
 
-##  Overzicht {#overview}
+## Overzicht {#overview}
 
 De webgeoptimaliseerde functie voor het leveren van afbeeldingen van AEM als Cloud-service levert afbeeldingselementen van de DAM in [WebP-indeling.](https://developers.google.com/speed/webp) WebP kan de downloadgrootte van een beeld met ongeveer 25% gemiddeld verminderen, die in snellere paginading resulteert.
 
