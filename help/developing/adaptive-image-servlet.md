@@ -2,13 +2,13 @@
 title: Adaptieve afbeeldingsserver
 description: Leer hoe de Core Components de Adaptive Image Servlet voor beeldlevering gebruikt en hoe u het gebruik ervan kunt optimaliseren.
 role: Architect, Developer, Admin, User
-source-git-commit: 3ff1343ab4ef7a52f910984a0bcd8fc4201441bf
+exl-id: d9199d51-6f09-4000-9525-afc30474437e
+source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
-
 
 # Adaptieve afbeeldingsserver {#adaptive-image-servlet}
 
@@ -26,6 +26,19 @@ In dit document wordt de standaard adaptieve afbeeldingsserver beschreven.
 ## Overzicht {#overview}
 
 Standaard gebruikt de component Image de Adaptive Image Servlet van de Core-component om afbeeldingen te leveren. [De Adaptive Image Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) is verantwoordelijk voor beeldverwerking en streaming en kan door ontwikkelaars in hun [aanpassingen van de kerncomponenten](/help/developing/customizing.md).
+
+## Selectie van vertoning {#rendition-selection}
+
+De adaptieve afbeeldingsserver selecteert automatisch de meest geschikte vertoning op basis van de grootte van de container waarin deze wordt weergegeven. Het selectieproces van de vertoning ziet er als volgt uit.
+
+1. De Adaptive Image Server controleert bij alle beschikbare uitvoeringen van het afbeeldingselement.
+1. Alleen elementen met dezelfde mime/hetzelfde type als het oorspronkelijke element waarnaar wordt verwezen, worden geselecteerd.
+   * Als het oorspronkelijke element bijvoorbeeld een PNG-bestand was, wordt alleen rekening gehouden met PNG-uitvoeringen.
+1. Van deze uitvoeringen worden de afmetingen in overweging genomen en worden deze vergeleken met de grootte van de container waarin de afbeelding moet worden weergegeven.
+   1. Als de vertoning >= de containergrootte is, wordt het toegevoegd aan een lijst van kandidaatvertoningen.
+   1. Als de vertoning kleiner is dan de containergrootte, wordt deze genegeerd.
+   1. Deze criteria zorgen ervoor dat de vertoning niet wordt vergroot, wat van invloed is op de beeldkwaliteit.
+1. De adaptieve server van het Beeld selecteert dan de vertoning met de kleinste dossiergrootte van de kandidaatlijst.
 
 ## Renderingsselectie optimaliseren {#optimizing-rendition-selection}
 

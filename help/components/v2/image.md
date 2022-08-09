@@ -3,9 +3,9 @@ title: Afbeeldingscomponent (v2)
 description: De Core Component Image is een adaptieve beeldcomponent die ter plekke kan worden bewerkt.
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
-source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
+source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
 workflow-type: tm+mt
-source-wordcount: '2092'
+source-wordcount: '2115'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,10 @@ In dit document wordt versie 2 van de Image Component beschreven, die in januari
 De component Image wordt geleverd met robuuste responsieve functies die direct uit de verpakking zijn te vinden. Op het niveau van het paginasjabloon [ontwerpdialoogvenster](#design-dialog) kan worden gebruikt om de standaardbreedten van het afbeeldingselement te definiëren. De component van het Beeld zal dan automatisch de correcte breedte aan vertoning afhankelijk van de grootte van het browser venster laden. Wanneer het formaat van het venster wordt gewijzigd, laadt de component Image dynamisch de juiste afbeeldingsgrootte. Componentontwikkelaars hoeven zich geen zorgen te maken over het definiëren van aangepaste mediaquery&#39;s, aangezien de component Image al is geoptimaliseerd om uw inhoud te laden.
 
 Bovendien ondersteunt de component Afbeelding lui laden om het laden van het eigenlijke afbeeldingselement uit te stellen totdat het element zichtbaar is in de browser, waardoor de reacties op uw pagina&#39;s sneller worden.
+
+>[!TIP]
+>
+>De component Image wordt aangedreven door de Adaptive Image Servlet. Zie het document [Adaptieve afbeeldingsserver](#adaptive-image-servlet) voor meer informatie over hoe het werkt.
 
 ## Dynamic Media-ondersteuning {#dynamic-media}
 

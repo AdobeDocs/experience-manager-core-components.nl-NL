@@ -3,9 +3,9 @@ title: Webgeoptimaliseerde afbeeldingslevering
 description: Leer hoe de Core Components AEM as a Cloud Service webgeoptimaliseerde functies voor het leveren van afbeeldingen kunnen gebruiken om afbeeldingen efficiënter te leveren.
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: a134c2593593efef4df7b01e3a870e03e9860640
+source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -13,12 +13,6 @@ ht-degree: 0%
 # Webgeoptimaliseerde afbeeldingslevering {#web-optimized-image-delivery}
 
 Leer hoe de Core Components AEM as a Cloud Service webgeoptimaliseerde functies voor het leveren van afbeeldingen kunnen gebruiken om afbeeldingen efficiënter te leveren.
-
->[!NOTE]
->
->De webgeoptimaliseerde service voor het leveren van images is een pre-releasefunctie en de release van juni 2022 van AEM die as a Cloud Service is met GA wordt in juli verwacht.
->
->Raadpleeg het document voor meer informatie over de pre-releasefuncties van AEMaaCS [Adobe Experience Manager as a Cloud Service Prerelease-kanaal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html)
 
 ## Overzicht {#overview}
 
@@ -66,7 +60,7 @@ Net zoals het inschakelen van voor het web geoptimaliseerde afbeeldingslevering 
 
 ## Veelgestelde vragen {#faq}
 
-### Waarom is er geen dergelijke optie om voor het web geoptimaliseerde afbeeldingen in mijn omgeving mogelijk te maken? {#missing-option}
+### Waarom is er geen optie om webgeoptimaliseerde afbeeldingen in mijn omgeving in te schakelen? {#missing-option}
 
 De functie is alleen beschikbaar op AEM as a Cloud Service. De afbeeldingscomponent wordt lokaal of op locatie AEM uitgevoerd [terugvallen](#fallback) om de Adaptive Image Servlet te gebruiken.
 
