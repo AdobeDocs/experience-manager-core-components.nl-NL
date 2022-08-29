@@ -3,7 +3,7 @@ title: Component Snel zoeken
 description: De component Snel zoeken biedt zoekmogelijkheden voor een website en biedt zoekresultaten zodat bezoekers de site kunnen doorzoeken en de resultaten kunnen filteren.
 role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: c5db61a3f812fd47eedd1543585ef25d1fc0dc1c
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Raadpleeg het document voor meer informatie over versies en releases van de Core
 >
 >De component van het Onderzoek of om het even welke AEM gebaseerde toepassing tegen DOS aanvallen zouden op een hoger niveau moeten worden uitgevoerd, bijvoorbeeld door te gebruiken `mod_security` op de verzender.
 
-De meest recente technische documentatie over de Quick Search-component [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_search_v1).
+De meest recente technische documentatie over de Quick Search-component [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_search_v2).
 
 Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
 

@@ -3,7 +3,7 @@ title: Component List
 description: De component van de Lijst van de Component van de Kern staat voor de gemakkelijke verwezenlijking van dynamische en statische lijsten toe.
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 1%
@@ -49,7 +49,7 @@ Als u de component List wilt ervaren en voorbeelden wilt zien van de configurati
 
 ### Technische details {#technical-details}
 
-De meest recente technische documentatie over de component List [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_list_v2).
+De meest recente technische documentatie over de component List [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_list_v3).
 
 Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
 

@@ -3,9 +3,9 @@ title: Component voor sociaal delen
 description: De Core Component Social Sharing is een deelwidget Facebook en Pinterest.
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
-source-git-commit: 12fef6732ba53beeb7b3354335005f459321da96
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '400'
 ht-degree: 1%
 
 ---
@@ -35,10 +35,6 @@ In de volgende tabel staan alle ondersteunde versies van de component en de AEM 
 | v1 | Compatibel met<br>[release 2.17.4](/help/versions.md) en eerdere | Compatibel, afgekeurd | Compatibel, afgekeurd |
 
 Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
-
-## Uitvoer van voorbeeldcomponent {#sample-component-output}
-
-Als u de component voor sociaal delen wilt ervaren en voorbeelden wilt zien van de configuratieopties en van de HTML- en JSON-uitvoer, gaat u naar de [Componentbibliotheek](https://adobe.com/go/aem_cmp_library_sharing).
 
 ### Technische details {#technical-details}
 

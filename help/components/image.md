@@ -3,7 +3,7 @@ title: Afbeeldingscomponent
 description: De Core Component Image is een adaptieve beeldcomponent die ter plekke kan worden bewerkt.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
 source-wordcount: '1687'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Als u de afbeeldingscomponent wilt ervaren en voorbeelden wilt zien van de confi
 
 ### Technische details {#technical-details}
 
-De meest recente technische documentatie over de Image Component [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_image_v2).
+De meest recente technische documentatie over de Image Component [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_image_v3).
 
 Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
 

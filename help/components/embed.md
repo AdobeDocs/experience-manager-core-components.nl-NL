@@ -3,7 +3,7 @@ title: Component insluiten
 description: Met de component Embed kunt u externe inhoud insluiten in een AEM inhoudspagina.
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
 source-wordcount: '1395'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Als u de Embed-component wilt ervaren en voorbeelden wilt zien van de configurat
 
 ## Technische details {#technical-details}
 
-De meest recente technische documentatie over de component Embed [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_embed_v1).
+De meest recente technische documentatie over de component Embed [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_embed_v2).
 
 Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
 

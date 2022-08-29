@@ -3,7 +3,7 @@ title: Experience Fragment
 description: Met de ervaringsfragmentcomponent kan de auteur van de inhoud een ervaringsfragmentvariatie aan een pagina toevoegen.
 role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 1%
@@ -109,7 +109,7 @@ Als u de Experience Fragment-component wilt ervaren en voorbeelden wilt zien van
 
 ## Technische details {#technical-details}
 
-De meest recente technische documentatie over de component Experience Fragment [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_xf_v1).
+De meest recente technische documentatie over de component Experience Fragment [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_xf_v2).
 
 Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
 

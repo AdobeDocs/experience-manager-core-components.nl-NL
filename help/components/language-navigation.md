@@ -3,7 +3,7 @@ title: Taalnavigatie-component
 description: De component Taalnavigatie biedt een taal-/landnavigatie voor een site, zodat bezoekers naar dezelfde pagina in een andere landinstelling kunnen navigeren.
 role: Architect, Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
-source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 1%
@@ -42,7 +42,7 @@ Als u de taalnavigatiecomponent wilt ervaren en voorbeelden wilt zien van de con
 
 ## Technische details {#technical-details}
 
-De meest recente technische documentatie over de taalnavigatiecomponent [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_langnav_v1).
+De meest recente technische documentatie over de taalnavigatiecomponent [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_langnav_v2).
 
 Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
 

@@ -3,9 +3,9 @@ title: Component Inhoudsopgave
 description: De component Inhoudsopgave maakt een inhoudsopgave op basis van de titels in de pagina-inhoud, zodat uw lezers snel door de pagina kunnen navigeren.
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 394a8b968d7bcde7e766ed719c5914ec5cb60744
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,6 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 | v1 | Compatibel | Compatibel |
 
 Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
-
-## Uitvoer van voorbeeldcomponent {#sample-component-output}
-
-Als u de component Inhoudsopgave wilt ervaren en voorbeelden wilt zien van de configuratieopties en van de HTML- en JSON-uitvoer, gaat u naar de [Componentbibliotheek](https://adobe.com/go/aem_cmp_library_tableofcontents).
 
 ### Technische details {#technical-details}
 

@@ -3,7 +3,7 @@ title: Navigatie-component
 description: Met de navigatiecomponent kunnen gebruikers gemakkelijk door een geglobaliseerde sitestructuur navigeren.
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Als u de navigatiecomponent wilt ervaren en voorbeelden wilt zien van de configu
 
 ## Technische details {#technical-details}
 
-De meest recente technische documentatie over de navigatiecomponent [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_navigation_v1).
+De meest recente technische documentatie over de navigatiecomponent [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_navigation_v2).
 
 Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
 

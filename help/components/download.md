@@ -3,7 +3,7 @@ title: Component downloaden
 description: Met de component Core Component Download kunt u een downloadoptie op een pagina maken.
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 1%
@@ -40,7 +40,7 @@ Als u de downloadcomponent wilt ervaren en voorbeelden wilt zien van de configur
 
 ## Technische details {#technical-details}
 
-De meest recente technische documentatie over de Download Component [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_download_v1).
+De meest recente technische documentatie over de Download Component [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_download_v2).
 
 Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
 

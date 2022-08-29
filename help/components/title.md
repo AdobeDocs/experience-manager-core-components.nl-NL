@@ -3,7 +3,7 @@ title: Component Title
 description: De component van de Titel van de Component van de Kern is een component van de sectiekop die op zijn plaats het uitgeven kenmerkt.
 role: Architect, Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Als u de component Title wilt ervaren en voorbeelden wilt zien van de configurat
 
 ### Technische details {#technical-details}
 
-De meest recente technische documentatie over de component Title [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_title_v2).
+De meest recente technische documentatie over de component Title [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_title_v3).
 
 Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
 

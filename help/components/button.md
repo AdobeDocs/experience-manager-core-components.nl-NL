@@ -3,7 +3,7 @@ title: Component Button
 description: Met de component Knop Core-component kunt u een knop maken en weergeven.
 role: Architect, Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 1%
@@ -40,7 +40,7 @@ Als u de component Button wilt ervaren en voorbeelden wilt zien van de configura
 
 ## Technische details {#technical-details}
 
-De meest recente technische documentatie over de component Button [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_button_v1).
+De meest recente technische documentatie over de component Button [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_button_v2).
 
 Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
 

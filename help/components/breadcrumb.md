@@ -3,7 +3,7 @@ title: Broodkruimelcomponent
 description: De component van de Breadcrumb van de Component van de Kern is een navigatiecomponent die een broodkruimel van verbindingen bouwt die op de plaats van de pagina in de inhoudshiërarchie wordt gebaseerd.
 role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 1%
@@ -44,7 +44,7 @@ Als u de component Breadcrumb wilt ervaren en voorbeelden wilt zien van de confi
 
 ## Technische details {#technical-details}
 
-De meest recente technische documentatie over de Breadcrumb-component [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2).
+De meest recente technische documentatie over de Breadcrumb-component [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_breadcrumb_v3).
 
 Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
 

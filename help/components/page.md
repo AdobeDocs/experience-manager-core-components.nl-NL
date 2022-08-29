@@ -3,7 +3,7 @@ title: Pagina-component
 description: De component Pagina is een uitbreidbare paginacomponent die wordt ontworpen om met de malplaatjeredacteur te werken en paginakopbal/footer en structuurcomponenten toe te laten om met de malplaatjedacteur worden samengesteld.
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 1%
@@ -40,7 +40,7 @@ Versie 2.15.0 van de Core Components introduceerde steun voor AEM ingebouwde as 
 
 ### Technische details {#technical-details}
 
-De meest recente technische documentatie over de pagina-component [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_page_v2).
+De meest recente technische documentatie over de pagina-component [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_page_v3).
 
 Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
 
