@@ -3,9 +3,9 @@ title: Introductie van kerncomponenten
 description: 'Oplossingen voor problemen met de Core Components en anderen toestaan elementen te ontwerpen binnen AEM. '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 35b9c0d32d402e3f5466ccc1021094de5c7a750e
+source-git-commit: 12fef6732ba53beeb7b3354335005f459321da96
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '928'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ In de huidige versie van Core Components zijn de volgende componenten beschikbaa
 * [Inhoudsfragment](components/content-fragment-component.md)
 * [Lijst met inhoudsfragmenten](components/content-fragment-list.md)
 * [Insluiten](components/embed.md)
-* [Delen van sociale media](components/sharing.md)
+* [Delen van sociale media](components/sharing.md) (afgekeurd)
 * [Scheidingsteken](components/separator.md)
 * [Voortgangsbalk](components/progress-bar.md)
 * [PDF Viewer](components/pdf-viewer.md)

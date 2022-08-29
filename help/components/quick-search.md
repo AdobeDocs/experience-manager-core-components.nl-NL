@@ -3,7 +3,7 @@ title: Component Snel zoeken
 description: De component Snel zoeken biedt zoekmogelijkheden voor een website en biedt zoekresultaten zodat bezoekers de site kunnen doorzoeken en de resultaten kunnen filteren.
 role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+source-git-commit: c5db61a3f812fd47eedd1543585ef25d1fc0dc1c
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 1%
@@ -22,7 +22,7 @@ De [dialoogvenster bewerken](#edit-dialog) Hiermee kan de auteur van de inhoud d
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De huidige versie van de Snelle component van het Onderzoek is v1, die met versie 2.0.0 van de Componenten van de Kern in Januari 2018 werd geïntroduceerd, en in dit document wordt beschreven.
+De huidige versie van de Snelle component van het Onderzoek is v2, die met versie 2.18.0 van de Componenten van de Kern in Januari 2018 werd geïntroduceerd, en in dit document wordt beschreven.
 
 In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
 

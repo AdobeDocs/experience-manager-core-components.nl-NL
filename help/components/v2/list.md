@@ -2,13 +2,13 @@
 title: Lijstcomponent (v2)
 description: De component van de Lijst van de Component van de Kern staat voor de gemakkelijke verwezenlijking van dynamische en statische lijsten toe.
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
+exl-id: fa34be64-b345-45cd-baf3-571973414852
+source-git-commit: 241c86240377858a73f4a022368d428da9c11100
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 0%
 
 ---
-
 
 # Lijstcomponent (v2) {#list-component}
 
@@ -64,7 +64,7 @@ De lijst kan op verschillende manieren worden samengesteld.
 
 Ongeacht hoe de lijst wordt samengesteld, zijn er [Opties voor sorteren en id](#sort-options) dat altijd kan worden gevormd.
 
-![Bewerkingsdialoogvenster van component List](/help/assets/list-edit.png)
+![Bewerkingsdialoogvenster van component List](/help/assets/v2/list-edit.png)
 
 Afhankelijk van de manier waarop de auteur van de inhoud ervoor kiest de lijst te maken, worden de aanvullende configuratieopties gewijzigd.
 
@@ -72,7 +72,7 @@ Afhankelijk van de manier waarop de auteur van de inhoud ervoor kiest de lijst t
 
 De lijst kan van de kindpagina&#39;s van de huidige pagina of een andere pagina worden samengesteld.
 
-![Opties voor onderliggende pagina&#39;s](/help/assets/list-edit-child-pages.png)
+![Opties voor onderliggende pagina&#39;s](/help/assets/v2/list-edit-child-pages.png)
 
 * **Bovenliggende pagina**
    * De pagina waarvan de onderliggende pagina&#39;s de lijst moeten maken
@@ -85,7 +85,7 @@ Hoeveel niveaus onderaan in de hiërarchie zouden moeten worden gebruikt
 
 De lijst kan worden samengesteld met behulp van een vaste lijst met items.
 
-![Opties voor vaste lijsten](/help/assets/list-edit-fixed.png)
+![Opties voor vaste lijsten](/help/assets/v2/list-edit-fixed-list.png)
 
 Tik of klik op de knop **Toevoegen** om een nieuw item aan de lijst toe te voegen.
 
@@ -97,7 +97,7 @@ Tik of klik op de knop **Toevoegen** om een nieuw item aan de lijst toe te voege
 
 De lijst kan worden samengesteld met behulp van de resultaten van een zoekopdracht naar AEM inhoud.
 
-![Opties voor zoeklijsten](/help/assets/list-edit-search.png)
+![Opties voor zoeklijsten](/help/assets/v2/list-edit-search.png)
 
 * **Zoekquery**
 De tekenreeks waarvoor een zoekopdracht in volledige tekst wordt uitgevoerd om de lijstelementen te genereren
@@ -110,7 +110,7 @@ Waar de zoekopdracht moet worden uitgevoerd
 
 De lijst kan worden samengesteld met pagina&#39;s die overeenkomen met bepaalde codes onder een bepaalde locatie.
 
-![Opties in de lijst Tags](/help/assets/list-edit-tags.png)
+![Opties in de lijst Tags](/help/assets/v2/list-edit-tags.png)
 
 * **Bovenliggende pagina**
 Waar de tagovereenkomst moet beginnen
@@ -128,7 +128,7 @@ Bepaal welke soort overeenkomst een pagina zou moeten kwalificeren om in de lijs
 
 Ongeacht hoe u de lijst maakt, zijn er bepaalde sorteeropties die altijd kunnen worden gedefinieerd.
 
-![Sorteeropties](/help/assets/list-edit-sort-options.png)
+![Sorteeropties](/help/assets/v2/list-edit-sort-options.png)
 
 * **Volgorde van**
 Hoe de elementen moeten worden gerangschikt
@@ -150,7 +150,7 @@ Maximumaantal items dat in de lijst wordt weergegeven.
 
 Met het tabblad Iteminstellingen kunt u de opmaak van de lijstelementen configureren.
 
-![Iteminstellingen](/help/assets/list-edit-items.png)
+![Iteminstellingen](/help/assets/v2/list-edit-item-settings.png)
 
 * **Items koppelen**
 Items koppelen aan de corresponderende pagina
@@ -167,7 +167,7 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur definiëren welke typen li
 
 Op de **Lijstinstellingen** , kan de datumnotatie worden gedefinieerd en kunt u aangeven welk type lijst in de component beschikbaar moet zijn voor de auteurs van de inhoud.
 
-![De ontwerpdialoogvensterinstelling van de component List](/help/assets/list-design-list-settings.png)
+![De ontwerpdialoogvensterinstelling van de component List](/help/assets/v2/list-design-list-settings.png)
 
 * **Datumnotatie**
 Formaat voor de weergave van de laatste wijzigingsdatum
@@ -184,7 +184,7 @@ Lijsttype van labels in de component uitschakelen
 
 Op de **Iteminstellingen** kunt u de opmaakopties definiëren voor de afzonderlijke lijstelementen die in de component beschikbaar moeten zijn voor de makers van de inhoud.
 
-![Instellingen van het ontwerpdialoogvenster van component weergeven](/help/assets/list-design-item-settings.png)
+![Instellingen van het ontwerpdialoogvenster van component weergeven](/help/assets/v2/list-design-item-settings.png)
 
 * **Items koppelen**
 De optie Koppelingsitems inschakelen in het dialoogvenster [dialoogvenster bewerken](#edit-dialog)

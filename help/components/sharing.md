@@ -3,9 +3,9 @@ title: Component voor sociaal delen
 description: De Core Component Social Sharing is een deelwidget Facebook en Pinterest.
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+source-git-commit: 12fef6732ba53beeb7b3354335005f459321da96
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '436'
 ht-degree: 1%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 1%
 # Component voor sociaal delen{#social-sharing-component}
 
 De Core Component Social Sharing is een deelwidget Facebook en Pinterest.
+
+>[!NOTE]
+>
+>De component voor sociaal delen is gedevalueerd met Core-componenten [release 2.18.0.](/help/versions.md)
 
 ## Gebruik {#usage}
 
@@ -28,7 +32,7 @@ In de volgende tabel staan alle ondersteunde versies van de component en de AEM 
 
 | Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v1 | Compatibel met<br>[release 2.17.4](/help/versions.md) en eerdere | Compatibel | Compatibel |
+| v1 | Compatibel met<br>[release 2.17.4](/help/versions.md) en eerdere | Compatibel, afgekeurd | Compatibel, afgekeurd |
 
 Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
 
