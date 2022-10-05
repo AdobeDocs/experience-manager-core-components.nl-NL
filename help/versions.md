@@ -3,9 +3,9 @@ title: Core Components-versies
 description: De Componenten van de kern worden gepubliceerd als versies die meer dan één versie van de zelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies beschikbaar zijn en hoe u de compatibiliteit met Core Components en AEM begrijpt.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 12fef6732ba53beeb7b3354335005f459321da96
+source-git-commit: 9064b357476128525c428b33bdb49fbe68138890
 workflow-type: tm+mt
-source-wordcount: '2689'
+source-wordcount: '2753'
 ht-degree: 12%
 
 ---
@@ -26,6 +26,8 @@ De volgende tabel, waarvan de inhoud [beschikbaar op GitHub met volledige versie
 
 | Geen | Beschrijving | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service | Java | Releasedatum |
 |---|---|---|---|---|---|---|
+| [2.21.0.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | Deze versie bevat een aantal verbeteringen, zoals de publicatie van de LinkHandler-API, verbeteringen in de afbeeldingscomponent en de gegevenslaag en verbeteringen in componenten met meerdere deelvensters. | - | 6.5.13.0+ * | Continu | 8, 11 | 12 september 2022 |
+| [2.20.8.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.8) | Deze release verhelpt een probleem met de levering van SVG-afbeeldingen via AdaptiveImageServlet. | - | 6.5.13.0+ * | Continu | 8, 11 | 4 augustus 2022 |
 | [2.20.6.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.6) | Deze patchrelease verhelpt een probleem met de nieuwe [Component Inhoudsopgave.](/help/components/tableofcontents.md) | - | 6.5.13.0+ * | Continu | 8, 11 | 7 juli 2022 |
 | — | — | — | — | — | — | — |
 | [2.20.4.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.4) | Deze patchrelease verhelpt een probleem met de nieuwe [Component Inhoudsopgave.](/help/components/tableofcontents.md) | - | 6.5.13.0+ * | Continu | 8, 11 | 29 juni 2022 |
@@ -137,7 +139,7 @@ Voor meer informatie over kerncomponentenversies, zie [ontwikkelaarsdocumentatie
 
 ### Uitstoot {#releases}
 
-De kerncomponenten worden beschikbaar gesteld via **lozingen** en [vertegenwoordigen de daadwerkelijke gepubliceerde artefacten beschikbaar op GitHub](https://github.com/adobe/aem-core-wcm-components/releases). De versies worden aangeduid met een decimaal aantal van het formaat `X.Y.Z` en verzamel alle kerncomponenten samen als een te leveren pakket.
+De kerncomponenten worden beschikbaar gesteld via **lozingen** en [vertegenwoordigen de feitelijke gepubliceerde artefacten die beschikbaar zijn op GitHu.](https://github.com/adobe/aem-core-wcm-components/releases) De versies worden aangeduid met een decimaal aantal van het formaat `X.Y.Z` en verzamel alle kerncomponenten samen als een te leveren pakket.
 
 * **Grote introducties** introduceer volledig nieuwe componenten, verbeteringen aan bestaande versie van componenten, evenals standaardinsectenmoeilijke situaties. Dit wordt vertegenwoordigd door een toename in de `X` component van het releasenummer.
 * **Kleine introducties** introduceer nieuwe componenten, nieuwe functionaliteit aan bestaande versies van componenten, evenals insectenmoeilijke situaties. Dit wordt vertegenwoordigd door een toename in de `Y` component van het releasenummer.

@@ -4,9 +4,9 @@ description: Een projectmalplaatje voor op AEM gebaseerde toepassingen
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 01890b368b083b09b5be8a9b6efad55a5d8d4f9e
+source-git-commit: c817592207868284d6d9cc1c8bc0405aa50f8957
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1192'
 ht-degree: 1%
 
 ---
@@ -90,19 +90,21 @@ De afhankelijkheid van kerncomponenten wordt alleen toegevoegd voor versies met 
 | `includeErrorHandler` | `n` | Bevat een aangepaste 404-responspagina die globaal is voor de gehele instantie (kan `y` of `n`). |
 | `includeCommerce` | `n` | Inclusief [CIF Core-componenten](https://github.com/adobe/aem-core-cif-components) afhankelijkheden en genereert overeenkomstige artefacten. |
 | `commerceEndpoint` |  | Alleen vereist voor CIF. Facultatief eindpunt van het handelssysteem te gebruiken dienst GraphQL (b.v. `https://hostname.com/grapql`). |
+| `includeFormscommunications` | `n` | Inclusief [Forms Core-componenten](https://github.com/adobe/aem-core-forms-components) afhankelijkheden, sjablonen, formuliergegevensmodellen, thema&#39;s en genereert overeenkomstige artefacten voor Forms Communications-programma&#39;s. |
+| `includeFormsenrollment` | `n` | Inclusief [Forms Core-componenten](https://github.com/adobe/aem-core-forms-components) afhankelijkheden, sjablonen, formuliergegevensmodellen, thema&#39;s en genereert overeenkomstige artefacten voor Forms-inschrijvingsprogramma&#39;s. |
+| `sdkFormsVersion` | `latest` | Wanneer `aemVersion=cloud` en een van `includeFormsenrollment=y` of `includeFormscommunications=y`kan een Forms SDK-versie worden opgegeven (bijvoorbeeld `2020.12.17.02`). |
 | `datalayer` | `y` | Integratie activeren met [Gegevenslaag Adobe-client](/help/developing/data-layer/overview.md). |
 | `amp` | `n` | Inschakelen [AMP](/help/developing/amp.md) ondersteuning voor gegenereerde projectsjablonen. |
 | `enableDynamicMedia` | `n` | Laat stichting DynamicMedia componenten in de montages van het projectbeleid toe en activeert de eigenschappen van Dynamic Media in het beleid van de component van het Beeld van de Kern. |
 | `enableSSR` | `n` | Optie om SSR voor het front-end project toe te laten |
 | `precompiledScripts` | `n` | Optie naar [vooraf compileren](/help/developing/archetype/precompiled-bundled-scripts.md) de serverscripts van `ui.apps` en als secundair bundelartefact aan het gebouw koppelen in het `ui.apps` project. `aemVersion` moet worden ingesteld op `cloud`. |
-| `includeFormscommunications` | `n` | Inclusief [Forms Core-componenten](https://github.com/adobe/aem-core-forms-components) afhankelijkheden, sjablonen, formuliergegevensmodellen, thema&#39;s en genereert overeenkomstige artefacten voor Forms Communications-programma&#39;s. |
-| `includeFormsenrollment` | `n` | Inclusief [Forms Core-componenten](https://github.com/adobe/aem-core-forms-components) afhankelijkheden, sjablonen, formuliergegevensmodellen, thema&#39;s en genereert overeenkomstige artefacten voor Forms-inschrijvingsprogramma&#39;s. |
+| `includeFormsheadless` | `n` | Inclusief [Forms Core-componenten](https://github.com/adobe/aem-core-forms-components) afhankelijkheden, `ui.frontend.react.forms.af`en hoofdloze artefacten. |
 
 ## Systeemvereisten {#requirements}
 
 | Archetype | AEM as a Cloud Service | AEM 6,5 | Java SE | Maven |
 |---------|---------|---------|---------|---------|
-| [37](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-37) | Continu | 6.5.7.0+ | 8, 11 | 3.3.9+ |
+| [39](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-39) | Continu | 6.5.7.0+ | 8, 11 | 3.3.9+ |
 
 Stel uw lokale ontwikkelomgeving in voor [as a Cloud Service SDK AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) of voor [oudere versies van AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
