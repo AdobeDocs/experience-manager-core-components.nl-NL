@@ -3,9 +3,9 @@ title: Core Components-versies
 description: De Componenten van de kern worden gepubliceerd als versies die meer dan één versie van de zelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies beschikbaar zijn en hoe u de compatibiliteit met Core Components en AEM begrijpt.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 9064b357476128525c428b33bdb49fbe68138890
+source-git-commit: 1e449c2b3c8fb9a98093c6731455089e8a157015
 workflow-type: tm+mt
-source-wordcount: '2753'
+source-wordcount: '2780'
 ht-degree: 12%
 
 ---
@@ -26,7 +26,8 @@ De volgende tabel, waarvan de inhoud [beschikbaar op GitHub met volledige versie
 
 | Geen | Beschrijving | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service | Java | Releasedatum |
 |---|---|---|---|---|---|---|
-| [2.21.0.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | Deze versie bevat een aantal verbeteringen, zoals de publicatie van de LinkHandler-API, verbeteringen in de afbeeldingscomponent en de gegevenslaag en verbeteringen in componenten met meerdere deelvensters. | - | 6.5.13.0+ * | Continu | 8, 11 | 12 september 2022 |
+| [2.21.2.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | Dit is een patchrelease die een probleem met v1 en v2 verhelpt [Taser-componenten.](/help/components/teaser.md) | - | 6.5.13.0+ * | Continu | 8, 11 | 12 september 2022 |
+| [2.21.0.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | Deze release bevat een aantal verbeteringen, waaronder publicatie van de LinkHandler-API, verbeteringen voor de [Afbeeldingscomponent](/help/components/image.md) en [Gegevenslaag,](/help/developing/data-layer/overview.md) en verbeteringen aan componenten met meerdere deelvensters. | - | 6.5.13.0+ * | Continu | 8, 11 | 12 september 2022 |
 | [2.20.8.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.8) | Deze release verhelpt een probleem met de levering van SVG-afbeeldingen via AdaptiveImageServlet. | - | 6.5.13.0+ * | Continu | 8, 11 | 4 augustus 2022 |
 | [2.20.6.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.6) | Deze patchrelease verhelpt een probleem met de nieuwe [Component Inhoudsopgave.](/help/components/tableofcontents.md) | - | 6.5.13.0+ * | Continu | 8, 11 | 7 juli 2022 |
 | — | — | — | — | — | — | — |
