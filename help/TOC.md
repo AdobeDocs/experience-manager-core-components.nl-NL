@@ -4,10 +4,10 @@ user-guide-title: AEM kerncomponenten
 breadcrumb-title: Handleiding voor kerncomponenten
 user-guide-description: Met de uitbreidbare Core Components kunnen auteurs eenvoudig inhoud maken.
 feature-set: Experience Manager Sites
-source-git-commit: 3ff1343ab4ef7a52f910984a0bcd8fc4201441bf
+source-git-commit: 7744cc1debe991d2c0daa9e91f2a6b7c04d65342
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 3%
+source-wordcount: '281'
+ht-degree: 5%
 
 ---
 
@@ -110,3 +110,19 @@ ht-degree: 3%
       + [ui.test-module](developing/archetype/uitests.md)
       + [it.tests Module](developing/archetype/ittests.md)
       + [Insteekmodule voor analyse van build](developing/archetype/build-analyzer-maven-plugin.md)
++ E-mailcomponenten {#email}
+   + [Inleiding](/help/email/introduction.md)
+   + [De e-mailkerncomponenten gebruiken](/help/email/using.md)
+   + [Campagnevariabelen](/help/email/campaign-variables.md)
+   + [Versies](/help/email/versions.md)
+   + De e-mailcomponenten {#components}
+      + [Pagina](/help/email/components/page.md)
+      + [Container](/help/email/components/container.md)
+      + [Titel](/help/email/components/title.md)
+      + [Tekst](/help/email/components/text.md)
+      + [Afbeelding](/help/email/components/image.md)
+      + [Knop](/help/email/components/button.md)
+      + [Teaser](/help/email/components/teaser.md)
+      + [Ervaar fragment](/help/email/components/experience-fragment.md)
+      + [Inhoudsfragment](/help/email/components/content-fragment.md)
+      + [Segmentering](/help/email/components/segmentation.md)

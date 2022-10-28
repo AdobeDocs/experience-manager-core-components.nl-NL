@@ -3,9 +3,9 @@ title: Introductie van kerncomponenten
 description: Oplossingen voor problemen met de Core Components en anderen toestaan elementen te ontwerpen binnen AEM.
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 1e449c2b3c8fb9a98093c6731455089e8a157015
+source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '929'
 ht-degree: 2%
 
 ---
@@ -117,7 +117,7 @@ Voor de vereisten van eerdere versies van Core Component, zie [Core Components-v
 
 De kerncomponenten vereisen het gebruik van [bewerkbare sjablonen](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) en ondersteunen geen klassieke UI of statische sjablonen. Controleer indien nodig de [AEM moderniseringsinstrumenten](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) om uw project bij te werken met deze moderne AEM.
 
-Als u uw lokale ontwikkelomgeving wilt instellen, checkt u uit [dit overzicht voor AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) of dit document [voor oudere versies van AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
+Als u uw lokale ontwikkelomgeving wilt instellen, kunt u het beste uitchecken [dit overzicht voor AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) of dit document [voor oudere versies van AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
 >[!TIP]
 >
