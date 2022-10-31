@@ -1,22 +1,22 @@
 ---
 title: Afbeeldingscomponent
-description: De Core Component Image is een adaptieve beeldcomponent die ter plekke kan worden bewerkt.
+description: De component Core Component Image is een adaptieve afbeeldingscomponent.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: f0971db66cbbf8221c12cedf108eee3bca8a527a
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
 
 # Afbeeldingscomponent{#image-component}
 
-De component Core Component Image is een adaptieve afbeeldingscomponent die op locatie kan worden bewerkt.
+De component Core Component Image is een adaptieve afbeeldingscomponent.
 
 ## Gebruik {#usage}
 
-De component Afbeelding biedt een adaptieve selectie van afbeeldingen en een responsief gedrag bij het lui laden voor de bezoeker van de pagina en bij het eenvoudig plaatsen en uitsnijden van de afbeelding voor de auteur van de inhoud.
+De component Afbeelding biedt een adaptieve selectie van afbeeldingen en een responsief gedrag bij het laden van de pagina voor de bezoeker van de pagina en bij het eenvoudig plaatsen van de afbeelding voor de auteur van de inhoud.
 
 De breedte van de afbeelding en aanvullende instellingen kunnen door de sjabloonauteur worden gedefinieerd in het dialoogvenster [ontwerpdialoogvenster](#design-dialog). De inhoudeditor kan elementen uploaden of selecteren in het dialoogvenster [configureren, dialoogvenster.](#configure-dialog)
 
