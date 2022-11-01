@@ -4,9 +4,9 @@ description: Documentatie voor de lokale Maven-plug-in voor analyseprogramma's
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-source-git-commit: 98d8fac2a626a1f89ef1b109aa8cba27abf8203a
+source-git-commit: be66739084334120158eda96b830a7b6216ef5cd
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '668'
 ht-degree: 4%
 
 ---
@@ -38,6 +38,7 @@ Hieronder ziet u een tabel met een beschrijving van de analyseapparaten die als 
 | `configuration-api` | Valideert belangrijke OSGi-configuraties. <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | Ja | Ja |
 | `region-deprecated-api` | Controleert of [afgekeurde api](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html) wordt gebruikt <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Ja | Ja |
 | `artifact-rules` | Valideert afhankelijkheden zoals bundels en inhoudspakketten om bekende problemen in artefacten te voorkomen.<p> </p>`[WARNING] [artifact-rules] com.adobe.acs:acs-aem-commons-bundle:5.0.4: Use at least version 5.0.10 (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Ja | Ja |
+| `aem-env-var` | Controleert het gebruik van env vars volgens de [hulplijn voor variabele naamgeving](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#variable-naming)<p> </p>`[ERROR] Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Value for property 'port' must not use env vars prefixed with INTERNAL_ or ADOBE_ (com.mysite1:my-site-1.all:1.0.0-SNAPSHOT\|com.mysite1:my-site-1.ui.config:1.0.0-SNAPSHOT)` | Ja | Ja |
 | `content-package-validation` | Hiermee worden validators voor bestanden uitgevoerd. Door gebrek wordt jakobbit-docviewparser toegelaten die op goed gevormde inhoudssyntaxis van xml binnenpakketten controleert die tijdens plaatsing zullen worden geïnstalleerd.<p> </p>`[main] WARN org.apache.sling.feature.analyser.task.impl.CheckContentPackages - ValidationViolation: "jackrabbit-docviewparser: Invalid XML found: The reference to entity "se" must end with the ';' delimiter.", filePath=jcr_root/apps/somename/configs/com.adobe.test.Invalid.xml, nodePath=/apps/somename/configs/com.adobe.test.Invalid`<p> </p>Als u dit wilt corrigeren, controleert u het bestand dat door de analysator is benoemd op XML-problemen. | Ja | Ja |
 
 {style=&quot;table-layout:auto&quot;}
