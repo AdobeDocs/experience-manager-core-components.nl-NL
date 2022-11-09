@@ -4,22 +4,22 @@ description: Een beschrijving van het front-end bouwstijlproces voor React-based
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: dd8ef13a-9686-47a9-b6af-e486ff10c4d8
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 0eea0cd65063c739e5b405b0380b73962a858e48
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
 
 # Front-end build voor React SPA {#frontend-react}
 
-In dit document worden de details van het gemaakte project uitgelegd wanneer u het archetype gebruikt om een toepassing van één pagina (SPA) te maken die is gebaseerd op het React-framework. D.w.z. wanneer u de optie `frontendModule` op `react` plaatst.
+In dit document worden de details van het gemaakte project uitgelegd wanneer u het archetype gebruikt om een toepassing van één pagina (SPA) te maken die is gebaseerd op het React-framework. D.w.z. wanneer u de `frontendModule` optie voor `react`.
 
 ## Overzicht {#overview}
 
 Dit project is opgestart met [create-response-app](https://github.com/facebook/create-react-app).
 
-Deze toepassing is ontworpen om het AEM van een site te gebruiken. De lay-out wordt automatisch gegenereerd met behulp van de helpercomponenten uit het [@adobe/cq-response-editable-components](https://www.npmjs.com/package/@adobe/cq-react-editable-components)-pakket.
+Deze toepassing is ontworpen om het AEM van een site te gebruiken. De lay-out wordt automatisch gegenereerd met behulp van de hulplijncomponenten uit de [@adobe/cq-response-editable-components](https://www.npmjs.com/package/@adobe/aem-react-editable-components) pakket.
 
 ## Scripts {#scripts}
 
@@ -31,9 +31,9 @@ In de projectfolder, kunt u de volgende bevelen in werking stellen:
 npm start
 ```
 
-Met deze opdracht voert u de toepassing uit in de ontwikkelingsmodus door het JSON-model te proxen vanuit een lokale AEM-instantie die wordt uitgevoerd op http://localhost:4502. Dit veronderstelt dat het volledige project aan AEM minstens eens (`mvn clean install -PautoInstallPackage` in de projectwortel) is opgesteld.
+Met deze opdracht voert u de toepassing uit in de ontwikkelingsmodus door het JSON-model te proxen vanuit een lokale AEM-instantie die wordt uitgevoerd op http://localhost:4502. Dit veronderstelt dat het volledige project aan AEM minstens eens (`mvn clean install -PautoInstallPackage` in de hoofdmap van het project).
 
-Nadat u `npm start` in de map [ui.frontend](uifrontend.md) hebt uitgevoerd, wordt uw app automatisch geopend in uw browser (op pad `http://localhost:3000/content/<appId>/<country>/<language>/home.html`). Als u bewerkingen uitvoert, wordt de pagina opnieuw geladen.
+Na uitvoering `npm start` in de [ui.frontend](uifrontend.md) map, wordt uw app automatisch geopend in uw browser (op pad) `http://localhost:3000/content/<appId>/<country>/<language>/home.html`). Als u bewerkingen uitvoert, wordt de pagina opnieuw geladen.
 
 Als u fouten met betrekking tot CORS krijgt, zou u AEM als volgt kunnen willen vormen:
 
@@ -50,7 +50,7 @@ Als u fouten met betrekking tot CORS krijgt, zou u AEM als volgt kunnen willen v
 npm test
 ```
 
-Met deze opdracht start u de testruntime in de interactieve controlemodus. Zie [Documentatie van de Reactie over het runnen van tests](https://facebook.github.io/create-react-app/docs/running-tests) voor meer informatie.
+Met deze opdracht start u de testruntime in de interactieve controlemodus. Zie de [Documentatie over het uitvoeren van tests Reageren](https://facebook.github.io/create-react-app/docs/running-tests) voor meer informatie .
 
 ### npm-run-build {#npm-run-build}
 
@@ -58,17 +58,17 @@ Met deze opdracht start u de testruntime in de interactieve controlemodus. Zie [
 npm run build
 ```
 
-Met deze opdracht wordt de app voor productie naar de map build gemaakt. Het bundelt React op productiemodus en optimaliseert de bouwstijl voor de beste prestaties. Zie de [Reageer documentatie over plaatsing](https://facebook.github.io/create-react-app/docs/deployment) voor meer informatie.
+Met deze opdracht wordt de app voor productie naar de map build gemaakt. Het bundelt React op productiemodus en optimaliseert de bouwstijl voor de beste prestaties. Zie de [Documentatie over implementatie reageren](https://facebook.github.io/create-react-app/docs/deployment) voor meer informatie .
 
-Bovendien wordt uit de toepassing een AEM ClientLib gegenereerd met behulp van het [aem-clientlib-generator](https://github.com/wcm-io-frontend/aem-clientlib-generator)-pakket.
+Bovendien wordt uit de toepassing een AEM ClientLib gegenereerd met behulp van de [aem-clientlib-generator](https://github.com/wcm-io-frontend/aem-clientlib-generator) pakket.
 
 ## Browserondersteuning {#browser-support}
 
-Standaard gebruikt dit project de standaardinstelling [Browserslist](https://github.com/browserslist/browserslist) om doelbrowsers te identificeren. Bovendien bevat het programma polyvullingen voor functies in moderne talen om oudere browsers (bijvoorbeeld Internet Explorer 11) te ondersteunen. Als het steunen van dergelijke browsers geen vereiste is, kunnen de polyfill gebiedsdelen en de invoer worden verwijderd.
+Standaard gebruikt dit project [Browserslist](https://github.com/browserslist/browserslist)De standaardinstellingen van de optie om doelbrowsers te identificeren. Bovendien bevat het programma polyvullingen voor functies in moderne talen om oudere browsers (bijvoorbeeld Internet Explorer 11) te ondersteunen. Als het steunen van dergelijke browsers geen vereiste is, kunnen de polyfill gebiedsdelen en de invoer worden verwijderd.
 
 ## Codesplitsing {#code-splitting}
 
-De React app wordt gevormd om gebruik te maken van [code het splitsen](https://webpack.js.org/guides/code-splitting) door gebrek. Wanneer u de app voor productie maakt, wordt de code in verschillende delen uitgevoerd:
+De React-app is geconfigureerd om gebruik te maken van [code splitsen](https://webpack.js.org/guides/code-splitting) standaard. Wanneer u de app voor productie maakt, wordt de code in verschillende delen uitgevoerd:
 
 ```shell
 $ ls build/static/js
@@ -82,6 +82,6 @@ runtime~main.a8a9905a.js.map
 
 Als u alleen taken laadt wanneer deze vereist zijn, kunnen de prestaties van de app aanzienlijk worden verbeterd.
 
-Deze functie werkt alleen met AEM als de app kan bepalen welke JS- en CSS-bestanden moeten worden aangevraagd vanuit de HTML die door AEM wordt gegenereerd. Dit kan worden bereikt met behulp van de &quot;entrypoints&quot;-sleutel in het bestand asset-manifest.json. Het bestand wordt geparseerd in clientlib.config.js en alleen de entrypoint-bestanden worden gebundeld in de ClientLib. De resterende bestanden worden in de bronnenmap van ClientLib geplaatst en worden dynamisch aangevraagd en daarom alleen geladen wanneer ze echt nodig zijn.
+Deze functie kan alleen worden gebruikt met AEM als de app kan bepalen welke JS- en CSS-bestanden moeten worden aangevraagd bij de HTML die door AEM wordt gegenereerd. Dit kan worden bereikt met behulp van de &quot;entrypoints&quot;-sleutel in het bestand asset-manifest.json. Het bestand wordt geparseerd in clientlib.config.js en alleen de entrypoint-bestanden worden gebundeld in de ClientLib. De resterende bestanden worden in de bronnenmap van ClientLib geplaatst en worden dynamisch aangevraagd en daarom alleen geladen wanneer ze echt nodig zijn.
 
-Zie de algemene [ui.frontend moduledocumentatie](uifrontend.md#clientlibs) voor meer informatie over hoe AEM ClientLibs door het projectarchetype worden gebruikt.
+Zie de algemene [ui.frontend module documentatie](uifrontend.md#clientlibs) voor meer informatie over hoe AEM ClientLibs door het projectarchetype worden gebruikt.
