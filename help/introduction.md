@@ -3,9 +3,9 @@ title: Introductie van kerncomponenten
 description: Oplossingen voor problemen met de Core Components en anderen toestaan elementen te ontwerpen binnen AEM.
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '967'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ De kerncomponenten zijn een reeks gestandaardiseerde WCM-componenten (Web Conten
 
 |  |  |
 |---|---|
-| Gereed voor productie | De componenten van de Kern zijn 30 robuuste componenten die goed worden getest, wijd worden gebruikt, en die goed presteren. |
+| Gereed voor productie | De Componenten van de Kern zijn 30 robuuste componenten WCM die goed worden getest, wijd worden gebruikt, en die goed presteren. |
 | Klaar voor cloud | Of aan [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html), op [Beheerde services van Adobe](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)Op locatie werken ze gewoon. |
 | Veelzijdig | De componenten vertegenwoordigen generische concepten waarmee de auteurs vrijwel elke lay-out kunnen samenstellen. |
 | Configureerbaar | Sjabloonniveau [inhoudsbeleid](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies) bepalen welke functies de auteurs van de pagina al dan niet mogen gebruiken. |
@@ -47,7 +47,7 @@ De kerncomponenten zijn een reeks gestandaardiseerde WCM-componenten (Web Conten
 | Lokaliseerbaar | Met de slimme verwijzingsresolutie kunnen bepaalde componenten worden gevonden en [overeenkomstige gelokaliseerde inhoud automatisch renderen](get-started/localization.md). |
 | Open Bronnen | Als iets anders is dan zou moeten, [bijdragen aan uw verbeteringen!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
 
-## De componenten {#the-components}
+## De WCM-componenten {#the-wcm-components}
 
 In de huidige versie van Core Components zijn de volgende componenten beschikbaar.
 
@@ -124,3 +124,9 @@ Als u uw lokale ontwikkelomgeving wilt instellen, kunt u het beste uitchecken [d
 >De Core Components maken automatisch deel uit van AEM as a Cloud Service en u beschikt altijd over de nieuwste versie van de Core Components.
 >
 >Zie de [Basiscomponenten gebruiken](/help/get-started/using.md) document voor meer informatie over hoe u aan de slag kunt met de Core Components in AEMaaCS en in de bedrijfsruimten.
+
+## Overige onderdelen {#other-components}
+
+Er zijn extra componenten beschikbaar aan AEM auteurs, die op de Componenten van de Kern worden gebouwd.
+
+* [De e-mailkerncomponenten](/help/email/introduction.md) - Ontdek componenten die bovenop de Core Components specifiek voor gebruik met Adobe Campaign zijn gebouwd.
