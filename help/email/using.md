@@ -2,11 +2,10 @@
 title: De e-mailkerncomponenten gebruiken
 description: Leer over de basisinstallatie, de configuratie, en het gebruik van de Componenten E-mailCore.
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '653'
 ht-degree: 1%
 
 ---
@@ -22,7 +21,7 @@ De onderdelen van de e-mailkern kunnen worden gebruikt met AEM 6.5. Zie de [Sect
 
 ### Core Components installeren {#core-components}
 
-De onderdelen van de e-mailkern zijn gebaseerd op de AEM Core Components. Omdat de Core Components niet bij AEM worden geleverd, moet u eerst de AEM Core Components installeren voordat u de Email Core Components installeert.
+De onderdelen van de e-mailkern zijn gebaseerd op de AEM Core Components. Omdat de Core Components niet bij AEM 6.5 worden geleverd, moet u eerst de AEM Core Components installeren voordat u de Email Core Components installeert.
 
 Zie de sectie [Downloaden en installeren](/help/get-started/using.md#download-and-install) in het document Core Components (Basiscomponenten gebruiken) voor meer informatie over het installeren van de Core Components (Basiscomponenten installeren).
 
@@ -80,6 +79,4 @@ Nadat de e-mailcomponenten zijn geïnstalleerd en de integratie met Adobe Campai
 
 Zie de volgende bronnen voor een voorbeeld van het maken van e-mailinhoud in AEM en het leveren in Adobe Campaign.
 
-* AEM as a Cloud Service: [Campagnenieuwsbrieven maken met AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/campaign/creating-newsletters.html)
 * AEM 6.5: [Werken met Adobe Campaign Classic en Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html)
-

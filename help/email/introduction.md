@@ -2,11 +2,10 @@
 title: Inleiding e-mailkern-componenten
 description: Maak aantrekkelijke e-mailinhoud met de flexibiliteit van de Email Core Components en lever deze met de kracht van Adobe Campaign.
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '409'
 ht-degree: 1%
 
 ---
@@ -31,9 +30,9 @@ E-mails maken deel uit van de merkervaring en de reis van de klant. Met de E-mai
 
 * De Core Email Components zijn gebaseerd op de [kerncomponenten,](/help/introduction.md) en derhalve ook [Bewerkbare sjablonen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) en de [Stijlsysteem.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)
 * Er zijn [Tien onderdelen die geschikt zijn voor e-mail](#components) aan auteur e-mailinhoud.
-* De Core Email Components bieden geavanceerde personalisatie dankzij het invoegen van Adobe Campaign-variabelen in de meeste dialoogvelden.
-* De flexibele component van de Segmentatie staat voor geavanceerde segmentatie van uw inhoud toe.
-* De Core Email Components bieden een optimale e-mailvriendelijke HTML uitvoer dankzij de [CSS-stijlen inliner,](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner) [de inliner van het kenmerk HTML,](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner) en [de HTML-ontsmettingsinstallatie.](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizer)
+* De Core Email Components bieden geavanceerde personalisatie dankzij de invoeging van [Adobe Campaign-variabelen](campaign-variables.md) in de meeste dialoogvelden.
+* De flexibele [Segmenteringscomponent](/help/email/components/segmentation.md) staat voor geavanceerde segmentatie van uw inhoud toe.
+* De Core Email Components bieden een optimale e-mailvriendelijke HTML uitvoer dankzij de [CSS-stijlen inliner,](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner:-Technical-documentation) [de inliner van het kenmerk HTML,](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner) en [de HTML-ontsmettingsinstallatie.](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing)
 * U kunt overal hieronder e-mailinhoud maken `/content`.
 * De e-mailkerncomponenten zijn [open bron.](https://github.com/adobe/aem-core-email-components)
 
@@ -43,7 +42,7 @@ De onderdelen van de e-mailkern voldoen aan de volgende vereisten.
 
 | AEM | Adobe Campaign | Kernonderdelen |
 |---|---|---|
-| AEM 6.5.x.y (op locatie of AMS) | Adobe Campaign Classic vX<br>of<br>Adobe Campaign Standard | [Geen x](/help/versions.md) of hoger |
+| AEM 6.5.14.0+<br>Op locatie of AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [Release 2.21.2](/help/versions.md)+ |
 
 >[!NOTE]
 >
