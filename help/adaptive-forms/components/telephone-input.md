@@ -2,7 +2,7 @@
 title: Adaptive Forms Core Component - Telefonische invoer
 description: De Adaptive Forms Telephone Input Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
-source-git-commit: 0e4fb8454b7ef84eb5b1b73b01c982a2f9c12381
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '1698'
 ht-degree: 0%
@@ -30,8 +30,10 @@ De algemene redenen om een veld voor telefooninvoer te gebruiken in een adaptief
 
 De Adaptive Forms Telephone Input Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
+|  |  |
+|---|---|
 | Componentversie | AEM as a Cloud Service |
-|--- |--- |---|---|
+| — | --- |
 | v1 | Compatibel met<br>[versie 2.0.4](/help/versions.md) en hoger | Compatibel | Compatibel |
 
 Raadpleeg voor meer informatie over versies en releases van de Core Component de [Core Components-versies](/help/versions.md) document.
@@ -53,13 +55,19 @@ Met het dialoogvenster Configureren kunt u uw telefonische invoerervaring eenvou
 * **Naam** - U kunt een formuliercomponent gemakkelijk herkennen met de unieke naam, zowel in het formulier als in de regeleditor, maar de naam mag geen spaties of speciale tekens bevatten.
 
 * **Titel** - Met Titel kunt u een component gemakkelijk herkennen in een formulier. Standaard wordt de titel boven op de component weergegeven. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
+
 * **Titel verbergen** - Selecteer de optie om de titel van de component te verbergen.
 
 * **Plaatsaanduidingstekst** - Plaatsaanduidingstekst in een formuliercomponent verwijst naar een kort label of een korte vraag die binnen een invoerveld wordt weergegeven als een tip voor de gebruiker met betrekking tot welk type informatie naar verwachting in dat veld wordt ingevoerd. Plaatsaanduidingstekst verdwijnt wanneer de gebruiker in het veld typt en verschijnt opnieuw als het veld leeg blijft. De klasse biedt een visuele aanwijzing voor de gebruiker, maar fungeert niet als een permanent label of een permanente waarde voor het veld.
+
 * **Bindverwijzing** - Een bind verwijzing is een verwijzing naar een gegevenselement dat in een externe gegevensbron wordt opgeslagen en in een vorm wordt gebruikt. Met de bind-verwijzing kunt u gegevens dynamisch binden aan formuliervelden, zodat in het formulier de meest actuele gegevens uit de gegevensbron kunnen worden weergegeven. Een bind-verwijzing kan bijvoorbeeld worden gebruikt om de naam en het adres van een klant in een formulier weer te geven op basis van de id van de klant die in het formulier is ingevoerd. De bind verwijzing kan ook worden gebruikt om de gegevensbron met gegevens bij te werken ingegaan in de vorm. Op deze manier kunt u in AEM Forms formulieren maken die interageren met externe gegevensbronnen, zodat u een naadloze gebruikerservaring hebt voor het verzamelen en beheren van gegevens.
+
 * **Component verbergen** - Selecteer de optie om de component te verbergen voor het formulier. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel. Dit is handig wanneer u informatie wilt opslaan die niet hoeft te worden bekeken of rechtstreeks door de gebruiker hoeft te worden gewijzigd.
+
 * **Component uitschakelen** - Selecteer de optie om de component uit te schakelen. De uitgeschakelde component is niet actief of bewerkbaar voor de eindgebruiker. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
+
 * **Alleen-lezen** - Selecteer de optie om de component niet-bewerkbaar te maken. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
+
 * **Standaardwaarde** - Met deze optie kunt u een standaardwaarde toevoegen aan een formulierveld. Indien **Uitgeschakelde component** of **Component (alleen-lezen)** is geselecteerd, wordt de standaardwaarde op het scherm weergegeven. Als er geen waarde wordt ingevoerd door de gebruiker in het formulierveld, wordt deze waarde verzonden op het moment dat het formulier wordt verzonden
 
 ### Tabblad Validatie {#validation-tab}
@@ -78,10 +86,12 @@ Met het dialoogvenster Configureren kunt u uw telefonische invoerervaring eenvou
 
 * **Minimum aantal tekens** - Met deze optie kunt u het minimale aantal tekens opgeven dat in het veld is toegestaan. Als u tekens invoert die minder zijn dan de waarde die is opgegeven in **Minimum aantal tekens** verschijnt er een foutbericht op het scherm. De **Foutbericht voor minimale tekens** kunt u een aangepast foutbericht toevoegen.
 
-* **Foutbericht voor minimale tekens** - de **Foutbericht voor minimale tekens** kunt u een aangepast foutbericht toevoegen als u tekens invoert die kleiner zijn dan de waarde die in het dialoogvenster is opgegeven **Minimum aantal tekens** optie.
+* *Foutbericht voor minimale tekens** - De **Foutbericht voor minimale tekens** kunt u een aangepast foutbericht toevoegen als u tekens invoert die kleiner zijn dan de waarde die in het dialoogvenster is opgegeven **Minimum aantal tekens** optie.
 
 De **Validatiepatroon** kunt u een patroon invoeren om het ingevoerde telefoonnummer te valideren. Het ingevoerde telefoonnummer wordt gevalideerd tegen de waarde die is ingevoerd in het dialoogvenster **Patroon** optie. Als het telefoonnummer niet valideert met de ingevoerde waarde **Patroon** verschijnt het foutbericht op het scherm.
+
 * **Patroon** - Met deze optie kunt u de toegestane verificatiepatronen voor het telefoonnummer invoeren. Reguliere expressies zijn ook toegestaan.
+
 * **Foutbericht** - Met deze optie kunt u een bericht invoeren dat op het scherm wordt weergegeven als het ingevoerde telefoonnummer niet wordt gevalideerd met de waarde die is ingevoerd in het dialoogvenster **Patroon** option
 
 ### Het tabblad Help-inhoud {#help-content-tab}

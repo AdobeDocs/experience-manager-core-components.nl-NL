@@ -2,9 +2,9 @@
 title: Adaptieve Forms Core-component - Voettekst
 description: De Adaptive Forms Footer Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
-source-git-commit: 9a8b8661554eea2f669f17bee89f97165bcb58db
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '749'
 ht-degree: 1%
 
 ---
@@ -36,8 +36,10 @@ Er zijn verschillende redenen waarom het nuttig is om een voettekstcomponent in 
 
 De Adaptive Forms Footer Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
+|  |  |
+|---|---|
 | Componentversie | AEM as a Cloud Service |
-|--- |--- |---|---|
+| — | --- |
 | v1 | Compatibel met<br>[versie 2.0.4](/help/versions.md) en hoger | Compatibel | Compatibel |
 
 Raadpleeg voor meer informatie over versies en releases van de Core Component de [Core Components-versies](/help/versions.md) document.
@@ -60,52 +62,49 @@ Met het dialoogvenster Configureren kunt u de voettekstervaring voor bezoekers e
 * **Dialoogvenster Bewerken**
 Het dialoogvenster Bewerken bevat standaardgereedschappen voor tekstopmaak waarmee de gebruiker tekst voor de voettekst kan maken.
 
-   * **Vet** - Met deze optie past u vette opmaak toe op geselecteerde tekst of opgemaakte tekst die na de cursor wordt ingevoerd. `Ctrl+B` is een sneltoets.
+* **Vet** - Met deze optie past u vette opmaak toe op geselecteerde tekst of opgemaakte tekst die na de cursor wordt ingevoerd. `Ctrl+B` is een sneltoets.
 
-   * **Cursief** - Met deze optie wordt cursieve opmaak toegepast op geselecteerde tekst of cursieve tekst die na de cursor wordt ingevoerd. `Ctrl+I` is een sneltoets.
+* **Cursief** - Met deze optie wordt cursieve opmaak toegepast op geselecteerde tekst of cursieve tekst die na de cursor wordt ingevoerd. `Ctrl+I` is een sneltoets.
 
-   * **Opsommingsteken**
-
-      ![Opties voor opsommingstekens](/help/adaptive-forms/assets/footer_bullet.png)
-
-      * **Pictogram opsommingsteken** - De geselecteerde tekst wordt opgemaakt als een lijst met opsommingstekens of er wordt begonnen met het invoegen van een lijst met opsommingstekens na de cursor. Tik of klik nogmaals op de knop Opsommingsteken of voer twee regeleinden in om een lijst met opsommingstekens te beëindigen.
-
-      * **Pictogram Genummerde lijst** - De geselecteerde tekst wordt opgemaakt als een genummerde lijst of er wordt begonnen met het invoegen van een genummerde lijst na de cursor. Tik of klik nogmaals op de knop Genummerd om een genummerde lijst te beëindigen of voer twee regeleinden in.
-
-      * **Pictogram Uitspringen** - Hiermee verlaagt u het inspringingsniveau van de geselecteerde tekst of tekst die u na de cursor invoert. Alleen actief als de geselecteerde tekst of positie van de cursor al is ingesprongen.
-
-      * **Pictogram Inspringen** - Hiermee verhoogt u het inspringingsniveau van de geselecteerde tekst of tekst die u na de cursor invoert.
-   * **Hyperlink**
-
-      ![Hyperlinkopties](/help/adaptive-forms/assets/footer_link.png)
+![Opties voor opsommingstekens](/help/adaptive-forms/assets/footer_bullet.png)
 
 
-      * **Pad** - Voer het pad in
-         1. Kies in het dialoogvenster Selectie openen een pad in AEM.
-         1. Als de koppeling zich niet binnen AEM bevindt, voert u de absolute URL in.
-         1. Niet-absolute paden worden geïnterpreteerd als relatief ten opzichte van AEM.
-      * **Alternatieve tekst** - Voer alternatieve beschrijvende tekst in voor de koppeling.
+* **Opsommingsteken**
 
-      * **Doel** - Koppelingsgedrag selecteren
-         * Doel
-         * Zelfde tabblad
-         * Nieuw tabblad
-         * Bovenliggend frame
-         * Bovenste frame
+   * **Pictogram opsommingsteken** - De geselecteerde tekst wordt opgemaakt als een lijst met opsommingstekens of er wordt begonnen met het invoegen van een lijst met opsommingstekens na de cursor. Tik of klik nogmaals op de knop Opsommingsteken of voer twee regeleinden in om een lijst met opsommingstekens te beëindigen.
+
+   * **Pictogram Genummerde lijst** - De geselecteerde tekst wordt opgemaakt als een genummerde lijst of er wordt begonnen met het invoegen van een genummerde lijst na de cursor. Tik of klik nogmaals op de knop Genummerd om een genummerde lijst te beëindigen of voer twee regeleinden in.
+
+   * **Pictogram Uitspringen** - Hiermee verlaagt u het inspringingsniveau van de geselecteerde tekst of tekst die u na de cursor invoert. Alleen actief als de geselecteerde tekst of positie van de cursor al is ingesprongen.
+
+   * **Pictogram Inspringen** - Hiermee verhoogt u het inspringingsniveau van de geselecteerde tekst of tekst die u na de cursor invoert.
+
+![Hyperlinkopties](/help/adaptive-forms/assets/footer_link.png)
+
+* **Hyperlink**
+
+   * **Pad** - Voer het pad in
+      1. Kies in het dialoogvenster Selectie openen een pad in AEM.
+      1. Als de koppeling zich niet binnen AEM bevindt, voert u de absolute URL in.
+      1. Niet-absolute paden worden geïnterpreteerd als relatief ten opzichte van AEM.
+   * **Alternatieve tekst** - Voer alternatieve beschrijvende tekst in voor de koppeling.
+
+   * **Doel** - Koppelingsgedrag selecteren
+      * Doel
+      * Zelfde tabblad
+      * Nieuw tabblad
+      * Bovenliggend frame
+      * Bovenste frame
    * **Pictogram Ontkoppelen** - Met deze optie verwijdert u een koppeling die al op de geselecteerde tekst is toegepast. Deze optie is alleen actief als de koppeling al is geselecteerd.
 
    * **Pictogram Alineaopmaak** - Met deze optie kunt u alineaopmaak toepassen op de geselecteerde tekst. Het helpt u ook om de tekst op te maken die na de curseur wordt opgenomen. Hiermee wordt het kopniveau van de titel gedefinieerd.
 
 
 
-* **ID**
-Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de gegevenslaag.
+* **ID**: Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de gegevenslaag.
 
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. Deze kan worden gevonden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
-
-## Ontwerpdialoogvenster {#design-dialog}
-
 
 

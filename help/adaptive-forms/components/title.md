@@ -2,7 +2,7 @@
 title: Adaptive Forms Core Component - Titel
 description: De Adaptive Forms Title Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
-source-git-commit: 0e4fb8454b7ef84eb5b1b73b01c982a2f9c12381
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 1%
@@ -40,8 +40,10 @@ Over het algemeen is de titel van een formulier een belangrijk aspect van de geb
 
 De Adaptive Forms Title Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
+|  |  |
+|---|---|
 | Componentversie | AEM as a Cloud Service |
-|--- |--- |---|---|
+| — | --- |
 | v1 | Compatibel met<br>[versie 2.0.4](/help/versions.md) en hoger | Compatibel | Compatibel |
 
 Raadpleeg voor meer informatie over versies en releases van de Core Component de [Core Components-versies](/help/versions.md) document.

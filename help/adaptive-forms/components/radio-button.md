@@ -2,7 +2,7 @@
 title: Adaptieve Forms Core-component - Keuzerondje
 description: De Adaptive Forms Radio Button Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
-source-git-commit: 1e6460d318f4f9a5dfdcbb81723da01b51b72f3f
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 0%
@@ -44,8 +44,10 @@ Er zijn verschillende redenen om keuzerondjes in een formulier te gebruiken, zoa
 
 De Adaptive Forms Radio Button Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
+|  |  |
+|---|---|
 | Componentversie | AEM as a Cloud Service |
-|--- |--- |---|---|
+| — | --- |
 | v1 | Compatibel met<br>[versie 2.0.4](/help/versions.md) en hoger | Compatibel | Compatibel |
 
 Raadpleeg voor meer informatie over versies en releases van de Core Component de [Core Components-versies](/help/versions.md) document.
@@ -80,6 +82,7 @@ Met het dialoogvenster Configureren kunt u de ervaring met keuzerondjes eenvoudi
 * **Bindverwijzing** - Een bind verwijzing is een verwijzing naar een gegevenselement dat in een externe gegevensbron wordt opgeslagen en in een vorm wordt gebruikt. Met de bind-verwijzing kunt u gegevens dynamisch binden aan formuliervelden, zodat in het formulier de meest actuele gegevens uit de gegevensbron kunnen worden weergegeven. Een bind-verwijzing kan bijvoorbeeld worden gebruikt om de naam en het adres van een klant in een formulier weer te geven op basis van de id van de klant die in het formulier is ingevoerd. De bind verwijzing kan ook worden gebruikt om de gegevensbron met gegevens bij te werken ingegaan in de vorm. Op deze manier kunt u in AEM Forms formulieren maken die interageren met externe gegevensbronnen, zodat u een naadloze gebruikerservaring hebt voor het verzamelen en beheren van gegevens.
 
 * **Gegevenstype van verzonden waarde** - Met deze optie geeft u het gegevenstype op van de waarde die wordt verzonden wanneer een optie is geselecteerd. Als de **gegevenstype van verzonden waarde** is ingesteld op `Number` en u voegt tekenreeksgegevens toe aan **Gegevenswaarde** &#x200B; &#x200B; **Opties** tabblad geeft het scherm een `Value type mismatch` foutbericht.
+
 * **Standaardopties** - Met deze optie kunt u standaardwaarden toevoegen die vooraf zijn geselecteerd wanneer het formulier wordt geladen. Als de **gegevenstype van verzonden waarde** is ingesteld op `Number` en u voegt tekenreeksgegevens toe aan **Standaardopties**, wordt een `Value type mismatch` foutbericht.
 
 * **Weergaveopties** - Deze optie wordt gebruikt om de visuele uitlijning van keuzerondjes in een adaptief formulier in te stellen. De twee ondersteunde opties zijn:
@@ -128,3 +131,4 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor een component te
 **Standaard CSS-klassen**: U kunt een standaard CSS-klasse opgeven voor de Adaptive Forms Radio Button Core Component.
 
 **Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight&quot; opgeven: vet&quot;. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
+

@@ -2,7 +2,7 @@
 title: Adaptieve Forms Core-component - Bestandsbijlage
 description: De Adaptive Forms-component voor bestandsbijlagen gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
-source-git-commit: 1e6460d318f4f9a5dfdcbb81723da01b51b72f3f
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 0%
@@ -37,8 +37,10 @@ Er zijn verschillende redenen waarom het nuttig is om een component voor bestand
 
 De Adaptive Forms File Attachment Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
+|  |  |
+|---|---|
 | Componentversie | AEM as a Cloud Service |
-|--- |--- |---|---|
+| — | --- |
 | v1 | Compatibel met<br>[versie 2.0.4](/help/versions.md) en hoger | Compatibel | Compatibel |
 
 Raadpleeg voor meer informatie over versies en releases van de Core Component de [Core Components-versies](/help/versions.md) document.

@@ -2,7 +2,7 @@
 title: Adaptive Forms Core Component - Nummerinvoer
 description: De Adaptive Forms Number input Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
-source-git-commit: 6ea000f9259e9478ee3c0923ac35af7814e184d9
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '1780'
 ht-degree: 0%
@@ -39,8 +39,10 @@ Er zijn verschillende redenen waarom het nuttig is om een numerieke invoercompon
 
 De Adaptive Forms Number input Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
+|  |  |
+|---|---|
 | Componentversie | AEM as a Cloud Service |
-|--- |--- |---|---|
+| — | --- |
 | v1 | Compatibel met<br>[versie 2.0.4](/help/versions.md) en hoger | Compatibel | Compatibel |
 
 Raadpleeg voor meer informatie over versies en releases van de Core Component de [Core Components-versies](/help/versions.md) document.
@@ -93,6 +95,7 @@ Met het dialoogvenster Configureren kunt u de gebruikersinvoer voor bezoekers ee
 * **Minimumwaarde uitsluiten** - Schakel dit selectievakje in als u niet de minimumwaarde wilt opgeven in het dialoogvenster **Laagste getal / Kleinste getal** op te nemen in het bereik van waarden die &#x200B; worden ingevoerd in het formulierveld.
 
 * **Hoogste getal / Grootste getal** - Gebruik deze optie om het maximum toegestane aantal in te voeren in het formulierveld te selecteren. Als het getal groter is dan het getal dat is opgegeven in **Hoogste getal / Grootste getal** wordt ingevoerd in het formulierveld, wordt het foutbericht weergegeven.
+
 * **Maximum foutbericht** - Met deze optie kunt u een foutbericht invoeren dat wordt weergegeven wanneer de gebruiker een waarde invoert die groter is dan de waarde die is opgegeven in het dialoogvenster **Hoogste getal / Grootste getal** optie.
 
 * **Maximumwaarde uitsluiten** - Schakel dit selectievakje in als u niet de maximumwaarde wilt opgeven in het dialoogvenster **Hoogste getal / Grootste getal** in het formulierveld in te voeren waarden.

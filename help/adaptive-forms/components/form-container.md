@@ -2,9 +2,9 @@
 title: Adaptieve Forms Core-component - Formuliercontainer
 description: Voeg een adaptief formulier toe aan een webpagina.
 role: Architect, Developer, Admin, User
-source-git-commit: 7f680eac1da61b55f9d90db6c0842421d03ac1dc
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '698'
 ht-degree: 1%
 
 ---
@@ -41,8 +41,10 @@ Er zijn verschillende redenen waarom een formulier aan een website kan worden to
 
 De Adaptive Forms Container Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
+|  |  |
+|---|---|
 | Componentversie | AEM as a Cloud Service |
-|--- |--- |---|---|
+| — | --- |
 | v1 | Compatibel met<br>[versie 2.0.4](/help/versions.md) en hoger | Compatibel | Compatibel |
 
 Raadpleeg voor meer informatie over versies en releases van de Core Component de [Core Components-versies](/help/versions.md) document.
@@ -72,6 +74,7 @@ Met het dialoogvenster Configureren kunt u de ervaring van uw formuliercontainer
 ![Tabblad Verzending](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
 
 Gebruikers kunnen verschillende handelingen configureren voor het verzenden van een adaptief formulier.
+
 * **URL/pad omleiden** - Met deze optie kan de gebruiker een pagina configureren voor elk formulier, waarnaar de gebruikers van het formulier worden omgeleid na het verzenden van een adaptief formulier. Klik hier voor meer informatie over [omleidingspagina&#39;s configureren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html).
 
 ![Tabblad Bericht tonen](/help/adaptive-forms/assets/formconatiner_showmessage.png)
@@ -80,7 +83,6 @@ Gebruikers kunnen verschillende handelingen configureren voor het verzenden van 
 
 * **Handeling verzenden** - Een handeling Verzenden wordt geactiveerd wanneer een gebruiker op de knop Verzenden klikt op een adaptief formulier. Gebruikers kunnen in de vervolgkeuzelijst de optie Handelingen verzenden selecteren die in het vak worden ondersteund. Leer hoe u [Een handeling verzenden configureren op het tabblad Verzending](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br).
 
-## Ontwerpdialoogvenster {#design-dialog}
 
 
 

@@ -2,9 +2,9 @@
 title: Inleiding Adaptive Forms Core Components AEM
 description: Maak aantrekkelijke inschrijvingservaringen (formulieren) met de flexibiliteit van de Adaptive Forms Core Components en lever deze met de kracht van Adobe Experience Manager.
 role: Architect, Developer, Admin, User
-source-git-commit: 781cf351ef52cbb56ff33c2674c8af591c81a30e
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1202'
 ht-degree: 2%
 
 ---
@@ -18,15 +18,11 @@ Met behulp van de Adaptive Forms Core Components in Adobe Experience Manager kun
 
 In Adobe Experience Manager (AEM) zijn componenten de bouwstenen die worden gebruikt om pagina&#39;s en formulieren te maken. Ze bieden auteurs een eenvoudige en krachtige manier om inhoud te maken en te beheren en bieden ontwikkelaars ook de flexibiliteit en uitbreidbaarheid die nodig zijn om aangepaste componenten te maken.
 
-De Core Components zijn een reeks vooraf gebouwde, gestandaardiseerde WCM componenten die worden ontworpen om ontwikkelingstijd te versnellen en onderhoudskosten voor websites te drukken. Deze componenten bevatten onder andere tekstvelden, afbeeldingen, video&#39;s en meer. Ze zijn ontworpen om flexibel te zijn en kunnen eenvoudig worden aangepast aan de specifieke behoeften van een website.
+De software is ontworpen om de ontwikkelingstijd te versnellen en de onderhoudskosten voor websites en formulieren te verlagen, flexibel te zijn en eenvoudig te kunnen worden aangepast aan de specifieke behoeften van een website en formulier.
 
 De Core Components zijn ook ontworpen om responsief te zijn en ondersteuning te bieden voor een groot aantal apparaten, zoals desktops, tablets en smartphones. Ze houden zich ook aan de nieuwste webstandaarden en best practices, waardoor ze een robuuste en betrouwbare oplossing zijn voor het maken van webinhoud.
 
-Bovendien zijn de Core Components ontworpen om naadloos met andere delen van AEM te werken, zodat auteurs en ontwikkelaars boeiendere en interactieve formulieren kunnen maken met minder moeite en minder tijd.
-
 Over het algemeen vormen de Core Components een essentieel instrument voor het maken en beheren van webinhoud in AEM, dat een krachtige en flexibele oplossing biedt die kan helpen de ontwikkelingstijd en onderhoudskosten te verlagen en tevens de bezoekers van de website een geweldige gebruikerservaring biedt.
-
-In Adobe Experience Manager zijn componenten de structuurelementen die de inhoud vormen van de pagina&#39;s en formulieren die worden gemaakt. Componenten zijn altijd een fundamenteel element geweest van de AEM-ervaring. Hierdoor kunnen pagina&#39;s en formulieren eenvoudig maar krachtig worden gemaakt voor de auteur en de ontwikkeling van componenten flexibel en uitbreidbaar voor de ontwikkelaar. De kerncomponenten zijn een reeks gestandaardiseerde WCM-componenten (Web Content Management) om de ontwikkelingstijd te versnellen en de onderhoudskosten van uw websites te verlagen.
 
 ## Adaptieve Forms Core-componenten
 
@@ -54,19 +50,33 @@ Bovendien, aangezien deze componenten open-bron zijn, hebben de ontwikkelaars de
 
 ## Voordelen {#benefits}
 
-Ervaringen met het vastleggen van gegevens zijn van cruciaal belang voor het genereren en inschrijven van leads en de Adaptive Forms Core Components bieden een krachtige oplossing voor het maken van formulieren die zijn geoptimaliseerd voor het vastleggen van gegevens. Enkele redenen om de Componenten van de Kern te gebruiken om deze ervaringen tot stand te brengen zijn:
+Ervaringen met het vastleggen van gegevens zijn van cruciaal belang voor het genereren en inschrijven van leads en de Adaptive Forms Core Components bieden een krachtige oplossing voor het maken van formulieren die zijn geoptimaliseerd voor het vastleggen van gegevens. Enkele redenen om de Componenten van de Kern te gebruiken om deze ervaringen over stichtingscomponenten tot stand te brengen:
 
-* **Aanpassing**: Met de adaptieve Forms Core-componenten kunnen ontwikkelaars de weergave en het gedrag van formuliercomponenten, zoals tekstvelden, selectievakjes en vervolgkeuzemenu&#39;s, eenvoudig aanpassen om aan specifieke vereisten te voldoen.
+* **Beschikbaarheid op GitHub en uitvoerige documentatie**: De AEM Adaptieve Componenten van de Kern van Forms zijn open-bron en beschikbaar op GitHub, samen met uitvoerige documentatie. Dit maakt het voor ontwikkelaars gemakkelijker om de componenten te begrijpen en hoe zij werken, en aan hun ontwikkeling bij te dragen. De website aemcomponents.dev is ook een waardevolle bron, waar ontwikkelaars de componenten in actie kunnen zien en toegang hebben tot gedetailleerde documentatie.
+
+* **BEM-model voor opmaken**: De kerncomponenten volgen het BEM-model (Block Element Modifier) voor opmaak. Dit is een gangbare en veelgebruikte methode voor het ordenen van CSS. Op deze manier kunnen ontwikkelaars gemakkelijker begrijpen hoe de stijlen zijn ingedeeld en hoe ze aan hun specifieke behoeften kunnen worden aangepast.
+
+* **Geen afhankelijkheid van bibliotheken van derden**: Een van de voordelen van de Core Components is dat deze niet afhankelijk zijn van JavaScript-bibliotheken van derden, waaronder JQuery en Underscore. Hierdoor worden de componenten sneller en lichter, maar ook eenvoudiger te integreren in een bestaande AEM.
+
+* **Focus op prestaties en toegankelijkheid**: De Core Components zijn gebouwd met het oog op prestaties en toegankelijkheid, wat wordt weerspiegeld in hun hoge Google Lighthouse- en web vitals-scores. Op die manier kunnen ontwikkelaars gemakkelijker toegankelijke en goed presterende webpagina&#39;s maken, wat steeds belangrijker wordt in het huidige digitale landschap.
+
+* **Formuliercomponenten in Sites 30-sjabloon en -thema&#39;s**: De kerncomponenten bieden ondersteuning voor formuliercomponenten in de Sites 30-sjabloon en -thema&#39;s, zodat ontwikkelaars gemakkelijker formulieren kunnen maken en aanpassen binnen AEM.
+
+* **Eenvoudigere stijl**: De componenten van de Kern zijn gemakkelijker om dan hun stichtingscomponenten te stichten. Het proces voor het maken van thema&#39;s lijkt op Sites, waarbij u hetzelfde thema/CSS kunt overnemen van de bovenliggende pagina Sites. Bovendien maakt het BEM-model voor opmaak het eenvoudiger om de stijlen te begrijpen en wijzigen.
 
 * **Toegankelijkheid**: Aangepaste Forms Core-componenten ondersteunen toegankelijkheidsstandaarden en -richtlijnen, zoals  [WCAG 2.1-standaard](https://www.w3.org/TR/WCAG21/), om ervoor te zorgen dat formulieren kunnen worden gebruikt door mensen met een handicap, inclusief personen die gebruik maken van ondersteunende hulpmiddelen zoals schermlezers.
 
-* **Consistente formulieren**: Met behulp van Adaptive Forms Core Components kunnen ontwikkelaars formulieren maken die er consistent uitzien, zodat gebruikers de formulieren eenvoudiger kunnen begrijpen en invullen, wat leidt tot een grotere betrokkenheid en een verbeterde gebruikerservaring.
+* **Uitlijning op AEM Sites**: De Core Components zijn ontworpen om meer op AEM Sites te worden gericht, die het voor de gebruikers van Plaatsen gemakkelijker maakt om hen te adopteren en te gebruiken zonder het moeten om het even wat nieuw leren. De componenten gebruiken de zelfde front-end pijpleiding zoals Plaatsen, die het gemakkelijker maken om hun verschijning te stileren en te wijzigen. Bovendien wordt deze uitlijning nader geïllustreerd door de volgende punten:
 
-* **WYSIWYG-editor**: AEM Forms biedt een gebruikersvriendelijke interface, gebruiksvriendelijke WYSIWYG-editor om deze componenten te gebruiken voor het maken van een adaptief formulier. Auteurs van formulieren kunnen formulieren maken en bewerken zonder dat ze hoeven te weten hoe ze moeten programmeren. Het omvat ook een visuele regelredacteur om u te helpen regel-gebaseerde acties gemakkelijk tot stand brengen en complexe logica uitvoeren om vormgedrag te automatiseren zonder het moeten code schrijven.
+   * **Inline ontwerpen met paginabewerker**: De componenten van de Kern hebben een auteurservaring die met de redacteur van Plaatsen, met dialogen en andere ervaringen gelijkend op de redacteur van de Pagina inline is. Sites-gebruikers kunnen zo gemakkelijker formulieren maken en beheren binnen de vertrouwde context van de Sites-editor.
 
-* **Voorwaardelijke logica**: Adaptieve Forms Core-componenten ondersteunen het gebruik van voorwaardelijke logica. Dit betekent dat de weergave of het gedrag van formuliercomponenten kan worden gewijzigd op basis van de waarden die de gebruiker heeft ingevoerd. Bepaalde velden kunnen bijvoorbeeld worden verborgen of verplicht worden gesteld op basis van de selectie in andere velden.
+   * **Formulier inline bewerken in Sites-editor**: De Componenten van de Kern staan gealigneerde vorm het uitgeven binnen de redacteur van Plaatsen toe, vermijdend de behoefte om tussen redacteurs af en toe te schakelen. Hierdoor wordt de ontwerpervaring gestroomlijnd en wordt het eenvoudiger om formulieren te maken en te beheren.
 
-* **Gegevensvalidatie**: Adaptieve Forms Core-componenten bieden ingebouwde mogelijkheden voor gegevensvalidatie, waarmee ontwikkelaars kunnen garanderen dat door gebruikers ingevoerde gegevens voldoen aan specifieke criteria, zoals minimale en maximale lengte, vereiste waarden en specifieke indelingen.
+   * **Sites-functies overnemen in Forms**: Forms die is gemaakt op een sitepagina, neemt dezelfde functies over als Sites. Dit biedt een naadloze en geïntegreerde ervaring voor het maken en beheren van formulieren in de context van AEM Sites
+
+   <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
+
+
 
 ## Vereisten {#requirements}
 

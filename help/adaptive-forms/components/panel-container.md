@@ -2,9 +2,9 @@
 title: Adaptive Forms Core Component - Panel container
 description: Het gebruiken van of het aanpassen van de Adaptive Forms Panel containerComponent van de Kern.
 role: Architect, Developer, Admin, User
-source-git-commit: 77ff7425be1e591b8f5b973a344d7def8191c033
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -38,8 +38,10 @@ Er zijn verschillende redenen om een deelvenster in een formulier te gebruiken, 
 
 De Adaptive Forms Panel Container Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
+|  |  |
+|---|---|
 | Componentversie | AEM as a Cloud Service |
-|--- |--- |---|---|
+| — | --- |
 | v1 | Compatibel met<br>[versie 2.0.4](/help/versions.md) en hoger | Compatibel | Compatibel |
 
 Raadpleeg voor meer informatie over versies en releases van de Core Component de [Core Components-versies](/help/versions.md) document.
@@ -92,7 +94,6 @@ Met het dialoogvenster Configureren kunt u de containerervaring van het deelvens
 
 * **HTML-rol voor schermlezer om aan te kondigen** - De rol HTML is een kenmerk dat wordt gebruikt om het doel van een element HTML aan ondersteunende hulpmiddelen, zoals schermlezers, op te geven. Het rolattribuut wordt gebruikt om extra context en semantische betekenis aan een element te verstrekken, die het voor schermlezers gemakkelijker maken om de inhoud te interpreteren en aan de gebruiker aan te kondigen. In AEM Forms heeft het label van een formulierveld bijvoorbeeld de rol &quot;label&quot; en kan het invoerveld de rol &quot;textbox&quot; hebben. Hierdoor kan de schermlezer de relatie tussen het label en het invoerveld begrijpen en deze correct aan de gebruiker meedelen.
 
-## Ontwerpdialoogvenster {#design-dialog}
 
 
 
