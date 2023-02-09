@@ -1,18 +1,18 @@
 ---
 sub-product: AEM Core Components
-user-guide-title: AEM kerncomponenten
-breadcrumb-title: Handleiding voor kerncomponenten
-user-guide-description: Met de uitbreidbare Core Components kunnen auteurs eenvoudig inhoud maken.
+user-guide-title: AEM-kerncomponenten
+breadcrumb-title: Gids voor kerncomponenten
+user-guide-description: Met de uitbreidbare kerncomponenten kunnen ontwerpers eenvoudig content maken.
 feature-set: Experience Manager Sites
-source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
+source-git-commit: 534b4f0f8a298772de0f2f899dd4cfbaa3db4e74
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 5%
+source-wordcount: '360'
+ht-degree: 10%
 
 ---
 
 
-# Help AEM Core Components {#using}
+# AEM-kerncomponenten Help {#using}
 
 + [Introductie van kerncomponenten](introduction.md)
 + [Paden naar succes](developing/success.md)
@@ -98,6 +98,30 @@ ht-degree: 5%
       + [Ervaar fragment](/help/email/components/experience-fragment.md)
       + [Inhoudsfragment](/help/email/components/content-fragment.md)
       + [Segmentering](/help/email/components/segmentation.md)
++ Adaptieve Forms {#adaptive-forms}
+   + [Inleiding](/help/adaptive-forms/introduction.md)
+   + Aangepaste Forms-componenten {#adaptive-forms-components}
+      + [Adaptieve Forms-accordeon](/help/adaptive-forms/components/accordion.md)
+      + [Aangepaste Forms-knop](/help/adaptive-forms/components/button.md)
+      + [Aangepaste Forms Checkbox-groep](/help/adaptive-forms/components/checkbox-group.md)
+      + [Aangepaste Forms-datumkiezer](/help/adaptive-forms/components/date-picker.md)
+      + [Aangepaste Forms-vervolgkeuzelijst](/help/adaptive-forms/components/drop-down.md)
+      + [Adaptieve Forms-e-mailinvoer](/help/adaptive-forms/components/email-input.md)
+      + [Aangepaste Forms-bestandsbijlagen](/help/adaptive-forms/components/file-attachment.md)
+      + [Adaptieve horizontale Forms-tabs](/help/adaptive-forms/components/horizontal-tabs.md)
+      + [Adaptieve Forms-afbeelding](/help/adaptive-forms/components/image.md)
+      + [Invoer adaptief Forms-nummer](/help/adaptive-forms/components/number-input.md)
+      + [Aangepast Forms-deelvenster](/help/adaptive-forms/components/panel-container.md)
+      + [Aangepaste Forms-keuzerondje](/help/adaptive-forms/components/radio-button.md)
+      + [Knop Adaptief Forms herstellen](/help/adaptive-forms/components/reset-button.md)
+      + [Knop Adaptief Forms verzenden](/help/adaptive-forms/components/submit-button.md)
+      + [Adaptieve Forms-telefooninvoer](/help/adaptive-forms/components/telephone-input.md)
+      + [Adaptieve Forms-tekst](/help/adaptive-forms/components/text.md)
+      + [Adaptief Forms-tekstvak](/help/adaptive-forms/components/text-input.md)
+      + [Aangepaste Forms-titel](/help/adaptive-forms/components/title.md)
+      + [Aangepaste Forms Wizard Layout](/help/adaptive-forms/components/wizard.md)
+      + [Koptekst](/help/adaptive-forms/components/header.md)
+      + [Voettekst](/help/adaptive-forms/components/footer.md)
 + Ontwikkeling {#developing}
    + [Basiscomponenten ontwikkelen](developing/overview.md)
    + [Paden naar succes](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
