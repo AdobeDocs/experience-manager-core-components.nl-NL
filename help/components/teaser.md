@@ -3,9 +3,9 @@ title: Teaser-component
 description: De teaser-component kan een afbeelding, een titel, RTF-tekst en eventueel een koppeling naar andere inhoud weergeven.
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: cfc86203051739cbcdc30be0fb10ccffa7d583a5
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '988'
 ht-degree: 0%
 
 ---
@@ -81,10 +81,6 @@ De teastitel, beschrijving en afbeelding kunnen worden overgenomen van de gekopp
 * **Alternatieve tekst voor toegankelijkheid** - In dit veld kunt u een beschrijving van de afbeelding definiëren voor visueel gehandicapte gebruikers.
    * **Alternatieve tekst van pagina overnemen** - Bij deze optie wordt de alternatieve beschrijving van de waarde van het gekoppelde element van de optie `dc:description` metagegevens in DAM of van de huidige pagina als er geen element is gekoppeld.
 * **Geen alternatieve tekst bieden** - Deze optie markeert dat de afbeelding wordt genegeerd door ondersteunende hulpmiddelen, zoals schermlezers, wanneer de afbeelding zuiver decoratief is of anderszins geen aanvullende informatie naar de pagina overbrengt.
-
->[!NOTE]
->
->[Dynamic Media-functies](image.md#dynamic-media) zijn momenteel niet beschikbaar in de Taser-component.
 
 ### Tabblad Stijlen {#styles-tab-edit}
 
