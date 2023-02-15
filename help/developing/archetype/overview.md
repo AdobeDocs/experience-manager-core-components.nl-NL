@@ -4,7 +4,7 @@ description: Een projectmalplaatje voor op AEM gebaseerde toepassingen
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 2557a72b6bc9ea3f1fd0f73e53b5880f9b6d3ce7
+source-git-commit: 0d004c90e789f23ff9e121fbd8ae11df9c9748b2
 workflow-type: tm+mt
 source-wordcount: '1192'
 ht-degree: 1%
@@ -89,7 +89,7 @@ De afhankelijkheid van kerncomponenten wordt alleen toegevoegd voor versies met 
 | `includeExamples` | `n` | Bevat een [Componentbibliotheek](https://www.aemcomponents.dev/) voorbeeldsite (kan `y`, of `n`). |
 | `includeErrorHandler` | `n` | Bevat een aangepaste 404-responspagina die globaal is voor de gehele instantie (kan `y` of `n`). |
 | `includeCommerce` | `n` | Inclusief [CIF Core-componenten](https://github.com/adobe/aem-core-cif-components) afhankelijkheden en genereert overeenkomstige artefacten. |
-| `commerceEndpoint` |  | Alleen vereist voor CIF. Facultatief eindpunt van het handelssysteem te gebruiken dienst GraphQL (b.v. `https://hostname.com/grapql`). |
+| `commerceEndpoint` |  | Alleen vereist voor CIF. Optioneel eindpunt van de te gebruiken dienst van GraphQL van het handelssysteem (bv. `https://hostname.com/grapql`). |
 | `includeFormscommunications` | `n` | Inclusief [Forms Core-componenten](https://github.com/adobe/aem-core-forms-components) afhankelijkheden, sjablonen, formuliergegevensmodellen, thema&#39;s en genereert overeenkomstige artefacten voor Forms Communications-programma&#39;s. |
 | `includeFormsenrollment` | `n` | Inclusief [Forms Core-componenten](https://github.com/adobe/aem-core-forms-components) afhankelijkheden, sjablonen, formuliergegevensmodellen, thema&#39;s en genereert overeenkomstige artefacten voor Forms-inschrijvingsprogramma&#39;s. |
 | `sdkFormsVersion` | `latest` | Wanneer `aemVersion=cloud` en een van `includeFormsenrollment=y` of `includeFormscommunications=y`kan een Forms SDK-versie worden opgegeven (bijvoorbeeld `2020.12.17.02`). |
@@ -104,7 +104,7 @@ De afhankelijkheid van kerncomponenten wordt alleen toegevoegd voor versies met 
 
 | Archetype | AEM as a Cloud Service | AEM 6,5 | Java SE | Maven |
 |---------|---------|---------|---------|---------|
-| [39](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-39) | Continu | 6.5.7.0+ | 8, 11 | 3.3.9+ |
+| [40](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-40) | Continu | 6.5.7.0+ | 8, 11 | 3.3.9+ |
 
 Stel uw lokale ontwikkelomgeving in voor [as a Cloud Service SDK AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) of voor [oudere versies van AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
