@@ -3,9 +3,9 @@ title: Component List
 description: De component van de Lijst van de Component van de Kern staat voor de gemakkelijke verwezenlijking van dynamische en statische lijsten toe.
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: af908d77b30b7642b553f38c217136cfd5603108
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1208'
 ht-degree: 1%
 
 ---
@@ -20,15 +20,16 @@ De component List kan worden gebruikt om bijvoorbeeld een dynamische lijst met o
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De huidige versie van de component List is v3, die in februari 2022 is geïntroduceerd met release 2.18.0 van de Core Components, en die in dit document wordt beschreven.
+De huidige versie van de component List is v4, die in februari 2023 is geïntroduceerd met release 2.22.0 van de Core Components, en die in dit document wordt beschreven.
 
 In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
 
 | Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v3 | - | Compatibel | Compatibel |
-| [v2](v2/list.md) | Compatibel | Compatibel | Compatibel |
-| [v1](v1/list-v1.md) | Compatibel | Compatibel | Compatibel |
+| v4 | - | Compatibel | Compatibel |
+| [v3](/help/components/v3/list.md) | - | Compatibel | Compatibel |
+| [v2](/help/components/v2/list.md) | Compatibel | Compatibel | Compatibel |
+| [v1](/help/components/v1/list-v1.md) | Compatibel | Compatibel | Compatibel |
 
 Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
 
@@ -93,7 +94,15 @@ De lijst kan worden samengesteld met behulp van een vaste lijst met items.
 
 Tik of klik op de knop **Toevoegen** om een nieuw item aan de lijst toe te voegen.
 
-* Voer tekst in voor het item in de lijst of gebruik de optie **Dialoogvenster Selectie** om een item te kiezen uit AEM.
+* In de **Koppeling** veld voert een van beide in
+   * Een volledig gekwalificeerde URL
+   * Een relatieve URL naar bestaande AEM-inhoud
+      * U kunt de **Dialoogvenster Selectie** om een item te kiezen uit AEM.
+* In de **Tekst** , voert u de tekst in die voor de koppeling in de lijst wordt weergegeven.
+* Schakel het selectievakje in als de koppeling moet worden geopend op een nieuw browsertabblad
+
+Als er meer dan één item voor de lijst is gemaakt, kunt u de lijst rangschikken.
+
 * Gebruik de sleepgreep om de items in de lijst opnieuw te rangschikken.
 * Gebruik het prullenbakpictogram om items in de lijst te verwijderen.
 
@@ -154,7 +163,7 @@ Maximumaantal items dat in de lijst wordt weergegeven.
 
 Met het tabblad Iteminstellingen kunt u de opmaak van de lijstelementen configureren.
 
-![Iteminstellingen](/help/assets/list-edit-items.png)
+![Iteminstellingen](/help/assets/list-edit-item-settings.png)
 
 * **Items koppelen** - Items koppelen aan de corresponderende pagina
 * **Beschrijving tonen** - Beschrijvingen van het koppelingsitem weergeven
