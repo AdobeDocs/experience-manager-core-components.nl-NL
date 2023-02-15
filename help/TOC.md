@@ -4,9 +4,9 @@ user-guide-title: AEM-kerncomponenten
 breadcrumb-title: Gids voor kerncomponenten
 user-guide-description: Met de uitbreidbare kerncomponenten kunnen ontwerpers eenvoudig content maken.
 feature-set: Experience Manager Sites
-source-git-commit: 534b4f0f8a298772de0f2f899dd4cfbaa3db4e74
+source-git-commit: 199cd9e1e49a1f7b939aa9cc3a62dcb3e0db96cd
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '364'
 ht-degree: 10%
 
 ---
@@ -82,6 +82,8 @@ ht-degree: 10%
       + [Lijst (v2)](components/v2/list.md)
       + [Pagina (v2)](components/v2/page.md)
       + [Titel (v2)](components/v2/title.md)
+   + v3-componenten {#v3-components}
+      + [Lijst (v3)](components/v3/list.md)
 + E-mailcomponenten {#email}
    + [Inleiding](/help/email/introduction.md)
    + [De e-mailkerncomponenten gebruiken](/help/email/using.md)
