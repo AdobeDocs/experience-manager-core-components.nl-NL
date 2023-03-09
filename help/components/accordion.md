@@ -3,9 +3,9 @@ title: Accordion-component
 description: Met de component Core Component Accordion kunt u een verzameling deelvensters maken die zijn gerangschikt in een accordeon op een pagina.
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1068'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Document
 
 ## Diep koppelen aan een deelvenster {#deep-linking}
 
-De accordeon en [Componenten tabs](tabs.md) ondersteuning voor koppelingen rechtstreeks naar een deelvenster binnen de component.
+de accordeon, [Carousel](carousel.md) en [Componenten tabs](tabs.md) ondersteuning voor koppelingen rechtstreeks naar een deelvenster binnen de component.
 
 Dit doet u als volgt:
 

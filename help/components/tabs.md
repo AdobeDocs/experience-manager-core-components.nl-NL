@@ -3,9 +3,9 @@ title: Component Tabs
 description: Met de component Tabs kunt u meerdere tabbladen maken om de inhoud op een pagina te rangschikken.
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1033'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Document
 
 ## Diep koppelen aan een deelvenster {#deep-linking}
 
-De tabs en [Accordeoncomponenten](accordion.md) ondersteuning voor koppelingen rechtstreeks naar een deelvenster binnen de component.
+de tabs, [Carousel](carousel.md) en [Accordeoncomponenten](accordion.md) ondersteuning voor koppelingen rechtstreeks naar een deelvenster binnen de component.
 
 Dit doet u als volgt:
 

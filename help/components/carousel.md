@@ -3,9 +3,9 @@ title: Carousel-component
 description: Met de Carousel-component kan de auteur van de inhoud inhoud inhoud presenteren in een roterende carrousel.
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+source-git-commit: e0d3790b265ab27ac2116f0d8daf1a18ecd3d714
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,20 @@ De meest recente technische documentatie over de Carousel-component [kan op GitH
 
 Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
 
+## Diep koppelen aan een deelvenster {#deep-linking}
+
+De carrousel, [tabs,](tabs.md) en [Accordeoncomponenten](accordion.md) ondersteuning voor koppelingen rechtstreeks naar een deelvenster binnen de component.
+
+Dit doet u als volgt:
+
+1. De pagina met de component weergeven met de **[Weergeven als gepubliceerd](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** in de pagina-editor.
+1. Inspect de inhoud van de pagina en identificeer de id van het deelvenster.
+   * Bijvoorbeeld `id="carousel-bfe4fa6647-item-47f1a7ca67-tabpanel"`
+1. De id wordt het anker dat u met een hash aan de URL kunt toevoegen (`#`).
+   * Bijvoorbeeld `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#carousel-bfe4fa6647-item-47f1a7ca67-tabpanel`
+
+Wanneer u met de deelvenster-id als anker naar de URL navigeert, schuift de browser rechtstreeks naar de desbetreffende component en geeft deze het opgegeven deelvenster weer. Als het deelvenster is geconfigureerd om standaard niet te worden weergegeven, wordt er automatisch naar geschoven.
+
 ## Dialoogvenster Bewerken {#edit-dialog}
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud dia&#39;s toevoegen, hernoemen en opnieuw rangschikken en de instellingen voor automatische overgangen definiëren.
@@ -67,6 +81,7 @@ Gebruik de **Toevoegen** om de componentkiezer te openen en te kiezen welke comp
 
 Op de **Eigenschappen** kan de auteur van de inhoud de dia&#39;s instellen op een automatische overgang.
 
+* **Actief item** - De auteur van de inhoud kan bepalen welk tabblad actief is wanneer de pagina wordt geladen.
 * **Automatisch overgangsdia&#39;s** - Als de component actief is, gaat deze na een bepaalde vertraging automatisch naar de volgende dia.
 * **Vertraging overgang** - Wanneer u de overgangsdia&#39;s Automatisch selecteert, wordt deze waarde gebruikt om de vertraging tussen overgangen (in milliseconden) te bepalen.
 * **Automatisch onderbreken bij aanwijzen uitschakelen** - Wanneer **Automatisch overgangsdia&#39;s** is geselecteerd, wordt de carrouselovergang automatisch gepauzeerd wanneer de curseur over de carrousel beweegt. Selecteer deze optie om de overgang niet te pauzeren.
@@ -87,7 +102,13 @@ Op de **Eigenschappen** kan de auteur van de inhoud de dia&#39;s instellen op ee
 
 Op de **Toegankelijkheid** tab, waarden kunnen worden ingesteld voor [Toegankelijkheid ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) labels voor de component.
 
-* **Label** - Waarde van een ARIA-labelkenmerk voor de component
+* **Label** - Waarde van een aria-labelkenmerk voor de carrousel, dat de inhoud van de carrousel beschrijft
+* **Vorige** - Waarde van een aria-labelkenmerk voor het vorige knoplabel van de carrouselnavigatie
+* **Volgende** - Waarde van een aria-labelkenmerk voor het volgende knoplabel van de carrouselnavigatie
+* **Afspelen** - Waarde van een aria-labelkenmerk voor het afspeelknoplabel van de carrouselnavigatie
+* **Pauzeren** - Waarde van een aria-labelkenmerk voor het pauzeknoplabel van de carrouselnavigatie
+* **Tablist** - Waarde van een aria-labelkenmerk voor de lijst met items in de carrouselnavigatie
+* **Label voor aria van item instellen op titel** - Als deze optie is ingeschakeld, wordt de titel van de carrousel-items automatisch ingesteld op de aria-labelbeschrijving.
 
 ## Deelvenster selecteren {#select-panel}
 
@@ -116,8 +137,7 @@ De **Eigenschappen** wordt gebruikt om de standaardinstellingen voor de diaoverg
 ![Dialoogvenster Ontwerpen van de Carousel-component](/help/assets/carousel-design.png)
 
 * **Automatisch overgangsdia&#39;s** - Hiermee wordt gedefinieerd of de optie om de carrousel automatisch naar de volgende dia te verplaatsen standaard is ingeschakeld wanneer de auteur van de inhoud de carrouselcomponent aan een pagina toevoegt.
-* **Vertraging overgang** - Definieert de standaardwaarde van de overgangsvertraging tussen dia&#39;s (in milliseconden) wanneer de auteur van de inhoud de carrouselcomponent aan een pagina toevoegt.
-* **Automatisch onderbreken bij aanwijzen uitschakelen** - Definieert of standaard de optie voor het uitschakelen van het automatische pauzeren is ingeschakeld wanneer **Automatisch overgangsdia&#39;s** is geselecteerd door de auteur van de inhoud.
+* **Besturingselementen vooraf instellen** - Als deze optie is ingeschakeld, worden de besturingselementen vóór de carrouselitems geplaatst om de toegankelijkheid te verbeteren.
 
 ### Tabblad Toegestane componenten {#allowed-components-tab}
 
