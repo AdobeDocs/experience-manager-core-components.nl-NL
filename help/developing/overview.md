@@ -3,10 +3,10 @@ title: Basiscomponenten ontwikkelen
 description: De componenten van de Kern verstrekken robuuste en verlengbare basiscomponenten die eigenschap-rijke mogelijkheden, ononderbroken levering, componentenversioning, moderne implementatie, leuning prijsverhoging, en JSON de uitvoer van inhoud aanbieden.
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-source-git-commit: faf73c70a4bff387bed2f8cf6e48c39e597e51c7
+source-git-commit: 614bc5fd01a76a6888606faa4576e1695b77ba58
 workflow-type: tm+mt
 source-wordcount: '1559'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -43,14 +43,14 @@ Om het even welk nieuw project zou met de Componenten van de Kern moeten worden 
 
 Een grotere inspanning op een bestaand project (bijvoorbeeld rebranding of het algemene refactoring) biedt vaak een kans om aan de Componenten van de Kern te migreren. Om deze migratie te vergemakkelijken, heeft Adobe een aantal migratiehulpmiddelen verstrekt om de goedkeuring van de Componenten van de Kern en de recentste AEM aan te moedigen.
 
-[De AEM moderniseringsinstrumenten](http://opensource.adobe.com/aem-modernize-tools/) de gemakkelijke omzetting mogelijk maken van:
+[De AEM moderniseringsinstrumenten](https://opensource.adobe.com/aem-modernize-tools/) de gemakkelijke omzetting mogelijk maken van:
 
 * Statische sjablonen converteren naar bewerkbare sjablonen
 * Ontwerpconfiguraties omzetten naar beleid
 * Elementaire componenten omzetten naar kerncomponenten
 * De klassieke interface converteren naar een interface met aanraakbediening
 
-Voor meer informatie over het gebruik van deze instrumenten, [zie de documentatie](http://opensource.adobe.com/aem-modernize-tools/).
+Voor meer informatie over het gebruik van deze instrumenten, [zie de documentatie](https://opensource.adobe.com/aem-modernize-tools/).
 
 >[!NOTE]
 >
