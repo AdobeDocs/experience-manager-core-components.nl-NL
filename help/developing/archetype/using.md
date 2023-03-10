@@ -4,9 +4,9 @@ description: Gedetailleerde gebruiksinstructies voor het AEM Project Archetype
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: 06a620980c9cda02d1190747b12b929498fb79c2
+source-git-commit: ca61d71a2644465e74249058157d8dea2aa71352
 workflow-type: tm+mt
-source-wordcount: '2194'
+source-wordcount: '2198'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ De afhankelijkheid van kerncomponenten wordt alleen toegevoegd voor versies met 
 >
 >Het is aan te raden de `adobe-public` profiel naar uw Maven `settings.xml` om automatisch repo.adobe.com toe te voegen aan het gemaakte buildproces.
 >
->Een voorbeeld-POM [hier te vinden](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
+>Een voorbeeld-POM [hier te vinden](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17454.html?lang=en).
 
 ### Eigenschappen {#properties}
 
@@ -111,7 +111,7 @@ De volgende eigenschappen zijn beschikbaar wanneer het creëren van een project 
 | `includeExamples` | `n` | Bevat een [Componentbibliotheek](https://www.aemcomponents.dev/) voorbeeldsite (kan `y`, of `n`). |
 | `includeErrorHandler` | `n` | Bevat een aangepaste 404-responspagina die globaal is voor de gehele instantie (kan `y` of `n`). |
 | `includeCommerce` | `n` | Inclusief [CIF Core-componenten](https://github.com/adobe/aem-core-cif-components) afhankelijkheden en genereert overeenkomstige artefacten. |
-| `commerceEndpoint` |  | Alleen vereist voor CIF. Facultatief eindpunt van het handelssysteem te gebruiken dienst GraphQL (b.v. `https://hostname.com/grapql`). |
+| `commerceEndpoint` |  | Alleen vereist voor CIF. Optioneel eindpunt van de te gebruiken dienst van GraphQL van het handelssysteem (bv. `https://hostname.com/grapql`). |
 | `datalayer` | `y` | Integratie activeren met [Gegevenslaag Adobe-client](/help/developing/data-layer/overview.md). |
 | `amp` | `n` | Inschakelen [AMP](/help/developing/amp.md) ondersteuning voor gegenereerde projectsjablonen. |
 | `enableDynamicMedia` | `n` | Laat stichting DynamicMedia componenten in de montages van het projectbeleid toe en activeert de eigenschappen van Dynamic Media in het beleid van de component van het Beeld van de Kern. |
