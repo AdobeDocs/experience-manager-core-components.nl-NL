@@ -2,13 +2,13 @@
 title: Adaptive Forms Core Component - Titel
 description: De Adaptive Forms Title Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 1%
+source-wordcount: '862'
+ht-degree: 0%
 
 ---
-
 
 # Titel {#title-input-adaptive-forms-core-component}
 
@@ -38,15 +38,13 @@ Over het algemeen is de titel van een formulier een belangrijk aspect van de geb
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms Title Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms Accordion Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
-|  |  |
-|---|---|
-| Componentversie | AEM as a Cloud Service |
-| — | --- |
-| v1 | Compatibel met<br>[versie 2.0.4](/help/versions.md) en hoger | Compatibel | Compatibel |
+| Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
+|---|---|---|
+| v1 | Compatibel met<br>[versie 2.0.4](/help/adaptive-forms/version.md) en hoger | Compatibel met<br>[release 1.1.12](/help/adaptive-forms/version.md) en later, maar minder dan 2.0.0. |
 
-Raadpleeg voor meer informatie over versies en releases van de Core Component de [Core Components-versies](/help/versions.md) document.
+Raadpleeg voor meer informatie over versies en releases van de Core Component de [Core Components-versies](/help/adaptive-forms/version.md) document.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -74,28 +72,32 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud de titeltekst defini�
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
-Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de component Date-Picker te definiëren en te beheren.
+Het tabblad Ontwerp wordt gebruikt om CSS-stijlen voor de component Date-Picker te definiëren en te beheren.
 
 ### Titel
 
 Op het tabblad Titel kunnen sjabloonauteurs de standaardelementen en toegestane HTML-kopelementen voor formulierauteurs instellen:
 
-![Titel van dialoogvenster Ontwerp, tabblad](/help/assets/accordion-design-properties.png)
+![Titel van dialoogvenster Ontwerp, tabblad](/help/adaptive-forms/assets/title_heading.png)
 
 * **Toegestane kopelementen**: Een lijst met meerdere opties waarmee de sjabloonauteur kan kiezen welke koppen de auteur van het formulier kan gebruiken voor Titel.
 
 * **Standaardkopelement**: Een vervolgkeuzelijst die het standaardelement Kop voor de component Title instelt.
 
-
 ### Tabblad Stijlen {#styles-tab}
 
-Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De Adaptive Forms Date-Picker Core Component ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De Adaptive Forms Date-Picker Core Component ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
 
-**Standaard CSS-klassen**: U kunt een standaard CSS-klasse opgeven voor de Adaptive Forms Date-picker Core Component.
+![Titel van dialoogvenster Ontwerp, tabblad](/help/adaptive-forms/assets/title_styles.png)
 
-**Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight&quot; opgeven: vet&quot;. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
+* **Standaard CSS-klassen**: U kunt een standaard CSS-klasse opgeven voor de Adaptive Forms Date-picker Core Component.
+
+* **Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight&quot; opgeven: vet&quot;. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
 
 ### Tabblad Opmaak {#format-tab}
 
 Op het tabblad Indelingen kunt u standaard- en aangepaste datumnotaties opgeven.
+
+![Tabblad Indeling](/help/adaptive-forms/assets/title_styles.png)
+
 

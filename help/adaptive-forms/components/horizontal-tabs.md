@@ -2,13 +2,13 @@
 title: Adaptive Forms Core Component - Horizontale tabbladen
 description: De Adaptive Forms Horizontal tabs Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1609'
 ht-degree: 0%
 
 ---
-
 
 # Horizontale tabbladen {#horizontal-tabs-adaptive-forms-core-component}
 
@@ -30,15 +30,13 @@ De algemene redenen voor het gebruik van horizontale tabbladen in een adaptieve 
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms Horizontal tabs Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms Accordion Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
-|  |  |
-|---|---|
-| Componentversie | AEM as a Cloud Service |
-| — | --- |
-| v1 | Compatibel met<br>[versie 2.0.4](/help/versions.md) en hoger | Compatibel | Compatibel |
+| Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
+|---|---|---|
+| v1 | Compatibel met<br>[versie 2.0.4](/help/adaptive-forms/version.md) en hoger | Compatibel met<br>[release 1.1.12](/help/adaptive-forms/version.md) en later, maar minder dan 2.0.0. |
 
-Raadpleeg voor meer informatie over versies en releases van de Core Component de [Core Components-versies](/help/versions.md) document.
+Raadpleeg voor meer informatie over versies en releases van de Core Component de [Core Components-versies](/help/adaptive-forms/version.md) document.
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -80,7 +78,7 @@ De **Toevoegen** kunt u een component selecteren om als deelvenster toe te voege
 
 * **Pictogram** - Het pictogram geeft de component van het deelvenster in de lijst aan. U kunt de muisaanwijzer boven het pictogram plaatsen om de volledige naam van de component als knopinfo weer te geven.
 * **Beschrijving** - De beschrijving die wordt gebruikt als de tekst van het deelvenster. Standaard is dit de naam van de component die voor het deelvenster is geselecteerd.
-* **Verwijderen** - Tik of klik om het deelvenster uit de accordeoncomponent te verwijderen.
+* **Verwijderen** - Tik of klik om het deelvenster uit de horizontale tabcomponent te verwijderen.
 * **Opnieuw rangschikken** - Tik of klik en sleep om de volgorde van de deelvensters te wijzigen.
 
 ### Het tabblad Help-inhoud {#help-content}
@@ -103,10 +101,10 @@ De **Toevoegen** kunt u een component selecteren om als deelvenster toe te voege
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
-De dialoog van het Ontwerp laat malplaatjemakers controleren hoe de dingen door gebrek worden getoond. Voor de Adaptieve Forms Accordion-component kunt u het volgende instellen:
+De dialoog van het Ontwerp laat malplaatjemakers controleren hoe de dingen door gebrek worden getoond. Voor de Adaptieve Forms-component kunt u het volgende instellen:
 
-* De kerncomponenten die een maker van het formulier aan de accordeon kan toevoegen in de Adaptive Forms Editor
-* Eenvoudige namen voor stijlen (CSS-klassen) die kunnen worden toegepast in het dialoogvenster met eigenschappen van de accordeoncomponent in de Adaptieve Forms-editor.
+* De kerncomponenten die een maker van een formulier kan toevoegen aan de horizontale tabbladen in de Adaptive Forms Editor
+* Eenvoudige namen voor stijlen (CSS-klassen) die kunnen worden toegepast in het dialoogvenster met eigenschappen van de component met horizontale tabbladen in de Adaptieve Forms-editor.
 
 Hierdoor wordt het maken en aanpassen van formulieren eenvoudiger en efficiënter.
 
@@ -114,10 +112,14 @@ Hierdoor wordt het maken en aanpassen van formulieren eenvoudiger en efficiënte
 
 De **Toegestane componenten** kunt u in de sjablooneditor de componenten instellen die als items kunnen worden toegevoegd aan de deelvensters in de component Horizontale tabbladen in de Adaptieve Forms-editor.
 
+![Horizontale tabbladen](/help/adaptive-forms/assets/horizontaltabs_designdilog.png)
+
 ### Tabblad Stijlen {#styles-tab}
 
-Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De Adaptive Forms Horizontal tabs Core Component ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De Adaptive Forms Horizontal tabs Core Component ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
 
-**Standaard CSS-klassen**: U kunt een standaard CSS-klasse opgeven voor de Adaptive Forms Horizontal tabs Core Component.
+![Het tabblad Stijl](/help/adaptive-forms/assets/horizontaltabs_designstyletab.png)
 
-**Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight&quot; opgeven: vet&quot;. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
+* **Standaard CSS-klassen**: U kunt een standaard CSS-klasse opgeven voor de Adaptive Forms Horizontal tabs Core Component.
+
+* **Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight&quot; opgeven: vet&quot;. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.

@@ -2,13 +2,13 @@
 title: Adaptieve Forms Core-component - Afbeelding
 description: De Adaptive Forms Image Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
-
 
 # Afbeelding {#image-adaptive-forms-core-component}
 
@@ -36,15 +36,13 @@ Er zijn verschillende redenen waarom het nuttig is om een component Image op te 
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms Image Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms Accordion Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
-|  |  |
-|---|---|
-| Componentversie | AEM as a Cloud Service |
-| — | --- |
-| v1 | Compatibel met<br>[versie 2.0.4](/help/versions.md) en hoger | Compatibel | Compatibel |
+| Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
+|---|---|---|
+| v1 | Compatibel met<br>[versie 2.0.4](/help/adaptive-forms/version.md) en hoger | Compatibel met<br>[release 1.1.12](/help/adaptive-forms/version.md) en later, maar minder dan 2.0.0. |
 
-Raadpleeg voor meer informatie over versies en releases van de Core Component de [Core Components-versies](/help/versions.md) document.
+Raadpleeg voor meer informatie over versies en releases van de Core Component de [Core Components-versies](/help/adaptive-forms/version.md) document.
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -87,7 +85,9 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de component Ima
 
 ### Tabblad Stijlen {#styles-tab}
 
-Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De Adaptive Forms Image Core Component ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De Adaptive Forms Image Core Component ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+
+![Ontwerpdialoogvenster](/help/adaptive-forms/assets/image_designdialog.png)
 
 **Standaard CSS-klassen**: U kunt een standaard CSS-klasse opgeven voor de Adaptive Forms Image Core Component.
 

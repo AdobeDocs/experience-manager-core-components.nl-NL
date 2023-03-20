@@ -2,13 +2,13 @@
 title: Adaptive Forms Core Component - Wizard
 description: De Adaptive Forms Wizard Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '1681'
+source-wordcount: '1847'
 ht-degree: 0%
 
 ---
-
 
 # Wizard {#wizard-adaptive-forms-core-component}
 
@@ -51,13 +51,11 @@ Over het algemeen kan een wizardindeling het invullen van formulieren overzichte
 
 De Adaptive Forms Wizard Layout Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
-|  |  |
-|---|---|
-| Componentversie | AEM as a Cloud Service |
-| — | --- |
-| v1 | Compatibel met<br>[versie 2.0.4](/help/versions.md) en hoger | Compatibel | Compatibel |
+| Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
+|---|---|---|
+| v1 | Compatibel met<br>[versie 2.0.4](/help/adaptive-forms/version.md) en hoger | Compatibel met<br>[release 1.1.12](/help/adaptive-forms/version.md) en later, maar minder dan 2.0.0. |
 
-Raadpleeg voor meer informatie over versies en releases van de Core Component de [Core Components-versies](/help/versions.md) document.
+Raadpleeg voor meer informatie over versies en releases van de Core Component de [Core Components-versies](/help/adaptive-forms/version.md) document.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -124,11 +122,38 @@ Hierdoor wordt het maken en aanpassen van formulieren eenvoudiger en efficiënte
 
 De **Toegestane componenten** kunt u in de sjablooneditor de componenten instellen die als items kunnen worden toegevoegd aan de deelvensters in de wizard-component in de Adaptieve Forms-editor.
 
+![Tabbladen voor toegestane componenten](/help/adaptive-forms/assets/panel_allowedcomponent.png)
+
+### Tabblad Standaardcomponenten {#default-component-tab}
+
+Op dit tabblad kan de sjablooneditor de componenten toewijzen die als items kunnen worden toegevoegd aan de deelvensters in de wizard-component in de Adaptieve Forms-editor.
+
+![Standaardcomponent van deelvenster](/help/adaptive-forms/assets/panel_defaultcomponent.png)
+
+### Instellingen voor responsief {#responsive-settings}
+
+Op dit tabblad kan de sjablooneditor het aantal kolommen instellen dat in het responsieve raster moet worden weergegeven.
+
+![Responsief raster](/help/adaptive-forms/assets/panel_responsivesettings.png)
+
+### Tabblad Containerinstellingen {#container-setting-tab}
+
+Op het tabblad Containerinstellingen kunt u de positie van componenten instellen in de Adaptieve Forms-editor.
+
+![Containerinstellingen](/help/adaptive-forms/assets/panel_settings.png)
+
+* **Layout**: De eenvoudige lay-out houdt alles vast op de plaats, terwijl het Responsieve Net u toestaat om de positie van componenten te veranderen om uw behoeften aan te passen.
+* **Lay-out uitschakelen**: U kunt de lay-outselectie in het dialoogvenster Bewerken ook uitschakelen door de optie **Lay-out uitschakelen** selectievakje.
+* **Achtergrondafbeelding inschakelen**: Op dit tabblad kunt u de achtergrondafbeelding en -kleur instellen in de sjablooneditor.
+* **Achtergrondkleur inschakelen**: Op dit tabblad kunt u de achtergrondkleur instellen in de sjablooneditor.
+
 ### Tabblad Stijlen {#styles-tab}
 
-Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De Adaptive Forms Wizard Core-component ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De Adaptive Forms Wizard Core-component ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
 
-**Standaard CSS-klassen**: U kunt een standaard CSS klasse voor de component van de Tovenaar verstrekken.
+![Het tabblad Stijl](/help/adaptive-forms/assets/panel_style.png)
 
-**Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight&quot; opgeven: vet&quot;. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
+* **Standaard CSS-klassen**: U kunt een standaard CSS klasse voor de component van de Tovenaar verstrekken.
+
+* **Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight&quot; opgeven: vet&quot;. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
 
