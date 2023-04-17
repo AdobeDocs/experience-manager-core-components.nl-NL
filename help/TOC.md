@@ -4,10 +4,10 @@ user-guide-title: AEM-kerncomponenten
 breadcrumb-title: Gids voor kerncomponenten
 user-guide-description: Met de uitbreidbare kerncomponenten kunnen ontwerpers eenvoudig content maken.
 feature-set: Experience Manager Sites
-source-git-commit: 279b96734bc8621b98b828fa80ebe693dc7904e0
+source-git-commit: 1ac6ed00c19a8ae00e6a53d18419890a88235158
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -107,6 +107,7 @@ ht-degree: 7%
       + [Adaptieve Forms-accordeon](/help/adaptive-forms/components/accordion.md)
       + [Aangepaste Forms-knop](/help/adaptive-forms/components/button.md)
       + [Aangepaste Forms Checkbox-groep](/help/adaptive-forms/components/checkbox-group.md)
+      + [Aangepaste Forms-container](/help/adaptive-forms/components/form-container.md)
       + [Aangepaste Forms-datumkiezer](/help/adaptive-forms/components/date-picker.md)
       + [Aangepaste Forms-vervolgkeuzelijst](/help/adaptive-forms/components/drop-down.md)
       + [Adaptieve Forms-e-mailinvoer](/help/adaptive-forms/components/email-input.md)
