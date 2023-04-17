@@ -2,13 +2,13 @@
 title: Inleiding Adaptive Forms Core Components AEM
 description: Maak aantrekkelijke inschrijvingservaringen (formulieren) met de flexibiliteit van de Adaptive Forms Core Components en lever deze met de kracht van Adobe Experience Manager.
 role: Architect, Developer, Admin, User
-source-git-commit: b378fbd5695f82b8fc9de3a2d53a8387099ae33b
+exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
+source-git-commit: 7afcc06e5932d8eeb4a4c45f52c653222f142daa
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 1%
+source-wordcount: '1168'
+ht-degree: 0%
 
 ---
-
 
 # Inleiding Adaptive Forms Core Components {#adaptive-forms-core-components-introduction}
 
@@ -90,33 +90,41 @@ De Adaptive Forms Core Components hebben de volgende vereisten.
 
 | AEM | AEM Forms-invoegtoepassing | Kernonderdelen |
 |---|---|---|
-| AEM as a Cloud Service | Forms - Digitale inschrijving | [Release 2.20.8](/help/versions.md)+ |
+| AEM as a Cloud Service | Forms - Digitale inschrijving | [Release 2.20.8](version.md)+ |
+| AEM 6,5 | Forms-invoegtoepassing | [Release 1.1.12](version.md)+ |
+
+## Een adaptief formulier op basis van kerncomponenten instellen en maken
+
+**AEM Forms as a Cloud Service**: Wanneer u een nieuw as a Cloud Service AEM Forms-programma maakt, zijn de Adaptive Forms Core Components al ingeschakeld voor uw omgeving. Als u een as a Cloud Service Forms-omgeving hebt die is gebaseerd op Archetype 39 of eerder, [Adaptieve Forms Core-componenten inschakelen voor uw omgeving](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project).
+
+Als u de Core Components voor uw omgeving inschakelt, **Adaptieve Forms (Core Component)** sjabloon en canvasthema worden toegevoegd aan uw omgeving. Als uw AEM SDK-versie ouder is dan 2023.02.0, [zorg ervoor dat u `prerelease` markering ingeschakeld in uw omgeving](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) omdat Adaptive Forms Core Components deel uitmaakten van de pre-lease vóór de release van 2023.02.0.
+
+Zie Een adaptief formulier maken ([Kernonderdelen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?)).
 
 
 ## Adaptieve Forms Core-componenten {#components}
 
-U kunt [Adaptieve Forms-editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html) om een basiscomponent te maken op basis van Adaptive Forms. De huidige versie van de Adaptive Forms Core Components is voorzien van de hieronder vermelde componenten.
+De huidige versie van de Adaptive Forms Core Components is voorzien van de hieronder vermelde componenten.
 
-* Accordeon
-* Knop
-* Groep selectievakjes
-* Datumkiezer
-* Vervolgkeuzelijst
-* E-mailinvoer
-* Formuliercontainer
-* Bestandsbijlage
-* Voettekst
-* Koptekst
-* Horizontale tabs
-* Afbeelding
-* Nummerinvoer
-* Deelvenstercontainer
-* Keuzerondje
-* Knop Opnieuw instellen
-* Verzendknop
-* Telefooninvoer
-* Tekstinvoer
-* Tekst
-* Titel
-* Wizard
-
+* [Accordeon](/help/adaptive-forms/components/accordion.md)
+* [Knop](/help/adaptive-forms/components/button.md)
+* [Groep selectievakjes](/help/adaptive-forms/components/checkbox-group.md)
+* [Datumkiezer](/help/adaptive-forms/components/date-picker.md)
+* [Vervolgkeuzelijst](/help/adaptive-forms/components/drop-down.md)
+* [E-mailinvoer](/help/adaptive-forms/components/email-input.md)
+* [Formuliercontainer](/help/adaptive-forms/components/form-container.md)
+* [Bestandsbijlage](/help/adaptive-forms/components/file-attachment.md)
+* [Voettekst](/help/adaptive-forms/components/footer.md)
+* [Koptekst](/help/adaptive-forms/components/header.md)
+* [Horizontale tabs](/help/adaptive-forms/components/horizontal-tabs.md)
+* [Afbeelding](/help/adaptive-forms/components/image.md)
+* [Nummerinvoer](/help/adaptive-forms/components/number-input.md)
+* [Deelvenstercontainer](/help/adaptive-forms/components/panel-container.md)
+* [Keuzerondje](/help/adaptive-forms/components/radio-button.md)
+* [Knop Opnieuw instellen](/help/adaptive-forms/components/reset-button.md)
+* [Verzendknop](/help/adaptive-forms/components/submit-button.md)
+* [Telefooninvoer](/help/adaptive-forms/components/telephone-input.md)
+* [Tekstinvoer](/help/adaptive-forms/components/text-input.md)
+* [Tekst](/help/adaptive-forms/components/text.md)
+* [Titel](/help/adaptive-forms/components/title.md)
+* [Wizard](/help/adaptive-forms/components/wizard.md)
