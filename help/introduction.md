@@ -3,7 +3,7 @@ title: Introductie van kerncomponenten
 description: Oplossingen voor problemen met de Core Components en anderen toestaan elementen te ontwerpen binnen AEM.
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 39adbada42b9ca10fe2a4ff79ce6c0b3876d7be6
+source-git-commit: 3d43ab39018e786fdca73dc995116344b5e59b91
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 2%
@@ -107,7 +107,7 @@ In de huidige versie van Core Components zijn de volgende componenten beschikbaa
 
 | Versie kerncomponenten | AEM as a Cloud Service | AEM 6.5 Patchniveau | Java SE-versie | Geweven versie |
 |---------|---------|---------|---------|---------|
-| [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | Continu | 6.5.14.0+ * | 8, 11 | 3.3.9+ |
+| [2.22.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.4) | Continu | 6.5.14.0+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >

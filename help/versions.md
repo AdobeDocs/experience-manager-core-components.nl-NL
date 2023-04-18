@@ -3,20 +3,20 @@ title: Core Components-versies
 description: De Componenten van de kern worden gepubliceerd als versies die meer dan één versie van de zelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies beschikbaar zijn en hoe u de compatibiliteit met Core Components en AEM begrijpt.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 94c7783b861d6e793092d79da67a78120aa80fdc
+source-git-commit: 468078da4d31d7eedf9bd73cbcf2d71107bfe3f4
 workflow-type: tm+mt
-source-wordcount: '2873'
-ht-degree: 12%
+source-wordcount: '2924'
+ht-degree: 11%
 
 ---
 
 # Core Components-versies {#core-components-versions}
 
-De huidige versie van de Core Components is 2.22.0 en is compatibel met [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) en [AEM op locatie](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installaties.
+De huidige versie van de Core Components is 2.22.4 en is compatibel met [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) en [AEM op locatie](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installaties.
 
 ## Historie en compatibiliteit vrijgeven {#release-history-and-compatibility}
 
-De Core Components zijn ontworpen om flexibel te zijn en compatibel met alle ondersteunde AEM versies. Daarom kan een versie van de componenten meerdere versies van dezelfde component bevatten.
+De Core Components zijn ontworpen om flexibel te zijn en compatibel met alle ondersteunde AEM versies. Daarom kan een versie van de componenten meerdere versies van hetzelfde komkommer©ent bevatten.
 
 De volgende lijsten illustreren de verenigbaarheid van de versies van de Componenten van de Kern samen welke componentenversies bevat zijn waarin versies.
 
@@ -26,6 +26,8 @@ De volgende tabel, waarvan de inhoud [beschikbaar op GitHub met volledige versie
 
 | Geen | Beschrijving | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service | Java | Releasedatum |
 |---|---|---|---|---|---|---|
+| [2.22.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.4) | Dit is een patchrelease om problemen in de [Component lijst met inhoudsfragmenten.](/help/components/content-fragment-list.md) | - | 6.5.14.0+ * | Continu | 8, 11 | 5 april 2023 |
+| [2.22.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.2) | Dit is een onderhoudsrelease om twee problemen op te lossen die zijn geïntroduceerd in 2.2.0 | - | 6.5.14.0+ * | Continu | 8, 11 | 31 maart 2023 |
 | [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | Deze release introduceert een nieuwe versie van de [Component List](/help/components/list.md) samen met verbeteringen van de [Teaser](/help/components/teaser.md) en actualisering van de [PDF Viewer](/help/components/pdf-viewer.md) en [Carousel](/help/components/carousel.md) | - | 6.5.14.0+ * | Continu | 8, 11 | 9 februari 2023 |
 | [2.21.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | Dit is een patchrelease die een probleem met v1 en v2 verhelpt [Taser-componenten.](/help/components/teaser.md) | - | 6.5.13.0+ * | Continu | 8, 11 | 12 september 2022 |
 | [2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | Deze release bevat een aantal verbeteringen, waaronder publicatie van de LinkHandler-API, verbeteringen voor de [Afbeeldingscomponent](/help/components/image.md) en [Gegevenslaag,](/help/developing/data-layer/overview.md) en verbeteringen aan componenten met meerdere deelvensters. | - | 6.5.13.0+ * | Continu | 8, 11 | 12 september 2022 |
