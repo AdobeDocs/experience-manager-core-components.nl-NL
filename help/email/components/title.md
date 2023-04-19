@@ -3,9 +3,9 @@ title: Component E-mailtitel
 description: De component E-mailtitel is een onderdeel voor sectiekoppen van uw e-mailberichten waarin bewerkingen op locatie worden uitgevoerd.
 role: Architect, Developer, Admin, User
 exl-id: f65b6973-bb36-406f-bbea-f85a23f5340b
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '599'
 ht-degree: 1%
 
 ---
@@ -32,13 +32,9 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 
 | Componentversie | AEM 6,5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | Compatibel | Compatibel |
+| v1 | Compatibel | - |
 
 Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Email Components Versies](/help/versions.md).
-
-## Uitvoer van voorbeeldcomponent {#sample-component-output}
-
-Als u de component Title wilt ervaren en voorbeelden wilt zien van de configuratieopties en van de HTML- en JSON-uitvoer, gaat u naar de [Componentbibliotheek.](https://adobe.com/go/aem_cmp_library_email_title)
 
 ### Technische details {#technical-details}
 

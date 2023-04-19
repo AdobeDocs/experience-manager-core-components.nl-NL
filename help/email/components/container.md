@@ -3,10 +3,10 @@ title: E-mailcontainercomponent
 description: Met de component E-mailcontainer kunt u een container maken voor meerdere aanvullende componenten in uw e-mailinhoud.
 role: Architect, Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 1%
+source-wordcount: '797'
+ht-degree: 0%
 
 ---
 
@@ -32,13 +32,9 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 
 | Componentversie | AEM 6,5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | Compatibel | Compatibel |
+| v1 | Compatibel | - |
 
 Raadpleeg het document voor meer informatie over versies en releases van e-mail Core Component [Core Components-versies e-mailen.](/help/email/versions.md)
-
-## Uitvoer van voorbeeldcomponent {#sample-component-output}
-
-Ga voor meer informatie over de component E-mailcontainer en de configuratieopties en de uitvoer van HTML en JSON naar de [Componentbibliotheek.](https://adobe.com/go/aem_cmp_library_email_container)
 
 ## Technische details {#technical-details}
 

@@ -3,9 +3,9 @@ title: E-mailsegmenteringscomponent
 description: De component E-mailsegmentatie
 role: Architect, Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1133'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,7 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 
 | Componentversie | AEM 6,5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | Compatibel | Compatibel |
-
-## Uitvoer van voorbeeldcomponent {#sample-component-output}
-
-Als u de component E-mailsegmentatie wilt ervaren en voorbeelden wilt zien van de configuratieopties en van de HTML- en JSON-uitvoer, gaat u naar de [Componentbibliotheek.](https://adobe.com/go/aem_cmp_library_email_segmentation)
+| v1 | Compatibel | - |
 
 ### Technische details {#technical-details}
 

@@ -3,9 +3,9 @@ title: E-mailtekstcomponent
 description: De component E-mailtekst is een component voor tekstbewerking en -compositie met tekstopmaak die op locatie kan worden bewerkt.
 role: Architect, Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '2328'
+source-wordcount: '2291'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,9 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 
 | Componentversie | AEM 6,5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | Compatibel | Compatibel |
+| v1 | Compatibel | - |
 
 Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies e-mailen.](/help/email/versions.md)
-
-## Uitvoer van voorbeeldcomponent {#sample-component-output}
-
-Als u de tekstcomponent wilt ervaren en voorbeelden wilt zien van de configuratieopties en van de HTML- en JSON-uitvoer, gaat u naar de [Componentbibliotheek](https://adobe.com/go/aem_cmp_library_email_text).
 
 ### Technische details {#technical-details}
 
@@ -168,7 +164,7 @@ Als er geen andere exemplaren worden gevonden, wordt een bericht weergegeven en 
 
 ![Voorbeeld niet meer zoeken](/help/assets/text-find-example-found-end.png)
 
-#### Replace
+#### Vervangen
 
 ![Pictogram Vervangen](/help/assets/text-replace.png)
 

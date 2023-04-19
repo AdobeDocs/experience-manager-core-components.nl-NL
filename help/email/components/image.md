@@ -3,9 +3,9 @@ title: E-mailafbeeldingscomponent
 description: De component E-mailafbeelding is een adaptieve afbeeldingscomponent die op locatie kan worden bewerkt.
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1645'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 
 | Componentversie | AEM 6,5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | Compatibel | Compatibel |
+| v1 | Compatibel | - |
 
 Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies e-mailen](/help/email/versions.md).
 
@@ -61,10 +61,6 @@ Scalable Vector Graphics (SVG) wordt ondersteund door de E-mailafbeeldingscompon
 ### Beveiliging {#security}
 
 Om veiligheidsredenen wordt de originele SVG nooit direct geroepen door de Redacteur van het Beeld. Het wordt doorgeroepen `<img src=“path-to-component”>`. Hierdoor wordt voorkomen dat de browser scripts uitvoert die in het SVG-bestand zijn ingesloten.
-
-## Uitvoer van voorbeeldcomponent {#sample-component-output}
-
-Ga voor meer informatie over de component E-mailafbeelding en de configuratieopties en de HTML- en JSON-uitvoer naar de [Componentbibliotheek.](https://adobe.com/go/aem_cmp_library_email_image)
 
 ### Technische details {#technical-details}
 

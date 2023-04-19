@@ -3,9 +3,9 @@ title: E-mailervaringsfragmentcomponent
 description: Met de E-mailervaringsfragmentcomponent kan de auteur van de inhoud een Experience-fragmentvariatie in de inhoud plaatsen en een gelokaliseerde inhoudsstructuur ondersteunen.
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 
 | Componentversie | AEM 6,5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | Compatibel | Compatibel |
+| v1 | Compatibel | - |
 
 Raadpleeg het document voor meer informatie over de versies en releases van de e-mailCore-component [Core Components-versies e-mailen.](/help/email/versions.md)
 
@@ -104,10 +104,6 @@ De E-mailervaringsfragmentcomponent probeert een overeenkomende gelokaliseerde c
 1. Als deze niet wordt gevonden, wordt geprobeerd een blauwdruk te vinden.
 1. Als deze niet wordt gevonden, wordt geprobeerd een live kopie te zoeken.
 1. Als niet gevonden, blijft het aan het Fragment van de Ervaring in de component worden gevormd in gebreke.
-
-## Uitvoer van voorbeeldcomponent {#sample-component-output}
-
-Als u de E-mailervaringsfragmentcomponent wilt ervaren en voorbeelden wilt zien van de configuratieopties en van de HTML- en JSON-uitvoer, gaat u naar de [Componentbibliotheek.](https://adobe.com/go/aem_cmp_library_email_xf)
 
 ## Technische details {#technical-details}
 
