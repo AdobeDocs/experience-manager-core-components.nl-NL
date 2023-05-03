@@ -3,9 +3,9 @@ title: Afbeeldingscomponent
 description: De component Core Component Image is een adaptieve afbeeldingscomponent.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: f0971db66cbbf8221c12cedf108eee3bca8a527a
+source-git-commit: 1cb06273ecb2c5b5f90c02b74b7ac0e440d87ecc
 workflow-type: tm+mt
-source-wordcount: '1678'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -61,10 +61,6 @@ Schaalbare vectorafbeeldingen (SVG) worden ondersteund door de afbeeldingscompon
 ### Beveiliging {#security}
 
 Om veiligheidsredenen wordt de originele SVG nooit direct geroepen door de Redacteur van het Beeld. Het wordt doorgeroepen `<img src=“path-to-component”>`. Hierdoor wordt voorkomen dat de browser scripts uitvoert die in het SVG-bestand zijn ingesloten.
-
->[!NOTE]
->
->Voor SVG-ondersteuning is release 2.1.0 van de Core Components of hoger vereist, samen met [servicepack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html) voor AEM 6.4 of hoger [functies voor afbeeldingseditor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/image-editor.html) binnen AEM.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
