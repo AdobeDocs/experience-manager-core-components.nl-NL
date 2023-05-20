@@ -19,7 +19,7 @@ De component van de Breadcrumb van de Component van de Kern is een navigatiecomp
 
 De component Breadcrumb geeft de positie van de huidige pagina binnen de sitehiërarchie weer, zodat bezoekers van de pagina vanuit hun huidige locatie kunnen navigeren in de paginahiërarchie. Deze functie is vaak geïntegreerd in kop- en voetteksten van pagina&#39;s.
 
-Beschikbare opties, zoals het standaardnavigatieniveau en de mogelijkheid om de huidige pagina of verborgen pagina&#39;s weer te geven, kunnen door de sjabloonauteur worden gedefinieerd in het [ontwerpdialoogvenster](#design-dialog). De inhoudeditor kan dan kiezen of verborgen pagina&#39;s wel of niet moeten worden weergegeven en het daadwerkelijke navigatieniveau voor de component in het dialoogvenster [bewerken.](#edit-dialog)
+Beschikbare opties, zoals het standaardnavigatieniveau en de mogelijkheid om de huidige pagina of verborgen pagina&#39;s weer te geven, kunnen door de sjabloonauteur in het dialoogvenster [ontwerpdialoogvenster](#design-dialog). De inhoudeditor kan dan kiezen of verborgen pagina&#39;s wel of niet moeten worden weergegeven en het daadwerkelijke navigatieniveau voor de component in het dialoogvenster [dialoogvenster bewerken](#edit-dialog).
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -29,17 +29,17 @@ In de volgende tabel wordt de compatibiliteit van v1 van de component Breadcrumb
 
 | AEM | Breadcrumb-component v1 |
 |--- |--- |
-| 6,3 | Compatibel |
-| 6,4 | Compatibel |
+| 6.3 | Compatibel |
+| 6.4 | Compatibel |
 
 >[!CAUTION]
 >
 >In dit document wordt versie 1 van de component Breadcrumb beschreven.
->Zie het document [Breadcrumb Component](/help/components/breadcrumb.md) voor meer informatie over de huidige versie van de Breadcrumb-component.
+>Voor meer informatie over de huidige versie van de component Breadcrumb raadpleegt u de [Broodkruimelcomponent](/help/components/breadcrumb.md) document.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende voorbeeld wordt genomen uit [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende monster wordt genomen uit [Wij.Detailhandel](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Schermafbeelding {#screenshot}
 
@@ -84,7 +84,7 @@ Het volgende voorbeeld wordt genomen uit [We.Retail](https://helpx.adobe.com/exp
 
 >[!NOTE]
 >
->Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Zie [compatibiliteitsinformatie voor Core Components v1](/help/versions.md) voor meer informatie.
+>Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Zie de [compatibiliteitsinformatie voor Core Components v1](/help/versions.md) voor meer informatie .
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
@@ -92,13 +92,13 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud verborgen en actieve 
 
 ![](/help/assets/chlimage_1-34.png)
 
-* **Navigatieniveau om te beginnen** : waar in de hiërarchie moet de component breadcrumb omlaag gaan naar de huidige pagina. Bijvoorbeeld in We.Retail:
+* **Navigatieniveau om te starten** - Waar in de hiërarchie de breadcrumb-component naar beneden moet lopen naar de huidige pagina. Bijvoorbeeld in We.Retail:
 
    * 1 begint bij `/content/we-retail`
    * 2 begint bij `/content/we-retail/<country>`
 
-* **Verborgen**  tonen - Pagina&#39;s tonen die zijn gemarkeerd als verborgen in de broodkruimel (deze worden standaard niet weergegeven)
-* **Huidige** verbergen - De huidige pagina in de broodkruimel onderdrukken (standaard wordt deze weergegeven)
+* **Verborgen tonen** - Pagina&#39;s tonen die zijn gemarkeerd als verborgen in de broodkruimel (deze worden standaard niet weergegeven)
+* **Huidige verbergen**- Onderdruk de huidige pagina in de broodkruimel (door gebrek zal het worden getoond)
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -106,19 +106,19 @@ In het ontwerpdialoogvenster kan de sjabloonauteur definiëren wat de standaardw
 
 ![](/help/assets/chlimage_1-35.png)
 
-* **Navigatieniveau om te starten**  - Definieert de standaardwaarde waar in de hiërarchie de component breadcrumb naar beneden moet lopen naar de huidige pagina wanneer de component breadcrumb aan een pagina wordt toegevoegd.
-* **Verborgen**  tonen - Hiermee definieert u de standaardwaarde van de optie  **Verborgen** tonen wanneer de component breadcrumb aan een pagina wordt toegevoegd.
+* **Navigatieniveau om te starten** - Definieert de standaardwaarde voor de plaats in de hiërarchie waar de component breadcrumb omlaag moet gaan naar de huidige pagina wanneer de component breadcrumb aan een pagina wordt toegevoegd.
+* **Verborgen tonen** - Definieert de standaardwaarde van de **Verborgen tonen** als de component breadcrumb aan een pagina wordt toegevoegd.
 
    * Hiermee wordt de optie voor de auteur niet in- of uitgeschakeld. Hiermee wordt alleen de standaardwaarde ingesteld.
 
-* **Huidige**  verbergen - Hiermee definieert u de standaardwaarde van de optie  **Currentotie** verbergen wanneer de component breadcrumb aan een pagina wordt toegevoegd.
+* **Huidige verbergen** - Definieert de standaardwaarde van de **Huidige verbergen** als de component breadcrumb aan een pagina wordt toegevoegd.
 
    * Hiermee wordt de optie voor de auteur niet in- of uitgeschakeld. Hiermee wordt alleen de standaardwaarde ingesteld.
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van Breadcrumb [kan op GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v1/breadcrumb) worden gevonden.
+De meest recente technische documentatie over de Breadcrumb-component [kan op GitHub worden gevonden](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v1/breadcrumb).
 
 Het volledige kerncomponentenproject kan van GitHub worden gedownload.
 
-Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
+Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).

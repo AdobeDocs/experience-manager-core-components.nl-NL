@@ -6,8 +6,8 @@ role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
 source-git-commit: 60ec9c1643abce0ee75da5368269928476390440
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 4%
+source-wordcount: '707'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +42,7 @@ Hieronder ziet u een tabel met een beschrijving van de analyseapparaten die als 
 | `aem-env-var` | Controleert het gebruik van env vars volgens de [hulplijn voor variabele naamgeving](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#variable-naming)<p> </p>`[ERROR] Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Value for property 'port' must not use env vars prefixed with INTERNAL_ or ADOBE_ (com.mysite1:my-site-1.all:1.0.0-SNAPSHOT\|com.mysite1:my-site-1.ui.config:1.0.0-SNAPSHOT)` | Ja | Ja |
 | `content-package-validation` | Hiermee worden validators voor bestanden uitgevoerd. Door gebrek wordt jakobbit-docviewparser toegelaten die op goed gevormde inhoudssyntaxis van xml binnenpakketten controleert die tijdens plaatsing zullen worden geïnstalleerd.<p> </p>`[main] WARN org.apache.sling.feature.analyser.task.impl.CheckContentPackages - ValidationViolation: "jackrabbit-docviewparser: Invalid XML found: The reference to entity "se" must end with the ';' delimiter.", filePath=jcr_root/apps/somename/configs/com.adobe.test.Invalid.xml, nodePath=/apps/somename/configs/com.adobe.test.Invalid`<p> </p>Als u dit wilt corrigeren, controleert u het bestand dat door de analysator is benoemd op XML-problemen. | Ja | Ja |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Bekende problemen
 

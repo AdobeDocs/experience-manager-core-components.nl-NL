@@ -7,7 +7,7 @@ exl-id: 8e30dac0-5b4b-4fc7-af99-5791c98c90bf
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -17,9 +17,9 @@ Met de component Core Component Form Hidden kunt u een verborgen veld weergeven.
 
 ## Gebruik {#usage}
 
-Met de component Core Component Form Hidden kunt u verborgen velden maken die informatie over de huidige pagina teruggeven aan AEM. Deze component is bedoeld voor gebruik samen met de [component Form container](form-container-v1.md).
+Met de component Core Component Form Hidden kunt u verborgen velden maken die informatie over de huidige pagina teruggeven aan AEM en die samen met de [formuliercontainercomponent](form-container-v1.md).
 
-De veldeigenschappen kunnen door de inhoudsredacteur in [vormen dialoog](#configure-dialog) worden bepaald.
+De veldeigenschappen kunnen worden gedefinieerd door de inhoudeditor in het dialoogvenster [dialoogvenster configureren](#configure-dialog).
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -29,18 +29,18 @@ In de volgende tabel wordt de compatibiliteit van versie 1 van de component Form
 
 | AEM | Verborgen component van formulier v1 |
 |--- |--- |
-| 6,3 | Compatibel |
-| 6,4 | Compatibel |
+| 6.3 | Compatibel |
+| 6.4 | Compatibel |
 
 >[!CAUTION]
 >
 >In dit document wordt versie 1 van de component Formulier verborgen beschreven.
 >
->Zie het document [Formulier verborgen component](/help/components/forms/form-hidden.md) voor meer informatie over de huidige versie van het formulier verborgen component.
+>Voor meer informatie over de huidige versie van de component Form Hidden raadpleegt u de [Verborgen component van formulier](/help/components/forms/form-hidden.md) document.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende voorbeeld wordt genomen uit [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende monster wordt genomen uit [Wij.Detailhandel](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### HTML {#html}
 
@@ -80,7 +80,7 @@ Het volgende voorbeeld wordt genomen uit [We.Retail](https://helpx.adobe.com/exp
 
 >[!NOTE]
 >
->Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Zie [compatibiliteitsinformatie voor Core Components v1](/help/versions.md#release-history-and-compatibility) voor meer informatie.
+>Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Zie de [compatibiliteitsinformatie voor Core Components v1](/help/versions.md#release-history-and-compatibility) voor meer informatie .
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -88,9 +88,9 @@ In het dialoogvenster voor configureren kan de auteur van de inhoud de parameter
 
 ![](/help/assets/chlimage_1-26.png)
 
-* **Naam**  - De naam van het veld dat met de formuliergegevens wordt verzonden
-* **Waarde**  - De waarde van het veld dat met de formuliergegevens wordt verzonden
-* **Id**  - De id moet uniek zijn op de pagina en kan worden gebruikt om scripts te binden aan dit formulierveld
+* **Naam** - De naam van het veld dat met de formuliergegevens wordt verzonden
+* **Waarde** - De waarde van het veld, dat met de formuliergegevens wordt verzonden
+* **Id** - De id moet uniek zijn op de pagina en kan worden gebruikt om scripts te binden aan dit formulierveld
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -98,8 +98,8 @@ Er is geen dialoogvenster voor het ontwerp van de component Formulier verborgen.
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Vorm Verborgen Component [kan op GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden) worden gevonden.
+De meest recente technische documentatie over de component Form Hidden [kan op GitHub worden gevonden](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden).
 
 Het volledige kerncomponentenproject kan van GitHub worden gedownload.
 
-Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
+Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).

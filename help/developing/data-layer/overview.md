@@ -6,7 +6,7 @@ role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '972'
 ht-degree: 0%
 
 ---
@@ -23,26 +23,26 @@ Als de Componenten van de Kern, is de code voor de Laag van Gegevens van de Cli�
 >
 >Voor meer informatie over de Laag van Gegevens van de Cliënt van Adobe, [verwijs naar de middelen in zijn bewaarplaats GitHub.](https://github.com/adobe/adobe-client-data-layer)
 >
->Voor verdere technische details over de integratie van de de Gegevens van de Cliënt van Adobe met de Componenten van de Kern, zie [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) dossier in de bewaarplaats van de Componenten van de Kern.
+>Voor verdere technische details over de integratie van de Laag van Gegevens van de Cliënt van Adobe met de Componenten van de Kern, zie [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) in de opslagplaats voor kerncomponenten.
 
 ## Installatie en activering {#installation-activation}
 
-Vanaf versie 2.9.0 van de Componenten van de Kern, wordt de Laag van Gegevens gedistribueerd met de Componenten van de Kern als AEM Bibliotheek van de Cliënt en geen installatie is noodzakelijk. Alle projecten die door [AEM Project Archetype v. 24+](/help/developing/archetype/overview.md) worden geproduceerd omvatten standaard een geactiveerde Laag van Gegevens.
+Vanaf versie 2.9.0 van de Componenten van de Kern, wordt de Laag van Gegevens gedistribueerd met de Componenten van de Kern als AEM Bibliotheek van de Cliënt en geen installatie is noodzakelijk. Alle door de [AEM Project Archetype v. 24+](/help/developing/archetype/overview.md) Neem standaard een geactiveerde gegevenslaag op.
 
-Om de Laag van Gegevens manueel te activeren moet u een [context-bewuste configuratie](/help/developing/context-aware-configs.md) voor het tot stand brengen:
+Als u de gegevenslaag handmatig wilt activeren, moet u een [contextbewuste configuratie](/help/developing/context-aware-configs.md) voor it :
 
-1. Maak de volgende structuur onder de map `/conf/<mySite>`, waarbij `<mySite>` de naam van het project van uw site is:
+1. De volgende structuur maken onder de `/conf/<mySite>` map, waar `<mySite>` is de naam van het project van uw Site:
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
-   * Waar elk knooppunt een `jcr:primaryType` heeft ingesteld op `nt:unstructured`.
-1. Voeg een booleaanse eigenschap met de naam `enabled` toe en stel deze in op `true`.
+   * Waar elke node een `jcr:primaryType` instellen op `nt:unstructured`.
+1. Een Booleaanse eigenschap met de naam `enabled` en stel deze in op `true`.
 
    ![Locatie van DataLayerConfig in WKND Reference Site](/help/assets/datalayer-contextaware-sling-config.png)
 
    *Locatie van DataLayerConfig in WKND Reference Site*
 
-1. Voeg een eigenschap `sling:configRef` toe aan het `jcr:content`-knooppunt van uw site onder `/content` (bijvoorbeeld `/content/<mySite>/jcr:content`) en stel deze in op `/conf/<mySite>` uit de vorige stap.
+1. Voeg een `sling:configRef` aan de `jcr:content` knooppunt van uw site hieronder `/content` (bijvoorbeeld `/content/<mySite>/jcr:content`) en instellen op `/conf/<mySite>` uit de vorige stap.
 
-1. Zodra toegelaten, kunt u de activering verifiëren door een pagina van de plaats buiten de redacteur te laden, bijvoorbeeld door **Mening te gebruiken zoals Gepubliceerd** optie in de redacteur. Inspect de paginabron en de tag `<body>` moeten een kenmerk `data-cmp-data-layer-enabled` bevatten
+1. Zodra toegelaten, kunt u de activering verifiëren door een pagina van de plaats buiten de redacteur te laden, bijvoorbeeld door te gebruiken **Weergeven als gepubliceerd** in de editor. Inspect de paginabron en de `<body>` tag moet een kenmerk bevatten `data-cmp-data-layer-enabled`
 
    ```html
    <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
@@ -58,7 +58,7 @@ Om de Laag van Gegevens manueel te activeren moet u een [context-bewuste configu
        </script>
    ```
 
-1. U kunt ook de ontwikkelaarsgereedschappen van uw browser openen en in de console moet het JavaScript-object `adobeDataLayer` beschikbaar zijn. Ga het volgende bevel in om de staat van de Laag van Gegevens van uw huidige pagina te krijgen:
+1. U kunt ook de ontwikkelaarsgereedschappen van uw browser openen en in de console de `adobeDataLayer` JavaScript-object moet beschikbaar zijn. Ga het volgende bevel in om de staat van de Laag van Gegevens van uw huidige pagina te krijgen:
 
    ```javascript
    window.adobeDataLayer.getState();
@@ -84,7 +84,7 @@ De volgende componenten steunen de Laag van Gegevens.
 * [Tekst](/help/components/text.md)
 * [Titel](/help/components/title.md)
 
-Verwijs ook naar [gebeurtenissen die door de componenten worden teweeggebracht.](#events-components)
+Zie ook de [gebeurtenissen die door de componenten worden geactiveerd.](#events-components)
 
 ## Gegevensschema&#39;s voor kerncomponenten {#data-schemas}
 
@@ -117,7 +117,7 @@ id: {                   // component ID
 }
 ```
 
-De volgende [gebeurtenis](#events) is relevant voor het schema Component/Container-item:
+Het volgende [event](#events) is relevant voor het Component/Container Item-schema:
 
 * `cmp:click`
 
@@ -145,7 +145,7 @@ id: {
 }
 ```
 
-Bij het laden van de pagina wordt een gebeurtenis `cmp:show` geactiveerd. Deze gebeurtenis wordt verzonden vanuit inline JavaScript direct onder de openingstag `<body>`, waardoor deze de oudste gebeurtenis in de wachtrij met gegevenslaaggebeurtenissen is.
+A `cmp:show` gebeurtenis wordt geactiveerd bij het laden van de pagina. Deze gebeurtenis wordt verzonden vanuit online JavaScript direct onder het openen `<body>` tag, waardoor deze de oudste gebeurtenis in de gebeurteniswachtrij voor gegevenslagen wordt.
 
 ### Containerschema {#container}
 
@@ -170,7 +170,7 @@ id: {
 }
 ```
 
-De volgende [gebeurtenissen](#events) zijn relevant voor het containerschema:
+Het volgende [gebeurtenissen](#events) zijn relevant voor het containerschema:
 
 * `cmp:click`
 * `cmp:show`
@@ -197,13 +197,13 @@ id: {
 }
 ```
 
-De volgende [gebeurtenis](#events) is relevant voor het beeldschema:
+Het volgende [event](#events) is relevant voor het afbeeldingsschema:
 
 * `cmp:click`
 
 ### Elementschema {#asset}
 
-Het schema Asset wordt gebruikt in de [Afbeeldingscomponent.](/help/components/image.md)
+Het schema Element wordt gebruikt in het dialoogvenster [Afbeeldingscomponent.](/help/components/image.md)
 
 Het schema Asset wordt als volgt gedefinieerd.
 
@@ -217,13 +217,13 @@ id: {
 }
 ```
 
-De volgende [gebeurtenis](#events) is relevant voor het schema Asset:
+Het volgende [event](#events) is relevant voor het schema voor activa:
 
 * `cmp:click`
 
 ### Inhoudsfragmentschema {#content-fragment}
 
-Het inhoudsfragmentschema wordt gebruikt door de [Inhoudsfragmentcomponent.](/help/components/content-fragment-component.md)
+Het inhoudsfragmentschema wordt gebruikt door het [Inhoudsfragmentcomponent.](/help/components/content-fragment-component.md)
 
 Het inhoudsfragmentschema wordt als volgt gedefinieerd.
 
@@ -251,13 +251,13 @@ Het schema dat voor het element Inhoudsfragment wordt gebruikt, ziet er als volg
 
 ## Gebeurtenissen kerncomponent {#events}
 
-Er zijn een aantal gebeurtenissen die de Componenten van de Kern via de Laag van Gegevens teweegbrengen. De beste manier om met de Laag van Gegevens in wisselwerking te staan is een gebeurtenisluisteraar [te registreren ](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener) en *dan een actie te voeren die op het gebeurtenistype en/of de component wordt gebaseerd die de gebeurtenis teweegbracht.* Dit zal potentiële rassenvoorwaarden met asynchrone manuscripten vermijden.
+Er zijn een aantal gebeurtenissen die de Componenten van de Kern via de Laag van Gegevens teweegbrengen. De beste praktijken voor het in wisselwerking staan met de Laag van Gegevens zijn: [een gebeurtenislistener registreren](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener) en *dan* Voer een actie uit op basis van het gebeurtenistype en/of de component die de gebeurtenis heeft geactiveerd. Dit zal potentiële rassenvoorwaarden met asynchrone manuscripten vermijden.
 
 Hieronder vindt u de gebeurtenissen uit de box die worden geleverd door AEM Core Components:
 
-* **`cmp:click`** - Als u op een klikbaar element (een element met een  `data-cmp-clickable` kenmerk) klikt, activeert de gegevenslaag een  `cmp:click` gebeurtenis.
-* **`cmp:show`** en  **`cmp:hide`** - Door het manipuleren van de accordeon (uitvouwen/samenvouwen), de carrousel (volgende/vorige knoppen) en de tabs (geselecteerde tabbladen) worden respectievelijk de gegevenslaag geactiveerd  `cmp:show` en een  `cmp:hide` gebeurtenis. Er wordt ook een `cmp:show`-gebeurtenis verzonden bij het laden van de pagina en dit is naar verwachting de eerste gebeurtenis.
-* **`cmp:loaded`** - Zodra de Laag van Gegevens met de Componenten van de Kern op de pagina wordt bevolkt, teweegbrengt de Laag van Gegevens een  `cmp:loaded` gebeurtenis.
+* **`cmp:click`** - Op een klikbaar element klikken (een element dat een `data-cmp-clickable` kenmerk) activeert de gegevenslaag een `cmp:click` gebeurtenis.
+* **`cmp:show`** en **`cmp:hide`** - De gegevenslaag wordt geactiveerd door het manipuleren van de componenten accordeon (uit-/samenvouwen), carrousel (uit-/vorige knoppen) en tabbladen (selecteren) `cmp:show` en `cmp:hide` gebeurtenissen. A `cmp:show` gebeurtenis wordt ook verzonden tijdens het laden van de pagina en dit is naar verwachting de eerste gebeurtenis.
+* **`cmp:loaded`** - Zodra de Laag van Gegevens met de Componenten van de Kern op de pagina wordt bevolkt, teweegbrengt de Laag van Gegevens a `cmp:loaded` gebeurtenis.
 
 ### Gebeurtenissen geactiveerd door component {#events-components}
 
@@ -265,14 +265,14 @@ In de volgende tabellen worden de standaard Core Components weergegeven die gebe
 
 | Component | Gebeurtenis(sen) |
 |---|---|
-| [Accordeon](/help/components/accordion.md) | `cmp:show` and `cmp:hide` |
+| [Accordeon](/help/components/accordion.md) | `cmp:show` en `cmp:hide` |
 | [Knop](/help/components/button.md) | `cmp:click` |
 | [Broodkruimel](/help/components/breadcrumb.md) | `cmp:click` |
-| [Carousel](/help/components/carousel.md) | `cmp:show` en  `cmp:hide` |
+| [Carousel](/help/components/carousel.md) | `cmp:show` en `cmp:hide` |
 | [Taalnavigatie](/help/components/language-navigation.md) | `cmp:click` |
 | [Navigatie](/help/components/navigation.md) | `cmp:click` |
 | [Pagina](/help/components/page.md) | `cmp:show` |
-| [Tabs](/help/components/tabs.md) | `cmp:show` en  `cmp:hide` |
+| [Tabs](/help/components/tabs.md) | `cmp:show` en `cmp:hide` |
 | [Teaser](/help/components/teaser.md) | `cmp:click` |
 
 ### Info van gebeurtenispad {#event-path-info}
@@ -285,7 +285,7 @@ eventInfo: {
 }
 ```
 
-Hierbij is `<component-path>` het JSON-pad naar de component in de gegevenslaag die de gebeurtenis heeft geactiveerd.  De waarde, beschikbaar via `event.eventInfo.path`, is belangrijk aangezien het als parameter aan `adobeDataLayer.getState(<component-path>)` kan worden gebruikt die de huidige staat van de component terugwint die de gebeurtenis teweegbracht, toestaand douanecode om tot extra gegevens toegang te hebben en het toe te voegen aan de Laag van Gegevens.
+Wanneer `<component-path>` is het JSON-pad naar de component in de gegevenslaag die de gebeurtenis heeft geactiveerd.  De waarde, beschikbaar via `event.eventInfo.path`, is belangrijk omdat het kan worden gebruikt als parameter voor `adobeDataLayer.getState(<component-path>)` die de huidige staat van de component terugwint die de gebeurtenis teweegbracht, toestaand douanecode om tot extra gegevens toegang te hebben en het toe te voegen aan de Laag van Gegevens.
 
 Bijvoorbeeld:
 
@@ -306,7 +306,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## Zelfstudie
 
-Wilt u de componenten van de Laag en van de Kern van Gegevens meer in detail onderzoeken? [Bekijk deze praktische zelfstudie](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html).
+Wilt u de componenten van de Laag en van de Kern van Gegevens meer in detail onderzoeken? [Deze praktische zelfstudie bekijken](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html).
 
 >[!TIP]
 >

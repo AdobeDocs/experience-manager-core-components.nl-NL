@@ -7,7 +7,7 @@ exl-id: 79549ac0-82f2-4ea0-9cce-d534d0b47b5c
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '337'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ De component van de Titel van de Component van de Kern is een component van de s
 
 De component Titel is bedoeld voor gebruik als de titel of koptekst van een sectie met inhoud.
 
-De beschikbare kopniveaus kunnen door de sjabloonauteur worden gedefinieerd in het [ontwerpdialoogvenster](#design-dialog). De inhoudeditor kan kiezen uit beschikbare koptekstniveaus in het dialoogvenster [bewerken](#edit-dialog). Voor meer gemak is het ook mogelijk de koptekst eenvoudig op locatie te bewerken.
+De beschikbare kopniveaus kunnen door de sjabloonauteur in het dialoogvenster [ontwerpdialoogvenster](#design-dialog). De inhoudeditor kan een keuze maken uit beschikbare koptekstniveaus in het dialoogvenster [dialoogvenster bewerken](#edit-dialog). Voor meer gemak is het ook mogelijk de koptekst eenvoudig op locatie te bewerken.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -29,18 +29,18 @@ In de volgende tabel wordt de compatibiliteit van v1 van de component Title weer
 
 | AEM | Titelcomponent v1 |
 |--- |--- |
-| 6,3 | Compatibel |
-| 6,4 | Compatibel |
+| 6.3 | Compatibel |
+| 6.4 | Compatibel |
 
 >[!CAUTION]
 >
 >In dit document wordt versie 1 van de component Title beschreven.
 >
->Zie het document [Title Component](/help/components/title.md) voor meer informatie over de huidige versie van de component Title.
+>Voor meer informatie over de huidige versie van de component Title raadpleegt u de [Component Title](/help/components/title.md) document.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende voorbeeld wordt genomen uit [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende monster wordt genomen uit [Wij.Detailhandel](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Schermafbeelding {#screenshot}
 
@@ -67,7 +67,7 @@ Het volgende voorbeeld wordt genomen uit [We.Retail](https://helpx.adobe.com/exp
 
 >[!NOTE]
 >
->Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Zie [compatibiliteitsinformatie voor Core Components v1](/help/versions.md) voor meer informatie.
+>Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Zie de [compatibiliteitsinformatie voor Core Components v1](/help/versions.md) voor meer informatie .
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
@@ -91,8 +91,8 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur het standaardkopniveau def
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Titel [kan op GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v1/title) worden gevonden.
+De meest recente technische documentatie over de component Title [kan op GitHub worden gevonden](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v1/title).
 
 Het volledige kerncomponentenproject kan van GitHub worden gedownload.
 
-Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
+Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).

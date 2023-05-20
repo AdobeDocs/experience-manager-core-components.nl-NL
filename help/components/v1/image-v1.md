@@ -29,8 +29,8 @@ In de volgende tabel wordt de compatibiliteit van versie 1 van de component Imag
 
 | AEM | Afbeeldingscomponent v1 |
 |--- |--- |
-| 6,3 | Compatibel |
-| 6,4 | Compatibel |
+| 6.3 | Compatibel |
+| 6.4 | Compatibel |
 
 >[!CAUTION]
 >

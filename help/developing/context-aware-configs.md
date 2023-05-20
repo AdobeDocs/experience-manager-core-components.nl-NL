@@ -5,20 +5,20 @@ role: Architect, Developer, Admin
 exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
 
 # Sling Context-Aware Configurations en Core Components {#sling-context-aware-configurations}
 
-Contextbewuste configuraties zijn een [functie van Sling](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html). Zij zijn configuraties die met een inhoudsmiddel of een middelboom verwant zijn en door de Componenten van de Kern worden gebruikt om plaats-brede configuraties toe te staan.
+Contextbewuste configuraties zijn een [onderdeel van verkoop](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html). Zij zijn configuraties die met een inhoudsmiddel of een middelboom verwant zijn en door de Componenten van de Kern worden gebruikt om plaats-brede configuraties toe te staan.
 
 ## Contextbewuste configuraties verkopen {#context-aware-configurations}
 
 Uw site heeft mogelijk verschillende configuraties voor verschillende sitegebieden nodig, bijvoorbeeld waar bepaalde parameters kunnen worden gedeeld, waarvoor overerving voor geneste contexten en globale terugvalwaarden vereist is. AEM gebruikmaakt van contextbewuste configuraties die deze mogelijkheid mogelijk maken.
 
-Voor details over configuraties in AEM, [zie de Documentatie van Configuraties en Browser van de Configuratie.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/configurations.html)
+Voor details over configuraties in AEM, [Zie de documentatie van Configurations en Browser van de Configuratie.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/configurations.html)
 
 ## In de kerncomponenten gebruiken {#core-components}
 

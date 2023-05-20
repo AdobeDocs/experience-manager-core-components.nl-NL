@@ -2,13 +2,13 @@
 title: Breadcrumb-component (v2)
 description: De component van de Breadcrumb van de Component van de Kern is een navigatiecomponent die een broodkruimel van verbindingen bouwt die op de plaats van de pagina in de inhoudshiërarchie wordt gebaseerd.
 role: Architect, Developer, Admin, User
-source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
+exl-id: 5f2e6fef-e2f6-48e2-8dac-008db3131044
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 0%
 
 ---
-
 
 # Breadcrumb-component (v2) {#breadcrumb-component}
 

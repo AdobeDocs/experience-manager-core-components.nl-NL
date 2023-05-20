@@ -2,13 +2,13 @@
 title: Component insluiten (v1)
 description: Met de component Embed kunt u externe inhoud insluiten in een AEM inhoudspagina.
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
+exl-id: 28a2d196-cc1f-4e29-a8e4-c2e0acba3bfc
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 0%
 
 ---
-
 
 # Component insluiten (v1) {#embed-component}
 

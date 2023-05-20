@@ -7,7 +7,7 @@ exl-id: c9fe3052-a33d-412e-9456-52c9a0cea292
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1657'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ De component Text is een component voor tekstbewerking en -compositie met teksto
 
 De component Text biedt een robuuste teksteditor met tekstopmaak die het mogelijk maakt tekst eenvoudig te bewerken in een vereenvoudigde, inline editor en in een volledige schermopmaak.
 
-Het [bewerkingsdialoogvenster](#edit-dialog) bevat inline bewerking met beperkte opties met volledige functionaliteit beschikbaar in het dialoogvenster Volledig scherm bewerken. Met behulp van het [ontwerpdialoogvenster](#design-dialog) kunnen opties voor tekstopmaak, zoals koppen, speciale tekens en alineastijlen, worden geconfigureerd voor de sjabloon voor de auteur van de inhoud.
+De [dialoogvenster bewerken](#edit-dialog) functies voor inline bewerking met beperkte opties en volledige functionaliteit beschikbaar in het dialoogvenster Volledig scherm bewerken. Met de [ontwerpdialoogvenster](#design-dialog), tekstopmaakopties zoals koppen, speciale tekens en alineastijlen kunnen worden geconfigureerd voor de sjabloon voor de auteur van de inhoud.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -29,18 +29,18 @@ In de volgende tabel wordt de compatibiliteit van v1 van de tekstcomponent weerg
 
 | AEM | Tekstcomponent v1 |
 |--- |--- |
-| 6,3 | Compatibel |
-| 6,4 | Compatibel |
+| 6.3 | Compatibel |
+| 6.4 | Compatibel |
 
 >[!CAUTION]
 >
 >In dit document wordt versie 1 van de tekstcomponent beschreven.
 >
->Zie het document [Tekstcomponent](/help/components/text.md) voor meer informatie over de huidige versie van de tekstcomponent.
+>Zie voor meer informatie over de huidige versie van de Tekstcomponent het gedeelte [Tekstcomponent](/help/components/text.md) document.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende voorbeeld wordt genomen uit [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende monster wordt genomen uit [Wij.Detailhandel](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Schermafbeelding {#screenshot}
 
@@ -68,7 +68,7 @@ Het volgende voorbeeld wordt genomen uit [We.Retail](https://helpx.adobe.com/exp
 
 >[!NOTE]
 >
->Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Zie [compatibiliteitsinformatie voor Core Components v1](/help/versions.md) voor meer informatie.
+>Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Zie de [compatibiliteitsinformatie voor Core Components v1](/help/versions.md) voor meer informatie .
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
@@ -82,7 +82,7 @@ Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak di
 
    Wordt gebruikt om vette opmaak toe te passen op geselecteerde tekst of opgemaakte tekst die na de cursor wordt ingevoerd.
 
-   **Ctrl+** Bcan wordt gebruikt als een sneltoets.
+   **Ctrl+B** kan als toetsenbordkortere weg worden gebruikt.
 
 * Cursief
 
@@ -90,7 +90,7 @@ Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak di
 
    Wordt gebruikt om cursieve opmaak toe te passen op geselecteerde tekst of om tekst die na de cursor wordt ingevoerd, cursief te maken.
 
-   **Ctrl+** Ican be used as a keyboard shortcut.
+   **Ctrl+I** kan als toetsenbordkortere weg worden gebruikt.
 
 * Onderstrepen
 
@@ -98,7 +98,7 @@ Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak di
 
    Wordt gebruikt om onderstreepte opmaak toe te passen op geselecteerde tekst of onderstreepte tekst die na de cursor wordt ingevoerd.
 
-   **Ctrl+** Ucan be used as a keyboard shortcut.
+   **Ctrl+U** kan als toetsenbordkortere weg worden gebruikt.
 
 * Subscript
 
@@ -167,11 +167,11 @@ Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak di
 
    ![](/help/assets/chlimage_1-66.png)
 
-   Voer de tekst in waarvoor u wilt zoeken en tikken of klik op **Zoeken** om de zoekopdracht te starten. Tik of klik op de x om te annuleren.
+   Voer de tekst in die u wilt doorzoeken en tikken of waarop u wilt klikken **Zoeken** om de zoekopdracht te starten. Tik of klik op de x om te annuleren.
 
-   Als u een nauwkeurige gelijke volgens het geval wilt doen, selecteer de optie **Kwestie** alvorens het onderzoek te beginnen.
+   Selecteer de optie als u een exacte overeenkomst wilt uitvoeren op basis van het hoofdlettergebruik **Hoofdlettergebruik afstemmen** voordat u de zoekopdracht start.
 
-   Als een overeenkomst wordt gevonden, wordt deze gemarkeerd en wordt het zoekdialoogvenster gedimd weergegeven. Tik of klik nogmaals op de knop **Zoeken** in het grijze dialoogvenster om naar de volgende instantie te zoeken.
+   Als een overeenkomst wordt gevonden, wordt deze gemarkeerd en wordt het zoekdialoogvenster gedimd weergegeven. Tik of klik op de knop **Zoeken** weer in het grijze dialoogvenster om naar de volgende instantie te zoeken.
 
    ![](/help/assets/chlimage_1-67.png)
 
@@ -179,7 +179,7 @@ Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak di
 
    ![](/help/assets/chlimage_1-68.png)
 
-* Replace
+* Vervangen
 
    ![](/help/assets/chlimage_1-69.png)
 
@@ -189,13 +189,13 @@ Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak di
 
    Voer de tekst in waarnaar u wilt zoeken en de tekst waarmee u deze wilt vervangen.
 
-   Tik of klik op **Zoeken** om te beginnen met zoeken. Klik of tik op de x om te annuleren.
+   Tik of klik op **Zoeken** om de zoekopdracht te starten. Klik of tik op de x om te annuleren.
 
-   Als u een nauwkeurige gelijke volgens het geval wilt doen, selecteer de optie **Kwestie** alvorens het onderzoek te beginnen.
+   Selecteer de optie als u een exacte overeenkomst wilt uitvoeren op basis van het hoofdlettergebruik **Hoofdlettergebruik afstemmen** voordat u de zoekopdracht start.
 
-   Als een overeenkomst wordt gevonden, wordt deze gemarkeerd en wordt het zoekdialoogvenster gedimd weergegeven. Klik nogmaals op de knop **Zoeken** in het grijze dialoogvenster om naar de volgende instantie te zoeken of selecteer de knop **Vervangen** om de gemarkeerde, overeenkomende tekst te vervangen. De knop **Vervangen** is alleen actief als er een overeenkomst is gemaakt.
+   Als een overeenkomst wordt gevonden, wordt deze gemarkeerd en wordt het zoekdialoogvenster gedimd weergegeven. Klik op de knop **Zoeken** opnieuw in het gedimde dialoogvenster om naar de volgende instantie te zoeken of selecteer de knop **Vervangen** om de gemarkeerde, overeenkomende tekst te vervangen. De **Vervangen** de knop is alleen actief als er een overeenkomst is bereikt.
 
-   Selecteer **Alles vervangen** om alle instanties van de tekst tegelijk te vervangen.
+   Selecteren **Alles vervangen** om alle instanties van de tekst tegelijk te vervangen.
 
 * Tekst links uitlijnen
 
@@ -221,7 +221,7 @@ Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak di
 
    Wordt gebruikt om de geselecteerde tekst op te maken als een lijst met opsommingstekens of om te beginnen met het invoegen van een lijst met opsommingstekens na de cursor.
 
-   Tik of klik nogmaals op de knop **Opsommingsteken** of voer twee regeleinden in om een lijst met opsommingstekens te beëindigen.
+   Tik of klik op de knop **Opsommingsteken** nogmaals of twee Enter-tekens invoeren.
 
 * Genummerd
 
@@ -229,7 +229,7 @@ Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak di
 
    Hiermee maakt u de geselecteerde tekst op als een genummerde lijst of begint u met het invoegen van een genummerde lijst na de cursor.
 
-   Tik of klik nogmaals op de knop **Genummerd** of voer twee regeleinden in om een genummerde lijst te beëindigen.
+   Tik op een genummerde lijst of klik op de knop **Genummerd** nogmaals of twee Enter-tekens invoeren.
 
 * Uitspringen
 
@@ -253,20 +253,20 @@ Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak di
 
    ![](/help/assets/chlimage_1-79.png)
 
-   * **Kolommen**  - Het aantal kolommen van de tabel (vereist)
-   * **Rijen**  - Het aantal rijen van de tabel (vereist)
-   * **Breedte**  - De breedte van de tabel
-   * **Hoogte**  - De hoogte van de tabel
-   * **Celopvulling**- De ruimte rondom de celinhoud
-   * **Celafstand** : de ruimte tussen cellen
-   * **Rand**  - Het gewicht van de randlijnen van de tabel
+   * **Kolommen** - Het aantal kolommen in de tabel (verplicht)
+   * **Rijen** - Het aantal rijen van de tabel (vereist)
+   * **Breedte** - De breedte van de tabel
+   * **Hoogte** - De hoogte van de tabel
+   * **Celopvulling** g - De ruimte rondom de celinhoud
+   * **Celafstand** - De ruimte tussen cellen
+   * **Rand** - Het gewicht van de randlijnen van de tabel
    * Indien voor de koptekst van de tabel:
 
       * De eerste rij moet worden gebruikt
       * De eerste kolom moet worden gebruikt
       * De eerste rij en de eerste kolom moeten worden gebruikt
       * Of er moet geen header worden gebruikt.
-   * **Bijschrift**  - Het bijschrift van de tabel
+   * **Bijschrift** - Het bijschrift van de tabel
 
 
 * Spellingcontrole
@@ -283,7 +283,7 @@ Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak di
 
    ![](/help/assets/chlimage_1-82.png)
 
-   Tik op het gewenste teken of klik op het gewenste teken om het na de cursor in de tekst in te voegen. U kunt meerdere tekens invoegen. Tik of klik op de x om het selectievenster te sluiten.
+   Tik op het gewenste teken of klik op het gewenste teken om het teken na de cursor in te voegen in de tekst. U kunt meerdere tekens invoegen. Tik of klik op de x om het selectievenster te sluiten.
 
 * Bron bewerken
 
@@ -291,14 +291,14 @@ Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak di
 
    Wordt gebruikt om de HTML-bron van de tekst weer te geven en te wijzigen.
 
-   Tik of klik op het pictogram **Bron bewerken** om de inhoud van de tekst vanuit de opgemaakte weergave te wijzigen en de onbewerkte HTML weer te geven. In deze modus zijn alle andere opmaakopties uitgeschakeld. Tik of klik nogmaals op het pictogram **Bron bewerken** om terug te keren naar de opgemaakte weergave.
+   Tik of klik op de knop **Bron bewerken** om de inhoud van de tekst vanuit de opgemaakte weergave te wijzigen en de onbewerkte HTML weer te geven. In deze modus zijn alle andere opmaakopties uitgeschakeld. Tik of klik op de knop **Bron bewerken** opnieuw om naar de opgemaakte weergave terug te gaan.
 
    >[!CAUTION]
    >
-   >Zoals altijd het geval met toegang tot ruwe HTML, moet de voorzichtigheid worden uitgeoefend wanneer het gebruiken van **Bron geeft** optie uit!
+   >Zoals altijd het geval is bij de toegang tot ruwe HTML, moet voorzichtigheid worden betracht bij het gebruik van de **Bron bewerken** optie!
    >
    >
-   >HTML die is ingevoerd via **Source Edit** wordt gescand op XSS-risico&#39;s en alle scripts die worden ingevoegd, worden verwijderd en worden niet weergegeven op de resulterende pagina. Maar misvormde HTML die is ingevoerd in **Source Edit** kan de sjabloon voor de pagina onderbreken, wat resulteert in onverwachte opmaak of het onbruikbaar maken van de resulterende pagina.
+   >HTML ingevoerd via **Bron bewerken** wordt gescand op XSS-risico&#39;s en alle scripts die worden ingevoegd, worden verwijderd en niet weergegeven op de resulterende pagina. Onjuist gevormde HTML is echter ingevoerd in **Bron bewerken** kan de sjabloon voor de pagina onderbreken, wat resulteert in een onverwachte opmaak of een onbruikbare pagina.
 
 * Alineaopmaak
 
@@ -349,7 +349,7 @@ Alineastijlen kunnen voor de component worden geactiveerd of gedeactiveerd. Als 
 
 * Tik of klik op de knop **Toevoegen** om een nieuwe stijl in te voegen.
 * Voer de code in van de stijl en een beschrijving die worden weergegeven in het dialoogvenster Bewerken.
-* Als u een stijltik wilt verwijderen of op de knop **Delete** wilt klikken.
+* Als u een stijltik wilt verwijderen of op de knop **Verwijderen** knop.
 * Tik of klik op de handgrepen om de volgorde van de indelingen te wijzigen.
 
 ### Speciale tekens {#special-characters}
@@ -360,13 +360,13 @@ De optie voor het invoegen van speciale tekens kan voor de component worden geac
 
 * Tik of klik op de knop **Toevoegen** om een nieuw teken in te voegen.
 * Voer de HTML-code in van het teken en een beschrijving die wordt weergegeven in het dialoogvenster Bewerken.
-* Als u een tikteken wilt verwijderen of op de knop **Verwijderen** wilt klikken.
+* Als u een tekenkraan wilt verwijderen of op de knop **Verwijderen** knop.
 * Als u de volgorde van de tekens wilt wijzigen, tikt u of klikt u en sleept u de handgrepen.
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Tekst [kan op GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text) worden gevonden.
+De meest recente technische documentatie over de component Text [kan op GitHub worden gevonden](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text).
 
 Het volledige kerncomponentenproject kan van GitHub worden gedownload.
 
-Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
+Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).

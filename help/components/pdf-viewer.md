@@ -6,7 +6,7 @@ exl-id: deb635f5-2b73-4e7a-9838-3a941e39e898
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
 workflow-type: tm+mt
 source-wordcount: '709'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -74,7 +74,7 @@ Het weergavegebied wordt weergegeven in de volledige browser. Dit is het meest g
 
 * **Standaardweergavemodus** - Hoe de viewer op de pagina wordt weergegeven
    * Pagina passend maken
-   * Aanpassen aan breedte
+   * Aan breedte aanpassen
 * **Volledig scherm** - Als deze optie is ingeschakeld, neemt de viewer de volledige hoogte/breedte van de viewport in beslag.
 * **Annotatiegereedschappen** - Als deze optie is ingeschakeld, zijn de annotatiegereedschappen beschikbaar.
 * **Deelvenster Linkerhand** - Als deze optie is ingeschakeld, wordt het linkerdeelvenster weergegeven.

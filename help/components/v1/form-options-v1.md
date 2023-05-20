@@ -7,7 +7,7 @@ exl-id: a5e8656b-eddd-48ec-876b-39bbaa70edf6
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '476'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -17,9 +17,9 @@ Met de component Core Component Form Options kunt u vooraf gedefinieerde opties 
 
 ## Gebruik {#usage}
 
-De component van de Opties van de Vorm van de Component van de Kern staat voor de voorlegging van verschillende types van opties toe die op vele verschillende manieren worden voorgesteld en is bedoeld om samen met de [component van de vormcontainer ](form-container-v1.md) worden gebruikt.
+Met de component Core Component Form Options kunnen verschillende typen opties worden ingediend die op verschillende manieren worden gepresenteerd. Deze component is bedoeld om samen met de component [formuliercontainercomponent](form-container-v1.md).
 
-De presentatie van de opties, de etiketten, en de individuele opties kunnen door de inhoudsredacteur in [vormen dialoog](#configure-dialog) worden bepaald.
+De presentatie van de opties, labels en afzonderlijke opties kan worden gedefinieerd door de inhoudseditor in het dialoogvenster [dialoogvenster configureren](#configure-dialog).
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -36,11 +36,11 @@ In de volgende tabel wordt de compatibiliteit van versie 1 van de component Form
 >
 >In dit document wordt versie 1 van de component Formulieropties beschreven.
 >
->Zie het document [Formulieropties Component](/help/components/forms/form-options.md) voor meer informatie over de huidige versie van de component Formulieropties.
+>Voor meer informatie over de huidige versie van de component Formulieropties raadpleegt u de [Component Formulieropties](/help/components/forms/form-options.md) document.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende voorbeeld wordt genomen uit [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende monster wordt genomen uit [Wij.Detailhandel](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Schermafbeelding {#screenshot}
 
@@ -110,7 +110,7 @@ Het volgende voorbeeld wordt genomen uit [We.Retail](https://helpx.adobe.com/exp
 
 >[!NOTE]
 >
->Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Zie [compatibiliteitsinformatie voor Core Components v1](/help/versions.md) voor meer informatie.
+>Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Zie de [compatibiliteitsinformatie voor Core Components v1](/help/versions.md) voor meer informatie .
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -126,22 +126,22 @@ Hoe de opties worden weergegeven
    * **Vervolgkeuzelijst**
    * **Vervolgkeuzelijst Multi-select**
 
-* **Titel**  - De titel die als label voor de opties wordt weergegeven
-* **Naam**  - De naam van het veld dat met de formuliergegevens is verzonden
-* **Bron**  - Waar worden de opties gedefinieerd
+* **Titel** - De titel die wordt weergegeven als het label voor de opties
+* **Naam** - De naam van het veld dat met de formuliergegevens wordt verzonden
+* **Bron** - Waar de opties zijn gedefinieerd
 
-   * **Lokaal**  - Gedefinieerd binnen de component
-      * Tik of klik op de knop **Toevoegen** om een waarde toe te voegen, **Verwijderen** om een waarde te verwijderen
-      * **Waarde**  - De waarde die wordt opgeslagen wanneer die optie is geselecteerd bij het verzenden van het formulier
-      * **Tekst**  - Het label voor de optie die op het formulier wordt weergegeven
-      * **Actief**  - De optie is gemarkeerd als geselecteerd wanneer het formulier wordt geladen
-      * **Uitgeschakeld**  - De optie kan niet worden geselecteerd, maar wordt wel weergegeven
-      * **List**  - Een statische lijst die elders in AEM is gedefinieerd, wordt gebruikt voor de optie
-         * **List**  - Het pad van de statische lijst in AEM
+   * **Lokaal** - Gedefinieerd binnen de component
+      * Tik of klik op de knop **Toevoegen** knop om een waarde toe te voegen, **Verwijderen** om een waarde te verwijderen
+      * **Waarde** - De waarde die wordt opgeslagen wanneer deze optie wordt geselecteerd wanneer het formulier wordt verzonden
+      * **Tekst** - Het label voor de optie die op het formulier wordt weergegeven
+      * **Actief** - De optie wordt gemarkeerd als geselecteerd wanneer het formulier wordt geladen
+      * **Uitgeschakeld** - De optie kan niet worden geselecteerd, maar wordt wel weergegeven
+      * **Lijst** - Een statische lijst die elders in AEM is gedefinieerd, wordt gebruikt voor de optie
+         * **Lijst** - Het pad van de statische lijst in AEM
             * Gebruik de Browse knoop om van het lijstmiddel de plaats te bepalen
-      * **Gegevensbron**  - Een gegevensbron wordt gebruikt voor de opties
-         * **Gegevensbron**  - brontype van de gegevensbron
-* **Help-bericht**  - Een tip voor de gebruiker wat in het veld kan worden ingevoerd
+      * **Gegevensbron** - Een gegevensbron wordt gebruikt voor de opties
+         * **Gegevensbron** - soort bron van de gegevensbron
+* **Help-bericht** - Een tip voor de gebruiker wat in het veld kan worden ingevoerd
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -149,8 +149,8 @@ Er is geen dialoogvenster voor het ontwerp van de component Formulieropties.
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Opties van de Vorm [kan op GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options) worden gevonden.
+De meest recente technische documentatie over de component Formulieropties [kan op GitHub worden gevonden](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options).
 
 Het volledige kerncomponentenproject kan van GitHub worden gedownload.
 
-Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
+Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).

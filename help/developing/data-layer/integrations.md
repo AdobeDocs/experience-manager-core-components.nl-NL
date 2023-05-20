@@ -6,7 +6,7 @@ role: Architect, Developer, Admin
 exl-id: 503dd3dc-fe95-4a17-83f5-1f0c1960993d
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ De Adobe Client Data Layer kan worden geïntegreerd met uw aangepaste componente
 Een aangepaste component automatisch toevoegen aan de gegevenslaag:
 
 1. Definieer de eigenschappen van het model van de aangepaste component die moeten worden bijgehouden.
-1. Voeg het `data-cmp-data-layer` attribuut aan de douanecomponent HTML toe. Bijv. `data-cmp-data-layer="${mycomponent.data.json}"`.
+1. Voeg de `data-cmp-data-layer` aan de douanecomponent HTML. Bijv. `data-cmp-data-layer="${mycomponent.data.json}"`.
 
-Als u de gegevenslaag automatisch een `cmp:click`-gebeurtenis wilt laten activeren telkens wanneer op een specifiek element van de aangepaste component wordt geklikt, voegt u het `data-cmp-clickable`-kenmerk toe aan het element dat in de aangepaste component HTML moet worden bijgehouden.
+Als u de gegevenslaag automatisch wilt laten activeren door een `cmp:click` elke keer dat er op een specifiek element van de aangepaste component wordt geklikt, voegt u de `data-cmp-clickable` kenmerk aan het element dat moet worden bijgehouden in de aangepaste component HTML.
 
-Het `data-cmp-data-layer-enabled` attribuut kan cliënt-kant worden gevraagd om te controleren of wordt de gegevenslaag toegelaten.
+De `data-cmp-data-layer-enabled` Het attribuut kan cliënt-kant worden gevraagd om te controleren of wordt de gegevenslaag toegelaten.
 
 >[!TIP]
 >
->Voor verdere technische details over de integratie van de Laag van Gegevens van de Cliënt van Adobe met de Componenten van de Kern en hoe te om de Laag van Gegevens op uw douanecomponenten toe te laten, zie [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) dossier in de bewaarplaats van de Componenten van de Kern.
+>Voor verdere technische details over de integratie van de Laag van Gegevens van de Cliënt van Adobe met de Componenten van de Kern en hoe te om de Laag van Gegevens op uw douanecomponenten toe te laten, zie [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) in de opslagplaats voor kerncomponenten.
 
 ## Integratie met Adobe Analytics en Adobe Target {#analytics-target}
 

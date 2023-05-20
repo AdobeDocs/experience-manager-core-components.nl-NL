@@ -19,7 +19,7 @@ De component van de Lijst van de Component van de Kern staat voor de gemakkelijk
 
 De component List kan worden gebruikt om bijvoorbeeld een dynamische lijst met onderliggende pagina&#39;s of een statische lijst met willekeurig gedefinieerde items te maken.
 
-Het type van beschikbare lijsten en opmaakopties kan door de malplaatjeauteur in [ontwerpdialoog](#design-dialog) worden bepaald. De inhoudeditor kan kiezen uit beschikbare lijsttypen en hoe de lijstelementen worden opgemaakt in het dialoogvenster [bewerken](#edit-dialog).
+Het type beschikbare lijsten en opmaakopties kan door de sjabloonauteur in het dialoogvenster [ontwerpdialoogvenster](#design-dialog). De inhoudeditor kan kiezen uit beschikbare lijsttypen en hoe u de lijstelementen opmaakt in het dialoogvenster [dialoogvenster bewerken](#edit-dialog).
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -29,18 +29,18 @@ In de volgende tabel wordt de compatibiliteit van v1 van de component List weerg
 
 | AEM | List Component v1 |
 |--- |--- |
-| 6,3 | Compatibel |
-| 6,4 | Compatibel |
+| 6.3 | Compatibel |
+| 6.4 | Compatibel |
 
 >[!CAUTION]
 >
 >In dit document wordt versie 1 van de component List beschreven.
 >
->Voor details van de huidige versie van de Component van de Lijst, zie [Component van de Lijst](/help/components/list.md) document.
+>Voor meer informatie over de huidige versie van de component List raadpleegt u de [Component List](/help/components/list.md) document.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende voorbeeld wordt genomen uit [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende monster wordt genomen uit [Wij.Detailhandel](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Schermafbeelding {#screenshot}
 
@@ -134,7 +134,7 @@ Het volgende voorbeeld wordt genomen uit [We.Retail](https://helpx.adobe.com/exp
 
 >[!NOTE]
 >
->Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Zie [compatibiliteitsinformatie voor Core Components v1](/help/versions.md) voor meer informatie.
+>Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Zie de [compatibiliteitsinformatie voor Core Components v1](/help/versions.md) voor meer informatie .
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
@@ -149,7 +149,7 @@ De lijst kan op verschillende manieren worden samengesteld.
 * [Zoeken](#search-list)
 * [Tags](#tags)
 
-Ongeacht hoe de lijst wordt gebouwd, zijn er [Opties van de Soort](#sort-options) die altijd kunnen worden gevormd.
+Ongeacht hoe de lijst wordt samengesteld, zijn er [Sorteeropties](#sort-options) dat altijd kan worden gevormd.
 
 ![](/help/assets/chlimage_1-38.png)
 
@@ -164,7 +164,7 @@ De lijst kan van de kindpagina&#39;s van de huidige pagina of een andere pagina 
 * **Bovenliggende pagina**
    * De pagina waarvan de onderliggende pagina&#39;s de lijst moeten maken
    * Leeg laten om de huidige pagina te gebruiken
-* **Child-Depth**  - Hoeveel niveaus neer in de hiërarchie zouden moeten worden gebruikt
+* **Onderliggende diepte** - Hoeveel niveaus lager in de hiërarchie zouden moeten worden gebruikt
 
 #### Vaste lijst {#fixed-list}
 
@@ -174,7 +174,7 @@ De lijst kan worden samengesteld met behulp van een vaste lijst met items.
 
 Tik of klik op de knop **Toevoegen** om een nieuw item aan de lijst toe te voegen.
 
-* Typ tekst voor het item in de lijst of gebruik het dialoogvenster **Selectie** om een item te kiezen uit AEM.
+* Voer tekst in voor het item in de lijst of gebruik de optie **Dialoogvenster Selectie** om een item te kiezen uit AEM.
 * Gebruik de sleepgreep om de items in de lijst opnieuw te rangschikken.
 * Gebruik het prullenbakpictogram om items in de lijst te verwijderen.
 
@@ -184,9 +184,9 @@ De lijst kan worden samengesteld met behulp van de resultaten van een zoekopdrac
 
 ![](/help/assets/chlimage_1-41.png)
 
-* **Zoekquery**  - De tekenreeks waarvoor een full-text zoekopdracht wordt uitgevoerd om de lijstelementen te genereren
-* **Zoeken in**  - Waar moet de zoekopdracht worden uitgevoerd
-   * Kies de locatie in AEM ****
+* **Zoekquery** - De tekenreeks waarvoor een zoekopdracht in volledige tekst wordt uitgevoerd om de lijstelementen te genereren
+* **Zoeken in** - Waar de zoekopdracht moet worden uitgevoerd
+   * Gebruik de **Dialoogvenster Selectie** om de locatie in AEM te kiezen
    * Huidige pagina gebruiken als deze leeg blijft
 
 #### Tags {#tags}
@@ -195,12 +195,12 @@ De lijst kan worden samengesteld met pagina&#39;s die overeenkomen met bepaalde 
 
 ![](/help/assets/chlimage_1-42.png)
 
-* **Bovenliggende pagina**  - Waar de overeenkomende tag moet beginnen
-   * Kies de locatie in AEM ****
+* **Bovenliggende pagina** - Waar de tagovereenkomst moet beginnen
+   * Gebruik de **Dialoogvenster Selectie** om de locatie in AEM te kiezen
    * Huidige pagina gebruiken als deze leeg blijft
-* **Tags**  - Welke labels moeten overeenkomen
-   * Gebruik het dialoogvenster **Bladeren** om de labels te selecteren
-* **Overeenkomst**  - Bepaal welke soort gelijke een pagina zou moeten kwalificeren om in de lijst worden opgenomen
+* **Tags** - Welke labels moeten worden aangepast
+   * Gebruik de **Bladeren** dialoogvenster om de tags te selecteren
+* **Overeenkomst** - Bepaal welke soort overeenkomst een pagina zou moeten kwalificeren om in de lijst te worden opgenomen
    * **elke tag**
    * **alle tags**
 
@@ -210,27 +210,27 @@ Ongeacht hoe u de lijst maakt, zijn er bepaalde sorteeropties die altijd kunnen 
 
 ![](/help/assets/chlimage_1-43.png)
 
-* **Volgorde bij** - Hoe de elementen moeten worden gerangschikt
+* **Volgorde van** - Hoe de elementen moeten worden gerangschikt
    * **Titel**
    * **Laatst gewijzigd**
-* **Sorteervolgorde**  - De volgorde waarin de items moeten worden geordend
+* **Sorteervolgorde** - De volgorde waarin de items moeten worden besteld
    * **Oplopend**
    * **Aflopend**
-* **Max. items**  - Maximum aantal items dat in de lijst wordt weergegeven.
+* **Max. items** - Maximum aantal items dat in de lijst wordt weergegeven.
    * Laat leeg om alle items te retourneren.
 
 ### Iteminstellingen {#item-settings}
 
-Met het tabblad **Iteminstellingen** kunt u de opmaak van de lijstelementen configureren.
+Met de **Iteminstellingen** kunt u de opmaak van de lijstelementen configureren.
 
 ![](/help/assets/chlimage_1-44.png)
 
-* **ItemsLink-**
-items koppelen aan de corresponderende pagina
-* **Beschrijving**
-tonenBeschrijvingen van het koppelingsitem tonen
-* **Wijzigingsdatum van**
-DateShow van het koppelingsitem tonen
+* **Items koppelen**
+Items koppelen aan de corresponderende pagina
+* **Beschrijving tonen**
+Beschrijvingen van het koppelingsitem weergeven
+* **Datum tonen**
+Wijzigingsdatum van het koppelingsitem weergeven
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -238,30 +238,30 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur definiëren welke typen li
 
 ### Lijstinstellingen {#list-settings-1}
 
-Op het tabblad **Lijstinstellingen** kunt u de datumnotatie en het type lijsten definiëren dat in de component beschikbaar moet zijn voor de auteurs van de inhoud.
+Op de **Lijstinstellingen** , kan de datumnotatie worden gedefinieerd en kunt u aangeven welk type lijst in de component beschikbaar moet zijn voor de auteurs van de inhoud.
 
 ![](/help/assets/chlimage_1-45.png)
 
-* **Datumnotatie**  - Indeling die moet worden gebruikt voor de weergave van de laatste wijzigingsdatum
-* **Onderliggende**  items uitschakelen - Het type lijst met onderliggende items in de component uitschakelen
-* **Statisch**  uitschakelen - Het type statische lijst in de component uitschakelen
-* **Zoeken**  uitschakelen - Het type zoeklijst in de component uitschakelen
-* **Labels**  uitschakelen - Labellijsttype in de component uitschakelen
+* **Datumnotatie** - Formaat voor de weergave van de laatste wijzigingsdatum
+* **Onderliggende niveaus uitschakelen** - Schakel het type lijst met onderliggende items in de component uit
+* **Statisch uitschakelen** - Het type statische lijst in de component uitschakelen
+* **Zoeken uitschakelen** - Schakel het type zoeklijst in de component uit
+* **Labels uitschakelen** - Labellijsttype uitschakelen in de component
 
 ### Iteminstellingen {#item-settings-1}
 
-Op het tabblad **Iteminstellingen** kunnen de opmaakopties voor de afzonderlijke lijstelementen worden gedefinieerd die in de component beschikbaar moeten zijn voor de auteurs van de inhoud.
+Op de **Iteminstellingen** kunt u de opmaakopties definiëren voor de afzonderlijke lijstelementen die in de component beschikbaar moeten zijn voor de makers van de inhoud.
 
 ![](/help/assets/chlimage_1-46.png)
 
-* **Koppelingsitems**  - optie Koppelingsitems inschakelen in het dialoogvenster  [Bewerken](#edit-dialog)
-* **Omschrijvingen**  tonen - de optie Omschrijvingen tonen inschakelen in het dialoogvenster  [Bewerken](#edit-dialog)
-* **Datum**  tonen - de optie Datum tonen inschakelen in het dialoogvenster  [Bewerken](#edit-dialog)
+* **Items koppelen** - Schakel de optie Koppelingsitems in het dialoogvenster [dialoogvenster bewerken](#edit-dialog)
+* **Beschrijvingen tonen** - Schakel de optie Omschrijvingen tonen in het dialoogvenster [dialoogvenster bewerken](#edit-dialog)
+* **Datum tonen** - Schakel de optie Datum tonen in het dialoogvenster [dialoogvenster bewerken](#edit-dialog)
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Lijst [kan op GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list) worden gevonden.
+De meest recente technische documentatie over de component List [kan op GitHub worden gevonden](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list).
 
 Het volledige kerncomponentenproject kan van GitHub worden gedownload.
 
-Meer details over het ontwikkelen van de Componenten van de Kern kunnen in [de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden](/help/developing/overview.md).
+Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).

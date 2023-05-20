@@ -6,20 +6,20 @@ role: Architect, Developer, Admin
 exl-id: 5726e29d-081c-42bb-bf4e-2852043b21d6
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
 
 # Front-end build voor SPA Angular {#frontend-angular}
 
-In dit document worden de details uitgelegd van het project dat is gemaakt wanneer u het archetype gebruikt om een toepassing van één pagina (SPA) te maken die is gebaseerd op het raamwerk van de Angular. D.w.z. wanneer u de optie `frontendModule` op `angular` plaatst.
+In dit document worden de details uitgelegd van het project dat is gemaakt wanneer u het archetype gebruikt om een toepassing van één pagina (SPA) te maken die is gebaseerd op het raamwerk van de Angular. D.w.z. wanneer u de `frontendModule` optie voor `angular`.
 
 ## Overzicht {#overview}
 
 Dit project is opgestart met de [Angular CLI](https://github.com/angular/angular-cli).
 
-Deze toepassing is ontworpen om het AEM van een site te gebruiken. De lay-out wordt automatisch gegenereerd met behulp van de helpercomponenten uit het [@adobe/cq-angular-editable-components](https://www.npmjs.com/package/@adobe/cq-angular-editable-components)-pakket.
+Deze toepassing is ontworpen om het AEM van een site te gebruiken. De lay-out wordt automatisch gegenereerd met behulp van de hulplijncomponenten uit de [@adobe/cq-angular-editable-components](https://www.npmjs.com/package/@adobe/cq-angular-editable-components) pakket.
 
 ## Scripts {#scripts}
 
@@ -31,7 +31,7 @@ In de projectfolder, kunt u de volgende bevelen in werking stellen.
 npm start
 ```
 
-Met deze opdracht voert u de toepassing uit in de ontwikkelingsmodus door het JSON-model te proxen vanuit een lokale AEM-instantie die wordt uitgevoerd op http://localhost:4502. Dit veronderstelt dat het volledige project aan AEM minstens eens (`mvn clean install -PautoInstallPackage` in de projectwortel) is opgesteld.
+Met deze opdracht voert u de toepassing uit in de ontwikkelingsmodus door het JSON-model te proxen vanuit een lokale AEM-instantie die wordt uitgevoerd op http://localhost:4502. Dit veronderstelt dat het volledige project aan AEM minstens eens (`mvn clean install -PautoInstallPackage` in de hoofdmap van het project).
 
 Nadat npm in werking stelt begin in de folder ui.frontend, zal uw app automatisch in uw browser (op weg http://localhost:4200/content/${appId}/${country} worden geopend/${language}/home.html). Als u bewerkingen uitvoert, wordt de pagina opnieuw geladen.
 
@@ -50,7 +50,7 @@ Als u fouten met betrekking tot CORS krijgt, zou u AEM als volgt kunnen willen v
 npm test
 ```
 
-Met deze opdracht start u de Karma-testruntime. Zie de [documentatie van de Angular over het runnen van tests](https://angular.io/guide/testing) voor meer informatie.
+Met deze opdracht start u de Karma-testruntime. Zie de [Documentatie van de angular over het uitvoeren van tests](https://angular.io/guide/testing) voor meer informatie .
 
 ### npm run test:foutopsporing {#npm-run-test-debug}
 
@@ -66,12 +66,12 @@ Met deze opdracht start u de Karma-testruntime in de interactieve controlemodus.
 npm run build
 ```
 
-Met deze opdracht wordt de app voor productie naar de map build gemaakt. Het bundelt Angular in productiemodus en optimaliseert de build voor de beste prestaties. Zie de [documentatie van de Angular over plaatsing](https://angular.io/guide/deployment) voor meer informatie.
+Met deze opdracht wordt de app voor productie naar de map build gemaakt. Het bundelt Angular in productiemodus en optimaliseert de bouwstijl voor de beste prestaties. Zie de [documentatie van de angular over plaatsing](https://angular.io/guide/deployment) voor meer informatie .
 
-Bovendien wordt uit de toepassing een AEM ClientLib gegenereerd met behulp van het [aem-clientlib-generator](https://github.com/wcm-io-frontend/aem-clientlib-generator)-pakket.
+Bovendien wordt uit de toepassing een AEM ClientLib gegenereerd met behulp van de [aem-clientlib-generator](https://github.com/wcm-io-frontend/aem-clientlib-generator) pakket.
 
-Zie de algemene [ui.frontend moduledocumentatie](uifrontend.md#clientlibs) voor meer informatie over hoe AEM ClientLibs door het projectarchetype worden gebruikt.
+Zie de algemene [ui.frontend module documentatie](uifrontend.md#clientlibs) voor meer informatie over hoe AEM ClientLibs door het projectarchetype worden gebruikt.
 
 ## Browserondersteuning {#browser-support}
 
-Standaard gebruikt dit project de standaardinstelling [Browserslist](https://github.com/browserslist/browserslist) om doelbrowsers te identificeren. Bovendien bevat het programma polyvullingen voor functies in moderne talen om oudere browsers (bijvoorbeeld Internet Explorer 11) te ondersteunen. Als het steunen van dergelijke browsers geen vereiste is, kunnen de polyfill gebiedsdelen en de invoer worden verwijderd.
+Standaard gebruikt dit project [Browserslist](https://github.com/browserslist/browserslist)De standaardinstellingen van de optie om doelbrowsers te identificeren. Bovendien bevat het programma polyvullingen voor functies in moderne talen om oudere browsers (bijvoorbeeld Internet Explorer 11) te ondersteunen. Als het steunen van dergelijke browsers geen vereiste is, kunnen de polyfill gebiedsdelen en de invoer worden verwijderd.

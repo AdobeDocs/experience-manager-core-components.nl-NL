@@ -2,13 +2,13 @@
 title: AEM Forms Core Components-versies
 description: De Componenten van de kern worden gepubliceerd als versies die meer dan één versie van de zelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies beschikbaar zijn en hoe u de compatibiliteit met Core Components en AEM begrijpt.
 role: Architect, Developer, Admin, User
-source-git-commit: 85d6efce6f661db2812f80a7815fd6902e77b440
+exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
+source-git-commit: aaf083cc4b479a97f750844c742581e1b243e036
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 5%
 
 ---
-
 
 # Core Components-versies {#core-components-versions}
 

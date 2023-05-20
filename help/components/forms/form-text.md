@@ -6,7 +6,7 @@ exl-id: e8fa3881-51fb-4726-9654-8f93acfb7464
 source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
 workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -54,7 +54,7 @@ In het dialoogvenster Configureren kan de auteur van de inhoud het type tekst de
    * **Tekstgebied**
    * **E-mail**
    * **Tel**
-   * **Date**
+   * **Datum**
    * **Getal**
    * **Wachtwoord**
 * **Tekstregels** - Aantal regels dat in het tekstgebied moet worden weergegeven (alleen wordt weergegeven wanneer **Restrictie** is ingesteld op **Tekstgebied**)

@@ -6,7 +6,7 @@ role: Architect, Developer, Admin
 exl-id: eb3c9b34-f10e-410f-bcf3-34f94f124c7c
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,8 @@ Om te testen, voer uit:
 mvn verify -Pui-tests-local-execution
 ```
 
-Na uitvoering zijn rapporten en logbestanden beschikbaar in de map `target/reports`.
+Na uitvoering zijn rapporten en logbestanden beschikbaar in het dialoogvenster `target/reports` map.
 
 ## Aanvullende opties {#additional-options}
 
-De tests UI kunnen met vele verschillende opties worden in werking gesteld met inbegrip van voor hoofdloze het testen tegen lokale browser en als beeld van het Dokker. Zie het [README.md- dossier van ui.tests module](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/ui.tests) voor verdere informatie.
+De tests UI kunnen met vele verschillende opties worden in werking gesteld met inbegrip van voor hoofdloze het testen tegen lokale browser en als beeld van het Dokker. Zie de [README.md-bestand van de module ui.tests](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/ui.tests) voor nadere informatie.

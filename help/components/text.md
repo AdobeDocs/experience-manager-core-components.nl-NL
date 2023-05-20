@@ -159,7 +159,7 @@ Als er geen andere exemplaren worden gevonden, wordt een bericht weergegeven en 
 
 ![Voorbeeld niet meer zoeken](/help/assets/text-find-example-found-end.png)
 
-### Replace
+### Vervangen
 
 ![Pictogram Vervangen](/help/assets/text-replace.png)
 

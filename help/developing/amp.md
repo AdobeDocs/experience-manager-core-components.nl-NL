@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # AMP-ondersteuning voor de kerncomponenten {#amp-support}
 
-Vanaf [release 2.11.0](/help/versions.md) van de Core Components, worden [AMP - Accelerated Mobile Pages](https://developers.google.com/amp) - volledig ondersteund.
+Vanaf [release 2.11.0](/help/versions.md) van de kerncomponenten, [AMP - Versnelde mobiele pagina&#39;s](https://developers.google.com/amp) - volledig worden ondersteund.
 
-In dit document wordt een overzicht gegeven van de manier waarop AMP wordt ondersteund en van de manier waarop u dit voor uw sites kunt inschakelen. Nochtans voor volledige technische details, gelieve de [documentatie van de ontwikkelaar van GitHub te zien.](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
+In dit document wordt een overzicht gegeven van de manier waarop AMP wordt ondersteund en van de manier waarop u dit voor uw sites kunt inschakelen. Voor volledige technische details zie echter de [documentatie voor GitHub-ontwikkelaars.](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
 
 ## Wat is AMP? {#what-is-amp}
 
@@ -24,7 +24,7 @@ Accelerated Mobile Pages of AMP is een opensource-framework dat oorspronkelijk d
 
 Ondersteuning voor AMP in de Core Components is [volledig configureerbaar.](#enabling-amp) AMP-versies van pagina&#39;s kunnen alleen worden aangeboden, naast de standaard HTML-versies, of helemaal niet.
 
-De componenten van de Kern gebruiken `amp` als Verschuivende selecteur om een pagina van AMP terug te geven. `example.html` zou bijvoorbeeld de normale pagina weergeven en `example.amp.html` zou de AMP-versie zijn.
+De kerncomponenten gebruiken `amp` als een verkiesbare selecteur om een pagina van AMP terug te geven. Bijvoorbeeld `example.html` zou de normale pagina weergeven en `example.amp.html` zou de AMP-versie zijn.
 
 Individuele projecten kunnen beslissen of zij AMP al dan niet zullen benutten. Omdat AMP- en standaard HTML-pagina&#39;s parallel kunnen worden geleverd, kan een project ervoor kiezen om AMP alleen op bepaalde pagina&#39;s van het project te gebruiken.
 
@@ -33,34 +33,34 @@ Individuele projecten kunnen beslissen of zij AMP al dan niet zullen benutten. O
 Hoewel AMP-ondersteuning veel flexibiliteit biedt, zijn er slechts enkele eenvoudige stappen nodig om snel aan de slag te gaan:
 
 1. Installeer indien nodig de extensie voor AMP-ondersteuning.
-   * Voor AEM als projecten van de Cloud Service, is de uitbreiding automatisch beschikbaar met de Componenten van de Kern en geen installatie is noodzakelijk.
+   * Voor AEM as a Cloud Service projecten, is de uitbreiding automatisch beschikbaar met de Componenten van de Kern en geen installatie is noodzakelijk.
    * Voor on-premise en projecten van AMS, moet de uitbreiding uitdrukkelijk worden geïnstalleerd wanneer het installeren van de Componenten van de Kern.
 1. Zodra de uitbreiding AMP wordt geïnstalleerd, moet de componentenauteur de componentensupertypes aan die in de uitbreiding eenvoudig richten.
-1. [Schakel AMP-](#enabling-amp) ondersteuning in op sjabloonniveau of op afzonderlijke pagina&#39;s.
-1. [Implementeer indien nodig gekoppelde ](#css-requirements) CSS.
+1. [Ondersteuning voor AMP inschakelen](#enabling-amp) op sjabloonniveau of op afzonderlijke pagina&#39;s.
+1. [Inline CSS implementeren](#css-requirements) zoals vereist.
 
 ### AMP inschakelen voor pagina&#39;s {#enabling-amp}
 
-Als u AMP voor een pagina wilt inschakelen, moet de **AMP-modus** zijn geselecteerd in het [Paginabeleid.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)
+Als u AMP voor een pagina wilt inschakelen, **AMP-modus** moet in [Paginabeleid.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)
 
 ![Opties voor AMP-paginabeleid](/help/assets/amp-policy.png)
 
-* **Geen AMP**  - De pagina wordt alleen als standaard-HTML geleverd.
-* **AMP**  met paden - De pagina wordt als AMP en HTML geleverd.
-* **Alleen**  AMP - De pagina wordt alleen als AMP geleverd.
+* **Geen AMP** - De pagina wordt alleen geleverd als standaard-HTML.
+* **Gepareerde AMP** - De pagina wordt geleverd als AMP en als HTML.
+* **Alleen AMP** - De pagina wordt alleen geleverd als AMP.
 
-De AMP-instellingen voor een pagina kunnen ook worden overschreven in [Pagina-eigenschappen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) voor een afzonderlijke pagina.
+De AMP-instellingen voor een pagina kunnen ook worden overschreven in het dialoogvenster [Pagina-eigenschappen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) voor een afzonderlijke pagina.
 
 ![Eigenschappen van AMP-pagina](/help/assets/amp-page-properties.png)
 
-* **Overnemen van paginasjabloon**  - Dit is de standaardwaarde, waardoor de instelling kan worden overgenomen uit het beleid van de paginasjabloon.
-* **Geen AMP**  - De pagina wordt alleen als standaard-HTML geleverd.
-* **AMP**  met paden - De pagina wordt als AMP en HTML geleverd.
-* **Alleen**  AMP - De pagina wordt alleen als AMP geleverd.
+* **Overnemen van paginasjabloon** - Dit is de standaardwaarde, die het plaatsen om van het beleid van het paginasjabloon toestaat te worden genomen.
+* **Geen AMP** - De pagina wordt alleen geleverd als standaard-HTML.
+* **Gepareerde AMP** - De pagina wordt geleverd als AMP en als HTML.
+* **Alleen AMP** - De pagina wordt alleen geleverd als AMP.
 
 ### CSS-vereisten {#css-requirements}
 
-Bij gebruik van AMP met de kerncomponenten is het belangrijkste verschil dat AMP vereist dat alle [CSS in het `<head>`-element worden gealigneerd en geoptimaliseerd.](including-clientlibs.md#inlining)
+Bij het gebruik van AMP met de kerncomponenten is het belangrijkste verschil dat AMP alles vereist [CSS die moet worden omlijnd](including-clientlibs.md#inlining) in de `<head>` en geoptimaliseerd.
 
 Hiertoe wordt een aangepaste pagina-component gebruikt, die alleen de AMP-specifieke CSS laadt voor componenten die op de pagina aanwezig zijn.
 
@@ -68,4 +68,4 @@ Hiertoe wordt een aangepaste pagina-component gebruikt, die alleen de AMP-specif
 >
 >Vanwege ontwerpbeperkingen van AMP biedt Adobe geen ondersteuning voor het gebruik van het responsieve raster met de AMP-versie van uw pagina.
 
-Voor verdere vereisten en technische details, te zien gelieve de [documentatie van de ontwikkelaar van GitHub.](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
+Voor nadere eisen en technische details raadpleegt u de [documentatie voor GitHub-ontwikkelaars.](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)

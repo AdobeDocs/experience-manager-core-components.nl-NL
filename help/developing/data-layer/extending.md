@@ -6,7 +6,7 @@ role: Architect, Developer, Admin
 exl-id: f3d5555b-4f08-49de-ab0f-dc0fb04aadf8
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ Om deze gebieden in de Laag van Gegevens te omvatten die door de Componenten van
 
 ## Voorbeeld: Component Title {#example}
 
-Een kerncomponent zoals de [Titelcomponent](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/Title.java) breidt [Component](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/Title.java) uit, die een `getData` methode heeft die door gebrek [`ComponentData` terugkeert.](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/datalayer/ComponentData.java).
+Een kerncomponent zoals [Titelcomponent](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/Title.java) extends [Component](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/Title.java) die een `getData` methode die standaard wordt geretourneerd [`ComponentData`.](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/datalayer/ComponentData.java)
 
-`ComponentData` serialiseert vooraf bepaalde gebieden die uw component, als  `getDataLayerLinkUrl` en  `getDataLayerTitle` voor  [`TitleImpl`. kan uitvoeren.](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/internal/models/v1/TitleImpl.java)
+`ComponentData` serialiseert vooraf bepaalde gebieden die uw component, als kan uitvoeren `getDataLayerLinkUrl` en `getDataLayerTitle` voor de [`TitleImpl`.](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/internal/models/v1/TitleImpl.java)
 
-Daarom kan uw aangepaste Sling-model een `getData`-methode hebben die een object retourneert dat `ComponentData` uitbreidt om meer velden te retourneren.
+Uw aangepaste verkoopmodel kan daarom een `getData` methode die een object retourneert dat een uitbreiding is `ComponentData` om meer velden te retourneren.
 
-Als u dit doet, wordt een `data-cmp-data-layer`-kenmerk toegevoegd aan het HTML-element van uw component met de JSON van de gegevens die worden gevuld met de gegevenslaag. Op dit punt kunt u scripts implementeren die naar deze gegevens of verwante gebeurtenissen luisteren.
+Als u dit doet, voegt u een `data-cmp-data-layer` attribuut aan het element van HTML van uw component met JSON van de gegevens die aan de gegevenslaag zullen worden bevolkt. Op dit punt kunt u scripts implementeren die naar deze gegevens of verwante gebeurtenissen luisteren.
 
 >[!TIP]
 >
