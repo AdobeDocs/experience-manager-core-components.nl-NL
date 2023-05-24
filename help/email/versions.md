@@ -3,17 +3,17 @@ title: Core Email Components Versies
 description: Core Email Components worden gepubliceerd als releases.
 role: Architect, Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 7ab19cb73493121282e90e752b38c445fd0962f0
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 11%
+source-wordcount: '448'
+ht-degree: 12%
 
 ---
 
 
 # Core Email Components Versies {#core-components-versions}
 
-De huidige release van de Email Core Components is 1.0.0 en is compatibel met AEM 6.5.
+De huidige release van de Email Core Components is 1.2.0 en is compatibel met AEM 6.5.
 
 Zie de [Sectie Vereisten](/help/email/introduction.md#requirements) van het Inleiding-document voor e-mailkerncomponenten en de [Sectie Installatie](/help/email/using.md#installing-the-email-core-components) van het document Using the Email Core Components (Onderdelen van e-mail gebruiken) voor meer informatie over respectievelijk vereisten en installatie.
 
@@ -23,7 +23,8 @@ De e-mailCore-componenten zijn zo ontworpen dat ze flexibel zijn en compatibel z
 
 | Geen | Beschrijving | AEM 6,5 | Kernonderdelen | Java | Releasedatum |
 |---|---|---|---|---|---|
-| [1.0.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.0.0) | Voor de eerste openbare release raadpleegt u de opmerkingen bij de release voor uitgebreide informatie | 6.5.14.0+ | [2.21.2](/help/versions.md) | 8, 11 | 29 november 2022 |
+| [1.2.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.2.0) | Deze release introduceerde Selenium e2e-tests en bevatte een aantal correcties voor fouten. | 6.5.14.0+ | [2.21.2+](/help/versions.md) | 8, 11 | 29 november 2022 |
+| [1.0.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.0.0) | Voor de eerste openbare release raadpleegt u de opmerkingen bij de release voor uitgebreide informatie | 6.5.14.0+ | [2.21.2+](/help/versions.md) | 8, 11 | 29 november 2022 |
 | [0.18.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.18.0) | Oplossingen | 6.5.13.0+ |  | 8, 11 | 30 september 2022 |
 | [0.17.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.17.0) | Oplossingen | 6.5.13.0+ |  | 8, 11 | 27 september 2022 |
 | [0.16.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.16.0) | Oplossingen | 6.5.13.0+ |  | 8, 11 | 14 september 2022 |
