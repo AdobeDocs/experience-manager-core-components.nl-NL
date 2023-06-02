@@ -3,16 +3,16 @@ title: Core Components-versies
 description: De Componenten van de kern worden gepubliceerd als versies die meer dan één versie van de zelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies beschikbaar zijn en hoe u de compatibiliteit met Core Components en AEM begrijpt.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 1b419d6f340f8062945f96b1605a67620d5f79af
+source-git-commit: b7b06b5760e233756a0e8906251fa3b8ab401908
 workflow-type: tm+mt
-source-wordcount: '2988'
+source-wordcount: '3006'
 ht-degree: 12%
 
 ---
 
 # Core Components-versies {#core-components-versions}
 
-De huidige versie van de Core Components is 2.22.10 en is compatibel met [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) en [AEM op locatie](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installaties.
+De huidige versie van de Core Components is 2.22.12 en is compatibel met [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) en [AEM op locatie](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installaties.
 
 ## Historie en compatibiliteit vrijgeven {#release-history-and-compatibility}
 
@@ -26,6 +26,7 @@ De volgende tabel, waarvan de inhoud [beschikbaar op GitHub met volledige versie
 
 | Geen | Beschrijving | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service | Java | Releasedatum |
 |---|---|---|---|---|---|---|
+| [2.22.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.12) | Deze patchrelease verhelpt twee problemen. | - | 6.5.14.0+ * | Continu | 8, 11 | 25 mei 2023 |
 | [2.22.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.10) | Deze patchrelease verhelpt twee regressies. | - | 6.5.14.0+ * | Continu | 8, 11 | 11 mei 2023 |
 | [2.22.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.8) | Deze patchrelease biedt functies die per ongeluk zijn verwijderd uit de vorige release. | - | 6.5.14.0+ * | Continu | 8, 11 | 9 mei 2023 |
 | [2.22.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.6) | Deze patchrelease verhelpt een regressie in de [Containercomponent.](/help/components/container.md) | - | 6.5.14.0+ * | Continu | 8, 11 | 21 april 2023 |
