@@ -3,9 +3,9 @@ title: Inleiding Adaptive Forms Core Components AEM
 description: Maak aantrekkelijke inschrijvingservaringen (formulieren) met de flexibiliteit van de Adaptive Forms Core Components en lever deze met de kracht van Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 1ac6ed00c19a8ae00e6a53d18419890a88235158
+source-git-commit: 8648a8dabd1999c9d3bbb76bb4f04f16eafda650
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -94,23 +94,23 @@ De huidige versie van de Adaptive Forms Core Components is voorzien van de hiero
 * [Titel](/help/adaptive-forms/components/title.md)
 * [Wizard](/help/adaptive-forms/components/wizard.md)
 
-## Core Components instellen
+## Adaptieve Forms Core-componenten instellen
 
+Als u Adaptive Forms Core Components inschakelt op AEM Forms as a Cloud Service, kunt u beginnen met het maken, publiceren en leveren van Core Components based Adaptive Forms and Headless Forms met uw AEM Forms Cloud Service-instanties naar meerdere kanalen. Voor gedetailleerde instructies voor het inschakelen van Adaptive Form Core Components, raadpleegt u [Adaptieve Forms Core-componenten inschakelen in de as a Cloud Service en lokale ontwikkelomgeving van AEM Forms](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html).
 
 De Adaptive Forms Core Components hebben de volgende vereisten.
 
-| AEM | AEM Forms-invoegtoepassing | Kernonderdelen |
+| AEM | AEM Forms-invoegtoepassing | Adaptieve Forms Core-componenten |
 |---|---|---|
-| AEM as a Cloud Service | Forms - Digitale inschrijving | [Release 2.20.8](version.md)+ |
+| AEM as a Cloud Service | Forms - Digitale inschrijving | [Release 2.0.10](version.md)+ |
 | AEM 6,5 | Forms-invoegtoepassing | [Release 1.1.12](version.md)+ |
+
+Als uw AEM Cloud Service SDK-versie ouder is dan 2023.02.0, [zorg ervoor dat u `prerelease` markering ingeschakeld in uw omgeving](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) omdat Adaptive Forms Core Components deel uitmaakten van de pre-lease vóór de release van 2023.02.0.
+
 
 ### Een adaptief formulier maken op basis van kerncomponenten
 
-**AEM Forms as a Cloud Service:** Wanneer u een nieuw as a Cloud Service AEM Forms-programma maakt, zijn de Adaptive Forms Core Components al ingeschakeld voor uw omgeving. Als u een as a Cloud Service Forms-omgeving hebt die is gebaseerd op Archetype 39 of eerder, [Adaptieve Forms Core-componenten inschakelen voor uw omgeving](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project).
-
-Als u de Core Components voor uw omgeving inschakelt, **Adaptieve Forms (Core Component)** sjabloon en canvasthema worden toegevoegd aan uw omgeving. Als uw AEM SDK-versie ouder is dan 2023.02.0, [zorg ervoor dat u `prerelease` markering ingeschakeld in uw omgeving](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) omdat Adaptive Forms Core Components deel uitmaakten van de pre-lease vóór de release van 2023.02.0.
-
-Zie Een adaptief formulier maken ([Kernonderdelen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?)).
+Als u een adaptief formulier wilt maken op AEM Forms as a Cloud Service, raadpleegt u [Een adaptief formulier maken (kerncomponenten)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?).
 
 
 

@@ -3,10 +3,10 @@ title: AEM Forms Core Components-versies
 description: De Componenten van de kern worden gepubliceerd als versies die meer dan één versie van de zelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies beschikbaar zijn en hoe u de compatibiliteit met Core Components en AEM begrijpt.
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: aaf083cc4b479a97f750844c742581e1b243e036
+source-git-commit: 8648a8dabd1999c9d3bbb76bb4f04f16eafda650
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ De volgende lijst presenteert een lijst van de versies van de Componenten van de
 | [2.0.6](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | Deze release bevat meerdere indelingen voor de numerieke input-kerncomponent. | Continu | 8, 11 | 8 februari 2023 |
 | [2.0.4](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | De steun van de kerncomponent voor AEM as a Cloud Service wordt geïntroduceerd in deze versie. | Continu | 8, 11 | 30 januari 2023 |
 
-## AEM 6.5 Formulier op locatie en AMS-versiegeschiedenis {#aem-as-form-version-history}
+## AEM 6.5 Forms-versiegeschiedenis {#aem-as-form-version-history}
 
 De volgende tabel bevat een lijst met Core Components-releases die compatibel zijn met AEM 6.5 Form on-premisse en AMS die beschikbaar zijn op [GitHub samen met uitvoerige details van hun versies](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12).
 
