@@ -3,9 +3,9 @@ title: Adaptive Forms Core Component - Button
 description: De Adaptive Forms-kerncomponent voor knoppen gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: 90a48e6203ce611679c2a7269ffb5d48912e3d71
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Een knop in een adaptief formulier is een interface-element waarmee gebruikers e
 
 Met de Adaptive Forms Rule Editor kunnen gebruikers verschillende handelingen instellen voor de knopcomponent. Tot deze acties behoren het openen van een website, het tonen of verbergen van formuliercomponenten, het toevoegen van een exemplaar van een deelvenster of component, het verzenden of opnieuw instellen van een formulier, enzovoort.
 
-Adaptief Forms biedt ook aparte knopcomponenten voor het verzenden of opnieuw instellen van een formulier, maar de knopcomponent kan ook zo nodig worden geconfigureerd voor het uitvoeren van deze handelingen.
+Afzonderlijke onderdelen van de adaptieve Forms-functie voor de [Verzenden, knop](/help/adaptive-forms/components/submit-button.md) en [Knop Opnieuw instellen](/help/adaptive-forms/components/reset-button.md), zodat gebruikers een formulier kunnen verzenden of opnieuw kunnen instellen. De component Button kan flexibel worden geconfigureerd om deze handelingen uit te voeren op basis van specifieke behoeften.
 
 Gebruikers kunnen de volledige lijst met ondersteunde acties voor de knopcomponent openen met de Adaptive Forms Rule Editor. Met de regeleditor kunnen gebruikers regels maken die door verschillende gebeurtenissen worden geactiveerd, zoals wanneer op een knop wordt geklikt, wanneer een formulier wordt geladen of wanneer een veldwaarde verandert. Deze regels kunnen vervolgens worden gebruikt om verschillende handelingen uit te voeren, zoals het weergeven of verbergen van componenten, het instellen van veldwaarden of het verzenden van het formulier.
 
