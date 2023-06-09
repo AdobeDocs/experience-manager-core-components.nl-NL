@@ -3,9 +3,9 @@ title: E-mailervaringsfragmentcomponent
 description: Met de E-mailervaringsfragmentcomponent kan de auteur van de inhoud een Experience-fragmentvariatie in de inhoud plaatsen en een gelokaliseerde inhoudsstructuur ondersteunen.
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: e5afead6bfdcc59cbd6da888f4e1e36038c6c0f8
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,7 @@ De E-mailervaringsfragmentcomponent probeert een overeenkomende gelokaliseerde c
 
 ## Technische details {#technical-details}
 
-De meest recente technische documentatie over de component Experience Fragment [kan op GitHub worden gevonden.](https://adobe.com/go/aem_cmp_email_tech_xf_v1)
+Lees de nieuwste [technische documentatie over de component Experience Fragment](https://www.adobe.com/go/aem_cmp_xf_v1).
 
 Meer informatie over de ontwikkeling van de kerncomponenten vindt u in de [De ontwikkelaarsdocumentatie van de Componenten van de kern.](/help/developing/overview.md)
 
