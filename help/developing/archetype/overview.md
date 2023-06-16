@@ -4,7 +4,7 @@ description: Een projectmalplaatje voor op AEM gebaseerde toepassingen
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: fac7c40919d2c31a8004bd1f47500ac44f99fb61
+source-git-commit: d25e659828becc0d9285297d00c53530bb33785a
 workflow-type: tm+mt
 source-wordcount: '1192'
 ht-degree: 1%
@@ -62,7 +62,7 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
 
 * Vervangen `XX` uiterlijk [archietype versienummer.](#requirements)
 * Set `aemVersion=cloud` for [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html);\
-   Set `aemVersion=6.5.0` for [Beheerde services van Adobe](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)of op locatie.
+  Set `aemVersion=6.5.0` for [Beheerde services van Adobe](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)of op locatie.
 De afhankelijkheid van kerncomponenten wordt alleen toegevoegd voor versies met een andere naam dan de cloud, aangezien de Core Components OTB voor AEM as a Cloud Service wordt geleverd.
 * Aanpassen `appTitle="My Site"` om de titel van de website en de groepen componenten te definiëren.
 * Aanpassen `appId="mysite"` om Maven artifactId, de component, config en de namen van de inhoudsomslag, evenals de namen van de cliëntbibliotheek te bepalen.
@@ -73,10 +73,10 @@ De afhankelijkheid van kerncomponenten wordt alleen toegevoegd voor versies met 
 
 | Naam | Standaard | Beschrijving |
 |---------------------------|----------------|--------------------|
-| `appTitle` |  | Toepassingstitel, wordt gebruikt voor de titel van de website en voor componentgroepen (bijvoorbeeld `"My Site"`). |
-| `appId` |  | De technische naam, zal voor component, config en de namen van de inhoudsomslag, evenals de namen van de cliëntbibliotheek worden gebruikt (b.v. `"mysite"`). |
+| `appTitle` |                | Toepassingstitel, wordt gebruikt voor de titel van de website en voor componentgroepen (bijvoorbeeld `"My Site"`). |
+| `appId` |                | De technische naam, zal voor component, config en de namen van de inhoudsomslag, evenals de namen van de cliëntbibliotheek worden gebruikt (b.v. `"mysite"`). |
 | `artifactId` | *`${appId}`* | Basis-Maven-artefactverwijzing (bijvoorbeeld `"mysite"`). |
-| `groupId` |  | Basis-Maven-groep-id (bijvoorbeeld `"com.mysite"`). Deze waarde moet een [geldige Java-pakketnaam.](https://docs.oracle.com/javase/specs/jls/se6/html/packages.html#7.7) |
+| `groupId` |                | Basis-Maven-groep-id (bijvoorbeeld `"com.mysite"`). Deze waarde moet een [geldige Java-pakketnaam.](https://docs.oracle.com/javase/specs/jls/se6/html/packages.html#7.7) |
 | `package` | *`${groupId}`* | Java-bronpakket (bijvoorbeeld `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Projectversie (bijvoorbeeld `1.0-SNAPSHOT`). |
 | `aemVersion` | `cloud` | AEM (kan `cloud` for [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html); of `6.5.0`, of `6.4.4` for [Beheerde services van Adobe](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) of op locatie). |
@@ -89,7 +89,7 @@ De afhankelijkheid van kerncomponenten wordt alleen toegevoegd voor versies met 
 | `includeExamples` | `n` | Bevat een [Componentbibliotheek](https://www.aemcomponents.dev/) voorbeeldsite (kan `y`, of `n`). |
 | `includeErrorHandler` | `n` | Bevat een aangepaste 404-responspagina die globaal is voor de gehele instantie (kan `y` of `n`). |
 | `includeCommerce` | `n` | Inclusief [CIF Core-componenten](https://github.com/adobe/aem-core-cif-components) afhankelijkheden en genereert overeenkomstige artefacten. |
-| `commerceEndpoint` |  | Alleen vereist voor CIF. Optioneel eindpunt van de te gebruiken dienst van GraphQL van het handelssysteem (bv. `https://hostname.com/grapql`). |
+| `commerceEndpoint` |                | Alleen vereist voor CIF. Optioneel eindpunt van de te gebruiken dienst van GraphQL van het handelssysteem (bv. `https://hostname.com/grapql`). |
 | `includeFormscommunications` | `n` | Inclusief [Forms Core-componenten](https://github.com/adobe/aem-core-forms-components) afhankelijkheden, sjablonen, formuliergegevensmodellen, thema&#39;s en genereert overeenkomstige artefacten voor Forms Communications-programma&#39;s. |
 | `includeFormsenrollment` | `n` | Inclusief [Forms Core-componenten](https://github.com/adobe/aem-core-forms-components) afhankelijkheden, sjablonen, formuliergegevensmodellen, thema&#39;s en genereert overeenkomstige artefacten voor Forms-inschrijvingsprogramma&#39;s. |
 | `sdkFormsVersion` | `latest` | Wanneer `aemVersion=cloud` en een van `includeFormsenrollment=y` of `includeFormscommunications=y`kan een Forms SDK-versie worden opgegeven (bijvoorbeeld `2020.12.17.02`). |
@@ -104,7 +104,7 @@ De afhankelijkheid van kerncomponenten wordt alleen toegevoegd voor versies met 
 
 | Archetype | AEM as a Cloud Service | AEM 6,5 | Java SE | Maven |
 |---------|---------|---------|---------|---------|
-| [41](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-41) | Continu | 6.5.7.0+ | 8, 11 | 3.3.9+ |
+| [42](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-42) | Continu | 6.5.7.0+ | 8, 11 | 3.3.9+ |
 
 Stel uw lokale ontwikkelomgeving in voor [as a Cloud Service SDK AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) of voor [oudere versies van AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
