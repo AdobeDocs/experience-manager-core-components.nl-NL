@@ -3,10 +3,10 @@ title: Adaptieve Forms Core-component - Voettekst
 description: De Adaptive Forms Footer Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 1%
+source-wordcount: '806'
+ht-degree: 0%
 
 ---
 
@@ -85,6 +85,7 @@ Het dialoogvenster Bewerken bevat standaardgereedschappen voor tekstopmaak waarm
       1. Kies in het dialoogvenster Selectie openen een pad in AEM.
       1. Als de koppeling zich niet binnen AEM bevindt, voert u de absolute URL in.
       1. Niet-absolute paden worden geïnterpreteerd als relatief ten opzichte van AEM.
+
    * **Alternatieve tekst** - Voer alternatieve beschrijvende tekst in voor de koppeling.
 
    * **Doel** - Koppelingsgedrag selecteren
@@ -93,11 +94,10 @@ Het dialoogvenster Bewerken bevat standaardgereedschappen voor tekstopmaak waarm
       * Nieuw tabblad
       * Bovenliggend frame
       * Bovenste frame
+
    * **Pictogram Ontkoppelen** - Met deze optie verwijdert u een koppeling die al op de geselecteerde tekst is toegepast. Deze optie is alleen actief als de koppeling al is geselecteerd.
 
    * **Pictogram Alineaopmaak** - Met deze optie kunt u alineaopmaak toepassen op de geselecteerde tekst. Het helpt u ook om de tekst op te maken die na de curseur wordt opgenomen. Hiermee wordt het kopniveau van de titel gedefinieerd.
-
-
 
 * **ID**: Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de gegevenslaag.
 
@@ -105,3 +105,8 @@ Het dialoogvenster Bewerken bevat standaardgereedschappen voor tekstopmaak waarm
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
+## Verwante artikelen {#related-article}
+
+* [Een adaptief formulier maken in AEM Sites Page of Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [Een zelfstandig adaptief formulier maken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)

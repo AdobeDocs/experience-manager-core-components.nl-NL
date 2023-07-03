@@ -3,9 +3,9 @@ title: Adaptive Forms Core Component - E-mailinvoer
 description: De Adaptive Forms Email input Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1719'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,6 @@ Met het dialoogvenster Configureren kunt u uw e-mailinvoerervaring eenvoudig aan
 * **Minimum aantal tekens** - Met deze optie kunt u het minimale aantal tekens opgeven dat in het veld is toegestaan. Als u tekens invoert die minder zijn dan de waarde die is opgegeven in **Minimum aantal tekens** verschijnt er een foutbericht op het scherm. De **Foutbericht voor minimale tekens** kunt u een aangepast foutbericht toevoegen.
 
 * **Foutbericht voor minimale tekens** - de **Foutbericht voor minimale tekens** kunt u een aangepast foutbericht toevoegen als u tekens invoert die kleiner zijn dan de waarde die in het dialoogvenster is opgegeven **Minimum aantal tekens** optie.
-
 <br>
 
     Met de optie **Validatiepatroon** kunt u een patroon invoeren waarmee de ingevoerde e-mailid wordt gevalideerd. Als de e-mailid niet kan valideren met de waarde die is ingevoerd in de optie **Pattern**, verschijnt het foutbericht op het scherm.
@@ -132,3 +131,8 @@ Op het tabblad Indelingen kunt u standaard- en aangepaste datumnotaties opgeven.
 
 ![Tabblad Ontwerp](/help/adaptive-forms/assets/emailinput_designformattab.png)
 
+## Verwante artikelen {#related-article}
+
+* [Een adaptief formulier maken in AEM Sites Page of Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [Een zelfstandig adaptief formulier maken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)

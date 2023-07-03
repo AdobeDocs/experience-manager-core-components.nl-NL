@@ -3,9 +3,9 @@ title: Inleiding Adaptive Forms Core Components AEM
 description: Maak aantrekkelijke inschrijvingservaringen (formulieren) met de flexibiliteit van de Adaptive Forms Core Components en lever deze met de kracht van Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: a450d265d10984b879fcb1ad4ffe0f3ce3edef5b
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1262'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Ervaringen met het vastleggen van gegevens zijn van cruciaal belang voor het gen
 
 * **Geen afhankelijkheid van bibliotheken van derden**: Een van de voordelen van de Core Components is dat deze niet afhankelijk zijn van JavaScript-bibliotheken van derden, waaronder JQuery en Underscore. Hierdoor worden de componenten sneller en lichter, maar ook eenvoudiger te integreren in een bestaande AEM.
 
-* **Focus op prestaties en toegankelijkheid**: De Core Components zijn gebouwd met het oog op prestaties en toegankelijkheid, wat wordt weerspiegeld in hun hoge Google Lighthouse- en web vitals-scores. Op die manier kunnen ontwikkelaars gemakkelijker toegankelijke en goed presterende webpagina&#39;s maken, wat steeds belangrijker wordt in het huidige digitale landschap.
+* **Focus op prestaties en toegankelijkheid**: De Core Components zijn gebouwd met het oog op prestaties en toegankelijkheid. Dit wordt weerspiegeld in hun hoge Google Lighthouse- en web vitals-scores. Op die manier kunnen ontwikkelaars gemakkelijker toegankelijke en goed presterende webpagina&#39;s maken, wat steeds belangrijker wordt in het huidige digitale landschap.
 
 * **Formuliercomponenten in Sites 30-sjabloon en -thema&#39;s**: De kerncomponenten bieden ondersteuning voor formuliercomponenten in de Sites 30-sjabloon en -thema&#39;s, zodat ontwikkelaars gemakkelijker formulieren kunnen maken en aanpassen binnen AEM.
 
@@ -108,9 +108,16 @@ De Adaptive Forms Core Components hebben de volgende vereisten.
 Als uw AEM Cloud Service SDK-versie ouder is dan 2023.02.0, [zorg ervoor dat u `prerelease` markering ingeschakeld in uw omgeving](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) omdat Adaptive Forms Core Components deel uitmaakten van de pre-lease vóór de release van 2023.02.0.
 
 
-### Een adaptief formulier maken op basis van kerncomponenten
+## Een adaptief formulier op basis van kerncomponenten maken
 
-Als u een adaptief formulier wilt maken op AEM Forms as a Cloud Service, raadpleegt u [Een adaptief formulier maken (kerncomponenten)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?).
+U kunt de volgende handelingen uitvoeren in zowel AEM Forms as a Cloud Service als AEM 6.5 Forms-omgevingen:
+
+| Handeling | AEM Forms-versie |
+|--------|------------------|
+| Een zelfstandig adaptief formulier maken | [AEM Forms als Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html) |
+| Een adaptief formulier maken op een AEM Sites-pagina | [AEM 6,5 Forms](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-basic-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=en#create-an-adaptive-form-in-sites-editor-or-experience-fragment), [AEM Forms als Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html#create-an-adaptive-form-in-sites-editor-or-experience-fragment) |
+| Een adaptief formulier maken in AEM Experience Fragment | [AEM 6,5 Forms](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-basic-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=en#create-an-adaptive-form-in-experience-fragment), [AEM Forms als Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html#create-an-adaptive-form-in-experience-fragment) |
+| Een adaptief formulier converteren naar een ervaringsfragment | [AEM 6,5 Forms](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-basic-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=en#convert-an-adaptive-form-in-sites-page-to-an-experience-fragment), [AEM Forms als Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html#convert-an-adaptive-form-in-sites-page-to-an-experience-fragment) |
 
 
 

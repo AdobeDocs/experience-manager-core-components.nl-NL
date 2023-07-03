@@ -3,9 +3,9 @@ title: Adaptieve Forms Core-component - Formuliercontainer
 description: Voeg een adaptief formulier toe aan een webpagina.
 role: Architect, Developer, Admin, User
 exl-id: 8df7f862-4d59-4c3f-88dd-f0c937081f4f
-source-git-commit: 64536dc607c6e8da0b424b4a1502fa64ed8abbd0
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '755'
 ht-degree: 0%
 
 ---
@@ -79,3 +79,9 @@ Gebruikers kunnen verschillende handelingen configureren voor het verzenden van 
 * **Bericht tonen** - Met deze optie kunnen gebruikers een bericht toevoegen dat wordt weergegeven wanneer het Adaptief formulier is verzonden. De vooraf gedefinieerde tekst staat in het dialoogvenster en kan door de gebruiker worden gewijzigd. Het dialoogvenster Bericht tonen ondersteunt gereedschappen voor tekstopmaak waarmee gebruikers de toegevoegde tekst kunnen opmaken.
 
 * **Handeling verzenden** - Een handeling Verzenden wordt geactiveerd wanneer een gebruiker op de knop Verzenden klikt op een adaptief formulier. Gebruikers kunnen in de vervolgkeuzelijst de optie Handelingen verzenden selecteren die in het vak worden ondersteund. Leer hoe u [Een handeling verzenden configureren op het tabblad Verzending](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br).
+
+## Verwante artikelen {#related-article}
+
+* [Een adaptief formulier maken in AEM Sites Page of Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [Een zelfstandig adaptief formulier maken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)

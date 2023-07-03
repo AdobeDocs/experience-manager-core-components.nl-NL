@@ -2,9 +2,9 @@
 title: Adaptieve Forms Core-component - Bovenaan tabs
 description: De Adaptive Forms-tabs op de bovenste Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '471'
 ht-degree: 1%
 
 ---
@@ -54,4 +54,8 @@ Lees de meest recente informatie over de Adaptive Forms Tabs on Top Core Compone
 
 Met het dialoogvenster Configureren kunt u uw tabbladen eenvoudig aanpassen aan uw wensen. U kunt ook eenvoudig tabbladen op topopties definiëren voor een naadloze gebruikerservaring.
 
-## Ontwerpdialoogvenster {#design-dialog}
+## Verwante artikelen {#related-article}
+
+* [Een adaptief formulier maken in AEM Sites Page of Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [Een zelfstandig adaptief formulier maken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)

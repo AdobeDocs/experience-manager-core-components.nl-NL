@@ -3,9 +3,9 @@ title: Adaptive Forms Core Component - Titel
 description: De Adaptive Forms Title Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
@@ -100,4 +100,9 @@ Op het tabblad Indelingen kunt u standaard- en aangepaste datumnotaties opgeven.
 
 ![Tabblad Indeling](/help/adaptive-forms/assets/title_styles.png)
 
+## Verwante artikelen {#related-article}
+
+* [Een adaptief formulier maken in AEM Sites Page of Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [Een zelfstandig adaptief formulier maken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
