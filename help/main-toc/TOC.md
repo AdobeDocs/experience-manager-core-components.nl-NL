@@ -5,10 +5,10 @@ breadcrumb-title: Gids voor kerncomponenten
 feature: Core Components
 user-guide-description: Met de uitbreidbare kerncomponenten kunnen ontwerpers eenvoudig content maken.
 feature-set: Experience Manager Sites
-source-git-commit: b39cd395d17f6aab7376e01fc01a7c0e98b2460f
+source-git-commit: 5c07caecae60e3df4a4ce56ddd2d9c174ac7f195
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 7%
+source-wordcount: '379'
+ht-degree: 6%
 
 ---
 
@@ -103,6 +103,7 @@ ht-degree: 7%
       + [Segmentering](/help/email/components/segmentation.md)
 + Adaptieve Forms {#adaptive-forms}
    + [Inleiding](/help/adaptive-forms/introduction.md)
+   + [Voorbeeldthema&#39;s, sjablonen en modellen formuliergegevens in kerncomponenten](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
    + [Versiehistorie](/help/adaptive-forms/version.md)
    + Aangepaste Forms-componenten {#adaptive-forms-components}
       + [Adaptieve Forms-accordeon](/help/adaptive-forms/components/accordion.md)
@@ -144,7 +145,7 @@ ht-degree: 7%
       + [De gegevenslaag uitbreiden](/help/developing/data-layer/extending.md)
    + Projectarchetype AEM {#archetype}
       + [Overzicht van Archetype](/help/developing/archetype/overview.md)
-      + [Archetype gebruiken](/help/developing/archetype/using.md)
+      + [Het gebruiken van Archetype](/help/developing/archetype/using.md)
       + [Kernmodule](/help/developing/archetype/core.md)
       + [ui.apps-module](/help/developing/archetype/uiapps.md)
       + [Vooraf gecompileerde, gecompileerde scripts](/help/developing/archetype/precompiled-bundled-scripts.md)
