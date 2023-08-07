@@ -5,10 +5,10 @@ breadcrumb-title: Gids voor kerncomponenten
 feature: Core Components
 user-guide-description: Met de uitbreidbare kerncomponenten kunnen ontwerpers eenvoudig content maken.
 feature-set: Experience Manager Sites
-source-git-commit: 5c07caecae60e3df4a4ce56ddd2d9c174ac7f195
+source-git-commit: ebbe3471164341076fe085bbef9c93fcb1fe382a
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 6%
+source-wordcount: '369'
+ht-degree: 7%
 
 ---
 
@@ -103,7 +103,6 @@ ht-degree: 6%
       + [Segmentering](/help/email/components/segmentation.md)
 + Adaptieve Forms {#adaptive-forms}
    + [Inleiding](/help/adaptive-forms/introduction.md)
-   + [Voorbeeldthema&#39;s, sjablonen en modellen formuliergegevens in kerncomponenten](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
    + [Versiehistorie](/help/adaptive-forms/version.md)
    + Aangepaste Forms-componenten {#adaptive-forms-components}
       + [Adaptieve Forms-accordeon](/help/adaptive-forms/components/accordion.md)
