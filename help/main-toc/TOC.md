@@ -5,10 +5,10 @@ breadcrumb-title: Gids voor kerncomponenten
 feature: Core Components
 user-guide-description: Met de uitbreidbare kerncomponenten kunnen ontwerpers eenvoudig content maken.
 feature-set: Experience Manager Sites
-source-git-commit: ebbe3471164341076fe085bbef9c93fcb1fe382a
+source-git-commit: ec817d5527f93cc4a8468ffcf28886dc8cd6d03c
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 7%
+source-wordcount: '373'
+ht-degree: 6%
 
 ---
 
@@ -127,6 +127,7 @@ ht-degree: 7%
       + [Aangepaste Forms Wizard Layout](/help/adaptive-forms/components/wizard.md)
       + [Koptekst](/help/adaptive-forms/components/header.md)
       + [Voettekst](/help/adaptive-forms/components/footer.md)
+   + [Voorbeeldthema&#39;s en sjablonen](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
 + Ontwikkeling {#developing}
    + [Basiscomponenten ontwikkelen](/help/developing/overview.md)
    + [Paden naar succes](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
