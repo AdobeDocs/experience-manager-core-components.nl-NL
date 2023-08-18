@@ -5,9 +5,9 @@ breadcrumb-title: Gids voor kerncomponenten
 feature: Core Components
 user-guide-description: Met de uitbreidbare kerncomponenten kunnen ontwerpers eenvoudig content maken.
 feature-set: Experience Manager Sites
-source-git-commit: ec817d5527f93cc4a8468ffcf28886dc8cd6d03c
+source-git-commit: 8db061f3d6f1041336c379b34f3b6b7f03083560
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '381'
 ht-degree: 6%
 
 ---
@@ -117,6 +117,7 @@ ht-degree: 6%
       + [Adaptieve Forms-afbeelding](/help/adaptive-forms/components/image.md)
       + [Invoer adaptief Forms-nummer](/help/adaptive-forms/components/number-input.md)
       + [Aangepast Forms-deelvenster](/help/adaptive-forms/components/panel-container.md)
+      + [Adaptive Forms CAPTCHA](/help/adaptive-forms/components/captcha.md)
       + [Aangepaste Forms-keuzerondje](/help/adaptive-forms/components/radio-button.md)
       + [Knop Adaptief Forms herstellen](/help/adaptive-forms/components/reset-button.md)
       + [Knop Adaptief Forms verzenden](/help/adaptive-forms/components/submit-button.md)
@@ -127,6 +128,7 @@ ht-degree: 6%
       + [Aangepaste Forms Wizard Layout](/help/adaptive-forms/components/wizard.md)
       + [Koptekst](/help/adaptive-forms/components/header.md)
       + [Voettekst](/help/adaptive-forms/components/footer.md)
+   + [Aangepaste Forms Core-componenten aanpassen](/help/developing/customize-adaptive-forms-core-components.md)
    + [Voorbeeldthema&#39;s en sjablonen](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
 + Ontwikkeling {#developing}
    + [Basiscomponenten ontwikkelen](/help/developing/overview.md)
@@ -139,7 +141,7 @@ ht-degree: 6%
    + [Inclusief clientbibliotheken](/help/developing/including-clientlibs.md)
    + [De Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md)
    + [Webgeoptimaliseerde afbeeldingslevering](/help/developing/web-optimized-image-delivery.md)
-   + Gegevenslaag Adobe-client {#data-layer}
+   + Gegevenslaag client-Adobe {#data-layer}
       + [Overzicht van de Laag van Gegevens](/help/developing/data-layer/overview.md)
       + [Integratie met de Laag van Gegevens](/help/developing/data-layer/integrations.md)
       + [De gegevenslaag uitbreiden](/help/developing/data-layer/extending.md)
