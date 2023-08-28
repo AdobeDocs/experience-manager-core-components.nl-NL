@@ -3,9 +3,9 @@ title: Adaptieve Forms Core-component - Keuzerondje
 description: De Adaptive Forms Radio Button Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
+source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1739'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ Bovendien kan elk keuzerondje zo worden geconfigureerd dat het verschillende ver
 
 Er zijn verschillende redenen om keuzerondjes in een formulier te gebruiken, zoals:
 
-* **Beperkte keuzen**: Keuzerondjes worden gebruikt om een lijst met vooraf gedefinieerde opties weer te geven waaruit de gebruiker kan kiezen en er kan slechts één optie tegelijk worden geselecteerd. Dit is handig wanneer het aantal opties beperkt is en elkaar uitsluiten.
+* **Beperkte keuzen**: Met keuzerondjes wordt een lijst weergegeven met vooraf gedefinieerde opties waaruit de gebruiker kan kiezen. Er kan slechts één optie tegelijk worden geselecteerd. Dit is handig wanneer het aantal opties beperkt is en elkaar uitsluiten.
 
 * **Weergave wissen**: Keuzerondjes zijn duidelijk en gemakkelijk te begrijpen, zodat gebruikers eenvoudig kunnen zien wat ze selecteren.
 
-* **Consistentie**: Met keuzerondjes krijgt u een consistente en gestandaardiseerde manier om gebruikers opties voor te stellen, zodat ze het formulier eenvoudiger kunnen begrijpen en ermee kunnen werken.
+* **Consistentie**: Met keuzerondjes krijgt u een consistente en gestandaardiseerde manier om de gebruikers opties voor te stellen, zodat ze het formulier eenvoudiger kunnen begrijpen en ermee kunnen werken.
 
 * **Eenvoudiger te gebruiken**: Keuzerondjes zijn gebruiksvriendelijk, vooral voor gebruikers die niet vertrouwd zijn met technologie of die slechts over beperkte mobiliteit beschikken.
 
@@ -48,7 +48,7 @@ De Adaptive Forms Accordion Core Component is in februari 2023 uitgebracht als o
 |---|---|---|
 | v1 | Compatibel met<br>[versie 2.0.4](/help/adaptive-forms/version.md) en hoger | Compatibel met<br>[release 1.1.12](/help/adaptive-forms/version.md) en later, maar minder dan 2.0.0. |
 
-Raadpleeg voor meer informatie over versies en releases van de Core Component de [Core Components-versies](/help/adaptive-forms/version.md) document.
+Raadpleeg voor meer informatie over versies en releases van de Core Component de [Versies van kerncomponenten](/help/adaptive-forms/version.md) document.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -56,7 +56,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Technische details {#technical-details}
 
-Ga voor de meest recente informatie over de Adaptive Forms Radio Button Core Component naar de technische documentatie over [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/radiobutton/v1/radiobutton). Raadpleeg de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+Ga voor de meest recente informatie over de Adaptive Forms Radio Button Core Component naar de technische documentatie over [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/radiobutton/v1/radiobutton). Voor meer informatie over het ontwikkelen van Core Components, bekijk [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -70,7 +70,7 @@ Met het dialoogvenster Configureren kunt u de ervaring met keuzerondjes eenvoudi
 
 * **Titel verbergen** - Selecteer de optie om de titel van de component te verbergen.
 
-  In de **Opties** kunt u gegevenswaarden toevoegen en tekstparen weergeven met de **Toevoegen** knop. Nadat een nieuwe optie is toegevoegd, kunnen de volgende handelingen worden uitgevoerd:
+  In de **Opties** kunt u gegevenswaarden toevoegen en tekstparen weergeven met de opdracht **Toevoegen** knop. Nadat een nieuwe optie is toegevoegd, kunnen de volgende handelingen worden uitgevoerd:
 
    * **Gegevenswaarde** - Met deze optie kunt u de inhoud invoeren die u wilt verzenden wanneer een optie is geselecteerd.
    * **Tekst weergeven** - Met deze optie kunt u de inhoud invoeren die u wilt weergeven in een adaptief formulier.
@@ -79,13 +79,13 @@ Met het dialoogvenster Configureren kunt u de ervaring met keuzerondjes eenvoudi
 
 * **Bindverwijzing** - Een bind verwijzing is een verwijzing naar een gegevenselement dat in een externe gegevensbron wordt opgeslagen en in een vorm wordt gebruikt. Met de bind-verwijzing kunt u gegevens dynamisch binden aan formuliervelden, zodat in het formulier de meest actuele gegevens uit de gegevensbron kunnen worden weergegeven. Een bind-verwijzing kan bijvoorbeeld worden gebruikt om de naam en het adres van een klant in een formulier weer te geven op basis van de id van de klant die in het formulier is ingevoerd. De bind verwijzing kan ook worden gebruikt om de gegevensbron met gegevens bij te werken ingegaan in de vorm. Op deze manier kunt u in AEM Forms formulieren maken die interageren met externe gegevensbronnen, zodat u een naadloze gebruikerservaring hebt voor het verzamelen en beheren van gegevens.
 
-* **Gegevenstype van verzonden waarde** - Met deze optie geeft u het gegevenstype op van de waarde die wordt verzonden wanneer een optie is geselecteerd. Als de **gegevenstype van verzonden waarde** is ingesteld op `Number` en u voegt tekenreeksgegevens toe aan **Gegevenswaarde** &#x200B; &#x200B; **Opties** tabblad geeft het scherm een `Value type mismatch` foutbericht.
+* **Gegevenstype van verzonden waarde** - Met deze optie geeft u het gegevenstype op van de waarde die wordt verzonden wanneer een optie is geselecteerd. Als de **gegevenstype van verzonden waarde** is ingesteld op `Number` en u voegt tekenreeksgegevens toe aan **Gegevenswaarde** &#x200B; &#x200B; op de **Opties** tabblad geeft het scherm een `Value type mismatch` foutbericht.
 
 * **Standaardopties** - Met deze optie kunt u standaardwaarden toevoegen die vooraf zijn geselecteerd wanneer het formulier wordt geladen. Als de **gegevenstype van verzonden waarde** is ingesteld op `Number` en u voegt tekenreeksgegevens toe aan **Standaardopties**, wordt een `Value type mismatch` foutbericht.
 
 * **Weergaveopties** - Deze optie wordt gebruikt om de visuele uitlijning van keuzerondjes in een adaptief formulier in te stellen. De twee ondersteunde opties zijn:
    * **Horizontaal** - Als deze optie is geselecteerd, worden keuzerondjes van links naar rechts weergegeven in een adaptief formulier.
-   * **Verticaal** - Als deze optie is geselecteerd, worden de keuzerondjes van boven naar beneden weergegeven in een adaptief formulier.
+   * **verticaal** - Als deze optie is geselecteerd, worden de keuzerondjes van boven naar beneden weergegeven in een adaptief formulier.
 * **Component verbergen** - Selecteer de optie om de component te verbergen voor het formulier. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel. Dit is handig wanneer u informatie wilt opslaan die niet hoeft te worden bekeken of rechtstreeks door de gebruiker hoeft te worden gewijzigd.
 * **Component uitschakelen** - Selecteer de optie om de component uit te schakelen. De uitgeschakelde component is niet actief of bewerkbaar voor de eindgebruiker. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
 * **Alleen-lezen** - Selecteer de optie om de component niet-bewerkbaar te maken. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
@@ -104,7 +104,7 @@ Met het dialoogvenster Configureren kunt u de ervaring met keuzerondjes eenvoudi
 
 ![Help-inhoud, tabblad](/help/adaptive-forms/assets/radiobutton_helptab.png)
 
-* **Korte beschrijving** - Een korte beschrijving is een korte tekstuitleg met aanvullende informatie of verduidelijking over het doel van een specifiek formulierveld. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. De optie **Altijd korte beschrijving tonen** gebruiken om de component onder de component weer te geven.
+* **Korte beschrijving** - Een korte beschrijving is een korte tekstuitleg met aanvullende informatie of verduidelijking over het doel van een specifiek formulierveld. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. De optie **Altijd korte beschrijving tonen** gebruiken om de achtergrondafbeelding onder de component weer te geven.
 
 * **Altijd korte beschrijving tonen** - Schakel de optie in om de korte beschrijving onder de component weer te geven.
 
@@ -125,14 +125,39 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de component Rad
 
 Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De Adaptive Forms Radio Button Core Component ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
 
-![Dialoogvenster Stijlontwerp](/help/adaptive-forms/assets/radiobutton_designdialog.png)
+![Stijlontwerp, dialoogvenster](/help/adaptive-forms/assets/radiobutton_designdialog.png)
 
 * **Standaard CSS-klassen**: U kunt een standaard CSS-klasse opgeven voor de Adaptive Forms Radio Button Core Component.
 
-* **Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight&quot; opgeven: vet&quot;. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
+* **Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight: bold&quot; opgeven. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
 
 ## Verwante artikelen {#related-article}
 
 * [Een adaptief formulier maken in AEM Sites Page of Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
 
 * [Een zelfstandig adaptief formulier maken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+
+## Zie ook {#see-also}
+
+* [Accordeon](/help/adaptive-forms/components/accordion.md)
+* [Knop](/help/adaptive-forms/components/button.md)
+* [Selectievakjesgroep](/help/adaptive-forms/components/checkbox-group.md)
+* [Datumkiezer](/help/adaptive-forms/components/date-picker.md)
+* [Vervolgkeuzelijst](/help/adaptive-forms/components/drop-down.md)
+* [E-mailinvoer](/help/adaptive-forms/components/email-input.md)
+* [Formuliercontainer](/help/adaptive-forms/components/form-container.md)
+* [Bestandsbijlage](/help/adaptive-forms/components/file-attachment.md)
+* [Voettekst](/help/adaptive-forms/components/footer.md)
+* [Koptekst](/help/adaptive-forms/components/header.md)
+* [Horizontale tabs](/help/adaptive-forms/components/horizontal-tabs.md)
+* [Afbeelding](/help/adaptive-forms/components/image.md)
+* [Nummerinvoer](/help/adaptive-forms/components/number-input.md)
+* [Deelvenstercontainer](/help/adaptive-forms/components/panel-container.md)
+* [Knop Opnieuw instellen](/help/adaptive-forms/components/reset-button.md)
+* [Verzendknop](/help/adaptive-forms/components/submit-button.md)
+* [Telefooninvoer](/help/adaptive-forms/components/telephone-input.md)
+* [Tekstinvoer](/help/adaptive-forms/components/text-input.md)
+* [Tekst](/help/adaptive-forms/components/text.md)
+* [Titel](/help/adaptive-forms/components/title.md)
+* [Wizard](/help/adaptive-forms/components/wizard.md)

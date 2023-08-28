@@ -3,9 +3,9 @@ title: Adaptieve Forms Core-component - Formuliercontainer
 description: Voeg een adaptief formulier toe aan een webpagina.
 role: Architect, Developer, Admin, User
 exl-id: 8df7f862-4d59-4c3f-88dd-f0c937081f4f
-source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
+source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ Er zijn verschillende redenen waarom een formulier aan een website kan worden to
 
 * **Contact**: Met een contactformulier kunnen bezoekers van de website gemakkelijk contact opnemen met de eigenaar of organisatie van de website.
 
-* **Enquêtes en opiniepeilingen**: Met Forms kunt u via enquêtes en opiniepeilingen feedback en meningen verzamelen van websitebezoekers.
+* **Enquêtes en peilingen**: Forms kan worden gebruikt om via enquêtes en opiniepeilingen feedback en meningen van websitebezoekers te verzamelen.
 
 * **Gebeurtenisregistratie**: Forms kan worden gebruikt voor gebeurtenisregistratie, zodat websitebezoekers zich kunnen aanmelden voor gebeurtenissen of webinars.
 
-* **Abonnementen**: Forms kan worden gebruikt voor websiteabonnementen, waardoor bezoekers zich kunnen aanmelden voor een nieuwsbrief of andere regelmatige communicatie.
+* **Abonnementen**: Forms kan worden gebruikt voor websiteabonnementen, zodat bezoekers zich kunnen aanmelden voor een nieuwsbrief of andere regelmatige communicatie.
 
 * **Gebruikersverificatie**: Forms kan worden gebruikt voor gebruikersverificatie, zodat websitebezoekers accounts kunnen maken en zich kunnen aanmelden voor toegang tot exclusieve inhoud of functies.
 
@@ -45,14 +45,14 @@ De Adaptive Forms Accordion Core Component is in februari 2023 uitgebracht als o
 |---|---|---|
 | v1 | Compatibel met<br>[versie 2.0.4](/help/adaptive-forms/version.md) en hoger | Compatibel met<br>[release 1.1.12](/help/adaptive-forms/version.md) en later, maar minder dan 2.0.0. |
 
-Raadpleeg voor meer informatie over versies en releases van de Core Component de [Core Components-versies](/help/adaptive-forms/version.md) document.
+Raadpleeg voor meer informatie over versies en releases van de Core Component de [Versies van kerncomponenten](/help/adaptive-forms/version.md) document.
 <!-- ## Sample Component Output {#sample-component-output}
 
 To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Technische details {#technical-details}
 
-Lees de nieuwste informatie over de Adaptive Forms Container Core Component in de technische documentatie over [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/container/v1/container). Raadpleeg de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+Lees de nieuwste informatie over de Adaptive Forms Container Core Component in de technische documentatie over [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/container/v1/container). Voor meer informatie over het ontwikkelen van Core Components, bekijk [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -74,9 +74,9 @@ Gebruikers kunnen verschillende handelingen configureren voor het verzenden van 
 
 * **URL/pad omleiden** - Met deze optie kan de gebruiker een pagina configureren voor elk formulier, waarnaar de gebruikers van het formulier worden omgeleid na het verzenden van een adaptief formulier. Klik hier voor meer informatie over [omleidingspagina&#39;s configureren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html).
 
-![Tabblad Bericht tonen](/help/adaptive-forms/assets/formconatiner_showmessage.png)
+![Berichtvenster tonen, tabblad](/help/adaptive-forms/assets/formconatiner_showmessage.png)
 
-* **Bericht tonen** - Met deze optie kunnen gebruikers een bericht toevoegen dat wordt weergegeven wanneer het Adaptief formulier is verzonden. De vooraf gedefinieerde tekst staat in het dialoogvenster en kan door de gebruiker worden gewijzigd. Het dialoogvenster Bericht tonen ondersteunt gereedschappen voor tekstopmaak waarmee gebruikers de toegevoegde tekst kunnen opmaken.
+* **Bericht tonen** - Met deze optie kunnen gebruikers een bericht toevoegen dat wordt weergegeven wanneer het Adaptief formulier is verzonden. De vooraf gedefinieerde tekst wordt opgenomen in het dialoogvenster en kan door de gebruiker worden gewijzigd. Het dialoogvenster Bericht tonen ondersteunt gereedschappen voor tekstopmaak waarmee gebruikers de toegevoegde tekst kunnen opmaken.
 
 * **Handeling verzenden** - Een handeling Verzenden wordt geactiveerd wanneer een gebruiker op de knop Verzenden klikt op een adaptief formulier. Gebruikers kunnen in de vervolgkeuzelijst de optie Handelingen verzenden selecteren die in het vak worden ondersteund. Leer hoe u [Een handeling verzenden configureren op het tabblad Verzending](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br).
 
@@ -85,3 +85,28 @@ Gebruikers kunnen verschillende handelingen configureren voor het verzenden van 
 * [Een adaptief formulier maken in AEM Sites Page of Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
 
 * [Een zelfstandig adaptief formulier maken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+
+## Zie ook {#see-also}
+
+* [Accordeon](/help/adaptive-forms/components/accordion.md)
+* [Knop](/help/adaptive-forms/components/button.md)
+* [Selectievakjesgroep](/help/adaptive-forms/components/checkbox-group.md)
+* [Datumkiezer](/help/adaptive-forms/components/date-picker.md)
+* [Vervolgkeuzelijst](/help/adaptive-forms/components/drop-down.md)
+* [E-mailinvoer](/help/adaptive-forms/components/email-input.md)
+* [Bestandsbijlage](/help/adaptive-forms/components/file-attachment.md)
+* [Voettekst](/help/adaptive-forms/components/footer.md)
+* [Koptekst](/help/adaptive-forms/components/header.md)
+* [Horizontale tabs](/help/adaptive-forms/components/horizontal-tabs.md)
+* [Afbeelding](/help/adaptive-forms/components/image.md)
+* [Nummerinvoer](/help/adaptive-forms/components/number-input.md)
+* [Deelvenstercontainer](/help/adaptive-forms/components/panel-container.md)
+* [Keuzerondje](/help/adaptive-forms/components/radio-button.md)
+* [Knop Opnieuw instellen](/help/adaptive-forms/components/reset-button.md)
+* [Verzendknop](/help/adaptive-forms/components/submit-button.md)
+* [Telefooninvoer](/help/adaptive-forms/components/telephone-input.md)
+* [Tekstinvoer](/help/adaptive-forms/components/text-input.md)
+* [Tekst](/help/adaptive-forms/components/text.md)
+* [Titel](/help/adaptive-forms/components/title.md)
+* [Wizard](/help/adaptive-forms/components/wizard.md)

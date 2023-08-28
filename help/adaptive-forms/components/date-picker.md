@@ -3,9 +3,9 @@ title: Adaptive Forms Core Component - Datumkiezer
 description: De Adaptive Forms Date Picker Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
+source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: '1738'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ Er zijn verschillende redenen waarom het nuttig is een datumkiezer op te nemen i
 
 * **Handigheid**: Met een component voor een datumkiezer kunnen gebruikers eenvoudig een datum in een kalender selecteren zonder de datum handmatig in te voeren in een tekstveld. Dit kan tijd besparen en fouten verminderen.
 
-* **Gebruikerservaring**: De component van de plukker van de datum kan worden gebruikt om het formulier gebruikersvriendelijker te maken door een duidelijke en intuïtieve manier voor gebruikers te verstrekken om datum te selecteren.
+* **Gebruikerservaring**: Met de component Datumkiezer kunt u het formulier gebruiksvriendelijker maken door gebruikers een duidelijke en intuïtieve manier te bieden om de datum te selecteren.
 
-* **Gegevensanalyse**: De component van de plukker van de datum kan worden gebruikt om gegevens uit diverse bronnen te verzamelen en het te analyseren, of het te gebruiken als input voor verdere verwerking.
+* **Gegevensanalyse**: De component Date Picker kan worden gebruikt om gegevens van diverse bronnen te verzamelen en te analyseren, of het als input voor verdere verwerking te gebruiken.
 
 * **Gebeurtenisbeheer**: De component Date Picker kan in gebeurtenisbeheerwebsites worden gebruikt om de gebeurtenisdatum te selecteren.
 
-* **Boekhouding en reservering**: De component van de plukker van de datum kan in boekings en reserveringswebsites worden gebruikt om de controle en controledata te selecteren.
+* **Boekhouding en reservering**: De component met de datumkiezer kan worden gebruikt voor het maken van boekingen en het reserveren van websites om de datum van inchecken en uitchecken te selecteren.
 
 * **Datumnotatie**: De component van de plukker van de datum kan worden gebruikt om het formaat te bevestigen waarin de datum wordt getoond en ingegaan. Zorg ervoor dat de datumnotatie in het formulier consistent is, zodat de gebruiker er altijd last van heeft.
 
@@ -42,7 +42,7 @@ De Adaptive Forms Accordion Core Component is in februari 2023 uitgebracht als o
 |---|---|---|
 | v1 | Compatibel met<br>[versie 2.0.4](/help/adaptive-forms/version.md) en hoger | Compatibel met<br>[release 1.1.12](/help/adaptive-forms/version.md) en later, maar minder dan 2.0.0. |
 
-Raadpleeg voor meer informatie over versies en releases van de Core Component de [Core Components-versies](/help/adaptive-forms/version.md) document.
+Raadpleeg voor meer informatie over versies en releases van de Core Component de [Versies van kerncomponenten](/help/adaptive-forms/version.md) document.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -51,7 +51,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Technische details {#technical-details}
 
-Lees de nieuwste informatie over de Adaptive Forms Date Picker Core Component in de technische documentatie over [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/datepicker/v1/datepicker). Raadpleeg de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+Ga voor de meest recente informatie over de Adaptive Forms Date Picker Core Component naar de technische documentatie over [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/datepicker/v1/datepicker). Voor meer informatie over het ontwikkelen van Core Components, bekijk [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -87,18 +87,18 @@ Met het dialoogvenster Configureren kunt u de datumkiezer-ervaring voor bezoeker
 
 * **Minimumdatum** - Met deze optie kunt u de minimaal vereiste datum invoeren. Als u een datum vóór de in Minimumdatum opgegeven datum invoert, verschijnt er een foutbericht op het scherm. De **Minimale foutmelding** kunt u een aangepast foutbericht toevoegen.
 
-* **Minimale foutmelding** - de **Minimale foutmelding** kunt u een aangepast foutbericht toevoegen dat moet worden weergegeven als u een eerdere datum invoert dan de datum die is opgegeven in het dialoogvenster **Minimumdatum** optie.
+* **Minimale foutmelding** - de **Minimale foutmelding** kunt u een aangepast foutbericht toevoegen dat moet worden weergegeven als u een eerdere datum invoert dan de datum die is opgegeven in het dialoogvenster **Minimumdatum** -optie.
 
 * **Maximumdatum** - Met deze optie kunt u de maximaal vereiste datum invoeren. Als u een datum later dan de datum ingaat die in MaximumDatum wordt gespecificeerd, verschijnt een foutenmelding op het scherm. De **Maximum foutbericht** kunt u een aangepast foutbericht toevoegen.
 
-* **Maximum foutbericht** - de **Maximum foutbericht** kunt u een aangepast foutbericht toevoegen dat wordt weergegeven als u een datum later dan de datum invoert die in het dialoogvenster **Maximumdatum** optie.
+* **Maximum foutbericht** - de **Maximum foutbericht** kunt u een aangepast foutbericht toevoegen dat wordt weergegeven als u een datum later dan de datum invoert die in het dialoogvenster **Maximumdatum** -optie.
 
 
 ### Het tabblad Help-inhoud {#help-content-tab}
 
 ![Help-inhoud, tabblad](/help/adaptive-forms/assets/datepicker_helptab.png)
 
-* **Korte beschrijving** - Een korte beschrijving is een korte tekstuitleg met aanvullende informatie of verduidelijking over het doel van een specifiek formulierveld. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. De optie **Altijd korte beschrijving tonen** gebruiken om de component onder de component weer te geven.
+* **Korte beschrijving** - Een korte beschrijving is een korte tekstuitleg met aanvullende informatie of verduidelijking over het doel van een specifiek formulierveld. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. De optie **Altijd korte beschrijving tonen** gebruiken om de achtergrondafbeelding onder de component weer te geven.
 
 * **Altijd korte beschrijving tonen**- Schakel de optie in om de korte beschrijving onder de component weer te geven.
 
@@ -115,13 +115,13 @@ Met het dialoogvenster Configureren kunt u de datumkiezer-ervaring voor bezoeker
 
 ![Tabblad Indelingen](/help/adaptive-forms/assets/datepicker_formattab.png)
 
-* **Weergave-indeling** - Het staat voor de datumnotatie die aan de gebruiker wordt weergegeven. De **Type** kan de gebruiker de datumnotatie selecteren. U kunt de datumnotatie ook aanpassen met de opdracht **Aangepast** in de **Type** vervolgkeuzemenu.
+* **Weergave-indeling** - Het staat voor de datumnotatie die aan de gebruiker wordt weergegeven. De **Type** kan de gebruiker de datumnotatie selecteren. U kunt de datumnotatie ook aanpassen met de opdracht **Aangepast** in de **Type** vervolgkeuzelijst.
 
-* **Opmaak bewerken** - Dit is een datumnotatie waarin de gebruiker de datum kan bewerken. De **Type** kan de gebruiker de datumnotatie selecteren. U kunt de datumnotatie ook aanpassen met de opdracht **Aangepast** in de **Type** vervolgkeuzemenu.
+* **Opmaak bewerken** - Dit is een datumnotatie waarin de gebruiker de datum kan bewerken. De **Type** kan de gebruiker de datumnotatie selecteren. U kunt de datumnotatie ook aanpassen met de opdracht **Aangepast** in de **Type** vervolgkeuzelijst.
 
-* **Weergave-indeling** - Het staat voor de datumnotatie die aan de gebruiker wordt weergegeven. Met de optie Type kan de gebruiker de datumnotatie selecteren. U kunt de datumnotatie ook aanpassen met de opdracht **Aangepast** in de **Type** vervolgkeuzemenu.
+* **Weergave-indeling** - Het staat voor de datumnotatie die aan de gebruiker wordt weergegeven. Met de optie Type kan de gebruiker de datumnotatie selecteren. U kunt de datumnotatie ook aanpassen met de opdracht **Aangepast** in de **Type** vervolgkeuzelijst.
 
-* **Opmaak bewerken** - Het staat voor een datumnotatie waarin de gebruiker de datum bewerkt. Met de optie Type kan de gebruiker de datumnotatie selecteren. U kunt de datumnotatie ook aanpassen met de opdracht **Aangepast** in de **Type** vervolgkeuzemenu.
+* **Opmaak bewerken** - Het staat voor een datumnotatie waarin de gebruiker de datum bewerkt. Met de optie Type kan de gebruiker de datumnotatie selecteren. U kunt de datumnotatie ook aanpassen met de opdracht **Aangepast** in de **Type** vervolgkeuzelijst.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -135,7 +135,7 @@ Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en t
 
 * **Standaard CSS-klassen**: U kunt een standaard CSS-klasse opgeven voor de Adaptive Forms Date-picker Core Component.
 
-* **Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight&quot; opgeven: vet&quot;. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
+* **Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight: bold&quot; opgeven. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
 
 ### Tabblad Opmaak {#formats-tab}
 
@@ -148,3 +148,28 @@ Op het tabblad Indelingen kunt u standaard- en aangepaste datumnotaties opgeven.
 * [Een adaptief formulier maken in AEM Sites Page of Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
 
 * [Een zelfstandig adaptief formulier maken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+
+## Zie ook {#see-also}
+
+* [Accordeon](/help/adaptive-forms/components/accordion.md)
+* [Knop](/help/adaptive-forms/components/button.md)
+* [Selectievakjesgroep](/help/adaptive-forms/components/checkbox-group.md)
+* [Vervolgkeuzelijst](/help/adaptive-forms/components/drop-down.md)
+* [E-mailinvoer](/help/adaptive-forms/components/email-input.md)
+* [Formuliercontainer](/help/adaptive-forms/components/form-container.md)
+* [Bestandsbijlage](/help/adaptive-forms/components/file-attachment.md)
+* [Voettekst](/help/adaptive-forms/components/footer.md)
+* [Koptekst](/help/adaptive-forms/components/header.md)
+* [Horizontale tabs](/help/adaptive-forms/components/horizontal-tabs.md)
+* [Afbeelding](/help/adaptive-forms/components/image.md)
+* [Nummerinvoer](/help/adaptive-forms/components/number-input.md)
+* [Deelvenstercontainer](/help/adaptive-forms/components/panel-container.md)
+* [Keuzerondje](/help/adaptive-forms/components/radio-button.md)
+* [Knop Opnieuw instellen](/help/adaptive-forms/components/reset-button.md)
+* [Verzendknop](/help/adaptive-forms/components/submit-button.md)
+* [Telefooninvoer](/help/adaptive-forms/components/telephone-input.md)
+* [Tekstinvoer](/help/adaptive-forms/components/text-input.md)
+* [Tekst](/help/adaptive-forms/components/text.md)
+* [Titel](/help/adaptive-forms/components/title.md)
+* [Wizard](/help/adaptive-forms/components/wizard.md)

@@ -3,9 +3,9 @@ title: Adaptive Forms Core Component - Nummerinvoer
 description: De Adaptive Forms Number input Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
+source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1870'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ Er zijn verschillende redenen waarom het nuttig is om een numerieke invoercompon
 
 * **Wiskundige bewerkingen**: Met numerieke velden kunt u wiskundige bewerkingen uitvoeren, zoals optellen, aftrekken, vermenigvuldigen en delen.
 
-* **Gegevensbereik**: Met numerieke velden kunt u een reeks geldige waarden instellen met de kenmerken min, max en step.
+* **Gegevensbereik**: numerieke velden kunnen worden gebruikt om een reeks geldige waarden in te stellen met de kenmerken min, max en step.
 
-* **Dynamische inhoud**: De component Numeric kan worden gebruikt om dynamische gegevens weer te geven op basis van de formuliervelden.
+* **Dynamische inhoud**: De numerieke component kan worden gebruikt om dynamische gegevens weer te geven op basis van de formuliervelden.
 
 
 ## Versie en compatibiliteit {#version-and-compatibility}
@@ -43,7 +43,7 @@ De Adaptive Forms Accordion Core Component is in februari 2023 uitgebracht als o
 |---|---|---|
 | v1 | Compatibel met<br>[versie 2.0.4](/help/adaptive-forms/version.md) en hoger | Compatibel met<br>[release 1.1.12](/help/adaptive-forms/version.md) en later, maar minder dan 2.0.0. |
 
-Raadpleeg voor meer informatie over versies en releases van de Core Component de [Core Components-versies](/help/adaptive-forms/version.md) document.
+Raadpleeg voor meer informatie over versies en releases van de Core Component de [Versies van kerncomponenten](/help/adaptive-forms/version.md) document.
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -52,7 +52,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Technische details {#technical-details}
 
-Ga voor de meest recente informatie over de Adaptive Forms Number input Core Component naar de technische documentatie over [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/numberinput/v1/numberinput). Raadpleeg de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+Ga voor de meest recente informatie over de Adaptive Forms Number input Core Component naar de technische documentatie over [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/numberinput/v1/numberinput). Voor meer informatie over het ontwikkelen van Core Components, bekijk [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -88,13 +88,13 @@ Met het dialoogvenster Configureren kunt u de gebruikersinvoer voor bezoekers ee
 
 * **Laagste getal / Kleinste getal** - Gebruik deze optie om het minimaal toegestane aantal in te voeren in het formulierveld te selecteren. Als de waarde kleiner is dan het getal dat is opgegeven in **Laagste getal / Kleinste getal** wordt ingevoerd in het formulierveld, wordt het foutbericht weergegeven.
 
-* **Minimale foutmelding** - Met deze optie kunt u een foutbericht invoeren dat wordt weergegeven wanneer de gebruiker een waarde invoert die lager is dan de waarde die is opgegeven in het dialoogvenster **Minimum aantal/minimum aantal** optie.
+* **Minimale foutmelding** - Met deze optie kunt u een foutbericht invoeren dat wordt weergegeven wanneer de gebruiker een waarde invoert die lager is dan de waarde die is opgegeven in het dialoogvenster **Minimum aantal/minimum aantal** -optie.
 
-* **Minimumwaarde uitsluiten** - Schakel dit selectievakje in als u niet de minimumwaarde wilt opgeven in het dialoogvenster **Laagste getal / Kleinste getal** op te nemen in het bereik van waarden die &#x200B; worden ingevoerd in het formulierveld.
+* **Minimumwaarde uitsluiten** - Schakel dit selectievakje in als u niet de minimumwaarde wilt opgeven in het dialoogvenster **Laagste getal / Kleinste getal** op te nemen in het bereik van waarden die &#x200B; in het formulierveld worden ingevoerd.
 
 * **Hoogste getal / Grootste getal** - Gebruik deze optie om het maximum toegestane aantal in te voeren in het formulierveld te selecteren. Als het getal groter is dan het getal dat is opgegeven in **Hoogste getal / Grootste getal** wordt ingevoerd in het formulierveld, wordt het foutbericht weergegeven.
 
-* **Maximum foutbericht** - Met deze optie kunt u een foutbericht invoeren dat wordt weergegeven wanneer de gebruiker een waarde invoert die groter is dan de waarde die is opgegeven in het dialoogvenster **Hoogste getal / Grootste getal** optie.
+* **Maximum foutbericht** - Met deze optie kunt u een foutbericht invoeren dat wordt weergegeven wanneer de gebruiker een waarde invoert die groter is dan de waarde die is opgegeven in het dialoogvenster **Hoogste getal / Grootste getal** -optie.
 
 * **Maximumwaarde uitsluiten** - Schakel dit selectievakje in als u niet de maximumwaarde wilt opgeven in het dialoogvenster **Hoogste getal / Grootste getal** in het formulierveld in te voeren waarden.
 
@@ -102,7 +102,7 @@ Met het dialoogvenster Configureren kunt u de gebruikersinvoer voor bezoekers ee
 
 ![Help-inhoud, tabblad](/help/adaptive-forms/assets/numberinput_helptab.png)
 
-* **Korte beschrijving** - Een korte beschrijving is een korte tekstuitleg met aanvullende informatie of verduidelijking over het doel van een specifiek formulierveld. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. De optie **Altijd korte beschrijving tonen** gebruiken om de component onder de component weer te geven.
+* **Korte beschrijving** - Een korte beschrijving is een korte tekstuitleg met aanvullende informatie of verduidelijking over het doel van een specifiek formulierveld. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. De optie **Altijd korte beschrijving tonen** gebruiken om de achtergrondafbeelding onder de component weer te geven.
 
 * **Altijd korte beschrijving tonen** - Schakel de optie in om de korte beschrijving onder de component weer te geven.
 
@@ -118,11 +118,11 @@ Met het dialoogvenster Configureren kunt u de gebruikersinvoer voor bezoekers ee
 
 ![Toegankelijkheid, tabblad](/help/adaptive-forms/assets/numberinput_formattab.png)
 
-* **Weergave-indeling** - Met deze optie kunt u opties selecteren uit verschillende numerieke indelingen voor weergave. Wanneer de gebruiker een optie selecteert in het menu **Type** vervolgkeuzemenu, de **Indeling** wordt weergegeven in het deelvenster. U kunt een specifieke indeling kiezen waarin getallen worden weergegeven aan de gebruiker.
+* **Weergave-indeling** - Met deze optie kunt u opties selecteren uit verschillende numerieke indelingen voor weergave. Wanneer de gebruiker een optie selecteert in het menu **Type** vervolgkeuzemenu, **Indeling** wordt weergegeven in het deelvenster. U kunt een specifieke indeling kiezen waarin getallen worden weergegeven aan de gebruiker.
 
-* **Aantal cijfers vóór het decimale scheidingsteken (1234.000)** - Gebruik deze optie om het aantal cijfers op te geven dat voor het decimaalteken moet worden weergegeven.
+* **Aantal cijfers vóór decimaalteken (1234.000)** - Gebruik deze optie om het aantal cijfers op te geven dat voor het decimaalteken moet worden weergegeven.
 
-* **Aantal cijfers na het decimale scheidingsteken (1234.000)** - Gebruik deze optie om het aantal cijfers op te geven dat na het decimaalteken moet worden weergegeven.
+* **Aantal cijfers na het decimale scheidingsteken (1234.000)** - Gebruik deze optie om het aantal cijfers op te geven dat na het decimaalteken wordt weergegeven.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -136,7 +136,7 @@ Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en t
 
 **Standaard CSS-klassen**: U kunt een standaard CSS-klasse opgeven voor de Adaptive Forms Number input Core Component.
 
-**Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight&quot; opgeven: vet&quot;. U kunt deze stijlen in Adaptive Forms gebruiken of toepassen op een adaptief formulier. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de editor voor de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
+**Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight: bold&quot; opgeven. U kunt deze stijlen in Adaptive Forms gebruiken of toepassen op een adaptief formulier. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de editor voor de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
 
 ### Tabblad Opmaak {#format-tab}
 
@@ -148,3 +148,28 @@ Op het tabblad Indelingen kunt u de standaardindelingen en de aangepaste getalno
 * [Een adaptief formulier maken in AEM Sites Page of Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
 
 * [Een zelfstandig adaptief formulier maken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+
+## Zie ook {#see-also}
+
+* [Accordeon](/help/adaptive-forms/components/accordion.md)
+* [Knop](/help/adaptive-forms/components/button.md)
+* [Selectievakjesgroep](/help/adaptive-forms/components/checkbox-group.md)
+* [Datumkiezer](/help/adaptive-forms/components/date-picker.md)
+* [Vervolgkeuzelijst](/help/adaptive-forms/components/drop-down.md)
+* [E-mailinvoer](/help/adaptive-forms/components/email-input.md)
+* [Formuliercontainer](/help/adaptive-forms/components/form-container.md)
+* [Bestandsbijlage](/help/adaptive-forms/components/file-attachment.md)
+* [Voettekst](/help/adaptive-forms/components/footer.md)
+* [Koptekst](/help/adaptive-forms/components/header.md)
+* [Horizontale tabs](/help/adaptive-forms/components/horizontal-tabs.md)
+* [Afbeelding](/help/adaptive-forms/components/image.md)
+* [Deelvenstercontainer](/help/adaptive-forms/components/panel-container.md)
+* [Keuzerondje](/help/adaptive-forms/components/radio-button.md)
+* [Knop Opnieuw instellen](/help/adaptive-forms/components/reset-button.md)
+* [Verzendknop](/help/adaptive-forms/components/submit-button.md)
+* [Telefooninvoer](/help/adaptive-forms/components/telephone-input.md)
+* [Tekstinvoer](/help/adaptive-forms/components/text-input.md)
+* [Tekst](/help/adaptive-forms/components/text.md)
+* [Titel](/help/adaptive-forms/components/title.md)
+* [Wizard](/help/adaptive-forms/components/wizard.md)

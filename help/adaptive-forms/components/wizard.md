@@ -3,9 +3,9 @@ title: Adaptive Forms Core Component - Wizard
 description: De Adaptive Forms Wizard Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
+source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
 workflow-type: tm+mt
-source-wordcount: '1865'
+source-wordcount: '1902'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ De indeling van de wizard is handig voor formulieren met veel velden of gegevens
 
 Het kan echter ook de complexiteit van het formulier vergroten, omdat de gebruiker meerdere pagina&#39;s moet doorlopen om het formulier in te vullen. Het is dus noodzakelijk om de formuliervereisten en gebruikersbehoeften te evalueren voordat u besluit een wizardindeling te gebruiken.
 
-U kunt de lay-out Core Component van de Tovenaar in een Aangepast Vorm gebruiken om de lay-out van de Tovenaar tot stand te brengen.
+Met de Core-component voor de wizardlay-out kunt u in een adaptief formulier de wizardlay-out maken.
 
 
 **Voorbeeld**
@@ -31,19 +31,19 @@ U kunt de lay-out Core Component van de Tovenaar in een Aangepast Vorm gebruiken
 
 Er zijn verscheidene redenen waarom het nuttig kan zijn om een lay-out van de Tovenaar in een AanpassingsVorm te gebruiken:
 
-* **Eenvoud**: Door een formulier in meerdere stappen op te splitsen, kunnen gebruikers het formulier eenvoudiger begrijpen en voltooien, omdat ze zich op één set velden tegelijk kunnen concentreren.
+* **Eenvoud**: Door een formulier in meerdere stappen in te delen, kunnen gebruikers het formulier eenvoudiger begrijpen en voltooien, omdat ze zich tegelijk op één set velden kunnen concentreren.
 
-* **Organisatie**: Een indeling van een wizard kan u helpen formulieren op onderwerp of doel in te delen en kan gerelateerde velden ook groeperen, waardoor het invullen van formulieren logischer en efficiënter kan verlopen.
+* **Organisatie**: De indeling van een wizard kan u helpen formulieren op onderwerp of doel in te delen en kan ook gerelateerde velden groeperen, waardoor het invullen van formulieren logischer en efficiënter kan verlopen.
 
 * **Validatie**: Een wizardlay-out staat voor geleidelijke bevestiging toe, die gebruikers kan helpen fouten identificeren en verbeteren aangezien zij gaan, eerder dan het wachten tot het eind van de vorm.
 
-* **Voortgangsindicator**: Een wizard kan de voortgang van het formulier weergeven, zodat de gebruiker kan zien hoeveel van het formulier nog moet worden ingevuld.
+* **Voortgangsindicator**: De indeling van een wizard kan de voortgang van het formulier weergeven, zodat de gebruiker kan zien hoeveel van het formulier nog moet worden ingevuld.
 
-* **Lange formulieren**: Als het formulier veel velden bevat, kan het voor de gebruiker overweldigend zijn om ze allemaal tegelijk te zien, zodat het afbreken van de velden in kleinere, beter te beheren brokken het minder intimiderend kan maken.
+* **Lange formulieren**: Als het formulier veel velden bevat, kan het voor de gebruiker overweldigend zijn om ze allemaal tegelijk te zien, zodat het intimideren van het formulier in kleinere, beter te beheren brokken minder intimiderend kan zijn.
 
-* **Afschaffing voorkomen**: Een wizardlay-out kan ook helpen om het verlaten van formulieren te verminderen, aangezien de gebruikers eerder een formulier zullen voltooien als zij de vooruitgang kunnen zien en begrijpen hoeveel nog moet doen.
+* **Afschaffing voorkomen**: Een indeling van een wizard kan ook helpen het verlaten van formulieren te verminderen, aangezien gebruikers waarschijnlijk een formulier zullen invullen als ze de voortgang kunnen zien en kunnen begrijpen hoeveel er nog moet gebeuren.
 
-* **Mobiele ervaring**: Een wizardlay-out kan ook nuttig zijn voor formulieren die worden geopend op mobiele apparaten, omdat het kleinere pagina&#39;s mogelijk maakt die sneller worden geladen en gemakkelijker te navigeren zijn.
+* **Mobiele ervaring**: Een wizardlay-out kan ook nuttig zijn voor formulieren die worden geopend op mobiele apparaten, omdat het formulieren toestaat voor kleinere pagina&#39;s die sneller worden geladen en waarmee u gemakkelijker kunt navigeren.
 
 Over het algemeen kan een wizardindeling het invullen van formulieren overzichtelijker en efficiënter maken voor gebruikers, maar het is belangrijk om rekening te houden met de complexiteit van het formulier en de behoeften van de gebruiker voordat u besluit om dit type indeling te gebruiken.
 
@@ -57,7 +57,7 @@ De Adaptive Forms Wizard Layout Core Component is in februari 2023 uitgebracht a
 | — | --- |
 | v1 | Compatibel met<br>[versie 2.0.4](/help/versions.md) en hoger | Compatibel | Compatibel |
 
-Raadpleeg voor meer informatie over versies en releases van de Core Component de [Core Components-versies](/help/versions.md) document.
+Raadpleeg voor meer informatie over versies en releases van de Core Component de [Versies van kerncomponenten](/help/versions.md) document.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -65,7 +65,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Technische details {#technical-details}
 
-Lees de nieuwste informatie over de Adaptive Forms Title Core Component in de technische documentatie over [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/wizard/v1/wizard). Raadpleeg de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+Lees de nieuwste informatie over de Adaptive Forms Title Core Component in de technische documentatie over [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/wizard/v1/wizard). Voor meer informatie over het ontwikkelen van Core Components, bekijk [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -98,8 +98,8 @@ Met het dialoogvenster Configureren kunt u de tovenaarservaring eenvoudig aanpas
 Met de opties voor herhaling kunt u de wizard en de onderliggende componenten dupliceren, een minimum- en maximumaantal herhalingen definiëren en de replicatie van vergelijkbare secties in een formulier vergemakkelijken. Wanneer het in wisselwerking staan met de component van de Tovenaar en de toegang tot van zijn montages, worden de volgende opties voorgesteld:
 
 * **Wizard herhaalbaar maken**: Een schakelfunctie waarmee gebruikers de herhaalbaarheidsfunctionaliteit kunnen in- of uitschakelen.
-* **Minimale herhalingen**: Hiermee bepaalt u het minimale aantal keren dat het deelvenster Wizard kan worden herhaald. De waarde nul geeft aan dat het deelvenster Wizard niet wordt herhaald. de standaardwaarde is nul.
-* **Maximale herhalingen**: Hiermee stelt u het maximale aantal keren in dat het deelvenster Wizard kan worden herhaald. Deze waarde is standaard onbeperkt.
+* **Minimale herhalingen**: Hiermee stelt u het minimale aantal keren in dat het deelvenster Wizard kan worden herhaald. De waarde nul geeft aan dat het deelvenster Wizard niet wordt herhaald; de standaardwaarde is nul.
+* **Maximale herhalingen**: Hiermee stelt u in hoe vaak het deelvenster Wizard kan worden herhaald. Deze waarde is standaard onbeperkt.
 
 Om herhaalbare secties binnen de Tovenaar effectief te beheren, volg de stappen die in worden verstrekt [Formulieren maken met herhaalbare secties](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) artikel.
 
@@ -107,7 +107,7 @@ Om herhaalbare secties binnen de Tovenaar effectief te beheren, volg de stappen 
 
 ![Het tabblad Help](/help/adaptive-forms/assets/wizard-helpcontent.png)
 
-* **Korte beschrijving** - Een korte beschrijving is een korte tekstuitleg met aanvullende informatie of verduidelijking over het doel van een specifiek formulierveld. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. De optie **Altijd korte beschrijving tonen** gebruiken om de component onder de component weer te geven.
+* **Korte beschrijving** - Een korte beschrijving is een korte tekstuitleg met aanvullende informatie of verduidelijking over het doel van een specifiek formulierveld. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. De optie **Altijd korte beschrijving tonen** gebruiken om de achtergrondafbeelding onder de component weer te geven.
 
 * **Altijd korte beschrijving tonen** - Schakel de optie in om de korte beschrijving onder de component weer te geven.
 
@@ -128,7 +128,7 @@ Om herhaalbare secties binnen de Tovenaar effectief te beheren, volg de stappen 
 De dialoog van het Ontwerp laat malplaatjemakers controleren hoe de dingen door gebrek worden getoond. Voor de component Adaptive Forms Wizard kunt u het volgende instellen:
 
 * De kerncomponenten die een maker van het formulier aan de wizard kan toevoegen in de Adaptive Forms-editor
-* Eenvoudige namen voor stijlen (CSS-klassen) die kunnen worden toegepast in het dialoogvenster Eigenschappen van de component Wizard in de Adaptive Forms-editor.
+* Eenvoudige namen voor stijlen (CSS-klassen) die kunnen worden toegepast in het dialoogvenster met eigenschappen van de component Wizard in de Adaptive Forms-editor.
 
 Hierdoor wordt het maken en aanpassen van formulieren eenvoudiger en efficiënter.
 
@@ -142,7 +142,7 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor een component te
 
 **Standaard CSS-klassen**: U kunt een standaard CSS klasse voor de component van de Tovenaar verstrekken.
 
-**Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight&quot; opgeven: vet&quot;. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
+**Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight: bold&quot; opgeven. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
 
 ## Verwante artikelen {#related-article}
 
@@ -150,4 +150,26 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor een component te
 
 * [Een zelfstandig adaptief formulier maken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
+## Zie ook {#see-also}
 
+* [Accordeon](/help/adaptive-forms/components/accordion.md)
+* [Knop](/help/adaptive-forms/components/button.md)
+* [Selectievakjesgroep](/help/adaptive-forms/components/checkbox-group.md)
+* [Datumkiezer](/help/adaptive-forms/components/date-picker.md)
+* [Vervolgkeuzelijst](/help/adaptive-forms/components/drop-down.md)
+* [E-mailinvoer](/help/adaptive-forms/components/email-input.md)
+* [Formuliercontainer](/help/adaptive-forms/components/form-container.md)
+* [Bestandsbijlage](/help/adaptive-forms/components/file-attachment.md)
+* [Voettekst](/help/adaptive-forms/components/footer.md)
+* [Koptekst](/help/adaptive-forms/components/header.md)
+* [Horizontale tabs](/help/adaptive-forms/components/horizontal-tabs.md)
+* [Afbeelding](/help/adaptive-forms/components/image.md)
+* [Nummerinvoer](/help/adaptive-forms/components/number-input.md)
+* [Deelvenstercontainer](/help/adaptive-forms/components/panel-container.md)
+* [Keuzerondje](/help/adaptive-forms/components/radio-button.md)
+* [Knop Opnieuw instellen](/help/adaptive-forms/components/reset-button.md)
+* [Verzendknop](/help/adaptive-forms/components/submit-button.md)
+* [Telefooninvoer](/help/adaptive-forms/components/telephone-input.md)
+* [Tekstinvoer](/help/adaptive-forms/components/text-input.md)
+* [Tekst](/help/adaptive-forms/components/text.md)
+* [Titel](/help/adaptive-forms/components/title.md)

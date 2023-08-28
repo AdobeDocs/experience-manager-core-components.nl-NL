@@ -3,9 +3,9 @@ title: Adaptive Forms Core Component - Vervolgkeuzelijst
 description: De Adaptive Forms Drop-down Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
+source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: '1767'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,15 @@ Met een vervolgkeuzelijst in een adaptief formulier kunnen gebruikers een of mee
 
 Er zijn verschillende redenen waarom het nuttig is om een vervolgkeuzelijst op te nemen in een adaptief formulier, zoals:
 
-* **Lange lijst met opties**: Vervolgkeuzelijsten zijn handig voor situaties waarin een veld een lange lijst met opties heeft. Ze nemen minder ruimte in het formulier in beslag dan een lijst met keuzerondjes of selectievakjes. De gebruikers hebben dit minder nodig.
+* **Lange lijst met opties**: Vervolgkeuzelijsten zijn handig voor situaties waarin een veld een lange lijst met opties bevat. Ze nemen minder ruimte in het formulier in beslag dan een lijst met keuzerondjes of selectievakjes. De gebruikers hebben dit minder nodig.
 
-* **Consistentie**: Vervolgkeuzelijsten bieden consistentie in het ontwerp en de indeling van het formulier, waardoor het intuïtiever wordt en gebruikers gemakkelijk door het formulier kunnen navigeren.
+* **Consistentie**: Vervolgkeuzelijsten bieden consistentie in het ontwerp en de indeling van het formulier, waardoor het intuïtiever wordt en gebruikers gemakkelijker door het formulier kunnen navigeren.
 
 * **Helderheid**: Met vervolgkeuzelijsten kunt u het formulier duidelijker en begrijpelijker maken door een duidelijke en beknopte lijst met opties te bieden.
 
-* **Gebruikerservaring**: Vervolgkeuzelijsten kunnen worden gebruikt om het formulier gebruiksvriendelijker te maken door gebruikers een duidelijke en intuïtieve manier te bieden om opties te selecteren.
+* **Gebruikerservaring**: Met vervolgkeuzelijsten kunt u het formulier gebruiksvriendelijker maken door gebruikers een duidelijke en intuïtieve manier te bieden om opties te selecteren.
 
-* **Gegevensanalyse**: Vervolgkeuzelijsten kunnen worden gebruikt om gegevens van verschillende bronnen te verzamelen en te analyseren, of om deze te gebruiken als invoer voor verdere verwerking.
+* **Gegevensanalyse**: Vervolgkeuzelijsten kunnen worden gebruikt om gegevens van verschillende bronnen te verzamelen en te analyseren, of om deze als invoer voor verdere verwerking te gebruiken.
 
 
 **Dialoogvenster Eigenschappen**
@@ -50,7 +50,7 @@ De Adaptive Forms Accordion Core Component is in februari 2023 uitgebracht als o
 |---|---|---|
 | v1 | Compatibel met<br>[versie 2.0.4](/help/adaptive-forms/version.md) en hoger | Compatibel met<br>[release 1.1.12](/help/adaptive-forms/version.md) en later, maar minder dan 2.0.0. |
 
-Raadpleeg voor meer informatie over versies en releases van de Core Component de [Core Components-versies](/help/adaptive-forms/version.md) document.
+Raadpleeg voor meer informatie over versies en releases van de Core Component de [Versies van kerncomponenten](/help/adaptive-forms/version.md) document.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -58,7 +58,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Technische details {#technical-details}
 
-Lees de nieuwste informatie over de Adaptive Forms vervolgkeuzelijst Core Component in de technische documentatie over [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/dropdown/v1/dropdown). Raadpleeg de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+Lees de nieuwste informatie over de Adaptive Forms vervolgkeuzelijst Core Component in de technische documentatie over [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/dropdown/v1/dropdown). Voor meer informatie over het ontwikkelen van Core Components, bekijk [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -74,16 +74,16 @@ Met het dialoogvenster Configureren kunt u uw ervaring in de vervolgkeuzelijst e
 
 * **Meerdere selecties toestaan** - Selecteer deze optie als u meerdere opties in een vervolgkeuzelijst wilt selecteren.
 
-* **Waarde opslaan als** - Met deze optie geeft u het gegevenstype op van de waarde die wordt verzonden wanneer een optie is geselecteerd. Als de **Waarde opslaan als** is ingesteld op `Number` en u voegt tekenreeksgegevens toe aan **Gegevenswaarde** &#x200B; &#x200B; **Opties** tabblad geeft het scherm een `Value type mismatch` foutbericht.
+* **Waarde opslaan als** - Met deze optie geeft u het gegevenstype op van de waarde die wordt verzonden wanneer een optie is geselecteerd. Als de **Waarde opslaan als** is ingesteld op `Number` en u voegt tekenreeksgegevens toe aan **Gegevenswaarde** &#x200B; &#x200B; op de **Opties** tabblad geeft het scherm een `Value type mismatch` foutbericht.
 
-  In de **Opties** kunt u gegevenswaarden toevoegen en tekstparen weergeven met de **Toevoegen** knop. Nadat een nieuwe optie is toegevoegd, worden de volgende handelingen uitgevoerd:
+  In de **Opties** kunt u gegevenswaarden toevoegen en tekstparen weergeven met de opdracht **Toevoegen** knop. Nadat een nieuwe optie is toegevoegd, worden de volgende handelingen uitgevoerd:
 
    * **Gegevenswaarde** - Met deze optie kunt u de inhoud invoeren die u wilt verzenden wanneer een optie is geselecteerd.
    * **Tekst weergeven** - Met deze optie kunt u de inhoud invoeren die u wilt weergeven in een adaptief formulier.
    * **Verwijderen** - Tik of klik om de optie van een vervolgkeuzemenu te verwijderen.
    * **Opnieuw rangschikken** - Tik of klik en sleep om de volgorde voor de optie van een vervolgkeuzemenu te wijzigen.
 
-* **Standaardopties** - Met deze optie kunt u standaardwaarden toevoegen. Gebruik het verwijderpictogram om de toegevoegde optie te verwijderen. Als de **Waarde opslaan als** is ingesteld op `Number` en u voegt tekenreeksgegevens toe aan **Standaardopties**, wordt een `Value type mismatch` foutbericht.
+* **Standaardopties** - U kunt nu standaardwaarden toevoegen. Gebruik het verwijderpictogram om de toegevoegde optie te verwijderen. Als de **Waarde opslaan als** is ingesteld op `Number` en u voegt tekenreeksgegevens toe aan **Standaardopties**, wordt een `Value type mismatch` foutbericht.
 
 * **Plaatsaanduidingstekst** - Plaatsaanduidingstekst in een formuliercomponent verwijst naar een kort label of een korte vraag die binnen een invoerveld wordt weergegeven als een tip voor de gebruiker met betrekking tot welk type informatie naar verwachting in dat veld wordt ingevoerd. Plaatsaanduidingstekst verdwijnt wanneer de gebruiker in het veld typt en verschijnt opnieuw als het veld leeg blijft. De klasse biedt een visuele aanwijzing voor de gebruiker, maar fungeert niet als een permanent label of een permanente waarde voor het veld.
 
@@ -107,7 +107,7 @@ Met het dialoogvenster Configureren kunt u uw ervaring in de vervolgkeuzelijst e
 
 ![Help-inhoud, tabblad](/help/adaptive-forms/assets/dropdown_helptab.png)
 
-* **Korte beschrijving** - Een korte beschrijving is een korte tekstuitleg met aanvullende informatie of verduidelijking over het doel van een specifiek formulierveld. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. De optie **Altijd korte beschrijving tonen** gebruiken om de component onder de component weer te geven.
+* **Korte beschrijving** - Een korte beschrijving is een korte tekstuitleg met aanvullende informatie of verduidelijking over het doel van een specifiek formulierveld. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. De optie **Altijd korte beschrijving tonen** gebruiken om de achtergrondafbeelding onder de component weer te geven.
 
 * **Altijd korte beschrijving tonen** - Schakel de optie in om de korte beschrijving onder de component weer te geven.
 
@@ -133,7 +133,7 @@ Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en t
 
 * **Standaard CSS-klassen**: U kunt een standaard CSS-klasse opgeven voor de Adaptive Forms vervolgkeuzelijst Core Component.
 
-* **Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight&quot; opgeven: vet&quot;. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
+* **Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight: bold&quot; opgeven. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
 
 ## Verwante artikelen {#related-article}
 
@@ -142,3 +142,26 @@ Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en t
 * [Een zelfstandig adaptief formulier maken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 
+## Zie ook {#see-also}
+
+* [Accordeon](/help/adaptive-forms/components/accordion.md)
+* [Knop](/help/adaptive-forms/components/button.md)
+* [Selectievakjesgroep](/help/adaptive-forms/components/checkbox-group.md)
+* [Datumkiezer](/help/adaptive-forms/components/date-picker.md)
+* [E-mailinvoer](/help/adaptive-forms/components/email-input.md)
+* [Formuliercontainer](/help/adaptive-forms/components/form-container.md)
+* [Bestandsbijlage](/help/adaptive-forms/components/file-attachment.md)
+* [Voettekst](/help/adaptive-forms/components/footer.md)
+* [Koptekst](/help/adaptive-forms/components/header.md)
+* [Horizontale tabs](/help/adaptive-forms/components/horizontal-tabs.md)
+* [Afbeelding](/help/adaptive-forms/components/image.md)
+* [Nummerinvoer](/help/adaptive-forms/components/number-input.md)
+* [Deelvenstercontainer](/help/adaptive-forms/components/panel-container.md)
+* [Keuzerondje](/help/adaptive-forms/components/radio-button.md)
+* [Knop Opnieuw instellen](/help/adaptive-forms/components/reset-button.md)
+* [Verzendknop](/help/adaptive-forms/components/submit-button.md)
+* [Telefooninvoer](/help/adaptive-forms/components/telephone-input.md)
+* [Tekstinvoer](/help/adaptive-forms/components/text-input.md)
+* [Tekst](/help/adaptive-forms/components/text.md)
+* [Titel](/help/adaptive-forms/components/title.md)
+* [Wizard](/help/adaptive-forms/components/wizard.md)

@@ -3,16 +3,16 @@ title: Adaptive Forms Core Component - E-mailinvoer
 description: De Adaptive Forms Email input Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
+source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
 workflow-type: tm+mt
-source-wordcount: '1719'
+source-wordcount: '1756'
 ht-degree: 0%
 
 ---
 
 # E-mailinvoer {#Email-input-adaptive-forms-core-component}
 
-De Adaptive Form Email input Core Component wordt gebruikt om e-mailadressen van gebruikers te verzamelen. In het veld E-mailinvoer kan de browser controleren of de ingevoerde gegevens een geldige indeling voor e-mailadressen zijn. De naam wordt meestal weergegeven als een tekstvak en heeft patroonvalidaties om alleen geldige e-mailadressen te accepteren. Het invoerveld voor e-mail kan verder worden aangepast met extra kenmerken zoals &quot;required&quot;, &quot;placeholder&quot; en &quot;pattern&quot; om validaties voor de invoergegevens in te stellen.
+De Adaptive Form Email input Core Component wordt gebruikt om e-mailadressen van gebruikers te verzamelen. In het veld voor e-mailinvoer kan de browser controleren of de ingevoerde gegevens een geldige indeling voor e-mailadressen zijn. De naam wordt meestal weergegeven als een tekstvak en heeft patroonvalidaties om alleen geldige e-mailadressen te accepteren. Het veld voor e-mailinvoer kan verder worden aangepast met extra kenmerken zoals &quot;vereist&quot;, &quot;plaatsaanduiding&quot; en &quot;patroon&quot; om validaties voor de invoergegevens in te stellen.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -20,15 +20,15 @@ To experience the Accordion Component as well as see examples of its configurati
 
 Er zijn verschillende redenen waarom het nuttig is om een e-mailinvoercomponent op te nemen in een adaptief formulier, zoals:
 
-* **Gebruikersgemak**: Met e-mailinvoer kunnen gebruikers gemakkelijker hun e-mailadressen invoeren, omdat dit een duidelijke indicatie geeft van de gegevens die in het veld worden verwacht.
+* **Gebruikersgemak**: Een e-mailinvoer maakt het voor gebruikers gemakkelijker om hun e-mailadressen in te voeren omdat dit een duidelijke indicatie geeft van de gegevens die in het veld worden verwacht.
 
-* **Persoonlijke communicatie**: Door e-mailadressen van gebruikers te verzamelen via een formulier, kunt u persoonlijke communicatie mogelijk maken, zoals het verzenden van bevestigings-e-mails of nieuwsbrieven.
+* **Persoonlijke communicatie**: Het verzamelen van e-mailadressen van gebruikers via een formulier maakt gepersonaliseerde communicatie mogelijk, zoals het verzenden van bevestigings-e-mails of nieuwsbrieven.
 
 * **Loodgeneratie**: Door e-mailadressen via een formulier te verzamelen, kunnen bedrijven hun e-maillijst samenstellen en deze gebruiken voor het genereren van leads.
 
 * **Gebruikersverificatie**: E-mailadressen kunnen worden gebruikt als verificatiemiddel voor toegang tot beperkte inhoud of services.
 
-* **Feedbackverzameling**: Met een e-mailinvoer in een feedbackformulier kunnen bedrijven communiceren met de gebruiker voor follow-up of verduidelijking van hun feedback.
+* **Feedbackverzameling**: Een e-mailinvoer in een feedbackformulier stelt het bedrijf in staat met de gebruiker te communiceren voor follow-up of verduidelijking van de feedback.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -38,7 +38,7 @@ De Adaptive Forms Accordion Core Component is in februari 2023 uitgebracht als o
 |---|---|---|
 | v1 | Compatibel met<br>[versie 2.0.4](/help/adaptive-forms/version.md) en hoger | Compatibel met<br>[release 1.1.12](/help/adaptive-forms/version.md) en later, maar minder dan 2.0.0. |
 
-Raadpleeg voor meer informatie over versies en releases van de Core Component de [Core Components-versies](/help/adaptive-forms/version.md) document.
+Raadpleeg voor meer informatie over versies en releases van de Core Component de [Versies van kerncomponenten](/help/adaptive-forms/version.md) document.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -46,7 +46,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Technische details {#technical-details}
 
-Ga voor de meest recente informatie over de Adaptive Forms Email input Core Component naar de technische documentatie over [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/emailinput/v1/emailinput). Raadpleeg de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+Ga voor de meest recente informatie over de Adaptive Forms Email input Core Component naar de technische documentatie over [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/emailinput/v1/emailinput). Voor meer informatie over het ontwikkelen van Core Components, bekijk [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -84,11 +84,11 @@ Met het dialoogvenster Configureren kunt u uw e-mailinvoerervaring eenvoudig aan
 
 * **Maximum aantal tekens** - Met deze optie kunt u het maximum aantal tekens opgeven dat in het veld is toegestaan. Als u tekens invoert die groter zijn dan de waarde die is opgegeven in **Maximum aantal tekens** verschijnt er een foutbericht op het scherm. De **Foutbericht voor Maximum aantal tekens** kunt u een aangepast foutbericht toevoegen.
 
-* **Foutbericht voor Maximum aantal tekens** - de **Foutbericht voor Maximum aantal tekens** kunt u een aangepast foutbericht toevoegen als u tekens invoert die groter zijn dan de waarde die is opgegeven in **Maximum aantal tekens** optie.
+* **Foutbericht voor Maximum aantal tekens** - de **Foutbericht voor Maximum aantal tekens** kunt u een aangepast foutbericht toevoegen als u tekens invoert die groter zijn dan de waarde die is opgegeven in **Maximum aantal tekens** -optie.
 
 * **Minimum aantal tekens** - Met deze optie kunt u het minimale aantal tekens opgeven dat in het veld is toegestaan. Als u tekens invoert die minder zijn dan de waarde die is opgegeven in **Minimum aantal tekens** verschijnt er een foutbericht op het scherm. De **Foutbericht voor minimale tekens** kunt u een aangepast foutbericht toevoegen.
 
-* **Foutbericht voor minimale tekens** - de **Foutbericht voor minimale tekens** kunt u een aangepast foutbericht toevoegen als u tekens invoert die kleiner zijn dan de waarde die in het dialoogvenster is opgegeven **Minimum aantal tekens** optie.
+* **Foutbericht voor minimale tekens** - de **Foutbericht voor minimale tekens** kunt u een aangepast foutbericht toevoegen als u tekens invoert die kleiner zijn dan de waarde die in het dialoogvenster is opgegeven **Minimum aantal tekens** -optie.
 <br>
 
     Met de optie **Validatiepatroon** kunt u een patroon invoeren waarmee de ingevoerde e-mailid wordt gevalideerd. Als de e-mailid niet kan valideren met de waarde die is ingevoerd in de optie **Pattern**, verschijnt het foutbericht op het scherm.
@@ -99,7 +99,7 @@ Met het dialoogvenster Configureren kunt u uw e-mailinvoerervaring eenvoudig aan
 
 ![Help-inhoud, tabblad](/help/adaptive-forms/assets/email_helptab.png)
 
-* **Korte beschrijving** - Een korte beschrijving is een korte tekstuitleg met aanvullende informatie of verduidelijking over het doel van een specifiek formulierveld. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. De optie **Altijd korte beschrijving tonen** gebruiken om de component onder de component weer te geven.
+* **Korte beschrijving** - Een korte beschrijving is een korte tekstuitleg met aanvullende informatie of verduidelijking over het doel van een specifiek formulierveld. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. De optie **Altijd korte beschrijving tonen** gebruiken om de achtergrondafbeelding onder de component weer te geven.
 
 * **Altijd korte beschrijving tonen** - Schakel de optie in om de korte beschrijving onder de component weer te geven.
 
@@ -123,7 +123,7 @@ Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en t
 
 * **Standaard CSS-klassen**: U kunt een standaard CSS-klasse opgeven voor de Adaptive Forms Email input Core Component.
 
-* **Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight&quot; opgeven: vet&quot;. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
+* **Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight: bold&quot; opgeven. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
 
 ### Tabblad Opmaak {#format-tab}
 
@@ -136,3 +136,27 @@ Op het tabblad Indelingen kunt u standaard- en aangepaste datumnotaties opgeven.
 * [Een adaptief formulier maken in AEM Sites Page of Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
 
 * [Een zelfstandig adaptief formulier maken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+## Zie ook {#see-also}
+
+* [Accordeon](/help/adaptive-forms/components/accordion.md)
+* [Knop](/help/adaptive-forms/components/button.md)
+* [Selectievakjesgroep](/help/adaptive-forms/components/checkbox-group.md)
+* [Datumkiezer](/help/adaptive-forms/components/date-picker.md)
+* [Vervolgkeuzelijst](/help/adaptive-forms/components/drop-down.md)
+* [Formuliercontainer](/help/adaptive-forms/components/form-container.md)
+* [Bestandsbijlage](/help/adaptive-forms/components/file-attachment.md)
+* [Voettekst](/help/adaptive-forms/components/footer.md)
+* [Koptekst](/help/adaptive-forms/components/header.md)
+* [Horizontale tabs](/help/adaptive-forms/components/horizontal-tabs.md)
+* [Afbeelding](/help/adaptive-forms/components/image.md)
+* [Nummerinvoer](/help/adaptive-forms/components/number-input.md)
+* [Deelvenstercontainer](/help/adaptive-forms/components/panel-container.md)
+* [Keuzerondje](/help/adaptive-forms/components/radio-button.md)
+* [Knop Opnieuw instellen](/help/adaptive-forms/components/reset-button.md)
+* [Verzendknop](/help/adaptive-forms/components/submit-button.md)
+* [Telefooninvoer](/help/adaptive-forms/components/telephone-input.md)
+* [Tekstinvoer](/help/adaptive-forms/components/text-input.md)
+* [Tekst](/help/adaptive-forms/components/text.md)
+* [Titel](/help/adaptive-forms/components/title.md)
+* [Wizard](/help/adaptive-forms/components/wizard.md)

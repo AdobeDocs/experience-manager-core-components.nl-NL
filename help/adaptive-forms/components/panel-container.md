@@ -2,9 +2,9 @@
 title: Adaptive Forms Core Component - Panel container
 description: Het gebruiken van of het aanpassen van de Adaptive Forms Panel containerComponent van de Kern.
 role: Architect, Developer, Admin, User
-source-git-commit: 9a80b453d6a6cf7b347128654d3b5e673a063505
+source-git-commit: b6e3a443c7425a60fc6c3469dc273960a4e29088
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -133,3 +133,28 @@ Voer de stappen uit in het dialoogvenster [Formulieren maken met herhaalbare sec
 - [Een adaptief formulier maken in AEM Sites Page of Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
 
 - [Een zelfstandig adaptief formulier maken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+
+## Zie ook {#see-also}
+
+- [Accordeon](/help/adaptive-forms/components/accordion.md)
+- [Knop](/help/adaptive-forms/components/button.md)
+- [Selectievakjesgroep](/help/adaptive-forms/components/checkbox-group.md)
+- [Datumkiezer](/help/adaptive-forms/components/date-picker.md)
+- [Vervolgkeuzelijst](/help/adaptive-forms/components/drop-down.md)
+- [E-mailinvoer](/help/adaptive-forms/components/email-input.md)
+- [Formuliercontainer](/help/adaptive-forms/components/form-container.md)
+- [Bestandsbijlage](/help/adaptive-forms/components/file-attachment.md)
+- [Voettekst](/help/adaptive-forms/components/footer.md)
+- [Koptekst](/help/adaptive-forms/components/header.md)
+- [Horizontale tabs](/help/adaptive-forms/components/horizontal-tabs.md)
+- [Afbeelding](/help/adaptive-forms/components/image.md)
+- [Nummerinvoer](/help/adaptive-forms/components/number-input.md)
+- [Keuzerondje](/help/adaptive-forms/components/radio-button.md)
+- [Knop Opnieuw instellen](/help/adaptive-forms/components/reset-button.md)
+- [Verzendknop](/help/adaptive-forms/components/submit-button.md)
+- [Telefooninvoer](/help/adaptive-forms/components/telephone-input.md)
+- [Tekstinvoer](/help/adaptive-forms/components/text-input.md)
+- [Tekst](/help/adaptive-forms/components/text.md)
+- [Titel](/help/adaptive-forms/components/title.md)
+- [Wizard](/help/adaptive-forms/components/wizard.md)
