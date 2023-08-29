@@ -3,12 +3,13 @@ title: Paden naar succes met de kerncomponenten
 description: Hoe kan ik slagen wanneer u uw project implementeert met de Core Components
 role: Architect, Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
-source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+source-git-commit: b1d38310a3f05e2dd2a68de1574a278bac2c78e7
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
+
 
 # Paden naar succes met de kerncomponenten {#paths-to-success}
 
@@ -36,13 +37,13 @@ In plaats van alleen de kerncomponenten in de implementatiefase van uw project t
 
 ### De componentbibliotheek gebruiken {#component-library}
 
-Verwijs naar de [Componentbibliotheek](https://adobe.com/go/aem_cmp_library) reeds in de ontwerpfase. De Core Components zijn krachtig en flexibel en kunnen u tot een uitgangspunt leiden. Voeg alleen aangepaste componenten toe wanneer er een echte zakelijke behoefte is die redelijkerwijs niet met een kerncomponent kan worden bereikt.
+Verwijs naar de [Componentbibliotheek](https://adobe.com/go/aem_cmp_library) reeds in de ontwerpfase. De Core Components zijn krachtig en flexibel en kunnen u tot een beginpunt leiden. Voeg alleen aangepaste componenten toe wanneer er een echte zakelijke behoefte is die redelijkerwijs niet met een kerncomponent kan worden bereikt.
 
 ### De UI-kit voor Adobe XD gebruiken {#ui-kit}
 
-Zodra er een aantoonbare behoefte aan een aangepaste component is, kunt u de opdracht [UI-kit voor Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)  zodat de ontwerpers de draadframes en de ontwerpen kunnen beginnen te bouwen met de Componenten van de Kern als bouwstenen.
+Zodra er een aantoonbare behoefte aan een aangepaste component is, gebruikt u de UI-kit voor Adobe XD [die hier kunnen worden gedownload,](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) zodat de ontwerpers de draadframes en de ontwerpen kunnen beginnen te bouwen met de Componenten van de Kern als bouwstenen.
 
-## Laat krachtige functies niet over het hoofd zien {#powerful-features}
+## Laat krachtige functies onverlet {#powerful-features}
 
 De eigenschappen van AEM en de Componenten van de Kern kunnen zeer krachtig, maar ook zeer subtiel zijn en de mogelijkheden voor bepaalde functionaliteit zouden niet onmiddellijk duidelijk aan een ontwerper kunnen zijn.
 
