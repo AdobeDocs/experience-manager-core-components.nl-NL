@@ -3,9 +3,9 @@ title: Teaser-component
 description: De teaser-component kan een afbeelding, een titel, RTF-tekst en eventueel een koppeling naar andere inhoud weergeven.
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: cfc86203051739cbcdc30be0fb10ccffa7d583a5
+source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ De component van de Teaser Component van de Kern kan een beeld, een titel, rijke
 
 ## Gebruik {#usage}
 
-Met de component Taser kan de auteur van de inhoud eenvoudig een gummetje maken om inhoud te verfraaien met een afbeelding, titel of tekst met opmaak en een koppeling naar andere inhoud of andere handelingen tot stand te brengen.
+Met de component Taser kan de auteur van de inhoud eenvoudig een gummetje maken om inhoud te verfraaien met een afbeelding, titel of tekst met opmaak en een koppeling maken naar andere inhoud of andere handelingen.
 
 De sjabloonauteur kan de opdracht [ontwerpdialoogvenster](#design-dialog) om te bepalen als de opties om vraag-aan-acties tot stand te brengen en verbindingen toe te voegen beschikbaar zijn evenals het onbruikbaar maken van diverse vertoningsopties. De auteur van de inhoud kan de [dialoogvenster configureren](#configure-dialog) om een afbeelding in te stellen, CTA&#39;s te definiëren, titels en beschrijvingen in te stellen en koppelingen naar het afzonderlijke Taser te configureren. De [dialoogvenster bewerken](image.md#edit-dialog) van de [Afbeeldingscomponent](image.md) kan worden geopend om de teasafbeelding te wijzigen.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De huidige versie van de Teaser Component is v2, die in februari 2022 werd geïntroduceerd met versie 2.18.0 van de Core Components, en in dit document wordt beschreven.
+De huidige versie van de Taser Component is v2, die in februari 2022 werd geïntroduceerd met versie 2.18.0 van de Core Components, en in dit document wordt beschreven.
 
 In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
 
@@ -30,6 +30,12 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 |---|---|---|---|
 | v2 | - | Compatibel | Compatibel |
 | [v1](v1/teaser.md) | Compatibel | Compatibel | Compatibel |
+
+## Next Generation Dynamic Media Support {#next-gen-dm}
+
+De component Teaser (vanaf [release 2.23.2](/help/versions.md)) biedt ondersteuning voor externe middelen van de volgende generatie, Dynamic Media.
+
+[Eenmaal geconfigureerd,](/help/developing/next-gen-dm.md) u kunt middelen van de verre dienst van de Volgende Generatie Dynamic Media voor uw teaser component selecteren.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
@@ -47,7 +53,7 @@ De auteur van de inhoud kan het dialoogvenster Configure gebruiken om de eigensc
 
 ### Tabblad Koppelingen {#links-tab}
 
-![Het tabblad Bewerkdialoogvensters van de Teaser Component](/help/assets/teaser-edit-links.png)
+![Het tabblad Koppelingen in het dialoogvenster Bewerken van de component Teaser](/help/assets/teaser-edit-links.png)
 
 De teastitel, beschrijving en afbeelding kunnen worden overgenomen van de gekoppelde pagina of van de pagina die is gekoppeld in de eerste aanroep naar de handeling. Als er geen koppeling of actielijn is opgegeven, worden de titel, beschrijving en afbeelding overgenomen van de huidige pagina.
 
@@ -61,7 +67,7 @@ De teastitel, beschrijving en afbeelding kunnen worden overgenomen van de gekopp
 ![Het teksttabblad van het dialoogvenster Bewerken van de component Teaser](/help/assets/teaser-edit-text.png)
 
 * **Pretitle** - De voortitel wordt vóór de titel van de taser weergegeven.
-* **Titel** - Definieert een titel die moet worden weergegeven als de kop voor het gummetje.
+* **Titel** - Definieert een titel die moet worden weergegeven als de kop voor het taser.
    * **Titel ophalen van gekoppelde pagina** - Als deze optie is ingeschakeld, wordt de titel van de gekoppelde pagina ingevuld.
 * **Beschrijving** - Definieert een beschrijving die moet worden weergegeven als subcode van het gummetje.
    * **Beschrijving ophalen van gekoppelde pagina** - Als deze optie is ingeschakeld, wordt de beschrijving gevuld met de beschrijving van de gekoppelde pagina.
@@ -77,10 +83,14 @@ De teastitel, beschrijving en afbeelding kunnen worden overgenomen van de gekopp
 * **Weergegeven afbeelding overnemen van pagina** - Gebruik de afbeelding die is gedefinieerd in de pagina-eigenschappen van de gekoppelde pagina of de huidige pagina als er geen is gevonden.
 * **Afbeeldingselement** - Middelen neerzetten vanaf de [middelenbrowser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of tik op **doorbladeren** uploaden vanuit een lokaal bestandssysteem.
    * Tik of klik op **Wissen** om de selectie van de geselecteerde afbeelding op te heffen.
+   * Tik of klik op **Selecteren** om de [middelenbrowser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) om een afbeelding te selecteren.
+      * Indien [Dynamic Media-functies van de volgende generatie](#next-gen-dm) zijn ingeschakeld, hebt u meerdere opties voor het kiezen van een element:
+         * **Lokaal** selecteert uit de lokale AEM elementenbibliotheek.
+         * **Extern** selecteert uit een Dynamic Media-bibliotheek buiten uw AEM-instantie.
    * Tik of klik op **Bewerken** tot [de uitvoeringen van het actief beheren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in de middeleneditor.
 * **Alternatieve tekst voor toegankelijkheid** - In dit veld kunt u een beschrijving van de afbeelding definiëren voor visueel gehandicapte gebruikers.
    * **Alternatieve tekst van pagina overnemen** - Bij deze optie wordt de alternatieve beschrijving van de waarde van het gekoppelde element van de optie `dc:description` metagegevens in DAM of van de huidige pagina als er geen element is gekoppeld.
-* **Geen alternatieve tekst bieden** - Deze optie markeert dat de afbeelding wordt genegeerd door ondersteunende hulpmiddelen, zoals schermlezers, wanneer de afbeelding zuiver decoratief is of anderszins geen aanvullende informatie naar de pagina overbrengt.
+* **Geen alternatieve tekst bieden** - Met deze optie wordt de afbeelding gemarkeerd om te worden genegeerd door ondersteunende hulpmiddelen, zoals schermlezers, wanneer de afbeelding zuiver decoratief is of anderszins geen aanvullende informatie naar de pagina overbrengt.
 
 ### Tabblad Stijlen {#styles-tab-edit}
 
@@ -111,13 +121,13 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de teasopties definiëren die
    * **Titel verbergen** - Verbergt de **Titel** optie voor auteurs van inhoud
       * Als u **Type titel** is verborgen
    * **Beschrijving verbergen** - Verberg de **Beschrijving** optie voor auteurs van inhoud
-* **Standaardtiteltype** - Definieert de tag H die moet worden gebruikt door de titel van het gummetje.
+* **Standaardtiteltype** - Definieert de tag H die moet worden gebruikt door de titel van de teaser.
 * **Afbeelding delegeren** - Informatieweergave die aangeeft aan welke component de Taser de beeldverwerking delegeert.
 
 ### Tabblad Stijlen {#styles-tab}
 
 De component Taser ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
 
-## Gegevenslaag Adobe-client {#data-layer}
+## Gegevenslaag client-Adobe {#data-layer}
 
-De component Teaser ondersteunt de [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
+De component Teaser ondersteunt de [Gegevenslaag client Adobe.](/help/developing/data-layer/overview.md)

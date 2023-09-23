@@ -3,14 +3,15 @@ title: Afbeeldingscomponent
 description: De component Core Component Image is een adaptieve afbeeldingscomponent.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 1cb06273ecb2c5b5f90c02b74b7ac0e440d87ecc
+source-git-commit: c879cf92cae028230f092c7376a1e9271f568388
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '2084'
 ht-degree: 0%
 
 ---
 
-# Afbeeldingscomponent{#image-component}
+
+# Afbeeldingscomponent {#image-component}
 
 De component Core Component Image is een adaptieve afbeeldingscomponent.
 
@@ -18,7 +19,9 @@ De component Core Component Image is een adaptieve afbeeldingscomponent.
 
 De component Afbeelding biedt een adaptieve selectie van afbeeldingen en een responsief gedrag bij het laden van de pagina voor de bezoeker van de pagina en bij het eenvoudig plaatsen van de afbeelding voor de auteur van de inhoud.
 
-De breedte van de afbeelding en aanvullende instellingen kunnen door de sjabloonauteur worden gedefinieerd in het dialoogvenster [ontwerpdialoogvenster](#design-dialog). De inhoudeditor kan elementen uploaden of selecteren in het dialoogvenster [configureren, dialoogvenster.](#configure-dialog)
+De auteur van de inhoud kan de [dialoogvenster bewerken](#edit-dialog) om het afbeeldingselement te bewerken, zoals een uitsnijding toepassen of de afbeelding roteren.
+
+De breedte van de afbeelding en aanvullende instellingen kunnen door de sjabloonauteur worden gedefinieerd in het dialoogvenster [ontwerpdialoogvenster](#design-dialog). De inhoudeditor kan elementen uploaden of selecteren in het dialoogvenster [configureren.](#configure-dialog)
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -32,11 +35,11 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 | [v2](v2/image.md) | Compatibel | Compatibel | Compatibel |
 | [v1](v1/image-v1.md) | Compatibel | Compatibel | Compatibel |
 
-Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
+Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Versies van kerncomponenten](/help/versions.md).
 
 ## Responsieve functies {#responsive-features}
 
-De component Image wordt geleverd met robuuste responsieve functies die direct uit de verpakking zijn te vinden. Op het niveau van het paginasjabloon [ontwerpdialoogvenster](#design-dialog) kan worden gebruikt om de standaardbreedten van het afbeeldingselement te definiëren. De component van het Beeld zal dan automatisch de correcte breedte aan vertoning afhankelijk van de grootte van het browser venster laden. Wanneer het formaat van het venster wordt gewijzigd, laadt de component Image dynamisch de juiste afbeeldingsgrootte. Componentontwikkelaars hoeven zich geen zorgen te maken over het definiëren van aangepaste mediaquery&#39;s, aangezien de component Image al is geoptimaliseerd om uw inhoud te laden.
+De component Image wordt geleverd met robuuste responsieve functies die direct uit de verpakking kunnen worden geleverd. Op het niveau van het paginasjabloon [ontwerpdialoogvenster](#design-dialog) kan worden gebruikt om de standaardbreedten van het afbeeldingselement te definiëren. De component van het Beeld zal dan automatisch de correcte breedte aan vertoning afhankelijk van de grootte van het browser venster laden. Wanneer het formaat van het venster wordt gewijzigd, laadt de component Image dynamisch de juiste afbeeldingsgrootte. Componentontwikkelaars hoeven zich geen zorgen te maken over het definiëren van aangepaste mediaquery&#39;s, aangezien de component Image al is geoptimaliseerd om uw inhoud te laden.
 
 Bovendien ondersteunt de component Afbeelding lui laden om het laden van het eigenlijke afbeeldingselement uit te stellen totdat het element zichtbaar is in de browser, waardoor de reacties op uw pagina&#39;s sneller worden.
 
@@ -49,6 +52,12 @@ Bovendien ondersteunt de component Afbeelding lui laden om het laden van het eig
 De afbeeldingscomponent (vanaf [release 2.13.0](/help/versions.md)) ondersteunt [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html#dynamicmedia) activa. [Indien ingeschakeld,](#design-dialog) Met deze functies kunt u Dynamic Media-afbeeldingselementen toevoegen met een eenvoudige sleepfunctie of via de middelenbrowser, net als met andere afbeeldingen. Daarnaast worden ook afbeeldingsaanpassingen, voorinstellingen voor afbeeldingen en slimme gewassen ondersteund.
 
 Uw webervaringen die zijn gemaakt met Core Components kunnen beschikken over uitgebreide, op Sensei gebaseerde, robuuste, krachtige Dynamic Media Image-mogelijkheden voor meerdere platforms.
+
+## Next Generation Dynamic Media Support {#next-gen-dm}
+
+De afbeeldingscomponent (vanaf [release 2.23.2](/help/versions.md)) biedt ondersteuning voor externe middelen van de volgende generatie, Dynamic Media.
+
+[Eenmaal geconfigureerd,](/help/developing/next-gen-dm.md) u kunt elementen selecteren uit een externe service van de Next Generation Dynamic Media voor uw afbeeldingscomponent.
 
 ## SVG-ondersteuning {#svg-support}
 
@@ -72,7 +81,77 @@ De meest recente technische documentatie over de Image Component [kan op GitHub 
 
 Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
 
-De component Image ondersteunt [schema.org-microgegevens](https://schema.org).
+De component Image ondersteunt [schema.org](https://schema.org).
+
+## Dialoogvenster Bewerken {#edit-dialog}
+
+In het dialoogvenster Bewerken kan de auteur van de inhoud de afbeelding uitsnijden en zoomen.
+
+Afhankelijk van of u de [Dynamic Media](#dynamic-media) ingeschakeld of [Next Generation Dynamic Media](#next-gen-dm) zijn ingeschakeld, zijn er verschillende opties beschikbaar voor het bewerken van afbeeldingen.
+
+### Standaard bewerken van bedrijfsmiddelen {#standard-assets}
+
+Als u standaard AEM elementen bewerkt, kunt u op de knop **Bewerken** in het contextmenu van de afbeeldingscomponent.
+
+![Bewerkingsdialoogvenster van afbeeldingscomponent](/help/assets/image-edit.png)
+
+* Uitsnijden starten
+
+  ![Uitsnijdpictogram starten](/help/assets/image-start-crop.png)
+
+  Als u deze optie selecteert, wordt een vervolgkeuzelijst geopend voor vooraf gedefinieerde verhoudingen voor uitsnijden.
+
+   * Kies de optie **Uitsnijden verwijderen** om het oorspronkelijke element weer te geven.
+
+  Als een uitsnijdoptie is geselecteerd, gebruikt u de blauwe handgrepen om het uitsnijden op de afbeelding te vergroten of te verkleinen.
+
+  ![Opties voor uitsnijden](/help/assets/image-crop-options.png)
+
+* Rechtsom roteren
+
+  ![Pictogram rechtsom roteren](/help/assets/image-rotate-right.png)
+
+  Gebruik deze optie als u de afbeelding 90° rechtsom wilt roteren.
+
+* Zoomen herstellen
+
+  ![Zoompictogram opnieuw instellen](/help/assets/image-reset-zoom.png)
+
+  Als al op de afbeelding is ingezoomd, gebruikt u deze optie om het zoomniveau opnieuw in te stellen.
+
+* Zoomregelaar openen
+
+  ![Pictogram van zoomregelaar openen](/help/assets/image-zoom.png)
+
+  Met deze optie geeft u een schuifregelaar weer om het zoomniveau van de afbeelding te bepalen.
+
+  ![Besturing van zoomregelaar](/help/assets/image-zoom-slider.png)
+
+U kunt de interne editor ook gebruiken om de afbeelding te wijzigen. Vanwege ruimtebeperkingen zijn alleen de basisopties online beschikbaar. Voor volledige bewerkingsopties gebruikt u de modus Volledig scherm.
+
+![Opties voor Op plaats bewerken van afbeeldingen](/help/assets/image-in-place-edit.png)
+
+>[!NOTE]
+>
+>Beeldbewerkingsbewerkingen worden niet ondersteund voor GIF-afbeeldingen. Dergelijke wijzigingen die in de bewerkingsmodus zijn aangebracht op GIFFEN, blijven niet behouden.
+
+### Dynamic Media Asset Editing {#dynamic-media-assets}
+
+Als u [Dynamic Media-functies ingeschakeld,](#dynamic-media) het bewerken van de afbeelding zelf moet worden uitgevoerd in de middelenconsole.
+
+### Dynamic Media Asset Editing van de volgende generatie {#next-gen-dm-assets}
+
+Als u [Next Generation Dynamic Media configured,](#next-gen-dm) de **Slim uitsnijden** Deze optie is beschikbaar in de contextmenu&#39;s van de component.
+
+![Slim uitsnijden](/help/assets/image-smart-crop.png)
+
+In het dialoogvenster kunt u de slimme uitsnijding aanpassen.
+
+![Het dialoogvenster Slim uitsnijden](/help/assets/image-smart-crop-dialog.png)
+
+>[!TIP]
+>
+>Ga voor meer informatie over slim uitsnijden naar [deze video over de functie.](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html)
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -82,18 +161,23 @@ De component image biedt een dialoogvenster voor configureren waarin de afbeeldi
 
 ![Tabblad Element van het dialoogvenster Configureren van Image Component](/help/assets/image-configure-asset.png)
 
-* **Weergegeven afbeelding overnemen van pagina** - Deze optie gebruikt de optie [weergegeven afbeelding van de gekoppelde pagina](page.md) of de weergegeven afbeelding van de huidige pagina als de afbeelding niet is gekoppeld.
+* **Weergegeven afbeelding overnemen van pagina** - Voor deze optie wordt de optie [weergegeven afbeelding van de gekoppelde pagina](page.md) of de weergegeven afbeelding van de huidige pagina als de afbeelding niet is gekoppeld.
+
+* **Afbeeldingselement** - Deze wordt automatisch gevuld als **Weergegeven afbeelding overnemen van pagina** is geselecteerd. Schakel deze optie uit als u de afbeelding handmatig wilt definiëren door de volgende opties in te stellen.
+
+   * Middelen uit het deelvenster [middelenbrowser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of tik op **doorbladeren** uploaden vanuit een lokaal bestandssysteem.
+   * Tik of klik op **Wissen** om de selectie van de geselecteerde afbeelding op te heffen.
+   * Tik of klik op **Selecteren** om de [middelenbrowser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) om een afbeelding te selecteren.
+      * Indien [Dynamic Media-functies van de volgende generatie](#next-gen-dm) zijn ingeschakeld, hebt u meerdere opties voor het kiezen van een element:
+         * **Lokaal** selecteert uit de lokale AEM elementenbibliotheek.
+         * **Extern** selecteert uit een Dynamic Media-bibliotheek buiten uw AEM-instantie.
+   * Tik of klik op **Bewerken** tot [de uitvoeringen van het actief beheren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in de middeleneditor.
 
 * **Alternatieve tekst voor toegankelijkheid** - In dit veld kunt u een beschrijving van de afbeelding definiëren voor visueel gehandicapte gebruikers.
 
    * **Alternatieve tekst van pagina overnemen** - Bij deze optie wordt de alternatieve beschrijving van de waarde van het gekoppelde element van de optie `dc:description` metagegevens in DAM of van de huidige pagina als er geen element is gekoppeld.
 
-* **Afbeeldingselement**
-   * Middelen uit het deelvenster [middelenbrowser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of tik op **doorbladeren** uploaden vanuit een lokaal bestandssysteem.
-   * Tik of klik op **Wissen** om de selectie van de geselecteerde afbeelding op te heffen.
-   * Tik of klik op **Bewerken** tot [de uitvoeringen van het actief beheren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in de middeleneditor.
-
-* **Geen alternatieve tekst bieden** - Deze optie markeert dat de afbeelding wordt genegeerd door ondersteunende hulpmiddelen, zoals schermlezers, wanneer de afbeelding zuiver decoratief is of anderszins geen aanvullende informatie naar de pagina overbrengt.
+* **Geen alternatieve tekst bieden** - Met deze optie wordt de afbeelding gemarkeerd om te worden genegeerd door ondersteunende hulpmiddelen, zoals schermlezers, wanneer de afbeelding zuiver decoratief is of anderszins geen aanvullende informatie naar de pagina overbrengt.
 
 ### Tabblad Metagegevens {#metadata-tab}
 
@@ -101,8 +185,8 @@ De component image biedt een dialoogvenster voor configureren waarin de afbeeldi
 
 * **Type voorinstelling** - Hiermee worden de typen voorinstellingen voor afbeeldingen gedefinieerd die beschikbaar zijn. **Voorinstelling afbeelding** of **Slim uitsnijden** en is alleen beschikbaar wanneer [Dynamic Media-functies](#dynamic-meida) zijn ingeschakeld.
    * **Voorinstelling afbeelding** - Wanneer **Type voorinstelling** van **Voorinstelling afbeelding** is geselecteerd, de vervolgkeuzelijst **Voorinstelling afbeelding** is beschikbaar, zodat u kunt kiezen uit de beschikbare Dynamic Media-voorinstellingen. Dit is alleen beschikbaar als er voorinstellingen zijn gedefinieerd voor het geselecteerde element.
-   * **Slim uitsnijden** - Wanneer **Type voorinstelling** van **Slim uitsnijden** is geselecteerd in de vervolgkeuzelijst **Vertoning** is beschikbaar, zodat u kunt kiezen uit de beschikbare uitvoeringen van het geselecteerde element. Dit is alleen beschikbaar als uitvoeringen zijn gedefinieerd voor het geselecteerde element.
-   * **Afbeeldingsaanpassingen** - U kunt hier aanvullende opdrachten voor Dynamic Media-beeldserving definiëren door `&`, ongeacht welke **Type voorinstelling** is geselecteerd.
+   * **Slim uitsnijden** - Wanneer **Type voorinstelling** van **Slim uitsnijden** is geselecteerd, de vervolgkeuzelijst **Vertoning** is beschikbaar, zodat u kunt kiezen uit de beschikbare uitvoeringen van het geselecteerde element. Dit is alleen beschikbaar als uitvoeringen zijn gedefinieerd voor het geselecteerde element.
+   * **Afbeeldingsmodificatoren** - U kunt hier aanvullende opdrachten voor Dynamic Media-beeldserving definiëren door `&`, ongeacht welke **Type voorinstelling** is geselecteerd.
 * **Bijschrift** - Aanvullende informatie over de afbeelding, die standaard onder de afbeelding wordt weergegeven.
    * **Bijschrift ophalen van DAM** - Als deze optie is ingeschakeld, wordt de bijschrifttekst van de afbeelding gevuld met de waarde van de optie `dc:title` metagegevens in DAM.
    * **Bijschrift weergeven als pop-up** - Als deze optie is ingeschakeld, wordt het bijschrift niet weergegeven onder de afbeelding, maar als een pop-up die door sommige browsers wordt weergegeven wanneer de muisaanwijzer op de afbeelding wordt geplaatst.
@@ -117,7 +201,7 @@ De component image biedt een dialoogvenster voor configureren waarin de afbeeldi
 
 >[!TIP]
 >
->**Slim uitsnijden** en **Voorinstelling afbeelding** zijn opties die elkaar uitsluiten. Als een auteur een voorinstelling voor een afbeelding moet gebruiken in combinatie met een uitvoering voor slim uitsnijden, moet de auteur de opdracht **Afbeeldingsaanpassingen** om handmatig voorinstellingen toe te voegen.
+>**Slim uitsnijden** en **Voorinstelling afbeelding** zijn opties die elkaar uitsluiten. Als een auteur een voorinstelling voor een afbeelding moet gebruiken in combinatie met een uitvoering voor slim uitsnijden, moet de auteur de opdracht **Afbeeldingsmodificatoren** om handmatig voorinstellingen toe te voegen.
 
 ### Tabblad Stijlen {#styles-tab-edit}
 
@@ -144,7 +228,7 @@ De stijlen moeten voor deze component in worden gevormd [ontwerpdialoogvenster](
 * **Afbeelding is decoratief** - Definieer of de optie Decoratieve afbeelding automatisch wordt ingeschakeld wanneer u de afbeeldingscomponent aan een pagina toevoegt.
 * **Alternatieve tekst ophalen van DAM**- Definieer of de optie voor het ophalen van de alternatieve tekst van de DAM automatisch is ingeschakeld wanneer u de afbeeldingscomponent aan een pagina toevoegt.
 * **Bijschrift ophalen van DAM** - Bepaal als de optie om de titel van DAM terug te winnen automatisch wordt toegelaten wanneer het toevoegen van de beeldcomponent aan een pagina.
-* **Bijschrift weergeven als pop-up** - Definieer of de optie voor het weergeven van het bijschrift als pop-up automatisch is ingeschakeld wanneer u de afbeeldingscomponent aan een pagina toevoegt.
+* **Bijschrift weergeven als pop-up** - Definieer of de optie om het bijschrift van de afbeelding als pop-up weer te geven automatisch is ingeschakeld wanneer u de afbeeldingscomponent aan een pagina toevoegt.
 * **Breedte wijzigen** - Deze waarde wordt gebruikt voor het vergroten of verkleinen van de breedte van de basisafbeeldingen die DAM-elementen zijn.
    * De hoogte-breedteverhouding van de afbeeldingen blijft behouden.
    * Als de waarde groter is dan de werkelijke breedte van de afbeelding, heeft deze waarde geen effect.
@@ -168,6 +252,6 @@ U kunt een lijst van breedten in pixel voor het beeld bepalen en de component za
 
 De component Image ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
 
-## Gegevenslaag Adobe-client {#data-layer}
+## Gegevenslaag client-Adobe {#data-layer}
 
-De component Image ondersteunt de [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
+De component Image ondersteunt de [Gegevenslaag client Adobe.](/help/developing/data-layer/overview.md)
