@@ -2,7 +2,7 @@
 title: Next Generation Dynamic Media Support
 description: Leer hoe u de Core Component Image en Teaser Components configureert voor de ondersteuning van externe Dynamic Media-middelen van de volgende generatie.
 role: Architect, Developer, Admin, User
-source-git-commit: 57307b75bd33fd538a1eb704cc37822847c896de
+source-git-commit: 9b8930c2e268f52a1377906725db9a05a089e233
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Nadat de Core Components en de WKND-site zijn geïnstalleerd, kunt u de functie 
 
 1. Zodra voor authentiek verklaard, zal middelenbrowser van de verre dienst openen. Selecteer het gewenste element en tik of klik op **Selecteren**.
 
-   ![Externe middelen selecteren](/help/assets/remote-asset-selection.png)
+   ![Externe middelen selecteren](/help/assets/remote-asset-picker.png)
 
 Het externe element wordt toegevoegd aan uw lokale AEM en u hebt gecontroleerd dat de functie correct is geconfigureerd.
 
