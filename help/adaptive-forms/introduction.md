@@ -3,7 +3,7 @@ title: Inleiding Adaptive Forms Core Components AEM
 description: Maak aantrekkelijke inschrijvingservaringen (formulieren) met de flexibiliteit van de Adaptive Forms Core Components en lever deze met de kracht van Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
+source-git-commit: 13e802c510e165d3ef3da431e1e8b0fe7b35d801
 workflow-type: tm+mt
 source-wordcount: '1262'
 ht-degree: 0%
@@ -51,11 +51,11 @@ Bovendien, aangezien deze componenten open-bron zijn, hebben de ontwikkelaars de
 
 ## Voordelen {#benefits}
 
-Ervaringen met het vastleggen van gegevens zijn van cruciaal belang voor het genereren en inschrijven van leads en de Adaptive Forms Core Components bieden een krachtige oplossing voor het maken van formulieren die zijn geoptimaliseerd voor het vastleggen van gegevens. Enkele redenen om de Componenten van de Kern te gebruiken om deze ervaringen over stichtingscomponenten tot stand te brengen zijn:
+Ervaringen met het vastleggen van gegevens zijn van cruciaal belang voor het genereren en inschrijven van leads en de Adaptive Forms Core Components bieden een krachtige oplossing voor het maken van formulieren die zijn geoptimaliseerd voor het vastleggen van gegevens. Enkele redenen om de Componenten van de Kern te gebruiken om deze ervaringen over stichtingscomponenten te creëren zijn:
 
-* **Beschikbaarheid op GitHub en uitvoerige documentatie**: De AEM Adaptieve Componenten van de Kern van Forms zijn open-bron en beschikbaar op GitHub, samen met uitvoerige documentatie. Dit maakt het voor ontwikkelaars gemakkelijker om de componenten te begrijpen en hoe zij werken, en aan hun ontwikkeling bij te dragen. De [aemcomponents.dev](https://www.aemcomponents.dev/) de website is ook een waardevolle bron , waar ontwikkelaars de componenten in actie kunnen zien en toegang hebben tot gedetailleerde documentatie .
+* **Beschikbaarheid op GitHub en uitvoerige documentatie**: De AEM Adaptive Forms Core Components zijn open-source en beschikbaar op GitHub, samen met uitvoerige documentatie. Dit maakt het voor ontwikkelaars gemakkelijker om de componenten te begrijpen en hoe zij werken, en aan hun ontwikkeling bij te dragen. De [aemcomponents.dev](https://www.aemcomponents.dev/) de website is ook een waardevolle bron , waar ontwikkelaars de componenten in actie kunnen zien en toegang hebben tot gedetailleerde documentatie .
 
-* **BEM-model voor opmaken**: De kerncomponenten volgen het BEM-model (Block Element Modifier) voor opmaak. Dit is een gangbare en veelgebruikte methode voor het ordenen van CSS. Op deze manier kunnen ontwikkelaars gemakkelijker begrijpen hoe de stijlen zijn ingedeeld en hoe ze aan hun specifieke behoeften kunnen worden aangepast.
+* **BEM-model voor opmaken**: De kerncomponenten volgen het BEM-model (Block Element Modifier) voor opmaak, een gangbare en veelgebruikte methode voor het ordenen van CSS. Op deze manier kunnen ontwikkelaars gemakkelijker begrijpen hoe de stijlen zijn ingedeeld en hoe ze aan hun specifieke behoeften kunnen worden aangepast.
 
 * **Geen afhankelijkheid van bibliotheken van derden**: Een van de voordelen van de Core Components is dat deze niet afhankelijk zijn van JavaScript-bibliotheken van derden, waaronder JQuery en Underscore. Hierdoor worden de componenten sneller en lichter, maar ook eenvoudiger te integreren in een bestaande AEM.
 
@@ -65,7 +65,7 @@ Ervaringen met het vastleggen van gegevens zijn van cruciaal belang voor het gen
 
 * **Eenvoudigere stijl**: De componenten van de Kern zijn gemakkelijker om dan hun stichtingscomponenten te stichten. Het proces voor het maken van thema&#39;s lijkt op Sites, waarbij u hetzelfde thema/CSS kunt overnemen van de bovenliggende pagina Sites. Bovendien maakt het BEM-model voor opmaak het eenvoudiger om de stijlen te begrijpen en wijzigen.
 
-* **Toegankelijkheid**: Aangepaste Forms Core-componenten ondersteunen toegankelijkheidsstandaarden en -richtlijnen om ervoor te zorgen dat formulieren kunnen worden gebruikt door mensen met een handicap, inclusief personen die gebruik maken van ondersteunende hulpmiddelen zoals schermlezers
+* **Toegankelijkheid**: Adaptive Forms Core Components ondersteunt toegankelijkheidsstandaarden en -richtlijnen om ervoor te zorgen dat formulieren kunnen worden gebruikt door mensen met een handicap, inclusief personen die gebruik maken van ondersteunende hulpmiddelen zoals schermlezers
 
 ## Adaptieve Forms Core-componenten {#components}
 
@@ -73,7 +73,7 @@ De huidige versie van de Adaptive Forms Core Components is voorzien van de hiero
 
 * [Accordeon](/help/adaptive-forms/components/accordion.md)
 * [Knop](/help/adaptive-forms/components/button.md)
-* [Groep selectievakjes](/help/adaptive-forms/components/checkbox-group.md)
+* [Selectievakjesgroep](/help/adaptive-forms/components/checkbox-group.md)
 * [Datumkiezer](/help/adaptive-forms/components/date-picker.md)
 * [Vervolgkeuzelijst](/help/adaptive-forms/components/drop-down.md)
 * [E-mailinvoer](/help/adaptive-forms/components/email-input.md)
@@ -136,3 +136,5 @@ U kunt de volgende handelingen uitvoeren in zowel AEM Forms as a Cloud Service a
     *   **Inheriting Sites features in Forms**: Forms authored within a Sites page inherit the same features as Sites. This provides a seamless and integrated experience for creating and managing forms within the context of AEM Sites 
     
     <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
+
+{{see-also}}

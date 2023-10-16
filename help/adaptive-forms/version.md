@@ -3,14 +3,14 @@ title: AEM Forms Core Components-versies
 description: De Componenten van de kern worden gepubliceerd als versies die meer dan één versie van de zelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies beschikbaar zijn en hoe u de compatibiliteit met Core Components en AEM begrijpt.
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
+source-git-commit: 13e802c510e165d3ef3da431e1e8b0fe7b35d801
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 5%
 
 ---
 
-# Core Components-versies {#core-components-versions}
+# Versies van kerncomponenten {#core-components-versions}
 
 De huidige versie van Core Components 2.0.10 is compatibel met [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) en Core Components versie 1.1.12 is compatibel met [AEM 6.5 Formulier op locatie en AMS](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installaties.
 
@@ -33,3 +33,4 @@ De volgende tabel bevat een lijst met Core Components-releases die compatibel zi
 |---|---|---|---|---|---|
 | [1.1.12](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12) | Ondersteuning voor kerncomponenten voor AEM Forms op locatie en AMS is in deze release geïntroduceerd. | - | 6.5.16.0+ | 8, 11 | 8 februari 2023 |
 
+{{see-also}}
