@@ -3,9 +3,9 @@ title: AEM Forms Core Components-versies
 description: De Componenten van de kern worden gepubliceerd als versies die meer dan één versie van de zelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies beschikbaar zijn en hoe u de compatibiliteit met Core Components en AEM begrijpt.
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: 13e802c510e165d3ef3da431e1e8b0fe7b35d801
+source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '316'
 ht-degree: 5%
 
 ---
@@ -32,5 +32,7 @@ De volgende tabel bevat een lijst met Core Components-releases die compatibel zi
 | Geen | Beschrijving | AEM 6,4 | AEM 6,5 | Java | Releasedatum |
 |---|---|---|---|---|---|
 | [1.1.12](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12) | Ondersteuning voor kerncomponenten voor AEM Forms op locatie en AMS is in deze release geïntroduceerd. | - | 6.5.16.0+ | 8, 11 | 8 februari 2023 |
+
+## Zie ook {#see-also}
 
 {{see-also}}

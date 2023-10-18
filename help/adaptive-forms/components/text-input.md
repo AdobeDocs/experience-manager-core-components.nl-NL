@@ -3,7 +3,7 @@ title: Adaptive Forms Core Component - Tekstinvoer (tekstvak)
 description: De Adaptive Forms Text input Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
+source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
 workflow-type: tm+mt
 source-wordcount: '1822'
 ht-degree: 0%
@@ -146,26 +146,30 @@ Op het tabblad Indelingen kunt u de standaardindelingen en de aangepaste getalno
 * [Een zelfstandig adaptief formulier maken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 
+>[!MORELIKETHIS]
+>
+>* [Accordeon](/help/adaptive-forms/components/accordion.md)
+>* [Knop](/help/adaptive-forms/components/button.md)
+>* [Selectievakjesgroep](/help/adaptive-forms/components/checkbox-group.md)
+>* [Datumkiezer](/help/adaptive-forms/components/date-picker.md)
+>* [Vervolgkeuzelijst](/help/adaptive-forms/components/drop-down.md)
+>* [E-mailinvoer](/help/adaptive-forms/components/email-input.md)
+>* [Formuliercontainer](/help/adaptive-forms/components/form-container.md)
+>* [Bestandsbijlage](/help/adaptive-forms/components/file-attachment.md)
+>* [Voettekst](/help/adaptive-forms/components/footer.md)
+>* [Koptekst](/help/adaptive-forms/components/header.md)
+>* [Horizontale tabs](/help/adaptive-forms/components/horizontal-tabs.md)
+>* [Afbeelding](/help/adaptive-forms/components/image.md)
+>* [Nummerinvoer](/help/adaptive-forms/components/number-input.md)
+>* [Deelvenstercontainer](/help/adaptive-forms/components/panel-container.md)
+>* [Keuzerondje](/help/adaptive-forms/components/radio-button.md)
+>* [Knop Opnieuw instellen](/help/adaptive-forms/components/reset-button.md)
+>* [Verzendknop](/help/adaptive-forms/components/submit-button.md)
+>* [Telefooninvoer](/help/adaptive-forms/components/telephone-input.md)
+>* [Tekst](/help/adaptive-forms/components/text.md)
+>* [Titel](/help/adaptive-forms/components/title.md)
+>* [Wizard](/help/adaptive-forms/components/wizard.md)
+
 ## Zie ook {#see-also}
 
-* [Accordeon](/help/adaptive-forms/components/accordion.md)
-* [Knop](/help/adaptive-forms/components/button.md)
-* [Selectievakjesgroep](/help/adaptive-forms/components/checkbox-group.md)
-* [Datumkiezer](/help/adaptive-forms/components/date-picker.md)
-* [Vervolgkeuzelijst](/help/adaptive-forms/components/drop-down.md)
-* [E-mailinvoer](/help/adaptive-forms/components/email-input.md)
-* [Formuliercontainer](/help/adaptive-forms/components/form-container.md)
-* [Bestandsbijlage](/help/adaptive-forms/components/file-attachment.md)
-* [Voettekst](/help/adaptive-forms/components/footer.md)
-* [Koptekst](/help/adaptive-forms/components/header.md)
-* [Horizontale tabs](/help/adaptive-forms/components/horizontal-tabs.md)
-* [Afbeelding](/help/adaptive-forms/components/image.md)
-* [Nummerinvoer](/help/adaptive-forms/components/number-input.md)
-* [Deelvenstercontainer](/help/adaptive-forms/components/panel-container.md)
-* [Keuzerondje](/help/adaptive-forms/components/radio-button.md)
-* [Knop Opnieuw instellen](/help/adaptive-forms/components/reset-button.md)
-* [Verzendknop](/help/adaptive-forms/components/submit-button.md)
-* [Telefooninvoer](/help/adaptive-forms/components/telephone-input.md)
-* [Tekst](/help/adaptive-forms/components/text.md)
-* [Titel](/help/adaptive-forms/components/title.md)
-* [Wizard](/help/adaptive-forms/components/wizard.md)
+{{see-also}}
