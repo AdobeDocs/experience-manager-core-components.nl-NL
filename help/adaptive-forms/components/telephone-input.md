@@ -3,9 +3,9 @@ title: Adaptive Forms Core Component - Telefonische invoer
 description: De Adaptive Forms Telephone Input Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1791'
 ht-degree: 0%
 
 ---
@@ -128,12 +128,38 @@ Op het tabblad Indelingen kunt u de standaardindelingen en de aangepaste getalno
 
 ![Tabblad Indeling](/help/adaptive-forms/assets/telephoneinput_format.png)
 
-## Verwante artikelen {#related-article}
+<!--
 
-* [Een adaptief formulier maken in AEM Sites Page of Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+## Related article {#related-article}
 
-* [Een zelfstandig adaptief formulier maken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
+-->
+
+
+>[!MORELIKETHIS]
+>
+>* [Accordeon](/help/adaptive-forms/components/accordion.md)
+>* [Knop](/help/adaptive-forms/components/button.md)
+>* [Selectievakjesgroep](/help/adaptive-forms/components/checkbox-group.md)
+>* [Datumkiezer](/help/adaptive-forms/components/date-picker.md)
+>* [Vervolgkeuzelijst](/help/adaptive-forms/components/drop-down.md)
+>* [E-mailinvoer](/help/adaptive-forms/components/email-input.md)
+>* [Formuliercontainer](/help/adaptive-forms/components/form-container.md)
+>* [Bestandsbijlage](/help/adaptive-forms/components/file-attachment.md)
+>* [Voettekst](/help/adaptive-forms/components/footer.md)
+>* [Koptekst](/help/adaptive-forms/components/header.md)
+>* [Horizontale tabs](/help/adaptive-forms/components/horizontal-tabs.md)
+>* [Afbeelding](/help/adaptive-forms/components/image.md)
+>* [Nummerinvoer](/help/adaptive-forms/components/number-input.md)
+>* [Deelvenstercontainer](/help/adaptive-forms/components/panel-container.md)
+>* [Keuzerondje](/help/adaptive-forms/components/radio-button.md)
+>* [Knop Opnieuw instellen](/help/adaptive-forms/components/reset-button.md)
+>* [Verzendknop](/help/adaptive-forms/components/submit-button.md)
+>* [Tekstinvoer](/help/adaptive-forms/components/text-input.md)
+>* [Tekst](/help/adaptive-forms/components/text.md)
+>* [Titel](/help/adaptive-forms/components/title.md)
+>* [Wizard](/help/adaptive-forms/components/wizard.md)
 
 >[!MORELIKETHIS]
 >

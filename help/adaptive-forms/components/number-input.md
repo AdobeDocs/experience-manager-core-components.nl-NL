@@ -3,9 +3,9 @@ title: Adaptive Forms Core Component - Nummerinvoer
 description: De Adaptive Forms Number input Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1834'
 ht-degree: 0%
 
 ---
@@ -143,11 +143,13 @@ Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en t
 Op het tabblad Indelingen kunt u de standaardindelingen en de aangepaste getalnotaties opgeven.
 ![Tabblad Ontwerp](/help/adaptive-forms/assets/emailinput_designformattab.png)
 
-## Verwante artikelen {#related-article}
+<!--
 
-* [Een adaptief formulier maken in AEM Sites Page of Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+## Related article {#related-article}
 
-* [Een zelfstandig adaptief formulier maken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
 
 
 >[!MORELIKETHIS]
@@ -173,6 +175,7 @@ Op het tabblad Indelingen kunt u de standaardindelingen en de aangepaste getalno
 >* [Tekst](/help/adaptive-forms/components/text.md)
 >* [Titel](/help/adaptive-forms/components/title.md)
 >* [Wizard](/help/adaptive-forms/components/wizard.md)
+
 
 ## Zie ook {#see-also}
 
