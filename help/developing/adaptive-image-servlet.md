@@ -3,7 +3,7 @@ title: Adaptieve afbeeldingsserver
 description: Leer hoe de Core Components de Adaptive Image Servlet voor beeldlevering gebruikt en hoe u het gebruik ervan kunt optimaliseren.
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
+source-git-commit: 785aa82930e3bcf6ef16d7a1cdc614d230e8daa8
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Leer hoe de Core Components de Adaptive Image Servlet voor beeldlevering gebruikt en hoe u het gebruik ervan kunt optimaliseren.
 
-## Aangepaste levering van imageserver of webgeoptimaliseerde levering van afbeeldingen? {#options}
+## Adaptive Image Servlet of Web-Optimized Image Delivery? {#options}
 
 De component Image Core kan twee methoden gebruiken om afbeeldingen te leveren.
 
@@ -29,7 +29,7 @@ Standaard gebruikt de component Image de Adaptive Image Servlet van de Core-comp
 
 ## Selectie van vertoning {#rendition-selection}
 
-De adaptieve afbeeldingsserver selecteert automatisch de meest geschikte vertoning op basis van de grootte van de container waarin deze wordt weergegeven. Het selectieproces van de vertoning ziet er als volgt uit.
+De Adaptive Image Server selecteert automatisch de meest geschikte vertoning op basis van de grootte van de container waarin deze wordt weergegeven. Het selectieproces van de vertoning ziet er als volgt uit.
 
 1. De Adaptive Image Server controleert bij alle beschikbare uitvoeringen van het afbeeldingselement.
 1. Alleen elementen met dezelfde mime/hetzelfde type als het oorspronkelijke element waarnaar wordt verwezen, worden geselecteerd.
@@ -44,7 +44,7 @@ De adaptieve afbeeldingsserver selecteert automatisch de meest geschikte vertoni
 
 De Adaptive Image Server probeert de beste uitvoering te kiezen voor de gewenste afbeeldingsgrootte en het gewenste type. Het wordt aanbevolen dat DAM-uitvoeringen en toegestane breedten van afbeeldingscomponenten synchroon worden gedefinieerd, zodat de Adaptive Image Servlet zo weinig mogelijk verwerkt.
 
-Hierdoor worden de prestaties verbeterd en worden sommige afbeeldingen niet correct verwerkt door de onderliggende afbeeldingsverwerkingsbibliotheek.
+Dit verbetert de prestaties en voorkomt dat sommige afbeeldingen niet correct worden verwerkt door de onderliggende afbeeldingsverwerkingsbibliotheek.
 
 ## Laatst gewijzigde koppen gebruiken {#last-modified}
 
