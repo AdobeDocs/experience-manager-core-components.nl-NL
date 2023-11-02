@@ -1,34 +1,31 @@
 ---
-title: Hoe krijg je voorbeeldthema's en sjablonen voor AEM Forms?
-description: AEM Forms Core Components biedt voorbeeldadaptieve formulierthema's, sjablonen en modellen voor formuliergegevens
+title: Hoe krijgt u voorbeeldthema's en sjablonen voor AEM Forms Core Components?
+description: AEM Forms Core Components biedt voorbeelden van adaptieve formulierthema's, sjablonen en modellen met formuliergegevens.
 solution: Experience Manager Forms
 topic: Administration
 role: Admin, User
-hide: true
-hidefromtoc: true
 level: Intermediate
-source-git-commit: ebbe3471164341076fe085bbef9c93fcb1fe382a
+exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
+source-git-commit: 5e08235a0da5c44e60a1b488a832a8346b5f4cfa
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
 
-
 # Voorbeeldthema&#39;s, sjablonen en modellen formuliergegevens {#sample-themes-templates-and-data-models}
 
-[!DNL AEM Forms] Core Components biedt gebruiksklare voorbeeldthema&#39;s, sjablonen en modellen van formuliergegevens om snel flexibele formulieren te maken. Deze helpen auteurs ook om de uitbreidbaarheid, het aanpassingsvermogen en de responssnelheid van te leren [AEM Forms Core-componenten](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) om eenvoudige formulieren in een handomdraai en eenvoudig complexe formulieren te maken terwijl u naadloos verbinding maakt met de database.
+[!DNL AEM Forms] Core Components biedt gebruiksklare voorbeeldthema&#39;s, sjablonen en modellen van formuliergegevens om snel flexibele formulieren te maken. Deze helpen auteurs ook om de uitbreidbaarheid, het aanpassingsvermogen en de responssnelheid van te leren [Adaptieve Forms Core-componenten](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) om eenvoudige formulieren in een handomdraai en eenvoudig complexe formulieren te maken terwijl u naadloos verbinding maakt met de database.
 
 De voorbeeldthema&#39;s, sjablonen en modellen van formuliergegevens in het pakket met referentie-inhoud zijn:
 
 | Sjablonen | Thema&#39;s | Formuliergegevensmodellen |
 ---------|----------|---------
-| [Basis](#Basic) | [Canvas](#Canvas) | Microsoft® Dynamics 365 |
-| [Leeg](#Blank) | [WKND](#WKND) | Salesforce |
-| [Contact opnemen](#Contact-Us) | [Easel](#Easel) |  |
-| [Update van contactgegevens](#Contact-Details-Update) |   |   |
-| [Formulier voor goedkeuring](#Consent-Form) | |  |
-| [Aanvraag voor logservice](#Log-Service-Request) |  |  |
+| [Leeg](#Blank) | [Canvas](#Canvas) | Microsoft® Dynamics 365 |
+| [Contact opnemen](#Contact-Us) | [WKND](#WKND) | Salesforce |
+| [Update van contactgegevens](#Contact-Details-Update) | [Easel](#Easel) |   |
+| [Formulier voor goedkeuring](#Consent-Form) | [FSI](#FSI) |  |
+| [Aanvraag voor logservice](#Log-Service-Request) | [Gezondheidszorg](#Healthcare) |  |
 | [Feedback geven](#Give-Feedback) |  |  |
 | [Inschrijving voor voordelen](#Benefits-Enrollment) |  |   |
 | [Overzicht van personeelsbeloningen](#Employee-Benefits-Summary) |   |   |
@@ -39,15 +36,55 @@ De voorbeeldthema&#39;s, sjablonen en modellen van formuliergegevens in het pakk
 
 ## Voorbeeldthema&#39;s {#Sample-Themes}
 
-Met referentiemonsteringsthema&#39;s kunnen auteurs stijlen definiëren en aanpassen voor formulieren. Auteurs met zelfs een basiskennis van CSS kunnen thema naar behoefte aanpassen.
+Met referentiemonsteringsthema&#39;s kunnen auteurs stijlen voor formulieren gebruiken, definiëren en aanpassen, zodat auteurs met zelfs een basiskennis van CSS het thema naar behoefte kunnen aanpassen.
 
 **Hoe krijg je deze thema&#39;s?**
-* Deze thema&#39;s inschakelen **Forms as a Cloud Service** milieu, [Adaptieve Forms Core-componenten inschakelen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html) en gebruiken de [front-end pijpleiding](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html) om deze thema&#39;s te implementeren.
-* Deze thema&#39;s op een **AEM 6,5 Forms** milieu, [Adaptieve Forms Core-componenten inschakelen](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html) en gebruiken de [pakketbeheer](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components) om deze thema&#39;s te implementeren.
+U krijgt deze thema&#39;s door de volgende stappen hieronder te gebruiken voor **AEM as a Cloud Service** milieu:
+
+1. [Adaptieve Core-componenten van formulieren inschakelen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html)
+1. [Implementeer een AEM Archetype 45-project in uw omgeving](https://github.com/adobe/aem-project-archetype)
+
+
+Wanneer u een AEM archetype implementeert, kunt u alleen de OOTB-thema&#39;s in uw formulieren gebruiken. Als u de thema&#39;s naar wens wilt aanpassen, [Gebruik de front-end pijpleiding](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html) de thema&#39;s te implementeren.
+
+>[!NOTE]
+>
+> * De thema&#39;s zijn niet beschikbaar voor **AEM 6,5** milieu.
+
+<!--
+
+1. **AEM 6.5**
+
+    1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html)
+    1. [Deploy an AEM Archetype 45 project to your environment](https://github.com/adobe/aem-project-archetype)
+
+
+    When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy the themes.
+
+-->
+
+
+<!--
+
+### Deploying an AEM Archetype 45 project to your environment {#using-archetype-to-deploy-themes}
+
+You can get these themes by deploying an [AEM Archetype 45](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
+
+### Enable core components and use front-end pipeline to deploy themes {#use-front-end-pipeline-to-deploy-themes}
+
+1. To get these themes on **Forms as a Cloud Service** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html) and use the [front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html) to deploy these themes.
+    
+1. To get these themes on **AEM 6.5 Forms** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html) and use the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy these themes.
+
+[Learn to use and customize themes in AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html). 
+
+[Learn to use and customize themes in AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html).
+
+-->
 
 De **uit de doos** [Adaptieve Core-componenten van formulieren](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) de thema &#39; s zijn :
 
-![OOTB-thema&#39;s](/help/adaptive-forms/assets/OOTB-themes.png)
+![OOTB-thema&#39;s](/help/adaptive-forms/assets/archetype-45-themes-1.png)
 
 ### Canvas {#Canvas}
 
@@ -64,16 +101,40 @@ Het WKND-thema belichaamt een levendig, verbeeldend en boeiend ontwerp om uw for
 
 ### Easel {#Easel}
 
-Met het thema Easel kunt u een aantrekkelijk en eenvoudig in te stellen formulier maken dat is aangepast aan de eenvoud en gebruiksvriendelijkheid. Het Easel-thema is gebaseerd op het concept waar een draagbare standaard die kunstenaars gebruiken om een canvas te ondersteunen terwijl ze aan hun schilderijen werken.
+Met het thema Easel kunt u een aantrekkelijk en eenvoudig in te stellen formulier maken dat is aangepast aan de eenvoud en gebruiksvriendelijkheid. Het eenvoudige thema is gebaseerd op het concept waarin kunstenaars een draagbare standaard gebruiken om een canvas te ondersteunen terwijl ze aan hun schilderijen werken.
 
 ![Easel-thema](/help/adaptive-forms/assets/Safety-Inspection-Theme-Easel.png)
+
+### FSI (Financiële diensten en verzekeringen) {#FSI}
+
+In het FSI-thema wordt de nadruk gelegd op het geven van een schone, praktische look aan uw formulier. De lichte blauwe kleurtoon wordt toegepast op het formulier wanneer u het FSI-thema toepast, zoals u kunt zien in de afbeelding.
+
+![FSI-thema](/help/adaptive-forms/assets/fsi-theme-new1.png)
+
+
+### Gezondheidszorg {#Healthcare}
+
+Het thema Gezondheid maakt gebruik van rijke, verdorvene tonen om elementen zoals lusjes, panelen, tekstvakjes, en knopen binnen uw vorm te benadrukken.
+
+![Thema gezondheidszorg](/help/adaptive-forms/assets/healthcare-new-theme.png)
+
 
 ## Voorbeeldsjablonen {#Sample-templates}
 
 Sjablonen definiëren de initiële formulierstructuur, inhoud en handelingen die in het formulier moeten worden herhaald of gebruiken een vergelijkbare sjabloonstructuur als het formulier, zoals Goedkeuring, Voordelen, Inschrijvingsformulier en nog veel meer.
 
 **Hoe krijg je deze sjablonen?**
-U kunt de malplaatjes krijgen door op te stellen [Project met AEM Archetype 43 of hoger](https://github.com/adobe/aem-project-archetype) aan uw **AEM Forms as a Cloud Service** of **AEM 6,5** Forms-omgeving
+U kunt deze malplaatjes krijgen door op te stellen [AEM Archetype 45](https://github.com/adobe/aem-project-archetype) aan uw **AEM Forms as a Cloud Service** milieu of **AEM 6,5 Forms** milieu.
+
+<!--
+
+>[!NOTE]
+>
+> * If you have [enabled core components and used front-end pipeline to deploy themes](#use-front-end-pipeline-to-deploy-themes), you need not to deploy an AEM Archetype.
+> * You can find list of all OOTB templates when you create a form.
+
+-->
+
 
 De **uit de doos** [Adaptieve Core-componenten van formulieren](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) sjablonen zijn:
 
@@ -81,7 +142,7 @@ De **uit de doos** [Adaptieve Core-componenten van formulieren](https://experien
 
 ### Basis {#Basic}
 
-Met de basissjabloon kunt u snel een formulier voor inschrijvingservaring maken. U kunt het ook gebruiken om functionaliteit voor voorvertoningen van [Adaptieve Forms Core-componenten](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html). Het verstrekt een tovenaar lay-out voor sectie-door-sectie presentatie van gegevens.
+Met een standaardsjabloon kunt u snel een formulier voor inschrijvingservaring maken. U kunt het ook gebruiken om de functionaliteit van [Adaptieve Forms Core-componenten](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html). Het verstrekt een tovenaar lay-out voor sectie-door-sectie presentatie van gegevens.
 
 ![Standaardsjabloon](/help/adaptive-forms/assets/Basic-template-desktop-view.png)
 
@@ -105,20 +166,20 @@ Auteurs van de updatesjabloon voor contactgegevens kunnen een formulier maken vo
 
 ### Goedkeuringsformulier {#Consent-Form}
 
-Met een formuliersjabloon voor instemming wordt een formulier gemaakt voor de aanschaf van een juridisch document van deelnemers die deelnemen aan een specifieke activiteit, een onderzoeksstudie, een medische procedure of een situatie waarin hun persoonlijke informatie of rechten in het geding kunnen komen. Het formulier zorgt voor transparantie, beschermt de rechten van de deelnemer en geeft een duidelijk inzicht in wat het individu ermee instemt.
+Het toestemmingsformulier wordt gebruikt om een formulier te maken voor de aanschaf van een juridisch document van deelnemers die deelnemen aan een specifieke activiteit, een onderzoeksstudie, een medische procedure of een situatie waarin hun persoonlijke informatie of rechten betrokken kunnen zijn. Het formulier zorgt voor transparantie, beschermt de rechten van de deelnemer en geeft een duidelijk inzicht in wat het individu ermee instemt.
 
 ![Goedkeuringsformulier](/help/adaptive-forms/assets/Consent-form-desktop-view.png)
 
 ### Aanvraag voor logservice {#Log-Service-Request}
 
-De de dienstverzoekmalplaatje van het logboek helpt tot een vorm leiden die logboek-specifieke het registreren diensten van een dienstverlener vraagt. Het formulier fungeert als een formeel verzoek om een ticket te maken voor gebeurtenissen, activiteiten of gegevens die zijn geregistreerd voor het controleren of bijhouden van de status.
+De de dienstverzoekmalplaatje van het logboek helpt tot een vorm leiden die logboek-specifieke het registreren diensten van een dienstverlener vraagt. Het formulier fungeert als een formeel verzoek om een ticket te maken voor gebeurtenissen, activiteiten of gegevenslogboeken voor het controleren of bijhouden van de status.
 
 ![Log Service Request Template](/help/adaptive-forms/assets/Log-service-request-desktop-view.png)
 
 
 ### Feedback geven {#Give-Feedback}
 
-Met een feedbackformuliersjabloon kunt u een formulier samenstellen om een andere persoon of een ander team constructieve feedback te geven. Het formulier helpt ervoor te zorgen dat feedback duidelijk, specifiek en handelbaar is en open communicatie en verbetering bevordert.
+Met een feedbackformuliersjabloon kunt u een formulier samenstellen om een andere persoon of een ander team constructieve feedback te geven. Het formulier helpt ervoor te zorgen dat die feedback duidelijk, specifiek en actioneerbaar is en open communicatie en verbetering bevordert.
 
 ![Feedbacksjabloon geven](/help/adaptive-forms/assets/Give-feedback-desktop-view.png)
 
@@ -138,7 +199,7 @@ Samenvattingsformuliersjabloon voor personeelsbeloningen wordt gebruikt om een f
 
 ### Verzoek om accountverklaring {#Request-for-Account-Statement}
 
-Met de sjabloon Aanvragen voor accountinstructies kunt u een formulier maken dat het proces voor het verkrijgen van een nauwkeurige en actuele klantverklaring start. Het overzicht bevat een gedetailleerd overzicht van financiële transacties, activiteiten of andere relevante informatie over klanten die dit formulier gebruiken.
+Een verzoek om de malplaatjes van de rekeningsverklaring van de rekening helpt om een vorm tot stand te brengen die het proces om een nauwkeurige en bijgewerkte verklaring van klanten in werking te stellen. Het overzicht bevat een gedetailleerd overzicht van financiële transacties, activiteiten of andere relevante informatie over klanten die dit formulier gebruiken.
 
 ![Verzoek om een rekeningverklaring](/help/adaptive-forms/assets/Request-for-account-statment.png)
 
