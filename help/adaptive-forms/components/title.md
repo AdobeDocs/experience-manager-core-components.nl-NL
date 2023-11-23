@@ -3,9 +3,9 @@ title: Adaptive Forms Core Component - Titel
 description: De Adaptive Forms Title Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -16,23 +16,23 @@ In een adaptief formulier verwijst een &quot;titel&quot; naar de tekst die boven
 
 **Voorbeeld**
 
-![](/help/adaptive-forms/assets/title.png)
+![voorbeeld](/help/adaptive-forms/assets/title.png)
 
 ## Gebruik {#reasons-to-use-title-in-an-adaptive-form}
 
 Er zijn verschillende redenen waarom het een goede gewoonte is om een titel in een formulier te gebruiken:
 
-* **Helderheid**: Een titel geeft duidelijk het doel van het formulier aan, zodat gebruikers kunnen zien welke informatie ze moeten verstrekken.
+- **Helderheid**: Een titel geeft duidelijk het doel van het formulier aan, zodat gebruikers kunnen zien welke informatie ze moeten verstrekken.
 
-* **Organisatie**: Een titel kan u helpen formulieren in te delen op onderwerp of doel, zodat gebruikers gemakkelijker het formulier kunnen vinden dat ze nodig hebben.
+- **Organisatie**: Een titel kan u helpen formulieren in te delen op onderwerp of doel, zodat gebruikers gemakkelijker het formulier kunnen vinden dat ze nodig hebben.
 
-* **Toegankelijkheid**: Een titel is een belangrijk element voor gebruikers met toegankelijkheidsbehoeften omdat deze door schermlezers hardop wordt voorgelezen, zodat gebruikers de context van het formulier kunnen begrijpen.
+- **Toegankelijkheid**: Een titel is een belangrijk element voor gebruikers met toegankelijkheidsbehoeften omdat deze door schermlezers hardop wordt voorgelezen, zodat gebruikers de context van het formulier kunnen begrijpen.
 
-* **Branding**: Een titel kan ook worden gebruikt om de naam van een bedrijf of organisatie weer te geven, zodat u een gevoel van vertrouwen en vertrouwdheid met de gebruiker krijgt.
+- **Branding**: Een titel kan ook worden gebruikt om de naam van een bedrijf of organisatie weer te geven, zodat u een gevoel van vertrouwen en vertrouwdheid met de gebruiker krijgt.
 
-* **Navigatie**: Een titel kan ook nuttig zijn om door het formulier te navigeren, vooral als het formulier lang of complex is.
+- **Navigatie**: Een titel kan ook nuttig zijn om door het formulier te navigeren, vooral als het formulier lang of complex is.
 
-* **SEO (Search Engine Optimization)**: Een titel op het formulier is ook handig in SEO, omdat zoekprogramma&#39;s de titel gebruiken om de relevantie van een webpagina voor een zoekopdracht te bepalen.
+- **SEO (Search Engine Optimization)**: Een titel op het formulier is ook handig in SEO, omdat zoekprogramma&#39;s de titel gebruiken om de relevantie van een webpagina voor een zoekopdracht te bepalen.
 
 Over het algemeen is de titel van een formulier een belangrijk aspect van de gebruikerservaring en moet deze worden gebruikt om een duidelijk en beknopt label voor het formulier te bieden waarmee gebruikers de context en het doel van het formulier kunnen begrijpen.
 
@@ -63,12 +63,12 @@ Met het dialoogvenster Configureren kunt u uw ervaringen met titels eenvoudig aa
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud de titeltekst definiëren en het kopniveau selecteren.
 
-* **Titel** - Met Titel kunt u een component gemakkelijk herkennen in een formulier. Standaard wordt de titel boven op de component weergegeven. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
-* **Type/grootte** - Definieert het kopniveau van de titel.
-* **ID** - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de gegevenslaag.
-   * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
-   * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
-   * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
+- **Titel** - Met Titel kunt u een component gemakkelijk herkennen in een formulier. Standaard wordt de titel boven op de component weergegeven. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
+- **Type/grootte** - Definieert het kopniveau van de titel.
+- **ID** - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de gegevenslaag.
+   - Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
+   - Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
+   - Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -80,9 +80,9 @@ Op het tabblad Titel kunnen sjabloonauteurs de standaardelementen en toegestane 
 
 ![Titel van dialoogvenster Ontwerp, tabblad](/help/adaptive-forms/assets/title_heading.png)
 
-* **Toegestane kopelementen**: Een lijst met meerdere opties waarmee de sjabloonauteur kan kiezen welke koppen de auteur van het formulier kan gebruiken voor Titel.
+- **Toegestane kopelementen**: Een lijst met meerdere opties waarmee de sjabloonauteur kan kiezen welke koppen de auteur van het formulier kan gebruiken voor Titel.
 
-* **Standaardkopelement**: Een vervolgkeuzelijst die het standaardelement Kop voor de component Title instelt.
+- **Standaardkopelement**: Een vervolgkeuzelijst die het standaardelement Kop voor de component Title instelt.
 
 ### Tabblad Stijlen {#styles-tab}
 
@@ -90,9 +90,9 @@ Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en t
 
 ![Titel van dialoogvenster Ontwerp, tabblad](/help/adaptive-forms/assets/title_styles.png)
 
-* **Standaard CSS-klassen**: U kunt een standaard CSS-klasse opgeven voor de Adaptive Forms Date-picker Core Component.
+- **Standaard CSS-klassen**: U kunt een standaard CSS-klasse opgeven voor de Adaptive Forms Date-picker Core Component.
 
-* **Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight: bold&quot; opgeven. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
+- **Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight: bold&quot; opgeven. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
 
 ### Tabblad Opmaak {#format-tab}
 
@@ -108,30 +108,9 @@ Op het tabblad Indelingen kunt u standaard- en aangepaste datumnotaties opgeven.
 
 -->
 
+## Verwante artikelen {#related-articles}
 
->[!MORELIKETHIS]
->
->* [Accordeon](/help/adaptive-forms/components/accordion.md)
->* [Knop](/help/adaptive-forms/components/button.md)
->* [Selectievakjesgroep](/help/adaptive-forms/components/checkbox-group.md)
->* [Datumkiezer](/help/adaptive-forms/components/date-picker.md)
->* [Vervolgkeuzelijst](/help/adaptive-forms/components/drop-down.md)
->* [E-mailinvoer](/help/adaptive-forms/components/email-input.md)
->* [Formuliercontainer](/help/adaptive-forms/components/form-container.md)
->* [Bestandsbijlage](/help/adaptive-forms/components/file-attachment.md)
->* [Voettekst](/help/adaptive-forms/components/footer.md)
->* [Koptekst](/help/adaptive-forms/components/header.md)
->* [Horizontale tabs](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Afbeelding](/help/adaptive-forms/components/image.md)
->* [Nummerinvoer](/help/adaptive-forms/components/number-input.md)
->* [Deelvenstercontainer](/help/adaptive-forms/components/panel-container.md)
->* [Keuzerondje](/help/adaptive-forms/components/radio-button.md)
->* [Knop Opnieuw instellen](/help/adaptive-forms/components/reset-button.md)
->* [Verzendknop](/help/adaptive-forms/components/submit-button.md)
->* [Telefooninvoer](/help/adaptive-forms/components/telephone-input.md)
->* [Tekstinvoer](/help/adaptive-forms/components/text-input.md)
->* [Tekst](/help/adaptive-forms/components/text.md)
->* [Wizard](/help/adaptive-forms/components/wizard.md)
+{{more-like-this}}
 
 ## Zie ook {#see-also}
 

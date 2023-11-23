@@ -3,9 +3,9 @@ title: Adaptive Forms Core Component - Nummerinvoer
 description: De Adaptive Forms Number input Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '2038'
 ht-degree: 0%
 
 ---
@@ -22,17 +22,17 @@ Voor toegankelijkheid is het belangrijk om &#39;label&#39; op te geven dat het d
 
 **Voorbeeld**
 
-![](/help/adaptive-forms/assets/numeric-stepper.png)
+![voorbeeld](/help/adaptive-forms/assets/numeric-stepper.png)
 
 ## Gebruik {#reasons-to-use-number-input-numeric-stepper}
 
 Er zijn verschillende redenen waarom het nuttig is om een numerieke invoercomponent op te nemen in een adaptief formulier, zoals:
 
-* **Wiskundige bewerkingen**: Met numerieke velden kunt u wiskundige bewerkingen uitvoeren, zoals optellen, aftrekken, vermenigvuldigen en delen.
+- **Wiskundige bewerkingen**: Met numerieke velden kunt u wiskundige bewerkingen uitvoeren, zoals optellen, aftrekken, vermenigvuldigen en delen.
 
-* **Gegevensbereik**: numerieke velden kunnen worden gebruikt om een reeks geldige waarden in te stellen met de kenmerken min, max en step.
+- **Gegevensbereik**: numerieke velden kunnen worden gebruikt om een reeks geldige waarden in te stellen met de kenmerken min, max en step.
 
-* **Dynamische inhoud**: De numerieke component kan worden gebruikt om dynamische gegevens weer te geven op basis van de formuliervelden.
+- **Dynamische inhoud**: De numerieke component kan worden gebruikt om dynamische gegevens weer te geven op basis van de formuliervelden.
 
 
 ## Versie en compatibiliteit {#version-and-compatibility}
@@ -62,51 +62,52 @@ Met het dialoogvenster Configureren kunt u de gebruikersinvoer voor bezoekers ee
 
 ![Tabblad Standaard](/help/adaptive-forms/assets/numberinput_basictab.png)
 
-* **Naam** - U kunt een formuliercomponent gemakkelijk herkennen met de unieke naam, zowel in het formulier als in de regeleditor, maar de naam mag geen spaties of speciale tekens bevatten.
+- **Naam** - U kunt een formuliercomponent gemakkelijk herkennen met de unieke naam, zowel in het formulier als in de regeleditor, maar de naam mag geen spaties of speciale tekens bevatten.
 
-* **Titel** - Met Titel kunt u een component gemakkelijk herkennen in een formulier. Standaard wordt de titel boven op de component weergegeven. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
+- **Titel** - Met Titel kunt u een component gemakkelijk herkennen in een formulier. Standaard wordt de titel boven op de component weergegeven. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
 
-* **Titel verbergen** - Selecteer de optie om de titel van de component te verbergen.
+- **Titel verbergen** - Selecteer de optie om de titel van de component te verbergen.
 
-* **Plaatsaanduidingstekst** - Plaatsaanduidingstekst in een formuliercomponent verwijst naar een kort label of een korte vraag die binnen een invoerveld wordt weergegeven als een tip voor de gebruiker met betrekking tot welk type informatie naar verwachting in dat veld wordt ingevoerd. Plaatsaanduidingstekst verdwijnt wanneer de gebruiker in het veld typt en verschijnt opnieuw als het veld leeg blijft. De klasse biedt een visuele aanwijzing voor de gebruiker, maar fungeert niet als een permanent label of een permanente waarde voor het veld.
-* **Bindverwijzing** - Een bind verwijzing is een verwijzing naar een gegevenselement dat in een externe gegevensbron wordt opgeslagen en in een vorm wordt gebruikt. Met de bind-verwijzing kunt u gegevens dynamisch binden aan formuliervelden, zodat in het formulier de meest actuele gegevens uit de gegevensbron kunnen worden weergegeven. Een bind-verwijzing kan bijvoorbeeld worden gebruikt om de naam en het adres van een klant in een formulier weer te geven op basis van de id van de klant die in het formulier is ingevoerd. De bind verwijzing kan ook worden gebruikt om de gegevensbron met gegevens bij te werken ingegaan in de vorm. Op deze manier kunt u met AEM Forms formulieren maken die interageren met externe gegevensbronnen, zodat u een naadloze gebruikerservaring hebt voor het verzamelen en beheren van gegevens.
-* **Component verbergen** - Selecteer de optie om de component te verbergen voor het formulier. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel. Dit is handig wanneer u informatie wilt opslaan die niet hoeft te worden bekeken of rechtstreeks door de gebruiker hoeft te worden gewijzigd.
-* **Component uitschakelen** - Selecteer de optie om de component uit te schakelen. De uitgeschakelde component is niet actief of bewerkbaar voor de eindgebruiker. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
-* **Alleen-lezen** - Selecteer de optie om de component niet-bewerkbaar te maken De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
-* **Type nummer** - Met deze optie kunt u het type numerieke waarden selecteren dat &#x200B; toegestaan in het formulierveld. U kunt de typen Decimaal of Geheel getal selecteren in het keuzemenu.
-* **Standaardwaarde** - Met deze optie kunt u een standaardwaarde toevoegen aan een formulierveld. Indien **Uitgeschakelde component** of **Component (alleen-lezen)** is geselecteerd, wordt de standaardwaarde op het scherm weergegeven. Als er geen waarde wordt ingevoerd door de gebruiker in het formulierveld, wordt deze waarde verzonden op het moment dat het formulier wordt verzonden
+- **Plaatsaanduidingstekst** - Plaatsaanduidingstekst in een formuliercomponent verwijst naar een kort label of een korte vraag die binnen een invoerveld wordt weergegeven als een tip voor de gebruiker met betrekking tot welk type informatie naar verwachting in dat veld wordt ingevoerd. Plaatsaanduidingstekst verdwijnt wanneer de gebruiker in het veld typt en verschijnt opnieuw als het veld leeg blijft. De klasse biedt een visuele aanwijzing voor de gebruiker, maar fungeert niet als een permanent label of een permanente waarde voor het veld.
+- **Bindverwijzing** - Een bind verwijzing is een verwijzing naar een gegevenselement dat in een externe gegevensbron wordt opgeslagen en in een vorm wordt gebruikt. Met de bind-verwijzing kunt u gegevens dynamisch binden aan formuliervelden, zodat in het formulier de meest actuele gegevens uit de gegevensbron kunnen worden weergegeven. Een bind-verwijzing kan bijvoorbeeld worden gebruikt om de naam en het adres van een klant in een formulier weer te geven op basis van de id van de klant die in het formulier is ingevoerd. De bind verwijzing kan ook worden gebruikt om de gegevensbron met gegevens bij te werken ingegaan in de vorm. Op deze manier kunt u met AEM Forms formulieren maken die interageren met externe gegevensbronnen, zodat u een naadloze gebruikerservaring hebt voor het verzamelen en beheren van gegevens.
+- **Markeren als niet-gebonden formulierelement**: Selecteer de optie om een formulierveld te configureren dat niet is gekoppeld aan een schema. Met deze optie kunt u gegevens opslaan zonder de gegevensbron bij te werken. Het laat u ook toe om gegevens op een douanemethode, los van standaardgegevensbestandintegratie te behandelen.
+- **Component verbergen** - Selecteer de optie om de component te verbergen voor het formulier. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel. Dit is handig wanneer u informatie wilt opslaan die niet hoeft te worden bekeken of rechtstreeks door de gebruiker hoeft te worden gewijzigd.
+- **Component uitschakelen** - Selecteer de optie om de component uit te schakelen. De uitgeschakelde component is niet actief of bewerkbaar voor de eindgebruiker. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
+- **Alleen-lezen** - Selecteer de optie om de component niet-bewerkbaar te maken De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
+- **Type nummer** - Met deze optie kunt u het type numerieke waarden selecteren dat &#x200B; toegestaan in het formulierveld. U kunt de typen Decimaal of Geheel getal selecteren in het keuzemenu.
+- **Standaardwaarde** - Met deze optie kunt u een standaardwaarde toevoegen aan een formulierveld. Indien **Uitgeschakelde component** of **Component (alleen-lezen)** is geselecteerd, wordt de standaardwaarde op het scherm weergegeven. Als er geen waarde wordt ingevoerd door de gebruiker in het formulierveld, wordt deze waarde verzonden op het moment dat het formulier wordt verzonden
 
 ### Tabblad Validatie {#validation-tab}
 
 ![Tabblad Validatie](/help/adaptive-forms/assets/numberinput_validationtab.png)
 
-* **Vereist** - Selecteer deze optie als u de component wilt weergeven in een adaptief formulier. U kunt de **Component verbergen** of **Component uitschakelen**  in de **Basis** als deze optie is geselecteerd.
+- **Vereist** - Selecteer deze optie als u de component wilt weergeven in een adaptief formulier. Nadat u de optie hebt geselecteerd, moet u een waarde invoeren voordat u verdergaat met het verzenden van een formulier. U kunt de **Component verbergen** of **Component uitschakelen**  in de **Basis** als deze optie is geselecteerd.
 
-* **Foutbericht** - Met deze optie kunt u een bericht invoeren dat wordt weergegeven als de optie **Vereist** selectievakje is ingeschakeld en het veld blijft leeg.
+- **Foutbericht** - Met deze optie kunt u een bericht invoeren dat wordt weergegeven als de optie **Vereist** selectievakje is ingeschakeld en het veld blijft leeg.
 
-* **Bericht voor scriptvalidatie** - Met deze optie kunt u een bericht invoeren dat wordt weergegeven als de scriptvalidatie mislukt.
+- **Bericht voor scriptvalidatie** - Met deze optie kunt u een bericht invoeren dat wordt weergegeven als de scriptvalidatie mislukt.
 
-* **Laagste getal / Kleinste getal** - Gebruik deze optie om het minimaal toegestane aantal in te voeren in het formulierveld te selecteren. Als de waarde kleiner is dan het getal dat is opgegeven in **Laagste getal / Kleinste getal** wordt ingevoerd in het formulierveld, wordt het foutbericht weergegeven.
+- **Laagste getal / Kleinste getal** - Gebruik deze optie om het minimaal toegestane aantal in te voeren in het formulierveld te selecteren. Als de waarde kleiner is dan het getal dat is opgegeven in **Laagste getal / Kleinste getal** wordt ingevoerd in het formulierveld, wordt het foutbericht weergegeven.
 
-* **Minimale foutmelding** - Met deze optie kunt u een foutbericht invoeren dat wordt weergegeven wanneer de gebruiker een waarde invoert die lager is dan de waarde die is opgegeven in het dialoogvenster **Minimum aantal/minimum aantal** -optie.
+- **Minimale foutmelding** - Met deze optie kunt u een foutbericht invoeren dat wordt weergegeven wanneer de gebruiker een waarde invoert die lager is dan de waarde die is opgegeven in het dialoogvenster **Minimum aantal/minimum aantal** -optie.
 
-* **Minimumwaarde uitsluiten** - Schakel dit selectievakje in als u niet de minimumwaarde wilt opgeven in het dialoogvenster **Laagste getal / Kleinste getal** op te nemen in het bereik van waarden die &#x200B; in het formulierveld worden ingevoerd.
+- **Minimumwaarde uitsluiten** - Schakel dit selectievakje in als u niet de minimumwaarde wilt opgeven in het dialoogvenster **Laagste getal / Kleinste getal** op te nemen in het bereik van waarden die &#x200B; in het formulierveld worden ingevoerd.
 
-* **Hoogste getal / Grootste getal** - Gebruik deze optie om het maximum toegestane aantal in te voeren in het formulierveld te selecteren. Als het getal groter is dan het getal dat is opgegeven in **Hoogste getal / Grootste getal** wordt ingevoerd in het formulierveld, wordt het foutbericht weergegeven.
+- **Hoogste getal / Grootste getal** - Gebruik deze optie om het maximum toegestane aantal in te voeren in het formulierveld te selecteren. Als het getal groter is dan het getal dat is opgegeven in **Hoogste getal / Grootste getal** wordt ingevoerd in het formulierveld, wordt het foutbericht weergegeven.
 
-* **Maximum foutbericht** - Met deze optie kunt u een foutbericht invoeren dat wordt weergegeven wanneer de gebruiker een waarde invoert die groter is dan de waarde die is opgegeven in het dialoogvenster **Hoogste getal / Grootste getal** -optie.
+- **Maximum foutbericht** - Met deze optie kunt u een foutbericht invoeren dat wordt weergegeven wanneer de gebruiker een waarde invoert die groter is dan de waarde die is opgegeven in het dialoogvenster **Hoogste getal / Grootste getal** -optie.
 
-* **Maximumwaarde uitsluiten** - Schakel dit selectievakje in als u niet de maximumwaarde wilt opgeven in het dialoogvenster **Hoogste getal / Grootste getal** in het formulierveld in te voeren waarden.
+- **Maximumwaarde uitsluiten** - Schakel dit selectievakje in als u niet de maximumwaarde wilt opgeven in het dialoogvenster **Hoogste getal / Grootste getal** in het formulierveld in te voeren waarden.
 
 ### Het tabblad Help-inhoud {#help-content}
 
 ![Help-inhoud, tabblad](/help/adaptive-forms/assets/numberinput_helptab.png)
 
-* **Korte beschrijving** - Een korte beschrijving is een korte tekstuitleg met aanvullende informatie of verduidelijking over het doel van een specifiek formulierveld. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. De optie **Altijd korte beschrijving tonen** gebruiken om de achtergrondafbeelding onder de component weer te geven.
+- **Korte beschrijving** - Een korte beschrijving is een korte tekstuitleg met aanvullende informatie of verduidelijking over het doel van een specifiek formulierveld. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. De optie **Altijd korte beschrijving tonen** gebruiken om de achtergrondafbeelding onder de component weer te geven.
 
-* **Altijd korte beschrijving tonen** - Schakel de optie in om de korte beschrijving onder de component weer te geven.
+- **Altijd korte beschrijving tonen** - Schakel de optie in om de korte beschrijving onder de component weer te geven.
 
-* **Help-tekst** - De Help-tekst verwijst naar aanvullende informatie of aanwijzingen die de gebruiker krijgt om deze te helpen bij het correct invullen van een formulierveld. Deze wordt weergegeven wanneer de gebruiker op het Help-pictogram (i) naast de component klikt. De Help-tekst biedt gedetailleerdere informatie dan de label- of plaatsaanduidingstekst van een formulierveld en is ontworpen om de gebruiker te helpen de vereisten of beperkingen van het veld te begrijpen. Het kan ook suggesties of voorbeelden bevatten om het invullen van het formulier eenvoudiger en nauwkeuriger te maken.
+- **Help-tekst** - De Help-tekst verwijst naar aanvullende informatie of aanwijzingen die de gebruiker krijgt om deze te helpen bij het correct invullen van een formulierveld. Deze wordt weergegeven wanneer de gebruiker op het Help-pictogram (i) naast de component klikt. De Help-tekst biedt gedetailleerdere informatie dan de label- of plaatsaanduidingstekst van een formulierveld en is ontworpen om de gebruiker te helpen de vereisten of beperkingen van het veld te begrijpen. Het kan ook suggesties of voorbeelden bevatten om het invullen van het formulier eenvoudiger en nauwkeuriger te maken.
 
 ### Tabblad Toegankelijkheid {#accessibility}
 
@@ -114,15 +115,15 @@ Met het dialoogvenster Configureren kunt u de gebruikersinvoer voor bezoekers ee
 
 **Tekst voor schermlezers** - Tekst voor schermlezers verwijst naar extra tekst die is bedoeld om te worden gelezen door ondersteunende hulpmiddelen, zoals schermlezers, die door visueel gehandicapten worden gebruikt. Deze tekst bevat een audiobeschrijving van het doel van het formulierveld en kan informatie bevatten over de titel, beschrijving, naam en relevante berichten (aangepaste tekst) van het veld. Met de schermlezertekst kunt u ervoor zorgen dat het formulier toegankelijk is voor alle gebruikers, inclusief gebruikers met een visuele handicap, en krijgt deze een volledig inzicht in het formulierveld en de vereisten ervan.
 
-### Tabblad Opmaak {#formats-tab}
+### Tabblad Opmaak {#formats-configure-tab}
 
 ![Toegankelijkheid, tabblad](/help/adaptive-forms/assets/numberinput_formattab.png)
 
-* **Weergave-indeling** - Met deze optie kunt u opties selecteren uit verschillende numerieke indelingen voor weergave. Wanneer de gebruiker een optie selecteert in het menu **Type** vervolgkeuzemenu, **Indeling** wordt weergegeven in het deelvenster. U kunt een specifieke indeling kiezen waarin getallen worden weergegeven aan de gebruiker.
+- **Weergave-indeling** - Met deze optie kunt u opties selecteren uit verschillende numerieke indelingen voor weergave. Wanneer de gebruiker een optie selecteert in het menu **Type** vervolgkeuzemenu, **Indeling** wordt weergegeven in het deelvenster. U kunt een specifieke indeling kiezen waarin getallen worden weergegeven aan de gebruiker.
 
-* **Aantal cijfers vóór decimaalteken (1234.000)** - Gebruik deze optie om het aantal cijfers op te geven dat voor het decimaalteken moet worden weergegeven.
+- **Aantal cijfers vóór decimaalteken (1234.000)** - Gebruik deze optie om het aantal cijfers op te geven dat voor het decimaalteken moet worden weergegeven.
 
-* **Aantal cijfers na het decimale scheidingsteken (1234.000)** - Gebruik deze optie om het aantal cijfers op te geven dat na het decimaalteken wordt weergegeven.
+- **Aantal cijfers na het decimale scheidingsteken (1234.000)** - Gebruik deze optie om het aantal cijfers op te geven dat na het decimaalteken wordt weergegeven.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -132,16 +133,31 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de invoercompone
 
 Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De Adaptive Forms Number Input Core Component ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
 
-![Styletab](/help/adaptive-forms/assets/datepicker_styletab.png)
+![Het tabblad Stijl](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-**Standaard CSS-klassen**: U kunt een standaard CSS-klasse opgeven voor de Adaptive Forms Number input Core Component.
+- **Standaard CSS-klassen**: U kunt een standaard CSS-klasse opgeven voor de Adaptive Forms Date-picker Core Component.
 
-**Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight: bold&quot; opgeven. U kunt deze stijlen in Adaptive Forms gebruiken of toepassen op een adaptief formulier. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de editor voor de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
+- **Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight: bold&quot; opgeven. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
 
-### Tabblad Opmaak {#format-tab}
+### Aangepaste eigenschappen
 
-Op het tabblad Indelingen kunt u de standaardindelingen en de aangepaste getalnotaties opgeven.
-![Tabblad Ontwerp](/help/adaptive-forms/assets/emailinput_designformattab.png)
+![Dialoogvenster Aangepaste eigenschappen](/help/adaptive-forms/assets/datepicker_customproperties.png)
+
+Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aan een Adaptief kernonderdeel van een formulier koppelen met behulp van de formuliersjabloon. De aangepaste eigenschappen worden weergegeven in de sectie Eigenschappen van de koploze uitvoering van de component. Hiermee kunt u dynamisch formuliergedrag maken dat wordt aangepast op basis van de waarden van aangepaste kenmerken. Ontwikkelaars kunnen bijvoorbeeld verschillende uitvoeringen van een Forms-component zonder koptekst ontwerpen voor mobiele apparaten, desktops of webplatforms, waardoor de gebruikerservaring op een groot aantal apparaten aanzienlijk wordt verbeterd.
+
+- **Groepsnaam**: U kunt een naam opgeven om de groep met aangepaste eigenschappen te identificeren. U kunt meerdere groepen met aangepaste eigenschappen toevoegen, verwijderen of opnieuw rangschikken. Nadat u de aangepaste groep eigenschappen hebt toegevoegd, kunt u de volgende opties zien:
+
+   - **Belangrijke paren**: U kunt meerdere aangepaste eigenschapnamen en aangepaste eigenschapswaarden toevoegen door op de knop **Toevoegen** knop voor elke aangepaste groep eigenschappen.
+
+   - **Verwijderen**: Tik of klik om de naam van de aangepaste eigenschap en de waarde van de aangepaste eigenschap te verwijderen.
+
+   - **Opnieuw rangschikken**: Tik of klik en sleep om de volgorde van de naam van de aangepaste eigenschap en de waarde van de aangepaste eigenschap te wijzigen.
+
+### Tabblad Opmaak {#formats-tab}
+
+Op het tabblad Indelingen kunt u standaard- en aangepaste datumnotaties opgeven.
+
+![Formattab](/help/adaptive-forms/assets/emailinput_formattab.png)
 
 <!--
 
@@ -151,31 +167,9 @@ Op het tabblad Indelingen kunt u de standaardindelingen en de aangepaste getalno
 
 -->
 
+## Verwante artikelen {#related-articles}
 
->[!MORELIKETHIS]
->
->* [Accordeon](/help/adaptive-forms/components/accordion.md)
->* [Knop](/help/adaptive-forms/components/button.md)
->* [Selectievakjesgroep](/help/adaptive-forms/components/checkbox-group.md)
->* [Datumkiezer](/help/adaptive-forms/components/date-picker.md)
->* [Vervolgkeuzelijst](/help/adaptive-forms/components/drop-down.md)
->* [E-mailinvoer](/help/adaptive-forms/components/email-input.md)
->* [Formuliercontainer](/help/adaptive-forms/components/form-container.md)
->* [Bestandsbijlage](/help/adaptive-forms/components/file-attachment.md)
->* [Voettekst](/help/adaptive-forms/components/footer.md)
->* [Koptekst](/help/adaptive-forms/components/header.md)
->* [Horizontale tabs](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Afbeelding](/help/adaptive-forms/components/image.md)
->* [Deelvenstercontainer](/help/adaptive-forms/components/panel-container.md)
->* [Keuzerondje](/help/adaptive-forms/components/radio-button.md)
->* [Knop Opnieuw instellen](/help/adaptive-forms/components/reset-button.md)
->* [Verzendknop](/help/adaptive-forms/components/submit-button.md)
->* [Telefooninvoer](/help/adaptive-forms/components/telephone-input.md)
->* [Tekstinvoer](/help/adaptive-forms/components/text-input.md)
->* [Tekst](/help/adaptive-forms/components/text.md)
->* [Titel](/help/adaptive-forms/components/title.md)
->* [Wizard](/help/adaptive-forms/components/wizard.md)
-
+{{more-like-this}}
 
 ## Zie ook {#see-also}
 

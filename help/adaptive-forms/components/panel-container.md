@@ -3,9 +3,9 @@ title: Adaptive Forms Core Component - Panel container
 description: Het gebruiken van of het aanpassen van de Adaptive Forms Panel containerComponent van de Kern.
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
-source-git-commit: 37ac7d3a9ae8c88d4c9be8129cfbd1eb4a7cccd1
+source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '2036'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ U kunt er ook gebruik van maken om verschillende op regels gebaseerde handelinge
 
 **Voorbeeld**
 
-![](/help/adaptive-forms/assets/panel-container.png)
+![voorbeeld](/help/adaptive-forms/assets/panel-container.png)
 
 ## Gebruik {#reasons-to-use-panel-container}
 
@@ -91,8 +91,6 @@ Met het dialoogvenster Configureren kunt u de containerervaring van het deelvens
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-- **Layout** - U kunt een vaste lay-out (Eenvoudig) of een flexibele lay-out (Responsief raster) voor uw wizard gebruiken. De eenvoudige lay-out houdt alles vast op de plaats, terwijl het Responsieve Net u toestaat om de positie van componenten aan uw behoeften aan te passen. Gebruik bijvoorbeeld Responsief raster om &quot;Voornaam&quot;, &quot;Tweede naam&quot; en &quot;Achternaam&quot; in één rij uit te lijnen in een formulier.
-
 - **Bindverwijzing** - Een bind verwijzing is een verwijzing naar een gegevenselement dat in een externe gegevensbron wordt opgeslagen en in een vorm wordt gebruikt. Met de bind-verwijzing kunt u gegevens dynamisch binden aan formuliervelden, zodat in het formulier de meest actuele gegevens uit de gegevensbron kunnen worden weergegeven. Een bind-verwijzing kan bijvoorbeeld worden gebruikt om de naam en het adres van een klant in een formulier weer te geven op basis van de id van de klant die in het formulier is ingevoerd. De bind verwijzing kan ook worden gebruikt om de gegevensbron met gegevens bij te werken ingegaan in de vorm. Op deze manier kunt u in AEM Forms formulieren maken die interageren met externe gegevensbronnen, zodat u een naadloze gebruikerservaring hebt voor het verzamelen en beheren van gegevens.
 - **Component verbergen** - Selecteer de optie om de component te verbergen voor het formulier. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel. Dit is handig wanneer u informatie wilt opslaan die niet hoeft te worden bekeken of rechtstreeks door de gebruiker hoeft te worden gewijzigd.
 - **Component uitschakelen** - Selecteer de optie om de component uit te schakelen. De uitgeschakelde component is niet actief of bewerkbaar voor de eindgebruiker. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
@@ -129,50 +127,76 @@ Voer de stappen uit in het dialoogvenster [Formulieren maken met herhaalbare sec
 
 - **HTML-rol voor schermlezer om aan te kondigen** - De rol HTML is een kenmerk dat wordt gebruikt om het doel van een element HTML aan ondersteunende hulpmiddelen, zoals schermlezers, op te geven. Het rolattribuut wordt gebruikt om extra context en semantische betekenis aan een element te verstrekken, die het voor schermlezers gemakkelijker maken om de inhoud te interpreteren en aan de gebruiker aan te kondigen. In AEM Forms heeft het label van een formulierveld bijvoorbeeld de rol &quot;label&quot; en kan het invoerveld de rol &quot;textbox&quot; hebben. Hierdoor kan de schermlezer de relatie tussen het label en het invoerveld begrijpen en deze correct aan de gebruiker meedelen.
 
+## Ontwerpdialoogvenster {#design-dialog}
+
+Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de component Form Container te definiëren en te beheren.
+
+### Tabblad Toegestane componenten {#allowed-components-tab}
+
+![Dialoogvenster Toegestaan component, tabblad](/help/adaptive-forms/assets/panel-container-allowed-component.png)
+
+De **Toegestane componenten** kunt u in de sjablooneditor de componenten instellen die als items kunnen worden toegevoegd aan de deelvensters in de component in de Adaptieve Forms-editor.
+
+### Tabblad Standaardcomponenten {#default-components-tab}
+
+![Standaardtabblad van dialoogvenster Ontwerp](/help/adaptive-forms/assets/panel-container-default-component.png)
+
+De **Standaardcomponenten** kunt u in de sjablooneditor opgeven welke componenten standaard zichtbaar zijn als items in de formuliercontainercomponent in de Adaptive Forms-editor.
+
+### Tab Instellingen voor responsief {#responsive-tab}
+
+![Instellingen tabblad van dialoogvenster Ontwerpen](/help/adaptive-forms/assets/panel-container-responsive-style-tab.png)
+
+De **Instellingen voor responsie** kunt u in de sjablooneditor het aantal kolommen in het raster opgeven dat zich in de formuliercontainercomponent van de Adaptieve Forms-editor bevindt.
+
+### Containerinstellingen, tabblad
+
+![Containerinstellingen, tabblad](/help/adaptive-forms/assets/panel-container-container-settings.png)
+
+- **Layout** - U kunt een vaste lay-out (Eenvoudig) of een flexibele lay-out (Responsief raster) voor uw wizard gebruiken. De eenvoudige lay-out houdt alles vast op de plaats, terwijl het Responsieve Net u toestaat om de positie van componenten aan uw behoeften aan te passen. Gebruik bijvoorbeeld Responsief raster om &quot;Voornaam&quot;, &quot;Tweede naam&quot; en &quot;Achternaam&quot; in één rij uit te lijnen in een formulier.
+
+- **Lay-out uitschakelen**: Selecteer deze optie om de lay-outselectie uit te schakelen in het dialoogvenster Bewerken van een component.
+
+- **Achtergrondafbeelding inschakelen**: Met deze optie kan de gebruiker de instellingen van het deelvenster zodanig configureren dat een visuele achtergrond wordt opgenomen om het visuele aspect te verbeteren.
+
+- **Achtergrondkleur inschakelen**: Met deze optie kunt u de achtergrondkleur van het deelvenster instellen of wijzigen. Deze functie wordt doorgaans gebruikt in het ontwerp van de gebruikersinterface om de weergave van deelvensters in een grotere interface aan te passen. Wanneer u **Achtergrondkleur inschakelen** de **Alleen stalen** wordt weergegeven. De **Alleen stalen** kunt u kleuren voor de achtergrond, tekst of andere visuele elementen in het deelvenster opgeven of kiezen met behulp van het **Toevoegen** knop
+
+### Tabblad Stijlen {#styles-tab}
+
+De Adaptive Forms File Attachment Core-component ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+
+![Ontwerpdialoogvenster](/help/adaptive-forms/assets/panel-container-styles-tab.png)
+
+- **Standaard CSS-klassen**: U kunt een standaard CSS-klasse opgeven voor de Adaptive Forms Checkbox Group Core-component.
+
+- **Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight: bold&quot; opgeven. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
+
+### Tabblad Aangepaste eigenschappen
+
+![Dialoogvenster Aangepaste eigenschappen](/help/adaptive-forms/assets/panel-container-custom-properties.png)
+
+Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aan een Adaptief kernonderdeel van een formulier koppelen met behulp van de formuliersjabloon. De aangepaste eigenschappen worden weergegeven in de sectie Eigenschappen van de koploze uitvoering van de component. Hiermee kunt u dynamisch formuliergedrag maken dat wordt aangepast op basis van de waarden van aangepaste kenmerken. Ontwikkelaars kunnen bijvoorbeeld verschillende uitvoeringen van een Forms-component zonder koptekst ontwerpen voor mobiele apparaten, desktops of webplatforms, waardoor de gebruikerservaring op een groot aantal apparaten aanzienlijk wordt verbeterd.
+
+- **Groepsnaam**: U kunt een naam opgeven om de groep met aangepaste eigenschappen te identificeren. U kunt meerdere groepen met aangepaste eigenschappen toevoegen, verwijderen of opnieuw rangschikken. Nadat u de aangepaste groep eigenschappen hebt toegevoegd, kunt u de volgende opties zien:
+
+   - **Belangrijke paren**: U kunt meerdere aangepaste eigenschapnamen en aangepaste eigenschapswaarden toevoegen door op de knop **Toevoegen** knop voor elke aangepaste groep eigenschappen.
+
+   - **Verwijderen**: Tik of klik om de naam van de aangepaste eigenschap en de waarde van de aangepaste eigenschap te verwijderen.
+
+   - **Opnieuw rangschikken**: Tik of klik en sleep om de volgorde van de naam van de aangepaste eigenschap en de waarde van de aangepaste eigenschap te wijzigen.
+
+<!--
+
+## Related article {#related-article}
+
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
+
 ## Verwante artikelen {#related-articles}
 
-- [Accordeon](/help/adaptive-forms/components/accordion.md)
-- [Knop](/help/adaptive-forms/components/button.md)
-- [Selectievakjesgroep](/help/adaptive-forms/components/checkbox-group.md)
-- [Datumkiezer](/help/adaptive-forms/components/date-picker.md)
-- [Vervolgkeuzelijst](/help/adaptive-forms/components/drop-down.md)
-- [E-mailinvoer](/help/adaptive-forms/components/email-input.md)
-- [Formuliercontainer](/help/adaptive-forms/components/form-container.md)
-- [Bestandsbijlage](/help/adaptive-forms/components/file-attachment.md)
-- [Voettekst](/help/adaptive-forms/components/footer.md)
-- [Koptekst](/help/adaptive-forms/components/header.md)
-- [Horizontale tabs](/help/adaptive-forms/components/horizontal-tabs.md)
-- [Afbeelding](/help/adaptive-forms/components/image.md)
-- [Nummerinvoer](/help/adaptive-forms/components/number-input.md)
-- [Keuzerondje](/help/adaptive-forms/components/radio-button.md)
-- [Knop Opnieuw instellen](/help/adaptive-forms/components/reset-button.md)
-- [Verzendknop](/help/adaptive-forms/components/submit-button.md)
-- [Telefooninvoer](/help/adaptive-forms/components/telephone-input.md)
-- [Tekstinvoer](/help/adaptive-forms/components/text-input.md)
-- [Tekst](/help/adaptive-forms/components/text.md)
-- [Titel](/help/adaptive-forms/components/title.md)
-- [Wizard](/help/adaptive-forms/components/wizard.md)
-
+{{more-like-this}}
 
 ## Zie ook {#see-also}
 
-- [Een AEM adaptief formulier maken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
-- [Een AEM adaptief formulier toevoegen aan de AEM Sites-pagina](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
-- [Thema&#39;s toepassen op een AEM adaptief formulier](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html)
-- [Componenten toevoegen aan een AEM adaptief formulier](/help/adaptive-forms/introduction.md#adaptive-forms-core-components-components)
-- [reCAPTCHA gebruiken in een AEM adaptieve vorm](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms.html)
-- [PDF-versie (DoR) van een AEM adaptief formulier genereren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components.html)
-- [Een AEM adaptief formulier vertalen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-aem-translation-workflow-to-localize-adaptive-forms-core-components.html)
-- [Adobe Analytics inschakelen voor een adaptief formulier om het formuliergebruik bij te houden](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/services/enable-adobe-analytics-adaptive-form-using-experience-cloud-setup-automation.html)
-- [Aangepast formulier verbinden met Microsoft SharePoint](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#create-sharepoint-configuration)
-- [Adaptief formulier aansluiten op Microsoft Power Automate](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#microsoft-power-automate)
-- [Adaptief formulier aansluiten op Microsoft OneDrive](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#submit-to-onedrive)
-- [Adaptief formulier aansluiten op Microsoft Azure Blob Storage](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#submit-to-azure-blob-storage)
-- [Aangepast formulier verbinden met Salesforce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/oauth2-client-credentials-flow-for-server-to-server-integration.html)
-- [Adobe Sign gebruiken in een AEM adaptief formulier](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/use-adobe-sign/working-with-adobe-sign.html)
-- [Een nieuwe landinstelling toevoegen voor een adaptief formulier](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components.html)
-- [Adaptieve formuliergegevens naar een database verzenden](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/data-integration.html)
-- [Verzend AanpassingsGegevens van de Vorm naar een eindpunt REST](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#submit-to-rest-endpoint)
-- [Adaptieve formuliergegevens naar AEM workflow verzenden](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#invoke-an-aem-workflow)
-- [Forms Portal gebruiken om AEM Adaptive Forms op een AEM website weer te geven](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-forms-portal.html)
-
+{{see-also}}

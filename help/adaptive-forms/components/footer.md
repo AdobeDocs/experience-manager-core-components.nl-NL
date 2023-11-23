@@ -3,10 +3,10 @@ title: Adaptieve Forms Core-component - Voettekst
 description: De Adaptive Forms Footer Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
+source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 0%
+source-wordcount: '775'
+ht-degree: 1%
 
 ---
 
@@ -16,21 +16,21 @@ Een voettekstcomponent in een adaptief formulier is een gebied dat doorgaans ond
 
 **Voorbeeld**
 
-![](/help/adaptive-forms/assets/footer.png)
+![voorbeeld](/help/adaptive-forms/assets/footer.png)
 
 ## Gebruik {#reasons-to-use-footer}
 
 Er zijn verschillende redenen waarom het nuttig is om een voettekstcomponent in een formulier op te nemen, zoals:
 
-* **Wettelijke vereisten**: Sommige formulieren moeten mogelijk een disclaimer, copyrightvermelding of andere juridische informatie bevatten. Een voettekst is een handige plaats om deze informatie op te nemen.
+- **Wettelijke vereisten**: Sommige formulieren moeten mogelijk een disclaimer, copyrightvermelding of andere juridische informatie bevatten. Een voettekst is een handige plaats om deze informatie op te nemen.
 
-* **Navigatie**: Een voettekst kan koppelingen bevatten naar andere belangrijke pagina&#39;s op de website, zoals een privacybeleid, servicevoorwaarden of contactpagina.
+- **Navigatie**: Een voettekst kan koppelingen bevatten naar andere belangrijke pagina&#39;s op de website, zoals een privacybeleid, servicevoorwaarden of contactpagina.
 
-* **Branding**: Een voettekst kan worden gebruikt om een logo of andere brandingelementen op te nemen die de identiteit van de organisatie of website helpen versterken.
+- **Branding**: Een voettekst kan worden gebruikt om een logo of andere brandingelementen op te nemen die de identiteit van de organisatie of website helpen versterken.
 
-* **Consistentie**: Een voettekst biedt consistentie in het ontwerp en de indeling van het formulier, waardoor het intuïtiever wordt en gebruikers gemakkelijker door het formulier kunnen navigeren.
+- **Consistentie**: Een voettekst biedt consistentie in het ontwerp en de indeling van het formulier, waardoor het intuïtiever wordt en gebruikers gemakkelijker door het formulier kunnen navigeren.
 
-* **Aanvullende context**: Een voettekst kan een extra context voor het formulier bieden, zoals een tekst die het formulier beschrijft of een koppeling naar gerelateerde bronnen, waardoor het formulier informatiever en gebruiksvriendelijker wordt.
+- **Aanvullende context**: Een voettekst kan een extra context voor het formulier bieden, zoals een tekst die het formulier beschrijft of een koppeling naar gerelateerde bronnen, waardoor het formulier informatiever en gebruiksvriendelijker wordt.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -57,53 +57,53 @@ Met het dialoogvenster Configureren kunt u de voettekstervaring voor bezoekers e
 
 ![Eigenschappen, tabblad](/help/adaptive-forms/assets/footer_propertiestab.png)
 
-* **Dialoogvenster Bewerken**
+- **Dialoogvenster Bewerken**
 Het dialoogvenster Bewerken bevat standaardgereedschappen voor tekstopmaak waarmee de gebruiker tekst voor de voettekst kan maken.
 
-* **Vet** - Met deze optie past u vette opmaak toe op geselecteerde tekst of opgemaakte tekst die na de cursor wordt ingevoerd. `Ctrl+B` is een sneltoets.
+- **Vet** - Met deze optie past u vette opmaak toe op geselecteerde tekst of opgemaakte tekst die na de cursor wordt ingevoerd. `Ctrl+B` is een sneltoets.
 
-* **Cursief** - Met deze optie wordt cursieve opmaak toegepast op geselecteerde tekst of cursieve tekst die na de cursor wordt ingevoerd. `Ctrl+I` is een sneltoets.
+- **Cursief** - Met deze optie wordt cursieve opmaak toegepast op geselecteerde tekst of cursieve tekst die na de cursor wordt ingevoerd. `Ctrl+I` is een sneltoets.
 
 ![Opties voor opsommingstekens](/help/adaptive-forms/assets/footer_bullet.png)
 
 
-* **Opsommingsteken**
+- **Opsommingsteken**
 
-   * **Pictogram voor opsommingstekens** - De geselecteerde tekst wordt opgemaakt als een lijst met opsommingstekens of er wordt begonnen met het invoegen van een lijst met opsommingstekens na de cursor. Tik of klik nogmaals op de knop Opsommingsteken of voer twee regeleinden in om een lijst met opsommingstekens te beëindigen.
+   - **Pictogram voor opsommingstekens** - De geselecteerde tekst wordt opgemaakt als een lijst met opsommingstekens of er wordt begonnen met het invoegen van een lijst met opsommingstekens na de cursor. Tik of klik nogmaals op de knop Opsommingsteken of voer twee regeleinden in om een lijst met opsommingstekens te beëindigen.
 
-   * **Pictogram Genummerde lijst** - De geselecteerde tekst wordt opgemaakt als een genummerde lijst of er wordt begonnen met het invoegen van een genummerde lijst na de cursor. Tik of klik nogmaals op de knop Genummerd om een genummerde lijst te beëindigen of voer twee regeleinden in.
+   - **Pictogram Genummerde lijst** - De geselecteerde tekst wordt opgemaakt als een genummerde lijst of er wordt begonnen met het invoegen van een genummerde lijst na de cursor. Tik of klik nogmaals op de knop Genummerd om een genummerde lijst te beëindigen of voer twee regeleinden in.
 
-   * **Pictogram Uitspringen** - Hiermee verlaagt u het inspringingsniveau van de geselecteerde tekst of tekst die u na de cursor invoert. Alleen actief als de geselecteerde tekst of positie van de cursor al is ingesprongen.
+   - **Pictogram Uitspringen** - Hiermee verlaagt u het inspringingsniveau van de geselecteerde tekst of tekst die u na de cursor invoert. Alleen actief als de geselecteerde tekst of positie van de cursor al is ingesprongen.
 
-   * **Pictogram Inspringen** - Hiermee verhoogt u het inspringingsniveau van de geselecteerde tekst of tekst die u na de cursor invoert.
+   - **Pictogram Inspringen** - Hiermee verhoogt u het inspringingsniveau van de geselecteerde tekst of tekst die u na de cursor invoert.
 
 ![Hyperlinkopties](/help/adaptive-forms/assets/footer_link.png)
 
-* **Hyperlink**
+- **Hyperlink**
 
-   * **Pad** - Voer het pad in
+   - **Pad** - Voer het pad in
       1. Kies in het dialoogvenster Selectie openen een pad in AEM.
       1. Als de koppeling zich niet binnen AEM bevindt, voert u de absolute URL in.
       1. Niet-absolute paden worden geïnterpreteerd als relatief ten opzichte van AEM.
 
-   * **Alternatieve tekst** - Voer alternatieve beschrijvende tekst in voor de koppeling.
+   - **Alternatieve tekst** - Voer alternatieve beschrijvende tekst in voor de koppeling.
 
-   * **Doel** - Koppelingsgedrag selecteren
-      * Doel
-      * Zelfde tabblad
-      * Nieuw tabblad
-      * Bovenliggend frame
-      * Bovenste frame
+   - **Doel** - Koppelingsgedrag selecteren
+      - Doel
+      - Zelfde tabblad
+      - Nieuw tabblad
+      - Bovenliggend frame
+      - Bovenste frame
 
-   * **Pictogram Ontkoppelen** - Met deze optie verwijdert u een koppeling die al op de geselecteerde tekst is toegepast. Deze optie is alleen actief als de koppeling al is geselecteerd.
+   - **Pictogram Ontkoppelen** - Met deze optie verwijdert u een koppeling die al op de geselecteerde tekst is toegepast. Deze optie is alleen actief als de koppeling al is geselecteerd.
 
-   * **Pictogram Alineaopmaak** - Met deze optie kunt u alineaopmaak toepassen op de geselecteerde tekst. Het helpt u ook om de tekst op te maken die na de curseur wordt opgenomen. Hiermee wordt het kopniveau van de titel gedefinieerd.
+   - **Pictogram Alineaopmaak** - Met deze optie kunt u alineaopmaak toepassen op de geselecteerde tekst. Het helpt u ook om de tekst op te maken die na de curseur wordt opgenomen. Hiermee wordt het kopniveau van de titel gedefinieerd.
 
-* **ID**: Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de gegevenslaag.
+- **ID**: Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de gegevenslaag.
 
-   * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. Deze kan worden gevonden door de resulterende pagina te inspecteren.
-   * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
-   * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
+   - Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. Deze kan worden gevonden door de resulterende pagina te inspecteren.
+   - Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
+   - Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
 <!--
 
@@ -113,31 +113,9 @@ Het dialoogvenster Bewerken bevat standaardgereedschappen voor tekstopmaak waarm
 
 -->
 
+## Verwante artikelen {#related-articles}
 
->[!MORELIKETHIS]
->
->* [Accordeon](/help/adaptive-forms/components/accordion.md)
->* [Knop](/help/adaptive-forms/components/button.md)
->* [Selectievakjesgroep](/help/adaptive-forms/components/checkbox-group.md)
->* [Datumkiezer](/help/adaptive-forms/components/date-picker.md)
->* [Vervolgkeuzelijst](/help/adaptive-forms/components/drop-down.md)
->* [E-mailinvoer](/help/adaptive-forms/components/email-input.md)
->* [Formuliercontainer](/help/adaptive-forms/components/form-container.md)
->* [Bestandsbijlage](/help/adaptive-forms/components/file-attachment.md)
->* [Koptekst](/help/adaptive-forms/components/header.md)
->* [Horizontale tabs](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Afbeelding](/help/adaptive-forms/components/image.md)
->* [Nummerinvoer](/help/adaptive-forms/components/number-input.md)
->* [Deelvenstercontainer](/help/adaptive-forms/components/panel-container.md)
->* [Keuzerondje](/help/adaptive-forms/components/radio-button.md)
->* [Knop Opnieuw instellen](/help/adaptive-forms/components/reset-button.md)
->* [Verzendknop](/help/adaptive-forms/components/submit-button.md)
->* [Telefooninvoer](/help/adaptive-forms/components/telephone-input.md)
->* [Tekstinvoer](/help/adaptive-forms/components/text-input.md)
->* [Tekst](/help/adaptive-forms/components/text.md)
->* [Titel](/help/adaptive-forms/components/title.md)
->* [Wizard](/help/adaptive-forms/components/wizard.md)
-
+{{more-like-this}}
 
 ## Zie ook {#see-also}
 

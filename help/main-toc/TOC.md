@@ -5,9 +5,9 @@ breadcrumb-title: Gids voor kerncomponenten
 feature: Core Components
 user-guide-description: Met de uitbreidbare kerncomponenten kunnen ontwerpers eenvoudig content maken.
 feature-set: Experience Manager Sites
-source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
+source-git-commit: 3e36fdf9b175930ee3a998bf91116c35b3cb6f9d
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '398'
 ht-degree: 6%
 
 ---
@@ -107,12 +107,14 @@ ht-degree: 6%
    + Aangepaste Forms-componenten {#adaptive-forms-components}
       + [Adaptieve Forms-accordeon](/help/adaptive-forms/components/accordion.md)
       + [Aangepaste Forms-knop](/help/adaptive-forms/components/button.md)
+      + [Selectievakje Adaptieve Forms](/help/adaptive-forms/components/checkbox.md)
       + [Aangepaste Forms Checkbox-groep](/help/adaptive-forms/components/checkbox-group.md)
       + [Aangepaste Forms-container](/help/adaptive-forms/components/form-container.md)
       + [Aangepaste Forms-datumkiezer](/help/adaptive-forms/components/date-picker.md)
       + [Aangepaste Forms-vervolgkeuzelijst](/help/adaptive-forms/components/drop-down.md)
       + [Adaptieve Forms-e-mailinvoer](/help/adaptive-forms/components/email-input.md)
       + [Aangepaste Forms-bestandsbijlagen](/help/adaptive-forms/components/file-attachment.md)
+      + [Aangepaste verticale Forms-tabbladen](/help/adaptive-forms/components/vertical-tabs.md)
       + [Adaptieve horizontale Forms-tabs](/help/adaptive-forms/components/horizontal-tabs.md)
       + [Adaptieve Forms-afbeelding](/help/adaptive-forms/components/image.md)
       + [Invoer adaptief Forms-nummer](/help/adaptive-forms/components/number-input.md)
@@ -126,6 +128,7 @@ ht-degree: 6%
       + [Adaptief Forms-tekstvak](/help/adaptive-forms/components/text-input.md)
       + [Aangepaste Forms-titel](/help/adaptive-forms/components/title.md)
       + [Aangepaste Forms Wizard Layout](/help/adaptive-forms/components/wizard.md)
+      + [Aangepaste Forms-voorwaarden](/help/adaptive-forms/components/terms-and-conditions.md)
       + [Koptekst](/help/adaptive-forms/components/header.md)
       + [Voettekst](/help/adaptive-forms/components/footer.md)
    + [Aangepaste Forms Core-componenten aanpassen](/help/developing/customize-adaptive-forms-core-components.md)

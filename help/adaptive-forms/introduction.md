@@ -3,9 +3,9 @@ title: Inleiding Adaptive Forms Core Components AEM
 description: Maak aantrekkelijke inschrijvingservaringen (formulieren) met de flexibiliteit van de Adaptive Forms Core Components en lever deze met de kracht van Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+source-git-commit: 1dbbb598c0856b76c076f322cdf0210bf38ee9e8
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1267'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Deze componenten kunnen worden gebruikt om buitengewone ervaringen met het vastl
 
 Bovendien, aangezien deze componenten open-bron zijn, hebben de ontwikkelaars de capaciteit om de componenten gemakkelijk aan te passen en uit te breiden om aan de specifieke behoeften van hun organisatie te passen. Deze componenten zijn gebaseerd op BEM-methoden die ervoor zorgen dat ze schaalbaar en onderhoudsbaar zijn.
 
-![](assets/sample-adaptive-form.png)
+![adaptieve formulierafbeelding](assets/sample-adaptive-form.png)
 
 ## Functies {#features}
 

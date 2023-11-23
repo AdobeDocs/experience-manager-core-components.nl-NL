@@ -3,9 +3,9 @@ title: Adaptieve Forms Core-component - Verzenden, knop
 description: De kerncomponent van de knop Adaptief Forms verzenden gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
-source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
+source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1380'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,19 @@ Een knop Verzenden in een adaptief formulier is een knop waarmee gebruikers de f
 
 De knop Verzenden is doorgaans de laatste stap in het invulproces van het formulier en wordt gebruikt om het verzenden van de formuliergegevens naar de server te starten.
 
+**Voorbeeld**
+
+![Knopvoorbeeld](/help/adaptive-forms/assets/example-button.png)
+
 ## Gebruik {#reasons-to-use-submit-button}
 
 De redenen voor het gebruik van een verzendknop in een adaptief formulier zijn:
 
-* **Gegevensverzending**: De knop Verzenden is het belangrijkste mechanisme voor het verzenden van formuliergegevens naar een server voor verwerking.
+- **Gegevensverzending**: De knop Verzenden is het belangrijkste mechanisme voor het verzenden van formuliergegevens naar een server voor verwerking.
 
-* **Verbeterde gebruikerservaring**: Een goed ontworpen verzendknop kan de gebruikerservaring verbeteren door duidelijke feedback te geven over het verzendproces van het formulier en aan te geven wanneer het formulier is verzonden.
+- **Verbeterde gebruikerservaring**: Een goed ontworpen verzendknop kan de gebruikerservaring verbeteren door duidelijke feedback te geven over het verzendproces van het formulier en aan te geven wanneer het formulier is verzonden.
 
-* **Gegevensvalidatie**: Met de knop Verzenden kunt u gegevensvalidatiecontroles activeren om ervoor te zorgen dat de formuliergegevens volledig en nauwkeurig zijn voordat deze naar de server worden verzonden.
+- **Gegevensvalidatie**: Met de knop Verzenden kunt u gegevensvalidatiecontroles activeren om ervoor te zorgen dat de formuliergegevens volledig en nauwkeurig zijn voordat deze naar de server worden verzonden.
 
 
 ## Versie en compatibiliteit {#version-and-compatibility}
@@ -53,25 +57,26 @@ Met het dialoogvenster Configureren kunt u de ervaring van de knop Verzenden een
 
 ![Tabblad Standaard](/help/adaptive-forms/assets/button_basictab.png)
 
-* **Naam** - U kunt een formuliercomponent gemakkelijk herkennen met de unieke naam, zowel in het formulier als in de regeleditor, maar de naam mag geen spaties of speciale tekens bevatten.
+- **Naam** - U kunt een formuliercomponent gemakkelijk herkennen met de unieke naam, zowel in het formulier als in de regeleditor, maar de naam mag geen spaties of speciale tekens bevatten.
 
-* **Titel** - Met Titel kunt u een component gemakkelijk herkennen in een formulier. Standaard wordt de titel boven op de component weergegeven. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
+- **Titel** - Met Titel kunt u een component gemakkelijk herkennen in een formulier. Standaard wordt de titel boven op de component weergegeven. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
 
-* **Bindverwijzing** - Een bind verwijzing is een verwijzing naar een gegevenselement dat in een externe gegevensbron wordt opgeslagen en in een vorm wordt gebruikt. Met de bind-verwijzing kunt u gegevens dynamisch binden aan formuliervelden, zodat in het formulier de meest actuele gegevens uit de gegevensbron kunnen worden weergegeven. Een bind-verwijzing kan bijvoorbeeld worden gebruikt om de naam en het adres van een klant in een formulier weer te geven op basis van de id van de klant die in het formulier is ingevoerd. De bind verwijzing kan ook worden gebruikt om de gegevensbron met gegevens bij te werken ingegaan in de vorm. Op deze manier kunt u in AEM Forms formulieren maken die interageren met externe gegevensbronnen, zodat u een naadloze gebruikerservaring hebt voor het verzamelen en beheren van gegevens.
+- **Bindverwijzing** - Een bind verwijzing is een verwijzing naar een gegevenselement dat in een externe gegevensbron wordt opgeslagen en in een vorm wordt gebruikt. Met de bind-verwijzing kunt u gegevens dynamisch binden aan formuliervelden, zodat in het formulier de meest actuele gegevens uit de gegevensbron kunnen worden weergegeven. Een bind-verwijzing kan bijvoorbeeld worden gebruikt om de naam en het adres van een klant in een formulier weer te geven op basis van de id van de klant die in het formulier is ingevoerd. De bind verwijzing kan ook worden gebruikt om de gegevensbron met gegevens bij te werken ingegaan in de vorm. Op deze manier kunt u in AEM Forms formulieren maken die interageren met externe gegevensbronnen, zodat u een naadloze gebruikerservaring hebt voor het verzamelen en beheren van gegevens.
+- **Markeren als niet-gebonden formulierelement**: Selecteer de optie om een formulierveld te configureren dat niet is gekoppeld aan een schema. Met deze optie kunt u gegevens opslaan zonder de gegevensbron bij te werken. Het laat u ook toe om gegevens op een douanemethode, los van standaardgegevensbestandintegratie te behandelen.
 
-* **Component verbergen** - Selecteer de optie om de component te verbergen voor het formulier. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel. Dit is handig wanneer u informatie wilt opslaan die niet hoeft te worden bekeken of rechtstreeks door de gebruiker hoeft te worden gewijzigd.
-* **Component uitschakelen** - Selecteer de optie om de component uit te schakelen. De uitgeschakelde component is niet actief of bewerkbaar voor de eindgebruiker. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
-* **Alleen-lezen** - Selecteer de optie om de component niet-bewerkbaar te maken. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
+- **Component verbergen** - Selecteer de optie om de component te verbergen voor het formulier. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel. Dit is handig wanneer u informatie wilt opslaan die niet hoeft te worden bekeken of rechtstreeks door de gebruiker hoeft te worden gewijzigd.
+- **Component uitschakelen** - Selecteer de optie om de component uit te schakelen. De uitgeschakelde component is niet actief of bewerkbaar voor de eindgebruiker. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
+- **Alleen-lezen** - Selecteer de optie om de component niet-bewerkbaar te maken. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
 
 ### Het tabblad Help-inhoud {#help-content}
 
 ![Help-inhoud, tabblad](/help/adaptive-forms/assets/button_helptab.png)
 
-* **Korte beschrijving** - Een korte beschrijving is een korte tekstuitleg met aanvullende informatie of verduidelijking over het doel van een specifiek formulierveld. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. De optie **Altijd korte beschrijving tonen** gebruiken om de achtergrondafbeelding onder de component weer te geven.
+- **Korte beschrijving** - Een korte beschrijving is een korte tekstuitleg met aanvullende informatie of verduidelijking over het doel van een specifiek formulierveld. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. De optie **Altijd korte beschrijving tonen** gebruiken om de achtergrondafbeelding onder de component weer te geven.
 
-* **Altijd korte beschrijving tonen** - Schakel de optie in om de korte beschrijving onder de component weer te geven.
+- **Altijd korte beschrijving tonen** - Schakel de optie in om de korte beschrijving onder de component weer te geven.
 
-* **Help-tekst** - De Help-tekst verwijst naar aanvullende informatie of aanwijzingen die de gebruiker krijgt om deze te helpen bij het correct invullen van een formulierveld. Deze wordt weergegeven wanneer de gebruiker op het Help-pictogram (i) naast de component klikt. De Help-tekst biedt gedetailleerdere informatie dan de label- of plaatsaanduidingstekst van een formulierveld en is ontworpen om de gebruiker te helpen de vereisten of beperkingen van het veld te begrijpen. Het kan ook suggesties of voorbeelden bevatten om het invullen van het formulier eenvoudiger en nauwkeuriger te maken.
+- **Help-tekst** - De Help-tekst verwijst naar aanvullende informatie of aanwijzingen die de gebruiker krijgt om deze te helpen bij het correct invullen van een formulierveld. Deze wordt weergegeven wanneer de gebruiker op het Help-pictogram (i) naast de component klikt. De Help-tekst biedt gedetailleerdere informatie dan de label- of plaatsaanduidingstekst van een formulierveld en is ontworpen om de gebruiker te helpen de vereisten of beperkingen van het veld te begrijpen. Het kan ook suggesties of voorbeelden bevatten om het invullen van het formulier eenvoudiger en nauwkeuriger te maken.
 
 ### Toegankelijkheid {#accessibility}
 
@@ -87,45 +92,29 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de knop Verzende
 
 Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De kerncomponent van de knop Adaptief Forms verzenden ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
 
-![Ontwerpdialoogvenster](/help/adaptive-forms/assets/reset_designdialog.png)
+![Ontwerpdialoogvenster](/help/adaptive-forms/assets/checkbox-style.png)
 
+- **Standaard CSS-klassen**: U kunt een standaard CSS-klasse opgeven voor de Adaptive Forms Checkbox Group Core-component.
 
-* **Standaard CSS-klassen**: U kunt een standaard CSS-klasse opgeven voor de Adaptive Forms Submit-kerncomponent van de knop.
+- **Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight: bold&quot; opgeven. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
 
-* **Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight: bold&quot; opgeven. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
+### Aangepaste eigenschappen
 
-<!--
+![Dialoogvenster Aangepaste eigenschappen](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-## Related article {#related-article}
+Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aan een Adaptief kernonderdeel van een formulier koppelen met behulp van de formuliersjabloon. De aangepaste eigenschappen worden weergegeven in de sectie Eigenschappen van de koploze uitvoering van de component. Hiermee kunt u dynamisch formuliergedrag maken dat wordt aangepast op basis van de waarden van aangepaste kenmerken. Ontwikkelaars kunnen bijvoorbeeld verschillende uitvoeringen van een Forms-component zonder koptekst ontwerpen voor mobiele apparaten, desktops of webplatforms, waardoor de gebruikerservaring op een groot aantal apparaten aanzienlijk wordt verbeterd.
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+- **Groepsnaam**: U kunt een naam opgeven om de groep met aangepaste eigenschappen te identificeren. U kunt meerdere groepen met aangepaste eigenschappen toevoegen, verwijderen of opnieuw rangschikken. Nadat u de aangepaste groep eigenschappen hebt toegevoegd, kunt u de volgende opties zien:
 
--->
+   - **Belangrijke paren**: U kunt meerdere aangepaste eigenschapnamen en aangepaste eigenschapswaarden toevoegen door op de knop **Toevoegen** knop voor elke aangepaste groep eigenschappen.
 
+   - **Verwijderen**: Tik of klik om de naam van de aangepaste eigenschap en de waarde van de aangepaste eigenschap te verwijderen.
 
->[!MORELIKETHIS]
->
->* [Accordeon](/help/adaptive-forms/components/accordion.md)
->* [Knop](/help/adaptive-forms/components/button.md)
->* [Selectievakjesgroep](/help/adaptive-forms/components/checkbox-group.md)
->* [Datumkiezer](/help/adaptive-forms/components/date-picker.md)
->* [Vervolgkeuzelijst](/help/adaptive-forms/components/drop-down.md)
->* [E-mailinvoer](/help/adaptive-forms/components/email-input.md)
->* [Formuliercontainer](/help/adaptive-forms/components/form-container.md)
->* [Bestandsbijlage](/help/adaptive-forms/components/file-attachment.md)
->* [Voettekst](/help/adaptive-forms/components/footer.md)
->* [Koptekst](/help/adaptive-forms/components/header.md)
->* [Horizontale tabs](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Afbeelding](/help/adaptive-forms/components/image.md)
->* [Nummerinvoer](/help/adaptive-forms/components/number-input.md)
->* [Deelvenstercontainer](/help/adaptive-forms/components/panel-container.md)
->* [Keuzerondje](/help/adaptive-forms/components/radio-button.md)
->* [Knop Opnieuw instellen](/help/adaptive-forms/components/reset-button.md)
->* [Telefooninvoer](/help/adaptive-forms/components/telephone-input.md)
->* [Tekstinvoer](/help/adaptive-forms/components/text-input.md)
->* [Tekst](/help/adaptive-forms/components/text.md)
->* [Titel](/help/adaptive-forms/components/title.md)
->* [Wizard](/help/adaptive-forms/components/wizard.md)
+   - **Opnieuw rangschikken**: Tik of klik en sleep om de volgorde van de naam van de aangepaste eigenschap en de waarde van de aangepaste eigenschap te wijzigen.
+
+## Verwante artikelen {#related-articles}
+
+{{more-like-this}}
 
 
 ## Zie ook {#see-also}
