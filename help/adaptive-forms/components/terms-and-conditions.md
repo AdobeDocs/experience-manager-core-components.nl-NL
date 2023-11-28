@@ -2,15 +2,13 @@
 title: Adaptive Forms Core Component - Voorwaarden en bepalingen
 description: De kerncomponent Adaptive Forms Terms and Conditions gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
-hide: true
-hidefromtoc: true
-source-git-commit: ecc6ba79ba5e90bd6e759353d15ca85ce404d769
+exl-id: c607d554-ad2d-4434-856d-91e174ef3149
+source-git-commit: f0b450ef93a32a56000c31d82bf92394c57b55f9
 workflow-type: tm+mt
 source-wordcount: '2639'
 ht-degree: 0%
 
 ---
-
 
 # Component Voorwaarden en bepalingen
 
@@ -222,4 +220,3 @@ U kunt de [Component CheckBox](/help/adaptive-forms/components/checkbox.md) afzo
 ## Zie ook {#see-also}
 
 {{see-also}}
-
