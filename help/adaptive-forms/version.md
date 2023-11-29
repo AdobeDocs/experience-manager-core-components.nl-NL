@@ -3,10 +3,10 @@ title: AEM Forms Core Components-versies
 description: AEM Core Components worden gepubliceerd als releases die meerdere versies van dezelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies beschikbaar zijn en hoe u de compatibiliteit met Core Components en AEM begrijpt.
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: f53be69df3dff9f3873a3bda6ba331f76de75487
+source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '885'
+ht-degree: 7%
 
 ---
 
@@ -36,7 +36,7 @@ De volgende lijst presenteert een lijst van de versies van de Componenten van de
 | [2.0.34](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.34) | Toegevoegde lokalisatieondersteuning voor standaardfoutberichten samen met de knop Toevoegen/Verwijderen voor de component Repeatable. | Continu | 8, 11 | 28 juni 2023 |
 | [2.0.32](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.32) | Met deze release wordt ondersteuning voor Captcha toegevoegd voor Adaptive Forms. | Continu | 8, 11 | 15 juni 2023 |
 | [2.0.26](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.26) | Ondersteuning voor het toevoegen van adaptieve formulieren op AEM Sites. | Continu | 8, 11 | 7 juni 2023 |
-| [2.0.18](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.18) | Met deze release biedt deze functie ondersteuning voor een herhaalbaarheid voor de component Accordion. | Continu | 8, 11 | 5 juni 2023 |
+| [2.0.18](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.18) | Met deze release biedt deze functie ondersteuning voor een herhaalbaarheid voor de component Accordion. Er is ook een nieuwe component toegevoegd als verticale tabbladen. | Continu | 8, 11 | 5 juni 2023 |
 | [2.0.10](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.10) | Met deze versie, wordt de steun voor een Adaptieve component van de Container van de Vorm geïntroduceerd in de redacteur van Plaatsen. | Continu | 8, 11 | 17 maart 2023 |
 | [2.0.8](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.8) | De eigenschap van de herhaalbaarheid voor de tovenaar wordt geïntroduceerd in deze versie. | Continu | 8, 11 | 3 maart 2023 |
 | [2.0.6](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | Deze release bevat meerdere indelingen voor de numerieke input-kerncomponent. | Continu | 8, 11 | 8 februari 2023 |

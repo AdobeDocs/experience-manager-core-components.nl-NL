@@ -3,7 +3,7 @@ title: Adaptive Forms Core Component - Voorwaarden en bepalingen
 description: De kerncomponent Adaptive Forms Terms and Conditions gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: f0b450ef93a32a56000c31d82bf92394c57b55f9
+source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
 workflow-type: tm+mt
 source-wordcount: '2639'
 ht-degree: 0%
@@ -36,11 +36,11 @@ Zie [Subcomponenten van de component Voorwaarden en Voorwaarden](#sub-component)
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms Accordion Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms Accordion Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.62 for Cloud Service and Core Components 1.1.28 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
-| v1 | Compatibel met<br>[versie 2.0.4](/help/adaptive-forms/version.md) en hoger | Compatibel met<br>[release 1.1.12](/help/adaptive-forms/version.md) en later, maar minder dan 2.0.0. |
+| v1 | Compatibel met<br>[release 2.0.62](/help/adaptive-forms/version.md) en hoger | Compatibel met<br>[release 1.1.28](/help/adaptive-forms/version.md) en later, maar minder dan 2.0.0. |
 
 Raadpleeg voor meer informatie over versies en releases van de Core Component de [Versies van kerncomponenten](/help/adaptive-forms/version.md) document.
 

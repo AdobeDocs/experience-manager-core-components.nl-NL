@@ -3,9 +3,9 @@ title: Adaptieve Forms Core-component - Selectievakje
 description: De Adaptive Forms Checkbox Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: f0b450ef93a32a56000c31d82bf92394c57b55f9
+source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
 workflow-type: tm+mt
-source-wordcount: '1708'
+source-wordcount: '1706'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,13 @@ De algemene redenen om een selectievakje in een adaptief formulier te gebruiken 
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms Checkbox Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms Checkbox Core Component is uitgebracht als onderdeel van Core Components 2.0.52. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
 |  |  |
 |---|---|
 | Componentversie | AEM as a Cloud Service |
 | — | --- |
-| v1 | Compatibel met<br>[versie 2.0.4](/help/versions.md) en hoger | Compatibel | Compatibel |
+| v1 | Compatibel met<br>[release 2.0.52](/help/versions.md) en hoger | Compatibel | Compatibel |
 
 Raadpleeg voor meer informatie over versies en releases van de Core Component de [Versies van kerncomponenten](/help/versions.md) document.
 
