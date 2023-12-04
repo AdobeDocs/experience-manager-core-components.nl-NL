@@ -3,14 +3,14 @@ title: Adaptive Forms Core Component - Verticale tabbladen
 description: De Adaptive Forms Vertical tabs Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
+source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
 workflow-type: tm+mt
-source-wordcount: '1927'
+source-wordcount: '1904'
 ht-degree: 0%
 
 ---
 
-# Verticale tabs {#vertical-tabs-adaptive-forms-core-component}
+# Component Verticale tabs{#vertical-tabs-adaptive-forms-core-component}
 
 De verticale tabbladen in een adaptief formulier verwijzen naar een ontwerppatroon, waarbij meerdere secties van een formulier zijn gegroepeerd en worden weergegeven als afzonderlijke tabbladen, die verticaal zijn uitgelijnd. De gebruiker kan schakelen tussen de tabbladen om toegang te krijgen tot verschillende secties van het formulier. Elk tabblad fungeert als trigger voor het weergeven en verbergen van de gerelateerde formulierinhoud. Met de verticale tabbladen kunt u lange formulieren ordenen in hanteerbare gedeelten en de gebruikerservaring verbeteren. Tabs kunnen ertoe bijdragen dat een formulier toegankelijker wordt voor gebruikers met een handicap, aangezien ze met behulp van toetsenbordnavigatie tussen secties kunnen schakelen.
 
@@ -37,7 +37,7 @@ De Adaptive Forms Vertical tabs Core Component is uitgebracht als onderdeel van 
 |  |  |
 |---|---|
 | Componentversie | AEM as a Cloud Service |
-| — | --- |
+| — | — |
 | v1 | Compatibel met<br>[release 2.0.18](/help/versions.md) en hoger | Compatibel | Compatibel |
 
 Raadpleeg voor meer informatie over versies en releases van de Core Component de [Versies van kerncomponenten](/help/versions.md) document.
