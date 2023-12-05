@@ -6,7 +6,7 @@ topic: Administration
 role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
-source-git-commit: ef86dfa62df0ac7f34ec1c4c4175e8a8132c8aed
+source-git-commit: 0f0c20c9fba6f062021721d6f48a42cc830b5a7c
 workflow-type: tm+mt
 source-wordcount: '1239'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Wanneer u een AEM archetype implementeert, kunt u alleen de OOTB-thema&#39;s in 
 1. **AEM 6.5**
 
     1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html)
-    1. [Deploy an AEM Archetype 45 or later project to your environment](https://github.com/adobe/aem-project-archetype)
+    1. [Deploy an AEM Archetype 47 or later project to your environment](https://github.com/adobe/aem-project-archetype)
 
 
     When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy the themes.
@@ -66,9 +66,9 @@ Wanneer u een AEM archetype implementeert, kunt u alleen de OOTB-thema&#39;s in 
 
 <!--
 
-### Deploying an AEM Archetype 45 or later project to your environment {#using-archetype-to-deploy-themes}
+### Deploying an AEM Archetype 47 or later project to your environment {#using-archetype-to-deploy-themes}
 
-You can get these themes by deploying an [AEM Archetype 45 or later](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
+You can get these themes by deploying an [AEM Archetype 47 or later](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
 
 ### Enable core components and use front-end pipeline to deploy themes {#use-front-end-pipeline-to-deploy-themes}
 
@@ -124,7 +124,8 @@ Het thema Gezondheid maakt gebruik van rijke, verdorvene tonen om elementen zoal
 Sjablonen definiëren de initiële formulierstructuur, inhoud en handelingen die in het formulier moeten worden herhaald of gebruiken een vergelijkbare sjabloonstructuur als het formulier, zoals Goedkeuring, Voordelen, Inschrijvingsformulier en nog veel meer.
 
 **Hoe krijg je deze sjablonen?**
-U kunt deze malplaatjes krijgen door op te stellen [Archetype 45 of hoger AEM](https://github.com/adobe/aem-project-archetype) aan uw **AEM Forms as a Cloud Service** milieu of **AEM 6,5 Forms** milieu.
+
+U kunt deze malplaatjes krijgen door op te stellen [Archetype 47 of hoger AEM](https://github.com/adobe/aem-project-archetype) aan uw **AEM Forms as a Cloud Service** milieu of **AEM 6,5 Forms** milieu.
 
 <!--
 
