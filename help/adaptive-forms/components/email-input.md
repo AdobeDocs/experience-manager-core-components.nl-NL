@@ -3,9 +3,9 @@ title: Adaptive Forms Core Component - E-mailinvoer
 description: De Adaptive Forms Email input Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
+source-git-commit: 120f8023ac2e13380e59703e199dc929176a59b6
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1916'
 ht-degree: 0%
 
 ---
@@ -96,9 +96,10 @@ Met het dialoogvenster Configureren kunt u uw e-mailinvoerervaring eenvoudig aan
 - **Foutbericht voor minimale tekens** - de **Foutbericht voor minimale tekens** kunt u een aangepast foutbericht toevoegen als u tekens invoert die kleiner zijn dan de waarde die in het dialoogvenster is opgegeven **Minimum aantal tekens** -optie.
 <br>
 
-    Met de optie **Validatiepatroon** kunt u een patroon invoeren waarmee de ingevoerde e-mailid wordt gevalideerd. Als de e-mailid niet kan valideren met de waarde die is ingevoerd in de optie **Pattern**, verschijnt het foutbericht op het scherm.
-    - **Patroon** - Met deze optie kunt u de toegestane verificatiepatronen invoeren voor e-mail. Reguliere expressies zijn ook toegestaan.
-    - **Foutbericht** - Met deze optie kunt u een bericht invoeren dat op het scherm wordt weergegeven als de e-mailid niet kan worden gevalideerd met de waarde die is ingevoerd in de optie **Pattern**
+De **Validatiepatroon** kunt u een patroon invoeren om de ingevoerde e-mailadres te valideren. Als de e-mailid niet kan worden gevalideerd met de waarde die u hebt ingevoerd **Patroon** weergegeven op het scherm.
+
+- **Patroon** - Met deze optie kunt u de toegestane verificatiepatronen invoeren voor e-mail. Reguliere expressies zijn ook toegestaan.
+- **Foutbericht** - Met deze optie kunt u een bericht invoeren dat op het scherm wordt weergegeven als de e-mailid niet kan worden gevalideerd met de waarde die is ingevoerd in het dialoogvenster **Patroon** option
 
 ### Het tabblad Help-inhoud {#help-content-tab}
 
