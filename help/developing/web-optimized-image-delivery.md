@@ -3,9 +3,9 @@ title: Webgeoptimaliseerde afbeeldingslevering
 description: Leer hoe de Core Components AEM as a Cloud Service webgeoptimaliseerde functies voor het leveren van afbeeldingen kunnen gebruiken om afbeeldingen efficiënter te leveren.
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: d8c8f4c3395313b21f56fd7d98175924287c367c
+source-git-commit: a312eb7a1dc68a264eaf0938c450a17f7cbc4506
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Het voordeel van deze techniek is dat de `img` elementen en de kenmerken ervan k
 
 ### Kan ik voor het web geoptimaliseerde afbeeldingslevering gebruiken met mijn eigen component?
 
-Ja, de webgeoptimaliseerde service voor het leveren van afbeeldingen kan worden gebruikt door aangepaste componenten. Adobe beveelt aan [de component Image uitbreiden](/help/developing/customizing.md) in dit geval.
+Ja, de webgeoptimaliseerde service voor het leveren van afbeeldingen kan worden gebruikt door aangepaste componenten, die zijn samengesteld door [de component Image uitbreiden,](/help/developing/customizing.md)
 
 Hieronder volgt een serviceinterface die kan worden gebruikt om de element-URL te genereren.
 
@@ -96,7 +96,9 @@ Hieronder volgt een serviceinterface die kan worden gebruikt om de element-URL t
 com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String, Object> parameterMap)
 ```
 
-**Houd er rekening mee dat directe URL-insluitingen in een ervaring die niet is gemaakt via Core Components die op AEM Sites CS wordt uitgevoerd, in strijd zijn met de Media Library-licentievoorwaarden.**
+>[!WARNING]
+>
+>Directe URL-insluitingen in een ervaring die niet is opgebouwd via Core Components die op AEM Sites CS worden uitgevoerd, zijn in strijd met de Media Library-licentievoorwaarden.
 
 ### Wat is de URL van een afbeelding die door de nieuwe beeldservice wordt geleverd? {#url}
 
