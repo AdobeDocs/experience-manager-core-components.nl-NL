@@ -1,58 +1,60 @@
 ---
-title: Adaptieve Forms Core-component - Selectievakje
-description: De Adaptive Forms Checkbox Core-component gebruiken of aanpassen.
+title: Adaptieve Forms Core-component - Switch-component
+description: De Adaptive Forms Switch Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
-exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+hide: true
+hidefromToC: true
+source-git-commit: d172e019c5621d950a94cbdd8d27e4834dbabe3b
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1689'
 ht-degree: 0%
 
 ---
 
-# Component Selectievakje{#checkbox-component}
 
-Een selectievakje is een grafisch interface-element dat vaak wordt gebruikt in softwaretoepassingen en formulieren, zodat gebruikers een binaire keuze kunnen maken tussen twee opties: ingeschakeld (geselecteerd) of uitgeschakeld (uitgeschakeld).
+# Component wisselen{#switch-adaptive-forms-core-component}
 
-Een selectievakje wordt meestal weergegeven als een klein vierkant dat in- of uitgeschakeld kan worden door erop te klikken of erop te tikken. Als een selectievakje is ingeschakeld, wordt een vinkje weergegeven om aan te geven dat de bijbehorende optie of functie actief of ingeschakeld is.
+De component switch is een grafische gebruikersinterface die in formulieren wordt gebruikt en die gebruikers in staat stelt uit twee opties te kiezen. Het is meestal een schakeloptie met twee statussen waarmee gebruikers kunnen kiezen tussen twee statussen, waarbij een functie, instelling of functionaliteit wordt in- of uitgeschakeld. De schakelaarcomponent wordt ontworpen om de huidige staat en vertoning visueel te vertegenwoordigen of een bepaalde eigenschap wordt aangezet of weg.
 
-**Voorbeeld**
+De schakelaarcomponent is een booleaanse controleelement dat de waarde aan waar of vals plaatst. Het wordt bijvoorbeeld gebruikt om een functie in of uit te schakelen, zoals geluid dempen of dempen, of Bluetooth of WiFi in- of uitschakelen.
 
-![groep selectievakjes](/help/adaptive-forms/assets/checkbox-example.png)
+![Componentvoorbeeld wijzigen](/help/adaptive-forms/assets/switch-example.png)
 
-## Gebruik {#reasons-to-use-checkbox}
+## Gebruik {#reasons-to-use-switch}
 
-De algemene redenen om een selectievakje in een adaptief formulier te gebruiken zijn:
+De algemene redenen om over te schakelen in een adaptieve vorm zijn:
 
-- **Gebruiksgemak**: Selectievakjes zijn visueel duidelijk en bieden een eenvoudige manier om binaire keuzes te maken. Ze zijn intuïtief en gemakkelijk te begrijpen en maken ze gebruiksvriendelijk.
+- **Gebruikersinteractie**: De gebruikers kunnen met de schakelaarcomponent in wisselwerking staan door op het te klikken of te tikken.
 
-- **Goedkeuring en Overeenkomst**: Selectievakjes worden gebruikt om de toestemming van de gebruiker voor verschillende doeleinden te verkrijgen, bijvoorbeeld het accepteren van voorwaarden, het abonneren op nieuwsbrieven of het bevestigen van leeftijdsverificatie. Ze maken duidelijk dat de gebruiker actief met iets instemt.
+- **Staten**: De component switch heeft twee statussen: AAN en UIT. De aanvankelijke staat van de schakelaarcomponent hangt van het gebrek af dat of de huidige status van de eigenschap plaatst die het controleert.
 
-- **Visuele bevestiging**: Ingeschakelde selectievakjes geven gebruikers een visuele bevestiging dat hun selectie is opgenomen. Deze feedback helpt gebruikersfouten te voorkomen en zorgt ervoor dat gebruikers weten dat hun keuzes zijn geregistreerd.
+- **Visuele vertegenwoordiging**: De schakelcomponent geeft visueel de huidige toestand door de kleur of positie te wijzigen.
 
-- **Foutpreventie**: Met selectievakjes wordt de kans op fouten verkleind doordat gebruikers de keuzes kunnen controleren en bevestigen voordat het formulier wordt verzonden.
+- **Functie voor besturing**: De component switch wordt gebruikt om specifieke functionaliteit in een AEM vorm in of uit te schakelen. Zo kunnen gebruikers bijvoorbeeld een functie in- of uitschakelen.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms Checkbox Core Component is uitgebracht als onderdeel van Core Components 2.0.52. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms Switch Core Component is uitgebracht als onderdeel van Core Components 2.0.64. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
 |  |  |
 |---|---|
 | Componentversie | AEM as a Cloud Service |
 | — | — |
-| v1 | Compatibel met<br>[release 2.0.52](/help/adaptive-forms/version.md) en hoger | Compatibel | Compatibel |
+| v1 | Compatibel met<br>[release 2.0.64](/help/adaptive-forms/version.md) en hoger | Compatibel | Compatibel |
 
 Raadpleeg voor meer informatie over versies en releases van de Core Component de [Versies van kerncomponenten](/help/adaptive-forms/version.md) document.
 
 ## Technische details {#technical-details}
 
-Lees de nieuwste informatie over de Adaptive Forms Checkbox Core Component in de technische documentatie over [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkbox/v1/checkbox). Voor meer informatie over het ontwikkelen van Core Components, bekijk [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+Ga voor de meest recente informatie over de Adaptive Forms Switch Core Component naar de technische documentatie op [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/switch/v1/switch). Voor meer informatie over het ontwikkelen van Core Components, bekijk [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
-Met het dialoogvenster Configureren kunt u de ervaring in het selectievakje voor bezoekers eenvoudig aanpassen. U kunt ook eenvoudig opties voor selectievakjes definiëren voor een naadloze gebruikerservaring.
+U kunt uw ervaring van de component van de Schakelaar voor bezoekers gemakkelijk aanpassen met Configure Dialoog. U kunt de opties voor de component Switch eenvoudig definiëren voor een naadloze gebruikerservaring.
 
-![Het tabblad Basis](/help/adaptive-forms/assets/checkbox-basic.png)
+### Tabblad Standaard
+
+![Het tabblad Basis](/help/adaptive-forms/assets/switch-basic.png)
 
 - **Naam** - U kunt een formuliercomponent gemakkelijk herkennen met de unieke naam, zowel in het formulier als in de regeleditor, maar de naam mag geen spaties of speciale tekens bevatten.
 
@@ -60,28 +62,26 @@ Met het dialoogvenster Configureren kunt u de ervaring in het selectievakje voor
 
 - **Titel verbergen** - Selecteer de optie om de titel van de component te verbergen.
 
-- **Bindverwijzing** - Een bind verwijzing is een verwijzing naar een gegevenselement dat in een externe gegevensbron wordt opgeslagen en in een vorm wordt gebruikt. Met de bind-verwijzing kunt u gegevens dynamisch binden aan formuliervelden, zodat in het formulier de meest actuele gegevens uit de gegevensbron kunnen worden weergegeven. Een bind-verwijzing kan bijvoorbeeld worden gebruikt om de naam en het adres van een klant in een formulier weer te geven op basis van de id van de klant die in het formulier is ingevoerd. De bind verwijzing kan ook worden gebruikt om de gegevensbron met gegevens bij te werken ingegaan in de vorm. Op deze manier kunt u met AEM Forms formulieren maken die interageren met externe gegevensbronnen, zodat u een naadloze gebruikerservaring hebt voor het verzamelen en beheren van gegevens.
+- **Statuswaarde voor uitschakelen behouden** - Als u deze optie selecteert, kunt u de waarde opgeven die moet worden geretourneerd wanneer de schakelcomponent niet is geselecteerd.
+- **Opties** - Geef de gegevenswaarde en de weergavetekst voor elke optie op.
+   - **Gegevenswaarde** - Geef de waarde op die moet worden verzonden wanneer de switch in een adaptieve vorm is ingeschakeld.
+   - **Tekst weergeven** - Geef de tekst op die als label moet worden weergegeven wanneer de schakelaar is ingeschakeld in een adaptief formulier.
+   - **Uit-gegevenswaarde** - Geef de waarde op die moet worden verzonden wanneer de switch niet in een adaptieve vorm is ingeschakeld. Deze optie is alleen zichtbaar als de **Statuswaarde voor uitschakelen behouden** switch is ingeschakeld.
+   - **Niet-weergegeven tekst** - Geef de tekst op die als label moet worden weergegeven wanneer de switch niet is ingeschakeld in een adaptief formulier. Deze optie is alleen zichtbaar als de **Statuswaarde voor uitschakelen behouden** switch is ingeschakeld.
 
+- **Bindverwijzing** - Een bind verwijzing is een verwijzing naar een gegevenselement dat in een externe gegevensbron wordt opgeslagen en in een vorm wordt gebruikt. Met de bind-verwijzing kunt u gegevens dynamisch binden aan formuliervelden, zodat in het formulier de meest actuele gegevens uit de gegevensbron kunnen worden weergegeven. Een bind-verwijzing kan bijvoorbeeld worden gebruikt om de naam en het adres van een klant in een formulier weer te geven op basis van de id van de klant die in het formulier is ingevoerd. De bind verwijzing kan ook worden gebruikt om de gegevensbron met gegevens bij te werken ingegaan in de vorm. Op deze manier kunt u met AEM Forms formulieren maken die interageren met externe gegevensbronnen, zodat u een naadloze gebruikerservaring hebt voor het verzamelen en beheren van gegevens.
 - **Markeren als niet-gebonden formulierelement**: Selecteer de optie om een formulierveld te configureren dat niet is gekoppeld aan een schema. Met deze optie kunt u gegevens opslaan zonder de gegevensbron bij te werken. Het laat u ook toe om gegevens op een douanemethode, los van standaardgegevensbestandintegratie te behandelen.
 
 - **Gegevenstype van verzonden waarde**: Met deze optie geeft u het gegevenstype op van de waarde die wordt verzonden wanneer een optie is geselecteerd. Als de **gegevenstype van verzonden waarde** is ingesteld op `Number` en u voegt tekenreeksgegevens toe aan **Gegevenswaarde** &#x200B; &#x200B; op de **Opties** tabblad geeft het scherm een `Value type mismatch` foutbericht.
-
 - **Component verbergen** - Selecteer de optie om de component te verbergen voor het formulier. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel. Dit is handig wanneer u informatie wilt opslaan die niet hoeft te worden bekeken of rechtstreeks door de gebruiker hoeft te worden gewijzigd.
 
 - **Component uitschakelen** - Selecteer de optie om de component uit te schakelen of te vergrendelen. De uitgeschakelde component is niet actief of bewerkbaar voor de eindgebruiker. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
-- **Alleen-lezen** - Selecteer de optie om de component niet-bewerkbaar te maken. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
-- **Retourwaarde bij controle** -Selecteer deze optie om op te geven welke waarde aan het selectievakje moet worden gekoppeld wanneer dit wordt ingeschakeld. Het is de actie die voorkomt wanneer u of checkbox merkt.
-- **Schakel Uitschakelen in.**- Selecteer de optie om een eerder ingeschakeld selectievakje in of uit te schakelen.
-   - Indien **Uitschakelen inschakelen** is ingeschakeld of ingesteld op true, betekent dit dat de gebruiker naar eigen goeddunken het selectievakje kan in- en uitschakelen. Ze kunnen het selectievakje naar wens in- en uitschakelen.
-
-   - Indien **Uitschakelen inschakelen** is uitgeschakeld of op false is ingesteld, betekent dit dat de gebruiker het selectievakje niet mag uitschakelen als het selectievakje eenmaal is ingeschakeld.
-- **Retourwaarde indien uitgeschakeld** - Met deze optie kunt u opgeven welke waarde aan het selectievakje moet worden gekoppeld wanneer het selectievakje is uitgeschakeld of uitgeschakeld.
 
 - **Standaardwaarde**: Met deze optie kunt u een standaardwaarde toevoegen aan een formulierveld. Indien **Uitgeschakelde component** of **Component (alleen-lezen)** is geselecteerd, wordt de standaardwaarde op het scherm weergegeven. Als geen waarde wordt ingevoerd door de gebruiker in het formulierveld, wordt deze waarde verzonden op het moment dat het formulier wordt verzonden.
 
 ### Tabblad Validatie {#validation-tab}
 
-![Tabblad Validatie](/help/adaptive-forms/assets/checkbox-validation.png)
+![Tabblad Validatie](/help/adaptive-forms/assets/switch-validation.png)
 
 - **Vereist** - Selecteer deze optie als u de component wilt weergeven in een adaptief formulier. Nadat u de optie hebt geselecteerd, moet u een selectie maken voordat u een formulier kunt verzenden. U kunt de **Component verbergen** of **Component uitschakelen**  in de **Basis** als deze optie is geselecteerd.
 
@@ -91,7 +91,7 @@ Met het dialoogvenster Configureren kunt u de ervaring in het selectievakje voor
 
 ### Het tabblad Help-inhoud {#helpcontent-tab}
 
-![Help-inhoud, tabblad](/help/adaptive-forms/assets/checkbox-help.png)
+![Help-inhoud, tabblad](/help/adaptive-forms/assets/switch-help.png)
 
 - **Korte beschrijving** - Een korte beschrijving is een korte tekstuitleg met aanvullende informatie of verduidelijking over het doel van een specifiek formulierveld. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. De optie **Altijd korte beschrijving tonen** gebruiken om de achtergrondafbeelding onder de component weer te geven.
 
@@ -101,21 +101,29 @@ Met het dialoogvenster Configureren kunt u de ervaring in het selectievakje voor
 
 ### Tabblad Toegankelijkheid {#accessibility-tab}
 
-![Toegankelijkheid, tabblad](/help/adaptive-forms/assets/checkbox-accessibility.png)
+![Toegankelijkheid, tabblad](/help/adaptive-forms/assets/switch-accessibility.png)
 
-**Tekst voor schermlezers** - Tekst voor schermlezers verwijst naar extra tekst die specifiek is bedoeld om te worden gelezen door ondersteunende hulpmiddelen, zoals schermlezers, die door visueel gehandicapten worden gebruikt. Deze tekst bevat een audiobeschrijving van het doel van het formulierveld en kan informatie bevatten over de titel, beschrijving, naam en relevante berichten (aangepaste tekst) van het veld. Met de schermlezertekst kunt u ervoor zorgen dat het formulier toegankelijk is voor alle gebruikers, inclusief gebruikers met een visuele handicap, en krijgt deze een volledig inzicht in het formulierveld en de vereisten ervan.
-
-## Ontwerpdialoogvenster {#design-dialog}
-
-Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de component Check-box te definiëren en te beheren.
+**Tekst voor schermlezers** - Tekst voor schermlezers verwijst naar extra tekst die is bedoeld om te worden gelezen door ondersteunende hulpmiddelen, zoals schermlezers, die door visueel gehandicapten worden gebruikt. Deze tekst bevat een audiobeschrijving van het doel van het formulierveld en kan informatie bevatten over de titel, beschrijving, naam en relevante berichten (aangepaste tekst) van het veld. Met de schermlezertekst kunt u ervoor zorgen dat het formulier toegankelijk is voor alle gebruikers, inclusief gebruikers met een visuele handicap, en krijgt deze een volledig inzicht in het formulierveld en de vereisten ervan.
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Adaptive Forms Checkbox Core-component ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+![Het tabblad Stijlen](/help/adaptive-forms/assets/switch-styles.png)
+
+- **Labels verbergen** - Selecteer deze optie om de labels van de schakelcomponent te verbergen.
+
+- **Labels tonen** - Selecteer deze optie om de etiketten van de schakelaarcomponent te tonen.
+
+## Ontwerpdialoogvenster {#design-dialog}
+
+Het Dialoogvenster van het ontwerp wordt gebruikt om CSS stijlen voor de component van de Schakelaar te bepalen en te beheren.
+
+### Tabblad Stijlen {#styles-design-tab}
+
+De Adaptive Forms Switch Core-component ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
 
 ![Ontwerpdialoogvenster](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Standaard CSS-klassen**: U kunt een standaard CSS-klasse opgeven voor de Adaptive Forms Checkbox Core-component.
+- **Standaard CSS-klassen**: U kunt een standaard CSS-klasse opgeven voor de Adaptive Forms Switch Group Core-component.
 
 - **Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight: bold&quot; opgeven. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
 
@@ -131,7 +139,7 @@ Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aa
 
    - **Verwijderen**: Tik of klik om de naam van de aangepaste eigenschap en de waarde van de aangepaste eigenschap te verwijderen.
 
-   - **Opnieuw rangschikken**: Tik of klik en sleep om de volgorde van de naam van de aangepaste eigenschap en de waarde van de aangepaste eigenschap te wijzigen.
+   - **Opnieuw rangschikken**: Tik of klik en sleep om de naam van de aangepaste eigenschap en de waarde van de aangepaste eigenschap opnieuw te rangschikken.
 
 ## Verwante artikelen {#related-articles}
 
@@ -140,3 +148,12 @@ Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aa
 ## Zie ook {#see-also}
 
 {{see-also}}
+
+
+
+
+
+
+
+
+

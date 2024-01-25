@@ -5,15 +5,15 @@ breadcrumb-title: Gids voor kerncomponenten
 feature: Core Components
 user-guide-description: Met de uitbreidbare kerncomponenten kunnen ontwerpers eenvoudig content maken.
 feature-set: Experience Manager Sites
-source-git-commit: 3e36fdf9b175930ee3a998bf91116c35b3cb6f9d
+source-git-commit: d172e019c5621d950a94cbdd8d27e4834dbabe3b
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 6%
+source-wordcount: '390'
+ht-degree: 5%
 
 ---
 
 
-# AEM-kerncomponenten Help {#using}
+# Help AEM Core Components {#using}
 
 + [Introductie van kerncomponenten](/help/introduction.md)
 + [Paden naar succes](/help/developing/success.md)
@@ -113,6 +113,7 @@ ht-degree: 6%
       + [Aangepaste Forms-datumkiezer](/help/adaptive-forms/components/date-picker.md)
       + [Aangepaste Forms-vervolgkeuzelijst](/help/adaptive-forms/components/drop-down.md)
       + [Adaptieve Forms-e-mailinvoer](/help/adaptive-forms/components/email-input.md)
+      + [Adaptief Forms-formulierfragment](/help/adaptive-forms/components/form-fragment.md)
       + [Aangepaste Forms-bestandsbijlagen](/help/adaptive-forms/components/file-attachment.md)
       + [Aangepaste verticale Forms-tabbladen](/help/adaptive-forms/components/vertical-tabs.md)
       + [Adaptieve horizontale Forms-tabs](/help/adaptive-forms/components/horizontal-tabs.md)
@@ -123,6 +124,7 @@ ht-degree: 6%
       + [Aangepaste Forms-keuzerondje](/help/adaptive-forms/components/radio-button.md)
       + [Knop Adaptief Forms herstellen](/help/adaptive-forms/components/reset-button.md)
       + [Knop Adaptief Forms verzenden](/help/adaptive-forms/components/submit-button.md)
+      + [Adaptieve Forms-switch](/help/adaptive-forms/components/switch.md)
       + [Adaptieve Forms-telefooninvoer](/help/adaptive-forms/components/telephone-input.md)
       + [Adaptieve Forms-tekst](/help/adaptive-forms/components/text.md)
       + [Adaptief Forms-tekstvak](/help/adaptive-forms/components/text-input.md)

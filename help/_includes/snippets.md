@@ -1,7 +1,7 @@
 ---
-source-git-commit: 2b1e62dc57126316a79f22d7d9f203f7ef044dc4
+source-git-commit: 97da426e5c57f00d83d11560d1fa4e8f9ed00feb
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,7 @@ ht-degree: 0%
 - [E-mailinvoer](/help/adaptive-forms/components/email-input.md)
 - [Formuliercontainer](/help/adaptive-forms/components/form-container.md)
 - [Bestandsbijlage](/help/adaptive-forms/components/file-attachment.md)
+- [Formulierfragment](/help/adaptive-forms/components/form-fragment.md)
 - [Voettekst](/help/adaptive-forms/components/footer.md)
 - [Koptekst](/help/adaptive-forms/components/header.md)
 - [Afbeelding](/help/adaptive-forms/components/image.md)
@@ -75,6 +76,7 @@ ht-degree: 0%
 - [Keuzerondje](/help/adaptive-forms/components/radio-button.md)
 - [Knop Opnieuw instellen](/help/adaptive-forms/components/reset-button.md)
 - [Verzendknop](/help/adaptive-forms/components/submit-button.md)
+- [Overschakelen](/help/adaptive-forms/components/switch.md)
 - [Telefooninvoer](/help/adaptive-forms/components/telephone-input.md)
 - [Tekstinvoer](/help/adaptive-forms/components/text-input.md)
 - [Tekst](/help/adaptive-forms/components/text.md)
