@@ -5,9 +5,9 @@ breadcrumb-title: Gids voor kerncomponenten
 feature: Core Components
 user-guide-description: Met de uitbreidbare kerncomponenten kunnen ontwerpers eenvoudig content maken.
 feature-set: Experience Manager Sites
-source-git-commit: d172e019c5621d950a94cbdd8d27e4834dbabe3b
+source-git-commit: 5aed197937ca527d699569df09ea3305bae98fae
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '376'
 ht-degree: 5%
 
 ---
@@ -154,13 +154,6 @@ ht-degree: 5%
    + Projectarchetype AEM {#archetype}
       + [Overzicht van Archetype](/help/developing/archetype/overview.md)
       + [Het gebruiken van Archetype](/help/developing/archetype/using.md)
-      + [Kernmodule](/help/developing/archetype/core.md)
-      + [ui.apps-module](/help/developing/archetype/uiapps.md)
+      + [Front-end ontwikkeling](/help/developing/archetype/front-end.md)
       + [Vooraf gecompileerde, gecompileerde scripts](/help/developing/archetype/precompiled-bundled-scripts.md)
-      + [ui.content Module](/help/developing/archetype/uicontent.md)
-      + [ui.frontend.general Module](/help/developing/archetype/uifrontend.md)
-      + [ui.frontend.response Module](/help/developing/archetype/uifrontend-react.md)
-      + [ui.frontend.angular Module](/help/developing/archetype/uifrontend-angular.md)
-      + [ui.test-module](/help/developing/archetype/uitests.md)
-      + [it.tests Module](/help/developing/archetype/ittests.md)
       + [Insteekmodule voor analyse van build](/help/developing/archetype/build-analyzer-maven-plugin.md)

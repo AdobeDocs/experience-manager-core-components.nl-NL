@@ -3,16 +3,16 @@ title: Inclusief clientbibliotheken
 description: Afhankelijk van uw gebruiksscenario zijn er verschillende manieren om clientbibliotheken op te nemen.
 role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: 39a5dee1666fa2645e0579fdfac0400f7fcbdc27
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
 
 # Inclusief clientbibliotheken {#including-client-libraries}
 
-Er zijn een aantal verschillende manieren om op te nemen [clientbibliotheken](/help/developing/archetype/uifrontend.md#clientlibs) afhankelijk van uw gebruiksgeval. Dit document bevat voorbeelden en voorbeelden [HTML-fragmenten](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) voor elk.
+Er zijn verschillende manieren om op te nemen [clientbibliotheken](/help/developing/archetype/front-end.md#clientlibs) afhankelijk van uw gebruiksgeval. Dit document bevat voorbeelden en voorbeelden [HTML-fragmenten](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) voor elk.
 
 ## Aanbevolen standaardgebruik {#recommended-default-usage}
 
@@ -25,7 +25,7 @@ Als u geen tijd hebt om te onderzoeken wat in uw situatie het beste is, dan omva
 </sly>
 ```
 
-Dit omvat zowel de CSS als de JS in uw pagina `head`, maar het toevoegen van `defer` attribuut aan uw JS `script` bevat, zodat de browsers wachten totdat de DOM gereed is voordat ze de scripts uitvoeren. Hierdoor wordt de laadsnelheid van de pagina geoptimaliseerd.
+Dit omvat zowel de CSS als de JS in uw pagina `head`, maar de `defer` attribuut aan uw JS `script` bevat, zodat de browsers wachten totdat de DOM gereed is voordat ze de scripts uitvoeren en de laadsnelheid van de pagina daarom optimaliseren.
 
 ## Standaardgebruik {#basic-usage}
 
@@ -50,7 +50,7 @@ Als u hetzelfde wilt doen voor meerdere clientbibliotheekcategorieën tegelijk, 
 
 Vaak wilt u de CSS-include-bestanden in de HTML plaatsen `head` en het JS omvat net vóór de sluiting van het `body` element.
 
-In de `head`gebruikt u `cssIncludes`:
+In de `head`, alleen de CSS, en niet de JS, gebruiken `cssIncludes`:
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @ categories='wknd.base'}">
@@ -84,7 +84,7 @@ Kenmerken toepassen op de gegenereerde CSS `link` elementen en/of JS `script` el
 
 CSS `link` kenmerken die kunnen worden doorgegeven aan `jsAndCssIncludes` en `cssIncludes`:
 
-* `media`: string JS `script` kenmerken die kunnen worden doorgegeven aan `jsAndCssIncludes` en `jsIncludes`:
+* `media`: tekenreeks JS `script` kenmerken die kunnen worden doorgegeven aan `jsAndCssIncludes` en `jsIncludes`:
 * `async`: boolean
 * `defer`: boolean
 * `onload`: string
@@ -92,7 +92,7 @@ CSS `link` kenmerken die kunnen worden doorgegeven aan `jsAndCssIncludes` en `cs
 
 ## Invoering {#inlining}
 
-In sommige gevallen, voor optimalisatie of voor e-mail of [AMP](amp.md) mogelijk moet u de CSS of JS inline zetten in de uitvoer van de HTML.
+In sommige gevallen, voor optimalisatie of voor e-mail of [AMP,](amp.md) mogelijk moet u de CSS of JS inline zetten in de uitvoer van de HTML.
 
 De CSS inline plaatsen, `cssInline` kan worden gebruikt, in welk geval u de omringende `style` element:
 
@@ -116,7 +116,7 @@ Evenzo, om het JS te inline te zetten, `jsInline` kan worden gebruikt, in welk g
 
 De [Pagina-component](/help/components/page.md) Het laden van door ontwikkelaars gedefinieerde contextgevoelige CSS-, JavaScript- of metatags wordt ook ondersteund.
 
-Dit doet u door een [contextbewuste resource](context-aware-configs.md) for `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` met behulp van de volgende structuur:
+Dit doet u door een [contextbewuste resource](context-aware-configs.md) for `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` de volgende structuur gebruiken:
 
 ```text
 com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
