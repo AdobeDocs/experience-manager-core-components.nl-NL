@@ -3,9 +3,9 @@ title: Adaptieve Forms Core-component - Selectievakje
 description: De Adaptive Forms Checkbox Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1746'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 Een selectievakje is een grafisch interface-element dat vaak wordt gebruikt in softwaretoepassingen en formulieren, zodat gebruikers een binaire keuze kunnen maken tussen twee opties: ingeschakeld (geselecteerd) of uitgeschakeld (uitgeschakeld).
 
 Een selectievakje wordt meestal weergegeven als een klein vierkant dat in- of uitgeschakeld kan worden door erop te klikken of erop te tikken. Als een selectievakje is ingeschakeld, wordt een vinkje weergegeven om aan te geven dat de bijbehorende optie of functie actief of ingeschakeld is.
+
+>[!NOTE]
+>
+> Voor AEM 6.5 Forms werd deze component geïntroduceerd met AEM 6.5 Forms Service Pack 19 (6.5.19.0). Om deze component in te schakelen, zorgt u ervoor dat de benodigde versies van zowel Forms Core Components als WCM Core Components zijn geïnstalleerd. Voor gedetailleerde informatie over de releases van Adaptive Forms Core Components, raadpleegt u [Adaptive Forms Core Components-releases](/help/adaptive-forms/version.md)
 
 **Voorbeeld**
 

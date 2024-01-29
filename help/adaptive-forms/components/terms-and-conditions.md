@@ -3,9 +3,9 @@ title: Adaptive Forms Core Component - Voorwaarden en bepalingen
 description: De kerncomponent Adaptive Forms Terms and Conditions gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
 workflow-type: tm+mt
-source-wordcount: '2635'
+source-wordcount: '2690'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 A **Voorwaarden en bepalingen** verwijst naar een sectie binnen een formulier waarin de voorwaarden, regels en bepalingen worden beschreven die gebruikers moeten accepteren of naleven wanneer ze een service gebruiken of inhoud openen.
 
 De **Voorwaarden en bepalingen** is een samengestelde component die bestaat uit componenten Text, Checkbox en Link. De tekstcomponent bevat een titel samen met een kort overzicht van het doel en het bereik van de voorwaarden. Het omvat ook een checkbox die wordt gebruikt om expliciete toestemming van de gebruiker te verkrijgen. U kunt een tekst met toestemming ook vervangen door koppelingen.
+
+>[!NOTE]
+>
+> Voor AEM 6.5 Forms werd deze component geïntroduceerd met AEM 6.5 Forms Service Pack 19 (6.5.19.0). Om deze component in te schakelen, zorgt u ervoor dat de benodigde versies van zowel Forms Core Components als WCM Core Components zijn geïnstalleerd. Voor gedetailleerde informatie over de releases van Adaptive Forms Core Components, raadpleegt u [Adaptive Forms Core Components-releases](/help/adaptive-forms/version.md)
 
 **Voorbeeld**
 

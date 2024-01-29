@@ -1,60 +1,143 @@
 ---
-title: AEM Forms Core Components-versies
+title: Adaptieve Forms Core-componentversies AEM
 description: AEM Core Components worden gepubliceerd als releases die meerdere versies van dezelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies beschikbaar zijn en hoe u de compatibiliteit met Core Components en AEM begrijpt.
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: 5ba402a0f781f73fe7eb5afc9b4beb47ba28851e
+source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
 
-# Versies van kerncomponenten {#core-components-versions}
 
-De huidige versie van Core Components 2.0.10 is compatibel met [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) en Core Components versie 1.1.12 is compatibel met [AEM 6.5 Formulier op locatie en AMS](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installaties.
+# Adaptive Forms Core Components-releases {#core-components-versions}
 
-## AEM als versiehistorie van Cloud Service {#aem-as-cs-version-history}
+Identificeer de exacte versies van zowel Forms Core Components als WCM Core Components afhankelijkheden die vereist zijn om de nieuwste Adaptive Forms core-componenten in uw omgeving te activeren. Bovendien kunt u zich vertrouwd maken met de componenten en functies die in elke versie van Adaptive Forms Core Components zijn ingeschakeld.
+
+## AEM Forms als Cloud Service versiegeschiedenis {#aem-as-cs-version-history}
 
 De volgende lijst presenteert een lijst van de versies van de Componenten van de Kern die met AEM as a Cloud Service compatibel zijn die beschikbaar op [GitHub samen met uitvoerige details van hun versies](https://github.com/adobe/aem-core-forms-components/releases).
 
-| Geen | Beschrijving | AEM as a Cloud Service | Java™ | Releasedatum |
+
+
+
+| Forms Core-componenten | WCM Core-componenten | AEM Forms als cloudservice | Java | Maven |
+|-----------------------|---------------------| ---------------------------- | ----- | ------ |
+| 2,0,86 | 2,23,4 | Continu | 8, 11 | 3.3.9+ |
+| 2,0,76 | 2,23,4 | Continu | 8, 11 | 3.3.9+ |
+| 2,0,74 | 2,23,4 | Continu | 8, 11 | 3.3.9+ |
+| 2,0,72 | 2,23,4 | Continu | 8, 11 | 3.3.9+ |
+| 2,0,70 | 2,23,4 | Continu | 8, 11 | 3.3.9+ |
+| 2,0,68 | 2.23.2. | Continu | 8, 11 | 3.3.9+ |
+| 2,0,66 | 2.23.2. | Continu | 8, 11 | 3.3.9+ |
+| 2,0,64 | 2.23.2. | Continu | 8, 11 | 3.3.9+ |
+| 2,0,62 | 2.23.2. | Continu | 8, 11 | 3.3.9+ |
+| 2,0,60 | 2.23.0. | Continu | 8, 11 | 3.3.9+ |
+| 2,0,56 | 2.23.0. | Continu | 8, 11 | 3.3.9+ |
+| 2,0,54 | 2.23.0. | Continu | 8, 11 | 3.3.9+ |
+| 2,0,52 | 2.23.0. | Continu | 8, 11 | 3.3.9+ |
+| 2,0,50 | 2.23.0. | Continu | 8, 11 | 3.3.9+ |
+| 2,0,48 | 2.23.0. | Continu | 8, 11 | 3.3.9+ |
+| 2,0,46 | 2.23.0. | Continu | 8, 11 | 3.3.9+ |
+| 2,0,44 | 2.23.0. | Continu | 8, 11 | 3.3.9+ |
+| 2,0,42 | 2.23.0. | Continu | 8, 11 | 3.3.9+ |
+| 2,0,40 | 2.23.0. | Continu | 8, 11 | 3.3.9+ |
+| 2,0,36 | 2.23.0. | Continu | 8, 11 | 3.3.9+ |
+| 2,0,26 | 2.22.12. | Continu | 8, 11 | 3.3.9+ |
+| 2.0.18. | 2.22.10. | Continu | 8, 11 | 3.3.9+ |
+| 2.0.14. | 2.21.2. | Continu | 8, 11 | 3.3.9+ |
+| 2.0.6. | 2.21.2. | Continu | 8, 11 | 3.3.9+ |                      |                     |                              |       |        |
+| 2.0.4. | 2.21.2. | Continu | 8, 11 | 3.3.9+ |
+| 2.0.2. | 2.21.2. | Continu | 8, 11 | 3.3.9+ |
+| 1.1.8. | 2.21.2. | Continu | 8, 11 | 3.3.9+ |
+| 1.1.6. | 2.21.2. | Continu | 8, 11 | 3.3.9+ |
+| 1,0,56 | 2.21.2. | Continu | 8, 11 | 3.3.9+ |
+| 1,0,54 | 2.21.0. | Continu | 8, 11 | 3.3.9+ |
+| 1,0,52 | 2.21.0. | Continu | 8, 11 | 3.3.9+ |
+| 1.0.50. | 2.21.0. | Continu | 8, 11 | 3.3.9+ |
+| 1,0,48 | 2.21.0. | Continu | 8, 11 | 3.3.9+ |
+| 1,0,46 | 2.21.0. | Continu | 8, 11 | 3.3.9+ |
+| 1,0,44 | 2.21.0. | Continu | 8, 11 | 3.3.9+ |
+| 1,0,42 | 2.20.8. | Continu | 8, 11 | 3.3.9+ |
+| 1.0.40. | 2.20.8. | Continu | 8, 11 | 3.3.9+ |
+| 1,0,38 | 2.20.8. | Continu | 8, 11 | 3.3.9+ |
+| 1,0,36 | 2.20.8. | Continu | 8, 11 | 3.3.9+ |
+| 1.0.34. | 2.20.8. | Continu | 8, 11 | 3.3.9+ |
+| 1.0.30. | 2.20.8. | Continu | 8, 11 | 3.3.9+ |
+| 1.0.28. | 2.20.8. | Continu | 8, 11 | 3.3.9+ |
+| 1.0.26. | 2.20.8. | Continu | 8, 11 | 3.3.9+ |
+| 1.0.24. | 2.20.2. | Continu | 8, 11 | 3.3.9+ |
+| 1.0.22. | 2.20.2. | Continu | 8, 11 | 3.3.9+ |
+| 1.0.20. | 2.20.2. | Continu | 8, 11 | 3.3.9+ |
+| 1.0.18. | 2.20.2. | Continu | 8, 11 | 3.3.9+ |
+| 1.0.16. | 2.19.0. | Continu | 8, 11 | 3.3.9+ |
+| 1.0.14. | 2.19.0. | Continu | 8, 11 | 3.3.9+ |
+| 1.0.12. | 2.19.0. | Continu | 8, 11 | 3.3.9+ |
+| 1.0.10. | 2.19.0. | Continu | 8, 11 | 3.3.9+ |
+| 1.0.8. | 2.18.0. | Continu | 8, 11 | 3.3.9+ |
+| 1.0.4. | 2.18.0. | Continu | 8, 11 | 3.3.9+ |
+| 1.0.2. | 2.10.0. | Continu | 8, 11 | 3.3.9+ |
+
+<!--
+
+|Release|Description|AEM as a Cloud Service|Java&trade;|Release Date|
 |---|---|---|---|---|
-| [2,0,76](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.76) | In deze versie zijn het tabblad Stijl en het tabblad Aangepaste eigenschappen vast voor de component Voorwaarden. In deze versie is ook de component RadioButton gecorrigeerd om een Booleaanse waarde op te slaan bij de eerste klik. | Continu | 8, 11 | 15 november 2023 |
-| [2,0,74](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.74) | In deze versie wordt de verzendfout bijgewerkt voor de handeling Verzenden in AEM Forms. | Continu | 8, 11 | 15 november 2023 |
-| [2,0,70](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.70) | In deze release is ondersteuning toegevoegd voor het verwerken van de taal van sitepagina in de formuliercontainer. | Continu | 8, 11 | 10 november 2023 |
-| [2,0,64](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.64) | Ondersteuning voor RTF-tekst voor labels voor componenten van keuzerondjes/selectievakjes. Met deze versie, wordt de steun voor de component van de Schakelaar ook toegevoegd. In deze versie zijn ook correcties voor de component Voorwaarden en Voorwaarden opgenomen. | Continu | 8, 11 | 6 november 2023 |
-| [2,0,62](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.62) | In deze release wordt ondersteuning voor de component Voorwaarden en Voorwaarden toegevoegd. Er is ook ondersteuning toegevoegd voor Gekwalificeerde naam in kerncomponenten. | Continu | 8, 11 | 16 oktober 2023 |
-| [2,0,60](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.60) | Deze versie bevat oplossingen die verwant zijn aan de functie Aangepaste eigenschappen, Wizard en de component Datumkiezer. | Continu | 8, 11 | 12 september 2023 |
-| [2,0,56](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.56) | Met deze release wordt ondersteuning voor aangepaste eigenschappen voor alle kerncomponenten toegevoegd. | Continu | 8, 11 | 12 september 2023 |
-| [2,0,54](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.54) | In deze release is het probleem met lokalisatie verholpen met de component Date Picker. | Continu | 8, 11 | 30 augustus 2023 |
-| [2,0,52](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.52) | Ondersteuning voor het gebruik van de component checkbox in een adaptief formulier. | Continu | 8, 11 | 25 augustus 2023 |
-| [2,0,50](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.50) | Toegevoegde ondersteuning voor formulierfragmenten in een adaptief formulier met deze release. | Continu | 8, 11 | 4 augustus 2023 |
-| [2,0,48](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.48) | De belangrijkste verbeteringen in deze release hebben betrekking op de prestaties van Lighthouse. | Continu | 8, 11 | 25 juli 2023 |
-| [2,0,42](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.42) | De versie omvat verbeteringen aan het programmeringseind. | Continu | 8, 11 | 18 juli 2023 |
-| [2,0,38](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.38) | De toegankelijkheidsfunctie is verbeterd met deze release. | Continu | 8, 11 | 17 juli 2023 |
-| [2,0,36](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.36) | Met deze versie, kunt u de manager van de douanefout gebruiken gebruikend de Invoke van de Redacteur van de Regel Dienst. | Continu | 8, 11 | 3 juli 2023 |
-| [2,0,34](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.34) | Toegevoegde lokalisatieondersteuning voor standaardfoutberichten samen met de knop Toevoegen/Verwijderen voor de component Repeatable. | Continu | 8, 11 | 28 juni 2023 |
-| [2,0,32](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.32) | Met deze release wordt ondersteuning voor Captcha toegevoegd voor Adaptive Forms. | Continu | 8, 11 | 15 juni 2023 |
-| [2,0,26](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.26) | Ondersteuning voor het toevoegen van adaptieve formulieren op AEM Sites. | Continu | 8, 11 | 7 juni 2023 |
-| [2.0.18.](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.18) | Met deze release biedt deze functie ondersteuning voor een herhaalbaarheid voor de component Accordion. Er is ook een nieuwe component toegevoegd als verticale tabbladen. | Continu | 8, 11 | 5 juni 2023 |
-| [2.0.10.](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.10) | Met deze versie, wordt de steun voor een Adaptieve component van de Container van de Vorm geïntroduceerd in de redacteur van Plaatsen. | Continu | 8, 11 | 17 maart 2023 |
-| [2.0.8.](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.8) | De eigenschap van de herhaalbaarheid voor de tovenaar wordt geïntroduceerd in deze versie. | Continu | 8, 11 | 3 maart 2023 |
-| [2.0.6.](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | Deze release bevat meerdere indelingen voor de numerieke input-kerncomponent. | Continu | 8, 11 | 8 februari 2023 |
-| [2.0.4.](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | De steun van de kerncomponent voor AEM as a Cloud Service wordt geïntroduceerd in deze versie. | Continu | 8, 11 | 30 januari 2023 |
+|[2.0.76](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.76)| With this release, the style tab and custom properties tab are fixed for Terms and Conditions component. This release also fixed Radio button component to save boolean value for the first click.|Continual|8, 11|15 November 2023|
+|[2.0.74](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.74)| With this release, submission error is updated for Submit action in AEM Forms.|Continual|8, 11|15 November 2023|
+|[2.0.70](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.70)| This release added support to handle sites page language in form container.|Continual|8, 11|10 November 2023|
+|[2.0.64](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.64)| Support rich text for labels for Radio/checkbox  components. With this release, support for the Switch component is also added. This release also includes fixes for Terms and Condition component.|Continual|8, 11|6 November 2023|
+|[2.0.62](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.62)|With this release, support for Terms and Conditions component is added. Also added support for Qualified name in core components. |Continual|8, 11|16 October 2023|
+|[2.0.60](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.60)|This release includes fixes related to custom properties feature, Wizard, and Date Picker component.|Continual|8, 11|12 September 2023|
+|[2.0.56](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.56)| With this release support for custom properties for all the core components are added.|Continual|8, 11|12 September 2023|
+|[2.0.54](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.54)| This release fixed the issue related to localization with Date Picker component.|Continual|8, 11|30 August 2023|
+|[2.0.52](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.52)| Support for using checkbox component in an Adaptive Form.|Continual|8, 11|25 August 2023|
+|[2.0.50](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.50)| Added support for form fragments in an Adaptive Form with this release.|Continual|8, 11|4 August 2023|
+|[2.0.48](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.48)| The major improvements in this release are related to Lighthouse performance.|Continual|8, 11|25 July 2023|
+|[2.0.42](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.42)| The release incorporates improvements at programming end.|Continual|8, 11|18 July 2023|
+|[2.0.38](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.38)| The accessibility feature is improved with this release.|Continual|8, 11|17 July 2023|
+|[2.0.36](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.36)| With this release, you can use the custom error handler using the Rule Editor's Invoke Service.|Continual|8, 11|3 July 2023|
+|[2.0.34](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.34)| Added localization support for default error messages along with Add/Remove button for Repeatable component.|Continual|8, 11|28 June 2023|
+|[2.0.32](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.32)|With this release support for Captcha is added for Adaptive Forms.|Continual|8, 11|15 June 2023|
+|[2.0.26](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.26)|Support for adding Adaptive forms on AEM Sites.|Continual|8, 11|7 June 2023|
+|[2.0.18](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.18)|With this release, support for a repeatability for Accordion component. Also added a new component as vertical tabs.|Continual|8, 11|5 June 2023|
+|[2.0.10](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.10)|With this release, support for an Adaptive Form Container component is introduced in the editor of Sites.|Continual|8, 11|17 March 2023|
+|[2.0.8](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.8)|Repeatability feature for the wizard component is introduced in this release.|Continual|8, 11|03 March 2023|
+|[2.0.6](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6)|Multiple formats for the numeric input core component are introduced in this release.|Continual|8, 11|08 February 2023|
+|[2.0.4](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6)|Core component support for AEM as a Cloud Service is introduced in this release.|Continual|8, 11|30 January 2023|
+
+-->
 
 ## AEM 6.5 Forms-versiegeschiedenis {#aem-as-form-version-history}
 
 De volgende tabel bevat een lijst met Core Components-releases die compatibel zijn met AEM 6.5 Form on-premisse en AMS die beschikbaar zijn op [GitHub samen met uitvoerige details van hun versies](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12).
 
-| Geen | Beschrijving | AEM 6,4 | AEM 6,5 | Java™ | Releasedatum |
+
+| Forms Core-componenten | WCM Core-componenten | AEM 6,5 | Java | Maven |
+|-----------------------|---------------------|---------| ----- | ------ |
+| 1.1.32. | 2.23.2. | 6.5.18+ | 8, 11 | 3.3.9+ |
+| 1.1.28. | 2.23.2. | 6.5.19+ | 8, 11 | 3.3.9+ |
+| 1.1.26. | 2.23.2. | 6.5.17+ | 8, 11 | 3.3.9+ |
+| 1.1.24. | 2.22.12. | 6.5.17+ | 8, 11 | 3.3.9+ |
+| 1.1.22. | 2.22.12. | 6.5.17+ | 8, 11 | 3.3.9+ |
+| 1.1.20. | 2.22.10. | 6.5.17+ | 8, 11 | 3.3.9+ |
+| 1.1.18. | 2.21.2. | 6.5.17+ | 8, 11 | 3.3.9+ |
+| 1.1.16. | 2.21.2. | 6.5.17+ | 8, 11 | 3.3.9+ |
+| 1.1.2. | 2.21.2. | 6.5.16+ | 8, 11 | 3.3.9+ |
+
+
+<!-- 
+|Release|Description|WCM Version|AEM 6.5|Java&trade;|Release Date|
 |---|---|---|---|---|---|
-| [1.1.32.](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.32) | Deze versie werkte de informatie voor pakketinformatie van AEM Service Pack 6.5.18.0 bij. | - | 6.5.16.0+ | 8, 11 | 15 oktober 2023 |
-| [1.1.28.](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.28) | Ondersteuning voor RTF-tekst voor labels voor componenten van keuzerondjes/selectievakjes. Deze versie omvat ook ondersteuning voor de component Voorwaarden en Voorwaarde en de componenten Switch. | - | 6.5.16.0+ | 8, 11 | 15 oktober 2023 |
-| [1.1.26.](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.26) | Met deze release is er ondersteuning toegevoegd voor component selectievakje voor adaptieve formulieren en formulierfragmenten. Het omvat ook verbeteringen in de prestaties van Lighthouse. De manager van de douanefout die de Invoke van de Redacteur van de Regel gebruikt is ook inbegrepen in deze versie. | - | 6.5.16.0+ | 8, 11 | 15 oktober 2023 |
-| [1.1.24.](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.24) | Toegevoegde lokalisatieondersteuning voor standaardfoutberichten samen met de knop Toevoegen/Verwijderen voor de component Repeatable. Ook ondersteuning voor recaptcha toegevoegd in Adaptive Forms. | - | 6.5.16.0+ | 8, 11 | 29 juni 2023 |
-| [1.1.22.](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.22) | Ondersteuning voor het toevoegen van adaptieve formulieren op AEM Sites. Tabblad Toegevoegde items in dialoogvenster voor het bewerken van de component Wizard en de component Verticale tabbladen. | - | 6.5.16.0+ | 8, 11 | 7 juni 2023 |
-| [1.1.2.](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12) | Ondersteuning voor kerncomponenten voor AEM Forms op locatie en AMS is in deze release geïntroduceerd. | - | 6.5.16.0+ | 8, 11 | 8 februari 2023 |
+|[1.1.32](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.32)|This release updated the information for package information of AEM Service Pack 6.5.18.0.| - |6.5.16.0+ |8, 11|15 October 2023|
+|[1.1.28](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.28)|Support rich text for labels for Radio/checkbox  components. This release also includes support for Terms and Condition component and Switch components.| - |6.5.16.0+ |8, 11|15 October 2023|
+|[1.1.26](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.26)|With this release added support for checkbox component for Adaptive Form and form fragments. It also includes improvements in  Lighthouse performance. The custom error handler using Rule Editor's Invoke Service is also included in this release.| - |6.5.16.0+ |8, 11|15 October 2023|
+|[1.1.24](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.24)|Added localization support for default error messages along with Add/Remove button for Repeatable component. Also added support for recaptcha in Adaptive Forms.| - |6.5.16.0+ |8, 11|29 June 2023|
+|[1.1.22](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.22)|Support for adding Adaptive forms on AEM Sites. Added Items tab in edit dialog of Wizard and Vertical Tabs component.| - |6.5.16.0+ |8, 11|07 June 2023|
+|[1.1.16](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.16)|| - |6.5.17.0+ |8, 11|07 June 2023|
+|[1.1.12](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12)|Core component support for AEM Forms on premise and AMS, is introduced in this release.| 2.21.2 |6.5.16.0+ |8, 11|08 February 2023|
+
+-->
 
 ## Zie ook {#see-also}
 
