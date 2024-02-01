@@ -3,16 +3,17 @@ title: Component Tabs
 description: Met de component Tabs kunt u meerdere tabbladen maken om de inhoud op een pagina te rangschikken.
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
-source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
+source-git-commit: d39fe0084522f67664203a026340b23d325c1883
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 1%
+source-wordcount: '1034'
+ht-degree: 0%
 
 ---
 
+
 # Component Tabs {#tabs-component}
 
-Met de component Core Component Tabs kunt u inhoud op meerdere tabbladen ordenen.
+Met de component Core Component Tabs kunt u de inhoud op meerdere tabbladen ordenen.
 
 ## Gebruik {#usage}
 
@@ -36,7 +37,7 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 |--- |--- |--- |---|
 | v1 | Compatibel met<br>[release 2.17.4](/help/versions.md) en eerdere | Compatibel | Compatibel |
 
-Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
+Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Versies van kerncomponenten](/help/versions.md).
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
@@ -50,7 +51,7 @@ Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Document
 
 ## Diep koppelen aan een deelvenster {#deep-linking}
 
-de tabs, [Carousel](carousel.md) en [Accordeoncomponenten](accordion.md) ondersteuning voor koppelingen rechtstreeks naar een deelvenster binnen de component.
+de tabs, [Carousel](carousel.md) en [Accordeoncomponenten](accordion.md) ondersteuning voor het rechtstreeks koppelen naar een deelvenster binnen de component.
 
 Dit doet u als volgt:
 
@@ -62,6 +63,12 @@ Dit doet u als volgt:
 
 Wanneer u met de deelvenster-id als anker naar de URL navigeert, schuift de browser rechtstreeks naar de desbetreffende component en geeft deze het opgegeven deelvenster weer. Als het deelvenster is geconfigureerd om niet standaard te worden uitgevouwen, wordt het automatisch uitgevouwen.
 
+## Tab en responsief ontwerp {#responsive-design}
+
+Alle Core Components zijn ontworpen om volledig te reageren, zodat u over alle apparaten probleemloos kunt genieten.
+
+Sommige geavanceerde componenten zoals de component van het Lusje kunnen specifieke overweging binnen het kader van het het uitvoeren project vereisen om ontvankelijkheid in alle omstandigheden te handhaven. Zie het document [Responsief ontwerp van de kerncomponenten](/help/responsive.md) voor meer informatie .
+
 ## Dialoogvenster Bewerken {#edit-dialog}
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud tabbladen maken, hernoemen en opnieuw rangschikken, en het actieve tabblad definiëren.
@@ -72,7 +79,7 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud tabbladen maken, hern
 
 Gebruik de **Toevoegen** om de componentkiezer te openen en te kiezen welke component u als tab wilt toevoegen. Nadat een item is toegevoegd, wordt het toegevoegd aan de lijst met de volgende kolommen:
 
-* **Pictogram** - Het pictogram van het componenttype van de tab voor eenvoudige identificatie in de lijst. Plaats de muis boven de volledige componentnaam als knopinfo.
+* **Pictogram** - Het pictogram van het componenttype van de tab voor eenvoudige identificatie in de lijst. Plaats de muisaanwijzer boven de volledige componentnaam om deze weer te geven als knopinfo.
 * **Beschrijving** - De beschrijving die als tekst van het lusje wordt gebruikt, stellend aan de naam van de component die voor het lusje wordt geselecteerd.
 * **Verwijderen** - Tik of klik om de tab uit de tabcomponent te verwijderen.
 * **Opnieuw rangschikken** - Tik of klik en sleep om de tabvolgorde te wijzigen.
@@ -118,7 +125,7 @@ Wanneer u de **Deelvenster selecteren** in de componentwerkbalk worden de geconf
 
 >[!NOTE]
 >
->Tabs kunnen niet door de auteur worden geselecteerd wanneer deze zich aanmeldt **Bewerken** in. Gebruiken **[Voorvertoning](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)** of de **[Weergeven als gepubliceerd](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** gebruiken om te communiceren met de tabbladen, zoals een lezer van de gepubliceerde inhoud zou doen.
+>Tabs kunnen niet door de auteur worden geselecteerd wanneer deze zich aanmeldt **Bewerken** -modus. Gebruiken **[Voorvertoning](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)** of de **[Weergeven als gepubliceerd](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** gebruiken om te communiceren met de tabbladen, zoals een lezer van de gepubliceerde inhoud zou doen.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -134,6 +141,6 @@ Het tabblad Toegestane componenten werkt op dezelfde manier als het tabblad met 
 
 De component Tabs ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
 
-## Gegevenslaag Adobe-client {#data-layer}
+## Gegevenslaag client-Adobe {#data-layer}
 
-De component Tabs ondersteunt de [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
+De component Tabs ondersteunt de [Gegevenslaag client Adobe.](/help/developing/data-layer/overview.md)

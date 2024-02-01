@@ -3,12 +3,13 @@ title: Carousel-component
 description: Met de Carousel-component kan de auteur van de inhoud inhoud inhoud presenteren in een roterende carrousel.
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-source-git-commit: e0d3790b265ab27ac2116f0d8daf1a18ecd3d714
+source-git-commit: d39fe0084522f67664203a026340b23d325c1883
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1313'
 ht-degree: 0%
 
 ---
+
 
 # Carousel-component{#carousel-component}
 
@@ -30,7 +31,7 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 |--- |--- |--- |---|
 | v1 | Compatibel met<br>[release 2.17.4](/help/versions.md) en eerdere | Compatibel | Compatibel |
 
-Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
+Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Versies van kerncomponenten](/help/versions.md).
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
@@ -44,7 +45,7 @@ Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Document
 
 ## Diep koppelen aan een deelvenster {#deep-linking}
 
-De carrousel, [tabs,](tabs.md) en [Accordeoncomponenten](accordion.md) ondersteuning voor koppelingen rechtstreeks naar een deelvenster binnen de component.
+De carrousel, [tabs,](tabs.md) en [Accordeoncomponenten](accordion.md) ondersteuning voor het rechtstreeks koppelen naar een deelvenster binnen de component.
 
 Dit doet u als volgt:
 
@@ -56,6 +57,12 @@ Dit doet u als volgt:
 
 Wanneer u met de deelvenster-id als anker naar de URL navigeert, schuift de browser rechtstreeks naar de desbetreffende component en geeft deze het opgegeven deelvenster weer. Als het deelvenster is geconfigureerd om standaard niet te worden weergegeven, wordt er automatisch naar geschoven.
 
+## Carousel en responsief ontwerp {#responsive-design}
+
+Alle Core Components zijn ontworpen om volledig te reageren, zodat u over alle apparaten probleemloos kunt genieten.
+
+Sommige geavanceerde componenten, zoals de Carousel-component, vereisen wellicht specifieke aandacht in het kader van het uitvoeringsproject om de reactiesnelheid in alle omstandigheden te behouden. Zie het document [Responsief ontwerp van de kerncomponenten](/help/responsive.md) voor meer informatie .
+
 ## Dialoogvenster Bewerken {#edit-dialog}
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud dia&#39;s toevoegen, hernoemen en opnieuw rangschikken en de instellingen voor automatische overgangen definiëren.
@@ -66,10 +73,10 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud dia&#39;s toevoegen, 
 
 Gebruik de **Toevoegen** om de componentkiezer te openen en te kiezen welke component u als tab wilt toevoegen. Nadat een item is toegevoegd, wordt het toegevoegd aan de lijst met de volgende kolommen:
 
-* **Pictogram** - Het pictogram van het componenttype van de tab voor eenvoudige identificatie in de lijst. Plaats de muis boven de volledige componentnaam als knopinfo.
+* **Pictogram** - Het pictogram van het componenttype van de tab voor eenvoudige identificatie in de lijst. Plaats de muisaanwijzer boven de volledige componentnaam om deze weer te geven als knopinfo.
 * **Beschrijving** - De beschrijving die als tekst van het lusje wordt gebruikt, stellend aan de naam van de component die voor het lusje wordt geselecteerd.
 * **Verwijderen** - Tik of klik om het tabblad te verwijderen uit de component Tabs.
-* **Opnieuw ordenen** - Tik of klik en sleep om de tabbladen te ordenen.
+* **Opnieuw** - Tik of klik en sleep om de tabbladen te ordenen.
 
 >[!TIP]
 >
@@ -92,9 +99,9 @@ Op de **Eigenschappen** kan de auteur van de inhoud de dia&#39;s instellen op ee
 
 >[!NOTE]
 >
->De besturingselementen voor diavoorstellingen zijn niet ingeschakeld wanneer u zich in **Bewerken** in. Gebruiken [**Voorvertoning** mode](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) of de **[Weergeven als gepubliceerd](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** de mogelijkheid om met de carrousel te communiceren als een lezer van de gepubliceerde inhoud.
+>De besturingselementen voor diavoorstellingen zijn niet ingeschakeld wanneer u zich in **Bewerken** -modus. Gebruiken [**Voorvertoning** mode](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) of de **[Weergeven als gepubliceerd](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** de mogelijkheid om met de carrousel te communiceren als een lezer van de gepubliceerde inhoud.
 >
->De functie voor automatisch vooruitgaan is niet ingeschakeld als de functie is ingeschakeld **Bewerken** in. Gebruiken **[Weergeven als gepubliceerd](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** als u de functie voor automatisch vooruitgaan wilt zien als een lezer van de gepubliceerde inhoud.
+>De functie voor automatisch vooruitgaan is niet ingeschakeld als de functie is ingeschakeld **Bewerken** -modus. Gebruiken **[Weergeven als gepubliceerd](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** als u de functie voor automatisch vooruitgaan wilt zien als een lezer van de gepubliceerde inhoud.
 
 ### Tabblad Toegankelijkheid {#accessibility-tab}
 
@@ -149,6 +156,6 @@ Het tabblad Toegestane componenten werkt op dezelfde manier als het tabblad met 
 
 De Carousel-component ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
 
-## Gegevenslaag Adobe-client {#data-layer}
+## Gegevenslaag client-Adobe {#data-layer}
 
-De Carousel-component ondersteunt de [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
+De Carousel-component ondersteunt de [Gegevenslaag client Adobe.](/help/developing/data-layer/overview.md)

@@ -1,20 +1,36 @@
 ---
-title: Inclusief clientbibliotheken
-description: Afhankelijk van uw gebruiksscenario zijn er verschillende manieren om clientbibliotheken op te nemen.
+title: Clientbibliotheken en de kerncomponenten
+description: De componenten van de Kern komen met een aantal cliëntbibliotheken en bieden de capaciteit aan om uw te omvatten.
 role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
-source-git-commit: 39a5dee1666fa2645e0579fdfac0400f7fcbdc27
+source-git-commit: d39fe0084522f67664203a026340b23d325c1883
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
 
-# Inclusief clientbibliotheken {#including-client-libraries}
 
-Er zijn verschillende manieren om op te nemen [clientbibliotheken](/help/developing/archetype/front-end.md#clientlibs) afhankelijk van uw gebruiksgeval. Dit document bevat voorbeelden en voorbeelden [HTML-fragmenten](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) voor elk.
+# Clientbibliotheken en de kerncomponenten {#client-libraries}
 
-## Aanbevolen standaardgebruik {#recommended-default-usage}
+De componenten van de Kern komen met een aantal cliëntbibliotheken en bieden de capaciteit aan om uw te omvatten.
+
+## Aangeleverde clientbibliotheken {#provided}
+
+De componenten van de Kern verstrekken de volgende cliëntbibliotheken uit-van-de-doos.
+
+* De **site** clientlibs bieden het minimale functionele gedrag van de onderdelen die op de site moeten worden toegepast.
+   * Zij dienen als uitgangspunt voor het versnellen van projecten, waarbij implementaties worden aangemoedigd om uit te breiden en [aanpassen](/help/developing/customizing.md) om de gewenste weergave en functionaliteit te verkrijgen.
+* De **editor** clientlibs worden toegepast op het ontwerpdialoogvenster om de verwachte functionaliteit en vormgeving ervan te garanderen.
+* De **editorhaak** clientlibs worden toegepast op de site wanneer ze in de bewerkingsmodus worden geladen.
+   * Ze bevatten JavaScript-code die wordt uitgevoerd op gebeurtenissen die door de editor worden geactiveerd, waardoor de initialisatie van dynamische functionaliteit wordt vergemakkelijkt.
+* Sommige componenten kunnen specifieke extra clientlibs hebben die voor gebruik in bijzondere situaties worden ontworpen zoals wanneer gebruikt naast [Dynamic Media](/help/components/image.md#dynamic-media) bijvoorbeeld.
+
+## Inclusief clientbibliotheken {#including}
+
+Er zijn verschillende manieren om op te nemen [clientbibliotheken](/help/developing/archetype/front-end.md#clientlibs) afhankelijk van uw gebruiksgeval. Hier volgen voorbeelden van voorbeelden [HTML-fragmenten](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) voor elk.
+
+### Aanbevolen standaardgebruik {#recommended-default-usage}
 
 Als u geen tijd hebt om te onderzoeken wat in uw situatie het beste is, dan omvat uw cliëntbibliotheken door de volgende lijnen van HTML binnen uw pagina te plaatsen `head` element:
 
@@ -27,7 +43,7 @@ Als u geen tijd hebt om te onderzoeken wat in uw situatie het beste is, dan omva
 
 Dit omvat zowel de CSS als de JS in uw pagina `head`, maar de `defer` attribuut aan uw JS `script` bevat, zodat de browsers wachten totdat de DOM gereed is voordat ze de scripts uitvoeren en de laadsnelheid van de pagina daarom optimaliseren.
 
-## Standaardgebruik {#basic-usage}
+### Standaardgebruik {#basic-usage}
 
 De basissyntaxis om zowel JS als CSS van een categorie van de cliëntbibliotheek te omvatten, die al overeenkomstige CSS zal produceren `link` elementen en/of JS `script` de elementen zijn als volgt:
 
@@ -46,7 +62,7 @@ Als u hetzelfde wilt doen voor meerdere clientbibliotheekcategorieën tegelijk, 
 </sly>
 ```
 
-## Alleen CSS of JS {#css-js-only}
+### Alleen CSS of JS {#css-js-only}
 
 Vaak wilt u de CSS-include-bestanden in de HTML plaatsen `head` en het JS omvat net vóór de sluiting van het `body` element.
 
@@ -66,7 +82,7 @@ Voor de `body` sluiten, alleen de JS en niet de CSS opnemen, gebruik `jsIncludes
 </sly>
 ```
 
-## Attributen {#attributes}
+### Attributen {#attributes}
 
 Kenmerken toepassen op de gegenereerde CSS `link` elementen en/of JS `script` elementen zijn een aantal parameters mogelijk:
 
@@ -90,7 +106,7 @@ CSS `link` kenmerken die kunnen worden doorgegeven aan `jsAndCssIncludes` en `cs
 * `onload`: string
 * `crossorigin`: string
 
-## Invoering {#inlining}
+### Invoering {#inlining}
 
 In sommige gevallen, voor optimalisatie of voor e-mail of [AMP,](amp.md) mogelijk moet u de CSS of JS inline zetten in de uitvoer van de HTML.
 
@@ -112,7 +128,7 @@ Evenzo, om het JS te inline te zetten, `jsInline` kan worden gebruikt, in welk g
 </script>
 ```
 
-## CSS en JavaScript met behoud van context laden {#context-aware-loading}
+### CSS en JavaScript met behoud van context laden {#context-aware-loading}
 
 De [Pagina-component](/help/components/page.md) Het laden van door ontwikkelaars gedefinieerde contextgevoelige CSS-, JavaScript- of metatags wordt ook ondersteund.
 

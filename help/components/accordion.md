@@ -1,16 +1,17 @@
 ---
-title: Accordion-component
+title: Accordeoncomponent
 description: Met de component Core Component Accordion kunt u een verzameling deelvensters maken die zijn gerangschikt in een accordeon op een pagina.
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
+source-git-commit: d39fe0084522f67664203a026340b23d325c1883
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 1%
+source-wordcount: '1098'
+ht-degree: 0%
 
 ---
 
-# Accordion-component{#accordion-component}
+
+# Accordeoncomponent{#accordion-component}
 
 Met de component Core Component Accordion kunt u een verzameling deelvensters maken die zijn gerangschikt in een accordeon op een pagina.
 
@@ -32,7 +33,7 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 |--- |--- |---|---|
 | v1 | Compatibel met<br>[release 2.17.4](/help/versions.md) en eerdere | Compatibel | Compatibel |
 
-Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
+Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Versies van kerncomponenten](/help/versions.md).
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
@@ -46,7 +47,7 @@ Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Document
 
 ## Diep koppelen aan een deelvenster {#deep-linking}
 
-de accordeon, [Carousel](carousel.md) en [Componenten tabs](tabs.md) ondersteuning voor koppelingen rechtstreeks naar een deelvenster binnen de component.
+de accordeon, [Carousel](carousel.md) en [Componenten tabs](tabs.md) ondersteuning voor het rechtstreeks koppelen naar een deelvenster binnen de component.
 
 Dit doet u als volgt:
 
@@ -58,6 +59,12 @@ Dit doet u als volgt:
 
 Wanneer u met de deelvenster-id als anker naar de URL navigeert, schuift de browser rechtstreeks naar de desbetreffende component en geeft deze het opgegeven deelvenster weer. Als het deelvenster is geconfigureerd om niet standaard te worden uitgevouwen, wordt het automatisch uitgevouwen.
 
+## Accordeon en responsief ontwerp {#responsive-design}
+
+Alle Core Components zijn ontworpen om volledig te reageren, zodat u over alle apparaten probleemloos kunt genieten.
+
+Sommige geavanceerde componenten, zoals de component Accordion, moeten mogelijk in het kader van het uitvoeringsproject specifieke aandacht krijgen om de reactiesnelheid in alle omstandigheden te behouden. Zie het document [Responsief ontwerp van de kerncomponenten](/help/responsive.md) voor meer informatie .
+
 ## Dialoogvenster configureren {#configure-dialog}
 
 In het dialoogvenster Configureren kan de auteur van de inhoud het accordeonitem, de deelvensters definiëren en bepalen hoe het zich gedraagt en wordt weergegeven voor een bezoeker van de pagina.
@@ -68,7 +75,7 @@ In het dialoogvenster Configureren kan de auteur van de inhoud het accordeonitem
 
 Gebruik de **Toevoegen** om de componentkiezer te openen en te kiezen welke component u als deelvenster wilt toevoegen. Nadat een item is toegevoegd, wordt het toegevoegd aan de lijst met de volgende kolommen:
 
-* **Pictogram** - Het pictogram van het componenttype van het paneel voor gemakkelijke identificatie in de lijst. Plaats de muis boven de volledige componentnaam als knopinfo.
+* **Pictogram** - Het pictogram van het componenttype van het paneel voor gemakkelijke identificatie in de lijst. Plaats de muisaanwijzer boven de volledige componentnaam om deze weer te geven als knopinfo.
 * **Beschrijving** - De beschrijving die als tekst van het deelvenster wordt gebruikt, met standaard de naam van de component die voor het deelvenster is geselecteerd.
 * **Verwijderen** - Tik of klik om het deelvenster uit de accordeoncomponent te verwijderen.
 * **Opnieuw rangschikken** - Tik of klik en sleep om de volgorde van de deelvensters te wijzigen.
@@ -81,7 +88,7 @@ Gebruik de **Toevoegen** om de componentkiezer te openen en te kiezen welke comp
 
 ![Het tabblad Eigenschappen van het dialoogvenster Bewerken van de accordeoncomponent](/help/assets/accordion-edit-properties.png)
 
-* **Uitbreiding van één item** - Als deze optie is geselecteerd, wordt één accordeonitem tegelijkertijd uitgebreid. Als u één item uitvouwt, worden alle andere items samengevouwen.
+* **Uitbreiding van één item** - Als deze optie is geselecteerd, wordt één accordeonitem tegelijkertijd uitgebreid. Als u één item uitbreidt, worden alle andere items samengevouwen.
 * **Uitgebreide items** - Met deze optie worden de items gedefinieerd die standaard worden uitgevouwen wanneer de pagina wordt geladen.
    * Wanneer **Uitbreiding van één item** is geselecteerd, moet er één deelvenster zijn geselecteerd. Standaard is het eerste deelvenster geselecteerd.
    * Wanneer **Uitbreiding van één item** is niet geselecteerd, is deze optie een meerkeuzeoptie en is optioneel.
@@ -107,7 +114,7 @@ Wanneer u de **Deelvenster selecteren** in de componentwerkbalk worden de geconf
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
-In het dialoogvenster Ontwerpen kan de sjabloonauteur de opties definiëren die beschikbaar zijn voor de auteur van de inhoud die de component Accordion gebruikt en de standaardinstellingen die zijn ingesteld bij het plaatsen van de component Accordion.
+In het ontwerpdialoogvenster kan de sjabloonauteur de opties definiëren die beschikbaar zijn voor de inhoudauteur die de accordeoncomponent gebruikt en de standaardinstellingen die zijn ingesteld bij het plaatsen van de accordeoncomponent.
 
 ### Tabblad Eigenschappen {#properties-tab-design}
 
@@ -126,6 +133,6 @@ Het tabblad Toegestane componenten werkt op dezelfde manier als het tabblad met 
 
 De component Accordion ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
 
-## Gegevenslaag Adobe-client {#data-layer}
+## Gegevenslaag client-Adobe {#data-layer}
 
-De component Accordion ondersteunt de [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
+De component Accordion ondersteunt de [Gegevenslaag client Adobe.](/help/developing/data-layer/overview.md)
