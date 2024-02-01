@@ -3,9 +3,9 @@ title: Webgeoptimaliseerde afbeeldingslevering
 description: Leer hoe de Core Components AEM as a Cloud Service webgeoptimaliseerde functies voor het leveren van afbeeldingen kunnen gebruiken om afbeeldingen efficiënter te leveren.
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: 7325751541d463eb9744b1e4a72fd64611f74d55
+source-git-commit: eb1822cb41a849695afb5125745ed5f78e3e70a4
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
@@ -95,4 +95,5 @@ Nee, dat mag nooit gebeuren om de volgende redenen.
 
 * In de HTML verandert de markering niet wanneer u voor het web geoptimaliseerde afbeeldingen inschakelt, alleen de waarde van de `src` wijzigt het kenmerk van het afbeeldingselement.
 * Wanneer de nieuwe beeldservice niet beschikbaar is of de gewenste afbeelding niet kan verwerken, wordt de gegenereerde URL [fallback naar de Adaptive Image Servlet.](#fallback)
-* De verzendingsregels kunnen de voor het web geoptimaliseerde service voor het leveren van afbeeldingen blokkeren. URL&#39;s van de service voor het leveren van afbeeldingen beginnen met `/adobe`en onderzoek [verzenderslogboeken voor afgewezen aanvragen](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects) moet u helpen problemen op te lossen die zijn opgetreden bij het leveren van de afbeeldingen aan de browser.
+
+De verzendingsregels kunnen echter de voor het web geoptimaliseerde service voor het leveren van afbeeldingen blokkeren. URL&#39;s van de service voor het leveren van afbeeldingen beginnen met `/adobe`, en het onderzoek van de verzenderslogboeken voor afgewezen aanvragen als [hier beschreven](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects) moet u helpen problemen op te lossen die zijn opgetreden bij het leveren van de afbeeldingen aan de browser.
