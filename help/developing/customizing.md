@@ -3,9 +3,9 @@ title: Kerncomponenten aanpassen
 description: De componenten van de Kern voeren verscheidene patronen uit die gemakkelijke aanpassing, van eenvoudig het stileren aan geavanceerd functionaliteit hergebruik toestaan.
 role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: bd688d422a072a9d5627c27817ac67f95829de4f
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,9 @@ En alle kerncomponenten implementeren de [Stijlsysteem](#styling-the-components)
 
 Het kan wenselijk zijn om de configuratieopties beschikbaar in een kerncomponentendialoog aan te passen, of het [Het dialoogvenster Ontwerpen of het dialoogvenster Bewerken](/help/get-started/authoring.md).
 
-Elk dialoogvenster heeft een consistente knooppuntstructuur. Het wordt aanbevolen deze structuur te repliceren in een overnemende component, zodat [Samenvoegen van verkoopbronnen](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) en [Voorwaarden verbergen](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/hide-conditions.html) U kunt secties van het oorspronkelijke dialoogvenster verbergen, vervangen of opnieuw ordenen. De structuur die moet worden gerepliceerd, wordt gedefinieerd als alles tot het niveau van de tabitemnode.
+Elk dialoogvenster heeft een consistente knooppuntstructuur. Het wordt aanbevolen deze structuur te repliceren in een overnemende component, zodat [Samenvoeging van verkoopbronnen](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) en [Voorwaarden verbergen](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/hide-conditions.html) U kunt secties van het oorspronkelijke dialoogvenster verbergen, vervangen of opnieuw ordenen. De structuur die moet worden gerepliceerd, wordt gedefinieerd als alles tot het niveau van de tabitemnode.
 
-Om volledig compatibel te zijn met eventuele wijzigingen die zijn aangebracht in een dialoog over de huidige versie, is het van groot belang dat structuren onder het tabitemniveau niet worden gewijzigd (verborgen, toegevoegd, vervangen, opnieuw gerangschikt, enz.). In plaats daarvan moet een tab-item van het bovenliggende item via het `sling:hideResource` eigenschap (zie [Eigenschappen van samenvoeging van bronnen](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)), en nieuwe toegevoegde lusjepunten die de op maat gemaakte configuratiegebieden bevatten. `sling:orderBefore` U kunt tabitems desgewenst opnieuw ordenen.
+Om volledig compatibel te zijn met eventuele wijzigingen die zijn aangebracht in een dialoog over de huidige versie, is het van groot belang dat structuren onder het tabitemniveau niet worden gewijzigd (verborgen, toegevoegd, vervangen, opnieuw gerangschikt, enz.). In plaats daarvan moet een tab-item van het bovenliggende item via het dialoogvenster `sling:hideResource` eigenschap (zie [Eigenschappen van samenvoeging van resources afspelen](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)), en nieuwe toegevoegde lusjepunten die de op maat gemaakte configuratiegebieden bevatten. `sling:orderBefore` U kunt tabitems desgewenst opnieuw ordenen.
 
 In het onderstaande dialoogvenster ziet u de aanbevolen dialoogstructuur en hoe u een overgeërfd tabblad zoals hierboven beschreven, kunt verbergen en vervangen:
 
@@ -59,15 +59,16 @@ In het onderstaande dialoogvenster ziet u de aanbevolen dialoogstructuur en hoe 
                         <originalTab
                                 jcr:primaryType="nt:unstructured"
                                 sling:hideResource="true"/>
-                        </originalTab>
                         <myTab
                                jcr:primaryType="nt:unstructured"
                                jcr:title="My Tab"
-                               sling:resourceType="granite/ui/components/coral/foundation/container"/>
+                               sling:resourceType="granite/ui/components/coral/foundation/container">
+                                  
                                <!-- myTab content -->
+                                  
                         </myTab>
                 </items>
-            </basic>
+            </tabs>
         </items>
     </content>
 </jcr:root>
@@ -86,12 +87,16 @@ Omdat de modellen van de Componenten van de Kern privé zijn, moeten zij met een
        adapters = Title.class,
        resourceType = "myproject/components/pageHeadline")
 public class PageHeadline implements Title {
+    
     @ScriptVariable private Page currentPage;
+    
     @Self @Via(type = ResourceSuperType.class)
+
     private Title title;
     @Override public String getText() {
         return currentPage.getTitle();
     }
+    
     @Override public String getType() {
         return title.getType();
     }
@@ -128,7 +133,7 @@ Bovendien maken alle Core Components gebruik van de AEM [Stijlsysteemfunctie](ht
 
 Er zijn drie verschillende soorten upgrades mogelijk:
 
-* upgrade uitvoeren van de versie van AEM
+* upgrade uitvoeren van AEM
 * de Core Components upgraden naar een nieuwe secundaire versie
 * de Core Components upgraden naar een belangrijke versie
 
