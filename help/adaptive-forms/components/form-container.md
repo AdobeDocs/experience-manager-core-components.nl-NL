@@ -3,9 +3,9 @@ title: Adaptieve Forms Core-component - Formuliercontainer
 description: Voeg een adaptief formulier toe aan een webpagina.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: 4d01c75fadb0220f0093a6647c27c4002cc979c9
+source-git-commit: 7862206660909b396cb3d95b7ac81eee9221957b
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1339'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,8 @@ Met het dialoogvenster Configureren kunt u de ervaring van uw formuliercontainer
 
 ![Het tabblad Basis](/help/adaptive-forms/assets/formcontainer_basictab.png)
 
+- **Titel** - Met Titel kunt u een component gemakkelijk herkennen in een formulier. Standaard wordt de titel boven op de component weergegeven. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
+
 - **Vooraf ingevulde services** - Met deze optie kan de gebruiker een vooraf ingevulde service selecteren voor het ophalen van gegevens wanneer het adaptieve formulier wordt weergegeven. Meer informatie over [hoe te om een vooraf ingevulde dienst tot stand te brengen en te vormen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=en#aem-forms-custom-prefill-service).
 
 - **Categorie Clientbibliotheek** - De gebruiker kan een aangepaste JavaScript-bibliotheek configureren per adaptief formulier. Het wordt aanbevolen alleen de herbruikbare functies in de bibliotheek te behouden, die afhankelijk zijn van bibliotheken van derden jquery en underscore.js.
@@ -79,15 +81,15 @@ Met het formuliergegevensmodel kunt u een formulier verbinden met een gegevensbr
 
 ### Tabblad Verzending {#submission-tab}
 
-![Tabblad Verzending](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
-
 Gebruikers kunnen verschillende handelingen configureren voor het verzenden van een adaptief formulier.
 
 - **URL/pad omleiden** - Met deze optie kan de gebruiker een pagina configureren voor elk formulier, waarnaar de gebruikers van het formulier worden omgeleid na het verzenden van een adaptief formulier. Klik hier voor meer informatie over [omleidingspagina&#39;s configureren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html).
 
-![Berichtvenster tonen, tabblad](/help/adaptive-forms/assets/formconatiner_showmessage.png)
+![Tabblad Verzending](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
 
 - **Bericht tonen** - Met deze optie kunnen gebruikers een bericht toevoegen dat wordt weergegeven wanneer het Adaptief formulier is verzonden. De vooraf gedefinieerde tekst wordt opgenomen in het dialoogvenster en kan door de gebruiker worden gewijzigd. Het dialoogvenster Bericht tonen ondersteunt gereedschappen voor tekstopmaak waarmee gebruikers de toegevoegde tekst kunnen opmaken.
+
+![Berichtvenster tonen, tabblad](/help/adaptive-forms/assets/formconatiner_showmessage.png)
 
 - **Handeling verzenden** - Een handeling Verzenden wordt geactiveerd wanneer een gebruiker op de knop Verzenden klikt op een adaptief formulier. Gebruikers kunnen in de vervolgkeuzelijst de optie Handelingen verzenden selecteren die in het vak worden ondersteund. Leer hoe u [Een handeling verzenden configureren op het tabblad Verzending](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br).
 

@@ -3,9 +3,9 @@ title: Adaptive Forms Core Component - Voorwaarden en bepalingen
 description: De kerncomponent Adaptive Forms Terms and Conditions gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
+source-git-commit: c29798f15edb77fbc5912010685e97c1072e2034
 workflow-type: tm+mt
-source-wordcount: '2690'
+source-wordcount: '2862'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,10 @@ Met het dialoogvenster Configureren kunt u de ervaring van de component bepaling
 - **Naam** - De naam identificeert uniek de component in de regelredacteur. Speciale tekens en spaties zijn niet toegestaan in de naamtekenreeksen.
 
 - **Titel** - Met Titel kunt u een component gemakkelijk herkennen in een formulier. Standaard wordt de titel boven op de component weergegeven. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
 
 - **Goedkeuringsoptie tonen** - Selecteer de optie om het selectievakje voor toestemming weer te geven dat wordt gebruikt om expliciete toestemming van de gebruiker te verkrijgen.
 
@@ -114,7 +118,9 @@ Met het dialoogvenster Configureren kunt u de ervaring van de component bepaling
 
 ![Toegankelijkheid, tabblad](/help/adaptive-forms/assets/terms-and-conditions-accessibility-tab.png)
 
-**Tekst voor schermlezers** - Tekst voor schermlezers verwijst naar extra tekst die specifiek is bedoeld om te worden gelezen door ondersteunende hulpmiddelen, zoals schermlezers, die door visueel gehandicapten worden gebruikt. Deze tekst bevat een audiobeschrijving van het doel van het formulierveld en kan informatie bevatten over de titel, beschrijving, naam en relevante berichten (aangepaste tekst) van het veld. Met de schermlezertekst kunt u ervoor zorgen dat het formulier toegankelijk is voor alle gebruikers, inclusief gebruikers met een visuele handicap, en krijgt deze een volledig inzicht in het formulierveld en de vereisten ervan.
+- **Tekst voor schermlezers** - Tekst voor schermlezers verwijst naar extra tekst die specifiek is bedoeld om te worden gelezen door ondersteunende hulpmiddelen, zoals schermlezers, die door visueel gehandicapten worden gebruikt. Deze tekst bevat een audiobeschrijving van het doel van het formulierveld en kan informatie bevatten over de titel, beschrijving, naam en relevante berichten (aangepaste tekst) van het veld. Met de schermlezertekst kunt u ervoor zorgen dat het formulier toegankelijk is voor alle gebruikers, inclusief gebruikers met een visuele handicap, en krijgt deze een volledig inzicht in het formulierveld en de vereisten ervan.
+
+- **HTML-rol voor schermlezer om aan te kondigen** - De rol HTML is een kenmerk dat wordt gebruikt om het doel van een element HTML aan ondersteunende hulpmiddelen, zoals schermlezers, op te geven. Het rolattribuut wordt gebruikt om extra context en semantische betekenis aan een element te verstrekken, die het voor schermlezers gemakkelijker maken om de inhoud te interpreteren en aan de gebruiker aan te kondigen. In AEM Forms heeft het label van een formulierveld bijvoorbeeld de rol &quot;label&quot; en kan het invoerveld de rol &quot;textbox&quot; hebben. Hierdoor kan de schermlezer de relatie tussen het label en het invoerveld begrijpen en deze correct aan de gebruiker meedelen.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -163,10 +169,23 @@ Deze component vervangt een of meer toestemmingsteksten door een of meer webkopp
 - **Naam** - De naam identificeert uniek de component in de regelredacteur. Speciale tekens en spaties zijn niet toegestaan in de naamtekenreeksen.
 
 - **Titel** - Met Titel kunt u een component gemakkelijk herkennen in een formulier. Standaard wordt de titel boven op de component weergegeven. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
+<!-- **Allow Rich Text for Title** - This feature enables users to format titles using options like bold, italic, font styles, colors, and alignment, enhancing visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Titel verbergen** - Selecteer de optie om de titel van de component te verbergen.
 
 - **Koppelingen** - Geef de koppeling en de bijbehorende weergavetekst op die wordt gebruikt in plaats van de tekst voor toestemming. U kunt meerdere koppelingen toevoegen door op de knop **Toevoegen** knop.
+Nadat een nieuwe optie is toegevoegd, kunnen de volgende acties worden uitgevoerd:
+   - **Koppeling** - Met deze optie kunt u de URL invoeren die u wilt omleiden wanneer een optie is geselecteerd.
+   - **Tekst weergeven** - Met deze optie kunt u de inhoud invoeren die u wilt weergeven in een adaptief formulier.
+   - **Verwijderen** - Tik of klik om de optie van een keuzerondje te verwijderen.
+   - **Opnieuw rangschikken** - Tik of klik en sleep om de volgorde van de opties te wijzigen.
+
+<!-- You can also format the options for checkbox group using **Allow Rich Text for Options**. Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+    
+    ![Rich text support for options](/help/adaptive-forms/assets/link-options.png)-->
 
 - **Bindverwijzing** - Een bind verwijzing is een verwijzing naar een gegevenselement dat in een externe gegevensbron wordt opgeslagen en in een vorm wordt gebruikt. Met de bind-verwijzing kunt u gegevens dynamisch binden aan formuliervelden, zodat in het formulier de meest actuele gegevens uit de gegevensbron kunnen worden weergegeven. Een bind-verwijzing kan bijvoorbeeld worden gebruikt om de naam en het adres van een klant in een formulier weer te geven op basis van de id van de klant die in het formulier is ingevoerd. De bind verwijzing kan ook worden gebruikt om de gegevensbron met gegevens bij te werken ingegaan in de vorm. Op deze manier kunt u met AEM Forms formulieren maken die interageren met externe gegevensbronnen, zodat u een naadloze gebruikerservaring hebt voor het verzamelen en beheren van gegevens.
 

@@ -3,9 +3,9 @@ title: Adaptieve Forms Core-component - Bestandsbijlage
 description: De Adaptive Forms-component voor bestandsbijlagen gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: 8c51bd29074e5977d3435d849033770cadc357b8
 workflow-type: tm+mt
-source-wordcount: '1740'
+source-wordcount: '1726'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,10 @@ Met het dialoogvenster Configureren kunt u de ervaring met bestandsbijlagen eenv
 - **Naam** - U kunt een formuliercomponent gemakkelijk herkennen met de unieke naam, zowel in het formulier als in de regeleditor, maar de naam mag geen spaties of speciale tekens bevatten.
 
 - **Titel** - Met Titel kunt u een component gemakkelijk herkennen in een formulier. Standaard wordt de titel boven op de component weergegeven. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Titel verbergen** - Selecteer de optie om de titel van de component te verbergen.
 
@@ -73,6 +77,7 @@ Met het dialoogvenster Configureren kunt u de ervaring met bestandsbijlagen eenv
 - **Component uitschakelen** - Selecteer de optie om de component uit te schakelen. De uitgeschakelde component is niet actief of bewerkbaar voor de eindgebruiker. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
 - **Alleen-lezen** - Selecteer de optie om de component niet-bewerkbaar te maken. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
 - **Meerdere bijlagen toestaan** - Selecteer deze optie om meerdere bijlagen te uploaden met de **Bestandsbijlage** knop.
+- **Tekst slepen** - Dit is de tekst die boven aan het dialoogvenster **Koppelen** om gebruikers te vragen bestanden te koppelen of te slepen. U hebt de optie om de tekst aan te passen die boven aan het dialoogvenster **Koppelen** knop. <!-- Additionally, you can format the text using the rich text menu. -->
 
 ### Tabblad Validatie {#validation-tab}
 
@@ -84,11 +89,10 @@ Met het dialoogvenster Configureren kunt u de ervaring met bestandsbijlagen eenv
 
 - **Bericht voor scriptvalidatie** - Met deze optie kunt u een bericht invoeren dat wordt weergegeven als de scriptvalidatie mislukt.
 
-- **Foutbericht voor minimale bestanden** - Deze optie wordt gebruikt om een foutbericht in te voeren dat wordt weergegeven als u bestanden uploadt die kleiner zijn dan het opgegeven minimumaantal bestanden.
-
-- **Foutbericht voor Maximum aantal bestanden** - Deze optie wordt gebruikt om een foutbericht in te voeren dat wordt weergegeven als u bestanden uploadt die groter zijn dan het opgegeven maximumaantal bestanden.
+<!--   **Minimum files error message** - This option is used to enter an error message that is displayed if you upload files lesser than the specified minimum number of files.-->
 
 - **Maximale bestandsgrootte (MB)** - Met deze optie kunt u een maximale bestandsgrootte opgeven. Bestandsgrootten worden opgegeven in MB.
+  <!--   **Maximum files error message** - This option is used to enter an error message that is displayed if you upload files greater than the specified maximum number of files.-->
 
 - **Foutbericht voor maximale bestandsgrootte** - Deze optie wordt gebruikt om een foutbericht in te voeren dat wordt weergegeven als u bestanden uploadt die groter zijn dan de bestandsgrootte die is opgegeven in **Maximale bestandsgrootte (MB)** -optie.
 

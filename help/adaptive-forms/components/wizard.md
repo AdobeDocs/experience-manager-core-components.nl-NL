@@ -3,9 +3,9 @@ title: Adaptive Forms Core Component - Wizard
 description: De Adaptive Forms Wizard Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: 0e7bfe0d9a7263469d96227e37caf932a8c135c6
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2100'
 ht-degree: 0%
 
 ---
@@ -81,15 +81,40 @@ Met het dialoogvenster Configureren kunt u de tovenaarservaring eenvoudig aanpas
 
 - **Titel verbergen** - Selecteer de optie om de titel van de component te verbergen.
 
-- **Gegevens in een object laten omlopen** - Kies &quot;Gegevens laten teruglopen in een object&quot; om de veldgegevens in de wizard in een JSON-object te plaatsen. Als deze optie niet is gekozen, heeft de verzendgegevens-JSON een platte structuur voor de velden van de wizard.
+- **Gegevens van onderliggende componenten groeperen over het verzenden van formulieren (gegevens laten teruglopen in object)** - Wanneer de optie is geselecteerd, worden de gegevens van de onderliggende componenten genest in het JSON-object van de bovenliggende component. Als de optie echter niet is geselecteerd, hebben de verzonden JSON-gegevens een platte structuur, zonder object voor de bovenliggende component. Bijvoorbeeld:
 
-- **Layout** - U kunt een vaste lay-out (Eenvoudig) of een flexibele lay-out (Responsief raster) voor uw wizard gebruiken. De eenvoudige lay-out houdt alles vast op de plaats, terwijl het Responsieve Net u toestaat om de positie van componenten aan uw behoeften aan te passen. Gebruik bijvoorbeeld Responsief raster om &quot;Voornaam&quot;, &quot;Tweede naam&quot; en &quot;Achternaam&quot; in één rij uit te lijnen in een formulier.
+   - Wanneer de optie is geselecteerd, worden de gegevens van de onderliggende componenten (bijvoorbeeld Straat, Plaats en Postcode) genest binnen de bovenliggende component (Adres) als een JSON-object. Dit leidt tot een hiërarchische structuur, en de gegevens worden georganiseerd onder de oudercomponent.
+
+     Structuur van de ingediende gegevens:
+
+     ```JSON
+     { "Address":
+     
+     { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
+     
+     }
+     ```
+
+   - Wanneer de optie niet is geselecteerd, hebben de verzonden JSON-gegevens een platte structuur zonder object voor de bovenliggende component (Adres). Alle gegevens bevinden zich op hetzelfde niveau, zonder hiërarchische organisatie.
+
+
+     Structuur van de ingediende gegevens:
+
+     ```JSON
+        { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
+     ```
+
+<!--   **Wrap data in an object** - Choose "Wrap data in an object" to put the field data from the Wizard inside a JSON object. If not chosen, the submit data JSON has a flat structure for the Wizard's fields.
+
+-   **Layout** - You can have either a fixed layout (Simple) or a flexible layout (Responsive Grid) for your wizard. The Simple layout keeps everything fixed in the place, while the Responsive Grid allows you to adjust the position of components to suit your needs. For example, use Responsive Grid to align "First Name", "Middle Name" and "Last Name" in a form in a single row.  -->
 
 - **Bindverwijzing** - Een bind verwijzing is een verwijzing naar een gegevenselement dat in een externe gegevensbron wordt opgeslagen en in een vorm wordt gebruikt. Met de bind-verwijzing kunt u gegevens dynamisch binden aan formuliervelden, zodat in het formulier de meest actuele gegevens uit de gegevensbron kunnen worden weergegeven. Een bind-verwijzing kan bijvoorbeeld worden gebruikt om de naam en het adres van een klant in een formulier weer te geven op basis van de id van de klant die in het formulier is ingevoerd. De bind verwijzing kan ook worden gebruikt om de gegevensbron met gegevens bij te werken ingegaan in de vorm. Op deze manier kunt u met AEM Forms formulieren maken die interageren met externe gegevensbronnen, zodat u een naadloze gebruikerservaring hebt voor het verzamelen en beheren van gegevens.
 
 - **Component verbergen** - Selecteer de optie om de component te verbergen voor het formulier. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel. Dit is handig wanneer u informatie wilt opslaan die niet hoeft te worden bekeken of rechtstreeks door de gebruiker hoeft te worden gewijzigd.
 
 - **Component uitschakelen** - Selecteer de optie om de component uit te schakelen. De uitgeschakelde component is niet actief of bewerkbaar voor de eindgebruiker. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
+
+- **Alleen-lezen** - Selecteer de optie om de component niet-bewerkbaar te maken. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
 
 ### Tabblad Wizard Herhalen {#repeat-wizard-tab}
 
@@ -105,7 +130,7 @@ Om herhaalbare secties binnen de Tovenaar effectief te beheren, volg de stappen 
 
 ### Tabblad Items {#items-tab}
 
-![Tabblad Items](/help/adaptive-forms/assets/wizard_helptab.png)
+![Tabblad Items](/help/adaptive-forms/assets/wizard_itemstab.png)
 
 Met deze optie kunt u componenten Adaptief formulier toevoegen door op de knop Toevoegen te klikken. Deze knop wordt standaard weergegeven wanneer de wizard wordt toegevoegd in de bewerkingsmodus.
 

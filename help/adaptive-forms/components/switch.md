@@ -2,15 +2,13 @@
 title: Adaptieve Forms Core-component - Switch-component
 description: De Adaptive Forms Switch Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
-hide: true
-hidefromToC: true
-source-git-commit: d172e019c5621d950a94cbdd8d27e4834dbabe3b
+exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
+source-git-commit: 8c51bd29074e5977d3435d849033770cadc357b8
 workflow-type: tm+mt
 source-wordcount: '1689'
 ht-degree: 0%
 
 ---
-
 
 # Component wisselen{#switch-adaptive-forms-core-component}
 
@@ -59,6 +57,10 @@ U kunt uw ervaring van de component van de Schakelaar voor bezoekers gemakkelijk
 - **Naam** - U kunt een formuliercomponent gemakkelijk herkennen met de unieke naam, zowel in het formulier als in de regeleditor, maar de naam mag geen spaties of speciale tekens bevatten.
 
 - **Titel** - Met Titel kunt u een component gemakkelijk herkennen in een formulier. De titel wordt standaard naast de component weergegeven. Als u geen titel toevoegt, wordt de component niet weergegeven.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Titel verbergen** - Selecteer de optie om de titel van de component te verbergen.
 
@@ -68,6 +70,15 @@ U kunt uw ervaring van de component van de Schakelaar voor bezoekers gemakkelijk
    - **Tekst weergeven** - Geef de tekst op die als label moet worden weergegeven wanneer de schakelaar is ingeschakeld in een adaptief formulier.
    - **Uit-gegevenswaarde** - Geef de waarde op die moet worden verzonden wanneer de switch niet in een adaptieve vorm is ingeschakeld. Deze optie is alleen zichtbaar als de **Statuswaarde voor uitschakelen behouden** switch is ingeschakeld.
    - **Niet-weergegeven tekst** - Geef de tekst op die als label moet worden weergegeven wanneer de switch niet is ingeschakeld in een adaptief formulier. Deze optie is alleen zichtbaar als de **Statuswaarde voor uitschakelen behouden** switch is ingeschakeld.
+
+<!-- You can also format the options for switch using **Allow Rich Text for Options**. 
+  
+     ![Rich text support for options](/help/adaptive-forms/assets/switch-optipn-rich-text.png)
+
+    Once you select the checkbox for **Allow Rich Text for options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+    
+    ![Rich text support for options](/help/adaptive-forms/assets/switch-richtext-for-display.png) -->
+
 
 - **Bindverwijzing** - Een bind verwijzing is een verwijzing naar een gegevenselement dat in een externe gegevensbron wordt opgeslagen en in een vorm wordt gebruikt. Met de bind-verwijzing kunt u gegevens dynamisch binden aan formuliervelden, zodat in het formulier de meest actuele gegevens uit de gegevensbron kunnen worden weergegeven. Een bind-verwijzing kan bijvoorbeeld worden gebruikt om de naam en het adres van een klant in een formulier weer te geven op basis van de id van de klant die in het formulier is ingevoerd. De bind verwijzing kan ook worden gebruikt om de gegevensbron met gegevens bij te werken ingegaan in de vorm. Op deze manier kunt u met AEM Forms formulieren maken die interageren met externe gegevensbronnen, zodat u een naadloze gebruikerservaring hebt voor het verzamelen en beheren van gegevens.
 - **Markeren als niet-gebonden formulierelement**: Selecteer de optie om een formulierveld te configureren dat niet is gekoppeld aan een schema. Met deze optie kunt u gegevens opslaan zonder de gegevensbron bij te werken. Het laat u ook toe om gegevens op een douanemethode, los van standaardgegevensbestandintegratie te behandelen.
@@ -148,12 +159,3 @@ Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aa
 ## Zie ook {#see-also}
 
 {{see-also}}
-
-
-
-
-
-
-
-
-

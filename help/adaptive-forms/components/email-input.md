@@ -3,9 +3,9 @@ title: Adaptive Forms Core Component - E-mailinvoer
 description: De Adaptive Forms Email input Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '1940'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,10 @@ Met het dialoogvenster Configureren kunt u uw e-mailinvoerervaring eenvoudig aan
 - **Naam** - De naam identificeert uniek de component in de regelredacteur.De speciale karakters en de ruimten worden niet toegestaan in de naamkoorden.
 
 - **Titel** - Met Titel kunt u een component gemakkelijk herkennen in een formulier. Standaard wordt de titel boven op de component weergegeven. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Titel verbergen** - Selecteer de optie om de titel van de component te verbergen.
 
@@ -76,6 +80,7 @@ Met het dialoogvenster Configureren kunt u uw e-mailinvoerervaring eenvoudig aan
 
 - **Standaardwaarde** - Met deze optie kunt u een standaardwaarde toevoegen aan een formulierveld. Indien **Uitgeschakelde component** of **Component (alleen-lezen)** is geselecteerd, wordt de standaardwaarde op het scherm weergegeven. Als er geen waarde wordt ingevoerd door de gebruiker in het formulierveld, wordt deze waarde verzonden op het moment dat het formulier wordt verzonden
 
+- **Autofill, kenmerk**: Met deze optie kunnen gebruikers een waarde invoeren die automatisch wordt ingevuld in het formulierveld op basis van de opgeslagen informatie.
 
 ### Tabblad Validatie {#validation-tab}
 

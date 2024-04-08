@@ -3,9 +3,9 @@ title: Adaptive Forms Core Component - Tekstinvoer (tekstvak)
 description: De Adaptive Forms Text input Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
 workflow-type: tm+mt
-source-wordcount: '1984'
+source-wordcount: '1949'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,10 @@ Met het dialoogvenster Configureren kunt u uw ervaring met tekstinvoer eenvoudig
 - **Naam** - U kunt een formuliercomponent gemakkelijk herkennen met de unieke naam, zowel in het formulier als in de regeleditor, maar de naam mag geen spaties of speciale tekens bevatten.
 
 - **Titel** - Met Titel kunt u een component gemakkelijk herkennen in een formulier. Standaard wordt de titel boven op de component weergegeven. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Titel verbergen** - Selecteer de optie om de titel van de component te verbergen.
 
@@ -75,9 +79,7 @@ Met het dialoogvenster Configureren kunt u uw ervaring met tekstinvoer eenvoudig
 
 - **Meerdere regels toestaan** - Met deze optie kan de gebruiker meerdere regels in een formulierveld invoeren.
 
-- **RTF-tekst toestaan** - Het dialoogvenster Bewerken bevat standaard tekstopmaakgereedschappen waarmee de gebruiker tekst kan opmaken.
-
-- **Kenmerk Automatisch vullen** - Met de optie Automatisch vullen wordt het formulierveld gevuld op basis van een patroon of een eerder ingevoerde tekst. Terwijl de gebruiker tekst in het formulierveld begint te typen, worden suggesties weergegeven in een vervolgkeuzelijst waaruit de gebruiker de juiste optie kan selecteren.
+- **Kenmerk Automatisch vullen** - Met deze optie kunnen gebruikers een waarde invoeren die automatisch wordt ingevuld in het formulierveld op basis van de opgeslagen informatie.
 
 ### Tabblad Validatie {#validation-tab}
 

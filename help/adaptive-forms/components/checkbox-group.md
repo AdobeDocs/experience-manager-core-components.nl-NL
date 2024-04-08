@@ -3,9 +3,9 @@ title: Adaptieve Forms Core-component - Checkbox-groep
 description: De Adaptive Forms Checkbox Group Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+source-git-commit: db65bd4dd2190ea034799ae209edd78598ac8a48
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1869'
 ht-degree: 0%
 
 ---
@@ -75,14 +75,28 @@ Met het dialoogvenster Configureren kunt u de ervaring van het selectievakje voo
 
 - **Titel** - Met Titel kunt u een component gemakkelijk herkennen in een formulier. Standaard wordt de titel boven op de component weergegeven. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
 
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+
 - **Titel verbergen** - Selecteer de optie om de titel van de component te verbergen.
 
-- **Opties** - U kunt gegevenswaarden toevoegen en tekstparen weergeven met de opdracht **Toevoegen** knop. Nadat een nieuwe optie is toegevoegd, kunnen de volgende handelingen worden uitgevoerd:
-
+- **Opties** - U kunt gegevenswaarden toevoegen en tekstparen weergeven met de opdracht **Toevoegen** knop.\
+  Nadat een nieuwe optie is toegevoegd, kunnen de volgende acties worden uitgevoerd:
    - **Gegevenswaarde** - Met deze optie kunt u de inhoud invoeren die u wilt verzenden wanneer een optie is geselecteerd.
    - **Tekst weergeven** - Met deze optie kunt u de inhoud invoeren die u wilt weergeven in een adaptief formulier.
    - **Verwijderen** - Tik of klik om de optie van een selectievakje te verwijderen.
    - **Opnieuw rangschikken** - Tik of klik en sleep om de volgorde van de deelvensters te wijzigen.
+
+<!-- You can also format the options for checkbox group using **Allow Rich Text for Options**. 
+  
+     ![Rich text support for options](/help/adaptive-forms/assets/richtext-for-options.png)
+
+    Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)
+
+    -->
 
 - **Bindverwijzing** - Een bind verwijzing is een verwijzing naar een gegevenselement dat in een externe gegevensbron wordt opgeslagen en in een vorm wordt gebruikt. Met de bind-verwijzing kunt u gegevens dynamisch binden aan formuliervelden, zodat in het formulier de meest actuele gegevens uit de gegevensbron kunnen worden weergegeven. Een bind-verwijzing kan bijvoorbeeld worden gebruikt om de naam en het adres van een klant in een formulier weer te geven op basis van de id van de klant die in het formulier is ingevoerd. De bind verwijzing kan ook worden gebruikt om de gegevensbron met gegevens bij te werken ingegaan in de vorm. Op deze manier kunt u in AEM Forms formulieren maken die interageren met externe gegevensbronnen, zodat u een naadloze gebruikerservaring hebt voor het verzamelen en beheren van gegevens.
 

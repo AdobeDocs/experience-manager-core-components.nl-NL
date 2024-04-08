@@ -3,9 +3,9 @@ title: Adaptieve Forms Core-component - Selectievakje
 description: De Adaptive Forms Checkbox Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
+source-git-commit: bb226c9545ce32f48896d737c8652a1e0c0e11a5
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1666'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,11 @@ Met het dialoogvenster Configureren kunt u de ervaring in het selectievakje voor
 
 - **Titel** - Met Titel kunt u een component gemakkelijk herkennen in een formulier. De titel wordt standaard naast de component weergegeven. Als u geen titel toevoegt, wordt de component niet weergegeven.
 
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+
 - **Titel verbergen** - Selecteer de optie om de titel van de component te verbergen.
 
 - **Bindverwijzing** - Een bind verwijzing is een verwijzing naar een gegevenselement dat in een externe gegevensbron wordt opgeslagen en in een vorm wordt gebruikt. Met de bind-verwijzing kunt u gegevens dynamisch binden aan formuliervelden, zodat in het formulier de meest actuele gegevens uit de gegevensbron kunnen worden weergegeven. Een bind-verwijzing kan bijvoorbeeld worden gebruikt om de naam en het adres van een klant in een formulier weer te geven op basis van de id van de klant die in het formulier is ingevoerd. De bind verwijzing kan ook worden gebruikt om de gegevensbron met gegevens bij te werken ingegaan in de vorm. Op deze manier kunt u met AEM Forms formulieren maken die interageren met externe gegevensbronnen, zodat u een naadloze gebruikerservaring hebt voor het verzamelen en beheren van gegevens.
@@ -73,12 +78,9 @@ Met het dialoogvenster Configureren kunt u de ervaring in het selectievakje voor
 - **Component verbergen** - Selecteer de optie om de component te verbergen voor het formulier. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel. Dit is handig wanneer u informatie wilt opslaan die niet hoeft te worden bekeken of rechtstreeks door de gebruiker hoeft te worden gewijzigd.
 
 - **Component uitschakelen** - Selecteer de optie om de component uit te schakelen of te vergrendelen. De uitgeschakelde component is niet actief of bewerkbaar voor de eindgebruiker. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
-- **Alleen-lezen** - Selecteer de optie om de component niet-bewerkbaar te maken. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
+  <!-- - **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
 - **Retourwaarde bij controle** -Selecteer deze optie om op te geven welke waarde aan het selectievakje moet worden gekoppeld wanneer dit wordt ingeschakeld. Het is de actie die voorkomt wanneer u of checkbox merkt.
-- **Schakel Uitschakelen in.**- Selecteer de optie om een eerder ingeschakeld selectievakje in of uit te schakelen.
-   - Indien **Uitschakelen inschakelen** is ingeschakeld of ingesteld op true, betekent dit dat de gebruiker naar eigen goeddunken het selectievakje kan in- en uitschakelen. Ze kunnen het selectievakje naar wens in- en uitschakelen.
-
-   - Indien **Uitschakelen inschakelen** is uitgeschakeld of op false is ingesteld, betekent dit dat de gebruiker het selectievakje niet mag uitschakelen als het selectievakje eenmaal is ingeschakeld.
+- **Statuswaarde voor uitschakelen behouden**- Selecteer deze optie om de waarde op te geven die moet worden geretourneerd wanneer de component checkbox niet is geselecteerd. Indien **Statuswaarde voor uitschakelen behouden** is ingeschakeld of ingesteld op true, **Retourwaarde indien uitgeschakeld** wordt weergegeven.
 - **Retourwaarde indien uitgeschakeld** - Met deze optie kunt u opgeven welke waarde aan het selectievakje moet worden gekoppeld wanneer het selectievakje is uitgeschakeld of uitgeschakeld.
 
 - **Standaardwaarde**: Met deze optie kunt u een standaardwaarde toevoegen aan een formulierveld. Indien **Uitgeschakelde component** of **Component (alleen-lezen)** is geselecteerd, wordt de standaardwaarde op het scherm weergegeven. Als geen waarde wordt ingevoerd door de gebruiker in het formulierveld, wordt deze waarde verzonden op het moment dat het formulier wordt verzonden.

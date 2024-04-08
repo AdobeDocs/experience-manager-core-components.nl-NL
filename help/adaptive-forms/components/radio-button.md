@@ -3,9 +3,9 @@ title: Adaptieve Forms Core-component - Keuzerondje
 description: De Adaptive Forms Radio Button Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1901'
 ht-degree: 0%
 
 ---
@@ -67,10 +67,24 @@ Met het dialoogvenster Configureren kunt u de ervaring met keuzerondjes eenvoudi
 - **Naam** - U kunt een formuliercomponent gemakkelijk herkennen met de unieke naam, zowel in het formulier als in de regeleditor, maar de naam mag geen spaties of speciale tekens bevatten.
 
 - **Titel** - Met Titel kunt u een component gemakkelijk herkennen in een formulier. Standaard wordt de titel boven op de component weergegeven. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.    
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+
 
 - **Titel verbergen** - Selecteer de optie om de titel van de component te verbergen.
 
-  In de **Opties** kunt u gegevenswaarden toevoegen en tekstparen weergeven met de opdracht **Toevoegen** knop. Nadat een nieuwe optie is toegevoegd, kunnen de volgende handelingen worden uitgevoerd:
+- **Opties** - U kunt gegevenswaarden toevoegen en tekstparen weergeven met de opdracht **Toevoegen** knop.
+  <!-- You can also format the options for radiobutton group using **Allow Rich Text for Options**. 
+  
+     ![Rich text support for options](/help/adaptive-forms/assets/richtext-for-options.png)-->
+
+  <!-- Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+    
+    ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)-->
+
+  Nadat een nieuwe optie is toegevoegd, kunnen de volgende acties worden uitgevoerd:
 
    - **Gegevenswaarde** - Met deze optie kunt u de inhoud invoeren die u wilt verzenden wanneer een optie is geselecteerd.
    - **Tekst weergeven** - Met deze optie kunt u de inhoud invoeren die u wilt weergeven in een adaptief formulier.
@@ -83,7 +97,7 @@ Met het dialoogvenster Configureren kunt u de ervaring met keuzerondjes eenvoudi
 
 - **Gegevenstype van verzonden waarde** - Met deze optie geeft u het gegevenstype op van de waarde die wordt verzonden wanneer een optie is geselecteerd. Als de **gegevenstype van verzonden waarde** is ingesteld op `Number` en u voegt tekenreeksgegevens toe aan **Gegevenswaarde** &#x200B; &#x200B; op de **Opties** tabblad geeft het scherm een `Value type mismatch` foutbericht.
 
-- **Standaardopties** - Met deze optie kunt u standaardwaarden toevoegen die vooraf zijn geselecteerd wanneer het formulier wordt geladen. Als de **gegevenstype van verzonden waarde** is ingesteld op `Number` en u voegt tekenreeksgegevens toe aan **Standaardopties**, wordt een `Value type mismatch` foutbericht.
+- **Standaardoptie** - Met deze optie kunt u standaardwaarden toevoegen die vooraf zijn geselecteerd wanneer het formulier wordt geladen. Als de **gegevenstype van verzonden waarde** is ingesteld op `Number` en u voegt tekenreeksgegevens toe aan **Standaardopties**, wordt een `Value type mismatch` foutbericht.
 
 - **Weergaveopties** - Deze optie wordt gebruikt om de visuele uitlijning van keuzerondjes in een adaptief formulier in te stellen. De twee ondersteunde opties zijn:
    - **Horizontaal** - Als deze optie is geselecteerd, worden keuzerondjes van links naar rechts weergegeven in een adaptief formulier.

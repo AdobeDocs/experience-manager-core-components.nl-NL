@@ -3,9 +3,9 @@ title: Adaptive Forms Core Component - Telefonische invoer
 description: De Adaptive Forms Telephone Input Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
 workflow-type: tm+mt
-source-wordcount: '2010'
+source-wordcount: '2027'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,10 @@ Met het dialoogvenster Configureren kunt u uw telefonische invoerervaring eenvou
 - **Naam** - U kunt een formuliercomponent gemakkelijk herkennen met de unieke naam, zowel in het formulier als in de regeleditor, maar de naam mag geen spaties of speciale tekens bevatten.
 
 - **Titel** - Met Titel kunt u een component gemakkelijk herkennen in een formulier. Standaard wordt de titel boven op de component weergegeven. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Titel verbergen** - Selecteer de optie om de titel van de component te verbergen.
 
@@ -69,7 +73,9 @@ Met het dialoogvenster Configureren kunt u uw telefonische invoerervaring eenvou
 
 - **Alleen-lezen** - Selecteer de optie om de component niet-bewerkbaar te maken. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
 
-- **Standaardwaarde** - Met deze optie kunt u een standaardwaarde toevoegen aan een formulierveld. Indien **Uitgeschakelde component** of **Component (alleen-lezen)** is geselecteerd, wordt de standaardwaarde op het scherm weergegeven. Als er geen waarde wordt ingevoerd door de gebruiker in het formulierveld, wordt deze waarde verzonden op het moment dat het formulier wordt verzonden
+- **Standaardwaarde** - Met deze optie kunt u een standaardwaarde toevoegen aan een formulierveld. Indien **Uitgeschakelde component** of **Component (alleen-lezen)** is geselecteerd, wordt de standaardwaarde op het scherm weergegeven. Als geen waarde wordt ingevoerd door de gebruiker in het formulierveld, wordt deze waarde verzonden op het moment dat het formulier wordt verzonden.
+
+- **Autofill, kenmerk**: Met deze optie kunnen gebruikers een waarde invoeren die automatisch wordt ingevuld in het formulierveld op basis van de opgeslagen informatie.
 
 ### Tabblad Validatie {#validation-tab}
 
@@ -87,7 +93,7 @@ Met het dialoogvenster Configureren kunt u uw telefonische invoerervaring eenvou
 
 - **Minimum aantal tekens** - Met deze optie kunt u het minimale aantal tekens opgeven dat in het veld is toegestaan. Als u tekens invoert die minder zijn dan de waarde die is opgegeven in **Minimum aantal tekens** verschijnt er een foutbericht op het scherm. De **Foutbericht voor minimale tekens** kunt u een aangepast foutbericht toevoegen.
 
-- *Foutbericht voor minimale tekens** - De **Foutbericht voor minimale tekens** kunt u een aangepast foutbericht toevoegen als u tekens invoert die kleiner zijn dan de waarde die in het dialoogvenster is opgegeven **Minimum aantal tekens** -optie.
+- **Foutbericht voor minimale tekens** - de **Foutbericht voor minimale tekens** kunt u een aangepast foutbericht toevoegen als u tekens invoert die kleiner zijn dan de waarde die in het dialoogvenster is opgegeven **Minimum aantal tekens** -optie.
 
 De **Validatiepatroon** kunt u een patroon invoeren om het ingevoerde telefoonnummer te valideren. Het ingevoerde telefoonnummer wordt gevalideerd tegen de waarde die is ingevoerd in het dialoogvenster **Patroon** -optie. Als het telefoonnummer niet valideert met de ingevoerde waarde **Patroon** weergegeven op het scherm.
 

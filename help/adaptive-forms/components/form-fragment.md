@@ -2,13 +2,13 @@
 title: Adaptief formulierfragment
 description: Gebruik formulierfragmenten om formuliersegmenten of -groepen te maken en deze te hergebruiken in Adaptive Forms om de efficiëntie en herbruikbaarheid te verbeteren.
 role: Architect, Developer, Admin, User
-source-git-commit: 6f83e843b95689bad2cfb31bd53c20b135d789d5
+exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
 workflow-type: tm+mt
-source-wordcount: '1675'
+source-wordcount: '1780'
 ht-degree: 0%
 
 ---
-
 
 # Component formulierfragment {#form-fragment-component-adaptive-forms-core-component}
 
@@ -60,6 +60,10 @@ Met het dialoogvenster Configureren kunt u de fragmentervaring voor bezoekers ee
 - **Naam** - U kunt een formuliercomponent gemakkelijk herkennen met de unieke naam, zowel in het formulier als in de regeleditor, maar de naam mag geen spaties of speciale tekens bevatten.
 
 - **Titel** - Met Titel kunt u een component gemakkelijk herkennen in een formulier. Standaard wordt de titel boven op de component weergegeven. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.    
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Titel verbergen** - Selecteer de optie om de titel van de component te verbergen.
 
@@ -118,6 +122,8 @@ Met het dialoogvenster Configureren kunt u de fragmentervaring voor bezoekers ee
 
 - **Tekst voor schermlezers** - Tekst voor schermlezers verwijst naar extra tekst die specifiek is bedoeld om te worden gelezen door ondersteunende hulpmiddelen, zoals schermlezers, die door visueel gehandicapten worden gebruikt. Deze tekst bevat een audiobeschrijving van het doel van het formulierveld en kan informatie bevatten over de titel, beschrijving, naam en relevante berichten (aangepaste tekst) van het veld. Met de schermlezertekst kunt u ervoor zorgen dat het formulier toegankelijk is voor alle gebruikers, inclusief gebruikers met een visuele handicap, en krijgt deze een volledig inzicht in het formulierveld en de vereisten ervan.
 
+- **HTML-rol voor schermlezer om aan te kondigen** - De rol HTML is een kenmerk dat wordt gebruikt om het doel van een element HTML aan ondersteunende hulpmiddelen, zoals schermlezers, op te geven. Het rolattribuut wordt gebruikt om extra context en semantische betekenis aan een element te verstrekken, die het voor schermlezers gemakkelijker maken om de inhoud te interpreteren en aan de gebruiker aan te kondigen. In AEM Forms heeft het label van een formulierveld bijvoorbeeld de rol &quot;label&quot; en kan het invoerveld de rol &quot;textbox&quot; hebben. Hierdoor kan de schermlezer de relatie tussen het label en het invoerveld begrijpen en deze correct aan de gebruiker meedelen.
+
 ## Ontwerpdialoogvenster {#design-dialog}
 
 Het dialoogvenster Ontwerpen wordt gebruikt voor het definiëren en beheren van CSS-stijlen voor de formulierfragmentcomponent.
@@ -153,9 +159,3 @@ Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aa
 ## Zie ook {#see-also}
 
 {{see-also}}
-
-
-
-
-
-

@@ -3,9 +3,9 @@ title: Adaptive Forms Core Component - Datumkiezer
 description: De Adaptive Forms Date Picker Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1980'
 ht-degree: 0%
 
 ---
@@ -64,10 +64,16 @@ Met het dialoogvenster Configureren kunt u de datumkiezer-ervaring voor bezoeker
 - **Naam** - De naam identificeert uniek de component in de regelredacteur. Speciale tekens en spaties zijn niet toegestaan in de naamtekenreeksen.
 
 - **Titel** - Titel is een tekenreeks die boven aan een component in een adaptief formulier wordt weergegeven. De titel geeft de component in de boomstructuur van een adaptief formulier op unieke wijze aan. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
 
 - **Titel verbergen** - Selecteer deze optie om de titel van het componenttype in een adaptief formulier te verbergen.
 
 - **Plaatsaanduidingstekst** - Plaatsaanduidingstekst in een formuliercomponent verwijst naar een kort label of een korte vraag die binnen een invoerveld wordt weergegeven als een tip voor de gebruiker met betrekking tot welk type informatie naar verwachting in dat veld wordt ingevoerd. Plaatsaanduidingstekst verdwijnt wanneer de gebruiker in het veld typt en verschijnt opnieuw als het veld leeg blijft. De klasse biedt een visuele aanwijzing voor de gebruiker, maar fungeert niet als een permanent label of een permanente waarde voor het veld.
+
+- **Bindverwijzing** - Een bind verwijzing is een verwijzing naar een gegevenselement dat in een externe gegevensbron wordt opgeslagen en in een vorm wordt gebruikt. Met de bind-verwijzing kunt u gegevens dynamisch binden aan formuliervelden, zodat in het formulier de meest actuele gegevens uit de gegevensbron kunnen worden weergegeven. Een bind-verwijzing kan bijvoorbeeld worden gebruikt om de naam en het adres van een klant in een formulier weer te geven op basis van de id van de klant die in het formulier is ingevoerd. De bind verwijzing kan ook worden gebruikt om de gegevensbron met gegevens bij te werken ingegaan in de vorm. Op deze manier kunt u met AEM Forms formulieren maken die interageren met externe gegevensbronnen, zodat u een naadloze gebruikerservaring hebt voor het verzamelen en beheren van gegevens.
 
 - **Markeren als niet-gebonden formulierelement**: Selecteer de optie om een formulierveld te configureren dat niet is gekoppeld aan een schema. Met deze optie kunt u gegevens opslaan zonder de gegevensbron bij te werken. Het laat u ook toe om gegevens op een douanemethode, los van standaardgegevensbestandintegratie te behandelen.
 
@@ -90,11 +96,13 @@ Met het dialoogvenster Configureren kunt u de datumkiezer-ervaring voor bezoeker
 - **Minimumdatum** - Met deze optie kunt u de minimaal vereiste datum invoeren. Als u een datum vóór de in Minimumdatum opgegeven datum invoert, verschijnt er een foutbericht op het scherm. De **Minimale foutmelding** kunt u een aangepast foutbericht toevoegen.
 
 - **Minimale foutmelding** - de **Minimale foutmelding** kunt u een aangepast foutbericht toevoegen dat moet worden weergegeven als u een eerdere datum invoert dan de datum die is opgegeven in het dialoogvenster **Minimumdatum** -optie.
+- **Minimumdatum uitsluiten** - Met deze optie kunt u de minimumdatum weglaten in een bepaald bereik of een bepaalde set datums.
 
 - **Maximumdatum** - Met deze optie kunt u de maximaal vereiste datum invoeren. Als u een datum later dan de datum ingaat die in MaximumDatum wordt gespecificeerd, verschijnt een foutenmelding op het scherm. De **Maximum foutbericht** kunt u een aangepast foutbericht toevoegen.
 
 - **Maximum foutbericht** - de **Maximum foutbericht** kunt u een aangepast foutbericht toevoegen dat wordt weergegeven als u een datum later dan de datum invoert die in het dialoogvenster **Maximumdatum** -optie.
 
+- **Maximumdatum uitsluiten** - Met deze optie kunt u de maximumdatum in een bepaald bereik of een bepaalde set datums weglaten.
 
 ### Het tabblad Help-inhoud {#help-content-tab}
 
@@ -120,10 +128,6 @@ Met het dialoogvenster Configureren kunt u de datumkiezer-ervaring voor bezoeker
 - **Weergave-indeling** - Het staat voor de datumnotatie die aan de gebruiker wordt weergegeven. De **Type** kan de gebruiker de datumnotatie selecteren. U kunt de datumnotatie ook aanpassen met de opdracht **Aangepast** in de **Type** vervolgkeuzelijst.
 
 - **Opmaak bewerken** - Dit is een datumnotatie waarin de gebruiker de datum kan bewerken. De **Type** kan de gebruiker de datumnotatie selecteren. U kunt de datumnotatie ook aanpassen met de opdracht **Aangepast** in de **Type** vervolgkeuzelijst.
-
-- **Weergave-indeling** - Het staat voor de datumnotatie die aan de gebruiker wordt weergegeven. Met de optie Type kan de gebruiker de datumnotatie selecteren. U kunt de datumnotatie ook aanpassen met de opdracht **Aangepast** in de **Type** vervolgkeuzelijst.
-
-- **Opmaak bewerken** - Het staat voor een datumnotatie waarin de gebruiker de datum bewerkt. Met de optie Type kan de gebruiker de datumnotatie selecteren. U kunt de datumnotatie ook aanpassen met de opdracht **Aangepast** in de **Type** vervolgkeuzelijst.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
