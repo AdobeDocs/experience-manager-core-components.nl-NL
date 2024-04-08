@@ -3,7 +3,7 @@ title: Adaptieve Forms Core-component - Formuliercontainer
 description: Voeg een adaptief formulier toe aan een webpagina.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: 7862206660909b396cb3d95b7ac81eee9221957b
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1339'
 ht-degree: 0%
@@ -17,7 +17,6 @@ Forms stelt bezoekers van websites in staat om te communiceren met de website do
 ## Gebruik {#reasons-to-use-forms-container}
 
 Er zijn verschillende redenen waarom een formulier aan een website kan worden toegevoegd:
-
 - **Gegevensverzameling**: Forms kan worden gebruikt om gegevens van websitebezoekers te verzamelen voor verschillende doeleinden, zoals marktonderzoek, analyse van gebruikersgedrag en meer.
 
 - **Loodgeneratie**: Een formulier kan worden gebruikt om informatie van potentiële klanten, zoals naam en e-mailadres, te verzamelen om leads voor verkoop- en marketingactiviteiten te genereren.

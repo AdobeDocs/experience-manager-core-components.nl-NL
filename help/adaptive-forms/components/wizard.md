@@ -3,7 +3,7 @@ title: Adaptive Forms Core Component - Wizard
 description: De Adaptive Forms Wizard Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: 0e7bfe0d9a7263469d96227e37caf932a8c135c6
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '2100'
 ht-degree: 0%
@@ -19,7 +19,6 @@ Elke stap van de wizard bevat doorgaans een groep gerelateerde formuliervelden e
 De indeling van de wizard is handig voor formulieren met veel velden of gegevens die moeten worden verzameld, omdat het formulier dan wordt opgedeeld in kleinere, beter te beheren blokken. Hiermee kunnen gebruikers zich ook op één set velden tegelijk concentreren, waardoor het invullen van het formulier minder overweldigend wordt.
 
 Het kan echter ook de complexiteit van het formulier vergroten, omdat de gebruiker meerdere pagina&#39;s moet doorlopen om het formulier in te vullen. Het is dus noodzakelijk om de formuliervereisten en gebruikersbehoeften te evalueren voordat u besluit een wizardindeling te gebruiken.
-
 Met de Core-component voor de wizardlay-out kunt u in een adaptief formulier de wizardlay-out maken.
 
 

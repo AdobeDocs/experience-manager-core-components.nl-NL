@@ -3,7 +3,7 @@ title: Adaptive Forms Core Component - Horizontale tabbladen
 description: De Adaptive Forms Horizontal tabs Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1979'
 ht-degree: 0%
@@ -109,7 +109,6 @@ Met de opties voor herhaling kunt u de component Horizontal-tabs en de onderligg
 - **Tabbladen op de bovenkant herhaalbaar maken**: Een schakelfunctie waarmee gebruikers de herhaalbaarheidsfunctionaliteit kunnen in- of uitschakelen.
 - **Minimale herhalingen**: Hiermee stelt u in hoe vaak de component Horizontal-tabs minimaal moet worden herhaald. De waarde nul geeft aan dat de component Horizontal-tabs niet wordt herhaald; de standaardwaarde is nul.
 - **Maximale herhalingen**: Hiermee stelt u in hoe vaak de component Horizontal-tabs maximaal kan worden herhaald. Deze waarde is standaard onbeperkt.
-
 Voer de stappen uit in het dialoogvenster [Formulieren maken met herhaalbare secties](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) artikel.
 
 ### Tabblad Items {#items-tab}

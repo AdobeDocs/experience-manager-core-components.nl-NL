@@ -3,7 +3,7 @@ title: Adaptieve Forms Core-component - Keuzerondje
 description: De Adaptive Forms Radio Button Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1901'
 ht-degree: 0%
@@ -72,7 +72,6 @@ Met het dialoogvenster Configureren kunt u de ervaring met keuzerondjes eenvoudi
      
      ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
-
 - **Titel verbergen** - Selecteer de optie om de titel van de component te verbergen.
 
 - **Opties** - U kunt gegevenswaarden toevoegen en tekstparen weergeven met de opdracht **Toevoegen** knop.
@@ -85,7 +84,6 @@ Met het dialoogvenster Configureren kunt u de ervaring met keuzerondjes eenvoudi
     ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)-->
 
   Nadat een nieuwe optie is toegevoegd, kunnen de volgende acties worden uitgevoerd:
-
    - **Gegevenswaarde** - Met deze optie kunt u de inhoud invoeren die u wilt verzenden wanneer een optie is geselecteerd.
    - **Tekst weergeven** - Met deze optie kunt u de inhoud invoeren die u wilt weergeven in een adaptief formulier.
    - **Verwijderen** - Tik of klik om de optie van een keuzerondje te verwijderen.

@@ -5,9 +5,9 @@ role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 1e413ef3-7a6f-41fc-825d-dbe09ebaffe9
-source-git-commit: 37ac7d3a9ae8c88d4c9be8129cfbd1eb4a7cccd1
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,6 @@ CAPTCHA (Complete Automated Public Turing test to tell Computers and Humans Apar
 AEM Forms as a Cloud Service ondersteunt Google reCAPTCHA v2 in Adaptive Forms. U kunt het gebruiken om een CAPTCHA-uitdaging aan te geven bij het verzenden van formulieren
 
 ## Gebruik {#reasons-to-use-google-recaptcha}
-
 
 - **Spam en Bot-preventie**: Een van de belangrijkste redenen voor het gebruik van reCAPTCHA is om te voorkomen dat spam-verzendingen en kwaadaardige bots uw formulier overstromen. De geavanceerde algoritmen van reCAPTCHA kunnen geautomatiseerde pogingen om het formulier te verzenden ontdekken, zodat alleen legitieme gebruikers ermee kunnen werken.
 
@@ -38,7 +37,7 @@ De Adaptive Forms Google reCAPTCHA Core Component is in augustus 2023 uitgebrach
 |  |  |
 |---|---|
 | Componentversie | AEM as a Cloud Service |
-| — | --- |
+| — | — |
 | v1 | Compatibel met<br>[versie 2.0.4](/help/versions.md) en hoger | Compatibel | Compatibel |
 
 Raadpleeg voor meer informatie over versies en releases van de Core Component de [Versies van kerncomponenten](/help/versions.md) document.

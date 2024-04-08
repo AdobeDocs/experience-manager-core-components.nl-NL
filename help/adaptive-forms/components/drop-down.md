@@ -3,7 +3,7 @@ title: Adaptive Forms Core Component - Vervolgkeuzelijst
 description: De Adaptive Forms Drop-down Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '2011'
 ht-degree: 0%
@@ -78,7 +78,6 @@ Met het dialoogvenster Configureren kunt u uw ervaring in de vervolgkeuzelijst e
 - **Titel verbergen** - Selecteer de optie om de titel van de component te verbergen.
 
 - **Meerdere selecties toestaan** - Selecteer deze optie als u meerdere opties in een vervolgkeuzelijst wilt selecteren.
-
 - **Waarde opslaan als** - Met deze optie geeft u het gegevenstype op van de waarde die wordt verzonden wanneer een optie is geselecteerd. Als de **Waarde opslaan als** is ingesteld op `Number` en u voegt tekenreeksgegevens toe aan **Gegevenswaarde** &#x200B; &#x200B; op de **Opties** tabblad geeft het scherm een `Value type mismatch` foutbericht.
 
   In de **Opties** kunt u gegevenswaarden toevoegen en tekstparen weergeven met de opdracht **Toevoegen** knop. Nadat een nieuwe optie is toegevoegd, worden de volgende handelingen uitgevoerd:

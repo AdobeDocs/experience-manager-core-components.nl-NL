@@ -2,9 +2,9 @@
 title: Adaptieve Forms Core-component - Bovenaan tabs
 description: De Adaptive Forms-tabs op de bovenste Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
-source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '467'
 ht-degree: 1%
 
 ---
@@ -89,5 +89,6 @@ Met het dialoogvenster Configureren kunt u uw tabbladen eenvoudig aanpassen aan 
 >* [Wizard](/help/adaptive-forms/components/wizard.md)
 
 ## Zie ook {#see-also}
+
 
 {{see-also}}
