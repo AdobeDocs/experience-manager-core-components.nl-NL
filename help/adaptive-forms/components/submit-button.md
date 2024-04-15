@@ -3,7 +3,7 @@ title: Adaptieve Forms Core-component - Verzenden, knop
 description: De kerncomponent van de knop Adaptief Forms verzenden gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%
@@ -31,7 +31,6 @@ De redenen voor het gebruik van een verzendknop in een adaptief formulier zijn:
 - **Verbeterde gebruikerservaring**: Een goed ontworpen verzendknop kan de gebruikerservaring verbeteren door duidelijke feedback te geven over het verzendproces van het formulier en aan te geven wanneer het formulier is verzonden.
 
 - **Gegevensvalidatie**: Met de knop Verzenden kunt u gegevensvalidatiecontroles activeren om ervoor te zorgen dat de formuliergegevens volledig en nauwkeurig zijn voordat deze naar de server worden verzonden.
-
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 

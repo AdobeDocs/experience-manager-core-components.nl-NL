@@ -2,9 +2,9 @@
 title: Adaptieve Forms Core-component - Bovenaan tabs
 description: De Adaptive Forms-tabs op de bovenste Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '470'
 ht-degree: 1%
 
 ---
@@ -13,10 +13,9 @@ ht-degree: 1%
 # Bovenaan tabs {#tabs-on-top-adaptive-forms-core-component}
 
 Een tabs-op-boven-indeling in een adaptief formulier is een manier om gerelateerde velden en secties van een formulier te ordenen en groeperen in aparte tabbladen. Elk tabblad wordt aangegeven met een tablabel, dat zich doorgaans boven aan het formulier bevindt, en bevat een specifieke set formuliervelden en secties. Met deze indeling kunnen gebruikers gemakkelijk navigeren in verschillende delen van het formulier en deze openen, waardoor het formulier gebruiksvriendelijker en minder overweldigend wordt. Het wordt doorgaans gebruikt wanneer het formulier veel velden en secties bevat en deze moeten worden verdeeld in kleinere, hanteerbare delen. Tabs kunnen ook de toegankelijkheid verbeteren doordat gebruikers door het formulier kunnen navigeren met sneltoetsen, waardoor gebruikers met een handicap het formulier gemakkelijker kunnen openen.
-
 **Voorbeeld**
 
-![](/help/adaptive-forms/assets/tabs.png)
+![tabs bovenaan](/help/adaptive-forms/assets/tabs.png)
 
 ## Gebruik {#reasons-to-use-tab-on-the-top-layout}
 

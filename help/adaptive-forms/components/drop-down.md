@@ -3,7 +3,7 @@ title: Adaptive Forms Core Component - Vervolgkeuzelijst
 description: De Adaptive Forms Drop-down Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2125'
 ht-degree: 0%
@@ -32,7 +32,6 @@ Er zijn verschillende redenen waarom het nuttig is om een vervolgkeuzelijst op t
 - **Gebruikerservaring**: Met vervolgkeuzelijsten kunt u het formulier gebruiksvriendelijker maken door gebruikers een duidelijke en intuïtieve manier te bieden om opties te selecteren.
 
 - **Gegevensanalyse**: Vervolgkeuzelijsten kunnen worden gebruikt om gegevens van verschillende bronnen te verzamelen en te analyseren, of om deze als invoer voor verdere verwerking te gebruiken.
-
 
 **Dialoogvenster Eigenschappen**
 

@@ -3,7 +3,7 @@ title: Adaptive Forms Core Component - Nummerinvoer
 description: De Adaptive Forms Number input Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 0%
@@ -35,7 +35,6 @@ Er zijn verschillende redenen waarom het nuttig is om een numerieke invoercompon
 - **Gegevensbereik**: numerieke velden kunnen worden gebruikt om een reeks geldige waarden in te stellen met de kenmerken min, max en step.
 
 - **Dynamische inhoud**: De numerieke component kan worden gebruikt om dynamische gegevens weer te geven op basis van de formuliervelden.
-
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 

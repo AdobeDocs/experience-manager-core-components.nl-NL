@@ -3,9 +3,9 @@ title: Adaptive Forms Core Component - Tekst
 description: De Adaptive Forms Text Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '995'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Hierdoor kan de structuur van een formulier ook worden opgedeeld in logische sec
 
 **Voorbeeld**
 
-![voorbeeld](/help/adaptive-forms/assets/text.png)
+![tekstvoorbeeld](/help/adaptive-forms/assets/text.png)
 
 ## Gebruik {#reasons-to-use-text-label}
 

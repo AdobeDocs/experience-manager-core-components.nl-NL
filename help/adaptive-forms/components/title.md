@@ -3,9 +3,9 @@ title: Adaptive Forms Core Component - Titel
 description: De Adaptive Forms Title Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ In een adaptief formulier verwijst een &quot;titel&quot; naar de tekst die boven
 
 **Voorbeeld**
 
-![voorbeeld](/help/adaptive-forms/assets/title.png)
+![titelvoorbeeld](/help/adaptive-forms/assets/title.png)
 
 ## Gebruik {#reasons-to-use-title-in-an-adaptive-form}
 

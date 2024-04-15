@@ -3,7 +3,7 @@ title: Adaptive Forms Core Component - Tekstinvoer (tekstvak)
 description: De Adaptive Forms Text input Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2063'
 ht-degree: 0%
@@ -15,7 +15,6 @@ ht-degree: 0%
 <span class="preview"> Dit artikel bevat inhoud over de **RTF-tekst voor titel toestaan** , een pre-releasefunctie. De pre-release functie is alleen toegankelijk via onze [pre-releasekanaal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Met een tekstinvoercomponent (tekstvak) kan een gebruiker een of meer tekstregels invoeren en bewerken, afhankelijk van het tekstkenmerk van het invoerelement. De tekstinvoercomponent kan in een formulier worden geplaatst en wordt gewoonlijk gelabeld met een handige tekst die het doel gemakkelijk identificeert. Dit is een fundamenteel element van om het even welke vorm, wijd gebruikt om verschillende soorten gegevens van gebruikers te verzamelen, zijn deze eenvoudig, flexibel, en kunnen worden gevormd om input te bevestigen, de nauwkeurigheid van gegevensinzameling te verbeteren.
-
 
 **Voorbeeld**
 

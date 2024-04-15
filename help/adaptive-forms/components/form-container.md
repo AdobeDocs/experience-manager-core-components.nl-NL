@@ -3,7 +3,7 @@ title: Adaptieve Forms Core-component - Formuliercontainer
 description: Voeg een adaptief formulier toe aan een webpagina.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1339'
 ht-degree: 0%
@@ -34,7 +34,6 @@ Er zijn verschillende redenen waarom een formulier aan een website kan worden to
 - **Gebruikersverificatie**: Forms kan worden gebruikt voor gebruikersverificatie, zodat websitebezoekers accounts kunnen maken en zich kunnen aanmelden voor toegang tot exclusieve inhoud of functies.
 
 - **Conversiesnelheid verhogen**: Een goed ontworpen formulier kan de conversiesnelheid verhogen door het gebruikers gemakkelijk te maken een gewenste actie uit te voeren, zoals het aanschaffen van een product of het aanmelden voor een service.
-
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
