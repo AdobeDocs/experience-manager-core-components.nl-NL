@@ -3,14 +3,16 @@ title: Adaptieve Forms Core-component - Checkbox-groep
 description: De Adaptive Forms Checkbox Group Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '2047'
 ht-degree: 0%
 
 ---
 
 # Groep selectievakjes {#button-component-adaptive-forms-core-component}
+
+<span class="preview"> Dit artikel bevat inhoud over de **RTF-tekst voor titel toestaan** en **RTF-tekst toestaan voor opties**  functies en functies die aan de release voorafgaan. De pre-release functie is alleen toegankelijk via onze [pre-releasekanaal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Een groep selectievakjes in een adaptief formulier is een set verwante selectievakjes waarmee gebruikers een of meer opties in een lijst kunnen selecteren. Elk selectievakje wordt vertegenwoordigd door een gegevenswaarde (waarde die wordt gebruikt om items van een selectievakje te verwerken) en een weergavewaarde (label voor elk selectievakje dat het doel beschrijft).
 
@@ -75,10 +77,10 @@ Met het dialoogvenster Configureren kunt u de ervaring van het selectievakje voo
 
 - **Titel** - Met Titel kunt u een component gemakkelijk herkennen in een formulier. Standaard wordt de titel boven op de component weergegeven. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
 
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+- **RTF-tekst voor titel toestaan** - Met deze functies kunnen gebruikers gewone teksttitels opmaken en functies zoals vet, cursief, onderstreepte tekst, diverse lettertypen, tekengrootten, kleuren en extra opties opnemen om de visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
+  Na het selecteren van het selectievakje voor **RTF-tekst voor titel toestaan** worden opmaakopties zichtbaar om de titel van de component op te maken. Als u toegang wilt tot alle beschikbare opmaakopties, klikt u op de knop `Fullscreen` ![Pictogram Volledig scherm](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+
+  ![RTF-ondersteuning](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Titel verbergen** - Selecteer de optie om de titel van de component te verbergen.
 
@@ -89,14 +91,12 @@ Met het dialoogvenster Configureren kunt u de ervaring van het selectievakje voo
    - **Verwijderen** - Tik of klik om de optie van een selectievakje te verwijderen.
    - **Opnieuw rangschikken** - Tik of klik en sleep om de volgorde van de deelvensters te wijzigen.
 
-<!-- You can also format the options for checkbox group using **Allow Rich Text for Options**. 
-  
-     ![Rich text support for options](/help/adaptive-forms/assets/richtext-for-options.png)
+  U kunt de opties voor de groep selectievakjes ook opmaken met **RTF-tekst toestaan voor opties**.
 
-    Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)
+  ![RTF-ondersteuning voor opties](/help/adaptive-forms/assets/richtext-for-options.png)
 
-    -->
+  Zodra u checkbox voor **RTF-tekst toestaan voor opties** opmaakopties worden zichtbaar om de opties van de component op te maken. Als u toegang wilt tot alle beschikbare opmaakopties, klikt u op de knop `Fullscreen` ![Pictogram Volledig scherm](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+  ![RTF-ondersteuning voor opties](/help/adaptive-forms/assets/richtextoptions-support.png)
 
 - **Bindverwijzing** - Een bind verwijzing is een verwijzing naar een gegevenselement dat in een externe gegevensbron wordt opgeslagen en in een vorm wordt gebruikt. Met de bind-verwijzing kunt u gegevens dynamisch binden aan formuliervelden, zodat in het formulier de meest actuele gegevens uit de gegevensbron kunnen worden weergegeven. Een bind-verwijzing kan bijvoorbeeld worden gebruikt om de naam en het adres van een klant in een formulier weer te geven op basis van de id van de klant die in het formulier is ingevoerd. De bind verwijzing kan ook worden gebruikt om de gegevensbron met gegevens bij te werken ingegaan in de vorm. Op deze manier kunt u in AEM Forms formulieren maken die interageren met externe gegevensbronnen, zodat u een naadloze gebruikerservaring hebt voor het verzamelen en beheren van gegevens.
 

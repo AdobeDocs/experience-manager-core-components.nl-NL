@@ -3,14 +3,16 @@ title: Aangepaste formulieraccordeon
 description: Gebruik accordeon om een lange of complexe vorm te ordenen en te vereenvoudigen door deze op te splitsen in kleinere, beter te beheren gedeelten.
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '2149'
+source-wordcount: '2263'
 ht-degree: 0%
 
 ---
 
 # Accordeoncomponent {#accordion-component-adaptive-forms-core-component}
+
+<span class="preview"> Dit artikel bevat inhoud over de **RTF-tekst voor titel toestaan** , een pre-releasefunctie. De pre-release functie is alleen toegankelijk via onze [pre-releasekanaal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Met de Accordion Core-component kunnen gebruikers uitbreidbare en inklapbare secties maken in een adaptief formulier. Het wordt vaak gebruikt om lange of complexe vormen te organiseren en te vereenvoudigen door hen in kleinere, handelbaardere secties op te splitsen. Elke sectie van een accordeon wordt meestal vertegenwoordigd door een koptekst, waarop de gebruiker kan klikken om de bijbehorende inhoud uit of samen te vouwen. De inhoud kan elke Core-component bevatten.
 
@@ -71,11 +73,10 @@ Met het dialoogvenster Configureren kunt u de accordeonervaring voor bezoekers e
 
 - **Titel** - Met Titel kunt u een component gemakkelijk herkennen in een formulier. Standaard wordt de titel boven op de component weergegeven. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
 
-<!--
-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-      Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+- **RTF-tekst voor titel toestaan** - Met deze functies kunnen gebruikers gewone teksttitels opmaken en functies zoals vet, cursief, onderstreepte tekst, diverse lettertypen, tekengrootten, kleuren en extra opties opnemen om de visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
+  Na het selecteren van het selectievakje voor **RTF-tekst voor titel toestaan** worden opmaakopties zichtbaar om de titel van de component op te maken. Als u toegang wilt tot alle beschikbare opmaakopties, klikt u op de knop ![Pictogram Volledig scherm](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+
+  ![RTF-ondersteuning](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Titel verbergen** - Selecteer de optie om de titel van de component te verbergen.
 - **Gegevens van onderliggende componenten groeperen over het verzenden van formulieren (gegevens laten teruglopen in object)** - Wanneer de optie is geselecteerd, worden de gegevens van de onderliggende componenten genest in het JSON-object van de bovenliggende component. Als de optie echter niet is geselecteerd, hebben de verzonden JSON-gegevens een platte structuur, zonder object voor de bovenliggende component. Bijvoorbeeld:

@@ -3,14 +3,16 @@ title: Adaptive Forms Core Component - Horizontale tabbladen
 description: De Adaptive Forms Horizontal tabs Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1979'
+source-wordcount: '2093'
 ht-degree: 0%
 
 ---
 
 # Horizontale tabbladen (tabs bovenaan){#horizontal-tabs-adaptive-forms-core-component}
+
+<span class="preview"> Dit artikel bevat inhoud over de **RTF-tekst voor titel toestaan** , een pre-releasefunctie. De pre-release functie is alleen toegankelijk via onze [pre-releasekanaal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Horizontale tabbladen in een adaptief formulier verwijzen naar een ontwerppatroon waarbij meerdere secties van een formulier zijn gegroepeerd en worden weergegeven als afzonderlijke tabbladen, die horizontaal zijn uitgelijnd. De gebruiker kan schakelen tussen de tabbladen om toegang te krijgen tot verschillende secties van het formulier. Elk tabblad fungeert als trigger voor het weergeven en verbergen van de gerelateerde formulierinhoud. Met de horizontale tabbladen kunt u lange formulieren ordenen in hanteerbare gedeelten en de gebruikerservaring verbeteren. Tabs kunnen ertoe bijdragen dat een formulier toegankelijker wordt voor gebruikers met een handicap, aangezien ze met behulp van toetsenbordnavigatie tussen secties kunnen schakelen.
 
@@ -63,10 +65,10 @@ Met het dialoogvenster Configureren kunt u de ervaring van horizontale tabbladen
 - **Naam** - U kunt een formuliercomponent gemakkelijk herkennen met de unieke naam, zowel in het formulier als in de regeleditor, maar de naam mag geen spaties of speciale tekens bevatten.
 
 - **Titel** - Met Titel kunt u een component gemakkelijk herkennen in een formulier. Standaard wordt de titel boven op de component weergegeven. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+- **RTF-tekst voor titel toestaan** - Met deze functies kunnen gebruikers gewone teksttitels opmaken en functies zoals vet, cursief, onderstreepte tekst, diverse lettertypen, tekengrootten, kleuren en extra opties opnemen om de visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
+  Na het selecteren van het selectievakje voor **RTF-tekst voor titel toestaan** worden opmaakopties zichtbaar om de titel van de component op te maken. Als u toegang wilt tot alle beschikbare opmaakopties, klikt u op de knop ![Pictogram Volledig scherm](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+
+  ![RTF-ondersteuning](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Titel verbergen** - Selecteer de optie om de titel van de component te verbergen.
 

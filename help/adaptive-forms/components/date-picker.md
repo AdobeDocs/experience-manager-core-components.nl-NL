@@ -3,14 +3,16 @@ title: Adaptive Forms Core Component - Datumkiezer
 description: De Adaptive Forms Date Picker Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1980'
+source-wordcount: '2094'
 ht-degree: 0%
 
 ---
 
 # Datumkiezer {#date-picker-adaptive-forms-core-component}
+
+<span class="preview"> Dit artikel bevat inhoud over de **RTF-tekst voor titel toestaan** , een pre-releasefunctie. De pre-release functie is alleen toegankelijk via onze [pre-releasekanaal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Een component voor de datumkiezer in een adaptief formulier is een interface-element waarmee gebruikers een datum in een kalender kunnen selecteren of een datum handmatig in een specifieke notatie kunnen invoeren. De component van de datumkiezer kan worden gevormd om verschillende het formatteren, bevestiging, en standaardwaarden te hebben.
 
@@ -64,10 +66,10 @@ Met het dialoogvenster Configureren kunt u de datumkiezer-ervaring voor bezoeker
 - **Naam** - De naam identificeert uniek de component in de regelredacteur. Speciale tekens en spaties zijn niet toegestaan in de naamtekenreeksen.
 
 - **Titel** - Titel is een tekenreeks die boven aan een component in een adaptief formulier wordt weergegeven. De titel geeft de component in de boomstructuur van een adaptief formulier op unieke wijze aan. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+- **RTF-tekst voor titel toestaan** - Met deze functies kunnen gebruikers gewone teksttitels opmaken en functies zoals vet, cursief, onderstreepte tekst, diverse lettertypen, tekengrootten, kleuren en extra opties opnemen om de visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
+  Na het selecteren van het selectievakje voor **RTF-tekst voor titel toestaan** worden opmaakopties zichtbaar om de titel van de component op te maken. Als u toegang wilt tot alle beschikbare opmaakopties, klikt u op de knop ![Pictogram Volledig scherm](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+
+  ![RTF-ondersteuning](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Titel verbergen** - Selecteer deze optie om de titel van het componenttype in een adaptief formulier te verbergen.
 

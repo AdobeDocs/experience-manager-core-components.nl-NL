@@ -3,14 +3,17 @@ title: Adaptieve Forms Core-component - Selectievakje
 description: De Adaptive Forms Checkbox Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1780'
 ht-degree: 0%
 
 ---
 
 # Component Selectievakje{#checkbox-component}
+
+<span class="preview"> Dit artikel bevat inhoud over de **RTF-tekst voor titel toestaan** , een pre-releasefunctie. De pre-release functie is alleen toegankelijk via onze [pre-releasekanaal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+
 
 Een selectievakje is een grafisch interface-element dat vaak wordt gebruikt in softwaretoepassingen en formulieren, zodat gebruikers een binaire keuze kunnen maken tussen twee opties: ingeschakeld (geselecteerd) of uitgeschakeld (uitgeschakeld).
 
@@ -62,10 +65,10 @@ Met het dialoogvenster Configureren kunt u de ervaring in het selectievakje voor
 
 - **Titel** - Met Titel kunt u een component gemakkelijk herkennen in een formulier. De titel wordt standaard naast de component weergegeven. Als u geen titel toevoegt, wordt de component niet weergegeven.
 
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+- **RTF-tekst voor titel toestaan** - Met deze functies kunnen gebruikers gewone teksttitels opmaken en functies zoals vet, cursief, onderstreepte tekst, diverse lettertypen, tekengrootten, kleuren en extra opties opnemen om de visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
+  Na het selecteren van het selectievakje voor **RTF-tekst voor titel toestaan** worden opmaakopties zichtbaar om de titel van de component op te maken. Als u toegang wilt tot alle beschikbare opmaakopties, klikt u op de knop ![Pictogram Volledig scherm](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+
+  ![RTF-ondersteuning](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Titel verbergen** - Selecteer de optie om de titel van de component te verbergen.
 

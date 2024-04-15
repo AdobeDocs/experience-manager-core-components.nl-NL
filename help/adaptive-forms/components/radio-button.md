@@ -3,14 +3,16 @@ title: Adaptieve Forms Core-component - Keuzerondje
 description: De Adaptive Forms Radio Button Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
 
 # Keuzerondje {#radio-button-adaptive-forms-core-component}
+
+<span class="preview"> Dit artikel bevat inhoud over de **RTF-tekst voor titel toestaan** en **RTF-tekst toestaan voor opties**  functies en functies die aan de release voorafgaan. De pre-release functie is alleen toegankelijk via onze [pre-releasekanaal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Een keuzerondje in een adaptief formulier is een invoerelement waarmee een gebruiker een optie kan selecteren in een groep gerelateerde opties. Deze wordt weergegeven met een kleine ronde knop die gevuld of leeg is om aan te geven of de optie is geselecteerd. Wanneer een gebruiker een keuzerondje selecteert, worden de overige keuzerondjes in de groep uitgeschakeld. Keuzerondjes worden doorgaans gebruikt wanneer er meerdere opties zijn die elkaar wederzijds uitsluiten en er slechts één optie tegelijk kan worden geselecteerd.
 
@@ -67,27 +69,26 @@ Met het dialoogvenster Configureren kunt u de ervaring met keuzerondjes eenvoudi
 - **Naam** - U kunt een formuliercomponent gemakkelijk herkennen met de unieke naam, zowel in het formulier als in de regeleditor, maar de naam mag geen spaties of speciale tekens bevatten.
 
 - **Titel** - Met Titel kunt u een component gemakkelijk herkennen in een formulier. Standaard wordt de titel boven op de component weergegeven. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.    
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+- **RTF-tekst voor titel toestaan** - Met deze functies kunnen gebruikers gewone teksttitels opmaken en functies zoals vet, cursief, onderstreepte tekst, diverse lettertypen, tekengrootten, kleuren en extra opties opnemen om de visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
+  Na het selecteren van het selectievakje voor **RTF-tekst voor titel toestaan** worden opmaakopties zichtbaar om de titel van de component op te maken. Als u toegang wilt tot alle beschikbare opmaakopties, klikt u op de knop ![Pictogram Volledig scherm](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+
+  ![RTF-ondersteuning](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Titel verbergen** - Selecteer de optie om de titel van de component te verbergen.
 
-- **Opties** - U kunt gegevenswaarden toevoegen en tekstparen weergeven met de opdracht **Toevoegen** knop.
-  <!-- You can also format the options for radiobutton group using **Allow Rich Text for Options**. 
-  
-     ![Rich text support for options](/help/adaptive-forms/assets/richtext-for-options.png)-->
-
-  <!-- Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-    
-    ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)-->
-
+- **Opties** - U kunt gegevenswaarden toevoegen en tekstparen weergeven met de opdracht **Toevoegen** knop.\
   Nadat een nieuwe optie is toegevoegd, kunnen de volgende acties worden uitgevoerd:
    - **Gegevenswaarde** - Met deze optie kunt u de inhoud invoeren die u wilt verzenden wanneer een optie is geselecteerd.
    - **Tekst weergeven** - Met deze optie kunt u de inhoud invoeren die u wilt weergeven in een adaptief formulier.
    - **Verwijderen** - Tik of klik om de optie van een keuzerondje te verwijderen.
    - **Opnieuw rangschikken** - Tik of klik en sleep om de volgorde van de opties te wijzigen.
+U kunt de opties voor de groep met keuzerondjes ook opmaken met **RTF-tekst toestaan voor opties**.
+
+  ![RTF-ondersteuning voor opties](/help/adaptive-forms/assets/richtext-for-options.png)
+
+  Zodra u checkbox voor **RTF-tekst toestaan voor opties** opmaakopties worden zichtbaar om de opties van de component op te maken. Als u toegang wilt tot alle beschikbare opmaakopties, klikt u op de knop `Fullscreen` ![Pictogram Volledig scherm](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+
+  ![RTF-ondersteuning voor opties](/help/adaptive-forms/assets/richtextoptions-support.png)
 
 - **Bindverwijzing** - Een bind verwijzing is een verwijzing naar een gegevenselement dat in een externe gegevensbron wordt opgeslagen en in een vorm wordt gebruikt. Met de bind-verwijzing kunt u gegevens dynamisch binden aan formuliervelden, zodat in het formulier de meest actuele gegevens uit de gegevensbron kunnen worden weergegeven. Een bind-verwijzing kan bijvoorbeeld worden gebruikt om de naam en het adres van een klant in een formulier weer te geven op basis van de id van de klant die in het formulier is ingevoerd. De bind verwijzing kan ook worden gebruikt om de gegevensbron met gegevens bij te werken ingegaan in de vorm. Op deze manier kunt u in AEM Forms formulieren maken die interageren met externe gegevensbronnen, zodat u een naadloze gebruikerservaring hebt voor het verzamelen en beheren van gegevens.
 
