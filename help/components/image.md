@@ -3,9 +3,9 @@ title: Afbeeldingscomponent
 description: De component Core Component Image is een adaptieve afbeeldingscomponent.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: a10c98aecf6d3c0d989f2e3c18affc51850f60bc
+source-git-commit: e37151536be5a4345f6e2bf630bb8bd4019ad699
 workflow-type: tm+mt
-source-wordcount: '2061'
+source-wordcount: '1970'
 ht-degree: 0%
 
 ---
@@ -138,20 +138,6 @@ U kunt de interne editor ook gebruiken om de afbeelding te wijzigen. Vanwege rui
 ### Dynamic Media Asset Editing {#dynamic-media-assets}
 
 Als u [Dynamic Media-functies ingeschakeld,](#dynamic-media) het bewerken van de afbeelding zelf moet worden uitgevoerd in de middelenconsole.
-
-### Dynamic Media Asset Editing van de volgende generatie {#next-gen-dm-assets}
-
-Als u [Next Generation Dynamic Media configured,](#next-gen-dm) de **Slim uitsnijden** Deze optie is beschikbaar in de contextmenu&#39;s van de component.
-
-![Slim uitsnijden](/help/assets/image-smart-crop.png)
-
-In het dialoogvenster kunt u de slimme uitsnijding aanpassen.
-
-![Het dialoogvenster Slim uitsnijden](/help/assets/image-smart-crop-dialog.png)
-
->[!TIP]
->
->Ga voor meer informatie over slim uitsnijden naar [deze video over de functie.](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html)
 
 ## Dialoogvenster configureren {#configure-dialog}
 
