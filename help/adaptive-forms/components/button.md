@@ -3,7 +3,7 @@ title: Adaptive Forms Core Component - Button
 description: De Adaptive Forms-kerncomponent voor knoppen gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: a6c3fd98bcdcbb0d6d5697b93306adc9ef7e3fc9
 workflow-type: tm+mt
 source-wordcount: '1601'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Component Button {#button-component-adaptive-forms-core-component}
 
-<span class="preview"> Dit artikel bevat inhoud over de **RTF-tekst voor titel toestaan** , een pre-releasefunctie. De pre-release functie is alleen toegankelijk via onze [pre-releasekanaal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> Dit artikel bevat inhoud over de  **RTF-tekst voor titel toestaan**  , een pre-releasefunctie. De pre-release functie is alleen toegankelijk via onze [pre-releasekanaal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Een knop in een adaptief formulier is een interface-element waarmee gebruikers een handeling kunnen starten wanneer ze erop klikken. Het knopelement kan worden gebruikt om een formulier te verzenden, een formulier opnieuw in te stellen of andere handelingen uit te voeren, zoals naar een andere pagina navigeren of aangepaste code activeren. De knop kan worden gemaakt met de component Button Core.
 

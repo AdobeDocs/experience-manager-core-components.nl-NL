@@ -1,7 +1,7 @@
 ---
-source-git-commit: 97da426e5c57f00d83d11560d1fa4e8f9ed00feb
+source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
@@ -61,24 +61,23 @@ ht-degree: 0%
 - [Selectievakjesgroep](/help/adaptive-forms/components/checkbox-group.md)
 - [Selectievakje](/help/adaptive-forms/components/checkbox.md)
 - [Datumkiezer](/help/adaptive-forms/components/date-picker.md)
-- [Vervolgkeuzelijst](/help/adaptive-forms/components/drop-down.md)
+- [Vervolgkeuzelijst](/help/adaptive-forms/components/drop-down-list.md)
 - [E-mailinvoer](/help/adaptive-forms/components/email-input.md)
 - [Formuliercontainer](/help/adaptive-forms/components/form-container.md)
 - [Bestandsbijlage](/help/adaptive-forms/components/file-attachment.md)
-- [Formulierfragment](/help/adaptive-forms/components/form-fragment.md)
+- [Adaptieve formulierfragmenten](/help/adaptive-forms/components/adaptive-form-fragment.md)
 - [Voettekst](/help/adaptive-forms/components/footer.md)
 - [Koptekst](/help/adaptive-forms/components/header.md)
 - [Afbeelding](/help/adaptive-forms/components/image.md)
-- [Nummerinvoer](/help/adaptive-forms/components/number-input.md)
-- [Deelvenstercontainer](/help/adaptive-forms/components/panel-container.md)
+- [Numeriek vak](/help/adaptive-forms/components/numeric-box.md)
+- [Deelvenster](/help/adaptive-forms/components/panel.md)
 - [Horizontale tab](/help/adaptive-forms/components/horizontal-tabs.md)
 - [Verticaal tabblad](/help/adaptive-forms/components/vertical-tabs.md)
 - [Keuzerondje](/help/adaptive-forms/components/radio-button.md)
 - [Knop Opnieuw instellen](/help/adaptive-forms/components/reset-button.md)
 - [Verzendknop](/help/adaptive-forms/components/submit-button.md)
-- [Overschakelen](/help/adaptive-forms/components/switch.md)
 - [Telefooninvoer](/help/adaptive-forms/components/telephone-input.md)
-- [Tekstinvoer](/help/adaptive-forms/components/text-input.md)
+- [Tekstvak](/help/adaptive-forms/components/text-box.md)
 - [Tekst](/help/adaptive-forms/components/text.md)
 - [Titel](/help/adaptive-forms/components/title.md)
 - [Het tabblad Voorwaarden en bepalingen](/help/adaptive-forms/components/terms-and-conditions.md)

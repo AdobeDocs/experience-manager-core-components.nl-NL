@@ -5,7 +5,7 @@ breadcrumb-title: Gids voor kerncomponenten
 feature: Core Components
 user-guide-description: Met de uitbreidbare kerncomponenten kunnen ontwerpers eenvoudig content maken.
 feature-set: Experience Manager Sites
-source-git-commit: 2afcaeb90911de865814235586ea19eb21dd8126
+source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 5%
@@ -112,15 +112,15 @@ ht-degree: 5%
       + [Aangepaste Forms Checkbox-groep](/help/adaptive-forms/components/checkbox-group.md)
       + [Aangepaste Forms-container](/help/adaptive-forms/components/form-container.md)
       + [Aangepaste Forms-datumkiezer](/help/adaptive-forms/components/date-picker.md)
-      + [Aangepaste Forms-vervolgkeuzelijst](/help/adaptive-forms/components/drop-down.md)
+      + [Aangepaste Forms-vervolgkeuzelijst](/help/adaptive-forms/components/drop-down-list.md)
       + [Adaptieve Forms-e-mailinvoer](/help/adaptive-forms/components/email-input.md)
-      + [Adaptief Forms-formulierfragment](/help/adaptive-forms/components/form-fragment.md)
+      + [Adaptief Forms-formulierfragment](/help/adaptive-forms/components/adaptive-form-fragment.md)
       + [Aangepaste Forms-bestandsbijlagen](/help/adaptive-forms/components/file-attachment.md)
       + [Aangepaste verticale Forms-tabbladen](/help/adaptive-forms/components/vertical-tabs.md)
       + [Adaptieve horizontale Forms-tabs](/help/adaptive-forms/components/horizontal-tabs.md)
       + [Adaptieve Forms-afbeelding](/help/adaptive-forms/components/image.md)
-      + [Invoer adaptief Forms-nummer](/help/adaptive-forms/components/number-input.md)
-      + [Aangepast Forms-deelvenster](/help/adaptive-forms/components/panel-container.md)
+      + [Adaptief Forms Numeriek vak](/help/adaptive-forms/components/numeric-box.md)
+      + [Aangepast Forms-deelvenster](/help/adaptive-forms/components/panel.md)
       + [Adaptive Forms CAPTCHA](/help/adaptive-forms/components/captcha.md)
       + [Aangepaste Forms-keuzerondje](/help/adaptive-forms/components/radio-button.md)
       + [Knop Adaptief Forms herstellen](/help/adaptive-forms/components/reset-button.md)
@@ -128,7 +128,7 @@ ht-degree: 5%
       + [Adaptieve Forms-switch](/help/adaptive-forms/components/switch.md)
       + [Adaptieve Forms-telefooninvoer](/help/adaptive-forms/components/telephone-input.md)
       + [Adaptieve Forms-tekst](/help/adaptive-forms/components/text.md)
-      + [Adaptief Forms-tekstvak](/help/adaptive-forms/components/text-input.md)
+      + [Adaptief Forms-tekstvak](/help/adaptive-forms/components/text-box.md)
       + [Aangepaste Forms-titel](/help/adaptive-forms/components/title.md)
       + [Aangepaste Forms Wizard Layout](/help/adaptive-forms/components/wizard.md)
       + [Aangepaste Forms-voorwaarden](/help/adaptive-forms/components/terms-and-conditions.md)

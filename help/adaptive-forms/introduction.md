@@ -3,9 +3,9 @@ title: Inleiding Adaptive Forms Core Components AEM
 description: Maak aantrekkelijke inschrijvingservaringen (formulieren) met de flexibiliteit van de Adaptive Forms Core Components en lever deze met de kracht van Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 1dbbb598c0856b76c076f322cdf0210bf38ee9e8
+source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ De huidige versie van de Adaptive Forms Core Components is voorzien van de hiero
 * [Knop](/help/adaptive-forms/components/button.md)
 * [Selectievakjesgroep](/help/adaptive-forms/components/checkbox-group.md)
 * [Datumkiezer](/help/adaptive-forms/components/date-picker.md)
-* [Vervolgkeuzelijst](/help/adaptive-forms/components/drop-down.md)
+* [Vervolgkeuzelijst](/help/adaptive-forms/components/drop-down-list.md)
 * [E-mailinvoer](/help/adaptive-forms/components/email-input.md)
 * [Formuliercontainer](/help/adaptive-forms/components/form-container.md)
 * [Bestandsbijlage](/help/adaptive-forms/components/file-attachment.md)
@@ -83,13 +83,13 @@ De huidige versie van de Adaptive Forms Core Components is voorzien van de hiero
 * [Koptekst](/help/adaptive-forms/components/header.md)
 * [Horizontale tabs](/help/adaptive-forms/components/horizontal-tabs.md)
 * [Afbeelding](/help/adaptive-forms/components/image.md)
-* [Nummerinvoer](/help/adaptive-forms/components/number-input.md)
-* [Deelvenstercontainer](/help/adaptive-forms/components/panel-container.md)
+* [Numeriek vak](/help/adaptive-forms/components/numeric-box.md)
+* [Deelvenster](/help/adaptive-forms/components/panel.md)
 * [Keuzerondje](/help/adaptive-forms/components/radio-button.md)
 * [Knop Opnieuw instellen](/help/adaptive-forms/components/reset-button.md)
 * [Verzendknop](/help/adaptive-forms/components/submit-button.md)
 * [Telefooninvoer](/help/adaptive-forms/components/telephone-input.md)
-* [Tekstinvoer](/help/adaptive-forms/components/text-input.md)
+* [Tekstvak](/help/adaptive-forms/components/text-box.md)
 * [Tekst](/help/adaptive-forms/components/text.md)
 * [Titel](/help/adaptive-forms/components/title.md)
 * [Wizard](/help/adaptive-forms/components/wizard.md)
