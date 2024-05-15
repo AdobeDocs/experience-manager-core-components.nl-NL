@@ -3,14 +3,14 @@ title: Adaptieve Forms Core-component - Afbeelding
 description: De Adaptive Forms Image Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1058'
 ht-degree: 0%
 
 ---
 
-# Afbeelding {#image-adaptive-forms-core-component}
+# Afbeeldingscomponent{#image-adaptive-forms-core-component}
 
 Een afbeeldingscomponent in een adaptief formulier is een manier om afbeeldingen op te nemen in een formulier. Deze afbeeldingen kunnen worden gebruikt om het algehele ontwerp van het formulier te verbeteren, aanvullende informatie te verstrekken of als visuele hulp om gebruikers te helpen het doel van het formulier te begrijpen. Met de afbeeldingscomponent kunt u een logo, foto of afbeelding aan het formulier toevoegen.
 

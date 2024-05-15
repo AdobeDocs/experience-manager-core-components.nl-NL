@@ -3,14 +3,14 @@ title: Adaptive Forms Core Component - Titel
 description: De Adaptive Forms Title Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
 
-# Titel {#title-input-adaptive-forms-core-component}
+# Component Title{#title-input-adaptive-forms-core-component}
 
 In een adaptief formulier verwijst een &quot;titel&quot; naar de tekst die boven aan het formulier wordt weergegeven, meestal onder de koptekst. De titel wordt opgegeven met de component Titel. Deze component kan worden toegevoegd aan de formulierindeling en de tekst ervan kan worden bewerkt, zodat deze overeenkomt met het doel of het onderwerp van het formulier. De titel dient als een label of korte beschrijving van het formulier voor de gebruiker en helpt het formulier van anderen te onderscheiden.
 

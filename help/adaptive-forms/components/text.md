@@ -3,14 +3,14 @@ title: Adaptive Forms Core Component - Tekst
 description: De Adaptive Forms Text Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
 
-# Tekst {#text-adaptive-forms-core-component}
+# Tekstcomponent {#text-adaptive-forms-core-component}
 
 In een adaptief formulier verwijst de tekst naar de inhoud die op het formulier wordt weergegeven en die de gebruiker kan lezen. Dit kan de tekst omvatten die wordt gebruikt om een groep vormelementen, zoals tekstgebieden, evenals om het even welke extra instructies of informatie te etiketteren die aan de gebruiker wordt verstrekt.
 

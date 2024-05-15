@@ -3,14 +3,14 @@ title: Adaptive Forms Core Component - Wizard
 description: De Adaptive Forms Wizard Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '2101'
 ht-degree: 0%
 
 ---
 
-# Wizard {#wizard-adaptive-forms-core-component}
+# Wizard-component{#wizard-adaptive-forms-core-component}
 
 Een wizardindeling in een adaptief formulier verwijst naar een formulier dat is verdeeld in meerdere stappen of pagina&#39;s, waarbij de gebruiker stap voor stap door het formulier beweegt. Deze indeling wordt een &quot;wizard&quot; genoemd omdat deze de gebruiker in een stapsgewijs proces door het formulier begeleidt.
 
