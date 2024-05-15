@@ -3,16 +3,16 @@ title: Adaptieve Forms Core-component - Keuzerondje
 description: De Adaptive Forms Radio Button Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
-source-wordcount: '2079'
+source-wordcount: '2080'
 ht-degree: 0%
 
 ---
 
-# Keuzerondje {#radio-button-adaptive-forms-core-component}
+# Component keuzerondje {#radio-button-adaptive-forms-core-component}
 
-<span class="preview"> Dit artikel bevat inhoud over de **RTF-tekst voor titel toestaan** en **RTF-tekst toestaan voor opties**  functies en functies die aan de release voorafgaan. De pre-release functie is alleen toegankelijk via onze [pre-releasekanaal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> Dit artikel bevat inhoud over de   **RTF-tekst voor titel toestaan**   en   **RTF-tekst toestaan voor opties**   functies en functies die aan de release voorafgaan. De pre-release functie is alleen toegankelijk via onze [pre-releasekanaal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Een keuzerondje in een adaptief formulier is een invoerelement waarmee een gebruiker een optie kan selecteren in een groep gerelateerde opties. Deze wordt weergegeven met een kleine ronde knop die gevuld of leeg is om aan te geven of de optie is geselecteerd. Wanneer een gebruiker een keuzerondje selecteert, worden de overige keuzerondjes in de groep uitgeschakeld. Keuzerondjes worden doorgaans gebruikt wanneer er meerdere opties zijn die elkaar wederzijds uitsluiten en er slechts één optie tegelijk kan worden geselecteerd.
 

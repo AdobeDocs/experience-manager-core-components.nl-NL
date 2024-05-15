@@ -3,16 +3,16 @@ title: Adaptive Forms Core Component - Datumkiezer
 description: De Adaptive Forms Date Picker Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
-source-wordcount: '2094'
+source-wordcount: '2095'
 ht-degree: 0%
 
 ---
 
-# Datumkiezer {#date-picker-adaptive-forms-core-component}
+# Component Datumkiezer{#date-picker-adaptive-forms-core-component}
 
-<span class="preview"> Dit artikel bevat inhoud over de **RTF-tekst voor titel toestaan** , een pre-releasefunctie. De pre-release functie is alleen toegankelijk via onze [pre-releasekanaal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> Dit artikel bevat inhoud over de   **RTF-tekst voor titel toestaan**    , een pre-releasefunctie. De pre-release functie is alleen toegankelijk via onze [pre-releasekanaal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Een component voor de datumkiezer in een adaptief formulier is een interface-element waarmee gebruikers een datum in een kalender kunnen selecteren of een datum handmatig in een specifieke notatie kunnen invoeren. De component van de datumkiezer kan worden gevormd om verschillende het formatteren, bevestiging, en standaardwaarden te hebben.
 

@@ -3,16 +3,16 @@ title: Adaptieve Forms Core-component - Bestandsbijlage
 description: De Adaptive Forms-component voor bestandsbijlagen gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
-source-wordcount: '1851'
+source-wordcount: '1852'
 ht-degree: 0%
 
 ---
 
-# Bestandsbijlage {#file-attachment-adaptive-forms-core-component}
+# Bestandsbijlage-component {#file-attachment-adaptive-forms-core-component}
 
-<span class="preview"> Dit artikel bevat inhoud over de **RTF-tekst voor titel toestaan** , een pre-releasefunctie. De pre-release functie is alleen toegankelijk via onze [pre-releasekanaal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> Dit artikel bevat inhoud over de   **RTF-tekst voor titel toestaan**    , een pre-releasefunctie. De pre-release functie is alleen toegankelijk via onze [pre-releasekanaal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Met een bestandsbijlage in een adaptief formulier kunnen gebruikers bestanden selecteren en uploaden vanaf hun lokale computer of apparaat. De component Bestandsbijlage kan zo worden geconfigureerd dat specifieke bestandstypen, grootten en meerdere bijlagen mogelijk zijn.
 

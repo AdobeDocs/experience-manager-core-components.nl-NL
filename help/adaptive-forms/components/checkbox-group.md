@@ -3,16 +3,16 @@ title: Adaptieve Forms Core-component - Checkbox-groep
 description: De Adaptive Forms Checkbox Group Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2048'
 ht-degree: 0%
 
 ---
 
-# Groep selectievakjes {#button-component-adaptive-forms-core-component}
+# Component Groep selectievakjes {#button-component-adaptive-forms-core-component}
 
-<span class="preview"> Dit artikel bevat inhoud over de **RTF-tekst voor titel toestaan** en **RTF-tekst toestaan voor opties**  functies en functies die aan de release voorafgaan. De pre-release functie is alleen toegankelijk via onze [pre-releasekanaal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> Dit artikel bevat inhoud over de   **RTF-tekst voor titel toestaan**   en   **RTF-tekst toestaan voor opties**   functies en functies die aan de release voorafgaan. De pre-release functie is alleen toegankelijk via onze [pre-releasekanaal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Een groep selectievakjes in een adaptief formulier is een set verwante selectievakjes waarmee gebruikers een of meer opties in een lijst kunnen selecteren. Elk selectievakje wordt vertegenwoordigd door een gegevenswaarde (waarde die wordt gebruikt om items van een selectievakje te verwerken) en een weergavewaarde (label voor elk selectievakje dat het doel beschrijft).
 **Voorbeeld**

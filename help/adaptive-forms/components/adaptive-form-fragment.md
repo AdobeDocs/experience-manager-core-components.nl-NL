@@ -1,63 +1,63 @@
 ---
-title: Adaptive Forms Core Component - Verticale tabbladen
-description: De Adaptive Forms Vertical tabs Core Component gebruiken of aanpassen.
+title: Adaptief formulierfragment
+description: Gebruik formulierfragmenten om formuliersegmenten of -groepen te maken en deze te hergebruiken in Adaptive Forms om de efficiëntie en herbruikbaarheid te verbeteren.
 role: Architect, Developer, Admin, User
-exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
+exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
-source-wordcount: '2112'
+source-wordcount: '1895'
 ht-degree: 0%
 
 ---
 
-# Component Verticale tabs{#vertical-tabs-adaptive-forms-core-component}
+# Component Adaptief formulierfragment {#form-fragment-component-adaptive-forms-core-component}
 
 <span class="preview"> Dit artikel bevat inhoud over de   **RTF-tekst voor titel toestaan**    , een pre-releasefunctie. De pre-release functie is alleen toegankelijk via onze [pre-releasekanaal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
-De verticale tabbladen in een adaptief formulier verwijzen naar een ontwerppatroon, waarbij meerdere secties van een formulier zijn gegroepeerd en worden weergegeven als afzonderlijke tabbladen, die verticaal zijn uitgelijnd. De gebruiker kan schakelen tussen de tabbladen om toegang te krijgen tot verschillende secties van het formulier. Elk tabblad fungeert als trigger voor het weergeven en verbergen van de gerelateerde formulierinhoud. Met de verticale tabbladen kunt u lange formulieren ordenen in hanteerbare gedeelten en de gebruikerservaring verbeteren. Tabs kunnen ertoe bijdragen dat een formulier toegankelijker wordt voor gebruikers met een handicap, aangezien ze met behulp van toetsenbordnavigatie tussen secties kunnen schakelen.
-Wanneer een gebruiker op een tabblad klikt, wordt de formulierinhoud dynamisch bijgewerkt om de bijbehorende sectie weer te geven.
+Adaptief Forms biedt een handige manier om formuliersegmenten te maken, zoals deelvensters of groepen velden, zodat deze opnieuw kunnen worden gebruikt in verschillende Adaptief Forms. Deze herbruikbare en standalone segmenten worden bedoeld als [Adaptieve formulierfragmenten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html).
+
+U kunt [een fragment meerdere keren toevoegen aan een document](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#insert-a-fragment-in-an-adaptive-form) en gebruik eigenschappen voor gegevensbinding van zijn componenten om deze aan verschillende gegevensbronnen of schema te koppelen. U kunt bijvoorbeeld hetzelfde adresfragment gebruiken voor een vast adres, communicatie en factureringsadres en dit koppelen aan verschillende velden van een gegevensbron of schema.
+
+![voorbeeld](/help/adaptive-forms/assets/using-multiple-fragment-af.gif)
+
+
+U kunt ook de opdracht [herhaalbaarheid, optie](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) Als u een formulierfragmentcomponent en de onderliggende componenten wilt dupliceren, definieert u een minimum- en maximumaantal herhalingen en vereenvoudigt u de replicatie van vergelijkbare secties in een formulier.
 
 >[!NOTE]
 >
-> Voor AEM 6.5 Forms werd deze component geïntroduceerd met AEM 6.5 Forms Service Pack 19 (6.5.19.0). Om deze component in te schakelen, zorgt u ervoor dat de benodigde versies van zowel Forms Core Components als WCM Core Components zijn geïnstalleerd. Voor gedetailleerde informatie over de releases van Adaptive Forms Core Components, raadpleegt u [Adaptive Forms Core Components-releases](/help/adaptive-forms/version.md)
+> U kunt [Een adaptief formulierfragment maken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#create-a-fragment) geheel nieuw zijn of een deelvenster opslaan in een bestaand adaptief formulier als fragment.
 
-![voorbeeld](/help/adaptive-forms/assets/horizontal-example.png)
+## Gebruik {#usage}
 
-## Gebruik {#reasons-to-use-vertical-tabs}
+- **Herbruikbaarheid**: De mogelijkheid om formulierfragmenten te hergebruiken in meerdere Adaptieve Forms is het belangrijkste voordeel van het gebruik van formulierfragmenten. Het draagt bij aan het behoud van consistentie in ontwerp en functionaliteit, aangezien de veranderingen die aan een fragment worden aangebracht in alle gevallen worden weerspiegeld waar het wordt gebruikt.
 
-De algemene redenen voor het gebruik van verticale tabbladen in een adaptieve vorm zijn:
+- **Consistente gebruikerservaring**: Het gebruik van formulierfragmenten voor gemeenschappelijke elementen, zoals kop- en voetteksten, zorgt voor een consistente en samenhangende gebruikerservaring.
 
-- **Verbeterde bruikbaarheid**: Met de verticale tabbladen kunnen gebruikers gemakkelijker door het formulier navigeren, vooral als het formulier meerdere secties of een groot aantal velden bevat.
+- **Eenvoudig onderhoud**: De wijzigingen of wijzigingen die zijn aangebracht in een formulierfragment worden weerspiegeld in alle gevallen waarin het wordt gebruikt. Het vereenvoudigt onderhoud en verkleint de kans op fouten.
 
-- **Ruimtebeheer**: Met de verticale tabbladen bespaart u de schermruimte door gerelateerde formuliersecties in tabbladen te groeperen en slechts één sectie tegelijk weer te geven.
-
-- **Betere organisatie**: Tabs bieden een duidelijke en geordende structuur voor een formulier, zodat gebruikers het formulier eenvoudiger kunnen begrijpen en invullen.
-
-- **Grotere betrokkenheid van gebruikers**: Met de verticale tabbladen kan een formulier visueel aantrekkelijker en aantrekkelijker worden voor gebruikers, waardoor de snelheid waarmee het formulier wordt ingevuld, kan worden verbeterd.
+- **Efficiëntie**: Ontwerpers en ontwikkelaars besparen tijd door formulierfragmenten slechts eenmaal te maken en te testen. De formulierfragmenten kunnen dan eenvoudig worden opgenomen in meerdere Adaptieve Forms zonder dat er overbodig werk nodig is.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms Vertical tabs Core Component is uitgebracht als onderdeel van Core Components 2.0.18. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms Fragment Core Component is uitgebracht als onderdeel van Core Components 2.0.50 for Cloud Service and Core Components 1.1.26 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
-|  |  |
-|---|---|
-| Componentversie | AEM as a Cloud Service |
-| — | — |
-| v1 | Compatibel met<br>[release 2.0.18](/help/adaptive-forms/version.md) en hoger | Compatibel | Compatibel |
+| Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
+|---|---|---|
+| v1 | Compatibel met<br>[versie 2.0.50](/help/adaptive-forms/version.md) en hoger | Compatibel met<br>[release 1.1.26](/help/adaptive-forms/version.md) en later, maar minder dan 2.0.0. |
 
 Raadpleeg voor meer informatie over versies en releases van de Core Component de [Versies van kerncomponenten](/help/adaptive-forms/version.md) document.
 
 ## Technische details {#technical-details}
 
-Lees de nieuwste informatie over de Adaptive Forms Vertical tabs Core Component in de technische documentatie over [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/verticaltabs/v1/verticaltabs). Voor meer informatie over het ontwikkelen van Core Components, bekijk [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+Lees de nieuwste informatie over de Adaptive Forms Fragment Core Component in de technische documentatie over [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/fragment). Voor meer informatie over het ontwikkelen van Core Components, bekijk [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
-Met het dialoogvenster Configureren kunt u uw ervaring op verticale tabbladen eenvoudig aanpassen voor bezoekers. U kunt ook eenvoudig opties voor verticale tabbladen definiëren voor een naadloze gebruikerservaring.
+Met het dialoogvenster Configureren kunt u de fragmentervaring voor bezoekers eenvoudig aanpassen. U kunt ook eenvoudig fragmenteigenschappen definiëren voor een naadloze gebruikerservaring.
 
 ### Tabblad Standaard {#basic-tab}
 
-![Het tabblad Basis](/help/adaptive-forms/assets/vertical-tab-basic.png)
+![Tabblad Standaard](/help/adaptive-forms/assets/fragment-basictab.png)
 
 - **Naam** - U kunt een formuliercomponent gemakkelijk herkennen met de unieke naam, zowel in het formulier als in de regeleditor, maar de naam mag geen spaties of speciale tekens bevatten.
 
@@ -68,7 +68,6 @@ Met het dialoogvenster Configureren kunt u uw ervaring op verticale tabbladen ee
   ![RTF-ondersteuning](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Titel verbergen** - Selecteer de optie om de titel van de component te verbergen.
-
 - **Gegevens van onderliggende componenten groeperen over het verzenden van formulieren (gegevens laten teruglopen in object)** - Wanneer de optie is geselecteerd, worden de gegevens van de onderliggende componenten genest in het JSON-object van de bovenliggende component. Als de optie echter niet is geselecteerd, hebben de verzonden JSON-gegevens een platte structuur, zonder object voor de bovenliggende component. Bijvoorbeeld:
 
    - Wanneer de optie is geselecteerd, worden de gegevens van de onderliggende componenten (bijvoorbeeld Straat, Plaats en Postcode) genest binnen de bovenliggende component (Adres) als een JSON-object. Dit leidt tot een hiërarchische structuur, en de gegevens worden georganiseerd onder de oudercomponent.
@@ -92,38 +91,25 @@ Met het dialoogvenster Configureren kunt u uw ervaring op verticale tabbladen ee
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
+- **Fragmentverwijzing** - Een fragmentverwijzing is een verwijzing naar een formulierfragment dat is opgeslagen in een externe gegevensbron en wordt gebruikt in een formulier. Met de fragmentverwijzing kunt u het formulierfragment dynamisch aan een formulier binden.
+
 - **Bindverwijzing** - Een bind verwijzing is een verwijzing naar een gegevenselement dat in een externe gegevensbron wordt opgeslagen en in een vorm wordt gebruikt. Met de bind-verwijzing kunt u gegevens dynamisch binden aan formuliervelden, zodat in het formulier de meest actuele gegevens uit de gegevensbron kunnen worden weergegeven. Een bind-verwijzing kan bijvoorbeeld worden gebruikt om de naam en het adres van een klant in een formulier weer te geven op basis van de id van de klant die in het formulier is ingevoerd. De bind verwijzing kan ook worden gebruikt om de gegevensbron met gegevens bij te werken ingegaan in de vorm. Op deze manier kunt u met AEM Forms formulieren maken die interageren met externe gegevensbronnen, zodat u een naadloze gebruikerservaring hebt voor het verzamelen en beheren van gegevens.
+
 - **Component verbergen** - Selecteer de optie om de component te verbergen voor het formulier. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel. Dit is handig wanneer u informatie wilt opslaan die niet hoeft te worden bekeken of rechtstreeks door de gebruiker hoeft te worden gewijzigd.
 - **Component uitschakelen** - Selecteer de optie om de component uit te schakelen. De uitgeschakelde component is niet actief of bewerkbaar voor de eindgebruiker. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
-
 - **Alleen-lezen** - Selecteer de optie om de component niet-bewerkbaar te maken. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
 
-### Verticale tab herhalen {#repeat-tabs-on-top}
+### Tabblad Fragment herhalen {#repeat-tab}
 
-![Tabblad Herhalen](/help/adaptive-forms/assets/vertical-tab-repeat-vertical-tab.png)
+![Tabblad Fragment herhalen](/help/adaptive-forms/assets/fragment-repeattab.png)
 
-Met de opties voor herhaling kunt u de component Verticaal-tabs en de onderliggende componenten dupliceren, een minimum- en maximumaantal herhalingen definiëren en de replicatie van vergelijkbare secties in een formulier vergemakkelijken. Wanneer u communiceert met de component Vertical-tabs en de instellingen van deze component opent, worden de volgende opties weergegeven:
-
-- **Verticale tabs herhaalbaar maken**: Een schakelfunctie waarmee gebruikers de herhaalbaarheidsfunctionaliteit kunnen in- of uitschakelen.
-- **Minimale herhalingen**: Hiermee stelt u in hoe vaak de component Vertical-tabs minimaal moet worden herhaald. De waarde nul geeft aan dat de component Verticale tabs niet wordt herhaald. De standaardwaarde is nul.
-- **Maximale herhalingen**: Hiermee stelt u in hoe vaak de component Vertical-tabs maximaal kan worden herhaald. Deze waarde is standaard onbeperkt.
-
-Om herhaalbare secties binnen Verticaal-lusjes effectief te beheren, volg de stappen die in worden verstrekt [Formulieren maken met herhaalbare secties](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) artikel.
-
-### Tabblad Items {#items-tab}
-
-![Tabblad Items](/help/adaptive-forms/assets/vertical-tab-items.png)
-
-De **Toevoegen** kunt u een component selecteren om als deelvenster toe te voegen vanuit het selectievenster van de component. Nadat u de component hebt toegevoegd, kunt u de volgende opties zien:
-
-- **Pictogram** - Het pictogram geeft de component van het deelvenster in de lijst aan. U kunt de muis boven het pictogram houden om de volledige componentnaam als knopinfo te zien.
-- **Beschrijving** - De beschrijving die wordt gebruikt als de tekst van het deelvenster. Standaard wordt de naam van de component geselecteerd voor het deelvenster.
-- **Verwijderen** - Tik of klik om het deelvenster uit de component Verticale tabs te verwijderen.
-- **Opnieuw rangschikken** - Tik of klik en sleep om de volgorde van de deelvensters te wijzigen.
+- **Fragment herhaalbaar maken**: Een schakelfunctie waarmee gebruikers de herhaalbaarheidsfunctionaliteit kunnen in- of uitschakelen.
+- **Minimale herhalingen**: Hiermee stelt u in hoe vaak de fragmentcomponent minimaal kan worden herhaald. De waarde nul geeft aan dat de fragmentcomponent niet wordt herhaald; de standaardwaarde is nul.
+- **Maximale herhalingen**: Hiermee stelt u in hoe vaak de fragmentcomponent maximaal kan worden herhaald. Deze waarde is standaard onbeperkt.
 
 ### Het tabblad Help-inhoud {#help-content}
 
-![Help-inhoud, tabblad](/help/adaptive-forms/assets/vertical-tab-help.png)
+![Help-inhoud, tabblad](/help/adaptive-forms/assets/fragment-helptab.png)
 
 - **Korte beschrijving** - Een korte beschrijving is een korte tekstuitleg met aanvullende informatie of verduidelijking over het doel van een specifiek formulierveld. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. De optie **Altijd korte beschrijving tonen** gebruiken om de achtergrondafbeelding onder de component weer te geven.
 
@@ -131,9 +117,9 @@ De **Toevoegen** kunt u een component selecteren om als deelvenster toe te voege
 
 - **Help-tekst** - De Help-tekst verwijst naar aanvullende informatie of aanwijzingen die de gebruiker krijgt om deze te helpen bij het correct invullen van een formulierveld. Deze wordt weergegeven wanneer de gebruiker op het Help-pictogram (i) naast de component klikt. De Help-tekst biedt gedetailleerdere informatie dan de label- of plaatsaanduidingstekst van een formulierveld en is ontworpen om de gebruiker te helpen de vereisten of beperkingen van het veld te begrijpen. Het kan ook suggesties of voorbeelden bevatten om het invullen van het formulier eenvoudiger en nauwkeuriger te maken.
 
-### Tabblad Toegankelijkheid {#accessibility}
+### Toegankelijkheid {#accessibility}
 
-![Toegankelijkheid, tabblad](/help/adaptive-forms/assets/vertical-tab-accessibility.png)
+![Toegankelijkheid, tabblad](/help/adaptive-forms/assets/fragment-accessibilitytab.png)
 
 - **Tekst voor schermlezers** - Tekst voor schermlezers verwijst naar extra tekst die specifiek is bedoeld om te worden gelezen door ondersteunende hulpmiddelen, zoals schermlezers, die door visueel gehandicapten worden gebruikt. Deze tekst bevat een audiobeschrijving van het doel van het formulierveld en kan informatie bevatten over de titel, beschrijving, naam en relevante berichten (aangepaste tekst) van het veld. Met de schermlezertekst kunt u ervoor zorgen dat het formulier toegankelijk is voor alle gebruikers, inclusief gebruikers met een visuele handicap, en krijgt deze een volledig inzicht in het formulierveld en de vereisten ervan.
 
@@ -141,32 +127,21 @@ De **Toevoegen** kunt u een component selecteren om als deelvenster toe te voege
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
-De dialoog van het Ontwerp laat malplaatjemakers controleren hoe de dingen door gebrek worden getoond. Voor de adaptieve Forms-component Vertical-tabs kunt u het volgende instellen:
-
-- De kerncomponenten die een maker van een formulier kan toevoegen aan de verticale tabbladen in de Adaptieve Forms-editor
-- Eenvoudige namen voor stijlen (CSS-klassen) die kunnen worden toegepast in het dialoogvenster Eigenschappen van de component Vertical-tabs in de Adaptive Forms-editor.
-
-Hierdoor wordt het maken en aanpassen van formulieren eenvoudiger en efficiënter.
-
-### Tabblad Toegestane componenten {#allowed-components-tab}
-
-![Tabblad Toegestane componenten](/help/adaptive-forms/assets/tabs-allowed-component.png)
-
-De **Toegestane componenten** kunt u in de sjablooneditor de componenten instellen die als items kunnen worden toegevoegd aan de deelvensters in de component Verticale tabbladen van de Adaptieve Forms-editor.
+Het dialoogvenster Ontwerpen wordt gebruikt voor het definiëren en beheren van CSS-stijlen voor de formulierfragmentcomponent.
 
 ### Tabblad Stijlen {#styles-tab}
 
-![Het tabblad Stijlen](/help/adaptive-forms/assets/tabs-styles-tab.png)
+De kerncomponent Adaptief formulierfragment ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
 
-Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De Adaptive Forms Vertical tabs Core Component ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+![Ontwerpdialoogvenster](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Standaard CSS-klassen**: U kunt een standaard CSS-klasse opgeven voor de Adaptive Forms Vertical tabs Core Component.
+- **Standaard CSS-klassen**: U kunt een standaard-CSS-klasse opgeven voor de kerncomponent Adaptief formulierfragment.
 
 - **Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight: bold&quot; opgeven. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
 
-### Tabblad Aangepaste eigenschappen
+### Aangepaste eigenschappen
 
-![Tabblad Aangepaste eigenschappen](/help/adaptive-forms/assets/tabs-custom-properties.png)
+![Dialoogvenster Aangepaste eigenschappen](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
 Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aan een Adaptief kernonderdeel van een formulier koppelen met behulp van de formuliersjabloon. De aangepaste eigenschappen worden weergegeven in de sectie Eigenschappen van de koploze uitvoering van de component. Hiermee kunt u dynamisch formuliergedrag maken dat wordt aangepast op basis van de waarden van aangepaste kenmerken. Ontwikkelaars kunnen bijvoorbeeld verschillende uitvoeringen van een Forms-component zonder koptekst ontwerpen voor mobiele apparaten, desktops of webplatforms, waardoor de gebruikerservaring op een groot aantal apparaten aanzienlijk wordt verbeterd.
 
@@ -176,7 +151,8 @@ Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aa
 
    - **Verwijderen**: Tik of klik om de naam van de aangepaste eigenschap en de waarde van de aangepaste eigenschap te verwijderen.
 
-   - **Opnieuw rangschikken**: Tik of klik en sleep om de volgorde van de naam van de aangepaste eigenschap en de waarde van de aangepaste eigenschap te wijzigen.
+   - **Opnieuw rangschikken**: Tik of klik en sleep om de naam van de aangepaste eigenschap en de waarde van de aangepaste eigenschap opnieuw te rangschikken.
+
 
 ## Verwante artikelen {#related-articles}
 

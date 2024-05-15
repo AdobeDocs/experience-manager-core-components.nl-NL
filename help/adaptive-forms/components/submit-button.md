@@ -3,16 +3,16 @@ title: Adaptieve Forms Core-component - Verzenden, knop
 description: De kerncomponent van de knop Adaptief Forms verzenden gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1450'
 ht-degree: 0%
 
 ---
 
-# Verzenden, knop {#submit-button}
+# Knop-component verzenden {#submit-button}
 
-<span class="preview"> Dit artikel bevat inhoud over de **RTF-tekst voor titel toestaan** , een pre-releasefunctie. De pre-release functie is alleen toegankelijk via onze [pre-releasekanaal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> Dit artikel bevat inhoud over de   **RTF-tekst voor titel toestaan**    , een pre-releasefunctie. De pre-release functie is alleen toegankelijk via onze [pre-releasekanaal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Een knop Verzenden in een adaptief formulier is een knop waarmee gebruikers de formuliergegevens naar een server kunnen verzenden voor verwerking. Wanneer op de knop Verzenden wordt geklikt, worden de formuliergegevens naar de server verzonden, waar deze kunnen worden opgeslagen, verwerkt of gebruikt voor verschillende doeleinden, zoals het verzenden van een e-mail of het bijwerken van een database.
 

@@ -3,17 +3,17 @@ title: Adaptive Forms Core Component - Telefonische invoer
 description: De Adaptive Forms Telephone Input Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
-source-wordcount: '2141'
+source-wordcount: '2142'
 ht-degree: 0%
 
 ---
 
 
-# Telefooninvoer {#telephone-input-adaptive-forms-core-component}
+# Invoercomponent telefoon{#telephone-input-adaptive-forms-core-component}
 
-<span class="preview"> Dit artikel bevat inhoud over de **RTF-tekst voor titel toestaan** , een pre-releasefunctie. De pre-release functie is alleen toegankelijk via onze [pre-releasekanaal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> Dit artikel bevat inhoud over de   **RTF-tekst voor titel toestaan**    , een pre-releasefunctie. De pre-release functie is alleen toegankelijk via onze [pre-releasekanaal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Met de Adaptive Form Phone Input Core Component kunnen gebruikers een telefoonnummer invoeren. In het veld voor telefooninvoer worden toetsenborden weergegeven op mobiele apparaten die relevant zijn voor telefoonnummers. Deze kan worden aangepast met extra kenmerken, zoals &quot;patroon&quot; en &quot;plaatsaanduiding&quot;, om de notatie en beschrijving van het telefoonnummer op te geven.
 

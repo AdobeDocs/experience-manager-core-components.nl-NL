@@ -3,16 +3,16 @@ title: Adaptieve Forms Core-component - Knop Herstellen
 description: De kerncomponent van de knop Adaptive Forms Reset gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1491'
 ht-degree: 0%
 
 ---
 
-# Herstellen {#reset-button}
+# Knopcomponent opnieuw instellen {#reset-button}
 
-<span class="preview"> Dit artikel bevat inhoud over de **RTF-tekst voor titel toestaan** , een pre-releasefunctie. De pre-release functie is alleen toegankelijk via onze [pre-releasekanaal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> Dit artikel bevat inhoud over de   **RTF-tekst voor titel toestaan**    , een pre-releasefunctie. De pre-release functie is alleen toegankelijk via onze [pre-releasekanaal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Een resetknop in een adaptief formulier is een knop waarmee gebruikers alle formuliervelden kunnen wissen of opnieuw instellen op de standaardwaarden. Wanneer op de knop Herstellen wordt geklikt, worden alle gegevens die in de formuliervelden zijn ingevoerd, verwijderd en keren de velden terug naar hun oorspronkelijke staat. De resetknop wordt meestal gebruikt als een alternatief voor de verzendknop en biedt een manier om opnieuw te beginnen als gebruikers onjuiste of ongewenste gegevens in het formulier hebben ingevoerd.
 
