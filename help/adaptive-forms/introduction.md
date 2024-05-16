@@ -3,9 +3,9 @@ title: Inleiding Adaptive Forms Core Components AEM
 description: Maak aantrekkelijke inschrijvingservaringen (formulieren) met de flexibiliteit van de Adaptive Forms Core Components en lever deze met de kracht van Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
+source-git-commit: 23ad6de410aaf4952607d9a4aa44864b0743c479
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '2154'
 ht-degree: 0%
 
 ---
@@ -53,9 +53,9 @@ Bovendien, aangezien deze componenten open-bron zijn, hebben de ontwikkelaars de
 
 Ervaringen met het vastleggen van gegevens zijn van cruciaal belang voor het genereren en inschrijven van leads en de Adaptive Forms Core Components bieden een krachtige oplossing voor het maken van formulieren die zijn geoptimaliseerd voor het vastleggen van gegevens. Enkele redenen om de Componenten van de Kern te gebruiken om deze ervaringen over stichtingscomponenten te creëren zijn:
 
-* **Beschikbaarheid op GitHub en uitvoerige documentatie**: De AEM Adaptive Forms Core Components zijn open-source en beschikbaar op GitHub, samen met uitvoerige documentatie. Dit maakt het voor ontwikkelaars gemakkelijker om de componenten te begrijpen en hoe zij werken, en aan hun ontwikkeling bij te dragen. De [aemcomponents.dev](https://www.aemcomponents.dev/) de website is ook een waardevolle bron , waar ontwikkelaars de componenten in actie kunnen zien en toegang hebben tot gedetailleerde documentatie .
+* **[Beschikbaarheid op GitHub](https://github.com/adobe/aem-core-forms-components)**: De AEM Adaptive Forms Core Components zijn open-source en beschikbaar op GitHub, samen met uitvoerige documentatie. Dit maakt het voor ontwikkelaars gemakkelijker om de componenten te begrijpen en hoe zij werken, en aan hun ontwikkeling bij te dragen. De [aemcomponents.dev](https://www.aemcomponents.dev/) de website is ook een waardevolle bron , waar ontwikkelaars de componenten in actie kunnen zien en toegang hebben tot gedetailleerde documentatie .
 
-* **BEM-model voor opmaken**: De kerncomponenten volgen het BEM-model (Block Element Modifier) voor opmaak, een gangbare en veelgebruikte methode voor het ordenen van CSS. Op deze manier kunnen ontwikkelaars gemakkelijker begrijpen hoe de stijlen zijn ingedeeld en hoe ze aan hun specifieke behoeften kunnen worden aangepast.
+* **[BEM-model voor opmaken](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)**: De kerncomponenten volgen het BEM-model (Block Element Modifier) voor opmaak, een gangbare en veelgebruikte methode voor het ordenen van CSS. Op deze manier kunnen ontwikkelaars gemakkelijker begrijpen hoe de stijlen zijn ingedeeld en hoe ze aan hun specifieke behoeften kunnen worden aangepast.
 
 * **Geen afhankelijkheid van bibliotheken van derden**: Een van de voordelen van de Core Components is dat deze niet afhankelijk zijn van JavaScript-bibliotheken van derden, waaronder JQuery en Underscore. Hierdoor worden de componenten sneller en lichter, maar ook eenvoudiger te integreren in een bestaande AEM.
 
@@ -63,38 +63,155 @@ Ervaringen met het vastleggen van gegevens zijn van cruciaal belang voor het gen
 
 * **Formuliercomponenten in Sites 30-sjabloon en -thema&#39;s**: De kerncomponenten bieden ondersteuning voor formuliercomponenten in de Sites 30-sjabloon en -thema&#39;s, zodat ontwikkelaars gemakkelijker formulieren kunnen maken en aanpassen binnen AEM.
 
-* **Eenvoudigere stijl**: De componenten van de Kern zijn gemakkelijker om dan hun stichtingscomponenten te stichten. Het proces voor het maken van thema&#39;s lijkt op Sites, waarbij u hetzelfde thema/CSS kunt overnemen van de bovenliggende pagina Sites. Bovendien maakt het BEM-model voor opmaak het eenvoudiger om de stijlen te begrijpen en wijzigen.
+* **[Eenvoudigere stijl](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)**: De componenten van de Kern zijn gemakkelijker om dan hun stichtingscomponenten te stichten. Het proces voor het maken van thema&#39;s lijkt op Sites, waarbij u hetzelfde thema/CSS kunt overnemen van de bovenliggende pagina Sites. Bovendien maakt het BEM-model voor opmaak het eenvoudiger om de stijlen te begrijpen en wijzigen.
 
-* **Toegankelijkheid**: Adaptive Forms Core Components ondersteunt toegankelijkheidsstandaarden en -richtlijnen om ervoor te zorgen dat formulieren kunnen worden gebruikt door mensen met een handicap, inclusief personen die gebruik maken van ondersteunende hulpmiddelen zoals schermlezers
+* **Toegankelijkheid**: Adaptive Forms Core Components ondersteunt toegankelijkheidsstandaarden en -richtlijnen om ervoor te zorgen dat formulieren kunnen worden gebruikt door mensen met een handicap, inclusief personen die gebruik maken van ondersteunende hulpmiddelen zoals schermlezers.
 
-## Adaptieve Forms Core-componenten {#components}
+* **[Versioning](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/add-comments-annotations-versioning-adaptive-form-core-components)**: U kunt meerdere versies van een op Adaptieve Forms gebaseerde Core Components maken en beheren, op samenwerking gebaseerde discussies doorvoeren via opmerkingen en annotaties toevoegen aan specifieke formuliercomponenten en zo de algehele ervaring met het maken van formulieren verbeteren.
 
-De huidige versie van de Adaptive Forms Core Components is voorzien van de hieronder vermelde componenten.
+## Het vergelijken van de Componenten van de Kern, de Componenten van de Stichting, en de Componenten van het Blok van de Vorm {#components}
 
-* [Accordeon](/help/adaptive-forms/components/accordion.md)
-* [Knop](/help/adaptive-forms/components/button.md)
-* [Selectievakjesgroep](/help/adaptive-forms/components/checkbox-group.md)
-* [Datumkiezer](/help/adaptive-forms/components/date-picker.md)
-* [Vervolgkeuzelijst](/help/adaptive-forms/components/drop-down-list.md)
-* [E-mailinvoer](/help/adaptive-forms/components/email-input.md)
-* [Formuliercontainer](/help/adaptive-forms/components/form-container.md)
-* [Bestandsbijlage](/help/adaptive-forms/components/file-attachment.md)
-* [Voettekst](/help/adaptive-forms/components/footer.md)
-* [Koptekst](/help/adaptive-forms/components/header.md)
-* [Horizontale tabs](/help/adaptive-forms/components/horizontal-tabs.md)
-* [Afbeelding](/help/adaptive-forms/components/image.md)
-* [Numeriek vak](/help/adaptive-forms/components/numeric-box.md)
-* [Deelvenster](/help/adaptive-forms/components/panel.md)
-* [Keuzerondje](/help/adaptive-forms/components/radio-button.md)
-* [Knop Opnieuw instellen](/help/adaptive-forms/components/reset-button.md)
-* [Verzendknop](/help/adaptive-forms/components/submit-button.md)
-* [Telefooninvoer](/help/adaptive-forms/components/telephone-input.md)
-* [Tekstvak](/help/adaptive-forms/components/text-box.md)
-* [Tekst](/help/adaptive-forms/components/text.md)
-* [Titel](/help/adaptive-forms/components/title.md)
+De huidige versie van AEM heeft de volgende Componenten van de Kern en Componenten van de Stichting.
+
+| Onderdelen | Elementaire componenten | Kernonderdelen | Componenten voor formulierblokken | Aanvullende informatie |
+|------------|:---------------------:|:---------------:|:---------------------:|-----------------------|
+| Adobe Sign Block | ✔️ | | | De integratie van Adobe Sign is beschikbaar slechts voor de Componenten van de Stichting. |
+| Accordeon | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/accordion.md)</span> | | Voor de Componenten van de Stichting, kunt u de accordeonlay-out in de eigenschappen van de paneelcomponent vormen |
+| Adaptief formulierfragment | ✔️ | ✔️ | | Voor de Componenten van de Stichting, kunt u een fragment van de eigenschappen van een paneelcomponent toevoegen. |
+| Adaptief formulier reCAPTCHA | ✔️ | ✔️ | ✔️ | Voor de Componenten van de Stichting, gebruik de component Captcha om Google reCaptcha aan een vorm toe te voegen. |
+| Knop | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
+| Captcha | ✔️ | | | Voor de Componenten van de Stichting, gebruik de component Captcha om Google reCaptcha aan een vorm toe te voegen. |
+| Diagram | ✔️ | | | |
+| Selectievakje | ✔️ | ✔️ | | |
+| Selectievakjesgroep | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | Voor de Componenten van de Stichting, gebruik de checkbox component om veelvoudige checkboxes toe te voegen |
+| Datuminvoerveld | ✔️ | | | Gebruik voor Core Components een datumkiezer of gebruik afzonderlijke tekstvak- of numerieke vakcomponenten om dag, maand en jaar vast te leggen. |
+| Datumkiezer | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/date-picker.md)</span> | ✔️ | |
+| Vervolgkeuzelijst | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/drop-down-list.md)</span> | ✔️ | |
+| E-mail | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/email-input.md)</span> | ✔️ | |
+| Bestandsbijlage | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/file-attachment.md)</span> | ✔️ | |
+| Lijst met bestandsbijlagen | ✔️ | | | |
+| Voettekst | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/footer.md)</span> | ✔️ | |
+| Plaatsaanduiding voetnoot | ✔️ | | | |
+| Formuliercontainer | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | Voor de Componenten van de Stichting, gebruik de component van het Comité van de Wortel. |
+| Formuliertitel | ✔️ | ✔️ | | Gebruik de titelcomponent voor Foundation Components. |
+| Koptekst | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
+| Horizontale tabs | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | Voor de Componenten van de Stichting, kunt u de lusjes op bovenkant (horizontale lusjes) lay-out in de eigenschappen van de paneelcomponent vormen |
+| Afbeelding | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/image.md)</span> | ✔️ | |
+| Afbeeldingskeuze | ✔️ | | | |
+| Volgende knop | ✔️ | ✔️ | | De tovenaar van het gebruik component voor volgende en vorige knopen om zich tussen veelvoudige panelen te bewegen. |
+| Numeriek vak | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/numeric-box.md)</span> | ✔️ | |
+| Numerieke stap | ✔️ | | | |
+| Deelvenster | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
+| Wachtwoordvak | ✔️ | | ✔️ | |
+| Telefoon/telefoon | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/telephone-input.md)</span> | ✔️ | |
+| Vorige knop | ✔️ | | | De tovenaar van het gebruik component voor volgende en vorige knopen om zich tussen veelvoudige panelen te bewegen. |
+| Keuzerondje | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | | |
+| Groep keuzerondjes | | | ✔️ | |
+| Knop Opnieuw instellen | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
+| Krabbelhandtekening | ✔️ | | | |
+| Zegelaar | ✔️ | | | |
+| Verzendknop | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
+| Samenvattingsstap | ✔️ | | | |
+| Overschakelen | ✔️ | ✔️ | | |
+| Tabel | ✔️ | | | |
+| Voorwaarden en bepalingen | ✔️ | ✔️ | | |
+| Tekst | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text.md)</span> | ✔️ | |
+| Tekstvak | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text-box.md)</span> | ✔️ | |
+| Titel | ✔️ | | | Gebruik voor kerncomponenten de component Formuliertitel. |
+| Verticale tabs | ✔️ | ✔️ | | Voor de Componenten van de Stichting, kunt u de lusjes op linkerlay-out (verticale lusjes) in de eigenschappen van de paneelcomponent vormen |
+| Wizard | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | Voor de Componenten van de Stichting, kunt u de tovenaar lay-out in de eigenschappen van de paneelcomponent vormen |
+
+
+
+
+>[!NOTE]
+>
+>
+> * Naast de hierboven vermelde componenten, ondersteunt het Forms-blok alle geldige componenten [HTML5-invoertypen](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types) en [textarea](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea) als componenten.
+> * Hebt u een component nodig die hierboven niet wordt vermeld? Vraag het aan door aem-forms-ea@adobe.com van uw officiële adres te e-mailen.
+
+
+<!-- >
+* [Accordion](/help/adaptive-forms/components/accordion.md)
+* [Button](/help/adaptive-forms/components/button.md)
+* [Check Box Group](/help/adaptive-forms/components/checkbox-group.md)
+* [Date Picker](/help/adaptive-forms/components/date-picker.md)
+* [Drop-down list](/help/adaptive-forms/components/drop-down-list.md)
+* [Email-input](/help/adaptive-forms/components/email-input.md)
+* [Form Container](/help/adaptive-forms/components/form-container.md)
+* [File Attachment](/help/adaptive-forms/components/file-attachment.md)
+* [Footer](/help/adaptive-forms/components/footer.md)
+* [Header](/help/adaptive-forms/components/header.md)
+* [Horizontal Tabs](/help/adaptive-forms/components/horizontal-tabs.md)
+* [Image](/help/adaptive-forms/components/image.md)
+* [Numeric Box](/help/adaptive-forms/components/numeric-box.md)
+* [Panel](/help/adaptive-forms/components/panel.md)
+* [Radio Button](/help/adaptive-forms/components/radio-button.md)
+* [Reset Button](/help/adaptive-forms/components/reset-button.md)
+* [Submit Button](/help/adaptive-forms/components/submit-button.md)
+* [Telephone input](/help/adaptive-forms/components/telephone-input.md)
+* [Text Box](/help/adaptive-forms/components/text-box.md)
+* [Text](/help/adaptive-forms/components/text.md)
+* [Title](/help/adaptive-forms/components/title.md)
 * [Wizard](/help/adaptive-forms/components/wizard.md)
 
-## Adaptieve Forms Core-componenten instellen
+-->
+
+## Eenvoudig te gebruiken formuliereditor
+
+De editor voor op Core Components gebaseerde Adaptive Forms is vergelijkbaar met de editor die u al gebruikt voor het maken van AEM Sites-pagina&#39;s. Dit is wat je krijgt:
+
+
+* **Vertrouwde UI-elementen en -instellingen**: Wanneer u eigenschappen voor formuliercomponenten configureert, ziet u een dialoogvenster met eigenschappen eruit zoals de dialoogvensters die u gebruikt voor WCM Core-componenten. Hierdoor wordt het sneller om de opties te vinden u wenst. Net als WCM Core Components, wordt voor formuliercomponenten het dialoogvenster Eigenschappen weergegeven in het midden van de editor met duidelijke tabbladen waarin de basis- en geavanceerde opties, Help-tekst en toegankelijkheidsinformatie worden gescheiden. Dit alles in een tabnotatie voor eenvoudige navigatie.
+
+* **[Regeleditor](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/rule-editor-core-components)**: U kunt logische en dynamische functies toevoegen aan uw formulieren zonder code te schrijven. U kunt de ingebouwde regelredacteur gebruiken aan:
+   * Velden weergeven of verbergen op basis van gebruikersopties
+   * Een object in- of uitschakelen
+   * Een waarde instellen voor een object
+   * Berekeningen uitvoeren
+   * Eigenschap van een object instellen
+   * Gegevensinvoer valideren
+   * Een service aanroepen (externe functionaliteit aanroepen)
+   * Ingebouwde functies gebruiken (vooraf gedefinieerde functies voor algemene taken)
+   * Aangepaste functies gebruiken (uw eigen code voor specifieke behoeften)
+   * Valideer velden en deelvensters (controleer of de gegevens voldoen aan de vereisten)
+   * De waarde van een object valideren
+   * Functies uitvoeren om de waarde van een object te berekenen
+   * Roep de service Form Data Model (FDM) aan en voer een bewerking uit
+   * Dynamisch stijlen toevoegen (weergave wijzigen op basis van voorwaarden)
+   * Andere regels maken (kettinghandelingen en logica)
+   * en meer!
+
+  De regelredacteur heeft niet de coderedacteur. U kunt [aangepaste functies](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-and-use-custom-functions) om uw eigen code voor specifieke behoeften aan regelredacteur toe te voegen.
+
+
+
+* **Formulieren vooraf invullen**: U kunt bepaalde velden in een formulier automatisch vullen met bestaande gegevens wanneer een gebruiker het opent. Dit bespaart gebruikers tijd en moeite door de behoefte te elimineren om informatie manueel in te gaan die reeds beschikbaar zou kunnen zijn. De editor Core Components biedt een OOTB-service om formuliervelden te vullen met behulp van een formuliergegevensmodel. U kunt de diensten van de douane ook tot stand brengen vooraf ingevulde voor complexere scenario&#39;s.
+
+* **[Document of Record (DoR)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components)**: Een Document of Record (DoR) verwijst naar een formele, afdrukbare weergave van de gegevens die via het formulier zijn ingediend. Het dient als een permanent verslag van de informatie een gebruiker inging, die een momentopname van de voorgelegde gegevens in een gebruikersvriendelijk formaat, typisch een document van de PDF verstrekt. U kunt de redacteur gebruiken om een douanemalplaatje gemakkelijk te vormen of een malplaatje OTB te gebruiken om een DoR te produceren.
+
+* **[Formuliergegevensmodel](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/using-form-data-model)**: Een adaptief Forms Data Model (FDM) fungeert als brug tussen uw Adaptive Forms en uw gegevensbronnen. In feite wordt hiermee de structuur en organisatie gedefinieerd van de gegevens die uw formulieren verzamelen en waarmee ze werken. U kunt de editor gebruiken om een formulier eenvoudig te verbinden met een Forms Data Model (FDM).
+
+* **[Formulierverzendingen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&amp;text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&amp;text=A%20Submit%20Action%20lets%20you,button%20on%20an%20Adaptive%20Form)**: Een formulier dat wordt verzonden, verwijst naar het proces waarbij gebruikers hun ingevulde formulieren invullen en verzenden. Hierdoor wordt een reeks handelingen geactiveerd die in de configuratie van het formulier zijn gedefinieerd, wat uiteindelijk leidt tot de opslag of verwerking van de verzonden gegevens. De Adaptive Forms-editor biedt verschillende opties voor het configureren van formulierverzendingen. Enkele gemeenschappelijke acties voor het indienen van voorstellen zijn:
+
+   * [E-mail verzenden](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&amp;text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&amp;text=A%20Submit%20Action%20lets%20you,button%20on%20an%20Adaptive%20Form.)
+   * [Een automatische stroomvoorziening aanroepen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/integrate/services/forms-microsoft-power-automate-integration)
+   * [Verzenden naar SharePoint](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-action-sharepoint)
+   * [Een Workfront Fusion aanroepen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20a%20Workfront%20Fusion)
+   * [Verzenden met gebruik van FDM (Form Data Model)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/using-form-data-model)
+   * [Verzenden naar Azure Blob Storage](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Submit%20to%20Azure%20Blob%20Storage)
+   * [Verzenden naar REST-eindpunt](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-action-restpoint)
+   * [Verzenden naar OneDrive](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=to%20REST%20endpoint-,Submit%20to%20OneDrive,-Invoke%20an%20AEM)
+   * [Een AEM-workflow aanroepen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20an%20AEM%20Workflow)
+
+
+<!-- 
+* **Preview Forms**: You can use the editor to  simulates how the form would appear on various devices like desktops, tablets, and smartphones.
+-->
+
+
+
+## Adaptieve Forms Core-componenten inschakelen
 
 Als u Adaptive Forms Core Components inschakelt op AEM Forms as a Cloud Service, kunt u beginnen met het maken, publiceren en leveren van Core Components based Adaptive Forms and Headless Forms met uw AEM Forms Cloud Service-instanties naar meerdere kanalen. Voor gedetailleerde instructies voor het inschakelen van Adaptive Form Core Components, raadpleegt u [Adaptieve Forms Core-componenten inschakelen in de as a Cloud Service en lokale ontwikkelomgeving van AEM Forms](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html).
 
