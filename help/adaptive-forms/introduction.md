@@ -3,18 +3,18 @@ title: Inleiding Adaptive Forms Core Components AEM
 description: Maak aantrekkelijke inschrijvingservaringen (formulieren) met de flexibiliteit van de Adaptive Forms Core Components en lever deze met de kracht van Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 23ad6de410aaf4952607d9a4aa44864b0743c479
+source-git-commit: e15254b119194e14b5719de10a00b2990264756f
 workflow-type: tm+mt
-source-wordcount: '2154'
+source-wordcount: '2175'
 ht-degree: 0%
 
 ---
 
-# Inleiding Adaptive Forms Core Components {#adaptive-forms-core-components-introduction}
+# Adaptieve Forms Core-componenten  {#adaptive-forms-core-components-introduction}
 
-Met behulp van de Adaptive Forms Core Components in Adobe Experience Manager kunt u aantrekkelijke inschrijvingservaringen creëren door de beschikbare flexibiliteit- en aanpassingsopties te gebruiken.
+Met de Adaptive Forms Core Components in Adobe Experience Manager kunt u aantrekkelijke inschrijvingservaringen creëren.
 
-## Kernonderdelen  {#overview}
+## Kernonderdelen {#overview}
 
 In Adobe Experience Manager (AEM) zijn componenten de bouwstenen die worden gebruikt om pagina&#39;s en formulieren te maken. Ze bieden auteurs een eenvoudige en krachtige manier om inhoud te maken en te beheren en bieden ontwikkelaars ook de flexibiliteit en uitbreidbaarheid die nodig zijn om aangepaste componenten te maken. Deze zijn ontworpen om de ontwikkelingstijd te versnellen en de onderhoudskosten voor websites en formulieren te verlagen, flexibel te zijn en eenvoudig te kunnen worden aangepast aan de specifieke behoeften van een website en formulier.
 
@@ -28,7 +28,7 @@ De Adaptive Forms Core Components zijn een set van 24 opensource, BEM-compatibel
 
 Deze componenten kunnen worden gebruikt om buitengewone ervaringen met het vastleggen en inschrijven van gegevens te maken door een groot aantal opties voor formuliervelden te bieden, zoals tekstvelden, selectievakjes, vervolgkeuzemenu&#39;s en nog veel meer. Ze bevatten ook functies zoals validatie, voorwaardelijke logica en responsief ontwerp, waarmee u formulieren kunt maken die gebruiksvriendelijk en gebruiksvriendelijk zijn.
 
-Bovendien, aangezien deze componenten open-bron zijn, hebben de ontwikkelaars de capaciteit om de componenten gemakkelijk aan te passen en uit te breiden om aan de specifieke behoeften van hun organisatie te passen. Deze componenten zijn gebaseerd op BEM-methoden die ervoor zorgen dat ze schaalbaar en onderhoudsbaar zijn.
+Bovendien, aangezien deze componenten open-bron zijn, hebben de ontwikkelaars de capaciteit om de componenten gemakkelijk aan te passen en uit te breiden om aan de specifieke behoeften van hun organisatie te passen. Deze componenten zijn gebaseerd op de BEM-methode, die ervoor zorgt dat ze schaalbaar en onderhoudsbaar zijn.
 
 ![adaptieve formulierafbeelding](assets/sample-adaptive-form.png)
 
@@ -37,7 +37,7 @@ Bovendien, aangezien deze componenten open-bron zijn, hebben de ontwikkelaars de
 |  |  |
 |---|---|
 | Gereed voor productie | De Adaptive Forms Core-componenten zijn 24 robuuste WCM-componenten. |
-| Klaar voor cloud | Beschikbaar voor  [AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html). |
+| Klaar voor cloud | Beschikbaar voor [AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html). |
 | Veelzijdig | De componenten vertegenwoordigen algemene concepten waarmee de Forms-auteurs bijna elke lay-out kunnen samenstellen. |
 | Configureerbaar | Sjabloonniveau [inhoudsbeleid](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies) bepalen welke functies wel of niet mogen worden gebruikt. |
 | Toegankelijk | Ze bieden ARIA-labels, ondersteunen toetsenbordnavigatie en tekst voor ondersteunende hulpmiddelen, zoals schermlezers. |
@@ -71,20 +71,20 @@ Ervaringen met het vastleggen van gegevens zijn van cruciaal belang voor het gen
 
 ## Het vergelijken van de Componenten van de Kern, de Componenten van de Stichting, en de Componenten van het Blok van de Vorm {#components}
 
-De huidige versie van AEM heeft de volgende Componenten van de Kern en Componenten van de Stichting.
+De huidige versie van AEM heeft de volgende Componenten van de Kern, Componenten van de Stichting, en Componenten van het Blok van de Vorm (Edge Delivery Services).
 
 | Onderdelen | Elementaire componenten | Kernonderdelen | Componenten voor formulierblokken | Aanvullende informatie |
 |------------|:---------------------:|:---------------:|:---------------------:|-----------------------|
-| Adobe Sign Block | ✔️ | | | De integratie van Adobe Sign is beschikbaar slechts voor de Componenten van de Stichting. |
-| Accordeon | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/accordion.md)</span> | | Voor de Componenten van de Stichting, kunt u de accordeonlay-out in de eigenschappen van de paneelcomponent vormen |
-| Adaptief formulierfragment | ✔️ | ✔️ | | Voor de Componenten van de Stichting, kunt u een fragment van de eigenschappen van een paneelcomponent toevoegen. |
-| Adaptief formulier reCAPTCHA | ✔️ | ✔️ | ✔️ | Voor de Componenten van de Stichting, gebruik de component Captcha om Google reCaptcha aan een vorm toe te voegen. |
+| Adobe Sign Block | ✔️ | | | [Adobe Sign-integratie](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/integrate/services/adobe-sign-integration-adaptive-forms#adobe-acrobat-sign-for-government) is beschikbaar slechts voor de Componenten van de Stichting. |
+| Accordeon | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/accordion.md)</span> | | Voor de Componenten van de Stichting, kunt u de accordeonlay-out binnen vormen [eigenschappen van deelvensters](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout). |
+| Adaptief formulierfragment | ✔️ | ✔️ | | Voor de Componenten van de Stichting, kunt u [een fragment toevoegen](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/adaptive-forms-basic-authoring/adaptive-form-fragments#insert-a-fragment-in-an-adaptive-form) vanuit de middelenbrowser. |
+| Adaptief formulier reCAPTCHA | ✔️ | ✔️ | ✔️ | Voor de Componenten van de Stichting, gebruik de component Captcha aan [Google reCaptcha aan een formulier toevoegen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | Knop | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
-| Captcha | ✔️ | | | Voor de Componenten van de Stichting, gebruik de component Captcha om Google reCaptcha aan een vorm toe te voegen. |
+| Captcha | ✔️ | | | Voor de Componenten van de Stichting, gebruik de component Captcha aan [Google reCaptcha aan een formulier toevoegen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | Diagram | ✔️ | | | |
 | Selectievakje | ✔️ | ✔️ | | |
 | Selectievakjesgroep | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | Voor de Componenten van de Stichting, gebruik de checkbox component om veelvoudige checkboxes toe te voegen |
-| Datuminvoerveld | ✔️ | | | Gebruik voor Core Components een datumkiezer of gebruik afzonderlijke tekstvak- of numerieke vakcomponenten om dag, maand en jaar vast te leggen. |
+| Datuminvoerveld | ✔️ | | | Gebruik voor Core Components (Basiscomponenten) de [datumkiezer](/help/adaptive-forms/components/date-picker.md) component. U kunt ook afzonderlijke [textbox](/help/adaptive-forms/components/text-box.md) of [numeriek vak](/help/adaptive-forms/components/numeric-box.md) componenten om de dag, de maand, en het jaar te vangen. |
 | Datumkiezer | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/date-picker.md)</span> | ✔️ | |
 | Vervolgkeuzelijst | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/drop-down-list.md)</span> | ✔️ | |
 | E-mail | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/email-input.md)</span> | ✔️ | |
@@ -92,34 +92,34 @@ De huidige versie van AEM heeft de volgende Componenten van de Kern en Component
 | Lijst met bestandsbijlagen | ✔️ | | | |
 | Voettekst | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/footer.md)</span> | ✔️ | |
 | Plaatsaanduiding voetnoot | ✔️ | | | |
-| Formuliercontainer | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | Voor de Componenten van de Stichting, gebruik de component van het Comité van de Wortel. |
+| Formuliercontainer | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | Voor de Componenten van de Stichting, gebruik [Hoofddeelvenstercomponent](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/forms/create-first-af/configure-root-panel). |
 | Formuliertitel | ✔️ | ✔️ | | Gebruik de titelcomponent voor Foundation Components. |
 | Koptekst | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
-| Horizontale tabs | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | Voor de Componenten van de Stichting, kunt u de lusjes op bovenkant (horizontale lusjes) lay-out in de eigenschappen van de paneelcomponent vormen |
+| Horizontale tabs | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | Voor de Componenten van de Stichting, kunt u vormen [tabs boven op lay-out (horizontale tabs)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) in deelvenstereigenschappen. |
 | Afbeelding | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/image.md)</span> | ✔️ | |
 | Afbeeldingskeuze | ✔️ | | | |
-| Volgende knop | ✔️ | ✔️ | | De tovenaar van het gebruik component voor volgende en vorige knopen om zich tussen veelvoudige panelen te bewegen. |
+| Volgende knop | ✔️ | ✔️ | | Gebruik de [wizardcomponent](/help/adaptive-forms/components/wizard.md) voor de volgende en vorige knoppen om tussen meerdere vensters te navigeren. |
 | Numeriek vak | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/numeric-box.md)</span> | ✔️ | |
 | Numerieke stap | ✔️ | | | |
 | Deelvenster | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
 | Wachtwoordvak | ✔️ | | ✔️ | |
 | Telefoon/telefoon | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/telephone-input.md)</span> | ✔️ | |
-| Vorige knop | ✔️ | | | De tovenaar van het gebruik component voor volgende en vorige knopen om zich tussen veelvoudige panelen te bewegen. |
+| Vorige knop | ✔️ | | | Gebruik de [wizardcomponent](/help/adaptive-forms/components/wizard.md) voor de volgende en vorige knoppen om tussen meerdere vensters te navigeren. |
 | Keuzerondje | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | | |
 | Groep keuzerondjes | | | ✔️ | |
 | Knop Opnieuw instellen | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
 | Krabbelhandtekening | ✔️ | | | |
-| Zegelaar | ✔️ | | | |
+| Scheidingsteken | ✔️ | | | |
 | Verzendknop | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
 | Samenvattingsstap | ✔️ | | | |
-| Overschakelen | ✔️ | ✔️ | | |
+| Overschakelen | ✔️ | <span style="color:blue"> [✔️](/help/adaptive-forms/components/switch.md) | | |
 | Tabel | ✔️ | | | |
 | Voorwaarden en bepalingen | ✔️ | ✔️ | | |
 | Tekst | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text.md)</span> | ✔️ | |
 | Tekstvak | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text-box.md)</span> | ✔️ | |
-| Titel | ✔️ | | | Gebruik voor kerncomponenten de component Formuliertitel. |
-| Verticale tabs | ✔️ | ✔️ | | Voor de Componenten van de Stichting, kunt u de lusjes op linkerlay-out (verticale lusjes) in de eigenschappen van de paneelcomponent vormen |
-| Wizard | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | Voor de Componenten van de Stichting, kunt u de tovenaar lay-out in de eigenschappen van de paneelcomponent vormen |
+| Titel | ✔️ | | | Gebruik voor Core Components (Basiscomponenten) de [Formuliertitel](/help/adaptive-forms/components/title.md) component. |
+| Verticale tabs | ✔️ | ✔️ | | Voor de Componenten van de Stichting, kunt u vormen [tabs aan de linkerkant (verticale tabbladen)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) in deelvenstercomponenteigenschappen |
+| Wizard | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | Voor de Componenten van de Stichting, kunt u vormen [wizard-indeling](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) in deelvenstercomponenteigenschappen |
 
 
 
@@ -127,7 +127,7 @@ De huidige versie van AEM heeft de volgende Componenten van de Kern en Component
 >[!NOTE]
 >
 >
-> * Naast de hierboven vermelde componenten, ondersteunt het Forms-blok alle geldige componenten [HTML5-invoertypen](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types) en [textarea](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea) als componenten.
+> * Naast de bovenstaande componenten ondersteunt Forms-blok alle geldige componenten [HTML5-invoertypen](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types) en [tekstgebied](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea) als componenten.
 > * Hebt u een component nodig die hierboven niet wordt vermeld? Vraag het aan door aem-forms-ea@adobe.com van uw officiële adres te e-mailen.
 
 
@@ -162,7 +162,7 @@ De huidige versie van AEM heeft de volgende Componenten van de Kern en Component
 De editor voor op Core Components gebaseerde Adaptive Forms is vergelijkbaar met de editor die u al gebruikt voor het maken van AEM Sites-pagina&#39;s. Dit is wat je krijgt:
 
 
-* **Vertrouwde UI-elementen en -instellingen**: Wanneer u eigenschappen voor formuliercomponenten configureert, ziet u een dialoogvenster met eigenschappen eruit zoals de dialoogvensters die u gebruikt voor WCM Core-componenten. Hierdoor wordt het sneller om de opties te vinden u wenst. Net als WCM Core Components, wordt voor formuliercomponenten het dialoogvenster Eigenschappen weergegeven in het midden van de editor met duidelijke tabbladen waarin de basis- en geavanceerde opties, Help-tekst en toegankelijkheidsinformatie worden gescheiden. Dit alles in een tabnotatie voor eenvoudige navigatie.
+* **Vertrouwde UI-elementen en -instellingen**: Bij het configureren van eigenschappen voor formuliercomponenten ziet u een dialoogvenster met eigenschappen eruit zoals de dialoogvensters die u gebruikt voor WCM Core-componenten. Hierdoor wordt het sneller om de opties te vinden u wenst. Net als WCM Core Components, verschijnt voor formuliercomponenten het dialoogvenster Eigenschappen in het midden van de editor met duidelijke tabbladen waarin de basis- en geavanceerde opties, Help-tekst en toegankelijkheidsinformatie worden gescheiden. Dit venster ziet u allemaal in tabs-indeling voor eenvoudige navigatie.
 
 * **[Regeleditor](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/rule-editor-core-components)**: U kunt logische en dynamische functies toevoegen aan uw formulieren zonder code te schrijven. U kunt de ingebouwde regelredacteur gebruiken aan:
    * Velden weergeven of verbergen op basis van gebruikersopties
@@ -174,7 +174,7 @@ De editor voor op Core Components gebaseerde Adaptive Forms is vergelijkbaar met
    * Een service aanroepen (externe functionaliteit aanroepen)
    * Ingebouwde functies gebruiken (vooraf gedefinieerde functies voor algemene taken)
    * Aangepaste functies gebruiken (uw eigen code voor specifieke behoeften)
-   * Valideer velden en deelvensters (controleer of de gegevens voldoen aan de vereisten)
+   * Valideer velden en deelvensters (controleer of de gegevens aan de vereisten voldoen)
    * De waarde van een object valideren
    * Functies uitvoeren om de waarde van een object te berekenen
    * Roep de service Form Data Model (FDM) aan en voer een bewerking uit
@@ -182,7 +182,7 @@ De editor voor op Core Components gebaseerde Adaptive Forms is vergelijkbaar met
    * Andere regels maken (kettinghandelingen en logica)
    * en meer!
 
-  De regelredacteur heeft niet de coderedacteur. U kunt [aangepaste functies](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-and-use-custom-functions) om uw eigen code voor specifieke behoeften aan regelredacteur toe te voegen.
+  De regelredacteur heeft niet de coderedacteur. U kunt [aangepaste functies](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-and-use-custom-functions) om uw eigen code voor specifieke behoeften aan de regelredacteur toe te voegen.
 
 
 
