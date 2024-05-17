@@ -3,16 +3,16 @@ title: Versies van kerncomponenten
 description: De Componenten van de kern worden gepubliceerd als versies die meer dan één versie van de zelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies beschikbaar zijn en hoe u de compatibiliteit met Core Components en AEM begrijpt.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: f86340f87706d5803ec58a9034ac6a15027e0e0c
+source-git-commit: e25756d808d1deac338f4b7e054fe6f016a6bb97
 workflow-type: tm+mt
-source-wordcount: '3041'
+source-wordcount: '3079'
 ht-degree: 0%
 
 ---
 
 # Versies van kerncomponenten {#core-components-versions}
 
-De huidige versie van de Core Components is 2.23.4 en is compatibel met [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) en [AEM op locatie](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installaties.
+De huidige versie van de Core Components is 2.25.4 en is compatibel met [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) en [AEM op locatie](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installaties.
 
 ## Historie en compatibiliteit vrijgeven {#release-history-and-compatibility}
 
@@ -26,6 +26,8 @@ De volgende tabel, waarvan de inhoud [beschikbaar op GitHub met volledige versie
 
 | Geen | Beschrijving | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service | Java | Releasedatum |
 |---|---|---|---|---|---|---|
+| [2,25,4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4) | Dit is een kleine release die enkele IT-fouten corrigeert. | - | 6.5.22.0+ | Continu | 8, 11 | 10 mei 2024 |
+| [2.25.2.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.2) | Dit is een kleine release die enkele IT-fouten corrigeert. | - | 6.5.22.0+ | Continu | 8, 11 | 9 mei 2024 |
 | [2.25.0.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.0) | Met deze release wordt ondersteuning toegevoegd voor benoemde smartcrop in Dynamic Media. Deze release bevat verbeteringen op het gebied van prestaties en toegankelijkheid en verschillende oplossingen voor problemen. | - | 6.5.21.0+ | Continu | 8, 11 | 2 mei 2024 |
 | [2,24,6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.6) | Deze patchrelease bevat verbeteringen voor de initialisatie van de datalaag. | - | 6.5.21.0+ | Continu | 8, 11 | 22 april 2024 |
 | [2.24.4.](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.4) | Met deze patchrelease wordt een initialisatie van het verkoopmodel opgelost. | - | 6.5.21.0+ | Continu | 8, 11 | 1 april 2024 |
