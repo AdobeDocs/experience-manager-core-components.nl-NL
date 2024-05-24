@@ -3,9 +3,9 @@ title: Inleiding Adaptive Forms Core Components AEM
 description: Maak aantrekkelijke inschrijvingservaringen (formulieren) met de flexibiliteit van de Adaptive Forms Core Components en lever deze met de kracht van Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 83a9a37495bb189592a657cac97c7277755b96be
+source-git-commit: 82b614774256efdd6c4f8eed86d9fd8b5b51279d
 workflow-type: tm+mt
-source-wordcount: '2215'
+source-wordcount: '2214'
 ht-degree: 0%
 
 ---
@@ -69,9 +69,9 @@ Ervaringen met het vastleggen van gegevens zijn van cruciaal belang voor het gen
 
 * **[Versioning](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/add-comments-annotations-versioning-adaptive-form-core-components)**: U kunt meerdere versies van een op Adaptieve Forms gebaseerde Core Components maken en beheren, op samenwerking gebaseerde discussies doorvoeren via opmerkingen en annotaties toevoegen aan specifieke formuliercomponenten en zo de algehele ervaring met het maken van formulieren verbeteren.
 
-## Het vergelijken van de Componenten van de Kern, de Componenten van de Stichting, en de Componenten van het Blok van de Vorm {#components}
+## Beschikbare componenten: een uitsplitsing naar componenttype
 
-De huidige versie van AEM heeft de volgende Core Components, [Elementaire componenten](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar), en [Componenten voor formulierblokken (Edge Delivery Services)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components).
+De huidige versie van AEM Forms heeft de volgende Core Components, [Elementaire componenten](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar), en [Componenten voor formulierblokken (Edge Delivery Services)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components).
 
 | Onderdelen | Elementaire componenten | Kernonderdelen | Componenten voor formulierblokken | Aanvullende informatie |
 |------------|:---------------------:|:---------------:|:---------------------:|-----------------------|
