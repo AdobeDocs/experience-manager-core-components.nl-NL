@@ -5,9 +5,9 @@ breadcrumb-title: Gids voor kerncomponenten
 feature: Core Components
 user-guide-description: Met de uitbreidbare kerncomponenten kunnen ontwerpers eenvoudig content maken.
 feature-set: Experience Manager Sites
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
+source-git-commit: 36ef19d5b29fe21f86309719d1e3f6588e31a93b
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '375'
 ht-degree: 5%
 
 ---
@@ -147,7 +147,7 @@ ht-degree: 5%
    + [Inclusief clientbibliotheken](/help/developing/including-clientlibs.md)
    + [De Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md)
    + [Webgeoptimaliseerde afbeeldingslevering](/help/developing/web-optimized-image-delivery.md)
-   + [Next Generation Dynamic Media Support](/help/developing/next-gen-dm.md)
+   + [Ondersteuning voor externe middelen](/help/developing/remote-assets.md)
    + Gegevenslaag client-Adobe {#data-layer}
       + [Overzicht van de Laag van Gegevens](/help/developing/data-layer/overview.md)
       + [Integratie met de Laag van Gegevens](/help/developing/data-layer/integrations.md)

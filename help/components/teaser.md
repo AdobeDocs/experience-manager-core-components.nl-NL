@@ -3,9 +3,9 @@ title: Teaser-component
 description: De teaser-component kan een afbeelding, een titel, RTF-tekst en eventueel een koppeling naar andere inhoud weergeven.
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
+source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,9 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 | v2 | - | Compatibel | Compatibel |
 | [v1](v1/teaser.md) | Compatibel | Compatibel | Compatibel |
 
-## Next Generation Dynamic Media Support {#next-gen-dm}
+## Ondersteuning voor externe middelen {#remote-assets}
 
-De component Teaser (vanaf [release 2.23.2](/help/versions.md)) biedt ondersteuning voor externe middelen van de volgende generatie, Dynamic Media.
-
-[Eenmaal geconfigureerd,](/help/developing/next-gen-dm.md) u kunt middelen van de verre dienst van de Volgende Generatie Dynamic Media voor uw teaser component selecteren.
+De component Teaser (vanaf [release 2.23.2](/help/versions.md)) ondersteunt externe middelen. [Eenmaal geconfigureerd,](/help/developing/remote-assets.md) u kunt middelen van de verre dienst voor uw lasercomponent selecteren.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
@@ -84,7 +82,7 @@ De teastitel, beschrijving en afbeelding kunnen worden overgenomen van de gekopp
 * **Afbeeldingselement** - Middelen neerzetten vanaf de [middelenbrowser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of tik op **doorbladeren** uploaden vanuit een lokaal bestandssysteem.
    * Tik of klik op **Wissen** om de selectie van de geselecteerde afbeelding op te heffen.
    * Tik of klik op **Selecteren** om de [middelenbrowser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) om een afbeelding te selecteren.
-      * Indien [Dynamic Media-functies van de volgende generatie](#next-gen-dm) zijn ingeschakeld, hebt u meerdere opties voor het kiezen van een element:
+      * Indien [Ondersteuning voor externe middelen](#remote-assets) is ingeschakeld, hebt u meerdere opties voor het kiezen van een element:
          * **Lokaal** selecteert uit de lokale AEM elementenbibliotheek.
          * **Extern** selecteert uit een Dynamic Media-bibliotheek buiten uw AEM-instantie.
    * Tik of klik op **Bewerken** tot [de uitvoeringen van het actief beheren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in de middeleneditor.

@@ -3,9 +3,9 @@ title: Afbeeldingscomponent
 description: De component Core Component Image is een adaptieve afbeeldingscomponent.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: e37151536be5a4345f6e2bf630bb8bd4019ad699
+source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1957'
 ht-degree: 0%
 
 ---
@@ -53,11 +53,9 @@ De afbeeldingscomponent (vanaf [release 2.13.0](/help/versions.md)) ondersteunt 
 
 Uw webervaringen die zijn gemaakt met Core Components kunnen beschikken over uitgebreide, op Sensei gebaseerde, robuuste, krachtige Dynamic Media Image-mogelijkheden voor meerdere platforms.
 
-## Next Generation Dynamic Media Support {#next-gen-dm}
+## Ondersteuning voor externe middelen {#remote-assets}
 
-De afbeeldingscomponent (vanaf [release 2.23.2](/help/versions.md)) biedt ondersteuning voor externe middelen van de volgende generatie, Dynamic Media.
-
-[Eenmaal geconfigureerd,](/help/developing/next-gen-dm.md) u kunt elementen selecteren uit een externe service van de Next Generation Dynamic Media voor uw afbeeldingscomponent.
+De afbeeldingscomponent (vanaf [release 2.23.2](/help/versions.md)) ondersteunt externe middelen. [Eenmaal geconfigureerd,](/help/developing/remote-assets.md) u kunt elementen selecteren via een externe service voor uw afbeeldingscomponent.
 
 ## SVG-ondersteuning {#svg-support}
 
@@ -87,7 +85,7 @@ De component Image ondersteunt [schema.org](https://schema.org).
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud de afbeelding uitsnijden en zoomen.
 
-Afhankelijk van of u de [Dynamic Media](#dynamic-media) ingeschakeld of [Next Generation Dynamic Media](#next-gen-dm) zijn ingeschakeld, zijn er verschillende opties beschikbaar voor het bewerken van afbeeldingen.
+Afhankelijk van of u de [Dynamic Media](#dynamic-media) ingeschakeld of [Ondersteuning voor externe middelen](#remote-assets) is ingeschakeld, verschillen de beschikbare opties voor het bewerken van afbeeldingen.
 
 ### Standaard bewerken van bedrijfsmiddelen {#standard-assets}
 
@@ -154,7 +152,7 @@ De component image biedt een dialoogvenster voor configureren waarin de afbeeldi
    * Middelen uit het deelvenster [middelenbrowser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html) of tik op **doorbladeren** zodat u kunt uploaden vanaf een lokaal bestandssysteem.
    * Tik of klik op **Wissen** om de selectie van de geselecteerde afbeelding op te heffen.
    * Tik of klik op **Selecteren** om de [middelenbrowser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html) zodat u een afbeelding kunt selecteren.
-      * Indien [Dynamic Media-functies van de volgende generatie](#next-gen-dm) zijn ingeschakeld, hebt u meerdere opties voor het kiezen van een element:
+      * Indien [Ondersteuning voor externe servers](#remote-assets) is ingeschakeld, hebt u meerdere opties voor het kiezen van een element:
          * **Lokaal** selecteert uit de lokale AEM elementenbibliotheek.
          * **Extern** selecteert uit een Dynamic Media-bibliotheek buiten uw AEM-instantie.
    * Tik of klik op **Bewerken** tot [de uitvoeringen van het actief beheren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html) in de Asset Editor.
