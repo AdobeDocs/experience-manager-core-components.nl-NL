@@ -5,9 +5,9 @@ breadcrumb-title: Gids voor kerncomponenten
 feature: Core Components
 user-guide-description: Met de uitbreidbare kerncomponenten kunnen ontwerpers eenvoudig content maken.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: a7cf223f8799054683f135e08fb83b320dd948fa
+source-git-commit: d41cf56f3889ff6aa1bf6f753dc5331248d1ae2e
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '377'
 ht-degree: 5%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 5%
       + [Aangepaste Forms-container](/help/adaptive-forms/components/form-container.md)
       + [Aangepaste Forms-datumkiezer](/help/adaptive-forms/components/date-picker.md)
       + [Aangepaste Forms-vervolgkeuzelijst](/help/adaptive-forms/components/drop-down-list.md)
-      + [Adaptieve Forms-e-mailinvoer](/help/adaptive-forms/components/email-input.md)
+      + [Adaptive Forms Email](/help/adaptive-forms/components/email.md)
       + [Adaptief Forms-formulierfragment](/help/adaptive-forms/components/adaptive-form-fragment.md)
       + [Aangepaste Forms-bestandsbijlagen](/help/adaptive-forms/components/file-attachment.md)
       + [Aangepaste verticale Forms-tabbladen](/help/adaptive-forms/components/vertical-tabs.md)
@@ -122,15 +122,15 @@ ht-degree: 5%
       + [Adaptieve Forms-afbeelding](/help/adaptive-forms/components/image.md)
       + [Adaptief Forms Numeriek vak](/help/adaptive-forms/components/numeric-box.md)
       + [Aangepast Forms-deelvenster](/help/adaptive-forms/components/panel.md)
-      + [Adaptive Forms CAPTCHA](/help/adaptive-forms/components/captcha.md)
+      + [Adaptive Forms CAPTCHA](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [Aangepaste Forms-keuzerondje](/help/adaptive-forms/components/radio-button.md)
       + [Knop Adaptief Forms herstellen](/help/adaptive-forms/components/reset-button.md)
       + [Knop Adaptief Forms verzenden](/help/adaptive-forms/components/submit-button.md)
-      + [Adaptieve Forms-switch](/help/adaptive-forms/components/switch.md)
-      + [Adaptieve Forms-telefooninvoer](/help/adaptive-forms/components/telephone-input.md)
+      + [Adaptieve Forms-switch](/help/adaptive-forms/components/adaptive-form-switch.md)
+      + [Aangepaste Forms-telefoon](/help/adaptive-forms/components/phone.md)
       + [Adaptieve Forms-tekst](/help/adaptive-forms/components/text.md)
       + [Adaptief Forms-tekstvak](/help/adaptive-forms/components/text-box.md)
-      + [Aangepaste Forms-titel](/help/adaptive-forms/components/title.md)
+      + [Aangepaste Forms-formuliertitel](/help/adaptive-forms/components/form-title.md)
       + [Adaptive Forms Wizard](/help/adaptive-forms/components/wizard.md)
       + [Aangepaste Forms-voorwaarden](/help/adaptive-forms/components/terms-and-conditions.md)
       + [Koptekst](/help/adaptive-forms/components/header.md)

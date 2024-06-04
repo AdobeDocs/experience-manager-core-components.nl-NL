@@ -1,7 +1,7 @@
 ---
-source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
+source-git-commit: 46278a9b0f5e548297db3d6fcc42acde67eabf47
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -57,29 +57,30 @@ ht-degree: 0%
 ## Meer als dit {#more-like-this}
 
 - [Accordeon](/help/adaptive-forms/components/accordion.md)
+- [Adaptieve formulierfragmenten](/help/adaptive-forms/components/adaptive-form-fragment.md)
+- [Adaptief formulier reCAPTCHA](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
 - [Knop](/help/adaptive-forms/components/button.md)
 - [Selectievakjesgroep](/help/adaptive-forms/components/checkbox-group.md)
 - [Selectievakje](/help/adaptive-forms/components/checkbox.md)
 - [Datumkiezer](/help/adaptive-forms/components/date-picker.md)
 - [Vervolgkeuzelijst](/help/adaptive-forms/components/drop-down-list.md)
-- [E-mailinvoer](/help/adaptive-forms/components/email-input.md)
+- [E-mail](/help/adaptive-forms/components/email.md)
 - [Formuliercontainer](/help/adaptive-forms/components/form-container.md)
+- [Formuliertitel](/help/adaptive-forms/components/form-title.md)
 - [Bestandsbijlage](/help/adaptive-forms/components/file-attachment.md)
-- [Adaptieve formulierfragmenten](/help/adaptive-forms/components/adaptive-form-fragment.md)
 - [Voettekst](/help/adaptive-forms/components/footer.md)
 - [Koptekst](/help/adaptive-forms/components/header.md)
 - [Afbeelding](/help/adaptive-forms/components/image.md)
 - [Numeriek vak](/help/adaptive-forms/components/numeric-box.md)
 - [Deelvenster](/help/adaptive-forms/components/panel.md)
+- [Telefoon](/help/adaptive-forms/components/phone.md)
 - [Horizontale tab](/help/adaptive-forms/components/horizontal-tabs.md)
 - [Verticaal tabblad](/help/adaptive-forms/components/vertical-tabs.md)
 - [Keuzerondje](/help/adaptive-forms/components/radio-button.md)
 - [Knop Opnieuw instellen](/help/adaptive-forms/components/reset-button.md)
 - [Verzendknop](/help/adaptive-forms/components/submit-button.md)
-- [Telefooninvoer](/help/adaptive-forms/components/telephone-input.md)
 - [Tekstvak](/help/adaptive-forms/components/text-box.md)
 - [Tekst](/help/adaptive-forms/components/text.md)
-- [Titel](/help/adaptive-forms/components/title.md)
 - [Het tabblad Voorwaarden en bepalingen](/help/adaptive-forms/components/terms-and-conditions.md)
 - [Wizard](/help/adaptive-forms/components/wizard.md)
 
