@@ -3,9 +3,9 @@ title: Adaptive Forms Core Component - Datumkiezer
 description: De Adaptive Forms Date Picker Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
 workflow-type: tm+mt
-source-wordcount: '2154'
+source-wordcount: '2299'
 ht-degree: 0%
 
 ---
@@ -131,6 +131,21 @@ Met het dialoogvenster Configureren kunt u de datumkiezer-ervaring voor bezoeker
 - **Weergave-indeling** - Het staat voor de datumnotatie die aan de gebruiker wordt weergegeven. De **Type** kan de gebruiker de datumnotatie selecteren. U kunt de datumnotatie ook aanpassen met de opdracht **Aangepast** in de **Type** vervolgkeuzelijst.
 
 - **Opmaak bewerken** - Dit is een datumnotatie waarin de gebruiker de datum kan bewerken. De **Type** kan de gebruiker de datumnotatie selecteren. U kunt de datumnotatie ook aanpassen met de opdracht **Aangepast** in de **Type** vervolgkeuzelijst.
+- **Foutbericht opmaken** - Met deze optie kunt u het bericht invoeren dat op het scherm wordt weergegeven wanneer de ingevoerde datum niet de juiste notatie heeft.
+- **Taal** - Deze functie wordt gebruikt voor het opmaken van het specifieke veld. Wanneer een gebruiker een taaloptie selecteert in het menu **Type** vervolgkeuzemenu, **Taaltag IETF BCP 47** wordt weergegeven in het deelvenster. U kunt de taal voor veldopmaak kiezen wanneer u een adaptief formulier in een specifieke taal vertaalt.
+
+De set talen is standaard niet zichtbaar, maar gebruikers kunnen een aangepaste set invoeren **Taaltag IETF BCP 47** door het sjabloonbeleid bij te werken:
+
+1. Open de bijbehorende sjabloon die aan een adaptief formulier is gekoppeld in de sjablooneditor.
+2. Het bestaande beleid selecteren als `datepicker-default-policy` in het keuzemenu.
+
+   ![Sjabloonbeleid datumkiezer](/help/adaptive-forms/assets/date-picker-template-policy.png)
+
+3. Klikken **Gereed**.
+
+   >[!NOTE]
+   >
+   > Voor meer informatie over het vertalen van een adaptief formulier naar een specifieke landinstelling, [klik hier](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
 
 ## Ontwerpdialoogvenster {#design-dialog}
 

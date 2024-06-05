@@ -3,16 +3,16 @@ title: Adaptive Forms Core Component - Nummerinvoer
 description: De Adaptive Forms Number input Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2283'
 ht-degree: 0%
 
 ---
 
 # Component Numeriek vak{#number-input-adaptive-forms-core-component}
 
-Een component Number Input in een adaptief formulier is een type formulierveld waarmee gebruikers numerieke waarden kunnen invoeren. De component wordt gewoonlijk vertegenwoordigd door een tekstveld met een pijl-omhoog en pijl-omlaag voor het verhogen en verlagen van het getal.
+Een component Numeriek vak in een adaptief formulier is een type formulierveld waarmee gebruikers numerieke waarden kunnen invoeren. De component wordt gewoonlijk vertegenwoordigd door een tekstveld met een pijl-omhoog en pijl-omlaag voor het verhogen en verlagen van het getal.
 
 Deze kan ook worden gebruikt met kenmerken als min, max, step, value en meer. Deze kenmerken kunnen worden gebruikt om de minimale en maximale waarden in te stellen die zijn toegestaan in het veld, het stapinterval voor het verhogen of verlagen van het getal en de standaardwaarde van het veld.
 
@@ -127,10 +127,21 @@ Met het dialoogvenster Configureren kunt u de gebruikersinvoer voor bezoekers ee
 ![Toegankelijkheid, tabblad](/help/adaptive-forms/assets/numberinput_formattab.png)
 
 - **Weergave-indeling** - Met deze optie kunt u opties selecteren uit verschillende numerieke indelingen voor weergave. Wanneer de gebruiker een optie selecteert in het menu **Type** vervolgkeuzemenu, **Indeling** wordt weergegeven in het deelvenster. U kunt een specifieke indeling kiezen waarin getallen worden weergegeven aan de gebruiker.
+- **Taal** - Deze functie wordt gebruikt voor het opmaken van het specifieke veld. Wanneer een gebruiker een taaloptie selecteert in het menu **Type** vervolgkeuzemenu, **Taaltag IETF BCP 47** wordt weergegeven in het deelvenster. U kunt de taal voor veldopmaak kiezen wanneer u een adaptief formulier in een specifieke taal vertaalt.
 
-<!--   **Number of digits before the decimal separator (1234.000)** - Use this option to specify the number of digits to display before the decimal point. 
+De set talen is standaard niet zichtbaar, maar gebruikers kunnen een aangepaste set invoeren **Taaltag IETF BCP 47** door het sjabloonbeleid bij te werken:
 
-- **Number of digits after the decimal separator (1234.000)** - Use this option to specify the number of digits to display after the decimal point. -->
+1. Open de bijbehorende sjabloon die aan een adaptief formulier is gekoppeld in de sjablooneditor.
+2. Het bestaande beleid selecteren als `numberinput-default-policy` in het keuzemenu.
+
+   ![Sjabloonbeleid datumkiezer](/help/adaptive-forms/assets/numberinput-template-policy.png)
+
+3. Klikken **Gereed**.
+
+   >[!NOTE]
+   >
+   > Voor meer informatie over het vertalen van een adaptief formulier naar een specifieke landinstelling, [klik hier](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+
 
 ## Ontwerpdialoogvenster {#design-dialog}
 

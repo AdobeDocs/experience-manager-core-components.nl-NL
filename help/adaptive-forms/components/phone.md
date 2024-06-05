@@ -3,9 +3,9 @@ title: Adaptive Forms Core Component - Telefooninvoer, Telefoon
 description: De Adaptive Forms Telephone Input Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2197'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Phone-component{#telephone-input-adaptive-forms-core-component}
 
-Met de Adaptive Form Phone Input Core Component kunnen gebruikers een telefoonnummer invoeren. In het veld voor telefooninvoer worden toetsenborden weergegeven op mobiele apparaten die relevant zijn voor telefoonnummers. Deze kan worden aangepast met extra kenmerken, zoals &quot;patroon&quot; en &quot;plaatsaanduiding&quot;, om de notatie en beschrijving van het telefoonnummer op te geven.
+Met de Adaptive Form Phone Core-component kunnen gebruikers een telefoonnummer invoeren. In het veld voor telefooninvoer worden toetsenborden weergegeven op mobiele apparaten die relevant zijn voor telefoonnummers. Deze kan worden aangepast met extra kenmerken, zoals &quot;patroon&quot; en &quot;plaatsaanduiding&quot;, om de notatie en beschrijving van het telefoonnummer op te geven.
 
 Het veld voor telefooninvoer wordt vaak gebruikt in contactformulieren, registratieformulieren en andere formulieren, waarbij een telefoonnummer als contactmiddel vereist is. Het veld voor telefooninvoer kan ook worden gebruikt om ervoor te zorgen dat de gebruiker een geldig telefoonnummer invoert, omdat de browser bepaalde beperkingen kan opleggen, zoals de lengte en de indeling van het telefoonnummer, op basis van het kenmerk &quot;pattern&quot;.
 
