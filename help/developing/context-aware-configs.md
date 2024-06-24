@@ -3,9 +3,9 @@ title: Sling Context-Aware Configurations en Core Components
 description: De Core Components hefboomwerking Sling contextbewuste configuraties voor bepaalde eigenschappen
 role: Architect, Developer, Admin
 exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: b72defe1bbe6cb286730ac3f508f7d6c14b3fc33
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,9 @@ Een aantal Core Components-onderdelen maakt gebruik van contextbewuste configura
 
 * `/conf/<my-site>/sling:configs/<my-configuration>`
 
-Individuele configuraties zijn afhankelijk van de specifieke component of functie. De eigenschappen van de Componenten van de Kern die context-bewuste configuraties gebruiken zijn:
+Individuele configuraties zijn afhankelijk van de specifieke component of functie. De eigenschappen van de Componenten van de Kern die context-bewuste configuraties gebruiken omvatten:
 
+* [De component Pagina](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/page/v3/page#loading-of-context-aware-cssjs) vertrouwt op context-bewuste configuratie wanneer het teruggeven `link`, `script` en `meta` -tags.
 * [PDF Viewer-component](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
-* [Gegevenslaag Adobe-client](/help/developing/data-layer/overview.md#installation-activation)
+* [Gegevenslaag client-Adobe](/help/developing/data-layer/overview.md#installation-activation)
 * [AMP-ondersteuning](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
