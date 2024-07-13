@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 41194ba0-6833-40e5-88d9-036e9c231edd
 source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,12 @@ De taalnavigatiecomponent biedt een taal-/landnavigatie voor een site, zodat bez
 
 ## Gebruik {#usage}
 
-Websites worden vaak in meerdere talen aangeboden voor verschillende regio&#39;s. Met de taalnavigatiecomponent kan een bezoeker dezelfde pagina in verschillende talen/landinstellingen bekijken. Dus als je een lezer bent op de Zwitserse Duitse versie van de website, kun je gemakkelijk overschakelen naar de Engelse versie van de Verenigde Staten van dezelfde pagina. Met de component Taalnavigatie krijgt u inzicht in de taalstructuur van de site en wordt de bijbehorende pagina automatisch gevonden.
+Websites worden vaak in meerdere talen aangeboden voor verschillende gebieden. Met de taalnavigatiecomponent kan een bezoeker dezelfde pagina in verschillende talen/landinstellingen bekijken. Dus als je een lezer bent op de Zwitserse Duitse versie van de website, kun je gemakkelijk overschakelen naar de Engelse versie van de Verenigde Staten van dezelfde pagina. Met de component Taalnavigatie krijgt u inzicht in de taalstructuur van de site en wordt de bijbehorende pagina automatisch gevonden.
 
-* Voor een voorbeeld van hoe de lokalisatiefunctie van de Component van de Navigatie van de Taal werkt, zie [het onderstaande gedeelte](#example).
-* Voor een voorbeeld van hoe de lokalisatiefuncties van de andere Core Components samenwerken, zie [Localisatiefuncties van de pagina Core Components](/help/get-started/localization.md).
+* Voor een voorbeeld van hoe de localisatieeigenschap van de Component van de Navigatie van de Taal werkt, zie [ de sectie hieronder ](#example).
+* Voor een voorbeeld van hoe de localisatieeigenschappen van de andere Componenten van de Kern samenwerken, zie de [ Eigenschappen van de Locatie van de pagina van de Componenten van de Kern ](/help/get-started/localization.md).
 
-De [dialoogvenster bewerken](#edit-dialog) Hiermee kunt u de globale hoofdmap voor sitenavigatie definiëren en aangeven hoe diep de structuur van de navigatie moet zijn. Met de [ontwerpdialoogvenster](#design-dialog)kan de sjabloonauteur de standaardwaarden voor dezelfde opties instellen.
+Het [ geeft dialoog ](#edit-dialog) uit staat de definitie van de globale wortel van de plaatsnavigatie evenals toe hoe diep in de structuur de navigatie zou moeten gaan. Gebruikend de [ ontwerpdialoog ](#design-dialog), kan de malplaatjeauteur de standaardwaarden voor de zelfde opties plaatsen.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -31,35 +31,35 @@ In dit document wordt versie 1 van de taalnavigatiecomponent beschreven, die in 
 >
 >In dit document wordt versie 1 van de taalnavigatiecomponent beschreven.
 >
->Zie voor meer informatie over de huidige versie van de taalnavigatiecomponent de sectie [Taalnavigatie-component](/help/components/language-navigation.md) document.
+>Voor details van de huidige versie van de Component van de Navigatie van de Taal, zie het ](/help/components/language-navigation.md) document van de Component van de Navigatie van 0} Taal.[
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Als u de taalnavigatiecomponent wilt ervaren en voorbeelden wilt zien van de configuratieopties en de HTML- en JSON-uitvoer, gaat u naar de [Componentbibliotheek](https://adobe.com/go/aem_cmp_library_langnav).
+Om de Component van de Navigatie van de Taal te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library_langnav).
 
 ## Technische details {#technical-details}
 
-De meest recente technische documentatie over de taalnavigatiecomponent [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_langnav_v1).
+De recentste technische documentatie over de Component van de Navigatie van de Taal [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_langnav_v1) worden gevonden.
 
-Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
 In het dialoogvenster Bewerken kunt u de globale hoofdmap voor sitenavigatie definiëren en aangeven hoe diep de structuur van de navigatie in moet gaan.
 
-Doorgaans hoeven deze configuraties alleen op paginasjabloonniveau te worden uitgevoerd. Deze kunnen echter op paginaniveau worden gewijzigd via de [dialoogvenster bewerken](#edit-dialog).
+Doorgaans hoeven deze configuraties alleen op paginasjabloonniveau te worden uitgevoerd. Nochtans, kunnen zij op het paginaniveau via [ worden veranderd uitgeeft dialoog ](#edit-dialog).
 
 ### Tabblad Eigenschappen {#properties-tab}
 
-![Ontwerpdialoogvenster taalnavigatie-component](/help/assets/language-navigation-design.png)
+{het ontwerpdialoog van de Component van de Navigatie van 0} Taal ](/help/assets/language-navigation-design.png)![
 
-* **Navigatieroot**
+* **Basis van de Navigatie**
    * Hier moet de taalnavigatie van de site worden gestart.
    * De taalstructuur van de site begint op het volgende niveau onder deze hoofdmap.
-* **Diepte taalstructuur**
-   * Dit is het aantal niveaus van de inhoudsstructuur onder de **Navigatieroot** de taalstructuur van de site weergeven. Voorbeelden:
-      * `1` doorgaans betekent dit dat u alleen de taal kunt kiezen.
-      * `2` doorgaans betekent dit dat u een keuze hebt tussen taal en land.
+* **Diepte van de Structuur van de Taal**
+   * Dit is hoeveel niveaus van de inhoudsboom onder de **Wortel van de Navigatie** de taalstructuur van de plaats vertegenwoordigen. Voorbeelden:
+      * `1` betekent doorgaans dat u alleen de taal kunt kiezen.
+      * `2` betekent doorgaans dat u een taal- en landkeuze hebt.
       * `3` betekent doorgaans dat u een keuze hebt uit taal, land en regio.
 
 #### Voorbeeld {#example}
@@ -81,28 +81,28 @@ Laten we zeggen dat uw inhoud er ongeveer als volgt uitziet:
 \-- wknd-shop
 ```
 
-Voor de plaats WKND, zou u waarschijnlijk de component van de Navigatie van de Taal op een paginamalplaatje als deel van de kopbal willen plaatsen. Als een deel van de sjabloon is gemaakt, kunt u de **Navigatieroot** van de component `/content/wknd` aangezien dat de plaats is waar uw gelokaliseerde inhoud voor die plaats begint. U wilt ook de opdracht **Diepte taalstructuur** te worden `2` omdat uw structuur op twee niveaus ligt ( land en taal ) .
+Voor de plaats WKND, zou u waarschijnlijk de component van de Navigatie van de Taal op een paginamalplaatje als deel van de kopbal willen plaatsen. Zodra een deel van het malplaatje, kunt u de **Wortel van de Navigatie** van de component aan `/content/wknd` plaatsen aangezien dat is waar uw gelokaliseerde inhoud voor die plaats begint. U zou ook de **Diepte van de Structuur van de Taal** willen plaatsen om `2` te zijn aangezien uw structuur van twee niveaus (land toen taal) is.
 
-Met de **Navigatieroot** waarde, de Component van de Taal weet dat na `/content/wknd` dat de navigatie begint en taalnavigatieopties kan genereren door de volgende twee niveaus in de inhoudsstructuur te herkennen als de taalnavigatiestructuur van de site (zoals gedefinieerd door de **Diepte taalstructuur** waarde).
+Met de **waarde van de Root van de Navigatie 0}, weet de Component van de Taal dat na `/content/wknd` dat de navigatie begint en het taalnavigatieopties kan produceren door de volgende twee niveaus in de inhoudsboom als de taalnavigatiestructuur van de plaats (zoals die door de** waarde van de Diepte van de Structuur van de Taal **wordt bepaald) te erkennen.**
 
 Ongeacht welke pagina een gebruiker bekijkt, kan de component van de Navigatie van de Taal de overeenkomstige pagina in een andere taal vinden, door de plaats van de huidige pagina te kennen en achterwaarts aan de wortel te werken, en dan door:sturen aan de overeenkomstige pagina.
 
 ### Tabblad Stijlen {#styles-tab}
 
-De taalnavigatiecomponent ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+De component van de Navigatie van de Taal steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
-Doorgaans hoeft de component Taalnavigatie alleen aan de paginasjablonen van een site te worden toegevoegd en geconfigureerd. Als de component Taalnavigatie echter moet worden toegevoegd aan een afzonderlijke inhoudspagina, kan het dialoogvenster voor bewerken een auteur van de inhoud dezelfde waarden configureren als in het dialoogvenster [ontwerpdialoogvenster](#design-dialog).
+Doorgaans hoeft de component Taalnavigatie alleen aan de paginasjablonen van een site te worden toegevoegd en geconfigureerd. Nochtans als de component van de Navigatie van de Taal aan een individuele inhoudspagina moet worden toegevoegd, geeft dialoog een inhoudauteur toe om de zelfde waarden te vormen zoals die in de [ ontwerpdialoog ](#design-dialog) worden beschreven.
 
-Bovendien kunt u een **ID**. Met deze optie kunt u de unieke id van de component in de HTML en in de [Gegevenslaag](/help/developing/data-layer/overview.md).
+Bovendien kunt u een **identiteitskaart** plaatsen. Deze optie staat toe om het unieke herkenningsteken van de component in de HTML en in de [ Laag van Gegevens ](/help/developing/data-layer/overview.md) te controleren.
 
 * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
 * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
 * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
-![Dialoogvenster Taalnavigatie-component bewerken](/help/assets/language-navigation-edit.png)
+{de Component van de Navigatie van 0} Taal geeft dialoog uit ](/help/assets/language-navigation-edit.png)![
 
-## Gegevenslaag Adobe-client {#data-layer}
+## Gegevenslaag client-Adobe {#data-layer}
 
-De taalnavigatiecomponent ondersteunt de [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
+De Component van de Navigatie van de Taal steunt de [ Gegevens van de Cliënt van de Adobe Laag.](/help/developing/data-layer/overview.md)

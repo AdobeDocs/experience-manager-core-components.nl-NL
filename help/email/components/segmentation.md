@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
 source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1086'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ De component E-mailsegmentatie gebruikt variabelen van Adobe Campaign om inhoud 
 
 Met de component Email Segmentation kan de auteur van de inhoud inhoud inhoud verbergen en weergeven op basis van voorwaarden waaraan wordt voldaan door variabelen over de ontvanger die door Adobe Campaign worden aangeboden. Op deze manier zien de ontvangers van de inhoud de inhoud op basis van hun segmentatie.
 
-* De sjabloonauteur kan de opdracht [ontwerpdialoogvenster](#design-dialog) om te bepalen welke componenten als segment kunnen worden toegevoegd.
-* De auteur van de inhoud kan de [dialoogvenster configureren](#configure-dialog) om componenten als segmenten toe te voegen en te vormen welke segmenten worden getoond gebaseerd op de variabelen van Adobe Campaign.
+* De malplaatjeauteur kan de [ ontwerpdialoog ](#design-dialog) gebruiken om te bepalen welke componenten als segment kunnen worden toegevoegd.
+* De inhoudauteur kan [ gebruiken vormt dialoog ](#configure-dialog) om componenten als segmenten toe te voegen en te vormen welke segmenten gebaseerd op de variabelen van Adobe Campaign worden getoond.
 
 Als alternatief voor het gebruiken van vormen dialoog, zodra de inhoudauteur de Component van de Segmentatie E-mail aan een inhoudspagina heeft toegevoegd, kan de inhoudauteur dan extra componenten slepen en neerzetten op de Componenten van de Segmentatie E-mail om nieuwe segmenten tot stand te brengen.
 
@@ -36,72 +36,72 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 
 ### Technische details {#technical-details}
 
-De meest recente technische documentatie over de E-maillasercomponent [kan op GitHub worden gevonden.](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1)
+De recentste technische documentatie over de Component van de Teaser E-mail [ kan op GitHub worden gevonden.](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1)
 
-Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [De ontwikkelaarsdocumentatie van de Componenten van de kern.](/help/developing/overview.md)
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden.](/help/developing/overview.md)
 
 ## Dialoogvenster configureren {#configure-dialog}
 
-In het dialoogvenster voor configureren kan de auteur van de inhoud segmenten maken, hernoemen en opnieuw rangschikken en het actieve segment definiëren. In de Component van de Segmentatie E-mail, is een segment eenvoudig een andere component die wordt verborgen of getoond gebaseerd op voorwaarden die door de ontvanger van de inhoud worden voldaan. U kunt het vergelijken met [component op het tabblad Core Components,](/help/components/tabs.md) maar in de Segmenteringscomponent wordt alleen de inhoud van het tabblad weergegeven waaraan de voorwaarden zijn voldaan.
+In het dialoogvenster voor configureren kan de auteur van de inhoud segmenten maken, hernoemen en opnieuw rangschikken en het actieve segment definiëren. In de Component van de Segmentatie E-mail, is een segment eenvoudig een andere component die wordt verborgen of getoond gebaseerd op voorwaarden die door de ontvanger van de inhoud worden voldaan. U kunt het met de [ Component van het Lusje van de Componenten van de Kern vergelijken, ](/help/components/tabs.md) maar in de Component van de Segmentatie, slechts de inhoud van het lusje de waarvan voorwaarden worden voldaan aan getoond.
 
 ### Tabblad Items {#items-tab}
 
-![Het tabblad Configuratiedialoogitems van de component E-mailsegmentatie](/help/email/assets/email-segmentation-configure-items.png)
+![ Component van de Segmentatie van de E-mail vormt dialoogpunten tabel ](/help/email/assets/email-segmentation-configure-items.png)
 
-Gebruik de **Segment toevoegen** om de componentkiezer te openen en te kiezen welke component u als segment wilt toevoegen. Nadat een item is toegevoegd, wordt het toegevoegd aan de lijst met de volgende elementen:
+Gebruik **voeg de knoop van het Segment** toe om de componentenselecteur te openen om welke component te kiezen om als segment toe te voegen. Nadat een item is toegevoegd, wordt het toegevoegd aan de lijst met de volgende elementen:
 
-* **Pictogram** - Het pictogram van het componenttype van het segment voor eenvoudige identificatie in de lijst. Plaats de muis boven de volledige componentnaam als knopinfo.
-* **Voorwaarde** - Aan de voorwaarde moet worden voldaan om dit segment aan de ontvanger van de inhoud te tonen.
-   * De voorwaarden die beschikbaar zijn, worden gedefinieerd in de [ontwerpdialoogvenster.](#design-dialog)
-   * **Standaard** - Definieert het standaardsegment om te tonen of aan geen andere voorwaarden wordt voldaan
-   * **Aangepast** - Hiermee kan de auteur een voorwaarde definiëren
+* **Pictogram** - het pictogram van het componenttype van het segment voor gemakkelijke identificatie in de lijst. Plaats de muisaanwijzer boven de volledige componentnaam om deze weer te geven als knopinfo.
+* **Voorwaarde** - de voorwaarde die voor dit segment moet worden voldaan om aan de ontvanger van de inhoud te worden getoond.
+   * De beschikbare voorwaarden worden bepaald in de [ ontwerpdialoog.](#design-dialog)
+   * **Gebrek** - bepaalt het standaardsegment om te tonen als geen andere voorwaarden worden voldaan
+   * **Douane** - staat de auteur toe om een voorwaarde te bepalen
       * De voorwaarden zijn gebaseerd op Adobe Campaign-personalisatievariabelen
-      * [Zie hier voor personalisatiebronnen van Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
-      * [Zie hier voor personalisatiebronnen van Adobe Campaign Classic.](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)
-* **Verwijderen** - Tik of klik om het segment te verwijderen uit de E-mailsegmenteringscomponent.
-* **Opnieuw rangschikken** - Tik of klik en sleep om de segmenten opnieuw te rangschikken.
+      * [ zie hier voor de personaliseringsmiddelen van Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
+      * [ zie hier voor de personaliseringsmiddelen van Adobe Campaign Classic.](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)
+* **Schrapping** - Tik of klik om het segment van de Component van de Segmentatie E-mail te schrappen.
+* **herschikt** - Tik of klik en sleep om de segmenten opnieuw te rangschikken.
 
 >[!TIP]
 >
->Als de viewport van de inhoud is verkleind, zodat het dialoogvenster Bewerken volledig scherm wordt **Toevoegen** wordt verborgen. Componenten kunnen nog steeds aan de E-mailsegmenteringscomponent worden toegevoegd door [slepen vanuit de componentbrowser en neerzetten op de E-mailsegmenteringscomponent in de inhoudeditor.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)
+>Als viewport van de inhoud wordt verminderd zodat uitgeeft dialoog volledig scherm wordt, **voegt** knoop toe zal worden verborgen. De componenten kunnen nog aan de Component van de Segmentatie E-mail worden toegevoegd door [ van componenten te slepen browser en op de Component van de Segmentatie E-mail in de inhoudsredacteur te vallen.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)
 
 ### Tabblad Eigenschappen {#properties-tab}
 
-![Dialoogvenster Eigenschappen van dialoogvenster E-mailsegmentatie-component configureren](/help/email/assets/email-segmentation-configure-properties.png)
+![ Component van de Segmentatie van de E-mail vormt dialoogeigenschappen tabel ](/help/email/assets/email-segmentation-configure-properties.png)
 
-* **ID** - Met deze optie kunt u de unieke id van de component in de HTML bepalen.
+* **identiteitskaart** - Deze optie staat het controleren van het unieke herkenningsteken van de component in HTML toe.
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende inhoud te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor CSS.
 
 ### Tabblad Toegankelijkheid {#accessibility-tab}
 
-![Het tabblad Toegankelijkheid van het dialoogvenster Component voor e-mailsegmentatie configureren](/help/email/assets/email-segmentation-configure-accessibility.png)
+![ Component van de Segmentatie van de E-mail vormt dialoogtoegankelijkheid tabel ](/help/email/assets/email-segmentation-configure-accessibility.png)
 
-Op de **Toegankelijkheid** tab, waarden kunnen worden ingesteld voor [Toegankelijkheid ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) labels voor de component.
+Op het **lusje van de Toegankelijkheid**, kunnen de waarden voor [ de toegankelijkheidslabels van ARIA ](https://www.w3.org/WAI/standards-guidelines/aria/) voor de component worden geplaatst.
 
-* **Label** - Waarde van een ARIA-labelkenmerk voor de component
+* **Etiket** - Waarde van een ARIA etiketattribuut voor de component
 
 ### Tabblad Stijlen {#styles-tab-edit}
 
-De component Email Segmentation ondersteunt de AEM [Stijlsysteem.](/help/get-started/authoring.md#component-styling)
+De component E-mail van de Segmentatie steunt het AEM [ Systeem van de Stijl.](/help/get-started/authoring.md#component-styling)
 
 Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
 
-De stijlen moeten voor deze component in worden gevormd [ontwerpdialoogvenster](#design-dialog) zodat het tabblad beschikbaar is.
+De stijlen moeten voor deze component in de [ ontwerpdialoog ](#design-dialog) worden gevormd opdat het lusje beschikbaar is.
 
 ## Deelvenster selecteren {#select-panel}
 
-De auteur van de inhoud kan de **Deelvenster selecteren** op de werkbalk van de component om te schakelen naar een ander segment voor bewerking en om de segmenten gemakkelijk opnieuw te rangschikken.
+De inhoudauteur kan de **Uitgezochte 1} optie van het Comité {op de componententoolbar gebruiken om in een verschillend segment voor het uitgeven te veranderen evenals de segmenten gemakkelijk te herschikken.**
 
-![Pictogram van deelvenster Selecteren](/help/email/assets/select-panel-icon.png)
+![ Uitgezochte paneelpictogram ](/help/email/assets/select-panel-icon.png)
 
-Wanneer u de **Deelvenster selecteren** in de componententoolbar, worden de gevormde segmenten getoond als drop-down.
+Zodra het selecteren van de **Uitgezochte optie van het Comité** in de componententoolbar, worden de gevormde segmenten getoond als drop-down.
 
 * De lijst wordt geordend door de toegewezen rangschikking van de segmenten en wordt weerspiegeld in de nummering.
 * Het componenttype van het segment wordt eerst weergegeven, gevolgd door de beschrijving van het segment in lichtere lettertypen.
 
-![Pop-upmenu van deelvenster selecteren](/help/email/assets/select-panel-popover.png)
+![ Uitgezochte paneel popover ](/help/email/assets/select-panel-popover.png)
 
 * Als u op een item in het vervolgkeuzemenu tikt of erop klikt, wordt de weergave in de editor naar dat segment verplaatst.
 * U kunt de segmenten op hun plaats opnieuw rangschikken met behulp van de sleepgrepen.
@@ -116,25 +116,25 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur definiëren welke componen
 
 ### Tabblad Toegestane componenten {#allowed-components-tab}
 
-De **Toegestane componenten** wordt gebruikt om te bepalen welke componenten als segmenten aan de Component van de Segmentatie E-mail door de inhoudauteur kunnen worden toegevoegd.
+Het **Toegestane lusje van Componenten** wordt gebruikt om te bepalen welke componenten als segmenten aan de Component van de Segmentatie E-mail door de inhoudauteur kunnen worden toegevoegd.
 
-De **Toegestane componenten** tabfuncties werken op dezelfde manier als het tabblad met dezelfde naam wanneer [het definiëren van het beleid en de eigenschappen van een container voor layout in de Sjablooneditor.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+**Toegestane Componenten** tabfuncties op dezelfde manier als het lusje van de zelfde naam wanneer [ het bepalen van het beleid en de eigenschappen van een Container van de Lay-out in de Redacteur van het Malplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component Email Segmentation ondersteunt de AEM [Stijlsysteem.](/help/get-started/authoring.md#component-styling)
+De component E-mail van de Segmentatie steunt het AEM [ Systeem van de Stijl.](/help/get-started/authoring.md#component-styling)
 
 ### Tabblad Gedefinieerde voorwaarden {#defined-conditions}
 
-Met de **Gedefinieerde voorwaarden** kunt u in de sjablooneditor opgeven welke voorwaarden de auteur van de inhoud kan selecteren bij het maken van segmenten.
+Gebruikend het **Gedefinieerde Voorwaarden** lusje, kan de malplaatjeredacteur bepalen welke voorwaarden aan de inhoudauteur beschikbaar zijn om te selecteren wanneer het creëren van segmenten.
 
-![Het dialoogvenster Ontwerpen, tabblad Gedefinieerde voorwaarden](/help/email/assets/email-segmentation-design-defined-conditions.png)
+![ de dialoog van het Ontwerp bepaalde het lusje van Voorwaarden ](/help/email/assets/email-segmentation-design-defined-conditions.png)
 
-Tik of klik op de knop **Toevoegen** om nieuwe voorwaarden te maken.
+Tik of klik **voeg** knoop toe om nieuwe voorwaarden tot stand te brengen.
 
-* **Naam segmentvoorwaarde** - Een beschrijving van de voorwaarde
-* **Segmentvoorwaarde** - De feitelijke voorwaarde waaraan moet worden voldaan, op basis van personalisatievariabelen van Adobe Campaign
-   * [Zie hier voor personalisatiebronnen van Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
-   * [Zie hier voor personalisatiebronnen van Adobe Campaign Classic.](https://experienceleague.adobe.com/docs/
-* **Verwijderen** - Tik om te klikken om de voorwaarde te verwijderen
-* **Opnieuw rangschikken** - Tik of klik en sleep om de volgorde van de voorwaarden te wijzigen
+* **Naam van de Voorwaarde van het Segment** - een beschrijving van de voorwaarde
+* **Voorwaarde van het Segment** - de daadwerkelijke voorwaarde die moet worden voldaan aan, die op de personaliseringsvariabelen van Adobe Campaign wordt gebaseerd
+   * [ zie hier voor de personaliseringsmiddelen van Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
+   * [ zie hier voor de personaliseringsmiddelen van Adobe Campaign Classic.](https://experienceleague.adobe.com/docs/
+* **verwijder** - Tik om te klikken om de voorwaarde te verwijderen
+* **herschikt** - Tik of klik en sleep om de orde van de voorwaarden te herschikken

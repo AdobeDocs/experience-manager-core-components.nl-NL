@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
 source-git-commit: b1d38310a3f05e2dd2a68de1574a278bac2c78e7
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,8 @@ Er zijn twee basisbenaderingen voor de implementatie van de kerncomponenten, die
 
 Twee gemeenschappelijke kwesties die tot projecten leiden die niet met de Componenten van de Kern slagen zijn:
 
-* **Voltooide ontwerpen** - Deze zouden zelfs op C-niveau kunnen worden goedgekeurd en worden overgedragen aan het ontwikkelingsteam om pixelvolmaakt te worden geïmplementeerd zonder dat de onderliggende technologie daarbij betrokken is.
-* **Een HTML stijlgids voor het hele bedrijf** - Dergelijke gidsen moeten te vaak dogmatisch worden gevolgd door de componenten die stijlen toepassen vanuit een top-down perspectief.
+* **Afgeronde ontwerpen** - deze zouden kunnen worden goedgekeurd C-Vlak en worden overgeleverd aan het ontwikkelingsteam om pixel-perfect zonder zorg voor de onderliggende technologie worden uitgevoerd.
+* **een bedrijf-brede HTML stijl-gids** - Dergelijke gidsen moeten te vaak dogmatisch door de componenten worden gevolgd die stijlen van een top-down perspectief toepassen.
 
 In beide gevallen zijn de vereisten voor de onderdelen zo strak en specifiek dat het moeilijk is om de Core Components (Basiscomponenten) of een out-of-the-box component eraan te voldoen, wat leidt tot een enorme ontwikkeling van aangepaste componenten.
 
@@ -37,26 +37,26 @@ In plaats van alleen de kerncomponenten in de implementatiefase van uw project t
 
 ### De componentbibliotheek gebruiken {#component-library}
 
-Verwijs naar de [Componentbibliotheek](https://adobe.com/go/aem_cmp_library) reeds in de ontwerpfase. De Core Components zijn krachtig en flexibel en kunnen u tot een beginpunt leiden. Voeg alleen aangepaste componenten toe wanneer er een echte zakelijke behoefte is die redelijkerwijs niet met een kerncomponent kan worden bereikt.
+Verwijzing de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library) reeds in de ontwerpfase. De Core Components zijn krachtig en flexibel en kunnen u tot een beginpunt leiden. Voeg alleen aangepaste componenten toe wanneer er een echte zakelijke behoefte is die redelijkerwijs niet met een kerncomponent kan worden bereikt.
 
 ### De UI-kit voor Adobe XD gebruiken {#ui-kit}
 
-Zodra er een aantoonbare behoefte aan een aangepaste component is, gebruikt u de UI-kit voor Adobe XD [die hier kunnen worden gedownload,](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) zodat de ontwerpers de draadframes en de ontwerpen kunnen beginnen te bouwen met de Componenten van de Kern als bouwstenen.
+Zodra er een bewezen behoefte aan een douanecomponent is, hefboomwerking de uitrusting UI voor Adobe XD, [ die hier kan worden gedownload, ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) zodat de ontwerpers kunnen beginnen draadframes en de ontwerpen met de Componenten van de Kern te bouwen als bouwstenen.
 
 ## Laat krachtige functies onverlet {#powerful-features}
 
 De eigenschappen van AEM en de Componenten van de Kern kunnen zeer krachtig, maar ook zeer subtiel zijn en de mogelijkheden voor bepaalde functionaliteit zouden niet onmiddellijk duidelijk aan een ontwerper kunnen zijn.
 
-### Contentfragmenten {#content-fragments}
+### Inhoudsfragmenten {#content-fragments}
 
-[Inhoudsfragmenten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html) kunt u kanaalneutrale inhoud maken, samen met (mogelijk kanaalspecifieke) variaties. Vervolgens kunt u deze fragmenten en de variaties ervan gebruiken bij het ontwerpen van de inhoudspagina&#39;s.
+[ de Fragmenten van de Inhoud ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html) staan u toe om kanaal-neutrale inhoud, samen met (misschien kanaal-specifieke) variaties tot stand te brengen. Vervolgens kunt u deze fragmenten en de variaties ervan gebruiken bij het ontwerpen van de inhoudspagina&#39;s.
 
 Samen met de bijgewerkte JSON-exportfunctie kunnen gestructureerde inhoudsfragmenten ook worden gebruikt om AEM inhoud via Content Services te leveren aan andere kanalen dan AEM pagina&#39;s.
 
 ### Fragmentsjablonen ervaren {#experience-fragment-templates}
 
-Als een auteur onderdelen (een fragment van een ervaring) van een pagina opnieuw wil gebruiken. Zonder [ervaringsfragmenten,](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/experience-fragments.html) de auteur moet dat fragment kopiëren en plakken. Het maken en onderhouden van deze kopiëren/plakken-ervaringen kost veel tijd en is vaak het gevolg van gebruikersfouten. De Fragmenten van de ervaring elimineren de behoefte aan exemplaar/deeg.
+Als een auteur onderdelen (een fragment van een ervaring) van een pagina opnieuw wil gebruiken. Zonder [ Fragmenten van de Ervaring, ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/experience-fragments.html) zou de auteur dat fragment moeten kopiëren en kleven. Het maken en onderhouden van deze kopiëren/plakken-ervaringen kost veel tijd en is vaak het gevolg van gebruikersfouten. De Fragmenten van de ervaring elimineren de behoefte aan exemplaar/deeg.
 
 ### De component Embed {#embed-component}
 
-[De component Embed](/help/components/embed.md) staat niet alleen voor eenvoudige opneming van externe middelen zoals de video-inhoud van YouTube toe, maar is ook verlengbaar om het toe te staan om inhoud aan te passen specifiek aan de behoeften van een project.
+[ de Embed Component ](/help/components/embed.md) staat niet alleen voor eenvoudige opneming van externe middelen zoals de videoinhoud van YouTube toe, maar is ook verlengbaar om het toe te staan om inhoud aan te passen specifiek voor de behoeften van een project.

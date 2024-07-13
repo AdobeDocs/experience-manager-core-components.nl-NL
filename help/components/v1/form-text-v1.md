@@ -6,7 +6,7 @@ role: Architect, Developer, Admin, User
 exl-id: d6fbc596-cb42-4478-8a3c-aa5aead3be0a
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ Met de component Tekst van formulier voor kerncomponenttekst kan formuliertekst 
 
 ## Gebruik {#usage}
 
-Met de component Formuliertekst kunt u verschillende typen tekst verzenden. Deze component is bedoeld voor gebruik samen met de component [formuliercontainercomponent](form-container-v1.md).
+De Component van de Tekst van de Vorm staat voor de voorlegging van verschillende types van tekst toe en is bedoeld om samen met de [ component van de vormcontainer ](form-container-v1.md) worden gebruikt.
 
-Het type tekstvalidatie, labels en Help-berichten kan worden gedefinieerd door de inhoudseditor in het dialoogvenster [dialoogvenster configureren](#configure-dialog).
+Het type van tekstbevestiging, etiketten, en hulpberichten kunnen door de inhoudsredacteur in [ worden bepaald vormen dialoog ](#configure-dialog).
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -29,18 +29,18 @@ In de volgende tabel wordt de compatibiliteit van versie 1 van de component Form
 
 | AEM | Formuliertekstcomponent v1 |
 |--- |--- |
-| 6.3 | Compatibel |
-| 6.4 | Compatibel |
+| 6,3 | Compatibel |
+| 6,4 | Compatibel |
 
 >[!CAUTION]
 >
 >In dit document wordt versie 1 van de component Formuliertekst beschreven.
 >
->Zie voor meer informatie over de huidige versie van de component Formuliertekst de [Formuliertekstcomponent](/help/components/forms/form-text.md) document.
+>Voor details van de huidige versie van de Component van de Tekst van de Vorm, zie het ](/help/components/forms/form-text.md) document van de Component van de Tekst van de Vorm 0} {.[
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende monster wordt genomen uit [Wij.Detailhandel](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Schermafbeelding {#screenshot}
 
@@ -88,7 +88,7 @@ Het volgende monster wordt genomen uit [Wij.Detailhandel](https://helpx.adobe.co
 
 >[!NOTE]
 >
->Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Zie de [compatibiliteitsinformatie voor Core Components v1](/help/versions.md) voor meer informatie .
+>Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Gelieve te zien de [ verenigbaarheidsinformatie voor de Componenten van de Kern v1 ](/help/versions.md) voor meer informatie.
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -98,41 +98,41 @@ In het dialoogvenster Configureren kan de auteur van de inhoud het type tekst de
 
 ![](/help/assets/chlimage_1-23.png)
 
-* **Restrictie** - Het type tekst dat moet worden ingevoerd en waarvoor validatie wordt uitgevoerd
+* **Beperking** - het type van tekst dat moet worden ingevoerd en tegen zal worden bevestigd
 
    * **Tekst**
-   * **Tekstgebied**
+   * **Gebied van de Tekst**
    * **E-mail**
    * **Tel**
    * **Datum**
-   * **Getal**
+   * **Aantal**
    * **Wachtwoord**
 
-* **Tekstregels** - Aantal regels dat in het tekstgebied moet worden weergegeven (alleen wordt weergegeven wanneer **Restrictie** is ingesteld op **Tekstgebied**)
+* **lijnen van de Tekst** - Aantal lijnen die op het tekstgebied (slechts getoond worden wanneer **Beperking** aan **Gebied van de Tekst** wordt geplaatst)
 
-* **Label** - Het label dat voor het veld wordt weergegeven
-* **Het label verbergen zodat het niet wordt weergegeven** - Nodig als het etiket alleen voor toegankelijkheidsdoeleinden vereist is en geen aanvullende visuele informatie over het veld
-* **Elementnaam** - De naam van het veld dat met de formuliergegevens wordt verzonden
-* **Waarde** - Standaardwaarde die vooraf is ingevuld in het veld
+* **Etiket** - het etiket dat voor het gebied zal worden getoond
+* **Verberg het etiket wordt getoond** - Nodig als het etiket slechts voor toegankelijkheidsdoeleinden wordt vereist en geen extra visuele informatie over het gebied impart
+* **Naam van het Element** - de naam van het gebied dat met de vormgegevens wordt voorgelegd
+* **Waarde** - Gebrek waarde die op het gebied pre-bevolkt is
 
 ### Info {#about}
 
 ![](/help/assets/chlimage_1-24.png)
 
-* **Help-bericht** - Een tip voor de gebruiker wat in het veld kan worden ingevoerd
-* **Help-bericht weergeven als tijdelijke aanduiding** - Het Help-bericht weergeven in de formulierinvoer als deze leeg en niet geconcentreerd is
+* **Bericht van de Hulp** - een wenk aan de gebruiker van wat op het gebied kan zijn ingegaan
+* **het hulpbericht van de Vertoning als placeholder** - om het hulpbericht binnen de vorminput te tonen wanneer het leeg en niet geconcentreerd is
 
 ### Restricties {#constraints}
 
 ![](/help/assets/chlimage_1-25.png)
 
-* **Restrictiebericht**
+* **Bericht van de Beperking**
 
    * Bericht weergegeven als knopinfo bij het verzenden van het formulier als de waarde het gekozen type niet valideert
-   * Niet weergegeven voor **Tekst** en **Tekstgebied** typen beperkingen
+   * Niet getoond voor **Tekst** en **de beperkingstypes van het Gebied van de Tekst**
 
-* **Vereist** - Als deze optie is geselecteerd, moet de gebruiker een waarde invullen voordat het formulier wordt verzonden
-* **Alleen-lezen maken** - Indien geselecteerd kan de gebruiker de waarde van het veld niet wijzigen
+* **Vereist** - als geselecteerd de gebruiker een waarde moet invullen alvorens de vorm voor te leggen
+* **maak slechts lezen** - als geselecteerd kan de gebruiker niet de waarde van het gebied wijzigen
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -140,8 +140,8 @@ Er is geen ontwerpdialoogvenster voor de component Formuliertekst.
 
 ## Technische details {#technical-details}
 
-De meest recente technische documentatie over de component Form Text [kan op GitHub worden gevonden](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v1/text).
+De recentste technische documentatie over de Component van de Tekst van de Vorm [ kan op GitHub ](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v1/text) worden gevonden.
 
 Het volledige kerncomponentenproject kan van GitHub worden gedownload.
 
-Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).

@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,13 @@ E-mails maken deel uit van de merkervaring en de reis van de klant. Met de E-mai
 
 ## Functies {#features}
 
-* De Core Email Components zijn gebaseerd op de [kerncomponenten,](/help/introduction.md) en derhalve ook [Bewerkbare sjablonen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) en de [Stijlsysteem.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)
-* Er zijn [Tien onderdelen die geschikt zijn voor e-mail](#components) aan auteur e-mailinhoud.
-* De Core Email Components bieden geavanceerde personalisatie dankzij de invoeging van [Adobe Campaign-variabelen](campaign-variables.md) in de meeste dialoogvelden.
-* De flexibele [Segmenteringscomponent](/help/email/components/segmentation.md) staat voor geavanceerde segmentatie van uw inhoud toe.
-* De Core Email Components bieden een optimale e-mailvriendelijke HTML uitvoer dankzij de [CSS-stijlen inliner,](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner:-Technical-documentation) [de inliner van het kenmerk HTML,](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner) en [de HTML-ontsmettingsinstallatie.](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing)
-* U kunt overal hieronder e-mailinhoud maken `/content`.
-* De e-mailkerncomponenten zijn [open bron.](https://github.com/adobe/aem-core-email-components)
+* De E-mail van de Kern Componenten zijn gebaseerd op de [ Componenten van de Kern, ](/help/introduction.md) en steunt daarom ook [ Bewerkbare Malplaatjes ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) en het [ Systeem van de Stijl.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)
+* Er zijn [ tien e-mail-geoptimaliseerde productie-klaar componenten ](#components) aan auteur e-mailinhoud.
+* De componenten van de Kern E-mail verstrekken geavanceerde verpersoonlijking dankzij de toevoeging van [ variabelen van Adobe Campaign ](campaign-variables.md) op de meeste dialooggebieden.
+* De flexibele [ component van de Segmentatie ](/help/email/components/segmentation.md) staat voor geavanceerde segmentatie van uw inhoud toe.
+* De Kern E-mail Componenten verstrekken optimale e-mail-vriendelijke HTML output dankzij de [ CSS stijlen inliner, ](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner:-Technical-documentation) [ de HTML kenmerkeninliner, ](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner) en [ de HTML sanitizer.](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing)
+* U kunt e-mailinhoud maken op een willekeurige locatie onder `/content` .
+* De componenten van de Kern E-mail zijn [ open bron.](https://github.com/adobe/aem-core-email-components)
 
 ## Vereisten {#requirements}
 
@@ -42,11 +42,11 @@ De onderdelen van de e-mailkern voldoen aan de volgende vereisten.
 
 | AEM | Adobe Campaign | Kernonderdelen |
 |---|---|---|
-| AEM 6.5.14.0+<br>Op locatie of AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [Release 2.21.2](/help/versions.md)+ |
+| AEM 6.5.14.0+<br> op gebouw of AMS | Adobe Campaign Classic <br> Adobe Campaign Standard | [ Versie 2.21.2 ](/help/versions.md)+ |
 
 >[!NOTE]
 >
->Omdat de Adobe Campaign-integratie niet wordt ondersteund in AEM as a Cloud Service, worden de e-mailCore-componenten evenmin ondersteund in AEM as a Cloud Service.
+>Aangezien de Adobe Campaign-integratie niet wordt ondersteund in AEM as a Cloud Service, worden de e-mailCore-componenten ook niet ondersteund in AEM as a Cloud Service.
 
 ## De e-mailcomponenten {#components}
 
@@ -65,4 +65,4 @@ De huidige versie van de e-mailkerncomponenten bevat de volgende onderdelen.
 
 ## Installatie en gebruik {#installation-usage}
 
-Zie de [De e-mailkerncomponenten gebruiken](using.md) voor meer informatie over het installeren van de e-mailCore-componenten.
+Zie [ Gebruikend het E-mailCore Componenten ](using.md) document voor details bij het installeren van de Componenten van de Kern E-mail.

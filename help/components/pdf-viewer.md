@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: deb635f5-2b73-4e7a-9838-3a941e39e898
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -26,23 +26,23 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 
 | Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
 |--- |--- |---|---|
-| v1 | Compatibel met<br>[release 2.17.4](/help/versions.md) en eerdere | Compatibel | Compatibel |
+| v1 | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel | Compatibel |
 
-Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
+Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Als u de PDF Viewer Component wilt ervaren en voorbeelden wilt zien van de configuratieopties en van de HTML- en JSON-uitvoer, gaat u naar de [Componentbibliotheek](https://adobe.com/go/aem_cmp_library_pdfviewer).
+Om de Component van de Kijker van de PDF te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library_pdfviewer).
 
 ## Technische details {#technical-details}
 
-De meest recente technische documentatie over de PDF Viewer Component [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1).
+De recentste technische documentatie over de Component van de Kijker van de PDF [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1) worden gevonden.
 
-Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
 
 >[!NOTE]
 >
->De PDF Viewer-component gebruikt [API&#39;s voor Adobe](https://www.adobe.io/apis/documentcloud/dcsdk.html) en vereist uw beheerder om een [contextbewuste configuratie](/help/developing/context-aware-configs.md) om deze diensten te kunnen gebruiken. Raadpleeg de technische documentatie van het onderdeel voor [details over deze configuratie.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
+>De PDF Viewer Component leverages [ de Diensten APIs van het Document van de Adobe ](https://www.adobe.io/apis/documentcloud/dcsdk.html) en vereist uw beheerder om a [ context bewuste configuratie ](/help/developing/context-aware-configs.md) te vormen om deze diensten te gebruiken. Controleer de technische documentatie van de component voor [ details op deze configuratie.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -52,35 +52,35 @@ In het dialoogvenster Configureren kan de auteur van de inhoud de viewer defini�
 
 Het lusje van de Configuratie staat de auteur toe om te bepalen welke PDF zou moeten worden getoond. Het pad kan worden gedefinieerd als een element in AEM of als een absoluut pad naar een andere bron.
 
-![Tabblad Configuratie van het dialoogvenster Bewerken van PDF Viewer Component](/help/assets/pdf-viewer-edit-configuration.png)
+![ het lusje van de Configuratie van uitgeeft dialoog van de Component van de Kijker van de PDF ](/help/assets/pdf-viewer-edit-configuration.png)
 
 ### Tab aanpassen {#customize-tab}
 
 Op het tabblad Aanpassen kan de auteur de opties definiëren die beschikbaar zijn in de viewer voor de lezer en kunt u aangeven hoe de viewer moet worden weergegeven.
 
-![Tabblad van het dialoogvenster Bewerken van PDF Viewer Component aanpassen](/help/assets/pdf-viewer-edit-customize.png)
+![ pas lusje van uit uitgeeft dialoog van de Component van de Kijker van de PDF ](/help/assets/pdf-viewer-edit-customize.png) aan
 
-Het aantal beschikbare opties is afhankelijk van de **Type** geselecteerd.
+Het aantal beschikbare opties hangt van het **Type** af dat wordt geselecteerd.
 
-* [Volledig venster](#full-window) - Het weergavegebied wordt weergegeven in de volledige browser. Dit is het meest geschikt voor opslag- en productiviteitstoepassingen.
-* [Container op maat](#sized-container) - Het weergavegebied wordt weergegeven in de volledige browser. Dit is het meest geschikt voor opslag- en productiviteitstoepassingen.
-* [In line](#in-line) - Alle PDF-pagina&#39;s die op één regel in een webpagina worden weergegeven. Dit is het meest geschikt voor het lezen van toepassingen.
+* [ Volledig Venster ](#full-window) - het het bekijken gebied geeft in volledige browser terug. Dit is het meest geschikt voor opslag- en productiviteitstoepassingen.
+* [ Verdeelde Container ](#sized-container) - het het bekijken gebied geeft in volledige browser terug. Dit is het meest geschikt voor opslag- en productiviteitstoepassingen.
+* [ In-Lijn ](#in-line) - Alle die pagina&#39;s van de PDF in lijn binnen een Web-pagina worden teruggegeven. Dit is het meest geschikt voor het lezen van toepassingen.
 
 #### Volledig venster {#full-window}
 
 Het weergavegebied wordt weergegeven in de volledige browser. Dit is het meest geschikt voor opslag- en productiviteitstoepassingen.
 
-![De tabbladoptie van het volledige venster van het dialoogvenster Bewerken van PDF Viewer Component aanpassen](/help/assets/pdf-viewer-edit-customize-full.png)
+![ pas lusjevolledige vensteroptie van de uit te geven dialoog van de Component van de Kijker van de PDF ](/help/assets/pdf-viewer-edit-customize-full.png) aan
 
-* **Standaardweergavemodus** - Hoe de viewer op de pagina wordt weergegeven
+* **Modus Standaard van de Mening** - hoe de kijker aan de pagina zal worden aangepast waar het wordt getoond
    * Pagina passend maken
    * Aan breedte aanpassen
-* **Volledig scherm** - Als deze optie is ingeschakeld, neemt de viewer de volledige hoogte/breedte van de viewport in beslag.
-* **Annotatiegereedschappen** - Als deze optie is ingeschakeld, zijn de annotatiegereedschappen beschikbaar.
-* **Deelvenster Linkerhand** - Als deze optie is ingeschakeld, wordt het linkerdeelvenster weergegeven.
-* **PDF downloaden** - Wanneer deze optie is ingeschakeld, wordt de knop Downloaden weergegeven.
-* **PDF afdrukken** - Wanneer deze optie is ingeschakeld, wordt de knop Afdrukken weergegeven.
-* **Paginabesturingselementen** - Hiermee schakelt u het gedrag van de besturingselementen voor pagina in of uit.
+* **Volledig Scherm** - wanneer toegelaten, zal de kijker de volledige hoogte/breedte van viewport opnemen.
+* **de Hulpmiddelen van de Annotatie** - wanneer toegelaten, zijn de annotatiehulpmiddelen beschikbaar.
+* **Linkerhandpaneel** - wanneer toegelaten, wordt het linkerhandpaneel getoond.
+* **Download PDF** - wanneer toegelaten, wordt de downloadknoop getoond.
+* **PDF van de Druk** - wanneer toegelaten, wordt de drukknoop getoond.
+* **Controles van de Pagina** - knevels het gedrag van de paginacontroles.
    * Koppelen
    * Loskoppelen
 
@@ -88,23 +88,23 @@ Het weergavegebied wordt weergegeven in de volledige browser. Dit is het meest g
 
 Het weergavegebied wordt weergegeven in de volledige browser. Dit is het meest geschikt voor opslag- en productiviteitstoepassingen.
 
-![De containeroptie voor tabgrootte aanpassen in het dialoogvenster Bewerken van PDF Viewer Component](/help/assets/pdf-viewer-edit-customize-sized-container.png)
+![ pas lusje rangschikte containeroptie van uit uitgeeft dialoog van de Component van de Kijker van de PDF ](/help/assets/pdf-viewer-edit-customize-sized-container.png)
 
-* **Volledig scherm** - Als deze optie is ingeschakeld, neemt de viewer de volledige hoogte/breedte van de viewport in beslag.
-* **PDF downloaden** - Wanneer deze optie is ingeschakeld, wordt de knop Downloaden weergegeven.
-* **PDF afdrukken** - Wanneer deze optie is ingeschakeld, wordt de knop Afdrukken weergegeven.
-* **Paginabesturingselementen** - Hiermee schakelt u het gedrag van de besturingselementen voor pagina in of uit.
+* **Volledig Scherm** - wanneer toegelaten, zal de kijker de volledige hoogte/breedte van viewport opnemen.
+* **Download PDF** - wanneer toegelaten, wordt de downloadknoop getoond.
+* **PDF van de Druk** - wanneer toegelaten, wordt de drukknoop getoond.
+* **Controles van de Pagina** - knevels het gedrag van de paginacontroles.
    * Koppelen
    * Loskoppelen
 
-#### In line {#in-line}
+#### In-line {#in-line}
 
 Alle PDF-pagina&#39;s die op regel binnen een webpagina worden weergegeven. Dit is het meest geschikt voor het lezen van toepassingen.
 
-![De containeroptie voor tabgrootte aanpassen in het dialoogvenster Bewerken van PDF Viewer Component](/help/assets/pdf-viewer-edit-customize-inline.png)
+![ pas lusje rangschikte containeroptie van uit uitgeeft dialoog van de Component van de Kijker van de PDF ](/help/assets/pdf-viewer-edit-customize-inline.png)
 
-* **PDF downloaden** - Wanneer deze optie is ingeschakeld, wordt de knop Downloaden weergegeven.
-* **PDF afdrukken** - Wanneer deze optie is ingeschakeld, wordt de knop Afdrukken weergegeven.
+* **Download PDF** - wanneer toegelaten, wordt de downloadknoop getoond.
+* **PDF van de Druk** - wanneer toegelaten, wordt de drukknoop getoond.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 

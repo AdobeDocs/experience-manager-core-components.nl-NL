@@ -5,8 +5,8 @@ role: Architect, Developer, Admin, User
 exl-id: e8fa3881-51fb-4726-9654-8f93acfb7464
 source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 1%
+source-wordcount: '574'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ Met de component Tekst van formulier voor kerncomponenttekst kan formuliertekst 
 
 ## Gebruik {#usage}
 
-Met de component Formuliertekst kunt u verschillende typen tekst verzenden. Deze component is bedoeld voor gebruik samen met de component [formuliercontainercomponent](form-container.md). Het type tekstvalidatie, labels en Help-berichten kan worden gedefinieerd door de inhoudseditor in het dialoogvenster [dialoogvenster configureren](#configure-dialog).
+De component van de Tekst van de Vorm staat voor de voorlegging van verschillende types van tekst toe en is bedoeld om samen met de [ component van de vormcontainer ](form-container.md) worden gebruikt. Het type van tekstbevestiging, etiketten, en hulpberichten kunnen door de inhoudsredacteur in [ worden bepaald vormen dialoog ](#configure-dialog).
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -26,20 +26,20 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 
 | Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v2 | Compatibel met<br>[release 2.17.4](/help/versions.md) en eerdere | Compatibel | Compatibel |
-| [v1](/help/components/v1/form-text-v1.md) | Compatibel | Compatibel | Compatibel |
+| v2 | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel | Compatibel |
+| [ v1 ](/help/components/v1/form-text-v1.md) | Compatibel | Compatibel | Compatibel |
 
-Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
+Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Als u de component Formuliertekst wilt ervaren en voorbeelden wilt zien van de configuratieopties en van de HTML- en JSON-uitvoer, gaat u naar de [Componentbibliotheek](https://adobe.com/go/aem_cmp_library_form_text).
+Om de Component van de Tekst van de Vorm te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library_form_text).
 
 ### Technische details {#technical-details}
 
-De meest recente technische documentatie over de component Form Text [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_form_text_v2).
+De recentste technische documentatie over de Component van de Tekst van de Vorm [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_form_text_v2) worden gevonden.
 
-Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -47,46 +47,46 @@ In het dialoogvenster Configureren kan de auteur van de inhoud het type tekst de
 
 ### Tabblad Eigenschappen {#properties-tab}
 
-![Eigenschappen, tabblad](/help/assets/form-text-edit-properties.png)
+![ Eigenschappen tabel ](/help/assets/form-text-edit-properties.png)
 
-* **Restrictie** - Het type tekst dat moet worden ingevoerd en waarvoor validatie wordt uitgevoerd
+* **Beperking** - het type van tekst dat moet worden ingevoerd en tegen zal worden bevestigd
    * **Tekst**
-   * **Tekstgebied**
+   * **Gebied van de Tekst**
    * **E-mail**
    * **Tel**
    * **Datum**
-   * **Getal**
+   * **Aantal**
    * **Wachtwoord**
-* **Tekstregels** - Aantal regels dat in het tekstgebied moet worden weergegeven (alleen wordt weergegeven wanneer **Restrictie** is ingesteld op **Tekstgebied**)
-* **Label** - Het label dat voor het veld wordt weergegeven
-* **Het label verbergen zodat het niet wordt weergegeven** - Nodig als het etiket alleen voor toegankelijkheidsdoeleinden vereist is en geen aanvullende visuele informatie over het veld
-* **Elementnaam** - De naam van het veld dat met de formuliergegevens wordt verzonden
-* **Waarde** - Standaardwaarde die vooraf is ingevuld in het veld
-* **ID** - Met deze optie kunt u de unieke id van de component in de HTML en in de [Gegevenslaag](/help/developing/data-layer/overview.md).
+* **lijnen van de Tekst** - Aantal lijnen die op het tekstgebied (slechts getoond worden wanneer **Beperking** aan **Gebied van de Tekst** wordt geplaatst)
+* **Etiket** - het etiket dat voor het gebied zal worden getoond
+* **Verberg het etiket wordt getoond** - Nodig als het etiket slechts voor toegankelijkheidsdoeleinden wordt vereist en geen extra visuele informatie over het gebied impart
+* **Naam van het Element** - de naam van het gebied dat met de vormgegevens wordt voorgelegd
+* **Waarde** - Gebrek waarde die op het gebied vooraf bevolkt is
+* **identiteitskaart** - Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens te controleren ](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
 ### Info over Tab {#about-tab}
 
-![Over, tabblad](/help/assets/form-text-edit-about.png)
+![ Ongeveer lusje ](/help/assets/form-text-edit-about.png)
 
-* **Help-bericht** - Een tip voor de gebruiker wat in het veld kan worden ingevoerd
-* **Help-bericht weergeven als tijdelijke aanduiding** - Het Help-bericht weergeven in de formulierinvoer als deze leeg en niet geconcentreerd is
+* **Bericht van de Hulp** - een wenk aan de gebruiker van wat op het gebied kan zijn ingegaan
+* **het hulpbericht van de Vertoning als placeholder** - om het hulpbericht binnen de vorminput te tonen wanneer het leeg en niet geconcentreerd is
 
 ### Tabblad Restricties {#constraints-tab}
 
-![Tabblad Restricties](/help/assets/form-text-edit-constraints.png)
+![ Beperkingen tabel ](/help/assets/form-text-edit-constraints.png)
 
-* **Restrictiebericht**
+* **Bericht van de Beperking**
    * Bericht weergegeven als knopinfo bij het verzenden van het formulier als de waarde het gekozen type niet valideert
-   * Niet weergegeven voor **Tekst** en **Tekstgebied** typen beperkingen
-* **Vereist** - Als deze optie is geselecteerd, moet de gebruiker een waarde invullen voordat het formulier wordt verzonden
-   * **Vereist bericht** - Bericht weergegeven als knopinfo als het veld leeg blijft
-* **Alleen-lezen maken** - Indien geselecteerd kan de gebruiker de waarde van het veld niet wijzigen
+   * Niet getoond voor **Tekst** en **de beperkingstypes van het Gebied van de Tekst**
+* **Vereist** - als geselecteerd de gebruiker een waarde moet invullen alvorens de vorm voor te leggen
+   * **Vereist Bericht** - Bericht dat als tooltip wordt getoond als het gebied leeg is
+* **maak slechts lezen** - als geselecteerd kan de gebruiker niet de waarde van het gebied wijzigen
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component Formuliertekst ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+De component van de Tekst van de Vorm steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).

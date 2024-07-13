@@ -1,5 +1,5 @@
 ---
-title: Ondersteuning voor externe middelen
+title: Ondersteuning voor externe Assets
 description: Leer hoe u de Core Component Image en Teaser Components configureert om externe middelen te ondersteunen met Dynamic Media met OpenAPI.
 role: Architect, Developer, Admin, User
 exl-id: b462c1f3-a6c8-4a2a-abf4-d08ec82d4371
@@ -11,7 +11,7 @@ ht-degree: 0%
 ---
 
 
-# Ondersteuning voor externe middelen {#remote-assets-support}
+# Ondersteuning voor externe Assets {#remote-assets-support}
 
 Leer hoe u de Core Component Image en Teaser Components configureert om externe middelen te ondersteunen met Dynamic Media met OpenAPI.
 
@@ -30,11 +30,11 @@ Ondersteuning voor externe middelen met Dynamic Media met OpenAPI vereist:
 
 Het wordt over het algemeen aanbevolen om al uw productie AEM instanties in werking te stellen die HTTPs gebruiken. Uw lokale ontwikkelomgevingen kunnen echter niet als zodanig worden ingesteld. Externe elementen die Dynamic Media met OpenAPI gebruiken, kunnen echter alleen functioneren als HTTPS is vereist.
 
-[Deze handleiding gebruiken](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html) om HTTPS te configureren waar u externe middelen wilt gebruiken, inclusief ontwikkelomgevingen.
+[ Gebruik deze gids ](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html) om HTTPS te vormen waar u wenst om verre activa, met inbegrip van ontwikkelomgevingen te gebruiken.
 
 ## OSGi configureren {#osgi}
 
-De plaats van de verre activa moet in een configuratie worden bepaald OSGi. Vorm **Volgende generatie Dynamic Media Config** De configuratie OSGi als volgt, die de waarden met die van uw verre activamilieu vervangt.
+De plaats van de verre activa moet in een configuratie worden bepaald OSGi. Vorm de **Volgende Configuratie van Dynamic Media Config van de Generatie** OSGi configuratie als volgt, die de waarden met die van uw ver activamilieu vervangen.
 
 ```text
 imsClient="<ims-client-name>"
@@ -43,19 +43,19 @@ imsOrg="<ims-org>@AdobeOrg"
 repositoryId="<repo-id>.adobeaemcloud.com"
 ```
 
-![Het configuratievenster Dynamic Media Config OSGi van de volgende generatie](/help/assets/remote-assets-osgi.png)
+![ het volgende de configuratievenster van Dynamic Media Config OSGi van de Generatie ](/help/assets/remote-assets-osgi.png)
 
 Voor details op hoe te om OSGi te vormen, gelieve de volgende documenten te zien:
 
-* [OSGi configureren voor Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi.html) voor AEM as a Cloud Service
-* [OSGi configureren](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/configuring/configuring-osgi.html) voor AEM 6.5
+* [ het Vormen OSGi voor Adobe Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi.html) voor AEM as a Cloud Service
+* [ Vormend OSGi ](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/configuring/configuring-osgi.html) voor AEM 6.5
 
 ## Configuratie controleren {#verify}
 
 Nu kunt u controleren of de functie voor externe middelen werkt met Dynamic Media met OpenAPI. Hiertoe kunt u de WKND-voorbeeldsite en Core Components installeren.
 
-* [Kernonderdelen](https://github.com/adobe/aem-core-wcm-components/releases/download/core.wcm.components.reactor-2.23.2/core.wcm.components.all-2.23.2.zip) versie 2.23.2 of hoger is vereist.
-* [WKND-voorbeeldsite](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-3.2.0/aem-guides-wknd.all-3.2.0-classic.zip) versie 3.2.0 of hoger is vereist.
+* ](https://github.com/adobe/aem-core-wcm-components/releases/download/core.wcm.components.reactor-2.23.2/core.wcm.components.all-2.23.2.zip) versie 2.23.2 van de Componenten van de Kern van 0} {wordt vereist.[
+* {de plaats van de Steekproef van 0} WKND ](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-3.2.0/aem-guides-wknd.all-3.2.0-classic.zip) versie 3.2.0 of later wordt vereist.[
 
 Nadat de Core Components en de WKND-site zijn geïnstalleerd, kunt u de functie op elke WKND-pagina testen.
 
@@ -65,20 +65,20 @@ Nadat de Core Components en de WKND-site zijn geïnstalleerd, kunt u de functie 
 
 1. Voeg een afbeeldingscomponent aan de pagina toe.
 
-1. Schakel in het dialoogvenster Configureren van de component de optie uit **Weergegeven afbeelding overnemen van pagina** op de **Element** en klik op **Selecteren**.
+1. In Configure dialoog van de component, uncheck de optie **erven geprezen beeld van pagina** op het **3} lusje van Activa {en klik** Keuze **.**
 
-1. Als de configuratie correct is, zal een drop-down met de opties verschijnen **Lokaal** en **Extern**. Selecteren **Extern**.
+1. Als de configuratie correct is, zal een drop-down met de opties **Lokale** en **Verre** verschijnen. Selecteer **Verre**.
 
-   ![Opties voor externe en lokale keuze voor afbeeldingsselectie](/help/assets/remote-asset-selection.png)
+   ![ Verre en lokale oogst opties voor beeldselectie ](/help/assets/remote-asset-selection.png)
 
 1. Er wordt een dialoogvenster geopend waarin u zich bij de externe service moet verifiëren.
 
-1. Zodra voor authentiek verklaard, zal middelenbrowser van de verre dienst openen. Selecteer het gewenste element en tik of klik op **Selecteren**.
+1. Zodra voor authentiek verklaard, zal middelenbrowser van de verre dienst openen. Selecteer de gewenste activa en tik of klik **Uitgezocht**.
 
-   ![Externe middelen selecteren](/help/assets/remote-asset-picker.png)
+   ![ Selecterend een ver middel ](/help/assets/remote-asset-picker.png)
 
 Het externe element wordt toegevoegd aan uw lokale AEM en u hebt gecontroleerd dat de functie correct is geconfigureerd.
 
-## Externe elementen gebruiken {#using}
+## Externe Assets gebruiken {#using}
 
-Als deze optie eenmaal is geconfigureerd, kunnen externe elementen worden geselecteerd waar u elementen kunt selecteren met behulp van de Core Components (Basiscomponenten), zoals in het dialoogvenster [Afbeeldingscomponent](/help/components/image.md) en de [Taser-component.](/help/components/teaser.md)
+Zodra gevormd, kunnen de verre activa worden geselecteerd waar u activa gebruikend de Componenten van de Kern zoals in de [ Component van het Beeld ](/help/components/image.md) en de [ Component van de Taser ](/help/components/teaser.md) zou selecteren.

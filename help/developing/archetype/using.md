@@ -20,23 +20,23 @@ Het richt zich op algemene gebruikspatronen en wat het archetype voor u doet. Vo
 
 >[!TIP]
 >
->Het nieuwste AEM Projectarchetype en de bijbehorende technische documentatie [kan op GitHub worden gevonden.](https://github.com/adobe/aem-project-archetype)
+>Het recentste AEM Archetype van het Project en bijbehorende technische documentatie [ kunnen op GitHub worden gevonden.](https://github.com/adobe/aem-project-archetype)
 
 ## Aan de slag {#getting-started}
 
 Het project archetype maakt het gemakkelijk om zich op AEM te beginnen ontwikkelen. U kunt uw eerste stappen met archetype op een aantal manieren nemen.
 
-* **WKND-zelfstudie** - Voor een grote inleiding bij het ontwikkelen van AEM, met inbegrip van hoe te om het archetype te gebruiken zie [Aan de slag met AEM Sites - WKND-zelfstudie](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) voor een praktisch voorbeeld dat u door het gebruiken van archetype loopt om een eenvoudig project uit te voeren.
-* **Zelfstudie over WKND-gebeurtenissen** - Als u bijzonder geïnteresseerd bent in de ontwikkeling van één pagina voor toepassingen (SPA) op AEM, moet u de speciale [Zelfstudie over WKND-gebeurtenissen.](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)
-* **Eigen beginnen!** - U kunt de [huidig projectarchetype beschikbaar op GitHub](https://github.com/adobe/aem-project-archetype) en maak uw eerste project zelf.
+* **WKND Leerprogramma** - voor een grote inleiding aan het ontwikkelen op AEM met inbegrip van hoe te hefboomwerking het archetype zien [ Begonnen het WKND Leerprogramma ](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) voor een praktisch voorbeeld dat u door het gebruiken van archetype loopt om een eenvoudig project uit te voeren.
+* **het Leerprogramma van de Gebeurtenissen van WKND** - als u bijzonder in de ontwikkeling van één enkele paginatoepassing (SPA) op AEM geinteresseerd bent, ben zeker om het specifieke [ WKND leerprogramma van Gebeurtenissen te controleren.](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)
+* **Begin alleen!** - U kunt het [ huidige project archetype gemakkelijk downloaden beschikbaar op GitHub ](https://github.com/adobe/aem-project-archetype) en uw eerste project op uw tot stand brengen.
 
 ## Het gebruiken van Archetype {#how-to-use-the-archetype}
 
-De eerste stap die archetype gebruikt moet een project tot stand brengen, dat produceert [de modules](#what-you-get) in een lokale bestandsstructuur. Als deel van projectgeneratie, kan een aantal eigenschappen voor uw project worden bepaald zoals projectnaam, versie, toelatend diverse opties, enz.
+De eerste stap die archetype gebruikt moet een project tot stand brengen, dat [ de modules ](#what-you-get) in een lokale dossierstructuur produceert. Als deel van projectgeneratie, kan een aantal eigenschappen voor uw project worden bepaald zoals projectnaam, versie, toelatend diverse opties, enz.
 
 >[!TIP]
 >
->Wanneer u het archetype bouwt, zal het ook een reeks lezingen produceren, die u van de technische details en het gebruik van elke module voorzien zoals [is hieronder gekoppeld.](#what-you-get)
+>Wanneer u het archetype bouwt, zal het ook een reeks lezingen produceren, die u van de technische details en het gebruik van elke module voorzien zoals [ hieronder verbonden.](#what-you-get)
 
 Het bouwen van het project met Maven leidt tot de artefacten (pakketten en bundels OSGi), die aan AEM kunnen worden opgesteld. De extra Gemaakt bevelen en de profielen kunnen worden gebruikt om de projectartefacten aan een AEM instantie op te stellen.
 
@@ -44,34 +44,34 @@ Het bouwen van het project met Maven leidt tot de artefacten (pakketten en bunde
 
 Het archetype bestaat uit modules, die allen automatisch worden gecreeerd wanneer het gebruiken van archetype.
 
-* **[kern](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/core)** is een bundel van Java die alle kernfunctionaliteit zoals de diensten OSGi, luisteraars, en planners, evenals component-verwante code van Java zoals servlets en verzoekfilters bevat.
-* **[it.tests](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/it.tests)** zijn op Java gebaseerde integratietests.
-* **[ui.apps](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.apps)** bevat de `/apps` en `/etc` delen van het project, d.w.z. JS en CSS clientlibs, componenten, en malplaatjes.
-* **[ui.content](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.content)** bevat voorbeeldinhoud met behulp van de componenten uit de module ui.apps.
-* **[ui.config](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.config)** bevat runtime-specifieke OSGi vormen voor het project.
-* **[ui.frontend.general](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.general)** bevat de artefacten die worden vereist om de algemene Web-pack-gebaseerde voorste bouwstijlmodule (facultatief) te gebruiken.
-* **[ui.frontend.response](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.react)** **(optioneel)** bevat de artefacten die wanneer het gebruiken van archetype worden vereist om SPA tot stand te brengen die op React (facultatief, hangt van bouwstijlparameters af) worden gebaseerd.
-* **[ui.frontend.angular](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.angular)** **(optioneel)** bevat de artefacten die wanneer het gebruiken van archetype worden vereist om een SPA tot stand te brengen die op Angular (facultatief, hangt van bouwstijlparameters af) worden gebaseerd.
-* **[ui.tests](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.tests)** bevat op selenium gebaseerde UI-tests.
-* **[alles](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/all)** is één enkel inhoudspakket dat alle gecompileerde modules (bundels en inhoudspakketten) met inbegrip van om het even welke verkopersgebiedsdelen inbedt.
-* **[dispatcher.ams](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/dispatcher.ams)** bevat de basisconfiguraties van de verzender voor projecten AMS/on-prem (facultatief, hangt van bouwstijlparameters af).
-* **[dispatcher.cloud](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/dispatcher.cloud)** bevat de basisconfiguraties van de verzender voor projecten AEMaaCS (facultatief, hangt van bouwstijlparameters af).
+* **[kern ](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/core)** is een bundel van Java die alle kernfunctionaliteit zoals diensten OSGi, luisteraars, en planners, evenals op component betrekking hebbende code van Java zoals servlets en verzoekfilters bevatten.
+* **[it.tests ](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/it.tests)** zijn op Java-Gebaseerde integratietests.
+* **[ui.apps ](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.apps)** bevat de `/apps` en `/etc` delen van het project, d.w.z. JS en CSS clientlibs, componenten, en malplaatjes.
+* **[ui.content ](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.content)** bevat steekproefinhoud gebruikend de componenten van de module ui.apps.
+* **[ui.config ](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.config)** bevat runtime-specifieke OSGi vormt voor het project.
+* **[ui.frontend.general ](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.general)** bevat de artefacten die worden vereist om de algemene Web-pack-Gebaseerde voorste bouwstijlmodule (facultatief) te gebruiken.
+* **[ui.frontend.response ](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.react)** **(facultatief)** bevat de artefacten die wanneer het gebruiken van archetype worden vereist om SPA projecten tot stand te brengen die op React (facultatief, afhangt van bouwstijlparameters) worden gebaseerd.
+* **[ui.frontend.angular ](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.angular)** **(facultatief)** bevat de artefacten die wanneer het gebruiken van archetype worden vereist om tot SPA projecten te leiden die op Angular (facultatief, afhangt van bouwstijlparameters) worden gebaseerd.
+* **[ui.tests ](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.tests)** bevat op selenium-Gebaseerde tests UI.
+* **[allen ](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/all)** is één enkel inhoudspakket dat alle gecompileerde modules (bundels en inhoudspakketten) met inbegrip van om het even welke verkopersgebiedsdelen inbedt.
+* **[dispatcher.ams ](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/dispatcher.ams)** bevat de basisberichtcherconfiguraties voor AMS/op-prem projecten (facultatief, hangt van bouwstijlparameters af).
+* **[dispatcher.cloud ](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/dispatcher.cloud)** bevat de basis verzender configuraties voor projecten AEMaaCS (facultatief, hangt van bouwstijlparameters af).
 
-![Inhoudspakketorganisatie](/help/assets/content-package-organization.png)
+![ het pakketorganisatie van de Inhoud ](/help/assets/content-package-organization.png)
 
 De modules van archetype in Maven worden vertegenwoordigd opgesteld aan AEM als inhoudspakketten die de toepassing, de inhoud, en de noodzakelijke bundels OSGi vertegenwoordigen.
 
 ## Bovenliggende POM {#parent-pom}
 
-De `pom.xml` aan de basis van het project (`<src-directory>/<project>/pom.xml`) staat bekend als de bovenliggende POM en drijft de structuur van het project en beheert afhankelijkheden en bepaalde algemene eigenschappen van het project.
+`pom.xml` bij de wortel van het project (`<src-directory>/<project>/pom.xml`) is gekend als ouder POM en drijft de structuur van het project evenals beheert gebiedsdelen en bepaalde globale eigenschappen van het project.
 
 ### Algemene projecteigenschappen {#global-properties}
 
-De `<properties>` sectie van ouderPOM bepaalt verscheidene globale eigenschappen die voor de plaatsing van uw project op een AEM instantie zoals gebruikersnaam/wachtwoord, gastheernaam/haven, enz. belangrijk zijn.
+Het gedeelte `<properties>` van de bovenliggende POM definieert verschillende algemene eigenschappen die belangrijk zijn voor de implementatie van uw project op een AEM instantie, zoals gebruikersnaam/wachtwoord, hostnaam/poort, enz.
 
-Deze eigenschappen worden opstelling om aan een lokale AEM instantie op te stellen, aangezien dit de gemeenschappelijkste bouwstijl is die de ontwikkelaars zullen doen. Er zijn eigenschappen die in een auteurinstantie en een publicatieinstantie moeten worden geïmplementeerd. Dit is ook waar de geloofsbrieven worden geplaatst om met de AEM instantie voor authentiek te verklaren. De standaardwaarde `admin:admin` referenties worden gebruikt.
+Deze eigenschappen worden opstelling om aan een lokale AEM instantie op te stellen, aangezien dit de gemeenschappelijkste bouwstijl is die de ontwikkelaars zullen doen. Er zijn eigenschappen die in een auteurinstantie en een publicatieinstantie moeten worden geïmplementeerd. Dit is ook waar de geloofsbrieven worden geplaatst om met de AEM instantie voor authentiek te verklaren. De standaardreferenties `admin:admin` worden gebruikt.
 
-Deze eigenschappen zijn opstelling zodat zij kunnen worden met voeten getreden wanneer het opstellen aan hogere niveaumilieu&#39;s. Op deze manier hoeven de POM-bestanden niet te worden gewijzigd, maar variabelen zoals `aem.host` en `sling.password` kan worden overschreven via opdrachtregelargumenten:
+Deze eigenschappen zijn opstelling zodat zij kunnen worden met voeten getreden wanneer het opstellen aan hogere niveaumilieu&#39;s. Op deze manier hoeven de POM-bestanden niet te worden gewijzigd, maar variabelen zoals `aem.host` en `sling.password` kunnen worden overschreven via opdrachtregelargumenten:
 
 ```shell
 mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.password=productionpasswd
@@ -79,7 +79,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 ### Modulestructuur {#module-structure}
 
-De `<modules>` de sectie van ouderPOM bepaalt de modules die het project zal bouwen. Standaard wordt het project gebouwd [de eerder gedefinieerde standaardmodules.](#what-you-get) Meer modules kunnen altijd worden toegevoegd aangezien een project evolueert.
+De `<modules>` sectie van ouderPOM bepaalt de modules die het project zal bouwen. Door gebrek bouwt het project [ de eerder bepaalde standaardmodules.](#what-you-get) Er kunnen altijd meer modules worden toegevoegd terwijl een project evolueert.
 
 ### Afhankelijkheden {#dependencies}
 
@@ -87,15 +87,15 @@ De `<dependencyManagement>` sectie van ouderPOM bepaalt alle gebiedsdelen en ver
 
 #### Uber-Jar {#uber-jar}
 
-Een van de belangrijkste afhankelijkheden is de [AEM Java API Jar.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) Dit omvat alle AEM APIs met enkel één enkele gebiedsdeelingang voor de versie van AEM.
+Één van de belangrijkste gebiedsdelen is [AEM Java API Jar.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) Dit omvat alle AEM API&#39;s met slechts één afhankelijkheidsitem voor de versie van AEM.
 
 >[!NOTE]
 >
->Als beste praktijken zou u de uber-jar versie moeten bijwerken om de doelversie van AEM aan te passen. Als u bijvoorbeeld wilt implementeren op AEM 6.5, moet u de versie van de uber-jar bijwerken naar 6.5.X, waar `X` is het recentste de dienstpak.
+>Als beste praktijken zou u de uber-jar versie moeten bijwerken om de doelversie van AEM aan te passen. Als u bijvoorbeeld wilt implementeren op AEM 6.5, moet u de versie van de uber-jar bijwerken naar 6.5.X, waarbij `X` het meest recente servicepack is.
 
 #### Kernonderdelen {#core-components}
 
-Het archetype maakt natuurlijk gebruik van de [Core Components.](/help/introduction.md) Daarom is het, om de Componenten van de Kern in alle plaatsingen te gebruiken, een beste praktijk om hen als deel van het Maven project te omvatten.
+Het archetype van cursus hefboomwerkingen de [ Componenten van de Kern.](/help/introduction.md) Daarom is het raadzaam om deze componenten op te nemen in het Maven-project, zodat ze bij alle implementaties kunnen worden gebruikt.
 
 core.wcm.components.examples zijn een reeks steekproefpagina&#39;s die voorbeelden van de Componenten van de Kern illustreren. Als beste praktijken, wanneer het opstellen van een project voor productiegebruik zou u deze gebiedsdeel en subpackage opneming moeten verwijderen.
 
@@ -109,6 +109,6 @@ core.wcm.components.examples zijn een reeks steekproefpagina&#39;s die voorbeeld
 
 Het project bevat drie testniveaus en omdat het verschillende typen tests zijn, worden deze op verschillende manieren of op verschillende plaatsen uitgevoerd.
 
-* **[Eenheidstests](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/core)** - Klassieke eenheidstests van de code in de bundel
-* **[Integratietests](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/it.tests)** - integratietests aan de serverzijde die eenheidstests in de AEM-omgeving, d.w.z. op de AEM server in werking stellen
-* **[UI-tests](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.tests)** - Op selenium gebaseerde browserzijtests die browsergedrag controleren
+* **[Tests van de Eenheid ](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/core)** - Klassieke eenheidstests van de code bevat in de bundel
+* **[Tests van de Integratie ](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/it.tests)** - server-zijintegratietests die eenheid-als tests in werking stellen in het AEM-milieu, d.w.z. op de AEM server
+* **[Tests UI ](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.tests)** - Op selenium-Gebaseerde browser-zijtests die browser-zijgedrag verifiëren

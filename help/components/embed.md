@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1339'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ Met de component Core Components Embed kunt u externe inhoud insluiten in een AE
 
 Met de component Core Component Embed kan de auteur van de inhoud geselecteerde externe inhoud definiëren die moet worden ingesloten in een AEM inhoudspagina. Bovendien is er een optie om ook vrije-vorm HTML te bepalen die moet worden ingebed.
 
-* De eigenschappen van de component kunnen worden gedefinieerd in het dialoogvenster [dialoogvenster configureren](#configure-dialog).
-* De standaardwaarden voor de component wanneer deze aan een pagina wordt toegevoegd, kunnen worden gedefinieerd in het dialoogvenster [ontwerpdialoogvenster](#design-dialog).
+* De eigenschappen van de component kunnen in [ worden bepaald vormen dialoog ](#configure-dialog).
+* De gebreken voor de component wanneer het toevoegen van het aan een pagina kunnen in de [ ontwerpdialoog ](#design-dialog) worden bepaald.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -30,19 +30,19 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 | Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
 |--- |--- |---|---|
 | v2 | - | Compatibel | Compatibel |
-| [v1](v1/embed.md) | Compatibel | Compatibel | Compatibel |
+| [ v1 ](v1/embed.md) | Compatibel | Compatibel | Compatibel |
 
-Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
+Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Als u de Embed-component wilt ervaren en voorbeelden wilt zien van de configuratieopties en van de HTML- en JSON-uitvoer, gaat u naar de [Componentbibliotheek](https://adobe.com/go/aem_cmp_library_embed).
+Om de Embed Component te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library_embed).
 
 ## Technische details {#technical-details}
 
-De meest recente technische documentatie over de component Embed [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_embed_v2).
+De recentste technische documentatie over Embed Component [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_embed_v2) worden gevonden.
 
-Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -56,7 +56,7 @@ Kies eerst welk type bron moet worden ingesloten:
 * [Insluitbaar](#embeddable)
 * [HTML](#html)
 
-Voor elk type insluitbaar kunt u een **ID**. Met deze optie kunt u de unieke id van de component in de HTML en in de [Gegevenslaag](/help/developing/data-layer/overview.md).
+Voor elk type van ingebedd able, kunt u een **identiteitskaart** bepalen. Deze optie staat toe om het unieke herkenningsteken van de component in de HTML en in de [ Laag van Gegevens ](/help/developing/data-layer/overview.md) te controleren.
 
 * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
 * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
@@ -64,72 +64,72 @@ Voor elk type insluitbaar kunt u een **ID**. Met deze optie kunt u de unieke id 
 
 #### URL {#url}
 
-De eenvoudigste insluiting is de URL. Plak gewoon de URL van de bron die u wilt insluiten in het **URL** veld. De component probeert toegang te krijgen tot de bron en als deze door een van de processors kan worden gerenderd, wordt onder de **URL** veld. Als dat niet het geval is, wordt het veld als een fout gemarkeerd.
+De eenvoudigste insluiting is de URL. Plak eenvoudig URL van het middel u wenst om in het **URL** gebied in te bedden. De component zal proberen om tot het middel toegang te hebben en als het door één van de bewerkers kan worden teruggegeven, zal het een bevestigingsbericht onder het **URL** gebied tonen. Als dat niet het geval is, wordt het veld als een fout gemarkeerd.
 
 De component Embed wordt geleverd bij processors voor de volgende typen bronnen:
 
-* Middelen die voldoen aan de [Standaard insluiten](https://oembed.com/) inclusief Facebook Post, Instagram, SoundCloud, Twitter en YouTube
+* Middelen die aan de [ norm inbedden ](https://oembed.com/) met inbegrip van Facebook Post, Instagram, SoundCloud, Twitter, en YouTube voldoen
 * Pinterest
 
-Ontwikkelaars kunnen extra URL-processors toevoegen door [volgt u de ontwikkelaarsdocumentatie van de Embed Component.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
+De ontwikkelaars kunnen extra bewerkers URL door [ na de ontwikkelaarsdocumentatie van de Embed Component toevoegen.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
-![Dialoogvenster voor bewerken van component insluiten voor URL](/help/assets/embed-url.png)
+![ bedt Component geeft dialoog voor URL uit ](/help/assets/embed-url.png)
 
 #### Insluitbaar {#embeddable}
 
 Met insluitbare bestanden kunt u de ingesloten bron verder aanpassen. U kunt hier parameters aan toewijzen en aanvullende informatie opnemen. Een auteur kan een keuze maken uit vooraf geconfigureerde vertrouwde insluitbare bestanden en de component wordt geleverd met een YouTube-insluitbare out-of-the-box.
 
-De **Insluitbaar** in het veld wordt het type processor gedefinieerd dat u wilt gebruiken. In het geval van de insluitbare YouTube kunt u het volgende definiëren:
+Het **Inbeddable** gebied bepaalt het type van bewerker u wilt gebruiken. In het geval van de insluitbare YouTube kunt u het volgende definiëren:
 
-* **Video-id** - De unieke video-id van YouTube van de bron die u wilt insluiten
-* **Breedte** - De breedte van de ingesloten video
-* **Hoogte** - De hoogte van de ingesloten video
-* **Dempen inschakelen** - Deze parameter geeft aan of de video standaard wordt gedempt. Als u deze optie inschakelt, wordt de kans dat Automatisch afspelen werkt in moderne browsers groter.
-* **Automatisch afspelen inschakelen** - Deze parameter geeft aan of de eerste video automatisch wordt afgespeeld wanneer de speler wordt geladen. Dit is alleen van toepassing op de publicatie-instantie of wanneer u de opdracht **Weergeven als gepubliceerd** op de ontwerpinstantie.
-* **Lus inschakelen** - Bij één video geeft deze parameter aan of de speler de eerste video herhaaldelijk moet afspelen. In het geval van een afspeellijst speelt de speler de volledige afspeellijst af en begint vervolgens opnieuw bij de eerste video.
-* **Inline afspelen inschakelen (iOS)** - Deze parameter bepaalt of video&#39;s inline (ingeschakeld) of op volledig scherm (uitgeschakeld) worden afgespeeld in een HTML5-speler op iOS.
-* **Onbeperkte verwante video&#39;s** - Als deze optie is uitgeschakeld, komen verwante video&#39;s van hetzelfde kanaal als de video die net is afgespeeld, anders komen ze van elk kanaal.
+* **Video identiteitskaart** - unieke videoidentiteitskaart van YouTube van het middel u wilt inbedden
+* **Breedte** - de breedte van de ingebedde video
+* **Hoogte** - de hoogte van de ingebedde video
+* **laat Dempen** toe - Deze parameter specificeert of de video gedempt door gebrek zal spelen. Als u deze optie inschakelt, wordt de kans dat Automatisch afspelen werkt in moderne browsers groter.
+* **laat Autoplay** toe - Deze parameter specificeert of de aanvankelijke video automatisch zal beginnen te spelen wanneer de speler laadt. Dit is slechts efficiënt op publiceer instantie of wanneer het gebruiken van de **Mening zoals Gepubliceerde** optie op de auteursinstantie.
+* **laat Lijn** toe - in het geval van één enkele video, specificeert deze parameter of de speler de aanvankelijke video herhaaldelijk zou moeten spelen. In het geval van een afspeellijst speelt de speler de volledige afspeellijst af en begint vervolgens opnieuw bij de eerste video.
+* **laat Inline Playback (iOS) toe** - Deze parameter controleert of video&#39;s inline (op) of volledig scherm (weg) in een speler van HTML5 op iOS spelen.
+* **Onbeperkte Verwante Verwante Video&#39;s** - als deze optie gehandicapt is, zullen de verwante video&#39;s uit het zelfde kanaal komen zoals de video die enkel werd gespeeld, anders zullen zij uit om het even welk kanaal komen.
 
-Andere insluitbare bestanden bieden vergelijkbare velden en kunnen door een ontwikkelaar worden gedefinieerd door [volgt u de ontwikkelaarsdocumentatie van de Embed Component.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
+Andere inbeddables zouden gelijkaardige gebieden aanbieden en kunnen door een ontwikkelaar door [ na de ontwikkelaarsdocumentatie van de Embed Component worden bepaald.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
-![Dialoogvenster voor bewerken van component insluiten voor insluitbare bestanden](/help/assets/embed-embeddable.png)
+![ bedt de Edit dialoog van de Component voor ingebedde Lijsten ](/help/assets/embed-embeddable.png)
 
 >[!NOTE]
 >
->Ingesloten tabellen moeten op sjabloonniveau zijn ingeschakeld via het dialoogvenster [Ontwerpdialoogvenster](#design-dialog) beschikbaar zijn voor de auteur van de pagina.
+>Embeddables moet op het malplaatjeniveau via de [ Dialoog van het Ontwerp ](#design-dialog) worden toegelaten om aan de paginaauteur beschikbaar te zijn.
 
 #### HTML {#html}
 
 Met de component Embed kunt u HTML in een vrije vorm aan de pagina toevoegen.
 
-![Dialoogvenster voor bewerken van component insluiten voor HTML](/help/assets/embed-html.png)
+![ bedt Component geeft dialoog voor HTML ](/help/assets/embed-html.png) uit
 
 >[!NOTE]
 >Eventuele onveilige tags, zoals scripts, worden gefilterd vanaf de ingevoerde HTML en niet weergegeven op de resulterende pagina.
 
 ##### Beveiliging {#security}
 
-De HTML-opmaak die de auteur kan invoeren, wordt gefilterd voor beveiligingsdoeleinden om scriptaanvallen te voorkomen die verwijzen naar andere sites en waarmee auteurs bijvoorbeeld beheerdersrechten kunnen verkrijgen.
+De HTML-opmaak die de auteur kan invoeren, wordt voor beveiligingsdoeleinden gefilterd om scriptaanvallen op andere sites te voorkomen, zodat auteurs bijvoorbeeld beheerdersrechten kunnen verkrijgen.
 
-In het algemeen, al manuscript en `style` en alle `on*` en `style` kenmerken worden uit de uitvoer verwijderd.
+In het algemeen worden alle script- en `style` -elementen en alle `on*` - en `style` -kenmerken uit de uitvoer verwijderd.
 
-De regels zijn echter gecompliceerder omdat de component Embed AEM algemene filterregelset van het HTML AntiSamy-sanitatieframework volgt, die u kunt vinden op `/libs/cq/xssprotection/config.xml`. Dit kan voor project-specifieke configuratie door een ontwikkelaar indien vereist worden bedekt.
+De regels zijn echter gecompliceerder omdat de component Embed volgt AEM de algemene filterregelset van het HTML AntiSamy-sanitatieframework, die u kunt vinden op `/libs/cq/xssprotection/config.xml` . Dit kan voor project-specifieke configuratie door een ontwikkelaar indien vereist worden bedekt.
 
-Aanvullende beveiligingsinformatie vindt u in het gedeelte [AEM ontwikkelaarsdocumentatie voor installaties op locatie](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html) alsmede [AEM as a Cloud Service installaties.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)
+De extra veiligheidsinformatie kan in de [ AEM ontwikkelaarsdocumentatie voor op-gebouw installaties ](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html) evenals [ installaties van AEM as a Cloud Service worden gevonden.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)
 
 >[!NOTE]
 >
->Hoewel de regels van het AntiSamy sanitation framework kunnen worden geconfigureerd door bedekking `/libs/cq/xssprotection/config.xml`Deze wijzigingen zijn van invloed op al het HTML- en JSP-gedrag en niet alleen op de Embed Core Component.
+>Hoewel de regels van het AntiSamy sanitation framework kunnen worden geconfigureerd door `/libs/cq/xssprotection/config.xml` te bedekken, zijn deze wijzigingen van invloed op al het HTML- en JSP-gedrag en niet alleen op de Embed Core Component.
 
 ### Tabblad Stijlen {#styles-tab-edit}
 
-![Het tabblad Stijlen van het dialoogvenster Component bewerken](/help/assets/embed-styles.png)
+![ het lusje van Stijlen van uitgeeft dialoog van Embed Component ](/help/assets/embed-styles.png)
 
-De component Embed ondersteunt de AEM [Stijlsysteem.](/help/get-started/authoring.md#component-styling).
+De Embed Component steunt het AEM [ Systeem van de Stijl.](/help/get-started/authoring.md#component-styling).
 
 Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
 
-De stijlen moeten voor deze component in worden gevormd [ontwerpdialoogvenster](#design-dialog) zodat het vervolgkeuzemenu beschikbaar is.
+De stijlen moeten voor deze component in de [ ontwerpdialoog ](#design-dialog) worden gevormd opdat het drop-down menu beschikbaar is.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -137,24 +137,24 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de opties definiëren die bes
 
 ### Tabblad Insluitbare typen {#embeddable-types-tab}
 
-![Dialoogvenster Ontwerp van component insluiten](/help/assets/embed-design.png)
+![ bed de het ontwerpdialoog van de Component ](/help/assets/embed-design.png) in
 
-* **URL uitschakelen** - Schakelt de optie **URL** optie voor de auteur van de inhoud indien geselecteerd
-* **Ingesloten tabellen uitschakelen** - Schakelt de optie **Insluitbaar** als deze optie is geselecteerd, ongeacht welke insluitbare processors zijn toegestaan.
-* **HTML uitschakelen** - Schakelt de optie **HTML** als deze optie is geselecteerd voor de auteur van de inhoud.
-* **Toegestane insluitbare bestanden** - Multiselect die bepaalt welke insluitbare bewerkers aan de auteur van de inhoud beschikbaar zijn, op voorwaarde dat **Insluitbaar** is actief.
+* **maak URL** onbruikbaar - maakt de **URL** optie voor de inhoudauteur onbruikbaar wanneer geselecteerd
+* **maak Inbeddables** onbruikbaar - maakt de **Inbeddable** optie voor de inhoudauteur wanneer geselecteerd onbruikbaar, ongeacht welke ingebedde bewerkers worden toegestaan.
+* **maak HTML** onbruikbaar - maakt de **HTML** optie voor de inhoudauteur onbruikbaar wanneer geselecteerd.
+* **Toegestane Embeddables** - Multiselect die bepaalt welke beddable bewerkers aan de inhoudauteur beschikbaar zijn, op voorwaarde dat de **Inbeddable** optie actief is.
 
 ### YouTube Tab {#youtube-tab}
 
-![Het tabblad YouTube van het dialoogvenster Ontwerp van de component Embed](/help/assets/embed-design-youtube.png)
+![ YouTube lusje van de Embed het ontwerpdialoog van de Component ](/help/assets/embed-design-youtube.png)
 
-* **Configuratie van dempingsgedrag toestaan** - Hiermee stelt u de auteur van de inhoud in staat de **Dempen inschakelen** in de component wanneer het YouTube-insluittype is geselecteerd
-   * **Standaardwaarde van dempen** - Automatisch sets **Dempen inschakelen** als het YouTube-insluittype is geselecteerd
-* **Configuratie van gedrag voor automatisch afspelen toestaan** - Hiermee stelt u de auteur van de inhoud in staat de **Automatisch afspelen inschakelen** in de component wanneer het YouTube-insluittype is geselecteerd
-   * **Standaardwaarde voor automatisch afspelen** - Automatisch sets **Automatisch afspelen inschakelen** als het YouTube-insluittype is geselecteerd
-* **Configuratie van lusgedrag toestaan** - Hiermee stelt u de auteur van de inhoud in staat de **Lus inschakelen** in de component wanneer het YouTube-insluittype is geselecteerd
-   * **Standaardwaarde van lus** - Automatisch sets **Lus inschakelen** als het YouTube-insluittype is geselecteerd
-* **Configuratie van inline afspelen toestaan (iOS)** - Hiermee stelt u de auteur van de inhoud in staat de **Inline afspelen inschakelen (iOS)** in de component wanneer het YouTube-insluittype is geselecteerd
-   * **Standaardwaarde voor inline afspelen (iOS)** - Automatisch sets **Inline afspelen inschakelen (iOS)** als het YouTube-insluittype is geselecteerd
-* **Configuratie van inlinevideo&#39;s toestaan** - Hiermee stelt u de auteur van de inhoud in staat de **Onbeperkte verwante video&#39;s** in de component wanneer het YouTube-insluittype is geselecteerd
-   * **Standaardwaarde van onbeperkte verwante video&#39;s** - Automatisch sets **Onbeperkte verwante video&#39;s** als het YouTube-insluittype is geselecteerd
+* **staat configuratie van stomme gedrag** toe - staat inhoudauteur toe om **te vormen toelaten Dempen** optie in de component wanneer YouTube inbedt type wordt geselecteerd
+   * **Standaardwaarde van dempen** - plaatst automatisch **Dempen** optie toelaten wanneer YouTube inbedt type wordt geselecteerd
+* **staat configuratie van autoplay gedrag** toe - staat inhoudauteur toe om **te vormen laat** optie Autoplay in de component toe wanneer YouTube inbedt type wordt geselecteerd
+   * **Standaardwaarde van autoplay** - plaatst automatisch **Autoplay** optie toelaat wanneer YouTube inbedt type wordt geselecteerd
+* **staat configuratie van lusgedrag** toe - staat inhoudauteur toe om **te vormen toelaten Lijn** optie in de component wanneer YouTube inbedt type wordt geselecteerd
+   * **Standaardwaarde van lijn** - plaatst automatisch **Loop** optie toelaten wanneer YouTube inbedt type wordt geselecteerd
+* **staat configuratie van gealigneerde playback (iOS) toe** - staat inhoudauteur toe om **te vormen laat Gealigneerde Playback (iOS)** optie in de component toe wanneer YouTube inbedt type wordt geselecteerd
+   * **Standaardwaarde van gealigneerde playback (iOS)** - plaatst automatisch **laat Gealigneerde Playback (iOS) toe** optie wanneer YouTube inbed type wordt geselecteerd
+* **staat configuratie van gealigneerde video&#39;s** toe - staat inhoudsauteur toe om de **Onbeperkte Verwante Verwante Video&#39;s** optie in de component te vormen wanneer YouTube inbedt type wordt geselecteerd
+   * **Standaardwaarde van onbeperkte verwante video&#39;s** - plaatst automatisch **Onbeperkte Verwante Verwante Video&#39;s** optie wanneer YouTube inbedt type wordt geselecteerd

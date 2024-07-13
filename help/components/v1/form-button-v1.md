@@ -6,7 +6,7 @@ role: Architect, Developer, Admin, User
 exl-id: 2c06a942-7ac5-4847-9d11-7bbcd0ea51bd
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ Met de component Core Component Form Button kunt u een knopveld in een formulier
 
 ## Gebruik {#usage}
 
-Met de component Core Component Form Button kunt u een knopveld maken dat vaak de verzending van het formulier activeert en dat samen met het [formuliercontainercomponent](form-container-v1.md).
+De component van de Knoop van de Vorm van de Component van de Kern staat voor de verwezenlijking van knoopgebied toe, vaak om de voorlegging van de vorm teweeg te brengen en is bedoeld om samen met de [ component van de vormcontainer ](form-container-v1.md) worden gebruikt.
 
-De knopeigenschappen kunnen door de inhoudeditor in het dialoogvenster [dialoogvenster configureren](#configure-dialog).
+De knoopeigenschappen kunnen door de inhoudsredacteur in [ worden bepaald vormen dialoog ](#configure-dialog).
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -29,18 +29,18 @@ In de volgende tabel wordt de compatibiliteit van versie 1 van de component Form
 
 | AEM | Formulierknopcomponent v1 |
 |--- |--- |
-| 6.3 | Compatibel |
-| 6.4 | Compatibel |
+| 6,3 | Compatibel |
+| 6,4 | Compatibel |
 
 >[!CAUTION]
 >
 >In dit document wordt versie 1 van de component Form Button beschreven.
 >
->Voor meer informatie over de huidige versie van de component Form Button raadpleegt u de [Component Formulierknop](/help/components/forms/form-button.md) document.
+>Voor details van de huidige versie van de Component van de Knoop van de Vorm, zie het ](/help/components/forms/form-button.md) document van de Component van de Knoop van de Vorm 0} {.[
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende monster wordt genomen uit [Wij.Detailhandel](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Schermafbeelding {#screenshot}
 
@@ -84,7 +84,7 @@ Het volgende monster wordt genomen uit [Wij.Detailhandel](https://helpx.adobe.co
 
 >[!NOTE]
 >
->Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Zie de [compatibiliteitsinformatie voor Core Components v1](/help/versions.md) voor meer informatie .
+>Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Gelieve te zien de [ verenigbaarheidsinformatie voor de Componenten van de Kern v1 ](/help/versions.md) voor meer informatie.
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -93,14 +93,14 @@ In het dialoogvenster voor configureren kan de auteur van de inhoud de parameter
 ![](/help/assets/chlimage_1-49.png)
 
 * **Type**
-   * **Knop**
-   * **Verzenden**
+   * **Knoop**
+   * **voorleggen**
 
-* **Titel** - De tekst die op de knop wordt weergegeven
+* **Titel** - de tekst die op de knoop wordt getoond
    * Als er niets is opgegeven, wordt het knoptype standaard ingesteld
 
-* **Naam** - De naam van de knop, die samen met de formuliergegevens wordt verzonden
-* **Waarde** - De waarde van de knop, die samen met de formuliergegevens wordt verzonden
+* **Naam** - de naam van de knoop, die met de vormgegevens wordt voorgelegd
+* **Waarde** - de waarde van de knoop, die met de vormgegevens wordt voorgelegd
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -108,8 +108,8 @@ Er is geen dialoogvenster voor het ontwerp van de component Form Button.
 
 ## Technische details {#technical-details}
 
-De meest recente technische documentatie over de component FormButton [kan op GitHub worden gevonden](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v1/button).
+De recentste technische documentatie over de Component van de Knoop van de Vorm [ kan op GitHub ](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v1/button) worden gevonden.
 
 Het volledige kerncomponentenproject kan van GitHub worden gedownload.
 
-Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).

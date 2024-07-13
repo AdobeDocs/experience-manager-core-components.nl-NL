@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
 source-git-commit: 785aa82930e3bcf6ef16d7a1cdc614d230e8daa8
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ Leer hoe de Core Components de Adaptive Image Servlet voor beeldlevering gebruik
 De component Image Core kan twee methoden gebruiken om afbeeldingen te leveren.
 
 * Standaard is dit de Adaptive Image Servlet.
-* [Voor het web geoptimaliseerde afbeeldingslevering](/help/developing/web-optimized-image-delivery.md) is beschikbaar voor AEMaaCS en verkleint de downloadgrootte met gemiddeld 25%.
+* [ Web-geoptimaliseerde beeldlevering ](/help/developing/web-optimized-image-delivery.md) is beschikbaar aan AEMaaCS en vermindert downloadgrootte door gemiddeld 25%.
 
 In dit document wordt de standaard adaptieve afbeeldingsserver beschreven.
 
 ## Overzicht {#overview}
 
-Standaard gebruikt de component Image de Adaptive Image Servlet van de Core-component om afbeeldingen te leveren. [De Adaptive Image Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) is verantwoordelijk voor beeldverwerking en streaming en kan door ontwikkelaars in hun [aanpassingen van de kerncomponenten](/help/developing/customizing.md).
+Standaard gebruikt de component Image de Adaptive Image Servlet van de Core-component om afbeeldingen te leveren. [ de Adaptieve Servlet van het Beeld ](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) is verantwoordelijk voor beeldverwerking en het stromen en kan door ontwikkelaars in hun [ aanpassingen van de Componenten van de Kern ](/help/developing/customizing.md) worden leveraged.
 
 ## Selectie van vertoning {#rendition-selection}
 
@@ -48,6 +48,6 @@ Dit verbetert de prestaties en voorkomt dat sommige afbeeldingen niet correct wo
 
 ## Laatst gewijzigde koppen gebruiken {#last-modified}
 
-Voorwaardelijke verzoeken via de `Last-Modified` de header wordt ondersteund door de Adaptive Image Servlet, maar het in cache plaatsen van de `Last-Modified` header [moet worden ingeschakeld in de Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers).
+Voorwaardelijke verzoeken via de `Last-Modified` kopbal worden gesteund door de Adaptieve Servlet van het Beeld, maar het in het voorgeheugen onderbrengen van de `Last-Modified` kopbal [ moet in Dispatcher ](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers) worden toegelaten.
 
-[Het AEM Project Archetype](/help/developing/archetype/overview.md)De voorbeeldconfiguratie van Dispatcher bevat al deze configuratie.
+[ het AEM Archetype van het Project ](/help/developing/archetype/overview.md) de configuratie van steekproefDispatcher bevat reeds deze configuratie.

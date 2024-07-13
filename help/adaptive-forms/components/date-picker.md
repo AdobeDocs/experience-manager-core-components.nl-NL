@@ -16,23 +16,23 @@ Een component voor de datumkiezer in een adaptief formulier is een interface-ele
 
 **Voorbeeld**
 
-![voorbeeld](/help/adaptive-forms/assets/date-picker.png)
+![ voorbeeld ](/help/adaptive-forms/assets/date-picker.png)
 
 ## Gebruik {#reasons-to-use-drop-date-picker}
 
 Er zijn verschillende redenen waarom het nuttig is een datumkiezer op te nemen in een adaptief formulier, zoals:
 
-- **Handigheid**: Met een component voor een datumkiezer kunnen gebruikers eenvoudig een datum in een kalender selecteren zonder de datum handmatig in te voeren in een tekstveld. Dit kan tijd besparen en fouten verminderen.
+- **Handigheid**: Een component van de datumkiezer staat gebruikers toe om een datum van een kalender gemakkelijk te selecteren zonder het moeten de datum op een tekstgebied manueel ingaan. Dit kan tijd besparen en fouten verminderen.
 
-- **Gebruikerservaring**: Met de component Datumkiezer kunt u het formulier gebruiksvriendelijker maken door gebruikers een duidelijke en intuïtieve manier te bieden om de datum te selecteren.
+- **Ervaring van de Gebruiker**: De component van de plukker van de datum kan worden gebruikt om de vorm gebruikersvriendelijker te maken door een duidelijke en intuïtieve manier voor gebruikers te verstrekken om datum te selecteren.
 
-- **Gegevensanalyse**: De component Date Picker kan worden gebruikt om gegevens van diverse bronnen te verzamelen en te analyseren, of het als input voor verdere verwerking te gebruiken.
+- **analyse van Gegevens**: De component van de plukker van de datum kan worden gebruikt om gegevens uit diverse bronnen te verzamelen en het te analyseren, of het als input voor verdere verwerking te gebruiken.
 
-- **Gebeurtenisbeheer**: De component Date Picker kan in gebeurtenisbeheerwebsites worden gebruikt om de gebeurtenisdatum te selecteren.
+- **Gebeurtenisbeheer**: De component van de plukker van de datum kan in gebeurtenisbeheerwebsites worden gebruikt om de gebeurtenisdatum te selecteren.
 
-- **Boekhouding en reservering**: De component met de datumkiezer kan worden gebruikt voor het maken van boekingen en het reserveren van websites om de datum van inchecken en uitchecken te selecteren.
+- **Boek en reserve**: De component van de plukker van de datum kan in boekings en reserveringswebsites worden gebruikt om de controle-binnen en controledata te selecteren.
 
-- **Datumnotatie**: De component van de plukker van de datum kan worden gebruikt om het formaat te bevestigen waarin de datum wordt getoond en ingegaan. Zorg ervoor dat de datumnotatie in het formulier consistent is, zodat de gebruiker er altijd last van heeft.
+- **formaat van de Datum**: De component van de plukker van de Datum kan worden gebruikt om het formaat te bevestigen waarin de datum wordt getoond en ingegaan. Zorg ervoor dat de datumnotatie in het formulier consistent is, zodat de gebruiker er altijd last van heeft.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -40,9 +40,9 @@ De Adaptive Forms Accordion Core Component is in februari 2023 uitgebracht als o
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
-| v1 | Compatibel met<br>[versie 2.0.4](/help/adaptive-forms/version.md) en hoger | Compatibel met<br>[release 1.1.12](/help/adaptive-forms/version.md) en later, maar minder dan 2.0.0. |
+| v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Raadpleeg voor meer informatie over versies en releases van de Core Component de [Versies van kerncomponenten](/help/adaptive-forms/version.md) document.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -50,7 +50,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Technische details {#technical-details}
 
-Ga voor de meest recente informatie over de Adaptive Forms Date Picker Core Component naar de technische documentatie over [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/datepicker/v1/datepicker). Voor meer informatie over het ontwikkelen van Core Components, bekijk [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+Krijg de recentste informatie over de AanpassingsComponent van de Kern van de Plukker van de Datum van Forms in de technische documentatie op [ GitHub ](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/datepicker/v1/datepicker). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern ](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -58,94 +58,94 @@ Met het dialoogvenster Configureren kunt u de datumkiezer-ervaring voor bezoeker
 
 ### Tabblad Standaard {#basic-tab}
 
-![Het tabblad Basis](/help/adaptive-forms/assets/datepicker_basictab.png)
+![ Basis lusje ](/help/adaptive-forms/assets/datepicker_basictab.png)
 
-- **Naam** - De naam identificeert uniek de component in de regelredacteur. Speciale tekens en spaties zijn niet toegestaan in de naamtekenreeksen.
+- **Naam** - de naam identificeert uniek de component in de regelredacteur. Speciale tekens en spaties zijn niet toegestaan in de naamtekenreeksen.
 
-- **Titel** - Titel is een tekenreeks die boven aan een component in een adaptief formulier wordt weergegeven. De titel geeft de component in de boomstructuur van een adaptief formulier op unieke wijze aan. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
-- **RTF-tekst voor titel toestaan** - Met deze functies kunnen gebruikers gewone teksttitels opmaken en functies zoals vet, cursief, onderstreepte tekst, diverse lettertypen, tekengrootten, kleuren en extra opties opnemen om de visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
-  Na het selecteren van het selectievakje voor **RTF-tekst voor titel toestaan** worden opmaakopties zichtbaar om de titel van de component op te maken. Als u toegang wilt tot alle beschikbare opmaakopties, klikt u op de knop ![Pictogram Volledig scherm](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+- **Titel** - de Titel is een koord dat bij de bovenkant van een component in een Aangepaste Vorm verschijnt. De titel geeft de component in de boomstructuur van een adaptief formulier op unieke wijze aan. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
+- **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
+  Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
-  ![RTF-ondersteuning](/help/adaptive-forms/assets/richtext-support-title.png)
+  ](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0}![
 
-- **Titel verbergen** - Selecteer deze optie om de titel van het componenttype in een adaptief formulier te verbergen.
+- **Titel van de Huid** - selecteer deze optie om titel van het componenttype in een Aangepaste Vorm te verbergen.
 
-- **Plaatsaanduidingstekst** - Plaatsaanduidingstekst in een formuliercomponent verwijst naar een kort label of een korte vraag die binnen een invoerveld wordt weergegeven als een tip voor de gebruiker met betrekking tot welk type informatie naar verwachting in dat veld wordt ingevoerd. Plaatsaanduidingstekst verdwijnt wanneer de gebruiker in het veld typt en verschijnt opnieuw als het veld leeg blijft. De klasse biedt een visuele aanwijzing voor de gebruiker, maar fungeert niet als een permanent label of een permanente waarde voor het veld.
-- **Bindverwijzing** - Een bind verwijzing is een verwijzing naar een gegevenselement dat in een externe gegevensbron wordt opgeslagen en in een vorm wordt gebruikt. Met de bind-verwijzing kunt u gegevens dynamisch binden aan formuliervelden, zodat in het formulier de meest actuele gegevens uit de gegevensbron kunnen worden weergegeven. Een bind-verwijzing kan bijvoorbeeld worden gebruikt om de naam en het adres van een klant in een formulier weer te geven op basis van de id van de klant die in het formulier is ingevoerd. De bind verwijzing kan ook worden gebruikt om de gegevensbron met gegevens bij te werken ingegaan in de vorm. Op deze manier kunt u met AEM Forms formulieren maken die interageren met externe gegevensbronnen, zodat u een naadloze gebruikerservaring hebt voor het verzamelen en beheren van gegevens.
+- **Plaatsaanduidingstekst** - De placeholder tekst in een vormcomponent verwijst naar een kort etiket of een herinnering die binnen een inputgebied als wenk aan de gebruiker verschijnt op welk type van informatie naar verwachting op dat gebied zal zijn ingegaan. Plaatsaanduidingstekst verdwijnt wanneer de gebruiker in het veld typt en verschijnt opnieuw als het veld leeg blijft. De klasse biedt een visuele aanwijzing voor de gebruiker, maar fungeert niet als een permanent label of een permanente waarde voor het veld.
+- **Bind Verwijzing** - A bindt verwijzing is een verwijzing naar een gegevenselement dat in een externe gegevensbron wordt opgeslagen en in een vorm wordt gebruikt. Met de bind-verwijzing kunt u gegevens dynamisch binden aan formuliervelden, zodat in het formulier de meest actuele gegevens uit de gegevensbron kunnen worden weergegeven. Een bind-verwijzing kan bijvoorbeeld worden gebruikt om de naam en het adres van een klant in een formulier weer te geven op basis van de id van de klant die in het formulier is ingevoerd. De bind verwijzing kan ook worden gebruikt om de gegevensbron met gegevens bij te werken ingegaan in de vorm. Op deze manier kunt u met AEM Forms formulieren maken die interageren met externe gegevensbronnen, zodat u een naadloze gebruikerservaring hebt voor het verzamelen en beheren van gegevens.
 
-- **Markeren als niet-gebonden formulierelement**: Selecteer de optie om een formulierveld te configureren dat niet is gekoppeld aan een schema. Met deze optie kunt u gegevens opslaan zonder de gegevensbron bij te werken. Het laat u ook toe om gegevens op een douanemethode, los van standaardgegevensbestandintegratie te behandelen.
+- **Teken als Niet-gebonden Element van de Vorm**: Selecteer de optie om een vormgebied te vormen niet verbonden aan om het even welk schema. Met deze optie kunt u gegevens opslaan zonder de gegevensbron bij te werken. Het laat u ook toe om gegevens op een douanemethode, los van standaardgegevensbestandintegratie te behandelen.
 
-- **Component verbergen** - Selecteer de optie om de component te verbergen voor het formulier. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel. Dit is handig wanneer u informatie wilt opslaan die niet hoeft te worden bekeken of rechtstreeks door de gebruiker hoeft te worden gewijzigd.
-- **Component uitschakelen** - Selecteer de optie om de component uit te schakelen. De uitgeschakelde component is niet actief of bewerkbaar voor de eindgebruiker. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
-- **Alleen-lezen** - Selecteer de optie om de component niet-bewerkbaar te maken. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
-- **Standaarddatum** - Met deze optie kunt u een datum toevoegen aan het formulierveld. De ingevoerde datum wordt standaard weergegeven op de plaats van de component. Als de gebruiker geen datum invoert, wordt deze waarde verzonden op het moment dat het formulier wordt verzonden. In geval van **Uitgeschakelde component** of **Component (alleen-lezen)** is geselecteerd, wordt de standaarddatum weergegeven op het scherm en verzonden op het moment dat het formulier wordt verzonden.
+- **de Component van de Huid** - selecteer de optie om de component van de vorm te verbergen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel. Dit is handig wanneer u informatie wilt opslaan die niet hoeft te worden bekeken of rechtstreeks door de gebruiker hoeft te worden gewijzigd.
+- **maak Component** onbruikbaar - selecteer de optie om de component onbruikbaar te maken. De uitgeschakelde component is niet actief of bewerkbaar voor de eindgebruiker. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
+- **read-only** - selecteer de optie om de component niet-editable te maken. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
+- **StandaardDatum** - deze optie staat u toe om een datum aan het vormgebied toe te voegen. De ingevoerde datum wordt standaard weergegeven op de plaats van de component. Als de gebruiker geen datum invoert, wordt deze waarde verzonden op het moment dat het formulier wordt verzonden. In het geval **Gehandicapte Component** of **read-only Component** wordt geselecteerd, wordt de standaarddatum getoond op het scherm en voorgelegd op het tijdstip van vormvoorlegging.
 
 
 ### Tabblad Validatie {#validation-tab}
 
-![Tabblad Validatie](/help/adaptive-forms/assets/datepicker_validation.png)
+![ het lusje van de Bevestiging ](/help/adaptive-forms/assets/datepicker_validation.png)
 
-- **Vereist** - Selecteer deze optie als u de component wilt weergeven in een adaptief formulier. Nadat u de optie hebt geselecteerd, moet u een selectie maken voordat u een formulier kunt verzenden. U kunt de **Component verbergen** of **Component uitschakelen** in de **Basis** als deze optie is geselecteerd.
+- **Vereist** - selecteer deze optie, als u de component in een Aangepaste Vorm wilt tonen. Nadat u de optie hebt geselecteerd, moet u een selectie maken voordat u een formulier kunt verzenden. U kunt niet de **Component van de Verbergen** selecteren of **Component** in het **Basis** lusje onbruikbaar maken wanneer deze optie wordt geselecteerd.
 
-- **Foutbericht** - Met deze optie kunt u een bericht invoeren dat wordt weergegeven als de optie **Vereist** wordt ingeschakeld en wordt het formulierveld leeg gelaten.
+- **Bericht van de Fout** - Deze optie staat u toe om een bericht in te gaan dat wordt getoond als **Vereiste** checkbox wordt gecontroleerd en het vormgebied wordt verlaten leeg.
 
-- **Bericht voor scriptvalidatie** - Met deze optie kunt u een bericht invoeren dat wordt weergegeven als de scriptvalidatie mislukt.
+- **Bericht van de Bevestiging van het Manuscript** - Deze optie staat u toe om een bericht in te gaan dat moet worden getoond als de manuscriptbevestiging ontbreekt.
 
-- **Minimumdatum** - Met deze optie kunt u de minimaal vereiste datum invoeren. Als u een datum vóór de in Minimumdatum opgegeven datum invoert, verschijnt er een foutbericht op het scherm. De **Minimale foutmelding** kunt u een aangepast foutbericht toevoegen.
+- **Minimale Datum** - deze optie staat u toe om de minimaal vereiste datum in te gaan. Als u een datum vóór de in Minimumdatum opgegeven datum invoert, verschijnt er een foutbericht op het scherm. Het **Minimale de dialoogvakje van het Bericht van de Fout** staat u toe om een bericht van de douanefout toe te voegen.
 
-- **Minimale foutmelding** - de **Minimale foutmelding** kunt u een aangepast foutbericht toevoegen dat moet worden weergegeven als u een eerdere datum invoert dan de datum die is opgegeven in het dialoogvenster **Minimumdatum** -optie.
-- **Minimumdatum uitsluiten** - Met deze optie kunt u de minimumdatum weglaten in een bepaald bereik of een bepaalde set datums.
+- **Minimale Bericht van de Fout** - het **Minimale de dialoogvakje van het Bericht van de Fout** staat u toe om een te tonen douanefoutenmelding toe te voegen, als u een datum vroeger dan de datum ingaat die in de **Minimale optie van de Datum** wordt gespecificeerd.
+- **sluit minimumdatum** uit - deze optie staat toe om de minimumdatum in een bepaalde waaier of een reeks data weg te laten.
 
-- **Maximumdatum** - Met deze optie kunt u de maximaal vereiste datum invoeren. Als u een datum later dan de datum ingaat die in MaximumDatum wordt gespecificeerd, verschijnt een foutenmelding op het scherm. De **Maximum foutbericht** kunt u een aangepast foutbericht toevoegen.
+- **Maximale Datum** - deze optie staat u toe om de maximum vereiste datum in te gaan. Als u een datum later dan de datum ingaat die in MaximumDatum wordt gespecificeerd, verschijnt een foutenmelding op het scherm. Het **Maximale de dialoogvakje van het Bericht van de Fout** staat u toe om een bericht van de douanefout toe te voegen.
 
-- **Maximum foutbericht** - de **Maximum foutbericht** kunt u een aangepast foutbericht toevoegen dat wordt weergegeven als u een datum later dan de datum invoert die in het dialoogvenster **Maximumdatum** -optie.
+- **MaximumBericht van de Fout** - het **Maximale de dialoogvakje van het Bericht van de Fout** staat u toe om een te tonen douanefoutenmelding toe te voegen, als u een datum later dan de datum ingaat die in de **MaximumDatum** optie wordt gespecificeerd.
 
-- **Maximumdatum uitsluiten** - Met deze optie kunt u de maximumdatum in een bepaald bereik of een bepaalde set datums weglaten.
+- **sluit maximumdatum** uit - deze optie staat toe om de maximumdatum in een bepaalde waaier of een reeks data weg te laten.
 
 ### Het tabblad Help-inhoud {#help-content-tab}
 
-![Help-inhoud, tabblad](/help/adaptive-forms/assets/datepicker_helptab.png)
+![ Inhoud tabel van de Hulp ](/help/adaptive-forms/assets/datepicker_helptab.png)
 
-- **Korte beschrijving** - Een korte beschrijving is een korte tekstuitleg met aanvullende informatie of verduidelijking over het doel van een specifiek formulierveld. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. De optie **Altijd korte beschrijving tonen** gebruiken om de achtergrondafbeelding onder de component weer te geven.
+- **Korte beschrijving** - een korte beschrijving is een korte tekstverklaring die extra informatie of verduidelijking over het doel van een specifiek vormgebied verstrekt. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. Laat **toe tonen altijd korte beschrijving** optie om het onder de component te tonen.
 
-- **Altijd korte beschrijving tonen**- Schakel de optie in om de korte beschrijving onder de component weer te geven.
+- **toont altijd korte beschrijving** - laat de optie toe om de Korte beschrijving onder de component te tonen.
 
-- **Help-tekst** - De Help-tekst verwijst naar aanvullende informatie of aanwijzingen die de gebruiker krijgt om deze te helpen bij het correct invullen van een formulierveld. Deze wordt weergegeven wanneer de gebruiker op het Help-pictogram (i) naast de component klikt. De Help-tekst biedt gedetailleerdere informatie dan de label- of plaatsaanduidingstekst van een formulierveld en is ontworpen om de gebruiker te helpen de vereisten of beperkingen van het veld te begrijpen. Het kan ook suggesties of voorbeelden bevatten om het invullen van het formulier eenvoudiger en nauwkeuriger te maken.
+- **tekst van de Hulp** - de tekst van de Hulp verwijst naar extra informatie of begeleiding die aan de gebruiker wordt verstrekt om hen bij het correct invullen van een vormgebied bij te staan. Deze wordt weergegeven wanneer de gebruiker op het Help-pictogram (i) naast de component klikt. De Help-tekst biedt gedetailleerdere informatie dan de label- of plaatsaanduidingstekst van een formulierveld en is ontworpen om de gebruiker te helpen de vereisten of beperkingen van het veld te begrijpen. Het kan ook suggesties of voorbeelden bevatten om het invullen van het formulier eenvoudiger en nauwkeuriger te maken.
 
 
 ### Tabblad Toegankelijkheid {#accessibility-tab}
 
-![Toegankelijkheid, tabblad](/help/adaptive-forms/assets/datepicker_accessibilitytab.png)
+![ Toegankelijkheid tabel ](/help/adaptive-forms/assets/datepicker_accessibilitytab.png)
 
-- **Tekst voor schermlezers** - Tekst voor schermlezers verwijst naar extra tekst die specifiek is bedoeld om te worden gelezen door ondersteunende hulpmiddelen, zoals schermlezers, die door visueel gehandicapten worden gebruikt. Deze tekst bevat een audiobeschrijving van het doel van het formulierveld en kan informatie bevatten over de titel, beschrijving, naam en relevante berichten (aangepaste tekst) van het veld. Met de schermlezertekst kunt u ervoor zorgen dat het formulier toegankelijk is voor alle gebruikers, inclusief gebruikers met een visuele handicap, en krijgt deze een volledig inzicht in het formulierveld en de vereisten ervan.
-   - **Aangepaste tekst**: Selecteer deze optie als u de aangepaste tekst voor toegankelijkheidslabels in ARIA wilt gebruiken. Als u deze optie selecteert, wordt het dialoogvenster Aangepaste tekst weergegeven. U kunt relevante informatie toevoegen in het dialoogvenster Aangepaste tekst.
-   - **Beschrijving**: Selecteer deze optie als u de beschrijving voor toegankelijkheidslabels van ARIA wilt gebruiken.
-   - **Titel**: Selecteer deze optie als u de titel voor toegankelijkheidslabels in ARIA wilt gebruiken.
-   - **Naam**: Selecteer deze optie als u de naam voor toegankelijkheidslabels van ARIA wilt gebruiken.
-   - **Geen**: Selecteer deze optie als u geen toegankelijkheidslabels voor ARIA wilt toevoegen.
+- **Tekst voor het schermlezers** - de Tekst voor het schermlezers verwijst naar extra tekst die specifiek bedoeld is om door ondersteunende technologieën, zoals het schermlezers te worden gelezen, die door visueel gehandicapte individuen wordt gebruikt. Deze tekst bevat een audiobeschrijving van het doel van het formulierveld en kan informatie bevatten over de titel, beschrijving, naam en relevante berichten (aangepaste tekst) van het veld. Met de schermlezertekst kunt u ervoor zorgen dat het formulier toegankelijk is voor alle gebruikers, inclusief gebruikers met een visuele handicap, en krijgt deze een volledig inzicht in het formulierveld en de vereisten ervan.
+   - **Tekst van de Douane**: Selecteer deze optie om de douanetekst voor de toegankelijkheidslabels van ARIA te gebruiken. Als u deze optie selecteert, wordt het dialoogvenster Aangepaste tekst weergegeven. U kunt relevante informatie toevoegen in het dialoogvenster Aangepaste tekst.
+   - **Beschrijving**: Selecteer deze optie om de beschrijving voor de toegankelijkheidslabels van ARIA te gebruiken.
+   - **Titel**: Selecteer deze optie om de titel voor de toegankelijkheidslabels van ARIA te gebruiken.
+   - **Naam**: Selecteer deze optie om de naam voor de toegankelijkheidslabels van ARIA te gebruiken.
+   - **niets**: Selecteer deze optie als u niet voor de toegankelijkheidslabels van ARIA wilt toevoegen.
 
 ### Tabblad Opmaak {#format-tab}
 
-![Tabblad Indelingen](/help/adaptive-forms/assets/datepicker_formattab.png)
+![ Formaten tabel ](/help/adaptive-forms/assets/datepicker_formattab.png)
 
-- **Weergave-indeling** - Het staat voor de datumnotatie die aan de gebruiker wordt weergegeven. De **Type** kan de gebruiker de datumnotatie selecteren. U kunt de datumnotatie ook aanpassen met de opdracht **Aangepast** in de **Type** vervolgkeuzelijst.
+- **Formaat van de Vertoning** - het vertegenwoordigt het datumformaat dat aan de gebruiker wordt getoond. De **optie van het Type** staat de gebruiker toe om het datumformaat te selecteren. U kunt het datumformaat ook aanpassen gebruikend de **optie van de Douane** in het **Type** dropdown menu.
 
-- **Opmaak bewerken** - Dit is een datumnotatie waarin de gebruiker de datum kan bewerken. De **Type** kan de gebruiker de datumnotatie selecteren. U kunt de datumnotatie ook aanpassen met de opdracht **Aangepast** in de **Type** vervolgkeuzelijst.
-- **Foutbericht opmaken** - Met deze optie kunt u het bericht invoeren dat op het scherm wordt weergegeven wanneer de ingevoerde datum niet de juiste notatie heeft.
-- **Taal** - Deze functie wordt gebruikt voor het opmaken van het specifieke veld. Wanneer een gebruiker een taaloptie selecteert in het menu **Type** vervolgkeuzemenu, **Taaltag IETF BCP 47** wordt weergegeven in het deelvenster. U kunt de taal voor veldopmaak kiezen wanneer u een adaptief formulier in een specifieke taal vertaalt.
+- **geeft Formaat** uit - het vertegenwoordigt een datumformaat waarin de gebruiker de datum kan uitgeven. De **optie van het Type** staat de gebruiker toe om het datumformaat te selecteren. U kunt het datumformaat ook aanpassen gebruikend de **optie van de Douane** in het **Type** dropdown menu.
+- **de foutenmelding van het Formaat** - Deze optie staat u toe om het bericht in te gaan dat op het scherm wordt getoond wanneer de ingegaan datum niet in het correcte formaat is.
+- **Taal** - deze eigenschap wordt gebruikt voor het formatteren van het specifieke gebied. Wanneer een gebruiker om het even welke taaloptie van het **Type** drop-down menu selecteert, verschijnt de **IETF BCP 47 taalmarkering** optie in het paneel. U kunt de taal voor veldopmaak kiezen wanneer u een adaptief formulier in een specifieke taal vertaalt.
 
-De set talen is standaard niet zichtbaar, maar gebruikers kunnen een aangepaste set invoeren **Taaltag IETF BCP 47** door het sjabloonbeleid bij te werken:
+De reeks talen is niet zichtbaar door gebrek, maar de gebruikers kunnen een douane **IETF BCP 47 taalmarkering** invoeren door het malplaatjebeleid bij te werken:
 
 1. Open de bijbehorende sjabloon die aan een adaptief formulier is gekoppeld in de sjablooneditor.
-2. Het bestaande beleid selecteren als `datepicker-default-policy` in het keuzemenu.
+2. Selecteer het bestaande beleid als `datepicker-default-policy` in de keuzelijst.
 
-   ![Sjabloonbeleid datumkiezer](/help/adaptive-forms/assets/date-picker-template-policy.png)
+   ![ het malplaatjebeleid van de Plukker van de Datum ](/help/adaptive-forms/assets/date-picker-template-policy.png)
 
-3. Klikken **Gereed**.
+3. Klik **Gedaan**.
 
    >[!NOTE]
    >
-   > Voor meer informatie over het vertalen van een adaptief formulier naar een specifieke landinstelling, [klik hier](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+   > Voor verdere informatie over hoe te om een AanpassingsVorm aan een specifieke scène te vertalen, [ klik hier ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -153,33 +153,33 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de component Dat
 
 ### Tabblad Stijlen {#styles-tab}
 
-Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De Adaptive Forms Date-Picker Core Component ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve de datum-plukkerComponent van de Kern van Forms steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
 
-![Het tabblad Stijl](/help/adaptive-forms/assets/datepicker_styletab.png)
+![ lusje van de Stijl ](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **Standaard CSS-klassen**: U kunt een standaard CSS-klasse opgeven voor de Adaptive Forms Date-picker Core Component.
+- **StandaardCSS Klassen**: U kunt een standaardCSS klasse voor de AanpassingsForms Datum-plukker Component van de Kern verstrekken.
 
-- **Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight: bold&quot; opgeven. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
+- **Toegestane Stijlen**: U kunt stijlen bepalen door een naam en de CSS klasse te verstrekken die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight: bold&quot; opgeven. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Om een stijl, in de Aanpassingsredacteur van Forms toe te passen, selecteer de component u de stijl op wilt toepassen, aan de eigenschappendialoog navigeren, en de gewenste stijl van de **drop-down lijst van Stijlen** selecteren. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
 
 ### Aangepaste eigenschappen
 
-![Dialoogvenster Aangepaste eigenschappen](/help/adaptive-forms/assets/datepicker_customproperties.png)
+![ de Dialoog van Eigenschappen van de Douane ](/help/adaptive-forms/assets/datepicker_customproperties.png)
 
 Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aan een Adaptief kernonderdeel van een formulier koppelen met behulp van de formuliersjabloon. De aangepaste eigenschappen worden weergegeven in de sectie Eigenschappen van de koploze uitvoering van de component. Hiermee kunt u dynamisch formuliergedrag maken dat wordt aangepast op basis van de waarden van aangepaste kenmerken. Ontwikkelaars kunnen bijvoorbeeld verschillende uitvoeringen van een Forms-component zonder koptekst ontwerpen voor mobiele apparaten, desktops of webplatforms, waardoor de gebruikerservaring op een groot aantal apparaten aanzienlijk wordt verbeterd.
 
-- **Groepsnaam**: U kunt een naam opgeven om de groep met aangepaste eigenschappen te identificeren. U kunt meerdere groepen met aangepaste eigenschappen toevoegen, verwijderen of opnieuw rangschikken. Nadat u de aangepaste groep eigenschappen hebt toegevoegd, kunt u de volgende opties zien:
+- **Naam van de Groep**: U kunt een naam verstrekken om de groep van het douanebezit te identificeren. U kunt meerdere groepen met aangepaste eigenschappen toevoegen, verwijderen of opnieuw rangschikken. Nadat u de aangepaste groep eigenschappen hebt toegevoegd, kunt u de volgende opties zien:
 
-   - **Belangrijke paren**: U kunt meerdere aangepaste eigenschapnamen en aangepaste eigenschapswaarden toevoegen door op de knop **Toevoegen** knop voor elke aangepaste groep eigenschappen.
+   - **zeer belangrijk-Waarde paren**: U kunt veelvoudige namen van het douanebezit en douanebezitswaarden toevoegen door **te klikken voegt** knoop voor elke groep van het douanebezit toe.
 
-   - **Verwijderen**: Tik of klik om de naam van de aangepaste eigenschap en de waarde van de aangepaste eigenschap te verwijderen.
+   - **Schrapping**: Tik of klik om de naam van het douanebezit en de waarde van het douanebezit te schrappen.
 
-   - **Opnieuw rangschikken**: Tik of klik en sleep om de volgorde van de naam van de aangepaste eigenschap en de waarde van de aangepaste eigenschap te wijzigen.
+   - **herschikt**: Tik of klik en sleep om de orde van de naam van het douanebezit en de waarde van het douanebezit te herschikken.
 
 ### Tabblad Opmaak {#formats-tab}
 
 Op het tabblad Indelingen kunt u standaard- en aangepaste datumnotaties opgeven.
 
-![Formattab](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
+![ Formattab ](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
 
 <!--
 

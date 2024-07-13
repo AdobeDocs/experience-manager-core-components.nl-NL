@@ -5,8 +5,8 @@ role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
 source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 1%
+source-wordcount: '769'
+ht-degree: 0%
 
 ---
 
@@ -16,21 +16,21 @@ Een voettekstcomponent in een adaptief formulier is een gebied dat doorgaans ond
 
 **Voorbeeld**
 
-![voorbeeld](/help/adaptive-forms/assets/footer.png)
+![ voorbeeld ](/help/adaptive-forms/assets/footer.png)
 
 ## Gebruik {#reasons-to-use-footer}
 
 Er zijn verschillende redenen waarom het nuttig is om een voettekstcomponent in een formulier op te nemen, zoals:
 
-- **Wettelijke vereisten**: Sommige formulieren moeten mogelijk een disclaimer, copyrightvermelding of andere juridische informatie bevatten. Een voettekst is een handige plaats om deze informatie op te nemen.
+- **wettelijke vereisten**: Sommige vormen kunnen worden vereist om een ontkenning, een auteursrechtbericht, of andere wettelijke informatie te omvatten. Een voettekst is een handige plaats om deze informatie op te nemen.
 
-- **Navigatie**: Een voettekst kan koppelingen bevatten naar andere belangrijke pagina&#39;s op de website, zoals een privacybeleid, servicevoorwaarden of contactpagina.
+- **Navigatie**: Voettekst kan verbindingen aan andere belangrijke pagina&#39;s op de website, zoals een privacybeleid, termijnen van de dienst, of contactpagina verstrekken.
 
-- **Branding**: Een voettekst kan worden gebruikt om een logo of andere brandingelementen op te nemen die de identiteit van de organisatie of website helpen versterken.
+- **Branding**: Voettekst kan worden gebruikt om een embleem of andere brandende elementen te omvatten, die helpen de identiteit van de organisatie of website versterken.
 
-- **Consistentie**: Een voettekst biedt consistentie in het ontwerp en de indeling van het formulier, waardoor het intuïtiever wordt en gebruikers gemakkelijker door het formulier kunnen navigeren.
+- **Consistentie**: Voettekst verstrekt consistentie in het ontwerp en de lay-out van de vorm, die het intuïtiever en voor gebruikers gemakkelijk maken om te navigeren.
 
-- **Aanvullende context**: Een voettekst kan een extra context voor het formulier bieden, zoals een tekst die het formulier beschrijft of een koppeling naar gerelateerde bronnen, waardoor het formulier informatiever en gebruiksvriendelijker wordt.
+- **Extra context**: Voettekst kan extra context aan de vorm, zoals een tekst verstrekken beschrijvend de vorm of een verbinding aan verwante middelen, die tot de vorm informatief en gebruikersvriendelijker maken.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -38,9 +38,9 @@ De Adaptive Forms Accordion Core Component is in februari 2023 uitgebracht als o
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
-| v1 | Compatibel met<br>[versie 2.0.4](/help/adaptive-forms/version.md) en hoger | Compatibel met<br>[release 1.1.12](/help/adaptive-forms/version.md) en later, maar minder dan 2.0.0. |
+| v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Raadpleeg voor meer informatie over versies en releases van de Core Component de [Versies van kerncomponenten](/help/adaptive-forms/version.md) document.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -48,58 +48,58 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Technische details {#technical-details}
 
-Lees de nieuwste informatie over de Adaptive Forms Footer Core Component in de technische documentatie over [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/footer/v1/footer). Voor meer informatie over het ontwikkelen van Core Components, bekijk [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+Krijg de recentste informatie over de Aangepaste Component van de Kern van de Voettekst van Forms in de technische documentatie op [ GitHub ](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/footer/v1/footer). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern ](/help/developing/overview.md).
 
 
 ## Dialoogvenster configureren {#configure-dialog}
 
 Met het dialoogvenster Configureren kunt u de voettekstervaring voor bezoekers eenvoudig aanpassen. U kunt ook eenvoudig voettekstopties definiëren voor een naadloze gebruikerservaring.
 
-![Eigenschappen, tabblad](/help/adaptive-forms/assets/footer_propertiestab.png)
+![ Eigenschappen tabel ](/help/adaptive-forms/assets/footer_propertiestab.png)
 
-- **Dialoogvenster Bewerken**
+- **geef de doos van de Dialoog** uit
 Het dialoogvenster Bewerken bevat standaardgereedschappen voor tekstopmaak waarmee de gebruiker tekst voor de voettekst kan maken.
 
-- **Vet** - Met deze optie past u vette opmaak toe op geselecteerde tekst of opgemaakte tekst die na de cursor wordt ingevoerd. `Ctrl+B` is een sneltoets.
+- **Vet** - deze optie past vette het formatteren op geselecteerde teksten of versleten toe   formatteer tekst ingegaan na de curseur. `Ctrl+B` is een sneltoets.
 
-- **Cursief** - Met deze optie wordt cursieve opmaak toegepast op geselecteerde tekst of cursieve tekst die na de cursor wordt ingevoerd. `Ctrl+I` is een sneltoets.
+- **Cursief** - deze optie past cursief het formatteren op geselecteerde teksten toe of   Tekst die na de cursor is ingevoerd cursief maken. `Ctrl+I` is een sneltoets.
 
-![Opties voor opsommingstekens](/help/adaptive-forms/assets/footer_bullet.png)
+![ Opties van de Opsommingstekens ](/help/adaptive-forms/assets/footer_bullet.png)
 
 
 - **Opsommingsteken**
 
-   - **Pictogram voor opsommingstekens** - De geselecteerde tekst wordt opgemaakt als een lijst met opsommingstekens of er wordt begonnen met het invoegen van een lijst met opsommingstekens na de cursor. Tik of klik nogmaals op de knop Opsommingsteken of voer twee regeleinden in om een lijst met opsommingstekens te beëindigen.
+   - **pictogram van het Bullet** - het formatteert de geselecteerde tekst als bulleted lijst of begint de toevoeging van een bulleted lijst na de curseur. Tik of klik nogmaals op de knop Opsommingsteken of voer twee regeleinden in om een lijst met opsommingstekens te beëindigen.
 
-   - **Pictogram Genummerde lijst** - De geselecteerde tekst wordt opgemaakt als een genummerde lijst of er wordt begonnen met het invoegen van een genummerde lijst na de cursor. Tik of klik nogmaals op de knop Genummerd om een genummerde lijst te beëindigen of voer twee regeleinden in.
+   - **Genummerd lijstpictogram** - het formatteert de geselecteerde tekst als genummerde lijst of begint de toevoeging van een genummerde lijst na de curseur. Tik of klik nogmaals op de knop Genummerd om een genummerde lijst te beëindigen of voer twee regeleinden in.
 
-   - **Pictogram Uitspringen** - Hiermee verlaagt u het inspringingsniveau van de geselecteerde tekst of tekst die u na de cursor invoert. Alleen actief als de geselecteerde tekst of positie van de cursor al is ingesprongen.
+   - **Uitspringen pictogram** - het vermindert het inkepingsniveau van de geselecteerde tekst of de tekst ingegaan na de curseur. Alleen actief als de geselecteerde tekst of positie van de cursor al is ingesprongen.
 
-   - **Pictogram Inspringen** - Hiermee verhoogt u het inspringingsniveau van de geselecteerde tekst of tekst die u na de cursor invoert.
+   - **pictogram van de Inspringing** - het verhoogt het inkepingsniveau van de geselecteerde tekst of de tekst ingegaan na de curseur.
 
-![Hyperlinkopties](/help/adaptive-forms/assets/footer_link.png)
+![ Opties van de Hyperlink ](/help/adaptive-forms/assets/footer_link.png)
 
 - **Hyperlink**
 
-   - **Pad** - Voer het pad in
+   - **Weg** - ga de weg in
       1. Kies in het dialoogvenster Selectie openen een pad in AEM.
       1. Als de koppeling zich niet binnen AEM bevindt, voert u de absolute URL in.
       1. Niet-absolute paden worden geïnterpreteerd als relatief ten opzichte van AEM.
 
-   - **Alternatieve tekst** - Voer alternatieve beschrijvende tekst in voor de koppeling.
+   - **Alternatieve tekst** - ga alternatieve beschrijvende tekst voor de verbinding in.
 
-   - **Doel** - Koppelingsgedrag selecteren
+   - **Doel** - Uitgezochte verbindingsgedrag
       - Doel
       - Zelfde tabblad
       - Nieuw tabblad
       - Bovenliggend frame
       - Bovenste frame
 
-   - **Pictogram Ontkoppelen** - Met deze optie verwijdert u een koppeling die al op de geselecteerde tekst is toegepast. Deze optie is alleen actief als de koppeling al is geselecteerd.
+   - **ontkoppel pictogram** - deze optie verwijdert een verbinding die reeds op de geselecteerde tekst wordt toegepast. Deze optie is alleen actief als de koppeling al is geselecteerd.
 
-   - **Pictogram Alineaopmaak** - Met deze optie kunt u alineaopmaak toepassen op de geselecteerde tekst. Het helpt u ook om de tekst op te maken die na de curseur wordt opgenomen. Hiermee wordt het kopniveau van de titel gedefinieerd.
+   - **het formaatpictogram van de Paragraaf** - deze optie staat u toe om paragraaf het formatteren op de geselecteerde tekst toe te passen. Het helpt u ook om de tekst op te maken die na de curseur wordt opgenomen. Hiermee wordt het kopniveau van de titel gedefinieerd.
 
-- **ID**: Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de gegevenslaag.
+- **identiteitskaart**: Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de Laag van Gegevens te controleren.
 
    - Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. Deze kan worden gevonden door de resulterende pagina te inspecteren.
    - Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.

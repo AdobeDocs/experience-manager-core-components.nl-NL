@@ -18,7 +18,7 @@ ht-degree: 5%
 + [Introductie van kerncomponenten](/help/introduction.md)
 + [Responsief ontwerp](/help/responsive.md)
 + [Paden naar succes](/help/developing/success.md)
-+ [Componentbibliotheek](https://adobe.com/go/aem_cmp_library)
++ [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library)
 + [Versies](/help/versions.md)
 + Aan de slag {#get-started}
    + [Ontwerpen met kerncomponenten](/help/get-started/authoring.md)
@@ -44,7 +44,7 @@ ht-degree: 5%
    + [Voortgangsbalk](/help/components/progress-bar.md)
    + [Snel zoeken](/help/components/quick-search.md)
    + [Scheidingsteken](/help/components/separator.md)
-   + [Delen van sociale media](/help/components/sharing.md)
+   + [ Sociale Media die ](/help/components/sharing.md) delen
    + [Inhoudsopgave](/help/components/tableofcontents.md)
    + [Tekst](/help/components/text.md)
    + [Tabs](/help/components/tabs.md)
@@ -64,7 +64,7 @@ ht-degree: 5%
       + [Insluiten (v1)](/help/components/v1/embed.md)
       + [Experience Fragment (v1)](/help/components/v1/experience-fragment.md)
       + [Afbeelding (v1)](/help/components/v1/image-v1.md)
-      + [Taalnavigatie (v1)](/help/components/v1/language-navigation.md)
+      + [ Navigatie van de Taal (v1) ](/help/components/v1/language-navigation.md)
       + [Lijst (v1)](/help/components/v1/list-v1.md)
       + [Navigatie (v1)](/help/components/v1/navigation.md)
       + [Pagina (v1)](/help/components/v1/page-v1.md)
@@ -85,7 +85,7 @@ ht-degree: 5%
       + [Pagina (v2)](/help/components/v2/page.md)
       + [Titel (v2)](/help/components/v2/title.md)
    + v3-componenten {#v3-components}
-      + [Lijst (v3)](/help/components/v3/list.md)
+      + [ Lijst (v3) ](/help/components/v3/list.md)
 + E-mailcomponenten {#email}
    + [Inleiding](/help/email/introduction.md)
    + [De e-mailkerncomponenten gebruiken](/help/email/using.md)
@@ -139,8 +139,8 @@ ht-degree: 5%
    + [Voorbeeldthema&#39;s en sjablonen](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
 + Ontwikkeling {#developing}
    + [Basiscomponenten ontwikkelen](/help/developing/overview.md)
-   + [Paden naar succes](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
-   + [Zelfstudie voor WKND-ontwikkelaars](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+   + [ Wegen aan Succes ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
+   + [ WKND het Leerprogramma van de Ontwikkelaar ](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Kerncomponenten aanpassen](/help/developing/customizing.md)
    + [Componentrichtlijnen](/help/developing/guidelines.md)
    + [AMP-ondersteuning](/help/developing/amp.md)
@@ -148,8 +148,8 @@ ht-degree: 5%
    + [Inclusief clientbibliotheken](/help/developing/including-clientlibs.md)
    + [De Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md)
    + [Webgeoptimaliseerde afbeeldingslevering](/help/developing/web-optimized-image-delivery.md)
-   + [Ondersteuning voor externe middelen](/help/developing/remote-assets.md)
-   + Gegevenslaag client-Adobe {#data-layer}
+   + [Externe Assets-ondersteuning](/help/developing/remote-assets.md)
+   + Gegevenslaag client Adoben {#data-layer}
       + [Overzicht van de Laag van Gegevens](/help/developing/data-layer/overview.md)
       + [Integratie met de Laag van Gegevens](/help/developing/data-layer/integrations.md)
       + [De gegevenslaag uitbreiden](/help/developing/data-layer/extending.md)

@@ -16,19 +16,19 @@ Een koptekstcomponent in een adaptief formulier is een sectie boven aan het form
 
 **Voorbeeld**
 
-![voorbeeld](/help/adaptive-forms/assets/header.png)
+![ voorbeeld ](/help/adaptive-forms/assets/header.png)
 
 ## Gebruik {#reasons-to-use-header}
 
-- **Branding**: Een koptekst kan worden gebruikt om het logo of de naam weer te geven van de organisatie die het formulier heeft gemaakt, zodat merkherkenning en geloofwaardigheid worden gegarandeerd.
+- **Branding**: Een kopbal kan worden gebruikt om het embleem of de naam van de organisatie te tonen die de vorm creeerde, die merkerkenning en geloofwaardigheid helpen vestigen.
 
-- **Context**: Een koptekst kan een korte beschrijving van het doel van het formulier bevatten, zodat gebruikers weten in welke context het formulier wordt gebruikt.
+- **Context**: Een kopbal kan een korte beschrijving van het doel van de vorm verstrekken, die gebruikers helpen de context begrijpen waarin de vorm wordt gebruikt.
 
-- **Navigatie**: Een koptekst kan koppelingen of knoppen bevatten waarmee gebruikers naar andere delen van de website of toepassing kunnen navigeren.
+- **Navigatie**: Een kopbal kan verbindingen of knopen omvatten die gebruikers toestaan om aan andere delen van de website of de toepassing te navigeren.
 
-- **Informatie**: Een koptekst kan contactgegevens of koppelingen bevatten om bronnen te helpen, waardoor gebruikers gemakkelijker hulp kunnen krijgen als ze dat nodig hebben.
+- **Informatie**: Een kopbal kan contactinformatie of verbindingen omvatten om middelen te helpen, die het voor gebruikers gemakkelijker maken om hulp te krijgen als zij het nodig hebben.
 
-- **Gebruikerservaring**: Een koptekst kan worden gebruikt om het formulier gebruiksvriendelijker te maken door gebruikers een duidelijke en intuïtieve manier te bieden om formuliervelden te openen en in te vullen.
+- **Ervaring van de Gebruiker**: Een kopbal kan worden gebruikt om de vorm gebruikersvriendelijker te maken door een duidelijke en intuïtieve manier voor gebruikers te verstrekken om tot vormgebieden toegang te hebben en in te vullen.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -36,9 +36,9 @@ De Adaptive Forms Accordion Core Component is in februari 2023 uitgebracht als o
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
-| v1 | Compatibel met<br>[versie 2.0.4](/help/adaptive-forms/version.md) en hoger | Compatibel met<br>[release 1.1.12](/help/adaptive-forms/version.md) en later, maar minder dan 2.0.0. |
+| v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Raadpleeg voor meer informatie over versies en releases van de Core Component de [Versies van kerncomponenten](/help/adaptive-forms/version.md) document.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -47,7 +47,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Technische details {#technical-details}
 
-Ga voor de nieuwste informatie over de Adaptive Forms Header Core Component naar de technische documentatie over [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageheader/v1/pageheader). Voor meer informatie over het ontwikkelen van Core Components, bekijk [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+Krijg de recentste informatie over de Adaptieve Component van de Kern van de Kopbal van Forms in de technische documentatie op [ GitHub ](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageheader/v1/pageheader). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern ](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -57,23 +57,23 @@ Met het dialoogvenster Configureren kunt u de headerervaring voor bezoekers eenv
 
 Dit gedeelte van de koptekst bevat de koptekst en de afbeelding.
 
-![Afbeelding, tabblad](/help/adaptive-forms/assets/header_image.png)
+![ Imagetab ](/help/adaptive-forms/assets/header_image.png)
 
-- **Afbeeldingselement** - Met deze optie kunt u elementen zoals afbeeldingen, neerzetten door met de muis te slepen. U kunt een bestand ook uploaden vanaf een lokaal bestandssysteem met de opdracht **Bladeren** knop. Nadat u een afbeelding hebt toegevoegd, staan er drie knoppen onder aan de afbeelding. Nadat u een afbeelding hebt toegevoegd, staan er drie knoppen onder aan de afbeelding:
-   - **Bewerken** - Tik of klik **Bewerken** om de vertoningen van het element in de Redacteur van Activa te beheren.
-   - **Wissen** - Tik of klik **Wissen** om de selectie van de geselecteerde afbeelding op te heffen.
-   - **Selecteren** - Tik of klik **Selecteren**  om een andere afbeelding in de map Middelen te selecteren.
+- **Activa van het Beeld** - deze optie staat toe om activa zoals beeld met muisbelemmering en daling te laten vallen. U kunt een dossier van een lokaal dossiersysteem ook uploaden gebruikend **doorbladert** knoop. Nadat u een afbeelding hebt toegevoegd, staan er drie knoppen onder aan de afbeelding. Nadat u een afbeelding hebt toegevoegd, staan er drie knoppen onder aan de afbeelding:
+   - **geef** uit - Tik of klik **geef** uit om de vertoningen van de activa in de Redacteur van Assets te beheren.
+   - **Duidelijk** - Tik of klik **Duidelijk** om het momenteel geselecteerde beeld te deselecteren.
+   - **Keuze** - Tik of klik **Keuze** optie om een ander beeld van de omslag van Assets te selecteren.
 
-- **Titel** - Deze optie wordt gebruikt om de kop aan de koptekst toe te voegen. De vooraf gedefinieerde tekst staat in het dialoogvenster en kan door de gebruiker worden gewijzigd.
-- **Koppeling naar** - U kunt de kop koppelen aan de map met de **Bladeren** pictogram.
-- **Beschrijving** - Een beschrijving is een korte tekstuitleg die aanvullende informatie of verduidelijking verschaft over het doel van een specifieke afbeelding.
-- **Grootte (px)** - U kunt hiermee de lengte en breedte van de afbeelding aanpassen door de pixels te vergroten of te verkleinen.
+- **Titel** - deze optie wordt gebruikt om de rubriek aan de kopbal toe te voegen. De vooraf gedefinieerde tekst staat in het dialoogvenster en kan door de gebruiker worden gewijzigd.
+- **Verbinding aan** - u kunt de rubriek met de omslag verbinden gebruikend **doorbladert** pictogram.
+- **Beschrijving** - een beschrijving is een korte tekstverklaring die extra informatie of verduidelijking over het doel van een specifiek beeld verstrekt.
+- **Grootte (px)** - het helpt in het aanpassen van de lengte en de breedte van het beeld door de pixel te verhogen of te verminderen.
 
-![toegankelijkheidstab](/help/adaptive-forms/assets/header_accessibility.png)
+![ toegankelijkheidslusje ](/help/adaptive-forms/assets/header_accessibility.png)
 
-- **Alternatieve tekst** - Deze optie wordt gebruikt om de tekst in te voeren die een kort en beschrijvend tekstalternatief biedt voor de afbeelding, waarin de afbeelding wordt beschreven voor visueel gehandicapte gebruikers.
+- **Alternatieve Tekst** - Deze optie wordt gebruikt om de tekst in te gaan die een kort en beschrijvend tekstalternatief voor het beeld verstrekt, dat het beeld aan visueel gehandicapte gebruikers beschrijft.
 
-- **Afbeelding is decoratief** - Controleer of het beeld door ondersteunende hulpmiddelen moet worden genegeerd en of er daarom geen alternatieve tekst nodig is. Dit geldt alleen voor decoratieve afbeeldingen.
+- **Beeld is decoratief** - controleer als het beeld door ondersteunende technologie zou moeten worden genegeerd en daarom geen alternatieve tekst vereist. Dit geldt alleen voor decoratieve afbeeldingen.
 
 ### Tabblad Tekst {#text-tab}
 

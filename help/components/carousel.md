@@ -19,7 +19,7 @@ Met de Core Component Carousel Component kan de auteur van de inhoud inhoud inho
 
 Met de Carousel-component ordent de auteur van de inhoud de inhoud in een draaiende carrousel van dia&#39;s.
 
-De [dialoogvenster bewerken](#edit-dialog) Hiermee kan de auteur van de inhoud meerdere dia&#39;s maken, benoemen en ordenen en automatische overgang met vertraging inschakelen. Met de [ontwerpdialoogvenster](#design-dialog)kan de sjabloonauteur definiëren welke componenten aan de carrousel kunnen worden toegevoegd, automatische overgangen in- of uitschakelen en de stijlen aanpassen.
+Het [ geeft dialoog uit ](#edit-dialog) staat de inhoudauteur toe om, veelvoudige dia&#39;s tot stand te brengen te noemen en te ordenen evenals auto-overgang met vertraging toe te laten. Gebruikend de [ ontwerpdialoog ](#design-dialog), kan de malplaatjeauteur bepalen welke componenten aan de carrousel kunnen worden toegevoegd, automatische overgangen toelaten of onbruikbaar maken, en de stijlen aanpassen.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -29,30 +29,30 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 
 | Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v1 | Compatibel met<br>[release 2.17.4](/help/versions.md) en eerdere | Compatibel | Compatibel |
+| v1 | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel | Compatibel |
 
-Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Versies van kerncomponenten](/help/versions.md).
+Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Als u de Carousel-component wilt ervaren en voorbeelden wilt zien van de configuratieopties en van de HTML- en JSON-uitvoer, gaat u naar de [Componentbibliotheek](https://adobe.com/go/aem_cmp_library_carousel).
+Om de Component van Carousel te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library_carousel).
 
 ### Technische details {#technical-details}
 
-De meest recente technische documentatie over de Carousel-component [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_carousel_v1).
+De recentste technische documentatie over de Component van Carousel [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_carousel_v1) worden gevonden.
 
-Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
 
 ## Diep koppelen aan een deelvenster {#deep-linking}
 
-De carrousel, [tabs,](tabs.md) en [Accordeoncomponenten](accordion.md) ondersteuning voor het rechtstreeks koppelen naar een deelvenster binnen de component.
+De Carrousel, [ Lusjes, ](tabs.md) en [ de steun van Componenten van de Accordeon ](accordion.md) die rechtstreeks met een paneel binnen de component verbinden.
 
 Dit doet u als volgt:
 
-1. De pagina met de component weergeven met de **[Weergeven als gepubliceerd](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** in de pagina-editor.
+1. Bekijk de pagina met de component gebruikend de **[Mening zoals Gepubliceerde ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** optie in de paginaredacteur.
 1. Inspect de inhoud van de pagina en identificeer de id van het deelvenster.
    * Bijvoorbeeld `id="carousel-bfe4fa6647-item-47f1a7ca67-tabpanel"`
-1. De id wordt het anker dat u met een hash aan de URL kunt toevoegen (`#`).
+1. De id wordt het anker dat u met een hash (`#`) aan de URL kunt toevoegen.
    * Bijvoorbeeld `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#carousel-bfe4fa6647-item-47f1a7ca67-tabpanel`
 
 Wanneer u met de deelvenster-id als anker naar de URL navigeert, schuift de browser rechtstreeks naar de desbetreffende component en geeft deze het opgegeven deelvenster weer. Als het deelvenster is geconfigureerd om standaard niet te worden weergegeven, wordt er automatisch naar geschoven.
@@ -61,7 +61,7 @@ Wanneer u met de deelvenster-id als anker naar de URL navigeert, schuift de brow
 
 Alle Core Components zijn ontworpen om volledig te reageren, zodat u over alle apparaten probleemloos kunt genieten.
 
-Sommige geavanceerde componenten, zoals de Carousel-component, vereisen wellicht specifieke aandacht in het kader van het uitvoeringsproject om de reactiesnelheid in alle omstandigheden te behouden. Zie het document [Responsief ontwerp van de kerncomponenten](/help/responsive.md) voor meer informatie .
+Sommige geavanceerde componenten, zoals de Carousel-component, vereisen wellicht specifieke aandacht in het kader van het uitvoeringsproject om de reactiesnelheid in alle omstandigheden te behouden. Gelieve te zien het document [ Responsieve Ontwerp van de Componenten van de Kern ](/help/responsive.md) voor meer informatie.
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
@@ -69,66 +69,66 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud dia&#39;s toevoegen, 
 
 ### Tabblad Items {#items-tab}
 
-![Tabblad Items van het dialoogvenster Bewerken van de Carousel-component](/help/assets/carousel-edit-items.png)
+![ Punten tabel van uitgeeft dialoog van de Component van Carousel ](/help/assets/carousel-edit-items.png)
 
-Gebruik de **Toevoegen** om de componentkiezer te openen en te kiezen welke component u als tab wilt toevoegen. Nadat een item is toegevoegd, wordt het toegevoegd aan de lijst met de volgende kolommen:
+Gebruik **voeg** knoop toe om de componentenselecteur te openen om te kiezen welke component om als tabel toe te voegen. Nadat een item is toegevoegd, wordt het toegevoegd aan de lijst met de volgende kolommen:
 
-* **Pictogram** - Het pictogram van het componenttype van de tab voor eenvoudige identificatie in de lijst. Plaats de muisaanwijzer boven de volledige componentnaam om deze weer te geven als knopinfo.
-* **Beschrijving** - De beschrijving die als tekst van het lusje wordt gebruikt, stellend aan de naam van de component die voor het lusje wordt geselecteerd.
-* **Verwijderen** - Tik of klik om het tabblad te verwijderen uit de component Tabs.
-* **Opnieuw** - Tik of klik en sleep om de tabbladen te ordenen.
+* **Pictogram** - het pictogram van het componententype van het lusje voor gemakkelijke identificatie in de lijst. Plaats de muisaanwijzer boven de volledige componentnaam om deze weer te geven als knopinfo.
+* **Beschrijving** - de beschrijving die als tekst van het lusje wordt gebruikt, die aan de naam van de component in gebreke blijft die voor het lusje wordt geselecteerd.
+* **Schrapping** - Tik of klik om het lusje van de component van lusjes te schrappen.
+* **opnieuw rangschikt** - Tik of klik en sleep om tot de lusjes opdracht te geven.
 
 >[!TIP]
 >
->Als de viewport van de pagina wordt verkleind zodat het dialoogvenster Bewerken volledig scherm wordt, wordt het dialoogvenster **Toevoegen** wordt verborgen. Componenten kunnen nog steeds door [slepen vanuit de componentbrowser en neerzetten op de Carousel-component in de pagina-editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser).
+>Als viewport van de pagina wordt verminderd zodat uitgeeft dialoog volledig scherm wordt, **voegt** knoop toe zal worden verborgen. De componenten kunnen nog aan de Component van de Carrousel worden toegevoegd door [ van componenten te slepen browser en op de Component van de Carrousel in de paginaredacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser) te vallen.
 
 ### Tabblad Eigenschappen {#properties-tab}
 
-![Het tabblad Eigenschappen van het dialoogvenster Bewerken van de Carousel-component](/help/assets/carousel-edit-properties.png)
+![ het lusje van Eigenschappen van uitgeeft dialoog van de Component van Carousel ](/help/assets/carousel-edit-properties.png)
 
-Op de **Eigenschappen** kan de auteur van de inhoud de dia&#39;s instellen op een automatische overgang.
+Op het **lusje van Eigenschappen**, kan de inhoudauteur de dia&#39;s aan automatisch overgang plaatsen.
 
-* **Actief item** - De auteur van de inhoud kan bepalen welk tabblad actief is wanneer de pagina wordt geladen.
-* **Automatisch overgangsdia&#39;s** - Als de component actief is, gaat deze na een bepaalde vertraging automatisch naar de volgende dia.
-* **Vertraging overgang** - Wanneer u de overgangsdia&#39;s Automatisch selecteert, wordt deze waarde gebruikt om de vertraging tussen overgangen (in milliseconden) te bepalen.
-* **Automatisch onderbreken bij aanwijzen uitschakelen** - Wanneer **Automatisch overgangsdia&#39;s** is geselecteerd, wordt de carrouselovergang automatisch gepauzeerd wanneer de curseur over de carrousel beweegt. Selecteer deze optie om de overgang niet te pauzeren.
-* **ID** - Met deze optie kunt u de unieke id van de component in de HTML en in de [Gegevenslaag](/help/developing/data-layer/overview.md).
+* **Actief Punt** - de inhoudauteur kan bepalen welk lusje actief is wanneer de pagina wordt geladen.
+* **automatisch overgangsdia&#39;s** - wanneer actief, zal de component automatisch aan de volgende dia na een gespecificeerde vertraging vooruitgaan.
+* **Vertraging van de Overgang** - wanneer de automatisch overgangsdia&#39;s wordt geselecteerd, wordt deze waarde gebruikt om de vertraging tussen overgangen (in milliseconden) te bepalen.
+* **maak automatische pauze op hover** onbruikbaar - wanneer **automatisch overgangsdia&#39;s** wordt geselecteerd, zal de carrouselovergang automatisch pauzeren wanneer de curseur over de carrousel beweegt. Selecteer deze optie om de overgang niet te pauzeren.
+* **identiteitskaart** - Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens te controleren ](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
 >[!NOTE]
 >
->De besturingselementen voor diavoorstellingen zijn niet ingeschakeld wanneer u zich in **Bewerken** -modus. Gebruiken [**Voorvertoning** mode](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) of de **[Weergeven als gepubliceerd](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** de mogelijkheid om met de carrousel te communiceren als een lezer van de gepubliceerde inhoud.
+>De controles van de diaversie worden niet toegelaten wanneer op **** wijze uitgeeft. De wijze van de Voorproef van het gebruik **](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) of de**[ Mening zoals Gepubliceerde ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published) **optie om met de carrousel in wisselwerking te staan aangezien een lezer van de gepubliceerde inhoud.[**
 >
->De functie voor automatisch vooruitgaan is niet ingeschakeld als de functie is ingeschakeld **Bewerken** -modus. Gebruiken **[Weergeven als gepubliceerd](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** als u de functie voor automatisch vooruitgaan wilt zien als een lezer van de gepubliceerde inhoud.
+>De auto-vooruitgangseigenschap wordt niet toegelaten wanneer in **** wijze uitgeeft. De Mening van het gebruik **[zoals Gepubliceerde ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** optie om de auto-vooruitgangseigenschap als lezer van de gepubliceerde inhoud te zien.
 
 ### Tabblad Toegankelijkheid {#accessibility-tab}
 
-![Het tabblad Toegankelijkheid van het dialoogvenster Bewerken van de Carousel-component](/help/assets/carousel-edit-accessibility.png)
+![ het lusje van de Toegankelijkheid van uitgeeft dialoog van de Component van Carousel ](/help/assets/carousel-edit-accessibility.png)
 
-Op de **Toegankelijkheid** tab, waarden kunnen worden ingesteld voor [Toegankelijkheid ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) labels voor de component.
+Op het **lusje van de Toegankelijkheid**, kunnen de waarden voor [ de toegankelijkheidslabels van ARIA ](https://www.w3.org/WAI/standards-guidelines/aria/) voor de component worden geplaatst.
 
-* **Label** - Waarde van een aria-labelkenmerk voor de carrousel, dat de inhoud van de carrousel beschrijft
-* **Vorige** - Waarde van een aria-labelkenmerk voor het vorige knoplabel van de carrouselnavigatie
-* **Volgende** - Waarde van een aria-labelkenmerk voor het volgende knoplabel van de carrouselnavigatie
-* **Afspelen** - Waarde van een aria-labelkenmerk voor het afspeelknoplabel van de carrouselnavigatie
-* **Pauzeren** - Waarde van een aria-labelkenmerk voor het pauzeknoplabel van de carrouselnavigatie
-* **Tablist** - Waarde van een aria-labelkenmerk voor de lijst met items in de carrouselnavigatie
-* **Label voor aria van item instellen op titel** - Als deze optie is ingeschakeld, wordt de titel van de carrousel-items automatisch ingesteld op de aria-labelbeschrijving.
+* **Etiket** - Waarde van een aria-etiket attribuut voor de carrousel, die de inhoud van de carrousel beschrijft
+* **Vorige** - Waarde van een aria-etiket attribuut voor het vorige knoopetiket van de carrouselnavigatie
+* **Volgende** - Waarde van een aria-etiket attribuut voor het volgende de knoopetiket van de carrouselnavigatie
+* **Spel** - Waarde van een aria-etiket attribuut voor het de spelknoopetiket van de carrouselnavigatie
+* **Pauze** - Waarde van een aria-etiket attribuut voor het de pauzeknoelabel van de carrouselnavigatie
+* **Lijst** - Waarde van een aria-etiket attribuut voor de lijst van punten van de carrouselnavigatie etiket
+* **plaats het etiket van de aria van het punt aan zijn titel** - als gecontroleerd, plaatst deze optie automatisch de carrouselpunttitel aan zijn aria-label beschrijving.
 
 ## Deelvenster selecteren {#select-panel}
 
-De auteur van de inhoud kan de **Deelvenster selecteren** op de werkbalk van de component om te schakelen naar een andere dia om deze te bewerken en om de volgorde van de dia&#39;s gemakkelijk te wijzigen.
+De inhoudauteur kan de **Uitgezochte 1} optie van het Comité op de componententoolbar gebruiken om in een verschillende dia te veranderen voor het uitgeven evenals de orde van de dia&#39;s gemakkelijk te herschikken.**
 
-![Pictogram van deelvenster Selecteren](/help/assets/select-panel-icon.png)
+![ Uitgezochte paneelpictogram ](/help/assets/select-panel-icon.png)
 
-Wanneer u de **Deelvenster selecteren** in de componentwerkbalk worden de geconfigureerde dia&#39;s weergegeven als een vervolgkeuzelijst.
+Zodra het selecteren van de **Uitgezochte optie van het Comité** in de componententoolbar, worden de gevormde dia&#39;s getoond als drop-down.
 
 * De lijst wordt geordend door de toegewezen rangschikking van de dia&#39;s en wordt weerspiegeld in de nummering.
 * Het componenttype van de dia wordt eerst weergegeven, gevolgd door de beschrijving van de dia in een lichter lettertype.
 
-![Deelvenster Selecteren](/help/assets/select-panel-popover.png)
+![ Uitgezochte paneel ](/help/assets/select-panel-popover.png)
 
 * Als u op een item in het vervolgkeuzemenu tikt of erop klikt, wordt de weergave in de editor naar die dia verplaatst.
 * U kunt de volgorde van de dia op de juiste plaats wijzigen door de sleepgrepen te gebruiken.
@@ -139,23 +139,23 @@ In het ontwerpdialoogvenster kan de sjabloonauteur definiëren welke componenten
 
 ### Tabblad Eigenschappen {#properties-tab-1}
 
-De **Eigenschappen** wordt gebruikt om de standaardinstellingen voor de diaovergangen te definiëren wanneer de auteur van de inhoud de carrouselcomponent aan een pagina toevoegt.
+Het **lusje van Eigenschappen** wordt gebruikt om de standaardmontages voor de diaovergangen te bepalen wanneer een inhoudsauteur de carrouselcomponent aan een pagina toevoegt.
 
-![Dialoogvenster Ontwerpen van de Carousel-component](/help/assets/carousel-design.png)
+![ dialoog van het Ontwerp van de Component van Carousel ](/help/assets/carousel-design.png)
 
-* **Automatisch overgangsdia&#39;s** - Hiermee wordt gedefinieerd of de optie om de carrousel automatisch naar de volgende dia te verplaatsen standaard is ingeschakeld wanneer de auteur van de inhoud de carrouselcomponent aan een pagina toevoegt.
-* **Besturingselementen vooraf instellen** - Als deze optie is ingeschakeld, worden de besturingselementen vóór de carrouselitems geplaatst om de toegankelijkheid te verbeteren.
+* **automatisch overgangsdia&#39;s** - bepaalt als door gebrek de optie om de carrousel aan de volgende dia automatisch vooruit te gaan wordt toegelaten wanneer de inhoudauteur de carrouselcomponent aan een pagina toevoegt.
+* **prepend controleelementen** - wanneer gecontroleerd, zullen de controleelementen vóór de carrouselpunten worden geplaatst om toegankelijkheid te verbeteren.
 
 ### Tabblad Toegestane componenten {#allowed-components-tab}
 
-De **Toegestane componenten** wordt gebruikt om te definiëren welke componenten door de auteur van de inhoud als dia&#39;s aan de Carousel-component kunnen worden toegevoegd.
+Het **Toegestane lusje van Componenten** wordt gebruikt om te bepalen welke componenten als dia&#39;s aan de Component van Carousel door de inhoudauteur kunnen worden toegevoegd.
 
-Het tabblad Toegestane componenten werkt op dezelfde manier als het tabblad met dezelfde naam wanneer [het definiëren van het beleid en de eigenschappen van een container voor layout in de Sjablooneditor.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+De toegelaten Componenten lusjefuncties op de zelfde manier zoals het lusje van de zelfde naam wanneer [ het bepalen van het beleid en de eigenschappen van een Container van de Lay-out in de Redacteur van het Malplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Carousel-component ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+De component van Carousel steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
 
 ## Gegevenslaag client-Adobe {#data-layer}
 
-De Carousel-component ondersteunt de [Gegevenslaag client Adobe.](/help/developing/data-layer/overview.md)
+De Component van Carousel steunt de [ Laag van de Gegevens van de Cliënt van de Adobe.](/help/developing/data-layer/overview.md)

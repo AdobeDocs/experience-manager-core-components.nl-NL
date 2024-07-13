@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ Met de component Core Component Container kunt u een container maken voor meerde
 
 Met de component Core Component Container kunt u een container maken voor meerdere aanvullende componenten op een pagina. U kunt deze component gebruiken om andere componenten te groeperen en een algemene stijl of lay-out toe te passen.
 
-* De eigenschappen van de container kunnen worden geselecteerd in het dialoogvenster [dialoogvenster configureren](#configure-dialog).
-* De standaardinstellingen voor de Container-component wanneer deze aan een pagina wordt toegevoegd, kunnen worden gedefinieerd in het dialoogvenster [ontwerpdialoogvenster](#design-dialog).
+* De eigenschappen van de container kunnen in [ worden geselecteerd vormen dialoog ](#configure-dialog).
+* De gebreken voor de Component van de Container wanneer het toevoegen van het aan een pagina kunnen in de [ ontwerpdialoog ](#design-dialog) worden bepaald.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -29,32 +29,32 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 
 | Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
 |--- |--- |---|---|
-| v1 | Compatibel met<br>[release 2.17.4](/help/versions.md) en eerdere | Compatibel | Compatibel |
+| v1 | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel | Compatibel |
 
-Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
+Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Als u de Container-component wilt ervaren en voorbeelden wilt zien van de configuratieopties en van de HTML- en JSON-uitvoer, gaat u naar de [Componentbibliotheek](https://adobe.com/go/aem_cmp_library_container).
+Om de Component van de Container te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library_container).
 
 ## Technische details {#technical-details}
 
-De meest recente technische documentatie over de Container Component [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_container_v1).
+De recentste technische documentatie over de Component van de Container [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_container_v1) worden gevonden.
 
-Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
 In het dialoogvenster configureren kan de auteur van de inhoud het containeritem definiëren en bepalen hoe het zich gedraagt en wordt weergegeven voor een bezoeker van de pagina.
 
-![Dialoogvenster Containercomponent bewerken](/help/assets/container-edit.png)
+![ geef dialoog van de Component van de Container uit ](/help/assets/container-edit.png)
 
-* **Layout** - Met deze optie definieert u het gedrag of het lay-outgedrag van de Container-component.
-   * **Eenvoudig** - Definieert een container als een eenvoudige verzameling componenten
-   * **Responsief raster** - Definieert een container als een [Responsieve lay-out AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
-* **Achtergrondkleur** - Definieerbaar als vrije-vorm RGB-waarden of met de kleurkiezer, [afhankelijk van de configuratie](#background-tab)
-* **Achtergrondafbeelding** - Definieert een achtergrondkleur voor de container.  [afhankelijk van de configuratie](#background-tab)
-* **ID** - Met deze optie kunt u de unieke id van de component in de HTML en in de [Gegevenslaag](/help/developing/data-layer/overview.md).
+* **Lay-out** - deze optie bepaalt het gedrag of het lay-outgedrag van de Component van de Container.
+   * **Eenvoudig** - bepaalt een container als eenvoudige inzameling van componenten
+   * **Responsief Net** - bepaalt een container als [ AEM Responsieve Lay-out ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
+* **Achtergrondkleur** - bepaalt of als vrij-vorm RGB waarden of door de kleurkiezer te gebruiken, [ afhankelijk van configuratie ](#background-tab)
+* **Achtergrondbeeld** - bepaalt een achtergrondkleur voor de container, [ afhankelijk van configuratie ](#background-tab)
+* **identiteitskaart** - Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens te controleren ](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
@@ -65,37 +65,37 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de opties definiëren die bes
 
 ### Tabblad Toegestane componenten {#allowed-components-tab}
 
-De **Toegestane componenten** wordt gebruikt om te definiëren welke componenten door de auteur van de inhoud als items aan de Container-component kunnen worden toegevoegd.
+Het **Toegestane lusje van Componenten** wordt gebruikt om te bepalen welke componenten als punten aan de Component van de Container door de inhoudauteur kunnen worden toegevoegd.
 
-Het tabblad Toegestane componenten werkt op dezelfde manier als het tabblad met dezelfde naam wanneer [het definiëren van het beleid en de eigenschappen van een container voor layout in de Sjablooneditor.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+De toegelaten Componenten lusjefuncties op de zelfde manier zoals het lusje van de zelfde naam wanneer [ het bepalen van het beleid en de eigenschappen van een Container van de Lay-out in de Redacteur van het Malplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Tabblad Standaardcomponenten {#default-components-tab}
 
-Het tabblad Standaardcomponenten wordt gebruikt om te definiëren welke component aan de component wordt toegevoegd wanneer een bepaald elementtype op de container wordt neergezet, vergelijkbaar met [hoe standaardcomponenten op de paginasjabloon worden gedefinieerd](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
+Het lusje Standaard van Componenten wordt gebruikt om te bepalen welke component aan de component wordt toegevoegd wanneer een bepaald activatype op de container wordt gelaten vallen, gelijkend op [ hoe de standaardcomponenten op het paginamalplaatje ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) worden bepaald.
 
 ### Tab Instellingen voor responsief {#responsive-settings-tab}
 
-![Het tabblad Responsieve instellingen van het dialoogvenster Ontwerp van de Container-component](/help/assets/container-design-responsive.png)
+![ Responsieve montageslusje van de ontwerpdialoog van de Component van de Container ](/help/assets/container-design-responsive.png)
 
-* **Kolommen** - Hiermee definieert u het aantal kolommen in het raster van de resulterende container.
+* **Kolommen** - bepaalt het aantal kolommen in het net van de resulterende container.
 
 ### Tabblad Achtergrond {#background-tab}
 
-![Achtergrondtabblad van het dialoogvenster Ontwerp van de Containercomponent](/help/assets/container-design-background.png)
+![ Achtergrond lusje van de ontwerpdialoog van de Component van de Container ](/help/assets/container-design-background.png)
 
-* **Achtergrondafbeelding**
-   * **Achtergrondafbeelding inschakelen** - Selecteer deze optie als u wilt dat de auteur van de inhoud een achtergrondafbeelding voor de container kan definiëren.
+* **Achtergrondbeeld**
+   * **laat achtergrondbeeld** toe - selecteer deze optie om de inhoudauteur toe te laten om een achtergrondbeeld voor de container te bepalen.
 * **Achtergrondkleur**
-   * **Achtergrondkleur inschakelen** - Selecteer deze optie als u wilt dat de auteur van de inhoud een achtergrondkleur voor de container kan definiëren.
-   * **Alleen stalen** - Selecteer deze optie als u wilt dat de auteur van de inhoud alleen uit vooraf gedefinieerde kleurstalen voor de achtergrondkleur van de container kan kiezen.
-      * Alleen beschikbaar als **Achtergrondkleur inschakelen** is geselecteerd
-* **Toegestane stalen** - Vooraf gedefinieerde kleuren definiëren waaruit de auteur van de inhoud de achtergrondkleur van de container kan selecteren
-   * Gebruik de **Toevoegen** om een vooraf gedefinieerde kleurstaal toe te voegen. Nadat een item is toegevoegd, wordt het toegevoegd aan de lijst met de volgende kolommen:
-   * **Waarde** - De kleur handmatig definiëren met behulp van RGB-waarden
+   * **laat achtergrondkleur** toe - selecteer deze optie om de inhoudauteur toe te laten om een achtergrondkleur voor de container te bepalen.
+   * **slechts Monsters** - selecteer deze optie om de tevreden auteur slechts toe te staan om van vooraf bepaalde kleurenstalen voor de container achtergrondkleur te selecteren.
+      * Slechts beschikbaar wanneer **achtergrondkleur** toelaat wordt geselecteerd
+* **Toegestane Monsters** - bepaal vooraf bepaalde kleuren waarvan de inhoudsauteur de container achtergrondkleur kan selecteren
+   * Gebruik **toevoegen** knoop om een vooraf bepaald kleurenmonster toe te voegen. Nadat een item is toegevoegd, wordt het toegevoegd aan de lijst met de volgende kolommen:
+   * **Waarde** - bepaal manueel de kleur via de waarden van RGB
       * Tik of klik op de kleurkiezer om een kleur eenvoudiger te selecteren door afzonderlijke RGB-waarden aan te passen of een hexadecimale waarde te definiëren.
-   * **Verwijderen** - Tik of klik om een staal te verwijderen.
-   * **Opnieuw rangschikken** - Tik of klik en sleep om de volgorde van de stalen te wijzigen.
+   * **Schrapping** - Tik of klik om een monster te schrappen.
+   * **herschikt** - Tik of klik en sleep om de orde van de monsters te herschikken.
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component Container ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+De component van de Container steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).

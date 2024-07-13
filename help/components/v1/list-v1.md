@@ -6,7 +6,7 @@ role: Architect, Developer, Admin, User
 exl-id: 510d059c-e60a-40aa-9032-66a901109f6e
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '836'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ De component van de Lijst van de Component van de Kern staat voor de gemakkelijk
 
 De component List kan worden gebruikt om bijvoorbeeld een dynamische lijst met onderliggende pagina&#39;s of een statische lijst met willekeurig gedefinieerde items te maken.
 
-Het type beschikbare lijsten en opmaakopties kan door de sjabloonauteur in het dialoogvenster [ontwerpdialoogvenster](#design-dialog). De inhoudeditor kan kiezen uit beschikbare lijsttypen en hoe u de lijstelementen opmaakt in het dialoogvenster [dialoogvenster bewerken](#edit-dialog).
+Het type van beschikbare lijsten en het formatteren opties kunnen door de malplaatjeauteur in de [ ontwerpdialoog ](#design-dialog) worden bepaald. De inhoudsredacteur kan uit beschikbare lijsttypes selecteren en hoe te om de lijstelementen in [ uit te maken uitgeeft dialoog ](#edit-dialog).
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -29,18 +29,18 @@ In de volgende tabel wordt de compatibiliteit van v1 van de component List weerg
 
 | AEM | List Component v1 |
 |--- |--- |
-| 6.3 | Compatibel |
-| 6.4 | Compatibel |
+| 6,3 | Compatibel |
+| 6,4 | Compatibel |
 
 >[!CAUTION]
 >
 >In dit document wordt versie 1 van de component List beschreven.
 >
->Voor meer informatie over de huidige versie van de component List raadpleegt u de [Component List](/help/components/list.md) document.
+>Voor details van de huidige versie van de Component van de Lijst, zie het ](/help/components/list.md) document van de Component van de Lijst 0} {.[
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende monster wordt genomen uit [Wij.Detailhandel](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Schermafbeelding {#screenshot}
 
@@ -134,7 +134,7 @@ Het volgende monster wordt genomen uit [Wij.Detailhandel](https://helpx.adobe.co
 
 >[!NOTE]
 >
->Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Zie de [compatibiliteitsinformatie voor Core Components v1](/help/versions.md) voor meer informatie .
+>Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Gelieve te zien de [ verenigbaarheidsinformatie voor de Componenten van de Kern v1 ](/help/versions.md) voor meer informatie.
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
@@ -149,7 +149,7 @@ De lijst kan op verschillende manieren worden samengesteld.
 * [Zoeken](#search-list)
 * [Tags](#tags)
 
-Ongeacht hoe de lijst wordt samengesteld, zijn er [Sorteeropties](#sort-options) dat altijd kan worden gevormd.
+Ongeacht hoe de lijst wordt gebouwd, zijn er [ Opties van de Soort ](#sort-options) die altijd kunnen worden gevormd.
 
 ![](/help/assets/chlimage_1-38.png)
 
@@ -164,7 +164,7 @@ De lijst kan van de kindpagina&#39;s van de huidige pagina of een andere pagina 
 * **Bovenliggende pagina**
    * De pagina waarvan de onderliggende pagina&#39;s de lijst moeten maken
    * Leeg laten om de huidige pagina te gebruiken
-* **Onderliggende diepte** - Hoeveel niveaus lager in de hiërarchie zouden moeten worden gebruikt
+* **kind-diepte** - hoeveel niveaus neer in de hiërarchie zouden moeten worden gebruikt
 
 #### Vaste lijst {#fixed-list}
 
@@ -172,21 +172,21 @@ De lijst kan worden samengesteld met behulp van een vaste lijst met items.
 
 ![](/help/assets/chlimage_1-40.png)
 
-Tik of klik op de knop **Toevoegen** om een nieuw item aan de lijst toe te voegen.
+Tik of klik **voeg** knoop toe om een nieuw punt aan de lijst binnen te brengen.
 
-* Voer tekst in voor het item in de lijst of gebruik de optie **Dialoogvenster Selectie** om een item te kiezen uit AEM.
+* Ga tekst voor het punt in de lijst in of gebruik de **Dialoog van de Selectie** om een punt van AEM te kiezen.
 * Gebruik de sleepgreep om de items in de lijst opnieuw te rangschikken.
 * Gebruik het prullenbakpictogram om items in de lijst te verwijderen.
 
 #### Zoeken {#search-list}
 
-De lijst kan worden samengesteld met behulp van de resultaten van een zoekopdracht naar AEM inhoud.
+De lijst kan worden samengesteld met de resultaten van een zoekopdracht naar AEM inhoud.
 
 ![](/help/assets/chlimage_1-41.png)
 
-* **Zoekquery** - De tekenreeks waarvoor een zoekopdracht in volledige tekst wordt uitgevoerd om de lijstelementen te genereren
-* **Zoeken in** - Waar de zoekopdracht moet worden uitgevoerd
-   * Gebruik de **Dialoogvenster Selectie** om de locatie in AEM te kiezen
+* **vraag van het Onderzoek** - het koord waarvoor een full-text onderzoek zal in werking worden gesteld om de lijstelementen te produceren
+* **Onderzoek in** - waar het onderzoek in werking zou moeten worden gesteld
+   * Gebruik de **Dialoog van de Selectie** om de plaats in AEM te kiezen
    * Huidige pagina gebruiken als deze leeg blijft
 
 #### Tags {#tags}
@@ -195,14 +195,14 @@ De lijst kan worden samengesteld met pagina&#39;s die overeenkomen met bepaalde 
 
 ![](/help/assets/chlimage_1-42.png)
 
-* **Bovenliggende pagina** - Waar de tagovereenkomst moet beginnen
-   * Gebruik de **Dialoogvenster Selectie** om de locatie in AEM te kiezen
+* **Bovenliggende pagina** - waar de markering aanpassing zou moeten beginnen
+   * Gebruik de **Dialoog van de Selectie** om de plaats in AEM te kiezen
    * Huidige pagina gebruiken als deze leeg blijft
-* **Tags** - Welke labels moeten worden aangepast
-   * Gebruik de **Bladeren** dialoogvenster om de tags te selecteren
-* **Overeenkomst** - Bepaal welke soort overeenkomst een pagina zou moeten kwalificeren om in de lijst te worden opgenomen
-   * **elke tag**
-   * **alle tags**
+* **Markeringen** - welke markeringen zouden moeten worden aangepast
+   * Gebruik **doorbladert** dialoog om de markeringen te selecteren
+* **Gelijke** - bepaal welk soort gelijke een pagina zou moeten kwalificeren om in de lijst worden opgenomen
+   * **om het even welke markering**
+   * **alle markeringen**
 
 #### Sorteeropties {#sort-options}
 
@@ -210,26 +210,26 @@ Ongeacht hoe u de lijst maakt, zijn er bepaalde sorteeropties die altijd kunnen 
 
 ![](/help/assets/chlimage_1-43.png)
 
-* **Volgorde van** - Hoe de elementen moeten worden gerangschikt
+* **Orde door** - hoe de elementen zouden moeten worden bevolen
    * **Titel**
-   * **Laatst gewijzigd**
-* **Sorteervolgorde** - De volgorde waarin de items moeten worden besteld
-   * **Oplopend**
-   * **Aflopend**
-* **Max. items** - Maximum aantal items dat in de lijst wordt weergegeven.
+   * **Laatste gewijzigde datum**
+* **de Orde van de Sortering** - de orde waarin de punten zouden moeten worden bevolen
+   * **oplopend**
+   * **dalend**
+* **Max Punten** - Maximum aantal punten die in lijst worden getoond.
    * Laat leeg om alle items te retourneren.
 
 ### Iteminstellingen {#item-settings}
 
-Met de **Iteminstellingen** kunt u de opmaak van de lijstelementen configureren.
+Gebruikend het **lusje van de Montages van het Punt 0} {, kan het formatteren van de lijstelementen worden gevormd.**
 
 ![](/help/assets/chlimage_1-44.png)
 
-* **Items koppelen**
-Items koppelen aan de corresponderende pagina
-* **Beschrijving tonen**
+* **Punten van de Verbinding**
+Items koppelen aan de bijbehorende pagina
+* **toon Beschrijving**
 Beschrijvingen van het koppelingsitem weergeven
-* **Datum tonen**
+* **toon Datum**
 Wijzigingsdatum van het koppelingsitem weergeven
 
 ## Ontwerpdialoogvenster {#design-dialog}
@@ -238,30 +238,30 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur definiëren welke typen li
 
 ### Lijstinstellingen {#list-settings-1}
 
-Op de **Lijstinstellingen** , kan de datumnotatie worden gedefinieerd en kunt u aangeven welk type lijst in de component beschikbaar moet zijn voor de auteurs van de inhoud.
+Op het **lusje van de Montages van de Lijst**, kan het datumformaat worden bepaald evenals welk type van lijsten in de component aan de inhoudsauteurs beschikbaar zouden moeten zijn.
 
 ![](/help/assets/chlimage_1-45.png)
 
-* **Datumnotatie** - Formaat voor de weergave van de laatste wijzigingsdatum
-* **Onderliggende niveaus uitschakelen** - Schakel het type lijst met onderliggende items in de component uit
-* **Statisch uitschakelen** - Het type statische lijst in de component uitschakelen
-* **Zoeken uitschakelen** - Schakel het type zoeklijst in de component uit
-* **Labels uitschakelen** - Labellijsttype uitschakelen in de component
+* **Formaat van de Datum** - Formaat voor de vertoning van de laatste wijzigingsdatum te gebruiken
+* **maak Kinderen** onbruikbaar - maak het type van kindlijst in de component onbruikbaar
+* **maak Statisch** onbruikbaar - maak het statische lijsttype in de component onbruikbaar
+* **maak Onderzoek** onbruikbaar - maak het type van onderzoekslijst in de component onbruikbaar
+* **maak Codes** onbruikbaar - maak het type van markeringslijst in de component onbruikbaar
 
 ### Iteminstellingen {#item-settings-1}
 
-Op de **Iteminstellingen** kunt u de opmaakopties definiëren voor de afzonderlijke lijstelementen die in de component beschikbaar moeten zijn voor de makers van de inhoud.
+Op het **lusje van de Montages van het Punt**, kunnen de het formatteren opties voor de individuele lijstelementen die in de component voor de inhoudsauteurs beschikbaar zouden moeten zijn worden bepaald.
 
 ![](/help/assets/chlimage_1-46.png)
 
-* **Items koppelen** - Schakel de optie Koppelingsitems in het dialoogvenster [dialoogvenster bewerken](#edit-dialog)
-* **Beschrijvingen tonen** - Schakel de optie Omschrijvingen tonen in het dialoogvenster [dialoogvenster bewerken](#edit-dialog)
-* **Datum tonen** - Schakel de optie Datum tonen in het dialoogvenster [dialoogvenster bewerken](#edit-dialog)
+* **Punten van de Verbinding** - laat de optie van Punten van de Verbinding in [ toe geef dialoog ](#edit-dialog) uit
+* **toon Beschrijvingen** - laat de optie van Beschrijvingen in [ toe uitgeeft dialoog ](#edit-dialog)
+* **toon Datum** - laat de optie van de Datum van de Show in [ toe geef dialoog ](#edit-dialog) uit
 
 ## Technische details {#technical-details}
 
-De meest recente technische documentatie over de component List [kan op GitHub worden gevonden](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list).
+De recentste technische documentatie over de Component van de Lijst [ kan op GitHub ](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list) worden gevonden.
 
 Het volledige kerncomponentenproject kan van GitHub worden gedownload.
 
-Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).

@@ -16,23 +16,23 @@ In een adaptief formulier verwijst een &quot;titel&quot; naar de tekst die boven
 
 **Voorbeeld**
 
-![titelvoorbeeld](/help/adaptive-forms/assets/title.png)
+![ voorbeeld van titel ](/help/adaptive-forms/assets/title.png)
 
 ## Gebruik {#reasons-to-use-title-in-an-adaptive-form}
 
 Er zijn verschillende redenen waarom het een goede gewoonte is om een titel in een formulier te gebruiken:
 
-- **Helderheid**: Een titel geeft duidelijk het doel van het formulier aan, zodat gebruikers kunnen zien welke informatie ze moeten verstrekken.
+- **Duidelijkheid**: Een titel identificeert duidelijk het doel van de vorm, die gebruikers helpt begrijpen welke informatie zij moeten verstrekken.
 
-- **Organisatie**: Een titel kan u helpen formulieren in te delen op onderwerp of doel, zodat gebruikers gemakkelijker het formulier kunnen vinden dat ze nodig hebben.
+- **Organisatie**: Een titel kan helpen om vormen door onderwerp of doel te organiseren, dat het voor gebruikers gemakkelijker maakt om de vorm te vinden zij nodig hebben.
 
-- **Toegankelijkheid**: Een titel is een belangrijk element voor gebruikers met toegankelijkheidsbehoeften omdat deze door schermlezers hardop wordt voorgelezen, zodat gebruikers de context van het formulier kunnen begrijpen.
+- **Toegankelijkheid**: Een titel is een zeer belangrijk element voor gebruikers met toegankelijkheidsbehoeften, aangezien het hardop door het schermlezers wordt gelezen, die gebruikers helpen de context van de vorm begrijpen.
 
-- **Branding**: Een titel kan ook worden gebruikt om de naam van een bedrijf of organisatie weer te geven, zodat u een gevoel van vertrouwen en vertrouwdheid met de gebruiker krijgt.
+- **Branding**: Een titel kan ook worden gebruikt om de naam van een bedrijf of organisatie te tonen, die helpt om een gevoel van vertrouwen en vertrouwdheid met de gebruiker tot stand te brengen.
 
-- **Navigatie**: Een titel kan ook nuttig zijn om door het formulier te navigeren, vooral als het formulier lang of complex is.
+- **Navigatie**: Een titel kan ook nuttig zijn om door de vorm te navigeren, vooral als de vorm lang of complex is.
 
-- **SEO (Search Engine Optimization)**: Een titel op het formulier is ook handig in SEO, omdat zoekprogramma&#39;s de titel gebruiken om de relevantie van een webpagina voor een zoekopdracht te bepalen.
+- **Optimalisering van de Motor van het Onderzoek (SEO)**: Het hebben van een titel op de vorm helpt ook in SEO, aangezien de onderzoeksmotoren de titel gebruiken om de relevantie van een Web-pagina aan een onderzoeksvraag te bepalen.
 
 Over het algemeen is de titel van een formulier een belangrijk aspect van de gebruikerservaring en moet deze worden gebruikt om een duidelijk en beknopt label voor het formulier te bieden waarmee gebruikers de context en het doel van het formulier kunnen begrijpen.
 
@@ -42,9 +42,9 @@ De Adaptive Forms Accordion Core Component is in februari 2023 uitgebracht als o
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
-| v1 | Compatibel met<br>[versie 2.0.4](/help/adaptive-forms/version.md) en hoger | Compatibel met<br>[release 1.1.12](/help/adaptive-forms/version.md) en later, maar minder dan 2.0.0. |
+| v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Raadpleeg voor meer informatie over versies en releases van de Core Component de [Versies van kerncomponenten](/help/adaptive-forms/version.md) document.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -53,19 +53,19 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Technische details {#technical-details}
 
-Lees de nieuwste informatie over de Adaptive Forms Title Core Component in de technische documentatie over [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/title/v1/title). Voor meer informatie over het ontwikkelen van Core Components, bekijk [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+Krijg de recentste informatie over de AanpassingsComponent van de Kern van de Titel van Forms in de technische documentatie over [ GitHub ](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/title/v1/title). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern ](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
 Met het dialoogvenster Configureren kunt u uw ervaringen met titels eenvoudig aanpassen voor bezoekers. U kunt ook eenvoudig titels definiëren voor een naadloze gebruikerservaring.
 
-![Het tabblad Basis](/help/adaptive-forms/assets/title_properties.png)
+![ Basis lusje ](/help/adaptive-forms/assets/title_properties.png)
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud de titeltekst definiëren en het kopniveau selecteren.
 
-- **Titel** - Met Titel kunt u een component gemakkelijk herkennen in een formulier. Standaard wordt de titel boven op de component weergegeven. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
-- **Type/grootte** - Definieert het kopniveau van de titel.
-- **ID** - Met deze optie kunt u de unieke id van de component bepalen in de HTML en in de gegevenslaag.
+- **Titel** - met zijn Titel, kunt u een component in een vorm gemakkelijk identificeren en door gebrek, verschijnt de titel bovenop de component. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
+- **Type /Size** - bepaalt het kopniveau van de titel.
+- **identiteitskaart** - Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de Laag van Gegevens te controleren.
    - Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    - Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    - Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
@@ -78,27 +78,27 @@ Het tabblad Ontwerp wordt gebruikt om CSS-stijlen voor de component Titel van he
 
 Op het tabblad Titel kunnen sjabloonauteurs de standaardelementen en toegestane HTML-kopelementen voor formulierauteurs instellen:
 
-![Titel van dialoogvenster Ontwerp, tabblad](/help/adaptive-forms/assets/title_heading.png)
+![ lusje van de de dialoogtitel van het Ontwerp ](/help/adaptive-forms/assets/title_heading.png)
 
-- **Toegestane kopelementen**: Een lijst met meerdere opties waarmee de sjabloonauteur kan kiezen welke koppen de auteur van het formulier kan gebruiken voor Titel.
+- **Toegestane Elementen van de Kop**: Een lijst met veelvoudige opties die de malplaatjeauteur laat kiezen welke rubrieken auteur voor Titel kunnen vormen.
 
-- **Standaardkopelement**: Een vervolgkeuzelijst die het standaardelement Kop voor de component Title instelt.
+- **Standaard het Element van de Kop**: Een drop-down lijst die het standaardelement van de Kop voor de component van de Titel plaatst.
 
 ### Tabblad Stijlen {#styles-tab}
 
-Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De Adaptive Forms Date-Picker Core Component ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve de datum-plukkerComponent van de Kern van Forms steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
 
-![Titel van dialoogvenster Ontwerp, tabblad](/help/adaptive-forms/assets/title_styles.png)
+![ lusje van de de dialoogtitel van het Ontwerp ](/help/adaptive-forms/assets/title_styles.png)
 
-- **Standaard CSS-klassen**: U kunt een standaard CSS-klasse opgeven voor de Adaptive Forms Title Core-component.
+- **StandaardCSS Klassen**: U kunt een standaardCSS klasse voor de Aangepaste Component van de Kern van de Titel van Forms verstrekken.
 
-- **Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight: bold&quot; opgeven. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
+- **Toegestane Stijlen**: U kunt stijlen bepalen door een naam en de CSS klasse te verstrekken die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight: bold&quot; opgeven. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Om een stijl, in de Aanpassingsredacteur van Forms toe te passen, selecteer de component u de stijl op wilt toepassen, aan de eigenschappendialoog navigeren, en de gewenste stijl van de **drop-down lijst van Stijlen** selecteren. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
 
 ### Tabblad Opmaak {#format-tab}
 
 Op het tabblad Indelingen kunt u standaard- en aangepaste datumnotaties opgeven.
 
-![Tabblad Indeling](/help/adaptive-forms/assets/title_styles.png)
+![ het Lusje van het Formaat ](/help/adaptive-forms/assets/title_styles.png)
 
 <!--
 

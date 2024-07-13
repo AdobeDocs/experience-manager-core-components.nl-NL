@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
 source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '2291'
+source-wordcount: '2261'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,10 @@ De component E-mailtekst is een component voor tekstbewerking en -compositie met
 
 ## Gebruik {#usage}
 
-De component E-mailText biedt een robuuste teksteditor met tekstopmaak waarmee u tekst eenvoudig kunt bewerken in een vereenvoudigde, online editor en een volledige schermopmaak.
+De component E-mailText biedt een robuuste teksteditor met tekstopmaak die het bewerken van tekst in een vereenvoudigde, online editor en in een volledige schermopmaak mogelijk maakt.
 
-* De [dialoogvenster bewerken](#edit-dialog) functies voor inline bewerking met beperkte opties en volledige functionaliteit beschikbaar in het dialoogvenster Volledig scherm bewerken.
-* Met de [dialoogvenster voor ontwerp,](#design-dialog) U kunt opties voor tekstopmaak, zoals koppen, speciale tekens en alineastijlen, configureren voor de sjabloon van de auteur van de inhoud.
+* Het [ geeft dialoog ](#edit-dialog) eigenschappen in-lijn uit het uitgeven met beperkte opties met volledige functionaliteit beschikbaar in het volledig scherm uitgeeft dialoog.
+* Gebruikend de [ ontwerpdialoog, ](#design-dialog) tekst het formatteren opties zoals rubrieken, speciale karakters, en paragraafstijlen kunnen voor het malplaatje voor de inhoudauteur worden gevormd.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -32,27 +32,27 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 |---|---|---|
 | v1 | Compatibel | - |
 
-Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies e-mailen.](/help/email/versions.md)
+Voor meer informatie over de versies en de versies van de Component van de Kern, zie het document [ e-mailVersie van de Componenten van de Kern.](/help/email/versions.md)
 
 ### Technische details {#technical-details}
 
-De meest recente technische documentatie over de E-mailtekstcomponent [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_email_text_v1).
+De recentste technische documentatie over de Component van de Tekst E-mail [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_email_text_v1) worden gevonden.
 
-Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
 
 ## De component E-mailtekst en de RTF-editor {#the-text-component-and-the-rich-text-editor}
 
-De component Email Text gebruikt de AEM Rich Text Editor (RTE). RTE voorziet inhoudsauteurs van een brede waaier van functionaliteit voor het uitgeven van hun tekstinhoud. RTE is flexibel in zijn configuratie en biedt een aantal opties aan. Meer details over hoe RTE kan worden gevormd kunnen in de artikelen worden gevonden [De Rich Text Editor configureren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) en [De invoegtoepassingen van de Rich Text Editor configureren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+De component Email Text gebruikt de AEM Rich Text Editor (RTE). RTE voorziet inhoudsauteurs van een brede waaier van functionaliteit voor het uitgeven van hun tekstinhoud. RTE is flexibel in zijn configuratie en biedt een aantal opties aan. Verdere details over hoe RTE kan worden gevormd kunnen in de artikelen [ worden gevonden vormen de Rijke Redacteur van de Tekst ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) en [ vormen de Rijke stop-ins van de Redacteur van de Tekst ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 De rest van dit document demonstreert de standaardconfiguratie van de component E-mailText met de uit-van-de-doos configuratie van RTE.
 
 >[!NOTE]
 >
->Alleen opties ingeschakeld door [UI-configuraties van de RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) zijn beschikbaar in de component E-mailtekst.
+>Slechts die opties door [ worden toegelaten UI configuraties van RTE ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) zijn beschikbaar in de Component van de Tekst E-mail.
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
-![Dialoogvenster voor bewerken van tekstcomponent](/help/email/assets/email-text-edit.png)
+![ de Edit dialoog van de Component van de Tekst ](/help/email/assets/email-text-edit.png)
 
 ### Opmaakopties {#options}
 
@@ -60,7 +60,7 @@ Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak di
 
 #### Vet
 
-![Vet pictogram](/help/assets/text-bold.png)
+![ Vet pictogram ](/help/assets/text-bold.png)
 
 Wordt gebruikt om vette opmaak toe te passen op geselecteerde tekst of opgemaakte tekst die na de cursor wordt ingevoerd.
 
@@ -68,7 +68,7 @@ Wordt gebruikt om vette opmaak toe te passen op geselecteerde tekst of opgemaakt
 
 #### Cursief
 
-![Cursief pictogram](/help/assets/text-italic.png)
+![ Cursief pictogram ](/help/assets/text-italic.png)
 
 Wordt gebruikt om cursieve opmaak toe te passen op geselecteerde tekst of om tekst die na de cursor wordt ingevoerd, cursief te maken.
 
@@ -76,7 +76,7 @@ Wordt gebruikt om cursieve opmaak toe te passen op geselecteerde tekst of om tek
 
 #### Onderstrepen
 
-![Pictogram Onderstrepen](/help/assets/text-underline.png)
+![ onderstreepte pictogram ](/help/assets/text-underline.png)
 
 Wordt gebruikt om onderstreepte opmaak toe te passen op geselecteerde tekst of onderstreepte tekst die na de cursor wordt ingevoerd.
 
@@ -84,46 +84,46 @@ Wordt gebruikt om onderstreepte opmaak toe te passen op geselecteerde tekst of o
 
 #### Subscript
 
-![Subscript-pictogram](/help/assets/text-subscript.png)
+![ Subscript pictogram ](/help/assets/text-subscript.png)
 
 Wordt gebruikt om geselecteerde tekst of tekst die na de cursor is ingevoerd, op te maken als een subscript.
 
 #### Superscript
 
-![Pictogram Superscript](/help/assets/text-superscript.png)
+![ pictogram Superscript ](/help/assets/text-superscript.png)
 
-Wordt gebruikt om geselecteerde tekst of tekst die na de cursor is ingevoerd, op te maken als superscript.
+Hiermee maakt u geselecteerde tekst of tekst die na de cursor is ingevoerd, op als superscript.
 
 #### Plakken als tekst
 
-![Plakken als tekstpictogram](/help/assets/text-paste-text.png)
+![ Deeg als tekstpictogram ](/help/assets/text-paste-text.png)
 
 Hiermee plakt u alle gekopieerde tekst als onbewerkte tekst zonder opmaak.
 
 Wanneer u deze optie selecteert, wordt een venster geopend waarin de tekst als onbewerkte tekst zonder opmaak kan worden geplakt als een voorvertoning voordat deze in de tekst wordt ingevoegd. Accepteren door te tikken of op het vinkje te klikken, annuleren door te tikken of op de x te klikken.
 
-![Plakken als tekstvoorbeeld](/help/assets/text-paste-text-example.png)
+![ Deeg als tekstvoorbeeld ](/help/assets/text-paste-text-example.png)
 
 #### Plakken vanuit Word
 
-![Plakken vanuit Word-pictogram](/help/assets/text-paste-word.png)
+![ Deeg van het pictogram van Word ](/help/assets/text-paste-word.png)
 
 Als u deze optie selecteert, wordt een venster geopend waarin de tekst kan worden geplakt met behoud van de opmaak als voorbeeld voordat deze in de tekst wordt ingevoegd. Accepteren door te tikken of op het vinkje te klikken, annuleren door te tikken of op de x te klikken.
 
-![Voorbeeld van plakken in Word](/help/assets/text-paste-word-example.png)
+![ Deeg van het voorbeeld van Word ](/help/assets/text-paste-word-example.png)
 
 #### Hyperlink
 
-![Pictogram Hyperlink](/help/assets/text-hyperlink.png)
+![ pictogram van de Hyperlink ](/help/assets/text-hyperlink.png)
 
 Met deze optie kunt u de geselecteerde tekst omzetten in een hyperlink of een reeds gedefinieerde koppeling wijzigen. Met deze optie opent u een venster met aanvullende opties voor het instellen van de koppeling.
 
-![Voorbeeld van hyperlink](/help/assets/text-hyperlink-example.png)
+![ voorbeeld van de Hyperlink ](/help/assets/text-hyperlink-example.png)
 
 * Het pad invoeren
-   * Gebruik de **Selectie openen** dialoogvenster om een pad in AEM te kiezen
+   * Gebruik de **Open dialoog van de Selectie** om een weg in AEM te kiezen
    * Als de koppeling zich niet binnen AEM bevindt, voert u de absolute URL in
-      * Niet-absolute paden worden geïnterpreteerd als relatief ten opzichte van AEM
+      * Niet-absolute paden worden geïnterpreteerd als relatieve AEM
 * Alternatieve beschrijvende tekst voor de koppeling invoeren
 * Koppelingsgedrag selecteren
    * Doel
@@ -136,49 +136,49 @@ Tik of klik op het vinkje om de koppeling toe te passen of klik op de x om te an
 
 #### Ontkoppelen
 
-![Pictogram Ontkoppelen](/help/assets/text-unlink.png)
+![ pictogram van de Ontkoppeling ](/help/assets/text-unlink.png)
 
 Gebruik deze optie om een koppeling te verwijderen die al op de geselecteerde tekst is toegepast. Deze optie is alleen actief als er al een koppeling is geselecteerd.
 
 #### Anker {#anchor}
 
-![Ankerpictogram](/help/email/assets/anchor.png)
+![ pictogram van het Anker ](/help/email/assets/anchor.png)
 
 Gebruik deze optie om een anker in de tekst in te voegen.
 
 #### Zoeken
 
-![Pictogram Zoeken](/help/assets/text-find.png)
+![ het pictogram van de Vondst ](/help/assets/text-find.png)
 
 Met deze optie kunt u de tekst doorzoeken op een opgegeven tekstreeks. Als u deze optie selecteert, wordt een venster geopend waarin u de zoekopties kunt opgeven.
 
-![Voorbeeld van zoeken](/help/assets/text-find-example.png)
+![ vind voorbeeld ](/help/assets/text-find-example.png)
 
-Voer de tekst in die u wilt doorzoeken en tikken of waarop u wilt klikken **Zoeken** om de zoekopdracht te starten. Tik of klik op de x om te annuleren.
-Selecteer de optie als u een exacte overeenkomst wilt uitvoeren op basis van het hoofdlettergebruik **Hoofdlettergebruik afstemmen** voordat u de zoekopdracht start.
-Als een overeenkomst wordt gevonden, wordt deze gemarkeerd en wordt het zoekdialoogvenster gedimd weergegeven. Tik of klik op de knop **Zoeken** weer in het grijze dialoogvenster om naar de volgende instantie te zoeken.
+Ga de tekst in waarvoor u wilt zoeken en tikken of **Vondst** klikken om met het onderzoek te beginnen. Tik of klik op de x om te annuleren.
+Als u wenst om een nauwkeurige gelijke volgens het geval te doen, selecteer de optie **Geval van de Gelijke** alvorens het onderzoek te beginnen.
+Als een overeenkomst wordt gevonden, wordt deze gemarkeerd en wordt het zoekdialoogvenster gedimd weergegeven. Tik of klik opnieuw de **Vondst** knoop in de gedimde dialoog om naar het volgende voorkomen te zoeken.
 
-![Voorbeeld van zoeken gevonden](/help/assets/text-find-example-found.png)
+![ gevonden voorbeeld van de Vondst ](/help/assets/text-find-example-found.png)
 
 Als er geen andere exemplaren worden gevonden, wordt een bericht weergegeven en wordt de zoekopdracht opnieuw gestart vanaf het begin van de tekst.
 
-![Voorbeeld niet meer zoeken](/help/assets/text-find-example-found-end.png)
+![ vind voorbeeld niet meer voorkomen ](/help/assets/text-find-example-found-end.png)
 
 #### Vervangen
 
-![Pictogram Vervangen](/help/assets/text-replace.png)
+![ vervang pictogram ](/help/assets/text-replace.png)
 
 Gebruik deze optie om de tekst te zoeken op instanties van een opgegeven tekenreeks en de overeenkomsten te vervangen door een andere tekenreeks. Als u deze optie selecteert, wordt een venster geopend waarin u de opties voor zoeken en vervangen kunt opgeven.
 
-![Voorbeeld vervangen](/help/assets/text-replace-example.png)
+![ vervangt voorbeeld ](/help/assets/text-replace-example.png)
 
 Voer de tekst in waarnaar u wilt zoeken en de tekst waarmee u deze wilt vervangen.
 
-* Tik of klik op **Zoeken** om de zoekopdracht te starten. Klik of tik op de x om te annuleren.
-* Selecteer de optie als u een exacte overeenkomst wilt uitvoeren op basis van het hoofdlettergebruik **Hoofdlettergebruik afstemmen** voordat u de zoekopdracht start.
-* Selecteren **Alles vervangen** om alle instanties van de tekst tegelijk te vervangen.
+* Tik of klik **Vondst** om met het onderzoek te beginnen. Klik of tik op de x om te annuleren.
+* Als u wenst om een nauwkeurige gelijke volgens het geval te doen, selecteer de optie **Geval van de Gelijke** alvorens het onderzoek te beginnen.
+* Selecteer **vervangen allen** om alle voorkomen van de tekst in één keer te vervangen.
 
-Als een overeenkomst wordt gevonden, wordt deze gemarkeerd en wordt het zoekdialoogvenster gedimd weergegeven. Klik op de knop **Zoeken** opnieuw in het gedimde dialoogvenster om naar de volgende instantie te zoeken of selecteer de knop **Vervangen** om de gemarkeerde, overeenkomende tekst te vervangen. De **Vervangen** de knop is alleen actief als er een overeenkomst is bereikt.
+Als een overeenkomst wordt gevonden, wordt deze gemarkeerd en wordt het zoekdialoogvenster gedimd weergegeven. Klik opnieuw de **Vondst** knoop in de gedimde dialoog om naar het volgende voorkomen te zoeken of **te selecteren vervang** knoop om de benadrukte, aangepaste tekst te vervangen. De **vervangt** knoop is slechts actief zodra een gelijke wordt gemaakt.
 
 Het dialoogvenster Zoeken en vervangen wordt transparant wanneer op Zoeken wordt geklikt en wordt dekkend wanneer op Vervangen wordt geklikt. Hierdoor kan de auteur de tekst controleren die de auteur vervangt.
 
@@ -188,53 +188,53 @@ Het dialoogvenster Zoeken en vervangen wordt transparant wanneer op Zoeken wordt
 
 #### Ongedaan maken
 
-![Pictogram Ongedaan maken](/help/email/assets/undo.png)
+![ ongedaan maken pictogram ](/help/email/assets/undo.png)
 
 Wordt gebruikt om de laatste bewerking in de RTF-editor ongedaan te maken.
 
 #### Opnieuw
 
-![Opnieuw pictogram](/help/email/assets/redo.png)
+![ opnieuw pictogram ](/help/email/assets/redo.png)
 
 Wordt gebruikt om een ongedaan gemaakte bewerking ongedaan te maken met het pictogram Ongedaan maken.
 
 #### Tekst links uitlijnen
 
-![Pictogram Links uitlijnen](/help/assets/text-left.png)
+![ richt linkerpictogram ](/help/assets/text-left.png) uit
 
 Wordt gebruikt om de tekst uit te lijnen met de linkermarge.
 
 #### Tekst centreren
 
-![Pictogram Tekst centreren](/help/assets/text-center.png)
+![ de tekstpictogram van het Centrum ](/help/assets/text-center.png)
 
-Wordt gebruikt om de tekst te centreren.
+Hiermee centreert u de tekst.
 
 #### Tekst rechts uitlijnen
 
-![Pictogram rechts uitlijnen](/help/assets/text-right.png)
+![ richt rechts pictogram ](/help/assets/text-right.png) uit
 
 Wordt gebruikt om de tekst uit te lijnen met de rechtermarge.
 
 #### Opsommingsteken
 
-![Pictogram opsommingsteken](/help/assets/text-bullet.png)
+![ pictogram van het Bullet ](/help/assets/text-bullet.png)
 
 Wordt gebruikt om de geselecteerde tekst op te maken als een lijst met opsommingstekens of om te beginnen met het invoegen van een lijst met opsommingstekens na de cursor.
 
-Tik of klik op de knop **Opsommingsteken** nogmaals of twee Enter-tekens invoeren.
+Om een bulleted lijst te eindigen, onttikt of klikt opnieuw de **knoop van de Opsommingsteken** of gaat twee vervoerterugkeer in.
 
 #### Genummerd
 
-![Pictogram Genummerde lijst](/help/assets/text-numbered.png)
+![ Genummerd lijstpictogram ](/help/assets/text-numbered.png)
 
 Hiermee maakt u de geselecteerde tekst op als een genummerde lijst of begint u met het invoegen van een genummerde lijst na de cursor.
 
-Tik op een genummerde lijst of klik op de knop **Genummerd** nogmaals of twee Enter-tekens invoeren.
+Om een genummerde lijst te beëindigen, de **Genummerde** knoop te onttikken of te klikken opnieuw of twee vervoerterugkeer in te gaan.
 
 #### Uitspringen
 
-![Pictogram Uitspringen](/help/assets/text-outdent.png)
+![ pictogram Uitspringen ](/help/assets/text-outdent.png)
 
 Wordt gebruikt om het inspringingsniveau te verlagen van de geselecteerde tekst of tekst die na de cursor wordt ingevoerd.
 
@@ -242,97 +242,97 @@ Alleen actief als de geselecteerde tekst of positie van de cursor al is ingespro
 
 #### Inspringen
 
-![Pictogram Inspringen](/help/assets/text-indent.png)
+![ Inspringen pictogram ](/help/assets/text-indent.png)
 
 Wordt gebruikt om het inspringingsniveau te verhogen van de geselecteerde tekst of tekst die na de cursor wordt ingevoerd.
 
 #### Tabel
 
-![Tabelpictogram](/help/assets/text-table.png)
+![ pictogram van de Lijst ](/help/assets/text-table.png)
 
 Wordt gebruikt om een tabel in de tekst in te voegen. Als u deze optie selecteert, wordt een venster geopend waarin u de details van de tabel kunt opgeven.
 
-![Tabelvoorbeeld](/help/assets/text-table-example.png)
+![ Voorbeeld van de Lijst ](/help/assets/text-table-example.png)
 
-* **Kolommen** - Het aantal kolommen in de tabel (verplicht)
-* **Rijen** - Het aantal rijen van de tabel (vereist)
-* **Breedte** - De breedte van de tabel
-* **Hoogte** - De hoogte van de tabel
-* **Celopvulling** - De ruimte rondom de celinhoud
-* **Celafstand** - De ruimte tussen cellen
-* **Rand** - Het gewicht van de randlijnen van de tabel
+* **Kolommen** - het aantal kolommen van de (vereiste) lijst
+* **Rijen** - het aantal rijen van de (vereiste) lijst
+* **Breedte** - de breedte van de lijst
+* **Hoogte** - de hoogte van de lijst
+* **het opvullen van de Cel** - de ruimte rond de celinhoud
+* **het uit elkaar plaatsen van de Cel** - de ruimte tussen cellen
+* **Grens** - het gewicht van de grenslijnen van de lijst
    * Indien voor de koptekst van de tabel:
-      * De eerste rij moet worden gebruikt
-      * De eerste kolom moet worden gebruikt
-      * De eerste rij en de eerste kolom moeten worden gebruikt
+      * Gebruik de eerste rij
+      * Gebruik de eerste kolom
+      * Gebruik de eerste rij en de eerste kolom
       * Of er moet geen header worden gebruikt.
-* **Bijschrift** - Het bijschrift van de tabel
+* **Titel** - de titel van de lijst
 
 #### Afbeelding
 
-![Pictogram Afbeelding](/help/email/assets/image-icon.png)
+![ pictogram van het Beeld ](/help/email/assets/image-icon.png)
 
 Wordt gebruikt om een ingevoegde afbeelding uit te lijnen.
 
 #### Spellingcontrole
 
-![Spellingpictogram controleren](/help/assets/text-spellcheck.png)
+![ het Spellingspictogram van de Controle ](/help/assets/text-spellcheck.png)
 
 Wordt gebruikt om de spelling van de tekstinhoud te controleren. Mogelijke spelfouten worden onderstreept met gebroken, rode lijnen.
 
-Meer informatie over de spellingcontrole en het aanpassen van de spellingcontrolewoordenboeken vindt u in het document [De plug-ins van de Rich Text Editor configureren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+De verdere details over spellingcontrole en het aanpassen van de woordenboeken van de spellingcontrole kunnen in het document [ worden gevonden vormen de Rich Insteekmodules van de Redacteur van de Tekst ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 #### Speciale tekens {#special-characters}
 
-![Pictogram Speciale tekens](/help/assets/text-special-characters.png)
+![ het Speciale karakterpictogram ](/help/assets/text-special-characters.png)
 
 Wordt gebruikt om speciale tekens in te voegen in de tekst. Als u deze optie selecteert, wordt een venster geopend waarin de beschikbare tekens worden weergegeven.
 
-![Voorbeeld van speciale tekens](/help/assets/text-special-characters-example.png)
+![ Speciaal karaktervoorbeeld ](/help/assets/text-special-characters-example.png)
 
 Tik op het gewenste teken of klik op het gewenste teken om het teken na de cursor in te voegen in de tekst. U kunt meerdere tekens invoegen. Tik of klik op de x om het selectievenster te sluiten.
 
-#### Bron bewerken
+#### Source Edit
 
-![Pictogram Bron bewerken](/help/assets/text-source.png)
+![ Source geeft pictogram uit ](/help/assets/text-source.png)
 
 Wordt gebruikt om de HTML-bron van de tekst weer te geven en te wijzigen.
 
-Tik of klik op de knop **Bron bewerken** om de inhoud van de tekst vanuit de opgemaakte weergave te wijzigen en de onbewerkte HTML weer te geven. In deze modus zijn alle andere opmaakopties uitgeschakeld. Tik of klik op de knop **Bron bewerken** opnieuw om naar de opgemaakte weergave terug te gaan.
+Tik of klik **Source geeft** pictogram uit om de inhoud van de tekst van de geformatteerde mening te veranderen om ruwe HTML te bekijken. In deze modus zijn alle andere opmaakopties uitgeschakeld. Tik of klik **Source geeft** opnieuw pictogram uit om aan de geformatteerde mening terug te keren.
 
 >[!CAUTION]
 >
->Zoals altijd het geval is bij de toegang tot ruwe HTML, moet voorzichtigheid worden betracht bij het gebruik van de **Bron bewerken** optie!
+>Zoals altijd het geval met toegang tot ruwe HTML, moet de zorg worden uitgeoefend wanneer het gebruiken van **Source geeft** optie uit!
 >
->HTML ingevoerd via **Bron bewerken** wordt gescand op XSS-risico&#39;s en alle scripts die worden ingevoegd, worden verwijderd en niet weergegeven op de resulterende pagina. Onjuist gevormde HTML is echter ingevoerd in **Bron bewerken** kan de sjabloon voor de pagina onderbreken, wat resulteert in een onverwachte opmaak of een onbruikbare pagina.
+>HTML ingegaan via **Source geeft** uit wordt gescand voor XSS risico&#39;s en om het even welke manuscripten die worden opgenomen worden verwijderd en zullen niet op de resulterende pagina verschijnen. Nochtans misvormde HTML ingegaan in **Source geeft** uit kan het malplaatje voor de pagina breken resulterend in onverwachte het formatteren of het teruggeven van de resulterende pagina onbruikbaar.
 
 >[!NOTE]
 >
->Omdat HTML is ingevoerd via **Bron bewerken** wordt gescand op XSS-risico&#39;s en eventuele scripts en worden automatisch gevonden scripts verwijderd. De werkelijke inhoud die u wilt behouden, kan afwijken van wat u hebt ingevoerd **Bron bewerken**. Daarom kunt u de wijzigingen opslaan die zijn aangebracht met **Bron bewerken**, moet u eerst afsluiten **Bron bewerken** om de tekst in de normale redacteur te bekijken alvorens op te slaan.
+>Omdat HTML ingegaan via **Source** voor XSS risico&#39;s en om het even welke manuscripten wordt gescand en automatisch die gevonden verwijdert, kan de daadwerkelijke inhoud voortgeduurd variëren van wat in **Source uitgeeft** was ingegaan. Om deze reden, om aangebrachte veranderingen te bewaren gebruikend **Source geeft** uit, moet u **Source eerst weggaan uitgeven** om de tekst in de normale redacteur te bekijken alvorens op te slaan.
 
 #### Alineaopmaak
 
-![Pictogram Alineaopmaak](/help/assets/text-paragraph.png)
+![ het formaatpictogram van de Paragraaf ](/help/assets/text-paragraph.png)
 
 Wordt gebruikt om alineaopmaak toe te passen op de geselecteerde tekst of op tekst die na de cursor wordt ingevoegd. Als u deze optie selecteert, wordt een vervolgkeuzelijst geopend waarin de alineaopmaak wordt geselecteerd.
 
-![Voorbeeld van alineaopmaak](/help/assets/text-paragraph-example.png)
+![ het formaatvoorbeeld van de Paragraaf ](/help/assets/text-paragraph-example.png)
 
 #### Adobe Campaign-variabele selecteren
 
-![Pictogram Adobe Campaign-variabele selecteren](/help/email/assets/select-adobe-campaign-variable-icon.png)
+![ Uitgezochte Adobe Campaign veranderlijk pictogram ](/help/email/assets/select-adobe-campaign-variable-icon.png)
 
-Hiermee opent u de [Adobe Campaign-variabele selecteren](/help/email/campaign-variables.md) om dynamische inhoud uit Adobe Campaign in te voegen.
+Opent de [ Uitgezochte Variabele van Adobe Campaign ](/help/email/campaign-variables.md) dialoog om dynamische inhoud van Adobe Campaign op te nemen.
 
 ### In-line bewerking {#in-line-editing}
 
 De tekstcomponent kan ook online worden bewerkt. Als u online wilt bewerken, selecteert u de component E-mailtekst op de inhoudspagina.
 
-![E-mailtekstcomponent selecteren](/help/email/assets/email-text-select-component.png)
+![ Uitgezochte component van de Tekst E-mail ](/help/email/assets/email-text-select-component.png)
 
-Tik vervolgens op de knop **Bewerken** op de werkbalk die boven de component wordt weergegeven. De werkbalk verandert om beperkte opties voor tekstopmaak weer te geven (waaronder toegang tot de **Adobe Campaign-variabele selecteren** ) en kunt u de tekst online bewerken.
+Dan tik of klik **uitgeven** pictogram op de toolbar die over de component omhoog springt. De toolbar verandert om beperkte tekst het formatteren opties (met inbegrip van toegang tot de **Uitgezochte Variabele van Adobe Campaign** optie) te tonen en u kunt de tekst in-lijn uitgeven.
 
-![Voorbeeld van inline bewerken](/help/email/assets/email-text-edit-inline-example.png)
+![ In-lijn geeft voorbeeld uit ](/help/email/assets/email-text-edit-inline-example.png)
 
 Tik of klik op het vinkje op de werkbalk om de wijzigingen op te slaan of klik op de X om de wijzigingen te verwijderen.
 
@@ -352,11 +352,11 @@ In het ontwerpdialoogvenster kan de sjabloonauteur definiëren welke tekstopmaak
 
 ### Tabblad Plugins {#plugins-tab}
 
-De **Plug-ins** wordt gebruikt om verschillende tekstopmaakopties die beschikbaar zijn voor de auteurs van de inhoud in en uit te schakelen.
+Het **lusje van Insteekmodules** wordt gebruikt om diverse tekst toe te laten en onbruikbaar te maken formatterend opties beschikbaar aan de inhoudsauteurs.
 
 ### Functies {#features}
 
-![Dialoogvenster Ontwerpen](/help/assets/text-design-features.png)
+![ de dialoogeigenschappen van het Ontwerp ](/help/assets/text-design-features.png)
 
 De volgende functies kunnen voor de component worden geactiveerd of gedeactiveerd.
 
@@ -370,7 +370,7 @@ De volgende functies kunnen voor de component worden geactiveerd of gedeactiveer
 
 ### Opmaak {#formatting}
 
-![Opmaak van dialoogvenster Ontwerp](/help/assets/text-design-formatting.png)
+![ de dialoog van het Ontwerp het formatteren ](/help/assets/text-design-formatting.png)
 
 De volgende opmaakopties kunnen voor de component worden geactiveerd of gedeactiveerd.
 
@@ -379,30 +379,30 @@ De volgende opmaakopties kunnen voor de component worden geactiveerd of gedeacti
 * Uitlijning (links, rechts, gecentreerd)
 * Vet, cursief, onderstrepen
 * Koppelen (en ontkoppelen)
-* Subscript/superscript
+* Sub/superscript
 
 ### Alineastijlen {#paragraph-styles}
 
-![Alineastijlen in het dialoogvenster Ontwerpen](/help/assets/text-design-paragraph.png)
+![ de dialoogdoos van het Ontwerp alineastijlen ](/help/assets/text-design-paragraph.png)
 
 Alineastijlen kunnen voor de component worden geactiveerd of gedeactiveerd. Als deze optie is geactiveerd, kunnen de toegestane indelingen worden gedefinieerd.
 
-* Tik of klik op de knop **Toevoegen** om een nieuwe stijl in te voegen.
+* Tik of klik **voeg** knoop toe om een nieuwe stijl op te nemen.
 * Voer de code in van de stijl en een beschrijving die worden weergegeven in het dialoogvenster Bewerken.
-* Als u een stijl wilt verwijderen, tikt u op de knop **Verwijderen** knop.
+* Om een stijl te verwijderen, tik of klik de **knoop van de Schrapping**.
 * Tik op de handgrepen of sleep deze om de volgorde van de indelingen te wijzigen.
 
 ### Speciale tekens {#configuring-special-characters}
 
-![Speciale tekens in het dialoogvenster Ontwerpen](/help/assets/text-design-special-characters.png)
+![ de dialoog van het Ontwerp speciale karakters ](/help/assets/text-design-special-characters.png)
 
 De optie voor het invoegen van speciale tekens kan voor de component worden geactiveerd of gedeactiveerd. Als deze optie is geactiveerd, kunnen de toegestane tekens worden gedefinieerd.
 
-* Tik of klik op de knop **Toevoegen** om een nieuw teken in te voegen.
-* Voer de HTML-code in van het teken en een beschrijving die wordt weergegeven in het dialoogvenster Bewerken.
-* Als u een teken wilt verwijderen, tikt u op de knop **Verwijderen** knop.
+* Tik of klik **voeg** knoop toe om een nieuw karakter op te nemen.
+* Voer de HTML-code van het teken in en een beschrijving die wordt weergegeven in het dialoogvenster Bewerken.
+* Om een karakter te verwijderen, tik of klik de **knoop van de Schrapping**.
 * Als u de volgorde van de tekens wilt wijzigen, tikt u of klikt u en sleept u de handgrepen.
 
 ## Tabblad Stijlen {#styles-tab}
 
-De component E-mailtekst ondersteunt de AEM [stijlsysteem](/help/get-started/authoring.md#component-styling).
+De E-mailComponent van de Tekst steunt het AEM [ stijlsysteem ](/help/get-started/authoring.md#component-styling).

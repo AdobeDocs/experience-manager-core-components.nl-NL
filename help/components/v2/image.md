@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 source-git-commit: 6c251cd03997dca8961b31498c6f5de3cfdc3793
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2048'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ De component Core Component Image is een adaptieve afbeeldingscomponent die op l
 
 De component Afbeelding biedt een adaptieve selectie van afbeeldingen en een responsief gedrag bij het lui laden voor de bezoeker van de pagina en bij het eenvoudig plaatsen en uitsnijden van de afbeelding voor de auteur van de inhoud.
 
-De breedte van de afbeelding en de uitsnijdbreedte en aanvullende instellingen kunnen door de sjabloonauteur in het dialoogvenster [ontwerpdialoogvenster](#design-dialog). De inhoudeditor kan elementen uploaden of selecteren in het dialoogvenster [dialoogvenster configureren](#configure-dialog) en snijd de afbeelding uit in de [dialoogvenster bewerken](#edit-dialog). Voor meer gebruiksgemak is het ook mogelijk de afbeelding op een eenvoudige plaats aan te passen.
+De beeldbreedten evenals het bebouwen en extra montages kunnen door de malplaatjeauteur in de [ ontwerpdialoog ](#design-dialog) worden bepaald. De inhoudsredacteur kan activa in [ uploaden of selecteren vormt dialoog ](#configure-dialog) en bebouwt het beeld in [ uitgeeft dialoog ](#edit-dialog). Voor meer gebruiksgemak is het ook mogelijk de afbeelding op een eenvoudige plaats aan te passen.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -28,21 +28,21 @@ In dit document wordt versie 2 van de Image Component beschreven, die in januari
 >
 >In dit document wordt versie 1 van de afbeeldingscomponent beschreven.
 >
->Zie voor meer informatie over de huidige versie van de afbeeldingscomponent het gedeelte [Afbeeldingscomponent](/help/components/image.md) document.
+>Voor details van de huidige versie van de Component van het Beeld, zie het ](/help/components/image.md) document van de Component van het Beeld 0} {.[
 
 ## Responsieve functies {#responsive-features}
 
-De component Image wordt geleverd met robuuste responsieve functies die direct uit de verpakking zijn te vinden. Op het niveau van het paginasjabloon [ontwerpdialoogvenster](#design-dialog) kan worden gebruikt om de standaardbreedten van het afbeeldingselement te definiëren. De component van het Beeld zal dan automatisch de correcte breedte aan vertoning afhankelijk van de grootte van het browser venster laden. Wanneer het formaat van het venster wordt gewijzigd, laadt de component Image dynamisch de juiste afbeeldingsgrootte. Componentontwikkelaars hoeven zich geen zorgen te maken over het definiëren van aangepaste mediaquery&#39;s, aangezien de component Image al is geoptimaliseerd om uw inhoud te laden.
+De component Image wordt geleverd met robuuste responsieve functies die direct uit de verpakking kunnen worden geleverd. Op het niveau van het paginamalplaatje, kan de [ ontwerpdialoog ](#design-dialog) worden gebruikt om de standaardbreedten van het beeldactiva te bepalen. De component van het Beeld zal dan automatisch de correcte breedte aan vertoning afhankelijk van de grootte van het browser venster laden. Wanneer het formaat van het venster wordt gewijzigd, laadt de component Image dynamisch de juiste afbeeldingsgrootte. Componentontwikkelaars hoeven zich geen zorgen te maken over het definiëren van aangepaste mediaquery&#39;s, aangezien de component Image al is geoptimaliseerd om uw inhoud te laden.
 
 Bovendien ondersteunt de component Afbeelding lui laden om het laden van het eigenlijke afbeeldingselement uit te stellen totdat het element zichtbaar is in de browser, waardoor de reacties op uw pagina&#39;s sneller worden.
 
 >[!TIP]
 >
->De component Image wordt aangedreven door de Adaptive Image Servlet. Zie het document [Adaptieve afbeeldingsserver](#adaptive-image-servlet) voor meer informatie over hoe het werkt.
+>De component Image wordt aangedreven door de Adaptive Image Servlet. Gelieve te zien het document [ Adaptieve Servlet van het Beeld ](#adaptive-image-servlet) voor details op hoe het werkt.
 
 ## Dynamic Media-ondersteuning {#dynamic-media}
 
-De afbeeldingscomponent (vanaf [release 2.13.0](/help/versions.md)) ondersteunt [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia) activa. [Indien ingeschakeld,](#design-dialog) Met deze functies kunt u Dynamic Media-afbeeldingselementen toevoegen met een eenvoudige sleepfunctie of via de middelenbrowser, net als met andere afbeeldingen. Daarnaast worden ook afbeeldingsaanpassingen, voorinstellingen voor afbeeldingen en slimme gewassen ondersteund.
+De Component van het Beeld (van [ versie 2.13.0 ](/help/versions.md)) steunt [ Dynamic Media ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia) activa. [ wanneer toegelaten, ](#design-dialog) bieden deze eigenschappen de capaciteit aan om de beeldactiva van Dynamic Media met eenvoudige belemmering-en-daling of via activabrowser toe te voegen enkel zoals u een ander beeld. Daarnaast worden ook afbeeldingsaanpassingen, voorinstellingen voor afbeeldingen en slimme gewassen ondersteund.
 
 Uw webbeleving die is gebouwd met Core Components kan geen geavanceerde, op Sensei gebaseerde, robuuste, krachtige Dynamic Media Image-mogelijkheden voor meerdere platforms bieden.
 
@@ -56,58 +56,58 @@ Schaalbare vectorafbeeldingen (SVG) worden ondersteund door de afbeeldingscompon
 
 ### Beveiliging {#security}
 
-Om veiligheidsredenen wordt de originele SVG nooit direct geroepen door de Redacteur van het Beeld. Het wordt doorgeroepen `<img src=“path-to-component”>`. Hierdoor wordt voorkomen dat de browser scripts uitvoert die in het SVG-bestand zijn ingesloten.
+Om veiligheidsredenen wordt de originele SVG nooit direct geroepen door de Redacteur van het Beeld. Deze wordt aangeroepen via `<img src=“path-to-component”>` . Hierdoor wordt voorkomen dat de browser scripts uitvoert die in het SVG-bestand zijn ingesloten.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Als u de afbeeldingscomponent wilt ervaren en voorbeelden wilt zien van de configuratieopties en van de HTML- en JSON-uitvoer, gaat u naar de [Componentbibliotheek](https://adobe.com/go/aem_cmp_library_image).
+Om de Component van het Beeld te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library_image).
 
 ### Technische details {#technical-details}
 
-De meest recente technische documentatie over de Image Component [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_image_v2).
+De recentste technische documentatie over de Component van het Beeld [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_image_v2) worden gevonden.
 
-Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
 
-De component Image ondersteunt [schema.org-microgegevens](https://schema.org).
+De Component van het Beeld steunt [ schema.org microdata ](https://schema.org).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
-Naast de norm [dialoogvenster bewerken](#edit-dialog) en [ontwerpdialoogvenster](#design-dialog), biedt de component image een configuratiedialoogvenster waarin de afbeelding zelf wordt gedefinieerd, samen met de beschrijving en basiseigenschappen.
+Naast standaard [ geef dialoog ](#edit-dialog) uit en [ ontwerpdialoog ](#design-dialog), biedt de beeldcomponent een dialoog aan waar het beeld zelf samen met zijn beschrijving en basiseigenschappen wordt bepaald.
 
 ### Tabblad Element {#asset-tab}
 
-![Tabblad Element van het dialoogvenster Configureren van Image Component](/help/assets/image-configure-asset.png)
+![ het lusje van Activa van de Component van het Beeld vormt dialoog ](/help/assets/image-configure-asset.png)
 
-* **Afbeeldingselement**
-   * Middelen uit het deelvenster [middelenbrowser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of tik op **doorbladeren** uploaden vanuit een lokaal bestandssysteem.
-   * Tik of klik op **Wissen** om de selectie van de geselecteerde afbeelding op te heffen.
-   * Tik of klik op **Bewerken** tot [de uitvoeringen van het actief beheren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in de middeleneditor.
+* **activa van het Beeld**
+   * Daling een activa van [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of ontvang **doorbladert** optie om van een lokaal dossiersysteem te uploaden.
+   * Tik of klik **Duidelijk** om het momenteel geselecteerde beeld te deselecteren.
+   * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in de activaredacteur te beheren.
 
 ### Tabblad Metagegevens {#metadata-tab}
 
-![Tabblad Metagegevens van het dialoogvenster Configureren van Image Component](/help/assets/image-configure-metadata.png)
+![ Meta-gegevens lusje van de Component van het Beeld vormt dialoog ](/help/assets/image-configure-metadata.png)
 
-* **Type voorinstelling** - Hiermee worden de typen voorinstellingen voor afbeeldingen gedefinieerd die beschikbaar zijn. **Voorinstelling afbeelding** of **Slim uitsnijden** en is alleen beschikbaar wanneer [Dynamic Media-functies](#dynamic-meida) zijn ingeschakeld.
-   * **Voorinstelling afbeelding** - Wanneer **Type voorinstelling** van **Voorinstelling afbeelding** is geselecteerd, de vervolgkeuzelijst **Voorinstelling afbeelding** is beschikbaar, zodat u kunt kiezen uit de beschikbare Dynamic Media-voorinstellingen. Dit is alleen beschikbaar als er voorinstellingen zijn gedefinieerd voor het geselecteerde element.
-   * **Slim uitsnijden** - Wanneer **Type voorinstelling** van **Slim uitsnijden** is geselecteerd in de vervolgkeuzelijst **Vertoning** is beschikbaar, zodat u kunt kiezen uit de beschikbare uitvoeringen van het geselecteerde element. Dit is alleen beschikbaar als uitvoeringen zijn gedefinieerd voor het geselecteerde element.
-   * **Afbeeldingsaanpassingen** - U kunt hier aanvullende opdrachten voor Dynamic Media-beeldserving definiëren door `&`, ongeacht welke **Type voorinstelling** is geselecteerd.
-* **Afbeelding is decoratief** - Controleer of het beeld door ondersteunende hulpmiddelen moet worden genegeerd en of er daarom geen alternatieve tekst nodig is. Dit geldt alleen voor decoratieve afbeeldingen.
-* **Alternatieve tekst** - Textueel alternatief van de betekenis of functie van de afbeelding voor slechtzienden.
-   * **Alternatieve tekst ophalen van DAM** - Als u deze optie inschakelt, wordt de alternatieve tekst van de afbeelding gevuld met de waarde van de optie `dc:description` metagegevens in DAM.
-* **Bijschrift** - Aanvullende informatie over de afbeelding, die standaard onder de afbeelding wordt weergegeven.
-   * **Bijschrift ophalen van DAM** - Als deze optie is ingeschakeld, wordt de bijschrifttekst van de afbeelding gevuld met de waarde van de optie `dc:title` metagegevens in DAM.
-   * **Bijschrift weergeven als pop-up** - Als deze optie is ingeschakeld, wordt het bijschrift niet weergegeven onder de afbeelding, maar als een pop-up die door sommige browsers wordt weergegeven wanneer de muisaanwijzer op de afbeelding wordt geplaatst.
-* **Koppeling** - Koppel de afbeelding aan een andere bron.
+* **vooraf ingesteld Type** - dit bepaalt de types van beeld vooraf instelt beschikbaar, of **Vooraf ingesteld Beeld** of **Slim Gewas**, en is slechts beschikbaar wanneer [ eigenschappen van Dynamic Media ](#dynamic-meida) worden toegelaten.
+   * **Vooraf ingesteld Beeld** - wanneer **Vooraf ingesteld Type** van **Vooraf ingesteld Beeld** wordt geselecteerd, is het drop-down **Vooraf ingestelde Beeld** beschikbaar, toestaand selectie van beschikbare Dynamic Media vooraf instelt. Dit is alleen beschikbaar als er voorinstellingen zijn gedefinieerd voor het geselecteerde element.
+   * **Slim Gewas** - wanneer **Vooraf ingesteld Type** van **Slim Uitsnijden** wordt geselecteerd de daling onderaan **Vertoning** beschikbaar is, toestaand selectie van de beschikbare vertoningen van de geselecteerde activa. Dit is alleen beschikbaar als uitvoeringen zijn gedefinieerd voor het geselecteerde element.
+   * **de Modifiers van het Beeld** - het Extra beeld dat van Dynamic Media bevelen dienen kan hier worden bepaald door `&`, ongeacht welk **Vooraf ingesteld Type** wordt geselecteerd.
+* **Beeld is decoratief** - controleer als het beeld door ondersteunende technologie zou moeten worden genegeerd en daarom geen alternatieve tekst vereist. Dit geldt alleen voor decoratieve afbeeldingen.
+* **Alternatieve tekst** - Textueel alternatief van de betekenis of de functie van het beeld, voor visueel gehandicapte lezers.
+   * **krijgt alternatieve tekst van DAM** - wanneer gecontroleerd de alternatieve tekst van het beeld zal met de waarde van de `dc:description` meta-gegevens in DAM worden bevolkt.
+* **Titel** - de Extra informatie over het beeld, die onder het beeld door gebrek wordt getoond.
+   * **krijgt titel van DAM** - wanneer gecontroleerd de de bijschrifttekst van het beeld zal met de waarde van de `dc:title` meta-gegevens in DAM worden bevolkt.
+   * **titel van de Vertoning als pop-up** - wanneer gecontroleerd, zal de titel niet onder het beeld worden getoond, maar als pop-up die door sommige browsers wordt getoond wanneer het bedekken over het beeld.
+* **Verbinding** - verbind het beeld met een ander middel.
    * In het dialoogvenster Selecteren kunt u een koppeling maken naar een andere AEM.
    * Als u geen koppeling naar een AEM maakt, voert u de absolute URL in. Niet-absolute URL&#39;s worden geïnterpreteerd als relatief ten opzichte van AEM.
-* **ID** - Met deze optie kunt u de unieke id van de component in de HTML en in de [Gegevenslaag](/help/developing/data-layer/overview.md).
+* **identiteitskaart** - Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens te controleren ](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
 >[!TIP]
 >
->**Slim uitsnijden** en **Voorinstelling afbeelding** zijn opties die elkaar uitsluiten. Als een auteur een voorinstelling voor een afbeelding moet gebruiken in combinatie met een uitvoering voor slim uitsnijden, moet de auteur de opdracht **Afbeeldingsaanpassingen** om handmatig voorinstellingen toe te voegen.
+>**het Slimme Gewas** en **Vooraf ingesteld Beeld** zijn wederzijds exclusieve opties. Als een auteur een beeld moet gebruiken vooraf ingesteld samen met een Slimme vertoning van het Gewas, zal de auteur de **Modifiers van het Beeld** moeten gebruiken om manueel vooraf instelt toe te voegen.
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
@@ -115,58 +115,58 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud uitsnijden, de startk
 
 >[!NOTE]
 >
->Uitsnijden, roteren en zoomen zijn niet van toepassing op Dynamic Media-elementen. Als de [Dynamic Media-functies](#dynamic-media) zijn ingeschakeld, bewerkingen naar Dynamic Media-elementen moeten worden uitgevoerd via de [Dialoogvenster configureren.](#configure-dialog)
+>Uitsnijden, roteren en zoomen zijn niet van toepassing op Dynamic Media-elementen. Als de [ eigenschappen van Dynamic Media ](#dynamic-media) worden toegelaten, zou om het even welk zulk het uitgeven aan de activa van Dynamic Media door [ moeten worden uitgevoerd vormen Dialoog.](#configure-dialog)
 
-![Bewerkingsdialoogvenster van afbeeldingscomponent](/help/assets/image-edit.png)
+![ de Edit dialoog van de Component van het Beeld {](/help/assets/image-edit.png)
 
 * Uitsnijden starten
 
-   ![Uitsnijdpictogram starten](/help/assets/image-start-crop.png)
+  ![ Uitsnijdpictogram van het Begin ](/help/assets/image-start-crop.png)
 
-   Als u deze optie selecteert, wordt een vervolgkeuzelijst geopend voor vooraf gedefinieerde verhoudingen voor uitsnijden.
+  Als u deze optie selecteert, wordt een vervolgkeuzelijst geopend voor vooraf gedefinieerde verhoudingen voor uitsnijden.
 
-   * Kies de optie **Free Hand** om uw eigen uitsnijding te definiëren.
-   * Kies de optie **Uitsnijden verwijderen** om het oorspronkelijke element weer te geven.
+   * Kies de optie **Vrije hand** om uw eigen uitsnijding te bepalen.
+   * Kies de optie **verwijdert Uitsnijden** om de originele activa te tonen.
 
-   Als een uitsnijdoptie is geselecteerd, gebruikt u de blauwe handgrepen om het uitsnijden op de afbeelding te vergroten of te verkleinen.
+  Als een uitsnijdoptie is geselecteerd, gebruikt u de blauwe handgrepen om het uitsnijden op de afbeelding te vergroten of te verkleinen.
 
-   ![Opties voor uitsnijden](/help/assets/image-crop-options.png)
+  ![ de opties van het Gewas ](/help/assets/image-crop-options.png)
 
 * Rechtsom roteren
 
-   ![Pictogram rechtsom roteren](/help/assets/image-rotate-right.png)
+  ![ roteer het juiste pictogram ](/help/assets/image-rotate-right.png)
 
-   Gebruik deze optie als u de afbeelding 90° rechtsom wilt roteren.
+  Gebruik deze optie als u de afbeelding 90° rechtsom wilt roteren.
 
 * Horizontaal spiegelen
 
-   ![Pictogram Horizontaal spiegelen](/help/assets/image-flip-horizontal.png)
+  ![ Horizontaal spiegelen pictogram ](/help/assets/image-flip-horizontal.png)
 
-   Met deze optie kunt u de afbeelding horizontaal draaien of 180° langs de y-as draaien.
+  Met deze optie kunt u de afbeelding horizontaal draaien of 180° langs de y-as draaien.
 
 * Verticaal spiegelen
 
-   ![Pictogram verticaal spiegelen](/help/assets/image-flip-vertical.png)
+  ![ Verticaal spiegelen pictogram ](/help/assets/image-flip-vertical.png)
 
-   Gebruik deze optie om de afbeelding 180° verticaal om te draaien of om de afbeelding 180° langs de x-as om te draaien.
+  Gebruik deze optie om de afbeelding 180° verticaal om te draaien of om de afbeelding 180° langs de x-as om te draaien.
 
 * Zoomen herstellen
 
-   ![Zoompictogram opnieuw instellen](/help/assets/image-reset-zoom.png)
+  ![ het gezoempictogram van het Terugstellen ](/help/assets/image-reset-zoom.png)
 
-   Als al op de afbeelding is ingezoomd, gebruikt u deze optie om het zoomniveau opnieuw in te stellen.
+  Als al op de afbeelding is ingezoomd, gebruikt u deze optie om het zoomniveau opnieuw in te stellen.
 
 * Zoomregelaar openen
 
-   ![Pictogram van zoomregelaar openen](/help/assets/image-zoom.png)
+  ![ Open pictogram van de gezoemschuif ](/help/assets/image-zoom.png)
 
-   Met deze optie geeft u een schuifregelaar weer om het zoomniveau van de afbeelding te bepalen.
+  Met deze optie geeft u een schuifregelaar weer om het zoomniveau van de afbeelding te bepalen.
 
-   ![Besturing van zoomregelaar](/help/assets/image-zoom-slider.png)
+  ![ de schuifcontrole van het Gezoem ](/help/assets/image-zoom-slider.png)
 
 U kunt de interne editor ook gebruiken om de afbeelding te wijzigen. Vanwege ruimtebeperkingen zijn alleen de basisopties online beschikbaar. Voor volledige bewerkingsopties gebruikt u de modus Volledig scherm.
 
-![Opties voor Op plaats bewerken van afbeeldingen](/help/assets/image-in-place-edit.png)
+![ Beeld op zijn plaats geeft opties uit ](/help/assets/image-in-place-edit.png)
 
 >[!NOTE]
 >
@@ -178,78 +178,76 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de opties voor uitsnijden, up
 
 ### Hoofdtabblad {#main-tab}
 
-Op de **Hoofd** kunt u een lijst met breedten definiëren in pixels voor de afbeelding. De component laadt automatisch de meest geschikte breedte op basis van de browsergrootte. Dit is een belangrijk onderdeel van het [responsieve functies](#responsive-features) van de afbeeldingscomponent.
+Op het **Belangrijkste** lusje kunt u een lijst van breedten in pixel voor het beeld bepalen en de component zal automatisch de meest aangewezen breedte laden die op browser grootte wordt gebaseerd. Dit is een belangrijk deel van [ ontvankelijke eigenschappen ](#responsive-features) van de Component van het Beeld.
 
-Bovendien kunt u bepalen welke algemene componentenopties automatisch of gehandicapt zijn wanneer de auteur de component aan een pagina toevoegt.
+Bovendien kunt u bepalen welke algemene componentenopties automatisch of onbruikbaar worden gemaakt wanneer de auteur de component aan een pagina toevoegt.
 
-![Het hoofdtabblad van het dialoogvenster Ontwerp van de afbeeldingscomponent](/help/assets/image-design-main-v2.png)
+![ het belangrijkste lusje van de het ontwerpdialoog van de Component van het Beeld het ontwerp ](/help/assets/image-design-main-v2.png)
 
-* **DM-functies inschakelen** - Als deze optie ingeschakeld is [Dynamic Media-functies](#dynamic-media) zijn beschikbaar.
-* **Geoptimaliseerde webafbeeldingen inschakelen** - Als deze optie is ingeschakeld, wordt [webgeoptimaliseerde service voor het leveren van afbeeldingen](/help/developing/web-optimized-image-delivery.md) Hiermee worden afbeeldingen in de WebP-indeling geleverd. De afbeeldingen worden gemiddeld met 25% verkleind.
+* **laat eigenschappen DM** toe - wanneer gecontroleerd, laat [ eigenschappen van Dynamic Media ](#dynamic-media) toe beschikbaar zijn.
+* **laat Web Geoptimaliseerde Beelden** toe - wanneer gecontroleerd, zal de [ Web-geoptimaliseerde dienst van de beeldlevering ](/help/developing/web-optimized-image-delivery.md) beelden in het formaat leveren WebP, die beeldgrootte door gemiddeld 25% verminderen.
    * Deze optie is alleen beschikbaar in AEMaaCS.
-   * Als deze optie niet is ingeschakeld of als de service voor het leveren van afbeeldingen voor het web niet beschikbaar is, [Adaptieve afbeeldingsserver](/help/developing/adaptive-image-servlet.md) wordt gebruikt.
-* **Lazy laden inschakelen** - Definieer of de uitgestelde laadoptie automatisch wordt ingeschakeld wanneer de afbeeldingscomponent aan een pagina wordt toegevoegd.
-* **Afbeelding is decoratief** - Definieer of de optie Decoratieve afbeelding automatisch wordt ingeschakeld wanneer u de afbeeldingscomponent aan een pagina toevoegt.
-* **Alternatieve tekst ophalen van DAM**- Definieer of de optie voor het ophalen van de alternatieve tekst van de DAM automatisch is ingeschakeld wanneer u de afbeeldingscomponent aan een pagina toevoegt.
-* **Bijschrift ophalen van DAM** - Bepaal als de optie om de titel van DAM terug te winnen automatisch wordt toegelaten wanneer het toevoegen van de beeldcomponent aan een pagina.
-* **Bijschrift weergeven als pop-up** - Definieer of de optie voor het weergeven van het bijschrift als pop-up automatisch is ingeschakeld wanneer u de afbeeldingscomponent aan een pagina toevoegt.
-* **UUID-tracking uitschakelen** - Schakel deze optie in om het bijhouden van de UUID van het afbeeldingselement uit te schakelen.
-* **Breedten** - Definieert een lijst met breedten in pixels voor de afbeelding en de component laadt automatisch de meest geschikte breedte op basis van de browsergrootte.
-   * Tik of klik op de knop **Toevoegen** om een andere grootte toe te voegen.
+   * Wanneer ongecontroleerd of de web-optimized dienst van de beeldlevering niet beschikbaar is [ wordt de Aangepaste Servlet van het Beeld ](/help/developing/adaptive-image-servlet.md) gebruikt.
+* **laat luie lading** toe - bepaalt als de luie ladingsoptie automatisch wordt toegelaten wanneer het toevoegen van de beeldcomponent aan een pagina.
+* **Beeld is decoratief** - bepaal als de decoratieve beeldoptie automatisch wordt toegelaten wanneer het toevoegen van de beeldcomponent aan een pagina.
+* **krijgt alternatieve tekst van DAM** - bepaalt als de optie om de afwisselende tekst van DAM terug te winnen automatisch wordt toegelaten wanneer het toevoegen van de beeldcomponent aan een pagina.
+* **krijgt titel van DAM** - bepaalt als de optie om de titel van DAM terug te winnen automatisch wordt toegelaten wanneer het toevoegen van de beeldcomponent aan een pagina.
+* **de titel van de Vertoning als pop-up** - bepaalt als de optie om de beeldtitel als pop-up te tonen automatisch wordt toegelaten wanneer het toevoegen van de beeldcomponent aan een pagina.
+* **onbruikbaar maken UUID het Volgen** - Controle om het volgen van UUID van het beeldelement onbruikbaar te maken.
+* **Breedten** - bepaalt een lijst van breedten in pixel voor het beeld en de component laadt automatisch de meest aangewezen breedte die op browser grootte wordt gebaseerd.
+   * Tik of klik **voeg** knoop toe om een andere grootte toe te voegen.
       * Gebruik de grepen om de volgorde van de formaten te wijzigen.
-      * Gebruik de **Verwijderen** pictogram om een breedte te verwijderen.
+      * Gebruik het **pictogram van de Schrapping** om een breedte te verwijderen.
    * Het laden van afbeeldingen wordt standaard uitgesteld totdat ze zichtbaar worden.
-      * Selecteer de optie **Lazy load uitschakelen** om de afbeeldingen te laden wanneer de pagina wordt geladen.
-* **JPEG-kwaliteit** - De kwaliteitsfactor (als percentage van 0 en 100) voor getransformeerde (bijv. geschaalde of bijgesneden) JPEG-afbeeldingen.
+      * Selecteer de optie **maak het laden** onbruikbaar om de beelden op paginading te laden.
+* **Kwaliteit van JPEG** - de kwaliteitsfactor (in percentage van 0 en 100) voor getransformeerde (b.v. geschraapte of bebouwde) beelden van JPEG.
 
 >[!TIP]
 >
->Zie het document [Adaptieve afbeeldingsserver](#adaptive-image-servlet) voor tips voor het optimaliseren van de selectie van uitvoeringen door uw breedten zorgvuldig te definiëren.
+>Zie het document [ Aangepaste Servlet van het Beeld ](#adaptive-image-servlet) voor uiteinden voor het optimaliseren van vertoningsselectie door uw breedten zorgvuldig te bepalen.
 
 ### Tabblad Functies {#features-tab}
 
-Op de **Functies** kunt u opgeven welke opties beschikbaar zijn voor de auteurs van de inhoud wanneer u de component gebruikt, inclusief opties voor uploaden, richting en uitsnijden.
+Op het **lusje van Eigenschappen** kunt u bepalen welke opties aan de inhoudsauteurs beschikbaar zijn wanneer het gebruiken van de component met inbegrip van uploadt opties, richtlijn, en bebouwende opties.
 
-* Bron
+* Source
 
-   ![Dialoogvenster Eigenschappen van het ontwerpdialoogvenster van de component Image](/help/assets/image-design-features-source.png)
+  ![ het ontwerpdialoogEigenschappen van de Component van het Beeld lusje van de Eigenschappen ](/help/assets/image-design-features-source.png)
 
-   Selecteer de optie **Middelen uploaden vanuit bestandssysteem toestaan** om auteurs van inhoud toe te staan afbeeldingen te uploaden vanaf hun lokale computer. Schakel deze optie uit als u wilt dat inhoudsauteurs alleen elementen uit AEM selecteren.
+  Selecteer de optie **activa uploaden van het dossiersysteem** toestaan om inhoudsauteurs toe te staan om beelden van zijn of haar lokale computer te uploaden. Schakel deze optie uit als u wilt dat inhoudsauteurs alleen elementen uit AEM selecteren.
 
 * Afdrukstand
 
-   ![Dialoogvenster Eigenschappen van het ontwerpdialoogvenster van de component Image](/help/assets/image-design-features-orientation.png)
+  ![ het ontwerpdialoogEigenschappen van de Component van het Beeld lusje van de Eigenschappen ](/help/assets/image-design-features-orientation.png)
 
-* **Roteren**
-Gebruik deze optie als u wilt dat de auteur van de inhoud de opdracht 
-**Rechtsom roteren** optie.
+* **roteren**
+Gebruik deze optie om de inhoudauteur toe te staan om **te gebruiken roteer Juist** optie.
 * **Omdraaien**
-Gebruik deze optie als u wilt dat de auteur van de inhoud de opdracht 
-**Horizontaal spiegelen** en **Verticaal spiegelen** opties.
+Gebruik deze optie om de inhoudauteur toe te staan om **Horizontaal te gebruiken Omdraaien** en **Verticaal omdraaien** opties.
 
-   >[!CAUTION]
-   >
-   >De **Omdraaien** is standaard uitgeschakeld. Als u deze optie inschakelt, wordt het dialoogvenster **Verticaal spiegelen** en **Horizontaal spiegelen** in het dialoogvenster Bewerken van de afbeeldingscomponent. De functie wordt momenteel echter niet ondersteund door AEM en wijzigingen die met deze opties zijn aangebracht, blijven niet behouden.
+  >[!CAUTION]
+  >
+  >De **1} optie van de Omslag {wordt onbruikbaar gemaakt door gebrek.** Toelatend zal het **Verticaal Omdraaien** en **Horizontaal Omdraaien** knopen in uitgeven dialoog van de beeldcomponent tonen, nochtans wordt de eigenschap momenteel niet gesteund door AEM en om het even welke veranderingen die gebruikend deze opties worden aangebracht zullen niet worden voortgeduurd.
 
 * Uitsnijden
 
-   ![Dialoogvenster Eigenschappen van het ontwerpdialoogvenster van de component Image](/help/assets/image-design-features-cropping.png)
+  ![ het ontwerpdialoogEigenschappen van de Component van het Beeld lusje van de Eigenschappen ](/help/assets/image-design-features-cropping.png)
 
-   Selecteer de optie **Uitsnijden toestaan** Hiermee kan de auteur van de inhoud de afbeelding uitsnijden in de component in het dialoogvenster Bewerken.
-   * Klikken **Toevoegen** om een vooraf gedefinieerde hoogte-breedteverhouding voor uitsnijden toe te voegen.
-   * Voer een beschrijvende naam in die wordt weergegeven in het dialoogvenster **Uitsnijden starten** vervolgkeuzelijst.
+  Selecteer de optie **gewas** toestaan om de inhoudauteur toe te staan om het beeld in de component in uit te snijden uitgeeft dialoog.
+   * Klik **toevoegen** om een vooraf bepaalde uitsnijdverhouding toe te voegen.
+   * Ga een beschrijvende naam in, die in **1} dropdown van het Gewas van het Begin {zal worden getoond.**
    * Voer de numerieke verhouding van het aspect in.
    * Gebruik de sleephandgrepen om de volgorde van de hoogte-breedteverhoudingen te wijzigen
    * Gebruik het prullenbakpictogram om een hoogte-breedteverhouding te verwijderen.
 
-   >[!CAUTION]
-   >
-   >In AEM worden de hoogte-breedteverhoudingen voor uitsnijden gedefinieerd als **hoogte/breedte**. Dit verschilt van de conventionele definitie van breedte/hoogte en wordt gedaan om oude compatibiliteitsredenen. De auteurs van de inhoud zullen zich niet van enig verschil bewust zijn zolang u een duidelijke naam van de verhouding verstrekt aangezien de naam in UI en niet de verhouding zelf wordt getoond.
+  >[!CAUTION]
+  >
+  >Merk op dat in AEM, gewassenaspectverhoudingen als **hoogte/breedte** worden bepaald. Dit verschilt van de conventionele definitie van breedte/hoogte en wordt gedaan om oude compatibiliteitsredenen. De auteurs van de inhoud zullen zich niet van enig verschil bewust zijn zolang u een duidelijke naam van de verhouding verstrekt aangezien de naam in UI en niet de verhouding zelf wordt getoond.
 
 ### Tabblad Stijlen {#styles-tab-1}
 
-De component Image ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+De Component van het Beeld steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
 
-## Gegevenslaag Adobe-client {#data-layer}
+## Gegevenslaag client-Adobe {#data-layer}
 
-De component Image ondersteunt de [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
+De Component van het Beeld steunt de [ Laag van de Gegevens van de Cliënt van de Adobe.](/help/developing/data-layer/overview.md)

@@ -18,37 +18,37 @@ Het AEM Project Archetype is een Geweven malplaatje dat tot een minimaal, op bes
 
 >[!TIP]
 >
->Het nieuwste AEM Projectarchetype en de bijbehorende technische documentatie [kan op GitHub worden gevonden.](https://github.com/adobe/aem-project-archetype)
+>Het recentste AEM Archetype van het Project en bijbehorende technische documentatie [ kunnen op GitHub worden gevonden.](https://github.com/adobe/aem-project-archetype)
 
 ## Waarom het Archetype gebruiken {#why-use-the-archetype}
 
-Het gebruiken van het AEM Archetype van het Project plaatst u op de weg naar de bouw van een op best-praktijken-gebaseerd AEM project met enkel een paar aanslagen. Door het archetype te gebruiken, zullen alle stukken reeds op zijn plaats zijn zodat terwijl het resulterende project minimaal is, het reeds alle [sleutelfuncties](/help/developing/archetype/using.md#what-you-get) AEM zodat je alleen maar verder moet bouwen en uitbreiden.
+Het gebruiken van het AEM Archetype van het Project plaatst u op de weg naar de bouw van een op best-praktijken-gebaseerd AEM project met enkel een paar aanslagen. Door archetype te gebruiken, zullen alle stukken reeds op zijn plaats zijn zodat terwijl het resulterende project minimaal is, voert het reeds alle [ zeer belangrijke eigenschappen ](/help/developing/archetype/using.md#what-you-get) van AEM uit zodat alles u moet doen op bovenkant bouwt en zich uitbreidt.
 
-Natuurlijk zijn er veel elementen die in aanmerking komen [een succesvol AEM project,](/help/developing/success.md) maar het gebruik van het AEM Project Archetype is een goede basis en wordt sterk aanbevolen voor elk AEM project.
+Natuurlijk zijn er vele elementen die in [ een succesvol AEM project gaan, ](/help/developing/success.md) maar het gebruiken van het AEM Archetype van het Project is een correcte stichting en sterk geadviseerd voor om het even welk AEM project.
 
 ## Functies {#features}
 
-* **Beste praktijken:** Bootstrap uw site met alle aanbevolen procedures van de Adobe.
-* **Lage code:** Bewerk uw sjablonen, maak inhoud, implementeer uw CSS en uw site is klaar om live te gaan.
-* **Klaar voor cloud:** Indien gewenst, gebruik [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) om binnen enkele dagen te gaan wonen en schaalbaarheid en onderhoud te vergemakkelijken.
-* **Dispatcher:** Een project is alleen voltooid met een [Dispatcher-configuratie](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html) dat snelheid en veiligheid verzekert.
-* **Meerdere sites:** Indien nodig genereert het archetype de inhoudsstructuur voor een [meertalige installatie en installatie voor meerdere regio&#39;s](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/msm/overview.html).
-* **Kernonderdelen:** Auteurs kunnen bijna elke lay-out maken met onze veelzijdige [reeks gestandaardiseerde componenten](/help/introduction.md).
-* **Bewerkbare sjablonen:** Bijna alles samenstellen [sjabloon zonder code](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html)en definieert wat de auteurs mogen bewerken.
-* **Responsieve lay-out:** Op sjablonen of afzonderlijke pagina&#39;s [definiëren hoe de elementen opnieuw worden geplaatst](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html) voor de gedefinieerde onderbrekingspunten.
-* **Koptekst en voettekst:** U kunt ze samenstellen en lokaliseren zonder code, met de opdracht [lokalisatiefuncties van de componenten](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html).
-* **Stijlsysteem:** U kunt aangepaste componenten niet maken door auteurs toe te staan [verschillende stijlen toepassen](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/style-system.html) aan hen.
-* **Front-end build:** Ontwikkelaars aan de voorzijde kunnen [AEM pagina&#39;s modelleren en clientbibliotheken maken](front-end.md) met Webpack, TypeScript en SASS.
-* **WebApp-Ready:** Voor sites die React of Angular gebruiken, gebruikt u de [SPA SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/developing.html) behouden [contextontwerp van de app](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html).
-* **Handel ingeschakeld:** Voor projecten die willen integreren [AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/home.html) met handelsoplossingen zoals [Magento](https://magento.com/) met de [Core Components](https://github.com/adobe/aem-core-cif-components).
-* **Voorbeeldcode:** Controle uit de component HelloWorld, en de steekproefmodellen, servlets, filters, en planners.
-* **Open Bronnen:** Als iets anders is dan zou moeten, [bijdragen](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) uw verbeteringen!
+* **Beste praktijken:** Bootstrap uw plaats met alle recentste geadviseerde praktijken van de Adobe.
+* **Laag-Code:** geef uw malplaatjes uit, creeer inhoud, stel uw CSS op, en uw plaats is klaar voor go-live.
+* **wolk-Klaar:** Indien gewenst, gebruik [ AEM as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) om in enkele dagen te gaan-leven en gemak scalability en onderhoud.
+* **Dispatcher:** Een project van A is volledig slechts met de configuratie van a [ Dispatcher ](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html) die snelheid en veiligheid verzekert.
+* **Multi-Site:** Indien nodig, produceert het archetype de inhoudsstructuur voor a [ meertalige en multi-regio opstelling ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/msm/overview.html).
+* **Componenten van de Kern:** de Auteurs kunnen bijna om het even welke lay-out met onze veelzijdige [ reeks gestandaardiseerde componenten ](/help/introduction.md) tot stand brengen.
+* **Bewerkbare Malplaatjes:** assembleer vrijwel om het even welk [ malplaatje zonder code ](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html), en bepaal wat de auteurs worden toegestaan uit te geven.
+* **Responsieve Lay-out:** op malplaatjes of individuele pagina&#39;s, [ bepalen hoe de elementen ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html) voor de bepaalde breekpunten opnieuw plaatsen.
+* **Kopbal en Voettekst:** assembleer en vertaal hen zonder code, gebruikend de [ localisatieeigenschappen van de componenten ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html).
+* **Systeem van de Stijl:** vermijd bouwend douanecomponenten door auteurs toe te staan om verschillende stijlen ](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/style-system.html) op hen toe te passen.[
+* **voorste-Eind bouwt:** Voorste-eindontwikkelaars kunnen [ AEM pagina&#39;s controleren en cliëntbibliotheken ](front-end.md) met Webpack, TypeScript, en SASS bouwen.
+* **WebApp-Klaar:** voor plaatsen die Reageren of Angular gebruiken, gebruik [ SPA SDK ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/developing.html) om [ in-context het auteursrecht van app ](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html) te behouden.
+* **Commerce Toegelaten:** voor projecten die [ AEM Commerce ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/home.html) met handelsoplossingen zoals [ Magento ](https://magento.com/) willen integreren gebruikend de [ Componenten van de Kern van Commerce ](https://github.com/adobe/aem-core-cif-components).
+* **Code van het Voorbeeld:** Controle de component HelloWorld, en de steekproefmodellen, servlets, filters, en planners.
+* **Open Gefeliciteerd:** als iets niet is zoals het zou moeten, [ bijdragen ](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) uw verbeteringen!
 
 ## Verdere lezing {#further-reading}
 
-* **[AEM Project Archetype GitHub](https://github.com/adobe/aem-project-archetype)** - Voor volledig gebruik en technische details van het archetype
-* **[Het gebruiken van Archetype](using.md)** - Een overzicht van hoe te om archetype in uw project en de resulterende geproduceerde modules te gebruiken
-* **[Front-end ontwikkeling met het AEM Project Archetype](front-end.md)** - Hoe te om de front-end module van archetype te gebruiken
-* **De volgende zelfstudies zijn gebaseerd op het archetype:**
-   * **[WKND-site](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** - Leer hoe u een nieuwe website kunt starten.
-   * **[WKND App met één pagina](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)** - Leer hoe u een React- of Angular-webapp ontwikkelt die volledig in AEM kan worden geschreven.
+* **[AEM Archetype GitHub van het Project ](https://github.com/adobe/aem-project-archetype)** - voor volledig gebruik en technische details van archetype
+* **[Gebruikend Archetype](using.md)** - een overzicht van hoe te om het archetype in uw project en de resulterende geproduceerde modules te gebruiken
+* **[Voorste-Eind Ontwikkeling met het AEM Archetype van het Project](front-end.md)** - hoe te om de front-end module van archetype te gebruiken
+* **de volgende leerprogramma&#39;s zijn gebaseerd van archetype:**
+   * **[Plaats WKND ](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** - leer hoe te om een nieuwe website te beginnen.
+   * **[WKND de Enige Toepassing van de Pagina ](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)** - Leer hoe te om React te bouwen of webapp van de Angular die volledig authorable in AEM is.

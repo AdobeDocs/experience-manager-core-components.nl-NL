@@ -17,11 +17,11 @@ Met de component Core Component Accordion kunt u een verzameling deelvensters ma
 
 ## Gebruik {#usage}
 
-Met de component Core Component Accordion kunt u een verzameling componenten maken, die als deelvensters zijn samengesteld en die in een accordeon op een pagina zijn gerangschikt, vergelijkbaar met de component [Component Tabs](tabs.md), maar kunt u de deelvensters uit- en samenvouwen.
+De component van de Accordeon van de Component van de Kern staat voor de verwezenlijking van een inzameling van componenten toe, die als panelen worden samengesteld, en in een accordeon op een pagina worden geschikt, gelijkend op de [ Component van Lusjes ](tabs.md), maar staat voor het uitbreiden en het doen ineenstorten van de panelen toe.
 
-* De eigenschappen van de accordeon kunnen worden gedefinieerd in het dialoogvenster [dialoogvenster configureren](#configure-dialog).
-* De volgorde van de deelvensters van de accordeon kan worden gedefinieerd in het dialoogvenster Configureren en in het dialoogvenster [popup in deelvenster selecteren](#select-panel-popover).
-* De standaardinstellingen voor de component Accordion wanneer deze aan een pagina wordt toegevoegd, kunnen worden gedefinieerd in het dialoogvenster [ontwerpdialoogvenster](#design-dialog).
+* De eigenschappen van de accordeon kunnen in [ worden bepaald vormen dialoog ](#configure-dialog).
+* De orde van de panelen van de accordeon kan in vormen dialoog evenals [ worden bepaald uitgezocht paneelpopover ](#select-panel-popover).
+* De gebreken voor de Component van de Accordeon wanneer het toevoegen van het aan een pagina kunnen in de [ ontwerpdialoog ](#design-dialog) worden bepaald.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -31,30 +31,30 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 
 | Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
 |--- |--- |---|---|
-| v1 | Compatibel met<br>[release 2.17.4](/help/versions.md) en eerdere | Compatibel | Compatibel |
+| v1 | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel | Compatibel |
 
-Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Versies van kerncomponenten](/help/versions.md).
+Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Als u de accordeoncomponent wilt ervaren en voorbeelden wilt zien van de configuratieopties en van de HTML- en JSON-uitvoer, gaat u naar de [Componentbibliotheek](https://adobe.com/go/aem_cmp_library_accordion).
+Om de Component van de Accordeon te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library_accordion).
 
 ## Technische details {#technical-details}
 
-De meest recente technische documentatie over de Accordion-component [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_accordion_v1).
+De recentste technische documentatie over de Component van de Accordeon [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_accordion_v1) worden gevonden.
 
-Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
 
 ## Diep koppelen aan een deelvenster {#deep-linking}
 
-de accordeon, [Carousel](carousel.md) en [Componenten tabs](tabs.md) ondersteuning voor het rechtstreeks koppelen naar een deelvenster binnen de component.
+De accordeon, [ Carousel, ](carousel.md) en [ de steun van Componenten van Lusjes ](tabs.md) die rechtstreeks met een paneel binnen de component verbinden.
 
 Dit doet u als volgt:
 
-1. De pagina met de component weergeven met de **[Weergeven als gepubliceerd](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** in de pagina-editor.
+1. Bekijk de pagina met de component gebruikend de **[Mening zoals Gepubliceerde ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** optie in de paginaredacteur.
 1. Inspect de inhoud van de pagina en identificeer de id van het deelvenster.
    * Bijvoorbeeld `id="accordion-86196c94d3-item-ca319dbb0b"`
-1. De id wordt het anker dat u met een hash aan de URL kunt toevoegen (`#`).
+1. De id wordt het anker dat u met een hash (`#`) aan de URL kunt toevoegen.
    * Bijvoorbeeld `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
 Wanneer u met de deelvenster-id als anker naar de URL navigeert, schuift de browser rechtstreeks naar de desbetreffende component en geeft deze het opgegeven deelvenster weer. Als het deelvenster is geconfigureerd om niet standaard te worden uitgevouwen, wordt het automatisch uitgevouwen.
@@ -63,7 +63,7 @@ Wanneer u met de deelvenster-id als anker naar de URL navigeert, schuift de brow
 
 Alle Core Components zijn ontworpen om volledig te reageren, zodat u over alle apparaten probleemloos kunt genieten.
 
-Sommige geavanceerde componenten, zoals de component Accordion, moeten mogelijk in het kader van het uitvoeringsproject specifieke aandacht krijgen om de reactiesnelheid in alle omstandigheden te behouden. Zie het document [Responsief ontwerp van de kerncomponenten](/help/responsive.md) voor meer informatie .
+Sommige geavanceerde componenten, zoals de component Accordion, moeten mogelijk in het kader van het uitvoeringsproject specifieke aandacht krijgen om de reactiesnelheid in alle omstandigheden te behouden. Gelieve te zien het document [ Responsieve Ontwerp van de Componenten van de Kern ](/help/responsive.md) voor meer informatie.
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -71,41 +71,41 @@ In het dialoogvenster Configureren kan de auteur van de inhoud het accordeonitem
 
 ### Tabblad Items {#items-tab}
 
-![Tabblad Items van dialoogvenster Bewerken van accordeoncomponent](/help/assets/accordion-edit-items.png)
+![ Punten lusje van uitgeeft dialoog van de Component van de Accordeon ](/help/assets/accordion-edit-items.png)
 
-Gebruik de **Toevoegen** om de componentkiezer te openen en te kiezen welke component u als deelvenster wilt toevoegen. Nadat een item is toegevoegd, wordt het toegevoegd aan de lijst met de volgende kolommen:
+Gebruik **voeg** knoop toe om de componentenselecteur te openen om te kiezen welke component om als paneel toe te voegen. Nadat een item is toegevoegd, wordt het toegevoegd aan de lijst met de volgende kolommen:
 
-* **Pictogram** - Het pictogram van het componenttype van het paneel voor gemakkelijke identificatie in de lijst. Plaats de muisaanwijzer boven de volledige componentnaam om deze weer te geven als knopinfo.
-* **Beschrijving** - De beschrijving die als tekst van het deelvenster wordt gebruikt, met standaard de naam van de component die voor het deelvenster is geselecteerd.
-* **Verwijderen** - Tik of klik om het deelvenster uit de accordeoncomponent te verwijderen.
-* **Opnieuw rangschikken** - Tik of klik en sleep om de volgorde van de deelvensters te wijzigen.
+* **Pictogram** - het pictogram van het componenttype van het paneel voor gemakkelijke identificatie in de lijst. Plaats de muisaanwijzer boven de volledige componentnaam om deze weer te geven als knopinfo.
+* **Beschrijving** - de beschrijving die als tekst van het paneel wordt gebruikt, die aan de naam van de component in gebreke blijft die voor het paneel wordt geselecteerd.
+* **Schrapping** - Tik of klik om het paneel van de accordeoncomponent te schrappen.
+* **herschikt** - Tik of klik en sleep om de orde van de panelen te herschikken.
 
 >[!TIP]
 >
->Als de viewport van de pagina wordt verkleind zodat het dialoogvenster Bewerken volledig scherm wordt, wordt het dialoogvenster **Toevoegen** wordt verborgen. Componenten kunnen nog steeds door [slepen vanuit de componentenbrowser en neerzetten op de Component van de Accordeon in de paginaredacteur](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent).
+>Als viewport van de pagina wordt verminderd zodat uitgeeft dialoog volledig scherm wordt, **voegt** knoop toe zal worden verborgen. De componenten kunnen nog aan de Component van de Accordeon worden toegevoegd door [ van componenten te slepen browser en op de Component van de Accordeon in de paginaredacteur ](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent) te vallen.
 
 ### Tabblad Eigenschappen {#properties-tab}
 
-![Het tabblad Eigenschappen van het dialoogvenster Bewerken van de accordeoncomponent](/help/assets/accordion-edit-properties.png)
+![ het lusje van Eigenschappen van uitgeeft dialoog van de Component van de Accordeon ](/help/assets/accordion-edit-properties.png)
 
-* **Uitbreiding van één item** - Als deze optie is geselecteerd, wordt één accordeonitem tegelijkertijd uitgebreid. Als u één item uitbreidt, worden alle andere items samengevouwen.
-* **Uitgebreide items** - Met deze optie worden de items gedefinieerd die standaard worden uitgevouwen wanneer de pagina wordt geladen.
-   * Wanneer **Uitbreiding van één item** is geselecteerd, moet er één deelvenster zijn geselecteerd. Standaard is het eerste deelvenster geselecteerd.
-   * Wanneer **Uitbreiding van één item** is niet geselecteerd, is deze optie een meerkeuzeoptie en is optioneel.
-* **ID** - Met deze optie kunt u de unieke id van de component in de HTML en in de [Gegevenslaag](/help/developing/data-layer/overview.md).
+* **Enige puntenuitbreiding** - wanneer geselecteerd, dwingt deze optie één enkel accordeonpunt om tegelijkertijd worden uitgebreid. Als u één item uitbreidt, worden alle andere items samengevouwen.
+* **Uitgebreide punten** - deze optie bepaalt de punten die door gebrek worden uitgebreid wanneer de pagina wordt geladen.
+   * Wanneer **Enige puntuitbreiding** wordt geselecteerd, moet één paneel worden geselecteerd. Standaard is het eerste deelvenster geselecteerd.
+   * Wanneer **Enige puntuitbreiding** niet wordt geselecteerd, is deze optie multi-select en facultatief.
+* **identiteitskaart** - Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens te controleren ](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
 ## Pop-upmenu van deelvenster selecteren {#select-panel-popover}
 
-De auteur van de inhoud kan de **Deelvenster selecteren** op de werkbalk van de component om de volgorde van de deelvensters in de accordeon te wijzigen in een ander deelvenster om te bewerken.
+De inhoudauteur kan de **Uitgezochte 1} optie van het Comité op de componententoolbar gebruiken om in een verschillend paneel te veranderen voor het uitgeven evenals de orde van de panelen binnen de accordeon gemakkelijk te herschikken.**
 
-![Pictogram van deelvenster Selecteren](/help/assets/select-panel-icon.png)
+![ Uitgezochte paneelpictogram ](/help/assets/select-panel-icon.png)
 
-Wanneer u de **Deelvenster selecteren** in de componentwerkbalk worden de geconfigureerde accordeondeelvensters weergegeven als een vervolgkeuzelijst.
+Zodra het selecteren van de **Uitgezochte optie van het Comité** in de componententoolbar, worden de gevormde accordeonpanelen getoond als drop-down.
 
-![Pop-upmenu van deelvenster selecteren](/help/assets/select-panel-popover.png)
+![ Uitgezochte paneel popover ](/help/assets/select-panel-popover.png)
 
 * De lijst wordt geordend door de toegewezen rangschikking van de deelvensters en wordt weergegeven in de nummering.
 * Het componenttype van het deelvenster wordt eerst weergegeven, gevolgd door de beschrijving van het deelvenster in lichtere lettertypen.
@@ -118,21 +118,21 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de opties definiëren die bes
 
 ### Tabblad Eigenschappen {#properties-tab-design}
 
-![Dialoogvenster Ontwerp, tabblad](/help/assets/accordion-design-properties.png)
+![ de dialoogeigenschappen tabel van het Ontwerp ](/help/assets/accordion-design-properties.png)
 
-* **Toegestane kopelementen** - Deze meerkeuzekeuzelijst definieert de HTML-elementen van de accordeonitemkop die door een auteur mogen worden geselecteerd.
-* **Standaardkopelement** - Deze vervolgkeuzelijst definieert het standaardelement HTML van de kop van het accordeonitem.
+* **Toegestane Elementen van de Kop** - Dit multi-uitgezochte drop-down bepaalt de HTML elementen van de kopbal van het accordeonpunt die door een auteur mogen worden geselecteerd.
+* **Standaard het Element van de Kop** - Deze drop-down bepaalt het HTML element van de kopbal van het standaardAccordeonpunt.
 
 ### Tabblad Toegestane componenten {#allowed-components-tab}
 
-De **Toegestane componenten** wordt gebruikt om te definiëren welke componenten door de auteur van de inhoud als items aan deelvensters in de component Accordion kunnen worden toegevoegd.
+Het **Toegestane lusje van Componenten** wordt gebruikt om te bepalen welke componenten als punten aan panelen in de Component van de Accordeon door de inhoudauteur kunnen worden toegevoegd.
 
-Het tabblad Toegestane componenten werkt op dezelfde manier als het tabblad met dezelfde naam wanneer [het definiëren van het beleid en de eigenschappen van een container voor layout in de Sjablooneditor.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
+De toegelaten Componenten lusjefuncties op de zelfde manier zoals het lusje van de zelfde naam wanneer [ het bepalen van het beleid en de eigenschappen van een Container van de Lay-out in de Redacteur van het Malplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component Accordion ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+De Component van de Accordeon steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
 
 ## Gegevenslaag client-Adobe {#data-layer}
 
-De component Accordion ondersteunt de [Gegevenslaag client Adobe.](/help/developing/data-layer/overview.md)
+De Component van de Accordeon steunt de [ Gegevens van de Cliënt van de Adobe Laag.](/help/developing/data-layer/overview.md)

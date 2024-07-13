@@ -17,9 +17,9 @@ Identificeer de exacte versies van zowel Forms Core Components als WCM Core Comp
 
 ## AEM Forms als Cloud Service versiegeschiedenis {#aem-as-cs-version-history}
 
-De versies van de Componenten van de Kern die met AEM as a Cloud Service compatibel zijn zijn beschikbaar op [GitHub samen met uitvoerige details van hun versies](https://github.com/adobe/aem-core-forms-components/releases).
+De versies van de Componenten van de Kern die met AEM as a Cloud Service compatibel zijn zijn beschikbaar op [ GitHub samen met uitvoerige details van hun versies ](https://github.com/adobe/aem-core-forms-components/releases).
 
-De versiehistorie van Core Components voor AEM as a Cloud Service bekijken, [klik hier](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md).
+Om de de versiegeschiedenis van de Componenten van de Kern voor AEM as a Cloud Service te zien, [ klik hier ](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md).
 
 
 <!--
@@ -117,9 +117,9 @@ De versiehistorie van Core Components voor AEM as a Cloud Service bekijken, [kli
 
 ## AEM 6.5 Forms-versiegeschiedenis {#aem-as-form-version-history}
 
-De Core Components-releases die compatibel zijn met AEM 6.5 Form on-premisse en AMS die beschikbaar zijn op [GitHub samen met uitvoerige details van hun versies](https://github.com/adobe/aem-core-forms-components/releases).
+De versies van de Componenten van de Kern die met AEM 6.5 Vorm op gebouw en AMS compatibel zijn die op [ GitHub samen met uitvoerige details van hun versies ](https://github.com/adobe/aem-core-forms-components/releases) beschikbaar zijn.
 
-De versiegeschiedenis van Core Components voor AEM 6.5-formulier op locatie en AMS bekijken [klik hier](https://github.com/adobe/aem-core-forms-components/blob/release/650/VERSIONS.md).
+Om de de versiegeschiedenis van de Componenten van de Kern voor AEM 6.5 Vorm op gebouw en AMS te zien, [ klik hier ](https://github.com/adobe/aem-core-forms-components/blob/release/650/VERSIONS.md).
 
 <!--
 | Forms Core Components | WCM Core Components | AEM 6.5 | Java  | Maven  |  

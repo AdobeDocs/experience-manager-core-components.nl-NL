@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
 source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Met de component Inhoudsopgave kunnen sitebezoekers snel door de inhoud van uw p
 * Deze wordt volledig in cache geplaatst door de verzender voor snelle levering.
 * Het werkt met alle componenten op de pagina, niet alleen de Componenten van de Kern.
 
-De [dialoogvenster bewerken](#edit-dialog) Hiermee kan de auteur van de inhoud het bereik definiëren van titels die in de inhoudsopgave moeten worden gebruikt. Met de [ontwerpdialoogvenster](#design-dialog), kan de sjabloonauteur de standaardwaarde voor de titels instellen wanneer een inhoudsontwerper een inhoudsopgave-component aan een pagina toevoegt en titels in de inhoudsopgave beperken op basis van klassenamen.
+Het [ geeft dialoog ](#edit-dialog) uit staat de inhoudauteur toe om de waaier van titels te bepalen die in ToC moeten worden gebruikt. Gebruikend de [ ontwerpdialoog ](#design-dialog), kan de malplaatjeauteur de standaardwaarde voor de titels plaatsen wanneer een inhoudsauteur een Component van de Inhoudslijst aan een pagina toevoegt evenals titels beperken inbegrepen in ToC die op klassennamen wordt gebaseerd.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -34,30 +34,30 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 |---|---|---|
 | v1 | Compatibel | Compatibel |
 
-Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
+Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
 
 >[!NOTE]
 >
->Op AEM as a Cloud Service, moet uw beheerder een filter voor de component toelaten opdat het de inhoud van de component teruggeeft.
+>In AEM as a Cloud Service moet uw beheerder een filter voor de component inschakelen om de inhoud van de component te kunnen renderen.
 >
->[Gelieve te zien de documentatie GitHub van de component](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) voor meer informatie .
+>[ gelieve te zien de documentatie GitHub van de component ](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) voor meer informatie.
 
 ### Technische details {#technical-details}
 
-De meest recente technische documentatie over de component Inhoudsopgave [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
+De recentste technische documentatie over de Component van de Inhoudsopgave [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) worden gevonden.
 
-Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud de bereiken definiëren van titelniveaus die de component Inhoudsopgave als een ToC moet weergeven.
 
-![Dialoogvenster Inhoudsopgave component bewerken](/help/assets/tableofcontents-edit.png)
+![ Lijst van Inhoud geeft de Component dialoog uit ](/help/assets/tableofcontents-edit.png)
 
-**Lijsttype** - Met deze optie bepaalt u of de lijst een lijst met opsommingstekens of een genummerde lijst moet zijn.
-* **Beginniveau titel** - Met deze optie definieert u het hoogste niveau van titels dat de component Inhoudsopgave moet renderen.
-* **Niveau titelstop** - Met deze optie definieert u het laagste niveau van titels dat de component Inhoudsopgave moet renderen.
-* **ID** - Met deze optie kunt u de unieke id van de component in de HTML en in de [Gegevenslaag](/help/developing/data-layer/overview.md).
+**Type van Lijst** - Deze optie bepaalt als de lijst een genummerde lijst of een genummerde lijst zou moeten zijn.
+* **het Niveau van het Begin van de Titel** - Deze optie bepaalt het hoogste niveau van titels dat de Component van de Inhoudsopgave zou moeten teruggeven.
+* **Niveau van het Einde van de Titel** - Deze optie bepaalt het laagste niveau van titels dat de Component van de Inhoudsopgave zou moeten teruggeven.
+* **identiteitskaart** - Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens te controleren ](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
@@ -68,22 +68,22 @@ Met behulp van het ontwerpdialoogvenster kan de sjabloonauteur de standaardwaard
 
 ### Tabblad Eigenschappen {#properties-tab}
 
-![Het ontwerpdialoogvenster van de component Snel zoeken](/help/assets/tableofcontents-design.png)
+![ Snelle het ontwerpdialoog van de Component van het Onderzoek van het Snelle ](/help/assets/tableofcontents-design.png)
 
-* **Lijsttype beperken** - Met deze optie definieert u het type lijst dat de component genereert. Als u deze optie selecteert, kan de auteur van de inhoud alleen een ander lijsttype kiezen.
-* **Het beginniveau beperken** - Deze optie definieert het hoogste titelniveau dat de auteur van de inhoud kan selecteren voor het definiëren van de inhoudsopgave.
-* **Het stopniveau beperken** - Deze optie definieert het laagste titelniveau dat de auteur van de inhoud kan selecteren voor het definiëren van de inhoudsopgave.
-* **Klassenamen opnemen** - Als deze optie is ingesteld, worden alleen titels met de opgegeven klassennamen of opgenomen in elementen van de opgegeven klassennamen door de component Inhoudsopgave in overweging genomen.
-   * Tik of klik op de knop **Toevoegen** om een of meer klassennamen toe te voegen.
-   * Tik of klik op de knop **Verwijderen** naast een klassenaam om deze te verwijderen.
-* **Klassenamen negeren** - Als deze optie is ingesteld, worden titels met de opgegeven klassennamen of opgenomen in elementen van de opgegeven klassennamen genegeerd door de component Inhoudsopgave.
-   * Tik of klik op de knop **Toevoegen** om een of meer klassennamen toe te voegen.
-   * Tik of klik op de knop **Verwijderen** naast een klassenaam om deze te verwijderen.
+* **Beperk het Type van Lijst** - Deze optie bepaalt het type van lijst dat de component zal produceren. Als u deze optie selecteert, kan de auteur van de inhoud alleen een ander lijsttype kiezen.
+* **Beperk het Niveau van het Begin** - Deze optie bepaalt het hoogste titelniveau dat de inhoudauteur voor het bepalen van ToC kan selecteren.
+* **Beperk het Niveau van het Einde** - deze optie bepaalt het laagste titelniveau dat de inhoudauteur voor het bepalen van ToC kan selecteren.
+* **omvat de Namen van de Klasse** - als deze optie wordt geplaatst, slechts zullen de titels met de gespecificeerde klassennamen of bevat binnen elementen van de gespecificeerde klassennamen door de Component van de Inhoudsopgave worden overwogen.
+   * Tik of klik **voeg** pictogram toe om één of meerdere klassennamen toe te voegen.
+   * Tik of klik het **pictogram van de Schrapping** naast een klassennaam om het te schrappen.
+* **negeert de Namen van de Klasse** - als deze optie wordt geplaatst, zullen de titels met de gespecificeerde klassennamen of bevat binnen elementen van de gespecificeerde klassennamen door de Component van de Inhoudslijst worden genegeerd.
+   * Tik of klik **voeg** pictogram toe om één of meerdere klassennamen toe te voegen.
+   * Tik of klik het **pictogram van de Schrapping** naast een klassennaam om het te schrappen.
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component Inhoudsopgave ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+De component van de Lijst van Inhoud steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
 
-## Gegevenslaag Adobe-client {#data-layer}
+## Gegevenslaag client-Adobe {#data-layer}
 
-De component Inhoudsopgave ondersteunt de component [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
+De component van de Lijst van Inhoud steunt de [ Gegevens van de Cliënt van de Adobe Laag.](/help/developing/data-layer/overview.md)

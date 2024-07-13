@@ -5,8 +5,8 @@ role: Architect, Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 1%
+source-wordcount: '619'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ De component van de Titel van de Component van de Kern is een component van de s
 
 ## Gebruik {#usage}
 
-De component Titel is bedoeld voor gebruik als de titel of koptekst van een sectie met inhoud. De beschikbare kopniveaus kunnen door de sjabloonauteur in het dialoogvenster [ontwerpdialoogvenster](#design-dialog). De inhoudeditor kan een keuze maken uit beschikbare koptekstniveaus in het dialoogvenster [dialoogvenster bewerken](#edit-dialog). Voor meer gemak is het ook mogelijk de koptekst eenvoudig op locatie te bewerken.
+De component Titel is bedoeld voor gebruik als de titel of koptekst van een sectie met inhoud. De beschikbare rubriekniveaus kunnen door de malplaatjeauteur in de [ ontwerpdialoog ](#design-dialog) worden bepaald. De inhoudsredacteur kan uit beschikbare rubrieken in [ selecteren uitgeeft dialoog ](#edit-dialog). Voor meer gemak is het ook mogelijk de koptekst eenvoudig op locatie te bewerken.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -27,49 +27,49 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 | Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
 |---|---|---|---|
 | v3 | - | Compatibel | Compatibel |
-| [v2](v2/title.md) | Compatibel | Compatibel | Compatibel |
-| [v1](v1/title-v1.md) | Compatibel | Compatibel | Compatibel |
+| [ v2 ](v2/title.md) | Compatibel | Compatibel | Compatibel |
+| [ v1 ](v1/title-v1.md) | Compatibel | Compatibel | Compatibel |
 
-Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
+Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Als u de component Title wilt ervaren en voorbeelden wilt zien van de configuratieopties en van de HTML- en JSON-uitvoer, gaat u naar de [Componentbibliotheek](https://adobe.com/go/aem_cmp_library_title).
+Om de Component van de Titel te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library_title).
 
 ### Technische details {#technical-details}
 
-De meest recente technische documentatie over de component Title [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_title_v3).
+De recentste technische documentatie over de Component van de Titel [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_title_v3) worden gevonden.
 
-Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud de titeltekst definiëren en het kopniveau selecteren.
 
-* **Titel** - Als de paginatitel leeg is, wordt deze gebruikt
-* **Tekst/grootte** - Definieert het kopniveau van de titel
-* **Koppeling** - Hiermee definieert u de inhoud waaraan de titel wordt gekoppeld. Dit kan een pad zijn naar een inhoudspagina, een externe URL of een pagina-anker.
-* **Koppeling openen op nieuw tabblad** - Als deze optie is ingeschakeld, wordt de koppeling geopend in een nieuw browsertabblad.
-* **ID** - Met deze optie kunt u de unieke id van de component in de HTML en in de [Gegevenslaag](/help/developing/data-layer/overview.md).
+* **Titel** - als leeg de paginatitel zal worden gebruikt
+* **Type/Grootte** - bepaalt het kopniveau van de titel
+* **Verbinding** - bepaalt de inhoud waaraan de titel zal verbinden. Dit kan een pad zijn naar een inhoudspagina, een externe URL of een pagina-anker.
+* **Open verbinding in nieuw lusje** - wanneer gecontroleerd, zal de verbinding in een nieuwe browser tabel openen.
+* **identiteitskaart** - Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens te controleren ](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
-![Dialoogvenster voor bewerken van titelcomponent](/help/assets/title-edit.png)
+![ de Component van de Titel geeft dialoog uit ](/help/assets/title-edit.png)
 
 U kunt de editor op zijn plaats ook gebruiken om de tekst van de titelcomponent te bewerken.
 
-![Lokaal bewerken van component Title](/help/assets/title-edit-inline.png)
+![ Op plaats het uitgeven van de Component van de Titel ](/help/assets/title-edit-inline.png)
 
 ### Tabblad Stijlen {#styles-tab-edit}
 
-De component Title ondersteunt de AEM [Stijlsysteem.](/help/get-started/authoring.md#component-styling).
+De Component van de Titel steunt het AEM [ Systeem van de Stijl.](/help/get-started/authoring.md#component-styling).
 
 Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
 
-De stijlen moeten voor deze component in worden gevormd [ontwerpdialoogvenster](#design-dialog) zodat het vervolgkeuzemenu beschikbaar is.
+De stijlen moeten voor deze component in de [ ontwerpdialoog ](#design-dialog) worden gevormd opdat het drop-down menu beschikbaar is.
 
-![Het tabblad Stijlen van het dialoogvenster Titel-component bewerken](/help/assets/title-edit-styles.png)
+![ het lusje van Stijlen van uitgeeft dialoog van de Component van de Titel ](/help/assets/title-edit-styles.png)
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -77,16 +77,16 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur het standaardkopniveau def
 
 ### Tabblad Grootte {#sizes-tab}
 
-![Ontwerpdialoogvenster van component Title](/help/assets/title-design.png)
+![ het ontwerpdialoog van de Component van de Titel ](/help/assets/title-design.png)
 
-* **Toegestane typen/grootten voor auteurs** - Schakel koptypen in of uit die beschikbaar zijn voor auteurs van inhoud wanneer zij de component Titel gebruiken.
-* **Standaardtype/grootte**- Definieer het koptype dat automatisch wordt toegewezen wanneer een auteur van de inhoud de component Titel aan een pagina toevoegt.
-* **Koppeling uitschakelen**- Schakel ondersteuning voor koppelingen in de component title uit om te voorkomen dat auteurs van inhoud koppelingen naar titels maken.
+* **Toegestane Types/Grootte voor Auteurs** - laat of maak rubriektypes toe onbruikbaar die voor inhoudsauteurs beschikbaar zullen zijn wanneer zij de Component van de Titel gebruiken.
+* **StandaardType/Grootte** - bepaal het rubriektype dat automatisch zal worden toegewezen wanneer een inhoudsauteur de Component van de Titel aan een pagina toevoegt.
+* **maak Verbinding** onbruikbaar - maak steun voor verbindingen in de titelcomponent onbruikbaar om inhoudsauteurs van titels te verbieden te verbinden.
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component Title ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+De Component van de Titel steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
 
-## Gegevenslaag Adobe-client {#data-layer}
+## Gegevenslaag client-Adobe {#data-layer}
 
-De component Title ondersteunt de [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
+De Component van de Titel steunt de [ Laag van de Gegevens van de Cliënt van de Adobe.](/help/developing/data-layer/overview.md)

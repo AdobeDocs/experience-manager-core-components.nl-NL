@@ -5,23 +5,23 @@ role: Architect, Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
 source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 1%
+source-wordcount: '604'
+ht-degree: 0%
 
 ---
 
 
 # Component E-mailinhoudsfragment {#email-content-fragment-component}
 
-Met de component E-mailinhoudsfragment kunt u een [inhoudsfragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) in uw inhoud.
+De component van het Fragment van de Inhoud E-mail staat voor de vertoning van a [ inhoudsfragment ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) in uw inhoud toe.
 
 ## Gebruik {#usage}
 
-Met de component E-mailinhoudsfragment kunt u een [inhoudsfragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) in uw e-mailinhoud. Inhoudsfragmenten zijn gestructureerde inhoud met meerdere kanalen die centraal kan worden ontworpen en eenvoudig opnieuw kan worden gebruikt.
+De component van het Fragment van de Inhoud E-mail staat voor de opneming van a [ inhoudsfragment ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) in uw e-mailinhoud toe. Inhoudsfragmenten zijn gestructureerde inhoud met meerdere kanalen die centraal kan worden ontworpen en eenvoudig opnieuw kan worden gebruikt.
 
-* Het fragment en de bijbehorende eigenschappen kunnen worden geselecteerd in het dialoogvenster [configureren, dialoogvenster.](#configure-dialog)
-* De typen bronnen voor het verwerken van bepaalde afbeeldingen en rasters kunnen worden gedefinieerd in het dialoogvenster [ontwerpdialoogvenster.](#design-dialog)
-* Met de optie Bewerken opent u het geselecteerde fragment in het dialoogvenster [editor voor inhoudsfragmenten,](#edit-dialog) aangepast voor gebruik met de e-mailkerncomponenten.
+* Het fragment en zijn eigenschappen kunnen in [ worden geselecteerd vormen dialoog.](#configure-dialog)
+* De types van middel om bepaalde beelden en netten te behandelen kunnen in de [ ontwerpdialoog worden bepaald.](#design-dialog)
+* De uitgeven optie opent het geselecteerde fragment binnen de [ redacteur van het inhoudsfragment, ](#edit-dialog) die voor gebruik met de Componenten van de Kern E-mail wordt aangepast.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -33,13 +33,13 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 |---|---|---|
 | v1 | Compatibel | - |
 
-Raadpleeg het document voor meer informatie over versies en releases van e-mail Core Component [Core Components-versies e-mailen.](/help/email/versions.md)
+Voor meer informatie over de versies en versies van de Component van de Kern E-mailE-mail van de Component, zie de Versies van de Componenten van de Document [ E-mailKern.](/help/email/versions.md)
 
 ## Technische details {#technical-details}
 
-De meest recente technische documentatie over de E-mailcomponent Inhoudsfragment [kan op GitHub worden gevonden.](https://adobe.com/go/aem_cmp_tech_email_cf_v1)
+De recentste technische documentatie over de Component van het Fragment van de E-mailInhoud [ kan op GitHub worden gevonden.](https://adobe.com/go/aem_cmp_tech_email_cf_v1)
 
-Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [De ontwikkelaarsdocumentatie van de Componenten van de kern.](/help/developing/overview.md)
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden.](/help/developing/overview.md)
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -47,44 +47,44 @@ In het dialoogvenster configureren kan de auteur van de inhoud definiëren welk 
 
 ### Tabblad Eigenschappen {#properties-tab}
 
-![Component E-mailinhoudsfragment](/help/email/assets/email-content-fragment-edit-properties.png)
+![ Component van het Fragment van de Inhoud E-mail ](/help/email/assets/email-content-fragment-edit-properties.png)
 
-* **Inhoudsfragment**
+* **het Fragment van de Inhoud**
 
    * Pad naar het gewenste inhoudsfragment
-   * De **Dialoogvenster Selectie** kan worden gebruikt om het fragment te zoeken
+   * De **Dialoog van de Selectie** kan worden gebruikt om van het fragment de plaats te bepalen
 
-* **Weergavemodus**
-   * **Element voor één tekst** - Schakelt de selectie van één tekstelement met meerdere regels in en schakelt de opties voor alineacontrole in
-* **Variatie** - Welke variatie van het inhoudfragment moet worden gebruikt (standaard ingesteld op **Master**)
+* **Wijze van de Vertoning**
+   * **Enig Element van de Tekst** - laat selectie van één multiline tekstelement toe en laat paragraafcontroleopties toe
+* **Variatie** - welke variatie van het inhoudsfragment om te gebruiken (gebreken aan **Hoofd**)
 
-* **ID** - Met deze optie kunt u de unieke id van de component in de HTML bepalen.
+* **identiteitskaart** - Deze optie staat het controleren van het unieke herkenningsteken van de component in HTML toe.
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende inhoud te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor CSS.
 
 ### Tabblad Alinealijn {#paragraph-control-tab}
 
-![Component E-mailinhoudsfragment](/help/assets/content-fragment-edit-paragraph.png)
+![ Component van het Fragment van de Inhoud E-mail ](/help/assets/content-fragment-edit-paragraph.png)
 
-* **Alinea&#39;s** - Selectie van alle alinea&#39;s of een bereik toestaan
-   * **Alles** - Alle alinea&#39;s weergeven
-   * **Bereik**
+* **Paragraaf** - sta selectie van alle paragrafen of een waaier toe
+   * **allen** - toon alle paragrafen
+   * **Waaier**
       * Bereiken opgeven voor alinea&#39;s die moeten worden weergegeven, gescheiden door een puntkomma
-      * Bijvoorbeeld `1;3-5;7;9-*` de eerste, de derde tot en met de vijfde, de zevende en de negende alinea
-* **Koptekst verwerken als eigen alinea&#39;s**
+      * `1;3-5;7;9-*` neemt bijvoorbeeld de eerste, de derde tot de vijfde, de zevende en de negende alinea op
+* **de rubriek van het Handvat als hun eigen paragrafen**
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
-Wanneer u de component E-mailinhoudfragmentatie hebt gebruikt om een inhoudsfragment te configureren, wordt bij het selecteren van de component in de inhoudseditor een **Bewerken** optie.
+Zodra u de Component van het Fragment van de Inhoud E-mail hebt gebruikt om een inhoudsfragment te vormen, wanneer u de component in de inhoudsredacteur selecteert, toont het een **geeft** optie uit.
 
-![Werkbalk van de component E-mailinhoudsfragment](/help/email/assets/email-content-fragment-edit-toolbar.png)
+![ Toolbar van de Component van het Fragment van de Inhoud E-mail ](/help/email/assets/email-content-fragment-edit-toolbar.png)
 
-Tikken of klikken op de knop **Bewerken** opent de inhoudfragment-editor. De inhoudfragmenteditor is uitgebreid en bevat nu knoppen voor de **Adobe Campaign-variabele selecteren** om Adobe Campaign-variabelen in te voegen in uw inhoudsfragmenten.
+Tapping of het klikken van **geeft** knoop uit opent de redacteur van het inhoudsfragment. De redacteur van het inhoudsfragment is uitgebreid om knopen voor de **Uitgezochte Variabele van Adobe Campaign** te omvatten om de variabelen van Adobe Campaign in uw inhoudsfragmenten op te nemen.
 
-![Inhoudsfragmenteditor voor e-mail](/help/email/assets/email-content-fragment-editor.png)
+![ de fragmentredacteur van de Inhoud voor e-mail ](/help/email/assets/email-content-fragment-editor.png)
 
-Zie het document voor meer informatie over het bewerken en ontwerpen van inhoudsfragmenten [Fragmentinhoud ontwerpen.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-variations.html)
+Voor meer informatie over het uitgeven en het ontwerpen van inhoudsfragmenten, zie het document [ Authoring Inhoud van het Fragment.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-variations.html)
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -93,12 +93,12 @@ Wanneer een component E-mailcontentfragment wordt geconfigureerd met een inhouds
 
 ### Hoofdtabblad {#main-tab}
 
-![Het dialoogvenster Ontwerpen van de component E-mailinhoudsfragment](/help/email/assets/email-content-fragment-design.png)
+![ dialoog van het Ontwerp van de Component van het Fragment van de Inhoud E-mail ](/help/email/assets/email-content-fragment-design.png)
 
-* **Intern responsief raster**
+* **Intern ontvankelijk net**
 
    * Het Sling-brontype dat wordt gebruikt voor het interne responsieve raster
 
 ### Tabblad Stijlen {#styles-tab}
 
-De E-mailervaringsfragmentcomponent ondersteunt de AEM [Stijlsysteem.](/help/get-started/authoring.md#component-styling)
+De component van het Fragment van de Ervaring E-mail steunt het AEM [ Systeem van de Stijl.](/help/get-started/authoring.md#component-styling)

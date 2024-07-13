@@ -5,8 +5,8 @@ role: Architect, Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 1%
+source-wordcount: '529'
+ht-degree: 0%
 
 ---
 
@@ -18,8 +18,8 @@ De component van de Knoop van de Component van de Kern staat voor de configurati
 
 Met de component Core Component Button kan een knop op een pagina worden opgenomen.
 
-* De eigenschappen van de knop kunnen worden geselecteerd in het dialoogvenster [dialoogvenster configureren](#configure-dialog).
-* Stijlen voor de component Button kunnen worden gedefinieerd in het gedeelte [ontwerpdialoogvenster](#design-dialog).
+* De eigenschappen van de knoop kunnen in [ worden geselecteerd vormen dialoog ](#configure-dialog).
+* De stijlen voor de Component van de Knoop kunnen in de [ ontwerpdialoog ](#design-dialog) worden bepaald.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -30,19 +30,19 @@ In de volgende tabel staan alle ondersteunde versies van de component, de AEM ve
 | Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
 |--- |--- |---|---|
 | v2 | - | Compatibel | Compatibel |
-| [v1](v1/button.md) | Compatibel | Compatibel | Compatibel |
+| [ v1 ](v1/button.md) | Compatibel | Compatibel | Compatibel |
 
-Raadpleeg het document voor meer informatie over versies en releases van de Core Component [Core Components-versies](/help/versions.md).
+Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Als u de component Button wilt ervaren en voorbeelden wilt zien van de configuratieopties en van de HTML- en JSON-uitvoer, gaat u naar de [Componentbibliotheek](https://adobe.com/go/aem_cmp_library_button).
+Om de Component van de Knoop te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library_button).
 
 ## Technische details {#technical-details}
 
-De meest recente technische documentatie over de component Button [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_button_v2).
+De recentste technische documentatie over de Component van de Knoop [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_button_v2) worden gevonden.
 
-Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -50,42 +50,42 @@ In het dialoogvenster Configureren kan de auteur van de inhoud de knop definiër
 
 ### Tabblad Eigenschappen {#properties-tab}
 
-![Het tabblad Eigenschappen van het dialoogvenster Bewerken van component Button](/help/assets/button-edit-properties.png)
+![ het lusje van Eigenschappen van uitgeeft dialoog van de Component van de Knoop ](/help/assets/button-edit-properties.png)
 
-* **Tekst** - De tekst die op de knop moet worden weergegeven
-* **Koppeling** - Koppeling maken naar een inhoudspagina binnen AEM, een externe bron of een anker
-   * Gebruik de **Dialoogvenster Selectie** om een pad te kiezen binnen AEM.
-* **Koppeling openen op nieuw tabblad** - Als deze optie is ingeschakeld, wordt de koppeling geopend in een nieuw browsertabblad.
-* **Pictogram** - Id voor weergave van een pictogram in de knop
-* **ID** - Met deze optie kunt u de unieke id van de component in de HTML en in de [Gegevenslaag](/help/developing/data-layer/overview.md).
+* **Tekst** - de tekst om op de knoop te tonen
+* **Verbinding** - Verbinding met een inhoudspagina binnen AEM, een extern middel, of een anker
+   * Gebruik de **Dialoog van de Selectie** om een weg binnen AEM te kiezen.
+* **Open verbinding in nieuw lusje** - als gecontroleerd, zal de verbinding in een nieuwe browser tabel openen.
+* **Pictogram** - Herkenningsteken voor het tonen van een pictogram in de knoop
+* **identiteitskaart** - Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens te controleren ](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
 ### Tabblad Toegankelijkheid {#accessibility-tab}
 
-![Toegankelijkheid, tabblad van het dialoogvenster Bewerken van component Button](/help/assets/button-edit-accessibility.png)
+![ Toegankelijkheid lusje van uitgeeft dialoog van de Component van de Knoop ](/help/assets/button-edit-accessibility.png)
 
-Op de **Toegankelijkheid** tab, waarden kunnen worden ingesteld voor [Toegankelijkheid ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) labels voor de component.
+Op het **lusje van de Toegankelijkheid**, kunnen de waarden voor [ de toegankelijkheidslabels van ARIA ](https://www.w3.org/WAI/standards-guidelines/aria/) voor de component worden geplaatst.
 
-* **Label** - Waarde van een ARIA-labelkenmerk voor de component
+* **Etiket** - Waarde van een ARIA etiketattribuut voor de component
 
 ### Tabblad Stijlen {#styles-tab-edit}
 
-![Het tabblad Stijlen van het dialoogvenster Bewerken van component Button](/help/assets/button-edit-styles.png)
+![ het lusje van Stijlen van uitgeeft dialoog van de Component van de Knoop ](/help/assets/button-edit-styles.png)
 
-De component Button ondersteunt de AEM [Stijlsysteem.](/help/get-started/authoring.md#component-styling).
+De component van de Knoop steunt het AEM [ Systeem van de Stijl.](/help/get-started/authoring.md#component-styling).
 
 Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
 
-De stijlen moeten voor deze component in worden gevormd [ontwerpdialoogvenster](#design-dialog) zodat het vervolgkeuzemenu beschikbaar is.
+De stijlen moeten voor deze component in de [ ontwerpdialoog ](#design-dialog) worden gevormd opdat het drop-down menu beschikbaar is.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component Button ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+De component van de Knoop steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
 
-## Gegevenslaag Adobe-client {#data-layer}
+## Gegevenslaag client-Adobe {#data-layer}
 
-De component Button ondersteunt de [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
+De component van de Knoop steunt de [ Gegevens van de Cliënt van de Adobe Laag.](/help/developing/data-layer/overview.md)

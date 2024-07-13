@@ -5,20 +5,20 @@ role: Architect, Developer, Admin, User
 exl-id: e85fe4db-6de4-4a84-a54c-bd07a67efed3
 source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
 
 # Paginacomponent (v2) {#page-component}
 
-De component Pagina is een uitbreidbare pagina-component die is ontworpen om te werken met de [sjablooneditor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) en staat toe dat paginakoptekst/voettekst en structuurcomponenten met de malplaatjeredacteur worden samengesteld.
+De Component van de Pagina is een verlengbare paginacomponent die wordt ontworpen om met de [ malplaatjedacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) te werken en staat paginakopbal/footer en structuurcomponenten toe om met de malplaatjedacteur worden samengesteld.
 
 ## Gebruik {#usage}
 
 De component Pagina vormt de basis van alle pagina&#39;s die zijn ontworpen met de kerncomponenten en bewerkbare sjablonen. Met de component Pagina kunt u kop- en voetteksten en de structuur van de pagina definiëren als een sjabloon met de andere kerncomponenten.
 
-Met de [ontwerpdialoogvenster](#design-dialog)aangepaste clientbibliotheken kunnen voor de pagina worden gedefinieerd. In tegenstelling tot andere componenten met een bewerkingsdialoogvenster dat rechtstreeks vanuit de component toegankelijk is, is de component Pagina de pagina zelf, de component [dialoogvenster bewerken](#edit-dialog) van de component Pagina is het venster met pagina-eigenschappen.
+Gebruikend de [ ontwerpdialoog ](#design-dialog), kunnen de douane cliënt-zijbibliotheken voor de pagina worden bepaald. In tegenstelling tot andere componenten die een uitgeven dialoog hebben die direct van de component toegankelijk is, omdat de Component van de Pagina de pagina zelf is, [ uitgeeft dialoog ](#edit-dialog) van de Component van de Pagina is het venster van pagina-eigenschappen.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -28,54 +28,54 @@ In dit document wordt versie 2 van de Page Component beschreven. Deze versie is 
 >
 >In dit document wordt versie 2 van de component Pagina beschreven.
 >
->Zie voor meer informatie over de huidige versie van de pagina-component de sectie [Pagina-component](/help/components/page.md) document.
+>Voor details van de huidige versie van de Component van de Pagina, zie het ](/help/components/page.md) document van de Component van de 0} Pagina.[
 
 ## Progressieve ondersteuning voor webtoepassingen {#pwa-support}
 
-Versie 2.15.0 van de Core Components introduceerde steun voor AEM ingebouwde as a Cloud Service [Progressieve functies van Web Apps (PWA).](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) Met een eenvoudige configuratie op siteniveau verandert u uw AEM in een PWA!
+Versie 2.15.0 van de Componenten van de Kern introduceerde steun voor de ingebouwde eigenschappen van het Web van AEM as a Cloud Service [ Progressieve (PWA).](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) Met een eenvoudige configuratie op site-niveau zet u uw AEM om in een PWA!
 
 ### Technische details {#technical-details}
 
-De meest recente technische documentatie over de pagina-component [kan op GitHub worden gevonden](https://adobe.com/go/aem_cmp_tech_page_v2).
+De recentste technische documentatie over de Component van de Pagina [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_page_v2) worden gevonden.
 
-Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
-Omdat de component de gehele pagina vertegenwoordigt, worden instellingen die normaal gesproken in een bewerkingsdialoogvenster staan, gevonden in het dialoogvenster [Pagina-eigenschappen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) venster.
+Omdat de component de volledige pagina vertegenwoordigt, worden de montages die normaal in zouden zijn uitgeeft dialoog gevonden in het [ venster van de Eigenschappen van de Pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
-Omdat de component de volledige pagina vertegenwoordigt, is het ontwerpdialoogvenster toegankelijk via **Paginagegevens -> Paginabeleid** bij het bewerken van de paginasjabloon.
+Omdat de component de volledige pagina vertegenwoordigt, wordt de ontwerpdialoog betreden via **Informatie van de Pagina -> Beleid van de Pagina** wanneer het uitgeven van het paginamalplaatje.
 
-![Paginabeleid](/help/assets/page-policy.png)
+![ Beleid van de Pagina ](/help/assets/page-policy.png)
 
 >[!NOTE]
 >
->In eerdere versies van AEM **Paginabeleid** is gebeld **Paginaontwerp**.
+>In vorige versies van AEM, **het Beleid van de Pagina** werd genoemd **het Ontwerp van de Pagina**.
 
 ### Tabblad Eigenschappen {#properties-tab}
 
 Met behulp van het venster Paginaontwerp kunt u de te laden clientbibliotheken en de bibliotheek met webbronnen voor de pagina definiëren.
 
-* **Clientbibliotheken** - Hiermee worden de categorieën van de clientbibliotheek gedefinieerd die moeten worden geladen. JavaScript wordt toegevoegd aan het hoofdgedeelte en de CSS wordt toegevoegd aan de paginakop.
-* **JavaScript-paginakop voor clientbibliotheken** - Hiermee worden de JavaScript Client-bibliotheekcategorieën gedefinieerd die in de paginakop moeten worden geladen.
-   * Categorieën die hier worden gedefinieerd en die ook voorkomen in het dialoogvenster **Clientbibliotheken** in het veld wordt JavaScript geladen in de paginakop in plaats van aan het tekstuele einde.
-   * Geen CSS wordt geladen tenzij de categorie ook aanwezig is in de **Clientbibliotheken** veld.
+* **Bibliotheken van de Cliënt** - dit bepaalt de categorieën van de cliëntbibliotheek aan lading. JavaScript wordt toegevoegd aan het hoofdgedeelte en de CSS wordt toegevoegd aan de paginakop.
+* **de Bibliotheken van de Cliënt JavaScript Hoofd van de Pagina** - dit bepaalt de de bibliotheekcategorieën van de Cliënt van JavaScript in het paginakop te laden.
+   * De categorieën die hier worden bepaald die ook aanwezig zijn in het **gebied van de Bibliotheken van de Cliënt** zullen JavaScript hebben die in de paginakop in plaats van bij lichaamseind wordt geladen.
+   * Geen CSS zal worden geladen tenzij de categorie ook op het **gebied van de Bibliotheken van de Cliënt 0} {aanwezig is.**
 
-* **Web Resources Client Library** - De categorie van de clientbibliotheek die wordt gebruikt voor webbronnen, zoals favicons.
+* **Bibliotheek van de Cliënt van Middelen van het Web** - de categorie van de cliëntbibliotheek die wordt gebruikt om Webmiddelen zoals favicons te dienen.
 
-* **Overslaan naar de selectie van het hoofdelement** - Wordt gebruikt als toegankelijkheidsfunctie om rechtstreeks naar de hoofdinhoud van de pagina te gaan
+* **Overslaan aan de selecteur van het belangrijkste inhoudselement** - Gebruikt als toegankelijkheidseigenschap om rechtstreeks aan de belangrijkste inhoud van de pagina over te slaan
 
-![Dialoogvenster Pagina-componentontwerp](/help/assets/page-design.png)
+![ de ontwerpdialoog van de Component van de Pagina ](/help/assets/page-design.png)
 
-De bibliotheken kunnen voor beide worden gevormd **Clientbibliotheken** en **JavaScript-paginakop voor clientbibliotheken** velden als volgt:
+De bibliotheken kunnen voor zowel de **Bibliotheken van de Cliënt** als **het Hoofd van de Pagina van JavaScript van de Bibliotheken van de Cliënt** gebieden als volgt worden gevormd:
 
-* Als u een nieuw veld wilt toevoegen, klikt u op de knop **Toevoegen** onder de velden.
+* Om een nieuw gebied toe te voegen klik of tik **toevoegen** knoop onder de gebieden.
 * Als u een veld wilt verwijderen, klikt of tikt u op het prullenbakpictogram naast het veld dat u wilt verwijderen.
 * Als u de laadvolgorde wilt wijzigen, klikt of tikt u op de greep naast het te verplaatsen veld.
 
-Voor meer informatie over het gebruiken van cliënt-zijbibliotheken zie [Clientzijbibliotheken gebruiken](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html).
+Voor meer informatie over het gebruiken van cliënt-zijbibliotheken zie [ Gebruikend de Bibliotheken van de Kant van de Cliënt ](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html).
 
 >[!CAUTION]
 >
@@ -83,8 +83,8 @@ Voor meer informatie over het gebruiken van cliënt-zijbibliotheken zie [Clientz
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component Pagina ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+De Component van de Pagina steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
 
-## Gegevenslaag Adobe-client {#data-layer}
+## Gegevenslaag client-Adobe {#data-layer}
 
-De component Pagina ondersteunt de [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
+De Component van de Pagina steunt de [ Laag van de Gegevens van de Cliënt van de Adobe.](/help/developing/data-layer/overview.md)

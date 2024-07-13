@@ -6,7 +6,7 @@ role: Architect, Developer, Admin, User
 exl-id: 1e34219f-fa82-494e-82e2-1b4d63d37fea
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Met de Core Component Form Container Component kunnen eenvoudige verzendformulie
 
 Met de component Form Container konden eenvoudige formulieren en functies voor het verzenden van informatie worden gemaakt door eenvoudige WCM-formulieren te ondersteunen en door een geneste structuur te gebruiken om extra formuliercomponenten toe te staan.
 
-Met de [dialoogvenster instellen](#settings-dialog) de inhoudeditor kan bepalen welk type actie door het verzenden van een formulier wordt geactiveerd, waar de verzonden inhoud moet worden opgeslagen en of een workflow moet worden geactiveerd. De sjabloonauteur kan de opdracht [ontwerpdialoogvenster](#design-dialog) om de toegestane componenten en hun toewijzingen te bepalen gelijkend op de ontwerpdialoog voor [standaardlay-outcontainer in de sjablooneditor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html).
+Door het [ plaatsen dialoog ](#settings-dialog) te gebruiken kan de inhoudsredacteur bepalen welk type van actievorm indiensttrekkers, waar de voorgelegde inhoud zou moeten worden opgeslagen, en als een werkschema zou moeten worden teweeggebracht. De malplaatjeauteur kan de [ ontwerpdialoog ](#design-dialog) gebruiken om toe te staan componenten en hun afbeeldingen gelijkend op de ontwerpdialoog voor de [ standaardlay-outcontainer in de malplaatjedacteur ](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) te bepalen.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -29,14 +29,14 @@ In de volgende tabel wordt de compatibiliteit van versie 1 van de component Form
 
 | AEM | Formuliercontainercomponent v1 |
 |--- |--- |
-| 6.3 | Compatibel |
-| 6.4 | Compatibel |
+| 6,3 | Compatibel |
+| 6,4 | Compatibel |
 
 >[!CAUTION]
 >
 >In dit document wordt versie 1 van de component Form Container beschreven.
 >
->Voor meer informatie over de huidige versie van de component Form Container raadpleegt u de [Component Form Container](/help/components/forms/form-container.md) document.
+>Voor details van de huidige versie van de Component van de Container van de Vorm, zie het [ document van de Component van de Container van de Vorm ](/help/components/forms/form-container.md).
 
 ## Dialoogvenster Instellingen {#settings-dialog}
 
@@ -44,14 +44,14 @@ In het dialoogvenster met instellingen kan de auteur van de inhoud definiëren w
 
 ![](/help/assets/chlimage_1.png)
 
-Afhankelijk van de geselecteerde **Type handeling** De beschikbare opties in de container worden gewijzigd. De beschikbare actietypen zijn:
+Afhankelijk van het geselecteerde **Type van Actie**, zullen de beschikbare opties binnen de container veranderen. De beschikbare actietypen zijn:
 
 * [Mail](#mail)
 * [Winkelinhoud](#store-content)
 * [Bestelling verzenden](#submit-order)
 * [Volgorde bijwerken](#update-order)
 
-Ongeacht het type zijn er [algemene instellingen](#general-settings) die van toepassing zijn op elke actie.
+Ongeacht het type, zijn er [ algemene montages ](#general-settings) die op elke actie van toepassing zijn.
 
 ### Mail {#mail}
 
@@ -59,14 +59,14 @@ Wanneer het formulier wordt verzonden, verzendt het type e-mailactie een e-mail 
 
 ![](/help/assets/chlimage_1-1.png)
 
-* **Onderwerp** - Het onderwerp van de e-mail die wordt verzonden bij het verzenden van het formulier
-* **Van** - Het formulier van het e-mailadres van het e-mailbericht dat wordt verzonden bij het verzenden van het formulier
-* **Naar** - De adressen van de ontvangers die een e-mail zullen ontvangen wanneer het formulier wordt verzonden
-   * Tik of klik op de knop **Toevoegen** knop om extra adressen toe te voegen
-   * Tik of klik op de knop **Verwijderen** knop om een e-mailadres te verwijderen
-* **CC** - Het adres van ontvangers die een koolstofkopie ontvangen van de e-mail die is verzonden bij het verzenden van het formulier.
-   * Tik of klik op de knop **Toevoegen** knop om extra adressen toe te voegen
-   * Tik of klik op de knop **Verwijderen** knop om een e-mailadres te verwijderen
+* **Onderwerp** - Het onderwerp van e-mail dat als vormvoorlegging zal worden verzonden
+* **van** - de van e-mailadres van e-mail die op vormvoorlegging zal worden verzonden
+* **aan** - de adressen van de ontvangers die een e-mail op vormvoorlegging zullen ontvangen
+   * Tik of klik **voeg** knoop toe om extra adressen toe te voegen
+   * Tik of klik de **Schrapping** knoop om een e-mailadres te verwijderen
+* **CC** - de adressen van ontvangers die een koolstofkopie zullen ontvangen e-mail die op vormvoorlegging wordt verzonden
+   * Tik of klik **voeg** knoop toe om extra adressen toe te voegen
+   * Tik of klik de **Schrapping** knoop om een e-mailadres te verwijderen
 
 ### Winkelinhoud {#store-content}
 
@@ -74,9 +74,9 @@ Wanneer het formulier wordt verzonden, wordt de inhoud van het formulier opgesla
 
 ![](/help/assets/chlimage_1-2.png)
 
-* **Inhoudspad** - Pad van inhoudsopslagplaats waar verzonden inhoud wordt opgeslagen
-* **Gegevens weergeven** - Tik of klik om opgeslagen verzonden gegevens weer te geven als JSON
-* **Workflow starten** - Configureren om een workflow met de opgeslagen inhoud te starten als een payload bij het verzenden van het formulier
+* **Weg van de Inhoud** - de weg van de bewaarplaats van de Inhoud waar de voorgelegde inhoud wordt opgeslagen
+* **Gegevens van de Mening** - Tik of klik om opgeslagen voorgelegde gegevens als JSON te bekijken
+* **Werkschema van het Begin** - vorm om een werkschema met de opgeslagen inhoud als nuttige lading op vormvoorlegging te beginnen
 
 ### Bestelling verzenden {#submit-order}
 
@@ -98,18 +98,18 @@ Ongeacht het geselecteerde handelingstype, kan een pagina van dank u altijd word
 
 De gebruiker wordt na het verzenden van het formulier omgeleid naar de opgegeven pagina.
 
-* Gebruik het dialoogvenster Selectie om een bron binnen AEM te selecteren.
+* Gebruik het dialoogvenster Selectie om een bron in AEM te selecteren.
 * Geef de absolute URL op als de pagina voor bedankt niet in AEM is. Niet-absolute URL&#39;s worden ten opzichte van AEM geïnterpreteerd.
 * Laat leeg om het formulier na verzending opnieuw weer te geven.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
-In het ontwerpdialoogvenster kan de sjabloonauteur de toegestane componenten en de bijbehorende toewijzingen voor de container definiëren, vergelijkbaar met het ontwerpdialoogvenster voor de [standaardlay-outcontainer in de sjablooneditor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843).
+De ontwerpdialoog staat de malplaatjeauteur toe om de toegestane componenten en hun afbeeldingen voor de container te bepalen gelijkend op de ontwerpdialoog voor de [ standaardlay-outcontainer in de malplaatjedacteur ](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843).
 
 ## Technische details {#technical-details}
 
-De meest recente technische documentatie over de component Form Container [kan op GitHub worden gevonden](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v1/container).
+De recentste technische documentatie over de Component van de Container van de Vorm [ kan op GitHub ](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v1/container) worden gevonden.
 
 Het volledige kerncomponentenproject kan van GitHub worden gedownload.
 
-Meer informatie over het ontwikkelen van kerncomponenten vindt u in de [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).

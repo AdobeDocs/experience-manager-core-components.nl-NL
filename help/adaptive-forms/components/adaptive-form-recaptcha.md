@@ -2,13 +2,13 @@
 title: Adaptive Forms Core Component - Google reCAPTCHA
 description: Verbeter de formulierbeveiliging met de Google reCAPTCHA-service zonder moeite met AEM Forms. Eigenschappen van Adaptief Form reCaptcha uitleggen
 role: Architect, Developer, Admin, User
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+exl-id: 2d986b90-e596-4e8f-9a32-0ebced5461c8
+source-git-commit: b97687e7f7437af57e2a8b9f442d4e0c8322a3d2
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 0%
 
 ---
-
 
 # Adaptief formulier reCAPTCHA {#google-recaptcha}
 
@@ -19,15 +19,15 @@ AEM Forms as a Cloud Service ondersteunt Google reCAPTCHA v2 in Adaptive Forms. 
 ## Gebruik {#reasons-to-use-google-recaptcha}
 
 
-- **Spam en Bot-preventie**: Een van de belangrijkste redenen voor het gebruik van reCAPTCHA is om te voorkomen dat spam-verzendingen en kwaadaardige bots uw formulier overstromen. De geavanceerde algoritmen van reCAPTCHA kunnen geautomatiseerde pogingen om het formulier te verzenden ontdekken, zodat alleen legitieme gebruikers ermee kunnen werken.
+- **Spam en Bot Preventie**: Één van de primaire redenen om reCAPTCHA te gebruiken moet spamvoorlegging en kwaadwillige bots verhinderen uw vorm te overstromen. De geavanceerde algoritmen van reCAPTCHA kunnen geautomatiseerde pogingen om het formulier te verzenden ontdekken, zodat alleen legitieme gebruikers ermee kunnen werken.
 
-- **Uitgebreide beveiliging**: Door reCAPTCHA te implementeren, voegt u een extra beveiligingslaag toe aan het aangepaste formulier. Dit helpt gevoelige informatie beschermen en kwaadwillige gebruikers verhinderen kwetsbaarheid te exploiteren.
+- **Verbeterde Veiligheid**: Door reCAPTCHA uit te voeren, voegt u een extra laag van veiligheid aan uw adaptieve vorm toe. Dit helpt gevoelige informatie beschermen en kwaadwillige gebruikers verhinderen kwetsbaarheid te exploiteren.
 
-- **Gebruikerservaring**: Hoewel CAPTCHA&#39;s soms als ongemak kunnen worden beschouwd, betekent de adaptieve benadering van reCAPTCHA dat de meeste gebruikers een gestroomlijnde, gebruiksvriendelijke ervaring krijgen die minimale interactie vereist. Dit kan helpen een positieve gebruikerservaring te behouden terwijl het afschrikken van bots.
+- **Ervaring van de Gebruiker**: Terwijl CAPTCHAs soms als ongemak kan worden gezien, betekent de adaptieve benadering van reCAPTCHA dat de meeste gebruikers met een gestroomlijnde, gebruikersvriendelijke ervaring worden voorgesteld die minimale interactie vereist. Dit kan helpen een positieve gebruikerservaring te behouden terwijl het afschrikken van bots.
 
-- **Aanpasbaarheid**: Het adaptieve mechanisme van reCAPTCHA analyseert gebruikersgedrag en interacties om te bepalen of ze menselijk zijn of niet. Dit betekent dat het niveau van de uitdaging die de gebruiker wordt aangeboden kan variëren afhankelijk van de waarschijnlijkheid dat hij een bot is. Dit aanpassingsvermogen vermindert de wrijving voor echte gebruikers terwijl het handhaven van sterke veiligheid.
+- **Aanpassingsvermogen**: reCAPTCHA&#39;s adaptieve mechanisme analyseert gebruikersgedrag en interactie om te bepalen of zij menselijk of niet zijn. Dit betekent dat het niveau van de uitdaging die de gebruiker wordt aangeboden kan variëren afhankelijk van de waarschijnlijkheid dat hij een bot is. Dit aanpassingsvermogen vermindert de wrijving voor echte gebruikers terwijl het handhaven van sterke veiligheid.
 
-- **Beperkte handmatige modernisering**: Door het aantal spamverzendingen en beide gegenereerde inhoud aanzienlijk te verminderen, kan reCAPTCHA tijd en middelen besparen die anders zouden worden besteed aan handmatige matiging en opschoning.
+- **Verminderde Handmatige Moderatie**: Door het aantal spambijdragen en allebei-geproduceerde inhoud beduidend te verminderen, kan reCAPTCHA tijd en middelen besparen die anders aan handmatiging en schoonmaakbeurt zouden worden uitgegeven.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -36,13 +36,13 @@ De Adaptive Forms Google reCAPTCHA Core Component is in augustus 2023 uitgebrach
 
 | Componentversie | AEM as a Cloud Service |
 |--- |--- |
-| v1 | Compatibel met<br>[versie 2.0.4](/help/versions.md) en hoger | Compatibel | Compatibel |
+| v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/versions.md) en later | Compatibel | Compatibel |
 
-Raadpleeg voor meer informatie over versies en releases van de Core Component de [Versies van kerncomponenten](/help/versions.md) document.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/versions.md) document van de Versies van de Componenten van de Kern 0}.[
 
 ## Technische details {#technical-details}
 
-Lees de nieuwste informatie over de Adaptive Forms Google reCAPTCHA Core Component in de technische documentatie over [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/recaptcha/v1/recaptcha). Voor meer informatie over het ontwikkelen van Core Components, bekijk [Documentatie voor ontwikkelaars van kerncomponenten](/help/developing/overview.md).
+Krijg de recentste informatie over de Adaptieve Component van de Kern van Forms Google reCAPTCHA in de technische documentatie op [ GitHub ](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/recaptcha/v1/recaptcha). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern ](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -50,42 +50,42 @@ Met het dialoogvenster Configureren kunt u uw Google reCAPTCHA-ervaring eenvoudi
 
 ### Tabblad Standaard {#basic-tab}
 
-![Tabblad Standaard](/help/adaptive-forms/assets/recaptcha-basictab.png)
+![ BasisLusje ](/help/adaptive-forms/assets/recaptcha-basictab.png)
 
-- **Naam** - U kunt een formuliercomponent gemakkelijk herkennen met de unieke naam, zowel in het formulier als in de regeleditor, maar de naam mag geen spaties of speciale tekens bevatten.
+- **Naam** - u kunt een vormcomponent gemakkelijk met zijn unieke naam zowel in de vorm als in de regelredacteur identificeren, maar de naam moet geen ruimten of speciale karakters bevatten.
 
-- **Titel** - Met Titel kunt u een component gemakkelijk herkennen in een formulier. Standaard wordt de titel boven op de component weergegeven. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
+- **Titel** - met zijn Titel, kunt u een component in een vorm gemakkelijk identificeren en door gebrek, verschijnt de titel bovenop de component. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
 
-- **RTF-tekst voor titel toestaan** - Met deze functies kunnen gebruikers gewone teksttitels opmaken en functies zoals vet, cursief, onderstreepte tekst, diverse lettertypen, tekengrootten, kleuren en extra opties opnemen om de visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
-  Als u het selectievakje **RTF-tekst toestaan voor titel inschakelt, worden opmaakopties zichtbaar om de titel van de component op te maken. Als u toegang wilt tot alle beschikbare opmaakopties, klikt u op de knop ![Pictogram Volledig scherm](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+- **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
+  Als u het selectievakje **RTF-tekst toestaan voor titel inschakelt, worden opmaakopties zichtbaar om de titel van de component op te maken. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
-  ![RTF-ondersteuning](/help/adaptive-forms/assets/richtext-support-title.png)
+  ](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0}![
 
-- **Titel verbergen** - Selecteer de optie om de titel van de component te verbergen.
-- **Markeren als niet-gebonden formulierelement**: Selecteer de optie om een formulierveld te configureren dat niet is gekoppeld aan een schema. Met deze optie kunt u gegevens opslaan zonder de gegevensbron bij te werken. Het laat u ook toe om gegevens op een douanemethode, los van standaardgegevensbestandintegratie te behandelen.
-- **Configuratie-instellingen**: Selecteer de configuratiecontainer die de wolkenconfiguratie bevat die AEM Forms met de reCAPTCHA dienst door Google verbindt.
+- **Verberg Titel** - selecteer de optie om de Titel van de component te verbergen.
+- **Teken als Niet-gebonden Element van de Vorm**: Selecteer de optie om een vormgebied te vormen niet verbonden aan om het even welk schema. Met deze optie kunt u gegevens opslaan zonder de gegevensbron bij te werken. Het laat u ook toe om gegevens op een douanemethode, los van standaardgegevensbestandintegratie te behandelen.
+- **de montages van de Configuratie**: Selecteer de configuratiecontainer die de wolkenconfiguratie bevat die AEM Forms met de dienst reCAPTCHA door Google verbindt.
 
   >[!NOTE]
   >
-  > Zie de [Google reCAPTCHA gebruiken in een AEM adaptief formulier op basis van Core Components](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components) artikel voor het maken en configureren van Google reCAPTCHA voor uw omgeving.
+  > Verwijs naar het [ Gebruik Google reCAPTCHA in een AEM Aangepaste Vorm die op het artikel van de Componenten van de Kern {wordt gebaseerd om te leren hoe te om Google reCAPTCHA voor uw milieu tot stand te brengen en te vormen.](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
 
 - **Type**: Kies deze optie om de grootte voor reCAPTCHA te selecteren.
-   - **Normaal**: Verwijst naar de standaard, grotere versie van de reCAPTCHA-widget, die voor gebruikers beter zichtbaar en gemakkelijker kan zijn om mee te werken, vooral op apparaten met grotere schermen.
-   - **Compact**: Verwijst naar een kleinere versie van de reCAPTCHA-widget. Deze optie is geschikt voor situaties waarin ruimte beperkt is, zoals op mobiele apparaten of in strakke lay-outs op webpagina&#39;s.
+   - **Normaal**: Verwijst naar de norm, grotere versie van de reCAPTCHA widget, die voor gebruikers beter zichtbaar en gemakkelijker kan zijn om met, vooral op apparaten met grotere schermen in wisselwerking te staan.
+   - **Compact**: Verwijs naar een kleinere versie van de reCAPTCHA widget. Deze optie is geschikt voor situaties waarin ruimte beperkt is, zoals op mobiele apparaten of in strakke lay-outs op webpagina&#39;s.
 
-- **Component verbergen** - Selecteer de optie om de component te verbergen voor het formulier. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel. Dit is handig wanneer u informatie wilt opslaan die niet hoeft te worden bekeken of rechtstreeks door de gebruiker hoeft te worden gewijzigd.
+- **de Component van de Huid** - selecteer de optie om de component van de vorm te verbergen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel. Dit is handig wanneer u informatie wilt opslaan die niet hoeft te worden bekeken of rechtstreeks door de gebruiker hoeft te worden gewijzigd.
 
-- **Component uitschakelen** - Selecteer de optie om de component uit te schakelen. De uitgeschakelde component is niet actief of bewerkbaar voor de eindgebruiker. De gegevens van de uitgeschakelde component worden niet verzonden De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
+- **maak Component** onbruikbaar - selecteer de optie om de component onbruikbaar te maken. De uitgeschakelde component is niet actief of bewerkbaar voor de eindgebruiker. De gegevens van de uitgeschakelde component worden niet verzonden De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
 
-- **Alleen-lezen** - Selecteer de optie om de component niet-bewerkbaar te maken. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
+- **read-only** - selecteer de optie om de component niet-editable te maken. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
 
 ### Tabblad Validatie {#validation-tab}
 
-![Tabblad Validatie](/help/adaptive-forms/assets/recaptcha-validationtab.png)
+![ het Lusje van de Bevestiging ](/help/adaptive-forms/assets/recaptcha-validationtab.png)
 
-- **Foutbericht** - Met deze optie kunt u een bericht invoeren dat wordt weergegeven als de optie **Vereist** wordt ingeschakeld en wordt het formulierveld leeg gelaten.
+- **Bericht van de Fout** - Deze optie staat u toe om een bericht in te gaan dat wordt getoond als **Vereiste** checkbox wordt gecontroleerd en het vormgebied wordt verlaten leeg.
 
-- **Bericht voor scriptvalidatie** - Met deze optie kunt u een bericht invoeren dat wordt weergegeven als de scriptvalidatie mislukt.
+- **Bericht van de Bevestiging van het Manuscript** - Deze optie staat u toe om een bericht in te gaan dat moet worden getoond als de manuscriptbevestiging ontbreekt.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -93,26 +93,26 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de component reC
 
 ### Tabblad Stijlen {#styles-design-tab}
 
-De Adaptive Forms reCAPTCHA Core Component ondersteunt de AEM [Stijlsysteem](/help/get-started/authoring.md#component-styling).
+De Adaptieve Component van de Kern van Forms reCAPTCHA steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
 
-![Ontwerpdialoogvenster](/help/adaptive-forms/assets/checkbox-style.png)
+![ Dialoog van het Ontwerp ](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Standaard CSS-klassen**: U kunt een standaard CSS-klasse opgeven voor de Adaptive Forms reCAPTCHA Core-component.
+- **StandaardCSS Klassen**: U kunt een standaardCSS klasse voor de Adaptieve Component van de Kern van Forms reCAPTCHA verstrekken.
 
-- **Toegestane stijlen**: U kunt stijlen definiëren door een naam op te geven en de CSS-klasse op te geven die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight: bold&quot; opgeven. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Als u een stijl wilt toepassen, selecteert u in de Adaptieve Forms-editor de component waarop u de stijl wilt toepassen, navigeert u naar het dialoogvenster Eigenschappen en selecteert u de gewenste stijl in het menu **Stijlen** vervolgkeuzelijst. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
+- **Toegestane Stijlen**: U kunt stijlen bepalen door een naam en de CSS klasse te verstrekken die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight: bold&quot; opgeven. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Om een stijl, in de Aanpassingsredacteur van Forms toe te passen, selecteer de component u de stijl op wilt toepassen, aan de eigenschappendialoog navigeren, en de gewenste stijl van de **drop-down lijst van Stijlen** selecteren. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
 
 ### Aangepaste eigenschappen
 
-![Dialoogvenster Aangepaste eigenschappen](/help/adaptive-forms/assets/checkbox-customproperties.png)
+![ de Dialoog van Eigenschappen van de Douane ](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
 Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aan een Adaptief kernonderdeel van een formulier koppelen met behulp van de formuliersjabloon. De aangepaste eigenschappen worden weergegeven in de sectie Eigenschappen van de koploze uitvoering van de component. Hiermee kunt u dynamisch formuliergedrag maken dat wordt aangepast op basis van de waarden van aangepaste kenmerken. Ontwikkelaars kunnen bijvoorbeeld verschillende uitvoeringen van een Forms-component zonder koptekst ontwerpen voor mobiele apparaten, desktops of webplatforms, waardoor de gebruikerservaring op een groot aantal apparaten aanzienlijk wordt verbeterd.
-- **Groepsnaam**: U kunt een naam opgeven om de groep met aangepaste eigenschappen te identificeren. U kunt meerdere groepen met aangepaste eigenschappen toevoegen, verwijderen of opnieuw rangschikken. Nadat u de aangepaste groep eigenschappen hebt toegevoegd, kunt u de volgende opties zien:
+- **Naam van de Groep**: U kunt een naam verstrekken om de groep van het douanebezit te identificeren. U kunt meerdere groepen met aangepaste eigenschappen toevoegen, verwijderen of opnieuw rangschikken. Nadat u de aangepaste groep eigenschappen hebt toegevoegd, kunt u de volgende opties zien:
 
-   - **Belangrijke paren**: U kunt meerdere aangepaste eigenschapnamen en aangepaste eigenschapswaarden toevoegen door op de knop **Toevoegen** knop voor elke aangepaste groep eigenschappen.
+   - **zeer belangrijk-Waarde paren**: U kunt veelvoudige namen van het douanebezit en douanebezitswaarden toevoegen door **te klikken voegt** knoop voor elke groep van het douanebezit toe.
 
-   - **Verwijderen**: Tik of klik om de naam van de aangepaste eigenschap en de waarde van de aangepaste eigenschap te verwijderen.
+   - **Schrapping**: Tik of klik om de naam van het douanebezit en de waarde van het douanebezit te schrappen.
 
-   - **Opnieuw rangschikken**: Tik of klik en sleep om de naam van de aangepaste eigenschap en de waarde van de aangepaste eigenschap opnieuw te rangschikken.
+   - **herschikt**: Tik of klik en sleep om de naam van het douanebezit en de waarde van het douanebezit te herschikken.
 
 
 ## Verwante artikelen {#related-articles}
