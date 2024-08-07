@@ -3,9 +3,9 @@ title: Tekstcomponent
 description: De component Text is een component voor tekstbewerking en -compositie met tekstopmaak die op locatie kan worden bewerkt.
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+source-git-commit: 418f1b6c967760d801d0973a35e0a31343ddca6b
 workflow-type: tm+mt
-source-wordcount: '2180'
+source-wordcount: '2181'
 ht-degree: 0%
 
 ---
@@ -302,9 +302,9 @@ De tekstcomponent kan ook in regels worden bewerkt, maar vanwege ruimtebeperking
 
 ![ In-lijn geeft voorbeeld uit ](/help/assets/text-edit-inline-example.png)
 
-### Instellen en id {#setting-id}
+### Een id instellen {#setting-id}
 
-Deze optie staat toe om het unieke herkenningsteken van de component in de HTML en in de [ Laag van Gegevens ](/help/developing/data-layer/overview.md) te controleren.
+Deze optie staat u toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens te controleren.](/help/developing/data-layer/overview.md)
 
 * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
 * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
