@@ -3,9 +3,9 @@ title: Inleiding Adaptive Forms Core Components AEM
 description: Maak aantrekkelijke inschrijvingservaringen (formulieren) met de flexibiliteit van de Adaptive Forms Core Components en lever deze met de kracht van Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 4b05fb9d8db515289095f4d3c6a4efbe872dbde5
+source-git-commit: fd4debea8510b2ae415dd09847444ad96f3478d9
 workflow-type: tm+mt
-source-wordcount: '2229'
+source-wordcount: '2205'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,6 @@ De huidige versie van AEM Forms heeft de volgende Componenten van de Kern, [ Com
 | Adaptief formulierfragment | ✔️ | ✔️ | | Voor de Componenten van de Stichting, kunt u [ een fragment ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/adaptive-forms-basic-authoring/adaptive-form-fragments#insert-a-fragment-in-an-adaptive-form) van Browser van Assets toevoegen. |
 | Adaptief formulier reCAPTCHA | ✔️ | ✔️ | ✔️ | Voor de Componenten van de Stichting, gebruik de component Captcha om [ Google reCaptcha aan een vorm ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA) toe te voegen. |
 | Knop | ✔️ | <span style="color:blue">[ ✔️ ](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
-| CAPTCHA | ✔️ |  |  | Voor de Componenten van de Stichting, gebruik de component Captcha om [ Google reCaptcha aan een vorm ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA) toe te voegen. |
 | Diagram | ✔️ | | | |
 | Selectievakje | ✔️ | ✔️ | | |
 | Selectievakjesgroep | ✔️ | <span style="color:blue">[ ✔️ ](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | Voor de Componenten van de Stichting, gebruik de checkbox component om veelvoudige checkboxes toe te voegen |
@@ -105,12 +104,11 @@ De huidige versie van AEM Forms heeft de volgende Componenten van de Kern, [ Com
 | Deelvenster | ✔️ | <span style="color:blue">[ ✔️ ](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
 | Wachtwoordvak | ✔️ | | ✔️ | |
 | Telefoon/telefoon | ✔️ | <span style="color:blue">[ ✔️ ](/help/adaptive-forms/components/phone.md)</span> | ✔️ | |
-| Vorige knop | ✔️ | | | Gebruik de [ tovenaar component ](/help/adaptive-forms/components/wizard.md) voor volgende en vorige knopen om zich tussen veelvoudige panelen te bewegen. |
-| Keuzerondje | ✔️ | <span style="color:blue">[ ✔️ ](/help/adaptive-forms/components/radio-button.md)</span> | | |
-| Groep keuzerondjes | | | ✔️ | |
+| Vorige knop | ✔️ | ✔️ | | Gebruik de [ tovenaar component ](/help/adaptive-forms/components/wizard.md) voor volgende en vorige knopen om zich tussen veelvoudige panelen te bewegen. |
+| Groep keuzerondjes | ✔️ | <span style="color:blue">[ ✔️ ](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
 | Knop Opnieuw instellen | ✔️ | <span style="color:blue">[ ✔️ ](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
 | Krabbelhandtekening | ✔️ | | | |
-| Scheidingsteken | ✔️ | | | |
+| Scheidingsteken | ✔️ | | | De component van WCM [ Beheerder ](/help/components/separator.md) gebruiken |
 | Verzendknop | ✔️ | <span style="color:blue">[ ✔️ ](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
 | Samenvattingsstap | ✔️ | | | |
 | Overschakelen | ✔️ | <span style="color:blue"> [ ✔️ ](/help/adaptive-forms/components/adaptive-form-switch.md) | | |
@@ -118,7 +116,6 @@ De huidige versie van AEM Forms heeft de volgende Componenten van de Kern, [ Com
 | Voorwaarden en bepalingen | ✔️ | ✔️ | | |
 | Tekst | ✔️ | <span style="color:blue">[ ✔️ ](/help/adaptive-forms/components/text.md)</span> | ✔️ | |
 | Tekstvak | ✔️ | <span style="color:blue">[ ✔️ ](/help/adaptive-forms/components/text-box.md)</span> | ✔️ | |
-| Titel | ✔️ | | | Voor de Componenten van de Kern, gebruik de ](/help/adaptive-forms/components/form-title.md) component van de Titel van de Vorm 0}.[ |
 | Turnstile Captcha | ✔️ | | | [ Turnstile Captcha ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile) is beschikbaar slechts voor de Componenten van de Stichting. |
 | Verticale tabs | ✔️ | ✔️ | | Voor de Componenten van de Stichting, kunt u de [ lusjes op de linkerlay-out (verticale lusjes) ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) in eigenschappen van de paneelcomponent vormen |
 | Wizard | ✔️ | <span style="color:blue">[ ✔️ ](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | Voor de Componenten van de Stichting, kunt u de [ tovenaar lay-out ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) in de eigenschappen van de paneelcomponent vormen |
