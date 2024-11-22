@@ -3,9 +3,9 @@ title: Inleiding Adaptive Forms Core Components AEM
 description: Maak aantrekkelijke inschrijvingservaringen (formulieren) met de flexibiliteit van de Adaptive Forms Core Components en lever deze met de kracht van Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
+source-git-commit: b37b6315312ecee0a74d8830d96a72f8a5a04e43
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2215'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ De huidige versie van AEM Forms heeft de volgende Componenten van de Kern, [ Com
 | Plaatsaanduiding voetnoot | ✔️ | | | |
 | Formuliercontainer | ✔️ | <span style="color:blue">[ ✔️ ](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | Voor de Componenten van de Stichting, gebruik de [ component van het Comité van de Wortel ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/forms/create-first-af/configure-root-panel). |
 | Formuliertitel | ✔️ | ✔️ | | Gebruik de titelcomponent voor Foundation Components. |
-| hCaptcha | ✔️ | <span style="color:blue">[ ✔️ ](/help/adaptive-forms/components/hcaptcha.md)</span> |  | |
+| hCaptcha | ✔️ | <span style="color:blue">[ ✔️ ](/help/adaptive-forms/components/hcaptcha.md)</span> |  | Voor de Componenten van de Stichting, kunt u [ uw adaptieve vormen met hCaptcha ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile.html) voor stichtingscomponenten verbinden gebaseerde vormen. |
 | Koptekst | ✔️ | <span style="color:blue">[ ✔️ ](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
 | Horizontale tabs | ✔️ | <span style="color:blue">[ ✔️ ](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | Voor de Componenten van de Stichting, kunt u de [ lusjes bovenop (horizontale lusjes) lay-out ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) in de eigenschappen van de paneelcomponent vormen. |
 | Afbeelding | ✔️ | <span style="color:blue">[ ✔️ ](/help/adaptive-forms/components/image.md)</span> | ✔️ | |
