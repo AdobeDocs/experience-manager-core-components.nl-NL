@@ -3,14 +3,16 @@ title: Adaptieve Forms Core-component - Bestandsbijlage
 description: De Adaptive Forms-component voor bestandsbijlagen gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 724940e8fe7eb5cfe3dc4edf7568049c993b1255
 workflow-type: tm+mt
-source-wordcount: '1911'
+source-wordcount: '2043'
 ht-degree: 0%
 
 ---
 
 # Bestandsbijlage-component {#file-attachment-adaptive-forms-core-component}
+
+<span class="preview"> Het **type van Gegevens van voorgelegde waarde** eigenschap is beschikbaar onder vroege adopterprogramma. U kunt vanaf uw officiële e-mailadres naar aem-forms-ea@adobe.com schrijven om deel te nemen aan het programma voor vroege adoptie en toegang tot de functie te vragen. </span>
 
 Met een bestandsbijlage in een adaptief formulier kunnen gebruikers bestanden selecteren en uploaden vanaf hun lokale computer of apparaat. De component Bestandsbijlage kan zo worden geconfigureerd dat specifieke bestandstypen, grootten en meerdere bijlagen mogelijk zijn.
 
@@ -35,7 +37,7 @@ Er zijn verschillende redenen waarom het nuttig is om een component voor bestand
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms Accordion Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms-bestandsbijlage Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
@@ -57,7 +59,7 @@ Met het dialoogvenster Configureren kunt u de ervaring met bestandsbijlagen eenv
 
 ### Tabblad Standaard {#basic-tab}
 
-![ Basis lusje ](/help/adaptive-forms/assets/fileattachement_basictab.png)
+![ Basis lusje ](/help/adaptive-forms/assets/fileattachement_basictab1.png)
 
 - **Naam** - u kunt een vormcomponent gemakkelijk met zijn unieke naam zowel in de vorm als in de regelredacteur identificeren, maar de naam moet geen ruimten of speciale karakters bevatten.
 
@@ -72,6 +74,7 @@ Met het dialoogvenster Configureren kunt u de ervaring met bestandsbijlagen eenv
 - **titel van de Knoop** - Deze optie wordt gebruikt om het etiket van de knoop te plaatsen die op een AanpassingsVorm wordt getoond.
 - **Bind Verwijzing** - A bindt verwijzing is een verwijzing naar een gegevenselement dat in een externe gegevensbron wordt opgeslagen en in een vorm wordt gebruikt. Met de bind-verwijzing kunt u gegevens dynamisch binden aan formuliervelden, zodat in het formulier de meest actuele gegevens uit de gegevensbron kunnen worden weergegeven. Een bind-verwijzing kan bijvoorbeeld worden gebruikt om de naam en het adres van een klant in een formulier weer te geven op basis van de id van de klant die in het formulier is ingevoerd. De bind verwijzing kan ook worden gebruikt om de gegevensbron met gegevens bij te werken ingegaan in de vorm. Op deze manier kunt u in AEM Forms formulieren maken die interageren met externe gegevensbronnen, zodat u een naadloze gebruikerservaring hebt voor het verzamelen en beheren van gegevens.
 - **Teken als Niet-gebonden Element van de Vorm**: Selecteer de optie om een vormgebied te vormen niet verbonden aan om het even welk schema. Met deze optie kunt u gegevens opslaan zonder de gegevensbron bij te werken. Het laat u ook toe om gegevens op een douanemethode, los van standaardgegevensbestandintegratie te behandelen.
+- **Type van Gegevens van voorgelegde waarde**: Selecteer de optie om te bepalen hoe het in bijlage dossier aan de server wordt voorgelegd. Als u de bijlage als binaire gegevens wilt verzenden, kiest u de optie `File` . Als u de bijlage wilt verzenden als een tekenreeks met Base64-codering, kiest u de optie `String` . Als `String` wordt geselecteerd, wordt het dossier in het binaire formaat voorgelegd aan de server als gegevens URL. De server zet de gegevens-URL automatisch om in binaire indeling, zodat deze compatibel is met bestaande acties, zoals het verzenden van e-mails en het genereren van het document met records, zonder dat gebruikers wijzigingen moeten aanbrengen. Standaard is de optie `File` geselecteerd.
 - **de Component van de Huid** - selecteer de optie om de component van de vorm te verbergen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel. Dit is handig wanneer u informatie wilt opslaan die niet hoeft te worden bekeken of rechtstreeks door de gebruiker hoeft te worden gewijzigd.
 - **maak Component** onbruikbaar - selecteer de optie om de component onbruikbaar te maken. De uitgeschakelde component is niet actief of bewerkbaar voor de eindgebruiker. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
 - **read-only** - selecteer de optie om de component niet-editable te maken. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.

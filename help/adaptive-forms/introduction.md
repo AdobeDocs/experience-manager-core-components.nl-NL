@@ -3,9 +3,9 @@ title: Inleiding Adaptive Forms Core Components AEM
 description: Maak aantrekkelijke inschrijvingservaringen (formulieren) met de flexibiliteit van de Adaptive Forms Core Components en lever deze met de kracht van Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: fd4debea8510b2ae415dd09847444ad96f3478d9
+source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
 workflow-type: tm+mt
-source-wordcount: '2205'
+source-wordcount: '2198'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Over het algemeen vormen de Core Components een essentieel instrument voor het m
 
 ## Adaptieve Forms Core-componenten
 
-De Adaptive Forms Core Components zijn een set van 29 opensource, BEM-compatibele componenten die op de basis van de Adobe Experience Manager WCM Core Components zijn gebouwd. Deze zijn speciaal ontworpen voor het maken van Adaptief Forms. Dit zijn formulieren die worden aangepast aan het apparaat, de browser en de schermgrootte van de gebruiker.
+De Adaptive Forms Core Components zijn een set van 30 opensource, BEM-compatibele componenten die op de basis van de Adobe Experience Manager WCM Core Components zijn gebouwd. Deze zijn speciaal ontworpen voor het maken van Adaptief Forms. Dit zijn formulieren die worden aangepast aan het apparaat, de browser en de schermgrootte van de gebruiker.
 
 Deze componenten kunnen worden gebruikt om buitengewone ervaringen met het vastleggen en inschrijven van gegevens te maken door een groot aantal opties voor formuliervelden te bieden, zoals tekstvelden, selectievakjes, vervolgkeuzemenu&#39;s en nog veel meer. Ze bevatten ook functies zoals validatie, voorwaardelijke logica en responsief ontwerp, waarmee u formulieren kunt maken die gebruiksvriendelijk en gebruiksvriendelijk zijn.
 
@@ -97,12 +97,10 @@ De huidige versie van AEM Forms heeft de volgende Componenten van de Kern, [ Com
 | Koptekst | ✔️ | <span style="color:blue">[ ✔️ ](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
 | Horizontale tabs | ✔️ | <span style="color:blue">[ ✔️ ](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | Voor de Componenten van de Stichting, kunt u de [ lusjes bovenop (horizontale lusjes) lay-out ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) in de eigenschappen van de paneelcomponent vormen. |
 | Afbeelding | ✔️ | <span style="color:blue">[ ✔️ ](/help/adaptive-forms/components/image.md)</span> | ✔️ | |
-| Afbeeldingskeuze | ✔️ | | | |
 | Volgende knop | ✔️ | ✔️ | | Gebruik de [ tovenaar component ](/help/adaptive-forms/components/wizard.md) voor volgende en vorige knopen om zich tussen veelvoudige panelen te bewegen. |
 | Numeriek vak | ✔️ | <span style="color:blue">[ ✔️ ](/help/adaptive-forms/components/numeric-box.md)</span> | ✔️ | |
 | Numerieke stap | ✔️ | | | |
 | Deelvenster | ✔️ | <span style="color:blue">[ ✔️ ](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
-| Wachtwoordvak | ✔️ | | ✔️ | |
 | Telefoon/telefoon | ✔️ | <span style="color:blue">[ ✔️ ](/help/adaptive-forms/components/phone.md)</span> | ✔️ | |
 | Vorige knop | ✔️ | ✔️ | | Gebruik de [ tovenaar component ](/help/adaptive-forms/components/wizard.md) voor volgende en vorige knopen om zich tussen veelvoudige panelen te bewegen. |
 | Groep keuzerondjes | ✔️ | <span style="color:blue">[ ✔️ ](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
@@ -120,7 +118,9 @@ De huidige versie van AEM Forms heeft de volgende Componenten van de Kern, [ Com
 | Verticale tabs | ✔️ | ✔️ | | Voor de Componenten van de Stichting, kunt u de [ lusjes op de linkerlay-out (verticale lusjes) ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) in eigenschappen van de paneelcomponent vormen |
 | Wizard | ✔️ | <span style="color:blue">[ ✔️ ](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | Voor de Componenten van de Stichting, kunt u de [ tovenaar lay-out ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) in de eigenschappen van de paneelcomponent vormen |
 
-
+<!--| Password Box | ✔️ | ✔️| ✔️ | |
+| Image Choice | ✔️ | | | |
+-->
 
 
 >[!NOTE]

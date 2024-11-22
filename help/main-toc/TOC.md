@@ -5,9 +5,9 @@ breadcrumb-title: Gids voor kerncomponenten
 feature: Core Components
 user-guide-description: Met de uitbreidbare kerncomponenten kunnen ontwerpers eenvoudig content maken.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: d41cf56f3889ff6aa1bf6f753dc5331248d1ae2e
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '381'
 ht-degree: 5%
 
 ---
@@ -121,6 +121,7 @@ ht-degree: 5%
       + [Adaptieve horizontale Forms-tabs](/help/adaptive-forms/components/horizontal-tabs.md)
       + [Adaptieve Forms-afbeelding](/help/adaptive-forms/components/image.md)
       + [Adaptief Forms Numeriek vak](/help/adaptive-forms/components/numeric-box.md)
+      + [Adaptief Forms-wachtwoordvak](/help/adaptive-forms/components/password-box.md)
       + [Aangepast Forms-deelvenster](/help/adaptive-forms/components/panel.md)
       + [Adaptive Forms CAPTCHA](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [Aangepaste Forms-keuzerondje](/help/adaptive-forms/components/radio-button.md)

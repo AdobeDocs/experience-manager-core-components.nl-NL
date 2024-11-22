@@ -1,5 +1,5 @@
 ---
-source-git-commit: 46278a9b0f5e548297db3d6fcc42acde67eabf47
+source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -71,7 +71,8 @@ ht-degree: 0%
 - [Voettekst](/help/adaptive-forms/components/footer.md)
 - [Koptekst](/help/adaptive-forms/components/header.md)
 - [Afbeelding](/help/adaptive-forms/components/image.md)
-- [Numeriek vak](/help/adaptive-forms/components/numeric-box.md)
+- [ Numerieke Doos ](/help/adaptive-forms/components/numeric-box.md)
+  <!--- [Password Box](/help/adaptive-forms/components/password-box.md)-->
 - [Deelvenster](/help/adaptive-forms/components/panel.md)
 - [Telefoon](/help/adaptive-forms/components/phone.md)
 - [Horizontale tab](/help/adaptive-forms/components/horizontal-tabs.md)

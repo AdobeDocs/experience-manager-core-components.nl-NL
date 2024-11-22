@@ -3,9 +3,9 @@ title: Adaptive Forms Core Component - Tekstinvoer (tekstvak)
 description: De Adaptive Forms Text input Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2124'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Er zijn verschillende redenen om de tekstinvoercomponent in een adaptief formuli
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms Accordion Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms Text box Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
@@ -50,6 +50,8 @@ Krijg de recentste informatie over de AanpassingsForms Tabs op de Belangrijkste 
 ## Dialoogvenster configureren {#configure-dialog}
 
 Met het dialoogvenster Configureren kunt u uw ervaring met tekstinvoer eenvoudig aanpassen aan bezoekers. U kunt ook eenvoudig opties voor tekstinvoer definiëren voor een naadloze gebruikerservaring.
+
+### Het tabblad Basis
 
 ![ BasisLusje ](/help/adaptive-forms/assets/textinput_basictab.png)
 

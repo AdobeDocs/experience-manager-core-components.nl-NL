@@ -3,14 +3,16 @@ title: Adaptieve Forms Core-component - Formuliercontainer
 description: Voeg een adaptief formulier toe aan een webpagina.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
+source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1525'
 ht-degree: 0%
 
 ---
 
 # Formuliercontainer {#form-container-adaptive-forms-core-component}
+
+<span class="preview"> Dit artikel bespreekt **Concepten** <!--and **Hamburger Menu Support** --> eigenschap, die een pre-versieeigenschap is. De pre-vrijlatingseigenschap is toegankelijk slechts door ons [ pre-vrijgavekanaal ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Forms stelt bezoekers van websites in staat om te communiceren met de website door waardevolle informatie te verstrekken, die de betrokkenheid en gebruikerstevredenheid kan verhogen. Met een adaptieve formuliercontainer in Adobe Experience Manager-sites (AEM) kunnen eigenaars van websites gemakkelijk formulieren toevoegen aan hun pagina&#39;s. Hierdoor wordt de communicatie tussen websitebezoekers en de eigenaar of organisatie van de website vergemakkelijkt doordat bezoekers op een gestroomlijnde manier feedback kunnen geven, vragen kunnen stellen en andere handelingen kunnen uitvoeren
 
@@ -58,16 +60,21 @@ Met het dialoogvenster Configureren kunt u de ervaring van uw formuliercontainer
 
 ### Tabblad Standaard {#basic-tab}
 
-![ Basis lusje ](/help/adaptive-forms/assets/formcontainer_basictab.png)
+![ Basis lusje ](/help/adaptive-forms/assets/formcontainer_basictab1.png)
 
 - **Titel** - met zijn Titel, kunt u een component in een vorm gemakkelijk identificeren en door gebrek, verschijnt de titel bovenop de component. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
 
 - **vooraf ingevulde diensten** - Deze optie staat de gebruiker toe om een prefill dienst voor het terugwinnen van gegevens te selecteren wanneer de Aangepaste Vorm wordt teruggegeven. Leer meer over [ om een prefill dienst ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=en#aem-forms-custom-prefill-service) tot stand te brengen en te vormen.
 
-- **de categorie van de Bibliotheek van de Cliënt** - de gebruiker kan de bibliotheek van de douaneJavaScript per Aangepast Vorm vormen. Het wordt aanbevolen alleen de herbruikbare functies in de bibliotheek te behouden, die afhankelijk zijn van bibliotheken van derden jquery en underscore.js.
-Soms, als er **complexe bevestigingsregels** zijn, verblijft het nauwkeurige bevestigingsmanuscript in douanefuncties en de gebruikers roepen deze douanefuncties van de uitdrukking van de gebiedsbevestiging. Als u deze aangepaste functiebibliotheek bekend en beschikbaar wilt maken tijdens het uitvoeren van servervalidaties, kan de gebruiker de naam van AEM clientbibliotheek configureren onder het tabblad **[!UICONTROL Basic]** van de adaptieve eigenschappen van de formuliercontainer, zoals hieronder wordt weergegeven.
+- **Rol**: De rol is een attribuut van HTML dat wordt gebruikt om het doel van een element van HTML aan ondersteunende technologieën zoals het schermlezers te specificeren. Het rolattribuut wordt gebruikt om extra context en semantische betekenis aan een element te verstrekken, die het voor schermlezers gemakkelijker maken om de inhoud te interpreteren en aan de gebruiker aan te kondigen. In AEM Forms heeft het label van een formulierveld bijvoorbeeld de rol &quot;label&quot; en kan het invoerveld de rol &quot;textbox&quot; hebben. Hierdoor kan de schermlezer de relatie tussen het label en het invoerveld begrijpen en deze correct aan de gebruiker meedelen.
 
+- **de categorie van de Bibliotheek van de Cliënt** - de gebruiker kan de bibliotheek van de douaneJavaScript per Aangepast Vorm vormen. Het wordt aanbevolen alleen de herbruikbare functies in de bibliotheek te behouden, die afhankelijk zijn van bibliotheken van derden jquery en underscore.js.
+Soms, als er **complexe bevestigingsregels** zijn, verblijft het nauwkeurige bevestigingsmanuscript in douanefuncties en de gebruikers roepen deze douanefuncties van de uitdrukking van de gebiedsbevestiging. Als u deze aangepaste functiebibliotheek bekend en beschikbaar wilt maken tijdens het uitvoeren van validaties op de server, kan de gebruiker de naam van AEM clientbibliotheek configureren onder het tabblad **[!UICONTROL Basic]** Adaptief formulier Container-eigenschappen.
 De gebruiker kan de aangepaste JavaScript-bibliotheek per adaptief formulier configureren. Houd in de bibliotheek alleen de herbruikbare functies die afhankelijk zijn van bibliotheken van derden jquery en underscore.js.
+
+<!--
+- **Enable the hamburger menu for mobile view** - Select the checkbox to integrate a hamburger menu into your form for mobile view. Represented by three horizontal lines stacked vertically, this menu provides a clear and uncluttered display for panels on smaller devices, especially on mobile devices. For more information about the hamburger menu, refer to the [Learn more about the hamburger menu](#learn-more-about-the-hamburger-menu) section. -->
+
 
 ### Tabblad Gegevensmodel {#data-model-tab}
 
@@ -76,6 +83,14 @@ De gebruiker kan de aangepaste JavaScript-bibliotheek per adaptief formulier con
 Met het formuliergegevensmodel kunt u een formulier verbinden met een gegevens-Source en gegevens verzenden en ontvangen op basis van gebruikersacties. U kunt een formulier ook verbinden met een JSON-schema om de verzonden gegevens in een vooraf gedefinieerde indeling te ontvangen. Afhankelijk van de vereiste verbinding, sluit uw formulier aan op een JSON-schema of formuliergegevensmodel:
 - Een JSON-schema maken en uploaden naar uw omgeving
 - Een formuliergegevensmodel maken
+
+### Concepten
+
+![ Verzending tabel ](/help/adaptive-forms/assets/formcontainer_autosavetab.png)
+
+- **sparen automatisch concepten**: Selecteer **automatisch sparen concepten** controlevakje om het bewaren van vormen als concepten toe te laten.
+- **sparen Voorkeur**: Vorm **sparen Voorkeur** als **sparen concepten met regelmatige intervallen**, om de vorm na een specifiek tijdsinterval auto-sparen.
+  **sparen intervalfrequentie (Seconden)**: specificeer het tijdinterval (in seconden) om de duur te plaatsen die de automatische besparing van de vorm bij het bepaalde interval teweegbrengt.
 
 ### Tabblad Verzending {#submission-tab}
 
@@ -138,11 +153,67 @@ Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aa
    - **herschikt**: Tik of klik en sleep om de orde van de naam van het douanebezit en de waarde van het douanebezit te herschikken.
 
 <!--
+## Learn more about the hamburger menu
 
-## Related article {#related-article}
+A hamburger menu, often referred to as a mobile menu or navigation drawer, is a popular design element in mobile user interfaces. It features three horizontal lines stacked vertically, resembling a hamburger. The design efficiently conserves screen space by hiding secondary navigation options until they are needed, especially on smaller devices such as mobile. AEM forms can be efficiently organized within the hamburger menu, enabling users to access various panels within a form without overwhelming the main interface.
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+Consider a scenario, where a financial institution offers an online loan application form that requires users to provide detailed information across several panels, such as personal details, financial information, loan preferences, and supporting documents. The form includes multiple panels and options that can clutter the interface, especially on mobile devices. Users need an organized way to navigate through these panels without feeling overwhelmed. The hamburger menu is implemented to enhance the user experience on mobile devices.
 
+### Components of hamburger menu
+
+![Hamburger Menu](/help/adaptive-forms/assets/hamburger-menu.png){width=50%, align=center}
+
+**A. Hamburger menu**: The hamburger menu features a navigation panel that slides out or drops down when the hamburger icon is clicked or tapped. The menu displays the panel headings, and selecting a panel shifts the focus to that panel. It allows users to easily navigate between different panels.
+
+![Hamburger Menu](/help/adaptive-forms/assets/hamburger-menu-icon.png){width=50%}
+
+**B. Breadcrumb**: Breadcrumbs indicate the user’s current location within the form. They offer a hierarchical trail that shows the user’s navigation path and helps them understand their position in the form.
+
+**C. Active panel**: The active panel refers to the section or part of the form that is currently being displayed. When a user selects an option from the hamburger menu, the corresponding panel becomes the active panel, showing the relevant fields and information for that section.
+
+### Points to consider while working with the hamburger menu
+
+- The hamburger menu displays only the names of the panels. Here are different scenarios illustrating how the panel name appears in the navigation pane of the hamburger menu based on the configuration properties of the panel:  
+  
+  - If you set the properties of the panel to hidden, the panel's name does not appear in the navigation pane of the hamburger menu. For example, if you configure the properties of the `Financial Information` panel as `hidden`, the panel name does not appear in the navigation pane of the hamburger menu.
+    
+    ![Hidden panel](/help/adaptive-forms/assets/hidden-panel.png){width=50%}
+
+  - If you set the properties of the panel to `disabled`, its name appears in the navigation pane of the hamburger menu, but you cannot select or edit it. For example, if you configure the properties of the `Financial Information` panel as `disabled`, the panel name appears in the navigation pane, but it cannot be selected or edited. 
+     
+    ![Disabled panel](/help/adaptive-forms/assets/disabled-panel.png){width=50%}
+
+  - If you hide the  title of the panel, it does not appear in the navigation pane of the hamburger menu. A blank space shows up instead, but you can navigate to the fields of the panel by clicking on that space. For example, if you hide the title of the `Financial Information` panel, the blank space appears in its place in the navigation pane of the hamburger menu. You can navigate to the fields of the panel by clicking on the blank space.
+    
+    ![Hidden title panel](/help/adaptive-forms/assets/hidden-title-panel.png){width=50%}
+
+- By default, the navigation pane in the breadcrumb component supports up to three levels of navigation. However, with the custom component, you can configure the navigation hierarchy to accommodate as many levels as needed.
+- When using the hamburger menu, the user can navigate between panels using arrows. However, once a panel is selected, the menu automatically closes, and focus shifts to the fields within the chosen panel.
+
+### Advantages to use hamburger menu
+
+- **Space efficiency**: By hiding form navigation options until needed, the hamburger menu maximizes screen space, which is especially beneficial on smaller devices.
+
+- **Clutter reduction**: It minimizes visual clutter by consolidating various form navigation links into a single, collapsible menu.
+
+- **Improved focus**: With fewer visible navigation elements, users can concentrate on the main content of the form without being distracted by secondary options.
+
+- **Simplified design**: It creates a more streamlined user interface, resulting in a cleaner and more organized form layout.
+
+- **Enhanced mobile experience**: On mobile devices, where screen space is limited, the hamburger menu offers an efficient way to access all form navigation options without overwhelming the user.
+
+### How to enable hamburger menu for your form?
+
+To enable hamburger menu for form, perform the following steps:
+
+1. Open form in an edit mode.
+1. Open the Content browser, and select the **[!UICONTROL Guide Container]** component of your Adaptive Form. 
+1. Click the Guide Container properties ![Guide properties](/help/adaptive-forms/assets/configure_icon.png) icon. The Adaptive Form Container dialog box opens. 
+1. Click the  **[!UICONTROL Basic]** tab. 
+1. Select the **[!UICONTROL Add hamburger menu support]** checkbox.
+1. Click **[!UICONTROL Done]**.
+
+![Basic tab](/help/adaptive-forms/assets/formcontainer_basictab.png)
 -->
 
 ## Verwante artikelen {#related-articles}

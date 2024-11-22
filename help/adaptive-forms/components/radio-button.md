@@ -3,9 +3,9 @@ title: Adaptieve Forms Core-component - Keuzerondje
 description: De Adaptive Forms Radio Button Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '2134'
+source-wordcount: '2137'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Er zijn verschillende redenen om keuzerondjes in een formulier te gebruiken, zoa
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms Accordion Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms RadioButton Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
@@ -61,6 +61,8 @@ Krijg de recentste informatie over de Adaptieve Component van de Kern van de Rad
 ## Dialoogvenster configureren {#configure-dialog}
 
 Met het dialoogvenster Configureren kunt u de ervaring met keuzerondjes eenvoudig aanpassen aan bezoekers. U kunt ook eenvoudig opties voor keuzerondjes definiëren voor een naadloze gebruikerservaring.
+
+### Het tabblad Basis
 
 ![ Basis lusje ](/help/adaptive-forms/assets/radiobutton_basictab.png)
 
