@@ -3,9 +3,9 @@ title: Adaptieve afbeeldingsserver
 description: Leer hoe de Core Components de Adaptive Image Servlet voor beeldlevering gebruikt en hoe u het gebruik ervan kunt optimaliseren.
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 785aa82930e3bcf6ef16d7a1cdc614d230e8daa8
+source-git-commit: 87a96c1c9476b9d66fdc94d6c24123cdf24b9d91
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,12 @@ ht-degree: 0%
 # Adaptieve afbeeldingsserver {#adaptive-image-servlet}
 
 Leer hoe de Core Components de Adaptive Image Servlet voor beeldlevering gebruikt en hoe u het gebruik ervan kunt optimaliseren.
+
+>[!WARNING]
+>
+>Vanwege de prestaties is het zeer raadzaam om afbeeldingen op te slaan in DAM en voor het web geoptimaliseerde afbeeldingen te leveren.
+>
+>Afbeeldingen direct opslaan onder het componentknooppunt is bedoeld voor occasioneel gebruik. De DAM-uitvoeringen worden niet benut om de verwerking in de Adaptive Image Servlet te beperken en de prestaties van voor het web geoptimaliseerde afbeeldingslevering zijn niet mogelijk, wat kan leiden tot prestatieproblemen.
 
 ## Adaptive Image Servlet of Web-Optimized Image Delivery? {#options}
 
@@ -50,4 +56,4 @@ Dit verbetert de prestaties en voorkomt dat sommige afbeeldingen niet correct wo
 
 Voorwaardelijke verzoeken via de `Last-Modified` kopbal worden gesteund door de Adaptieve Servlet van het Beeld, maar het in het voorgeheugen onderbrengen van de `Last-Modified` kopbal [ moet in Dispatcher ](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers) worden toegelaten.
 
-[ het AEM Archetype van het Project ](/help/developing/archetype/overview.md) de configuratie van steekproefDispatcher bevat reeds deze configuratie.
+[ de de steekproefconfiguratie van Dispatcher van de Archetype van het Project van AEM ](/help/developing/archetype/overview.md) bevat reeds deze configuratie.
