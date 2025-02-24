@@ -3,9 +3,9 @@ title: Adaptieve afbeeldingsserver
 description: Leer hoe de Core Components de Adaptive Image Servlet voor beeldlevering gebruikt en hoe u het gebruik ervan kunt optimaliseren.
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 87a96c1c9476b9d66fdc94d6c24123cdf24b9d91
+source-git-commit: 3f6e40c4dbfbd1287213d9d16d96183d24f2ad0a
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,9 @@ De Adaptive Image Server selecteert automatisch de meest geschikte vertoning op 
 1. Alleen elementen met dezelfde mime/hetzelfde type als het oorspronkelijke element waarnaar wordt verwezen, worden geselecteerd.
    * Als het oorspronkelijke element bijvoorbeeld een PNG-bestand was, wordt alleen rekening gehouden met PNG-uitvoeringen.
 1. Van deze uitvoeringen worden de afmetingen in overweging genomen en worden deze vergeleken met de grootte van de container waarin de afbeelding moet worden weergegeven.
-   1. Als de vertoning >= de containergrootte is, wordt het toegevoegd aan een lijst van kandidaatvertoningen.
-   1. Als de vertoning kleiner is dan de containergrootte, wordt deze genegeerd.
-   1. Deze criteria zorgen ervoor dat de vertoning niet wordt vergroot, wat van invloed is op de beeldkwaliteit.
+1. Als de vertoning >= de containergrootte is, wordt het toegevoegd aan een lijst van kandidaatvertoningen.
+1. Als de vertoning kleiner is dan de containergrootte, wordt deze genegeerd.
+1. Deze criteria zorgen ervoor dat de vertoning niet wordt vergroot, wat van invloed is op de beeldkwaliteit.
 1. De adaptieve server van het Beeld selecteert dan de vertoning met de kleinste dossiergrootte van de kandidaatlijst.
 
 ## Renderingsselectie optimaliseren {#optimizing-rendition-selection}
@@ -56,4 +56,4 @@ Dit verbetert de prestaties en voorkomt dat sommige afbeeldingen niet correct wo
 
 Voorwaardelijke verzoeken via de `Last-Modified` kopbal worden gesteund door de Adaptieve Servlet van het Beeld, maar het in het voorgeheugen onderbrengen van de `Last-Modified` kopbal [ moet in Dispatcher ](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers) worden toegelaten.
 
-[ de de steekproefconfiguratie van Dispatcher van de Archetype van het Project van AEM ](/help/developing/archetype/overview.md) bevat reeds deze configuratie.
+[ de 1} de steekproefconfiguratie van Dispatcher van de Archetype van het Project van AEM {bevat reeds deze configuratie.](/help/developing/archetype/overview.md)
