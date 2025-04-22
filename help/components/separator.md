@@ -3,9 +3,9 @@ title: Scheidingscomponent
 description: De component separator maakt een einde tussen componenten op een pagina
 role: Architect, Developer, Admin, User
 exl-id: 79f19368-67fa-4864-93f7-2aa801d13fdb
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '306'
 ht-degree: 1%
 
 ---
@@ -22,11 +22,11 @@ Met de scheidingscomponent kan de auteur van de inhoud eenvoudig een horizontale
 
 De huidige versie van de Scheidingscomponent is v1, die in februari 2019 met versie 2.3.0 van de Core Components is geïntroduceerd en in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
+In de volgende tabel worden alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies weergegeven.
 
-| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
-|---|---|---|---|
-| v1 | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel | Compatibel |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|---|
+| v1 | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel | Compatibel | Compatibel |
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
@@ -53,4 +53,4 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur de stijlen definiëren die
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van de Scheiding steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De component van de Scheiding steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).

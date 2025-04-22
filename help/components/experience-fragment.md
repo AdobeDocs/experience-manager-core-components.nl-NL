@@ -3,9 +3,9 @@ title: Experience Fragment
 description: Met de ervaringsfragmentcomponent kan de auteur van de inhoud een ervaringsfragmentvariatie aan een pagina toevoegen.
 role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -25,12 +25,12 @@ Met de Core Component Experience Fragment Component kan de auteur van de inhoud 
 
 De huidige versie van de Experience Fragment Component is v2, die in februari 2022 werd geïntroduceerd met release 2.18.0 van de Core Components, en die in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
+In de volgende tabel worden alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies weergegeven.
 
-| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v2 | - | Compatibel | Compatibel |
-| [ v1 ](v1/experience-fragment.md) | Compatibel | Compatibel | Compatibel |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |---|---|---|
+| v2 | - | Compatibel | Compatibel | Compatibel |
+| [ v1 ](v1/experience-fragment.md) | Compatibel | Compatibel | - | Compatibel |
 
 Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
 
@@ -123,7 +123,7 @@ Gebruik de **Open knoop van de Dialoog van de Selectie** om de componentenselect
 
 Als u de Component van het Fragment van de Ervaring aan een malplaatje toevoegt, merk op dat het automatisch zal worden gelokaliseerd op voorwaarde dat de Fragmenten van de Ervaring worden gelokaliseerd, zodat wat op de pagina wordt teruggegeven van de component kan variëren u uitdrukkelijk selecteert. [ zie het voorbeeld hierboven ](#example) voor meer informatie.
 
-U kunt ook een **identiteitskaart** bepalen. Deze optie staat toe om het unieke herkenningsteken van de component in de HTML en in de [ Laag van Gegevens ](/help/developing/data-layer/overview.md) te controleren.
+U kunt ook een **identiteitskaart** bepalen. Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens ](/help/developing/data-layer/overview.md) te controleren.
 
 * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
 * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
@@ -133,7 +133,7 @@ U kunt ook een **identiteitskaart** bepalen. Deze optie staat toe om het unieke 
 
 ![ het lusje van Stijlen van uitgeeft dialoog van de Component van het Fragment van de Ervaring ](/help/assets/experience-fragment-edit-styles.png)
 
-De Component van het Fragment van de Ervaring steunt het AEM [ Systeem van de Stijl.](/help/get-started/authoring.md#component-styling).
+De Component van het Fragment van de Ervaring steunt het Systeem van de Stijl van AEM [.](/help/get-started/authoring.md#component-styling).
 
 Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
 
@@ -145,4 +145,4 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur de opties definiëren die 
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van het Fragment van de Ervaring steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De Component van het Fragment van de Ervaring steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).

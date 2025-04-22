@@ -3,9 +3,9 @@ title: Component Inhoudsopgave
 description: De component Inhoudsopgave maakt een inhoudsopgave op basis van de titels in de pagina-inhoud, zodat uw lezers snel door de pagina kunnen navigeren.
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,11 @@ Het [ geeft dialoog ](#edit-dialog) uit staat de inhoudauteur toe om de waaier v
 
 De huidige versie van de component Inhoudsopgave is v1, die in mei 2022 is geïntroduceerd met versie 2.20.0 van de Core Components, en die in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
+In de volgende tabel worden alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies weergegeven.
 
-| Componentversie | AEM 6,5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | Compatibel | Compatibel |
+| Componentversie | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Compatibel | Compatibel | Compatibel |
 
 Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
 
@@ -82,8 +82,8 @@ Met behulp van het ontwerpdialoogvenster kan de sjabloonauteur de standaardwaard
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van de Lijst van Inhoud steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De component van de Lijst van Inhoud steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
-## Gegevenslaag client-Adobe {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
-De component van de Lijst van Inhoud steunt de [ Gegevens van de Cliënt van de Adobe Laag.](/help/developing/data-layer/overview.md)
+De component van de Lijst van Inhoud steunt de [ Laag van Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)

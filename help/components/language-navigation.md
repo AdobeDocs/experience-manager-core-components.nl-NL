@@ -3,9 +3,9 @@ title: Taalnavigatie-component
 description: De component Taalnavigatie biedt een taal-/landnavigatie voor een site, zodat bezoekers naar dezelfde pagina in een andere landinstelling kunnen navigeren.
 role: Architect, Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -27,12 +27,12 @@ Het [ geeft dialoog ](#edit-dialog) uit staat de definitie van de globale wortel
 
 De huidige versie van de taalnavigatiecomponent is v2, die in februari 2022 is geïntroduceerd met versie 2.18.0 van de kerncomponenten en in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
+In de volgende tabel worden alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies weergegeven.
 
-| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v2 | - | Compatibel | Compatibel |
-| [ v1 ](v1/language-navigation.md) | Compatibel | Compatibel | Compatibel |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
+| v2 | - | Compatibel | Compatibel | Compatibel |
+| [ v1 ](v1/language-navigation.md) | Compatibel | Compatibel | - | Compatibel |
 
 Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
 
@@ -92,7 +92,7 @@ Ongeacht welke pagina een gebruiker bekijkt, kan de component van de Navigatie v
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van de Navigatie van de Taal steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De component van de Navigatie van de Taal steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
@@ -100,7 +100,7 @@ De component van de Navigatie van de Taal steunt het AEM [ Systeem van de Stijl 
 
 Doorgaans hoeft de component Taalnavigatie alleen aan de paginasjablonen van een site te worden toegevoegd en geconfigureerd. Nochtans als de component van de Navigatie van de Taal aan een individuele inhoudspagina moet worden toegevoegd, geeft dialoog een inhoudsauteur toe om de zelfde waarden te vormen zoals die in de [ ontwerpdialoog ](#design-dialog) worden beschreven
 
-Bovendien kunt u een **identiteitskaart** plaatsen. Deze optie staat toe om het unieke herkenningsteken van de component in de HTML en in de [ Laag van Gegevens ](/help/developing/data-layer/overview.md) te controleren.
+Bovendien kunt u een **identiteitskaart** plaatsen. Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens ](/help/developing/data-layer/overview.md) te controleren.
 
 * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
 * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
@@ -116,7 +116,7 @@ Bovendien kunt u een **identiteitskaart** plaatsen. Deze optie staat toe om het 
 
 ### Tabblad Stijlen {#styles-tab-edit}
 
-De component van de Navigatie van de Taal steunt het AEM [ Systeem van de Stijl.](/help/get-started/authoring.md#component-styling).
+De Component van de Navigatie van de Taal steunt het Systeem van de Stijl van AEM [.](/help/get-started/authoring.md#component-styling).
 
 Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
 
@@ -124,6 +124,6 @@ De stijlen moeten voor deze component in de [ ontwerpdialoog ](#design-dialog) w
 
 ![ Stijlen lusje van uitgeeft dialoog van de Component van de Navigatie van de Taal ](/help/assets/language-navigation-edit-styles.png)
 
-## Gegevenslaag client-Adobe {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
-De Component van de Navigatie van de Taal steunt de [ Gegevens van de Cliënt van de Adobe Laag.](/help/developing/data-layer/overview.md)
+De Component van de Navigatie van de Taal steunt de [ Gegevens van de Cliënt van Adobe Laag.](/help/developing/data-layer/overview.md)

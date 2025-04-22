@@ -3,9 +3,9 @@ title: Component lijst met inhoudsfragmenten
 description: Met de component Lijst met inhoudfragmenten van de kerncomponent kunt u een lijst met inhoudsfragmenten weergeven.
 role: Architect, Developer, Admin, User
 exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '806'
 ht-degree: 0%
 
 ---
@@ -25,12 +25,12 @@ De component van de Lijst van het Fragment van de Lijst van de Inhoud van de Com
 
 De huidige versie van de Content Fragment Component is v2, die in februari 2022 is geïntroduceerd met release 2.18.0 van de Core Components, en die in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
+In de volgende tabel worden alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies weergegeven.
 
-| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
-|---|----|---|---|
-| v2 | - | Compatibel | Compatibel |
-| [ v1 ](v1/content-fragment-list.md) | Compatibel | Compatibel | Compatibel |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|----|---|---|---|
+| v2 | - | Compatibel | Compatibel | Compatibel |
+| [ v1 ](v1/content-fragment-list.md) | Compatibel | Compatibel | - | Compatibel |
 
 Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
 
@@ -91,7 +91,7 @@ Door gebrek, zullen alle elementen van het Model van het Fragment van de Inhoud 
 
 ![ het lusje van Stijlen van uitgeeft dialoog van de Component van de Lijst van het Fragment van de Inhoud ](/help/assets/content-fragment-list-styles.png)
 
-De component van de Lijst van het Fragment van de Inhoud steunt het AEM [ Systeem van de Stijl.](/help/get-started/authoring.md#component-styling).
+De component van de Lijst van het Fragment van de Inhoud steunt het Systeem van de Stijl van AEM [.](/help/get-started/authoring.md#component-styling).
 
 Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
 
@@ -101,4 +101,4 @@ De stijlen moeten voor deze component in de [ ontwerpdialoog ](#design-dialog) w
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van de Lijst van het Fragment van de Inhoud steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De component van de Lijst van het Fragment van de Inhoud steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).

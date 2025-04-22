@@ -3,9 +3,9 @@ title: Component E-mailinhoudsfragment
 description: Met de component E-mailinhoudsfragment kunt u een inhoudsfragment in uw inhoud weergeven.
 role: Architect, Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ De component van het Fragment van de Inhoud E-mail staat voor de opneming van a 
 
 De huidige versie van de E-mailcomponent Content Fragment is v1, die in oktober 2022 is geïntroduceerd met release X van de Email Core Components, en die in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
+In de volgende tabel worden alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies weergegeven.
 
-| Componentversie | AEM 6,5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | Compatibel | - |
+| Componentversie | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Compatibel | Compatibel | - |
 
 Voor meer informatie over de versies en versies van de Component van de Kern E-mailE-mail van de Component, zie de Versies van de Componenten van de Document [ E-mailKern.](/help/email/versions.md)
 
@@ -101,4 +101,4 @@ Wanneer een component E-mailcontentfragment wordt geconfigureerd met een inhouds
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van het Fragment van de Ervaring E-mail steunt het AEM [ Systeem van de Stijl.](/help/get-started/authoring.md#component-styling)
+De component van het Fragment van de Ervaring E-mail steunt het Systeem van de Stijl van AEM [.](/help/get-started/authoring.md#component-styling)

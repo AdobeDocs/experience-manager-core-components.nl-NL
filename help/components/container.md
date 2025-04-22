@@ -3,9 +3,9 @@ title: Containercomponent
 description: Met de component Core Component Container kunt u een container maken voor meerdere aanvullende componenten op een pagina.
 role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ Met de component Core Component Container kunt u een container maken voor meerde
 
 De huidige versie van de Container Component is v1, die in juni 2019 met versie 2.5.0 van de Core Components is geïntroduceerd, en in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
+In de volgende tabel worden alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies weergegeven.
 
-| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v1 | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel | Compatibel |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |---|---|---|
+| v1 | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel | Compatibel | Compatibel |
 
 Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
 
@@ -52,7 +52,7 @@ In het dialoogvenster configureren kan de auteur van de inhoud het containeritem
 * **Lay-out** - deze optie bepaalt het gedrag of het lay-outgedrag van de Component van de Container.
    * **Eenvoudig** - bepaalt een container als eenvoudige inzameling van componenten
    * **Responsief Net** - bepaalt een container als [ AEM Responsieve Lay-out ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
-* **Achtergrondkleur** - bepaalt of als vrij-vorm RGB waarden of door de kleurkiezer te gebruiken, [ afhankelijk van configuratie ](#background-tab)
+* **Achtergrondkleur** - bepaalt of als vrij-vormRGB waarden of door de kleurkiezer te gebruiken, [ afhankelijk van configuratie ](#background-tab)
 * **Achtergrondbeeld** - bepaalt een achtergrondkleur voor de container, [ afhankelijk van configuratie ](#background-tab)
 * **identiteitskaart** - Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens te controleren ](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
@@ -98,4 +98,4 @@ Het lusje Standaard van Componenten wordt gebruikt om te bepalen welke component
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van de Container steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De component van de Container steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).

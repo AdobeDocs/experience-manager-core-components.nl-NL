@@ -3,9 +3,9 @@ title: Component E-mailknop
 description: Met de component E-mailknop kunt u een knopitem in uw inhoud configureren en weergeven.
 role: Architect, Developer, Admin, User
 exl-id: b144e8d1-1097-475d-b2eb-3353c176afb9
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ Met de component E-mailknop kunt u een knop in uw inhoud opnemen, waarop door de
 
 De huidige versie van de component Email Button is v1, die in oktober 2022 is geïntroduceerd met release x van de Email Core Components, en die in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
+In de volgende tabel worden alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies weergegeven.
 
-| Componentversie | AEM 6,5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | Compatibel | - |
+| Componentversie | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Compatibel | Compatibel | - |
 
 Voor meer informatie over de versies en de versies van de Component van de Kern, zie het document [ e-mailVersie van de Componenten van de Kern.](/help/email/versions.md)
 
@@ -70,7 +70,7 @@ Op het **lusje van de Toegankelijkheid**, kunnen de waarden voor [ de toegankeli
 
 ### Tabblad Stijlen {#styles-tab-edit}
 
-De component van de Knoop E-mail steunt het AEM [ Systeem van de Stijl.](/help/get-started/authoring.md#component-styling).
+De component van de Knoop E-mail steunt het Systeem van de Stijl van AEM [.](/help/get-started/authoring.md#component-styling).
 
 Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
 
@@ -80,4 +80,4 @@ De stijlen moeten voor deze component in de [ ontwerpdialoog ](#design-dialog) w
 
 ### Tabblad Stijlen {#styles-tab}
 
-De e-mail component van de Knoop steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De E-mailComponent van de Knoop steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).

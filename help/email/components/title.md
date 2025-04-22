@@ -3,9 +3,9 @@ title: Component E-mailtitel
 description: De component E-mailtitel is een onderdeel voor sectiekoppen van uw e-mailberichten waarin bewerkingen op locatie worden uitgevoerd.
 role: Architect, Developer, Admin, User
 exl-id: f65b6973-bb36-406f-bbea-f85a23f5340b
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,11 @@ Voor meer gemak is het ook mogelijk de koptekst eenvoudig op locatie te bewerken
 
 De huidige versie van de component E-mailtitel is v1, die in oktober 2022 is geïntroduceerd met release x van de Email Core Components, en die in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
+In de volgende tabel worden alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies weergegeven.
 
-| Componentversie | AEM 6,5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | Compatibel | - |
+| Componentversie | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Compatibel | Compatibel | - |
 
 Voor meer informatie over de versies en de versies van de Component van de Kern, zie de Versies van de Componenten van de Kern van het document [ E-mail van de Kern ](/help/versions.md).
 
@@ -64,7 +64,7 @@ U kunt de editor op zijn plaats ook gebruiken om de tekst van de titelcomponent 
 
 ### Tabblad Stijlen {#styles-tab-edit}
 
-De component van de Titel E-mail steunt het AEM [ Systeem van de Stijl.](/help/get-started/authoring.md#component-styling)
+De component van de Titel E-mail steunt het Systeem van de Stijl van AEM [.](/help/get-started/authoring.md#component-styling)
 
 Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
 
@@ -86,4 +86,4 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur het standaardkopniveau def
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van de Titel E-mail steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De component van de Titel E-mail steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).

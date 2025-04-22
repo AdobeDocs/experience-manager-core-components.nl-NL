@@ -3,9 +3,9 @@ title: E-mailsegmenteringscomponent
 description: De component E-mailsegmentatie
 role: Architect, Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,11 @@ Als alternatief voor het gebruiken van vormen dialoog, zodra de inhoudauteur de 
 
 De huidige versie van de E-mailsegmenteringscomponent is v1, die in oktober 2022 is geïntroduceerd met release x van de Email Core Components, en die in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
+In de volgende tabel worden alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies weergegeven.
 
-| Componentversie | AEM 6,5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | Compatibel | - |
+| Componentversie | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Compatibel | Compatibel | - |
 
 ### Technische details {#technical-details}
 
@@ -84,7 +84,7 @@ Op het **lusje van de Toegankelijkheid**, kunnen de waarden voor [ de toegankeli
 
 ### Tabblad Stijlen {#styles-tab-edit}
 
-De component E-mail van de Segmentatie steunt het AEM [ Systeem van de Stijl.](/help/get-started/authoring.md#component-styling)
+De component E-mail van de Segmentatie steunt het Systeem van de Stijl van AEM [.](/help/get-started/authoring.md#component-styling)
 
 Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
 
@@ -122,7 +122,7 @@ Het **Toegestane lusje van Componenten** wordt gebruikt om te bepalen welke comp
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component E-mail van de Segmentatie steunt het AEM [ Systeem van de Stijl.](/help/get-started/authoring.md#component-styling)
+De component E-mail van de Segmentatie steunt het Systeem van de Stijl van AEM [.](/help/get-started/authoring.md#component-styling)
 
 ### Tabblad Gedefinieerde voorwaarden {#defined-conditions}
 
@@ -135,6 +135,6 @@ Tik of klik **voeg** knoop toe om nieuwe voorwaarden tot stand te brengen.
 * **Naam van de Voorwaarde van het Segment** - een beschrijving van de voorwaarde
 * **Voorwaarde van het Segment** - de daadwerkelijke voorwaarde die moet worden voldaan aan, die op de personaliseringsvariabelen van Adobe Campaign wordt gebaseerd
    * [ zie hier voor de personaliseringsmiddelen van Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
-   * [ zie hier voor de personaliseringsmiddelen van Adobe Campaign Classic.](https://experienceleague.adobe.com/docs/
+   * [ zie hier voor de personaliseringsmiddelen van Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/
 * **verwijder** - Tik om te klikken om de voorwaarde te verwijderen
 * **herschikt** - Tik of klik en sleep om de orde van de voorwaarden te herschikken

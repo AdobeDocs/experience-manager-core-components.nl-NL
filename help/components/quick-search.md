@@ -3,9 +3,9 @@ title: Component Snel zoeken
 description: De component Snel zoeken biedt zoekmogelijkheden voor een website en biedt zoekresultaten zodat bezoekers de site kunnen doorzoeken en de resultaten kunnen filteren.
 role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -24,12 +24,12 @@ Het [ geeft dialoog uit ](#edit-dialog) staat de inhoudauteur toe om te bepalen 
 
 De huidige versie van de Snelle component van het Onderzoek is v2, die met versie 2.18.0 van de Componenten van de Kern in Januari 2018 werd geïntroduceerd, en in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
+In de volgende tabel worden alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies weergegeven.
 
-| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v2 | - | Compatibel | Compatibel |
-| [ v1 ](/help/components/v1/quick-search.md) | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel | Compatibel |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
+| v2 | - | Compatibel | Compatibel | Compatibel |
+| [ v1 ](/help/components/v1/quick-search.md) | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel | - | Compatibel |
 
 Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
 
@@ -37,7 +37,7 @@ Voor meer informatie over de versies en versies van de Component van de Kern, zi
 
 >[!NOTE]
 >
->De component Search of een AEM toepassing tegen DOS-aanvallen moet op een hoger niveau worden geïmplementeerd, bijvoorbeeld door `mod_security` op de dispatcher te gebruiken.
+>De component Search of een op AEM gebaseerde toepassing beschermen tegen DOS-aanvallen moet op een hoger niveau worden geïmplementeerd, bijvoorbeeld door `mod_security` op de dispatcher te gebruiken.
 
 De recentste technische documentatie over de Snelle Component van het Onderzoek [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_search_v2) worden gevonden.
 
@@ -84,4 +84,4 @@ Minimale lengte van de zoekterm om de zoekopdracht te starten
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Snelle Component van het Onderzoek steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De Snelle Component van het Onderzoek steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).

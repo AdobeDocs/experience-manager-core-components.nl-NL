@@ -3,9 +3,9 @@ title: Broodkruimelcomponent
 description: De component van de Breadcrumb van de Component van de Kern is een navigatiecomponent die een broodkruimel van verbindingen bouwt die op de plaats van de pagina in de inhoudshiërarchie wordt gebaseerd.
 role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ De beschikbare opties, zoals het standaardnavigatieniveau en de capaciteit om de
 
 De huidige versie van de Breadcrumb Component is v3, die in februari 2022 werd geïntroduceerd met versie 2.18.0 van de Core Components, en in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
+In de volgende tabel worden alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies weergegeven.
 
-| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
-|--- | --- |--- |---|
-| v3 | - | Compatibel | Compatibel |
-| [ v2 ](v2/breadcrumb.md) | Compatibel | Compatibel | Compatibel |
-| [ v1 ](v1/breadcrumb-v1.md) | Compatibel | Compatibel | Compatibel |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- | --- |--- |---|---|
+| v3 | - | Compatibel | Compatibel | Compatibel |
+| [ v2 ](v2/breadcrumb.md) | Compatibel | Compatibel | - | Compatibel |
+| [ v1 ](v1/breadcrumb-v1.md) | Compatibel | Compatibel | - | Compatibel |
 
 Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
 
@@ -74,7 +74,7 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud verborgen en actieve 
 
 ![ het lusje van Stijlen van uitgeeft dialoog van de Component van de Lijst van de Breadcrumb ](/help/assets/breadcrumb-edit-styles.png)
 
-De component Breadcrumb steunt het AEM [ Systeem van de Stijl.](/help/get-started/authoring.md#component-styling).
+De component Breadcrumb steunt het Systeem van de Stijl van AEM [.](/help/get-started/authoring.md#component-styling).
 
 Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
 
@@ -101,8 +101,8 @@ In het ontwerpdialoogvenster kan de sjabloonauteur definiëren wat de standaardw
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component Breadcrumb steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De component Breadcrumb steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
-## Gegevenslaag client-Adobe {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
-De component Breadcrumb steunt de [ Gegevens van de Cliënt van de Adobe Laag.](/help/developing/data-layer/overview.md)
+De component Breadcrumb steunt de [ Gegevens van de Cliënt van Adobe Laag.](/help/developing/data-layer/overview.md)

@@ -3,10 +3,10 @@ title: Introductie van kerncomponenten
 description: Oplossingen voor problemen met de Core Components en anderen toestaan elementen te ontwerpen in AEM.
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 44d9b267f4d26b0ea4c00c7ceed9879abcdbd76d
+source-git-commit: 302dc24598f892104b57cab3dd4b507975f90dad
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 0%
+source-wordcount: '811'
+ht-degree: 1%
 
 ---
 
@@ -84,7 +84,7 @@ In de huidige versie van Core Components zijn de volgende componenten beschikbaa
 ### Containeronderdelen {#container-components}
 
 * [Container](components/container.md)
-* [Carousel](components/carousel.md)
+* [Carrousel](components/carousel.md)
 * [Tabs](components/tabs.md)
 * [Accordeon](components/accordion.md)
 
@@ -108,9 +108,9 @@ In de huidige versie van Core Components zijn de volgende componenten beschikbaa
 
 ## Systeemvereisten {#system-requirements}
 
-| Versie kerncomponenten | AEM as a Cloud Service | AEM 6.5-patchniveau | Java SE-versie | Geweven versie |
-|---------|---------|---------|---------|---------|
-| [ 2.28.0 ](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | Continu | 6.5.21.0+ | 8, 11 | 3.3.9+ |
+| Versie kerncomponenten | AEM as a Cloud Service | AEM 6.5 LTS | AEM 6.5 | Java SE-versie | Geweven versie |
+|---|---|---|---|---|---|
+| [ 2.28.0 ](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | Continu | 6,5 LTS GA | 6.5.21.0+ | 8, 11 | 3.3.9+ |
 
 Voor de vereisten van de vorige versies van de Component van de Kern, zie {de Versies van de Componenten van 0} Kern ](versions.md).[
 

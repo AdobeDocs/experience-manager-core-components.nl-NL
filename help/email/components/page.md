@@ -3,9 +3,9 @@ title: Component E-mailpagina
 description: De component E-mailpagina
 role: Architect, Developer, Admin, User
 exl-id: 17fd0f5e-2b85-41a1-abaf-8ad190a5341a
-source-git-commit: c16dd8696e89f89c7b178ece11f57a565d73588b
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ De component E-mailpagina vormt de basis voor alle pagina&#39;s die zijn ontworp
 
 De huidige versie van de E-mailpaginacomponent is v1, die in oktober 2022 werd geïntroduceerd met release X van de Email Core Components, en wordt in dit document beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
+In de volgende tabel worden alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies weergegeven.
 
-| Componentversie | AEM 6,5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | Compatibel | - |
+| Componentversie | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Compatibel | Compatibel | - |
 
 Voor meer informatie over de versies en versies van de Component van de Kern E-mailE-mail van de Component, zie het document [ Versies van de Componenten van de Kern ](/help/email/versions.md)
 
@@ -44,13 +44,13 @@ De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in
 
 Omdat de component de volledige pagina vertegenwoordigt, worden de montages die normaal in zouden zijn uitgeeft dialoog gevonden in het [ venster van de Eigenschappen van de Pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
 
-### Tabblad Cloud Servicen {#cloud-services}
+### Tabblad Cloud Services {#cloud-services}
 
 De pagina moet gekoppeld zijn aan een Adobe Campaign-configuratie zodat de e-mailCore-componenten campagnevariabelen en -gegevens kunnen ophalen.
 
 ![ E-mailEigenschappen van de Pagina ](/help/email/assets/email-page-properties.png)
 
-Onder **de rubriek van de Configuratie van de Cloud Service**, in de drop-down uitgezochte **voegt Configuratie** toe.
+Onder **de rubriek van de Configuratie van Cloud Service**, in de drop-down uitgezochte **voegt Configuratie** toe.
 
 Onder **Adobe Campaign** rubriek, selecteer de configuratie voor uw integratie met Adobe Campaign.
 
@@ -100,4 +100,4 @@ Voor meer informatie over het gebruiken van cliënt-zijbibliotheken, zie [ Gebru
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van de Pagina steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De Component van de Pagina steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).

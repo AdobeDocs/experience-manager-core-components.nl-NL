@@ -3,9 +3,9 @@ title: E-mailteascomponent
 description: De component E-mailtaser kan een afbeelding, een titel, tekst met opmaak en eventueel een koppeling naar andere inhoud weergeven.
 role: Architect, Developer, Admin, User
 exl-id: d6123b22-7cba-406c-986d-b6f00322d135
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1003'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ Met de component E-mailtaser kan de auteur van de inhoud eenvoudig een gummetje 
 
 De huidige versie van de E-mailtasercomponent is v1, die in oktober 2022 is geïntroduceerd met release x van de Email Core Components, en die in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
+In de volgende tabel worden alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies weergegeven.
 
-| Componentversie | AEM 6,5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | Compatibel | - |
+| Componentversie | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Compatibel | Compatibel | - |
 
 ### Technische details {#technical-details}
 
@@ -47,12 +47,12 @@ De auteur van de inhoud kan het dialoogvenster Configure gebruiken om de eigensc
 
 ![ E-mailTeaser Component geeft dialoogverbindingen tabel uit van de Component ](/help/email/assets/email-teaser-edit-links.png)
 
-De teastitel, beschrijving en afbeelding kunnen worden overgeërfd van de gekoppelde inhoud of van de inhoud die is gekoppeld in de eerste oproep tot actie. Als noch een verbinding noch een vraag-aan-actie wordt gespecificeerd, dan zullen de titel, de beschrijving, en het beeld van de huidige inhoud worden geërft.
+De teastitel, beschrijving en afbeelding kunnen worden overgenomen van de gekoppelde inhoud of van de inhoud die is gekoppeld in de eerste call-to-action. Als er geen koppeling of call-to-action is opgegeven, worden de titel, beschrijving en afbeelding overgenomen van de huidige inhoud.
 
 * **Verbinding** - dit dossier verbindt met inhoud, externe URL, of anker.
    * Klik het pictogram van de Campagne om [ Uitgezochte de Variabele van Adobe Campaign ](/help/email/campaign-variables.md) dialoog te openen om dynamische inhoud van Adobe Campaign op te nemen.
 * **vraag-aan-acties** - Deze optie staat het verbinden aan veelvoudige bestemmingen toe.
-   * De pagina verbonden in de eerste vraag-aan-actie wordt gebruikt wanneer het erven van de teastitel, de beschrijving, of het beeld.
+   * De pagina die is gekoppeld in de eerste call-to-action, wordt gebruikt wanneer u de teastitel, beschrijving of afbeelding overneemt.
    * Klik het pictogram van de Campagne om [ Uitgezochte de Variabele van Adobe Campaign ](/help/email/campaign-variables.md) dialoog te openen om dynamische inhoud van Adobe Campaign op te nemen.
 
 ### Tabblad Tekst {#text-tab}
@@ -85,11 +85,11 @@ De teastitel, beschrijving en afbeelding kunnen worden overgeërfd van de gekopp
 
 >[!NOTE]
 >
->{de eigenschappen van 0} Dynamic Media ](image.md#dynamic-media) zijn momenteel niet beschikbaar in de Component van het Taser.[
+>[ de Dynamische eigenschappen van Media ](image.md#dynamic-media) zijn momenteel niet beschikbaar in de Component van het Taser.
 
 ### Tabblad Stijlen {#styles-tab-edit}
 
-De component E-mail van de Taser steunt het AEM [ Systeem van de Stijl.](/help/get-started/authoring.md#component-styling)
+De component E-mailTeaser steunt het Systeem van de Stijl van AEM [.](/help/get-started/authoring.md#component-styling)
 
 Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
 
@@ -107,8 +107,8 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de teasopties definiëren die
 
 ![ het ontwerpdialoog van de Component van de Teaser E-mail ](/help/email/assets/email-teaser-design.png)
 
-* **Toegestane Elementen van de Kop** - gebruik drop-down om te bepalen welke HTML elementen van de rubriek die door een auteur voor het de titeltype van het apparaat kunnen worden geselecteerd.
-* **StandaardElement van de Kop van de Titel** - het HTML element standaard van de kopbal dat voor het de titeltype van het apparaat wordt gebruikt
+* **Toegestane Elementen van de Kop** - gebruik drop-down om te bepalen welke elementen van de rubriekHTML die door een auteur voor het de titeltype van het apparaat kunnen worden geselecteerd.
+* **Standaard het Element van de Kop van de Titel** - het element van de standaardrubriekHTML dat voor het de titeltype van het apparaat wordt gebruikt
 * **vraag-aan-Acties**
    * **maak vraag-aan-Acties** onbruikbaar - verberg **vraag-aan-Acties** optie voor inhoudsauteurs
 * **Elementen**
@@ -121,4 +121,4 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de teasopties definiëren die
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component E-mail van de Taser steunt het AEM [ Systeem van de Stijl.](/help/get-started/authoring.md#component-styling)
+De component E-mailTeaser steunt het Systeem van de Stijl van AEM [.](/help/get-started/authoring.md#component-styling)

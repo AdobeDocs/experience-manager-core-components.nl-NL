@@ -3,9 +3,9 @@ title: E-mailervaringsfragmentcomponent
 description: Met de E-mailervaringsfragmentcomponent kan de auteur van de inhoud een Experience-fragmentvariatie in de inhoud plaatsen en een gelokaliseerde inhoudsstructuur ondersteunen.
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
-source-git-commit: e5afead6bfdcc59cbd6da888f4e1e36038c6c0f8
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,11 @@ De component E-mailervaringsfragment ondersteunt een gelokaliseerde sitestructuu
 
 De huidige versie van de E-mailervaringsfragmentcomponent is v1, die in oktober 2022 is geïntroduceerd met release X van de e-mailkerncomponenten en in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
+In de volgende tabel worden alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies weergegeven.
 
-| Componentversie | AEM 6,5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | Compatibel | - |
+| Componentversie | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Compatibel | Compatibel | - |
 
 Voor meer informatie over de versies en de versies van de Component van de Kern E-mailE-mail van de Component, zie het document [ Versies van de Componenten van de Kern.](/help/email/versions.md)
 
@@ -129,7 +129,7 @@ U kunt ook een **identiteitskaart** bepalen. Met deze optie kunt u de unieke id 
 
 ### Tabblad Stijlen {#styles-tab-edit}
 
-De component van het Fragment van de Ervaring E-mail steunt het AEM [ Systeem van de Stijl.](/help/get-started/authoring.md#component-styling)
+De component van het Fragment van de Ervaring E-mail steunt het Systeem van de Stijl van AEM [.](/help/get-started/authoring.md#component-styling)
 
 Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
 
@@ -141,4 +141,4 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de opties definiëren die bes
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van het Fragment van de Ervaring E-mail steunt het AEM [ Systeem van de Stijl.](/help/get-started/authoring.md#component-styling)
+De component van het Fragment van de Ervaring E-mail steunt het Systeem van de Stijl van AEM [.](/help/get-started/authoring.md#component-styling)

@@ -3,9 +3,9 @@ title: Component Form Container
 description: Met de Core Component Form Container Component kunnen eenvoudige verzendformulieren worden gemaakt.
 role: Architect, Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -28,18 +28,18 @@ Door [ te gebruiken vormt dialoog ](#configure-dialog) de inhoudsleider kan de a
 
 De huidige versie van de Form Container Component is v2, die in januari 2018 is geïntroduceerd met versie 2.0.0 van de Core Components, en in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
+In de volgende tabel worden alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies weergegeven.
 
-| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v2 | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel | Compatibel |
-| [ v1 ](/help/components/v1/form-container-v1.md) | Compatibel | Compatibel | Compatibel |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
+| v2 | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel | Compatibel | Compatibel |
+| [ v1 ](/help/components/v1/form-container-v1.md) | Compatibel | Compatibel | - | Compatibel |
 
 Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Om de Component van de Container van de Vorm te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library_form_container).
+Om de Component van de Container van de Vorm te ervaren evenals voorbeelden van zijn configuratieopties evenals uitvoer te zien HTML en JSON, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library_form_container).
 
 ## Technische details {#technical-details}
 
@@ -53,17 +53,17 @@ In het dialoogvenster voor configureren kan de auteur van de inhoud definiëren 
 
 Afhankelijk van het geselecteerde **Type van Actie**, zullen de beschikbare opties binnen de container veranderen. De beschikbare actietypen zijn:
 
-* [Post-formuliergegevens](#post-data)
+* [Formuliergegevens verzenden](#post-data)
 * [Mail](#mail)
 * [Winkelinhoud](#store-content)
 
 Ongeacht het type, zijn er [ algemene montages ](#general-settings) die op elke actie van toepassing zijn.
 
-### Post-formuliergegevens {#post-data}
+### Formuliergegevens verzenden {#post-data}
 
 Wanneer het formulier wordt verzonden, worden de ingediende gegevens door het actietype voor postformuliergegevens doorgegeven aan een derde als JSON voor verwerking.
 
-![ de opties van de Gegevens van de Vorm van Post in de Edit dialoog van de Component van de Container van de Vorm ](/help/assets/form-container-edit-post.png)
+![ de opties van de Gegevens van de Vorm in de Edit dialoog van de Component van de Container van de Vorm ](/help/assets/form-container-edit-post.png)
 
 * **Eindpunt** - de volledig-gekwalificeerde dienst HTTPS die de gegevens zal verwerken
 * **Bericht van de Fout** - Bericht om te tonen als de voorlegging niet succesvol is
@@ -100,7 +100,7 @@ Wanneer het formulier wordt verzonden, wordt de inhoud van het formulier opgesla
 >
 >Om het beheer van gebruikersgegevens eenvoudiger te maken en scheiding van zorgen af te dwingen, wordt het over het algemeen niet aanbevolen door gebruikers gegenereerde inhoud in de opslagplaats op te slaan.
 >
->In plaats daarvan gebruik het [ de actietype van de Gegevens van de Vorm van Post ](#post-data) om gebruikersinhoud tot een specifieke dienstverlener over te gaan.
+>In plaats daarvan gebruik het [ de actietype van de Gegevens van de Vorm van het Post ](#post-data) om gebruikersinhoud tot een specifieke dienstverlener over te gaan.
 
 ### Algemene instellingen {#general-settings}
 
@@ -110,7 +110,7 @@ Ongeacht het geselecteerde handelingstype, kan een pagina van dank u altijd word
 
 * **Dank u pagina** - de gebruiker zal aan de gespecificeerde pagina na voltooiing van de vormvoorlegging worden opnieuw gericht.
    * Gebruik het dialoogvenster Selectie om een bron in AEM te selecteren.
-   * Geef de absolute URL op als de pagina voor bedankt niet in AEM is. Niet-absolute URL&#39;s worden ten opzichte van AEM geïnterpreteerd.
+   * Geef de absolute URL op als de pagina Bedankt niet in AEM staat. Niet-absolute URL&#39;s worden geïnterpreteerd ten opzichte van AEM.
    * Laat leeg om het formulier na verzending opnieuw weer te geven.
 * **identiteitskaart** - Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens te controleren ](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
@@ -123,4 +123,4 @@ De ontwerpdialoog staat de malplaatjeauteur toe om de toegestane componenten en 
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van de Container van de Vorm steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De component van de Container van de Vorm steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).

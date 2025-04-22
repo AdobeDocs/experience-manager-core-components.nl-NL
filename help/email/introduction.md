@@ -3,9 +3,9 @@ title: Inleiding e-mailkern-componenten
 description: Maak aantrekkelijke e-mailinhoud met de flexibiliteit van de Email Core Components en lever deze met de kracht van Adobe Campaign.
 role: Architect, Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ De onderdelen van de e-mailkern zijn gebaseerd op dezelfde krachtige basis als d
 
 ## Voordelen {#benefits}
 
-E-mails maken deel uit van de merkervaring en de reis van de klant. Met de E-mailCore-componenten kunnen uw auteurs e-mailinhoud van binnen AEM maken, zodat ze een consistente merkervaring kunnen bieden en daardoor de snelheid van de inhoud kunnen verhogen.
+E-mails maken deel uit van de merkervaring en de reis van de klant. Met de Email Core Components kunnen uw auteurs e-mailinhoud uit AEM archiveren, zodat ze over een consistente merkboodschap beschikken en de snelheid van de inhoud daardoor toeneemt.
 
 * Net als bij het ontwerpen van pagina&#39;s met de Core Components staan de e-mailCore Components ontwerpers toe om e-mail samen te stellen zonder technische kennis en er tegelijkertijd voor te zorgen dat zij de richtlijnen voor branding volgen.
 * De mogelijkheid om middelen en inhoud opnieuw te gebruiken moedigt auteurs ook aan om richtlijnen voor het maken van branding te volgen en het proces voor het maken van inhoud te optimaliseren.
@@ -32,7 +32,7 @@ E-mails maken deel uit van de merkervaring en de reis van de klant. Met de E-mai
 * Er zijn [ tien e-mail-geoptimaliseerde productie-klaar componenten ](#components) aan auteur e-mailinhoud.
 * De componenten van de Kern E-mail verstrekken geavanceerde verpersoonlijking dankzij de toevoeging van [ variabelen van Adobe Campaign ](campaign-variables.md) op de meeste dialooggebieden.
 * De flexibele [ component van de Segmentatie ](/help/email/components/segmentation.md) staat voor geavanceerde segmentatie van uw inhoud toe.
-* De Kern E-mail Componenten verstrekken optimale e-mail-vriendelijke HTML output dankzij de [ CSS stijlen inliner, ](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner:-Technical-documentation) [ de HTML kenmerkeninliner, ](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner) en [ de HTML sanitizer.](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing)
+* De de e-mailcomponenten van de Kern verstrekken optimale e-mail-vriendelijke output van HTML dankzij de [ CSS stijlen inliner, ](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner:-Technical-documentation) [ de attributen inliner van HTML, ](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner) en [ HTML sanitizer.](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing)
 * U kunt e-mailinhoud maken op een willekeurige locatie onder `/content` .
 * De componenten van de Kern E-mail zijn [ open bron.](https://github.com/adobe/aem-core-email-components)
 
@@ -42,7 +42,7 @@ De onderdelen van de e-mailkern voldoen aan de volgende vereisten.
 
 | AEM | Adobe Campaign | Kernonderdelen |
 |---|---|---|
-| AEM 6.5.14.0+<br> op gebouw of AMS | Adobe Campaign Classic <br> Adobe Campaign Standard | [ Versie 2.21.2 ](/help/versions.md)+ |
+| AEM 6.5.14.0+ of AEM 6.5 LTS GA <br> op gebouw of AMS | Adobe Campaign Classic <br> Adobe Campaign Standard | [ Versie 2.21.2 ](/help/versions.md)+ |
 
 >[!NOTE]
 >

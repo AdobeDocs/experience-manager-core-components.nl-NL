@@ -3,9 +3,9 @@ title: Component E-mail
 description: De component E-mailafbeelding is een adaptieve afbeeldingscomponent die op locatie kan worden bewerkt.
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1625'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ De component E-mailafbeelding biedt een adaptieve selectie van afbeeldingen en e
 
 De huidige versie van de E-mailcomponent Image is v1, die in oktober 2022 is geïntroduceerd met release x van de Email Core Components, en die in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
+In de volgende tabel worden alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies weergegeven.
 
-| Componentversie | AEM 6,5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | Compatibel | - |
+| Componentversie | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Compatibel | Compatibel | - |
 
 Voor meer informatie over de versies en versies van de Component van de Kern, zie het document [ e-mailCore Componenten Versies ](/help/email/versions.md).
 
@@ -44,23 +44,23 @@ Daarnaast biedt de component E-mailafbeelding ondersteuning voor lui laden om he
 >
 >Standaard wordt de component E-mailafbeelding aangedreven door de Adaptive Image Servlet. Gelieve te zien het document [ Adaptieve Servlet van het Beeld ](#adaptive-image-servlet) voor details op hoe het werkt.
 
-## Dynamic Media-ondersteuning {#dynamic-media}
+## Ondersteuning voor dynamische media {#dynamic-media}
 
-De Component van het Beeld E-mail steunt [ Dynamic Media ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html#dynamicmedia) activa. [ wanneer toegelaten, ](#design-dialog) bieden deze eigenschappen de capaciteit aan om de beeldactiva van Dynamic Media met eenvoudige belemmering-en-daling of via activabrowser toe te voegen enkel zoals u een ander beeld. Daarnaast worden ook afbeeldingsaanpassingen, voorinstellingen voor afbeeldingen en slimme gewassen ondersteund.
+De component E-mail van het Beeld steunt [ Dynamische Media ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html#dynamicmedia) activa. [ wanneer toegelaten, ](#design-dialog) bieden deze eigenschappen de capaciteit aan om Dynamische het beeldactiva van Media met eenvoudige belemmering-en-daling of via activa toe te voegen browser enkel zoals u een ander beeld. Daarnaast worden ook afbeeldingsaanpassingen, voorinstellingen voor afbeeldingen en slimme gewassen ondersteund.
 
-Uw e-mailervaring die is opgebouwd met de E-mail Core Components, is uitgerust met geavanceerde, op Sensei gebaseerde, robuuste, krachtige Dynamic Media Image-mogelijkheden voor meerdere platforms.
+Uw e-mailervaring die is opgebouwd met de e-mailCore-componenten kan beschikken over uitgebreide, op Sensei gebaseerde, robuuste, krachtige, platformonafhankelijke mogelijkheden voor Dynamic Media Image.
 
 ## SVG-ondersteuning {#svg-support}
 
 Scalable Vector Graphics (SVG) wordt ondersteund door de E-mailafbeeldingscomponent.
 
-* De belemmering-en-daling van SVG activa van DAM en het uploaden van een SVG dossier van een lokaal dossiersysteem worden allebei gesteund.
+* Het slepen en neerzetten van een SVG-element van DAM en het uploaden van een SVG-bestandsupload vanuit een lokaal bestandssysteem worden beide ondersteund.
 * Het oorspronkelijke SVG-bestand wordt gestreamd (transformaties worden overgeslagen).
-* Voor een SVG-afbeelding worden de &quot;slimme afbeeldingen&quot; en de &quot;slimme formaten&quot; ingesteld op een lege array in het afbeeldingsmodel.
+* Voor een SVG-afbeelding worden de &quot;smart images&quot; en de &quot;smart sizes&quot; ingesteld op een lege array in het afbeeldingsmodel.
 
 ### Beveiliging {#security}
 
-Om veiligheidsredenen wordt de originele SVG nooit direct geroepen door de Redacteur van het Beeld. Deze wordt aangeroepen via `<img src=“path-to-component”>` . Hierdoor wordt voorkomen dat de browser scripts uitvoert die in het SVG-bestand zijn ingesloten.
+Vanwege beveiligingsredenen wordt de originele SVG nooit rechtstreeks aangeroepen door de Afbeeldingseditor. Deze wordt aangeroepen via `<img src=“path-to-component”>` . Hierdoor wordt voorkomen dat de browser scripts uitvoert die in het SVG-bestand zijn ingesloten.
 
 ### Technische details {#technical-details}
 
@@ -97,16 +97,16 @@ De component E-mailafbeelding biedt een configuratievenster waarin de afbeelding
 
 ![ Meta-gegevens lusje van de Component van het Beeld vormt dialoog ](/help/email/assets/email-image-configure-metadata.png)
 
-* **vooraf ingesteld Type** - dit bepaalt de types van beeld vooraf instelt beschikbaar, of **Vooraf ingesteld Beeld** of **Slim Gewas**, en is slechts beschikbaar wanneer [ eigenschappen van Dynamic Media ](#dynamic-meida) worden toegelaten.
-   * **Vooraf ingesteld Beeld** - wanneer **Vooraf ingesteld Type** van **Vooraf ingesteld Beeld** wordt geselecteerd, is het drop-down **Beeld Vooraf ingesteld** beschikbaar, toestaand selectie van beschikbare Dynamic Media vooraf instelt. Dit is alleen beschikbaar als er voorinstellingen zijn gedefinieerd voor het geselecteerde element.
+* **vooraf ingesteld Type** - dit bepaalt de types van beeld vooraf instelt beschikbaar, of **Vooraf ingesteld Beeld** of **Slim Gewas**, en is slechts beschikbaar wanneer [ de Dynamische eigenschappen van Media ](#dynamic-meida) worden toegelaten.
+   * **Vooraf ingesteld Beeld** - wanneer **Vooraf ingesteld Type** van **Vooraf ingesteld Beeld** wordt geselecteerd, is het drop-down **Beeld Vooraf ingesteld** beschikbaar, toestaand selectie van de beschikbare Dynamische Voorinstellingen van Media. Dit is alleen beschikbaar als er voorinstellingen zijn gedefinieerd voor het geselecteerde element.
    * **Slim Gewas** - wanneer **Vooraf ingesteld Type** van **Slim Gewas** wordt geselecteerd de drop-down **Vertoning** beschikbaar is, toestaand selectie van de beschikbare vertoningen van de geselecteerde activa. Dit is alleen beschikbaar als uitvoeringen zijn gedefinieerd voor het geselecteerde element.
-   * **de Modifiers van het Beeld** - de Extra beeld-dienende bevelen van Dynamic Media kunnen hier worden bepaald door `&`, ongeacht welk **Vooraf ingesteld Type** wordt geselecteerd.
+   * **de Modifiers van het Beeld** - de Extra Dynamische beeld-dienende bevelen van Media kunnen hier worden bepaald door `&`, ongeacht welk **Vooraf ingesteld Type** wordt geselecteerd.
 * **Titel** - de Extra informatie over het beeld, die onder het beeld door gebrek wordt getoond.
    * **krijgt titel van DAM** - wanneer gecontroleerd de de bijschrifttekst van het beeld zal met de waarde van de `dc:title` meta-gegevens in DAM worden bevolkt. Alleen beschikbaar wanneer een element wordt gekozen uit de DAM.
    * **titel van de Vertoning als pop-up** - wanneer gecontroleerd, zal de titel niet onder het beeld worden getoond, maar als pop-up die door sommige browsers wordt getoond wanneer het bedekken over het beeld.
 * **Verbinding** - verbind het beeld met een ander middel.
-   * In het dialoogvenster Selecteren kunt u een koppeling maken naar een andere AEM.
-   * Als u geen koppeling naar een AEM maakt, voert u de absolute URL in. Niet-absolute URL&#39;s worden geïnterpreteerd als relatief ten opzichte van AEM.
+   * In het dialoogvenster Selecteren kunt u een koppeling maken naar een andere AEM-bron.
+   * Als u geen koppeling naar een AEM-resource wilt maken, voert u de absolute URL in. Niet-absolute URL&#39;s worden geïnterpreteerd als relatief ten opzichte van AEM.
    * **Open verbinding in nieuw lusje** - deze optie opent de verbinding in een nieuw browser venster.
 * **identiteitskaart** - Deze optie staat het controleren van het unieke herkenningsteken van de component in HTML toe.
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
@@ -123,7 +123,7 @@ De component E-mailafbeelding biedt een configuratievenster waarin de afbeelding
 
 ![ het lusje van Stijlen van uitgeeft dialoog van de Component van het Beeld E-mail ](/help/assets/image-configure-styles.png)
 
-De component E-mail van het Beeld steunt het AEM [ Systeem van de Stijl.](/help/get-started/authoring.md#component-styling)
+De component E-mail van het Beeld steunt het Systeem van de Stijl van AEM [.](/help/get-started/authoring.md#component-styling)
 
 Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
 
@@ -135,8 +135,8 @@ De stijlen moeten voor deze component in de [ ontwerpdialoog ](#design-dialog) w
 
 ![ het belangrijkste lusje van de het ontwerpdialoog van de Component van het Beeld het ontwerp ](/help/email/assets/email-image-design-main.png)
 
-* **laat eigenschappen DM** toe - wanneer gecontroleerd, [ de eigenschappen van Dynamic Media ](#dynamic-media) zijn beschikbaar.
-   * Deze optie wordt alleen weergegeven als Dynamic Media is ingeschakeld in de omgeving.
+* **laat eigenschappen DM** toe - wanneer gecontroleerd, [ de Dynamische eigenschappen van Media ](#dynamic-media) zijn beschikbaar.
+   * Deze optie wordt alleen weergegeven wanneer Dynamische media is ingeschakeld in de omgeving.
 * **laat Web Geoptimaliseerde Beelden** toe - wanneer gecontroleerd, [ de Web-geoptimaliseerde dienst van de beeldlevering ](/help/developing/web-optimized-image-delivery.md) zal beelden in het formaat leveren WebP, die beeldgrootte door gemiddeld 25% verminderen.
    * Deze optie is alleen beschikbaar in AEMaaCS.
    * Wanneer ongecontroleerd of wanneer de Web-geoptimaliseerde dienst van de beeldlevering niet beschikbaar is [ Aangepast Servlet van het Beeld ](/help/developing/adaptive-image-servlet.md) wordt gebruikt.
@@ -166,4 +166,4 @@ U kunt een lijst van breedten in pixel voor het beeld bepalen en de component za
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component E-mail van het Beeld steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De component E-mail van het Beeld steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).

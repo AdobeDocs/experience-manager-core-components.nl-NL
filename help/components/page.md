@@ -3,9 +3,9 @@ title: Pagina-component
 description: De component Pagina is een uitbreidbare paginacomponent die wordt ontworpen om met de malplaatjeredacteur te werken en paginakopbal/footer en structuurcomponenten toe te laten om met de malplaatjedacteur worden samengesteld.
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -24,19 +24,19 @@ Gebruikend de [ ontwerpdialoog ](#design-dialog), kunnen de douane cliënt-zijbi
 
 De huidige versie van de pagina-component is v3, die in februari 2022 is geïntroduceerd met release 2.18.0 van de Core Components, en die in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
+In de volgende tabel worden alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies weergegeven.
 
-| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
-|---|---|---|---|
-| v3 | - | Compatibel | Compatibel |
-| [ v2 ](v2/page.md) | Compatibel | Compatibel | Compatibel |
-| [ v1 ](v1/page-v1.md) | Compatibel | Compatibel | Compatibel |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|---|
+| v3 | - | Compatibel | Compatibel | Compatibel |
+| [ v2 ](v2/page.md) | Compatibel | Compatibel | - | Compatibel |
+| [ v1 ](v1/page-v1.md) | Compatibel | Compatibel | - | Compatibel |
 
 Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
 
 ## Progressieve ondersteuning voor webtoepassingen {#pwa-support}
 
-Versie 2.15.0 van de Componenten van de Kern introduceerde steun voor de ingebouwde eigenschappen van het Web van AEM as a Cloud Service [ Progressieve (PWA).](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) Met een eenvoudige configuratie op site-niveau zet u uw AEM om in een PWA!
+Versie 2.15.0 van de Componenten van de Kern introduceerde steun voor ingebouwde [ Progressieve eigenschappen van het Web van AEM as a Cloud Service (PWA).](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) Met een eenvoudige configuratie op site-niveau kunt u uw AEM-ervaring veranderen in een PWA!
 
 ### Technische details {#technical-details}
 
@@ -89,8 +89,8 @@ Voor meer informatie over het gebruiken van cliënt-zijbibliotheken zie [ Gebrui
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van de Pagina steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De Component van de Pagina steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
-## Gegevenslaag client-Adobe {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
-De Component van de Pagina steunt de [ Laag van de Gegevens van de Cliënt van de Adobe.](/help/developing/data-layer/overview.md)
+De Component van de Pagina steunt de [ Laag van Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)

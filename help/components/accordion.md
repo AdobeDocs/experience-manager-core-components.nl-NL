@@ -3,9 +3,9 @@ title: Accordeoncomponent
 description: Met de component Core Component Accordion kunt u een verzameling deelvensters maken die zijn gerangschikt in een accordeon op een pagina.
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: d39fe0084522f67664203a026340b23d325c1883
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ De component van de Accordeon van de Component van de Kern staat voor de verweze
 
 De huidige versie van de Accordion Component is v1, die in juni 2019 met versie 2.5.0 van de Core Components is geïntroduceerd en in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
+In de volgende tabel worden alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies weergegeven.
 
-| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v1 | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel | Compatibel |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |---|---|---|
+| v1 | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel | Compatibel | Compatibel |
 
 Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
 
@@ -52,7 +52,7 @@ De accordeon, [ Carousel, ](carousel.md) en [ de steun van Componenten van Lusje
 Dit doet u als volgt:
 
 1. Bekijk de pagina met de component gebruikend de **[Mening zoals Gepubliceerde ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** optie in de paginaredacteur.
-1. Inspect de inhoud van de pagina en identificeer de id van het deelvenster.
+1. Controleer de inhoud van de pagina en identificeer de id van het deelvenster.
    * Bijvoorbeeld `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. De id wordt het anker dat u met een hash (`#`) aan de URL kunt toevoegen.
    * Bijvoorbeeld `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
@@ -120,8 +120,8 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de opties definiëren die bes
 
 ![ de dialoogeigenschappen tabel van het Ontwerp ](/help/assets/accordion-design-properties.png)
 
-* **Toegestane Elementen van de Kop** - Dit multi-uitgezochte drop-down bepaalt de HTML elementen van de kopbal van het accordeonpunt die door een auteur mogen worden geselecteerd.
-* **Standaard het Element van de Kop** - Deze drop-down bepaalt het HTML element van de kopbal van het standaardAccordeonpunt.
+* **Toegestane Elementen van de Kop** - Dit multi-uitgezochte drop-down bepaalt de kopelementen van het accordeonpunt van HTML die door een auteur mogen worden geselecteerd.
+* **Standaard het Element van de Kop** - Deze drop-down bepaalt het standaard kopelement van het accordeonpunt van HTML.
 
 ### Tabblad Toegestane componenten {#allowed-components-tab}
 
@@ -131,8 +131,8 @@ De toegelaten Componenten lusjefuncties op de zelfde manier zoals het lusje van 
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van de Accordeon steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De Component van de Accordeon steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
-## Gegevenslaag client-Adobe {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
-De Component van de Accordeon steunt de [ Gegevens van de Cliënt van de Adobe Laag.](/help/developing/data-layer/overview.md)
+De Component van de Accordeon steunt de [ Laag van Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)

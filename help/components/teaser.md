@@ -3,9 +3,9 @@ title: Teaser-component
 description: De teaser-component kan een afbeelding, een titel, RTF-tekst en eventueel een koppeling naar andere inhoud weergeven.
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -24,12 +24,12 @@ De malplaatjeauteur kan de [ ontwerpdialoog ](#design-dialog) gebruiken om te be
 
 De huidige versie van de Taser Component is v2, die in februari 2022 werd geïntroduceerd met versie 2.18.0 van de Core Components, en in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
+In de volgende tabel worden alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies weergegeven.
 
-| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
-|---|---|---|---|
-| v2 | - | Compatibel | Compatibel |
-| [ v1 ](v1/teaser.md) | Compatibel | Compatibel | Compatibel |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|---|
+| v2 | - | Compatibel | Compatibel | Compatibel |
+| [ v1 ](v1/teaser.md) | Compatibel | Compatibel | - | Compatibel |
 
 ## Externe Assets-ondersteuning {#remote-assets}
 
@@ -58,7 +58,7 @@ De teastitel, beschrijving en afbeelding kunnen worden overgenomen van de gekopp
 * **Verbinding** - dit dossier verbindt met een inhoudspagina, externe URL, of paginaanker.
 * **Open verbinding in nieuw lusje** - indien toegelaten, zal de verbinding in een nieuwe browser tabel openen.
 * **vraag-aan-acties** - Deze optie staat het verbinden aan veelvoudige bestemmingen toe.
-   * De pagina verbonden in de eerste vraag-aan-actie wordt gebruikt wanneer het erven van de teastitel, de beschrijving, of het beeld.
+   * De pagina die is gekoppeld in de eerste call-to-action, wordt gebruikt wanneer u de teastitel, beschrijving of afbeelding overneemt.
 
 ### Tabblad Tekst {#text-tab}
 
@@ -83,8 +83,8 @@ De teastitel, beschrijving en afbeelding kunnen worden overgenomen van de gekopp
    * Tik of klik **Duidelijk** om het momenteel geselecteerde beeld te deselecteren.
    * Tik of klik **Keuze** om [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) te openen om een beeld te selecteren.
       * Als [ Verre Steun van Assets ](#remote-assets) wordt toegelaten, hebt u veelvoudige opties om activa te kiezen:
-         * **Lokale** selecteert van de lokale bibliotheek van AEM activa.
-         * **Verre** selecteert van een bibliotheek van Dynamic Media buiten uw AEM instantie.
+         * **Lokale** selecteert van de lokale de activabibliotheek van AEM.
+         * **Verre** selecteert van een Dynamische bibliotheek van Media buiten uw instantie van AEM.
    * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in de activaredacteur te beheren.
 * **Alternatieve tekst voor toegankelijkheid** - Dit gebied staat u toe om een beschrijving van het beeld voor visueel gehandicapte gebruikers te bepalen.
    * **erven alternatieve tekst van pagina** - Deze optie gebruikt de alternatieve beschrijving van de verbonden activawaarde van de `dc:description` meta-gegevens in DAM of van de huidige pagina als geen activa wordt verbonden.
@@ -94,7 +94,7 @@ De teastitel, beschrijving en afbeelding kunnen worden overgenomen van de gekopp
 
 ![ het lusje van Stijlen van uitgeeft dialoog van de Component van de Lijst van de Taser ](/help/assets/teaser-edit-styles.png)
 
-De Component van het Teken steunt het AEM [ Systeem van de Stijl.](/help/get-started/authoring.md#component-styling).
+De Component van het Taser steunt het Systeem van de Stijl van AEM [.](/help/get-started/authoring.md#component-styling).
 
 Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
 
@@ -124,8 +124,8 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de teasopties definiëren die
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van het Taser steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De Component van het Taser steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
-## Gegevenslaag client-Adobe {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
-De Component van het Taser steunt de [ Gegevens van de Cliënt van de Adobe Laag.](/help/developing/data-layer/overview.md)
+De Component van het Taser steunt de [ Laag van Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)

@@ -3,9 +3,9 @@ title: Afbeeldingscomponent
 description: De component Core Component Image is een adaptieve afbeeldingscomponent.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '1961'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,13 @@ De beeldbreedten en de extra montages kunnen door de malplaatjeauteur in de [ on
 
 De huidige versie van de Image Component is v3, die in februari 2022 is geïntroduceerd met versie 2.18.0 van de Core Components, en die in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
+In de volgende tabel staan alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies.
 
-| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v3 | - | Compatibel | Compatibel |
-| [ v2 ](v2/image.md) | Compatibel | Compatibel | Compatibel |
-| [ v1 ](v1/image-v1.md) | Compatibel | Compatibel | Compatibel |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
+| v3 | - | Compatibel | Compatibel | Compatibel |
+| [ v2 ](v2/image.md) | Compatibel | Compatibel | - | Compatibel |
+| [ v1 ](v1/image-v1.md) | Compatibel | Compatibel | - | Compatibel |
 
 Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
 
@@ -47,11 +47,11 @@ Bovendien ondersteunt de component Afbeelding lui laden om het laden van het eig
 >
 >De component Image wordt standaard geactiveerd door de adaptieve afbeeldingsserver. Zie [ Aangepaste Servlet van het Beeld ](/help/developing/adaptive-image-servlet.md) voor details op hoe het werkt.
 
-## Dynamic Media-ondersteuning {#dynamic-media}
+## Ondersteuning voor dynamische media {#dynamic-media}
 
-De Component van het Beeld (van [ versie 2.13.0 ](/help/versions.md)) steunt [ Dynamic Media ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html) activa. [ wanneer toegelaten, ](#design-dialog) bieden deze eigenschappen de capaciteit aan om de beeldactiva van Dynamic Media met eenvoudige belemmering-en-daling of via activabrowser toe te voegen enkel zoals u een ander beeld. Daarnaast worden ook afbeeldingsaanpassingen, voorinstellingen voor afbeeldingen en slimme gewassen ondersteund.
+De Component van het Beeld (van [ versie 2.13.0 ](/help/versions.md)) steunt [ Dynamische Media ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html) activa. [ wanneer toegelaten, ](#design-dialog) bieden deze eigenschappen de capaciteit aan om Dynamische het beeldactiva van Media met eenvoudige belemmering-en-daling of via activa toe te voegen browser enkel zoals u een ander beeld. Daarnaast worden ook afbeeldingsaanpassingen, voorinstellingen voor afbeeldingen en slimme gewassen ondersteund.
 
-Uw webervaringen die zijn gemaakt met Core Components kunnen beschikken over uitgebreide, op Sensei gebaseerde, robuuste, krachtige Dynamic Media Image-mogelijkheden voor meerdere platforms.
+Uw webbeleving die is gebouwd met Core Components kan beschikken over uitgebreide, op Sensei gebaseerde, robuuste, krachtige, platformonafhankelijke mogelijkheden voor Dynamic Media Image.
 
 ## Externe Assets-ondersteuning {#remote-assets}
 
@@ -59,19 +59,19 @@ De Component van het Beeld (van [ versie 2.23.2 ](/help/versions.md)) steunt ver
 
 ## SVG-ondersteuning {#svg-support}
 
-Schaalbare vectorafbeeldingen (SVG) worden ondersteund door de afbeeldingscomponent.
+Scalable Vector Graphics (SVG) wordt ondersteund door de Afbeeldingscomponent.
 
-* De belemmering-en-daling van een SVG middel van DAM en het uploaden van een SVG dossier dat van een lokaal dossiersysteem wordt geupload worden allebei gesteund.
+* Het slepen en neerzetten van een SVG-element van DAM en het uploaden van een SVG-bestand dat vanuit een lokaal bestandssysteem is geüpload, worden beide ondersteund.
 * Het oorspronkelijke SVG-bestand wordt gestreamd (transformaties worden overgeslagen).
-* Voor een SVG-afbeelding worden de &quot;slimme afbeeldingen&quot; en de &quot;slimme formaten&quot; ingesteld op een lege array in het afbeeldingsmodel.
+* Voor een SVG-afbeelding worden de &quot;smart images&quot; en de &quot;smart sizes&quot; ingesteld op een lege array in het afbeeldingsmodel.
 
 ### Beveiliging {#security}
 
-Om veiligheidsredenen wordt de originele SVG nooit direct geroepen door de Redacteur van het Beeld. Deze wordt aangeroepen via `<img src="path-to-component">` . Hierdoor wordt voorkomen dat de browser scripts uitvoert die in het SVG-bestand zijn ingesloten.
+Vanwege beveiligingsredenen wordt de originele SVG nooit rechtstreeks aangeroepen door de Afbeeldingseditor. Deze wordt aangeroepen via `<img src="path-to-component">` . Hierdoor wordt voorkomen dat de browser scripts uitvoert die in het SVG-bestand zijn ingesloten.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Om de Component van het Beeld te ervaren en voorbeelden van zijn configuratieopties en HTML en output te zien JSON, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library_image).
+Om de Component van het Beeld te ervaren en voorbeelden van zijn configuratieopties en de output van HTML en JSON te zien, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library_image).
 
 ### Technische details {#technical-details}
 
@@ -85,11 +85,11 @@ De Component van het Beeld steunt [ schema.org microdata ](https://schema.org).
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud de afbeelding uitsnijden en zoomen.
 
-Afhankelijk van als u [ Dynamic Media ](#dynamic-media) toegelaten of [ Verre Steun van Assets ](#remote-assets) hebt wordt toegelaten, verschillen de opties beschikbaar voor het uitgeven van beelden.
+Afhankelijk van als u de [ Dynamische Media ](#dynamic-media) toegelaten hebt of [ Verre Steun van Assets ](#remote-assets) wordt toegelaten, verschillen de opties beschikbaar voor het uitgeven van beelden.
 
 ### Standaard bewerken van bedrijfsmiddelen {#standard-assets}
 
-Als u standaard AEM activa uitgeeft, kunt u **klikken geeft** pictogram in het contextmenu van de beeldcomponent uit.
+Als u standaardAEM activa uitgeeft, kunt u **klikken geeft** pictogram in het contextmenu van de beeldcomponent uit.
 
 ![ de Edit dialoog van de Component van het Beeld {](/help/assets/image-edit.png)
 
@@ -131,11 +131,11 @@ U kunt de interne editor ook gebruiken om de afbeelding te wijzigen. Vanwege rui
 
 >[!NOTE]
 >
->Beeldbewerkingsbewerkingen worden niet ondersteund voor GIF-afbeeldingen. Dergelijke wijzigingen die in de bewerkingsmodus zijn aangebracht op GIFFEN, blijven niet behouden.
+>Beeldbewerkingsbewerkingen worden niet ondersteund voor GIF-afbeeldingen. Dergelijke wijzigingen die in de bewerkingsmodus in GIF&#39;s zijn aangebracht, blijven niet bestaan.
 
-### Dynamic Media Asset Editing {#dynamic-media-assets}
+### Dynamisch bewerken van media-elementen {#dynamic-media-assets}
 
-Als u [ toegelaten eigenschappen van Dynamic Media hebt, ](#dynamic-media) moet het uitgeven van het beeld zelf in de activa console worden uitgevoerd.
+Als u [ Dynamische toegelaten eigenschappen van Media hebt, ](#dynamic-media) het uitgeven van het beeld zelf moet in de activa worden uitgevoerd console.
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -153,8 +153,8 @@ De component image biedt een dialoogvenster voor configureren waarin de afbeeldi
    * Tik of klik **Duidelijk** om het momenteel geselecteerde beeld te deselecteren.
    * Tik of klik **Keuze** om [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html) te openen zodat kunt u een beeld selecteren.
       * Als [ de Verre Steun van Activiteiten ](#remote-assets) wordt toegelaten, hebt u veelvoudige opties om activa te kiezen:
-         * **Lokale** selecteert van de lokale bibliotheek van AEM activa.
-         * **Verre** selecteert van een bibliotheek van Dynamic Media buiten uw AEM instantie.
+         * **Lokale** selecteert van de lokale de activabibliotheek van AEM.
+         * **Verre** selecteert van een Dynamische bibliotheek van Media buiten uw instantie van AEM.
    * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html) in de Redacteur van Activa te beheren.
 
 * **Alternatieve tekst voor toegankelijkheid** - Dit gebied staat u toe om een beschrijving van het beeld voor visueel gehandicapte gebruikers te bepalen.
@@ -167,18 +167,18 @@ De component image biedt een dialoogvenster voor configureren waarin de afbeeldi
 
 ![ Meta-gegevens lusje van de Component van het Beeld vormt dialoog ](/help/assets/image-configure-metadata.png)
 
-* **vooraf ingesteld Type** - dit bepaalt de types van beeld vooraf instelt beschikbaar, of **Vooraf ingesteld Beeld** of **Slim Gewas**, en is slechts beschikbaar wanneer [ eigenschappen van Dynamic Media ](#dynamic-meida) worden toegelaten.
-   * **Vooraf ingesteld Beeld** - wanneer **Vooraf ingesteld Type** van **Vooraf ingesteld Beeld** wordt geselecteerd, is het drop-down **Beeld Vooraf ingesteld** beschikbaar, toestaand selectie van beschikbare Dynamic Media vooraf instelt. Dit is alleen beschikbaar als er voorinstellingen zijn gedefinieerd voor het geselecteerde element.
+* **vooraf ingesteld Type** - dit bepaalt de types van beeld vooraf instelt beschikbaar, of **Vooraf ingesteld Beeld** of **Slim Gewas**, en is slechts beschikbaar wanneer [ de Dynamische eigenschappen van Media ](#dynamic-meida) worden toegelaten.
+   * **Vooraf ingesteld Beeld** - wanneer **Vooraf ingesteld Type** van **Vooraf ingesteld Beeld** wordt geselecteerd, is het drop-down **Beeld Vooraf ingesteld** beschikbaar, toestaand selectie van de beschikbare Dynamische Voorinstellingen van Media. Dit is alleen beschikbaar als er voorinstellingen zijn gedefinieerd voor het geselecteerde element.
    * **Slim Gewas** - wanneer **Vooraf ingesteld Type** van **Slim Gewas** wordt geselecteerd, is de drop-down **Vertoning** beschikbaar, toestaand selectie van de beschikbare vertoningen van het geselecteerde activa. Dit is alleen beschikbaar als uitvoeringen zijn gedefinieerd voor het geselecteerde element.
-   * **de Modifiers van het Beeld** - het Extra beeld dat van Dynamic Media bevelen dienen kan hier worden bepaald door `&`, ongeacht welk **Vooraf ingesteld Type** wordt geselecteerd.
+   * **de Modifiers van het Beeld** - het Extra Dynamische beeld dat van Media bevelen dienen kan hier worden bepaald door `&`, ongeacht welk **Vooraf ingesteld Type** wordt geselecteerd.
 * **Titel** - de Extra informatie over het beeld, die onder het beeld door gebrek wordt getoond.
    * **krijgt titel van DAM** - wanneer gecontroleerd de de titeltekst van het beeld wordt bevolkt met de waarde van de `dc:title` meta-gegevens in DAM.
    * **titel van de Vertoning als pop-up** - wanneer gecontroleerd, wordt de titel niet getoond onder het beeld, maar als pop-up die door sommige browsers wordt getoond wanneer het bedekken over het beeld.
 * **Verbinding** - verbind het beeld met een ander middel.
-   * In het dialoogvenster Selecteren kunt u een koppeling maken naar een andere AEM.
-   * Als u geen koppeling naar een AEM maakt, voert u de absolute URL in. Niet-absolute URL&#39;s worden geïnterpreteerd als relatief ten opzichte van AEM.
+   * In het dialoogvenster Selecteren kunt u een koppeling maken naar een andere AEM-bron.
+   * Als u geen koppeling naar een AEM-resource wilt maken, voert u de absolute URL in. Niet-absolute URL&#39;s worden geïnterpreteerd als relatief ten opzichte van AEM.
    * **Open verbinding in nieuw lusje** - deze optie opent de verbinding in een nieuw browser venster.
-* **identiteitskaart** - Deze optie laat u het unieke herkenningsteken van de component in de HTML en in de [ Laag van Gegevens ](/help/developing/data-layer/overview.md) controleren.
+* **identiteitskaart** - Deze optie laat u het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens controleren ](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
@@ -191,7 +191,7 @@ De component image biedt een dialoogvenster voor configureren waarin de afbeeldi
 
 ![ het lusje van Stijlen van uitgeeft dialoog van de Component van het Beeld ](/help/assets/image-configure-styles.png)
 
-De Component van het Beeld steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De Component van het Beeld steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
 
@@ -203,8 +203,8 @@ De stijlen moeten voor deze component in de [ ontwerpdialoog ](#design-dialog) v
 
 ![ het belangrijkste lusje van de het ontwerpdialoog van de Component van het Beeld het ontwerp ](/help/assets/image-design-main.png)
 
-* **laat eigenschappen DM** toe - wanneer gecontroleerd, [ de eigenschappen van Dynamic Media ](#dynamic-media) zijn beschikbaar.
-   * Deze optie wordt alleen weergegeven als Dynamic Media is ingeschakeld in de omgeving.
+* **laat eigenschappen DM** toe - wanneer gecontroleerd, [ de Dynamische eigenschappen van Media ](#dynamic-media) zijn beschikbaar.
+   * Deze optie wordt alleen weergegeven wanneer Dynamische media is ingeschakeld in de omgeving.
 * **laat Web Geoptimaliseerde Beelden** toe - wanneer gecontroleerd, [ de Web-geoptimaliseerde dienst van de beeldlevering ](/help/developing/web-optimized-image-delivery.md) levert beelden in het formaat WebP, die beeldgrootte door gemiddeld 25% verminderen.
    * Deze optie is alleen beschikbaar in AEMaaCS.
    * Wanneer ongecontroleerd, of de Web-geoptimaliseerde dienst van de beeldlevering niet beschikbaar is, wordt de [ Aangepaste Servlet van het Beeld ](/help/developing/adaptive-image-servlet.md) gebruikt.
@@ -226,7 +226,7 @@ U kunt een lijst van breedten in pixel voor het beeld bepalen, en de component l
       * Gebruik het **pictogram van de Schrapping** om een breedte te verwijderen.
    * Het laden van afbeeldingen wordt standaard uitgesteld totdat ze zichtbaar worden.
       * Selecteer de optie **maak het laden** onbruikbaar zodat kunt u de beelden op paginading laden.
-* **Kwaliteit van JPEG** - de kwaliteitsfactor (in percentage van 0 en 100) voor getransformeerde (bijvoorbeeld, geschraapte of bebouwde) beelden van JPEG.
+* **de Kwaliteit van JPEG** - de kwaliteitsfactor (in percentage van 0 en 100) voor getransformeerde (bijvoorbeeld, geschraapte of bebouwde) beelden van JPEG.
 
 >[!TIP]
 >
@@ -234,8 +234,8 @@ U kunt een lijst van breedten in pixel voor het beeld bepalen, en de component l
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van het Beeld steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De Component van het Beeld steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
-## Gegevenslaag client-Adobe {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
-De Component van het Beeld steunt de [ Laag van de Gegevens van de Cliënt van de Adobe.](/help/developing/data-layer/overview.md)
+De Component van het Beeld steunt de [ Laag van Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)

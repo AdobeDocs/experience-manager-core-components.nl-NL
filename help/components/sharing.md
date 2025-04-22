@@ -1,18 +1,18 @@
 ---
 title: Component voor sociaal delen
-description: De Core Component Social Sharing is een deelwidget Facebook en Pinterest.
+description: De Core Component Social Sharing Component is een widget voor delen via Facebook en Pinterest.
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '378'
 ht-degree: 1%
 
 ---
 
 # Component voor sociaal delen{#social-sharing-component}
 
-De Core Component Social Sharing is een deelwidget Facebook en Pinterest.
+De Core Component Social Sharing Component is een widget voor delen via Facebook en Pinterest.
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ De Core Component Social Sharing is een deelwidget Facebook en Pinterest.
 
 ## Gebruik {#usage}
 
-Met de component Sociaal delen voegt u koppelingen naar Facebook en Pinterest voor delen toe aan de pagina. Deze wordt vaak opgenomen in kop- of voetteksten van pagina&#39;s.
+Met de component Sociaal delen voegt u koppelingen voor delen via Facebook en Pinterest toe aan de pagina. Deze wordt vaak opgenomen in kop- of voetteksten van pagina&#39;s.
 
 In tegenstelling tot andere componenten, worden de montages voor de Sociale Delende Component gedaan door de malplaatjeauteur via [ Oorspronkelijke eigenschappen van de Pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) en door de inhoudauteur via [ Eigenschappen van de Pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
 
@@ -28,11 +28,11 @@ In tegenstelling tot andere componenten, worden de montages voor de Sociale Dele
 
 De huidige versie van de component Sociaal delen is v1, die is geïntroduceerd met versie 1.0.0 van de Core Components en wordt beschreven in dit document.
 
-In de volgende tabel staan alle ondersteunde versies van de component en de AEM versies waarmee de versies van de component compatibel zijn.
+In de volgende tabel staan alle ondersteunde versies van de component en de AEM-versies waarmee de versies van de component compatibel zijn.
 
-| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v1 | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel, afgekeurd | Compatibel, afgekeurd |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
+| v1 | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel, afgekeurd | Compatibel, afgekeurd | Compatibel, afgekeurd |
 
 Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
 

@@ -3,9 +3,9 @@ title: Component Inhoudsfragment
 description: Met de component Inhoudsfragment van de kerncomponent kunt u een inhoudsfragment weergeven.
 role: Architect, Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ De component van het Fragment van de Inhoud van de Component van de Kern staat v
 
 De huidige versie van de Content Fragment Component is v1, die in oktober 2017 is geïntroduceerd met release 1.1.0 van de Core Components, en die in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
+In de volgende tabel worden alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies weergegeven.
 
-| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v1 | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel | Compatibel |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |---|---|---|
+| v1 | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel | Compatibel | Compatibel |
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ Voor meer informatie over de versies en versies van de Component van de Kern, zi
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Om de Component van het Fragment van de Inhoud te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library_cf).
+Om de Component van het Fragment van de Inhoud te ervaren evenals voorbeelden van zijn configuratieopties evenals de output van HTML en JSON te zien, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library_cf).
 
 ## Technische details {#technical-details}
 
@@ -110,6 +110,6 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur de typen bronnen definiër
 
    * Het Sling-brontype dat wordt gebruikt voor het interne responsieve raster
 
-## Gegevenslaag client-Adobe {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
-De component van het Fragment van de Inhoud steunt de [ Gegevens van de Cliënt van de Adobe Laag.](/help/developing/data-layer/overview.md)
+De component van het Fragment van de Inhoud steunt de [ Laag van de Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)

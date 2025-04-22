@@ -3,9 +3,9 @@ title: E-mailtekstcomponent
 description: De component E-mailtekst is een component voor tekstbewerking en -compositie met tekstopmaak die op locatie kan worden bewerkt.
 role: Architect, Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '2261'
+source-wordcount: '2265'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ De component E-mailText biedt een robuuste teksteditor met tekstopmaak die het b
 
 De huidige versie van de E-mailtekstcomponent is v1, die in oktober 2022 is geïntroduceerd met release X van de Email Core Components, en die in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
+In de volgende tabel worden alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies weergegeven.
 
-| Componentversie | AEM 6,5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | Compatibel | - |
+| Componentversie | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Compatibel | Compatibel | - |
 
 Voor meer informatie over de versies en de versies van de Component van de Kern, zie het document [ e-mailVersie van de Componenten van de Kern.](/help/email/versions.md)
 
@@ -122,8 +122,8 @@ Met deze optie kunt u de geselecteerde tekst omzetten in een hyperlink of een re
 
 * Het pad invoeren
    * Gebruik de **Open dialoog van de Selectie** om een weg in AEM te kiezen
-   * Als de koppeling zich niet binnen AEM bevindt, voert u de absolute URL in
-      * Niet-absolute paden worden geïnterpreteerd als relatieve AEM
+   * Als de koppeling zich niet in AEM bevindt, voert u de absolute URL in
+      * Niet-absolute paden worden geïnterpreteerd als relatief ten opzichte van AEM
 * Alternatieve beschrijvende tekst voor de koppeling invoeren
 * Koppelingsgedrag selecteren
    * Doel
@@ -304,11 +304,11 @@ Tik of klik **Source geeft** pictogram uit om de inhoud van de tekst van de gefo
 >
 >Zoals altijd het geval met toegang tot ruwe HTML, moet de zorg worden uitgeoefend wanneer het gebruiken van **Source geeft** optie uit!
 >
->HTML ingegaan via **Source geeft** uit wordt gescand voor XSS risico&#39;s en om het even welke manuscripten die worden opgenomen worden verwijderd en zullen niet op de resulterende pagina verschijnen. Nochtans misvormde HTML ingegaan in **Source geeft** uit kan het malplaatje voor de pagina breken resulterend in onverwachte het formatteren of het teruggeven van de resulterende pagina onbruikbaar.
+>HTML ingegaan via **Source geeft** uit wordt gescand voor XSS risico&#39;s en om het even welke manuscripten die worden opgenomen worden verwijderd en zullen niet op de resulterende pagina verschijnen. Nochtans misvormde HTML ingegaan in **Source geeft** uit kan het malplaatje voor de pagina breken die in onverwachte het formatteren of het teruggeven van de resulterende pagina onbruikbaar maken.
 
 >[!NOTE]
 >
->Omdat HTML ingegaan via **Source** voor XSS risico&#39;s en om het even welke manuscripten wordt gescand en automatisch die gevonden verwijdert, kan de daadwerkelijke inhoud voortgeduurd variëren van wat in **Source uitgeeft** was ingegaan. Om deze reden, om aangebrachte veranderingen te bewaren gebruikend **Source geeft** uit, moet u **Source eerst weggaan uitgeven** om de tekst in de normale redacteur te bekijken alvorens op te slaan.
+>Omdat HTML binnenging via **Source geeft** uit wordt gescand voor XSS risico&#39;s en om het even welke manuscripten en verwijdert automatisch die gevonden, kan de daadwerkelijke inhoud voortgeduurd variëren van wat in **Source uitgeeft** was ingegaan. Om deze reden, om aangebrachte veranderingen te bewaren gebruikend **Source geeft** uit, moet u **Source eerst weggaan uitgeven** om de tekst in de normale redacteur te bekijken alvorens op te slaan.
 
 #### Alineaopmaak
 
@@ -399,10 +399,10 @@ Alineastijlen kunnen voor de component worden geactiveerd of gedeactiveerd. Als 
 De optie voor het invoegen van speciale tekens kan voor de component worden geactiveerd of gedeactiveerd. Als deze optie is geactiveerd, kunnen de toegestane tekens worden gedefinieerd.
 
 * Tik of klik **voeg** knoop toe om een nieuw karakter op te nemen.
-* Voer de HTML-code van het teken in en een beschrijving die wordt weergegeven in het dialoogvenster Bewerken.
+* Voer de HTML-code in van het teken en een beschrijving die wordt weergegeven in het dialoogvenster Bewerken.
 * Om een karakter te verwijderen, tik of klik de **knoop van de Schrapping**.
 * Als u de volgorde van de tekens wilt wijzigen, tikt u of klikt u en sleept u de handgrepen.
 
 ## Tabblad Stijlen {#styles-tab}
 
-De E-mailComponent van de Tekst steunt het AEM [ stijlsysteem ](/help/get-started/authoring.md#component-styling).
+De component van de Tekst E-mail steunt het de stijlsysteem van AEM [ ](/help/get-started/authoring.md#component-styling).

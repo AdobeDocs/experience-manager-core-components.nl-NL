@@ -3,9 +3,9 @@ title: Component List
 description: De component van de Lijst van de Component van de Kern staat voor de gemakkelijke verwezenlijking van dynamische en statische lijsten toe.
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: af908d77b30b7642b553f38c217136cfd5603108
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -22,20 +22,20 @@ De component List kan worden gebruikt om bijvoorbeeld een dynamische lijst met o
 
 De huidige versie van de component List is v4, die in februari 2023 is geïntroduceerd met release 2.22.0 van de Core Components, en die in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
+In de volgende tabel worden alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies weergegeven.
 
-| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
 | v4 | - | Compatibel | Compatibel |
-| [ v3 ](/help/components/v3/list.md) | - | Compatibel | Compatibel |
-| [ v2 ](/help/components/v2/list.md) | Compatibel | Compatibel | Compatibel |
-| [ v1 ](/help/components/v1/list-v1.md) | Compatibel | Compatibel | Compatibel |
+| [ v3 ](/help/components/v3/list.md) | - | Compatibel | Compatibel | Compatibel |
+| [ v2 ](/help/components/v2/list.md) | Compatibel | Compatibel | - | Compatibel |
+| [ v1 ](/help/components/v1/list-v1.md) | Compatibel | Compatibel | - | Compatibel |
 
 Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
 
 ## Omleiding in lijsten {#redirects}
 
-Wanneer een pagina een omleidingsdoel heeft (ongeacht of deze naar een externe URL of naar een andere AEM pagina verwijst), dan een lijst die koppelingen naar dat punt rechtstreeks naar de URL van het omleidingsdoel bevat.
+Wanneer een pagina een omleidingsdoel heeft (ongeacht of deze naar een externe URL of naar een andere AEM-pagina verwijst), dan een lijst die koppelingen naar dat punt rechtstreeks naar de URL van het omleidingsdoel bevat.
 
 ### Voorbeeld {#redirect-example}
 
@@ -108,7 +108,7 @@ Als er meer dan één item voor de lijst is gemaakt, kunt u de lijst rangschikke
 
 #### Zoeken {#search-options}
 
-De lijst kan worden samengesteld met de resultaten van een zoekopdracht naar AEM inhoud.
+De lijst kan worden samengesteld met behulp van de resultaten van een zoekopdracht naar AEM-inhoud.
 
 ![ de lijstopties van het Onderzoek ](/help/assets/list-edit-search.png)
 
@@ -172,7 +172,7 @@ Met het tabblad Iteminstellingen kunt u de opmaak van de lijstelementen configur
 
 ### Tabblad Stijlen {#styles-tab-edit}
 
-De Component van de Lijst steunt het AEM [ Systeem van de Stijl.](/help/get-started/authoring.md#component-styling).
+De Component van de Lijst steunt het Systeem van de Stijl van AEM [.](/help/get-started/authoring.md#component-styling).
 
 Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
 
@@ -216,8 +216,8 @@ Laat de optie van de Datum van de Show in [ toe uitgeven dialoog ](#edit-dialog)
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van het Beeld steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De Component van het Beeld steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
-## Gegevenslaag client-Adobe {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
-De Component van de Lijst steunt de [ Gegevens van de Cliënt van de Adobe Laag.](/help/developing/data-layer/overview.md)
+De Component van de Lijst steunt de [ Laag van Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)

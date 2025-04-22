@@ -3,9 +3,9 @@ title: Tekstcomponent
 description: De component Text is een component voor tekstbewerking en -compositie met tekstopmaak die op locatie kan worden bewerkt.
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 418f1b6c967760d801d0973a35e0a31343ddca6b
+source-git-commit: da947be103bd68abad82fcfcbee58d527bc14dbd
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: '2185'
 ht-degree: 0%
 
 ---
@@ -24,12 +24,12 @@ Het [ geeft dialoog ](#edit-dialog) eigenschappen in-lijn uit het uitgeven met b
 
 De huidige versie van de Tekstcomponent is v2, die in januari 2018 is geïntroduceerd met versie 2.0.0 van de Core Components, en die in dit document wordt beschreven.
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
+In de volgende tabel worden alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies weergegeven.
 
-| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
-|---|---|---|---|
-| v2 | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel | Compatibel |
-| [ v1 ](v1/text-v1.md) | Compatibel | Compatibel | Compatibel |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|---|
+| v2 | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel | Compatibel | Compatibel |
+| [ v1 ](v1/text-v1.md) | Compatibel | Compatibel | - | Compatibel |
 
 Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
 
@@ -45,7 +45,7 @@ De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in
 
 ## De component Text en de RTF-editor {#the-text-component-and-the-rich-text-editor}
 
-De component van de Tekst van de Componenten van de Kern gebruikt de AEM Rich Text Editor (RTE). RTE voorziet inhoudsauteurs van een brede waaier van functionaliteit voor het uitgeven van hun tekstinhoud. RTE is zeer flexibel in zijn configuratie en biedt een aantal opties aan. Verdere details over hoe RTE kan worden gevormd kunnen in de artikelen [ worden gevonden vormen de Rijke Redacteur van de Tekst ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) en [ vormen de Rijke stop-ins van de Redacteur van de Tekst ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+De component van de Tekst van de Componenten van de Kern gebruikt de Redacteur van de Tekst van AEM Rich (RTE). RTE voorziet inhoudsauteurs van een brede waaier van functionaliteit voor het uitgeven van hun tekstinhoud. RTE is zeer flexibel in zijn configuratie en biedt een aantal opties aan. Verdere details over hoe RTE kan worden gevormd kunnen in de artikelen [ worden gevonden vormen de Rijke Redacteur van de Tekst ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) en [ vormen de Rijke stop-ins van de Redacteur van de Tekst ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 De rest van dit artikel toont de standaardconfiguratie van de Component van de Tekst van de Componenten van de Kern met de uit-van-de-doos configuratie van RTE aan.
 
@@ -122,9 +122,9 @@ Met deze optie kunt u de geselecteerde tekst omzetten in een hyperlink of een re
 ![ voorbeeld van de Hyperlink ](/help/assets/text-hyperlink-example.png)
 
 * Het pad invoeren
-   * Kies in het dialoogvenster Selectie openen een pad in AEM
-   * Als de koppeling zich niet binnen AEM bevindt, voert u de absolute URL in
-      * Niet-absolute paden worden geïnterpreteerd als relatieve AEM
+   * Kies een pad in AEM in het dialoogvenster Selectie openen
+   * Als de koppeling zich niet in AEM bevindt, voert u de absolute URL in
+      * Niet-absolute paden worden geïnterpreteerd als relatief ten opzichte van AEM
 * Alternatieve beschrijvende tekst voor de koppeling invoeren
 * Koppelingsgedrag selecteren
    * Doel
@@ -282,11 +282,11 @@ Tik of klik **Source geeft** pictogram uit om de inhoud van de tekst van de gefo
 >
 >Zoals altijd het geval met toegang tot ruwe HTML, moet de zorg worden uitgeoefend wanneer het gebruiken van **Source geeft** optie uit!
 >
->HTML ingegaan via **Source geeft** uit wordt gescand voor XSS risico&#39;s en om het even welke manuscripten die worden opgenomen worden verwijderd en zullen niet op de resulterende pagina verschijnen. Nochtans misvormde HTML ingegaan in **Source geeft** uit kan het malplaatje voor de pagina breken resulterend in onverwachte het formatteren of het teruggeven van de resulterende pagina onbruikbaar.
+>HTML ingegaan via **Source geeft** uit wordt gescand voor XSS risico&#39;s en om het even welke manuscripten die worden opgenomen worden verwijderd en zullen niet op de resulterende pagina verschijnen. Nochtans misvormde HTML ingegaan in **Source geeft** uit kan het malplaatje voor de pagina breken die in onverwachte het formatteren of het teruggeven van de resulterende pagina onbruikbaar maken.
 
 >[!NOTE]
 >
->Omdat HTML ingegaan via **Source** voor XSS risico&#39;s en om het even welke manuscripten wordt gescand en automatisch die gevonden verwijdert, kan de daadwerkelijke inhoud voortgeduurd variëren van wat in **Source uitgeeft** was ingegaan. Om deze reden, om aangebrachte veranderingen te bewaren gebruikend **Source geeft** uit, moet u **Source eerst weggaan uitgeven** om de tekst in de normale redacteur te bekijken alvorens op te slaan.
+>Omdat HTML binnenging via **Source geeft** uit wordt gescand voor XSS risico&#39;s en om het even welke manuscripten en verwijdert automatisch die gevonden, kan de daadwerkelijke inhoud voortgeduurd variëren van wat in **Source uitgeeft** was ingegaan. Om deze reden, om aangebrachte veranderingen te bewaren gebruikend **Source geeft** uit, moet u **Source eerst weggaan uitgeven** om de tekst in de normale redacteur te bekijken alvorens op te slaan.
 
 ### Alineaopmaak
 
@@ -362,14 +362,14 @@ Alineastijlen kunnen voor de component worden geactiveerd of gedeactiveerd. Als 
 De optie voor het invoegen van speciale tekens kan voor de component worden geactiveerd of gedeactiveerd. Als deze optie is geactiveerd, kunnen de toegestane tekens worden gedefinieerd.
 
 * Tik of klik **voeg** knoop toe om een nieuw karakter op te nemen.
-* Voer de HTML-code van het teken in en een beschrijving die wordt weergegeven in het dialoogvenster Bewerken.
+* Voer de HTML-code in van het teken en een beschrijving die wordt weergegeven in het dialoogvenster Bewerken.
 * Om een karakterkraan te verwijderen of de **knoop van de Schrapping** te klikken.
 * Als u de volgorde van de tekens wilt wijzigen, tikt u of klikt u en sleept u de handgrepen.
 
 ## Tabblad Stijlen {#styles-tab}
 
-De Component van de Tekst steunt het AEM [ stijlsysteem ](/help/get-started/authoring.md#component-styling).
+De Component van de Tekst steunt het de stijlsysteem van AEM [ ](/help/get-started/authoring.md#component-styling).
 
-## Gegevenslaag client-Adobe {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
-De Component van de Tekst steunt de [ Laag van de Gegevens van de Cliënt van de Adobe.](/help/developing/data-layer/overview.md)
+De Component van de Tekst steunt de [ Laag van Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)
