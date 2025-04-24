@@ -3,9 +3,9 @@ title: Afbeeldingscomponent
 description: De component Core Component Image is een adaptieve afbeeldingscomponent.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: ad911040d7e47fc3884071005c17accf8edd0a62
 workflow-type: tm+mt
-source-wordcount: '1961'
+source-wordcount: '2062'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,14 @@ Bovendien ondersteunt de component Afbeelding lui laden om het laden van het eig
 >[!TIP]
 >
 >De component Image wordt standaard geactiveerd door de adaptieve afbeeldingsserver. Zie [ Aangepaste Servlet van het Beeld ](/help/developing/adaptive-image-servlet.md) voor details op hoe het werkt.
+
+### Verschillen met v2 {#v2-differences}
+
+In tegenstelling tot versie 2 van de Afbeeldingscomponent, gebruikt versie 3 browsereigen reactievermogen. Dit betekent dat de browser een reeks bronnen voor een afbeelding voor verschillende breedten ontvangt en dat de browser de beste bron kiest.
+
+Meestal wordt in browsers liever lokaal een grotere breedte verkleind om een kleinere viewport te gebruiken in plaats van de afbeelding met een kleinere breedte van de server op te halen. Dit wordt verwacht en waarom de afbeeldingscomponent niet mag worden gebruikt voor illustraties (verschillende afbeeldingen/uitsnijdingen voor verschillende viewports).
+
+[ gelieve te zien de technische documentatie van de Component van het Beeld ](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/image/v3/image#javascript-data-attribute-bindings) voor meer informatie.
 
 ## Ondersteuning voor dynamische media {#dynamic-media}
 
