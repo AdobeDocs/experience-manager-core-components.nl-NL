@@ -3,9 +3,9 @@ title: Component E-mailinhoudsfragment
 description: Met de component E-mailinhoudsfragment kunt u een inhoudsfragment in uw inhoud weergeven.
 role: Architect, Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ In de volgende tabel worden alle ondersteunde versies van de component, de AEM-v
 
 | Componentversie | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
-| v1 | Compatibel | Compatibel | - |
+| v1 | Compatibel | - | - |
 
 Voor meer informatie over de versies en versies van de Component van de Kern E-mailE-mail van de Component, zie de Versies van de Componenten van de Document [ E-mailKern.](/help/email/versions.md)
 

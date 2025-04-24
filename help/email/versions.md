@@ -3,9 +3,9 @@ title: Core Email Components Versies
 description: Core Email Components worden gepubliceerd als releases.
 role: Architect, Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ De e-mailCore-onderdelen zijn ontworpen om flexibel te zijn en compatibel te zij
 
 | Geen | Beschrijving | AEM 6.5 | AEM 6.5 LTS | Kernonderdelen | Java | Releasedatum |
 |---|---|---|---|---|---|---|
-| [ 1.3.0 ](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.3.0) | Deze release werkt de ingesloten jsoup-bibliotheek bij. | 6.5.14.0+ | 6,5 LTS GA | [ 2.21.2+ ](/help/versions.md) | 8, 11 | 28 juni 2024 |
+| [ 1.3.0 ](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.3.0) | Deze release werkt de ingesloten jsoup-bibliotheek bij. | 6.5.14.0+ | - | [ 2.21.2+ ](/help/versions.md) | 8, 11 | 28 juni 2024 |
 | [ 1.2.2 ](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.2.2) | In deze onderhoudrelease zijn de filters voor kiezers gecorrigeerd, is een `SelectorParseException` opgelost en zijn andere fouten gecorrigeerd. | 6.5.14.0+ | - | [ 2.21.2+ ](/help/versions.md) | 8, 11 | 24 mei 2023 |
 | [ 1.2.0 ](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.2.0) | Deze release introduceerde Selenium e2e-tests en bevatte een aantal correcties voor fouten. | 6.5.14.0+ | - | [ 2.21.2+ ](/help/versions.md) | 8, 11 | 29 november 2022 |
 | [ 1.0.0 ](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.0.0) | Voor de eerste openbare release raadpleegt u de opmerkingen bij de release voor uitgebreide informatie | 6.5.14.0+ | - | [ 2.21.2+ ](/help/versions.md) | 8, 11 | 29 november 2022 |

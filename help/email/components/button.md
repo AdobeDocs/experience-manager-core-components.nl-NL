@@ -3,9 +3,9 @@ title: Component E-mailknop
 description: Met de component E-mailknop kunt u een knopitem in uw inhoud configureren en weergeven.
 role: Architect, Developer, Admin, User
 exl-id: b144e8d1-1097-475d-b2eb-3353c176afb9
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ In de volgende tabel worden alle ondersteunde versies van de component, de AEM-v
 
 | Componentversie | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
-| v1 | Compatibel | Compatibel | - |
+| v1 | Compatibel | - | - |
 
 Voor meer informatie over de versies en de versies van de Component van de Kern, zie het document [ e-mailVersie van de Componenten van de Kern.](/help/email/versions.md)
 

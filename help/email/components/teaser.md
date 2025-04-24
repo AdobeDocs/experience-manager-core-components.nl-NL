@@ -3,9 +3,9 @@ title: E-mailteascomponent
 description: De component E-mailtaser kan een afbeelding, een titel, tekst met opmaak en eventueel een koppeling naar andere inhoud weergeven.
 role: Architect, Developer, Admin, User
 exl-id: d6123b22-7cba-406c-986d-b6f00322d135
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ In de volgende tabel worden alle ondersteunde versies van de component, de AEM-v
 
 | Componentversie | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
-| v1 | Compatibel | Compatibel | - |
+| v1 | Compatibel | - | - |
 
 ### Technische details {#technical-details}
 

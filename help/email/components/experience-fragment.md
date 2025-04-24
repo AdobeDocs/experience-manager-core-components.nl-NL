@@ -3,9 +3,9 @@ title: E-mailervaringsfragmentcomponent
 description: Met de E-mailervaringsfragmentcomponent kan de auteur van de inhoud een Experience-fragmentvariatie in de inhoud plaatsen en een gelokaliseerde inhoudsstructuur ondersteunen.
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ In de volgende tabel worden alle ondersteunde versies van de component, de AEM-v
 
 | Componentversie | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
-| v1 | Compatibel | Compatibel | - |
+| v1 | Compatibel | - | - |
 
 Voor meer informatie over de versies en de versies van de Component van de Kern E-mailE-mail van de Component, zie het document [ Versies van de Componenten van de Kern.](/help/email/versions.md)
 
