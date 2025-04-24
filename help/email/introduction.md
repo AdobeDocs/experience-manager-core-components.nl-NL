@@ -3,9 +3,9 @@ title: Inleiding e-mailkern-componenten
 description: Maak aantrekkelijke e-mailinhoud met de flexibiliteit van de Email Core Components en lever deze met de kracht van Adobe Campaign.
 role: Architect, Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
+source-git-commit: 91cf78d4c6622bbdec5ac7d22954c9c081c839d2
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ De onderdelen van de e-mailkern voldoen aan de volgende vereisten.
 
 | AEM | Adobe Campaign | Kernonderdelen |
 |---|---|---|
-| AEM 6.5.14.0+ <br> op gebouw of AMS | Adobe Campaign Classic <br> Adobe Campaign Standard | [ Versie 2.21.2 ](/help/versions.md)+ |
+| AEM 6.5.14.0+ <br> op-gebouw of AMS | Adobe Campaign Classic <br> Adobe Campaign Standard | [ Versie 2.21.2 ](/help/versions.md)+ |
 
 >[!NOTE]
 >

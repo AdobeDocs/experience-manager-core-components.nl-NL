@@ -3,7 +3,7 @@ title: Core Email Components Versies
 description: Core Email Components worden gepubliceerd als releases.
 role: Architect, Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
+source-git-commit: 91cf78d4c6622bbdec5ac7d22954c9c081c839d2
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Core Email Components Versies {#core-components-versions}
 
-De huidige release van de Email Core Components is 1.3.0 en is compatibel met AEM 6.5 en AEM 6.5 LTS.
+De huidige versie van de Email Core Components is 1.3.0 en is compatibel met AEM 6.5, zowel op locatie als AMS.
 
 Zie de [ sectie van Vereisten ](/help/email/introduction.md#requirements) van het document van de Inleiding van de Componenten E-mailKern en de [ sectie van de Installatie ](/help/email/using.md#installing-the-email-core-components) van het Gebruiken van het E-mailDocument van de Componenten van de Kern voor meer informatie over vereisten en installatie, respectievelijk.
 
