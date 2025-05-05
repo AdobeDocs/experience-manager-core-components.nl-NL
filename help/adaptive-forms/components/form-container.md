@@ -45,7 +45,7 @@ De Adaptive Forms Accordion Core Component is in februari 2023 uitgebracht als o
 |---|---|---|
 | v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
 <!-- ## Sample Component Output {#sample-component-output}
 
 To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
@@ -118,7 +118,7 @@ Het **Toegestane lusje van Componenten** staat malplaatjeredacteur toe om de com
 
 ### Tabblad Standaardcomponenten {#default-components-tab}
 
-![ de dialoog standaardcomponentenlusje van het Ontwerp {](/help/adaptive-forms/assets/formcontainer-defaultcomponents.png)
+![ de dialoog standaardcomponentenlusje van het Ontwerp &lbrace;](/help/adaptive-forms/assets/formcontainer-defaultcomponents.png)
 
 Het **Standaardlusje van Componenten** staat de malplaatjeredacteur toe om de componenten te specificeren die door gebrek als punten in de component van de vormcontainer in de Aangepaste redacteur van Forms zichtbaar zijn.
 

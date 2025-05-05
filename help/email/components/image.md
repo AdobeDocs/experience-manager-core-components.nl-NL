@@ -166,4 +166,4 @@ U kunt een lijst van breedten in pixel voor het beeld bepalen en de component za
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component E-mail van het Beeld steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De component E-mail van het Beeld steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).

@@ -89,4 +89,4 @@ In het dialoogvenster Configureren kan de auteur van de inhoud het type tekst de
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van de Tekst van de Vorm steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De component van de Tekst van de Vorm steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).

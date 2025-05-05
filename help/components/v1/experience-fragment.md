@@ -29,7 +29,7 @@ In dit document wordt versie 1 van de Experience Fragment Component beschreven, 
 >
 >In dit document wordt versie 1 van de Experience Fragment-component beschreven.
 >
->Voor details van de huidige versie van de Component van het Fragment van de Ervaring, zie het ](/help/components/experience-fragment.md) document van de Component van het Fragment van 0} van de Ervaring.[
+>Voor details van de huidige versie van de Component van het Fragment van de Ervaring, zie het [&#128279;](/help/components/experience-fragment.md) document van de Component van het Fragment van 0&rbrace; van de Ervaring.
 
 ## Ondersteuning voor gelokaliseerde sitestructuur {#localized-site-structure}
 

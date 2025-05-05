@@ -78,7 +78,7 @@ De stijlen van de meeste Core Components kunnen worden bepaald gebruikend het de
 * Een sjabloonauteur kan bepalen welke stijlen beschikbaar zijn voor een bepaalde component in het dialoogvenster Ontwerpen van die component.
 * De auteur van de inhoud kan vervolgens kiezen welke stijlen u wilt toepassen bij het toevoegen van de component en het maken van inhoud.
 
-Voor verdere details zie de ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html) documentatie van het Systeem van de Stijl 0}.[
+Voor verdere details zie de [&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html) documentatie van het Systeem van de Stijl 0&rbrace;.
 
 ## Bronnen voor ontwikkelaars {#developer-resources}
 

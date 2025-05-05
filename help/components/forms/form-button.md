@@ -72,4 +72,4 @@ In het dialoogvenster voor configureren kan de auteur van de inhoud de parameter
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van de Knoop van de Vorm steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De component van de Knoop van de Vorm steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).

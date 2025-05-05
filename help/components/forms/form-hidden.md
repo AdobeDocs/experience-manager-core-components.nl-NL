@@ -64,4 +64,4 @@ Omdat de Vorm Verborgen component normaal geen zichtbare attributen heeft, toont
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Vorm Verborgen Component steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De Vorm Verborgen Component steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).

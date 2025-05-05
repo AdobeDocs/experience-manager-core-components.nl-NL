@@ -46,7 +46,7 @@ De Adaptive Forms Terms and Condition Core Component is in februari 2023 uitgebr
 |---|---|---|
 | v1 | Compatibel systeem met <br>[ versie 2.0.62 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.28 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
 
 ## Technische details {#technical-details}
 
@@ -66,7 +66,7 @@ Met het dialoogvenster Configureren kunt u de ervaring van de component bepaling
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
   Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
-  ](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0}![
+  ![&#128279;](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0&rbrace;
 
 - **toon de Optie van de Goedkeuring** - selecteer de optie om toestemmingscheckbox te tonen die wordt gebruikt om expliciete toestemming van de gebruiker te verkrijgen.
 
@@ -176,7 +176,7 @@ Deze component vervangt een of meer toestemmingsteksten door een of meer webkopp
 - **staat Rijke Tekst voor Titel** toe - Deze eigenschap laat gebruikers toe om titels te formatteren gebruikend opties zoals vette, cursieve opties, doopvontstijlen, kleuren, en groepering, verbeterend visuele presentatie en aanpassing. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
   Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
-  ](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0}![
+  ![&#128279;](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0&rbrace;
 
 - **Verberg Titel** - selecteer de optie om de Titel van de component te verbergen.
 

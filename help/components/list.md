@@ -188,7 +188,7 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur definiëren welke typen li
 
 Op het **lusje van de Montages van de Lijst**, kan het datumformaat worden bepaald evenals welk type van lijsten in de component aan de inhoudsauteurs beschikbaar zouden moeten zijn.
 
-{het plaatsen van de het ontwerpdialoog van de Component van 0} Lijst ](/help/assets/list-design-list-settings.png)![
+{het plaatsen van de het ontwerpdialoog van de Component van 0} Lijst ![&#128279;](/help/assets/list-design-list-settings.png)
 
 * **Formaat van de Datum**
 Formaat voor de weergave van de laatste wijzigingsdatum
@@ -216,7 +216,7 @@ Laat de optie van de Datum van de Show in [ toe uitgeven dialoog ](#edit-dialog)
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van het Beeld steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De Component van het Beeld steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
 ## Adobe Client Data Layer {#data-layer}
 

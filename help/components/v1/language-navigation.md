@@ -31,7 +31,7 @@ In dit document wordt versie 1 van de taalnavigatiecomponent beschreven, die in 
 >
 >In dit document wordt versie 1 van de taalnavigatiecomponent beschreven.
 >
->Voor details van de huidige versie van de Component van de Navigatie van de Taal, zie het ](/help/components/language-navigation.md) document van de Component van de Navigatie van 0} Taal.[
+>Voor details van de huidige versie van de Component van de Navigatie van de Taal, zie het [&#128279;](/help/components/language-navigation.md) document van de Component van de Navigatie van 0&rbrace; Taal.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
@@ -51,7 +51,7 @@ Doorgaans hoeven deze configuraties alleen op paginasjabloonniveau te worden uit
 
 ### Tabblad Eigenschappen {#properties-tab}
 
-{het ontwerpdialoog van de Component van de Navigatie van 0} Taal ](/help/assets/language-navigation-design.png)![
+{het ontwerpdialoog van de Component van de Navigatie van 0} Taal ![&#128279;](/help/assets/language-navigation-design.png)
 
 * **Basis van de Navigatie**
    * Hier moet de taalnavigatie van de site worden gestart.
@@ -83,7 +83,7 @@ Laten we zeggen dat uw inhoud er ongeveer als volgt uitziet:
 
 Voor de plaats WKND, zou u waarschijnlijk de component van de Navigatie van de Taal op een paginamalplaatje als deel van de kopbal willen plaatsen. Zodra een deel van het malplaatje, kunt u de **Wortel van de Navigatie** van de component aan `/content/wknd` plaatsen aangezien dat is waar uw gelokaliseerde inhoud voor die plaats begint. U zou ook de **Diepte van de Structuur van de Taal** willen plaatsen om `2` te zijn aangezien uw structuur van twee niveaus (land toen taal) is.
 
-Met de **waarde van de Root van de Navigatie 0}, weet de Component van de Taal dat na `/content/wknd` dat de navigatie begint en het taalnavigatieopties kan produceren door de volgende twee niveaus in de inhoudsboom als de taalnavigatiestructuur van de plaats (zoals die door de** waarde van de Diepte van de Structuur van de Taal **wordt bepaald) te erkennen.**
+Met de **waarde van de Root van de Navigatie 0&rbrace;, weet de Component van de Taal dat na `/content/wknd` dat de navigatie begint en het taalnavigatieopties kan produceren door de volgende twee niveaus in de inhoudsboom als de taalnavigatiestructuur van de plaats (zoals die door de** waarde van de Diepte van de Structuur van de Taal **wordt bepaald) te erkennen.**
 
 Ongeacht welke pagina een gebruiker bekijkt, kan de component van de Navigatie van de Taal de overeenkomstige pagina in een andere taal vinden, door de plaats van de huidige pagina te kennen en achterwaarts aan de wortel te werken, en dan door:sturen aan de overeenkomstige pagina.
 
@@ -101,7 +101,7 @@ Bovendien kunt u een **identiteitskaart** plaatsen. Deze optie staat toe om het 
 * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
 * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
-{de Component van de Navigatie van 0} Taal geeft dialoog uit ](/help/assets/language-navigation-edit.png)![
+{de Component van de Navigatie van 0} Taal geeft dialoog uit ![&#128279;](/help/assets/language-navigation-edit.png)
 
 ## Gegevenslaag client-Adobe {#data-layer}
 

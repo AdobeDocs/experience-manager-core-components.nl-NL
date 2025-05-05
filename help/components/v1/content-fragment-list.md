@@ -29,7 +29,7 @@ In het document wordt versie 1 van de Content Fragment Component beschreven. Dez
 >
 >In dit document wordt versie 1 van de component Lijst met inhoudsfragmenten beschreven.
 >
->Voor details van de huidige versie van de Component van de Lijst van het Fragment van de Inhoud, zie het ](/help/components/content-fragment-list.md) document van de Component van de Lijst van het Fragment van 0} Inhoud.[
+>Voor details van de huidige versie van de Component van de Lijst van het Fragment van de Inhoud, zie het [&#128279;](/help/components/content-fragment-list.md) document van de Component van de Lijst van het Fragment van 0&rbrace; Inhoud.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 

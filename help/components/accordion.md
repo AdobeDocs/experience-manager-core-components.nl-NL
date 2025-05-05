@@ -99,7 +99,7 @@ Gebruik **voeg** knoop toe om de componentenselecteur te openen om te kiezen wel
 
 ## Pop-upmenu van deelvenster selecteren {#select-panel-popover}
 
-De inhoudauteur kan de **Uitgezochte 1} optie van het Comité op de componententoolbar gebruiken om in een verschillend paneel te veranderen voor het uitgeven evenals de orde van de panelen binnen de accordeon gemakkelijk te herschikken.**
+De inhoudauteur kan de **Uitgezochte 1&rbrace; optie van het Comité op de componententoolbar gebruiken om in een verschillend paneel te veranderen voor het uitgeven evenals de orde van de panelen binnen de accordeon gemakkelijk te herschikken.**
 
 ![ Uitgezochte paneelpictogram ](/help/assets/select-panel-icon.png)
 
@@ -131,7 +131,7 @@ De toegelaten Componenten lusjefuncties op de zelfde manier zoals het lusje van 
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van de Accordeon steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De Component van de Accordeon steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
 ## Adobe Client Data Layer {#data-layer}
 

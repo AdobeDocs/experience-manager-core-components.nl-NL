@@ -36,7 +36,7 @@ In de volgende tabel wordt de compatibiliteit van v1 van de paginacomponent weer
 >
 >In dit document wordt versie 1 van de pagina-component beschreven.
 >
->Voor details van de huidige versie van de Component van de Pagina, zie het ](/help/components/page.md) document van de Component van de 0} Pagina.[
+>Voor details van de huidige versie van de Component van de Pagina, zie het [&#128279;](/help/components/page.md) document van de Component van de 0&rbrace; Pagina.
 
 >[!NOTE]
 >

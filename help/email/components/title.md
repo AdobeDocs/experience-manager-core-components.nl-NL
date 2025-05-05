@@ -86,4 +86,4 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur het standaardkopniveau def
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van de Titel E-mail steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De component van de Titel E-mail steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).

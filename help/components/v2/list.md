@@ -26,7 +26,7 @@ In dit document wordt versie 1 van de component List beschreven. Deze versie is 
 >
 >In dit document wordt versie 2 van de component List beschreven.
 >
->Voor details van de huidige versie van de Component van de Lijst, zie het ](/help/components/list.md) document van de Component van de Lijst 0} {.[
+>Voor details van de huidige versie van de Component van de Lijst, zie het [&#128279;](/help/components/list.md) document van de Component van de Lijst 0&rbrace; &lbrace;.
 
 ## Omleiding in lijsten {#redirects}
 
@@ -167,7 +167,7 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur definiëren welke typen li
 
 Op het **lusje van de Montages van de Lijst**, kan het datumformaat worden bepaald evenals welk type van lijsten in de component aan de inhoudsauteurs beschikbaar zouden moeten zijn.
 
-{het plaatsen van de het ontwerpdialoog van de Component van 0} Lijst ](/help/assets/v2/list-design-list-settings.png)![
+{het plaatsen van de het ontwerpdialoog van de Component van 0} Lijst ![&#128279;](/help/assets/v2/list-design-list-settings.png)
 
 * **Formaat van de Datum**
 Formaat voor de weergave van de laatste wijzigingsdatum

@@ -54,8 +54,8 @@ Voor details op hoe te om OSGi te vormen, gelieve de volgende documenten te zien
 
 Nu kunt u controleren of de functie voor externe middelen werkt met Dynamic Media met OpenAPI. Hiertoe kunt u de WKND-voorbeeldsite en Core Components installeren.
 
-* ](https://github.com/adobe/aem-core-wcm-components/releases/download/core.wcm.components.reactor-2.23.2/core.wcm.components.all-2.23.2.zip) versie 2.23.2 van de Componenten van de Kern van 0} {wordt vereist.[
-* {de plaats van de Steekproef van 0} WKND ](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-3.2.0/aem-guides-wknd.all-3.2.0-classic.zip) versie 3.2.0 of later wordt vereist.[
+* [&#128279;](https://github.com/adobe/aem-core-wcm-components/releases/download/core.wcm.components.reactor-2.23.2/core.wcm.components.all-2.23.2.zip) versie 2.23.2 van de Componenten van de Kern van 0&rbrace; &lbrace;wordt vereist.
+* {de plaats van de Steekproef van 0} WKND [&#128279;](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-3.2.0/aem-guides-wknd.all-3.2.0-classic.zip) versie 3.2.0 of later wordt vereist.
 
 Nadat de Core Components en de WKND-site zijn geïnstalleerd, kunt u de functie op elke WKND-pagina testen.
 
@@ -65,7 +65,7 @@ Nadat de Core Components en de WKND-site zijn geïnstalleerd, kunt u de functie 
 
 1. Voeg een afbeeldingscomponent aan de pagina toe.
 
-1. In Configure dialoog van de component, uncheck de optie **erven geprezen beeld van pagina** op het **3} lusje van Activa {en klik** Keuze **.**
+1. In Configure dialoog van de component, uncheck de optie **erven geprezen beeld van pagina** op het **3&rbrace; lusje van Activa &lbrace;en klik** Keuze **.**
 
 1. Als de configuratie correct is, zal een drop-down met de opties **Lokale** en **Verre** verschijnen. Selecteer **Verre**.
 

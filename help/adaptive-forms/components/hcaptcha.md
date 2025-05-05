@@ -50,7 +50,7 @@ De adaptieve component van Forms hCaptcha wordt vrijgegeven in Mei 2024 als deel
 | — | — |
 | v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel | Compatibel |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
 
 ## Dialoogvenster configureren {#configure-dialog}
 

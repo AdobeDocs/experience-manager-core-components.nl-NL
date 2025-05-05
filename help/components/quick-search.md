@@ -84,4 +84,4 @@ Minimale lengte van de zoekterm om de zoekopdracht te starten
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Snelle Component van het Onderzoek steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De Snelle Component van het Onderzoek steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).

@@ -56,7 +56,7 @@ Er zijn verscheidene manieren om dit te automatiseren, maar de eenvoudigste mani
 
 ## Proxycomponenten maken {#create-proxy-components}
 
-Om redenen die in de ](/help/developing/guidelines.md#proxy-component-pattern) sectie worden verklaard van het Patroon van de Component van de Volmacht [ {, moeten de Componenten van de Kern niet direct van de inhoud worden van verwijzingen voorzien. Om dat te voorkomen behoren ze allemaal tot een verborgen componentgroep ( `.core-wcm` of `.core-wcm-form` ), waardoor ze niet direct in de editor worden weergegeven.
+Om redenen die in de [&#128279;](/help/developing/guidelines.md#proxy-component-pattern) sectie worden verklaard van het Patroon van de Component van de Volmacht  &lbrace;, moeten de Componenten van de Kern niet direct van de inhoud worden van verwijzingen voorzien. Om dat te voorkomen behoren ze allemaal tot een verborgen componentgroep ( `.core-wcm` of `.core-wcm-form` ), waardoor ze niet direct in de editor worden weergegeven.
 
 In plaats daarvan moeten er sitespecifieke componenten worden gemaakt, die de gewenste componentnaam en -groep definiëren voor weergave bij paginaauteurs en die elk naar een Core-component verwijzen als het supertype. Deze plaats-specifieke componenten worden soms genoemd &quot;volmachtscomponenten&quot;, omdat zij om het even wat niet te hoeven bevatten en vooral te dienen om de versie van een component te bepalen voor de plaats te gebruiken. Nochtans, wanneer het aanpassen van de [ Componenten van de Kern ](/help/developing/customizing.md), spelen deze volmachtscomponenten een essentiële rol voor prijsverhoging en logische aanpassing.
 

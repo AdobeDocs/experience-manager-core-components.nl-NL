@@ -368,7 +368,7 @@ De optie voor het invoegen van speciale tekens kan voor de component worden geac
 
 ## Tabblad Stijlen {#styles-tab}
 
-De Component van de Tekst steunt het de stijlsysteem van AEM [ ](/help/get-started/authoring.md#component-styling).
+De Component van de Tekst steunt het de stijlsysteem van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
 ## Adobe Client Data Layer {#data-layer}
 

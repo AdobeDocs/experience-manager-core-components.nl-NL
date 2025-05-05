@@ -92,7 +92,7 @@ De stijlen moeten voor deze component in de [ ontwerpdialoog ](#design-dialog) w
 
 ## Deelvenster selecteren {#select-panel}
 
-De inhoudauteur kan de **Uitgezochte 1} optie van het Comité {op de componententoolbar gebruiken om in een verschillend segment voor het uitgeven te veranderen evenals de segmenten gemakkelijk te herschikken.**
+De inhoudauteur kan de **Uitgezochte 1&rbrace; optie van het Comité &lbrace;op de componententoolbar gebruiken om in een verschillend segment voor het uitgeven te veranderen evenals de segmenten gemakkelijk te herschikken.**
 
 ![ Uitgezochte paneelpictogram ](/help/email/assets/select-panel-icon.png)
 

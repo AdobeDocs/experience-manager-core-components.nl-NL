@@ -68,7 +68,7 @@ Niet-compatibele wijzigingen in de volgende aspecten van componenten resulteren 
 * JSON-vertegenwoordiging
 * Dialoogvensters
 
-Voor verdere details, zie het ](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-Policies) document van het Beleid van de Versioning [ in GitHub.
+Voor verdere details, zie het [&#128279;](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-Policies) document van het Beleid van de Versioning  in GitHub.
 
 De versioning van de component leidt tot een vorm van contract die voor verbeteringen belangrijk is aangezien het verduidelijkt wanneer iets zou kunnen moeten worden verfrist. Zie ook de sectie [ Verenigbaarheid van de Verbetering van Aanpassingen ](customizing.md#upgrade-compatibility-of-customizations), die verklaart welke overwegingen verschillende vormen van aanpassingen voor een verbetering vereisen.
 
@@ -85,7 +85,7 @@ Wanneer gecombineerd met het [ hierboven beschreven Patroon van de Component van
 
 ## Alles samenvoegen {#putting-it-all-together}
 
-Hieronder volgt een overzicht van het volledige middeltype bindingsstructuur, die het voorbeeld van de Component van de Kern van de Titel neemt. Het illustreert hoe een plaats-specifieke volmachtscomponent toestaat om componentenversioning op te lossen, om te vermijden dat het inhoudsmiddel om het even welk versieaantal bevat. Het toont dan hoe het 2} dossiergebruik van de component `title.html` [ HTML {aan de modelinterface, terwijl de implementatie aan de specifieke versie van de component door [ het Schipen Model ](https://sling.apache.org/documentation/bundles/models.html) annotaties bindt.](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html)
+Hieronder volgt een overzicht van het volledige middeltype bindingsstructuur, die het voorbeeld van de Component van de Kern van de Titel neemt. Het illustreert hoe een plaats-specifieke volmachtscomponent toestaat om componentenversioning op te lossen, om te vermijden dat het inhoudsmiddel om het even welk versieaantal bevat. Het toont dan hoe het 2&rbrace; dossiergebruik van de component `title.html` [&#128279;](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) HTML &lbrace;aan de modelinterface, terwijl de implementatie aan de specifieke versie van de component door [ het Schipen Model ](https://sling.apache.org/documentation/bundles/models.html) annotaties bindt.
 
 ![ Bindend Overzicht van het Middel ](/help/assets/chlimage_1-32.png)
 

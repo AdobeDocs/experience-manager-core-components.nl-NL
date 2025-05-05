@@ -35,7 +35,7 @@ In de volgende tabel wordt de compatibiliteit van v1 van de component Breadcrumb
 >[!CAUTION]
 >
 >In dit document wordt versie 1 van de component Breadcrumb beschreven.
->Voor details van de huidige versie van de Component Breadcrumb, zie het ](/help/components/breadcrumb.md) document van de Component 0} Breadcrumb.[
+>Voor details van de huidige versie van de Component Breadcrumb, zie het [&#128279;](/help/components/breadcrumb.md) document van de Component 0&rbrace; Breadcrumb.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 

@@ -48,7 +48,7 @@ Voer de onderstaande stappen uit om de weergave, het gedrag en de functionalitei
 
 1. **vorm de Dialoog van de Component**
 
-   Configureer het dialoogvenster dat aan uw aangepaste component is gekoppeld. Gebruik de de componentendialoog van het voorbeeld [ ](https://github.com/adobe/aem-core-forms-components/blob/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput/_cq_dialog/.content.xml) in de documentatie wordt verstrekt om ervoor te zorgen dat gebruikersinteractie en de montages geschikt worden beheerd.
+   Configureer het dialoogvenster dat aan uw aangepaste component is gekoppeld. Gebruik de de componentendialoog van het voorbeeld [&#128279;](https://github.com/adobe/aem-core-forms-components/blob/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput/_cq_dialog/.content.xml) in de documentatie wordt verstrekt om ervoor te zorgen dat gebruikersinteractie en de montages geschikt worden beheerd.
 
 1. **stel en test de component op uw lokale ontwikkelomgeving op**
 

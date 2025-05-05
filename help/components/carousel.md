@@ -99,9 +99,9 @@ Op het **lusje van Eigenschappen**, kan de inhoudauteur de dia&#39;s aan automat
 
 >[!NOTE]
 >
->De controles van de diaversie worden niet toegelaten wanneer op **** wijze uitgeeft. De wijze van de Voorproef van het gebruik **](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) of de**[ Mening zoals Gepubliceerde ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published) **optie om met de carrousel in wisselwerking te staan aangezien een lezer van de gepubliceerde inhoud.[**
+>De controles van de diaversie worden niet toegelaten wanneer op **&#x200B;**&#x200B;wijze uitgeeft. De wijze van de Voorproef van het gebruik **[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) of de**&#x200B;[ Mening zoals Gepubliceerde ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published) **optie om met de carrousel in wisselwerking te staan aangezien een lezer van de gepubliceerde inhoud.**
 >
->De auto-vooruitgangseigenschap wordt niet toegelaten wanneer in **** wijze uitgeeft. De Mening van het gebruik **[zoals Gepubliceerde ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** optie om de auto-vooruitgangseigenschap als lezer van de gepubliceerde inhoud te zien.
+>De auto-vooruitgangseigenschap wordt niet toegelaten wanneer in **&#x200B;**&#x200B;wijze uitgeeft. De Mening van het gebruik **[zoals Gepubliceerde ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** optie om de auto-vooruitgangseigenschap als lezer van de gepubliceerde inhoud te zien.
 
 ### Tabblad Toegankelijkheid {#accessibility-tab}
 
@@ -119,7 +119,7 @@ Op het **lusje van de Toegankelijkheid**, kunnen de waarden voor [ de toegankeli
 
 ## Deelvenster selecteren {#select-panel}
 
-De inhoudauteur kan de **Uitgezochte 1} optie van het Comité op de componententoolbar gebruiken om in een verschillende dia te veranderen voor het uitgeven evenals de orde van de dia&#39;s gemakkelijk te herschikken.**
+De inhoudauteur kan de **Uitgezochte 1&rbrace; optie van het Comité op de componententoolbar gebruiken om in een verschillende dia te veranderen voor het uitgeven evenals de orde van de dia&#39;s gemakkelijk te herschikken.**
 
 ![ Uitgezochte paneelpictogram ](/help/assets/select-panel-icon.png)
 
@@ -154,7 +154,7 @@ De toegelaten Componenten lusjefuncties op de zelfde manier zoals het lusje van 
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component Carousel steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De component Carousel steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
 ## Adobe Client Data Layer {#data-layer}
 

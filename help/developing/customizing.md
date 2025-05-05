@@ -18,7 +18,7 @@ De [ Componenten van de Kern ](overview.md) voeren verscheidene patronen uit die
 
 De Core Components zijn vanaf het begin ontworpen om flexibel en uitbreidbaar te zijn. Een overzicht van hun architectuur onthult waar de aanpassingen kunnen worden gemaakt.
 
-](/help/assets/screen_shot_2018-12-07at093742.png) Architectuur van de Componenten van 0} Kern![
+![&#128279;](/help/assets/screen_shot_2018-12-07at093742.png) Architectuur van de Componenten van 0&rbrace; Kern
 
 * [ de ontwerpdialoog ](/help/get-started/authoring.md#edit-and-design-dialogs) bepaalt wat de auteurs kunnen of niet in uitgeven dialoog kunnen doen.
 * [ uitgeeft dialoog ](/help/get-started/authoring.md#edit-and-design-dialogs) toont auteurs slechts de opties zij worden toegestaan te gebruiken.
@@ -127,7 +127,7 @@ Bijvoorbeeld, kijkend het HTML- dossier van de v1 Component van de Kern Breadcru
 .cmp-breadcrumb a {}
 ```
 
-Bovendien, elk van de hefboomwerking van de Componenten van de Kern de AEM ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html) eigenschap van het Systeem van de Stijl die malplaatjeauteurs toestaat om extra CSS klassennamen te bepalen die op de component door de paginaauteurs kunnen worden toegepast. [ Op deze manier kunt u voor elke sjabloon een lijst met toegestane componentstijlen definiëren en aangeven of een van deze stijlen standaard moet worden toegepast op alle componenten van dat type.
+Bovendien, elk van de hefboomwerking van de Componenten van de Kern de AEM [&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html) eigenschap van het Systeem van de Stijl die malplaatjeauteurs toestaat om extra CSS klassennamen te bepalen die op de component door de paginaauteurs kunnen worden toegepast.  Op deze manier kunt u voor elke sjabloon een lijst met toegestane componentstijlen definiëren en aangeven of een van deze stijlen standaard moet worden toegepast op alle componenten van dat type.
 
 ## Compatibiliteit van aanpassingen upgraden {#upgrade-compatibility-of-customizations}
 
@@ -157,9 +157,9 @@ Zoals voor om het even welke AEM component, zijn er een aantal dingen om zich va
 
 1. **Controle verouderde en verwijderde functionaliteit.**
 
-   Met elke nieuwe AEM versie die wordt bevorderd aan, zorg ervoor dat alle gebruikte API nog actueel is door een oog op [ Vervangen en Verwijderde 1} pagina van Eigenschappen te houden {.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)
+   Met elke nieuwe AEM versie die wordt bevorderd aan, zorg ervoor dat alle gebruikte API nog actueel is door een oog op [ Vervangen en Verwijderde 1&rbrace; pagina van Eigenschappen te houden &lbrace;.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)
 
-Zie ook de ](overview.md#core-component-support) sectie van de Steun van de Component van de 0} Kern.[
+Zie ook de [&#128279;](overview.md#core-component-support) sectie van de Steun van de Component van de 0&rbrace; Kern.
 
 **Lees daarna:**
 

@@ -98,4 +98,4 @@ Het lusje Standaard van Componenten wordt gebruikt om te bepalen welke component
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van de Container steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De component van de Container steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
