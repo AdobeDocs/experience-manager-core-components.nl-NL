@@ -41,7 +41,7 @@ Hoewel AMP-ondersteuning veel flexibiliteit biedt, zijn er slechts enkele eenvou
 
 ### AMP inschakelen voor pagina&#39;s {#enabling-amp}
 
-Om AMP voor een pagina toe te laten, moet de **Wijze van AMP** in het [ Beleid van de Pagina worden geselecteerd.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)
+Om AMP voor een pagina toe te laten, moet de **Wijze van AMP** in het [ Beleid van de Pagina worden geselecteerd.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL#editing-a-template-page-policy-template-author-developer)
 
 ![ de opties van het Beleid van het Beleid van de Pagina van AMP ](/help/assets/amp-policy.png)
 
@@ -49,7 +49,7 @@ Om AMP voor een pagina toe te laten, moet de **Wijze van AMP** in het [ Beleid v
 * **Gepaste AMP** - de pagina wordt geleverd als AMP evenals HTML.
 * **slechts AMP** - de pagina wordt geleverd als slechts AMP.
 
-De montages van AMP voor een pagina kunnen ook in de [ Eigenschappen van de Pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) voor een individuele pagina worden met voeten getreden.
+De montages van AMP voor een pagina kunnen ook in de [ Eigenschappen van de Pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=nl-NL) voor een individuele pagina worden met voeten getreden.
 
 ![ de Eigenschappen van de Pagina van AMP ](/help/assets/amp-page-properties.png)
 

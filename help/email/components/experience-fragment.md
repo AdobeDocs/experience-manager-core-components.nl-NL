@@ -40,11 +40,11 @@ Voor meer informatie over de versies en de versies van de Component van de Kern 
 
 De E-mailervaringsfragmentcomponent is aangepast aan gelokaliseerde inhoudsstructuren en geeft het juiste ervaringsfragment weer op basis van de lokalisatie van de inhoud. Hiervoor moet het ervaringsfragment aan de volgende voorwaarden voldoen.
 
-* De component van het Fragment van de Ervaring E-mail wordt toegevoegd aan a [ paginamalplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/templates.html)
+* De component van het Fragment van de Ervaring E-mail wordt toegevoegd aan a [ paginamalplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/templates.html?lang=nl-NL)
 * Die sjabloon wordt gebruikt om een nieuwe inhoudspagina te maken die deel uitmaakt van een gelokaliseerde structuur onder `/content/<site>` .
 * Het ervaringsfragment waarnaar op een inhoudspagina wordt verwezen, maakt deel uit van een gelokaliseerde Experience-fragmentstructuur onder `/content/experience-fragments` die dezelfde patronen volgt als de onderstaande site `/content/<site>` , inclusief het gebruik van dezelfde componentnamen.
 
-In dit geval, zal het fragment met de zelfde localisatie ([ taal, blauwdruk, of levende exemplaar ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/msm-and-translation.html)) zoals de huidige pagina als deel van het malplaatje worden teruggegeven.
+In dit geval, zal het fragment met de zelfde localisatie ([ taal, blauwdruk, of levende exemplaar ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/msm-and-translation.html?lang=nl-NL)) zoals de huidige pagina als deel van het malplaatje worden teruggegeven.
 
 Dit gedrag is beperkt tot E-mailervaringsfragmentcomponenten die aan sjablonen zijn toegevoegd. De Componenten van het Fragment van de ervaring die aan individuele inhoudspagina&#39;s worden toegevoegd zullen de nauwkeurige die Uitvoeringen van het Fragment van de Ervaring teruggeven binnen de component worden gevormd.
 

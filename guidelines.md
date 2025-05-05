@@ -35,7 +35,7 @@ Uitzonderingen op deze regel zijn van toepassing op de opmerkingen bij de releas
 
 Alle ideeën die u eventueel nodig hebt om de AEM-documentatie te verbeteren, zijn welkom als bijdragen. Opmerkingen, problemen en intrekkingsverzoeken zijn echter alleen bedoeld voor *bijdragen* . Ze zijn niet bedoeld om u te helpen uw vragen te beantwoorden over het gebruik van AEM, het implementeren van uw AEM-project of het oplossen van technische problemen.
 
-Vragen over het gebruik van AEM of technische fouten die u mogelijk hebt, moeten via het normale supportproces worden gemeld via de [Experience Cloud Enterprise Support-portal](https://helpx.adobe.com/contact/enterprise-support.ec.html) of worden besproken in de [Experience Manager-community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
+Vragen over het gebruik van AEM of technische fouten die u mogelijk hebt, moeten via het normale supportproces worden gemeld via de [Experience Cloud Enterprise Support-portal](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html) of worden besproken in de [Experience Manager-community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
 
 ***Bijdragen aan AEM-documentatie zijn geen vervanging voor de klantenservice*** van Adobe en dergelijke bijdragen die antwoorden op supportgerelateerde vragen zoeken, worden afgewezen.
 

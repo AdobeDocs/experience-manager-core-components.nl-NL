@@ -20,7 +20,7 @@ Voor de meeste sites is een voettekst vereist die op alle pagina&#39;s aanwezig 
 
 Een navigatiecomponent moet gewoonlijk ook op alle pagina&#39;s worden getoond. De inhoud van de gelokaliseerde pagina&#39;s moet echter wel in de code worden opgenomen.
 
-Gebruikend de localisatieeigenschappen van de [ Component van de Kern van de Navigatie ](/help/components/navigation.md) en [ Component van de Kern van het Fragment van de Ervaring ](/help/components/experience-fragment.md) samen met de [ editable malplaatjes van AEM ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html), wordt dit een eenvoudige taak. Het voorbeeld zou verder kunnen worden uitgebreid om de [ Component van de Navigatie van de Taal ](/help/components/language-navigation.md) eveneens te gebruiken.
+Gebruikend de localisatieeigenschappen van de [ Component van de Kern van de Navigatie ](/help/components/navigation.md) en [ Component van de Kern van het Fragment van de Ervaring ](/help/components/experience-fragment.md) samen met de [ editable malplaatjes van AEM ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL), wordt dit een eenvoudige taak. Het voorbeeld zou verder kunnen worden uitgebreid om de [ Component van de Navigatie van de Taal ](/help/components/language-navigation.md) eveneens te gebruiken.
 
 ## De inhoudsstructuur {#content-structure}
 

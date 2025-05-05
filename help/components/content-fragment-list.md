@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Component lijst met inhoudsfragmenten{#content-fragment-list-component}
 
-De component van de Lijst van het Fragment van de Lijst van de Inhoud van de Component van de Kern staat voor de vertoning van een lijst van [ inhoudsfragmenten ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) toe.
+De component van de Lijst van het Fragment van de Lijst van de Inhoud van de Component van de Kern staat voor de vertoning van een lijst van [ inhoudsfragmenten ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=nl-NL) toe.
 
 ## Gebruik {#usage}
 
-De component van de Lijst van het Fragment van de Lijst van de Inhoud van de Component van de Kern staat voor de opneming van een lijst van [ inhoudsfragmenten ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) op een pagina toe die op een model van het Fragment van de Inhoud wordt gebaseerd. Dit kan vooral nuttig zijn om [ zonder kop inhoud ](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) te creëren die gemakkelijk door andere toepassingen kan worden verbruikt.
+De component van de Lijst van het Fragment van de Lijst van de Inhoud van de Component van de Kern staat voor de opneming van een lijst van [ inhoudsfragmenten ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=nl-NL) op een pagina toe die op een model van het Fragment van de Inhoud wordt gebaseerd. Dit kan vooral nuttig zijn om [ zonder kop inhoud ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) te creëren die gemakkelijk door andere toepassingen kan worden verbruikt.
 
 * De lijst en zijn eigenschappen kunnen in [ worden geselecteerd vormen dialoog ](#configure-dialog).
 * De stijlen kunnen op de component in de [ ontwerpdialoog ](#design-dialog) worden toegepast.

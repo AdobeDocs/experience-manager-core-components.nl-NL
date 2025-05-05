@@ -12,18 +12,18 @@ ht-degree: 0%
 
 # Aangepast formulierfragmentonderdeel {#form-fragment-component-adaptive-forms-core-component}
 
-Adaptief Forms biedt een handige manier om formuliersegmenten te maken, zoals deelvensters of groepen velden, zodat deze opnieuw kunnen worden gebruikt in verschillende Adaptief Forms. Deze herbruikbare en standalone segmenten worden bedoeld als [ Aangepaste fragmenten van de Vorm ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html).
+Adaptief Forms biedt een handige manier om formuliersegmenten te maken, zoals deelvensters of groepen velden, zodat deze opnieuw kunnen worden gebruikt in verschillende Adaptief Forms. Deze herbruikbare en standalone segmenten worden bedoeld als [ Aangepaste fragmenten van de Vorm ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=nl-NL).
 
-U kunt [ een fragment toevoegen veelvoudige tijden aan een document ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#insert-a-fragment-in-an-adaptive-form) en gegevens gebruiken bindende eigenschappen van zijn componenten om het aan verschillende gegevensbronnen of schema te binden. U kunt bijvoorbeeld hetzelfde adresfragment gebruiken voor een vast adres, communicatie en factureringsadres en dit koppelen aan verschillende velden van een gegevensbron of schema.
+U kunt [ een fragment toevoegen veelvoudige tijden aan een document ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=nl-NL#insert-a-fragment-in-an-adaptive-form) en gegevens gebruiken bindende eigenschappen van zijn componenten om het aan verschillende gegevensbronnen of schema te binden. U kunt bijvoorbeeld hetzelfde adresfragment gebruiken voor een vast adres, communicatie en factureringsadres en dit koppelen aan verschillende velden van een gegevensbron of schema.
 
 ![ voorbeeld ](/help/adaptive-forms/assets/using-multiple-fragment-af.gif)
 
 
-U kunt de [ herhaalbaarheidsoptie ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) ook gebruiken om de component van het vormfragment en zijn kindcomponenten te dupliceren, een minimum en maximumherhalingstelling te bepalen, en de replicatie van gelijkaardige secties binnen een vorm te vergemakkelijken.
+U kunt de [ herhaalbaarheidsoptie ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=nl-NL) ook gebruiken om de component van het vormfragment en zijn kindcomponenten te dupliceren, een minimum en maximumherhalingstelling te bepalen, en de replicatie van gelijkaardige secties binnen een vorm te vergemakkelijken.
 
 >[!NOTE]
 >
-> U kunt [ een Adaptief fragment van de Vorm ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#create-a-fragment) van kras tot stand brengen of een paneel in een bestaande AanpassingsVorm als fragment opslaan.
+> U kunt [ een Adaptief fragment van de Vorm ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=nl-NL#create-a-fragment) van kras tot stand brengen of een paneel in een bestaande AanpassingsVorm als fragment opslaan.
 
 ## Gebruik {#usage}
 

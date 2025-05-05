@@ -87,7 +87,7 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 
 >[!WARNING]
 >
->Directe URL bedt in een ervaring in die niet door bovengenoemde SPI (beschikbaar op de Plaatsen van AEM as a Cloud Service) wordt gebouwd is in schending van de [ termijnen van Media Library van gebruik ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/medialibrary.html?lang=en#use-media-library).
+>Directe URL bedt in een ervaring in die niet door bovengenoemde SPI (beschikbaar op de Plaatsen van AEM as a Cloud Service) wordt gebouwd is in schending van de [ termijnen van Media Library van gebruik ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/medialibrary.html?lang=nl-NL#use-media-library).
 
 ### Kunnen afbeeldingen niet worden weergegeven nadat geoptimaliseerde webafbeeldingen zijn ingeschakeld? {#failure-to-deliver}
 
@@ -96,4 +96,4 @@ Nee, dat mag nooit gebeuren om de volgende redenen.
 * In de HTML verandert de markering niet wanneer u voor het web geoptimaliseerde afbeeldingen inschakelt, verandert alleen de waarde van het kenmerk `src` in het afbeeldingselement.
 * Wanneer de nieuwe beelddienst niet beschikbaar is of niet het gewenste beeld kan verwerken, zal URL geproduceerd [ reserve aan de Adaptieve Servlet van het Beeld.](#fallback)
 
-De verzendingsregels kunnen echter de voor het web geoptimaliseerde service voor het leveren van afbeeldingen blokkeren. URLs van de dienst van de beeldlevering begint met `/adobe`, en het onderzoeken van de verzender registreert voor verworpen verzoeken zoals [ hier wordt beschreven ](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects) zou helpen om het even welke mislukkingen problemen oplossen die in het leveren van de beelden aan browser worden ontmoet.
+De verzendingsregels kunnen echter de voor het web geoptimaliseerde service voor het leveren van afbeeldingen blokkeren. URLs van de dienst van de beeldlevering begint met `/adobe`, en het onderzoeken van de verzender registreert voor verworpen verzoeken zoals [ hier wordt beschreven ](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html?lang=nl-NL#filter-rejects) zou helpen om het even welke mislukkingen problemen oplossen die in het leveren van de beelden aan browser worden ontmoet.

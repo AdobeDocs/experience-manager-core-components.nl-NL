@@ -28,7 +28,7 @@ E-mails maken deel uit van de merkervaring en de reis van de klant. Met de Email
 
 ## Functies {#features}
 
-* De E-mail van de Kern Componenten zijn gebaseerd op de [ Componenten van de Kern, ](/help/introduction.md) en steunt daarom ook [ Bewerkbare Malplaatjes ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) en het [ Systeem van de Stijl.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)
+* De E-mail van de Kern Componenten zijn gebaseerd op de [ Componenten van de Kern, ](/help/introduction.md) en steunt daarom ook [ Bewerkbare Malplaatjes ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL) en het [ Systeem van de Stijl.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=nl-NL)
 * Er zijn [ tien e-mail-geoptimaliseerde productie-klaar componenten ](#components) aan auteur e-mailinhoud.
 * De componenten van de Kern E-mail verstrekken geavanceerde verpersoonlijking dankzij de toevoeging van [ variabelen van Adobe Campaign ](campaign-variables.md) op de meeste dialooggebieden.
 * De flexibele [ component van de Segmentatie ](/help/email/components/segmentation.md) staat voor geavanceerde segmentatie van uw inhoud toe.

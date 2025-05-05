@@ -18,11 +18,11 @@ Met de Core Component Form Container Component kunnen eenvoudige verzendformulie
 
 Met de component Form Container kunt u formulieren en functies voor eenvoudige informatieverzending maken door eenvoudige WCM-formulieren te ondersteunen en door een geneste structuur te gebruiken om extra formuliercomponenten toe te staan.
 
-Door [ te gebruiken vormt dialoog ](#configure-dialog) de inhoudsleider kan de actie bepalen die door vormvoorlegging wordt teweeggebracht, URl die de voorlegging zou moeten behandelen, en of een werkschema zou moeten worden teweeggebracht. De malplaatjeauteur kan de [ ontwerpdialoog ](#design-dialog) gebruiken om de toegestane componenten en hun afbeeldingen te bepalen gelijkend op de ontwerpdialoog voor de [ standaardlay-outcontainer in de malplaatjedacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
+Door [ te gebruiken vormt dialoog ](#configure-dialog) de inhoudsleider kan de actie bepalen die door vormvoorlegging wordt teweeggebracht, URl die de voorlegging zou moeten behandelen, en of een werkschema zou moeten worden teweeggebracht. De malplaatjeauteur kan de [ ontwerpdialoog ](#design-dialog) gebruiken om de toegestane componenten en hun afbeeldingen te bepalen gelijkend op de ontwerpdialoog voor de [ standaardlay-outcontainer in de malplaatjedacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL).
 
 >[!NOTE]
 >
->De kerncomponenten Form Container Component ondersteunen alleen het gebruik van basiscomponenten van componenten (knop, tekst, verborgen enz.). Het gebruiken van [ stichtingscomponenten ](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html) vormcomponenten binnen de kerncomponenten van container (en vice versa) wordt niet gesteund.
+>De kerncomponenten Form Container Component ondersteunen alleen het gebruik van basiscomponenten van componenten (knop, tekst, verborgen enz.). Het gebruiken van [ stichtingscomponenten ](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html?lang=nl-NL) vormcomponenten binnen de kerncomponenten van container (en vice versa) wordt niet gesteund.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -119,7 +119,7 @@ Ongeacht het geselecteerde handelingstype, kan een pagina van dank u altijd word
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
-De ontwerpdialoog staat de malplaatjeauteur toe om de toegestane componenten en hun afbeeldingen voor de container te bepalen gelijkend op de ontwerpdialoog voor de [ standaardlay-outcontainer in de malplaatjedacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
+De ontwerpdialoog staat de malplaatjeauteur toe om de toegestane componenten en hun afbeeldingen voor de container te bepalen gelijkend op de ontwerpdialoog voor de [ standaardlay-outcontainer in de malplaatjedacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL).
 
 ### Tabblad Stijlen {#styles-tab}
 

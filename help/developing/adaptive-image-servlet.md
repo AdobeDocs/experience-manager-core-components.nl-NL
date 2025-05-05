@@ -54,6 +54,6 @@ Dit verbetert de prestaties en voorkomt dat sommige afbeeldingen niet correct wo
 
 ## Laatst gewijzigde koppen gebruiken {#last-modified}
 
-Voorwaardelijke verzoeken via de `Last-Modified` kopbal worden gesteund door de Adaptieve Servlet van het Beeld, maar het in het voorgeheugen onderbrengen van de `Last-Modified` kopbal [ moet in Dispatcher ](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers) worden toegelaten.
+Voorwaardelijke verzoeken via de `Last-Modified` kopbal worden gesteund door de Adaptieve Servlet van het Beeld, maar het in het voorgeheugen onderbrengen van de `Last-Modified` kopbal [ moet in Dispatcher ](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=nl-NL#caching-http-response-headers) worden toegelaten.
 
 [ de 1&rbrace; de steekproefconfiguratie van Dispatcher van de Archetype van het Project van AEM &lbrace;bevat reeds deze configuratie.](/help/developing/archetype/overview.md)

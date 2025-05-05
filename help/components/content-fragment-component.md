@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Component Inhoudsfragment{#content-fragment-component}
 
-De component van het Fragment van de Inhoud van de Component van de Kern staat voor de vertoning van a [ inhoudsfragment ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) toe.
+De component van het Fragment van de Inhoud van de Component van de Kern staat voor de vertoning van a [ inhoudsfragment ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=nl-NL) toe.
 
 >[!NOTE]
 >
@@ -20,11 +20,11 @@ De component van het Fragment van de Inhoud van de Component van de Kern staat v
 
 ## Gebruik {#usage}
 
-De component van het Fragment van de Inhoud van de Component van de Kern staat voor de opneming van a [ inhoudsfragment ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) op een pagina toe.
+De component van het Fragment van de Inhoud van de Component van de Kern staat voor de opneming van a [ inhoudsfragment ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=nl-NL) op een pagina toe.
 
 * Het fragment en zijn eigenschappen kunnen in [ worden geselecteerd vormen dialoog ](#configure-dialog).
 * De types van middel om bepaalde beelden en netten te behandelen kunnen in de [ ontwerpdialoog ](#design-dialog) worden bepaald.
-* De Edit optie zal het geselecteerde fragment binnen de [ redacteur van het inhoudsfragment ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html) openen.
+* De Edit optie zal het geselecteerde fragment binnen de [ redacteur van het inhoudsfragment ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html?lang=nl-NL) openen.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 

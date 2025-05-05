@@ -68,7 +68,7 @@ Gebruikend [ Storybook ](https://storybook.js.org) kunt u meer atomische front-e
 
 ## Clientlibs-overzicht {#clientlibs}
 
-De frontend module wordt ter beschikking gesteld gebruikend [AEM clientlib.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html). Wanneer het NPM-constructiescript wordt uitgevoerd, wordt de app gemaakt en wordt het `aem-clientlib-generator` -pakket de resulterende samengestelde uitvoer verwerkt en in een dergelijke client getransformeerd.
+De frontend module wordt ter beschikking gesteld gebruikend [AEM clientlib.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=nl-NL). Wanneer het NPM-constructiescript wordt uitgevoerd, wordt de app gemaakt en wordt het `aem-clientlib-generator` -pakket de resulterende samengestelde uitvoer verwerkt en in een dergelijke client getransformeerd.
 
 Een clientlib bestaat uit de volgende bestanden en mappen:
 
@@ -80,4 +80,4 @@ Een clientlib bestaat uit de volgende bestanden en mappen:
 
 >[!TIP]
 >
->Leer meer over hoe AEM clientlibs in de [ AEM ontwikkelingsdocumentatie ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html) hoe te om hen in de [ documentatie van de Componenten van de Kern te omvatten.](/help/developing/including-clientlibs.md)
+>Leer meer over hoe AEM clientlibs in de [ AEM ontwikkelingsdocumentatie ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=nl-NL) hoe te om hen in de [ documentatie van de Componenten van de Kern te omvatten.](/help/developing/including-clientlibs.md)

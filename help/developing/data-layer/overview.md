@@ -306,7 +306,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## Zelfstudie
 
-Wilt u de componenten van de Laag en van de Kern van Gegevens meer in detail onderzoeken? [ Controle uit dit hands-on leerprogramma ](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html).
+Wilt u de componenten van de Laag en van de Kern van Gegevens meer in detail onderzoeken? [ Controle uit dit hands-on leerprogramma ](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=nl-NL).
 
 >[!TIP]
 >

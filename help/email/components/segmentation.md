@@ -56,14 +56,14 @@ Gebruik **voeg de knoop van het Segment** toe om de componentenselecteur te open
    * **Gebrek** - bepaalt het standaardsegment om te tonen als geen andere voorwaarden worden voldaan
    * **Douane** - staat de auteur toe om een voorwaarde te bepalen
       * De voorwaarden zijn gebaseerd op Adobe Campaign-personalisatievariabelen
-      * [ zie hier voor de personaliseringsmiddelen van Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
-      * [ zie hier voor de personaliseringsmiddelen van Adobe Campaign Classic.](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)
+      * [ zie hier voor de personaliseringsmiddelen van Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=nl-NL&)
+      * [ zie hier voor de personaliseringsmiddelen van Adobe Campaign Classic.](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=nl-NL)
 * **Schrapping** - Tik of klik om het segment van de Component van de Segmentatie E-mail te schrappen.
 * **herschikt** - Tik of klik en sleep om de segmenten opnieuw te rangschikken.
 
 >[!TIP]
 >
->Als viewport van de inhoud wordt verminderd zodat uitgeeft dialoog volledig scherm wordt, **voegt** knoop toe zal worden verborgen. De componenten kunnen nog aan de Component van de Segmentatie E-mail worden toegevoegd door [ van componenten te slepen browser en op de Component van de Segmentatie E-mail in de inhoudsredacteur te vallen.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)
+>Als viewport van de inhoud wordt verminderd zodat uitgeeft dialoog volledig scherm wordt, **voegt** knoop toe zal worden verborgen. De componenten kunnen nog aan de Component van de Segmentatie E-mail worden toegevoegd door [ van componenten te slepen browser en op de Component van de Segmentatie E-mail in de inhoudsredacteur te vallen.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=nl-NL#inserting-a-component)
 
 ### Tabblad Eigenschappen {#properties-tab}
 
@@ -118,7 +118,7 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur definiëren welke componen
 
 Het **Toegestane lusje van Componenten** wordt gebruikt om te bepalen welke componenten als segmenten aan de Component van de Segmentatie E-mail door de inhoudauteur kunnen worden toegevoegd.
 
-**Toegestane Componenten** tabfuncties op dezelfde manier als het lusje van de zelfde naam wanneer [ het bepalen van het beleid en de eigenschappen van een Container van de Lay-out in de Redacteur van het Malplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+**Toegestane Componenten** tabfuncties op dezelfde manier als het lusje van de zelfde naam wanneer [ het bepalen van het beleid en de eigenschappen van een Container van de Lay-out in de Redacteur van het Malplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL)
 
 ### Tabblad Stijlen {#styles-tab}
 
@@ -134,7 +134,7 @@ Tik of klik **voeg** knoop toe om nieuwe voorwaarden tot stand te brengen.
 
 * **Naam van de Voorwaarde van het Segment** - een beschrijving van de voorwaarde
 * **Voorwaarde van het Segment** - de daadwerkelijke voorwaarde die moet worden voldaan aan, die op de personaliseringsvariabelen van Adobe Campaign wordt gebaseerd
-   * [ zie hier voor de personaliseringsmiddelen van Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
-   * [ zie hier voor de personaliseringsmiddelen van Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/
+   * [ zie hier voor de personaliseringsmiddelen van Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=nl-NL&)
+   * [ zie hier voor de personaliseringsmiddelen van Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/?lang=nl-NL
 * **verwijder** - Tik om te klikken om de voorwaarde te verwijderen
 * **herschikt** - Tik of klik en sleep om de orde van de voorwaarden te herschikken

@@ -40,8 +40,8 @@ Na het installeren van de Componenten van de Kern, zou u twee belangrijke config
 U moet opstelling de integratie AEM-Adobe Campaign opdat de twee oplossingen communiceren.
 
 * Uw Adobe Campaign-integratie configureren
-   * Adobe Campaign Classic: [ Integrerend met Adobe Campaign Classic ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html)
-   * Adobe Campaign Standard: [ Integrerend met Adobe Campaign Standard ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html)
+   * Adobe Campaign Classic: [ Integrerend met Adobe Campaign Classic ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=nl-NL)
+   * Adobe Campaign Standard: [ Integrerend met Adobe Campaign Standard ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=nl-NL)
 * [ verbind de de integratieconfiguratie van Adobe Campaign ](/help/email/components/page.md#cloud-services-tab) met de inhoudspagina waar u de Componenten van de Kern E-mail zult gebruiken
 
 ### Filter voor AEM brontype toevoegen voor e-mailcomponenten {#aem-resource-filter}
@@ -70,13 +70,13 @@ Nadat de e-mailcomponenten zijn geïnstalleerd en de integratie met Adobe Campai
 | Stap | Beschrijving | Oplossing |
 |---|---|---|
 | 1 | Auteurs maken een ongeformuleerde hiërarchische structuur van mappen en e-mailinhoud als pagina&#39;s. | AEM |
-| 2 | Gebruikend de [ malplaatjeredacteur, ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) de auteurs vormen een e-mailkopbal en/of footer die onder alle e-mailpagina&#39;s uit dit paginamalplaatje zou worden gedeeld. | AEM |
-| 3 | De auteurs gebruiken de [ paginaredacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/editing-content.html) om e-mailinhoud tot stand te brengen gebruikend de tekstredacteur waar zij de variabelen van Adobe Campaign kunnen kiezen en de Component van de Segmentatie aan voorwaardelijke showinformatie gebruiken als de ontvanger aan bepaalde criteria voldoet. | AEM |
-| 4 | Wanneer de e-mailinhoud volledig is, [ wordt een werkschema in werking gesteld ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/workflows/overview.html) om de inhoud goed te keuren en naar Campagne te verzenden. | AEM |
+| 2 | Gebruikend de [ malplaatjeredacteur, ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL) de auteurs vormen een e-mailkopbal en/of footer die onder alle e-mailpagina&#39;s uit dit paginamalplaatje zou worden gedeeld. | AEM |
+| 3 | De auteurs gebruiken de [ paginaredacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/editing-content.html?lang=nl-NL) om e-mailinhoud tot stand te brengen gebruikend de tekstredacteur waar zij de variabelen van Adobe Campaign kunnen kiezen en de Component van de Segmentatie aan voorwaardelijke showinformatie gebruiken als de ontvanger aan bepaalde criteria voldoet. | AEM |
+| 4 | Wanneer de e-mailinhoud volledig is, [ wordt een werkschema in werking gesteld ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/workflows/overview.html?lang=nl-NL) om de inhoud goed te keuren en naar Campagne te verzenden. | AEM |
 | 5 | Er wordt een levering gemaakt, die een lijst met ontvangers definieert. | Campagne |
 | 6 | De inhoud die in AEM wordt gemaakt, wordt geselecteerd als de inhoud van de levering. | Campagne |
 | 7 | De inhoud wordt naar de ontvangers verzonden, waarbij de Adobe Campaign-variabelen worden vervangen door de gepersonaliseerde informatie van de ontvangers. | Campagne |
 
 Zie de volgende bronnen voor een voorbeeld van het maken van e-mailinhoud in AEM en het leveren in Adobe Campaign.
 
-* AEM 6.5: [ het Werken met Adobe Campaign Classic en Adobe Campaign Standard ](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html)
+* AEM 6.5: [ het Werken met Adobe Campaign Classic en Adobe Campaign Standard ](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html?lang=nl-NL)

@@ -51,7 +51,7 @@ De accordeon, [ Carousel, ](carousel.md) en [ de steun van Componenten van Lusje
 
 Dit doet u als volgt:
 
-1. Bekijk de pagina met de component gebruikend de **[Mening zoals Gepubliceerde ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** optie in de paginaredacteur.
+1. Bekijk de pagina met de component gebruikend de **[Mening zoals Gepubliceerde ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=nl-NL#view-as-published)** optie in de paginaredacteur.
 1. Controleer de inhoud van de pagina en identificeer de id van het deelvenster.
    * Bijvoorbeeld `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. De id wordt het anker dat u met een hash (`#`) aan de URL kunt toevoegen.
@@ -82,7 +82,7 @@ Gebruik **voeg** knoop toe om de componentenselecteur te openen om te kiezen wel
 
 >[!TIP]
 >
->Als viewport van de pagina wordt verminderd zodat uitgeeft dialoog volledig scherm wordt, **voegt** knoop toe zal worden verborgen. De componenten kunnen nog aan de Component van de Accordeon worden toegevoegd door [ van componenten te slepen browser en op de Component van de Accordeon in de paginaredacteur ](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent) te vallen.
+>Als viewport van de pagina wordt verminderd zodat uitgeeft dialoog volledig scherm wordt, **voegt** knoop toe zal worden verborgen. De componenten kunnen nog aan de Component van de Accordeon worden toegevoegd door [ van componenten te slepen browser en op de Component van de Accordeon in de paginaredacteur ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent) te vallen.
 
 ### Tabblad Eigenschappen {#properties-tab}
 
@@ -127,7 +127,7 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de opties definiëren die bes
 
 Het **Toegestane lusje van Componenten** wordt gebruikt om te bepalen welke componenten als punten aan panelen in de Component van de Accordeon door de inhoudauteur kunnen worden toegevoegd.
 
-De toegelaten Componenten lusjefuncties op de zelfde manier zoals het lusje van de zelfde naam wanneer [ het bepalen van het beleid en de eigenschappen van een Container van de Lay-out in de Redacteur van het Malplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
+De toegelaten Componenten lusjefuncties op de zelfde manier zoals het lusje van de zelfde naam wanneer [ het bepalen van het beleid en de eigenschappen van een Container van de Lay-out in de Redacteur van het Malplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL#editing-a-template-layout-template-author)
 
 ### Tabblad Stijlen {#styles-tab}
 

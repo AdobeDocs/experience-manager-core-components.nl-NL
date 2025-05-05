@@ -106,7 +106,7 @@ Met de opties voor herhaling kunt u de component Verticaal-tabs en de onderligge
 - **Minimale herhalingen**: Vestigt het minimumaantal tijden de verticaal-luscomponent kan worden herhaald. De waarde nul geeft aan dat de component Verticale tabs niet wordt herhaald. De standaardwaarde is nul.
 - **Maximale herhalingen**: Plaatst het maximumaantal tijden de verticaal-luscomponent kan worden herhaald. Deze waarde is standaard onbeperkt.
 
-Om herhaalbare secties binnen Verticaal-lusjes effectief te beheren, volg de stappen die in [ worden verstrekt die vormen met herhaalbare secties ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) artikel creëren.
+Om herhaalbare secties binnen Verticaal-lusjes effectief te beheren, volg de stappen die in [ worden verstrekt die vormen met herhaalbare secties ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=nl-NL) artikel creëren.
 
 ### Tabblad Items {#items-tab}
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Pagina-component{#page-component}
 
-De Component van de Pagina is een verlengbare paginacomponent die wordt ontworpen om met de [ malplaatjedacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) te werken en staat paginakopbal/footer en structuurcomponenten toe om met de malplaatjedacteur worden samengesteld.
+De Component van de Pagina is een verlengbare paginacomponent die wordt ontworpen om met de [ malplaatjedacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL) te werken en staat paginakopbal/footer en structuurcomponenten toe om met de malplaatjedacteur worden samengesteld.
 
 ## Gebruik {#usage}
 
@@ -36,7 +36,7 @@ Voor meer informatie over de versies en versies van de Component van de Kern, zi
 
 ## Progressieve ondersteuning voor webtoepassingen {#pwa-support}
 
-Versie 2.15.0 van de Componenten van de Kern introduceerde steun voor ingebouwde [ Progressieve eigenschappen van het Web van AEM as a Cloud Service (PWA).](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) Met een eenvoudige configuratie op site-niveau kunt u uw AEM-ervaring veranderen in een PWA!
+Versie 2.15.0 van de Componenten van de Kern introduceerde steun voor ingebouwde [ Progressieve eigenschappen van het Web van AEM as a Cloud Service (PWA).](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=nl-NL) Met een eenvoudige configuratie op site-niveau kunt u uw AEM-ervaring veranderen in een PWA!
 
 ### Technische details {#technical-details}
 
@@ -46,7 +46,7 @@ De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
-Omdat de component de volledige pagina vertegenwoordigt, worden de montages die normaal in zouden zijn uitgeeft dialoog gevonden in het [ venster van de Eigenschappen van de Pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
+Omdat de component de volledige pagina vertegenwoordigt, worden de montages die normaal in zouden zijn uitgeeft dialoog gevonden in het [ venster van de Eigenschappen van de Pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=nl-NL).
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -81,7 +81,7 @@ De bibliotheken kunnen voor zowel de **Bibliotheken van de Cliënt** als **het H
 * Als u een veld wilt verwijderen, klikt of tikt u op het prullenbakpictogram naast het veld dat u wilt verwijderen.
 * Als u de laadvolgorde wilt wijzigen, klikt of tikt u op de greep naast het te verplaatsen veld.
 
-Voor meer informatie over het gebruiken van cliënt-zijbibliotheken zie [ Gebruikend de Bibliotheken van de Kant van de Cliënt ](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html).
+Voor meer informatie over het gebruiken van cliënt-zijbibliotheken zie [ Gebruikend de Bibliotheken van de Kant van de Cliënt ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/developing/using/clientlibs.html).
 
 >[!CAUTION]
 >

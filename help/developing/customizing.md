@@ -39,9 +39,9 @@ En alle kerncomponenten voeren het [ Systeem van de Stijl ](#styling-the-compone
 
 Het kan worden gewenst om de configuratieopties beschikbaar in een kerncomponentendialoog aan te passen, of het de [ Dialoog van het Ontwerp of Edit Dialog ](/help/get-started/authoring.md).
 
-Elk dialoogvenster heeft een consistente knooppuntstructuur. Het wordt geadviseerd dat deze structuur in een het erven component wordt herhaald zodat [ het Verzamelen van het Middel ](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) en [ de Voorwaarden van de Verbergen ](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/hide-conditions.html) kunnen worden gebruikt om, secties van de originele dialoog te verbergen te vervangen of te herschikken. De structuur die moet worden gerepliceerd, wordt gedefinieerd als alles tot het niveau van de tabitemnode.
+Elk dialoogvenster heeft een consistente knooppuntstructuur. Het wordt geadviseerd dat deze structuur in een het erven component wordt herhaald zodat [ het Verzamelen van het Middel ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) en [ de Voorwaarden van de Verbergen ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/developing/using/hide-conditions.html) kunnen worden gebruikt om, secties van de originele dialoog te verbergen te vervangen of te herschikken. De structuur die moet worden gerepliceerd, wordt gedefinieerd als alles tot het niveau van de tabitemnode.
 
-Om volledig compatibel te zijn met eventuele wijzigingen die zijn aangebracht in een dialoog over de huidige versie, is het van groot belang dat structuren onder het tabitemniveau niet worden gewijzigd (verborgen, toegevoegd, vervangen, opnieuw gerangschikt, enz.). In plaats daarvan, zou een lusjepunt van de ouder via het `sling:hideResource` bezit moeten worden verborgen (zie [ het Verspreiden Eigenschappen van de Fusie van het Middel ](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)), en nieuwe toegevoegde lusjepunten die de maatbespraakte configuratiegebieden bevatten. `sling:orderBefore` kan indien nodig worden gebruikt om de tabitems opnieuw te ordenen.
+Om volledig compatibel te zijn met eventuele wijzigingen die zijn aangebracht in een dialoog over de huidige versie, is het van groot belang dat structuren onder het tabitemniveau niet worden gewijzigd (verborgen, toegevoegd, vervangen, opnieuw gerangschikt, enz.). In plaats daarvan, zou een lusjepunt van de ouder via het `sling:hideResource` bezit moeten worden verborgen (zie [ het Verspreiden Eigenschappen van de Fusie van het Middel ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)), en nieuwe toegevoegde lusjepunten die de maatbespraakte configuratiegebieden bevatten. `sling:orderBefore` kan indien nodig worden gebruikt om de tabitems opnieuw te ordenen.
 
 In het onderstaande dialoogvenster ziet u de aanbevolen dialoogstructuur en hoe u een overgeërfd tabblad zoals hierboven beschreven, kunt verbergen en vervangen:
 
@@ -127,7 +127,7 @@ Bijvoorbeeld, kijkend het HTML- dossier van de v1 Component van de Kern Breadcru
 .cmp-breadcrumb a {}
 ```
 
-Bovendien, elk van de hefboomwerking van de Componenten van de Kern de AEM [&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html) eigenschap van het Systeem van de Stijl die malplaatjeauteurs toestaat om extra CSS klassennamen te bepalen die op de component door de paginaauteurs kunnen worden toegepast.  Op deze manier kunt u voor elke sjabloon een lijst met toegestane componentstijlen definiëren en aangeven of een van deze stijlen standaard moet worden toegepast op alle componenten van dat type.
+Bovendien, elk van de hefboomwerking van de Componenten van de Kern de AEM [&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html?lang=nl-NL) eigenschap van het Systeem van de Stijl die malplaatjeauteurs toestaat om extra CSS klassennamen te bepalen die op de component door de paginaauteurs kunnen worden toegepast.  Op deze manier kunt u voor elke sjabloon een lijst met toegestane componentstijlen definiëren en aangeven of een van deze stijlen standaard moet worden toegepast op alle componenten van dat type.
 
 ## Compatibiliteit van aanpassingen upgraden {#upgrade-compatibility-of-customizations}
 
@@ -137,7 +137,7 @@ Er zijn drie verschillende soorten upgrades mogelijk:
 * de Core Components upgraden naar een nieuwe secundaire versie
 * de Core Components upgraden naar een belangrijke versie
 
-Over het algemeen, zal de bevordering AEM aan een nieuwe versie niet de Componenten van de Kern of de aanpassingen beïnvloeden, op voorwaarde dat de versies van de componenten ook de nieuwe AEM versie steunen die wordt gemigreerd aan, en dat de aanpassingen geen APIs gebruiken die [ zijn afgekeurd of verwijderd ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
+Over het algemeen, zal de bevordering AEM aan een nieuwe versie niet de Componenten van de Kern of de aanpassingen beïnvloeden, op voorwaarde dat de versies van de componenten ook de nieuwe AEM versie steunen die wordt gemigreerd aan, en dat de aanpassingen geen APIs gebruiken die [ zijn afgekeurd of verwijderd ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=nl-NL).
 
 Als u de kerncomponenten upgradet zonder over te schakelen op een nieuwere hoofdversie, heeft dit geen invloed op aanpassingen, zolang de aanpassingspatronen die op deze pagina worden beschreven, worden gebruikt.
 
@@ -157,7 +157,7 @@ Zoals voor om het even welke AEM component, zijn er een aantal dingen om zich va
 
 1. **Controle verouderde en verwijderde functionaliteit.**
 
-   Met elke nieuwe AEM versie die wordt bevorderd aan, zorg ervoor dat alle gebruikte API nog actueel is door een oog op [ Vervangen en Verwijderde 1&rbrace; pagina van Eigenschappen te houden &lbrace;.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)
+   Met elke nieuwe AEM versie die wordt bevorderd aan, zorg ervoor dat alle gebruikte API nog actueel is door een oog op [ Vervangen en Verwijderde 1&rbrace; pagina van Eigenschappen te houden &lbrace;.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=nl-NL)
 
 Zie ook de [&#128279;](overview.md#core-component-support) sectie van de Steun van de Component van de 0&rbrace; Kern.
 

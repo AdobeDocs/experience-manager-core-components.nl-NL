@@ -42,7 +42,7 @@ Bovendien ondersteunt de component Afbeelding lui laden om het laden van het eig
 
 ## Dynamic Media-ondersteuning {#dynamic-media}
 
-De Component van het Beeld (van [ versie 2.13.0 ](/help/versions.md)) steunt [ Dynamic Media ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia) activa. [ wanneer toegelaten, ](#design-dialog) bieden deze eigenschappen de capaciteit aan om de beeldactiva van Dynamic Media met eenvoudige belemmering-en-daling of via activabrowser toe te voegen enkel zoals u een ander beeld. Daarnaast worden ook afbeeldingsaanpassingen, voorinstellingen voor afbeeldingen en slimme gewassen ondersteund.
+De Component van het Beeld (van [ versie 2.13.0 ](/help/versions.md)) steunt [ Dynamic Media ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=nl-NL#dynamicmedia) activa. [ wanneer toegelaten, ](#design-dialog) bieden deze eigenschappen de capaciteit aan om de beeldactiva van Dynamic Media met eenvoudige belemmering-en-daling of via activabrowser toe te voegen enkel zoals u een ander beeld. Daarnaast worden ook afbeeldingsaanpassingen, voorinstellingen voor afbeeldingen en slimme gewassen ondersteund.
 
 Uw webbeleving die is gebouwd met Core Components kan geen geavanceerde, op Sensei gebaseerde, robuuste, krachtige Dynamic Media Image-mogelijkheden voor meerdere platforms bieden.
 
@@ -79,9 +79,9 @@ Naast standaard [ geef dialoog ](#edit-dialog) uit en [ ontwerpdialoog ](#design
 ![ het lusje van Activa van de Component van het Beeld vormt dialoog ](/help/assets/image-configure-asset.png)
 
 * **activa van het Beeld**
-   * Daling een activa van [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of ontvang **doorbladert** optie om van een lokaal dossiersysteem te uploaden.
+   * Daling een activa van [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=nl-NL) of ontvang **doorbladert** optie om van een lokaal dossiersysteem te uploaden.
    * Tik of klik **Duidelijk** om het momenteel geselecteerde beeld te deselecteren.
-   * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in de activaredacteur te beheren.
+   * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=nl-NL) in de activaredacteur te beheren.
 
 ### Tabblad Metagegevens {#metadata-tab}
 

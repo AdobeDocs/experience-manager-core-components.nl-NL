@@ -109,7 +109,7 @@ De HTML-opmaak die de auteur kan invoeren, wordt voor beveiligingsdoeleinden gef
 
 De regels zijn echter gecompliceerder omdat de component Embed volgt AEM de algemene filterregelset van het HTML AntiSamy-sanitatieframework, die u kunt vinden op `/libs/cq/xssprotection/config.xml` . Dit kan voor project-specifieke configuratie door een ontwikkelaar indien vereist worden bedekt.
 
-De extra veiligheidsinformatie kan in de [ AEM ontwikkelaarsdocumentatie voor op-gebouw installaties ](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html) evenals [ installaties van AEM as a Cloud Service worden gevonden.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)
+De extra veiligheidsinformatie kan in de [ AEM ontwikkelaarsdocumentatie voor op-gebouw installaties ](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=nl-NL) evenals [ installaties van AEM as a Cloud Service worden gevonden.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html?lang=nl-NL)
 
 >[!NOTE]
 >Hoewel de regels van het AntiSamy sanitation framework kunnen worden geconfigureerd door `/libs/cq/xssprotection/config.xml` te bedekken, zijn deze wijzigingen van invloed op al het HTML- en JSP-gedrag en niet alleen op de Embed Core Component.

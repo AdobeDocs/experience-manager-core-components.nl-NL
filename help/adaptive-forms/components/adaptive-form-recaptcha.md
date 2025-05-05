@@ -67,7 +67,7 @@ Met het dialoogvenster Configureren kunt u uw Google reCAPTCHA-ervaring eenvoudi
 
   >[!NOTE]
   >
-  > Verwijs naar het [ Gebruik Google reCAPTCHA in een AEM Aangepaste Vorm die op het artikel van de Componenten van de Kern &lbrace;wordt gebaseerd om te leren hoe te om Google reCAPTCHA voor uw milieu tot stand te brengen en te vormen.](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
+  > Verwijs naar het [ Gebruik Google reCAPTCHA in een AEM Aangepaste Vorm die op het artikel van de Componenten van de Kern &lbrace;wordt gebaseerd om te leren hoe te om Google reCAPTCHA voor uw milieu tot stand te brengen en te vormen.](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
 
 - **Type**: Kies deze optie om de grootte voor reCAPTCHA te selecteren.
    - **Normaal**: Verwijst naar de norm, grotere versie van de reCAPTCHA widget, die voor gebruikers beter zichtbaar en gemakkelijker kan zijn om met, vooral op apparaten met grotere schermen in wisselwerking te staan.

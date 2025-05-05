@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Vooraf gecompileerde, gecompileerde scripts {#precompiled-bundled-scripts}
 
-AEM as a Cloud Service steunt de plaatsing van de [`ui.apps` ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#code-packages-%2F-osgi-bundles) componentenmanuscripten als vooraf gecompileerde gebundelde manuscripten. Dit staat ontwikkelaars toe om hun manuscripten in bouwstijl-tijd vooraf samen te stellen en hen als bundels te verpakken OSGi.
+AEM as a Cloud Service steunt de plaatsing van de [`ui.apps` ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=nl-NL#code-packages-%2F-osgi-bundles) componentenmanuscripten als vooraf gecompileerde gebundelde manuscripten. Dit staat ontwikkelaars toe om hun manuscripten in bouwstijl-tijd vooraf samen te stellen en hen als bundels te verpakken OSGi.
 
 ## Voordelen van het Opstellen van Vooraf gecompileerde Manuscripten via Bundels OSGi {#advantages}
 
@@ -35,10 +35,10 @@ Het opstellen van uw manuscripten als vooraf gecompileerde gebundelde manuscript
 
 Het kader OSGi verstrekt een krachtige manier om [ vereisten en mogelijkheden ](https://docs.osgi.org/specification/osgi.core/7.0.0/framework.module.html#framework.module.dependencies) te bepalen om contracten tussen diverse componenten uit te drukken. Deze worden beschreven via meta-gegevens en tijdens runtime afgedwongen. Gebundelde manuscripten gebruiken dit mechanisme om zowel hun overervingsverhoudingen (`sling:resourceSuperType`) uit te drukken, als delegatie (met inbegrip van andere middeltypes in het teruggevende proces).
 
-De `bnd` insteekmodule van het [ scriptingbundle-maven-plugin ](https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html) project kan worden gebruikt om de vereisten en de mogelijkheden te halen die aan de manuscripten beantwoorden die door [`ui.apps` worden verstrekt.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#code-packages-%2F-osgi-bundles) inhoudspakket
+De `bnd` insteekmodule van het [ scriptingbundle-maven-plugin ](https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html) project kan worden gebruikt om de vereisten en de mogelijkheden te halen die aan de manuscripten beantwoorden die door [`ui.apps` worden verstrekt.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=nl-NL#code-packages-%2F-osgi-bundles) inhoudspakket
 
 ## Ondersteuning voor projectarchetype AEM {#support}
 
-Beginnend met versie 31, kan het [ AEM Archetype van het Project ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html) worden gebruikt aan correct opstelling een project van AEM as a Cloud Service om vooraf gecompileerde gebundelde manuscripten te gebruiken.
+Beginnend met versie 31, kan het [ AEM Archetype van het Project ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=nl-NL) worden gebruikt aan correct opstelling een project van AEM as a Cloud Service om vooraf gecompileerde gebundelde manuscripten te gebruiken.
 
 Bovendien vormt het AEM Archieftype van het Project de [ SDK van AEM as a Cloud Service bouwt Analysator Gemaakte Insteekmodule ](/help/developing/archetype/build-analyzer-maven-plugin.md) om Java pakket-niveau evenals manuscript-vlakke gebiedsdelen te bevestigen.

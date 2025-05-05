@@ -40,7 +40,7 @@ In de volgende tabel wordt de compatibiliteit van versie 1 van de component Imag
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Schermafbeelding {#screenshot}
 
@@ -82,9 +82,9 @@ Naast standaard [ geef dialoog ](#edit-dialog) uit en [ ontwerpdialoog ](#design
 ![](/help/assets/chlimage_1-50.png)
 
 * **activa van het Beeld**
-   * Daling een activa van [ activa browser ](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title) of ontvang **doorbladert** optie om van een lokaal dossiersysteem te uploaden.
+   * Daling een activa van [ activa browser ](https://helpx.adobe.com/nl/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title) of ontvang **doorbladert** optie om van een lokaal dossiersysteem te uploaden.
    * Tik of klik **Duidelijk** om het momenteel geselecteerde beeld te deselecteren.
-   * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://helpx.adobe.com/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) in de activaredacteur te beheren.
+   * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://helpx.adobe.com/nl/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) in de activaredacteur te beheren.
 
 * **Beeld is decoratief** - controleer als het beeld door ondersteunende technologie zou moeten worden genegeerd en daarom geen alternatieve tekst vereist. Dit geldt alleen voor decoratieve afbeeldingen.
 * **Alternatieve tekst** - Textueel alternatief van de betekenis of de functie van het beeld, voor visueel gehandicapte lezers.

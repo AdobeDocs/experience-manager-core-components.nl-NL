@@ -57,7 +57,7 @@ Meestal wordt in browsers liever lokaal een grotere breedte verkleind om een kle
 
 ## Ondersteuning voor dynamische media {#dynamic-media}
 
-De Component van het Beeld (van [ versie 2.13.0 ](/help/versions.md)) steunt [ Dynamische Media ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html) activa. [ wanneer toegelaten, ](#design-dialog) bieden deze eigenschappen de capaciteit aan om Dynamische het beeldactiva van Media met eenvoudige belemmering-en-daling of via activa toe te voegen browser enkel zoals u een ander beeld. Daarnaast worden ook afbeeldingsaanpassingen, voorinstellingen voor afbeeldingen en slimme gewassen ondersteund.
+De Component van het Beeld (van [ versie 2.13.0 ](/help/versions.md)) steunt [ Dynamische Media ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=nl-NL) activa. [ wanneer toegelaten, ](#design-dialog) bieden deze eigenschappen de capaciteit aan om Dynamische het beeldactiva van Media met eenvoudige belemmering-en-daling of via activa toe te voegen browser enkel zoals u een ander beeld. Daarnaast worden ook afbeeldingsaanpassingen, voorinstellingen voor afbeeldingen en slimme gewassen ondersteund.
 
 Uw webbeleving die is gebouwd met Core Components kan beschikken over uitgebreide, op Sensei gebaseerde, robuuste, krachtige, platformonafhankelijke mogelijkheden voor Dynamic Media Image.
 
@@ -157,13 +157,13 @@ De component image biedt een dialoogvenster voor configureren waarin de afbeeldi
 
 * **activa van het Beeld** - dit wordt automatisch bevolkt als **geërft beeld van pagina** wordt geselecteerd. Schakel deze optie uit als u de afbeelding handmatig wilt definiëren door de volgende opties in te stellen.
 
-   * Daling een activa van [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html) of ontvang **doorbladert** optie zodat kunt u van een lokaal dossiersysteem uploaden.
+   * Daling een activa van [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=nl-NL) of ontvang **doorbladert** optie zodat kunt u van een lokaal dossiersysteem uploaden.
    * Tik of klik **Duidelijk** om het momenteel geselecteerde beeld te deselecteren.
-   * Tik of klik **Keuze** om [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html) te openen zodat kunt u een beeld selecteren.
+   * Tik of klik **Keuze** om [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=nl-NL) te openen zodat kunt u een beeld selecteren.
       * Als [ de Verre Steun van Activiteiten ](#remote-assets) wordt toegelaten, hebt u veelvoudige opties om activa te kiezen:
          * **Lokale** selecteert van de lokale de activabibliotheek van AEM.
          * **Verre** selecteert van een Dynamische bibliotheek van Media buiten uw instantie van AEM.
-   * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html) in de Redacteur van Activa te beheren.
+   * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=nl-NL) in de Redacteur van Activa te beheren.
 
 * **Alternatieve tekst voor toegankelijkheid** - Dit gebied staat u toe om een beschrijving van het beeld voor visueel gehandicapte gebruikers te bepalen.
 
