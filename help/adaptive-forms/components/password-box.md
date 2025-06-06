@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Component van wachtwoordvak
 
-<span class="preview"> Dit is een pre-versieeigenschap en toegankelijk door ons [ pre-vrijgavekanaal ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features). </span>
+<span class="preview"> Dit is een pre-versieeigenschap en toegankelijk door ons [ pre-vrijgavekanaal ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=nl-NL#new-features). </span>
 
 Met een wachtwoordvakcomponent kunnen gebruikers vertrouwelijke informatie invoeren en bewerken, die doorgaans is gemaskeerd voor privacy. De wachtwoordcomponent kan met diverse bevestigingsregels worden gevormd om gegevensnauwkeurigheid te verzekeren. De wachtwoordvelden worden vaak gebruikt in formulieren. Deze zijn eenvoudig en verbeteren de gegevensbeveiliging.
 
@@ -164,7 +164,7 @@ Op het tabblad Indelingen kunt u standaard- en aangepaste datumnotaties opgeven.
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=nl-NL)
 
 -->
 
