@@ -3,9 +3,9 @@ title: Adaptieve Forms Core-component - Bestandsbijlage
 description: De Adaptive Forms-component voor bestandsbijlagen gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 724940e8fe7eb5cfe3dc4edf7568049c993b1255
+source-git-commit: 8a5133d8551f9e35340b40aa00876cfa0231deb5
 workflow-type: tm+mt
-source-wordcount: '2043'
+source-wordcount: '2061'
 ht-degree: 0%
 
 ---
@@ -37,13 +37,13 @@ Er zijn verschillende redenen waarom het nuttig is om een component voor bestand
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms-bestandsbijlage Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms-bestandsbijlage Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 voor Cloud Service en Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM-compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
 | v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -67,7 +67,7 @@ Met het dialoogvenster Configureren kunt u de ervaring met bestandsbijlagen eenv
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
   Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
-  ![&#128279;](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0&rbrace;
+  ](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0}![
 
 - **Verberg Titel** - selecteer de optie om de Titel van de component te verbergen.
 
@@ -103,6 +103,11 @@ Met het dialoogvenster Configureren kunt u de ervaring met bestandsbijlagen eenv
 
 - **het type van Dossier foutenmelding** - Deze optie staat u toe om een foutenmelding in te gaan die wordt getoond wanneer u de dossierformaten buiten die vermeld in **toegelaten dossiertypes** optie uploadt.
 
+>
+>
+> Als u een bestand verzendt door het type te wijzigen in een indeling met toegestane bestandstypen, treedt er een fout op tijdens het verzenden van het formulier.
+
+
 ### Het tabblad Help-inhoud {#help-content-tab}
 
 ![ Inhoud tabel van de Hulp ](/help/adaptive-forms/assets/fileattachement_helpcontenttab.png)
@@ -132,7 +137,7 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de component Bes
 
 ### Tabblad Stijlen {#styles-tab}
 
-De adaptieve Component van de Kern van de Bijlage van het Dossier van Forms steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De adaptieve Component van de Kern van de Bijlage van het Dossier van Forms steunt het systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ![ Dialoog van het Ontwerp ](/help/adaptive-forms/assets/checkbox-style.png)
 
@@ -157,7 +162,7 @@ Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aa
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=nl-NL)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

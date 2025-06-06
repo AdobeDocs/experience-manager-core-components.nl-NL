@@ -5,15 +5,15 @@ breadcrumb-title: Gids voor kerncomponenten
 feature: Core Components
 user-guide-description: Met de uitbreidbare kerncomponenten kunnen ontwerpers eenvoudig content maken.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 9f151ae26c9d2006b74656ec5086f1a5e9fc4b30
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '384'
 ht-degree: 5%
 
 ---
 
 
-# Help AEM Core Components {#using}
+# Help bij AEM Core Components {#using}
 
 + [Introductie van kerncomponenten](/help/introduction.md)
 + [Responsief ontwerp](/help/responsive.md)
@@ -28,7 +28,7 @@ ht-degree: 5%
    + [Accordeon](/help/components/accordion.md)
    + [Broodkruimel](/help/components/breadcrumb.md)
    + [Knop](/help/components/button.md)
-   + [Carousel](/help/components/carousel.md)
+   + [Carrousel](/help/components/carousel.md)
    + [Container](/help/components/container.md)
    + [Inhoudsfragment](/help/components/content-fragment-component.md)
    + [Lijst met inhoudsfragmenten](/help/components/content-fragment-list.md)
@@ -44,7 +44,7 @@ ht-degree: 5%
    + [Voortgangsbalk](/help/components/progress-bar.md)
    + [Snel zoeken](/help/components/quick-search.md)
    + [Scheidingsteken](/help/components/separator.md)
-   + [ Sociale Media die  delen](/help/components/sharing.md)
+   + [ Sociale Media die ](/help/components/sharing.md) delen
    + [Inhoudsopgave](/help/components/tableofcontents.md)
    + [Tekst](/help/components/text.md)
    + [Tabs](/help/components/tabs.md)
@@ -126,6 +126,7 @@ ht-degree: 5%
       + [Adaptive Forms CAPTCHA](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [Aangepaste Forms-keuzerondje](/help/adaptive-forms/components/radio-button.md)
       + [Knop Adaptief Forms herstellen](/help/adaptive-forms/components/reset-button.md)
+      + [Aangepaste formulierrevisie](/help/adaptive-forms/components/review.md)
       + [Knop Adaptief Forms verzenden](/help/adaptive-forms/components/submit-button.md)
       + [Adaptieve Forms-switch](/help/adaptive-forms/components/adaptive-form-switch.md)
       + [Aangepaste Forms-telefoon](/help/adaptive-forms/components/phone.md)
@@ -138,10 +139,10 @@ ht-degree: 5%
       + [Voettekst](/help/adaptive-forms/components/footer.md)
    + [Aangepaste Forms Core-componenten aanpassen](/help/developing/customize-adaptive-forms-core-components.md)
    + [Voorbeeldthema&#39;s en sjablonen](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
-+ Ontwikkeling {#developing}
++ Ontwikkelen {#developing}
    + [Basiscomponenten ontwikkelen](/help/developing/overview.md)
-   + [ Wegen aan Succes ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=nl-NL)
-   + [ WKND het Leerprogramma van de Ontwikkelaar ](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=nl-NL)
+   + [ Wegen aan Succes ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
+   + [ WKND het Leerprogramma van de Ontwikkelaar ](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Kerncomponenten aanpassen](/help/developing/customizing.md)
    + [Componentrichtlijnen](/help/developing/guidelines.md)
    + [AMP-ondersteuning](/help/developing/amp.md)
@@ -150,11 +151,11 @@ ht-degree: 5%
    + [De Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md)
    + [Webgeoptimaliseerde afbeeldingslevering](/help/developing/web-optimized-image-delivery.md)
    + [Externe Assets-ondersteuning](/help/developing/remote-assets.md)
-   + Gegevenslaag client Adoben {#data-layer}
+   + Adobe Client Data Layer {#data-layer}
       + [Overzicht van de Laag van Gegevens](/help/developing/data-layer/overview.md)
       + [Integratie met de Laag van Gegevens](/help/developing/data-layer/integrations.md)
       + [De gegevenslaag uitbreiden](/help/developing/data-layer/extending.md)
-   + Projectarchetype AEM {#archetype}
+   + AEM Project Archetype {#archetype}
       + [Overzicht van Archetype](/help/developing/archetype/overview.md)
       + [Het gebruiken van Archetype](/help/developing/archetype/using.md)
       + [Front-end ontwikkeling](/help/developing/archetype/front-end.md)
