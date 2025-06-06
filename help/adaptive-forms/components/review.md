@@ -51,7 +51,7 @@ U kunt de ervaring voor bezoekers gemakkelijk aanpassen met het dialoogvenster C
    - Wanneer de gebruikers het **Gebied en van het Comité** optie selecteren, kunnen zij het uitgeven pictogram naast een gebied klikken om specifieke informatie te wijzigen of naast een paneel om alle gebieden binnen dat paneel uit te geven.
    - Wanneer de gebruikers **niets** selecteren optie, kunnen zij om het even welk gebied of paneel binnen de volledige vorm uitgeven.
 
-  Door gebrek, wordt de **1} optie van het Comité {geselecteerd.**
+  Door gebrek, wordt de **1&rbrace; optie van het Comité &lbrace;geselecteerd.**
 
 - **de Panelen van de Verbinding** - de **optie van de Vensters van de Verbinding** staat gebruikers toe om de panelen voor overzicht te selecteren. Wanneer deelvensters zijn gekoppeld, kunnen gebruikers de ingevoerde informatie van de geselecteerde deelvensters controleren en deze wijzigen voordat ze de gegevens verzenden.
 
