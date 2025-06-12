@@ -44,7 +44,7 @@ ht-degree: 2%
    + [Voortgangsbalk](/help/components/progress-bar.md)
    + [Snel zoeken](/help/components/quick-search.md)
    + [Scheidingsteken](/help/components/separator.md)
-   + [ Sociale Media die  delen](/help/components/sharing.md)
+   + [ Sociale Media die ](/help/components/sharing.md) delen
    + [Inhoudsopgave](/help/components/tableofcontents.md)
    + [Tekst](/help/components/text.md)
    + [Tabs](/help/components/tabs.md)
@@ -141,8 +141,8 @@ ht-degree: 2%
    + [Voorbeeldthema&#39;s en sjablonen](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
 + Ontwikkelen {#developing}
    + [Basiscomponenten ontwikkelen](/help/developing/overview.md)
-   + [ Wegen aan Succes ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=nl-NL)
-   + [ WKND het Leerprogramma van de Ontwikkelaar ](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=nl-NL)
+   + [ Wegen aan Succes ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
+   + [ WKND het Leerprogramma van de Ontwikkelaar ](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Kerncomponenten aanpassen](/help/developing/customizing.md)
    + [Componentrichtlijnen](/help/developing/guidelines.md)
    + [AMP-ondersteuning](/help/developing/amp.md)
