@@ -44,7 +44,7 @@ ht-degree: 2%
    + [Voortgangsbalk](/help/components/progress-bar.md)
    + [Snel zoeken](/help/components/quick-search.md)
    + [Scheidingsteken](/help/components/separator.md)
-   + [ Sociale Media die ](/help/components/sharing.md) delen
+   + [ Sociale Media die  delen](/help/components/sharing.md)
    + [Inhoudsopgave](/help/components/tableofcontents.md)
    + [Tekst](/help/components/text.md)
    + [Tabs](/help/components/tabs.md)
