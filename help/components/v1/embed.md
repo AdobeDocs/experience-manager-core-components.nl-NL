@@ -51,7 +51,7 @@ In het dialoogvenster voor configureren kan de auteur van de inhoud de externe b
 * [Insluitbaar](#embeddable)
 * [HTML](#html)
 
-Voor elk type van inbedbaar, kunt u identiteitskaart van de a.u. **** bepalen. Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens ](/help/developing/data-layer/overview.md) te controleren.
+Voor elk type van inbedbaar, kunt u identiteitskaart van de a.u. **&#x200B;**&#x200B;bepalen. Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens ](/help/developing/data-layer/overview.md) te controleren.
 
 * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
 * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.

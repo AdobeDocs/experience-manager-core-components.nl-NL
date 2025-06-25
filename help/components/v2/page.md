@@ -30,7 +30,7 @@ In dit document wordt versie 2 van de Page Component beschreven. Deze versie is 
 >
 >In dit document wordt versie 2 van de component Pagina beschreven.
 >
->Voor details van de huidige versie van de Component van de Pagina, zie het ](/help/components/page.md) document van de Component van de 0} Pagina.[
+>Voor details van de huidige versie van de Component van de Pagina, zie het [&#128279;](/help/components/page.md) document van de Component van de 0&rbrace; Pagina.
 
 ## Progressieve ondersteuning voor webtoepassingen {#pwa-support}
 
@@ -63,7 +63,7 @@ Met behulp van het venster Paginaontwerp kunt u de te laden clientbibliotheken e
 * **Bibliotheken van de Cliënt** - dit bepaalt de categorieën van de cliëntbibliotheek aan lading. JavaScript wordt toegevoegd aan het hoofdgedeelte en de CSS wordt toegevoegd aan de paginakop.
 * **de Bibliotheken van de Cliënt JavaScript Hoofd van de Pagina** - dit bepaalt de de bibliotheekcategorieën van de Cliënt van JavaScript in het paginakop te laden.
    * De categorieën die hier worden bepaald die ook aanwezig zijn in het **gebied van de Bibliotheken van de Cliënt** zullen JavaScript hebben die in de paginakop in plaats van bij lichaamseind wordt geladen.
-   * Geen CSS zal worden geladen tenzij de categorie ook op het **gebied van de Bibliotheken van de Cliënt 0} {aanwezig is.**
+   * Geen CSS zal worden geladen tenzij de categorie ook op het **gebied van de Bibliotheken van de Cliënt 0&rbrace; &lbrace;aanwezig is.**
 
 * **Bibliotheek van de Cliënt van Middelen van het Web** - de categorie van de cliëntbibliotheek die wordt gebruikt om Webmiddelen zoals favicons te dienen.
 
@@ -85,7 +85,7 @@ Voor meer informatie over het gebruiken van cliënt-zijbibliotheken zie [ Gebrui
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van de Pagina steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De Component van de Pagina steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
 ## Adobe Client Data Layer {#data-layer}
 

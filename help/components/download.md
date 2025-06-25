@@ -109,4 +109,4 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de opties definiëren die bes
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van het Beeld steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De Component van het Beeld steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).

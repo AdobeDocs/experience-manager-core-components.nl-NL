@@ -37,7 +37,7 @@ In de volgende tabel wordt de compatibiliteit van v1 van de component Title weer
 >
 >In dit document wordt versie 1 van de component Title beschreven.
 >
->Voor details van de huidige versie van de Component van de Titel, zie het ](/help/components/title.md) document van de Component van de Titel 0} {.[
+>Voor details van de huidige versie van de Component van de Titel, zie het [&#128279;](/help/components/title.md) document van de Component van de Titel 0&rbrace; &lbrace;.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 

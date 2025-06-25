@@ -56,4 +56,4 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur de stijlen definiëren die
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van de Scheiding steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De component van de Scheiding steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).

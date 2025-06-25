@@ -28,7 +28,7 @@ In dit document wordt versie 2 van de component Title beschreven, die in januari
 >
 >In dit document wordt versie 2 van de component Title beschreven.
 >
->Voor details van de huidige versie van de Component van de Titel, zie het ](/help/components/title.md) document van de Component van de Titel 0} {.[
+>Voor details van de huidige versie van de Component van de Titel, zie het [&#128279;](/help/components/title.md) document van de Component van de Titel 0&rbrace; &lbrace;.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
@@ -80,7 +80,7 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur het standaardkopniveau def
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van de Titel steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De Component van de Titel steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
 ## Adobe Client Data Layer {#data-layer}
 

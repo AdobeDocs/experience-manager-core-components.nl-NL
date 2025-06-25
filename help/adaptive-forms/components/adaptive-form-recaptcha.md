@@ -41,7 +41,7 @@ De Adaptive Forms Google reCAPTCHA Core Component is in augustus 2023 uitgebrach
 |--- |--- |
 | v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/versions.md) en later | Compatibel | Compatibel |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/versions.md) document van de Versies van de Componenten van de Kern 0}.[
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/versions.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
 
 ## Technische details {#technical-details}
 
@@ -62,7 +62,7 @@ Met het dialoogvenster Configureren kunt u uw Google reCAPTCHA-ervaring eenvoudi
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
   Als u het selectievakje **RTF-tekst toestaan voor titel inschakelt, worden opmaakopties zichtbaar om de titel van de component op te maken. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
-  ](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0}![
+  ![&#128279;](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0&rbrace;
 
 - **Verberg Titel** - selecteer de optie om de Titel van de component te verbergen.
 - **Teken als Niet-gebonden Element van de Vorm**: Selecteer de optie om een vormgebied te vormen niet verbonden aan om het even welk schema. Met deze optie kunt u gegevens opslaan zonder de gegevensbron bij te werken. Het laat u ook toe om gegevens op een douanemethode, los van standaardgegevensbestandintegratie te behandelen.
@@ -70,7 +70,7 @@ Met het dialoogvenster Configureren kunt u uw Google reCAPTCHA-ervaring eenvoudi
 
   >[!NOTE]
   >
-  > Verwijs naar het [ Gebruik Google reCAPTCHA in een AanpassingsVorm van AEM die op het artikel van de Componenten van de Kern {wordt gebaseerd om te leren hoe te om Google reCAPTCHA voor uw milieu tot stand te brengen en te vormen.](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
+  > Verwijs naar het [ Gebruik Google reCAPTCHA in een AanpassingsVorm van AEM die op het artikel van de Componenten van de Kern &lbrace;wordt gebaseerd om te leren hoe te om Google reCAPTCHA voor uw milieu tot stand te brengen en te vormen.](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
 
 - **Type**: Kies deze optie om de grootte voor reCAPTCHA te selecteren.
    - **Normaal**: Verwijst naar de norm, grotere versie van de reCAPTCHA widget, die voor gebruikers beter zichtbaar en gemakkelijker kan zijn om met, vooral op apparaten met grotere schermen in wisselwerking te staan.
@@ -96,7 +96,7 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de component reC
 
 ### Tabblad Stijlen {#styles-design-tab}
 
-De Adaptieve Component van de Kern van Forms reCAPTCHA steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De Adaptieve Component van de Kern van Forms reCAPTCHA steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
 ![ Dialoog van het Ontwerp ](/help/adaptive-forms/assets/checkbox-style.png)
 

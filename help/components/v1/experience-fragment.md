@@ -31,7 +31,7 @@ In dit document wordt versie 1 van de Experience Fragment Component beschreven, 
 >
 >In dit document wordt versie 1 van de Experience Fragment-component beschreven.
 >
->Voor details van de huidige versie van de Component van het Fragment van de Ervaring, zie het ](/help/components/experience-fragment.md) document van de Component van het Fragment van 0} van de Ervaring.[
+>Voor details van de huidige versie van de Component van het Fragment van de Ervaring, zie het [&#128279;](/help/components/experience-fragment.md) document van de Component van het Fragment van 0&rbrace; van de Ervaring.
 
 ## Ondersteuning voor gelokaliseerde sitestructuur {#localized-site-structure}
 
@@ -134,4 +134,4 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur de opties definiëren die 
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van het Fragment van de Ervaring steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De Component van het Fragment van de Ervaring steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).

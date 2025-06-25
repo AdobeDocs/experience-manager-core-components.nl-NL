@@ -87,7 +87,7 @@ De stijlen moeten voor deze component in de [ ontwerpdialoog ](#design-dialog) w
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van de Knoop steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De component van de Knoop steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
 ## Adobe Client Data Layer {#data-layer}
 

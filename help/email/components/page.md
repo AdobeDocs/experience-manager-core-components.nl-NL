@@ -86,7 +86,7 @@ Met behulp van het venster Paginaontwerp kunt u de te laden clientbibliotheken e
 * **Bibliotheken van de Cliënt** - dit bepaalt de categorieën van de cliëntbibliotheek aan lading. JavaScript wordt toegevoegd aan het hoofdgedeelte en de CSS wordt toegevoegd aan de paginakop.
 * **de Bibliotheken van de Cliënt JavaScript Hoofd van de Pagina** - dit bepaalt de categorieën van de de cliëntbibliotheek van JavaScript in de paginakop te laden.
    * De categorieën die hier worden bepaald die ook aanwezig zijn in het **gebied van de Bibliotheken van de Cliënt** zullen JavaScript hebben die in de paginakop in plaats van bij lichaamseind wordt geladen.
-   * Geen CSS zal worden geladen tenzij de categorie ook op het **gebied van de Bibliotheken van de Cliënt 0} {aanwezig is.**
+   * Geen CSS zal worden geladen tenzij de categorie ook op het **gebied van de Bibliotheken van de Cliënt 0&rbrace; &lbrace;aanwezig is.**
 * **de Bibliotheken van JavaScript van de Lading asynchroon** - Indien toegelaten, zullen de bibliotheken van douaneJavaScript asynchroon worden geladen.
 * **Bibliotheek van de Cliënt van Middelen van het Web** - de categorie van de cliëntbibliotheek die wordt gebruikt om Webmiddelen zoals favicons te dienen.
 * **Overslaan aan de selecteur van het belangrijkste inhoudselement** - Gebruikt als toegankelijkheidseigenschap om rechtstreeks aan de belangrijkste inhoud van de pagina over te slaan
@@ -101,4 +101,4 @@ Voor meer informatie over het gebruiken van cliënt-zijbibliotheken, zie [ Gebru
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van de Pagina steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De Component van de Pagina steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).

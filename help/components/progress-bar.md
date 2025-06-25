@@ -57,7 +57,7 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de stijlen definiëren die zi
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van de Bar van de Voortgang steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De component van de Bar van de Voortgang steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
 ## Adobe Client Data Layer {#data-layer}
 

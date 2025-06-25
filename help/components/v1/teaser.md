@@ -30,7 +30,7 @@ In dit document wordt versie 1 van de Teaser Component beschreven. Deze versie i
 >
 >In dit document wordt versie 1 van de Taser-component beschreven.
 >
->Voor details van de huidige versie van de Component van het Taser, zie het ](/help/components/teaser.md) document van de Component van 0} Taser.[
+>Voor details van de huidige versie van de Component van het Taser, zie het [&#128279;](/help/components/teaser.md) document van de Component van 0&rbrace; Taser.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
@@ -90,7 +90,7 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de teasopties definiëren die
 
 ### Taser Tab {#teaser-tab}
 
-{het ontwerpdialoog van de Component van 0} Taser ](/help/assets/teaser-design.png)![
+{het ontwerpdialoog van de Component van 0} Taser ![&#128279;](/help/assets/teaser-design.png)
 
 * **vraag-aan-Acties**
    * **maak vraag-aan-Acties** onbruikbaar - verberg **vraag-aan-Acties** optie voor inhoudsauteurs
@@ -107,7 +107,7 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de teasopties definiëren die
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van het Taser steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De Component van het Taser steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
 ## Adobe Client Data Layer {#data-layer}
 

@@ -88,7 +88,7 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur het standaardkopniveau def
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van de Titel steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De Component van de Titel steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
 ## Adobe Client Data Layer {#data-layer}
 

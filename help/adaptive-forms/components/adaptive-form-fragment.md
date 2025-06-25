@@ -46,7 +46,7 @@ De Adaptive Forms Fragment Core Component is uitgebracht als onderdeel van Core 
 |---|---|---|
 | v1 | Compatibel systeem met <br>[ versie 2.0.50 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.26 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
 
 ## Technische details {#technical-details}
 
@@ -66,7 +66,7 @@ Met het dialoogvenster Configureren kunt u de fragmentervaring voor bezoekers ee
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
   Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
-  ](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0}![
+  ![&#128279;](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0&rbrace;
 
 - **Verberg Titel** - selecteer de optie om de Titel van de component te verbergen.
 - **de gegevens van de Groepering van kindcomponenten over vormvoorlegging (de gegevens van de Omslag in voorwerp)** - wanneer de optie wordt geselecteerd, worden de gegevens van zijn kindcomponenten genesteld binnen het voorwerp JSON van de oudercomponent. Als de optie echter niet is geselecteerd, hebben de verzonden JSON-gegevens een platte structuur, zonder object voor de bovenliggende component. Bijvoorbeeld:
@@ -137,7 +137,7 @@ Het dialoogvenster Ontwerpen wordt gebruikt voor het definiëren en beheren van 
 
 ### Tabblad Stijlen {#styles-tab}
 
-De adaptieve Component van de Kern van de Fragment van de Vorm van de Vorm steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De adaptieve Component van de Kern van de Fragment van de Vorm van de Vorm steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
 ![ Dialoog van het Ontwerp ](/help/adaptive-forms/assets/checkbox-style.png)
 

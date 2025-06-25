@@ -101,7 +101,7 @@ Afhankelijk van als u de [ Dynamische Media ](#dynamic-media) toegelaten hebt of
 
 Als u standaardAEM activa uitgeeft, kunt u **klikken geeft** pictogram in het contextmenu van de beeldcomponent uit.
 
-![ de Edit dialoog van de Component van het Beeld {](/help/assets/image-edit.png)
+![ de Edit dialoog van de Component van het Beeld &lbrace;](/help/assets/image-edit.png)
 
 * Uitsnijden starten
 
@@ -201,7 +201,7 @@ De component image biedt een dialoogvenster voor configureren waarin de afbeeldi
 
 ![ het lusje van Stijlen van uitgeeft dialoog van de Component van het Beeld ](/help/assets/image-configure-styles.png)
 
-De Component van het Beeld steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De Component van het Beeld steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
 Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
 
@@ -244,7 +244,7 @@ U kunt een lijst van breedten in pixel voor het beeld bepalen, en de component l
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van het Beeld steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De Component van het Beeld steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
 ## Adobe Client Data Layer {#data-layer}
 

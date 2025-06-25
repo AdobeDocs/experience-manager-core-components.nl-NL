@@ -37,7 +37,7 @@ In de volgende tabel wordt de compatibiliteit van v1 van de tekstcomponent weerg
 >
 >In dit document wordt versie 1 van de tekstcomponent beschreven.
 >
->Voor details van de huidige versie van de Component van de Tekst, zie het ](/help/components/text.md) document van de Component van de Tekst 0} {.[
+>Voor details van de huidige versie van de Component van de Tekst, zie het [&#128279;](/help/components/text.md) document van de Component van de Tekst 0&rbrace; &lbrace;.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 

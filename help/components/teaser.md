@@ -113,7 +113,7 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de teasopties definiëren die
 
 ### Taser Tab {#teaser-tab}
 
-{het ontwerpdialoog van de Component van 0} Taser ](/help/assets/teaser-design.png)![
+{het ontwerpdialoog van de Component van 0} Taser ![&#128279;](/help/assets/teaser-design.png)
 
 * **vraag-aan-Acties**
    * **maak vraag-aan-Acties** onbruikbaar - verberg **vraag-aan-Acties** optie voor inhoudsauteurs
@@ -127,7 +127,7 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de teasopties definiëren die
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van het Taser steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De Component van het Taser steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
 ## Adobe Client Data Layer {#data-layer}
 

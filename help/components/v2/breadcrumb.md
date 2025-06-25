@@ -30,7 +30,7 @@ In dit document wordt versie 2 van de Breadcrumb Component beschreven, die in ja
 >
 >In dit document wordt versie 2 van de component Breadcrumb beschreven.
 >
->Voor details van de huidige versie van de Component Breadcrumb, zie het ](/help/components/breadcrumb.md) document van de Component 0} Breadcrumb.[
+>Voor details van de huidige versie van de Component Breadcrumb, zie het [&#128279;](/help/components/breadcrumb.md) document van de Component 0&rbrace; Breadcrumb.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
@@ -87,7 +87,7 @@ In het ontwerpdialoogvenster kan de sjabloonauteur definiëren wat de standaardw
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component Breadcrumb steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De component Breadcrumb steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
 ## Adobe Client Data Layer {#data-layer}
 

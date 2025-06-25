@@ -111,7 +111,7 @@ Op het **lusje van de Toegankelijkheid**, kunnen de waarden voor [ de toegankeli
 
 ## Deelvenster selecteren {#select-panel}
 
-De inhoudauteur kan de **Uitgezochte 1} optie van het Comité op de componententoolbar gebruiken om in een verschillend paneel te veranderen voor het uitgeven evenals de orde van de lusjes gemakkelijk te herschikken.**
+De inhoudauteur kan de **Uitgezochte 1&rbrace; optie van het Comité op de componententoolbar gebruiken om in een verschillend paneel te veranderen voor het uitgeven evenals de orde van de lusjes gemakkelijk te herschikken.**
 
 ![ Uitgezochte paneelpictogram ](/help/assets/select-panel-icon.png)
 
@@ -127,7 +127,7 @@ Zodra het selecteren van de **Uitgezochte optie van het Comité** in de componen
 
 >[!NOTE]
 >
->De lusjes zijn niet selecteerbaar door de auteur wanneer op **** wijze uitgeeft. De wijze van de Voorproef van het gebruik ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) **of de**[ Mening zoals Gepubliceerde ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published) **optie om met de lusjes als lezer van de gepubliceerde inhoud in wisselwerking te staan.**[
+>De lusjes zijn niet selecteerbaar door de auteur wanneer op **&#x200B;**&#x200B;wijze uitgeeft. De wijze van de Voorproef van het gebruik [&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) **of de**&#x200B;[ Mening zoals Gepubliceerde ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published) **optie om met de lusjes als lezer van de gepubliceerde inhoud in wisselwerking te staan.**
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -141,7 +141,7 @@ De toegelaten Componenten lusjefuncties op de zelfde manier zoals het lusje van 
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van Lusjes steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De component van Lusjes steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
 ## Adobe Client Data Layer {#data-layer}
 

@@ -58,7 +58,7 @@ De Adaptive Forms Wizard Layout Core Component is in februari 2023 uitgebracht a
 | — | — |
 | v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel | Compatibel |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -177,7 +177,7 @@ Het **Toegestane lusje van Componenten** staat malplaatjeredacteur toe om de com
 
 ### Tabblad Stijlen {#styles-tab}
 
-Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve component van de de tovenaarKern van Forms steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve component van de de tovenaarKern van Forms steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
 ![ het lusje van Stijlen ](/help/adaptive-forms/assets/tabs-styles-tab.png)
 

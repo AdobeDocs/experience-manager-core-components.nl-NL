@@ -148,4 +148,4 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur de opties definiëren die 
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van het Fragment van de Ervaring steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De Component van het Fragment van de Ervaring steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).

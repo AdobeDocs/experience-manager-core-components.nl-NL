@@ -35,7 +35,7 @@ In de volgende tabel worden alle ondersteunde versies van de component, de AEM-v
 >[!CAUTION]
 >
 >In dit document wordt versie 1 van de Quick Search-component beschreven.
->>Voor details van de huidige versie van de Snelle Component van het Onderzoek, zie het [ Snelle document van de Component van het Onderzoek ](/help/components/quick-search.md).
+>&#x200B;>Voor details van de huidige versie van de Snelle Component van het Onderzoek, zie het [ Snelle document van de Component van het Onderzoek ](/help/components/quick-search.md).
 
 Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
 
@@ -90,4 +90,4 @@ Minimale lengte van de zoekterm om de zoekopdracht te starten
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Snelle Component van het Onderzoek steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De Snelle Component van het Onderzoek steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).

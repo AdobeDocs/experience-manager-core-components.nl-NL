@@ -37,7 +37,7 @@ In de volgende tabel wordt de compatibiliteit van v1 van de component List weerg
 >
 >In dit document wordt versie 1 van de component List beschreven.
 >
->Voor details van de huidige versie van de Component van de Lijst, zie het ](/help/components/list.md) document van de Component van de Lijst 0} {.[
+>Voor details van de huidige versie van de Component van de Lijst, zie het [&#128279;](/help/components/list.md) document van de Component van de Lijst 0&rbrace; &lbrace;.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
@@ -222,7 +222,7 @@ Ongeacht hoe u de lijst maakt, zijn er bepaalde sorteeropties die altijd kunnen 
 
 ### Iteminstellingen {#item-settings}
 
-Gebruikend het **lusje van de Montages van het Punt 0} {, kan het formatteren van de lijstelementen worden gevormd.**
+Gebruikend het **lusje van de Montages van het Punt 0&rbrace; &lbrace;, kan het formatteren van de lijstelementen worden gevormd.**
 
 ![](/help/assets/chlimage_1-44.png)
 

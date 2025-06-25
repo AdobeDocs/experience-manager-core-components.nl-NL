@@ -37,7 +37,7 @@ In de volgende tabel wordt de compatibiliteit van versie 1 van de component Form
 >
 >In dit document wordt versie 1 van de component Formulieropties beschreven.
 >
->Voor details van de huidige versie van de Component van de Opties van de Vorm, zie het ](/help/components/forms/form-options.md) document van de Component van de Opties van de Vorm 0} {.[
+>Voor details van de huidige versie van de Component van de Opties van de Vorm, zie het [&#128279;](/help/components/forms/form-options.md) document van de Component van de Opties van de Vorm 0&rbrace; &lbrace;.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 

@@ -44,7 +44,7 @@ De Adaptive Forms Image Core Component is in februari 2023 uitgebracht als onder
 |---|---|---|
 | v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -90,7 +90,7 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de component Ima
 
 ### Tabblad Stijlen {#styles-tab}
 
-Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve Component van de Kern van het Beeld van Forms steunt het systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve Component van de Kern van het Beeld van Forms steunt het systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
 ![ Dialoog van het Ontwerp ](/help/adaptive-forms/assets/checkbox-style.png)
 
