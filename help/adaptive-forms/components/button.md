@@ -3,12 +3,13 @@ title: Adaptive Forms Core Component - Button
 description: De Adaptive Forms-kerncomponent voor knoppen gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1658'
 ht-degree: 0%
 
 ---
+
 
 # component Button {#button-component-adaptive-forms-core-component}
 
@@ -19,6 +20,8 @@ Met de Adaptive Forms Rule Editor kunnen gebruikers verschillende handelingen in
 De adaptieve Forms eigenschapafzonderlijke componenten voor [ verzenden knoop ](/help/adaptive-forms/components/submit-button.md) en [ knoop van het Terugstellen ](/help/adaptive-forms/components/reset-button.md), toestaand gebruikers om een vorm gemakkelijk voor te leggen of terug te stellen. De component Button kan flexibel worden geconfigureerd om deze handelingen uit te voeren op basis van specifieke behoeften.
 
 Gebruikers kunnen de volledige lijst met ondersteunde acties voor de knopcomponent openen met de Adaptive Forms Rule Editor. Met de regeleditor kunnen gebruikers regels maken die door verschillende gebeurtenissen worden geactiveerd, zoals wanneer op een knop wordt geklikt, wanneer een formulier wordt geladen of wanneer een veldwaarde verandert. Deze regels kunnen vervolgens worden gebruikt om verschillende handelingen uit te voeren, zoals het weergeven of verbergen van componenten, het instellen van veldwaarden of het verzenden van het formulier.
+
+{{traditional-aem}}
 
 **Voorbeeld**
 
@@ -40,13 +43,13 @@ Er zijn verschillende redenen waarom het nuttig is om een knop in een adaptieve 
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms Button Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms Button Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 for AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM-compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
 | v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -72,7 +75,7 @@ Met het dialoogvenster Configureren kunt u de knopervaring voor bezoekers eenvou
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
   Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
-  ![&#128279;](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0&rbrace;
+  ](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0}![
 
 - **Bind Verwijzing** - A bindt verwijzing is een verwijzing naar een gegevenselement dat in een externe gegevensbron wordt opgeslagen en in een vorm wordt gebruikt. Met de bind-verwijzing kunt u gegevens dynamisch binden aan formuliervelden, zodat in het formulier de meest actuele gegevens uit de gegevensbron kunnen worden weergegeven. Een bind-verwijzing kan bijvoorbeeld worden gebruikt om de naam en het adres van een klant in een formulier weer te geven op basis van de id van de klant die in het formulier is ingevoerd. De bind verwijzing kan ook worden gebruikt om de gegevensbron met gegevens bij te werken ingegaan in de vorm. Op deze manier kunt u in AEM Forms formulieren maken die interageren met externe gegevensbronnen, zodat u een naadloze gebruikerservaring hebt voor het verzamelen en beheren van gegevens.
 
@@ -112,7 +115,7 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de knopcomponent
 
 ### Tabblad Stijlen {#styles-tab}
 
-De adaptieve Component van de Kern van de Knoop van Forms steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De adaptieve Component van de Kern van de Knoop van Forms steunt het systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ![ Dialoog van het Ontwerp ](/help/adaptive-forms/assets/checkbox-style.png)
 

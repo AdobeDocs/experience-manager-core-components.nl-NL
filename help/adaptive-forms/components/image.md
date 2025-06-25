@@ -3,18 +3,21 @@ title: Adaptieve Forms Core-component - Afbeelding
 description: De Adaptive Forms Image Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
+
 
 # Afbeeldingscomponent{#image-adaptive-forms-core-component}
 
 Een afbeeldingscomponent in een adaptief formulier is een manier om afbeeldingen op te nemen in een formulier. Deze afbeeldingen kunnen worden gebruikt om het algehele ontwerp van het formulier te verbeteren, aanvullende informatie te verstrekken of als visuele hulp om gebruikers te helpen het doel van het formulier te begrijpen. Met de afbeeldingscomponent kunt u een logo, foto of afbeelding aan het formulier toevoegen.
 
 Voor toegankelijkheid, is het belangrijk om **Afwisselende tekst** aan het beeld te specificeren om een kort, beschrijvend tekstalternatief voor het beeld te verstrekken, dat het beeld aan gebruikers beschrijft die het niet kunnen zien.
+
+{{traditional-aem}}
 
 **Voorbeeld**
 
@@ -35,13 +38,13 @@ Er zijn verschillende redenen waarom het nuttig is om een component Image op te 
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms Image Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms Image Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 voor Cloud Service en Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM-compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
 | v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -87,7 +90,7 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de component Ima
 
 ### Tabblad Stijlen {#styles-tab}
 
-Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve Component van de Kern van het Beeld van Forms steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve Component van de Kern van het Beeld van Forms steunt het systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ![ Dialoog van het Ontwerp ](/help/adaptive-forms/assets/checkbox-style.png)
 

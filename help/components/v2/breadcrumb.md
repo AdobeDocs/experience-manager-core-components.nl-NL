@@ -3,12 +3,14 @@ title: Breadcrumb-component (v2)
 description: De component van de Breadcrumb van de Component van de Kern is een navigatiecomponent die een broodkruimel van verbindingen bouwt die op de plaats van de pagina in de inhoudshiërarchie wordt gebaseerd.
 role: Architect, Developer, Admin, User
 exl-id: 5f2e6fef-e2f6-48e2-8dac-008db3131044
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 0%
 
 ---
+
 
 # Breadcrumb-component (v2) {#breadcrumb-component}
 
@@ -28,7 +30,7 @@ In dit document wordt versie 2 van de Breadcrumb Component beschreven, die in ja
 >
 >In dit document wordt versie 2 van de component Breadcrumb beschreven.
 >
->Voor details van de huidige versie van de Component Breadcrumb, zie het [&#128279;](/help/components/breadcrumb.md) document van de Component 0&rbrace; Breadcrumb.
+>Voor details van de huidige versie van de Component Breadcrumb, zie het ](/help/components/breadcrumb.md) document van de Component 0} Breadcrumb.[
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
@@ -85,8 +87,8 @@ In het ontwerpdialoogvenster kan de sjabloonauteur definiëren wat de standaardw
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component Breadcrumb steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De component Breadcrumb steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
-## Gegevenslaag client-Adobe {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
-De component Breadcrumb steunt de [ Gegevens van de Cliënt van de Adobe Laag.](/help/developing/data-layer/overview.md)
+De component Breadcrumb steunt de [ Gegevens van de Cliënt van Adobe Laag.](/help/developing/data-layer/overview.md)

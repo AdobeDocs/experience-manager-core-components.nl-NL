@@ -3,18 +3,21 @@ title: Adaptive Forms Core Component - Tekst
 description: De Adaptive Forms Text Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
+
 
 # Tekstcomponent {#text-adaptive-forms-core-component}
 
 In een adaptief formulier verwijst de tekst naar de inhoud die op het formulier wordt weergegeven en die de gebruiker kan lezen. Dit kan de tekst omvatten die wordt gebruikt om een groep vormelementen, zoals tekstgebieden, evenals om het even welke extra instructies of informatie te etiketteren die aan de gebruiker wordt verstrekt.
 
 Hierdoor kan de structuur van een formulier ook worden opgedeeld in logische secties, zodat gebruikers het formulier eenvoudiger kunnen begrijpen en invullen. Bovendien kan het worden gebruikt voor toegankelijkheidsdoeleinden om een korte beschrijving te geven van het element waaraan het is gekoppeld. Een dergelijk tekstveld wordt doorgaans weergegeven in de buurt van de formuliercomponenten, bijvoorbeeld ervóór of erna.
+
+{{traditional-aem}}
 
 **Voorbeeld**
 
@@ -34,13 +37,13 @@ Er zijn verschillende redenen om tekst in een formulier te gebruiken:
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms Text Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms Text Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 for AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM-compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
 | v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -71,7 +74,7 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de component Tex
 
 ### Tabblad Stijlen {#styles-tab}
 
-Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve Component van de Kern van de Tekst van Forms steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve Component van de Kern van de Tekst van Forms steunt het systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ![ Dialoog van het Ontwerp ](/help/adaptive-forms/assets/checkbox-style.png)
 

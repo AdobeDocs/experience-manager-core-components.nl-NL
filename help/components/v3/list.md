@@ -3,12 +3,14 @@ title: Lijstcomponent (v3)
 description: Met de Core Component List Component (v3) kunt u dynamische en statische lijsten op eenvoudige wijze maken.
 role: Architect, Developer, Admin, User
 exl-id: 4aefce2e-9c22-4c6d-869e-aaa8c246b073
-source-git-commit: d86cb826922330f9877a725b84eb1844e1d5c0b7
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 0%
 
 ---
+
 
 # Lijstcomponent (v3) {#list-component}
 
@@ -26,11 +28,11 @@ In dit document wordt versie 3 van de component List beschreven. Deze versie is 
 >
 >In dit document wordt versie 3 van de component List beschreven.
 >
->Voor details van de huidige versie van de Component van de Lijst, zie het [&#128279;](/help/components/list.md) document van de Component van de Lijst 0&rbrace; &lbrace;.
+>Voor details van de huidige versie van de Component van de Lijst, zie het ](/help/components/list.md) document van de Component van de Lijst 0} {.[
 
-In de volgende tabel staan alle ondersteunde versies van de component, de AEM versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor vorige versies.
+In de volgende tabel worden alle ondersteunde versies van de component, de AEM-versies waarmee de versies van de component compatibel zijn en koppelingen naar documentatie voor eerdere versies weergegeven.
 
-| Componentversie | AEM 6,4 | AEM 6,5 | AEM as a Cloud Service |
+| Componentversie | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
 | [ v4 ](/help/components/list.md) | - | Compatibel | Compatibel |
 | v3 | - | Compatibel | Compatibel |
@@ -41,7 +43,7 @@ Voor meer informatie over de versies en versies van de Component van de Kern, zi
 
 ## Omleiding in lijsten {#redirects}
 
-Wanneer een pagina een omleidingsdoel heeft (ongeacht of deze naar een externe URL of naar een andere AEM pagina verwijst), dan een lijst die koppelingen naar dat punt rechtstreeks naar de URL van het omleidingsdoel bevat.
+Wanneer een pagina een omleidingsdoel heeft (ongeacht of deze naar een externe URL of naar een andere AEM-pagina verwijst), dan een lijst die koppelingen naar dat punt rechtstreeks naar de URL van het omleidingsdoel bevat.
 
 ### Voorbeeld {#redirect-example}
 
@@ -106,7 +108,7 @@ Tik of klik **voeg** knoop toe om een nieuw punt aan de lijst binnen te brengen.
 
 #### Zoeken {#search-options}
 
-De lijst kan worden samengesteld met de resultaten van een zoekopdracht naar AEM inhoud.
+De lijst kan worden samengesteld met behulp van de resultaten van een zoekopdracht naar AEM-inhoud.
 
 ![ de lijstopties van het Onderzoek ](/help/assets/v3/list-edit-search.png)
 
@@ -170,7 +172,7 @@ Met het tabblad Iteminstellingen kunt u de opmaak van de lijstelementen configur
 
 ### Tabblad Stijlen {#styles-tab-edit}
 
-De Component van de Lijst steunt het AEM [ Systeem van de Stijl.](/help/get-started/authoring.md#component-styling).
+De Component van de Lijst steunt het Systeem van de Stijl van AEM [.](/help/get-started/authoring.md#component-styling).
 
 Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
 
@@ -186,7 +188,7 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur definiëren welke typen li
 
 Op het **lusje van de Montages van de Lijst**, kan het datumformaat worden bepaald evenals welk type van lijsten in de component aan de inhoudsauteurs beschikbaar zouden moeten zijn.
 
-{het plaatsen van de het ontwerpdialoog van de Component van 0} Lijst ![&#128279;](/help/assets/v3/list-design-list-settings.png)
+{het plaatsen van de het ontwerpdialoog van de Component van 0} Lijst ](/help/assets/v3/list-design-list-settings.png)![
 
 * **Formaat van de Datum**
 Formaat voor de weergave van de laatste wijzigingsdatum
@@ -214,8 +216,8 @@ Laat de optie van de Datum van de Show in [ toe uitgeven dialoog ](#edit-dialog)
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van het Beeld steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De Component van het Beeld steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
-## Gegevenslaag client-Adobe {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
-De Component van de Lijst steunt de [ Gegevens van de Cliënt van de Adobe Laag.](/help/developing/data-layer/overview.md)
+De Component van de Lijst steunt de [ Laag van Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)

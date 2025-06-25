@@ -1,22 +1,24 @@
 ---
 title: Component insluiten (v1)
-description: Met de component Embed kunt u externe inhoud insluiten in een AEM inhoudspagina.
+description: Met de component Embed kunt u externe inhoud insluiten in een AEM-inhoudspagina.
 role: Architect, Developer, Admin, User
 exl-id: 28a2d196-cc1f-4e29-a8e4-c2e0acba3bfc
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '1240'
 ht-degree: 0%
 
 ---
 
+
 # Component insluiten (v1) {#embed-component}
 
-Met de component Core Components Embed kunt u externe inhoud insluiten in een AEM inhoudspagina.
+Met de component Core Components Embed kunt u externe inhoud insluiten in een AEM-inhoudspagina.
 
 ## Gebruik {#usage}
 
-Met de component Core Component Embed kan de auteur van de inhoud geselecteerde externe inhoud definiëren die moet worden ingesloten in een AEM inhoudspagina. Bovendien is er een optie om ook vrije-vorm HTML te bepalen die moet worden ingebed.
+Met de component Core Component Embed kan de auteur van de inhoud geselecteerde externe inhoud definiëren die moet worden ingesloten op een AEM-inhoudspagina. Daarnaast is er een optie voor het definiëren van HTML met vrije vorm die ook moet worden ingesloten.
 
 * De eigenschappen van de component kunnen in [ worden bepaald vormen dialoog ](#configure-dialog).
 * De gebreken voor de component wanneer het toevoegen van het aan een pagina kunnen in de [ ontwerpdialoog ](#design-dialog) worden bepaald.
@@ -49,7 +51,7 @@ In het dialoogvenster voor configureren kan de auteur van de inhoud de externe b
 * [Insluitbaar](#embeddable)
 * [HTML](#html)
 
-Voor elk type van inbedbaar, kunt u identiteitskaart van de a.u. **&#x200B;**&#x200B;bepalen. Deze optie staat toe om het unieke herkenningsteken van de component in de HTML en in de [ Laag van Gegevens ](/help/developing/data-layer/overview.md) te controleren.
+Voor elk type van inbedbaar, kunt u identiteitskaart van de a.u. **** bepalen. Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens ](/help/developing/data-layer/overview.md) te controleren.
 
 * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
 * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
@@ -61,7 +63,7 @@ De eenvoudigste insluiting is de URL. Plak eenvoudig URL van het middel u wenst 
 
 De component Embed wordt geleverd bij processors voor de volgende typen bronnen:
 
-* Middelen die aan de [ norm inbedden ](https://oembed.com/) met inbegrip van Facebook Post, Instagram, SoundCloud, Twitter, en YouTube voldoen
+* Middelen die aan de [ norm inbedden ](https://oembed.com/) met inbegrip van Post Facebook, Instagram, SoundCloud, Twitter, en YouTube voldoen
 * Pinterest
 
 De ontwikkelaars kunnen extra bewerkers URL door [ na de ontwikkelaarsdocumentatie van de Embed Component toevoegen.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
@@ -80,7 +82,7 @@ Het **Inbeddable** gebied bepaalt het type van bewerker u wilt gebruiken. In het
 * **laat Dempen** toe - Deze parameter specificeert of de video gedempt door gebrek zal spelen. Als u deze optie inschakelt, wordt de kans dat Automatisch afspelen werkt in moderne browsers groter.
 * **laat Autoplay** toe - Deze parameter specificeert of de aanvankelijke video automatisch zal beginnen te spelen wanneer de speler laadt. Dit is slechts efficiënt op publiceer instantie of wanneer het gebruiken van de **Mening zoals Gepubliceerde** optie op de auteursinstantie.
 * **laat Lijn** toe - in het geval van één enkele video, specificeert deze parameter of de speler de aanvankelijke video herhaaldelijk zou moeten spelen. In het geval van een afspeellijst speelt de speler de volledige afspeellijst af en begint vervolgens opnieuw bij de eerste video.
-* **laat Inline Playback (iOS) toe** - Deze parameter controleert of video&#39;s inline (op) of volledig scherm (weg) in een speler van HTML5 op iOS spelen.
+* **laat Inline Playback (iOS) toe** - Deze parameter controleert of video&#39;s inline (op) of volledig scherm (weg) in een speler HTML5 op iOS spelen.
 * **Onbeperkte Verwante Verwante Video&#39;s** - als deze optie gehandicapt is, zullen de verwante video&#39;s uit het zelfde kanaal komen zoals de video die enkel werd gespeeld, anders zullen zij uit om het even welk kanaal komen.
 
 Merk op dat &quot;toelaten&quot;opties door de [ Dialoog van het Ontwerp ](#design-dialog) moeten worden geactiveerd en als standaardwaarden kunnen worden geplaatst.
@@ -94,22 +96,22 @@ Andere inbeddables zouden gelijkaardige gebieden aanbieden en kunnen door een on
 
 ### HTML {#html}
 
-Met de component Embed kunt u HTML in een vrije vorm aan de pagina toevoegen.
+Met de component Embed kunt u HTML met vrije vorm toevoegen aan uw pagina.
 
-![ bedt Component geeft dialoog voor HTML ](/help/assets/embed-html.png) uit
+![ bed Component&#39;s uitgeeft dialoog voor HTML ](/help/assets/embed-html.png) in
 
 >[!NOTE]
 >Eventuele onveilige tags, zoals scripts, worden gefilterd vanaf de ingevoerde HTML en niet weergegeven op de resulterende pagina.
 
 #### Beveiliging {#security}
 
-De HTML-opmaak die de auteur kan invoeren, wordt voor beveiligingsdoeleinden gefilterd om scriptaanvallen op andere sites te voorkomen, zodat auteurs bijvoorbeeld beheerdersrechten kunnen verkrijgen.
+De HTML-opmaakcode die de auteur kan invoeren, wordt voor beveiligingsdoeleinden gefilterd om problemen met scripts die verwijzen naar andere sites, te voorkomen. Hierdoor kunnen auteurs bijvoorbeeld administratieve rechten krijgen.
 
 *In het algemeen,* zullen alle manuscript en `style` elementen evenals alle `on*` en `style` attributen uit de output worden verwijderd.
 
-De regels zijn echter gecompliceerder omdat de component Embed volgt AEM de algemene filterregelset van het HTML AntiSamy-sanitatieframework, die u kunt vinden op `/libs/cq/xssprotection/config.xml` . Dit kan voor project-specifieke configuratie door een ontwikkelaar indien vereist worden bedekt.
+De regels zijn echter gecompliceerder omdat de Embed-component volgt op de filterregelset van het globale HTML AntiSamy-sanitatieframework van AEM, die u kunt vinden op `/libs/cq/xssprotection/config.xml` . Dit kan voor project-specifieke configuratie door een ontwikkelaar indien vereist worden bedekt.
 
-De extra veiligheidsinformatie kan in de [ AEM ontwikkelaarsdocumentatie voor op-gebouw installaties ](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=nl-NL) evenals [ installaties van AEM as a Cloud Service worden gevonden.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html?lang=nl-NL)
+De extra veiligheidsinformatie kan in de [ de ontwikkelaarsdocumentatie van AEM voor op-gebouw installaties ](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html) evenals [ installaties van AEM as a Cloud Service worden gevonden.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)
 
 >[!NOTE]
 >Hoewel de regels van het AntiSamy sanitation framework kunnen worden geconfigureerd door `/libs/cq/xssprotection/config.xml` te bedekken, zijn deze wijzigingen van invloed op al het HTML- en JSP-gedrag en niet alleen op de Embed Core Component.

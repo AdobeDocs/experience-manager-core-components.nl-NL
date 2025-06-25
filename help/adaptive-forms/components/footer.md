@@ -3,16 +3,19 @@ title: Adaptieve Forms Core-component - Voettekst
 description: De Adaptive Forms Footer Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
 
+
 # Voettekst {#footer-adaptive-forms-core-component}
 
 Een voettekstcomponent in een adaptief formulier is een gebied dat doorgaans onder aan het formulier wordt weergegeven en dat informatie bevat zoals een copyrightkennisgeving, koppelingen naar gerelateerde bronnen of contactgegevens. Een voettekst kan aanvullende informatie bevatten, zoals de datum van de laatste update, die nuttig kan zijn voor gebruikers met toegankelijkheidsbehoeften.
+
+{{traditional-aem}}
 
 **Voorbeeld**
 
@@ -34,13 +37,13 @@ Er zijn verschillende redenen waarom het nuttig is om een voettekstcomponent in 
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms Footer Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms Footer Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 voor Cloud Service en Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM-compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
 | v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -82,8 +85,8 @@ Het dialoogvenster Bewerken bevat standaardgereedschappen voor tekstopmaak waarm
 - **Hyperlink**
 
    - **Weg** - ga de weg in
-      1. Kies in het dialoogvenster Selectie openen een pad in AEM.
-      1. Als de koppeling zich niet binnen AEM bevindt, voert u de absolute URL in.
+      1. Kies een pad in AEM in het dialoogvenster Selectie openen.
+      1. Als de koppeling zich niet in AEM bevindt, voert u de absolute URL in.
       1. Niet-absolute paden worden geïnterpreteerd als relatief ten opzichte van AEM.
 
    - **Alternatieve tekst** - ga alternatieve beschrijvende tekst voor de verbinding in.
@@ -109,7 +112,7 @@ Het dialoogvenster Bewerken bevat standaardgereedschappen voor tekstopmaak waarm
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=nl-NL)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

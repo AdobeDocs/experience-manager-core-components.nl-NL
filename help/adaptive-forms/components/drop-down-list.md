@@ -3,18 +3,22 @@ title: Adaptive Forms Core Component - Vervolgkeuzelijst
 description: De Adaptive Forms Drop-down Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2186'
 ht-degree: 0%
 
 ---
+
 
 # Onderdeel vervolgkeuzelijst{#drop-down-list-adaptive-forms-core-component}
 
 Met een vervolgkeuzelijst in een adaptief formulier kunnen gebruikers een of meer opties selecteren in een lijst met vooraf gedefinieerde opties. De opties kunnen van het type String, Number of Boolean zijn. Bovendien, kan de drop-down lijstcomponent worden gevormd om verschillende bevestiging en standaardwaarden te hebben.
 
+{{traditional-aem}}
+
 **Voorbeeld**
+
 ![ voorbeeld ](/help/adaptive-forms/assets/drop-down-list.png)
 
 ## Gebruik {#reasons-to-use-drop-down-list}
@@ -43,13 +47,13 @@ Bovendien, kan de drop-down lijst worden gevormd om verschillende verwerkingswaa
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms vervolgkeuzelijst Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms vervolgkeuzelijst Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 voor Cloud Service en Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM-compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
 | v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -73,7 +77,7 @@ Met het dialoogvenster Configureren kunt u uw ervaring in de vervolgkeuzelijst e
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
   Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
-  ![&#128279;](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0&rbrace;
+  ](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0}![
 
 - **Verberg Titel** - selecteer de optie om de Titel van de component te verbergen.
 
@@ -143,7 +147,7 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de vervolgkeuzel
 
 ### Tabblad Stijlen {#styles-tab}
 
-Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve Forms drop-down component van de LijstKern steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve Forms drop-down component van de LijstKern steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ![ Dialoog van het Ontwerp ](/help/adaptive-forms/assets/checkbox-style.png)
 

@@ -3,16 +3,19 @@ title: Navigatie-component
 description: Met de navigatiecomponent kunnen gebruikers gemakkelijk door een geglobaliseerde sitestructuur navigeren.
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 0%
 
 ---
 
+
 # Navigatie-component{#navigation-component}
 
 Met de navigatiecomponent kunnen gebruikers gemakkelijk door een geglobaliseerde sitestructuur navigeren.
+
+{{traditional-aem}}
 
 ## Gebruik {#usage}
 
@@ -91,7 +94,7 @@ Hiervoor moet u:
 1. Schaduwpagina&#39;s maken als lege pagina&#39;s die uw gewenste sitestructuur voorstellen. Dit wordt vaak een schaduwsitestructuur genoemd.
 1. Plaats de **omleiden** waarden in de paginaeigenschappen op deze pagina&#39;s om aan de daadwerkelijke inhoudspagina&#39;s te richten.
 1. Plaats de **Verbergen in Navigatie** optie in de paginaeigenschappen van de schaduwpagina&#39;s.
-1. Plaats de **waarde van de Wortel van de Navigatie** &lbrace;van de Component van de Navigatie om aan de wortel van de nieuwe structuur van de schaduwplaats te richten.
+1. Plaats de **waarde van de Wortel van de Navigatie** {van de Component van de Navigatie om aan de wortel van de nieuwe structuur van de schaduwplaats te richten.
 
 De component Navigation geeft het menu vervolgens weer op basis van de structuur van de schaduwsite. De koppelingen die door de component worden gerenderd, verwijzen naar de inhoudspagina&#39;s die de schaduwpagina&#39;s omleiden en niet naar de schaduwpagina&#39;s zelf. Bovendien geeft de component de namen van de werkelijke pagina&#39;s weer en wordt de actieve pagina correct gemarkeerd, zelfs als de navigatie is gebaseerd op schaduwpagina&#39;s. De component Navigation maakt de schaduwpagina&#39;s volledig transparant voor de bezoeker.
 
@@ -186,7 +189,7 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur de standaardwaarden instel
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van de Navigatie steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+De component van de Navigatie steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ## Adobe Client Data Layer {#data-layer}
 

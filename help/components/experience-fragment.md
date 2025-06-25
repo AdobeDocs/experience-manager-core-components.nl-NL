@@ -3,16 +3,19 @@ title: Experience Fragment
 description: Met de ervaringsfragmentcomponent kan de auteur van de inhoud een ervaringsfragmentvariatie aan een pagina toevoegen.
 role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 0%
 
 ---
 
+
 # Experience Fragment{#experience-fragment-component}
 
 Met de Core Component Experience Fragment Component kan de auteur van de inhoud een ervaringsfragmentvariatie op een pagina plaatsen en een gelokaliseerde sitestructuur ondersteunen.
+
+{{traditional-aem}}
 
 ## Gebruik {#usage}
 
@@ -145,4 +148,4 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur de opties definiëren die 
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van het Fragment van de Ervaring steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+De Component van het Fragment van de Ervaring steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).

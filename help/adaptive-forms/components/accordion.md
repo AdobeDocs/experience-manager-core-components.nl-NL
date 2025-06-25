@@ -3,18 +3,21 @@ title: Aangepaste formulieraccordeon
 description: Gebruik accordeon om een lange of complexe vorm te ordenen en te vereenvoudigen door deze op te splitsen in kleinere, beter te beheren gedeelten.
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '2237'
 ht-degree: 0%
 
 ---
 
+
 # Accordion-component {#accordion-component-adaptive-forms-core-component}
 
 Met de Accordion Core-component kunnen gebruikers uitbreidbare en inklapbare secties maken in een adaptief formulier. Het wordt vaak gebruikt om lange of complexe vormen te organiseren en te vereenvoudigen door hen in kleinere, handelbaardere secties op te splitsen. Elke sectie van een accordeon wordt meestal vertegenwoordigd door een koptekst, waarop de gebruiker kan klikken om de bijbehorende inhoud uit of samen te vouwen. De inhoud kan elke Core-component bevatten.
 
 ![ voorbeeld ](/help/adaptive-forms/assets/example-accordion.png)
+
+{{traditional-aem}}
 
 ## Gebruik {#usage}
 
@@ -41,7 +44,7 @@ Het dialoogvenster Configureren en de deelvensterpop-up en het dialoogvenster On
 ## Versie en compatibiliteit {#version-and-compatibility}
 
 
-De Adaptive Forms Accordion Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms Accordion Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4. Hier volgt een tabel met alle ondersteunde versies, AEM-compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
 |  |  |
 |---|---|
@@ -49,7 +52,7 @@ De Adaptive Forms Accordion Core Component is in februari 2023 uitgebracht als o
 | — | — |
 | v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel | Compatibel |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -75,7 +78,7 @@ Met het dialoogvenster Configureren kunt u de accordeonervaring voor bezoekers e
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
   Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
-  ![&#128279;](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0&rbrace;
+  ](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0}![
 
 - **Verberg Titel** - selecteer de optie om de Titel van de component te verbergen.
 - **de gegevens van de Groepering van kindcomponenten over vormvoorlegging (de gegevens van de Omslag in voorwerp)** - wanneer de optie wordt geselecteerd, worden de gegevens van zijn kindcomponenten genesteld binnen het voorwerp JSON van de oudercomponent. Als de optie echter niet is geselecteerd, hebben de verzonden JSON-gegevens een platte structuur, zonder object voor de bovenliggende component. Bijvoorbeeld:
@@ -121,7 +124,7 @@ Met de opties voor herhaling kunt u accordeondeelvensters en onderliggende compo
 - **Minimale herhalingen**: Vestigt het minimumaantal tijden het accordeonpaneel kan worden herhaald. De waarde nul geeft aan dat het accordeonvenster niet wordt herhaald; de standaardwaarde is nul.
 - **Maximale herhalingen**: Plaatst het maximumaantal tijden het accordeonpaneel kan worden herhaald. Deze waarde is standaard onbeperkt.
 
-Om herhaalbare secties binnen de accordeon effectief te beheren, volg de stappen die in [ worden verstrekt die vormen met herhaalbare secties ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=nl-NL) artikel creëren.
+Om herhaalbare secties binnen de accordeon effectief te beheren, volg de stappen die in [ worden verstrekt die vormen met herhaalbare secties ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) artikel creëren.
 
 ### Tabblad Items {#items-tab}
 
@@ -189,7 +192,7 @@ The **Select Panel** option (![Select panel icon](/help/assets/select-panel-icon
 
 De dialoog van het Ontwerp laat malplaatjemakers controleren hoe de dingen door gebrek worden getoond. Voor de Adaptieve Forms Accordion-component kunt u het volgende instellen:
 
-- Het type HTML-kopelementen dat is toegestaan en ingesteld als standaard (zoals H1, H2, H3, enz.)
+- Het type HTML-kopelementen dat is toegestaan en als standaard is ingesteld (zoals H1, H2, H3, enz.)
 - De kerncomponenten die een maker van het formulier aan de accordeon kan toevoegen in de Adaptive Forms Editor
 - Eenvoudige namen voor stijlen (CSS-klassen) die kunnen worden toegepast in het dialoogvenster met eigenschappen van de accordeoncomponent in de Adaptieve Forms-editor.
 
@@ -215,7 +218,7 @@ Het **Toegestane lusje van Componenten** staat malplaatjeredacteur toe om de com
 
 ![ lusje van de de dialoogvakje van het Ontwerp ](/help/adaptive-forms/assets/accordion-styles-tab.png)
 
-Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve Component van de Kern van de Accordion van Forms steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve Component van de Kern van de Accordion van Forms steunt het systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 - **StandaardCSS Klassen**: U kunt een standaardCSS klasse voor de accordeoncomponent verstrekken.
 

@@ -3,7 +3,8 @@ title: Component E-mailtitel
 description: De component E-mailtitel is een onderdeel voor sectiekoppen van uw e-mailberichten waarin bewerkingen op locatie worden uitgevoerd.
 role: Architect, Developer, Admin, User
 exl-id: f65b6973-bb36-406f-bbea-f85a23f5340b
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -86,4 +87,4 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur het standaardkopniveau def
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van de Titel E-mail steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+De component van de Titel E-mail steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).

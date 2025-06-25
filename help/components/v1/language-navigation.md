@@ -3,12 +3,14 @@ title: Taalnavigatiecomponent (v1)
 description: De component Taalnavigatie biedt een taal-/landnavigatie voor een site, zodat bezoekers naar dezelfde pagina in een andere landinstelling kunnen navigeren.
 role: Architect, Developer, Admin, User
 exl-id: 41194ba0-6833-40e5-88d9-036e9c231edd
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
 
 ---
+
 
 # Taalnavigatiecomponent (v1) {#language-navigation-component}
 
@@ -31,7 +33,7 @@ In dit document wordt versie 1 van de taalnavigatiecomponent beschreven, die in 
 >
 >In dit document wordt versie 1 van de taalnavigatiecomponent beschreven.
 >
->Voor details van de huidige versie van de Component van de Navigatie van de Taal, zie het [&#128279;](/help/components/language-navigation.md) document van de Component van de Navigatie van 0&rbrace; Taal.
+>Voor details van de huidige versie van de Component van de Navigatie van de Taal, zie het ](/help/components/language-navigation.md) document van de Component van de Navigatie van 0} Taal.[
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
@@ -51,7 +53,7 @@ Doorgaans hoeven deze configuraties alleen op paginasjabloonniveau te worden uit
 
 ### Tabblad Eigenschappen {#properties-tab}
 
-{het ontwerpdialoog van de Component van de Navigatie van 0} Taal ![&#128279;](/help/assets/language-navigation-design.png)
+{het ontwerpdialoog van de Component van de Navigatie van 0} Taal ](/help/assets/language-navigation-design.png)![
 
 * **Basis van de Navigatie**
    * Hier moet de taalnavigatie van de site worden gestart.
@@ -83,26 +85,26 @@ Laten we zeggen dat uw inhoud er ongeveer als volgt uitziet:
 
 Voor de plaats WKND, zou u waarschijnlijk de component van de Navigatie van de Taal op een paginamalplaatje als deel van de kopbal willen plaatsen. Zodra een deel van het malplaatje, kunt u de **Wortel van de Navigatie** van de component aan `/content/wknd` plaatsen aangezien dat is waar uw gelokaliseerde inhoud voor die plaats begint. U zou ook de **Diepte van de Structuur van de Taal** willen plaatsen om `2` te zijn aangezien uw structuur van twee niveaus (land toen taal) is.
 
-Met de **waarde van de Root van de Navigatie 0&rbrace;, weet de Component van de Taal dat na `/content/wknd` dat de navigatie begint en het taalnavigatieopties kan produceren door de volgende twee niveaus in de inhoudsboom als de taalnavigatiestructuur van de plaats (zoals die door de** waarde van de Diepte van de Structuur van de Taal **wordt bepaald) te erkennen.**
+Met de **waarde van de Root van de Navigatie 0}, weet de Component van de Taal dat na `/content/wknd` dat de navigatie begint en het taalnavigatieopties kan produceren door de volgende twee niveaus in de inhoudsboom als de taalnavigatiestructuur van de plaats (zoals die door de** waarde van de Diepte van de Structuur van de Taal **wordt bepaald) te erkennen.**
 
 Ongeacht welke pagina een gebruiker bekijkt, kan de component van de Navigatie van de Taal de overeenkomstige pagina in een andere taal vinden, door de plaats van de huidige pagina te kennen en achterwaarts aan de wortel te werken, en dan door:sturen aan de overeenkomstige pagina.
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van de Navigatie van de Taal steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De component van de Navigatie van de Taal steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
 Doorgaans hoeft de component Taalnavigatie alleen aan de paginasjablonen van een site te worden toegevoegd en geconfigureerd. Nochtans als de component van de Navigatie van de Taal aan een individuele inhoudspagina moet worden toegevoegd, geeft dialoog een inhoudauteur toe om de zelfde waarden te vormen zoals die in de [ ontwerpdialoog ](#design-dialog) worden beschreven.
 
-Bovendien kunt u een **identiteitskaart** plaatsen. Deze optie staat toe om het unieke herkenningsteken van de component in de HTML en in de [ Laag van Gegevens ](/help/developing/data-layer/overview.md) te controleren.
+Bovendien kunt u een **identiteitskaart** plaatsen. Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens ](/help/developing/data-layer/overview.md) te controleren.
 
 * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
 * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
 * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
-{de Component van de Navigatie van 0} Taal geeft dialoog uit ![&#128279;](/help/assets/language-navigation-edit.png)
+{de Component van de Navigatie van 0} Taal geeft dialoog uit ](/help/assets/language-navigation-edit.png)![
 
-## Gegevenslaag client-Adobe {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
-De Component van de Navigatie van de Taal steunt de [ Gegevens van de Cliënt van de Adobe Laag.](/help/developing/data-layer/overview.md)
+De Component van de Navigatie van de Taal steunt de [ Gegevens van de Cliënt van Adobe Laag.](/help/developing/data-layer/overview.md)

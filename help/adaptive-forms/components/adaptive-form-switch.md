@@ -3,12 +3,13 @@ title: Adaptieve Forms Core-component - Switch-component
 description: De Adaptive Forms Switch Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
-source-git-commit: 04a89892aafe26fda253bcc5971c03eda27237f9
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '1922'
 ht-degree: 0%
 
 ---
+
 
 # Aangepaste component voor formulieromschakeling{#switch-adaptive-forms-core-component}
 
@@ -17,6 +18,8 @@ De component switch is een grafische gebruikersinterface die in formulieren word
 De schakelaarcomponent is een booleaanse controleelement dat de waarde aan waar of vals plaatst. Het wordt bijvoorbeeld gebruikt om een functie in of uit te schakelen, zoals geluid dempen of dempen, of Bluetooth of WiFi in- of uitschakelen.
 
 ![ de componentenvoorbeeld van de Schakelaar ](/help/adaptive-forms/assets/switch-example.png)
+
+{{traditional-aem}}
 
 ## Gebruik {#reasons-to-use-switch}
 
@@ -28,11 +31,11 @@ De algemene redenen om over te schakelen in een adaptieve vorm zijn:
 
 - **Visuele vertegenwoordiging**: De schakelaarcomponent wijst visueel op zijn huidige staat door kleur of positie te veranderen.
 
-- **functionaliteit van de Controle**: De schakelaarcomponent wordt gebruikt om specifieke functionaliteit in of onbruikbaar te maken in een AEM Vorm. Zo kunnen gebruikers bijvoorbeeld een functie in- of uitschakelen.
+- **functionaliteit van de Controle**: De schakelaarcomponent wordt gebruikt om specifieke functionaliteit in of onbruikbaar te maken in een Vorm van AEM. Zo kunnen gebruikers bijvoorbeeld een functie in- of uitschakelen.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms Switch Core Component is uitgebracht als onderdeel van Core Components 2.0.64. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms Switch Core Component is uitgebracht als onderdeel van Core Components 2.0.64. Hier volgt een tabel met alle ondersteunde versies, AEM-compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
 |  |  |
 |---|---|
@@ -40,7 +43,7 @@ De Adaptive Forms Switch Core Component is uitgebracht als onderdeel van Core Co
 | — | — |
 | v1 | Compatibel systeem met <br>[ versie 2.0.64 ](/help/adaptive-forms/version.md) en later | Compatibel | Compatibel |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
 ## Technische details {#technical-details}
 
@@ -60,7 +63,7 @@ U kunt uw ervaring van de component van de Schakelaar voor bezoekers gemakkelijk
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
   Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
-  ![&#128279;](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0&rbrace;
+  ](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0}![
 
 - **Verberg Titel** - selecteer de optie om de Titel van de component te verbergen.
 
@@ -133,7 +136,7 @@ Het Dialoogvenster van het ontwerp wordt gebruikt om CSS stijlen voor de compone
 
 ### Tabblad Stijlen {#styles-design-tab}
 
-De adaptieve Component van de Kern van de Schakelaar van Forms steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De adaptieve Component van de Kern van de Schakelaar van Forms steunt het systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ![ Dialoog van het Ontwerp ](/help/adaptive-forms/assets/checkbox-style.png)
 

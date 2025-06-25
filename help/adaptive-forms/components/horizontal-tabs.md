@@ -3,12 +3,13 @@ title: Adaptive Forms Core Component - Horizontale tabbladen
 description: De Adaptive Forms Horizontal tabs Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '2153'
 ht-degree: 0%
 
 ---
+
 
 # Component Horizontale tabbladen (tabs bovenaan){#horizontal-tabs-adaptive-forms-core-component}
 
@@ -17,6 +18,8 @@ Horizontale tabbladen in een adaptief formulier verwijzen naar een ontwerppatroo
 De tabbladen worden meestal gemaakt als een reeks koppelingen of knoppen, waarbij elke koppeling of knop overeenkomt met een sectie van het formulier. Wanneer een gebruiker op een tabblad klikt, wordt de formulierinhoud dynamisch bijgewerkt om de bijbehorende sectie weer te geven.
 
 ![ voorbeeld ](/help/adaptive-forms/assets/horizontal-example-new.png)
+
+{{traditional-aem}}
 
 ## Gebruik {#reasons-to-use-horizontal-tabs}
 
@@ -32,7 +35,7 @@ De algemene redenen voor het gebruik van horizontale tabbladen in een adaptieve 
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms Horizontal tabs Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms Horizontal tabs Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4. Hier volgt een tabel met alle ondersteunde versies, AEM-compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
 |  |  |
 |---|---|
@@ -40,7 +43,7 @@ De Adaptive Forms Horizontal tabs Core Component is in februari 2023 uitgebracht
 | — | — |
 | v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel | Compatibel |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -66,7 +69,7 @@ Met het dialoogvenster Configureren kunt u de ervaring van horizontale tabbladen
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
   Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
-  ![&#128279;](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0&rbrace;
+  ](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0}![
 
 - **Verberg Titel** - selecteer de optie om de Titel van de component te verbergen.
 
@@ -109,7 +112,7 @@ Met de opties voor herhaling kunt u de component Horizontal-tabs en de onderligg
 - **maak lusjes op bovenkant herhaalbaar**: Een kneveleigenschap die gebruikers toestaat om de herhaalbaarheidfunctionaliteit toe te laten of onbruikbaar te maken.
 - **Minimale herhalingen**: Vestigt het minimumaantal tijden de horizontaal-luscomponent kan worden herhaald. De waarde nul geeft aan dat de component Horizontal-tabs niet wordt herhaald; de standaardwaarde is nul.
 - **Maximale herhalingen**: Plaatst het maximumaantal tijden de horizontaal-tabs component kan worden herhaald. Deze waarde is standaard onbeperkt.
-Om herhaalbare secties binnen horizontaal-lusjes effectief te beheren, volg de stappen die in [ worden verstrekt die vormen met herhaalbare secties ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=nl-NL) artikel creëren.
+Om herhaalbare secties binnen horizontaal-lusjes effectief te beheren, volg de stappen die in [ worden verstrekt die vormen met herhaalbare secties ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) artikel creëren.
 
 ### Tabblad Items {#items-tab}
 
@@ -142,7 +145,7 @@ Om herhaalbare secties binnen horizontaal-lusjes effectief te beheren, volg de s
    - **Naam**: Selecteer deze optie om de naam voor de toegankelijkheidslabels van ARIA te gebruiken.
    - **niets**: Selecteer deze optie als u niet voor de toegankelijkheidslabels van ARIA wilt toevoegen.
 
-- **de rol van de HTML voor het schermlezer om** aan te kondigen - de rol van de HTML is een attribuut wordt gebruikt om het doel van een element van de HTML aan ondersteunende technologieën zoals het schermlezers te specificeren dat. Het rolattribuut wordt gebruikt om extra context en semantische betekenis aan een element te verstrekken, die het voor schermlezers gemakkelijker maken om de inhoud te interpreteren en aan de gebruiker aan te kondigen. In AEM Forms heeft het label van een formulierveld bijvoorbeeld de rol &quot;label&quot; en kan het invoerveld de rol &quot;textbox&quot; hebben. Hierdoor kan de schermlezer de relatie tussen het label en het invoerveld begrijpen en deze correct aan de gebruiker meedelen.
+- **rol van HTML voor het schermlezer om** aan te kondigen - de rol van HTML is een attribuut dat wordt gebruikt om het doel van een element van HTML aan ondersteunende technologieën zoals het schermlezers te specificeren. Het rolattribuut wordt gebruikt om extra context en semantische betekenis aan een element te verstrekken, die het voor schermlezers gemakkelijker maken om de inhoud te interpreteren en aan de gebruiker aan te kondigen. In AEM Forms heeft het label van een formulierveld bijvoorbeeld de rol &quot;label&quot; en kan het invoerveld de rol &quot;textbox&quot; hebben. Hierdoor kan de schermlezer de relatie tussen het label en het invoerveld begrijpen en deze correct aan de gebruiker meedelen.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -161,7 +164,7 @@ Het **Toegestane lusje van Componenten** staat malplaatjeredacteur toe om de com
 
 ### Tabblad Stijlen {#styles-tab}
 
-Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve Horizontale component van de Lijst van de Kern van Forms steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve Horizontale component van de Lijst van de Kern van Forms steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ![ het lusje van Stijlen ](/help/adaptive-forms/assets/tabs-styles-tab.png)
 

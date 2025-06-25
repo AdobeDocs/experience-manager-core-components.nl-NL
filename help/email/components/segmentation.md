@@ -3,7 +3,8 @@ title: E-mailsegmenteringscomponent
 description: De component E-mailsegmentatie
 role: Architect, Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
 workflow-type: tm+mt
 source-wordcount: '1089'
 ht-degree: 0%
@@ -56,14 +57,14 @@ Gebruik **voeg de knoop van het Segment** toe om de componentenselecteur te open
    * **Gebrek** - bepaalt het standaardsegment om te tonen als geen andere voorwaarden worden voldaan
    * **Douane** - staat de auteur toe om een voorwaarde te bepalen
       * De voorwaarden zijn gebaseerd op Adobe Campaign-personalisatievariabelen
-      * [ zie hier voor de personaliseringsmiddelen van Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=nl-NL&)
-      * [ zie hier voor de personaliseringsmiddelen van Adobe Campaign Classic.](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=nl-NL)
+      * [ zie hier voor de personaliseringsmiddelen van Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
+      * [ zie hier voor de personaliseringsmiddelen van Adobe Campaign Classic.](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)
 * **Schrapping** - Tik of klik om het segment van de Component van de Segmentatie E-mail te schrappen.
 * **herschikt** - Tik of klik en sleep om de segmenten opnieuw te rangschikken.
 
 >[!TIP]
 >
->Als viewport van de inhoud wordt verminderd zodat uitgeeft dialoog volledig scherm wordt, **voegt** knoop toe zal worden verborgen. De componenten kunnen nog aan de Component van de Segmentatie E-mail worden toegevoegd door [ van componenten te slepen browser en op de Component van de Segmentatie E-mail in de inhoudsredacteur te vallen.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=nl-NL#inserting-a-component)
+>Als viewport van de inhoud wordt verminderd zodat uitgeeft dialoog volledig scherm wordt, **voegt** knoop toe zal worden verborgen. De componenten kunnen nog aan de Component van de Segmentatie E-mail worden toegevoegd door [ van componenten te slepen browser en op de Component van de Segmentatie E-mail in de inhoudsredacteur te vallen.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)
 
 ### Tabblad Eigenschappen {#properties-tab}
 
@@ -92,7 +93,7 @@ De stijlen moeten voor deze component in de [ ontwerpdialoog ](#design-dialog) w
 
 ## Deelvenster selecteren {#select-panel}
 
-De inhoudauteur kan de **Uitgezochte 1&rbrace; optie van het Comité &lbrace;op de componententoolbar gebruiken om in een verschillend segment voor het uitgeven te veranderen evenals de segmenten gemakkelijk te herschikken.**
+De inhoudauteur kan de **Uitgezochte 1} optie van het Comité {op de componententoolbar gebruiken om in een verschillend segment voor het uitgeven te veranderen evenals de segmenten gemakkelijk te herschikken.**
 
 ![ Uitgezochte paneelpictogram ](/help/email/assets/select-panel-icon.png)
 
@@ -118,7 +119,7 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur definiëren welke componen
 
 Het **Toegestane lusje van Componenten** wordt gebruikt om te bepalen welke componenten als segmenten aan de Component van de Segmentatie E-mail door de inhoudauteur kunnen worden toegevoegd.
 
-**Toegestane Componenten** tabfuncties op dezelfde manier als het lusje van de zelfde naam wanneer [ het bepalen van het beleid en de eigenschappen van een Container van de Lay-out in de Redacteur van het Malplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL)
+**Toegestane Componenten** tabfuncties op dezelfde manier als het lusje van de zelfde naam wanneer [ het bepalen van het beleid en de eigenschappen van een Container van de Lay-out in de Redacteur van het Malplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Tabblad Stijlen {#styles-tab}
 
@@ -134,7 +135,7 @@ Tik of klik **voeg** knoop toe om nieuwe voorwaarden tot stand te brengen.
 
 * **Naam van de Voorwaarde van het Segment** - een beschrijving van de voorwaarde
 * **Voorwaarde van het Segment** - de daadwerkelijke voorwaarde die moet worden voldaan aan, die op de personaliseringsvariabelen van Adobe Campaign wordt gebaseerd
-   * [ zie hier voor de personaliseringsmiddelen van Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=nl-NL&)
-   * [ zie hier voor de personaliseringsmiddelen van Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/?lang=nl-NL
+   * [ zie hier voor de personaliseringsmiddelen van Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
+   * [ zie hier voor de personaliseringsmiddelen van Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/
 * **verwijder** - Tik om te klikken om de voorwaarde te verwijderen
 * **herschikt** - Tik of klik en sleep om de orde van de voorwaarden te herschikken

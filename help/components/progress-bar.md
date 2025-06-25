@@ -3,16 +3,19 @@ title: Component Voortgangsbalk
 description: De component van de vooruitgangsbar vertegenwoordigt visueel vooruitgang naar een doel
 role: Architect, Developer, Admin, User
 exl-id: 47afc5a6-ac57-4b6c-92c4-015ca956a20b
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 1%
 
 ---
 
+
 # Component Voortgangsbalk {#progress-bar-component}
 
 De component van de Bar van de Voortgang van de Component van de Kern vertegenwoordigt visueel vooruitgang in de richting van een doel.
+
+{{traditional-aem}}
 
 ## Gebruik {#usage}
 
@@ -54,7 +57,7 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de stijlen definiëren die zi
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van de Bar van de Voortgang steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+De component van de Bar van de Voortgang steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ## Adobe Client Data Layer {#data-layer}
 

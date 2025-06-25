@@ -3,7 +3,7 @@ title: Carousel-component
 description: Met de Carousel-component kan de auteur van de inhoud inhoud inhoud presenteren in een roterende carrousel.
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 # Carousel-component{#carousel-component}
 
 Met de Core Component Carousel Component kan de auteur van de inhoud inhoud inhoud presenteren in een navigeerbare carrousel.
+
+{{traditional-aem}}
 
 ## Gebruik {#usage}
 
@@ -49,7 +51,7 @@ De Carrousel, [ Lusjes, ](tabs.md) en [ de steun van Componenten van de Accordeo
 
 Dit doet u als volgt:
 
-1. Bekijk de pagina met de component gebruikend de **[Mening zoals Gepubliceerde ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=nl-NL#view-as-published)** optie in de paginaredacteur.
+1. Bekijk de pagina met de component gebruikend de **[Mening zoals Gepubliceerde ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** optie in de paginaredacteur.
 1. Controleer de inhoud van de pagina en identificeer de id van het deelvenster.
    * Bijvoorbeeld `id="carousel-bfe4fa6647-item-47f1a7ca67-tabpanel"`
 1. De id wordt het anker dat u met een hash (`#`) aan de URL kunt toevoegen.
@@ -80,7 +82,7 @@ Gebruik **voeg** knoop toe om de componentenselecteur te openen om te kiezen wel
 
 >[!TIP]
 >
->Als viewport van de pagina wordt verminderd zodat uitgeeft dialoog volledig scherm wordt, **voegt** knoop toe zal worden verborgen. De componenten kunnen nog aan de Component van de Carrousel worden toegevoegd door [ van componenten te slepen browser en op de Component van de Carrousel in de paginaredacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=nl-NL#inserting-a-component-from-the-components-browser) te vallen.
+>Als viewport van de pagina wordt verminderd zodat uitgeeft dialoog volledig scherm wordt, **voegt** knoop toe zal worden verborgen. De componenten kunnen nog aan de Component van de Carrousel worden toegevoegd door [ van componenten te slepen browser en op de Component van de Carrousel in de paginaredacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser) te vallen.
 
 ### Tabblad Eigenschappen {#properties-tab}
 
@@ -99,9 +101,9 @@ Op het **lusje van Eigenschappen**, kan de inhoudauteur de dia&#39;s aan automat
 
 >[!NOTE]
 >
->De controles van de diaversie worden niet toegelaten wanneer op **&#x200B;**&#x200B;wijze uitgeeft. De wijze van de Voorproef van het gebruik **[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=nl-NL#preview-mode) of de**&#x200B;[ Mening zoals Gepubliceerde ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=nl-NL#view-as-published) **optie om met de carrousel in wisselwerking te staan aangezien een lezer van de gepubliceerde inhoud.**
+>De controles van de diaversie worden niet toegelaten wanneer op **** wijze uitgeeft. De wijze van de Voorproef van het gebruik **](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) of de**[ Mening zoals Gepubliceerde ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published) **optie om met de carrousel in wisselwerking te staan aangezien een lezer van de gepubliceerde inhoud.[**
 >
->De auto-vooruitgangseigenschap wordt niet toegelaten wanneer in **&#x200B;**&#x200B;wijze uitgeeft. De Mening van het gebruik **[zoals Gepubliceerde ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=nl-NL#view-as-published)** optie om de auto-vooruitgangseigenschap als lezer van de gepubliceerde inhoud te zien.
+>De auto-vooruitgangseigenschap wordt niet toegelaten wanneer in **** wijze uitgeeft. De Mening van het gebruik **[zoals Gepubliceerde ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** optie om de auto-vooruitgangseigenschap als lezer van de gepubliceerde inhoud te zien.
 
 ### Tabblad Toegankelijkheid {#accessibility-tab}
 
@@ -119,7 +121,7 @@ Op het **lusje van de Toegankelijkheid**, kunnen de waarden voor [ de toegankeli
 
 ## Deelvenster selecteren {#select-panel}
 
-De inhoudauteur kan de **Uitgezochte 1&rbrace; optie van het Comité op de componententoolbar gebruiken om in een verschillende dia te veranderen voor het uitgeven evenals de orde van de dia&#39;s gemakkelijk te herschikken.**
+De inhoudauteur kan de **Uitgezochte 1} optie van het Comité op de componententoolbar gebruiken om in een verschillende dia te veranderen voor het uitgeven evenals de orde van de dia&#39;s gemakkelijk te herschikken.**
 
 ![ Uitgezochte paneelpictogram ](/help/assets/select-panel-icon.png)
 
@@ -150,11 +152,11 @@ Het **lusje van Eigenschappen** wordt gebruikt om de standaardmontages voor de d
 
 Het **Toegestane lusje van Componenten** wordt gebruikt om te bepalen welke componenten als dia&#39;s aan de Component van Carousel door de inhoudauteur kunnen worden toegevoegd.
 
-De toegelaten Componenten lusjefuncties op de zelfde manier zoals het lusje van de zelfde naam wanneer [ het bepalen van het beleid en de eigenschappen van een Container van de Lay-out in de Redacteur van het Malplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL)
+De toegelaten Componenten lusjefuncties op de zelfde manier zoals het lusje van de zelfde naam wanneer [ het bepalen van het beleid en de eigenschappen van een Container van de Lay-out in de Redacteur van het Malplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component Carousel steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+De component Carousel steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ## Adobe Client Data Layer {#data-layer}
 

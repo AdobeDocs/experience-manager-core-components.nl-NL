@@ -3,16 +3,19 @@ title: Adaptive Forms Core Component - Titel
 description: De Adaptive Forms Title Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
 
+
 # Component titel van formulier{#title-input-adaptive-forms-core-component}
 
 In een adaptief formulier verwijst een &quot;titel&quot; naar de tekst die boven aan het formulier wordt weergegeven, meestal onder de koptekst. De titel wordt opgegeven met de component Titel. Deze component kan worden toegevoegd aan de formulierindeling en de tekst ervan kan worden bewerkt, zodat deze overeenkomt met het doel of het onderwerp van het formulier. De titel dient als een label of korte beschrijving van het formulier voor de gebruiker en helpt het formulier van anderen te onderscheiden.
+
+{{traditional-aem}}
 
 **Voorbeeld**
 
@@ -38,13 +41,13 @@ Over het algemeen is de titel van een formulier een belangrijk aspect van de geb
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms Title Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms Title Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 for AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM-compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
 | v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -86,7 +89,7 @@ Op het tabblad Titel kunnen sjabloonauteurs de standaardelementen en toegestane 
 
 ### Tabblad Stijlen {#styles-tab}
 
-Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve de datum-plukkerComponent van de Kern van Forms steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve de datum-plukkerComponent van de Kern van Forms steunt het systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ![ lusje van de de dialoogtitel van het Ontwerp ](/help/adaptive-forms/assets/title_styles.png)
 
@@ -104,7 +107,7 @@ Op het tabblad Indelingen kunt u standaard- en aangepaste datumnotaties opgeven.
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=nl-NL)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

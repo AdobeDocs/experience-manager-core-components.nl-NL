@@ -4,12 +4,13 @@ description: De Core Component Image is een adaptieve beeldcomponent die ter ple
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
-source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 0%
 
 ---
+
 
 # Afbeeldingscomponent (v1) {#image-component-v}
 
@@ -27,7 +28,7 @@ In dit document wordt versie 1 van de Image Component beschreven, die oorspronke
 
 In de volgende tabel wordt de compatibiliteit van versie 1 van de component Image weergegeven.
 
-| AEM | Afbeeldingscomponent v1 |
+| AEM-versie | Afbeeldingscomponent v1 |
 |--- |--- |
 | 6,3 | Compatibel |
 | 6,4 | Compatibel |
@@ -36,11 +37,11 @@ In de volgende tabel wordt de compatibiliteit van versie 1 van de component Imag
 >
 >In dit document wordt versie 1 van de afbeeldingscomponent beschreven.
 >
->Voor details van de huidige versie van de Component van het Beeld, zie het [&#128279;](/help/components/image.md) document van de Component van het Beeld 0&rbrace; &lbrace;.
+>Voor details van de huidige versie van de Component van het Beeld, zie het ](/help/components/image.md) document van de Component van het Beeld 0} {.[
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Schermafbeelding {#screenshot}
 
@@ -82,16 +83,16 @@ Naast standaard [ geef dialoog ](#edit-dialog) uit en [ ontwerpdialoog ](#design
 ![](/help/assets/chlimage_1-50.png)
 
 * **activa van het Beeld**
-   * Daling een activa van [ activa browser ](https://helpx.adobe.com/nl/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title) of ontvang **doorbladert** optie om van een lokaal dossiersysteem te uploaden.
+   * Daling een activa van [ activa browser ](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title) of ontvang **doorbladert** optie om van een lokaal dossiersysteem te uploaden.
    * Tik of klik **Duidelijk** om het momenteel geselecteerde beeld te deselecteren.
-   * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://helpx.adobe.com/nl/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) in de activaredacteur te beheren.
+   * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://helpx.adobe.com/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) in de activaredacteur te beheren.
 
 * **Beeld is decoratief** - controleer als het beeld door ondersteunende technologie zou moeten worden genegeerd en daarom geen alternatieve tekst vereist. Dit geldt alleen voor decoratieve afbeeldingen.
 * **Alternatieve tekst** - Textueel alternatief van de betekenis of de functie van het beeld, voor visueel gehandicapte lezers.
 * **Verbinding**
    * Koppel de afbeelding aan een andere bron.
-   * In het dialoogvenster Selecteren kunt u een koppeling maken naar een andere AEM.
-   * Als u geen koppeling naar een AEM maakt, voert u de absolute URL in. Niet-absolute URL&#39;s worden geïnterpreteerd als relatief ten opzichte van AEM.
+   * In het dialoogvenster Selecteren kunt u een koppeling maken naar een andere AEM-bron.
+   * Als u geen koppeling naar een AEM-resource wilt maken, voert u de absolute URL in. Niet-absolute URL&#39;s worden geïnterpreteerd als relatief ten opzichte van AEM.
 
 * **Titel** - de Extra informatie over het beeld, onder het beeld wordt getoond is gebrek.
 * **titel van de Vertoning als pop-up** -   Als deze optie is ingeschakeld, wordt het bijschrift niet weergegeven onder de afbeelding, maar als een pop-up die door sommige browsers wordt weergegeven wanneer de muisaanwijzer op de afbeelding wordt geplaatst.
@@ -141,7 +142,7 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud uitsnijden, de startk
 
    * **Weg**
       * Gebruik de optie Padkiezer om een pad te selecteren in AEM
-      * Gebruik de absolute URL als het pad niet in AEM is. Niet-absolute paden worden ten opzichte van AEM geïnterpreteerd.
+      * Gebruik de absolute URL als het pad zich niet in AEM bevindt. Niet-absolute paden worden geïnterpreteerd ten opzichte van AEM.
 
       * **de tekst van Alt**
 Alternatieve beschrijving van de padbestemming
@@ -175,7 +176,7 @@ U kunt de interne editor ook gebruiken om de afbeelding te wijzigen. Vanwege rui
 
 >[!NOTE]
 >
->Bewerkingen voor het bewerken van afbeeldingen (uitsnijden, spiegelen, roteren) worden niet ondersteund voor GIFFEN-afbeeldingen. Dergelijke wijzigingen die in de bewerkingsmodus zijn aangebracht op GIFFEN, blijven niet behouden.
+>Bewerkingen voor het bewerken van afbeeldingen (uitsnijden, spiegelen, roteren) worden niet ondersteund voor GIF-afbeeldingen. Dergelijke wijzigingen die in de bewerkingsmodus in GIF&#39;s zijn aangebracht, blijven niet behouden.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -222,7 +223,7 @@ Gebruik deze optie om de inhoudauteur toe te staan om **Horizontaal te gebruiken
 
   >[!CAUTION]
   >
-  >De **1&rbrace; optie van de Omslag &lbrace;wordt onbruikbaar gemaakt door gebrek.** Toelatend zal het **Verticaal Omdraaien** en **Horizontaal Omdraaien** knopen in uitgeven dialoog van de beeldcomponent tonen, nochtans wordt de eigenschap momenteel niet gesteund door AEM en om het even welke veranderingen die gebruikend deze opties worden aangebracht zullen niet worden voortgeduurd.
+  >De **1} optie van de Omslag {wordt onbruikbaar gemaakt door gebrek.** Toelatend zal het **Verticaal Omdraaien** en **Horizontaal Omdraaien** knopen in uitgeven dialoog van de beeldcomponent tonen, nochtans wordt de eigenschap momenteel niet gesteund door AEM en om het even welke veranderingen die gebruikend deze opties worden aangebracht zullen niet worden voortgeduurd.
 
 * Uitsnijden
 
@@ -230,7 +231,7 @@ Gebruik deze optie om de inhoudauteur toe te staan om **Horizontaal te gebruiken
 
   Selecteer de optie **gewas** toestaan om de inhoudauteur toe te staan om het beeld in de component in uit te snijden uitgeeft dialoog.
    * Klik **toevoegen** om een vooraf bepaalde uitsnijdverhouding toe te voegen.
-   * Ga een beschrijvende naam in, die in **1&rbrace; dropdown van het Gewas van het Begin &lbrace;zal worden getoond.**
+   * Ga een beschrijvende naam in, die in **1} dropdown van het Gewas van het Begin {zal worden getoond.**
    * Voer de numerieke verhouding van het aspect in.
    * Gebruik de sleephandgrepen om de volgorde van de hoogte-breedteverhoudingen te wijzigen
    * Gebruik het prullenbakpictogram om een hoogte-breedteverhouding te verwijderen.

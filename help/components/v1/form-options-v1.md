@@ -4,12 +4,13 @@ description: Met de component Core Component Form Options kunt u vooraf gedefini
 index: n
 role: Architect, Developer, Admin, User
 exl-id: a5e8656b-eddd-48ec-876b-39bbaa70edf6
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
 
 ---
+
 
 # Component Formulieropties (v1) {#form-options-component-v}
 
@@ -23,11 +24,11 @@ De presentatie van de opties, de etiketten, en de individuele opties kunnen door
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-In dit document wordt versie 1 van de component Formulieropties beschreven, die oorspronkelijk is geïntroduceerd met versie 1.0.0 van de Core Components met AEM 6.3.
+In dit document wordt versie 1 van de Form Options Component beschreven, die oorspronkelijk werd geïntroduceerd met versie 1.0.0 van de Core Components met AEM 6.3.
 
 In de volgende tabel wordt de compatibiliteit van versie 1 van de component Formulieropties weergegeven.
 
-| Componentversie | AEM 6,3 | AEM 6,4 |
+| Componentversie | AEM 6.3 | AEM 6.4 |
 |--- |--- |--- |
 | v2 | Compatibel | Compatibel |
 | v1 | Compatibel | Compatibel |
@@ -36,11 +37,11 @@ In de volgende tabel wordt de compatibiliteit van versie 1 van de component Form
 >
 >In dit document wordt versie 1 van de component Formulieropties beschreven.
 >
->Voor details van de huidige versie van de Component van de Opties van de Vorm, zie het [&#128279;](/help/components/forms/form-options.md) document van de Component van de Opties van de Vorm 0&rbrace; &lbrace;.
+>Voor details van de huidige versie van de Component van de Opties van de Vorm, zie het ](/help/components/forms/form-options.md) document van de Component van de Opties van de Vorm 0} {.[
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Schermafbeelding {#screenshot}
 

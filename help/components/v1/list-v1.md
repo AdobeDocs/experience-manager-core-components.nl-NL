@@ -4,12 +4,13 @@ description: De component van de Lijst van de Component van de Kern staat voor d
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 510d059c-e60a-40aa-9032-66a901109f6e
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 0%
 
 ---
+
 
 # Lijstcomponent (v1) {#list-component-v}
 
@@ -27,7 +28,7 @@ In dit document wordt versie 1 van de component List beschreven. Deze versie is 
 
 In de volgende tabel wordt de compatibiliteit van v1 van de component List weergegeven.
 
-| AEM | List Component v1 |
+| AEM-versie | List Component v1 |
 |--- |--- |
 | 6,3 | Compatibel |
 | 6,4 | Compatibel |
@@ -36,11 +37,11 @@ In de volgende tabel wordt de compatibiliteit van v1 van de component List weerg
 >
 >In dit document wordt versie 1 van de component List beschreven.
 >
->Voor details van de huidige versie van de Component van de Lijst, zie het [&#128279;](/help/components/list.md) document van de Component van de Lijst 0&rbrace; &lbrace;.
+>Voor details van de huidige versie van de Component van de Lijst, zie het ](/help/components/list.md) document van de Component van de Lijst 0} {.[
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Schermafbeelding {#screenshot}
 
@@ -180,7 +181,7 @@ Tik of klik **voeg** knoop toe om een nieuw punt aan de lijst binnen te brengen.
 
 #### Zoeken {#search-list}
 
-De lijst kan worden samengesteld met de resultaten van een zoekopdracht naar AEM inhoud.
+De lijst kan worden samengesteld met behulp van de resultaten van een zoekopdracht naar AEM-inhoud.
 
 ![](/help/assets/chlimage_1-41.png)
 
@@ -221,7 +222,7 @@ Ongeacht hoe u de lijst maakt, zijn er bepaalde sorteeropties die altijd kunnen 
 
 ### Iteminstellingen {#item-settings}
 
-Gebruikend het **lusje van de Montages van het Punt 0&rbrace; &lbrace;, kan het formatteren van de lijstelementen worden gevormd.**
+Gebruikend het **lusje van de Montages van het Punt 0} {, kan het formatteren van de lijstelementen worden gevormd.**
 
 ![](/help/assets/chlimage_1-44.png)
 

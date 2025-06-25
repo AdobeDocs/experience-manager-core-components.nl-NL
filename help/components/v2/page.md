@@ -3,16 +3,18 @@ title: Paginacomponent (v2)
 description: De component Pagina is een uitbreidbare paginacomponent die wordt ontworpen om met de malplaatjeredacteur te werken en paginakopbal/footer en structuurcomponenten toe te laten om met de malplaatjedacteur worden samengesteld.
 role: Architect, Developer, Admin, User
 exl-id: e85fe4db-6de4-4a84-a54c-bd07a67efed3
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 0%
 
 ---
 
+
 # Paginacomponent (v2) {#page-component}
 
-De Component van de Pagina is een verlengbare paginacomponent die wordt ontworpen om met de [ malplaatjedacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL) te werken en staat paginakopbal/footer en structuurcomponenten toe om met de malplaatjedacteur worden samengesteld.
+De Component van de Pagina is een verlengbare paginacomponent die wordt ontworpen om met de [ malplaatjedacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) te werken en staat paginakopbal/footer en structuurcomponenten toe om met de malplaatjedacteur worden samengesteld.
 
 ## Gebruik {#usage}
 
@@ -28,11 +30,11 @@ In dit document wordt versie 2 van de Page Component beschreven. Deze versie is 
 >
 >In dit document wordt versie 2 van de component Pagina beschreven.
 >
->Voor details van de huidige versie van de Component van de Pagina, zie het [&#128279;](/help/components/page.md) document van de Component van de 0&rbrace; Pagina.
+>Voor details van de huidige versie van de Component van de Pagina, zie het ](/help/components/page.md) document van de Component van de 0} Pagina.[
 
 ## Progressieve ondersteuning voor webtoepassingen {#pwa-support}
 
-Versie 2.15.0 van de Componenten van de Kern introduceerde steun voor de ingebouwde eigenschappen van het Web van AEM as a Cloud Service [ Progressieve (PWA).](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=nl-NL) Met een eenvoudige configuratie op site-niveau zet u uw AEM om in een PWA!
+Versie 2.15.0 van de Componenten van de Kern introduceerde steun voor ingebouwde [ Progressieve eigenschappen van het Web van AEM as a Cloud Service (PWA).](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) Met een eenvoudige configuratie op site-niveau kunt u uw AEM-ervaring veranderen in een PWA!
 
 ### Technische details {#technical-details}
 
@@ -42,7 +44,7 @@ De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
-Omdat de component de volledige pagina vertegenwoordigt, worden de montages die normaal in zouden zijn uitgeeft dialoog gevonden in het [ venster van de Eigenschappen van de Pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=nl-NL).
+Omdat de component de volledige pagina vertegenwoordigt, worden de montages die normaal in zouden zijn uitgeeft dialoog gevonden in het [ venster van de Eigenschappen van de Pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -61,7 +63,7 @@ Met behulp van het venster Paginaontwerp kunt u de te laden clientbibliotheken e
 * **Bibliotheken van de Cliënt** - dit bepaalt de categorieën van de cliëntbibliotheek aan lading. JavaScript wordt toegevoegd aan het hoofdgedeelte en de CSS wordt toegevoegd aan de paginakop.
 * **de Bibliotheken van de Cliënt JavaScript Hoofd van de Pagina** - dit bepaalt de de bibliotheekcategorieën van de Cliënt van JavaScript in het paginakop te laden.
    * De categorieën die hier worden bepaald die ook aanwezig zijn in het **gebied van de Bibliotheken van de Cliënt** zullen JavaScript hebben die in de paginakop in plaats van bij lichaamseind wordt geladen.
-   * Geen CSS zal worden geladen tenzij de categorie ook op het **gebied van de Bibliotheken van de Cliënt 0&rbrace; &lbrace;aanwezig is.**
+   * Geen CSS zal worden geladen tenzij de categorie ook op het **gebied van de Bibliotheken van de Cliënt 0} {aanwezig is.**
 
 * **Bibliotheek van de Cliënt van Middelen van het Web** - de categorie van de cliëntbibliotheek die wordt gebruikt om Webmiddelen zoals favicons te dienen.
 
@@ -75,7 +77,7 @@ De bibliotheken kunnen voor zowel de **Bibliotheken van de Cliënt** als **het H
 * Als u een veld wilt verwijderen, klikt of tikt u op het prullenbakpictogram naast het veld dat u wilt verwijderen.
 * Als u de laadvolgorde wilt wijzigen, klikt of tikt u op de greep naast het te verplaatsen veld.
 
-Voor meer informatie over het gebruiken van cliënt-zijbibliotheken zie [ Gebruikend de Bibliotheken van de Kant van de Cliënt ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/developing/using/clientlibs.html).
+Voor meer informatie over het gebruiken van cliënt-zijbibliotheken zie [ Gebruikend de Bibliotheken van de Kant van de Cliënt ](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html).
 
 >[!CAUTION]
 >
@@ -83,8 +85,8 @@ Voor meer informatie over het gebruiken van cliënt-zijbibliotheken zie [ Gebrui
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van de Pagina steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De Component van de Pagina steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
-## Gegevenslaag client-Adobe {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
-De Component van de Pagina steunt de [ Laag van de Gegevens van de Cliënt van de Adobe.](/help/developing/data-layer/overview.md)
+De Component van de Pagina steunt de [ Laag van Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)

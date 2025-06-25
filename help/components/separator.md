@@ -3,16 +3,19 @@ title: Scheidingscomponent
 description: De component separator maakt een einde tussen componenten op een pagina
 role: Architect, Developer, Admin, User
 exl-id: 79f19368-67fa-4864-93f7-2aa801d13fdb
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 1%
 
 ---
 
+
 # Scheidingscomponent {#separator-component}
 
 De component van de Scheiding van de Component van de Kern toont een horizontale lijn voor het scheiden van inhoud.
+
+{{traditional-aem}}
 
 ## Gebruik {#usage}
 
@@ -53,4 +56,4 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur de stijlen definiëren die
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van de Scheiding steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+De component van de Scheiding steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).

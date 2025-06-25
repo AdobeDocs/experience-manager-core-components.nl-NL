@@ -3,16 +3,19 @@ title: Component downloaden
 description: Met de component Core Component Download kunt u een downloadoptie op een pagina maken.
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 0%
 
 ---
 
+
 # Component downloaden{#download-component}
 
 Met de component Core Component Download kunt u een downloadoptie op een pagina maken.
+
+{{traditional-aem}}
 
 ## Gebruik {#usage}
 
@@ -55,9 +58,9 @@ In het dialoogvenster Configureren kan de auteur van de inhoud het downloaditem 
 De selectie van een downloadactiva is zeer gelijkaardig aan de functionaliteit van de [ Component van het Beeld ](image.md) en eveneens hefboomwerkingen AEM DAM.
 
 * **Activa van de Download**
-   * Daling een activa van [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=nl-NL) of ontvang **doorbladert** optie om van een lokaal dossiersysteem te uploaden.
+   * Daling een activa van [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of ontvang **doorbladert** optie om van een lokaal dossiersysteem te uploaden.
    * Tik of klik **Duidelijk** om het momenteel geselecteerde beeld te deselecteren.
-   * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=nl-NL) in de activaredacteur te beheren.
+   * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in de activaredacteur te beheren.
 
 ### Tabblad Eigenschappen {#properties-tab}
 
@@ -106,4 +109,4 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de opties definiëren die bes
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van het Beeld steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+De Component van het Beeld steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).

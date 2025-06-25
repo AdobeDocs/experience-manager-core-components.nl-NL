@@ -3,16 +3,19 @@ title: Component Inhoudsopgave
 description: De component Inhoudsopgave maakt een inhoudsopgave op basis van de titels in de pagina-inhoud, zodat uw lezers snel door de pagina kunnen navigeren.
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 0%
 
 ---
 
+
 # Component Inhoudsopgave {#table-of-contents-component}
 
 De component Inhoudsopgave maakt een inhoudsopgave op basis van de titels in de pagina-inhoud, zodat uw lezers snel door de pagina kunnen navigeren.
+
+{{traditional-aem}}
 
 ## Gebruik {#usage}
 
@@ -82,7 +85,7 @@ Met behulp van het ontwerpdialoogvenster kan de sjabloonauteur de standaardwaard
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van de Lijst van Inhoud steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+De component van de Lijst van Inhoud steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ## Adobe Client Data Layer {#data-layer}
 

@@ -1,20 +1,22 @@
 ---
 title: Componentrichtlijnen
-description: De componenten van de Kern volgen moderne implementatiepatronen die vrij verschillend van de stichtingscomponenten zijn.
+description: De componenten van de Kern volgen implementatiepatronen die vrij verschillend van de stichtingscomponenten zijn.
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
-source-git-commit: ee18626280f74a51a799f16d6bf3f5b0be9cd6b9
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1225'
 ht-degree: 0%
 
 ---
 
 # Componentrichtlijnen {#component-guidelines}
 
-De [ Componenten van de Kern ](overview.md) volgen moderne implementatiepatronen die van de stichtingscomponenten vrij verschillend zijn.
+De [ Componenten van de Kern ](overview.md) volgen implementatiepatronen die vrij verschillend van de stichtingscomponenten zijn.
 
 Deze pagina verklaart deze patronen, en wanneer om hen te gebruiken om uw eigen authorable componenten te bouwen. De eerste sectie [ Algemene Patronen van de Component ](#general-component-patterns) is op om het even welk soort component van toepassing, terwijl de tweede sectie [ de Herbruikbare Patronen van de Component ](#reusable-component-patterns) op componenten van toepassing is die bedoeld zijn om over plaatsen of projecten, zoals de Componenten van de Kern bijvoorbeeld worden hergebruikt.
+
+{{traditional-aem}}
 
 ## Algemene componentpatronen {#general-component-patterns}
 
@@ -30,11 +32,11 @@ Om dit een stap verder te nemen, als de componenten over plaatsen of projecten w
 
 ### Scheiding van bezorgdheid {#separation-of-concerns}
 
-Het is doorgaans een goede gewoonte om de logica (of het model) van een component los te houden van de opmaaksjabloon (of weergave). Er zijn verscheidene manieren om dat te bereiken, nochtans geadviseerd te gebruiken [ Sling Modellen ](https://sling.apache.org/documentation/bundles/models.html) voor de logica en [ Taal van het Malplaatje van de HTML ](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=nl-NL) (HTML) voor de prijsverhoging, als de Componenten van de Kern ook doen.
+Het is doorgaans een goede gewoonte om de logica (of het model) van een component los te houden van de opmaaksjabloon (of weergave). Er zijn verscheidene manieren om dat te bereiken, nochtans geadviseerd te gebruiken [ het Verdelen Modellen ](https://sling.apache.org/documentation/bundles/models.html) voor de logica en [ Taal van het Malplaatje van HTML ](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) (HTML) voor de prijsverhoging, zoals de Componenten van de Kern ook doen.
 
 Sling Models is een reeks aantekeningen van Java om tot noodzakelijke variabelen van POJOs gemakkelijk toegang te hebben, en daarom een eenvoudige, krachtige, en efficiënte manier te bieden om Java logica voor componenten uit te voeren.
 
-HTML is ontworpen als een veilige en eenvoudige sjabloontaal die is toegesneden op AEM. Het kan vele vormen van logica noemen, die het zeer flexibel maakt.
+HTL is ontworpen als een veilige en eenvoudige sjabloontaal die op AEM is afgestemd. Het kan vele vormen van logica noemen, die het zeer flexibel maakt.
 
 ## Herbruikbare componentpatronen {#reusable-component-patterns}
 
@@ -42,7 +44,7 @@ De richtlijnen in deze sectie kunnen ook voor om het even welk soort component w
 
 ### Vooraf configureerbare mogelijkheden {#pre-configurable-capabilities}
 
-Naast het dialoogvenster Bewerken dat wordt gebruikt door auteurs van pagina&#39;s, kunnen componenten ook een ontwerpdialoogvenster hebben waarin sjabloonauteurs ze vooraf kunnen configureren. De [ Redacteur van het Malplaatje ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL) staat aan opstelling toe al deze pre-configuraties, die &quot;Beleid&quot;worden genoemd.
+Naast het dialoogvenster Bewerken dat wordt gebruikt door auteurs van pagina&#39;s, kunnen componenten ook een ontwerpdialoogvenster hebben waarin sjabloonauteurs ze vooraf kunnen configureren. De [ Redacteur van het Malplaatje ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) staat aan opstelling toe al deze pre-configuraties, die &quot;Beleid&quot;worden genoemd.
 
 Om componenten zo herbruikbaar mogelijk te maken, zouden zij van zinvolle opties moeten worden voorzien om vooraf te vormen. Hierdoor kunnen functies van de componenten worden in- of uitgeschakeld, zodat deze voldoen aan de specifieke behoeften van verschillende sites.
 
@@ -64,11 +66,11 @@ Niet-compatibele wijzigingen in de volgende aspecten van componenten resulteren 
 
 * Sling Models (volgens semantische versierichtlijnen)
 * HTML-scripts en -sjablonen
-* HTML Markup en CSS-kiezers
+* HTML Markup and CSS Selectors
 * JSON-vertegenwoordiging
 * Dialoogvensters
 
-Voor verdere details, zie het [&#128279;](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-Policies) document van het Beleid van de Versioning  in GitHub.
+Voor verdere details, zie het ](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-Policies) document van het Beleid van de Versioning [ in GitHub.
 
 De versioning van de component leidt tot een vorm van contract die voor verbeteringen belangrijk is aangezien het verduidelijkt wanneer iets zou kunnen moeten worden verfrist. Zie ook de sectie [ Verenigbaarheid van de Verbetering van Aanpassingen ](customizing.md#upgrade-compatibility-of-customizations), die verklaart welke overwegingen verschillende vormen van aanpassingen voor een verbetering vereisen.
 
@@ -85,11 +87,11 @@ Wanneer gecombineerd met het [ hierboven beschreven Patroon van de Component van
 
 ## Alles samenvoegen {#putting-it-all-together}
 
-Hieronder volgt een overzicht van het volledige middeltype bindingsstructuur, die het voorbeeld van de Component van de Kern van de Titel neemt. Het illustreert hoe een plaats-specifieke volmachtscomponent toestaat om componentenversioning op te lossen, om te vermijden dat het inhoudsmiddel om het even welk versieaantal bevat. Het toont dan hoe het 2&rbrace; dossiergebruik van de component `title.html` [&#128279;](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=nl-NL) HTML &lbrace;aan de modelinterface, terwijl de implementatie aan de specifieke versie van de component door [ het Schipen Model ](https://sling.apache.org/documentation/bundles/models.html) annotaties bindt.
+Hieronder volgt een overzicht van het volledige middeltype bindingsstructuur, die het voorbeeld van de Component van de Kern van de Titel neemt. Het illustreert hoe een plaats-specifieke volmachtscomponent toestaat om componentenversioning op te lossen, om te vermijden dat het inhoudsmiddel om het even welk versieaantal bevat. Het toont dan hoe het 2} dossiergebruik van de component `title.html` [ HTML {aan de modelinterface, terwijl de implementatie aan de specifieke versie van de component door [ het Schipen Model ](https://sling.apache.org/documentation/bundles/models.html) annotaties bindt.](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html)
 
 ![ Bindend Overzicht van het Middel ](/help/assets/chlimage_1-32.png)
 
-Hieronder is een ander overzicht, dat niet de details van implementatiePOJO toont, maar openbaart hoe de bijbehorende [ malplaatjes en het beleid ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=nl-NL) van verwijzingen worden voorzien.
+Hieronder is een ander overzicht, dat niet de details van implementatiePOJO toont, maar openbaart hoe de bijbehorende [ malplaatjes en het beleid ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html) van verwijzingen worden voorzien.
 
 De eigenschap `cq:allowedTemplates` geeft aan welke sjablonen voor een site kunnen worden gebruikt en de eigenschap `cq:template` geeft aan elke pagina door wat de bijbehorende sjabloon is. Elke sjabloon bestaat uit de volgende drie delen:
 
@@ -99,9 +101,9 @@ De eigenschap `cq:allowedTemplates` geeft aan welke sjablonen voor een site kunn
 
 ![ Malplaatjes en het Overzicht van het Beleid ](/help/assets/screen_shot_2018-12-07at093102.png)
 
-## Projectarchetype AEM {#aem-project-archetype}
+## AEM Project Archetype {#aem-project-archetype}
 
-[ het Archieftype van het Project van de AEM ](/help/developing/archetype/overview.md) leidt tot een minimaal project van Adobe Experience Manager als uitgangspunt voor uw eigen projecten, met inbegrip van een voorbeeld van douaneHTML componenten met SlingModels voor de logica en juiste implementatie van de Componenten van de Kern met het geadviseerde volmachtspatroon.
+[ het Archetype van het Project van AEM ](/help/developing/archetype/overview.md) leidt tot een minimaal project van Adobe Experience Manager als uitgangspunt voor uw eigen projecten, met inbegrip van een voorbeeld van douaneHTML componenten met SlingModels voor de logica en juiste implementatie van de Componenten van de Kern met het geadviseerde volmachtspatroon.
 
 **Lees daarna:**
 

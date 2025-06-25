@@ -4,12 +4,13 @@ description: Met de Core Component Form Container Component kunnen eenvoudige ve
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 1e34219f-fa82-494e-82e2-1b4d63d37fea
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 0%
 
 ---
+
 
 # Formuliercontainercomponent (v1) {#form-container-component-v1}
 
@@ -19,15 +20,15 @@ Met de Core Component Form Container Component kunnen eenvoudige verzendformulie
 
 Met de component Form Container konden eenvoudige formulieren en functies voor het verzenden van informatie worden gemaakt door eenvoudige WCM-formulieren te ondersteunen en door een geneste structuur te gebruiken om extra formuliercomponenten toe te staan.
 
-Door het [ plaatsen dialoog ](#settings-dialog) te gebruiken kan de inhoudsredacteur bepalen welk type van actievorm indiensttrekkers, waar de voorgelegde inhoud zou moeten worden opgeslagen, en als een werkschema zou moeten worden teweeggebracht. De malplaatjeauteur kan de [ ontwerpdialoog ](#design-dialog) gebruiken om toe te staan componenten en hun afbeeldingen gelijkend op de ontwerpdialoog voor de [ standaardlay-outcontainer in de malplaatjedacteur ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/authoring/using/templates.html) te bepalen.
+Door het [ plaatsen dialoog ](#settings-dialog) te gebruiken kan de inhoudsredacteur bepalen welk type van actievorm indiensttrekkers, waar de voorgelegde inhoud zou moeten worden opgeslagen, en als een werkschema zou moeten worden teweeggebracht. De malplaatjeauteur kan de [ ontwerpdialoog ](#design-dialog) gebruiken om toe te staan componenten en hun afbeeldingen gelijkend op de ontwerpdialoog voor de [ standaardlay-outcontainer in de malplaatjedacteur ](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) te bepalen.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-In dit document wordt versie 1 van de Form Container Component beschreven, die oorspronkelijk werd geïntroduceerd met versie 1.0.0 van de Core Components met AEM 6.3.
+In dit document wordt versie 1 van de Form Container Component beschreven, die oorspronkelijk werd geïntroduceerd met versie 1.0.0 van de Core Components with AEM 6.3.
 
 In de volgende tabel wordt de compatibiliteit van versie 1 van de component Form Container weergegeven.
 
-| AEM | Formuliercontainercomponent v1 |
+| AEM-versie | Formuliercontainercomponent v1 |
 |--- |--- |
 | 6,3 | Compatibel |
 | 6,4 | Compatibel |
@@ -99,12 +100,12 @@ Ongeacht het geselecteerde handelingstype, kan een pagina van dank u altijd word
 De gebruiker wordt na het verzenden van het formulier omgeleid naar de opgegeven pagina.
 
 * Gebruik het dialoogvenster Selectie om een bron in AEM te selecteren.
-* Geef de absolute URL op als de pagina voor bedankt niet in AEM is. Niet-absolute URL&#39;s worden ten opzichte van AEM geïnterpreteerd.
+* Geef de absolute URL op als de pagina Bedankt niet in AEM staat. Niet-absolute URL&#39;s worden geïnterpreteerd ten opzichte van AEM.
 * Laat leeg om het formulier na verzending opnieuw weer te geven.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
-De ontwerpdialoog staat de malplaatjeauteur toe om de toegestane componenten en hun afbeeldingen voor de container te bepalen gelijkend op de ontwerpdialoog voor de [ standaardlay-outcontainer in de malplaatjedacteur ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843).
+De ontwerpdialoog staat de malplaatjeauteur toe om de toegestane componenten en hun afbeeldingen voor de container te bepalen gelijkend op de ontwerpdialoog voor de [ standaardlay-outcontainer in de malplaatjedacteur ](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843).
 
 ## Technische details {#technical-details}
 

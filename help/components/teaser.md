@@ -3,16 +3,19 @@ title: Teaser-component
 description: De teaser-component kan een afbeelding, een titel, RTF-tekst en eventueel een koppeling naar andere inhoud weergeven.
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 0%
 
 ---
 
+
 # Teaser-component {#teaser-component}
 
 De component van de Teaser Component van de Kern kan een beeld, een titel, rijke-tekst, en naar keuze verbinding aan verdere inhoud tonen.
+
+{{traditional-aem}}
 
 ## Gebruik {#usage}
 
@@ -53,7 +56,7 @@ De auteur van de inhoud kan het dialoogvenster Configure gebruiken om de eigensc
 
 ![ de bewerkingsdialoog van de Component van de Taser verbindt tabel ](/help/assets/teaser-edit-links.png)
 
-De teastitel, beschrijving en afbeelding kunnen worden overgenomen van de gekoppelde pagina of van de pagina die is gekoppeld in de eerste aanroep naar de handeling. Als er geen koppeling of actielijn is opgegeven, worden de titel, beschrijving en afbeelding overgenomen van de huidige pagina.
+De teastitel, beschrijving en afbeelding kunnen worden overgenomen van de gekoppelde pagina of van de pagina die is gekoppeld in de eerste call to action. Als er geen koppeling of call to action is opgegeven, worden de titel, beschrijving en afbeelding overgenomen van de huidige pagina.
 
 * **Verbinding** - dit dossier verbindt met een inhoudspagina, externe URL, of paginaanker.
 * **Open verbinding in nieuw lusje** - indien toegelaten, zal de verbinding in een nieuwe browser tabel openen.
@@ -79,13 +82,13 @@ De teastitel, beschrijving en afbeelding kunnen worden overgenomen van de gekopp
 ![ de bewerkingsdialoog van de Component van de Taser het beeldlusje van de dialoog ](/help/assets/teaser-edit-image.png)
 
 * **erven geprezen beeld van pagina** - gebruik het beeld dat in de paginaeigenschappen van de verbonden pagina wordt bepaald of de huidige pagina als niets wordt gevonden.
-* **activa van het Beeld** - Daling een activa van [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=nl-NL) of ontvang **doorbladert** optie om van een lokaal dossiersysteem te uploaden.
+* **activa van het Beeld** - Daling een activa van [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of ontvang **doorbladert** optie om van een lokaal dossiersysteem te uploaden.
    * Tik of klik **Duidelijk** om het momenteel geselecteerde beeld te deselecteren.
-   * Tik of klik **Keuze** om [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=nl-NL) te openen om een beeld te selecteren.
+   * Tik of klik **Keuze** om [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) te openen om een beeld te selecteren.
       * Als [ Verre Steun van Assets ](#remote-assets) wordt toegelaten, hebt u veelvoudige opties om activa te kiezen:
          * **Lokale** selecteert van de lokale de activabibliotheek van AEM.
          * **Verre** selecteert van een Dynamische bibliotheek van Media buiten uw instantie van AEM.
-   * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=nl-NL) in de activaredacteur te beheren.
+   * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in de activaredacteur te beheren.
 * **Alternatieve tekst voor toegankelijkheid** - Dit gebied staat u toe om een beschrijving van het beeld voor visueel gehandicapte gebruikers te bepalen.
    * **erven alternatieve tekst van pagina** - Deze optie gebruikt de alternatieve beschrijving van de verbonden activawaarde van de `dc:description` meta-gegevens in DAM of van de huidige pagina als geen activa wordt verbonden.
 * **verstrekt geen alternatieve tekst** - Deze optie merkt het beeld dat door ondersteunende technologieën zoals het schermlezers voor gevallen wordt genegeerd waar het beeld zuiver decoratief is of anders geen extra informatie aan de pagina overbrengt.
@@ -110,7 +113,7 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de teasopties definiëren die
 
 ### Taser Tab {#teaser-tab}
 
-{het ontwerpdialoog van de Component van 0} Taser ![&#128279;](/help/assets/teaser-design.png)
+{het ontwerpdialoog van de Component van 0} Taser ](/help/assets/teaser-design.png)![
 
 * **vraag-aan-Acties**
    * **maak vraag-aan-Acties** onbruikbaar - verberg **vraag-aan-Acties** optie voor inhoudsauteurs
@@ -124,7 +127,7 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de teasopties definiëren die
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van het Taser steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+De Component van het Taser steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ## Adobe Client Data Layer {#data-layer}
 

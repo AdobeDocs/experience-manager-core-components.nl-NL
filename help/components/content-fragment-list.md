@@ -3,20 +3,23 @@ title: Component lijst met inhoudsfragmenten
 description: Met de component Lijst met inhoudfragmenten van de kerncomponent kunt u een lijst met inhoudsfragmenten weergeven.
 role: Architect, Developer, Admin, User
 exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 0%
 
 ---
 
+
 # Component lijst met inhoudsfragmenten{#content-fragment-list-component}
 
-De component van de Lijst van het Fragment van de Lijst van de Inhoud van de Component van de Kern staat voor de vertoning van een lijst van [ inhoudsfragmenten ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=nl-NL) toe.
+De component van de Lijst van het Fragment van de Lijst van de Inhoud van de Component van de Kern staat voor de vertoning van een lijst van [ inhoudsfragmenten ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) toe.
+
+{{traditional-aem}}
 
 ## Gebruik {#usage}
 
-De component van de Lijst van het Fragment van de Lijst van de Inhoud van de Component van de Kern staat voor de opneming van een lijst van [ inhoudsfragmenten ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=nl-NL) op een pagina toe die op een model van het Fragment van de Inhoud wordt gebaseerd. Dit kan vooral nuttig zijn om [ zonder kop inhoud ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) te creëren die gemakkelijk door andere toepassingen kan worden verbruikt.
+De component van de Lijst van het Fragment van de Lijst van de Inhoud van de Component van de Kern staat voor de opneming van een lijst van [ inhoudsfragmenten ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) op een pagina toe die op een model van het Fragment van de Inhoud wordt gebaseerd. Dit kan vooral nuttig zijn om [ zonder kop inhoud ](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) te creëren die gemakkelijk door andere toepassingen kan worden verbruikt.
 
 * De lijst en zijn eigenschappen kunnen in [ worden geselecteerd vormen dialoog ](#configure-dialog).
 * De stijlen kunnen op de component in de [ ontwerpdialoog ](#design-dialog) worden toegepast.
@@ -101,4 +104,4 @@ De stijlen moeten voor deze component in de [ ontwerpdialoog ](#design-dialog) w
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van de Lijst van het Fragment van de Inhoud steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+De component van de Lijst van het Fragment van de Inhoud steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).

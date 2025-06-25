@@ -3,16 +3,19 @@ title: Adaptive Forms Core Component - Koptekst
 description: De Adaptive Forms Header Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
 
+
 # Koptekst {#header-adaptive-forms-core-component}
 
 Een koptekstcomponent in een adaptief formulier is een sectie boven aan het formulier die doorgaans de titel, het logo of de naam van het formulier bevat. De koptekst kan ook andere informatie bevatten, zoals een korte beschrijving van het doel van het formulier, de naam van de organisatie die het formulier heeft gemaakt of contactgegevens voor hulp bij het formulier. De koptekst wordt gebruikt om gebruikers een overzicht van het formulier te geven en context te bieden voor de informatie die ze op het punt staan in te vullen. Deze wordt gebruikt om gebruikers te helpen het doel van het formulier te begrijpen en het formulier correct in te vullen.
+
+{{traditional-aem}}
 
 **Voorbeeld**
 
@@ -32,13 +35,13 @@ Een koptekstcomponent in een adaptief formulier is een sectie boven aan het form
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms header Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms header Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 for AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM-compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
 | v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -83,7 +86,7 @@ In deze sectie kunt u de tekst invoeren die in de koptekst moet worden opgenomen
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=nl-NL)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

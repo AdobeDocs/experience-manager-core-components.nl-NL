@@ -4,12 +4,13 @@ description: Met de component Core Component Form Hidden kunt u een verborgen ve
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 8e30dac0-5b4b-4fc7-af99-5791c98c90bf
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
 
 ---
+
 
 # Formulier verborgen component (v1) {#form-hidden-component-v}
 
@@ -27,7 +28,7 @@ In dit document wordt versie 1 van de Form Hidden Component beschreven, die oors
 
 In de volgende tabel wordt de compatibiliteit van versie 1 van de component Formulier verborgen weergegeven.
 
-| AEM | Verborgen component van formulier v1 |
+| AEM-versie | Verborgen component van formulier v1 |
 |--- |--- |
 | 6,3 | Compatibel |
 | 6,4 | Compatibel |
@@ -40,7 +41,7 @@ In de volgende tabel wordt de compatibiliteit van versie 1 van de component Form
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### HTML {#html}
 

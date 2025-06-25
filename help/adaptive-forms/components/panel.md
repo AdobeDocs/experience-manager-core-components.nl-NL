@@ -3,12 +3,13 @@ title: Adaptive Forms Core Component - Panel container
 description: Het gebruiken van of het aanpassen van de Adaptive Forms Panel containerComponent van de Kern.
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '2225'
 ht-degree: 0%
 
 ---
+
 
 # Deelvenstercomponent{#panel-container-adaptive-forms-core-component}
 
@@ -17,6 +18,8 @@ In een adaptief formulier is een deelvenster een containerelement dat kan worden
 Deelvensters kunnen ook worden gebruikt om inklapbare secties te maken. Dit kan handig zijn voor het verbergen van complexe of minder vaak gebruikte formuliervelden, zodat het formulier eenvoudig en gebruiksvriendelijk blijft. U kunt hiermee ook andere componenten opnemen, zoals tekst, selectievakjes, knoppen, enz.
 
 U kunt er ook gebruik van maken om verschillende op regels gebaseerde handelingen in te stellen, zoals het verzenden van een formulier, het openen van een website, het tonen/verbergen van componenten of het toevoegen van een exemplaar van een deelvenster.
+
+{{traditional-aem}}
 
 **Voorbeeld**
 
@@ -36,7 +39,7 @@ Er zijn verschillende redenen om een deelvenster in een formulier te gebruiken, 
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms Panel Container Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms Panel Container Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4. Hier volgt een tabel met alle ondersteunde versies, AEM-compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
 |  |  |
 |---|---|
@@ -44,7 +47,7 @@ De Adaptive Forms Panel Container Core Component is in februari 2023 uitgebracht
 | — | — |
 | v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel | Compatibel |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -68,7 +71,7 @@ Met het dialoogvenster Configureren kunt u de containerervaring van het deelvens
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
   Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
-  ![&#128279;](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0&rbrace;
+  ](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0}![
 
 - **Verberg Titel** - selecteer de optie om de Titel van de component te verbergen.
 
@@ -110,7 +113,7 @@ Met de opties voor herhaling kunt u de container van het deelvenster en de onder
 - **Minimale herhalingen**: Vestigt het minimumaantal tijden de paneelcontainer kan worden herhaald. De waarde nul geeft aan dat het deelvenster Wizard niet wordt herhaald; de standaardwaarde is nul.
 - **Maximale herhalingen**: Plaatst het maximumaantal tijden de paneelcontainer kan worden herhaald. Deze waarde is standaard onbeperkt.
 
-Om herhaalbare secties binnen de paneelcontainer effectief te beheren, volg de stappen die in [ worden verstrekt die vormen met herhaalbare secties ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=nl-NL) artikel creëren.
+Om herhaalbare secties binnen de paneelcontainer effectief te beheren, volg de stappen die in [ worden verstrekt die vormen met herhaalbare secties ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) artikel creëren.
 
 ### Het tabblad Help-inhoud {#help-content}
 
@@ -134,7 +137,7 @@ Om herhaalbare secties binnen de paneelcontainer effectief te beheren, volg de s
    - **Naam**: Selecteer deze optie om de naam voor de toegankelijkheidslabels van ARIA te gebruiken.
    - **niets**: Selecteer deze optie als u niet voor de toegankelijkheidslabels van ARIA wilt toevoegen.
 
-- **de rol van de HTML voor het schermlezer om** aan te kondigen - de rol van de HTML is een attribuut wordt gebruikt om het doel van een element van de HTML aan ondersteunende technologieën zoals het schermlezers te specificeren dat. Het rolattribuut wordt gebruikt om extra context en semantische betekenis aan een element te verstrekken, die het voor schermlezers gemakkelijker maken om de inhoud te interpreteren en aan de gebruiker aan te kondigen. In AEM Forms heeft het label van een formulierveld bijvoorbeeld de rol &quot;label&quot; en kan het invoerveld de rol &quot;textbox&quot; hebben. Hierdoor kan de schermlezer de relatie tussen het label en het invoerveld begrijpen en deze correct aan de gebruiker meedelen.
+- **rol van HTML voor het schermlezer om** aan te kondigen - de rol van HTML is een attribuut dat wordt gebruikt om het doel van een element van HTML aan ondersteunende technologieën zoals het schermlezers te specificeren. Het rolattribuut wordt gebruikt om extra context en semantische betekenis aan een element te verstrekken, die het voor schermlezers gemakkelijker maken om de inhoud te interpreteren en aan de gebruiker aan te kondigen. In AEM Forms heeft het label van een formulierveld bijvoorbeeld de rol &quot;label&quot; en kan het invoerveld de rol &quot;textbox&quot; hebben. Hierdoor kan de schermlezer de relatie tussen het label en het invoerveld begrijpen en deze correct aan de gebruiker meedelen.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -148,7 +151,7 @@ Het **Toegestane lusje van Componenten** staat malplaatjeredacteur toe om de com
 
 ### Tabblad Standaardcomponenten {#default-components-tab}
 
-![ de dialoog standaardcomponentenlusje van het Ontwerp &lbrace;](/help/adaptive-forms/assets/panel-container-default-component.png)
+![ de dialoog standaardcomponentenlusje van het Ontwerp {](/help/adaptive-forms/assets/panel-container-default-component.png)
 
 Het **Standaardlusje van Componenten** staat de malplaatjeredacteur toe om de componenten te specificeren die door gebrek als punten in de component van de vormcontainer in de Aangepaste redacteur van Forms zichtbaar zijn.
 
@@ -172,7 +175,7 @@ Het **Responsieve lusje van Montages** staat de malplaatjeredacteur toe om het a
 
 ### Tabblad Stijlen {#styles-tab}
 
-De adaptieve Component van de Kern van de Bijlage van het Dossier van Forms steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De adaptieve Component van de Kern van de Bijlage van het Dossier van Forms steunt het systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ![ Dialoog van het Ontwerp ](/help/adaptive-forms/assets/panel-container-styles-tab.png)
 
@@ -198,7 +201,7 @@ Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aa
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=nl-NL)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

@@ -4,12 +4,14 @@ description: Verbeter de formulierbeveiliging met hCaptcha&reg; service zonder p
 feature-set: Experience Manager Sites, Experience Manager Forms
 feature: Adaptive Forms, Core Components
 role: Architect, Developer, Admin, User
-source-git-commit: 9a691fc2aa656f5a96d8cd4b6285e6bd473cdaa4
+exl-id: eecb38d5-711e-4dc5-bc19-498e003f37e7
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 0%
 
 ---
+
 
 # component Captcha{#hCaptcha-component-adaptive-forms-core-component}
 
@@ -18,6 +20,8 @@ ht-degree: 0%
 De service Captcha® beschermt uw formulieren tegen bots, spam en automatisch misbruik. Er wordt een widget selectievakje ingesteld en de reactie van de gebruiker geëvalueerd om te bepalen of het een mens of bot is die met het formulier communiceert. Het verhindert de gebruiker om te werk te gaan als de test ontbreekt en de hulp maakt online transacties veilig door bots te houden spam of kwaadwillige activiteiten posten.
 
 ![ hCaptcha® ](/help/adaptive-forms/assets/hCaptcha-challenge.png)
+
+{{traditional-aem}}
 
 ## Gebruik {#usage}
 
@@ -42,7 +46,7 @@ Specificeer de eigenschappen van de Component hCaptcha door [ te gebruiken vorme
 ## Versie en compatibiliteit {#version-and-compatibility}
 
 
-De adaptieve component van Forms hCaptcha wordt vrijgegeven in Mei 2024 als deel van [ Componenten 3.0.20 van de Kern ](https://github.com/adobe/aem-core-forms-components/commit/a4cb97131ffad47137a8f5f173401128a1cf3491). Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De adaptieve component van Forms hCaptcha wordt vrijgegeven in Mei 2024 als deel van [ Componenten 3.0.20 van de Kern ](https://github.com/adobe/aem-core-forms-components/commit/a4cb97131ffad47137a8f5f173401128a1cf3491). Hier volgt een tabel met alle ondersteunde versies, AEM-compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
 |  |  |
 |---|---|
@@ -50,7 +54,7 @@ De adaptieve component van Forms hCaptcha wordt vrijgegeven in Mei 2024 als deel
 | — | — |
 | v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel | Compatibel |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -76,13 +80,13 @@ U kunt eigenschappen van uw component hCaptcha met zijn gemakkelijk aanpassen vo
 
 **weet meer** over andere **Componenten Captcha** en hun diensten, zoals:
 
-- [ Gebruik hCaptcha in een Aangepaste Vorm voor de Componenten van de Kern ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/integrate-adaptive-forms-hcaptcha-core-components)
+- [ Gebruik hCaptcha in een Aangepaste Vorm voor de Componenten van de Kern ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/integrate-adaptive-forms-hcaptcha-core-components)
 
-- [ Gebruik hCaptcha in een Aangepaste Vorm voor de Componenten van de Stichting ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-hcaptcha)
+- [ Gebruik hCaptcha in een Aangepaste Vorm voor de Componenten van de Stichting ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-hcaptcha)
 
-- [ Van het gebruiks Turnstile CAPTCHA in een Aanpassende Vorm voor de Componenten van de Stichting ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile)
+- [ Van het gebruiks Turnstile CAPTCHA in een Aanpassende Vorm voor de Componenten van de Stichting ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile)
 
-- [ Google reCAPTCHA van het Gebruik in een AanpassingsVorm voor de Componenten van de Stichting ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
+- [ Google reCAPTCHA van het Gebruik in een AanpassingsVorm voor de Componenten van de Stichting ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
 
 ## Verwante artikelen {#related-articles}
 

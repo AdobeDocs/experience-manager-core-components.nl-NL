@@ -3,7 +3,8 @@ title: Component E-mailpagina
 description: De component E-mailpagina
 role: Architect, Developer, Admin, User
 exl-id: 17fd0f5e-2b85-41a1-abaf-8ad190a5341a
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 # Component E-mailpagina {#email-page-component}
 
-De component E-mail van de Pagina is een verlengbare paginacomponent die wordt ontworpen om met de [ malplaatjedacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL) te werken en staat paginakopbal/footer en structuurcomponenten toe om met de malplaatjedacteur worden geassembleerd, die voor het creëren van de inhoud van Adobe Campaign wordt gemaakt.
+De component E-mail van de Pagina is een verlengbare paginacomponent die wordt ontworpen om met de [ malplaatjedacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) te werken en staat paginakopbal/footer en structuurcomponenten toe om met de malplaatjedacteur worden geassembleerd, die voor het creëren van de inhoud van Adobe Campaign wordt gemaakt.
 
 ## Gebruik {#usage}
 
@@ -42,7 +43,7 @@ De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
-Omdat de component de volledige pagina vertegenwoordigt, worden de montages die normaal in zouden zijn uitgeeft dialoog gevonden in het [ venster van de Eigenschappen van de Pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=nl-NL).
+Omdat de component de volledige pagina vertegenwoordigt, worden de montages die normaal in zouden zijn uitgeeft dialoog gevonden in het [ venster van de Eigenschappen van de Pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
 
 ### Tabblad Cloud Services {#cloud-services}
 
@@ -85,7 +86,7 @@ Met behulp van het venster Paginaontwerp kunt u de te laden clientbibliotheken e
 * **Bibliotheken van de Cliënt** - dit bepaalt de categorieën van de cliëntbibliotheek aan lading. JavaScript wordt toegevoegd aan het hoofdgedeelte en de CSS wordt toegevoegd aan de paginakop.
 * **de Bibliotheken van de Cliënt JavaScript Hoofd van de Pagina** - dit bepaalt de categorieën van de de cliëntbibliotheek van JavaScript in de paginakop te laden.
    * De categorieën die hier worden bepaald die ook aanwezig zijn in het **gebied van de Bibliotheken van de Cliënt** zullen JavaScript hebben die in de paginakop in plaats van bij lichaamseind wordt geladen.
-   * Geen CSS zal worden geladen tenzij de categorie ook op het **gebied van de Bibliotheken van de Cliënt 0&rbrace; &lbrace;aanwezig is.**
+   * Geen CSS zal worden geladen tenzij de categorie ook op het **gebied van de Bibliotheken van de Cliënt 0} {aanwezig is.**
 * **de Bibliotheken van JavaScript van de Lading asynchroon** - Indien toegelaten, zullen de bibliotheken van douaneJavaScript asynchroon worden geladen.
 * **Bibliotheek van de Cliënt van Middelen van het Web** - de categorie van de cliëntbibliotheek die wordt gebruikt om Webmiddelen zoals favicons te dienen.
 * **Overslaan aan de selecteur van het belangrijkste inhoudselement** - Gebruikt als toegankelijkheidseigenschap om rechtstreeks aan de belangrijkste inhoud van de pagina over te slaan
@@ -96,8 +97,8 @@ De bibliotheken kunnen voor zowel de **Bibliotheken van de Cliënt** als **het H
 * Als u een veld wilt verwijderen, klikt of tikt u op het prullenbakpictogram naast het veld dat u wilt verwijderen.
 * Als u de laadvolgorde wilt wijzigen, klikt of tikt u op de greep naast het te verplaatsen veld.
 
-Voor meer informatie over het gebruiken van cliënt-zijbibliotheken, zie [ Gebruikend de Bibliotheken van de Kant van de Cliënt.](https://helpx.adobe.com/nl/experience-manager/6-5/sites/developing/using/clientlibs.html)
+Voor meer informatie over het gebruiken van cliënt-zijbibliotheken, zie [ Gebruikend de Bibliotheken van de Kant van de Cliënt.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html)
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van de Pagina steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+De Component van de Pagina steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).

@@ -3,16 +3,19 @@ title: Component Snel zoeken
 description: De component Snel zoeken biedt zoekmogelijkheden voor een website en biedt zoekresultaten zodat bezoekers de site kunnen doorzoeken en de resultaten kunnen filteren.
 role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 0%
 
 ---
 
+
 # Component Snel zoeken {#quick-search-component}
 
 De component Snel zoeken biedt zoekmogelijkheden voor een website en biedt zoekresultaten zodat bezoekers gemakkelijk overeenkomende inhoud kunnen vinden en de resultaten kunnen bekijken.
+
+{{traditional-aem}}
 
 ## Gebruik {#usage}
 
@@ -84,4 +87,4 @@ Minimale lengte van de zoekterm om de zoekopdracht te starten
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Snelle Component van het Onderzoek steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+De Snelle Component van het Onderzoek steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).

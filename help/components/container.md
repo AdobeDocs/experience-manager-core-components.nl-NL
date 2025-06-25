@@ -3,16 +3,19 @@ title: Containercomponent
 description: Met de component Core Component Container kunt u een container maken voor meerdere aanvullende componenten op een pagina.
 role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 0%
 
 ---
 
+
 # Containercomponent{#container-component}
 
 Met de component Core Component Container kunt u een container maken voor meerdere aanvullende componenten op een pagina.
+
+{{traditional-aem}}
 
 ## Gebruik {#usage}
 
@@ -51,7 +54,7 @@ In het dialoogvenster configureren kan de auteur van de inhoud het containeritem
 
 * **Lay-out** - deze optie bepaalt het gedrag of het lay-outgedrag van de Component van de Container.
    * **Eenvoudig** - bepaalt een container als eenvoudige inzameling van componenten
-   * **Responsief Net** - bepaalt een container als [ AEM Responsieve Lay-out ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html?lang=nl-NL)
+   * **Responsief Net** - bepaalt een container als [ AEM Responsieve Lay-out ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
 * **Achtergrondkleur** - bepaalt of als vrij-vormRGB waarden of door de kleurkiezer te gebruiken, [ afhankelijk van configuratie ](#background-tab)
 * **Achtergrondbeeld** - bepaalt een achtergrondkleur voor de container, [ afhankelijk van configuratie ](#background-tab)
 * **identiteitskaart** - Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens te controleren ](/help/developing/data-layer/overview.md).
@@ -67,11 +70,11 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de opties definiëren die bes
 
 Het **Toegestane lusje van Componenten** wordt gebruikt om te bepalen welke componenten als punten aan de Component van de Container door de inhoudauteur kunnen worden toegevoegd.
 
-De toegelaten Componenten lusjefuncties op de zelfde manier zoals het lusje van de zelfde naam wanneer [ het bepalen van het beleid en de eigenschappen van een Container van de Lay-out in de Redacteur van het Malplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL)
+De toegelaten Componenten lusjefuncties op de zelfde manier zoals het lusje van de zelfde naam wanneer [ het bepalen van het beleid en de eigenschappen van een Container van de Lay-out in de Redacteur van het Malplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Tabblad Standaardcomponenten {#default-components-tab}
 
-Het lusje Standaard van Componenten wordt gebruikt om te bepalen welke component aan de component wordt toegevoegd wanneer een bepaald activatype op de container wordt gelaten vallen, gelijkend op [ hoe de standaardcomponenten op het paginamalplaatje ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL) worden bepaald.
+Het lusje Standaard van Componenten wordt gebruikt om te bepalen welke component aan de component wordt toegevoegd wanneer een bepaald activatype op de container wordt gelaten vallen, gelijkend op [ hoe de standaardcomponenten op het paginamalplaatje ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) worden bepaald.
 
 ### Tab Instellingen voor responsief {#responsive-settings-tab}
 
@@ -98,4 +101,4 @@ Het lusje Standaard van Componenten wordt gebruikt om te bepalen welke component
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van de Container steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+De component van de Container steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).

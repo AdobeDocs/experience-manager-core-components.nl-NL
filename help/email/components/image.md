@@ -3,7 +3,8 @@ title: Component E-mail
 description: De component E-mailafbeelding is een adaptieve afbeeldingscomponent die op locatie kan worden bewerkt.
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
 workflow-type: tm+mt
 source-wordcount: '1624'
 ht-degree: 0%
@@ -46,7 +47,7 @@ Daarnaast biedt de component E-mailafbeelding ondersteuning voor lui laden om he
 
 ## Ondersteuning voor dynamische media {#dynamic-media}
 
-De component E-mail van het Beeld steunt [ Dynamische Media ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=nl-NL#dynamicmedia) activa. [ wanneer toegelaten, ](#design-dialog) bieden deze eigenschappen de capaciteit aan om Dynamische het beeldactiva van Media met eenvoudige belemmering-en-daling of via activa toe te voegen browser enkel zoals u een ander beeld. Daarnaast worden ook afbeeldingsaanpassingen, voorinstellingen voor afbeeldingen en slimme gewassen ondersteund.
+De component E-mail van het Beeld steunt [ Dynamische Media ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html#dynamicmedia) activa. [ wanneer toegelaten, ](#design-dialog) bieden deze eigenschappen de capaciteit aan om Dynamische het beeldactiva van Media met eenvoudige belemmering-en-daling of via activa toe te voegen browser enkel zoals u een ander beeld. Daarnaast worden ook afbeeldingsaanpassingen, voorinstellingen voor afbeeldingen en slimme gewassen ondersteund.
 
 Uw e-mailervaring die is opgebouwd met de e-mailCore-componenten kan beschikken over uitgebreide, op Sensei gebaseerde, robuuste, krachtige, platformonafhankelijke mogelijkheden voor Dynamic Media Image.
 
@@ -85,9 +86,9 @@ De component E-mailafbeelding biedt een configuratievenster waarin de afbeelding
    * **erven alternatieve tekst van pagina** - Deze optie gebruikt de alternatieve beschrijving van de verbonden activawaarde van de `dc:description` meta-gegevens in DAM of van de huidige pagina als geen activa wordt verbonden.
 
 * **activa van het Beeld**
-   * Daling een activa van [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=nl-NL) of ontvang **doorbladert** optie om van een lokaal dossiersysteem te uploaden.
+   * Daling een activa van [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of ontvang **doorbladert** optie om van een lokaal dossiersysteem te uploaden.
    * Tik of klik **Duidelijk** om het momenteel geselecteerde beeld te deselecteren.
-   * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=nl-NL) in de Redacteur van Activa te beheren.
+   * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in de Redacteur van Activa te beheren.
 
 * **verstrekt geen alternatieve tekst** - Deze optie merkt het beeld dat door ondersteunende technologieën zoals het schermlezers voor gevallen wordt genegeerd waar het beeld zuiver decoratief is of anders geen extra informatie aan de pagina overbrengt.
 
@@ -166,4 +167,4 @@ U kunt een lijst van breedten in pixel voor het beeld bepalen en de component za
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component E-mail van het Beeld steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+De component E-mail van het Beeld steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).

@@ -3,16 +3,19 @@ title: Component Button
 description: Met de component Knop Core-component kunt u een knop maken en weergeven.
 role: Architect, Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 0%
 
 ---
 
+
 # Component Button{#button-component}
 
 De component van de Knoop van de Component van de Kern staat voor de configuratie en de vertoning van een knooppunt op een pagina toe.
+
+{{traditional-aem}}
 
 ## Gebruik {#usage}
 
@@ -84,7 +87,7 @@ De stijlen moeten voor deze component in de [ ontwerpdialoog ](#design-dialog) w
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van de Knoop steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+De component van de Knoop steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ## Adobe Client Data Layer {#data-layer}
 

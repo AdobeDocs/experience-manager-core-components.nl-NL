@@ -3,12 +3,14 @@ title: Component downloaden (v1)
 description: Met de component Core Component Download kunt u een downloadoptie op een pagina maken.
 role: Architect, Developer, Admin, User
 exl-id: ebd63522-218d-4784-bea0-1627c64f5230
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 0%
 
 ---
+
 
 # Component downloaden (v1) {#download-component}
 
@@ -52,9 +54,9 @@ In het dialoogvenster Configureren kan de auteur van de inhoud het downloaditem 
 De selectie van een downloadactiva is zeer gelijkaardig aan de functionaliteit van de [ Component van het Beeld ](image-v1.md) en eveneens hefboomwerkingen AEM DAM.
 
 * **Activa van de Download**
-   * Daling een activa van [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=nl-NL) of ontvang **doorbladert** optie om van een lokaal dossiersysteem te uploaden.
+   * Daling een activa van [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of ontvang **doorbladert** optie om van een lokaal dossiersysteem te uploaden.
    * Tik of klik **Duidelijk** om het momenteel geselecteerde beeld te deselecteren.
-   * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=nl-NL) in de activaredacteur te beheren.
+   * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in de activaredacteur te beheren.
 
 ### Tabblad Eigenschappen {#properties-tab}
 
@@ -93,4 +95,4 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de opties definiëren die bes
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van het Beeld steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De Component van het Beeld steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).

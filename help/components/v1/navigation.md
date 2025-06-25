@@ -3,12 +3,14 @@ title: Navigatiecomponent (v1)
 description: Met de navigatiecomponent kunnen gebruikers gemakkelijk door een geglobaliseerde sitestructuur navigeren.
 role: Architect, Developer, Admin, User
 exl-id: 0b7de79a-e0c7-4cf9-b5a9-c78cbc3ecd2f
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '1424'
 ht-degree: 0%
 
 ---
+
 
 # Navigatiecomponent (v1) {#navigation-component}
 
@@ -88,7 +90,7 @@ Hiervoor moet u:
 1. Schaduwpagina&#39;s maken als lege pagina&#39;s die uw gewenste sitestructuur voorstellen. Dit wordt vaak een schaduwsitestructuur genoemd.
 1. Plaats de **omleiden** waarden in de paginaeigenschappen op deze pagina&#39;s om aan de daadwerkelijke inhoudspagina&#39;s te richten.
 1. Plaats de **Verbergen in Navigatie** optie in de paginaeigenschappen van de schaduwpagina&#39;s.
-1. Plaats de **waarde van de Wortel van de Navigatie** &lbrace;van de Component van de Navigatie om aan de wortel van de nieuwe structuur van de schaduwplaats te richten.
+1. Plaats de **waarde van de Wortel van de Navigatie** {van de Component van de Navigatie om aan de wortel van de nieuwe structuur van de schaduwplaats te richten.
 
 De component Navigation geeft het menu vervolgens weer op basis van de structuur van de schaduwsite. De koppelingen die door de component worden gerenderd, verwijzen naar de inhoudspagina&#39;s die de schaduwpagina&#39;s omleiden en niet naar de schaduwpagina&#39;s zelf. Bovendien geeft de component de namen van de werkelijke pagina&#39;s weer en wordt de actieve pagina correct gemarkeerd, zelfs als de navigatie is gebaseerd op schaduwpagina&#39;s. De component Navigation maakt de schaduwpagina&#39;s volledig transparant voor de bezoeker.
 
@@ -100,7 +102,7 @@ De component Navigation geeft het menu vervolgens weer op basis van de structuur
 
 ## Omleiding in navigatie {#redirects}
 
-Wanneer een pagina een omleidingsdoel heeft (ongeacht of deze naar een externe URL of naar een andere AEM pagina verwijst), dan een navigatiecomponent die koppelingen naar dat punt rechtstreeks naar de URL van het omleidingsdoel bevat.
+Wanneer een pagina een omleidingsdoel heeft (ongeacht of deze naar een externe URL of naar een andere AEM-pagina verwijst), dan een navigatiecomponent die koppelingen naar dat punt rechtstreeks naar de URL van het omleidingsdoel bevat.
 
 ### Voorbeeld {#redirect-example}
 
@@ -173,8 +175,8 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur de standaardwaarden instel
 
 ### Tabblad Stijlen {#styles-tab}
 
-De component van de Navigatie steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De component van de Navigatie steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
-## Gegevenslaag client-Adobe {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
-De component van de Navigatie steunt de [ Gegevens van de Cliënt van de Adobe Laag.](/help/developing/data-layer/overview.md)
+De Component van de Navigatie steunt de [ Laag van de Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)

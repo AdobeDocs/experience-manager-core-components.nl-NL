@@ -3,16 +3,19 @@ title: Component List
 description: De component van de Lijst van de Component van de Kern staat voor de gemakkelijke verwezenlijking van dynamische en statische lijsten toe.
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 0%
 
 ---
 
+
 # Component List{#list-component}
 
 De component van de Lijst van de Component van de Kern staat voor de gemakkelijke verwezenlijking van dynamische en statische lijsten toe.
+
+{{traditional-aem}}
 
 ## Gebruik {#usage}
 
@@ -188,7 +191,7 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur definiëren welke typen li
 
 Op het **lusje van de Montages van de Lijst**, kan het datumformaat worden bepaald evenals welk type van lijsten in de component aan de inhoudsauteurs beschikbaar zouden moeten zijn.
 
-{het plaatsen van de het ontwerpdialoog van de Component van 0} Lijst ![&#128279;](/help/assets/list-design-list-settings.png)
+{het plaatsen van de het ontwerpdialoog van de Component van 0} Lijst ](/help/assets/list-design-list-settings.png)![
 
 * **Formaat van de Datum**
 Formaat voor de weergave van de laatste wijzigingsdatum
@@ -216,7 +219,7 @@ Laat de optie van de Datum van de Show in [ toe uitgeven dialoog ](#edit-dialog)
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van het Beeld steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+De Component van het Beeld steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ## Adobe Client Data Layer {#data-layer}
 

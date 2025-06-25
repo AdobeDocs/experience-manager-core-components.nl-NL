@@ -3,7 +3,8 @@ title: Inleiding e-mailkern-componenten
 description: Maak aantrekkelijke e-mailinhoud met de flexibiliteit van de Email Core Components en lever deze met de kracht van Adobe Campaign.
 role: Architect, Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
-source-git-commit: 91cf78d4c6622bbdec5ac7d22954c9c081c839d2
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
@@ -28,7 +29,7 @@ E-mails maken deel uit van de merkervaring en de reis van de klant. Met de Email
 
 ## Functies {#features}
 
-* De E-mail van de Kern Componenten zijn gebaseerd op de [ Componenten van de Kern, ](/help/introduction.md) en steunt daarom ook [ Bewerkbare Malplaatjes ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL) en het [ Systeem van de Stijl.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=nl-NL)
+* De E-mail van de Kern Componenten zijn gebaseerd op de [ Componenten van de Kern, ](/help/introduction.md) en steunt daarom ook [ Bewerkbare Malplaatjes ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) en het [ Systeem van de Stijl.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)
 * Er zijn [ tien e-mail-geoptimaliseerde productie-klaar componenten ](#components) aan auteur e-mailinhoud.
 * De componenten van de Kern E-mail verstrekken geavanceerde verpersoonlijking dankzij de toevoeging van [ variabelen van Adobe Campaign ](campaign-variables.md) op de meeste dialooggebieden.
 * De flexibele [ component van de Segmentatie ](/help/email/components/segmentation.md) staat voor geavanceerde segmentatie van uw inhoud toe.

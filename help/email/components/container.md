@@ -3,7 +3,8 @@ title: E-mailcontainercomponent
 description: Met de component E-mailcontainer kunt u een container maken voor meerdere aanvullende componenten in uw e-mailinhoud.
 role: Architect, Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 0%
@@ -77,11 +78,11 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur de opties definiëren die 
 
 Het **Toegestane lusje van Componenten** wordt gebruikt om te bepalen welke componenten als punten aan de Component van de Container E-mail door de inhoudauteur kunnen worden toegevoegd.
 
-**Toegestane Componenten** tabfuncties op dezelfde manier als het lusje van de zelfde naam wanneer [ het bepalen van het beleid en de eigenschappen van een Container van de Lay-out in de Redacteur van het Malplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL)
+**Toegestane Componenten** tabfuncties op dezelfde manier als het lusje van de zelfde naam wanneer [ het bepalen van het beleid en de eigenschappen van een Container van de Lay-out in de Redacteur van het Malplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Tabblad Standaardcomponenten {#default-components-tab}
 
-Het **StandaardComponenten** lusje wordt gebruikt om te bepalen welke component aan de component wordt toegevoegd wanneer een bepaald activatype op de container wordt gelaten vallen, gelijkend op [ hoe de standaardcomponenten op het paginamalplaatje worden bepaald.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL)
+Het **StandaardComponenten** lusje wordt gebruikt om te bepalen welke component aan de component wordt toegevoegd wanneer een bepaald activatype op de container wordt gelaten vallen, gelijkend op [ hoe de standaardcomponenten op het paginamalplaatje worden bepaald.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Tabblad Containerinstellingen {#container-settings-tab}
 

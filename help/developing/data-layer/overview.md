@@ -1,33 +1,36 @@
 ---
-title: Het gebruiken van de Laag van de Gegevens van de Cliënt van de Adobe met de Componenten van de Kern
-description: Het gebruiken van de Laag van de Gegevens van de Cliënt van de Adobe met de Componenten van de Kern
+title: De Adobe Client Data Layer gebruiken met de Core Components
+description: De Adobe Client Data Layer gebruiken met de Core Components
 feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 0%
 
 ---
 
-# Het gebruiken van de Laag van de Gegevens van de Cliënt van de Adobe met de Componenten van de Kern {#data-layer-core-components}
 
-Het doel van de Laag van Gegevens van de Cliënt van de Adobe is de inspanning aan instrumentwebsites te verminderen door een gestandaardiseerde methode te verstrekken om om het even welk soort gegevens voor om het even welk manuscript bloot te stellen en toegang te hebben.
+# De Adobe Client Data Layer gebruiken met de Core Components {#data-layer-core-components}
 
-De gegevenslaag van de Cliënt van de Adobe is platform agnostic, maar is volledig geïntegreerd in de Componenten van de Kern voor gebruik met AEM.
+Het doel van de Adobe Client Data Layer is het verminderen van de inspanning aan instrumentwebsites door een gestandaardiseerde methode te verstrekken om om het even welk soort gegevens voor om het even welk manuscript bloot te stellen en toegang te hebben.
 
-Als de Componenten van de Kern, is de code voor de Laag van de Gegevens van de Cliënt van de Adobe beschikbaar op GitHub samen met zijn ontwikkelaardocumentatie. Dit document geeft een overzicht van hoe de Componenten van de Kern met de Laag van Gegevens in wisselwerking staan, maar de volledige technische details worden uitgesteld aan de documentatie GitHub.
+De Adobe Client Data Layer is platformonafhankelijk, maar is volledig geïntegreerd in de Core Components voor gebruik met AEM.
+
+Als de Componenten van de Kern, is de code voor de Laag van Gegevens van de Cliënt van Adobe beschikbaar op GitHub samen met zijn ontwikkelaardocumentatie. Dit document geeft een overzicht van hoe de Componenten van de Kern met de Laag van Gegevens in wisselwerking staan, maar de volledige technische details worden uitgesteld aan de documentatie GitHub.
 
 >[!TIP]
 >
->Voor verdere informatie over de Laag van de Gegevens van de Cliënt van de Adobe, [ verwijs naar de middelen in zijn bewaarplaats GitHub.](https://github.com/adobe/adobe-client-data-layer)
+>Voor verdere informatie over de Laag van Gegevens van de Cliënt van Adobe, [ verwijs naar de middelen in zijn bewaarplaats GitHub.](https://github.com/adobe/adobe-client-data-layer)
 >
->Voor verdere technische details over de integratie van de Laag van Gegevens van de Cliënt van de Adobe met de Componenten van de Kern, zie het [`DATA_LAYER_INTEGRATION.md` ](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) dossier in de bewaarplaats van de Componenten van de Kern.
+>Voor verdere technische details over de integratie van de Laag van Gegevens van de Cliënt van Adobe met de Componenten van de Kern, zie het [`DATA_LAYER_INTEGRATION.md` ](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) dossier in de bewaarplaats van de Componenten van de Kern.
+
+{{traditional-aem}}
 
 ## Installatie en activering {#installation-activation}
 
-Vanaf versie 2.9.0 van de Componenten van de Kern, wordt de Laag van Gegevens gedistribueerd met de Componenten van de Kern als AEM Bibliotheek van de Cliënt en geen installatie is noodzakelijk. Alle projecten die door [ worden geproduceerd AEM Archetype van het Project v. 24+ ](/help/developing/archetype/overview.md) omvatten een geactiveerde Laag van Gegevens door gebrek.
+Vanaf versie 2.9.0 van de Componenten van de Kern, wordt de Laag van Gegevens gedistribueerd met de Componenten van de Kern als Bibliotheek van de Cliënt van AEM en geen installatie is noodzakelijk. Alle projecten die door het [ Archetype van het Project van AEM v. 24+ ](/help/developing/archetype/overview.md) worden geproduceerd omvatten een geactiveerde Laag van Gegevens door gebrek.
 
 Om de Laag van Gegevens manueel te activeren moet u a [ context-bewuste configuratie ](/help/developing/context-aware-configs.md) voor het creëren:
 
@@ -42,7 +45,7 @@ Om de Laag van Gegevens manueel te activeren moet u a [ context-bewuste configur
 
 1. Voeg een eigenschap `sling:configRef` toe aan het knooppunt `jcr:content` van de onderstaande site `/content` (bijvoorbeeld `/content/<mySite>/jcr:content` ) en stel deze in op `/conf/<mySite>` uit de vorige stap.
 
-1. Zodra toegelaten, kunt u de activering verifiëren door een pagina van de plaats buiten de redacteur te laden, bijvoorbeeld door de **Mening als Gepubliceerde** optie in de redacteur te gebruiken. Inspect: de paginabron en de tag `<body>` moeten een kenmerk bevatten `data-cmp-data-layer-enabled`
+1. Zodra toegelaten, kunt u de activering verifiëren door een pagina van de plaats buiten de redacteur te laden, bijvoorbeeld door de **Mening als Gepubliceerde** optie in de redacteur te gebruiken. Controleer de paginabron en de tag `<body>` moet een kenmerk bevatten `data-cmp-data-layer-enabled`
 
    ```html
    <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
@@ -71,7 +74,7 @@ De volgende componenten steunen de Laag van Gegevens.
 * [Accordeon](/help/components/accordion.md)
 * [Broodkruimel](/help/components/breadcrumb.md)
 * [Knop](/help/components/button.md)
-* [Carousel](/help/components/carousel.md)
+* [Carrousel](/help/components/carousel.md)
 * [Inhoudsfragment](/help/components/content-fragment-component.md)
 * [Afbeelding](/help/components/image.md)
 * [Taalnavigatie](/help/components/language-navigation.md)
@@ -153,7 +156,7 @@ Het containerschema wordt gebruikt door de volgende componenten:
 
 * [Accordeon](/help/components/accordion.md)
 * [Tabs](/help/components/tabs.md)
-* [Carousel](/help/components/carousel.md)
+* [Carrousel](/help/components/carousel.md)
 
 Het containerschema wordt als volgt gedefinieerd.
 
@@ -277,7 +280,7 @@ In de volgende tabellen worden de standaard Core Components weergegeven die gebe
 
 ### Info van gebeurtenispad {#event-path-info}
 
-Elke gebeurtenis van de Laag van Gegevens die door een AEM Component van de Kern wordt teweeggebracht zal een lading met het volgende voorwerp JSON omvatten:
+Elke gebeurtenis van de Laag van Gegevens die door een Component van de Kern van AEM wordt teweeggebracht zal een lading met het volgende voorwerp JSON omvatten:
 
 ```json
 eventInfo: {
@@ -306,7 +309,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## Zelfstudie
 
-Wilt u de componenten van de Laag en van de Kern van Gegevens meer in detail onderzoeken? [ Controle uit dit hands-on leerprogramma ](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=nl-NL).
+Wilt u de componenten van de Laag en van de Kern van Gegevens meer in detail onderzoeken? [ Controle uit dit hands-on leerprogramma ](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html).
 
 >[!TIP]
 >

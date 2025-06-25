@@ -3,16 +3,19 @@ title: Tekstcomponent
 description: De component Text is een component voor tekstbewerking en -compositie met tekstopmaak die op locatie kan worden bewerkt.
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: da947be103bd68abad82fcfcbee58d527bc14dbd
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '2185'
 ht-degree: 0%
 
 ---
 
+
 # Tekstcomponent{#text-component}
 
 De component Core Component Text is een component voor tekstbewerking en -compositie met tekstopmaak die op locatie kan worden bewerkt.
+
+{{traditional-aem}}
 
 ## Gebruik {#usage}
 
@@ -45,13 +48,13 @@ De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in
 
 ## De component Text en de RTF-editor {#the-text-component-and-the-rich-text-editor}
 
-De component van de Tekst van de Componenten van de Kern gebruikt de Redacteur van de Tekst van AEM Rich (RTE). RTE voorziet inhoudsauteurs van een brede waaier van functionaliteit voor het uitgeven van hun tekstinhoud. RTE is zeer flexibel in zijn configuratie en biedt een aantal opties aan. Verdere details over hoe RTE kan worden gevormd kunnen in de artikelen [ worden gevonden vormen de Rijke Redacteur van de Tekst ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html?lang=nl-NL) en [ vormen de Rijke stop-ins van de Redacteur van de Tekst ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=nl-NL).
+De component van de Tekst van de Componenten van de Kern gebruikt de Redacteur van de Tekst van AEM Rich (RTE). RTE voorziet inhoudsauteurs van een brede waaier van functionaliteit voor het uitgeven van hun tekstinhoud. RTE is zeer flexibel in zijn configuratie en biedt een aantal opties aan. Verdere details over hoe RTE kan worden gevormd kunnen in de artikelen [ worden gevonden vormen de Rijke Redacteur van de Tekst ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) en [ vormen de Rijke stop-ins van de Redacteur van de Tekst ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 De rest van dit artikel toont de standaardconfiguratie van de Component van de Tekst van de Componenten van de Kern met de uit-van-de-doos configuratie van RTE aan.
 
 >[!NOTE]
 >
->Slechts die opties door [ worden toegelaten UI configuraties van RTE ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=nl-NL) zijn beschikbaar door in de Component van de Tekst.
+>Slechts die opties door [ worden toegelaten UI configuraties van RTE ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) zijn beschikbaar door in de Component van de Tekst.
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
@@ -258,7 +261,7 @@ Wordt gebruikt om een tabel in de tekst in te voegen. Als u deze optie selecteer
 
 Wordt gebruikt om de spelling van de tekstinhoud te controleren. Mogelijke spelfouten worden onderstreept met gebroken, rode lijnen.
 
-De verdere details over spellingcontrole en het aanpassen van de woordenboeken van de spellingcontrole kunnen in het document [ worden gevonden vormen de Rich Insteekmodules van de Redacteur van de Tekst ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=nl-NL).
+De verdere details over spellingcontrole en het aanpassen van de woordenboeken van de spellingcontrole kunnen in het document [ worden gevonden vormen de Rich Insteekmodules van de Redacteur van de Tekst ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 ### Speciale tekens {#special-characters}
 
@@ -368,7 +371,7 @@ De optie voor het invoegen van speciale tekens kan voor de component worden geac
 
 ## Tabblad Stijlen {#styles-tab}
 
-De Component van de Tekst steunt het de stijlsysteem van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+De Component van de Tekst steunt het de stijlsysteem van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ## Adobe Client Data Layer {#data-layer}
 

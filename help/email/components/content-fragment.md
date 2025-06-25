@@ -3,7 +3,8 @@ title: Component E-mailinhoudsfragment
 description: Met de component E-mailinhoudsfragment kunt u een inhoudsfragment in uw inhoud weergeven.
 role: Architect, Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 0%
@@ -13,11 +14,11 @@ ht-degree: 0%
 
 # Component E-mailinhoudsfragment {#email-content-fragment-component}
 
-De component van het Fragment van de Inhoud E-mail staat voor de vertoning van a [ inhoudsfragment ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=nl-NL) in uw inhoud toe.
+De component van het Fragment van de Inhoud E-mail staat voor de vertoning van a [ inhoudsfragment ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) in uw inhoud toe.
 
 ## Gebruik {#usage}
 
-De component van het Fragment van de Inhoud E-mail staat voor de opneming van a [ inhoudsfragment ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=nl-NL) in uw e-mailinhoud toe. Inhoudsfragmenten zijn gestructureerde inhoud met meerdere kanalen die centraal kan worden ontworpen en eenvoudig opnieuw kan worden gebruikt.
+De component van het Fragment van de Inhoud E-mail staat voor de opneming van a [ inhoudsfragment ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) in uw e-mailinhoud toe. Inhoudsfragmenten zijn gestructureerde inhoud met meerdere kanalen die centraal kan worden ontworpen en eenvoudig opnieuw kan worden gebruikt.
 
 * Het fragment en zijn eigenschappen kunnen in [ worden geselecteerd vormen dialoog.](#configure-dialog)
 * De types van middel om bepaalde beelden en netten te behandelen kunnen in de [ ontwerpdialoog worden bepaald.](#design-dialog)
@@ -84,7 +85,7 @@ Tapping of het klikken van **geeft** knoop uit opent de redacteur van het inhoud
 
 ![ de fragmentredacteur van de Inhoud voor e-mail ](/help/email/assets/email-content-fragment-editor.png)
 
-Voor meer informatie over het uitgeven en het ontwerpen van inhoudsfragmenten, zie het document [ Authoring Inhoud van het Fragment.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-variations.html?lang=nl-NL)
+Voor meer informatie over het uitgeven en het ontwerpen van inhoudsfragmenten, zie het document [ Authoring Inhoud van het Fragment.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-variations.html)
 
 ## Ontwerpdialoogvenster {#design-dialog}
 

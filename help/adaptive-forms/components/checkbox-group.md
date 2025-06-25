@@ -3,16 +3,20 @@ title: Adaptieve Forms Core-component - Checkbox-groep
 description: De Adaptive Forms Checkbox Group Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '2103'
+source-wordcount: '2101'
 ht-degree: 0%
 
 ---
 
+
 # Component van groep Checkbox {#button-component-adaptive-forms-core-component}
 
 Een groep selectievakjes in een adaptief formulier is een set verwante selectievakjes waarmee gebruikers een of meer opties in een lijst kunnen selecteren. Elk selectievakje wordt vertegenwoordigd door een gegevenswaarde (waarde die wordt gebruikt om items van een selectievakje te verwerken) en een weergavewaarde (label voor elk selectievakje dat het doel beschrijft).
+
+{{traditional-aem}}
+
 **Voorbeeld**
 
 ![ checkbox groepsvoorbeeld ](/help/adaptive-forms/assets/checkbox-group.png)
@@ -45,13 +49,13 @@ Er zijn verschillende redenen waarom het nuttig is om een groep selectievakjes o
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms Checkbox groep Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms Checkbox groep Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 voor Cloud Service en Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM-compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
 | v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -77,7 +81,7 @@ Met het dialoogvenster Configureren kunt u de ervaring van het selectievakje voo
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
   Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het `Fullscreen` ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
-  ![&#128279;](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0&rbrace;
+  ](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0}![
 
 - **Verberg Titel** - selecteer de optie om de Titel van de component te verbergen.
 
@@ -147,7 +151,7 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de component Gro
 
 ### Tabblad Stijlen {#styles-tab}
 
-De adaptieve Component van de Kern van de Groep van de Forms Checkbox steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De adaptieve Component van de Kern van de Groep van de Forms Checkbox steunt het systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ![ Dialoog van het Ontwerp ](/help/adaptive-forms/assets/checkbox-style.png)
 

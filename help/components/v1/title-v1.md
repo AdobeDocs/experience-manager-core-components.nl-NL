@@ -4,12 +4,13 @@ description: De component van de Titel van de Component van de Kern is een compo
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 79549ac0-82f2-4ea0-9cce-d534d0b47b5c
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
 
 ---
+
 
 # Titelcomponent (v1) {#title-component-v}
 
@@ -27,7 +28,7 @@ Dit document beschrijft v1 van de Component van de Titel, oorspronkelijk geïntr
 
 In de volgende tabel wordt de compatibiliteit van v1 van de component Title weergegeven.
 
-| AEM | Titelcomponent v1 |
+| AEM-versie | Titelcomponent v1 |
 |--- |--- |
 | 6,3 | Compatibel |
 | 6,4 | Compatibel |
@@ -36,11 +37,11 @@ In de volgende tabel wordt de compatibiliteit van v1 van de component Title weer
 >
 >In dit document wordt versie 1 van de component Title beschreven.
 >
->Voor details van de huidige versie van de Component van de Titel, zie het [&#128279;](/help/components/title.md) document van de Component van de Titel 0&rbrace; &lbrace;.
+>Voor details van de huidige versie van de Component van de Titel, zie het ](/help/components/title.md) document van de Component van de Titel 0} {.[
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Schermafbeelding {#screenshot}
 

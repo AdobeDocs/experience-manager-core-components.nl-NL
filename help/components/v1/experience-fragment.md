@@ -3,12 +3,14 @@ title: Experience Fragment Component (v1)
 description: Met de ervaringsfragmentcomponent kan de auteur van de inhoud een ervaringsfragmentvariatie aan een pagina toevoegen.
 role: Architect, Developer, Admin, User
 exl-id: 42230a7b-6feb-4535-baf9-b8fc06978d98
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 0%
 
 ---
+
 
 # Experience Fragment Component (v1) {#experience-fragment-component}
 
@@ -29,7 +31,7 @@ In dit document wordt versie 1 van de Experience Fragment Component beschreven, 
 >
 >In dit document wordt versie 1 van de Experience Fragment-component beschreven.
 >
->Voor details van de huidige versie van de Component van het Fragment van de Ervaring, zie het [&#128279;](/help/components/experience-fragment.md) document van de Component van het Fragment van 0&rbrace; van de Ervaring.
+>Voor details van de huidige versie van de Component van het Fragment van de Ervaring, zie het ](/help/components/experience-fragment.md) document van de Component van het Fragment van 0} van de Ervaring.[
 
 ## Ondersteuning voor gelokaliseerde sitestructuur {#localized-site-structure}
 
@@ -120,7 +122,7 @@ Gebruik de **Open knoop van de Dialoog van de Selectie** om de componentenselect
 
 Als u de Component van het Fragment van de Ervaring aan een malplaatje toevoegt, merk op dat het automatisch zal worden gelokaliseerd op voorwaarde dat de Fragmenten van de Ervaring worden gelokaliseerd, zodat wat op de pagina wordt teruggegeven van de component kan variëren u uitdrukkelijk selecteert. [ zie het voorbeeld hierboven ](#example) voor meer informatie.
 
-U kunt ook een **identiteitskaart** bepalen. Deze optie staat toe om het unieke herkenningsteken van de component in de HTML en in de [ Laag van Gegevens ](/help/developing/data-layer/overview.md) te controleren.
+U kunt ook een **identiteitskaart** bepalen. Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens ](/help/developing/data-layer/overview.md) te controleren.
 
 * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
 * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
@@ -132,4 +134,4 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur de opties definiëren die 
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van het Fragment van de Ervaring steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De Component van het Fragment van de Ervaring steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).

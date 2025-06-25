@@ -3,12 +3,13 @@ title: Adaptive Forms Core Component - Wizard
 description: De Adaptive Forms Wizard Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: 9f151ae26c9d2006b74656ec5086f1a5e9fc4b30
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '2186'
 ht-degree: 0%
 
 ---
+
 
 # Wizard, component{#wizard-adaptive-forms-core-component}
 
@@ -20,6 +21,8 @@ De indeling van de wizard is handig voor formulieren met veel velden of gegevens
 
 Het kan echter ook de complexiteit van het formulier vergroten, omdat de gebruiker meerdere pagina&#39;s moet doorlopen om het formulier in te vullen. Het is dus noodzakelijk om de formuliervereisten en gebruikersbehoeften te evalueren voordat u besluit een wizardindeling te gebruiken.
 Met de Core-component voor de wizardlay-out kunt u in een adaptief formulier de wizardlay-out maken.
+
+{{traditional-aem}}
 
 **Voorbeeld**
 
@@ -55,7 +58,7 @@ De Adaptive Forms Wizard Layout Core Component is in februari 2023 uitgebracht a
 | — | — |
 | v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel | Compatibel |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -124,7 +127,7 @@ Met de opties voor herhaling kunt u de wizard en de onderliggende componenten du
 - **Minimale herhalingen**: Vestigt het minimumaantal tijden het paneel van de Tovenaar kan worden herhaald. De waarde nul geeft aan dat het deelvenster Wizard niet wordt herhaald; de standaardwaarde is nul.
 - **Maximale herhalingen**: Plaatst het maximumaantal tijden het paneel van de Tovenaar kan worden herhaald. Deze waarde is standaard onbeperkt.
 
-Om herhaalbare secties binnen de Tovenaar effectief te beheren, volg de stappen die in [ worden verstrekt die vormen met herhaalbare secties ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=nl-NL) artikel creëren.
+Om herhaalbare secties binnen de Tovenaar effectief te beheren, volg de stappen die in [ worden verstrekt die vormen met herhaalbare secties ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) artikel creëren.
 
 ### Tabblad Items {#items-tab}
 
@@ -174,7 +177,7 @@ Het **Toegestane lusje van Componenten** staat malplaatjeredacteur toe om de com
 
 ### Tabblad Stijlen {#styles-tab}
 
-Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve component van de de tovenaarKern van Forms steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve component van de de tovenaarKern van Forms steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ![ het lusje van Stijlen ](/help/adaptive-forms/assets/tabs-styles-tab.png)
 

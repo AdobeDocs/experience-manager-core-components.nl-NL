@@ -3,16 +3,19 @@ title: Component insluiten
 description: Met de component Embed kunt u externe inhoud insluiten in een AEM-inhoudspagina.
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 0%
 
 ---
 
+
 # Component insluiten {#embed-component}
 
 Met de component Core Components Embed kunt u externe inhoud insluiten in een AEM-inhoudspagina.
+
+{{traditional-aem}}
 
 ## Gebruik {#usage}
 
@@ -115,7 +118,7 @@ In het algemeen worden alle script- en `style` -elementen en alle `on*` - en `st
 
 De regels zijn echter gecompliceerder omdat de Embed-component volgt op de filterregelset van het globale HTML AntiSamy-sanitatieframework van AEM, die u kunt vinden op `/libs/cq/xssprotection/config.xml` . Dit kan voor project-specifieke configuratie door een ontwikkelaar indien vereist worden bedekt.
 
-De extra veiligheidsinformatie kan in de [ de ontwikkelaarsdocumentatie van AEM voor op-gebouw installaties ](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=nl-NL) evenals [ installaties van AEM as a Cloud Service worden gevonden.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html?lang=nl-NL)
+De extra veiligheidsinformatie kan in de [ de ontwikkelaarsdocumentatie van AEM voor op-gebouw installaties ](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html) evenals [ installaties van AEM as a Cloud Service worden gevonden.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)
 
 >[!NOTE]
 >

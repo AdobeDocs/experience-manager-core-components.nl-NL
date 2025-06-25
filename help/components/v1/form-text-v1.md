@@ -4,12 +4,13 @@ description: Met de component Tekst van formulier voor kerncomponenttekst kan fo
 index: n
 role: Architect, Developer, Admin, User
 exl-id: d6fbc596-cb42-4478-8a3c-aa5aead3be0a
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
 
 ---
+
 
 # Formuliertekstcomponent (v1) {#form-text-component-v}
 
@@ -27,7 +28,7 @@ In dit document wordt versie 1 van de Form Text Component beschreven, die oorspr
 
 In de volgende tabel wordt de compatibiliteit van versie 1 van de component Formuliertekst weergegeven.
 
-| AEM | Formuliertekstcomponent v1 |
+| AEM-versie | Formuliertekstcomponent v1 |
 |--- |--- |
 | 6,3 | Compatibel |
 | 6,4 | Compatibel |
@@ -36,11 +37,11 @@ In de volgende tabel wordt de compatibiliteit van versie 1 van de component Form
 >
 >In dit document wordt versie 1 van de component Formuliertekst beschreven.
 >
->Voor details van de huidige versie van de Component van de Tekst van de Vorm, zie het [&#128279;](/help/components/forms/form-text.md) document van de Component van de Tekst van de Vorm 0&rbrace; &lbrace;.
+>Voor details van de huidige versie van de Component van de Tekst van de Vorm, zie het ](/help/components/forms/form-text.md) document van de Component van de Tekst van de Vorm 0} {.[
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Schermafbeelding {#screenshot}
 

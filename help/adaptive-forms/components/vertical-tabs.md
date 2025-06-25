@@ -3,12 +3,13 @@ title: Adaptive Forms Core Component - Verticale tabbladen
 description: De Adaptive Forms Vertical tabs Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '2174'
+source-wordcount: '2173'
 ht-degree: 0%
 
 ---
+
 
 # De component Verticale tabbladen{#vertical-tabs-adaptive-forms-core-component}
 
@@ -20,6 +21,8 @@ Wanneer een gebruiker op een tabblad klikt, wordt de formulierinhoud dynamisch b
 > Voor AEM 6.5 Forms werd deze component geïntroduceerd met AEM 6.5 Forms Service Pack 19 (6.5.19.0). Om deze component in te schakelen, zorgt u ervoor dat de benodigde versies van zowel Forms Core Components als WCM Core Components zijn geïnstalleerd. Voor gedetailleerde informatie over de versies van de Adaptieve Componenten van de Kern van Forms, gelieve te verwijzen naar [ Adaptieve versies van de Kern van Forms ](/help/adaptive-forms/version.md)
 
 ![ voorbeeld ](/help/adaptive-forms/assets/horizontal-example.png)
+
+{{traditional-aem}}
 
 ## Gebruik {#reasons-to-use-vertical-tabs}
 
@@ -35,7 +38,7 @@ De algemene redenen voor het gebruik van verticale tabbladen in een adaptieve vo
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms Vertical tabs Core Component is uitgebracht als onderdeel van Core Components 2.0.18. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms Vertical tabs Core Component is uitgebracht als onderdeel van Core Components 2.0.18. Hier volgt een tabel met alle ondersteunde versies, AEM-compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
 |  |  |
 |---|---|
@@ -43,7 +46,7 @@ De Adaptive Forms Vertical tabs Core Component is uitgebracht als onderdeel van 
 | — | — |
 | v1 | Compatibel systeem met <br>[ versie 2.0.18 ](/help/adaptive-forms/version.md) en later | Compatibel | Compatibel |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
 ## Technische details {#technical-details}
 
@@ -63,7 +66,7 @@ Met het dialoogvenster Configureren kunt u uw ervaring op verticale tabbladen ee
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
   Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
-  ![&#128279;](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0&rbrace;
+  ](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0}![
 
 - **Verberg Titel** - selecteer de optie om de Titel van de component te verbergen.
 
@@ -106,7 +109,7 @@ Met de opties voor herhaling kunt u de component Verticaal-tabs en de onderligge
 - **Minimale herhalingen**: Vestigt het minimumaantal tijden de verticaal-luscomponent kan worden herhaald. De waarde nul geeft aan dat de component Verticale tabs niet wordt herhaald. De standaardwaarde is nul.
 - **Maximale herhalingen**: Plaatst het maximumaantal tijden de verticaal-luscomponent kan worden herhaald. Deze waarde is standaard onbeperkt.
 
-Om herhaalbare secties binnen Verticaal-lusjes effectief te beheren, volg de stappen die in [ worden verstrekt die vormen met herhaalbare secties ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=nl-NL) artikel creëren.
+Om herhaalbare secties binnen Verticaal-lusjes effectief te beheren, volg de stappen die in [ worden verstrekt die vormen met herhaalbare secties ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) artikel creëren.
 
 ### Tabblad Items {#items-tab}
 
@@ -141,7 +144,7 @@ Om herhaalbare secties binnen Verticaal-lusjes effectief te beheren, volg de sta
    - **Naam**: Selecteer deze optie om de naam voor de toegankelijkheidslabels van ARIA te gebruiken.
    - **niets**: Selecteer deze optie als u niet voor de toegankelijkheidslabels van ARIA wilt toevoegen.
 
-- **de rol van de HTML voor het schermlezer om** aan te kondigen - de rol van de HTML is een attribuut wordt gebruikt om het doel van een element van de HTML aan ondersteunende technologieën zoals het schermlezers te specificeren dat. Het rolattribuut wordt gebruikt om extra context en semantische betekenis aan een element te verstrekken, die het voor schermlezers gemakkelijker maken om de inhoud te interpreteren en aan de gebruiker aan te kondigen. In AEM Forms heeft het label van een formulierveld bijvoorbeeld de rol &quot;label&quot; en kan het invoerveld de rol &quot;textbox&quot; hebben. Hierdoor kan de schermlezer de relatie tussen het label en het invoerveld begrijpen en deze correct aan de gebruiker meedelen.
+- **rol van HTML voor het schermlezer om** aan te kondigen - de rol van HTML is een attribuut dat wordt gebruikt om het doel van een element van HTML aan ondersteunende technologieën zoals het schermlezers te specificeren. Het rolattribuut wordt gebruikt om extra context en semantische betekenis aan een element te verstrekken, die het voor schermlezers gemakkelijker maken om de inhoud te interpreteren en aan de gebruiker aan te kondigen. In AEM Forms heeft het label van een formulierveld bijvoorbeeld de rol &quot;label&quot; en kan het invoerveld de rol &quot;textbox&quot; hebben. Hierdoor kan de schermlezer de relatie tussen het label en het invoerveld begrijpen en deze correct aan de gebruiker meedelen.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -162,7 +165,7 @@ Het **Toegestane lusje van Componenten** staat malplaatjeredacteur toe om de com
 
 ![ het lusje van Stijlen ](/help/adaptive-forms/assets/tabs-styles-tab.png)
 
-Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve Verticale component van de Lijst van de Kern van Forms steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve Verticale component van de Lijst van de Kern van Forms steunt het systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 - **StandaardCSS Klassen**: U kunt een standaardCSS klasse voor de Aangepaste Verticale Component van de Lijst van de Kern van Forms Verticale verstrekken.
 

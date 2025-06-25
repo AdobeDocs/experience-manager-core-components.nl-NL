@@ -3,12 +3,14 @@ title: Titelcomponent (v2)
 description: De component van de Titel van de Component van de Kern is een component van de sectiekop die op zijn plaats het uitgeven kenmerkt.
 role: Architect, Developer, Admin, User
 exl-id: f853ec46-19fd-4569-a9d3-5c376d2a2101
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%
 
 ---
+
 
 # Titelcomponent (v2) {#title-component}
 
@@ -26,7 +28,7 @@ In dit document wordt versie 2 van de component Title beschreven, die in januari
 >
 >In dit document wordt versie 2 van de component Title beschreven.
 >
->Voor details van de huidige versie van de Component van de Titel, zie het [&#128279;](/help/components/title.md) document van de Component van de Titel 0&rbrace; &lbrace;.
+>Voor details van de huidige versie van de Component van de Titel, zie het ](/help/components/title.md) document van de Component van de Titel 0} {.[
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
@@ -78,8 +80,8 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur het standaardkopniveau def
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van de Titel steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De Component van de Titel steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
-## Gegevenslaag client-Adobe {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
-De Component van de Titel steunt de [ Laag van de Gegevens van de Cliënt van de Adobe.](/help/developing/data-layer/overview.md)
+De Component van de Titel steunt de [ Laag van Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)

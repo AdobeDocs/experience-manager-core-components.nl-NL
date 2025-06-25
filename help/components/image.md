@@ -3,7 +3,7 @@ title: Afbeeldingscomponent
 description: De component Core Component Image is een adaptieve afbeeldingscomponent.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: ad911040d7e47fc3884071005c17accf8edd0a62
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '2062'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 # Afbeeldingscomponent {#image-component}
 
 De component Core Component Image is een adaptieve afbeeldingscomponent.
+
+{{traditional-aem}}
 
 ## Gebruik {#usage}
 
@@ -57,7 +59,7 @@ Meestal wordt in browsers liever lokaal een grotere breedte verkleind om een kle
 
 ## Ondersteuning voor dynamische media {#dynamic-media}
 
-De Component van het Beeld (van [ versie 2.13.0 ](/help/versions.md)) steunt [ Dynamische Media ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=nl-NL) activa. [ wanneer toegelaten, ](#design-dialog) bieden deze eigenschappen de capaciteit aan om Dynamische het beeldactiva van Media met eenvoudige belemmering-en-daling of via activa toe te voegen browser enkel zoals u een ander beeld. Daarnaast worden ook afbeeldingsaanpassingen, voorinstellingen voor afbeeldingen en slimme gewassen ondersteund.
+De Component van het Beeld (van [ versie 2.13.0 ](/help/versions.md)) steunt [ Dynamische Media ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html) activa. [ wanneer toegelaten, ](#design-dialog) bieden deze eigenschappen de capaciteit aan om Dynamische het beeldactiva van Media met eenvoudige belemmering-en-daling of via activa toe te voegen browser enkel zoals u een ander beeld. Daarnaast worden ook afbeeldingsaanpassingen, voorinstellingen voor afbeeldingen en slimme gewassen ondersteund.
 
 Uw webbeleving die is gebouwd met Core Components kan beschikken over uitgebreide, op Sensei gebaseerde, robuuste, krachtige, platformonafhankelijke mogelijkheden voor Dynamic Media Image.
 
@@ -99,7 +101,7 @@ Afhankelijk van als u de [ Dynamische Media ](#dynamic-media) toegelaten hebt of
 
 Als u standaardAEM activa uitgeeft, kunt u **klikken geeft** pictogram in het contextmenu van de beeldcomponent uit.
 
-![ de Edit dialoog van de Component van het Beeld &lbrace;](/help/assets/image-edit.png)
+![ de Edit dialoog van de Component van het Beeld {](/help/assets/image-edit.png)
 
 * Uitsnijden starten
 
@@ -157,13 +159,13 @@ De component image biedt een dialoogvenster voor configureren waarin de afbeeldi
 
 * **activa van het Beeld** - dit wordt automatisch bevolkt als **geërft beeld van pagina** wordt geselecteerd. Schakel deze optie uit als u de afbeelding handmatig wilt definiëren door de volgende opties in te stellen.
 
-   * Daling een activa van [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=nl-NL) of ontvang **doorbladert** optie zodat kunt u van een lokaal dossiersysteem uploaden.
+   * Daling een activa van [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html) of ontvang **doorbladert** optie zodat kunt u van een lokaal dossiersysteem uploaden.
    * Tik of klik **Duidelijk** om het momenteel geselecteerde beeld te deselecteren.
-   * Tik of klik **Keuze** om [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=nl-NL) te openen zodat kunt u een beeld selecteren.
+   * Tik of klik **Keuze** om [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html) te openen zodat kunt u een beeld selecteren.
       * Als [ de Verre Steun van Activiteiten ](#remote-assets) wordt toegelaten, hebt u veelvoudige opties om activa te kiezen:
          * **Lokale** selecteert van de lokale de activabibliotheek van AEM.
          * **Verre** selecteert van een Dynamische bibliotheek van Media buiten uw instantie van AEM.
-   * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=nl-NL) in de Redacteur van Activa te beheren.
+   * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html) in de Redacteur van Activa te beheren.
 
 * **Alternatieve tekst voor toegankelijkheid** - Dit gebied staat u toe om een beschrijving van het beeld voor visueel gehandicapte gebruikers te bepalen.
 
@@ -199,7 +201,7 @@ De component image biedt een dialoogvenster voor configureren waarin de afbeeldi
 
 ![ het lusje van Stijlen van uitgeeft dialoog van de Component van het Beeld ](/help/assets/image-configure-styles.png)
 
-De Component van het Beeld steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+De Component van het Beeld steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
 
@@ -242,7 +244,7 @@ U kunt een lijst van breedten in pixel voor het beeld bepalen, en de component l
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van het Beeld steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+De Component van het Beeld steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ## Adobe Client Data Layer {#data-layer}
 

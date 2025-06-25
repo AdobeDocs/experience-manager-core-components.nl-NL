@@ -3,28 +3,31 @@ title: Component Inhoudsfragment
 description: Met de component Inhoudsfragment van de kerncomponent kunt u een inhoudsfragment weergeven.
 role: Architect, Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
 
 ---
 
+
 # Component Inhoudsfragment{#content-fragment-component}
 
-De component van het Fragment van de Inhoud van de Component van de Kern staat voor de vertoning van a [ inhoudsfragment ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=nl-NL) toe.
+De component van het Fragment van de Inhoud van de Component van de Kern staat voor de vertoning van a [ inhoudsfragment ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) toe.
 
 >[!NOTE]
 >
 >Voorafgaand aan versie 2.4.0 van de Componenten van de Kern, was de component van het Fragment van de Inhoud beschikbaar als uitbreiding aan de kerncomponenten en moest afzonderlijk worden gedownload en uitdrukkelijk worden toegelaten.
 
+{{traditional-aem}}
+
 ## Gebruik {#usage}
 
-De component van het Fragment van de Inhoud van de Component van de Kern staat voor de opneming van a [ inhoudsfragment ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=nl-NL) op een pagina toe.
+De component van het Fragment van de Inhoud van de Component van de Kern staat voor de opneming van a [ inhoudsfragment ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) op een pagina toe.
 
 * Het fragment en zijn eigenschappen kunnen in [ worden geselecteerd vormen dialoog ](#configure-dialog).
 * De types van middel om bepaalde beelden en netten te behandelen kunnen in de [ ontwerpdialoog ](#design-dialog) worden bepaald.
-* De Edit optie zal het geselecteerde fragment binnen de [ redacteur van het inhoudsfragment ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html?lang=nl-NL) openen.
+* De Edit optie zal het geselecteerde fragment binnen de [ redacteur van het inhoudsfragment ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html) openen.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 

@@ -3,18 +3,22 @@ title: Adaptive Forms Core Component - E-mailinvoer
 description: De Adaptive Forms Email input Core Component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '2113'
+source-wordcount: '2111'
 ht-degree: 0%
 
 ---
+
 
 # E-mailcomponent {#Email-input-adaptive-forms-core-component}
 
 De Adaptive Form Email input Core Component wordt gebruikt om e-mailadressen van gebruikers te verzamelen. In het veld voor e-mailinvoer kan de browser controleren of de ingevoerde gegevens een geldige indeling voor e-mailadressen zijn. De naam wordt meestal weergegeven als een tekstvak en heeft patroonvalidaties om alleen geldige e-mailadressen te accepteren. Het veld voor e-mailinvoer kan verder worden aangepast met extra kenmerken zoals &quot;vereist&quot;, &quot;plaatsaanduiding&quot; en &quot;patroon&quot; om validaties voor de invoergegevens in te stellen.
 
+{{traditional-aem}}
+
 **Voorbeeld**
+
 ![ voorbeeld ](/help/adaptive-forms/assets/emailid-example.png)
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -35,13 +39,13 @@ Er zijn verschillende redenen waarom het nuttig is om een e-mailinvoercomponent 
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms Email Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms Email Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 voor Cloud Service en Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM-compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
 | v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -65,7 +69,7 @@ Met het dialoogvenster Configureren kunt u uw e-mailinvoerervaring eenvoudig aan
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
   Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
-  ![&#128279;](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0&rbrace;
+  ](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0}![
 
 - **Verberg Titel** - selecteer de optie om de Titel van de component te verbergen.
 
@@ -131,7 +135,7 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de invoercompone
 
 ### Tabblad Stijlen {#styles-tab}
 
-Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve Forms E-mail inputcomponent van de Kern steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve Forms E-mail inputcomponent van de Kern steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ![ lusje van de Stijl ](/help/adaptive-forms/assets/datepicker_styletab.png)
 
@@ -163,7 +167,7 @@ Op het tabblad Indelingen kunt u standaard- en aangepaste datumnotaties opgeven.
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=nl-NL)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

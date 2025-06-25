@@ -3,12 +3,14 @@ title: Component voor sociaal delen
 description: De Core Component Social Sharing Component is een widget voor delen via Facebook en Pinterest.
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+index: false
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '377'
 ht-degree: 1%
 
 ---
+
 
 # Component voor sociaal delen{#social-sharing-component}
 
@@ -16,13 +18,15 @@ De Core Component Social Sharing Component is een widget voor delen via Facebook
 
 >[!NOTE]
 >
->De sociale het Delen Component is afgeschreven met de Componenten van de Kern [ versie 2.18.0.](/help/versions.md)
+>De sociale het Delen Component werd afgeschreven met de Componenten van de Kern [ versie 2.18.0.](/help/versions.md)
+
+{{traditional-aem}}
 
 ## Gebruik {#usage}
 
 Met de component Sociaal delen voegt u koppelingen voor delen via Facebook en Pinterest toe aan de pagina. Deze wordt vaak opgenomen in kop- of voetteksten van pagina&#39;s.
 
-In tegenstelling tot andere componenten, worden de montages voor de Sociale Delende Component gedaan door de malplaatjeauteur via [ Oorspronkelijke eigenschappen van de Pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL) en door de inhoudauteur via [ Eigenschappen van de Pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=nl-NL).
+In tegenstelling tot andere componenten, worden de montages voor de Sociale Delende Component gedaan door de malplaatjeauteur via [ Oorspronkelijke eigenschappen van de Pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) en door de inhoudauteur via [ Eigenschappen van de Pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -51,8 +55,8 @@ De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
-Omdat voor delen speciale paginakoppen vereist zijn, moet het delen op paginaniveau zijn ingeschakeld. Daarom voor de inhoudauteur geeft de extra opties voor de het delen component uit beschikbaar door het delen lusje de [ pagina eigenschappen ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=nl-NL) uit.
+Omdat voor delen speciale paginakoppen vereist zijn, moet het delen op paginaniveau zijn ingeschakeld. Daarom voor de inhoudauteur geeft de extra opties voor de het delen component uit beschikbaar door het delen lusje de [ pagina eigenschappen ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) uit.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
-Omdat voor delen speciale paginakoppen vereist zijn, moet het delen op paginaniveau zijn ingeschakeld. Daarom voor de malplaatjeauteur zijn de ontwerpopties voor de het delen component beschikbaar door de [ aanvankelijke paginaeigenschappen ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL).
+Omdat voor delen speciale paginakoppen vereist zijn, moet het delen op paginaniveau zijn ingeschakeld. Daarom voor de malplaatjeauteur zijn de ontwerpopties voor de het delen component beschikbaar door de [ aanvankelijke paginaeigenschappen ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).

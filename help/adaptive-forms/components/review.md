@@ -4,7 +4,8 @@ description: De Adaptive Forms Review Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
-source-git-commit: 04a685cfa2616839f4fec715847bf0821808bd59
+exl-id: acd230ed-284b-4df2-98e0-a0090cd73611
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 0%
@@ -15,6 +16,8 @@ ht-degree: 0%
 # Revisiecomponent
 
 Met de Revisiecomponent in Adaptive Forms kunnen gebruikers de ingevoerde gegevens controleren en verifiëren voordat ze het formulier verzenden. Het dient als een overzichtspagina, die een read-only mening van alle gebieden en hun waarden in een gestructureerd en gebruikersvriendelijk formaat verstrekt. Met deze functie kunnen gebruikers eventuele fouten of omissies opsporen en corrigeren voordat ze hun verzending voltooien. Hierdoor wordt de algehele formulierervaring verbeterd. Door op het pictogram Bewerken te klikken, kunnen ze de ingevoerde gegevens wijzigen voordat ze het formulier verzenden.
+
+{{traditional-aem}}
 
 **Voorbeeld**
 
@@ -51,7 +54,7 @@ U kunt de ervaring voor bezoekers gemakkelijk aanpassen met het dialoogvenster C
    - Wanneer de gebruikers het **Gebied en van het Comité** optie selecteren, kunnen zij het uitgeven pictogram naast een gebied klikken om specifieke informatie te wijzigen of naast een paneel om alle gebieden binnen dat paneel uit te geven.
    - Wanneer de gebruikers **niets** selecteren optie, kunnen zij om het even welk gebied of paneel binnen de volledige vorm uitgeven.
 
-  Door gebrek, wordt de **1&rbrace; optie van het Comité &lbrace;geselecteerd.**
+  Door gebrek, wordt de **1} optie van het Comité {geselecteerd.**
 
 - **de Panelen van de Verbinding** - de **optie van de Vensters van de Verbinding** staat gebruikers toe om de panelen voor overzicht te selecteren. Wanneer deelvensters zijn gekoppeld, kunnen gebruikers de ingevoerde informatie van de geselecteerde deelvensters controleren en deze wijzigen voordat ze de gegevens verzenden.
 
@@ -76,4 +79,3 @@ De video toont hieronder aan hoe te om de **component van het Overzicht** te vor
 ## Zie ook {#see-also}
 
 {{see-also}}
-

@@ -3,18 +3,21 @@ title: Adaptieve Forms Core-component - Formuliercontainer
 description: Voeg een adaptief formulier toe aan een webpagina.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1523'
 ht-degree: 0%
 
 ---
 
+
 # Formuliercontainer {#form-container-adaptive-forms-core-component}
 
-<span class="preview"> Dit artikel bespreekt **Concepten** <!--and **Hamburger Menu Support** --> eigenschap, die een pre-versieeigenschap is. De pre-vrijlatingseigenschap is toegankelijk slechts door ons [ pre-vrijgavekanaal ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=nl-NL#new-features).</span>
+<span class="preview"> Dit artikel bespreekt **Concepten** <!--and **Hamburger Menu Support** --> eigenschap, die een pre-versieeigenschap is. De pre-vrijlatingseigenschap is toegankelijk slechts door ons [ pre-vrijgavekanaal ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
-Forms stelt bezoekers van websites in staat om te communiceren met de website door waardevolle informatie te verstrekken, die de betrokkenheid en gebruikerstevredenheid kan verhogen. Met een adaptieve formuliercontainer in Adobe Experience Manager-sites (AEM) kunnen eigenaars van websites gemakkelijk formulieren toevoegen aan hun pagina&#39;s. Hierdoor wordt de communicatie tussen websitebezoekers en de eigenaar of organisatie van de website vergemakkelijkt doordat bezoekers op een gestroomlijnde manier feedback kunnen geven, vragen kunnen stellen en andere handelingen kunnen uitvoeren
+Forms stelt bezoekers van websites in staat om te communiceren met de website door waardevolle informatie te verstrekken, die de betrokkenheid en gebruikerstevredenheid kan verhogen. Met een adaptieve formuliercontainer in Adobe Experience Manager (AEM) Sites kunnen eigenaars van websites gemakkelijk formulieren toevoegen aan hun pagina&#39;s. Hierdoor wordt de communicatie tussen websitebezoekers en de eigenaar of organisatie van de website vergemakkelijkt doordat bezoekers op een gestroomlijnde manier feedback kunnen geven, vragen kunnen stellen en andere handelingen kunnen uitvoeren
+
+{{traditional-aem}}
 
 ## Gebruik {#reasons-to-use-forms-container}
 
@@ -39,13 +42,13 @@ Er zijn verschillende redenen waarom een formulier aan een website kan worden to
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms Accordion Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms Accordion Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 voor Cloud Service en Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM-compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
 | v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 <!-- ## Sample Component Output {#sample-component-output}
 
 To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
@@ -64,12 +67,12 @@ Met het dialoogvenster Configureren kunt u de ervaring van uw formuliercontainer
 
 - **Titel** - met zijn Titel, kunt u een component in een vorm gemakkelijk identificeren en door gebrek, verschijnt de titel bovenop de component. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
 
-- **vooraf ingevulde diensten** - Deze optie staat de gebruiker toe om een prefill dienst voor het terugwinnen van gegevens te selecteren wanneer de Aangepaste Vorm wordt teruggegeven. Leer meer over [ om een prefill dienst ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=nl-NL#aem-forms-custom-prefill-service) tot stand te brengen en te vormen.
+- **vooraf ingevulde diensten** - Deze optie staat de gebruiker toe om een prefill dienst voor het terugwinnen van gegevens te selecteren wanneer de Aangepaste Vorm wordt teruggegeven. Leer meer over [ om een prefill dienst ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=en#aem-forms-custom-prefill-service) tot stand te brengen en te vormen.
 
 - **Rol**: De rol is een attribuut van HTML dat wordt gebruikt om het doel van een element van HTML aan ondersteunende technologieën zoals het schermlezers te specificeren. Het rolattribuut wordt gebruikt om extra context en semantische betekenis aan een element te verstrekken, die het voor schermlezers gemakkelijker maken om de inhoud te interpreteren en aan de gebruiker aan te kondigen. In AEM Forms heeft het label van een formulierveld bijvoorbeeld de rol &quot;label&quot; en kan het invoerveld de rol &quot;textbox&quot; hebben. Hierdoor kan de schermlezer de relatie tussen het label en het invoerveld begrijpen en deze correct aan de gebruiker meedelen.
 
 - **de categorie van de Bibliotheek van de Cliënt** - de gebruiker kan de bibliotheek van de douaneJavaScript per Aangepast Vorm vormen. Het wordt aanbevolen alleen de herbruikbare functies in de bibliotheek te behouden, die afhankelijk zijn van bibliotheken van derden jquery en underscore.js.
-Soms, als er **complexe bevestigingsregels** zijn, verblijft het nauwkeurige bevestigingsmanuscript in douanefuncties en de gebruikers roepen deze douanefuncties van de uitdrukking van de gebiedsbevestiging. Als u deze aangepaste functiebibliotheek bekend en beschikbaar wilt maken tijdens het uitvoeren van validaties op de server, kan de gebruiker de naam van AEM clientbibliotheek configureren onder het tabblad **[!UICONTROL Basic]** Adaptief formulier Container-eigenschappen.
+Soms, als er **complexe bevestigingsregels** zijn, verblijft het nauwkeurige bevestigingsmanuscript in douanefuncties en de gebruikers roepen deze douanefuncties van de uitdrukking van de gebiedsbevestiging. Als u deze aangepaste functiebibliotheek bekend en beschikbaar wilt maken tijdens het uitvoeren van servervalidaties, kan de gebruiker de naam van de AEM-clientbibliotheek configureren onder het tabblad **[!UICONTROL Basic]** Adaptief formulier Container-eigenschappen.
 De gebruiker kan de aangepaste JavaScript-bibliotheek per adaptief formulier configureren. Houd in de bibliotheek alleen de herbruikbare functies die afhankelijk zijn van bibliotheken van derden jquery en underscore.js.
 
 <!--
@@ -96,7 +99,7 @@ Met het formuliergegevensmodel kunt u een formulier verbinden met een gegevens-S
 
 Gebruikers kunnen verschillende handelingen configureren voor het verzenden van een adaptief formulier.
 
-- **Redirect URL/Weg** - Deze optie staat gebruiker toe om een pagina voor elke vorm te vormen, waaraan de vormgebruikers na het voorleggen van een Aangepast Vorm opnieuw worden gericht. Klik hier voor meer informatie over [ hoe te om opnieuw te richten pagina&#39;s ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html?lang=nl-NL) te vormen.
+- **Redirect URL/Weg** - Deze optie staat gebruiker toe om een pagina voor elke vorm te vormen, waaraan de vormgebruikers na het voorleggen van een Aangepast Vorm opnieuw worden gericht. Klik hier voor meer informatie over [ hoe te om opnieuw te richten pagina&#39;s ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html) te vormen.
 
 ![ Verzending tabel ](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
 
@@ -104,7 +107,7 @@ Gebruikers kunnen verschillende handelingen configureren voor het verzenden van 
 
 ![ toon het lusje van het Bericht ](/help/adaptive-forms/assets/formconatiner_showmessage.png)
 
-- **legt Actie** voor - een Submit Actie wordt teweeggebracht wanneer een gebruiker de Submit knoop op een AanpassingsVorm klikt. Gebruikers kunnen in de vervolgkeuzelijst de optie Handelingen verzenden selecteren die in het vak worden ondersteund. Leer hoe te [ vormen een Submit Actie in het lusje van de Verzending ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=nl-NL#supporting-custom-functions-in-validation-expressions-br).
+- **legt Actie** voor - een Submit Actie wordt teweeggebracht wanneer een gebruiker de Submit knoop op een AanpassingsVorm klikt. Gebruikers kunnen in de vervolgkeuzelijst de optie Handelingen verzenden selecteren die in het vak worden ondersteund. Leer hoe te [ vormen een Submit Actie in het lusje van de Verzending ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br).
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -118,7 +121,7 @@ Het **Toegestane lusje van Componenten** staat malplaatjeredacteur toe om de com
 
 ### Tabblad Standaardcomponenten {#default-components-tab}
 
-![ de dialoog standaardcomponentenlusje van het Ontwerp &lbrace;](/help/adaptive-forms/assets/formcontainer-defaultcomponents.png)
+![ de dialoog standaardcomponentenlusje van het Ontwerp {](/help/adaptive-forms/assets/formcontainer-defaultcomponents.png)
 
 Het **Standaardlusje van Componenten** staat de malplaatjeredacteur toe om de componenten te specificeren die door gebrek als punten in de component van de vormcontainer in de Aangepaste redacteur van Forms zichtbaar zijn.
 
@@ -130,7 +133,7 @@ Het **Responsieve lusje van Montages** staat de malplaatjeredacteur toe om het a
 
 ### Tabblad Stijlen {#styles-tab}
 
-De adaptieve Component van de Kern van de Bijlage van het Dossier van Forms steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De adaptieve Component van de Kern van de Bijlage van het Dossier van Forms steunt het systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ![ Dialoog van het Ontwerp ](/help/adaptive-forms/assets/formcontainer-styletab.png)
 

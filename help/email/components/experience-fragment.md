@@ -3,7 +3,8 @@ title: E-mailervaringsfragmentcomponent
 description: Met de E-mailervaringsfragmentcomponent kan de auteur van de inhoud een Experience-fragmentvariatie in de inhoud plaatsen en een gelokaliseerde inhoudsstructuur ondersteunen.
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
 workflow-type: tm+mt
 source-wordcount: '865'
 ht-degree: 0%
@@ -40,11 +41,11 @@ Voor meer informatie over de versies en de versies van de Component van de Kern 
 
 De E-mailervaringsfragmentcomponent is aangepast aan gelokaliseerde inhoudsstructuren en geeft het juiste ervaringsfragment weer op basis van de lokalisatie van de inhoud. Hiervoor moet het ervaringsfragment aan de volgende voorwaarden voldoen.
 
-* De component van het Fragment van de Ervaring E-mail wordt toegevoegd aan a [ paginamalplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/templates.html?lang=nl-NL)
+* De component van het Fragment van de Ervaring E-mail wordt toegevoegd aan a [ paginamalplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/templates.html)
 * Die sjabloon wordt gebruikt om een nieuwe inhoudspagina te maken die deel uitmaakt van een gelokaliseerde structuur onder `/content/<site>` .
 * Het ervaringsfragment waarnaar op een inhoudspagina wordt verwezen, maakt deel uit van een gelokaliseerde Experience-fragmentstructuur onder `/content/experience-fragments` die dezelfde patronen volgt als de onderstaande site `/content/<site>` , inclusief het gebruik van dezelfde componentnamen.
 
-In dit geval, zal het fragment met de zelfde localisatie ([ taal, blauwdruk, of levende exemplaar ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/msm-and-translation.html?lang=nl-NL)) zoals de huidige pagina als deel van het malplaatje worden teruggegeven.
+In dit geval, zal het fragment met de zelfde localisatie ([ taal, blauwdruk, of levende exemplaar ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/msm-and-translation.html)) zoals de huidige pagina als deel van het malplaatje worden teruggegeven.
 
 Dit gedrag is beperkt tot E-mailervaringsfragmentcomponenten die aan sjablonen zijn toegevoegd. De Componenten van het Fragment van de ervaring die aan individuele inhoudspagina&#39;s worden toegevoegd zullen de nauwkeurige die Uitvoeringen van het Fragment van de Ervaring teruggeven binnen de component worden gevormd.
 

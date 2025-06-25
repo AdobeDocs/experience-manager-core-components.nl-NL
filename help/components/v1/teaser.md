@@ -3,12 +3,14 @@ title: Taser-component (v1)
 description: De teaser-component kan een afbeelding, een titel, RTF-tekst en eventueel een koppeling naar andere inhoud weergeven.
 role: Architect, Developer, Admin, User
 exl-id: 48e56938-660a-43e7-9e62-8069283ae73f
-source-git-commit: 84e09fa64b3a7ae40ff3ff1a04ea1c7504db29d2
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 0%
 
 ---
+
 
 # Taser-component (v1) {#teaser-component}
 
@@ -28,7 +30,7 @@ In dit document wordt versie 1 van de Teaser Component beschreven. Deze versie i
 >
 >In dit document wordt versie 1 van de Taser-component beschreven.
 >
->Voor details van de huidige versie van de Component van het Taser, zie het [&#128279;](/help/components/teaser.md) document van de Component van 0&rbrace; Taser.
+>Voor details van de huidige versie van de Component van het Taser, zie het ](/help/components/teaser.md) document van de Component van 0} Taser.[
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
@@ -49,13 +51,13 @@ De auteur van de inhoud kan het dialoogvenster Configure gebruiken om de eigensc
 ![ de bewerkingsdialoog van de Component van de Taser het beeldlusje van de dialoog ](/help/assets/teaser-edit-image.png)
 
 * **activa van het Beeld**
-   * Daling een activa van [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=nl-NL) of ontvang **doorbladert** optie om van een lokaal dossiersysteem te uploaden.
+   * Daling een activa van [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of ontvang **doorbladert** optie om van een lokaal dossiersysteem te uploaden.
    * Tik of klik **Duidelijk** om het momenteel geselecteerde beeld te deselecteren.
-   * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=nl-NL) in de activaredacteur te beheren.
+   * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in de activaredacteur te beheren.
 
 >[!NOTE]
 >
->{de eigenschappen van 0} Dynamic Media [&#128279;](image-v1.md#dynamic-media) zijn momenteel niet beschikbaar in de Component van het Taser.
+>[ de Dynamische eigenschappen van Media ](image-v1.md#dynamic-media) zijn momenteel niet beschikbaar in de Component van het Taser.
 
 ### Tekst {#text}
 
@@ -76,7 +78,7 @@ De auteur van de inhoud kan het dialoogvenster Configure gebruiken om de eigensc
 ![ de bewerkingsdialoog van de Component van de Taser component lusje ](/help/assets/teaser-edit-link.png)
 
 * **Verbinding** - Verbinding die op het meetapparaat wordt toegepast. Gebruik de padbrowser om het doel van de koppeling te selecteren.
-* **laat vraag-aan-Acties** toe - wanneer gecontroleerd, laat definitie van vraag-aan-Acties toe. De eerste vraag-aan-actie verbinding in de lijst wordt gebruikt als verbinding voor andere teaser elementen.
+* **laat vraag-aan-Acties** toe - wanneer gecontroleerd, laat definitie van vraag-aan-Acties toe. De eerste Call-to-action-koppeling in de lijst wordt gebruikt als de koppeling voor andere teaser-elementen.
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
@@ -88,7 +90,7 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de teasopties definiëren die
 
 ### Taser Tab {#teaser-tab}
 
-{het ontwerpdialoog van de Component van 0} Taser ![&#128279;](/help/assets/teaser-design.png)
+{het ontwerpdialoog van de Component van 0} Taser ](/help/assets/teaser-design.png)![
 
 * **vraag-aan-Acties**
    * **maak vraag-aan-Acties** onbruikbaar - verberg **vraag-aan-Acties** optie voor inhoudsauteurs
@@ -105,8 +107,8 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de teasopties definiëren die
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van het Taser steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De Component van het Taser steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
-## Gegevenslaag client-Adobe {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
-De Component van het Taser steunt de [ Gegevens van de Cliënt van de Adobe Laag.](/help/developing/data-layer/overview.md)
+De Component van het Taser steunt de [ Laag van Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)

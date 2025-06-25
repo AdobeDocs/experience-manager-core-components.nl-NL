@@ -3,12 +3,13 @@ title: Adaptive Forms Core Component - Voorwaarden en bepalingen
 description: De kerncomponent Adaptive Forms Terms and Conditions gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '3256'
+source-wordcount: '3253'
 ht-degree: 0%
 
 ---
+
 
 # Onderdeel Voorwaarden en bepalingen
 
@@ -19,6 +20,8 @@ De **componenten van de Voorwaarden en van de Voorwaarden** is een samengestelde
 >[!NOTE]
 >
 > Voor AEM 6.5 Forms werd deze component geïntroduceerd met AEM 6.5 Forms Service Pack 19 (6.5.19.0). Om deze component in te schakelen, zorgt u ervoor dat de benodigde versies van zowel Forms Core Components als WCM Core Components zijn geïnstalleerd. Voor gedetailleerde informatie over de versies van de Adaptieve Componenten van de Kern van Forms, gelieve te verwijzen naar [ Adaptieve versies van de Kern van Forms ](/help/adaptive-forms/version.md)
+
+{{traditional-aem}}
 
 **Voorbeeld**
 
@@ -40,13 +43,13 @@ Zie [ Subcomponenten van de component van Bepalingen en van de Voorwaarden ](#su
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms Terms and Condition Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.62 for Cloud Service and Core Components 1.1.28 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms Terms and Conditions Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.62 voor Cloud Service en Core Components 1.1.28 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM-compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
 | v1 | Compatibel systeem met <br>[ versie 2.0.62 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.28 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
 ## Technische details {#technical-details}
 
@@ -66,7 +69,7 @@ Met het dialoogvenster Configureren kunt u de ervaring van de component bepaling
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
   Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
-  ![&#128279;](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0&rbrace;
+  ](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0}![
 
 - **toon de Optie van de Goedkeuring** - selecteer de optie om toestemmingscheckbox te tonen die wordt gebruikt om expliciete toestemming van de gebruiker te verkrijgen.
 
@@ -124,7 +127,7 @@ Met het dialoogvenster Configureren kunt u de ervaring van de component bepaling
    - **Titel**: Selecteer deze optie om de titel voor de toegankelijkheidslabels van ARIA te gebruiken.
    - **Naam**: Selecteer deze optie om de naam voor de toegankelijkheidslabels van ARIA te gebruiken.
    - **niets**: Selecteer deze optie als u niet voor de toegankelijkheidslabels van ARIA wilt toevoegen.
-- **de rol van de HTML voor het schermlezer om** aan te kondigen - de rol van de HTML is een attribuut wordt gebruikt om het doel van een element van de HTML aan ondersteunende technologieën zoals het schermlezers te specificeren dat. Het rolattribuut wordt gebruikt om extra context en semantische betekenis aan een element te verstrekken, die het voor schermlezers gemakkelijker maken om de inhoud te interpreteren en aan de gebruiker aan te kondigen. In AEM Forms heeft het label van een formulierveld bijvoorbeeld de rol &quot;label&quot; en kan het invoerveld de rol &quot;textbox&quot; hebben. Hierdoor kan de schermlezer de relatie tussen het label en het invoerveld begrijpen en deze correct aan de gebruiker meedelen.
+- **rol van HTML voor het schermlezer om** aan te kondigen - de rol van HTML is een attribuut dat wordt gebruikt om het doel van een element van HTML aan ondersteunende technologieën zoals het schermlezers te specificeren. Het rolattribuut wordt gebruikt om extra context en semantische betekenis aan een element te verstrekken, die het voor schermlezers gemakkelijker maken om de inhoud te interpreteren en aan de gebruiker aan te kondigen. In AEM Forms heeft het label van een formulierveld bijvoorbeeld de rol &quot;label&quot; en kan het invoerveld de rol &quot;textbox&quot; hebben. Hierdoor kan de schermlezer de relatie tussen het label en het invoerveld begrijpen en deze correct aan de gebruiker meedelen.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -133,7 +136,7 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de component Voo
 
 ### Tabblad Stijlen {#styles-tab}
 
-Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve Component van de Kern van de Voorwaarden van Forms steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De Adaptieve Component van de Kern van de Voorwaarden van Forms steunt het systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ![ Dialoog van het Ontwerp ](/help/adaptive-forms/assets/checkbox-style.png)
 
@@ -176,7 +179,7 @@ Deze component vervangt een of meer toestemmingsteksten door een of meer webkopp
 - **staat Rijke Tekst voor Titel** toe - Deze eigenschap laat gebruikers toe om titels te formatteren gebruikend opties zoals vette, cursieve opties, doopvontstijlen, kleuren, en groepering, verbeterend visuele presentatie en aanpassing. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
   Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
-  ![&#128279;](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0&rbrace;
+  ](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0}![
 
 - **Verberg Titel** - selecteer de optie om de Titel van de component te verbergen.
 

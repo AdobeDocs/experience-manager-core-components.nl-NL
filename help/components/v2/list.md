@@ -3,12 +3,14 @@ title: Lijstcomponent (v2)
 description: De component van de Lijst van de Component van de Kern staat voor de gemakkelijke verwezenlijking van dynamische en statische lijsten toe.
 role: Architect, Developer, Admin, User
 exl-id: fa34be64-b345-45cd-baf3-571973414852
-source-git-commit: 241c86240377858a73f4a022368d428da9c11100
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '1012'
 ht-degree: 0%
 
 ---
+
 
 # Lijstcomponent (v2) {#list-component}
 
@@ -26,11 +28,11 @@ In dit document wordt versie 1 van de component List beschreven. Deze versie is 
 >
 >In dit document wordt versie 2 van de component List beschreven.
 >
->Voor details van de huidige versie van de Component van de Lijst, zie het [&#128279;](/help/components/list.md) document van de Component van de Lijst 0&rbrace; &lbrace;.
+>Voor details van de huidige versie van de Component van de Lijst, zie het ](/help/components/list.md) document van de Component van de Lijst 0} {.[
 
 ## Omleiding in lijsten {#redirects}
 
-Wanneer een pagina een omleidingsdoel heeft (ongeacht of deze naar een externe URL of naar een andere AEM pagina verwijst), dan een lijst die koppelingen naar dat punt rechtstreeks naar de URL van het omleidingsdoel bevat.
+Wanneer een pagina een omleidingsdoel heeft (ongeacht of deze naar een externe URL of naar een andere AEM-pagina verwijst), dan een lijst die koppelingen naar dat punt rechtstreeks naar de URL van het omleidingsdoel bevat.
 
 ### Voorbeeld {#redirect-example}
 
@@ -95,7 +97,7 @@ Tik of klik **voeg** knoop toe om een nieuw punt aan de lijst binnen te brengen.
 
 #### Zoeken {#search-options}
 
-De lijst kan worden samengesteld met de resultaten van een zoekopdracht naar AEM inhoud.
+De lijst kan worden samengesteld met behulp van de resultaten van een zoekopdracht naar AEM-inhoud.
 
 ![ de lijstopties van het Onderzoek ](/help/assets/v2/list-edit-search.png)
 
@@ -167,7 +169,7 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur definiëren welke typen li
 
 Op het **lusje van de Montages van de Lijst**, kan het datumformaat worden bepaald evenals welk type van lijsten in de component aan de inhoudsauteurs beschikbaar zouden moeten zijn.
 
-{het plaatsen van de het ontwerpdialoog van de Component van 0} Lijst ![&#128279;](/help/assets/v2/list-design-list-settings.png)
+{het plaatsen van de het ontwerpdialoog van de Component van 0} Lijst ](/help/assets/v2/list-design-list-settings.png)![
 
 * **Formaat van de Datum**
 Formaat voor de weergave van de laatste wijzigingsdatum
@@ -195,8 +197,8 @@ Laat de optie van de Datum van de Show in [ toe uitgeven dialoog ](#edit-dialog)
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van het Beeld steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De Component van het Beeld steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
-## Gegevenslaag client-Adobe {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
-De Component van de Lijst steunt de [ Gegevens van de Cliënt van de Adobe Laag.](/help/developing/data-layer/overview.md)
+De Component van de Lijst steunt de [ Laag van Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)

@@ -4,12 +4,13 @@ description: De component Text is een component voor tekstbewerking en -composit
 index: n
 role: Architect, Developer, Admin, User
 exl-id: c9fe3052-a33d-412e-9456-52c9a0cea292
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '1639'
 ht-degree: 0%
 
 ---
+
 
 # Tekstcomponent (v1) {#text-component-v}
 
@@ -23,11 +24,11 @@ Het [ geeft dialoog ](#edit-dialog) eigenschappen in-lijn uit het uitgeven met b
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-In dit document wordt versie 1 van de tekstcomponent beschreven, die oorspronkelijk is geïntroduceerd met versie 1.0.0 van de kerncomponenten met AEM 6.3.
+In dit document wordt versie 1 van de Text Component beschreven, die oorspronkelijk is geïntroduceerd met versie 1.0.0 van de Core Components met AEM 6.3.
 
 In de volgende tabel wordt de compatibiliteit van v1 van de tekstcomponent weergegeven.
 
-| AEM | Tekstcomponent v1 |
+| AEM-versie | Tekstcomponent v1 |
 |--- |--- |
 | 6,3 | Compatibel |
 | 6,4 | Compatibel |
@@ -36,11 +37,11 @@ In de volgende tabel wordt de compatibiliteit van v1 van de tekstcomponent weerg
 >
 >In dit document wordt versie 1 van de tekstcomponent beschreven.
 >
->Voor details van de huidige versie van de Component van de Tekst, zie het [&#128279;](/help/components/text.md) document van de Component van de Tekst 0&rbrace; &lbrace;.
+>Voor details van de huidige versie van de Component van de Tekst, zie het ](/help/components/text.md) document van de Component van de Tekst 0} {.[
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Schermafbeelding {#screenshot}
 
@@ -140,8 +141,8 @@ Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak di
 
    * Voer de locatie in
 
-      * Kies in het dialoogvenster Selectie openen een pad in AEM
-      * Als de koppeling zich niet binnen AEM bevindt, voert u de absolute URL in (niet-absolute paden worden geïnterpreteerd als relatief ten opzichte van AEM)
+      * Kies een pad in AEM in het dialoogvenster Selectie openen
+      * Als de koppeling zich niet in AEM bevindt, voert u de absolute URL in (niet-absolute paden worden geïnterpreteerd als relatief ten opzichte van AEM)
 
    * Alternatieve beschrijvende tekst voor de koppeling invoeren
    * Koppelingsgedrag selecteren
@@ -299,7 +300,7 @@ Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak di
   >Zoals altijd het geval met toegang tot ruwe HTML, moet de zorg worden uitgeoefend wanneer het gebruiken van **Source geeft** optie uit!
   >
   >
-  >HTML ingegaan via **Source geeft** uit wordt gescand voor XSS risico&#39;s en om het even welke manuscripten die worden opgenomen worden verwijderd en zullen niet op de resulterende pagina verschijnen. Nochtans misvormde HTML ingegaan in **Source geeft** uit kan het malplaatje voor de pagina breken resulterend in onverwachte het formatteren of het teruggeven van de resulterende pagina onbruikbaar.
+  >HTML ingegaan via **Source geeft** uit wordt gescand voor XSS risico&#39;s en om het even welke manuscripten die worden opgenomen worden verwijderd en zullen niet op de resulterende pagina verschijnen. Nochtans misvormde HTML ingegaan in **Source geeft** uit kan het malplaatje voor de pagina breken die in onverwachte het formatteren of het teruggeven van de resulterende pagina onbruikbaar maken.
 
 * Alineaopmaak
 
@@ -360,7 +361,7 @@ Alineastijlen kunnen voor de component worden geactiveerd of gedeactiveerd. Als 
 De optie voor het invoegen van speciale tekens kan voor de component worden geactiveerd of gedeactiveerd. Als deze optie is geactiveerd, kunnen de toegestane tekens worden gedefinieerd.
 
 * Tik of klik **voeg** knoop toe om een nieuw karakter op te nemen.
-* Voer de HTML-code van het teken in en een beschrijving die wordt weergegeven in het dialoogvenster Bewerken.
+* Voer de HTML-code in van het teken en een beschrijving die wordt weergegeven in het dialoogvenster Bewerken.
 * Om een karakterkraan te verwijderen of de **knoop van de Schrapping** te klikken.
 * Als u de volgorde van de tekens wilt wijzigen, tikt u of klikt u en sleept u de handgrepen.
 

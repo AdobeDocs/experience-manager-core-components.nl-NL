@@ -4,16 +4,17 @@ description: De component Pagina is een uitbreidbare paginacomponent die wordt o
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 522f32f0-fc06-4ca0-ada2-61bdbc8761e0
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%
 
 ---
 
+
 # Paginacomponent (v1) {#page-component-v}
 
-De Component van de Pagina is een verlengbare paginacomponent die wordt ontworpen om met de [ malplaatjeredacteur ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/authoring/using/templates.html) te werken en paginakopbal/footer en structuurcomponenten toe te staan om met de malplaatjedacteur worden samengesteld.
+De Component van de Pagina is een verlengbare paginacomponent die wordt ontworpen om met de [ malplaatjeredacteur ](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) te werken en paginakopbal/footer en structuurcomponenten toe te staan om met de malplaatjedacteur worden samengesteld.
 
 ## Gebruik {#usage}
 
@@ -23,11 +24,11 @@ Gebruikend de [ ontwerpdialoog ](#design-dialog), kunnen de douane cliënt-zijbi
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-In dit document wordt versie 1 van de pagina-component beschreven, die oorspronkelijk is geïntroduceerd met versie 1.0.0 van de Core Components met AEM 6.3.
+In dit document wordt versie 1 van de pagina-component beschreven. Deze versie is oorspronkelijk geïntroduceerd met versie 1.0.0 van de Core Components met AEM 6.3.
 
 In de volgende tabel wordt de compatibiliteit van v1 van de paginacomponent weergegeven.
 
-| AEM | Paginacomponent v1 |
+| AEM-versie | Paginacomponent v1 |
 |--- |--- |
 | 6,3 | Compatibel |
 | 6,4 | Compatibel |
@@ -36,7 +37,7 @@ In de volgende tabel wordt de compatibiliteit van v1 van de paginacomponent weer
 >
 >In dit document wordt versie 1 van de pagina-component beschreven.
 >
->Voor details van de huidige versie van de Component van de Pagina, zie het [&#128279;](/help/components/page.md) document van de Component van de 0&rbrace; Pagina.
+>Voor details van de huidige versie van de Component van de Pagina, zie het ](/help/components/page.md) document van de Component van de 0} Pagina.[
 
 >[!NOTE]
 >
@@ -44,7 +45,7 @@ In de volgende tabel wordt de compatibiliteit van v1 van de paginacomponent weer
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Schermafbeelding {#screenshot}
 
@@ -682,7 +683,7 @@ Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
-Omdat de component de volledige pagina vertegenwoordigt, worden de montages die normaal in zouden zijn uitgeeft dialoog gevonden in het [ venster van de Eigenschappen van de Pagina ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/authoring/using/editing-page-properties.html).
+Omdat de component de volledige pagina vertegenwoordigt, worden de montages die normaal in zouden zijn uitgeeft dialoog gevonden in het [ venster van de Eigenschappen van de Pagina ](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html).
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -696,7 +697,7 @@ Met behulp van het venster Paginaontwerp kunt u bibliotheken aan de clientzijde 
 * Als u een veld wilt verwijderen, klikt of tikt u op het prullenbakpictogram naast het veld dat u wilt verwijderen.
 * Als u de laadvolgorde wilt wijzigen, klikt of tikt u op de greep naast het te verplaatsen veld.
 
-Voor meer informatie over het gebruiken van cliënt-zijbibliotheken zie [ Gebruikend de Bibliotheken van de Kant van de Cliënt ](https://helpx.adobe.com/nl/experience-manager/6-3/sites/developing/using/clientlibs.html).
+Voor meer informatie over het gebruiken van cliënt-zijbibliotheken zie [ Gebruikend de Bibliotheken van de Kant van de Cliënt ](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html).
 
 ![](/help/assets/chlimage_1-95.png)
 

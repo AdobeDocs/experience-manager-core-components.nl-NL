@@ -5,18 +5,21 @@ role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 7e70d9e9-b066-4ba3-b7ed-e4aad026c5e0
-source-git-commit: 12a829c164839fdcb2c98d52e409ec3ac2079c41
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '1914'
 ht-degree: 0%
 
 ---
 
+
 # Component van wachtwoordvak
 
-<span class="preview"> Dit is een pre-versieeigenschap en toegankelijk door ons [ pre-vrijgavekanaal ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=nl-NL#new-features). </span>
+<span class="preview"> Dit is een pre-versieeigenschap en toegankelijk door ons [ pre-vrijgavekanaal ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features). </span>
 
 Met een wachtwoordvakcomponent kunnen gebruikers vertrouwelijke informatie invoeren en bewerken, die doorgaans is gemaskeerd voor privacy. De wachtwoordcomponent kan met diverse bevestigingsregels worden gevormd om gegevensnauwkeurigheid te verzekeren. De wachtwoordvelden worden vaak gebruikt in formulieren. Deze zijn eenvoudig en verbeteren de gegevensbeveiliging.
+
+{{traditional-aem}}
 
 **Voorbeeld**
 
@@ -67,7 +70,7 @@ Met het dialoogvenster Configureren kunt u uw ervaring met tekstinvoer eenvoudig
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
   Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
-  ![&#128279;](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0&rbrace;
+  ](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0}![
 
 - **Verberg Titel** - selecteer de optie om de Titel van de component te verbergen.
 
@@ -132,7 +135,7 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de component Tek
 
 ### Tabblad Stijlen {#styles-tab}
 
-Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve de doosComponent van de Kern van de Tekst van Forms steunt het systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve de doosComponent van de Kern van de Tekst van Forms steunt het systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ![ lusje van de Stijl ](/help/adaptive-forms/assets/datepicker_styletab.png)
 
@@ -164,7 +167,7 @@ Op het tabblad Indelingen kunt u standaard- en aangepaste datumnotaties opgeven.
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=nl-NL)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

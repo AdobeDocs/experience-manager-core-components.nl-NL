@@ -6,7 +6,7 @@ topic: Administration
 role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
-source-git-commit: 0f0c20c9fba6f062021721d6f48a42cc830b5a7c
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '1239'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Voorbeeldthema&#39;s, sjablonen en modellen formuliergegevens {#sample-themes-templates-and-data-models}
 
-[!DNL AEM Forms] Core Components biedt gebruiksklare voorbeeldthema&#39;s, sjablonen en modellen van formuliergegevens om snel flexibele formulieren te maken. Deze helpen ook vormauteurs om de rekbaarheid, het aanpassingsvermogen, en de ontvankelijkheid van [ Aangepaste Componenten van de Kern van Forms ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=nl-NL) te leren om eenvoudige vormen in geen tijd en complexe vormen gemakkelijk te creëren terwijl het verbinden met het gegevensbestand foutloos.
+[!DNL AEM Forms] Core Components biedt gebruiksklare voorbeeldthema&#39;s, sjablonen en modellen van formuliergegevens om snel flexibele formulieren te maken. Deze helpen ook vormauteurs om de rekbaarheid, het aanpassingsvermogen, en de ontvankelijkheid van [ Aangepaste Componenten van de Kern van Forms ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) te leren om eenvoudige vormen in geen tijd en complexe vormen gemakkelijk te creëren terwijl het verbinden met het gegevensbestand foutloos.
 
 De voorbeeldthema&#39;s, sjablonen en modellen van formuliergegevens in het pakket met referentie-inhoud zijn:
 
@@ -34,6 +34,8 @@ De voorbeeldthema&#39;s, sjablonen en modellen van formuliergegevens in het pakk
 | [ de controleinspectie van de Kwaliteit ](#Quality-Control-Inspection) |   |   |
 | [ verzoek van de Aankoop ](#Purchase-Request) |  |  |
 
+{{traditional-aem}}
+
 ## Voorbeeldthema&#39;s {#Sample-Themes}
 
 Met referentiemonsteringsthema&#39;s kunnen auteurs stijlen voor formulieren gebruiken, definiëren en aanpassen, zodat auteurs met zelfs een basiskennis van CSS het thema naar behoefte kunnen aanpassen.
@@ -41,11 +43,11 @@ Met referentiemonsteringsthema&#39;s kunnen auteurs stijlen voor formulieren geb
 **hoe te om deze thema&#39;s te krijgen?**
 U krijgt deze thema&#39;s door de volgende hieronder gegeven stappen voor **AEM as a Cloud Service** milieu te gebruiken:
 
-1. [ laat de Aangepaste Componenten van de Kern van de Vorm toe ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=nl-NL)
-1. [ stel een AEM Archetype 47 project of later aan uw milieu op ](https://github.com/adobe/aem-project-archetype)
+1. [ laat de Aangepaste Componenten van de Kern van de Vorm toe ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html)
+1. [ stel een project van Archetype 47 van AEM of later aan uw milieu op ](https://github.com/adobe/aem-project-archetype)
 
 
-Wanneer u een AEM archetype opstelt, kunt u de thema&#39;s OTB in uw vormen slechts gebruiken, om de thema&#39;s zoals per uw vereisten aan te passen, [ Gebruik de front-end pijpleiding ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=nl-NL) om de thema&#39;s op te stellen.
+Wanneer u een Archetype van AEM opstelt, kunt u de thema&#39;s OTB in uw vormen slechts gebruiken, om de thema&#39;s zoals per uw vereisten aan te passen, [ Gebruik de front-end pijpleiding ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html) om de thema&#39;s op te stellen.
 
 >[!NOTE]
 >
@@ -55,11 +57,11 @@ Wanneer u een AEM archetype opstelt, kunt u de thema&#39;s OTB in uw vormen slec
 
 1. **AEM 6.5**
 
-    1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html?lang=nl-NL)
+    1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html)
     1. [Deploy an AEM Archetype 47 or later project to your environment](https://github.com/adobe/aem-project-archetype)
 
 
-    When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html?lang=nl-NL) to deploy the themes.
+    When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy the themes.
 
 -->
 
@@ -72,17 +74,17 @@ You can get these themes by deploying an [AEM Archetype 47 or later](https://git
 
 ### Enable core components and use front-end pipeline to deploy themes {#use-front-end-pipeline-to-deploy-themes}
 
-1. To get these themes on **Forms as a Cloud Service** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=nl-NL) and use the [front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=nl-NL) to deploy these themes.
+1. To get these themes on **Forms as a Cloud Service** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html) and use the [front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html) to deploy these themes.
     
-1. To get these themes on **AEM 6.5 Forms** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html?lang=nl-NL) and use the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html?lang=nl-NL) to deploy these themes.
+1. To get these themes on **AEM 6.5 Forms** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html) and use the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy these themes.
 
-[Learn to use and customize themes in AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=nl-NL). 
+[Learn to use and customize themes in AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html). 
 
-[Learn to use and customize themes in AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html?lang=nl-NL).
+[Learn to use and customize themes in AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html).
 
 -->
 
-**uit de doos** [ de Adaptieve Componenten van de Kern van de Vorm ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=nl-NL) thema&#39;s zijn:
+**uit de doos** [ de Adaptieve Componenten van de Kern van de Vorm ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) thema&#39;s zijn:
 
 ![ OOTB thema&#39;s ](/help/adaptive-forms/assets/archetype-45-themes-1.png)
 
@@ -94,7 +96,7 @@ Canvas-thema is het standaardthema voor formulieren en benadrukt het gebruik van
 
 ### WKND {#WKND}
 
-Het WKND-thema belichaamt een levendig, verbeeldend en boeiend ontwerp om uw formulieren een stijlvol uiterlijk te geven. Het thema is gebaseerd op de verschijning en het stileren van [ plaats WKND ](https://wknd.site/us/en.html) die een reis en een avontuurwebsite is bouwt op [ de Componenten van de Kern van Adobe Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=nl-NL) voort.
+Het WKND-thema belichaamt een levendig, verbeeldend en boeiend ontwerp om uw formulieren een stijlvol uiterlijk te geven. Het thema is gebaseerd op de verschijning en het stileren van [ plaats WKND ](https://wknd.site/us/en.html) die een reis en een avontuurwebsite is bouwt op [ de Componenten van de Kern van Adobe Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) voort.
 
 ![ WKND thema ](/help/adaptive-forms/assets/Safety-Inspection-Form-Theme.png)
 
@@ -125,7 +127,7 @@ Sjablonen definiëren de initiële formulierstructuur, inhoud en handelingen die
 
 **hoe te om deze malplaatjes te krijgen?**
 
-U kunt deze malplaatjes krijgen door een [ AEM Archetype 47 of later ](https://github.com/adobe/aem-project-archetype) aan uw **as a Cloud Service milieu van AEM Forms** of **AEM 6.5 Forms** milieu op te stellen.
+U kunt deze malplaatjes krijgen door [ AEM Archetype 47 of later ](https://github.com/adobe/aem-project-archetype) aan uw **as a Cloud Service van AEM Forms** milieu of **AEM 6.5 Forms** milieu op te stellen.
 
 <!--
 
@@ -137,7 +139,7 @@ U kunt deze malplaatjes krijgen door een [ AEM Archetype 47 of later ](https://g
 -->
 
 
-**uit de doos** [ de Aangepaste Componenten van de Kern van de Vorm ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=nl-NL) zijn:
+**uit de doos** [ de Aangepaste Componenten van de Kern van de Vorm ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) zijn:
 
 ![ de Malplaatjes van de Verwijzing ](/help/adaptive-forms/assets/reference-templates-core-components.png)
 
@@ -145,7 +147,7 @@ U kunt deze malplaatjes krijgen door een [ AEM Archetype 47 of later ](https://g
 
 ### Basic {#Basic}
 
-A basic template helps you quickly create an enrollment experience form. You can also use it to preview the functionality of [Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=nl-NL). It provides a wizard layout for section-by-section presentation of data.
+A basic template helps you quickly create an enrollment experience form. You can also use it to preview the functionality of [Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html). It provides a wizard layout for section-by-section presentation of data.
 
 ![Basic Template](/help/adaptive-forms/assets/Basic-template-desktop-view.png)
 
@@ -229,16 +231,16 @@ Met een formulier voor inkoopaanvragen kunt u een formulier maken waarmee het aa
 
 ## Referentieformuliergegevensmodellen {#reference-models}
 
-Nadat u een AanpassingsVorm creeert die op [ wordt gebaseerd de Component van de Kern ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=nl-NL), kunt u uw vorm met gegevensbestand Microsoft® Dynamics 365 en servers Salesforce verbinden om bedrijfswerkschema&#39;s toe te laten. Bijvoorbeeld:
+Nadat u een Aangepast Vorm creeert dat op [ wordt gebaseerd de Component van de Kern ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html), kunt u uw vorm met gegevensbestand Microsoft® Dynamics 365 en de servers van Salesforce verbinden om bedrijfswerkschema&#39;s toe te laten. Bijvoorbeeld:
 
 * Schrijf gegevens in Microsoft® Dynamics 365 en Salesforce over het verzenden van adaptieve formulieren.
 * Schrijf gegevens in Microsoft® Dynamics 365 en Salesforce via aangepaste entiteiten die zijn gedefinieerd in het Form Data Model en vice versa.
 * Vraag Microsoft® Dynamics 365 en Salesforce-server naar gegevens en vul Adaptive Forms vooraf in.
-* Lees gegevens van Microsoft® Dynamics 365 en Salesforce-server.
+* Lees gegevens van Microsoft® Dynamics 365 en Salesforce server.
 
 U kunt de volgende Modellen van de Gegevens van de Vorm krijgen door het [ inhoudspakket van de Verwijzing ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-forms-reference-content.ui.content-2.1.0.zip) te installeren:
 
 * Microsoft® Dynamics 365
 * Salesforce
 
-Voor informatie bij het gebruiken van deze modellen, zie [ Dynamica 365 Microsoft® en de wolkendiensten van Salesforce vormen ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/configure-msdynamics-salesforce.html?lang=nl-NL#configure-dynamics-cloud-service)
+Voor informatie bij het gebruiken van deze modellen, zie [ de Dynamica 365 van Microsoft® en de wolkendiensten van Salesforce ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/configure-msdynamics-salesforce.html#configure-dynamics-cloud-service) vormen

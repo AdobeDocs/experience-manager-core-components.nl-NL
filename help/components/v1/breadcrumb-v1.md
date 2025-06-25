@@ -4,12 +4,13 @@ description: De component van de Breadcrumb van de Component van de Kern is een 
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 4845e649-033a-43a8-b5ee-892a3f2a8b98
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
 
 ---
+
 
 # Breadcrumb-component (v1) {#breadcrumb-component-v}
 
@@ -23,11 +24,11 @@ De beschikbare opties zoals het standaardnavigatieniveau en de capaciteit om de 
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-In dit document wordt versie 1 van de Breadcrumb Component beschreven, die oorspronkelijk is geïntroduceerd met versie 1.0.0 van de Core Components met AEM 6.3.
+In dit document wordt versie 1 van de Breadcrumb Component beschreven, die oorspronkelijk is geïntroduceerd met versie 1.0.0 van de Core Components with AEM 6.3.
 
 In de volgende tabel wordt de compatibiliteit van v1 van de component Breadcrumb weergegeven.
 
-| AEM | Breadcrumb-component v1 |
+| AEM-versie | Breadcrumb-component v1 |
 |--- |--- |
 | 6,3 | Compatibel |
 | 6,4 | Compatibel |
@@ -35,11 +36,11 @@ In de volgende tabel wordt de compatibiliteit van v1 van de component Breadcrumb
 >[!CAUTION]
 >
 >In dit document wordt versie 1 van de component Breadcrumb beschreven.
->Voor details van de huidige versie van de Component Breadcrumb, zie het [&#128279;](/help/components/breadcrumb.md) document van de Component 0&rbrace; Breadcrumb.
+>>Voor details van de huidige versie van de Component Breadcrumb, zie het ](/help/components/breadcrumb.md) document van de Component 0} Breadcrumb.[
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Schermafbeelding {#screenshot}
 

@@ -3,27 +3,30 @@ title: Adaptief formulierfragment
 description: Gebruik formulierfragmenten om formuliersegmenten of -groepen te maken en deze te hergebruiken in Adaptive Forms om de efficiëntie en herbruikbaarheid te verbeteren.
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '1954'
+source-wordcount: '1952'
 ht-degree: 0%
 
 ---
 
+
 # Aangepast formulierfragmentonderdeel {#form-fragment-component-adaptive-forms-core-component}
 
-Adaptief Forms biedt een handige manier om formuliersegmenten te maken, zoals deelvensters of groepen velden, zodat deze opnieuw kunnen worden gebruikt in verschillende Adaptief Forms. Deze herbruikbare en standalone segmenten worden bedoeld als [ Aangepaste fragmenten van de Vorm ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=nl-NL).
+Adaptief Forms biedt een handige manier om formuliersegmenten te maken, zoals deelvensters of groepen velden, zodat deze opnieuw kunnen worden gebruikt in verschillende Adaptief Forms. Deze herbruikbare en standalone segmenten worden bedoeld als [ Aangepaste fragmenten van de Vorm ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html).
 
-U kunt [ een fragment toevoegen veelvoudige tijden aan een document ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=nl-NL#insert-a-fragment-in-an-adaptive-form) en gegevens gebruiken bindende eigenschappen van zijn componenten om het aan verschillende gegevensbronnen of schema te binden. U kunt bijvoorbeeld hetzelfde adresfragment gebruiken voor een vast adres, communicatie en factureringsadres en dit koppelen aan verschillende velden van een gegevensbron of schema.
+U kunt [ een fragment toevoegen veelvoudige tijden aan een document ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#insert-a-fragment-in-an-adaptive-form) en gegevens gebruiken bindende eigenschappen van zijn componenten om het aan verschillende gegevensbronnen of schema te binden. U kunt bijvoorbeeld hetzelfde adresfragment gebruiken voor een vast adres, communicatie en factureringsadres en dit koppelen aan verschillende velden van een gegevensbron of schema.
 
 ![ voorbeeld ](/help/adaptive-forms/assets/using-multiple-fragment-af.gif)
 
 
-U kunt de [ herhaalbaarheidsoptie ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=nl-NL) ook gebruiken om de component van het vormfragment en zijn kindcomponenten te dupliceren, een minimum en maximumherhalingstelling te bepalen, en de replicatie van gelijkaardige secties binnen een vorm te vergemakkelijken.
+U kunt de [ herhaalbaarheidsoptie ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) ook gebruiken om de component van het vormfragment en zijn kindcomponenten te dupliceren, een minimum en maximumherhalingstelling te bepalen, en de replicatie van gelijkaardige secties binnen een vorm te vergemakkelijken.
 
 >[!NOTE]
 >
-> U kunt [ een Adaptief fragment van de Vorm ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=nl-NL#create-a-fragment) van kras tot stand brengen of een paneel in een bestaande AanpassingsVorm als fragment opslaan.
+> U kunt [ een Adaptief fragment van de Vorm ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#create-a-fragment) van kras tot stand brengen of een paneel in een bestaande AanpassingsVorm als fragment opslaan.
+
+{{traditional-aem}}
 
 ## Gebruik {#usage}
 
@@ -37,13 +40,13 @@ U kunt de [ herhaalbaarheidsoptie ](https://experienceleague.adobe.com/docs/expe
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms Fragment Core Component is uitgebracht als onderdeel van Core Components 2.0.50 for Cloud Service and Core Components 1.1.26 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptive Forms Fragment Core Component is uitgebracht als onderdeel van Core Components 2.0.50 for Cloud Service and Core Components 1.1.26 for AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM-compatibiliteit en koppelingen naar de bijbehorende documentatie:
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
 | v1 | Compatibel systeem met <br>[ versie 2.0.50 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.26 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
 ## Technische details {#technical-details}
 
@@ -63,7 +66,7 @@ Met het dialoogvenster Configureren kunt u de fragmentervaring voor bezoekers ee
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
   Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
-  ![&#128279;](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0&rbrace;
+  ](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0}![
 
 - **Verberg Titel** - selecteer de optie om de Titel van de component te verbergen.
 - **de gegevens van de Groepering van kindcomponenten over vormvoorlegging (de gegevens van de Omslag in voorwerp)** - wanneer de optie wordt geselecteerd, worden de gegevens van zijn kindcomponenten genesteld binnen het voorwerp JSON van de oudercomponent. Als de optie echter niet is geselecteerd, hebben de verzonden JSON-gegevens een platte structuur, zonder object voor de bovenliggende component. Bijvoorbeeld:
@@ -126,7 +129,7 @@ Met het dialoogvenster Configureren kunt u de fragmentervaring voor bezoekers ee
    - **Naam**: Selecteer deze optie om de naam voor de toegankelijkheidslabels van ARIA te gebruiken.
    - **niets**: Selecteer deze optie als u niet voor de toegankelijkheidslabels van ARIA wilt toevoegen.
 
-- **de rol van de HTML voor het schermlezer om** aan te kondigen - de rol van de HTML is een attribuut wordt gebruikt om het doel van een element van de HTML aan ondersteunende technologieën zoals het schermlezers te specificeren dat. Het rolattribuut wordt gebruikt om extra context en semantische betekenis aan een element te verstrekken, die het voor schermlezers gemakkelijker maken om de inhoud te interpreteren en aan de gebruiker aan te kondigen. In AEM Forms heeft het label van een formulierveld bijvoorbeeld de rol &quot;label&quot; en kan het invoerveld de rol &quot;textbox&quot; hebben. Hierdoor kan de schermlezer de relatie tussen het label en het invoerveld begrijpen en deze correct aan de gebruiker meedelen.
+- **rol van HTML voor het schermlezer om** aan te kondigen - de rol van HTML is een attribuut dat wordt gebruikt om het doel van een element van HTML aan ondersteunende technologieën zoals het schermlezers te specificeren. Het rolattribuut wordt gebruikt om extra context en semantische betekenis aan een element te verstrekken, die het voor schermlezers gemakkelijker maken om de inhoud te interpreteren en aan de gebruiker aan te kondigen. In AEM Forms heeft het label van een formulierveld bijvoorbeeld de rol &quot;label&quot; en kan het invoerveld de rol &quot;textbox&quot; hebben. Hierdoor kan de schermlezer de relatie tussen het label en het invoerveld begrijpen en deze correct aan de gebruiker meedelen.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -134,7 +137,7 @@ Het dialoogvenster Ontwerpen wordt gebruikt voor het definiëren en beheren van 
 
 ### Tabblad Stijlen {#styles-tab}
 
-De adaptieve Component van de Kern van de Fragment van de Vorm van de Vorm steunt het AEM [ Systeem van de Stijl ](/help/get-started/authoring.md#component-styling).
+De adaptieve Component van de Kern van de Fragment van de Vorm van de Vorm steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ![ Dialoog van het Ontwerp ](/help/adaptive-forms/assets/checkbox-style.png)
 

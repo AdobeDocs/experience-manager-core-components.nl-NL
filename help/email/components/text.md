@@ -3,7 +3,8 @@ title: E-mailtekstcomponent
 description: De component E-mailtekst is een component voor tekstbewerking en -compositie met tekstopmaak die op locatie kan worden bewerkt.
 role: Architect, Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
 workflow-type: tm+mt
 source-wordcount: '2264'
 ht-degree: 0%
@@ -42,13 +43,13 @@ De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in
 
 ## De component E-mailtekst en de RTF-editor {#the-text-component-and-the-rich-text-editor}
 
-De component Email Text gebruikt de AEM Rich Text Editor (RTE). RTE voorziet inhoudsauteurs van een brede waaier van functionaliteit voor het uitgeven van hun tekstinhoud. RTE is flexibel in zijn configuratie en biedt een aantal opties aan. Verdere details over hoe RTE kan worden gevormd kunnen in de artikelen [ worden gevonden vormen de Rijke Redacteur van de Tekst ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html?lang=nl-NL) en [ vormen de Rijke stop-ins van de Redacteur van de Tekst ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=nl-NL).
+De component Email Text gebruikt de AEM Rich Text Editor (RTE). RTE voorziet inhoudsauteurs van een brede waaier van functionaliteit voor het uitgeven van hun tekstinhoud. RTE is flexibel in zijn configuratie en biedt een aantal opties aan. Verdere details over hoe RTE kan worden gevormd kunnen in de artikelen [ worden gevonden vormen de Rijke Redacteur van de Tekst ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) en [ vormen de Rijke stop-ins van de Redacteur van de Tekst ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 De rest van dit document demonstreert de standaardconfiguratie van de component E-mailText met de uit-van-de-doos configuratie van RTE.
 
 >[!NOTE]
 >
->Slechts die opties door [ worden toegelaten UI configuraties van RTE ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=nl-NL) zijn beschikbaar in de Component van de Tekst E-mail.
+>Slechts die opties door [ worden toegelaten UI configuraties van RTE ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) zijn beschikbaar in de Component van de Tekst E-mail.
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
@@ -280,7 +281,7 @@ Wordt gebruikt om een ingevoegde afbeelding uit te lijnen.
 
 Wordt gebruikt om de spelling van de tekstinhoud te controleren. Mogelijke spelfouten worden onderstreept met gebroken, rode lijnen.
 
-De verdere details over spellingcontrole en het aanpassen van de woordenboeken van de spellingcontrole kunnen in het document [ worden gevonden vormen de Rich Insteekmodules van de Redacteur van de Tekst ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=nl-NL).
+De verdere details over spellingcontrole en het aanpassen van de woordenboeken van de spellingcontrole kunnen in het document [ worden gevonden vormen de Rich Insteekmodules van de Redacteur van de Tekst ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 #### Speciale tekens {#special-characters}
 
@@ -405,4 +406,4 @@ De optie voor het invoegen van speciale tekens kan voor de component worden geac
 
 ## Tabblad Stijlen {#styles-tab}
 
-De component van de Tekst E-mail steunt het de stijlsysteem van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+De component van de Tekst E-mail steunt het de stijlsysteem van AEM [ ](/help/get-started/authoring.md#component-styling).

@@ -3,7 +3,7 @@ title: Kerncomponenten aanpassen
 description: De componenten van de Kern voeren verscheidene patronen uit die gemakkelijke aanpassing, van eenvoudig het stileren aan geavanceerd functionaliteit hergebruik toestaan.
 role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: bd688d422a072a9d5627c27817ac67f95829de4f
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 0%
@@ -14,24 +14,26 @@ ht-degree: 0%
 
 De [ Componenten van de Kern ](overview.md) voeren verscheidene patronen uit die gemakkelijke aanpassing, van eenvoudig het stileren aan geavanceerd functionaliteit hergebruik toestaan.
 
+{{traditional-aem}}
+
 ## Flexibele architectuur {#flexible-architecture}
 
 De Core Components zijn vanaf het begin ontworpen om flexibel en uitbreidbaar te zijn. Een overzicht van hun architectuur onthult waar de aanpassingen kunnen worden gemaakt.
 
-![&#128279;](/help/assets/screen_shot_2018-12-07at093742.png) Architectuur van de Componenten van 0&rbrace; Kern
+](/help/assets/screen_shot_2018-12-07at093742.png) Architectuur van de Componenten van 0} Kern![
 
 * [ de ontwerpdialoog ](/help/get-started/authoring.md#edit-and-design-dialogs) bepaalt wat de auteurs kunnen of niet in uitgeven dialoog kunnen doen.
 * [ uitgeeft dialoog ](/help/get-started/authoring.md#edit-and-design-dialogs) toont auteurs slechts de opties zij worden toegestaan te gebruiken.
 * [ het Verschuiven model ](#customizing-the-logic-of-a-core-component) verifieert en bereidt de inhoud voor de mening (malplaatje) voor.
-* [ het resultaat van het Verschuiven model ](#customizing-the-logic-of-a-core-component) kan aan JSON voor SPA gebruik-gevallen in series worden vervaardigd.
-* [ HTML geeft de HTML ](#customizing-the-markup) server-kant voor traditionele server-kant terug teruggevend.
-* [ de output van de HTML ](#customizing-the-markup) is semantisch, toegankelijk, onderzoek-motor geoptimaliseerd, en gemakkelijk aan stijl.
+* [ het resultaat van het het Verdelen model ](#customizing-the-logic-of-a-core-component) kan aan JSON voor gebruik-gevallen van het KUUROORD worden in series vervaardigd.
+* [ HTML geeft HTML ](#customizing-the-markup) server-kant voor traditionele server-kant terug teruggeeft.
+* [ de output van HTML ](#customizing-the-markup) is semantisch, toegankelijk, onderzoek-motor geoptimaliseerd, en gemakkelijk aan stijl.
 
 En alle kerncomponenten voeren het [ Systeem van de Stijl ](#styling-the-components) uit.
 
-## Projectarchetype AEM {#aem-project-archetype}
+## AEM Project Archetype {#aem-project-archetype}
 
-[ het Archetype van het Project van de AEM ](/help/developing/archetype/overview.md) leidt tot een minimaal project van Adobe Experience Manager als uitgangspunt voor uw eigen projecten, met inbegrip van een voorbeeld van douaneHTML component met SlingModels voor de logica en juiste implementatie van de Componenten van de Kern met het geadviseerde volmachtspatroon.
+[ het Archetype van het Project van AEM ](/help/developing/archetype/overview.md) leidt tot een minimaal project van Adobe Experience Manager als uitgangspunt voor uw eigen projecten, met inbegrip van een voorbeeld van douaneHTML component met SlingModels voor de logica en juiste implementatie van de Componenten van de Kern met het geadviseerde volmachtspatroon.
 
 ## Aanpassingspatronen {#customization-patterns}
 
@@ -39,9 +41,9 @@ En alle kerncomponenten voeren het [ Systeem van de Stijl ](#styling-the-compone
 
 Het kan worden gewenst om de configuratieopties beschikbaar in een kerncomponentendialoog aan te passen, of het de [ Dialoog van het Ontwerp of Edit Dialog ](/help/get-started/authoring.md).
 
-Elk dialoogvenster heeft een consistente knooppuntstructuur. Het wordt geadviseerd dat deze structuur in een het erven component wordt herhaald zodat [ het Verzamelen van het Middel ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) en [ de Voorwaarden van de Verbergen ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/developing/using/hide-conditions.html) kunnen worden gebruikt om, secties van de originele dialoog te verbergen te vervangen of te herschikken. De structuur die moet worden gerepliceerd, wordt gedefinieerd als alles tot het niveau van de tabitemnode.
+Elk dialoogvenster heeft een consistente knooppuntstructuur. Het wordt geadviseerd dat deze structuur in een het erven component wordt herhaald zodat [ het Verzamelen van het Middel ](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) en [ de Voorwaarden van de Verbergen ](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/hide-conditions.html) kunnen worden gebruikt om, secties van de originele dialoog te verbergen te vervangen of te herschikken. De structuur die moet worden gerepliceerd, wordt gedefinieerd als alles tot het niveau van de tabitemnode.
 
-Om volledig compatibel te zijn met eventuele wijzigingen die zijn aangebracht in een dialoog over de huidige versie, is het van groot belang dat structuren onder het tabitemniveau niet worden gewijzigd (verborgen, toegevoegd, vervangen, opnieuw gerangschikt, enz.). In plaats daarvan, zou een lusjepunt van de ouder via het `sling:hideResource` bezit moeten worden verborgen (zie [ het Verspreiden Eigenschappen van de Fusie van het Middel ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)), en nieuwe toegevoegde lusjepunten die de maatbespraakte configuratiegebieden bevatten. `sling:orderBefore` kan indien nodig worden gebruikt om de tabitems opnieuw te ordenen.
+Om volledig compatibel te zijn met eventuele wijzigingen die zijn aangebracht in een dialoog over de huidige versie, is het van groot belang dat structuren onder het tabitemniveau niet worden gewijzigd (verborgen, toegevoegd, vervangen, opnieuw gerangschikt, enz.). In plaats daarvan, zou een lusjepunt van de ouder via het `sling:hideResource` bezit moeten worden verborgen (zie [ het Verspreiden Eigenschappen van de Fusie van het Middel ](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)), en nieuwe toegevoegde lusjepunten die de maatbespraakte configuratiegebieden bevatten. `sling:orderBefore` kan indien nodig worden gebruikt om de tabitems opnieuw te ordenen.
 
 In het onderstaande dialoogvenster ziet u de aanbevolen dialoogstructuur en hoe u een overgeërfd tabblad zoals hierboven beschreven, kunt verbergen en vervangen:
 
@@ -127,17 +129,17 @@ Bijvoorbeeld, kijkend het HTML- dossier van de v1 Component van de Kern Breadcru
 .cmp-breadcrumb a {}
 ```
 
-Bovendien, elk van de hefboomwerking van de Componenten van de Kern de AEM [&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html?lang=nl-NL) eigenschap van het Systeem van de Stijl die malplaatjeauteurs toestaat om extra CSS klassennamen te bepalen die op de component door de paginaauteurs kunnen worden toegepast.  Op deze manier kunt u voor elke sjabloon een lijst met toegestane componentstijlen definiëren en aangeven of een van deze stijlen standaard moet worden toegepast op alle componenten van dat type.
+Bovendien, elk van de hefboomwerking van de Componenten van de Kern de eigenschap van het Systeem van de Stijl van AEM ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html) die malplaatjeauteurs toestaat om extra CSS klassennamen te bepalen die op de component door de paginaauteurs kunnen worden toegepast. [ Op deze manier kunt u voor elke sjabloon een lijst met toegestane componentstijlen definiëren en aangeven of een van deze stijlen standaard moet worden toegepast op alle componenten van dat type.
 
 ## Compatibiliteit van aanpassingen upgraden {#upgrade-compatibility-of-customizations}
 
 Er zijn drie verschillende soorten upgrades mogelijk:
 
-* upgrade uitvoeren van AEM
+* de versie van AEM upgraden
 * de Core Components upgraden naar een nieuwe secundaire versie
 * de Core Components upgraden naar een belangrijke versie
 
-Over het algemeen, zal de bevordering AEM aan een nieuwe versie niet de Componenten van de Kern of de aanpassingen beïnvloeden, op voorwaarde dat de versies van de componenten ook de nieuwe AEM versie steunen die wordt gemigreerd aan, en dat de aanpassingen geen APIs gebruiken die [ zijn afgekeurd of verwijderd ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=nl-NL).
+Over het algemeen, zal de bevordering van AEM aan een nieuwe versie niet de Componenten van de Kern of de aanpassingen beïnvloeden, op voorwaarde dat de versies van de componenten ook de nieuwe versie van AEM steunen die wordt gemigreerd aan, en dat de aanpassingen geen APIs gebruiken die [ zijn afgekeurd of verwijderd ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
 
 Als u de kerncomponenten upgradet zonder over te schakelen op een nieuwere hoofdversie, heeft dit geen invloed op aanpassingen, zolang de aanpassingspatronen die op deze pagina worden beschreven, worden gebruikt.
 
@@ -145,7 +147,7 @@ Het schakelen naar een nieuwere belangrijkste versie van de Componenten van de K
 
 ## Ondersteuning voor aanpassingen {#support-of-customizations}
 
-Zoals voor om het even welke AEM component, zijn er een aantal dingen om zich van betreffende aanpassingen bewust te zijn:
+Net als bij elke AEM-component moet u rekening houden met een aantal aanpassingen:
 
 1. **wijzigt nooit direct de code van de Componenten van de Kern.**
 
@@ -157,9 +159,9 @@ Zoals voor om het even welke AEM component, zijn er een aantal dingen om zich va
 
 1. **Controle verouderde en verwijderde functionaliteit.**
 
-   Met elke nieuwe AEM versie die wordt bevorderd aan, zorg ervoor dat alle gebruikte API nog actueel is door een oog op [ Vervangen en Verwijderde 1&rbrace; pagina van Eigenschappen te houden &lbrace;.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=nl-NL)
+   Met elke nieuwe versie die van AEM wordt bevorderd aan, zorg ervoor dat alle gebruikte API nog actueel is door een oog op de [ Vervangen en Verwijderde pagina van Eigenschappen ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) te houden.
 
-Zie ook de [&#128279;](overview.md#core-component-support) sectie van de Steun van de Component van de 0&rbrace; Kern.
+Zie ook de ](overview.md#core-component-support) sectie van de Steun van de Component van de 0} Kern.[
 
 **Lees daarna:**
 

@@ -3,7 +3,7 @@ title: Accordeoncomponent
 description: Met de component Core Component Accordion kunt u een verzameling deelvensters maken die zijn gerangschikt in een accordeon op een pagina.
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 # Accordeoncomponent{#accordion-component}
 
 Met de component Core Component Accordion kunt u een verzameling deelvensters maken die zijn gerangschikt in een accordeon op een pagina.
+
+{{traditional-aem}}
 
 ## Gebruik {#usage}
 
@@ -51,7 +53,7 @@ De accordeon, [ Carousel, ](carousel.md) en [ de steun van Componenten van Lusje
 
 Dit doet u als volgt:
 
-1. Bekijk de pagina met de component gebruikend de **[Mening zoals Gepubliceerde ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=nl-NL#view-as-published)** optie in de paginaredacteur.
+1. Bekijk de pagina met de component gebruikend de **[Mening zoals Gepubliceerde ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** optie in de paginaredacteur.
 1. Controleer de inhoud van de pagina en identificeer de id van het deelvenster.
    * Bijvoorbeeld `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. De id wordt het anker dat u met een hash (`#`) aan de URL kunt toevoegen.
@@ -82,7 +84,7 @@ Gebruik **voeg** knoop toe om de componentenselecteur te openen om te kiezen wel
 
 >[!TIP]
 >
->Als viewport van de pagina wordt verminderd zodat uitgeeft dialoog volledig scherm wordt, **voegt** knoop toe zal worden verborgen. De componenten kunnen nog aan de Component van de Accordeon worden toegevoegd door [ van componenten te slepen browser en op de Component van de Accordeon in de paginaredacteur ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent) te vallen.
+>Als viewport van de pagina wordt verminderd zodat uitgeeft dialoog volledig scherm wordt, **voegt** knoop toe zal worden verborgen. De componenten kunnen nog aan de Component van de Accordeon worden toegevoegd door [ van componenten te slepen browser en op de Component van de Accordeon in de paginaredacteur ](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent) te vallen.
 
 ### Tabblad Eigenschappen {#properties-tab}
 
@@ -99,7 +101,7 @@ Gebruik **voeg** knoop toe om de componentenselecteur te openen om te kiezen wel
 
 ## Pop-upmenu van deelvenster selecteren {#select-panel-popover}
 
-De inhoudauteur kan de **Uitgezochte 1&rbrace; optie van het Comité op de componententoolbar gebruiken om in een verschillend paneel te veranderen voor het uitgeven evenals de orde van de panelen binnen de accordeon gemakkelijk te herschikken.**
+De inhoudauteur kan de **Uitgezochte 1} optie van het Comité op de componententoolbar gebruiken om in een verschillend paneel te veranderen voor het uitgeven evenals de orde van de panelen binnen de accordeon gemakkelijk te herschikken.**
 
 ![ Uitgezochte paneelpictogram ](/help/assets/select-panel-icon.png)
 
@@ -127,11 +129,11 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de opties definiëren die bes
 
 Het **Toegestane lusje van Componenten** wordt gebruikt om te bepalen welke componenten als punten aan panelen in de Component van de Accordeon door de inhoudauteur kunnen worden toegevoegd.
 
-De toegelaten Componenten lusjefuncties op de zelfde manier zoals het lusje van de zelfde naam wanneer [ het bepalen van het beleid en de eigenschappen van een Container van de Lay-out in de Redacteur van het Malplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL#editing-a-template-layout-template-author)
+De toegelaten Componenten lusjefuncties op de zelfde manier zoals het lusje van de zelfde naam wanneer [ het bepalen van het beleid en de eigenschappen van een Container van de Lay-out in de Redacteur van het Malplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Component van de Accordeon steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+De Component van de Accordeon steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ## Adobe Client Data Layer {#data-layer}
 
