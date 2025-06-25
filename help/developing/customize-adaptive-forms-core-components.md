@@ -23,8 +23,8 @@ Voordat u gaat overstappen op het aanpassen van Adaptive Forms Core-componenten,
 * Leer over de [ architectuur van een Componenten van de Kern ](customizing.md#customizing-the-markup-customizing-the-markup) en ga door de [ officiële documentatie van de Componenten van de Kern van Adobe Experience Manager ](customizing.md). Deze uitgebreide bronnen fungeren tijdens het hele aanpassingsproces als leidraad.
 * Stel uw ontwikkelomgeving in zodat u een vloeiende workflow hebt voor het aanbrengen van wijzigingen in de kerncomponenten. Gebruik bij het instellen van de ontwikkelomgeving een AEM Archetype-project dat is gebaseerd op het nieuwste project van AEM Archetype. Op basis van uw omgeving kunt u:
 
-   * [ opstelling een lokale ontwikkelomgeving voor Forms as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html).
-   * [ opstelling een lokale ontwikkelomgeving voor AEM 6.5 Forms ](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)
+   * [ opstelling een lokale ontwikkelomgeving voor Forms as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?lang=nl-NL).
+   * [ opstelling een lokale ontwikkelomgeving voor AEM 6.5 Forms ](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=nl-NL)
 
 ## Een adaptieve Forms Core-component aanpassen
 
@@ -54,7 +54,7 @@ Voer de onderstaande stappen uit om de weergave, het gedrag en de functionalitei
 
 1. **stel en test de component op uw lokale ontwikkelomgeving op**
 
-   Het gebruik [ wordt in kaart gebracht om de component ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html#building-and-installing) op uw lokale ontwikkelomgeving te bouwen en op te stellen. Nadat de component is geïmplementeerd, maakt u een adaptief formulier om de aangepaste component te testen.
+   Het gebruik [ wordt in kaart gebracht om de component ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=nl-NL#building-and-installing) op uw lokale ontwikkelomgeving te bouwen en op te stellen. Nadat de component is geïmplementeerd, maakt u een adaptief formulier om de aangepaste component te testen.
 
 1. **stel de douanecomponent op uw productiemilieu** op
 

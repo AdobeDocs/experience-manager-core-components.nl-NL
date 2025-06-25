@@ -26,7 +26,7 @@ De Core Component Social Sharing Component is een widget voor delen via Facebook
 
 Met de component Sociaal delen voegt u koppelingen voor delen via Facebook en Pinterest toe aan de pagina. Deze wordt vaak opgenomen in kop- of voetteksten van pagina&#39;s.
 
-In tegenstelling tot andere componenten, worden de montages voor de Sociale Delende Component gedaan door de malplaatjeauteur via [ Oorspronkelijke eigenschappen van de Pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) en door de inhoudauteur via [ Eigenschappen van de Pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
+In tegenstelling tot andere componenten, worden de montages voor de Sociale Delende Component gedaan door de malplaatjeauteur via [ Oorspronkelijke eigenschappen van de Pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL) en door de inhoudauteur via [ Eigenschappen van de Pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=nl-NL).
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -55,8 +55,8 @@ De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
-Omdat voor delen speciale paginakoppen vereist zijn, moet het delen op paginaniveau zijn ingeschakeld. Daarom voor de inhoudauteur geeft de extra opties voor de het delen component uit beschikbaar door het delen lusje de [ pagina eigenschappen ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) uit.
+Omdat voor delen speciale paginakoppen vereist zijn, moet het delen op paginaniveau zijn ingeschakeld. Daarom voor de inhoudauteur geeft de extra opties voor de het delen component uit beschikbaar door het delen lusje de [ pagina eigenschappen ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=nl-NL) uit.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
-Omdat voor delen speciale paginakoppen vereist zijn, moet het delen op paginaniveau zijn ingeschakeld. Daarom voor de malplaatjeauteur zijn de ontwerpopties voor de het delen component beschikbaar door de [ aanvankelijke paginaeigenschappen ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
+Omdat voor delen speciale paginakoppen vereist zijn, moet het delen op paginaniveau zijn ingeschakeld. Daarom voor de malplaatjeauteur zijn de ontwerpopties voor de het delen component beschikbaar door de [ aanvankelijke paginaeigenschappen ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL).

@@ -56,7 +56,7 @@ Net als bij elk ander AEMaaCS-project moet u ook een afhankelijkheidsrelatie toe
 </dependency>
 ```
 
-Zie het document [ Structuur van het Project van AEM ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) voor meer informatie over projecten AEMaaCS.
+Zie het document [ Structuur van het Project van AEM ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=nl-NL) voor meer informatie over projecten AEMaaCS.
 
 ## Ondersteuning van kerncomponenten {#core-component-support}
 
@@ -78,7 +78,7 @@ Voor details over hun auteursmogelijkheden en opties om hen pre-configureerbaar 
 | **Capability** | **Component van de Kern** | **Component van de Stichting** |
 |-----|---|---|
 | Logische implementatie | Java POJOs met [ Sling Models ](https://sling.apache.org/documentation/bundles/models.html) aantekeningen | JSP-code |
-| Opmaakdefinitie | [ de syntaxis van de Taal van het Malplaatje van HTML ](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) (HTML) | JSP-code |
+| Opmaakdefinitie | [ de syntaxis van de Taal van het Malplaatje van HTML ](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=nl-NL) (HTML) | JSP-code |
 | XSS-ontsmetting | Geautomatiseerd door HTML | Meestal handmatig |
 | Naam van CSS-klassen | Gestandaardiseerde noemende overeenkomst die op [ Modifier van het Element van het Blok ](https://getbem.com/) (BEM) (vanaf versie 2.0.0 wordt gebaseerd) | Aangepaste schema&#39;s |
 | Dialoogdefinitie | [ Koraal 3 ](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Koraal 2 + klassieke gebruikersinterface |
@@ -88,7 +88,7 @@ Voor details over hun auteursmogelijkheden en opties om hen pre-configureerbaar 
 | Aflevering | [ Via openbare GitHub ](https://github.com/adobe/aem-core-wcm-components) | Via Quickstart |
 | Licentie | [ Vergunning Apache ](https://www.apache.org/licenses/LICENSE-2.0) | Eigendom van Adobe |
 | Bijdrage | Via pull request | Niet mogelijk |
-| Toegankelijkheid | Volledig volgzaam met de [ WCAG 2.0 norm van A ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | Slechts gedeeltelijk volgzaam met de [ WCAG 2.0 norm van A ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
+| Toegankelijkheid | Volledig volgzaam met de [ WCAG 2.0 norm van A ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=nl-NL) | Slechts gedeeltelijk volgzaam met de [ WCAG 2.0 norm van A ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=nl-NL) |
 
 ## Componentlijst {#component-list}
 
@@ -130,6 +130,6 @@ De volgende lijst maakt een lijst van de beschikbare Componenten van de Kern, di
 
 Een voordeel van versioned componenten is dat het toestaat om de migratie aan een nieuwe versie van AEM van de migratie aan nieuwe componentenversies te scheiden. Als er nieuwe componentversies beschikbaar zijn, is het bovendien mogelijk om elke component afzonderlijk naar de nieuwe versie te migreren.
 
-Migraties naar een nieuwe AEM-versie hebben geen invloed op de werking van de Core Components, op voorwaarde dat de versies ervan ook ondersteuning bieden voor de nieuwe AEM-versie waarnaar wordt gemigreerd. De aanpassingen die aan de Componenten van de Kern worden aangebracht zouden niet of moeten worden beïnvloed, zolang zij geen APIs gebruiken die [ zijn afgekeurd of ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) verwijderd.
+Migraties naar een nieuwe AEM-versie hebben geen invloed op de werking van de Core Components, op voorwaarde dat de versies ervan ook ondersteuning bieden voor de nieuwe AEM-versie waarnaar wordt gemigreerd. De aanpassingen die aan de Componenten van de Kern worden aangebracht zouden niet of moeten worden beïnvloed, zolang zij geen APIs gebruiken die [ zijn afgekeurd of ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=nl-NL) verwijderd.
 
 De migraties aan nieuwe versies van de Componenten van de Kern zullen niet beïnvloeden hoe de component ook werkt, maar de nieuwe eigenschappen zouden aan paginaauteurs kunnen worden geïntroduceerd, die één of andere configuratie door een malplaatjeredacteur zouden kunnen vereisen, voor het geval dat het standaardgedrag niet wordt gewenst. De aanpassingen nochtans zouden moeten worden aangepast, voor meer details zie [ Aanpassend de pagina van de Componenten van de Kern ](customizing.md#upgrade-compatibility-of-customizations).

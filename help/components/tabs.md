@@ -27,7 +27,7 @@ Het [ geeft dialoog uit ](#edit-dialog) staat de inhoudauteur toe om veelvoudige
 >
 >Geneste tabcomponenten (tabs binnen tabs) worden ondersteund.
 >
->De eenvoudige (niet-genestelde) lusjecomponenten kunnen worden gevestigd/worden geselecteerd gebruikend de [ inhoudsboom ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree), nochtans kunnen de genestelde lusjes niet worden gevestigd.
+>De eenvoudige (niet-genestelde) lusjecomponenten kunnen worden gevestigd/worden geselecteerd gebruikend de [ inhoudsboom ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=nl-NL#content-tree), nochtans kunnen de genestelde lusjes niet worden gevestigd.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -57,7 +57,7 @@ De Lusjes, [ Carrousel, ](carousel.md) en [ de steun van Componenten van de Acco
 
 Dit doet u als volgt:
 
-1. Bekijk de pagina met de component gebruikend de **[Mening zoals Gepubliceerde ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** optie in de paginaredacteur.
+1. Bekijk de pagina met de component gebruikend de **[Mening zoals Gepubliceerde ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=nl-NL#view-as-published)** optie in de paginaredacteur.
 1. Controleer de inhoud van de pagina en identificeer de id van het deelvenster.
    * Bijvoorbeeld `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. De id wordt het anker dat u met een hash (`#`) aan de URL kunt toevoegen.
@@ -88,7 +88,7 @@ Gebruik **voeg** knoop toe om de componentenselecteur te openen om te kiezen wel
 
 >[!TIP]
 >
->Als viewport van de pagina wordt verminderd zodat uitgeeft dialoog volledig scherm wordt, **voegt** knoop toe zal worden verborgen. De componenten kunnen nog aan de Component van Lusjes worden toegevoegd door [ te slepen van componenten browser en het vallen op de Component van Lusjes in de paginaredacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component).
+>Als viewport van de pagina wordt verminderd zodat uitgeeft dialoog volledig scherm wordt, **voegt** knoop toe zal worden verborgen. De componenten kunnen nog aan de Component van Lusjes worden toegevoegd door [ te slepen van componenten browser en het vallen op de Component van Lusjes in de paginaredacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=nl-NL#inserting-a-component).
 
 ### Tabblad Eigenschappen {#properties-tab}
 
@@ -127,7 +127,7 @@ Zodra het selecteren van de **Uitgezochte optie van het Comité** in de componen
 
 >[!NOTE]
 >
->De lusjes zijn niet selecteerbaar door de auteur wanneer op **&#x200B;**&#x200B;wijze uitgeeft. De wijze van de Voorproef van het gebruik [&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) **of de**&#x200B;[ Mening zoals Gepubliceerde ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published) **optie om met de lusjes als lezer van de gepubliceerde inhoud in wisselwerking te staan.**
+>De lusjes zijn niet selecteerbaar door de auteur wanneer op **&#x200B;**&#x200B;wijze uitgeeft. De wijze van de Voorproef van het gebruik [&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=nl-NL#preview-mode) **of de**&#x200B;[ Mening zoals Gepubliceerde ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=nl-NL#view-as-published) **optie om met de lusjes als lezer van de gepubliceerde inhoud in wisselwerking te staan.**
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -137,7 +137,7 @@ In het ontwerpdialoogvenster kan de sjabloonauteur definiëren welke componenten
 
 Het **Toegestane lusje van Componenten** wordt gebruikt om te bepalen welke componenten als punten aan de component van lusjes door de inhoudauteur kunnen worden toegevoegd.
 
-De toegelaten Componenten lusjefuncties op de zelfde manier zoals het lusje van de zelfde naam wanneer [ het bepalen van het beleid en de eigenschappen van een Container van de Lay-out in de Redacteur van het Malplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+De toegelaten Componenten lusjefuncties op de zelfde manier zoals het lusje van de zelfde naam wanneer [ het bepalen van het beleid en de eigenschappen van een Container van de Lay-out in de Redacteur van het Malplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL)
 
 ### Tabblad Stijlen {#styles-tab}
 

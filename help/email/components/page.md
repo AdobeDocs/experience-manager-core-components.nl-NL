@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Component E-mailpagina {#email-page-component}
 
-De component E-mail van de Pagina is een verlengbare paginacomponent die wordt ontworpen om met de [ malplaatjedacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) te werken en staat paginakopbal/footer en structuurcomponenten toe om met de malplaatjedacteur worden geassembleerd, die voor het creëren van de inhoud van Adobe Campaign wordt gemaakt.
+De component E-mail van de Pagina is een verlengbare paginacomponent die wordt ontworpen om met de [ malplaatjedacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL) te werken en staat paginakopbal/footer en structuurcomponenten toe om met de malplaatjedacteur worden geassembleerd, die voor het creëren van de inhoud van Adobe Campaign wordt gemaakt.
 
 ## Gebruik {#usage}
 
@@ -43,7 +43,7 @@ De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
-Omdat de component de volledige pagina vertegenwoordigt, worden de montages die normaal in zouden zijn uitgeeft dialoog gevonden in het [ venster van de Eigenschappen van de Pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
+Omdat de component de volledige pagina vertegenwoordigt, worden de montages die normaal in zouden zijn uitgeeft dialoog gevonden in het [ venster van de Eigenschappen van de Pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=nl-NL).
 
 ### Tabblad Cloud Services {#cloud-services}
 
@@ -97,7 +97,7 @@ De bibliotheken kunnen voor zowel de **Bibliotheken van de Cliënt** als **het H
 * Als u een veld wilt verwijderen, klikt of tikt u op het prullenbakpictogram naast het veld dat u wilt verwijderen.
 * Als u de laadvolgorde wilt wijzigen, klikt of tikt u op de greep naast het te verplaatsen veld.
 
-Voor meer informatie over het gebruiken van cliënt-zijbibliotheken, zie [ Gebruikend de Bibliotheken van de Kant van de Cliënt.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html)
+Voor meer informatie over het gebruiken van cliënt-zijbibliotheken, zie [ Gebruikend de Bibliotheken van de Kant van de Cliënt.](https://helpx.adobe.com/nl/experience-manager/6-5/sites/developing/using/clientlibs.html)
 
 ### Tabblad Stijlen {#styles-tab}
 

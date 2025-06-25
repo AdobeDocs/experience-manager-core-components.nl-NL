@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Paginacomponent (v1) {#page-component-v}
 
-De Component van de Pagina is een verlengbare paginacomponent die wordt ontworpen om met de [ malplaatjeredacteur ](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) te werken en paginakopbal/footer en structuurcomponenten toe te staan om met de malplaatjedacteur worden samengesteld.
+De Component van de Pagina is een verlengbare paginacomponent die wordt ontworpen om met de [ malplaatjeredacteur ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/authoring/using/templates.html) te werken en paginakopbal/footer en structuurcomponenten toe te staan om met de malplaatjedacteur worden samengesteld.
 
 ## Gebruik {#usage}
 
@@ -45,7 +45,7 @@ In de volgende tabel wordt de compatibiliteit van v1 van de paginacomponent weer
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Schermafbeelding {#screenshot}
 
@@ -683,7 +683,7 @@ Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
-Omdat de component de volledige pagina vertegenwoordigt, worden de montages die normaal in zouden zijn uitgeeft dialoog gevonden in het [ venster van de Eigenschappen van de Pagina ](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html).
+Omdat de component de volledige pagina vertegenwoordigt, worden de montages die normaal in zouden zijn uitgeeft dialoog gevonden in het [ venster van de Eigenschappen van de Pagina ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/authoring/using/editing-page-properties.html).
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -697,7 +697,7 @@ Met behulp van het venster Paginaontwerp kunt u bibliotheken aan de clientzijde 
 * Als u een veld wilt verwijderen, klikt of tikt u op het prullenbakpictogram naast het veld dat u wilt verwijderen.
 * Als u de laadvolgorde wilt wijzigen, klikt of tikt u op de greep naast het te verplaatsen veld.
 
-Voor meer informatie over het gebruiken van cliënt-zijbibliotheken zie [ Gebruikend de Bibliotheken van de Kant van de Cliënt ](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html).
+Voor meer informatie over het gebruiken van cliënt-zijbibliotheken zie [ Gebruikend de Bibliotheken van de Kant van de Cliënt ](https://helpx.adobe.com/nl/experience-manager/6-3/sites/developing/using/clientlibs.html).
 
 ![](/help/assets/chlimage_1-95.png)
 

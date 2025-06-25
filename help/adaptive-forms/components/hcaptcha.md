@@ -80,13 +80,13 @@ U kunt eigenschappen van uw component hCaptcha met zijn gemakkelijk aanpassen vo
 
 **weet meer** over andere **Componenten Captcha** en hun diensten, zoals:
 
-- [ Gebruik hCaptcha in een Aangepaste Vorm voor de Componenten van de Kern ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/integrate-adaptive-forms-hcaptcha-core-components)
+- [ Gebruik hCaptcha in een Aangepaste Vorm voor de Componenten van de Kern ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/integrate-adaptive-forms-hcaptcha-core-components)
 
-- [ Gebruik hCaptcha in een Aangepaste Vorm voor de Componenten van de Stichting ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-hcaptcha)
+- [ Gebruik hCaptcha in een Aangepaste Vorm voor de Componenten van de Stichting ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-hcaptcha)
 
-- [ Van het gebruiks Turnstile CAPTCHA in een Aanpassende Vorm voor de Componenten van de Stichting ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile)
+- [ Van het gebruiks Turnstile CAPTCHA in een Aanpassende Vorm voor de Componenten van de Stichting ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile)
 
-- [ Google reCAPTCHA van het Gebruik in een AanpassingsVorm voor de Componenten van de Stichting ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
+- [ Google reCAPTCHA van het Gebruik in een AanpassingsVorm voor de Componenten van de Stichting ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
 
 ## Verwante artikelen {#related-articles}
 
