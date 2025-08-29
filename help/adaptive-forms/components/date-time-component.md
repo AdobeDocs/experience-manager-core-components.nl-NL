@@ -1,65 +1,55 @@
 ---
-title: Adaptive Forms Core Component - Datumkiezer
-description: De Adaptive Forms Date Picker Core Component gebruiken of aanpassen.
+title: Adaptieve Forms Core-component - Datum en tijd
+description: De Adaptive Forms Date & Time Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
-exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: daeabccaff39e255c111c6af2540ca4d5be0c709
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '1898'
 ht-degree: 0%
 
 ---
 
 
-# component Datumkiezer{#date-picker-adaptive-forms-core-component}
+# Datum- en tijdcomponent
 
-Een component voor de datumkiezer in een adaptief formulier is een interface-element waarmee gebruikers een datum in een kalender kunnen selecteren of een datum handmatig in een specifieke notatie kunnen invoeren. De component van de datumkiezer kan worden gevormd om verschillende het formatteren, bevestiging, en standaardwaarden te hebben.
+Een component van de Datum &amp; van de Tijd in een AanpassingsVorm is een gebruikersinterface element dat gebruikers toestaat om zowel **datum en tijd** te selecteren gebruikend een kalender en klokinterface, of door waarden in een specifiek formaat manueel in te gaan. Het zorgt voor nauwkeurige, gestandaardiseerde input voor gebruiksgevallen waarin zowel datum als tijd van essentieel belang zijn.
 
 **Voorbeeld**
 
-![ voorbeeld ](/help/adaptive-forms/assets/date-picker.png)
+![ voorbeeld ](/help/adaptive-forms/assets/date-time-picker.png)
 
-## Gebruik {#reasons-to-use-drop-date-picker}
+## Gebruik {#reasons-to-use-date-time-picker}
 
-Er zijn verschillende redenen waarom het nuttig is een datumkiezer op te nemen in een adaptief formulier, zoals:
+Er zijn verschillende redenen waarom het nuttig is een datum- en tijdkiezer op te nemen in een formulier, zoals:
 
-- **Handigheid**: Een component van de datumkiezer staat gebruikers toe om een datum van een kalender gemakkelijk te selecteren zonder het moeten de datum op een tekstgebied manueel ingaan. Dit kan tijd besparen en fouten verminderen.
-
-- **Ervaring van de Gebruiker**: De component van de plukker van de datum kan worden gebruikt om de vorm gebruikersvriendelijker te maken door een duidelijke en intuïtieve manier voor gebruikers te verstrekken om datum te selecteren.
-
-- **analyse van Gegevens**: De component van de plukker van de datum kan worden gebruikt om gegevens uit diverse bronnen te verzamelen en het te analyseren, of het als input voor verdere verwerking te gebruiken.
-
-- **Gebeurtenisbeheer**: De component van de plukker van de datum kan in gebeurtenisbeheerwebsites worden gebruikt om de gebeurtenisdatum te selecteren.
-
-- **Boek en reserve**: De component van de plukker van de datum kan in boekings en reserveringswebsites worden gebruikt om de controle-binnen en controledata te selecteren.
-
-- **formaat van de Datum**: De component van de plukker van de Datum kan worden gebruikt om het formaat te bevestigen waarin de datum wordt getoond en ingegaan. Zorg ervoor dat de datumnotatie in het formulier consistent is, zodat de gebruiker er altijd last van heeft.
+- **Handigheid**: Staat gebruikers toe om zowel een datum als tijd gemakkelijk te kiezen zonder het moeten waarden manueel typen.
+- **Consistentie**: Dwingt een standaardformaat voor datum en tijdinput over de vorm.
+- **Verbeterde gebruikerservaring**: Verstrekt een intuïtieve UI van kalender en tijdselecteurs.
+- **Gebeurtenis die** plant: Nuttig in benoeming het boeken, interviews, of vergadering het plannen vormen.
+- **Reizen &amp; reserveringen**: Laat gebruikers toe om controle-binnen te selecteren/controledata en tijden.
+- **de nauwkeurigheid van Gegevens**: Vermindert inputfouten vergeleken met vrije-tekstingang.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
-De Adaptive Forms Date picker Core Component is in februari 2023 uitgebracht als onderdeel van Core Components 2.0.4 voor Cloud Service en Core Components 1.1.12 voor AEM 6.5.16.0 Forms of hoger. Hier volgt een tabel met alle ondersteunde versies, AEM-compatibiliteit en koppelingen naar de bijbehorende documentatie:
+De Adaptieve Component van de Kern van de Datum en van de Tijd van Forms werd vrijgegeven in **Augustus 2025** als deel van **Componenten 2.24.6 van de Kern** voor Cloud Service en later.
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
-| v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
+| v1 | Compatibel systeem met <br>[ versie 2.24.6 ](/help/adaptive-forms/version.md) en later | |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [ document van de Versies van de Componenten van de Kern 0}.](/help/adaptive-forms/version.md)
-
-<!-- ## Sample Component Output {#sample-component-output}
-
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+Voor details op versies, zie {de Versies van de Componenten van 0} Kern [.](/help/adaptive-forms/version.md)
 
 ## Technische details {#technical-details}
 
-Krijg de recentste informatie over de AanpassingsComponent van de Kern van de Plukker van de Datum van Forms in de technische documentatie op [ GitHub ](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/datepicker/v1/datepicker). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern ](/help/developing/overview.md).
+Krijg de recentste technische details op de Adaptieve Component van de Kern van de Datum en van de Tijd van Forms op [ GitHub ](https://github.com/adobe/aem-core-forms-components). Voor meer bij het ontwikkelen van de Componenten van de Kern, zie {de ontwikkelaarsdocumentatie van de Componenten van 0} Kern [.](/help/developing/overview.md)
 
 ## Dialoogvenster configureren {#configure-dialog}
 
-Met het dialoogvenster Configureren kunt u de datumkiezer-ervaring voor bezoekers eenvoudig aanpassen. U kunt ook eenvoudig opties voor datumkiezers definiëren voor een naadloze gebruikerservaring.
+In het dialoogvenster Configureren kunt u de datum en tijd aanpassen.
 
 ### Tabblad Standaard {#basic-tab}
 
-![ Basis lusje ](/help/adaptive-forms/assets/datepicker_basictab.png)
+![ Basis lusje ](/help/adaptive-forms/assets/datetime_basictab.png)
 
 - **Naam** - de naam identificeert uniek de component in de regelredacteur. Speciale tekens en spaties zijn niet toegestaan in de naamtekenreeksen.
 
@@ -79,12 +69,11 @@ Met het dialoogvenster Configureren kunt u de datumkiezer-ervaring voor bezoeker
 - **de Component van de Huid** - selecteer de optie om de component van de vorm te verbergen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel. Dit is handig wanneer u informatie wilt opslaan die niet hoeft te worden bekeken of rechtstreeks door de gebruiker hoeft te worden gewijzigd.
 - **maak Component** onbruikbaar - selecteer de optie om de component onbruikbaar te maken. De uitgeschakelde component is niet actief of bewerkbaar voor de eindgebruiker. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
 - **read-only** - selecteer de optie om de component niet-editable te maken. De gebruiker kan de waarde van het veld zien, maar kan deze niet wijzigen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel.
-- **StandaardDatum** - deze optie staat u toe om een datum aan het vormgebied toe te voegen. De ingevoerde datum wordt standaard weergegeven op de plaats van de component. Als de gebruiker geen datum invoert, wordt deze waarde verzonden op het moment dat het formulier wordt verzonden. In het geval **Gehandicapte Component** of **read-only Component** wordt geselecteerd, wordt de standaarddatum getoond op het scherm en voorgelegd op het tijdstip van vormvoorlegging.
-
+- **Standaard Datum en Tijd** - deze optie staat u toe om een datum en een tijd aan het vormgebied toe te voegen. De ingevoerde datum wordt standaard weergegeven op de plaats van de component. Als de gebruiker geen datum of tijd heeft ingevoerd, wordt deze waarde verzonden op het moment dat het formulier wordt verzonden. In het geval **Gehandicapte Component** of **read-only Component** wordt geselecteerd, wordt de standaarddatum en de tijd getoond op het scherm en voorgelegd op het tijdstip van vormvoorlegging.
 
 ### Tabblad Validatie {#validation-tab}
 
-![ het lusje van de Bevestiging ](/help/adaptive-forms/assets/datepicker_validation.png)
+![ het lusje van de Bevestiging ](/help/adaptive-forms/assets/datetime_validation.png)
 
 - **Vereist** - selecteer deze optie, als u de component in een Aangepaste Vorm wilt tonen. Nadat u de optie hebt geselecteerd, moet u een selectie maken voordat u een formulier kunt verzenden. U kunt niet de **Component van de Verbergen** selecteren of **Component** in het **Basis** lusje onbruikbaar maken wanneer deze optie wordt geselecteerd.
 
@@ -92,20 +81,17 @@ Met het dialoogvenster Configureren kunt u de datumkiezer-ervaring voor bezoeker
 
 - **Bericht van de Bevestiging van het Manuscript** - Deze optie staat u toe om een bericht in te gaan dat moet worden getoond als de manuscriptbevestiging ontbreekt.
 
-- **Minimale Datum** - deze optie staat u toe om de minimaal vereiste datum in te gaan. Als u een datum vóór de in Minimumdatum opgegeven datum invoert, verschijnt er een foutbericht op het scherm. Het **Minimale de dialoogvakje van het Bericht van de Fout** staat u toe om een bericht van de douanefout toe te voegen.
+- **Minimale Datum** - deze optie staat u toe om de minimaal vereiste datum in te gaan. Als u een datum vroeger dan de datum ingaat die in MinimumDatum en Tijd wordt gespecificeerd, verschijnt een foutenmelding op het scherm. Het **Minimale de dialoogvakje van het Bericht van de Fout** staat u toe om een bericht van de douanefout toe te voegen.
 
-- **Minimale Bericht van de Fout** - het **Minimale de dialoogvakje van het Bericht van de Fout** staat u toe om een te tonen douanefoutenmelding toe te voegen, als u een datum vroeger dan de datum ingaat die in de **Minimale optie van de Datum** wordt gespecificeerd.
-- **sluit minimumdatum** uit - deze optie staat toe om de minimumdatum in een bepaalde waaier of een reeks data weg te laten.
+- **Minimale Bericht van de Fout** - het **Minimale de dialoogvakje van het Bericht van de Fout** staat u toe om een te tonen douanefoutenmelding toe te voegen, als u een datum of een tijd vroeger dan de datum of de tijd ingaat die in de **Minimale Datum** optie wordt gespecificeerd.
 
-- **Maximale Datum** - deze optie staat u toe om de maximum vereiste datum in te gaan. Als u een datum later dan de datum ingaat die in MaximumDatum wordt gespecificeerd, verschijnt een foutenmelding op het scherm. Het **Maximale de dialoogvakje van het Bericht van de Fout** staat u toe om een bericht van de douanefout toe te voegen.
+- **Maximale Datum** - deze optie staat u toe om de maximum vereiste datum en de tijd in te gaan. Als u een datum of tijd later dan de datum of tijd ingaat die in MaximumDatum wordt gespecificeerd, verschijnt een foutenmelding op het scherm. Het **Maximale de dialoogvakje van het Bericht van de Fout** staat u toe om een bericht van de douanefout toe te voegen.
 
-- **MaximumBericht van de Fout** - het **Maximale de dialoogvakje van het Bericht van de Fout** staat u toe om een te tonen douanefoutenmelding toe te voegen, als u een datum later dan de datum ingaat die in de **MaximumDatum** optie wordt gespecificeerd.
-
-- **sluit maximumdatum** uit - deze optie staat toe om de maximumdatum in een bepaalde waaier of een reeks data weg te laten.
+- **MaximumBericht van de Fout** - het **Maximale de dialoogvakje van het Bericht van de Fout** staat u toe om een te tonen douanefoutenmelding toe te voegen, als u een datum of een tijd later dan de datum of de tijd ingaat die in de **Maximale Datum** optie wordt gespecificeerd.
 
 ### Het tabblad Help-inhoud {#help-content-tab}
 
-![ Inhoud tabel van de Hulp ](/help/adaptive-forms/assets/datepicker_helptab.png)
+![ Inhoud tabel van de Hulp ](/help/adaptive-forms/assets/datetime_helptab.png)
 
 - **Korte beschrijving** - een korte beschrijving is een korte tekstverklaring die extra informatie of verduidelijking over het doel van een specifiek vormgebied verstrekt. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. Laat **toe tonen altijd korte beschrijving** optie om het onder de component te tonen.
 
@@ -116,7 +102,7 @@ Met het dialoogvenster Configureren kunt u de datumkiezer-ervaring voor bezoeker
 
 ### Tabblad Toegankelijkheid {#accessibility-tab}
 
-![ Toegankelijkheid tabel ](/help/adaptive-forms/assets/datepicker_accessibilitytab.png)
+![ Toegankelijkheid tabel ](/help/adaptive-forms/assets/datetime_accessibilitytab.png)
 
 - **Tekst voor het schermlezers** - de Tekst voor het schermlezers verwijst naar extra tekst die specifiek bedoeld is om door ondersteunende technologieën, zoals het schermlezers te worden gelezen, die door visueel gehandicapte individuen wordt gebruikt. Deze tekst bevat een audiobeschrijving van het doel van het formulierveld en kan informatie bevatten over de titel, beschrijving, naam en relevante berichten (aangepaste tekst) van het veld. Met de schermlezertekst kunt u ervoor zorgen dat het formulier toegankelijk is voor alle gebruikers, inclusief gebruikers met een visuele handicap, en krijgt deze een volledig inzicht in het formulierveld en de vereisten ervan.
    - **Tekst van de Douane**: Selecteer deze optie om de douanetekst voor de toegankelijkheidslabels van ARIA te gebruiken. Als u deze optie selecteert, wordt het dialoogvenster Aangepaste tekst weergegeven. U kunt relevante informatie toevoegen in het dialoogvenster Aangepaste tekst.
@@ -125,40 +111,42 @@ Met het dialoogvenster Configureren kunt u de datumkiezer-ervaring voor bezoeker
    - **Naam**: Selecteer deze optie om de naam voor de toegankelijkheidslabels van ARIA te gebruiken.
    - **niets**: Selecteer deze optie als u niet voor de toegankelijkheidslabels van ARIA wilt toevoegen.
 
-### Tabblad Opmaak {#format-tab}
+<!--
+### Formats Tab {#format-tab}
 
-![ Formaten tabel ](/help/adaptive-forms/assets/datepicker_formattab.png)
+![Formats tab](/help/adaptive-forms/assets/datepicker_formattab.png)
 
-- **Formaat van de Vertoning** - het vertegenwoordigt het datumformaat dat aan de gebruiker wordt getoond. De **optie van het Type** staat de gebruiker toe om het datumformaat te selecteren. U kunt het datumformaat ook aanpassen gebruikend de **optie van de Douane** in het **Type** dropdown menu.
+-   **Display Format** - It represents the date format that is displayed to the user. The **Type** option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
 
-- **geeft Formaat** uit - het vertegenwoordigt een datumformaat waarin de gebruiker de datum kan uitgeven. De **optie van het Type** staat de gebruiker toe om het datumformaat te selecteren. U kunt het datumformaat ook aanpassen gebruikend de **optie van de Douane** in het **Type** dropdown menu.
-- **de foutenmelding van het Formaat** - Deze optie staat u toe om het bericht in te gaan dat op het scherm wordt getoond wanneer de ingegaan datum niet in het correcte formaat is.
-- **Taal** - deze eigenschap wordt gebruikt voor het formatteren van het specifieke gebied. Wanneer een gebruiker om het even welke taaloptie van het **Type** drop-down menu selecteert, verschijnt de **IETF BCP 47 taalmarkering** optie in het paneel. U kunt de taal voor veldopmaak kiezen wanneer u een adaptief formulier in een specifieke taal vertaalt.
+-   **Edit Format** - It represents a date format in which the user can edit the date. The **Type** option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
+-  **Format error message** - This option allows you to enter the message displayed on the screen when the entered date is not in the correct format.
+- **Language** - This feature is used for formatting the specific field. When a user selects any language option from the **Type** drop-down menu, the **IETF BCP 47 language tag** option appears in the panel. You can choose the language for field formatting when translating an Adaptive Form into a specific language.
+  
+The set of languages is not visible by default, but users can input a custom **IETF BCP 47 language tag** by updating the template policy:
 
-De reeks talen is niet zichtbaar door gebrek, maar de gebruikers kunnen een douane **IETF BCP 47 taalmarkering** invoeren door het malplaatjebeleid bij te werken:
+  1. Open the corresponding template associated with an Adaptive Form in the template editor.
+  2. Select the existing policy as `datepicker-default-policy` from the drop-down menu.
+   
+        ![Date Picker template Policy](/help/adaptive-forms/assets/date-picker-template-policy.png)
 
-1. Open de bijbehorende sjabloon die aan een adaptief formulier is gekoppeld in de sjablooneditor.
-2. Selecteer het bestaande beleid als `datepicker-default-policy` in de keuzelijst.
+  3. Click **Done**.
 
-   ![ het malplaatjebeleid van de Plukker van de Datum ](/help/adaptive-forms/assets/date-picker-template-policy.png)
-
-3. Klik **Gedaan**.
-
-   >[!NOTE]
-   >
-   > Voor verdere informatie over hoe te om een AanpassingsVorm aan een specifieke scène te vertalen, [ klik hier ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+        >[!NOTE]
+        >
+        > For further information on how to translate an Adaptive Form to a specific locale, [click here](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+-->
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
-Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de component Date-Picker te definiëren en te beheren.
+Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de component Datum en tijd te definiëren en te beheren.
 
 ### Tabblad Stijlen {#styles-tab}
 
-Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve de datum-plukkerComponent van de Kern van Forms steunt het systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve Component van de Kern van de Datum en van de Tijd van Forms steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ![ lusje van de Stijl ](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **StandaardCSS Klassen**: U kunt een standaardCSS klasse voor de AanpassingsForms Datum-plukker Component van de Kern verstrekken.
+- **StandaardCSS Klassen**: U kunt een standaardCSS klasse voor de Aangepaste Component van de Kern van de Datum en van de Tijd van Forms verstrekken.
 
 - **Toegestane Stijlen**: U kunt stijlen bepalen door een naam en de CSS klasse te verstrekken die de stijl vertegenwoordigt. U kunt bijvoorbeeld een stijl met de naam &quot;vetgedrukte tekst&quot; maken en de CSS-klasse &quot;font-weight: bold&quot; opgeven. U kunt deze stijlen gebruiken of toepassen op een adaptief formulier in de Adaptieve Forms-editor. Om een stijl, in de Aanpassingsredacteur van Forms toe te passen, selecteer de component u de stijl op wilt toepassen, aan de eigenschappendialoog navigeren, en de gewenste stijl van de **drop-down lijst van Stijlen** selecteren. Als u de stijlen moet bijwerken of wijzigen, gaat u terug naar het dialoogvenster Ontwerpen, werkt u de stijlen op het tabblad Stijlen bij en slaat u de wijzigingen op.
 
@@ -176,13 +164,14 @@ Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aa
 
    - **herschikt**: Tik of klik en sleep om de orde van de naam van het douanebezit en de waarde van het douanebezit te herschikken.
 
-### Tabblad Opmaak {#formats-tab}
-
-Op het tabblad Indelingen kunt u standaard- en aangepaste datumnotaties opgeven.
-
-![ Formattab ](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
-
 <!--
+### Formats Tab {#formats-tab}
+
+The formats tab allows you to specify default and custom date formats.
+
+![Formattab](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
+
+
 
 ## Related article {#related-article}
 
