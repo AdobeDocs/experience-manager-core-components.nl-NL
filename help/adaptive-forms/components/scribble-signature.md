@@ -2,15 +2,17 @@
 title: Adaptive Forms Core Component - Krabbelhandtekening
 description: De Adaptive Forms Scribble Signature Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
-source-git-commit: 4218af42d947e19a65efe8839ccd4eb102fe2f21
+source-git-commit: 246a608e4c23a9075813a64691d583584164578c
 workflow-type: tm+mt
-source-wordcount: '1732'
+source-wordcount: '1761'
 ht-degree: 0%
 
 ---
 
 
 # Ondertekeningscomponent voor krabbelen
+
+<span> de Krabbelcomponent van de Handtekening is onder het Vroege Programma van de Aannemer. U kunt schrijven naar `aem-forms-ea@adobe.com` van uw officiële e-mailadres om deel te nemen aan het vroege adoptieprogramma en om toegang tot het vermogen te vragen.</span>
 
 Een krabbelcomponent van de Handtekening in een AanpassingsVorm is een gebruikersinterface element dat gebruikers toestaat om hun **handtekening** direct binnen de vorm te trekken gebruikend een muis, een stift, of touchscreen. Het zorgt ervoor dat handgeschreven toestemming, goedkeuringen, of controle in digitale werkschema&#39;s nauwkeurig worden gevangen.
 
@@ -69,7 +71,7 @@ In het dialoogvenster Configureren kunt u de component Scripthandtekening aanpas
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
   Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
-  ![ de rijke tekststeun van 0&rbrace;](/help/adaptive-forms/assets/richtext-support-title.png)
+  ![ de rijke tekststeun van 0}](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Titel van de Huid** - selecteer deze optie om titel van het componenttype in een Aangepaste Vorm te verbergen.
 - **Plaatsaanduidingstekst** - De placeholder tekst in een vormcomponent verwijst naar een kort etiket of een herinnering die binnen een inputgebied als wenk aan de gebruiker verschijnt op welk type van informatie naar verwachting op dat gebied zal zijn ingegaan. Plaatsaanduidingstekst verdwijnt wanneer de gebruiker in het veld typt en verschijnt opnieuw als het veld leeg blijft. De klasse biedt een visuele aanwijzing voor de gebruiker, maar fungeert niet als een permanent label of een permanente waarde voor het veld.
@@ -120,7 +122,7 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de component Kra
 
 ### Tabblad Stijlen {#styles-tab}
 
-Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve Component van de Kern van de Ondertekening van Forms Krabbelen steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve Component van de Kern van de Ondertekening van Forms Krabbelen steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ![ Dialoog van het Ontwerp ](/help/adaptive-forms/assets/checkbox-style.png)
 
