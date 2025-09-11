@@ -30,7 +30,7 @@ In dit document wordt versie 2 van de Image Component beschreven, die in januari
 >
 >In dit document wordt versie 1 van de afbeeldingscomponent beschreven.
 >
->Voor details van de huidige versie van de Component van het Beeld, zie het [ document van de Component van het Beeld 0} {.](/help/components/image.md)
+>Voor details van de huidige versie van de Component van het Beeld, zie het [ document van de Component van het Beeld 0&rbrace; &lbrace;.](/help/components/image.md)
 
 ## Responsieve functies {#responsive-features}
 
@@ -119,7 +119,7 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud uitsnijden, de startk
 >
 >Uitsnijden, roteren en zoomen zijn niet van toepassing op dynamische media-elementen. Als de [ Dynamische eigenschappen van Media ](#dynamic-media) worden toegelaten, zou om het even welk zulk het uitgeven aan Dynamische activa van Media door [ moeten worden uitgevoerd vormen Dialoog.](#configure-dialog)
 
-![ de Edit dialoog van de Component van het Beeld {](/help/assets/image-edit.png)
+![ de Edit dialoog van de Component van het Beeld &lbrace;](/help/assets/image-edit.png)
 
 * Uitsnijden starten
 
@@ -229,7 +229,7 @@ Gebruik deze optie om de inhoudauteur toe te staan om **Horizontaal te gebruiken
 
   >[!CAUTION]
   >
-  >De **1} optie van de Omslag {wordt onbruikbaar gemaakt door gebrek.** Toelatend zal het **Verticaal Omdraaien** en **Horizontaal Omdraaien** knopen in uitgeven dialoog van de beeldcomponent tonen, nochtans wordt de eigenschap momenteel niet gesteund door AEM en om het even welke veranderingen die gebruikend deze opties worden aangebracht zullen niet worden voortgeduurd.
+  >De **1&rbrace; optie van de Omslag &lbrace;wordt onbruikbaar gemaakt door gebrek.** Toelatend zal het **Verticaal Omdraaien** en **Horizontaal Omdraaien** knopen in uitgeven dialoog van de beeldcomponent tonen, nochtans wordt de eigenschap momenteel niet gesteund door AEM en om het even welke veranderingen die gebruikend deze opties worden aangebracht zullen niet worden voortgeduurd.
 
 * Uitsnijden
 
@@ -237,7 +237,7 @@ Gebruik deze optie om de inhoudauteur toe te staan om **Horizontaal te gebruiken
 
   Selecteer de optie **gewas** toestaan om de inhoudauteur toe te staan om het beeld in de component in uit te snijden uitgeeft dialoog.
    * Klik **toevoegen** om een vooraf bepaalde uitsnijdverhouding toe te voegen.
-   * Ga een beschrijvende naam in, die in **1} dropdown van het Gewas van het Begin {zal worden getoond.**
+   * Ga een beschrijvende naam in, die in **1&rbrace; dropdown van het Gewas van het Begin &lbrace;zal worden getoond.**
    * Voer de numerieke verhouding van het aspect in.
    * Gebruik de sleephandgrepen om de volgorde van de hoogte-breedteverhoudingen te wijzigen
    * Gebruik het prullenbakpictogram om een hoogte-breedteverhouding te verwijderen.
@@ -248,7 +248,7 @@ Gebruik deze optie om de inhoudauteur toe te staan om **Horizontaal te gebruiken
 
 ### Tabblad Stijlen {#styles-tab-1}
 
-De Component van het Beeld steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+De Component van het Beeld steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
 ## Adobe Client Data Layer {#data-layer}
 
