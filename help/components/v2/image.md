@@ -4,7 +4,7 @@ description: De Core Component Image is een adaptieve beeldcomponent die ter ple
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
+source-git-commit: 3908828cf62043483a74e908204c3e9bf540300b
 workflow-type: tm+mt
 source-wordcount: '2048'
 ht-degree: 0%
@@ -30,7 +30,7 @@ In dit document wordt versie 2 van de Image Component beschreven, die in januari
 >
 >In dit document wordt versie 1 van de afbeeldingscomponent beschreven.
 >
->Voor details van de huidige versie van de Component van het Beeld, zie het [&#128279;](/help/components/image.md) document van de Component van het Beeld 0&rbrace; &lbrace;.
+>Voor details van de huidige versie van de Component van het Beeld, zie het [ document van de Component van het Beeld 0} {.](/help/components/image.md)
 
 ## Responsieve functies {#responsive-features}
 
@@ -40,11 +40,11 @@ Bovendien ondersteunt de component Afbeelding lui laden om het laden van het eig
 
 >[!TIP]
 >
->De component Image wordt aangedreven door de Adaptive Image Servlet. Gelieve te zien het document [ Adaptieve Servlet van het Beeld ](#adaptive-image-servlet) voor details op hoe het werkt.
+>De component Image wordt aangedreven door de Adaptive Image Servlet. Gelieve te zien het document [ Adaptieve Servlet van het Beeld ](/help/developing/adaptive-image-servlet.md) voor details op hoe het werkt.
 
 ## Ondersteuning voor dynamische media {#dynamic-media}
 
-De Component van het Beeld (van [ versie 2.13.0 ](/help/versions.md)) steunt [ Dynamische Media ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=nl-NL#dynamicmedia) activa. [ wanneer toegelaten, ](#design-dialog) bieden deze eigenschappen de capaciteit aan om Dynamische het beeldactiva van Media met eenvoudige belemmering-en-daling of via activa toe te voegen browser enkel zoals u een ander beeld. Daarnaast worden ook afbeeldingsaanpassingen, voorinstellingen voor afbeeldingen en slimme gewassen ondersteund.
+De Component van het Beeld (van [ versie 2.13.0 ](/help/versions.md)) steunt [ Dynamische Media ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia) activa. [ wanneer toegelaten, ](#design-dialog) bieden deze eigenschappen de capaciteit aan om Dynamische het beeldactiva van Media met eenvoudige belemmering-en-daling of via activa toe te voegen browser enkel zoals u een ander beeld. Daarnaast worden ook afbeeldingsaanpassingen, voorinstellingen voor afbeeldingen en slimme gewassen ondersteund.
 
 Uw webbeleving die is gebouwd met Core Components kan geen geavanceerde, op Sensei gebaseerde, robuuste, krachtige, platformonafhankelijke mogelijkheden voor Dynamic Media Image bieden.
 
@@ -81,9 +81,9 @@ Naast standaard [ geef dialoog ](#edit-dialog) uit en [ ontwerpdialoog ](#design
 ![ het lusje van Activa van de Component van het Beeld vormt dialoog ](/help/assets/image-configure-asset.png)
 
 * **activa van het Beeld**
-   * Daling een activa van [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=nl-NL) of ontvang **doorbladert** optie om van een lokaal dossiersysteem te uploaden.
+   * Daling een activa van [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of ontvang **doorbladert** optie om van een lokaal dossiersysteem te uploaden.
    * Tik of klik **Duidelijk** om het momenteel geselecteerde beeld te deselecteren.
-   * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=nl-NL) in de activaredacteur te beheren.
+   * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in de activaredacteur te beheren.
 
 ### Tabblad Metagegevens {#metadata-tab}
 
@@ -119,7 +119,7 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud uitsnijden, de startk
 >
 >Uitsnijden, roteren en zoomen zijn niet van toepassing op dynamische media-elementen. Als de [ Dynamische eigenschappen van Media ](#dynamic-media) worden toegelaten, zou om het even welk zulk het uitgeven aan Dynamische activa van Media door [ moeten worden uitgevoerd vormen Dialoog.](#configure-dialog)
 
-![ de Edit dialoog van de Component van het Beeld &lbrace;](/help/assets/image-edit.png)
+![ de Edit dialoog van de Component van het Beeld {](/help/assets/image-edit.png)
 
 * Uitsnijden starten
 
@@ -206,7 +206,7 @@ Bovendien kunt u bepalen welke algemene componentenopties automatisch of onbruik
 
 >[!TIP]
 >
->Zie het document [ Aangepaste Servlet van het Beeld ](#adaptive-image-servlet) voor uiteinden voor het optimaliseren van vertoningsselectie door uw breedten zorgvuldig te bepalen.
+>Zie het document [ Aangepaste Servlet van het Beeld ](/help/developing/adaptive-image-servlet.md) voor uiteinden voor het optimaliseren van vertoningsselectie door uw breedten zorgvuldig te bepalen.
 
 ### Tabblad Functies {#features-tab}
 
@@ -229,7 +229,7 @@ Gebruik deze optie om de inhoudauteur toe te staan om **Horizontaal te gebruiken
 
   >[!CAUTION]
   >
-  >De **1&rbrace; optie van de Omslag &lbrace;wordt onbruikbaar gemaakt door gebrek.** Toelatend zal het **Verticaal Omdraaien** en **Horizontaal Omdraaien** knopen in uitgeven dialoog van de beeldcomponent tonen, nochtans wordt de eigenschap momenteel niet gesteund door AEM en om het even welke veranderingen die gebruikend deze opties worden aangebracht zullen niet worden voortgeduurd.
+  >De **1} optie van de Omslag {wordt onbruikbaar gemaakt door gebrek.** Toelatend zal het **Verticaal Omdraaien** en **Horizontaal Omdraaien** knopen in uitgeven dialoog van de beeldcomponent tonen, nochtans wordt de eigenschap momenteel niet gesteund door AEM en om het even welke veranderingen die gebruikend deze opties worden aangebracht zullen niet worden voortgeduurd.
 
 * Uitsnijden
 
@@ -237,7 +237,7 @@ Gebruik deze optie om de inhoudauteur toe te staan om **Horizontaal te gebruiken
 
   Selecteer de optie **gewas** toestaan om de inhoudauteur toe te staan om het beeld in de component in uit te snijden uitgeeft dialoog.
    * Klik **toevoegen** om een vooraf bepaalde uitsnijdverhouding toe te voegen.
-   * Ga een beschrijvende naam in, die in **1&rbrace; dropdown van het Gewas van het Begin &lbrace;zal worden getoond.**
+   * Ga een beschrijvende naam in, die in **1} dropdown van het Gewas van het Begin {zal worden getoond.**
    * Voer de numerieke verhouding van het aspect in.
    * Gebruik de sleephandgrepen om de volgorde van de hoogte-breedteverhoudingen te wijzigen
    * Gebruik het prullenbakpictogram om een hoogte-breedteverhouding te verwijderen.
@@ -248,7 +248,7 @@ Gebruik deze optie om de inhoudauteur toe te staan om **Horizontaal te gebruiken
 
 ### Tabblad Stijlen {#styles-tab-1}
 
-De Component van het Beeld steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+De Component van het Beeld steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
 ## Adobe Client Data Layer {#data-layer}
 
