@@ -3,16 +3,16 @@ title: Versies van kerncomponenten
 description: De Componenten van de kern worden gepubliceerd als versies die meer dan één versie van de zelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies worden uitgebracht en hoe u de compatibiliteit met Core Components en AEM begrijpt.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 821530ce1958566f0a2c1fb88c5017572057f88f
+source-git-commit: b6b850237bdab1cb59a81c3162182e5b25fbdb68
 workflow-type: tm+mt
-source-wordcount: '3056'
+source-wordcount: '3087'
 ht-degree: 0%
 
 ---
 
 # Versies van kerncomponenten {#core-components-versions}
 
-De Componenten van de Kern zijn compatibel met [ AEM as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=nl-NL) en [ op-gebouwAEM ](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=nl-NL) installaties.
+De Componenten van de Kern zijn compatibel met [ AEM as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) en [ op-gebouwAEM ](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installaties.
 
 ## Historie en compatibiliteit vrijgeven {#release-history-and-compatibility}
 
@@ -26,6 +26,7 @@ De volgende lijst, waarvan de inhoud [ op GitHub met volledige versiedetails ](h
 
 | Geen | Beschrijving | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | Releasedatum |
 |---|---|---|---|---|---|---|---|
+| [ 2.30.0 ](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | In deze release zijn een aantal problemen met middelen en dynamische media opgelost, wordt de LTS-ondersteuning verduidelijkt en worden talrijke opgeloste problemen opgelost. | - | 6.5.21.0+ | 6,5 LTS GA | Continu | 8, 11 | 4 september 2025 |
 | [ 2.29.0 ](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | In deze release werd ondersteuning toegevoegd voor het ontwerpen van voorvertoningsversies van elementen in de kerncomponent van sites en worden talrijke opgeloste problemen opgelost. | - | 6.5.21.0+ | 6,5 LTS GA | Continu | 8, 11 | 21 april 2025 |
 | [ 2.28.0 ](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | Deze versie is bedoeld voor een groot aantal opgeloste problemen. | - | 6.5.21.0+ | 6,5 LTS GA | Continu | 8, 11 | 17 maart 2025 |
 | [ 2.27.0 ](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.27.0) | Deze versie is bedoeld voor een groot aantal opgeloste problemen. | - | 6.5.21.0+ | - | Continu | 11 | 10 september 2024 |
@@ -60,7 +61,7 @@ De volgende lijst, waarvan de inhoud [ op GitHub met volledige versiedetails ](h
 | [ 2.18.0 ](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | Deze belangrijke versie van de kerncomponenten ziet de introductie van een nieuwe verbindingsmanager over nieuwe versies van veelvoudige componenten samen met vele toegankelijkheidsverbeteringen en insectenmoeilijke situaties. | - | 6.5.10.0+ * | - | Continu | 8, 11 | 16 februari 2022 |
 | [ 2.17.14 ](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Dit is een patchrelease. | 6.4.8.4+ | 6.5.6.0+ | - | Continu | 8, 11 | 13 december 2021 |
 | [ 2.17.12 ](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Dit is een patchrelease die een regressie verhelpt die bij de vorige release werd geïntroduceerd. | 6.4.8.4+ | 6.5.6.0+ | - | Continu | 8, 11 | 1 oktober 2021 |
-| [ 2.17.10 ](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | Dit flard verbetert de [ Lijst ](/help/components/list.md) en [ de componenten van de Navigatie ](/help/components/navigation.md) om externe URL voor omleidingsdoelstellingen te tonen, laat paginabeelden overerving voor aanstaande v2 van de [ 5&rbrace; component van het Taser &lbrace;toe, en bevat extra insectenmoeilijke situaties.](/help/components/teaser.md) | 6.4.8.4+ | 6.5.6.0+ | - | Continu | 8, 11 | 31 augustus 2021 |
+| [ 2.17.10 ](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | Dit flard verbetert de [ Lijst ](/help/components/list.md) en [ de componenten van de Navigatie ](/help/components/navigation.md) om externe URL voor omleidingsdoelstellingen te tonen, laat paginabeelden overerving voor aanstaande v2 van de [ 5} component van het Taser {toe, en bevat extra insectenmoeilijke situaties.](/help/components/teaser.md) | 6.4.8.4+ | 6.5.6.0+ | - | Continu | 8, 11 | 31 augustus 2021 |
 | [ 2.17.8 ](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | Deze flardversie Dit is een flardversie om een achterwaartse onverenigbare verandering te bevestigen die eerder werd geïntroduceerd. | 6.4.8.4+ | 6.5.6.0+ | - | Continu | 8, 11 | 2 augustus 2021 |
 | [ 2.17.6 ](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | Deze patchrelease biedt ondersteuning voor site maps voor pagina&#39;s en bevat verschillende toegankelijkheidsverbeteringen. | 6.4.8.4+ | 6.5.6.0+ | - | Continu | 8, 11 | 29 juli 2021 |
 | [ 2.17.2 ](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | Deze flardversie omvat een moeilijke situatie voor de [ Laag van Gegevens ](/help/developing/data-layer/overview.md) het werken niet met AEMaaCS. | 6.4.8.4+ | 6.5.6.0+ | - | Continu | 8, 11 | 8 juli 2021 |
@@ -186,4 +187,4 @@ Voor details over de steun van componentenaanpassingen, zie de [ Aanpassende pag
 
 Adobe-ontwikkelingsnadruk is verschoven naar Core Components en er zullen nieuwe functies worden toegevoegd.
 
-[ bijna zijn alle Componenten van de Stichting verouderd met AEM 6.5 ](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html?lang=nl-NL) en slechts zullen de belangrijkste insectenmoeilijke situaties voor de Componenten van de Stichting die door:gaan worden overwogen.
+[ bijna zijn alle Componenten van de Stichting verouderd met AEM 6.5 ](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html) en slechts zullen de belangrijkste insectenmoeilijke situaties voor de Componenten van de Stichting die door:gaan worden overwogen.
