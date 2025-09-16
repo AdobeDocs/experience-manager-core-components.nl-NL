@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Versies van kerncomponenten {#core-components-versions}
 
-De Componenten van de Kern zijn compatibel met [ AEM as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) en [ op-gebouwAEM ](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installaties.
+De Componenten van de Kern zijn compatibel met [ AEM as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=nl-NL) en [ op-gebouwAEM ](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=nl-NL) installaties.
 
 ## Historie en compatibiliteit vrijgeven {#release-history-and-compatibility}
 
@@ -187,4 +187,4 @@ Voor details over de steun van componentenaanpassingen, zie de [ Aanpassende pag
 
 Adobe-ontwikkelingsnadruk is verschoven naar Core Components en er zullen nieuwe functies worden toegevoegd.
 
-[ bijna zijn alle Componenten van de Stichting verouderd met AEM 6.5 ](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html) en slechts zullen de belangrijkste insectenmoeilijke situaties voor de Componenten van de Stichting die door:gaan worden overwogen.
+[ bijna zijn alle Componenten van de Stichting verouderd met AEM 6.5 ](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html?lang=nl-NL) en slechts zullen de belangrijkste insectenmoeilijke situaties voor de Componenten van de Stichting die door:gaan worden overwogen.
