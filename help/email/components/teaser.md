@@ -20,9 +20,9 @@ De component E-mailtaser kan een afbeelding, een titel, tekst met opmaak en even
 
 Met de component E-mailtaser kan de auteur van de inhoud eenvoudig een gummetje maken met een afbeelding, titel of tekst met opmaak en een koppeling maken naar andere inhoud of andere handelingen.
 
-* De malplaatjeauteur kan de [ ontwerpdialoog ](#design-dialog) gebruiken om te bepalen als de opties om vraag-aan-acties tot stand te brengen en verbindingen toe te voegen beschikbaar zijn evenals het onbruikbaar maken van diverse vertoningsopties.
-* De inhoudauteur kan [ gebruiken vormt dialoog ](#configure-dialog) om een beeld te plaatsen, CTAs te bepalen, titels en beschrijvingen te plaatsen, en verbindingen aan het individuele meetapparaat te vormen.
-* Het [ geeft dialoog uit ](image.md#edit-dialog) van de [ Component van het Beeld E-mail ](image.md) kan worden betreden om het teaser beeld te wijzigen.
+* De malplaatjeauteur kan de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog) gebruiken om te bepalen als de opties om vraag-aan-acties tot stand te brengen en verbindingen toe te voegen beschikbaar zijn evenals het onbruikbaar maken van diverse vertoningsopties.
+* De inhoudauteur kan [&#x200B; gebruiken vormt dialoog &#x200B;](#configure-dialog) om een beeld te plaatsen, CTAs te bepalen, titels en beschrijvingen te plaatsen, en verbindingen aan het individuele meetapparaat te vormen.
+* Het [&#x200B; geeft dialoog uit &#x200B;](image.md#edit-dialog) van de [&#x200B; Component van het Beeld E-mail &#x200B;](image.md) kan worden betreden om het teaser beeld te wijzigen.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -36,36 +36,36 @@ In de volgende tabel worden alle ondersteunde versies van de component, de AEM-v
 
 ### Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Teaser E-mail [ kan op GitHub worden gevonden.](https://adobe.com/go/aem_cmp_tech_email_teaser_v1)
+De recentste technische documentatie over de Component van de Teaser E-mail [&#x200B; kan op GitHub worden gevonden.](https://adobe.com/go/aem_cmp_tech_email_teaser_v1)
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden.](/help/developing/overview.md)
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden.](/help/developing/overview.md)
 
 ## Dialoogvenster configureren {#configure-dialog}
 
-De auteur van de inhoud kan het dialoogvenster Configure gebruiken om de eigenschappen van de afzonderlijke teaser te definiëren. Er is ook een [ uitgeeft dialoog ](#edit-dialog) om het teasbeeld te wijzigen als men wordt geselecteerd.
+De auteur van de inhoud kan het dialoogvenster Configure gebruiken om de eigenschappen van de afzonderlijke teaser te definiëren. Er is ook een [&#x200B; uitgeeft dialoog &#x200B;](#edit-dialog) om het teasbeeld te wijzigen als men wordt geselecteerd.
 
 ### Tabblad Koppelingen {#links-tab}
 
-![ E-mailTeaser Component geeft dialoogverbindingen tabel uit van de Component ](/help/email/assets/email-teaser-edit-links.png)
+![&#x200B; E-mailTeaser Component geeft dialoogverbindingen tabel uit van de Component &#x200B;](/help/email/assets/email-teaser-edit-links.png)
 
 De teastitel, beschrijving en afbeelding kunnen worden overgenomen van de gekoppelde inhoud of van de inhoud die is gekoppeld in de eerste call-to-action. Als er geen koppeling of call-to-action is opgegeven, worden de titel, beschrijving en afbeelding overgenomen van de huidige inhoud.
 
 * **Verbinding** - dit dossier verbindt met inhoud, externe URL, of anker.
-   * Klik het pictogram van de Campagne om [ Uitgezochte de Variabele van Adobe Campaign ](/help/email/campaign-variables.md) dialoog te openen om dynamische inhoud van Adobe Campaign op te nemen.
+   * Klik het pictogram van de Campagne om [&#x200B; Uitgezochte de Variabele van Adobe Campaign &#x200B;](/help/email/campaign-variables.md) dialoog te openen om dynamische inhoud van Adobe Campaign op te nemen.
 * **vraag-aan-acties** - Deze optie staat het verbinden aan veelvoudige bestemmingen toe.
    * De pagina die is gekoppeld in de eerste call-to-action, wordt gebruikt wanneer u de teastitel, beschrijving of afbeelding overneemt.
-   * Klik het pictogram van de Campagne om [ Uitgezochte de Variabele van Adobe Campaign ](/help/email/campaign-variables.md) dialoog te openen om dynamische inhoud van Adobe Campaign op te nemen.
+   * Klik het pictogram van de Campagne om [&#x200B; Uitgezochte de Variabele van Adobe Campaign &#x200B;](/help/email/campaign-variables.md) dialoog te openen om dynamische inhoud van Adobe Campaign op te nemen.
 
 ### Tabblad Tekst {#text-tab}
 
-![ E-mailTeaser Component geeft dialoogtekst tabel van de component uit ](/help/email/assets/email-teaser-edit-text.png)
+![&#x200B; E-mailTeaser Component geeft dialoogtekst tabel van de component uit &#x200B;](/help/email/assets/email-teaser-edit-text.png)
 
 * **Pretitle** - de voortitel zal vóór de titel van het meetapparaat worden getoond.
 * **Titel** - bepaalt een titel om als titel voor het meetapparaat te tonen.
-   * Klik het pictogram van de Campagne om [ Uitgezochte de Variabele van Adobe Campaign ](/help/email/campaign-variables.md) dialoog te openen om dynamische inhoud van Adobe Campaign op te nemen.
+   * Klik het pictogram van de Campagne om [&#x200B; Uitgezochte de Variabele van Adobe Campaign &#x200B;](/help/email/campaign-variables.md) dialoog te openen om dynamische inhoud van Adobe Campaign op te nemen.
    * **krijgt titel van verbonden pagina** - wanneer gecontroleerd, zal de titel met de verbonden titel van de pagina worden bevolkt.
 * **Beschrijving** - bepaalt een beschrijving aan vertoning als onderverdeling van het gummetje.
-   * Klik het **Uitgezochte de Variabele van Adobe Campaign** pictogram om [ Uitgezochte de Variabele van Adobe Campaign ](/help/email/campaign-variables.md) dialoog te openen om dynamische inhoud van Adobe Campaign op te nemen.
+   * Klik het **Uitgezochte de Variabele van Adobe Campaign** pictogram om [&#x200B; Uitgezochte de Variabele van Adobe Campaign &#x200B;](/help/email/campaign-variables.md) dialoog te openen om dynamische inhoud van Adobe Campaign op te nemen.
    * **krijgt beschrijving van verbonden pagina** - wanneer gecontroleerd, zal de beschrijving met de verbonden beschrijving van de pagina worden bevolkt.
 * **identiteitskaart** - Deze optie staat het controleren van het unieke herkenningsteken van de component in HTML toe.
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende inhoud te inspecteren.
@@ -74,19 +74,19 @@ De teastitel, beschrijving en afbeelding kunnen worden overgenomen van de gekopp
 
 ### Tabblad Element {#asset-tab}
 
-![ E-mailTeaser Component geeft dialoogbeeld tabel van de component uit ](/help/email/assets/email-teaser-edit-image.png)
+![&#x200B; E-mailTeaser Component geeft dialoogbeeld tabel van de component uit &#x200B;](/help/email/assets/email-teaser-edit-image.png)
 
 * **erven geprezen beeld van pagina** - gebruik het beeld dat in de paginaeigenschappen van de verbonden pagina wordt bepaald of de huidige pagina als niets wordt gevonden.
-* **activa van het Beeld** - Daling een activa van [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=nl-NL) of ontvang **doorbladert** optie om van een lokaal dossiersysteem te uploaden.
+* **activa van het Beeld** - Daling een activa van [&#x200B; activa browser &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=nl-NL) of ontvang **doorbladert** optie om van een lokaal dossiersysteem te uploaden.
    * Tik of klik **Duidelijk** om het momenteel geselecteerde beeld te deselecteren.
-   * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=nl-NL) in de Redacteur van Activa te beheren.
+   * Tik of klik **uitgeven** [&#x200B; om de vertoningen van de activa &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=nl-NL) in de Redacteur van Activa te beheren.
 * **Alternatieve tekst voor toegankelijkheid** - Dit gebied staat u toe om een beschrijving van het beeld voor visueel gehandicapte gebruikers te bepalen.
    * **erven alternatieve tekst van pagina** - Deze optie gebruikt de alternatieve beschrijving van de verbonden activawaarde van de `dc:description` meta-gegevens in DAM of van de huidige pagina als geen activa wordt verbonden.
 * **verstrekt geen alternatieve tekst** - Deze optie merkt het beeld dat door ondersteunende technologieën zoals het schermlezers voor gevallen wordt genegeerd waar het beeld zuiver decoratief is of anders geen extra informatie aan de pagina overbrengt.
 
 >[!NOTE]
 >
->[ de Dynamische eigenschappen van Media ](image.md#dynamic-media) zijn momenteel niet beschikbaar in de Component van het Taser.
+>[&#x200B; de Dynamische eigenschappen van Media &#x200B;](image.md#dynamic-media) zijn momenteel niet beschikbaar in de Component van het Taser.
 
 ### Tabblad Stijlen {#styles-tab-edit}
 
@@ -94,11 +94,11 @@ De component E-mailTeaser steunt het Systeem van de Stijl van AEM [.](/help/get-
 
 Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
 
-De stijlen moeten voor deze component in de [ ontwerpdialoog ](#design-dialog) worden gevormd opdat het lusje beschikbaar is.
+De stijlen moeten voor deze component in de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog) worden gevormd opdat het lusje beschikbaar is.
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
-De component E-mail van het Taser delegeert beeld dat aan de [ Component van het Beeld ](image.md) teruggeeft. Daarom geeft [ dialoog uit ](image.md#edit-dialog) van de Component van het Beeld is beschikbaar aan de inhoudauteur om het teaser beeld te manipuleren.
+De component E-mail van het Taser delegeert beeld dat aan de [&#x200B; Component van het Beeld &#x200B;](image.md) teruggeeft. Daarom geeft [&#x200B; dialoog uit &#x200B;](image.md#edit-dialog) van de Component van het Beeld is beschikbaar aan de inhoudauteur om het teaser beeld te manipuleren.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -106,7 +106,7 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de teasopties definiëren die
 
 ### Taser Tab {#teaser-tab}
 
-![ het ontwerpdialoog van de Component van de Teaser E-mail ](/help/email/assets/email-teaser-design.png)
+![&#x200B; het ontwerpdialoog van de Component van de Teaser E-mail &#x200B;](/help/email/assets/email-teaser-design.png)
 
 * **Toegestane Elementen van de Kop** - gebruik drop-down om te bepalen welke elementen van de rubriekHTML die door een auteur voor het de titeltype van het apparaat kunnen worden geselecteerd.
 * **Standaard het Element van de Kop van de Titel** - het element van de standaardrubriekHTML dat voor het de titeltype van het apparaat wordt gebruikt

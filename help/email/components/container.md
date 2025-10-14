@@ -20,8 +20,8 @@ Met de component E-mailcontainer kunt u een container maken voor meerdere aanvul
 
 Met de component E-mailcontainer kunt u een container maken voor meerdere aanvullende componenten in uw e-mailinhoud. U kunt deze component gebruiken om andere componenten te groeperen en een algemene stijl of indeling toe te passen.
 
-* De eigenschappen van de container kunnen in [ worden geselecteerd vormen dialoog.](#configure-dialog)
-* De gebreken voor de Component van de Container E-mail wanneer het toevoegen van het aan een pagina kunnen in de [ ontwerpdialoog worden bepaald.](#design-dialog)
+* De eigenschappen van de container kunnen in [&#x200B; worden geselecteerd vormen dialoog.](#configure-dialog)
+* De gebreken voor de Component van de Container E-mail wanneer het toevoegen van het aan een pagina kunnen in de [&#x200B; ontwerpdialoog worden bepaald.](#design-dialog)
 
 Nadat een component E-mailcontainer aan een pagina is toegevoegd, kan de auteur van de inhoud er aanvullende componenten in slepen en neerzetten.
 
@@ -35,19 +35,19 @@ In de volgende tabel worden alle ondersteunde versies van de component, de AEM-v
 |---|---|---|---|
 | v1 | Compatibel | - | - |
 
-Voor meer informatie over de versies en versies van de Component van de Kern E-mailE-mail van de Component, zie de Versies van de Componenten van de Document [ E-mailKern.](/help/email/versions.md)
+Voor meer informatie over de versies en versies van de Component van de Kern E-mailE-mail van de Component, zie de Versies van de Componenten van de Document [&#x200B; E-mailKern.](/help/email/versions.md)
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Container [ kan op GitHub worden gevonden.](https://adobe.com/go/aem_cmp_tech_email_container_v1)
+De recentste technische documentatie over de Component van de Container [&#x200B; kan op GitHub worden gevonden.](https://adobe.com/go/aem_cmp_tech_email_container_v1)
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden.](/help/developing/overview.md)
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden.](/help/developing/overview.md)
 
 ## Dialoogvenster configureren {#configure-dialog}
 
 In het dialoogvenster Configureren kan de auteur van de inhoud het containeritem definiëren en bepalen hoe het zich gedraagt en in uw inhoud wordt weergegeven.
 
-![ geef dialoog van de Component van de Container E-mail uit ](/help/email/assets/email-container-configure.png)
+![&#x200B; geef dialoog van de Component van de Container E-mail uit &#x200B;](/help/email/assets/email-container-configure.png)
 
 * **Lay-out** - deze optie bepaalt het gedrag of het lay-outgedrag van de Component van de Container E-mail.
    * **volledig-breedte**
@@ -55,8 +55,8 @@ In het dialoogvenster Configureren kan de auteur van de inhoud het containeritem
    * **één-derde|twee-derde**
    * **twee-derde|één-derde**
    * **derde|derde|derde**
-* **Achtergrondkleur** - bepaalt of als vrij-vormRGB waarden of door de kleurkiezer te gebruiken, [ afhankelijk van configuratie ](#container-settings-tab)
-* **Achtergrondbeeld** - bepaalt een achtergrondbeeld voor de container, [ afhankelijk van configuratie ](#container-settings-tab)
+* **Achtergrondkleur** - bepaalt of als vrij-vormRGB waarden of door de kleurkiezer te gebruiken, [&#x200B; afhankelijk van configuratie &#x200B;](#container-settings-tab)
+* **Achtergrondbeeld** - bepaalt een achtergrondbeeld voor de container, [&#x200B; afhankelijk van configuratie &#x200B;](#container-settings-tab)
 * **identiteitskaart** - Deze optie staat het controleren van het unieke herkenningsteken van de component in HTML toe.
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende inhoud te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
@@ -68,7 +68,7 @@ De component E-mailContainer steunt het Systeem van de Stijl van AEM [.](/help/g
 
 Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
 
-De stijlen moeten voor deze component in de [ ontwerpdialoog ](#design-dialog) worden gevormd opdat het lusje beschikbaar is.
+De stijlen moeten voor deze component in de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog) worden gevormd opdat het lusje beschikbaar is.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -78,17 +78,17 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur de opties definiëren die 
 
 Het **Toegestane lusje van Componenten** wordt gebruikt om te bepalen welke componenten als punten aan de Component van de Container E-mail door de inhoudauteur kunnen worden toegevoegd.
 
-**Toegestane Componenten** tabfuncties op dezelfde manier als het lusje van de zelfde naam wanneer [ het bepalen van het beleid en de eigenschappen van een Container van de Lay-out in de Redacteur van het Malplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL)
+**Toegestane Componenten** tabfuncties op dezelfde manier als het lusje van de zelfde naam wanneer [&#x200B; het bepalen van het beleid en de eigenschappen van een Container van de Lay-out in de Redacteur van het Malplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL)
 
 ### Tabblad Standaardcomponenten {#default-components-tab}
 
-Het **StandaardComponenten** lusje wordt gebruikt om te bepalen welke component aan de component wordt toegevoegd wanneer een bepaald activatype op de container wordt gelaten vallen, gelijkend op [ hoe de standaardcomponenten op het paginamalplaatje worden bepaald.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL)
+Het **StandaardComponenten** lusje wordt gebruikt om te bepalen welke component aan de component wordt toegevoegd wanneer een bepaald activatype op de container wordt gelaten vallen, gelijkend op [&#x200B; hoe de standaardcomponenten op het paginamalplaatje worden bepaald.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL)
 
 ### Tabblad Containerinstellingen {#container-settings-tab}
 
 Het **lusje van de Montages van de Container** bepaalt als de auteur een achtergrondbeeld of een kleur kan bepalen.
 
-![ lusje van de Montages van de Container van de ontwerpdialoog van de Component E-mail van de Container ](/help/email/assets/email-container-design-container-settings.png)
+![&#x200B; lusje van de Montages van de Container van de ontwerpdialoog van de Component E-mail van de Container &#x200B;](/help/email/assets/email-container-design-container-settings.png)
 
 * **Achtergrondbeeld**
    * **laat achtergrondbeeld** toe - selecteer deze optie om de inhoudauteur toe te laten om een achtergrondbeeld voor de container te bepalen.

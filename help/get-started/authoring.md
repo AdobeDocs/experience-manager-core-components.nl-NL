@@ -14,39 +14,39 @@ ht-degree: 0%
 
 In Adobe Experience Manager zijn componenten de structuurelementen die de inhoud vormen van de pagina&#39;s die worden gemaakt.
 
-De componenten van de Kern bieden flexibele en eigenschap-rijke auteursfunctionaliteit aan. De [ WKND verwijzingsplaats ](https://wknd.site) en zijn illustraties hoe de kerncomponenten kunnen worden gebruikt om een rijke websiteervaring uit te voeren.
+De componenten van de Kern bieden flexibele en eigenschap-rijke auteursfunctionaliteit aan. De [&#x200B; WKND verwijzingsplaats &#x200B;](https://wknd.site) en zijn illustraties hoe de kerncomponenten kunnen worden gebruikt om een rijke websiteervaring uit te voeren.
 
-Om de Componenten van de Kern te ervaren en voorbeelden van hun configuratieopties evenals HTML en output te zien JSON, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library).
+Om de Componenten van de Kern te ervaren en voorbeelden van hun configuratieopties evenals HTML en output te zien JSON, bezoek de [&#x200B; Bibliotheek van de Component &#x200B;](https://adobe.com/go/aem_cmp_library).
 
-Voor een meer diepgaande, op ontwikkelaar-georiënteerde inleiding aan het uitvoeren van de Componenten van de Kern op een AEM project door [ AEM Archetype van het Project ](/help/developing/archetype/overview.md) controle [ uit te gebruiken WKND leerprogramma.](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=nl-NL)
+Voor een meer diepgaande, op ontwikkelaar-georiënteerde inleiding aan het uitvoeren van de Componenten van de Kern op een AEM project door [&#x200B; AEM Archetype van het Project &#x200B;](/help/developing/archetype/overview.md) controle [&#x200B; uit te gebruiken WKND leerprogramma.](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=nl-NL)
 
 >[!NOTE]
 >
->De Componenten van de kern zijn niet onmiddellijk beschikbaar aan auteurs, moet het [ ontwikkelingsteam hen aan uw milieu ](/help/get-started/using.md) eerst integreren. Zodra geïntegreerd, kunnen zij beschikbaar worden gemaakt en pre-gevormd via de [ malplaatjedacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL).
+>De Componenten van de kern zijn niet onmiddellijk beschikbaar aan auteurs, moet het [&#x200B; ontwikkelingsteam hen aan uw milieu &#x200B;](/help/get-started/using.md) eerst integreren. Zodra geïntegreerd, kunnen zij beschikbaar worden gemaakt en pre-gevormd via de [&#x200B; malplaatjedacteur &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL).
 
 >[!CAUTION]
 >
->De Componenten van de kern [ vereisen AEM 6.4 of hoger ](/help/versions.md) en vereisen het gebruik van [ editable malplaatjes ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL). Zij werken niet met Klassieke UI noch met statische malplaatjes.
+>De Componenten van de kern [&#x200B; vereisen AEM 6.4 of hoger &#x200B;](/help/versions.md) en vereisen het gebruik van [&#x200B; editable malplaatjes &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL). Zij werken niet met Klassieke UI noch met statische malplaatjes.
 
 ## Ontwerpen met kerncomponenten {#authoring-with-core-components}
 
 Als auteur zult u verscheidene voordelen van de Componenten van de Kern opmerken, die omvatten:
 
-* Eenvoudig te gebruiken en goed-geïntegreerd met de [ paginaredacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=nl-NL)
+* Eenvoudig te gebruiken en goed-geïntegreerd met de [&#x200B; paginaredacteur &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=nl-NL)
 
-* Eigenschap-rijke mogelijkheden om vele gebruiksgevallen aan te passen zoals die door de [ WKND verwijzingsplaats ](https://wknd.site) evenals in de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library) worden geïllustreerd
+* Eigenschap-rijke mogelijkheden om vele gebruiksgevallen aan te passen zoals die door de [&#x200B; WKND verwijzingsplaats &#x200B;](https://wknd.site) evenals in de [&#x200B; Bibliotheek van de Component &#x200B;](https://adobe.com/go/aem_cmp_library) worden geïllustreerd
 
-* [ pre-configureerbaar ](#pre-configuring-core-components) om te bepalen welke eigenschappen aan paginaauteurs via de [ malplaatjeredacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL) beschikbaar zijn
+* [&#x200B; pre-configureerbaar &#x200B;](#pre-configuring-core-components) om te bepalen welke eigenschappen aan paginaauteurs via de [&#x200B; malplaatjeredacteur &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL) beschikbaar zijn
 
-* Gebouwd rond [ toegankelijkheidsrichtlijnen ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=nl-NL)
+* Gebouwd rond [&#x200B; toegankelijkheidsrichtlijnen &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=nl-NL)
 
-* Gebouwd om [ ontvankelijke lay-out ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html?lang=nl-NL) te steunen
+* Gebouwd om [&#x200B; ontvankelijke lay-out &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html?lang=nl-NL) te steunen
 
-* Gebouwd om [ gemakkelijke localisatie te steunen ](localization.md)
+* Gebouwd om [&#x200B; gemakkelijke localisatie te steunen &#x200B;](localization.md)
 
-De componenten zijn beschikbaar op het **lusje van Componenten** van het zijpaneel van de paginaredacteur wanneer [ het uitgeven van een pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=nl-NL).
+De componenten zijn beschikbaar op het **lusje van Componenten** van het zijpaneel van de paginaredacteur wanneer [&#x200B; het uitgeven van een pagina &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=nl-NL).
 
-Componenten worden gegroepeerd volgens categorieën die componentgroepen worden genoemd, zodat u de componenten eenvoudig kunt ordenen en filteren. De naam van de componentengroep wordt getoond met de component in [ componentenbrowser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=nl-NL) en het is ook mogelijk om door groep te filtreren om de juiste component gemakkelijk te vinden.
+Componenten worden gegroepeerd volgens categorieën die componentgroepen worden genoemd, zodat u de componenten eenvoudig kunt ordenen en filteren. De naam van de componentengroep wordt getoond met de component in [&#x200B; componentenbrowser &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=nl-NL) en het is ook mogelijk om door groep te filtreren om de juiste component gemakkelijk te vinden.
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Het vormen de Componenten van de Stichting was de baan van een ontwikkelaar. Noc
 
 Als het uploaden van afbeeldingen vanuit het bestandssysteem bijvoorbeeld niet is toegestaan door een afbeeldingscomponent, of als een tekstcomponent alleen bepaalde alineaopmaak moet toestaan, kunnen deze functies met een eenvoudige klik in- of uitgeschakeld worden.
 
-Zie [ Creërend de Malplaatjes van de Pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL) voor meer informatie.
+Zie [&#x200B; Creërend de Malplaatjes van de Pagina &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL) voor meer informatie.
 
 ### Dialoogvensters Bewerken en Ontwerpen {#edit-and-design-dialogs}
 
@@ -82,4 +82,4 @@ Voor verdere details zie de [&#128279;](https://experienceleague.adobe.com/docs/
 
 ## Bronnen voor ontwikkelaars {#developer-resources}
 
-Zie [ het Ontwikkelen van de ontwikkelaarsdocumentatie van de Componenten van de Kern ](/help/developing/overview.md) voor technische informatie betreffende kerncomponenten.
+Zie [&#x200B; het Ontwikkelen van de ontwikkelaarsdocumentatie van de Componenten van de Kern &#x200B;](/help/developing/overview.md) voor technische informatie betreffende kerncomponenten.

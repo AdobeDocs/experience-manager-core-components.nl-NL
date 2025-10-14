@@ -26,7 +26,7 @@ Met de Core-component voor de wizardlay-out kunt u in een adaptief formulier de 
 
 **Voorbeeld**
 
-![ voorbeeld ](/help/adaptive-forms/assets/wizard.png)
+![&#x200B; voorbeeld &#x200B;](/help/adaptive-forms/assets/wizard.png)
 
 ## Gebruik {#reasons-to-use-wizard-in-an-adaptive-form}
 
@@ -56,7 +56,7 @@ De Adaptive Forms Wizard Layout Core Component is in februari 2023 uitgebracht a
 |---|---|
 | Componentversie | AEM as a Cloud Service |
 | — | — |
-| v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel | Compatibel |
+| v1 | Compatibel systeem met <br>[&#x200B; versie 2.0.4 &#x200B;](/help/adaptive-forms/version.md) en later | Compatibel | Compatibel |
 
 Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
 
@@ -66,7 +66,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Technische details {#technical-details}
 
-Krijg de recentste informatie over de AanpassingsComponent van de Kern van de Tovenaar van Forms in de technische documentatie op [ GitHub ](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/wizard/v1/wizard). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern ](/help/developing/overview.md).
+Krijg de recentste informatie over de AanpassingsComponent van de Kern van de Tovenaar van Forms in de technische documentatie op [&#x200B; GitHub &#x200B;](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/wizard/v1/wizard). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern &#x200B;](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -74,7 +74,7 @@ Met het dialoogvenster Configureren kunt u de tovenaarservaring eenvoudig aanpas
 
 ### Tabblad Standaard {#basic-tab}
 
-![ Basis lusje ](/help/adaptive-forms/assets/wizard-basic.png)
+![&#x200B; Basis lusje &#x200B;](/help/adaptive-forms/assets/wizard-basic.png)
 
 - **Naam** - u kunt een vormcomponent gemakkelijk met zijn unieke naam zowel in de vorm als in de regelredacteur identificeren, maar de naam moet geen ruimten of speciale karakters bevatten.
 
@@ -119,7 +119,7 @@ Met het dialoogvenster Configureren kunt u de tovenaarservaring eenvoudig aanpas
 
 ### Tabblad Wizard Herhalen {#repeat-wizard-tab}
 
-![ herhalen tovenaar ](/help/adaptive-forms/assets/wizard-repeat.png)
+![&#x200B; herhalen tovenaar &#x200B;](/help/adaptive-forms/assets/wizard-repeat.png)
 
 Met de opties voor herhaling kunt u de wizard en de onderliggende componenten dupliceren, een minimum- en maximumaantal herhalingen definiëren en de replicatie van vergelijkbare secties in een formulier vergemakkelijken. Wanneer het in wisselwerking staan met de component van de Tovenaar en de toegang tot van zijn montages, worden de volgende opties voorgesteld:
 
@@ -127,17 +127,17 @@ Met de opties voor herhaling kunt u de wizard en de onderliggende componenten du
 - **Minimale herhalingen**: Vestigt het minimumaantal tijden het paneel van de Tovenaar kan worden herhaald. De waarde nul geeft aan dat het deelvenster Wizard niet wordt herhaald; de standaardwaarde is nul.
 - **Maximale herhalingen**: Plaatst het maximumaantal tijden het paneel van de Tovenaar kan worden herhaald. Deze waarde is standaard onbeperkt.
 
-Om herhaalbare secties binnen de Tovenaar effectief te beheren, volg de stappen die in [ worden verstrekt die vormen met herhaalbare secties ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=nl-NL) artikel creëren.
+Om herhaalbare secties binnen de Tovenaar effectief te beheren, volg de stappen die in [&#x200B; worden verstrekt die vormen met herhaalbare secties &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=nl-NL) artikel creëren.
 
 ### Tabblad Items {#items-tab}
 
-![ Punten tabel ](/help/adaptive-forms/assets/wizard_itemstab.png)
+![&#x200B; Punten tabel &#x200B;](/help/adaptive-forms/assets/wizard_itemstab.png)
 
 Met deze optie kunt u componenten Adaptief formulier toevoegen door op de knop Toevoegen te klikken. Deze knop wordt standaard weergegeven wanneer de wizard wordt toegevoegd in de bewerkingsmodus.
 
 ### Help, tabblad {#help-tab}
 
-![ Hulp tabel ](/help/adaptive-forms/assets/wizard_helptab.png)
+![&#x200B; Hulp tabel &#x200B;](/help/adaptive-forms/assets/wizard_helptab.png)
 
 - **Korte beschrijving** - een korte beschrijving is een korte tekstverklaring die extra informatie of verduidelijking over het doel van een specifiek vormgebied verstrekt. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. Laat **toe tonen altijd korte beschrijving** optie om het onder de component te tonen.
 
@@ -148,7 +148,7 @@ Met deze optie kunt u componenten Adaptief formulier toevoegen door op de knop T
 
 ### Tabblad Toegankelijkheid {#accessibility}
 
-![ Toegankelijkheid tabel ](/help/adaptive-forms/assets/wizard_accessibiltytab.png)
+![&#x200B; Toegankelijkheid tabel &#x200B;](/help/adaptive-forms/assets/wizard_accessibiltytab.png)
 
 - **Tekst voor het schermlezers** - de Tekst voor het schermlezers verwijst naar extra tekst die specifiek bedoeld is om door ondersteunende technologieën, zoals het schermlezers te worden gelezen, die door visueel gehandicapte individuen wordt gebruikt. Deze tekst bevat een audiobeschrijving van het doel van het formulierveld en kan informatie bevatten over de titel, beschrijving, naam en relevante berichten (aangepaste tekst) van het veld. Met de schermlezertekst kunt u ervoor zorgen dat het formulier toegankelijk is voor alle gebruikers, inclusief gebruikers met een visuele handicap, en krijgt deze een volledig inzicht in het formulierveld en de vereisten ervan.
    - **Tekst van de Douane**: Selecteer deze optie om de douanetekst voor de toegankelijkheidslabels van ARIA te gebruiken. Als u deze optie selecteert, wordt het dialoogvenster Aangepaste tekst weergegeven. U kunt relevante informatie toevoegen in het dialoogvenster Aangepaste tekst.
@@ -171,7 +171,7 @@ Hierdoor wordt het maken en aanpassen van formulieren eenvoudiger en efficiënte
 
 ### Tabblad Toegestane componenten {#allowed-components-tab}
 
-![ Toegestane Componenten tabel ](/help/adaptive-forms/assets/tabs-allowed-component.png)
+![&#x200B; Toegestane Componenten tabel &#x200B;](/help/adaptive-forms/assets/tabs-allowed-component.png)
 
 Het **Toegestane lusje van Componenten** staat malplaatjeredacteur toe om de componenten te plaatsen die als punten aan de panelen in de tovenaarscomponent in de Aangepaste redacteur van Forms kunnen worden toegevoegd.
 
@@ -179,7 +179,7 @@ Het **Toegestane lusje van Componenten** staat malplaatjeredacteur toe om de com
 
 Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve component van de de tovenaarKern van Forms steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
-![ het lusje van Stijlen ](/help/adaptive-forms/assets/tabs-styles-tab.png)
+![&#x200B; het lusje van Stijlen &#x200B;](/help/adaptive-forms/assets/tabs-styles-tab.png)
 
 - **StandaardCSS Klassen**: U kunt een standaardCSS klasse voor de Adaptieve Component van de TovenaarKern van Forms verstrekken.
 
@@ -187,7 +187,7 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor een component te
 
 ### Tabblad Aangepaste eigenschappen
 
-![ Eigenschappen tabel van de Douane ](/help/adaptive-forms/assets/tabs-custom-properties.png)
+![&#x200B; Eigenschappen tabel van de Douane &#x200B;](/help/adaptive-forms/assets/tabs-custom-properties.png)
 
 Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aan een Adaptief kernonderdeel van een formulier koppelen met behulp van de formuliersjabloon. De aangepaste eigenschappen worden weergegeven in de sectie Eigenschappen van de koploze uitvoering van de component. Hiermee kunt u dynamisch formuliergedrag maken dat wordt aangepast op basis van de waarden van aangepaste kenmerken. Ontwikkelaars kunnen bijvoorbeeld verschillende uitvoeringen van een Forms-component zonder koptekst ontwerpen voor mobiele apparaten, desktops of webplatforms, waardoor de gebruikerservaring op een groot aantal apparaten aanzienlijk wordt verbeterd.
 

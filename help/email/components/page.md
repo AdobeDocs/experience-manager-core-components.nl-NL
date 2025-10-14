@@ -14,14 +14,14 @@ ht-degree: 0%
 
 # Component E-mailpagina {#email-page-component}
 
-De component E-mail van de Pagina is een verlengbare paginacomponent die wordt ontworpen om met de [ malplaatjedacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL) te werken en staat paginakopbal/footer en structuurcomponenten toe om met de malplaatjedacteur worden geassembleerd, die voor het creëren van de inhoud van Adobe Campaign wordt gemaakt.
+De component E-mail van de Pagina is een verlengbare paginacomponent die wordt ontworpen om met de [&#x200B; malplaatjedacteur &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL) te werken en staat paginakopbal/footer en structuurcomponenten toe om met de malplaatjedacteur worden geassembleerd, die voor het creëren van de inhoud van Adobe Campaign wordt gemaakt.
 
 ## Gebruik {#usage}
 
 De component E-mailpagina vormt de basis voor alle pagina&#39;s die zijn ontworpen met de E-mailkern-componenten en bewerkbare sjablonen. Met de component E-mailpagina kunt u kop- en voetteksten en de structuur van de pagina definiëren als een sjabloon met de andere onderdelen van de e-mailkern.
 
-* Gebruikend de [ ontwerpdialoog, ](#design-dialog) douane cliënt-zijbibliotheken kunnen voor de pagina worden bepaald.
-* In tegenstelling tot andere componenten die een uitgeven dialoog hebben direct toegankelijk van de component, omdat de Component van de E-mailPagina de pagina zelf is, geeft [ dialoog uit ](#edit-dialog) van de Component van de E-mailPagina is het venster van pagina-eigenschappen.
+* Gebruikend de [&#x200B; ontwerpdialoog, &#x200B;](#design-dialog) douane cliënt-zijbibliotheken kunnen voor de pagina worden bepaald.
+* In tegenstelling tot andere componenten die een uitgeven dialoog hebben direct toegankelijk van de component, omdat de Component van de E-mailPagina de pagina zelf is, geeft [&#x200B; dialoog uit &#x200B;](#edit-dialog) van de Component van de E-mailPagina is het venster van pagina-eigenschappen.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -33,55 +33,55 @@ In de volgende tabel worden alle ondersteunde versies van de component, de AEM-v
 |---|---|---|---|
 | v1 | Compatibel | - | - |
 
-Voor meer informatie over de versies en versies van de Component van de Kern E-mailE-mail van de Component, zie het document [ Versies van de Componenten van de Kern ](/help/email/versions.md)
+Voor meer informatie over de versies en versies van de Component van de Kern E-mailE-mail van de Component, zie het document [&#x200B; Versies van de Componenten van de Kern &#x200B;](/help/email/versions.md)
 
 ### Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Pagina [ kan op GitHub worden gevonden.](https://adobe.com/go/aem_cmp_tech_email_page_v1)
+De recentste technische documentatie over de Component van de Pagina [&#x200B; kan op GitHub worden gevonden.](https://adobe.com/go/aem_cmp_tech_email_page_v1)
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden &#x200B;](/help/developing/overview.md).
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
-Omdat de component de volledige pagina vertegenwoordigt, worden de montages die normaal in zouden zijn uitgeeft dialoog gevonden in het [ venster van de Eigenschappen van de Pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=nl-NL).
+Omdat de component de volledige pagina vertegenwoordigt, worden de montages die normaal in zouden zijn uitgeeft dialoog gevonden in het [&#x200B; venster van de Eigenschappen van de Pagina &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=nl-NL).
 
 ### Tabblad Cloud Services {#cloud-services}
 
 De pagina moet gekoppeld zijn aan een Adobe Campaign-configuratie zodat de e-mailCore-componenten campagnevariabelen en -gegevens kunnen ophalen.
 
-![ E-mailEigenschappen van de Pagina ](/help/email/assets/email-page-properties.png)
+![&#x200B; E-mailEigenschappen van de Pagina &#x200B;](/help/email/assets/email-page-properties.png)
 
 Onder **de rubriek van de Configuratie van Cloud Service**, in de drop-down uitgezochte **voegt Configuratie** toe.
 
 Onder **Adobe Campaign** rubriek, selecteer de configuratie voor uw integratie met Adobe Campaign.
 
-Zie het document [ Gebruikend de Componenten van de Kern E-mail ](/help/email/using.md) voor meer informatie over vestiging de Componenten van de Kern E-mail.
+Zie het document [&#x200B; Gebruikend de Componenten van de Kern E-mail &#x200B;](/help/email/using.md) voor meer informatie over vestiging de Componenten van de Kern E-mail.
 
 ### Tabblad E-mail {#email-tab}
 
 Het tabblad E-mail definieert eigenschappen van e-mails die via Adobe Campaign worden verzonden op basis van de inhoud van deze pagina, zoals het onderwerp E-mail en onbewerkte tekstinhoud.
 
-![ E-mailEigenschappen van de Pagina ](/help/email/assets/email-page-properties-email.png)
+![&#x200B; E-mailEigenschappen van de Pagina &#x200B;](/help/email/assets/email-page-properties-email.png)
 
 * **Onderwerp** - Het onderwerp van e-mail die door Adobe Campaign wordt verzonden die op deze pagina wordt gebaseerd
-   * Klik het **Uitgezochte de Variabele van Adobe Campaign** pictogram om [ Uitgezochte de Variabele van Adobe Campaign ](/help/email/campaign-variables.md) dialoog te openen om dynamische inhoud van Adobe Campaign op te nemen.
+   * Klik het **Uitgezochte de Variabele van Adobe Campaign** pictogram om [&#x200B; Uitgezochte de Variabele van Adobe Campaign &#x200B;](/help/email/campaign-variables.md) dialoog te openen om dynamische inhoud van Adobe Campaign op te nemen.
 * **pre-kopbal**
-   * Klik het **Uitgezochte de Variabele van Adobe Campaign** pictogram om [ Uitgezochte de Variabele van Adobe Campaign ](/help/email/campaign-variables.md) dialoog te openen om dynamische inhoud van Adobe Campaign op te nemen.
+   * Klik het **Uitgezochte de Variabele van Adobe Campaign** pictogram om [&#x200B; Uitgezochte de Variabele van Adobe Campaign &#x200B;](/help/email/campaign-variables.md) dialoog te openen om dynamische inhoud van Adobe Campaign op te nemen.
 * **Onbewerkte tekst** - de gewone tekstversie van e-mail die door Adobe Campaign wordt verzonden
-   * Klik het **Uitgezochte de Variabele van Adobe Campaign** pictogram om [ Uitgezochte de Variabele van Adobe Campaign ](/help/email/campaign-variables.md) dialoog te openen om dynamische inhoud van Adobe Campaign op te nemen.
+   * Klik het **Uitgezochte de Variabele van Adobe Campaign** pictogram om [&#x200B; Uitgezochte de Variabele van Adobe Campaign &#x200B;](/help/email/campaign-variables.md) dialoog te openen om dynamische inhoud van Adobe Campaign op te nemen.
 * **Verwijzing URL**
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
 Omdat de component de volledige pagina vertegenwoordigt, wordt de ontwerpdialoog betreden via **Informatie van de Pagina -> Beleid van de Pagina** wanneer het uitgeven van het paginamalplaatje.
 
-![ Beleid van de Pagina ](/help/assets/page-policy.png)
+![&#x200B; Beleid van de Pagina &#x200B;](/help/assets/page-policy.png)
 
 ### Tabblad Eigenschappen {#properties-tab}
 
 Met behulp van het venster Paginaontwerp kunt u de te laden clientbibliotheken en de bibliotheek met webbronnen voor de pagina definiëren.
 
-![ het ontwerpdialoog van de Component van de E-mail van de Pagina ](/help/email/assets/email-page-design.png)
+![&#x200B; het ontwerpdialoog van de Component van de E-mail van de Pagina &#x200B;](/help/email/assets/email-page-design.png)
 
 * **Bibliotheken van de Cliënt** - dit bepaalt de categorieën van de cliëntbibliotheek aan lading. JavaScript wordt toegevoegd aan het hoofdgedeelte en de CSS wordt toegevoegd aan de paginakop.
 * **de Bibliotheken van de Cliënt JavaScript Hoofd van de Pagina** - dit bepaalt de categorieën van de de cliëntbibliotheek van JavaScript in de paginakop te laden.
@@ -97,7 +97,7 @@ De bibliotheken kunnen voor zowel de **Bibliotheken van de Cliënt** als **het H
 * Als u een veld wilt verwijderen, klikt of tikt u op het prullenbakpictogram naast het veld dat u wilt verwijderen.
 * Als u de laadvolgorde wilt wijzigen, klikt of tikt u op de greep naast het te verplaatsen veld.
 
-Voor meer informatie over het gebruiken van cliënt-zijbibliotheken, zie [ Gebruikend de Bibliotheken van de Kant van de Cliënt.](https://helpx.adobe.com/nl/experience-manager/6-5/sites/developing/using/clientlibs.html)
+Voor meer informatie over het gebruiken van cliënt-zijbibliotheken, zie [&#x200B; Gebruikend de Bibliotheken van de Kant van de Cliënt.](https://helpx.adobe.com/nl/experience-manager/6-5/sites/developing/using/clientlibs.html)
 
 ### Tabblad Stijlen {#styles-tab}
 

@@ -19,7 +19,7 @@ Met een tekstinvoercomponent (tekstvak) kan een gebruiker een of meer tekstregel
 
 **Voorbeeld**
 
-![ voorbeeld ](/help/adaptive-forms/assets/text-input.png)
+![&#x200B; voorbeeld &#x200B;](/help/adaptive-forms/assets/text-input.png)
 
 
 ## Gebruik {#reasons-to-use-text-input-field}
@@ -38,7 +38,7 @@ De Adaptive Forms Text box Core Component is in februari 2023 uitgebracht als on
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
-| v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
+| v1 | Compatibel systeem met <br>[&#x200B; versie 2.0.4 &#x200B;](/help/adaptive-forms/version.md) en later | Compatibel met <br>[&#x200B; versie 1.1.12 &#x200B;](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
 Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
 
@@ -48,7 +48,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Technische details {#technical-details}
 
-Krijg de recentste informatie over de Adaptieve Component van de Kern van Forms TextBox in de technische documentatie op [ GitHub ](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern ](/help/developing/overview.md).
+Krijg de recentste informatie over de Adaptieve Component van de Kern van Forms TextBox in de technische documentatie op [&#x200B; GitHub &#x200B;](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern &#x200B;](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -56,13 +56,13 @@ Met het dialoogvenster Configureren kunt u uw ervaring met tekstinvoer eenvoudig
 
 ### Het tabblad Basis
 
-![ BasisLusje ](/help/adaptive-forms/assets/textinput_basictab.png)
+![&#x200B; BasisLusje &#x200B;](/help/adaptive-forms/assets/textinput_basictab.png)
 
 - **Naam** - u kunt een vormcomponent gemakkelijk met zijn unieke naam zowel in de vorm als in de regelredacteur identificeren, maar de naam moet geen ruimten of speciale karakters bevatten.
 
 - **Titel** - met zijn Titel, kunt u een component in een vorm gemakkelijk identificeren en door gebrek, verschijnt de titel bovenop de component. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
-  Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
+  Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![&#x200B; pictogram Volledig scherm &#x200B;](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
   ![&#128279;](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0&rbrace;
 
@@ -86,7 +86,7 @@ Met het dialoogvenster Configureren kunt u uw ervaring met tekstinvoer eenvoudig
 
 ### Tabblad Validatie {#validation-tab}
 
-![ het lusje van de Bevestiging ](/help/adaptive-forms/assets/textinput_validationtab.png)
+![&#x200B; het lusje van de Bevestiging &#x200B;](/help/adaptive-forms/assets/textinput_validationtab.png)
 
 - **Vereist** - selecteer deze optie, als u de component in een Aangepaste Vorm wilt tonen. Nadat u de optie hebt geselecteerd, moet u een waarde invoeren voordat u verdergaat met het verzenden van een formulier. U kunt niet de **Component van de Verbergen** selecteren of **Component** in het **Basis** lusje onbruikbaar maken wanneer deze optie wordt geselecteerd.
 
@@ -110,7 +110,7 @@ De **optie van het Patroon van de Bevestiging** staat u toe om een patroon in te
 
 ### Het tabblad Help-inhoud {#help-content-tab}
 
-![ Inhoud tabel van de Hulp ](/help/adaptive-forms/assets/textinput_helptab.png)
+![&#x200B; Inhoud tabel van de Hulp &#x200B;](/help/adaptive-forms/assets/textinput_helptab.png)
 
 - **Korte beschrijving** - een korte beschrijving is een korte tekstverklaring die extra informatie of verduidelijking over het doel van een specifiek vormgebied verstrekt. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. Laat **toe tonen altijd korte beschrijving** optie om het onder de component te tonen.
 
@@ -120,7 +120,7 @@ De **optie van het Patroon van de Bevestiging** staat u toe om een patroon in te
 
 ### Tabblad Toegankelijkheid {#accessibility-tab}
 
-![ Toegankelijkheid tabel ](/help/adaptive-forms/assets/textinput_accessibiltytab.png)
+![&#x200B; Toegankelijkheid tabel &#x200B;](/help/adaptive-forms/assets/textinput_accessibiltytab.png)
 
 - **Tekst voor het schermlezers** - de Tekst voor het schermlezers verwijst naar extra tekst die specifiek bedoeld is om door ondersteunende technologieën, zoals het schermlezers te worden gelezen, die door visueel gehandicapte individuen wordt gebruikt. Deze tekst bevat een audiobeschrijving van het doel van het formulierveld en kan informatie bevatten over de titel, beschrijving, naam en relevante berichten (aangepaste tekst) van het veld. Met de schermlezertekst kunt u ervoor zorgen dat het formulier toegankelijk is voor alle gebruikers, inclusief gebruikers met een visuele handicap, en krijgt deze een volledig inzicht in het formulierveld en de vereisten ervan.
    - **Tekst van de Douane**: Selecteer deze optie om de douanetekst voor de toegankelijkheidslabels van ARIA te gebruiken. Als u deze optie selecteert, wordt het dialoogvenster Aangepaste tekst weergegeven. U kunt relevante informatie toevoegen in het dialoogvenster Aangepaste tekst.
@@ -137,7 +137,7 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de component Tek
 
 Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve de doosComponent van de Kern van de Tekst van Forms steunt het systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
-![ lusje van de Stijl ](/help/adaptive-forms/assets/datepicker_styletab.png)
+![&#x200B; lusje van de Stijl &#x200B;](/help/adaptive-forms/assets/datepicker_styletab.png)
 
 - **StandaardCSS Klassen**: U kunt een standaardCSS klasse voor de Aangepaste Component van de Kern van de Doos van de Tekst van Forms verstrekken.
 
@@ -145,7 +145,7 @@ Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en t
 
 ### Aangepaste eigenschappen
 
-![ de Dialoog van Eigenschappen van de Douane ](/help/adaptive-forms/assets/datepicker_customproperties.png)
+![&#x200B; de Dialoog van Eigenschappen van de Douane &#x200B;](/help/adaptive-forms/assets/datepicker_customproperties.png)
 
 Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aan een Adaptief kernonderdeel van een formulier koppelen met behulp van de formuliersjabloon. De aangepaste eigenschappen worden weergegeven in de sectie Eigenschappen van de koploze uitvoering van de component. Hiermee kunt u dynamisch formuliergedrag maken dat wordt aangepast op basis van de waarden van aangepaste kenmerken. Ontwikkelaars kunnen bijvoorbeeld verschillende uitvoeringen van een Forms-component zonder koptekst ontwerpen voor mobiele apparaten, desktops of webplatforms, waardoor de gebruikerservaring op een groot aantal apparaten aanzienlijk wordt verbeterd.
 
@@ -161,7 +161,7 @@ Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aa
 
 Op het tabblad Indelingen kunt u standaard- en aangepaste datumnotaties opgeven.
 
-![ Formattab ](/help/adaptive-forms/assets/emailinput_formattab.png)
+![&#x200B; Formattab &#x200B;](/help/adaptive-forms/assets/emailinput_formattab.png)
 
 <!--
 

@@ -21,10 +21,10 @@ De taalnavigatiecomponent biedt een taal-/landnavigatie voor een site, zodat bez
 
 Websites worden vaak in meerdere talen aangeboden voor verschillende gebieden. Met de taalnavigatiecomponent kan een bezoeker dezelfde pagina in verschillende talen/landinstellingen bekijken. Dus als je een lezer bent op de Zwitserse Duitse versie van de website, kun je gemakkelijk overschakelen naar de Engelse versie van de Verenigde Staten van dezelfde pagina. Met de component Taalnavigatie krijgt u inzicht in de taalstructuur van de site en wordt de bijbehorende pagina automatisch gevonden.
 
-* Voor een voorbeeld van hoe de localisatieeigenschap van de Component van de Navigatie van de Taal werkt, zie [ de sectie hieronder ](#example).
-* Voor een voorbeeld van hoe de localisatieeigenschappen van de andere Componenten van de Kern samenwerken, zie de [ Eigenschappen van de Locatie van de pagina van de Componenten van de Kern ](/help/get-started/localization.md).
+* Voor een voorbeeld van hoe de localisatieeigenschap van de Component van de Navigatie van de Taal werkt, zie [&#x200B; de sectie hieronder &#x200B;](#example).
+* Voor een voorbeeld van hoe de localisatieeigenschappen van de andere Componenten van de Kern samenwerken, zie de [&#x200B; Eigenschappen van de Locatie van de pagina van de Componenten van de Kern &#x200B;](/help/get-started/localization.md).
 
-Het [ geeft dialoog ](#edit-dialog) uit staat de definitie van de globale wortel van de plaatsnavigatie evenals toe hoe diep in de structuur de navigatie zou moeten gaan. Gebruikend de [ ontwerpdialoog ](#design-dialog), kan de malplaatjeauteur de standaardwaarden voor de zelfde opties plaatsen.
+Het [&#x200B; geeft dialoog &#x200B;](#edit-dialog) uit staat de definitie van de globale wortel van de plaatsnavigatie evenals toe hoe diep in de structuur de navigatie zou moeten gaan. Gebruikend de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog), kan de malplaatjeauteur de standaardwaarden voor de zelfde opties plaatsen.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -35,25 +35,25 @@ In de volgende tabel worden alle ondersteunde versies van de component, de AEM-v
 | Componentversie | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
 | v2 | - | Compatibel | Compatibel | Compatibel |
-| [ v1 ](v1/language-navigation.md) | Compatibel | Compatibel | - | Compatibel |
+| [&#x200B; v1 &#x200B;](v1/language-navigation.md) | Compatibel | Compatibel | - | Compatibel |
 
-Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
+Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [&#x200B; Kern &#x200B;](/help/versions.md).
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Om de Component van de Navigatie van de Taal te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library_langnav).
+Om de Component van de Navigatie van de Taal te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [&#x200B; Bibliotheek van de Component &#x200B;](https://adobe.com/go/aem_cmp_library_langnav).
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Navigatie van de Taal [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_langnav_v2) worden gevonden.
+De recentste technische documentatie over de Component van de Navigatie van de Taal [&#x200B; kan op GitHub &#x200B;](https://adobe.com/go/aem_cmp_tech_langnav_v2) worden gevonden.
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden &#x200B;](/help/developing/overview.md).
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
 In het dialoogvenster Ontwerpen kunt u de globale hoofdmap voor sitenavigatie definiëren en aangeven hoe diep de structuur van de navigatie in moet gaan.
 
-Doorgaans hoeven deze configuraties alleen op paginasjabloonniveau te worden uitgevoerd. Nochtans, kunnen zij op het paginaniveau via [ worden veranderd uitgeeft dialoog ](#edit-dialog).
+Doorgaans hoeven deze configuraties alleen op paginasjabloonniveau te worden uitgevoerd. Nochtans, kunnen zij op het paginaniveau via [&#x200B; worden veranderd uitgeeft dialoog &#x200B;](#edit-dialog).
 
 ### Tabblad Eigenschappen {#properties-tab}
 
@@ -101,9 +101,9 @@ De component van de Navigatie van de Taal steunt het Systeem van de Stijl van AE
 
 ### Tabblad Eigenschappen {#properties-tab-edit}
 
-Doorgaans hoeft de component Taalnavigatie alleen aan de paginasjablonen van een site te worden toegevoegd en geconfigureerd. Nochtans als de component van de Navigatie van de Taal aan een individuele inhoudspagina moet worden toegevoegd, geeft dialoog een inhoudsauteur toe om de zelfde waarden te vormen zoals die in de [ ontwerpdialoog ](#design-dialog) worden beschreven
+Doorgaans hoeft de component Taalnavigatie alleen aan de paginasjablonen van een site te worden toegevoegd en geconfigureerd. Nochtans als de component van de Navigatie van de Taal aan een individuele inhoudspagina moet worden toegevoegd, geeft dialoog een inhoudsauteur toe om de zelfde waarden te vormen zoals die in de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog) worden beschreven
 
-Bovendien kunt u een **identiteitskaart** plaatsen. Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens ](/help/developing/data-layer/overview.md) te controleren.
+Bovendien kunt u een **identiteitskaart** plaatsen. Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [&#x200B; Laag van Gegevens &#x200B;](/help/developing/data-layer/overview.md) te controleren.
 
 * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
 * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
@@ -115,7 +115,7 @@ Bovendien kunt u een **identiteitskaart** plaatsen. Deze optie staat toe om het 
 
 * **Etiket** - Deze optie zou moeten worden bepaald als er meer dan één taalnavigatie op de pagina is om de aria etiketattributen van de component te plaatsen.
 
-![ Toegankelijkheid tabel van de Navigatie van de Taal ](/help/assets/language-navigation-edit-accessibility.png)
+![&#x200B; Toegankelijkheid tabel van de Navigatie van de Taal &#x200B;](/help/assets/language-navigation-edit-accessibility.png)
 
 ### Tabblad Stijlen {#styles-tab-edit}
 
@@ -123,10 +123,10 @@ De Component van de Navigatie van de Taal steunt het Systeem van de Stijl van AE
 
 Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
 
-De stijlen moeten voor deze component in de [ ontwerpdialoog ](#design-dialog) worden gevormd opdat het drop-down menu beschikbaar is.
+De stijlen moeten voor deze component in de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog) worden gevormd opdat het drop-down menu beschikbaar is.
 
-![ Stijlen lusje van uitgeeft dialoog van de Component van de Navigatie van de Taal ](/help/assets/language-navigation-edit-styles.png)
+![&#x200B; Stijlen lusje van uitgeeft dialoog van de Component van de Navigatie van de Taal &#x200B;](/help/assets/language-navigation-edit-styles.png)
 
 ## Adobe Client Data Layer {#data-layer}
 
-De Component van de Navigatie van de Taal steunt de [ Gegevens van de Cliënt van Adobe Laag.](/help/developing/data-layer/overview.md)
+De Component van de Navigatie van de Taal steunt de [&#x200B; Gegevens van de Cliënt van Adobe Laag.](/help/developing/data-layer/overview.md)

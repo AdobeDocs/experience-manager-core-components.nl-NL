@@ -21,9 +21,9 @@ Met de navigatiecomponent kunnen gebruikers gemakkelijk door een geglobaliseerde
 
 In de navigatiecomponent wordt een boomstructuur met pagina&#39;s weergegeven, zodat gebruikers van een site gemakkelijk door de sitestructuur kunnen navigeren.
 
-De component van de Navigatie kan automatisch de geglobaliseerde plaatsstructuur van uw plaats ontdekken en [ aanpassen automatisch aan een gelokaliseerde pagina.](#localized-site-structure) Bovendien kan het om het even welke willekeurige plaatsstructuur steunen door [ schaduw te gebruiken herleidt pagina&#39;s ](#shadow-structure) om een andere structuur buiten uw belangrijkste inhoudsstructuur te vertegenwoordigen.
+De component van de Navigatie kan automatisch de geglobaliseerde plaatsstructuur van uw plaats ontdekken en [&#x200B; aanpassen automatisch aan een gelokaliseerde pagina.](#localized-site-structure) Bovendien kan het om het even welke willekeurige plaatsstructuur steunen door [&#x200B; schaduw te gebruiken herleidt pagina&#39;s &#x200B;](#shadow-structure) om een andere structuur buiten uw belangrijkste inhoudsstructuur te vertegenwoordigen.
 
-Het [ geeft dialoog uit ](#edit-dialog) staat de inhoudauteur toe om de pagina van de navigatiekarakter samen met de diepte van navigatie te bepalen. De [ ontwerpdialoog ](#design-dialog) staat de malplaatjeauteur toe om standaardwaarden voor de navigatiekartel en de diepte te bepalen.
+Het [&#x200B; geeft dialoog uit &#x200B;](#edit-dialog) staat de inhoudauteur toe om de pagina van de navigatiekarakter samen met de diepte van navigatie te bepalen. De [&#x200B; ontwerpdialoog &#x200B;](#design-dialog) staat de malplaatjeauteur toe om standaardwaarden voor de navigatiekartel en de diepte te bepalen.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -34,16 +34,16 @@ In de volgende tabel worden alle ondersteunde versies van de component, de AEM-v
 | Componentversie | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
 | v2 | - | Compatibel | Compatibel | Compatibel |
-| [ v1 ](v1/navigation.md) | Compatibel | Compatibel | - | Compatibel |
+| [&#x200B; v1 &#x200B;](v1/navigation.md) | Compatibel | Compatibel | - | Compatibel |
 
-Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
+Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [&#x200B; Kern &#x200B;](/help/versions.md).
 
 ## Ondersteuning voor gelokaliseerde sitestructuur {#localized-site-structure}
 
 Websites worden vaak in meerdere talen aangeboden voor verschillende gebieden. Doorgaans bevat elke gelokaliseerde pagina een navigatie-element dat is opgenomen als onderdeel van de paginasjabloon. Met de navigatiecomponent kunt u de component één keer op een sjabloon plaatsen voor alle pagina&#39;s van uw site. Vervolgens wordt de component automatisch aangepast voor de afzonderlijke gelokaliseerde pagina&#39;s op basis van uw geglobaliseerde sitestructuur.
 
-* Voor een voorbeeld van hoe de localisatieeigenschap van de Component van de Navigatie werkt, zie [ de sectie hieronder ](#example-localization).
-* Voor een voorbeeld van hoe de localisatieeigenschappen van de Componenten van de Kern samenwerken, zie de [ Eigenschappen van de Localisatie van de pagina van de Componenten van de Kern ](/help/get-started/localization.md).
+* Voor een voorbeeld van hoe de localisatieeigenschap van de Component van de Navigatie werkt, zie [&#x200B; de sectie hieronder &#x200B;](#example-localization).
+* Voor een voorbeeld van hoe de localisatieeigenschappen van de Componenten van de Kern samenwerken, zie de [&#x200B; Eigenschappen van de Localisatie van de pagina van de Componenten van de Kern &#x200B;](/help/get-started/localization.md).
 
 ### Voorbeeld {#example-localization}
 
@@ -117,17 +117,17 @@ Wanneer een pagina een omleidingsdoel heeft (ongeacht of deze naar een externe U
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Om de Component van de Navigatie te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library_navigation).
+Om de Component van de Navigatie te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [&#x200B; Bibliotheek van de Component &#x200B;](https://adobe.com/go/aem_cmp_library_navigation).
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Navigatie [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_navigation_v2) worden gevonden.
+De recentste technische documentatie over de Component van de Navigatie [&#x200B; kan op GitHub &#x200B;](https://adobe.com/go/aem_cmp_tech_navigation_v2) worden gevonden.
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden &#x200B;](/help/developing/overview.md).
 
 >[!NOTE]
 >
->Vanaf versie 2.1.0 van de Componenten van de Kern, steunt de Component van de Navigatie [ schema.org microdata ](https://schema.org).
+>Vanaf versie 2.1.0 van de Componenten van de Kern, steunt de Component van de Navigatie [&#x200B; schema.org microdata &#x200B;](https://schema.org).
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
@@ -135,7 +135,7 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud de basispagina voor n
 
 ### Tabblad Eigenschappen {#properties-tab}
 
-![ de component van de Navigatie geeft dialoogeigenschappen tabel uit ](/help/assets/navigation-edit-properties.png)
+![&#x200B; de component van de Navigatie geeft dialoogeigenschappen tabel uit &#x200B;](/help/assets/navigation-edit-properties.png)
 
 * **Basis van de Navigatie** - de wortelpagina, die zal worden gebruikt om de navigatieboom te produceren.
 * **sluit de Niveaus van de Wortel** uit - vaak zou de wortel niet in de navigatie moeten worden omvat. Met deze optie kunt u opgeven hoeveel niveaus boven het basisniveau u wilt uitsluiten. Bijvoorbeeld:
@@ -145,17 +145,17 @@ In het dialoogvenster Bewerken kan de auteur van de inhoud de basispagina voor n
    * enz.
 * **verzamel alle kindpagina&#39;s** - verzamel alle pagina&#39;s die nakomelingen van de navigatiewortel zijn.
 * **de Diepte van de Structuur van de Navigatie** - bepaalt hoeveel niveaus onderaan de navigatieboom de component met betrekking tot de navigatiewortel (slechts beschikbaar wanneer **verzamel alle kindpagina&#39;s** niet wordt geselecteerd) zou moeten tonen.
-* **maak schaduw** onbruikbaar - als de pagina in de hiërarchie een omleiding is, zal de naam van de het omleiden pagina in plaats van het doel worden getoond. Zie de [ Steun van de Structuur van de Plaats van de Schaduw ](#shadow-structure) voor meer informatie.
-* **identiteitskaart** - Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens te controleren ](/help/developing/data-layer/overview.md).
+* **maak schaduw** onbruikbaar - als de pagina in de hiërarchie een omleiding is, zal de naam van de het omleiden pagina in plaats van het doel worden getoond. Zie de [&#x200B; Steun van de Structuur van de Plaats van de Schaduw &#x200B;](#shadow-structure) voor meer informatie.
+* **identiteitskaart** - Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [&#x200B; Laag van Gegevens te controleren &#x200B;](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
 ### Tabblad Toegankelijkheid {#accessibility-tab}
 
-![ de component van de Navigatie geeft dialoogtoegankelijkheid tabel uit ](/help/assets/navigation-edit-accessibility.png)
+![&#x200B; de component van de Navigatie geeft dialoogtoegankelijkheid tabel uit &#x200B;](/help/assets/navigation-edit-accessibility.png)
 
-Op het **lusje van de Toegankelijkheid**, kunnen de waarden voor [ de toegankelijkheidslabels van ARIA ](https://www.w3.org/WAI/standards-guidelines/aria/) voor de component worden geplaatst.
+Op het **lusje van de Toegankelijkheid**, kunnen de waarden voor [&#x200B; de toegankelijkheidslabels van ARIA &#x200B;](https://www.w3.org/WAI/standards-guidelines/aria/) voor de component worden geplaatst.
 
 * **Etiket** - Waarde van een ARIA etiketattribuut voor de component
 
@@ -165,9 +165,9 @@ De Component van de Navigatie steunt het Systeem van de Stijl van AEM [.](/help/
 
 Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
 
-De stijlen moeten voor deze component in de [ ontwerpdialoog ](#design-dialog) worden gevormd opdat het drop-down menu beschikbaar is.
+De stijlen moeten voor deze component in de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog) worden gevormd opdat het drop-down menu beschikbaar is.
 
-![ Stijlen lusje van uitgeeft dialoog van de Component van de Navigatie ](/help/assets/navigation-edit-styles.png)
+![&#x200B; Stijlen lusje van uitgeeft dialoog van de Component van de Navigatie &#x200B;](/help/assets/navigation-edit-styles.png)
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -175,7 +175,7 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur de standaardwaarden instel
 
 ### Tabblad Eigenschappen {#properties-tab-design}
 
-![ het ontwerpdialoog van de Component van de Navigatie ](/help/assets/navigation-design.png)
+![&#x200B; het ontwerpdialoog van de Component van de Navigatie &#x200B;](/help/assets/navigation-design.png)
 
 * **Wortel van de Navigatie** - de standaardwaarde van de wortelpagina van de navigatiestructuur, die zal worden gebruikt om de navigatieboom te produceren en in gebreke te blijven wanneer de inhoudauteur de component aan de pagina toevoegt.
 * **sluit de Niveaus van de Wortel** uit - vaak zou de wortel niet in de navigatie moeten worden omvat. Met deze optie kunt u de standaardinstelling opgeven voor hoeveel niveaus boven het basisniveau u wilt uitsluiten. Bijvoorbeeld:
@@ -193,4 +193,4 @@ De component van de Navigatie steunt het Systeem van de Stijl van AEM [&#128279;
 
 ## Adobe Client Data Layer {#data-layer}
 
-De Component van de Navigatie steunt de [ Laag van de Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)
+De Component van de Navigatie steunt de [&#x200B; Laag van de Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)

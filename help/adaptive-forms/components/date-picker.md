@@ -17,7 +17,7 @@ Een component voor de datumkiezer in een adaptief formulier is een interface-ele
 
 **Voorbeeld**
 
-![ voorbeeld ](/help/adaptive-forms/assets/date-picker.png)
+![&#x200B; voorbeeld &#x200B;](/help/adaptive-forms/assets/date-picker.png)
 
 ## Gebruik {#reasons-to-use-drop-date-picker}
 
@@ -41,9 +41,9 @@ De Adaptive Forms Date picker Core Component is in februari 2023 uitgebracht als
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
-| v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
+| v1 | Compatibel systeem met <br>[&#x200B; versie 2.0.4 &#x200B;](/help/adaptive-forms/version.md) en later | Compatibel met <br>[&#x200B; versie 1.1.12 &#x200B;](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [ document van de Versies van de Componenten van de Kern 0&rbrace;.](/help/adaptive-forms/version.md)
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#x200B; document van de Versies van de Componenten van de Kern 0&rbrace;.](/help/adaptive-forms/version.md)
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -51,7 +51,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Technische details {#technical-details}
 
-Krijg de recentste informatie over de AanpassingsComponent van de Kern van de Plukker van de Datum van Forms in de technische documentatie op [ GitHub ](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/datepicker/v1/datepicker). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern ](/help/developing/overview.md).
+Krijg de recentste informatie over de AanpassingsComponent van de Kern van de Plukker van de Datum van Forms in de technische documentatie op [&#x200B; GitHub &#x200B;](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/datepicker/v1/datepicker). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern &#x200B;](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -59,15 +59,15 @@ Met het dialoogvenster Configureren kunt u de datumkiezer-ervaring voor bezoeker
 
 ### Tabblad Standaard {#basic-tab}
 
-![ Basis lusje ](/help/adaptive-forms/assets/datepicker_basictab.png)
+![&#x200B; Basis lusje &#x200B;](/help/adaptive-forms/assets/datepicker_basictab.png)
 
 - **Naam** - de naam identificeert uniek de component in de regelredacteur. Speciale tekens en spaties zijn niet toegestaan in de naamtekenreeksen.
 
 - **Titel** - de Titel is een koord dat bij de bovenkant van een component in een Aangepaste Vorm verschijnt. De titel geeft de component in de boomstructuur van een adaptief formulier op unieke wijze aan. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
-  Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
+  Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![&#x200B; pictogram Volledig scherm &#x200B;](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
-  ![ de rijke tekststeun van 0&rbrace;](/help/adaptive-forms/assets/richtext-support-title.png)
+  ![&#x200B; de rijke tekststeun van 0&rbrace;](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Titel van de Huid** - selecteer deze optie om titel van het componenttype in een Aangepaste Vorm te verbergen.
 
@@ -84,7 +84,7 @@ Met het dialoogvenster Configureren kunt u de datumkiezer-ervaring voor bezoeker
 
 ### Tabblad Validatie {#validation-tab}
 
-![ het lusje van de Bevestiging ](/help/adaptive-forms/assets/datepicker_validation.png)
+![&#x200B; het lusje van de Bevestiging &#x200B;](/help/adaptive-forms/assets/datepicker_validation.png)
 
 - **Vereist** - selecteer deze optie, als u de component in een Aangepaste Vorm wilt tonen. Nadat u de optie hebt geselecteerd, moet u een selectie maken voordat u een formulier kunt verzenden. U kunt niet de **Component van de Verbergen** selecteren of **Component** in het **Basis** lusje onbruikbaar maken wanneer deze optie wordt geselecteerd.
 
@@ -105,7 +105,7 @@ Met het dialoogvenster Configureren kunt u de datumkiezer-ervaring voor bezoeker
 
 ### Het tabblad Help-inhoud {#help-content-tab}
 
-![ Inhoud tabel van de Hulp ](/help/adaptive-forms/assets/datepicker_helptab.png)
+![&#x200B; Inhoud tabel van de Hulp &#x200B;](/help/adaptive-forms/assets/datepicker_helptab.png)
 
 - **Korte beschrijving** - een korte beschrijving is een korte tekstverklaring die extra informatie of verduidelijking over het doel van een specifiek vormgebied verstrekt. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. Laat **toe tonen altijd korte beschrijving** optie om het onder de component te tonen.
 
@@ -116,7 +116,7 @@ Met het dialoogvenster Configureren kunt u de datumkiezer-ervaring voor bezoeker
 
 ### Tabblad Toegankelijkheid {#accessibility-tab}
 
-![ Toegankelijkheid tabel ](/help/adaptive-forms/assets/datepicker_accessibilitytab.png)
+![&#x200B; Toegankelijkheid tabel &#x200B;](/help/adaptive-forms/assets/datepicker_accessibilitytab.png)
 
 - **Tekst voor het schermlezers** - de Tekst voor het schermlezers verwijst naar extra tekst die specifiek bedoeld is om door ondersteunende technologieën, zoals het schermlezers te worden gelezen, die door visueel gehandicapte individuen wordt gebruikt. Deze tekst bevat een audiobeschrijving van het doel van het formulierveld en kan informatie bevatten over de titel, beschrijving, naam en relevante berichten (aangepaste tekst) van het veld. Met de schermlezertekst kunt u ervoor zorgen dat het formulier toegankelijk is voor alle gebruikers, inclusief gebruikers met een visuele handicap, en krijgt deze een volledig inzicht in het formulierveld en de vereisten ervan.
    - **Tekst van de Douane**: Selecteer deze optie om de douanetekst voor de toegankelijkheidslabels van ARIA te gebruiken. Als u deze optie selecteert, wordt het dialoogvenster Aangepaste tekst weergegeven. U kunt relevante informatie toevoegen in het dialoogvenster Aangepaste tekst.
@@ -127,7 +127,7 @@ Met het dialoogvenster Configureren kunt u de datumkiezer-ervaring voor bezoeker
 
 ### Tabblad Opmaak {#format-tab}
 
-![ Formaten tabel ](/help/adaptive-forms/assets/datepicker_formattab.png)
+![&#x200B; Formaten tabel &#x200B;](/help/adaptive-forms/assets/datepicker_formattab.png)
 
 - **Formaat van de Vertoning** - het vertegenwoordigt het datumformaat dat aan de gebruiker wordt getoond. De **optie van het Type** staat de gebruiker toe om het datumformaat te selecteren. U kunt het datumformaat ook aanpassen gebruikend de **optie van de Douane** in het **Type** dropdown menu.
 
@@ -140,13 +140,13 @@ De reeks talen is niet zichtbaar door gebrek, maar de gebruikers kunnen een doua
 1. Open de bijbehorende sjabloon die aan een adaptief formulier is gekoppeld in de sjablooneditor.
 2. Selecteer het bestaande beleid als `datepicker-default-policy` in de keuzelijst.
 
-   ![ het malplaatjebeleid van de Plukker van de Datum ](/help/adaptive-forms/assets/date-picker-template-policy.png)
+   ![&#x200B; het malplaatjebeleid van de Plukker van de Datum &#x200B;](/help/adaptive-forms/assets/date-picker-template-policy.png)
 
 3. Klik **Gedaan**.
 
    >[!NOTE]
    >
-   > Voor verdere informatie over hoe te om een AanpassingsVorm aan een specifieke scène te vertalen, [ klik hier ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+   > Voor verdere informatie over hoe te om een AanpassingsVorm aan een specifieke scène te vertalen, [&#x200B; klik hier &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -156,7 +156,7 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de component Dat
 
 Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve de datum-plukkerComponent van de Kern van Forms steunt het systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
-![ lusje van de Stijl ](/help/adaptive-forms/assets/datepicker_styletab.png)
+![&#x200B; lusje van de Stijl &#x200B;](/help/adaptive-forms/assets/datepicker_styletab.png)
 
 - **StandaardCSS Klassen**: U kunt een standaardCSS klasse voor de AanpassingsForms Datum-plukker Component van de Kern verstrekken.
 
@@ -164,7 +164,7 @@ Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en t
 
 ### Aangepaste eigenschappen
 
-![ de Dialoog van Eigenschappen van de Douane ](/help/adaptive-forms/assets/datepicker_customproperties.png)
+![&#x200B; de Dialoog van Eigenschappen van de Douane &#x200B;](/help/adaptive-forms/assets/datepicker_customproperties.png)
 
 Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aan een Adaptief kernonderdeel van een formulier koppelen met behulp van de formuliersjabloon. De aangepaste eigenschappen worden weergegeven in de sectie Eigenschappen van de koploze uitvoering van de component. Hiermee kunt u dynamisch formuliergedrag maken dat wordt aangepast op basis van de waarden van aangepaste kenmerken. Ontwikkelaars kunnen bijvoorbeeld verschillende uitvoeringen van een Forms-component zonder koptekst ontwerpen voor mobiele apparaten, desktops of webplatforms, waardoor de gebruikerservaring op een groot aantal apparaten aanzienlijk wordt verbeterd.
 
@@ -180,7 +180,7 @@ Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aa
 
 Op het tabblad Indelingen kunt u standaard- en aangepaste datumnotaties opgeven.
 
-![ Formattab ](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
+![&#x200B; Formattab &#x200B;](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
 
 <!--
 

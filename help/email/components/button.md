@@ -20,8 +20,8 @@ Met de component E-mailknop kunt u een knopitem in uw inhoud configureren en wee
 
 Met de component E-mailknop kunt u een knop in uw inhoud opnemen, waarop door de inhoudslezer kan worden geklikt en die aan extra bronnen is gekoppeld.
 
-* De eigenschappen van de knoop kunnen in [ worden geselecteerd vormen dialoog.](#configure-dialog)
-* De stijlen voor de Component van de Knoop E-mail kunnen in de [ ontwerpdialoog worden bepaald.](#design-dialog)
+* De eigenschappen van de knoop kunnen in [&#x200B; worden geselecteerd vormen dialoog.](#configure-dialog)
+* De stijlen voor de Component van de Knoop E-mail kunnen in de [&#x200B; ontwerpdialoog worden bepaald.](#design-dialog)
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -33,13 +33,13 @@ In de volgende tabel worden alle ondersteunde versies van de component, de AEM-v
 |---|---|---|---|
 | v1 | Compatibel | - | - |
 
-Voor meer informatie over de versies en de versies van de Component van de Kern, zie het document [ e-mailVersie van de Componenten van de Kern.](/help/email/versions.md)
+Voor meer informatie over de versies en de versies van de Component van de Kern, zie het document [&#x200B; e-mailVersie van de Componenten van de Kern.](/help/email/versions.md)
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Knoop E-mail [ kan op GitHub worden gevonden.](https://adobe.com/go/aem_cmp_tech_email_button_v1)
+De recentste technische documentatie over de Component van de Knoop E-mail [&#x200B; kan op GitHub worden gevonden.](https://adobe.com/go/aem_cmp_tech_email_button_v1)
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden.](/help/developing/overview.md)
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden.](/help/developing/overview.md)
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -47,13 +47,13 @@ In het dialoogvenster Configureren kan de auteur van de inhoud de knop definiër
 
 ### Tabblad Eigenschappen {#properties-tab}
 
-![ het lusje van Eigenschappen van uitgeeft dialoog van de Component van de Knoop ](/help/email/assets/email-button-edit-properties.png)
+![&#x200B; het lusje van Eigenschappen van uitgeeft dialoog van de Component van de Knoop &#x200B;](/help/email/assets/email-button-edit-properties.png)
 
 * **Tekst** - de tekst om op de knoop te tonen
-   * Klik het pictogram van de Campagne om [ Uitgezochte de Variabele van Adobe Campaign ](/help/email/campaign-variables.md) dialoog te openen om dynamische inhoud van Adobe Campaign op te nemen.
+   * Klik het pictogram van de Campagne om [&#x200B; Uitgezochte de Variabele van Adobe Campaign &#x200B;](/help/email/campaign-variables.md) dialoog te openen om dynamische inhoud van Adobe Campaign op te nemen.
 * **Verbinding** - Verbinding met een inhoudspagina binnen AEM, een extern middel, of een anker
    * Gebruik de **Dialoog van de Selectie** om een weg binnen AEM te kiezen.
-   * Klik het pictogram van de Campagne om [ Uitgezochte de Variabele van Adobe Campaign ](/help/email/campaign-variables.md) dialoog te openen om dynamische inhoud van Adobe Campaign op te nemen.
+   * Klik het pictogram van de Campagne om [&#x200B; Uitgezochte de Variabele van Adobe Campaign &#x200B;](/help/email/campaign-variables.md) dialoog te openen om dynamische inhoud van Adobe Campaign op te nemen.
 * **Pictogram** - Herkenningsteken voor het tonen van een pictogram in de knoop
 * **identiteitskaart** - Deze optie staat controle van het unieke herkenningsteken van de component in HTML toe.
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende inhoud te inspecteren.
@@ -63,9 +63,9 @@ In het dialoogvenster Configureren kan de auteur van de inhoud de knop definiër
 
 ### Tabblad Toegankelijkheid {#accessibility-tab}
 
-![ Toegankelijkheid lusje van uitgeeft dialoog van de Component van de Knoop ](/help/email/assets/email-button-edit-accessibility.png)
+![&#x200B; Toegankelijkheid lusje van uitgeeft dialoog van de Component van de Knoop &#x200B;](/help/email/assets/email-button-edit-accessibility.png)
 
-Op het **lusje van de Toegankelijkheid**, kunnen de waarden voor [ de toegankelijkheidslabels van ARIA ](https://www.w3.org/WAI/standards-guidelines/aria/) voor de component worden geplaatst.
+Op het **lusje van de Toegankelijkheid**, kunnen de waarden voor [&#x200B; de toegankelijkheidslabels van ARIA &#x200B;](https://www.w3.org/WAI/standards-guidelines/aria/) voor de component worden geplaatst.
 
 * **Etiket** - Waarde van een ARIA etiketattribuut voor de component
 
@@ -75,7 +75,7 @@ De component van de Knoop E-mail steunt het Systeem van de Stijl van AEM [.](/he
 
 Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
 
-De stijlen moeten voor deze component in de [ ontwerpdialoog ](#design-dialog) worden gevormd opdat het lusje beschikbaar is.
+De stijlen moeten voor deze component in de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog) worden gevormd opdat het lusje beschikbaar is.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 

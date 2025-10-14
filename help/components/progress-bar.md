@@ -29,24 +29,24 @@ In de volgende tabel worden alle ondersteunde versies van de component, de AEM-v
 
 | Componentversie | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|---|
-| v1 | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel | Compatibel | Compatibel |
+| v1 | Compatibel systeem met <br>[&#x200B; versie 2.17.4 &#x200B;](/help/versions.md) en vroeger | Compatibel | Compatibel | Compatibel |
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Om de Component van de Bar van de Voortgang te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library_progressbar).
+Om de Component van de Bar van de Voortgang te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [&#x200B; Bibliotheek van de Component &#x200B;](https://adobe.com/go/aem_cmp_library_progressbar).
 
 ### Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Bar van de Voortgang [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_progress_v1) worden gevonden.
+De recentste technische documentatie over de Component van de Bar van de Voortgang [&#x200B; kan op GitHub &#x200B;](https://adobe.com/go/aem_cmp_tech_progress_v1) worden gevonden.
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden &#x200B;](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
-![ de Edit dialoog van de Component van de Bar van de Voortgang ](/help/assets/progress-bar-edit.png)
+![&#x200B; de Edit dialoog van de Component van de Bar van de Voortgang &#x200B;](/help/assets/progress-bar-edit.png)
 
 * **Voltooiing** - de vooruitgang zoals die door een percentage wordt vertegenwoordigd
-* **identiteitskaart** - Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens te controleren ](/help/developing/data-layer/overview.md).
+* **identiteitskaart** - Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [&#x200B; Laag van Gegevens te controleren &#x200B;](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
@@ -61,4 +61,4 @@ De component van de Bar van de Voortgang steunt het Systeem van de Stijl van AEM
 
 ## Adobe Client Data Layer {#data-layer}
 
-De component van de Bar van de Voortgang steunt de [ Gegevens van de Cliënt van Adobe Laag.](/help/developing/data-layer/overview.md)
+De component van de Bar van de Voortgang steunt de [&#x200B; Gegevens van de Cliënt van Adobe Laag.](/help/developing/data-layer/overview.md)

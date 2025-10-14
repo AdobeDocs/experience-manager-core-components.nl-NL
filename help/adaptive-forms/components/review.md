@@ -21,7 +21,7 @@ Met de Revisiecomponent in Adaptive Forms kunnen gebruikers de ingevoerde gegeve
 
 **Voorbeeld**
 
-![ Component van het Overzicht ](/help/adaptive-forms/assets/review-component.png){width=50%, align=center}
+![&#x200B; Component van het Overzicht &#x200B;](/help/adaptive-forms/assets/review-component.png){width=50%, align=center}
 
 ## Gebruik
 
@@ -36,13 +36,13 @@ Hieronder ziet u de redenen om de revisiecomponent in een adaptieve vorm te gebr
 
 ## Technische details {#technical-details}
 
-Krijg de recentste informatie over de AanpassingsComponent van de Kern van de Controle van Forms in de technische documentatie over [ GitHub ](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern ](/help/developing/overview.md).
+Krijg de recentste informatie over de AanpassingsComponent van de Kern van de Controle van Forms in de technische documentatie over [&#x200B; GitHub &#x200B;](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern &#x200B;](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
 U kunt de ervaring voor bezoekers gemakkelijk aanpassen met het dialoogvenster Configureren voor een naadloze gebruikerservaring.
 
-![ Vorm Dialoog ](/help/adaptive-forms/assets/review-component-configure-dialog.png)
+![&#x200B; Vorm Dialoog &#x200B;](/help/adaptive-forms/assets/review-component-configure-dialog.png)
 
 - **Naam** - u kunt een vormcomponent gemakkelijk met zijn unieke naam zowel in de vorm als in de regelredacteur identificeren, maar de naam moet geen ruimten of speciale karakters bevatten.
 

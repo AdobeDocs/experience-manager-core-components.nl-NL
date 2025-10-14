@@ -58,4 +58,4 @@ Uiteraard zijn wij blij met elke bijdrage en zullen wij uw bijdrage herzien als 
 
 ## Aanvullende informatie
 
-Zie [de Gids van de Medewerker van Docs van Adobe ](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=nl-NL) voor verdere details op hoe te om het het auteursplatform van GitHub te gebruiken.
+Zie [de Gids van de Medewerker van Docs van Adobe &#x200B;](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=nl-NL) voor verdere details op hoe te om het het auteursplatform van GitHub te gebruiken.

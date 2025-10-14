@@ -17,9 +17,9 @@ Identificeer de exacte versies van zowel Forms Core Components als WCM Core Comp
 
 ## AEM Forms als Cloud Service versiegeschiedenis {#aem-as-cs-version-history}
 
-De versies van de Componenten van de Kern die met AEM as a Cloud Service compatibel zijn zijn beschikbaar op [ GitHub samen met uitvoerige details van hun versies ](https://github.com/adobe/aem-core-forms-components/releases).
+De versies van de Componenten van de Kern die met AEM as a Cloud Service compatibel zijn zijn beschikbaar op [&#x200B; GitHub samen met uitvoerige details van hun versies &#x200B;](https://github.com/adobe/aem-core-forms-components/releases).
 
-Om de de versiegeschiedenis van de Componenten van de Kern voor AEM as a Cloud Service te zien, [ klik hier ](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md).
+Om de de versiegeschiedenis van de Componenten van de Kern voor AEM as a Cloud Service te zien, [&#x200B; klik hier &#x200B;](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md).
 
 
 <!--
@@ -117,9 +117,9 @@ Om de de versiegeschiedenis van de Componenten van de Kern voor AEM as a Cloud S
 
 ## AEM 6.5 Forms-versiegeschiedenis {#aem-as-form-version-history}
 
-De versies van de Componenten van de Kern die met AEM 6.5 Vorm op gebouw en AMS compatibel zijn die op [ GitHub samen met uitvoerige details van hun versies ](https://github.com/adobe/aem-core-forms-components/releases) beschikbaar zijn.
+De versies van de Componenten van de Kern die met AEM 6.5 Vorm op gebouw en AMS compatibel zijn die op [&#x200B; GitHub samen met uitvoerige details van hun versies &#x200B;](https://github.com/adobe/aem-core-forms-components/releases) beschikbaar zijn.
 
-Om de de versiegeschiedenis van de Componenten van de Kern voor AEM 6.5 Vorm op gebouw en AMS te zien, [ klik hier ](https://github.com/adobe/aem-core-forms-components/blob/release/650/VERSIONS.md).
+Om de de versiegeschiedenis van de Componenten van de Kern voor AEM 6.5 Vorm op gebouw en AMS te zien, [&#x200B; klik hier &#x200B;](https://github.com/adobe/aem-core-forms-components/blob/release/650/VERSIONS.md).
 
 <!--
 | Forms Core Components | WCM Core Components | AEM 6.5 | Java  | Maven  |  

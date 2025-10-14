@@ -39,13 +39,13 @@ De Adaptive Forms Google reCAPTCHA Core Component is in augustus 2023 uitgebrach
 
 | Componentversie | AEM as a Cloud Service |
 |--- |--- |
-| v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/versions.md) en later | Compatibel | Compatibel |
+| v1 | Compatibel systeem met <br>[&#x200B; versie 2.0.4 &#x200B;](/help/versions.md) en later | Compatibel | Compatibel |
 
 Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/versions.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
 
 ## Technische details {#technical-details}
 
-Krijg de recentste informatie over de Adaptieve Component van de Kern van Forms Google reCAPTCHA in de technische documentatie op [ GitHub ](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/recaptcha/v1/recaptcha). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern ](/help/developing/overview.md).
+Krijg de recentste informatie over de Adaptieve Component van de Kern van Forms Google reCAPTCHA in de technische documentatie op [&#x200B; GitHub &#x200B;](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/recaptcha/v1/recaptcha). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern &#x200B;](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -53,14 +53,14 @@ Met het dialoogvenster Configureren kunt u uw Google reCAPTCHA-ervaring eenvoudi
 
 ### Tabblad Standaard {#basic-tab}
 
-![ BasisLusje ](/help/adaptive-forms/assets/recaptcha-basictab.png)
+![&#x200B; BasisLusje &#x200B;](/help/adaptive-forms/assets/recaptcha-basictab.png)
 
 - **Naam** - u kunt een vormcomponent gemakkelijk met zijn unieke naam zowel in de vorm als in de regelredacteur identificeren, maar de naam moet geen ruimten of speciale karakters bevatten.
 
 - **Titel** - met zijn Titel, kunt u een component in een vorm gemakkelijk identificeren en door gebrek, verschijnt de titel bovenop de component. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
 
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
-  Als u het selectievakje **RTF-tekst toestaan voor titel inschakelt, worden opmaakopties zichtbaar om de titel van de component op te maken. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
+  Als u het selectievakje **RTF-tekst toestaan voor titel inschakelt, worden opmaakopties zichtbaar om de titel van de component op te maken. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![&#x200B; pictogram Volledig scherm &#x200B;](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
   ![&#128279;](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0&rbrace;
 
@@ -70,7 +70,7 @@ Met het dialoogvenster Configureren kunt u uw Google reCAPTCHA-ervaring eenvoudi
 
   >[!NOTE]
   >
-  > Verwijs naar het [ Gebruik Google reCAPTCHA in een AanpassingsVorm van AEM die op het artikel van de Componenten van de Kern &lbrace;wordt gebaseerd om te leren hoe te om Google reCAPTCHA voor uw milieu tot stand te brengen en te vormen.](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
+  > Verwijs naar het [&#x200B; Gebruik Google reCAPTCHA in een AanpassingsVorm van AEM die op het artikel van de Componenten van de Kern &lbrace;wordt gebaseerd om te leren hoe te om Google reCAPTCHA voor uw milieu tot stand te brengen en te vormen.](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
 
 - **Type**: Kies deze optie om de grootte voor reCAPTCHA te selecteren.
    - **Normaal**: Verwijst naar de norm, grotere versie van de reCAPTCHA widget, die voor gebruikers beter zichtbaar en gemakkelijker kan zijn om met, vooral op apparaten met grotere schermen in wisselwerking te staan.
@@ -84,7 +84,7 @@ Met het dialoogvenster Configureren kunt u uw Google reCAPTCHA-ervaring eenvoudi
 
 ### Tabblad Validatie {#validation-tab}
 
-![ het Lusje van de Bevestiging ](/help/adaptive-forms/assets/recaptcha-validationtab.png)
+![&#x200B; het Lusje van de Bevestiging &#x200B;](/help/adaptive-forms/assets/recaptcha-validationtab.png)
 
 - **Bericht van de Fout** - Deze optie staat u toe om een bericht in te gaan dat wordt getoond als **Vereiste** checkbox wordt gecontroleerd en het vormgebied wordt verlaten leeg.
 
@@ -98,7 +98,7 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de component reC
 
 De Adaptieve Component van de Kern van Forms reCAPTCHA steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
-![ Dialoog van het Ontwerp ](/help/adaptive-forms/assets/checkbox-style.png)
+![&#x200B; Dialoog van het Ontwerp &#x200B;](/help/adaptive-forms/assets/checkbox-style.png)
 
 - **StandaardCSS Klassen**: U kunt een standaardCSS klasse voor de Adaptieve Component van de Kern van Forms reCAPTCHA verstrekken.
 
@@ -106,7 +106,7 @@ De Adaptieve Component van de Kern van Forms reCAPTCHA steunt het Systeem van de
 
 ### Aangepaste eigenschappen
 
-![ de Dialoog van Eigenschappen van de Douane ](/help/adaptive-forms/assets/checkbox-customproperties.png)
+![&#x200B; de Dialoog van Eigenschappen van de Douane &#x200B;](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
 Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aan een Adaptief kernonderdeel van een formulier koppelen met behulp van de formuliersjabloon. De aangepaste eigenschappen worden weergegeven in de sectie Eigenschappen van de koploze uitvoering van de component. Hiermee kunt u dynamisch formuliergedrag maken dat wordt aangepast op basis van de waarden van aangepaste kenmerken. Ontwikkelaars kunnen bijvoorbeeld verschillende uitvoeringen van een Forms-component zonder koptekst ontwerpen voor mobiele apparaten, desktops of webplatforms, waardoor de gebruikerservaring op een groot aantal apparaten aanzienlijk wordt verbeterd.
 - **Naam van de Groep**: U kunt een naam verstrekken om de groep van het douanebezit te identificeren. U kunt meerdere groepen met aangepaste eigenschappen toevoegen, verwijderen of opnieuw rangschikken. Nadat u de aangepaste groep eigenschappen hebt toegevoegd, kunt u de volgende opties zien:

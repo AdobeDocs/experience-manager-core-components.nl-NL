@@ -21,7 +21,7 @@ De component Core Component Text is een component voor tekstbewerking en -compos
 
 De component Text biedt een robuuste teksteditor met tekstopmaak die het mogelijk maakt tekst eenvoudig te bewerken in een vereenvoudigde, inline editor en in een volledige schermopmaak.
 
-Het [ geeft dialoog ](#edit-dialog) eigenschappen in-lijn uit het uitgeven met beperkte opties met volledige functionaliteit beschikbaar in het volledig scherm uitgeeft dialoog. Gebruikend de [ ontwerpdialoog ](#design-dialog), tekst het formatteren opties zoals rubrieken, speciale karakters, en paragraafstijlen kunnen voor het malplaatje voor de inhoudauteur worden gevormd.
+Het [&#x200B; geeft dialoog &#x200B;](#edit-dialog) eigenschappen in-lijn uit het uitgeven met beperkte opties met volledige functionaliteit beschikbaar in het volledig scherm uitgeeft dialoog. Gebruikend de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog), tekst het formatteren opties zoals rubrieken, speciale karakters, en paragraafstijlen kunnen voor het malplaatje voor de inhoudauteur worden gevormd.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -31,40 +31,40 @@ In de volgende tabel worden alle ondersteunde versies van de component, de AEM-v
 
 | Componentversie | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|---|
-| v2 | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel | Compatibel | Compatibel |
-| [ v1 ](v1/text-v1.md) | Compatibel | Compatibel | - | Compatibel |
+| v2 | Compatibel systeem met <br>[&#x200B; versie 2.17.4 &#x200B;](/help/versions.md) en vroeger | Compatibel | Compatibel | Compatibel |
+| [&#x200B; v1 &#x200B;](v1/text-v1.md) | Compatibel | Compatibel | - | Compatibel |
 
-Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
+Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [&#x200B; Kern &#x200B;](/help/versions.md).
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Om de Component van de Tekst te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library_text).
+Om de Component van de Tekst te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [&#x200B; Bibliotheek van de Component &#x200B;](https://adobe.com/go/aem_cmp_library_text).
 
 ### Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Tekst [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_text_v2) worden gevonden.
+De recentste technische documentatie over de Component van de Tekst [&#x200B; kan op GitHub &#x200B;](https://adobe.com/go/aem_cmp_tech_text_v2) worden gevonden.
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden &#x200B;](/help/developing/overview.md).
 
 ## De component Text en de RTF-editor {#the-text-component-and-the-rich-text-editor}
 
-De component van de Tekst van de Componenten van de Kern gebruikt de Redacteur van de Tekst van AEM Rich (RTE). RTE voorziet inhoudsauteurs van een brede waaier van functionaliteit voor het uitgeven van hun tekstinhoud. RTE is zeer flexibel in zijn configuratie en biedt een aantal opties aan. Verdere details over hoe RTE kan worden gevormd kunnen in de artikelen [ worden gevonden vormen de Rijke Redacteur van de Tekst ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html?lang=nl-NL) en [ vormen de Rijke stop-ins van de Redacteur van de Tekst ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=nl-NL).
+De component van de Tekst van de Componenten van de Kern gebruikt de Redacteur van de Tekst van AEM Rich (RTE). RTE voorziet inhoudsauteurs van een brede waaier van functionaliteit voor het uitgeven van hun tekstinhoud. RTE is zeer flexibel in zijn configuratie en biedt een aantal opties aan. Verdere details over hoe RTE kan worden gevormd kunnen in de artikelen [&#x200B; worden gevonden vormen de Rijke Redacteur van de Tekst &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html?lang=nl-NL) en [&#x200B; vormen de Rijke stop-ins van de Redacteur van de Tekst &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=nl-NL).
 
 De rest van dit artikel toont de standaardconfiguratie van de Component van de Tekst van de Componenten van de Kern met de uit-van-de-doos configuratie van RTE aan.
 
 >[!NOTE]
 >
->Slechts die opties door [ worden toegelaten UI configuraties van RTE ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=nl-NL) zijn beschikbaar door in de Component van de Tekst.
+>Slechts die opties door [&#x200B; worden toegelaten UI configuraties van RTE &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=nl-NL) zijn beschikbaar door in de Component van de Tekst.
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
 Het dialoogvenster Bewerken bevat de standaardgereedschappen voor tekstopmaak die de gebruiker zou verwachten bij het samenstellen van tekst.
 
-![ de Edit dialoog van de Component van de Tekst ](/help/assets/text-edit.png)
+![&#x200B; de Edit dialoog van de Component van de Tekst &#x200B;](/help/assets/text-edit.png)
 
 ### Vet
 
-![ Vet pictogram ](/help/assets/text-bold.png)
+![&#x200B; Vet pictogram &#x200B;](/help/assets/text-bold.png)
 
 Wordt gebruikt om vette opmaak toe te passen op geselecteerde tekst of opgemaakte tekst die na de cursor wordt ingevoerd.
 
@@ -72,7 +72,7 @@ Wordt gebruikt om vette opmaak toe te passen op geselecteerde tekst of opgemaakt
 
 ### Cursief
 
-![ Cursief pictogram ](/help/assets/text-italic.png)
+![&#x200B; Cursief pictogram &#x200B;](/help/assets/text-italic.png)
 
 Wordt gebruikt om cursieve opmaak toe te passen op geselecteerde tekst of om tekst die na de cursor wordt ingevoerd, cursief te maken.
 
@@ -80,7 +80,7 @@ Wordt gebruikt om cursieve opmaak toe te passen op geselecteerde tekst of om tek
 
 ### Onderstrepen
 
-![ onderstreepte pictogram ](/help/assets/text-underline.png)
+![&#x200B; onderstreepte pictogram &#x200B;](/help/assets/text-underline.png)
 
 Wordt gebruikt om onderstreepte opmaak toe te passen op geselecteerde tekst of onderstreepte tekst die na de cursor wordt ingevoerd.
 
@@ -88,41 +88,41 @@ Wordt gebruikt om onderstreepte opmaak toe te passen op geselecteerde tekst of o
 
 ### Subscript
 
-![ Subscript pictogram ](/help/assets/text-subscript.png)
+![&#x200B; Subscript pictogram &#x200B;](/help/assets/text-subscript.png)
 
 Wordt gebruikt om geselecteerde tekst of tekst die na de cursor is ingevoerd, op te maken als een subscript.
 
 ### Superscript
 
-![ pictogram Superscript ](/help/assets/text-superscript.png)
+![&#x200B; pictogram Superscript &#x200B;](/help/assets/text-superscript.png)
 
 Hiermee maakt u geselecteerde tekst of tekst die na de cursor is ingevoerd, op als superscript.
 
 ### Plakken als tekst
 
-![ Deeg als tekstpictogram ](/help/assets/text-paste-text.png)
+![&#x200B; Deeg als tekstpictogram &#x200B;](/help/assets/text-paste-text.png)
 
 Hiermee plakt u alle gekopieerde tekst als onbewerkte tekst zonder opmaak.
 
 Wanneer u deze optie selecteert, wordt een venster geopend waarin de tekst als onbewerkte tekst zonder opmaak kan worden geplakt als een voorvertoning voordat deze in de tekst wordt ingevoegd. Accepteren door te tikken of op het vinkje te klikken, annuleren door te tikken of op de x te klikken.
 
-![ Deeg als tekstvoorbeeld ](/help/assets/text-paste-text-example.png)
+![&#x200B; Deeg als tekstvoorbeeld &#x200B;](/help/assets/text-paste-text-example.png)
 
 ### Plakken vanuit Word
 
-![ Deeg van het pictogram van Word ](/help/assets/text-paste-word.png)
+![&#x200B; Deeg van het pictogram van Word &#x200B;](/help/assets/text-paste-word.png)
 
 Wanneer u deze optie selecteert, wordt een venster geopend waarin de tekst kan worden geplakt met behoud van de opmaak als voorvertoning voordat deze in de tekst wordt ingevoegd. Accepteren door te tikken of op het vinkje te klikken, annuleren door te tikken of op de x te klikken.
 
-![ Deeg van het voorbeeld van Word ](/help/assets/text-paste-word-example.png)
+![&#x200B; Deeg van het voorbeeld van Word &#x200B;](/help/assets/text-paste-word-example.png)
 
 ### Hyperlink
 
-![ pictogram van de Hyperlink ](/help/assets/text-hyperlink.png)
+![&#x200B; pictogram van de Hyperlink &#x200B;](/help/assets/text-hyperlink.png)
 
 Met deze optie kunt u de geselecteerde tekst omzetten in een hyperlink of een reeds gedefinieerde koppeling wijzigen. Deze optie is alleen actief als er al tekst is geselecteerd en er een venster wordt geopend met aanvullende opties voor het instellen van de koppeling.
 
-![ voorbeeld van de Hyperlink ](/help/assets/text-hyperlink-example.png)
+![&#x200B; voorbeeld van de Hyperlink &#x200B;](/help/assets/text-hyperlink-example.png)
 
 * Het pad invoeren
    * Kies een pad in AEM in het dialoogvenster Selectie openen
@@ -140,35 +140,35 @@ Met deze optie kunt u de geselecteerde tekst omzetten in een hyperlink of een re
 
 ### Ontkoppelen
 
-![ pictogram van de Ontkoppeling ](/help/assets/text-unlink.png)
+![&#x200B; pictogram van de Ontkoppeling &#x200B;](/help/assets/text-unlink.png)
 
 Gebruik deze optie om een koppeling te verwijderen die al op de geselecteerde tekst is toegepast. Deze optie is alleen actief als er al een koppeling is geselecteerd.
 
 ### Zoeken
 
-![ het pictogram van de Vondst ](/help/assets/text-find.png)
+![&#x200B; het pictogram van de Vondst &#x200B;](/help/assets/text-find.png)
 
 Met deze optie kunt u de tekst doorzoeken op een opgegeven tekstreeks. Als u deze optie selecteert, wordt een venster geopend waarin u de zoekopties kunt opgeven.
 
-![ vind voorbeeld ](/help/assets/text-find-example.png)
+![&#x200B; vind voorbeeld &#x200B;](/help/assets/text-find-example.png)
 
 Ga de tekst in waarvoor u wilt zoeken en tikken of **Vondst** klikken om met het onderzoek te beginnen. Tik of klik op de x om te annuleren.
 Als u wenst om een nauwkeurige gelijke volgens het geval te doen, selecteer de optie **Geval van de Gelijke** alvorens het onderzoek te beginnen.
 Als een overeenkomst wordt gevonden, wordt deze gemarkeerd en wordt het zoekdialoogvenster gedimd weergegeven. Tik of klik opnieuw de **Vondst** knoop in de gedimde dialoog om naar het volgende voorkomen te zoeken.
 
-![ gevonden voorbeeld van de Vondst ](/help/assets/text-find-example-found.png)
+![&#x200B; gevonden voorbeeld van de Vondst &#x200B;](/help/assets/text-find-example-found.png)
 
 Als er geen andere exemplaren worden gevonden, wordt een bericht weergegeven en wordt de zoekopdracht opnieuw gestart vanaf het begin van de tekst.
 
-![ vind voorbeeld niet meer voorkomen ](/help/assets/text-find-example-found-end.png)
+![&#x200B; vind voorbeeld niet meer voorkomen &#x200B;](/help/assets/text-find-example-found-end.png)
 
 ### Vervangen
 
-![ vervang pictogram ](/help/assets/text-replace.png)
+![&#x200B; vervang pictogram &#x200B;](/help/assets/text-replace.png)
 
 Gebruik deze optie om de tekst te zoeken op instanties van een opgegeven tekenreeks en de overeenkomsten te vervangen door een andere tekenreeks. Als u deze optie selecteert, wordt een venster geopend waarin u de opties voor zoeken en vervangen kunt opgeven.
 
-![ vervangt voorbeeld ](/help/assets/text-replace-example.png)
+![&#x200B; vervangt voorbeeld &#x200B;](/help/assets/text-replace-example.png)
 
 Voer de tekst in waarnaar u wilt zoeken en de tekst waarmee u deze wilt vervangen.
 
@@ -187,25 +187,25 @@ Het dialoogvenster Zoeken en vervangen wordt transparant wanneer op Zoeken wordt
 
 ### Tekst links uitlijnen
 
-![ richt linkerpictogram ](/help/assets/text-left.png) uit
+![&#x200B; richt linkerpictogram &#x200B;](/help/assets/text-left.png) uit
 
 Wordt gebruikt om de tekst uit te lijnen met de linkermarge.
 
 ### Tekst centreren
 
-![ de tekstpictogram van het Centrum ](/help/assets/text-center.png)
+![&#x200B; de tekstpictogram van het Centrum &#x200B;](/help/assets/text-center.png)
 
 Hiermee centreert u de tekst.
 
 ### Tekst rechts uitlijnen
 
-![ richt rechts pictogram ](/help/assets/text-right.png) uit
+![&#x200B; richt rechts pictogram &#x200B;](/help/assets/text-right.png) uit
 
 Wordt gebruikt om de tekst uit te lijnen met de rechtermarge.
 
 ### Opsommingsteken
 
-![ pictogram van het Bullet ](/help/assets/text-bullet.png)
+![&#x200B; pictogram van het Bullet &#x200B;](/help/assets/text-bullet.png)
 
 Wordt gebruikt om de geselecteerde tekst op te maken als een lijst met opsommingstekens of om te beginnen met het invoegen van een lijst met opsommingstekens na de cursor.
 
@@ -213,7 +213,7 @@ Om een bulleted lijst te eindigen, onttikt of klikt opnieuw de **knoop van de Op
 
 ### Genummerd
 
-![ Genummerd lijstpictogram ](/help/assets/text-numbered.png)
+![&#x200B; Genummerd lijstpictogram &#x200B;](/help/assets/text-numbered.png)
 
 Hiermee maakt u de geselecteerde tekst op als een genummerde lijst of begint u met het invoegen van een genummerde lijst na de cursor.
 
@@ -221,7 +221,7 @@ Om een genummerde lijst te beëindigen, de **Genummerde** knoop te onttikken of 
 
 ### Uitspringen
 
-![ pictogram Uitspringen ](/help/assets/text-outdent.png)
+![&#x200B; pictogram Uitspringen &#x200B;](/help/assets/text-outdent.png)
 
 Wordt gebruikt om het inspringingsniveau te verlagen van de geselecteerde tekst of tekst die na de cursor wordt ingevoerd.
 
@@ -229,17 +229,17 @@ Alleen actief als de geselecteerde tekst of positie van de cursor al is ingespro
 
 ### Inspringen
 
-![ Inspringen pictogram ](/help/assets/text-indent.png)
+![&#x200B; Inspringen pictogram &#x200B;](/help/assets/text-indent.png)
 
 Wordt gebruikt om het inspringingsniveau te verhogen van de geselecteerde tekst of tekst die na de cursor wordt ingevoerd.
 
 ### Tabel
 
-![ pictogram van de Lijst ](/help/assets/text-table.png)
+![&#x200B; pictogram van de Lijst &#x200B;](/help/assets/text-table.png)
 
 Wordt gebruikt om een tabel in de tekst in te voegen. Als u deze optie selecteert, wordt een venster geopend waarin u de details van de tabel kunt opgeven.
 
-![ Voorbeeld van de Lijst ](/help/assets/text-table-example.png)
+![&#x200B; Voorbeeld van de Lijst &#x200B;](/help/assets/text-table-example.png)
 
 * **Kolommen** - het aantal kolommen van de (vereiste) lijst
 * **Rijen** - het aantal rijen van de (vereiste) lijst
@@ -257,25 +257,25 @@ Wordt gebruikt om een tabel in de tekst in te voegen. Als u deze optie selecteer
 
 ### Spellingcontrole
 
-![ het Spellingspictogram van de Controle ](/help/assets/text-spellcheck.png)
+![&#x200B; het Spellingspictogram van de Controle &#x200B;](/help/assets/text-spellcheck.png)
 
 Wordt gebruikt om de spelling van de tekstinhoud te controleren. Mogelijke spelfouten worden onderstreept met gebroken, rode lijnen.
 
-De verdere details over spellingcontrole en het aanpassen van de woordenboeken van de spellingcontrole kunnen in het document [ worden gevonden vormen de Rich Insteekmodules van de Redacteur van de Tekst ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=nl-NL).
+De verdere details over spellingcontrole en het aanpassen van de woordenboeken van de spellingcontrole kunnen in het document [&#x200B; worden gevonden vormen de Rich Insteekmodules van de Redacteur van de Tekst &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=nl-NL).
 
 ### Speciale tekens {#special-characters}
 
-![ het Speciale karakterpictogram ](/help/assets/text-special-characters.png)
+![&#x200B; het Speciale karakterpictogram &#x200B;](/help/assets/text-special-characters.png)
 
 Wordt gebruikt om speciale tekens in te voegen in de tekst. Als u deze optie selecteert, wordt een venster geopend waarin de beschikbare tekens worden weergegeven.
 
-![ Speciaal karaktervoorbeeld ](/help/assets/text-special-characters-example.png)
+![&#x200B; Speciaal karaktervoorbeeld &#x200B;](/help/assets/text-special-characters-example.png)
 
 Tik op het gewenste teken of klik op het gewenste teken om het teken na de cursor in te voegen in de tekst. U kunt meerdere tekens invoegen. Tik of klik op de x om het selectievenster te sluiten.
 
 ### Source Edit
 
-![ Source geeft pictogram uit ](/help/assets/text-source.png)
+![&#x200B; Source geeft pictogram uit &#x200B;](/help/assets/text-source.png)
 
 Wordt gebruikt om de HTML-bron van de tekst weer te geven en te wijzigen.
 
@@ -293,21 +293,21 @@ Tik of klik **Source geeft** pictogram uit om de inhoud van de tekst van de gefo
 
 ### Alineaopmaak
 
-![ het formaatpictogram van de Paragraaf ](/help/assets/text-paragraph.png)
+![&#x200B; het formaatpictogram van de Paragraaf &#x200B;](/help/assets/text-paragraph.png)
 
 Wordt gebruikt om alineaopmaak toe te passen op de geselecteerde tekst of op tekst die na de cursor wordt ingevoegd. Als u deze optie selecteert, wordt een vervolgkeuzelijst geopend waarin de alineaopmaak wordt geselecteerd.
 
-![ het formaatvoorbeeld van de Paragraaf ](/help/assets/text-paragraph-example.png)
+![&#x200B; het formaatvoorbeeld van de Paragraaf &#x200B;](/help/assets/text-paragraph-example.png)
 
 ### In-line bewerking {#in-line-editing}
 
 De tekstcomponent kan ook in regels worden bewerkt, maar vanwege ruimtebeperkingen zijn niet alle opmaakopties in regels beschikbaar. Schakel over naar de modus Volledig scherm om alle opties weer te geven.
 
-![ In-lijn geeft voorbeeld uit ](/help/assets/text-edit-inline-example.png)
+![&#x200B; In-lijn geeft voorbeeld uit &#x200B;](/help/assets/text-edit-inline-example.png)
 
 ### Een id instellen {#setting-id}
 
-Deze optie staat u toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens te controleren.](/help/developing/data-layer/overview.md)
+Deze optie staat u toe om het unieke herkenningsteken van de component in HTML en in de [&#x200B; Laag van Gegevens te controleren.](/help/developing/data-layer/overview.md)
 
 * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
 * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
@@ -323,7 +323,7 @@ Het tabblad Insteekmodules wordt gebruikt om verschillende tekstopmaakopties die
 
 ### Functies {#features}
 
-![ de dialoogeigenschappen van het Ontwerp ](/help/assets/text-design-features.png)
+![&#x200B; de dialoogeigenschappen van het Ontwerp &#x200B;](/help/assets/text-design-features.png)
 
 De volgende functies kunnen voor de component worden geactiveerd of gedeactiveerd.
 
@@ -336,7 +336,7 @@ De volgende functies kunnen voor de component worden geactiveerd of gedeactiveer
 
 ### Opmaak {#formatting}
 
-![ de dialoog van het Ontwerp het formatteren ](/help/assets/text-design-formatting.png)
+![&#x200B; de dialoog van het Ontwerp het formatteren &#x200B;](/help/assets/text-design-formatting.png)
 
 De volgende opmaakopties kunnen voor de component worden geactiveerd of gedeactiveerd.
 
@@ -349,7 +349,7 @@ De volgende opmaakopties kunnen voor de component worden geactiveerd of gedeacti
 
 ### Alineastijlen {#paragraph-styles}
 
-![ de dialoogdoos van het Ontwerp alineastijlen ](/help/assets/text-design-paragraph.png)
+![&#x200B; de dialoogdoos van het Ontwerp alineastijlen &#x200B;](/help/assets/text-design-paragraph.png)
 
 Alineastijlen kunnen voor de component worden geactiveerd of gedeactiveerd. Als deze optie is geactiveerd, kunnen de toegestane indelingen worden gedefinieerd.
 
@@ -360,7 +360,7 @@ Alineastijlen kunnen voor de component worden geactiveerd of gedeactiveerd. Als 
 
 ### Speciale tekens {#configuring-special-characters}
 
-![ de dialoog van het Ontwerp speciale karakters ](/help/assets/text-design-special-characters.png)
+![&#x200B; de dialoog van het Ontwerp speciale karakters &#x200B;](/help/assets/text-design-special-characters.png)
 
 De optie voor het invoegen van speciale tekens kan voor de component worden geactiveerd of gedeactiveerd. Als deze optie is geactiveerd, kunnen de toegestane tekens worden gedefinieerd.
 
@@ -375,4 +375,4 @@ De Component van de Tekst steunt het de stijlsysteem van AEM [&#128279;](/help/g
 
 ## Adobe Client Data Layer {#data-layer}
 
-De Component van de Tekst steunt de [ Laag van Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)
+De Component van de Tekst steunt de [&#x200B; Laag van Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)

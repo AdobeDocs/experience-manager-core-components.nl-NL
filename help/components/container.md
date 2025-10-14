@@ -21,8 +21,8 @@ Met de component Core Component Container kunt u een container maken voor meerde
 
 Met de component Core Component Container kunt u een container maken voor meerdere aanvullende componenten op een pagina. U kunt deze component gebruiken om andere componenten te groeperen en een algemene stijl of lay-out toe te passen.
 
-* De eigenschappen van de container kunnen in [ worden geselecteerd vormen dialoog ](#configure-dialog).
-* De gebreken voor de Component van de Container wanneer het toevoegen van het aan een pagina kunnen in de [ ontwerpdialoog ](#design-dialog) worden bepaald.
+* De eigenschappen van de container kunnen in [&#x200B; worden geselecteerd vormen dialoog &#x200B;](#configure-dialog).
+* De gebreken voor de Component van de Container wanneer het toevoegen van het aan een pagina kunnen in de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog) worden bepaald.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -32,32 +32,32 @@ In de volgende tabel worden alle ondersteunde versies van de component, de AEM-v
 
 | Componentversie | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |---|---|---|
-| v1 | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel | Compatibel | Compatibel |
+| v1 | Compatibel systeem met <br>[&#x200B; versie 2.17.4 &#x200B;](/help/versions.md) en vroeger | Compatibel | Compatibel | Compatibel |
 
-Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
+Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [&#x200B; Kern &#x200B;](/help/versions.md).
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Om de Component van de Container te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library_container).
+Om de Component van de Container te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [&#x200B; Bibliotheek van de Component &#x200B;](https://adobe.com/go/aem_cmp_library_container).
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Container [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_container_v1) worden gevonden.
+De recentste technische documentatie over de Component van de Container [&#x200B; kan op GitHub &#x200B;](https://adobe.com/go/aem_cmp_tech_container_v1) worden gevonden.
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden &#x200B;](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
 In het dialoogvenster configureren kan de auteur van de inhoud het containeritem definiëren en bepalen hoe het zich gedraagt en wordt weergegeven voor een bezoeker van de pagina.
 
-![ geef dialoog van de Component van de Container uit ](/help/assets/container-edit.png)
+![&#x200B; geef dialoog van de Component van de Container uit &#x200B;](/help/assets/container-edit.png)
 
 * **Lay-out** - deze optie bepaalt het gedrag of het lay-outgedrag van de Component van de Container.
    * **Eenvoudig** - bepaalt een container als eenvoudige inzameling van componenten
-   * **Responsief Net** - bepaalt een container als [ AEM Responsieve Lay-out ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html?lang=nl-NL)
-* **Achtergrondkleur** - bepaalt of als vrij-vormRGB waarden of door de kleurkiezer te gebruiken, [ afhankelijk van configuratie ](#background-tab)
-* **Achtergrondbeeld** - bepaalt een achtergrondkleur voor de container, [ afhankelijk van configuratie ](#background-tab)
-* **identiteitskaart** - Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens te controleren ](/help/developing/data-layer/overview.md).
+   * **Responsief Net** - bepaalt een container als [&#x200B; AEM Responsieve Lay-out &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html?lang=nl-NL)
+* **Achtergrondkleur** - bepaalt of als vrij-vormRGB waarden of door de kleurkiezer te gebruiken, [&#x200B; afhankelijk van configuratie &#x200B;](#background-tab)
+* **Achtergrondbeeld** - bepaalt een achtergrondkleur voor de container, [&#x200B; afhankelijk van configuratie &#x200B;](#background-tab)
+* **identiteitskaart** - Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [&#x200B; Laag van Gegevens te controleren &#x200B;](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
@@ -70,21 +70,21 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de opties definiëren die bes
 
 Het **Toegestane lusje van Componenten** wordt gebruikt om te bepalen welke componenten als punten aan de Component van de Container door de inhoudauteur kunnen worden toegevoegd.
 
-De toegelaten Componenten lusjefuncties op de zelfde manier zoals het lusje van de zelfde naam wanneer [ het bepalen van het beleid en de eigenschappen van een Container van de Lay-out in de Redacteur van het Malplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL)
+De toegelaten Componenten lusjefuncties op de zelfde manier zoals het lusje van de zelfde naam wanneer [&#x200B; het bepalen van het beleid en de eigenschappen van een Container van de Lay-out in de Redacteur van het Malplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL)
 
 ### Tabblad Standaardcomponenten {#default-components-tab}
 
-Het lusje Standaard van Componenten wordt gebruikt om te bepalen welke component aan de component wordt toegevoegd wanneer een bepaald activatype op de container wordt gelaten vallen, gelijkend op [ hoe de standaardcomponenten op het paginamalplaatje ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL) worden bepaald.
+Het lusje Standaard van Componenten wordt gebruikt om te bepalen welke component aan de component wordt toegevoegd wanneer een bepaald activatype op de container wordt gelaten vallen, gelijkend op [&#x200B; hoe de standaardcomponenten op het paginamalplaatje &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL) worden bepaald.
 
 ### Tab Instellingen voor responsief {#responsive-settings-tab}
 
-![ Responsieve montageslusje van de ontwerpdialoog van de Component van de Container ](/help/assets/container-design-responsive.png)
+![&#x200B; Responsieve montageslusje van de ontwerpdialoog van de Component van de Container &#x200B;](/help/assets/container-design-responsive.png)
 
 * **Kolommen** - bepaalt het aantal kolommen in het net van de resulterende container.
 
 ### Tabblad Achtergrond {#background-tab}
 
-![ Achtergrond lusje van de ontwerpdialoog van de Component van de Container ](/help/assets/container-design-background.png)
+![&#x200B; Achtergrond lusje van de ontwerpdialoog van de Component van de Container &#x200B;](/help/assets/container-design-background.png)
 
 * **Achtergrondbeeld**
    * **laat achtergrondbeeld** toe - selecteer deze optie om de inhoudauteur toe te laten om een achtergrondbeeld voor de container te bepalen.

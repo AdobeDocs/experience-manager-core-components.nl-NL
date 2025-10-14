@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Kerncomponenten aanpassen{#customizing-core-components}
 
-De [ Componenten van de Kern ](overview.md) voeren verscheidene patronen uit die gemakkelijke aanpassing, van eenvoudig het stileren aan geavanceerd functionaliteit hergebruik toestaan.
+De [&#x200B; Componenten van de Kern &#x200B;](overview.md) voeren verscheidene patronen uit die gemakkelijke aanpassing, van eenvoudig het stileren aan geavanceerd functionaliteit hergebruik toestaan.
 
 {{traditional-aem}}
 
@@ -22,28 +22,28 @@ De Core Components zijn vanaf het begin ontworpen om flexibel en uitbreidbaar te
 
 ![&#128279;](/help/assets/screen_shot_2018-12-07at093742.png) Architectuur van de Componenten van 0&rbrace; Kern
 
-* [ de ontwerpdialoog ](/help/get-started/authoring.md#edit-and-design-dialogs) bepaalt wat de auteurs kunnen of niet in uitgeven dialoog kunnen doen.
-* [ uitgeeft dialoog ](/help/get-started/authoring.md#edit-and-design-dialogs) toont auteurs slechts de opties zij worden toegestaan te gebruiken.
-* [ het Verschuiven model ](#customizing-the-logic-of-a-core-component) verifieert en bereidt de inhoud voor de mening (malplaatje) voor.
-* [ het resultaat van het het Verdelen model ](#customizing-the-logic-of-a-core-component) kan aan JSON voor gebruik-gevallen van het KUUROORD worden in series vervaardigd.
-* [ HTML geeft HTML ](#customizing-the-markup) server-kant voor traditionele server-kant terug teruggeeft.
-* [ de output van HTML ](#customizing-the-markup) is semantisch, toegankelijk, onderzoek-motor geoptimaliseerd, en gemakkelijk aan stijl.
+* [&#x200B; de ontwerpdialoog &#x200B;](/help/get-started/authoring.md#edit-and-design-dialogs) bepaalt wat de auteurs kunnen of niet in uitgeven dialoog kunnen doen.
+* [&#x200B; uitgeeft dialoog &#x200B;](/help/get-started/authoring.md#edit-and-design-dialogs) toont auteurs slechts de opties zij worden toegestaan te gebruiken.
+* [&#x200B; het Verschuiven model &#x200B;](#customizing-the-logic-of-a-core-component) verifieert en bereidt de inhoud voor de mening (malplaatje) voor.
+* [&#x200B; het resultaat van het het Verdelen model &#x200B;](#customizing-the-logic-of-a-core-component) kan aan JSON voor gebruik-gevallen van het KUUROORD worden in series vervaardigd.
+* [&#x200B; HTML geeft HTML &#x200B;](#customizing-the-markup) server-kant voor traditionele server-kant terug teruggeeft.
+* [&#x200B; de output van HTML &#x200B;](#customizing-the-markup) is semantisch, toegankelijk, onderzoek-motor geoptimaliseerd, en gemakkelijk aan stijl.
 
-En alle kerncomponenten voeren het [ Systeem van de Stijl ](#styling-the-components) uit.
+En alle kerncomponenten voeren het [&#x200B; Systeem van de Stijl &#x200B;](#styling-the-components) uit.
 
 ## AEM Project Archetype {#aem-project-archetype}
 
-[ het Archetype van het Project van AEM ](/help/developing/archetype/overview.md) leidt tot een minimaal project van Adobe Experience Manager als uitgangspunt voor uw eigen projecten, met inbegrip van een voorbeeld van douaneHTML component met SlingModels voor de logica en juiste implementatie van de Componenten van de Kern met het geadviseerde volmachtspatroon.
+[&#x200B; het Archetype van het Project van AEM &#x200B;](/help/developing/archetype/overview.md) leidt tot een minimaal project van Adobe Experience Manager als uitgangspunt voor uw eigen projecten, met inbegrip van een voorbeeld van douaneHTML component met SlingModels voor de logica en juiste implementatie van de Componenten van de Kern met het geadviseerde volmachtspatroon.
 
 ## Aanpassingspatronen {#customization-patterns}
 
 ### Dialoogvensters aanpassen {#customizing-dialogs}
 
-Het kan worden gewenst om de configuratieopties beschikbaar in een kerncomponentendialoog aan te passen, of het de [ Dialoog van het Ontwerp of Edit Dialog ](/help/get-started/authoring.md).
+Het kan worden gewenst om de configuratieopties beschikbaar in een kerncomponentendialoog aan te passen, of het de [&#x200B; Dialoog van het Ontwerp of Edit Dialog &#x200B;](/help/get-started/authoring.md).
 
-Elk dialoogvenster heeft een consistente knooppuntstructuur. Het wordt geadviseerd dat deze structuur in een het erven component wordt herhaald zodat [ het Verzamelen van het Middel ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) en [ de Voorwaarden van de Verbergen ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/developing/using/hide-conditions.html) kunnen worden gebruikt om, secties van de originele dialoog te verbergen te vervangen of te herschikken. De structuur die moet worden gerepliceerd, wordt gedefinieerd als alles tot het niveau van de tabitemnode.
+Elk dialoogvenster heeft een consistente knooppuntstructuur. Het wordt geadviseerd dat deze structuur in een het erven component wordt herhaald zodat [&#x200B; het Verzamelen van het Middel &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) en [&#x200B; de Voorwaarden van de Verbergen &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/developing/using/hide-conditions.html) kunnen worden gebruikt om, secties van de originele dialoog te verbergen te vervangen of te herschikken. De structuur die moet worden gerepliceerd, wordt gedefinieerd als alles tot het niveau van de tabitemnode.
 
-Om volledig compatibel te zijn met eventuele wijzigingen die zijn aangebracht in een dialoog over de huidige versie, is het van groot belang dat structuren onder het tabitemniveau niet worden gewijzigd (verborgen, toegevoegd, vervangen, opnieuw gerangschikt, enz.). In plaats daarvan, zou een lusjepunt van de ouder via het `sling:hideResource` bezit moeten worden verborgen (zie [ het Verspreiden Eigenschappen van de Fusie van het Middel ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)), en nieuwe toegevoegde lusjepunten die de maatbespraakte configuratiegebieden bevatten. `sling:orderBefore` kan indien nodig worden gebruikt om de tabitems opnieuw te ordenen.
+Om volledig compatibel te zijn met eventuele wijzigingen die zijn aangebracht in een dialoog over de huidige versie, is het van groot belang dat structuren onder het tabitemniveau niet worden gewijzigd (verborgen, toegevoegd, vervangen, opnieuw gerangschikt, enz.). In plaats daarvan, zou een lusjepunt van de ouder via het `sling:hideResource` bezit moeten worden verborgen (zie [&#x200B; het Verspreiden Eigenschappen van de Fusie van het Middel &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)), en nieuwe toegevoegde lusjepunten die de maatbespraakte configuratiegebieden bevatten. `sling:orderBefore` kan indien nodig worden gebruikt om de tabitems opnieuw te ordenen.
 
 In het onderstaande dialoogvenster ziet u de aanbevolen dialoogstructuur en hoe u een overgeërfd tabblad zoals hierboven beschreven, kunt verbergen en vervangen:
 
@@ -105,13 +105,13 @@ public class PageHeadline implements Title {
 }
 ```
 
-Voor verdere details over het delegatiepatroon zie het artikel van GitHub Wiki van de Componenten van de Kern [ Patroon van de Delegatie voor het Verdelen Modellen ](https://github.com/adobe/aem-core-wcm-components/wiki/Delegation-Pattern-for-Sling-Models).
+Voor verdere details over het delegatiepatroon zie het artikel van GitHub Wiki van de Componenten van de Kern [&#x200B; Patroon van de Delegatie voor het Verdelen Modellen &#x200B;](https://github.com/adobe/aem-core-wcm-components/wiki/Delegation-Pattern-for-Sling-Models).
 
 ### De opmaak aanpassen {#customizing-the-markup}
 
 Soms is voor geavanceerde opmaak een andere markeringsstructuur van de component vereist.
 
-Dit kan gemakkelijk worden gedaan door de HTML- dossiers te kopiëren die van de Component van de Kern in de [ volmachtscomponent moeten worden gewijzigd.](guidelines.md#proxy-component-pattern)
+Dit kan gemakkelijk worden gedaan door de HTML- dossiers te kopiëren die van de Component van de Kern in de [&#x200B; volmachtscomponent moeten worden gewijzigd.](guidelines.md#proxy-component-pattern)
 
 Als u het voorbeeld van de Core Breadcrumb-component nogmaals gebruikt en de markeringsuitvoer ervan wilt aanpassen, moet het `breadcrumb.html` -bestand worden gekopieerd naar de sitespecifieke component met een `sling:resourceSuperTypes` die naar de Core Breadcrumb-component wijst.
 
@@ -119,9 +119,9 @@ Als u het voorbeeld van de Core Breadcrumb-component nogmaals gebruikt en de mar
 
 De eerste vorm van aanpassing is het toepassen van CSS-stijlen.
 
-Om dit gemakkelijk te maken, geven de Componenten van de Kern semantische prijsverhoging terug en volgen een gestandaardiseerde noemende overeenkomst die door [ wordt geïnspireerd Bootstrap ](https://getbootstrap.com/). Om de stijlen voor de afzonderlijke componenten gemakkelijk te kunnen toewijzen en naammaken, wordt elke Core-component in een DIV-element opgenomen met de klassen &quot; `cmp`&quot; en &quot; `cmp-<name>`&quot;.
+Om dit gemakkelijk te maken, geven de Componenten van de Kern semantische prijsverhoging terug en volgen een gestandaardiseerde noemende overeenkomst die door [&#x200B; wordt geïnspireerd Bootstrap &#x200B;](https://getbootstrap.com/). Om de stijlen voor de afzonderlijke componenten gemakkelijk te kunnen toewijzen en naammaken, wordt elke Core-component in een DIV-element opgenomen met de klassen &quot; `cmp`&quot; en &quot; `cmp-<name>`&quot;.
 
-Bijvoorbeeld, kijkend het HTML- dossier van de v1 Component van de Kern Breadcrumb: [ breadcrumb.html ](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html), zien wij dat de hiërarchie van elementenoutput `ol.breadcrumb > li.breadcrumb-item > a` is. Om er zeker van te zijn dat een CSS-regel alleen van invloed is op de klasse breadcrumb van die component, moeten alle regels een naamruimte krijgen, zoals hieronder wordt weergegeven:
+Bijvoorbeeld, kijkend het HTML- dossier van de v1 Component van de Kern Breadcrumb: [&#x200B; breadcrumb.html &#x200B;](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html), zien wij dat de hiërarchie van elementenoutput `ol.breadcrumb > li.breadcrumb-item > a` is. Om er zeker van te zijn dat een CSS-regel alleen van invloed is op de klasse breadcrumb van die component, moeten alle regels een naamruimte krijgen, zoals hieronder wordt weergegeven:
 
 ```shell
 .cmp-breadcrumb .breadcrumb {}  
@@ -139,7 +139,7 @@ Er zijn drie verschillende soorten upgrades mogelijk:
 * de Core Components upgraden naar een nieuwe secundaire versie
 * de Core Components upgraden naar een belangrijke versie
 
-Over het algemeen, zal de bevordering van AEM aan een nieuwe versie niet de Componenten van de Kern of de aanpassingen beïnvloeden, op voorwaarde dat de versies van de componenten ook de nieuwe versie van AEM steunen die wordt gemigreerd aan, en dat de aanpassingen geen APIs gebruiken die [ zijn afgekeurd of verwijderd ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=nl-NL).
+Over het algemeen, zal de bevordering van AEM aan een nieuwe versie niet de Componenten van de Kern of de aanpassingen beïnvloeden, op voorwaarde dat de versies van de componenten ook de nieuwe versie van AEM steunen die wordt gemigreerd aan, en dat de aanpassingen geen APIs gebruiken die [&#x200B; zijn afgekeurd of verwijderd &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=nl-NL).
 
 Als u de kerncomponenten upgradet zonder over te schakelen op een nieuwere hoofdversie, heeft dit geen invloed op aanpassingen, zolang de aanpassingspatronen die op deze pagina worden beschreven, worden gebruikt.
 
@@ -155,15 +155,15 @@ Net als bij elke AEM-component moet u rekening houden met een aantal aanpassinge
 
 1. **de code van de Douane is uw eigen verantwoordelijkheid.**
 
-   Ons steunprogramma behandelt douanecode niet, en rapporteerde kwesties die niet met de componenten van de Kern kunnen worden gereproduceerd vanilla die [ worden gebruikt zoals gedocumenteerd ](/help/get-started/using.md) niet zal kwalificeren.
+   Ons steunprogramma behandelt douanecode niet, en rapporteerde kwesties die niet met de componenten van de Kern kunnen worden gereproduceerd vanilla die [&#x200B; worden gebruikt zoals gedocumenteerd &#x200B;](/help/get-started/using.md) niet zal kwalificeren.
 
 1. **Controle verouderde en verwijderde functionaliteit.**
 
-   Met elke nieuwe versie die van AEM wordt bevorderd aan, zorg ervoor dat alle gebruikte API nog actueel is door een oog op de [ Vervangen en Verwijderde pagina van Eigenschappen ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=nl-NL) te houden.
+   Met elke nieuwe versie die van AEM wordt bevorderd aan, zorg ervoor dat alle gebruikte API nog actueel is door een oog op de [&#x200B; Vervangen en Verwijderde pagina van Eigenschappen &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=nl-NL) te houden.
 
 Zie ook de [&#128279;](overview.md#core-component-support) sectie van de Steun van de Component van de 0&rbrace; Kern.
 
 **Lees daarna:**
 
-* [ Gebruikend de Componenten van de Kern ](/help/get-started/using.md) - wordt in werking gesteld met de Componenten van de Kern in uw eigen project.
-* [ Richtlijnen van de Component ](guidelines.md) - om de implementatiepatronen van de Componenten van de Kern te leren.
+* [&#x200B; Gebruikend de Componenten van de Kern &#x200B;](/help/get-started/using.md) - wordt in werking gesteld met de Componenten van de Kern in uw eigen project.
+* [&#x200B; Richtlijnen van de Component &#x200B;](guidelines.md) - om de implementatiepatronen van de Componenten van de Kern te leren.

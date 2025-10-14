@@ -20,8 +20,8 @@ Met de component Core Component Download kunt u een downloadoptie op een pagina 
 
 Met de component Core Component Download kunnen een downloadoptie en het bijbehorende element op een pagina worden opgenomen.
 
-* De eigenschappen van de downloadoptie kunnen in [ worden geselecteerd vormen dialoog ](#configure-dialog).
-* De gebreken voor de downloadcomponent kunnen in de [ ontwerpdialoog ](#design-dialog) worden bepaald.
+* De eigenschappen van de downloadoptie kunnen in [&#x200B; worden geselecteerd vormen dialoog &#x200B;](#configure-dialog).
+* De gebreken voor de downloadcomponent kunnen in de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog) worden bepaald.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -31,36 +31,36 @@ In dit document wordt versie 1 van de Download Component beschreven, die in juni
 >
 >In dit document wordt versie 1 van de downloadcomponent beschreven.
 >
->Voor details van de huidige versie van de Component van de Download, zie het [ document van de Component van de Download ](/help/components/download.md).
+>Voor details van de huidige versie van de Component van de Download, zie het [&#x200B; document van de Component van de Download &#x200B;](/help/components/download.md).
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Om de Component van de Download te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library_download).
+Om de Component van de Download te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [&#x200B; Bibliotheek van de Component &#x200B;](https://adobe.com/go/aem_cmp_library_download).
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Download [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_download_v1) worden gevonden.
+De recentste technische documentatie over de Component van de Download [&#x200B; kan op GitHub &#x200B;](https://adobe.com/go/aem_cmp_tech_download_v1) worden gevonden.
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden &#x200B;](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
 In het dialoogvenster Configureren kan de auteur van de inhoud het downloaditem definiëren en bepalen hoe het zich gedraagt en wordt weergegeven voor een bezoeker van de pagina.
 
-![ het lusje van Activa van de Download Component geeft dialoog uit ](/help/assets/download-edit-asset.png)
+![&#x200B; het lusje van Activa van de Download Component geeft dialoog uit &#x200B;](/help/assets/download-edit-asset.png)
 
 ### Tabblad Element {#asset-tab}
 
-De selectie van een downloadactiva is zeer gelijkaardig aan de functionaliteit van de [ Component van het Beeld ](image-v1.md) en eveneens hefboomwerkingen AEM DAM.
+De selectie van een downloadactiva is zeer gelijkaardig aan de functionaliteit van de [&#x200B; Component van het Beeld &#x200B;](image-v1.md) en eveneens hefboomwerkingen AEM DAM.
 
 * **Activa van de Download**
-   * Daling een activa van [ activa browser ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=nl-NL) of ontvang **doorbladert** optie om van een lokaal dossiersysteem te uploaden.
+   * Daling een activa van [&#x200B; activa browser &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=nl-NL) of ontvang **doorbladert** optie om van een lokaal dossiersysteem te uploaden.
    * Tik of klik **Duidelijk** om het momenteel geselecteerde beeld te deselecteren.
-   * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=nl-NL) in de activaredacteur te beheren.
+   * Tik of klik **uitgeven** [&#x200B; om de vertoningen van de activa &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=nl-NL) in de activaredacteur te beheren.
 
 ### Tabblad Eigenschappen {#properties-tab}
 
-![ het lusje van Eigenschappen van de Download Component geeft dialoog uit ](/help/assets/download-edit-properties.png)
+![&#x200B; het lusje van Eigenschappen van de Download Component geeft dialoog uit &#x200B;](/help/assets/download-edit-properties.png)
 
 * **Titel** - Toont als titel voor het downloadpunt
    * **krijgt titel van activa DAM** - wanneer geselecteerd, wordt de titel automatisch bevolkt met de titel van het element DAM.
@@ -69,7 +69,7 @@ De selectie van een downloadactiva is zeer gelijkaardig aan de functionaliteit v
 * **Tekst van de Actie** - Toont als actietekst voor het downloadpunt
    * Dit veld is vereist wanneer u een element uploadt van het bestandssysteem.
    * **Inline van de Vertoning** - wanneer geselecteerd zal de verstrekte **Tekst van de Actie** inline tonen.
-* **identiteitskaart** - Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens te controleren ](/help/developing/data-layer/overview.md).
+* **identiteitskaart** - Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [&#x200B; Laag van Gegevens te controleren &#x200B;](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
@@ -80,7 +80,7 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de opties definiëren die bes
 
 ### Tabblad Eigenschappen {#properties-tab-design}
 
-![ dialoog van het Ontwerp van de Component van de Download ](/help/assets/download-design.png)
+![&#x200B; dialoog van het Ontwerp van de Component van de Download &#x200B;](/help/assets/download-design.png)
 
 * **sta upload van dossiersysteem** toe - staat de inhoudsauteur toe om activa van zijn/haar lokaal filesystem als downloadmiddel te uploaden.
    * De standaardwaarde is niet geselecteerd.

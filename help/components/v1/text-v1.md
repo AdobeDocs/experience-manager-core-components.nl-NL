@@ -20,7 +20,7 @@ De component Text is een component voor tekstbewerking en -compositie met teksto
 
 De component Text biedt een robuuste teksteditor met tekstopmaak die het mogelijk maakt tekst eenvoudig te bewerken in een vereenvoudigde, inline editor en in een volledige schermopmaak.
 
-Het [ geeft dialoog ](#edit-dialog) eigenschappen in-lijn uit het uitgeven met beperkte opties met volledige functionaliteit beschikbaar in het volledig scherm uitgeeft dialoog. Gebruikend de [ ontwerpdialoog ](#design-dialog), tekst het formatteren opties zoals rubrieken, speciale karakters, en paragraafstijlen kunnen voor het malplaatje voor de inhoudauteur worden gevormd.
+Het [&#x200B; geeft dialoog &#x200B;](#edit-dialog) eigenschappen in-lijn uit het uitgeven met beperkte opties met volledige functionaliteit beschikbaar in het volledig scherm uitgeeft dialoog. Gebruikend de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog), tekst het formatteren opties zoals rubrieken, speciale karakters, en paragraafstijlen kunnen voor het malplaatje voor de inhoudauteur worden gevormd.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -41,7 +41,7 @@ In de volgende tabel wordt de compatibiliteit van v1 van de tekstcomponent weerg
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende wordt steekproef genomen van [&#x200B; We.Retail &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Schermafbeelding {#screenshot}
 
@@ -69,7 +69,7 @@ Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/
 
 >[!NOTE]
 >
->Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Gelieve te zien de [ verenigbaarheidsinformatie voor de Componenten van de Kern v1 ](/help/versions.md) voor meer informatie.
+>Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Gelieve te zien de [&#x200B; verenigbaarheidsinformatie voor de Componenten van de Kern v1 &#x200B;](/help/versions.md) voor meer informatie.
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
@@ -367,8 +367,8 @@ De optie voor het invoegen van speciale tekens kan voor de component worden geac
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Tekst [ kan op GitHub ](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text) worden gevonden.
+De recentste technische documentatie over de Component van de Tekst [&#x200B; kan op GitHub &#x200B;](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text) worden gevonden.
 
 Het volledige kerncomponentenproject kan van GitHub worden gedownload.
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden &#x200B;](/help/developing/overview.md).

@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Paginacomponent (v1) {#page-component-v}
 
-De Component van de Pagina is een verlengbare paginacomponent die wordt ontworpen om met de [ malplaatjeredacteur ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/authoring/using/templates.html) te werken en paginakopbal/footer en structuurcomponenten toe te staan om met de malplaatjedacteur worden samengesteld.
+De Component van de Pagina is een verlengbare paginacomponent die wordt ontworpen om met de [&#x200B; malplaatjeredacteur &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-4/sites/authoring/using/templates.html) te werken en paginakopbal/footer en structuurcomponenten toe te staan om met de malplaatjedacteur worden samengesteld.
 
 ## Gebruik {#usage}
 
 De component Pagina vormt de basis van alle pagina&#39;s die zijn ontworpen met de kerncomponenten en bewerkbare sjablonen. Door de paginacomponent, kunnen de kopballen, footers, en de structuur van de pagina als malplaatje worden bepaald gebruikend de andere kerncomponenten.
 
-Gebruikend de [ ontwerpdialoog ](#design-dialog), kunnen de douane cliënt-zijbibliotheken voor de pagina worden bepaald. In tegenstelling tot andere componenten die een Edit dialoog hebben die direct van de component toegankelijk is, omdat de component de pagina zelf is, [ uitgeeft dialoog ](#edit-dialog) van de paginacomponent het pagina eigenschappenvenster is.
+Gebruikend de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog), kunnen de douane cliënt-zijbibliotheken voor de pagina worden bepaald. In tegenstelling tot andere componenten die een Edit dialoog hebben die direct van de component toegankelijk is, omdat de component de pagina zelf is, [&#x200B; uitgeeft dialoog &#x200B;](#edit-dialog) van de paginacomponent het pagina eigenschappenvenster is.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -41,11 +41,11 @@ In de volgende tabel wordt de compatibiliteit van v1 van de paginacomponent weer
 
 >[!NOTE]
 >
->v1 van de component page ondersteunt geen omleiding van de pagina. Gelieve te gebruiken de [ huidige versie van de paginacomponent ](/help/components/page.md) voor pagina redirection steun.
+>v1 van de component page ondersteunt geen omleiding van de pagina. Gelieve te gebruiken de [&#x200B; huidige versie van de paginacomponent &#x200B;](/help/components/page.md) voor pagina redirection steun.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende wordt steekproef genomen van [&#x200B; We.Retail &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Schermafbeelding {#screenshot}
 
@@ -679,11 +679,11 @@ Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/
 
 >[!NOTE]
 >
->Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Gelieve te zien de [ verenigbaarheidsinformatie voor de Componenten van de Kern v1 ](/help/versions.md) voor meer informatie.
+>Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Gelieve te zien de [&#x200B; verenigbaarheidsinformatie voor de Componenten van de Kern v1 &#x200B;](/help/versions.md) voor meer informatie.
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
-Omdat de component de volledige pagina vertegenwoordigt, worden de montages die normaal in zouden zijn uitgeeft dialoog gevonden in het [ venster van de Eigenschappen van de Pagina ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/authoring/using/editing-page-properties.html).
+Omdat de component de volledige pagina vertegenwoordigt, worden de montages die normaal in zouden zijn uitgeeft dialoog gevonden in het [&#x200B; venster van de Eigenschappen van de Pagina &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-4/sites/authoring/using/editing-page-properties.html).
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -697,14 +697,14 @@ Met behulp van het venster Paginaontwerp kunt u bibliotheken aan de clientzijde 
 * Als u een veld wilt verwijderen, klikt of tikt u op het prullenbakpictogram naast het veld dat u wilt verwijderen.
 * Als u de laadvolgorde wilt wijzigen, klikt of tikt u op de greep naast het te verplaatsen veld.
 
-Voor meer informatie over het gebruiken van cliënt-zijbibliotheken zie [ Gebruikend de Bibliotheken van de Kant van de Cliënt ](https://helpx.adobe.com/nl/experience-manager/6-3/sites/developing/using/clientlibs.html).
+Voor meer informatie over het gebruiken van cliënt-zijbibliotheken zie [&#x200B; Gebruikend de Bibliotheken van de Kant van de Cliënt &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-3/sites/developing/using/clientlibs.html).
 
 ![](/help/assets/chlimage_1-95.png)
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Pagina [ kan op GitHub ](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page) worden gevonden.
+De recentste technische documentatie over de Component van de Pagina [&#x200B; kan op GitHub &#x200B;](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page) worden gevonden.
 
 Het volledige kerncomponentenproject kan van GitHub worden gedownload.
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden &#x200B;](/help/developing/overview.md).

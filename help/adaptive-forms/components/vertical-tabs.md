@@ -18,9 +18,9 @@ Wanneer een gebruiker op een tabblad klikt, wordt de formulierinhoud dynamisch b
 
 >[!NOTE]
 >
-> Voor AEM 6.5 Forms werd deze component geïntroduceerd met AEM 6.5 Forms Service Pack 19 (6.5.19.0). Om deze component in te schakelen, zorgt u ervoor dat de benodigde versies van zowel Forms Core Components als WCM Core Components zijn geïnstalleerd. Voor gedetailleerde informatie over de versies van de Adaptieve Componenten van de Kern van Forms, gelieve te verwijzen naar [ Adaptieve versies van de Kern van Forms ](/help/adaptive-forms/version.md)
+> Voor AEM 6.5 Forms werd deze component geïntroduceerd met AEM 6.5 Forms Service Pack 19 (6.5.19.0). Om deze component in te schakelen, zorgt u ervoor dat de benodigde versies van zowel Forms Core Components als WCM Core Components zijn geïnstalleerd. Voor gedetailleerde informatie over de versies van de Adaptieve Componenten van de Kern van Forms, gelieve te verwijzen naar [&#x200B; Adaptieve versies van de Kern van Forms &#x200B;](/help/adaptive-forms/version.md)
 
-![ voorbeeld ](/help/adaptive-forms/assets/horizontal-example.png)
+![&#x200B; voorbeeld &#x200B;](/help/adaptive-forms/assets/horizontal-example.png)
 
 {{traditional-aem}}
 
@@ -44,13 +44,13 @@ De Adaptive Forms Vertical tabs Core Component is uitgebracht als onderdeel van 
 |---|---|
 | Componentversie | AEM as a Cloud Service |
 | — | — |
-| v1 | Compatibel systeem met <br>[ versie 2.0.18 ](/help/adaptive-forms/version.md) en later | Compatibel | Compatibel |
+| v1 | Compatibel systeem met <br>[&#x200B; versie 2.0.18 &#x200B;](/help/adaptive-forms/version.md) en later | Compatibel | Compatibel |
 
 Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
 
 ## Technische details {#technical-details}
 
-Krijg de recentste informatie over de Aangepaste Verticale Component van de Kern van de tabbladen van Forms in de technische documentatie op [ GitHub ](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/verticaltabs/v1/verticaltabs). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern ](/help/developing/overview.md).
+Krijg de recentste informatie over de Aangepaste Verticale Component van de Kern van de tabbladen van Forms in de technische documentatie op [&#x200B; GitHub &#x200B;](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/verticaltabs/v1/verticaltabs). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern &#x200B;](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -58,13 +58,13 @@ Met het dialoogvenster Configureren kunt u uw ervaring op verticale tabbladen ee
 
 ### Tabblad Standaard {#basic-tab}
 
-![ Basis lusje ](/help/adaptive-forms/assets/vertical-tab-basic.png)
+![&#x200B; Basis lusje &#x200B;](/help/adaptive-forms/assets/vertical-tab-basic.png)
 
 - **Naam** - u kunt een vormcomponent gemakkelijk met zijn unieke naam zowel in de vorm als in de regelredacteur identificeren, maar de naam moet geen ruimten of speciale karakters bevatten.
 
 - **Titel** - met zijn Titel, kunt u een component in een vorm gemakkelijk identificeren en door gebrek, verschijnt de titel bovenop de component. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
-  Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
+  Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![&#x200B; pictogram Volledig scherm &#x200B;](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
   ![&#128279;](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0&rbrace;
 
@@ -101,7 +101,7 @@ Met het dialoogvenster Configureren kunt u uw ervaring op verticale tabbladen ee
 
 ### Verticale tab herhalen {#repeat-tabs-on-top}
 
-![ Herhaal lusje ](/help/adaptive-forms/assets/vertical-tab-repeat-vertical-tab.png)
+![&#x200B; Herhaal lusje &#x200B;](/help/adaptive-forms/assets/vertical-tab-repeat-vertical-tab.png)
 
 Met de opties voor herhaling kunt u de component Verticaal-tabs en de onderliggende componenten dupliceren, een minimum- en maximumaantal herhalingen definiëren en de replicatie van vergelijkbare secties in een formulier vergemakkelijken. Wanneer u communiceert met de component Vertical-tabs en de instellingen van deze component opent, worden de volgende opties weergegeven:
 
@@ -109,11 +109,11 @@ Met de opties voor herhaling kunt u de component Verticaal-tabs en de onderligge
 - **Minimale herhalingen**: Vestigt het minimumaantal tijden de verticaal-luscomponent kan worden herhaald. De waarde nul geeft aan dat de component Verticale tabs niet wordt herhaald. De standaardwaarde is nul.
 - **Maximale herhalingen**: Plaatst het maximumaantal tijden de verticaal-luscomponent kan worden herhaald. Deze waarde is standaard onbeperkt.
 
-Om herhaalbare secties binnen Verticaal-lusjes effectief te beheren, volg de stappen die in [ worden verstrekt die vormen met herhaalbare secties ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=nl-NL) artikel creëren.
+Om herhaalbare secties binnen Verticaal-lusjes effectief te beheren, volg de stappen die in [&#x200B; worden verstrekt die vormen met herhaalbare secties &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=nl-NL) artikel creëren.
 
 ### Tabblad Items {#items-tab}
 
-![ Punten tabel ](/help/adaptive-forms/assets/vertical-tab-items.png)
+![&#x200B; Punten tabel &#x200B;](/help/adaptive-forms/assets/vertical-tab-items.png)
 
 **voegt** knoop toe staat u toe om een component te selecteren om als paneel van het venster van de componentenselectie toe te voegen. Nadat u de component hebt toegevoegd, kunt u de volgende opties zien:
 
@@ -124,7 +124,7 @@ Om herhaalbare secties binnen Verticaal-lusjes effectief te beheren, volg de sta
 
 ### Het tabblad Help-inhoud {#help-content}
 
-![ Inhoud tabel van de Hulp ](/help/adaptive-forms/assets/vertical-tab-help.png)
+![&#x200B; Inhoud tabel van de Hulp &#x200B;](/help/adaptive-forms/assets/vertical-tab-help.png)
 
 - **Korte beschrijving** - een korte beschrijving is een korte tekstverklaring die extra informatie of verduidelijking over het doel van een specifiek vormgebied verstrekt. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. Laat **toe tonen altijd korte beschrijving** optie om het onder de component te tonen.
 
@@ -134,7 +134,7 @@ Om herhaalbare secties binnen Verticaal-lusjes effectief te beheren, volg de sta
 
 ### Tabblad Toegankelijkheid {#accessibility}
 
-![ Toegankelijkheid tabel ](/help/adaptive-forms/assets/vertical-tab-accessibility.png)
+![&#x200B; Toegankelijkheid tabel &#x200B;](/help/adaptive-forms/assets/vertical-tab-accessibility.png)
 
 - **Tekst voor het schermlezers** - de Tekst voor het schermlezers verwijst naar extra tekst die specifiek bedoeld is om door ondersteunende technologieën, zoals het schermlezers te worden gelezen, die door visueel gehandicapte individuen wordt gebruikt. Deze tekst bevat een audiobeschrijving van het doel van het formulierveld en kan informatie bevatten over de titel, beschrijving, naam en relevante berichten (aangepaste tekst) van het veld. Met de schermlezertekst kunt u ervoor zorgen dat het formulier toegankelijk is voor alle gebruikers, inclusief gebruikers met een visuele handicap, en krijgt deze een volledig inzicht in het formulierveld en de vereisten ervan.
 
@@ -157,13 +157,13 @@ Hierdoor wordt het maken en aanpassen van formulieren eenvoudiger en efficiënte
 
 ### Tabblad Toegestane componenten {#allowed-components-tab}
 
-![ Toegestane Componenten tabel ](/help/adaptive-forms/assets/tabs-allowed-component.png)
+![&#x200B; Toegestane Componenten tabel &#x200B;](/help/adaptive-forms/assets/tabs-allowed-component.png)
 
 Het **Toegestane lusje van Componenten** staat malplaatjeredacteur toe om de componenten te plaatsen die als punten aan de panelen in de Verticale component van lusjes in de Aangepaste redacteur van Forms kunnen worden toegevoegd.
 
 ### Tabblad Stijlen {#styles-tab}
 
-![ het lusje van Stijlen ](/help/adaptive-forms/assets/tabs-styles-tab.png)
+![&#x200B; het lusje van Stijlen &#x200B;](/help/adaptive-forms/assets/tabs-styles-tab.png)
 
 Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve Verticale component van de Lijst van de Kern van Forms steunt het systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
@@ -173,7 +173,7 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor een component te
 
 ### Tabblad Aangepaste eigenschappen
 
-![ Eigenschappen tabel van de Douane ](/help/adaptive-forms/assets/tabs-custom-properties.png)
+![&#x200B; Eigenschappen tabel van de Douane &#x200B;](/help/adaptive-forms/assets/tabs-custom-properties.png)
 
 Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aan een Adaptief kernonderdeel van een formulier koppelen met behulp van de formuliersjabloon. De aangepaste eigenschappen worden weergegeven in de sectie Eigenschappen van de koploze uitvoering van de component. Hiermee kunt u dynamisch formuliergedrag maken dat wordt aangepast op basis van de waarden van aangepaste kenmerken. Ontwikkelaars kunnen bijvoorbeeld verschillende uitvoeringen van een Forms-component zonder koptekst ontwerpen voor mobiele apparaten, desktops of webplatforms, waardoor de gebruikerservaring op een groot aantal apparaten aanzienlijk wordt verbeterd.
 

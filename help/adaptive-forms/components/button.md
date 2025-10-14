@@ -17,7 +17,7 @@ Een knop in een adaptief formulier is een interface-element waarmee gebruikers e
 
 Met de Adaptive Forms Rule Editor kunnen gebruikers verschillende handelingen instellen voor de knopcomponent. Tot deze acties behoren het openen van een website, het tonen of verbergen van formuliercomponenten, het toevoegen van een exemplaar van een deelvenster of component, het verzenden of opnieuw instellen van een formulier, enzovoort.
 
-De adaptieve Forms eigenschapafzonderlijke componenten voor [ verzenden knoop ](/help/adaptive-forms/components/submit-button.md) en [ knoop van het Terugstellen ](/help/adaptive-forms/components/reset-button.md), toestaand gebruikers om een vorm gemakkelijk voor te leggen of terug te stellen. De component Button kan flexibel worden geconfigureerd om deze handelingen uit te voeren op basis van specifieke behoeften.
+De adaptieve Forms eigenschapafzonderlijke componenten voor [&#x200B; verzenden knoop &#x200B;](/help/adaptive-forms/components/submit-button.md) en [&#x200B; knoop van het Terugstellen &#x200B;](/help/adaptive-forms/components/reset-button.md), toestaand gebruikers om een vorm gemakkelijk voor te leggen of terug te stellen. De component Button kan flexibel worden geconfigureerd om deze handelingen uit te voeren op basis van specifieke behoeften.
 
 Gebruikers kunnen de volledige lijst met ondersteunde acties voor de knopcomponent openen met de Adaptive Forms Rule Editor. Met de regeleditor kunnen gebruikers regels maken die door verschillende gebeurtenissen worden geactiveerd, zoals wanneer op een knop wordt geklikt, wanneer een formulier wordt geladen of wanneer een veldwaarde verandert. Deze regels kunnen vervolgens worden gebruikt om verschillende handelingen uit te voeren, zoals het weergeven of verbergen van componenten, het instellen van veldwaarden of het verzenden van het formulier.
 
@@ -25,7 +25,7 @@ Gebruikers kunnen de volledige lijst met ondersteunde acties voor de knopcompone
 
 **Voorbeeld**
 
-![ Voorbeeld van de Knoop ](/help/adaptive-forms/assets/example-button.png)
+![&#x200B; Voorbeeld van de Knoop &#x200B;](/help/adaptive-forms/assets/example-button.png)
 
 ## Gebruik {#reasons-to-use-button}
 
@@ -47,7 +47,7 @@ De Adaptive Forms Button Core Component is in februari 2023 uitgebracht als onde
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
-| v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
+| v1 | Compatibel systeem met <br>[&#x200B; versie 2.0.4 &#x200B;](/help/adaptive-forms/version.md) en later | Compatibel met <br>[&#x200B; versie 1.1.12 &#x200B;](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
 Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
 
@@ -58,7 +58,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Technische details {#technical-details}
 
-Krijg de recentste informatie over de Adaptieve Component van de Kern van de Knoop van Forms in de technische documentatie op [ GitHub ](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/button/v1/button). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern ](/help/developing/overview.md).
+Krijg de recentste informatie over de Adaptieve Component van de Kern van de Knoop van Forms in de technische documentatie op [&#x200B; GitHub &#x200B;](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/button/v1/button). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern &#x200B;](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -66,14 +66,14 @@ Met het dialoogvenster Configureren kunt u de knopervaring voor bezoekers eenvou
 
 ### Tabblad Standaard {#basic-tab}
 
-![ BasisLusje ](/help/adaptive-forms/assets/button_basictab.png)
+![&#x200B; BasisLusje &#x200B;](/help/adaptive-forms/assets/button_basictab.png)
 
 - **Naam** - u kunt een vormcomponent gemakkelijk met zijn unieke naam zowel in de vorm als in de regelredacteur identificeren, maar de naam moet geen ruimten of speciale karakters bevatten.
 
 - **Titel** - met zijn Titel, kunt u een component in een vorm gemakkelijk identificeren en door gebrek, verschijnt de titel bovenop de component. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
 
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
-  Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
+  Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![&#x200B; pictogram Volledig scherm &#x200B;](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
   ![&#128279;](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0&rbrace;
 
@@ -89,7 +89,7 @@ Met het dialoogvenster Configureren kunt u de knopervaring voor bezoekers eenvou
 
 ### Het tabblad Help-inhoud {#help-content}
 
-![ Inhoud tabel van de Hulp ](/help/adaptive-forms/assets/button_helptab.png)
+![&#x200B; Inhoud tabel van de Hulp &#x200B;](/help/adaptive-forms/assets/button_helptab.png)
 
 - **Korte beschrijving** - een korte beschrijving is een korte tekstverklaring die extra informatie of verduidelijking over het doel van een specifiek vormgebied verstrekt. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. Laat **toe tonen altijd korte beschrijving** optie om het onder de component te tonen.
 
@@ -99,7 +99,7 @@ Met het dialoogvenster Configureren kunt u de knopervaring voor bezoekers eenvou
 
 ### Toegankelijkheid {#accessibility}
 
-![ Toegankelijkheid tabel ](/help/adaptive-forms/assets/button_accessibilitytab.png)
+![&#x200B; Toegankelijkheid tabel &#x200B;](/help/adaptive-forms/assets/button_accessibilitytab.png)
 
 
 - **Tekst voor het schermlezers** - de Tekst voor het schermlezers verwijst naar extra tekst die specifiek bedoeld is om door ondersteunende technologieën, zoals het schermlezers te worden gelezen, die door visueel gehandicapte individuen wordt gebruikt. Deze tekst bevat een audiobeschrijving van het doel van het formulierveld en kan informatie bevatten over de titel, beschrijving, naam en relevante berichten (aangepaste tekst) van het veld. Met de schermlezertekst kunt u ervoor zorgen dat het formulier toegankelijk is voor alle gebruikers, inclusief gebruikers met een visuele handicap, en krijgt deze een volledig inzicht in het formulierveld en de vereisten ervan.
@@ -117,7 +117,7 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de knopcomponent
 
 De adaptieve Component van de Kern van de Knoop van Forms steunt het systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
-![ Dialoog van het Ontwerp ](/help/adaptive-forms/assets/checkbox-style.png)
+![&#x200B; Dialoog van het Ontwerp &#x200B;](/help/adaptive-forms/assets/checkbox-style.png)
 
 - **StandaardCSS Klassen**: U kunt een standaardCSS klasse voor de Aangepaste Component van de Kern van de Knoop van Forms verstrekken.
 
@@ -125,7 +125,7 @@ De adaptieve Component van de Kern van de Knoop van Forms steunt het systeem van
 
 ### Aangepaste eigenschappen
 
-![ de Dialoog van Eigenschappen van de Douane ](/help/adaptive-forms/assets/checkbox-customproperties.png)
+![&#x200B; de Dialoog van Eigenschappen van de Douane &#x200B;](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
 Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aan een Adaptief kernonderdeel van een formulier koppelen met behulp van de formuliersjabloon. De aangepaste eigenschappen worden weergegeven in de sectie Eigenschappen van de koploze uitvoering van de component. Hiermee kunt u dynamisch formuliergedrag maken dat wordt aangepast op basis van de waarden van aangepaste kenmerken. Ontwikkelaars kunnen bijvoorbeeld verschillende uitvoeringen van een Forms-component zonder koptekst ontwerpen voor mobiele apparaten, desktops of webplatforms, waardoor de gebruikerservaring op een groot aantal apparaten aanzienlijk wordt verbeterd.
 

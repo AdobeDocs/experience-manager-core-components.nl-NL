@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Met de Accordion Core-component kunnen gebruikers uitbreidbare en inklapbare secties maken in een adaptief formulier. Het wordt vaak gebruikt om lange of complexe vormen te organiseren en te vereenvoudigen door hen in kleinere, handelbaardere secties op te splitsen. Elke sectie van een accordeon wordt meestal vertegenwoordigd door een koptekst, waarop de gebruiker kan klikken om de bijbehorende inhoud uit of samen te vouwen. De inhoud kan elke Core-component bevatten.
 
-![ voorbeeld ](/help/adaptive-forms/assets/example-accordion.png)
+![&#x200B; voorbeeld &#x200B;](/help/adaptive-forms/assets/example-accordion.png)
 
 {{traditional-aem}}
 
@@ -33,11 +33,11 @@ Er zijn verschillende redenen waarom het nuttig is een accordeon in een adaptiev
 
 U kunt het volgende gebruiken:
 
-- [ vormt dialoog ](#configure-dialog) om eigenschappen van de accordeoncomponent te specificeren.
+- [&#x200B; vormt dialoog &#x200B;](#configure-dialog) om eigenschappen van de accordeoncomponent te specificeren.
 
-- [ Uitgezochte paneel popover ](#select-panel-popover) om de orde van de panelen van de accordeon te bepalen. Hierdoor kan de auteur de deelvensters rangschikken in de volgorde waarin de deelvensters moeten worden weergegeven.
+- [&#x200B; Uitgezochte paneel popover &#x200B;](#select-panel-popover) om de orde van de panelen van de accordeon te bepalen. Hierdoor kan de auteur de deelvensters rangschikken in de volgorde waarin de deelvensters moeten worden weergegeven.
 
-- Opties voor een vormauteur om bepaalde eigenschappen in de [ ontwerpdialoog ](#design-dialog) toe te laten of onbruikbaar te maken. Een auteur kan er bijvoorbeeld voor kiezen om bepaalde velden of secties van een formulier uit te schakelen. Met deze opties heeft de auteur meer controle over het ontwerp en de functionaliteit van het formulier, waardoor het eenvoudiger wordt om formulieren te maken die zijn toegesneden op de specifieke behoeften van de organisatie.
+- Opties voor een vormauteur om bepaalde eigenschappen in de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog) toe te laten of onbruikbaar te maken. Een auteur kan er bijvoorbeeld voor kiezen om bepaalde velden of secties van een formulier uit te schakelen. Met deze opties heeft de auteur meer controle over het ontwerp en de functionaliteit van het formulier, waardoor het eenvoudiger wordt om formulieren te maken die zijn toegesneden op de specifieke behoeften van de organisatie.
 
 Het dialoogvenster Configureren en de deelvensterpop-up en het dialoogvenster Ontwerp selecteren maken allemaal deel uit van de kerncomponenten die zijn ontworpen om het ontwerpen van de formulieren eenvoudig te maken en een efficiënte manier te bieden om complexe formulieren te maken.
 
@@ -50,7 +50,7 @@ De Adaptive Forms Accordion Core Component is in februari 2023 uitgebracht als o
 |---|---|
 | Componentversie | AEM as a Cloud Service |
 | — | — |
-| v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel | Compatibel |
+| v1 | Compatibel systeem met <br>[&#x200B; versie 2.0.4 &#x200B;](/help/adaptive-forms/version.md) en later | Compatibel | Compatibel |
 
 Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
 
@@ -61,7 +61,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Technische details {#technical-details}
 
-Krijg de recentste informatie over de Component van de Accordeon in de technische documentatie op [ GitHub ](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/accordion/v1/accordion). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern ](/help/developing/overview.md).
+Krijg de recentste informatie over de Component van de Accordeon in de technische documentatie op [&#x200B; GitHub &#x200B;](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/accordion/v1/accordion). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern &#x200B;](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -69,14 +69,14 @@ Met het dialoogvenster Configureren kunt u de accordeonervaring voor bezoekers e
 
 ### Tabblad Standaard {#basic-tab}
 
-![ Basis lusje ](/help/adaptive-forms/assets/acc-basic.png)
+![&#x200B; Basis lusje &#x200B;](/help/adaptive-forms/assets/acc-basic.png)
 
 - **Naam** - u kunt een vormcomponent gemakkelijk met zijn unieke naam zowel in de vorm als in de regelredacteur identificeren, maar de naam moet geen ruimten of speciale karakters bevatten.
 
 - **Titel** - met zijn Titel, kunt u een component in een vorm gemakkelijk identificeren en door gebrek, verschijnt de titel bovenop de component. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
 
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
-  Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
+  Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![&#x200B; pictogram Volledig scherm &#x200B;](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
   ![&#128279;](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0&rbrace;
 
@@ -116,7 +116,7 @@ Met het dialoogvenster Configureren kunt u de accordeonervaring voor bezoekers e
 
 ### Accordeon herhalen {#repeat-accordion}
 
-![ herhalen-accordeon ](/help/adaptive-forms/assets/repeat-accordion.png)
+![&#x200B; herhalen-accordeon &#x200B;](/help/adaptive-forms/assets/repeat-accordion.png)
 
 Met de opties voor herhaling kunt u accordeondeelvensters en onderliggende componenten dupliceren, een minimum- en maximumaantal herhalingen definiëren en de replicatie van vergelijkbare secties in een formulier vergemakkelijken. Wanneer u communiceert met de accordeoncomponent en de instellingen opent, worden de volgende opties weergegeven:
 
@@ -124,11 +124,11 @@ Met de opties voor herhaling kunt u accordeondeelvensters en onderliggende compo
 - **Minimale herhalingen**: Vestigt het minimumaantal tijden het accordeonpaneel kan worden herhaald. De waarde nul geeft aan dat het accordeonvenster niet wordt herhaald; de standaardwaarde is nul.
 - **Maximale herhalingen**: Plaatst het maximumaantal tijden het accordeonpaneel kan worden herhaald. Deze waarde is standaard onbeperkt.
 
-Om herhaalbare secties binnen de accordeon effectief te beheren, volg de stappen die in [ worden verstrekt die vormen met herhaalbare secties ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=nl-NL) artikel creëren.
+Om herhaalbare secties binnen de accordeon effectief te beheren, volg de stappen die in [&#x200B; worden verstrekt die vormen met herhaalbare secties &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=nl-NL) artikel creëren.
 
 ### Tabblad Items {#items-tab}
 
-![ Punten tabel ](/help/adaptive-forms/assets/acc-items.png)
+![&#x200B; Punten tabel &#x200B;](/help/adaptive-forms/assets/acc-items.png)
 
 Met de knop Toevoegen kunt u een component selecteren die u als deelvenster wilt toevoegen in het selectievenster van de component. Nadat u de component hebt toegevoegd, kunt u de volgende opties zien:
 
@@ -139,7 +139,7 @@ Met de knop Toevoegen kunt u een component selecteren die u als deelvenster wilt
 
 ### Het tabblad Help-inhoud {#help-content}
 
-![ Inhoud tabel van de Hulp ](/help/adaptive-forms/assets/acc-helpcontent.png)
+![&#x200B; Inhoud tabel van de Hulp &#x200B;](/help/adaptive-forms/assets/acc-helpcontent.png)
 
 - **Korte beschrijving** - een korte beschrijving is een korte tekstverklaring die extra informatie of verduidelijking over het doel van een specifiek vormgebied verstrekt. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. Laat **toe tonen altijd korte beschrijving** optie om het onder de component te tonen.
 
@@ -149,9 +149,9 @@ Met de knop Toevoegen kunt u een component selecteren die u als deelvenster wilt
 
 ### Tabblad Toegankelijkheid {#accessibility}
 
-![ Toegankelijkheid tabel ](/help/adaptive-forms/assets/acc-accessisbilty.png)
+![&#x200B; Toegankelijkheid tabel &#x200B;](/help/adaptive-forms/assets/acc-accessisbilty.png)
 
-Op het **lusje van de Toegankelijkheid**, worden de waarden geplaatst voor [ toegankelijkheid ARIA ](https://www.w3.org/WAI/standards-guidelines/aria/) etiketten voor de component. Er zijn verschillende opties beschikbaar voor het gebruik van de tekst voor schermlezers:
+Op het **lusje van de Toegankelijkheid**, worden de waarden geplaatst voor [&#x200B; toegankelijkheid ARIA &#x200B;](https://www.w3.org/WAI/standards-guidelines/aria/) etiketten voor de component. Er zijn verschillende opties beschikbaar voor het gebruik van de tekst voor schermlezers:
 
 - **Tekst voor het schermlezers** - de Tekst voor het schermlezers verwijst naar extra tekst die specifiek bedoeld is om door ondersteunende technologieën, zoals het schermlezers te worden gelezen, die door visueel gehandicapte individuen wordt gebruikt. Deze tekst bevat een audiobeschrijving van het doel van het formulierveld en kan informatie bevatten over de titel, beschrijving, naam en relevante berichten (aangepaste tekst) van het veld. Met de schermlezertekst kunt u ervoor zorgen dat het formulier toegankelijk is voor alle gebruikers, inclusief gebruikers met een visuele handicap, en krijgt deze een volledig inzicht in het formulierveld en de vereisten ervan.
 
@@ -202,7 +202,7 @@ Hierdoor wordt het maken en aanpassen van formulieren eenvoudiger en efficiënte
 
 Op het tabblad Eigenschappen kunnen sjabloonauteurs de standaardelementen en toegestane HTML-kopelementen voor formulierauteurs instellen:
 
-![ de dialoogeigenschappen tabel van het Ontwerp ](/help//adaptive-forms/assets/accordion-design-properties.png)
+![&#x200B; de dialoogeigenschappen tabel van het Ontwerp &#x200B;](/help//adaptive-forms/assets/accordion-design-properties.png)
 
 - **Toegestane Elementen van de Kop**: Een drop-down lijst met veelvoudige opties die de malplaatjeauteur laat kiezen welke rubrieken auteur voor accordeon kunnen gebruiken.
 
@@ -210,13 +210,13 @@ Op het tabblad Eigenschappen kunnen sjabloonauteurs de standaardelementen en toe
 
 ### Tabblad Toegestane componenten {#allowed-components-tab}
 
-![ dialoog van het Ontwerp stond componentenlusje ](/help//adaptive-forms/assets/accordion-allowed-components.png) toe
+![&#x200B; dialoog van het Ontwerp stond componentenlusje &#x200B;](/help//adaptive-forms/assets/accordion-allowed-components.png) toe
 
 Het **Toegestane lusje van Componenten** staat malplaatjeredacteur toe om de componenten te plaatsen die als punten aan de panelen in de component van de Accordeon in de Aangepaste redacteur van Forms kunnen worden toegevoegd.
 
 ### Tabblad Stijlen {#styles-tab}
 
-![ lusje van de de dialoogvakje van het Ontwerp ](/help/adaptive-forms/assets/accordion-styles-tab.png)
+![&#x200B; lusje van de de dialoogvakje van het Ontwerp &#x200B;](/help/adaptive-forms/assets/accordion-styles-tab.png)
 
 Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve Component van de Kern van de Accordion van Forms steunt het systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
@@ -226,7 +226,7 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor een component te
 
 ### Aangepaste eigenschappen
 
-![ accordeon-douane-eigenschappen-lusje ](/help/adaptive-forms/assets/accordion-custom-properties-tab.png)
+![&#x200B; accordeon-douane-eigenschappen-lusje &#x200B;](/help/adaptive-forms/assets/accordion-custom-properties-tab.png)
 Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aan een Adaptief kernonderdeel van een formulier koppelen met behulp van de formuliersjabloon. De aangepaste eigenschappen worden weergegeven in de sectie Eigenschappen van de koploze uitvoering van de component. Hiermee kunt u dynamisch formuliergedrag maken dat wordt aangepast op basis van de waarden van aangepaste kenmerken. Ontwikkelaars kunnen bijvoorbeeld verschillende uitvoeringen van een Forms-component zonder koptekst ontwerpen voor mobiele apparaten, desktops of webplatforms, waardoor de gebruikerservaring op een groot aantal apparaten aanzienlijk wordt verbeterd.
 
 - **Naam van de Groep**: U kunt een naam verstrekken om de groep van het douanebezit te identificeren. U kunt meerdere groepen met aangepaste eigenschappen toevoegen, verwijderen of opnieuw rangschikken. Nadat u de aangepaste groep eigenschappen hebt toegevoegd, kunt u de volgende opties zien:

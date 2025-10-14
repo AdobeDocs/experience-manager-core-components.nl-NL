@@ -20,7 +20,7 @@ Voor de meeste sites is een voettekst vereist die op alle pagina&#39;s aanwezig 
 
 Een navigatiecomponent moet gewoonlijk ook op alle pagina&#39;s worden getoond. De inhoud van de gelokaliseerde pagina&#39;s moet echter wel in de code worden opgenomen.
 
-Gebruikend de localisatieeigenschappen van de [ Component van de Kern van de Navigatie ](/help/components/navigation.md) en [ Component van de Kern van het Fragment van de Ervaring ](/help/components/experience-fragment.md) samen met de [ editable malplaatjes van AEM ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL), wordt dit een eenvoudige taak. Het voorbeeld zou verder kunnen worden uitgebreid om de [ Component van de Navigatie van de Taal ](/help/components/language-navigation.md) eveneens te gebruiken.
+Gebruikend de localisatieeigenschappen van de [&#x200B; Component van de Kern van de Navigatie &#x200B;](/help/components/navigation.md) en [&#x200B; Component van de Kern van het Fragment van de Ervaring &#x200B;](/help/components/experience-fragment.md) samen met de [&#x200B; editable malplaatjes van AEM &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL), wordt dit een eenvoudige taak. Het voorbeeld zou verder kunnen worden uitgebreid om de [&#x200B; Component van de Navigatie van de Taal &#x200B;](/help/components/language-navigation.md) eveneens te gebruiken.
 
 ## De inhoudsstructuur {#content-structure}
 
@@ -67,7 +67,7 @@ De Core Components kunnen via de gespiegelde lokalisatiestructuur de vereiste ge
 
 De Experience Fragment-component is zeer flexibel en goed geschikt voor een paginakop of -voettekst.
 
-Omdat onze hypothetische website in het Engels en Frans wordt aangeboden, zullen wij twee Fragments van de Ervaring moeten tot stand brengen, allebei genoemd `footer` [ in de plaatsen die wij eerder beschreven.](#content-structure)
+Omdat onze hypothetische website in het Engels en Frans wordt aangeboden, zullen wij twee Fragments van de Ervaring moeten tot stand brengen, allebei genoemd `footer` [&#x200B; in de plaatsen die wij eerder beschreven.](#content-structure)
 
 ![](/help/assets/screen-shot-2019-09-09-11.08.28.png)
 

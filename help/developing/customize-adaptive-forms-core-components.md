@@ -20,11 +20,11 @@ Door de adaptieve Forms Core-componenten aan te passen kunt u de functionaliteit
 
 Voordat u gaat overstappen op het aanpassen van Adaptive Forms Core-componenten,
 
-* Leer over de [ architectuur van een Componenten van de Kern ](customizing.md#customizing-the-markup-customizing-the-markup) en ga door de [ officiële documentatie van de Componenten van de Kern van Adobe Experience Manager ](customizing.md). Deze uitgebreide bronnen fungeren tijdens het hele aanpassingsproces als leidraad.
+* Leer over de [&#x200B; architectuur van een Componenten van de Kern &#x200B;](customizing.md#customizing-the-markup-customizing-the-markup) en ga door de [&#x200B; officiële documentatie van de Componenten van de Kern van Adobe Experience Manager &#x200B;](customizing.md). Deze uitgebreide bronnen fungeren tijdens het hele aanpassingsproces als leidraad.
 * Stel uw ontwikkelomgeving in zodat u een vloeiende workflow hebt voor het aanbrengen van wijzigingen in de kerncomponenten. Gebruik bij het instellen van de ontwikkelomgeving een AEM Archetype-project dat is gebaseerd op het nieuwste project van AEM Archetype. Op basis van uw omgeving kunt u:
 
-   * [ opstelling een lokale ontwikkelomgeving voor Forms as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?lang=nl-NL).
-   * [ opstelling een lokale ontwikkelomgeving voor AEM 6.5 Forms ](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=nl-NL)
+   * [&#x200B; opstelling een lokale ontwikkelomgeving voor Forms as a Cloud Service &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?lang=nl-NL).
+   * [&#x200B; opstelling een lokale ontwikkelomgeving voor AEM 6.5 Forms &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=nl-NL)
 
 ## Een adaptieve Forms Core-component aanpassen
 
@@ -38,15 +38,15 @@ Voer de onderstaande stappen uit om de weergave, het gedrag en de functionalitei
 
    Open de gedupliceerde component en breng de benodigde wijzigingen aan volgens uw vereisten:
 
-   * **pas de Structuur van HTML** aan: Tailor de structuur van HTML om uw ontwerpbehoeften aan te passen terwijl het volgen van [ BEM (de Modifier van het Element van het Blok) ](https://github.com/adobe/aem-core-wcm-components/wiki/css-coding-conventions) het stileren praktijken voor handhaafbare en scalable code.
-   * **etiket van de Update**: Werk het etiket van de component bij om een duidelijke en beschrijvende naam voor de aangepaste versie te verstrekken. Verwijs naar het verstrekte [ OOTB (uit de Doos) etiketmalplaatje ](https://github.com/adobe/aem-core-forms-components/blob/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/af-commons/v1/fieldTemplates/label.html) voor consistentie.
-   * **pas Widget** aan: Pas widget aan die binnen de component (dropdowns, checkboxes) wordt gebruikt om met uw specifiek gebruiksgeval te richten. Zie, de [ implementatie van de steekproefwidget ](https://github.com/adobe/aem-core-forms-components/blob/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput/textinput.html) voor verwijzing.
-   * **Tekst en Tooltips van de Hulp**: Personaliseer de hulptekst of tooltips verbonden aan de component om context en begeleiding aan gebruikers aan te bieden. Gebruik het [ malplaatje van de hulptekst OTB ](https://github.com/adobe/aem-core-forms-components/blob/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/af-commons/v1/fieldTemplates/questionMark.html) als uitgangspunt.
-   * **Attributen van Gegevens**: Bouw alle noodzakelijke gegevensattributen binnen de elementen van HTML van de component op. Deze kenmerken zijn van cruciaal belang voor het correct functioneren van de component bij uitvoering. Raadpleeg de [ documentatie ](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput) om de rol van gegevensattributen in de Adaptieve Componenten van de Kern van Forms te begrijpen.
+   * **pas de Structuur van HTML** aan: Tailor de structuur van HTML om uw ontwerpbehoeften aan te passen terwijl het volgen van [&#x200B; BEM (de Modifier van het Element van het Blok) &#x200B;](https://github.com/adobe/aem-core-wcm-components/wiki/css-coding-conventions) het stileren praktijken voor handhaafbare en scalable code.
+   * **etiket van de Update**: Werk het etiket van de component bij om een duidelijke en beschrijvende naam voor de aangepaste versie te verstrekken. Verwijs naar het verstrekte [&#x200B; OOTB (uit de Doos) etiketmalplaatje &#x200B;](https://github.com/adobe/aem-core-forms-components/blob/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/af-commons/v1/fieldTemplates/label.html) voor consistentie.
+   * **pas Widget** aan: Pas widget aan die binnen de component (dropdowns, checkboxes) wordt gebruikt om met uw specifiek gebruiksgeval te richten. Zie, de [&#x200B; implementatie van de steekproefwidget &#x200B;](https://github.com/adobe/aem-core-forms-components/blob/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput/textinput.html) voor verwijzing.
+   * **Tekst en Tooltips van de Hulp**: Personaliseer de hulptekst of tooltips verbonden aan de component om context en begeleiding aan gebruikers aan te bieden. Gebruik het [&#x200B; malplaatje van de hulptekst OTB &#x200B;](https://github.com/adobe/aem-core-forms-components/blob/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/af-commons/v1/fieldTemplates/questionMark.html) als uitgangspunt.
+   * **Attributen van Gegevens**: Bouw alle noodzakelijke gegevensattributen binnen de elementen van HTML van de component op. Deze kenmerken zijn van cruciaal belang voor het correct functioneren van de component bij uitvoering. Raadpleeg de [&#x200B; documentatie &#x200B;](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput) om de rol van gegevensattributen in de Adaptieve Componenten van de Kern van Forms te begrijpen.
 
 1. **voert Achterste Logica** uit
 
-   Als uw aanpassing achterwaartse logica vereist, kunt u bestaande hellingsmodellen uitbreiden. Verwijs naar het verstrekte [ voorbeeld ](https://github.com/adobe/aem-core-forms-components/blob/master/bundles/af-core/src/main/java/com/adobe/cq/forms/core/components/internal/models/v1/form/TextInputImpl.java) om de gewenste functionaliteit in uw aangepaste component foutloos te integreren.
+   Als uw aanpassing achterwaartse logica vereist, kunt u bestaande hellingsmodellen uitbreiden. Verwijs naar het verstrekte [&#x200B; voorbeeld &#x200B;](https://github.com/adobe/aem-core-forms-components/blob/master/bundles/af-core/src/main/java/com/adobe/cq/forms/core/components/internal/models/v1/form/TextInputImpl.java) om de gewenste functionaliteit in uw aangepaste component foutloos te integreren.
 
 1. **vorm de Dialoog van de Component**
 
@@ -54,7 +54,7 @@ Voer de onderstaande stappen uit om de weergave, het gedrag en de functionalitei
 
 1. **stel en test de component op uw lokale ontwikkelomgeving op**
 
-   Het gebruik [ wordt in kaart gebracht om de component ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=nl-NL#building-and-installing) op uw lokale ontwikkelomgeving te bouwen en op te stellen. Nadat de component is geïmplementeerd, maakt u een adaptief formulier om de aangepaste component te testen.
+   Het gebruik [&#x200B; wordt in kaart gebracht om de component &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=nl-NL#building-and-installing) op uw lokale ontwikkelomgeving te bouwen en op te stellen. Nadat de component is geïmplementeerd, maakt u een adaptief formulier om de aangepaste component te testen.
 
 1. **stel de douanecomponent op uw productiemilieu** op
 

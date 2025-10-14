@@ -22,11 +22,11 @@ Om aan de slag te gaan met de Componenten van de Kern in uw eigen project, zijn 
 >[!TIP]
 >
 >Voor bredere instructies over hoe te om van begin met de projectopstelling, de Componenten van de Kern, Bewerkbare Malplaatjes, de Bibliotheken van de Cliënt en de componentenontwikkeling te beginnen, zou de volgende multi-part leerprogramma van belang kunnen zijn:\
->[ Begonnen het worden met AEM Sites - WKND Leerprogramma ](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=nl-NL)
+>[&#x200B; Begonnen het worden met AEM Sites - WKND Leerprogramma &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=nl-NL)
 
 >[!TIP]
 >
->Als u het [ AEM Archieftype van het Project gebruikt, ](/help/developing/archetype/overview.md) zijn de Componenten van de Kern automatisch inbegrepen in uw project dat op de aanbevelingen van best van de Adobe wordt gebaseerd.
+>Als u het [&#x200B; AEM Archieftype van het Project gebruikt, &#x200B;](/help/developing/archetype/overview.md) zijn de Componenten van de Kern automatisch inbegrepen in uw project dat op de aanbevelingen van best van de Adobe wordt gebaseerd.
 
 ## Downloaden en installeren {#download-and-install}
 
@@ -43,22 +43,22 @@ Bij het gebruik van de Core Components in AEMaaCS moet u rekening houden met een
 * De kerncomponenten worden opgenomen in `/libs` .
 * Het project bouwt pijpleiding zal waarschuwingen in het logboek produceren als het opnieuw de Componenten van de Kern als deel van `/apps` omvat en zal de versie negeren ingebed als deel van uw project.
    * In een volgende versie, zal het omvatten van de Componenten van de Kern opnieuw de pijpleiding bouwen ontbreken.
-* Als uw project eerder de Componenten van de Kern in `/apps` omvatte, [ kunt u uw project moeten aanpassen.](/help/developing/overview.md#via-aemaacs)
-* Hoewel de Core Components zich nu in `/libs` bevinden, wordt het niet aanbevolen om in `/apps` een overlay van hetzelfde pad te maken. [ het patroon van de volmachtscomponent ](/help/developing/guidelines.md#proxy-component-pattern) zou in plaats daarvan moeten worden gebruikt als om het even welk aspect van de componenten moet worden aangepast.
-* Opdat de [ component van de Inhoudsopgave ](/help/components/tableofcontents.md) zijn inhoud teruggeeft, moet een filter in OSGi worden gevormd.
-   * [ gelieve te zien de documentatie GitHub van de component ](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) voor meer informatie.
+* Als uw project eerder de Componenten van de Kern in `/apps` omvatte, [&#x200B; kunt u uw project moeten aanpassen.](/help/developing/overview.md#via-aemaacs)
+* Hoewel de Core Components zich nu in `/libs` bevinden, wordt het niet aanbevolen om in `/apps` een overlay van hetzelfde pad te maken. [&#x200B; het patroon van de volmachtscomponent &#x200B;](/help/developing/guidelines.md#proxy-component-pattern) zou in plaats daarvan moeten worden gebruikt als om het even welk aspect van de componenten moet worden aangepast.
+* Opdat de [&#x200B; component van de Inhoudsopgave &#x200B;](/help/components/tableofcontents.md) zijn inhoud teruggeeft, moet een filter in OSGi worden gevormd.
+   * [&#x200B; gelieve te zien de documentatie GitHub van de component &#x200B;](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) voor meer informatie.
 
 ### AEM 6.5 en eerder {#aem-65}
 
-De kerncomponenten maken geen deel uit van de snelstartprocedure wanneer de productiemodus wordt gestart (zonder voorbeeldinhoud). Daarom moet uw eerste stap [ het recentste vrijgegeven inhoudspakket van GitHub ](https://github.com/adobe/aem-core-wcm-components/releases/latest) downloaden en het op uw AEM milieu&#39;s installeren.
+De kerncomponenten maken geen deel uit van de snelstartprocedure wanneer de productiemodus wordt gestart (zonder voorbeeldinhoud). Daarom moet uw eerste stap [&#x200B; het recentste vrijgegeven inhoudspakket van GitHub &#x200B;](https://github.com/adobe/aem-core-wcm-components/releases/latest) downloaden en het op uw AEM milieu&#39;s installeren.
 
-Er zijn verscheidene manieren om dit te automatiseren, maar de eenvoudigste manier om een inhoudspakket op een instantie snel te installeren is door de Manager van het Pakket te gebruiken; zie [ Pakketten installeren ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=nl-NL#installing-packages). Ook, zodra u een publiceer instantie zult hebben die eveneens loopt, zult u dat pakket aan de uitgever moeten herhalen; zie [ het Repliceren van Pakketten ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=nl-NL#replicating-packages).
+Er zijn verscheidene manieren om dit te automatiseren, maar de eenvoudigste manier om een inhoudspakket op een instantie snel te installeren is door de Manager van het Pakket te gebruiken; zie [&#x200B; Pakketten installeren &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=nl-NL#installing-packages). Ook, zodra u een publiceer instantie zult hebben die eveneens loopt, zult u dat pakket aan de uitgever moeten herhalen; zie [&#x200B; het Repliceren van Pakketten &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=nl-NL#replicating-packages).
 
 ## Proxycomponenten maken {#create-proxy-components}
 
 Om redenen die in de [&#128279;](/help/developing/guidelines.md#proxy-component-pattern) sectie worden verklaard van het Patroon van de Component van de Volmacht  &lbrace;, moeten de Componenten van de Kern niet direct van de inhoud worden van verwijzingen voorzien. Om dat te voorkomen behoren ze allemaal tot een verborgen componentgroep ( `.core-wcm` of `.core-wcm-form` ), waardoor ze niet direct in de editor worden weergegeven.
 
-In plaats daarvan moeten er sitespecifieke componenten worden gemaakt, die de gewenste componentnaam en -groep definiëren voor weergave bij paginaauteurs en die elk naar een Core-component verwijzen als het supertype. Deze plaats-specifieke componenten worden soms genoemd &quot;volmachtscomponenten&quot;, omdat zij om het even wat niet te hoeven bevatten en vooral te dienen om de versie van een component te bepalen voor de plaats te gebruiken. Nochtans, wanneer het aanpassen van de [ Componenten van de Kern ](/help/developing/customizing.md), spelen deze volmachtscomponenten een essentiële rol voor prijsverhoging en logische aanpassing.
+In plaats daarvan moeten er sitespecifieke componenten worden gemaakt, die de gewenste componentnaam en -groep definiëren voor weergave bij paginaauteurs en die elk naar een Core-component verwijzen als het supertype. Deze plaats-specifieke componenten worden soms genoemd &quot;volmachtscomponenten&quot;, omdat zij om het even wat niet te hoeven bevatten en vooral te dienen om de versie van een component te bepalen voor de plaats te gebruiken. Nochtans, wanneer het aanpassen van de [&#x200B; Componenten van de Kern &#x200B;](/help/developing/customizing.md), spelen deze volmachtscomponenten een essentiële rol voor prijsverhoging en logische aanpassing.
 
 Dus voor elke Core-component die voor een site moet worden gebruikt, moet u:
 
@@ -84,11 +84,11 @@ Voeg de volgende eigenschappen toe:
    jcr:description="Section Heading"
    ```
 
-Bijvoorbeeld, bekijk de [ titelcomponent van de plaats WKND ](https://github.com/adobe/aem-guides-wknd/blob/master/ui.apps/src/main/content/jcr_root/apps/wknd/components/title/.content.xml), die een goed voorbeeld van een volmachtscomponent is die die manier wordt gebouwd.
+Bijvoorbeeld, bekijk de [&#x200B; titelcomponent van de plaats WKND &#x200B;](https://github.com/adobe/aem-guides-wknd/blob/master/ui.apps/src/main/content/jcr_root/apps/wknd/components/title/.content.xml), die een goed voorbeeld van een volmachtscomponent is die die manier wordt gebouwd.
 
 ## De kernstijlen laden {#load-the-core-styles}
 
-1. Als nog niet gedaan, creeer de Bibliotheek van de a [ Cliënt ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=nl-NL) die alle CSS en JS- dossiers bevat die voor uw plaats nodig zijn.
+1. Als nog niet gedaan, creeer de Bibliotheek van de a [&#x200B; Cliënt &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=nl-NL) die alle CSS en JS- dossiers bevat die voor uw plaats nodig zijn.
 1. Voor de Bibliotheek van de Cliënt van uw plaats, voeg de gebiedsdelen aan de Componenten van de Kern toe die nodig zouden kunnen zijn. Dit wordt gedaan door een eigenschap `embed` toe te voegen.
 
    Als u bijvoorbeeld de clientbibliotheken van alle v1 Core-componenten wilt opnemen, moet u de volgende eigenschap toevoegen:
@@ -107,7 +107,7 @@ Controleer of uw proxycomponenten en clientbibliotheken zijn geïmplementeerd in
 
 ## De componenten toestaan {#allow-the-components}
 
-De volgende stappen worden uitgevoerd in de [ Redacteur van het Malplaatje ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL).
+De volgende stappen worden uitgevoerd in de [&#x200B; Redacteur van het Malplaatje &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL).
 
 1. Selecteer in de Sjablooneditor de container met layout en open het bijbehorende beleid.
 1. Selecteer in de lijst Toegestane componenten de proxycomponenten die eerder zijn gemaakt. Deze moeten worden weergegeven onder de componentgroep die aan deze componenten is toegewezen. Breng de wijzigingen vervolgens aan.
@@ -117,5 +117,5 @@ Dat is het! Op de pagina&#39;s die met de bewerkte sjabloon zijn gemaakt, moet u
 
 **Lees daarna:**
 
-* [ het Aanpassen van de Componenten van de Kern ](/help/developing/customizing.md) - leren hoe te om de kerncomponenten te stileren en aan te passen.
-* [ Richtlijnen van de Component ](/help/developing/guidelines.md) - om de implementatiepatronen van de Componenten van de Kern te leren.
+* [&#x200B; het Aanpassen van de Componenten van de Kern &#x200B;](/help/developing/customizing.md) - leren hoe te om de kerncomponenten te stileren en aan te passen.
+* [&#x200B; Richtlijnen van de Component &#x200B;](/help/developing/guidelines.md) - om de implementatiepatronen van de Componenten van de Kern te leren.

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Pagina-component{#page-component}
 
-De Component van de Pagina is een verlengbare paginacomponent die wordt ontworpen om met de [ malplaatjedacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL) te werken en staat paginakopbal/footer en structuurcomponenten toe om met de malplaatjedacteur worden samengesteld.
+De Component van de Pagina is een verlengbare paginacomponent die wordt ontworpen om met de [&#x200B; malplaatjedacteur &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL) te werken en staat paginakopbal/footer en structuurcomponenten toe om met de malplaatjedacteur worden samengesteld.
 
 {{traditional-aem}}
 
@@ -21,7 +21,7 @@ De Component van de Pagina is een verlengbare paginacomponent die wordt ontworpe
 
 De component Pagina vormt de basis van alle pagina&#39;s die zijn ontworpen met de kerncomponenten en bewerkbare sjablonen. Met de component Pagina kunt u kop- en voetteksten en de structuur van de pagina definiëren als een sjabloon met de andere kerncomponenten.
 
-Gebruikend de [ ontwerpdialoog ](#design-dialog), kunnen de douane cliënt-zijbibliotheken voor de pagina worden bepaald. In tegenstelling tot andere componenten die een uitgeven dialoog hebben die direct van de component toegankelijk is, omdat de Component van de Pagina de pagina zelf is, [ uitgeeft dialoog ](#edit-dialog) van de Component van de Pagina is het venster van pagina-eigenschappen.
+Gebruikend de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog), kunnen de douane cliënt-zijbibliotheken voor de pagina worden bepaald. In tegenstelling tot andere componenten die een uitgeven dialoog hebben die direct van de component toegankelijk is, omdat de Component van de Pagina de pagina zelf is, [&#x200B; uitgeeft dialoog &#x200B;](#edit-dialog) van de Component van de Pagina is het venster van pagina-eigenschappen.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -32,30 +32,30 @@ In de volgende tabel worden alle ondersteunde versies van de component, de AEM-v
 | Componentversie | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|---|
 | v3 | - | Compatibel | Compatibel | Compatibel |
-| [ v2 ](v2/page.md) | Compatibel | Compatibel | - | Compatibel |
-| [ v1 ](v1/page-v1.md) | Compatibel | Compatibel | - | Compatibel |
+| [&#x200B; v2 &#x200B;](v2/page.md) | Compatibel | Compatibel | - | Compatibel |
+| [&#x200B; v1 &#x200B;](v1/page-v1.md) | Compatibel | Compatibel | - | Compatibel |
 
-Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
+Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [&#x200B; Kern &#x200B;](/help/versions.md).
 
 ## Progressieve ondersteuning voor webtoepassingen {#pwa-support}
 
-Versie 2.15.0 van de Componenten van de Kern introduceerde steun voor ingebouwde [ Progressieve eigenschappen van het Web van AEM as a Cloud Service (PWA).](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=nl-NL) Met een eenvoudige configuratie op site-niveau kunt u uw AEM-ervaring veranderen in een PWA!
+Versie 2.15.0 van de Componenten van de Kern introduceerde steun voor ingebouwde [&#x200B; Progressieve eigenschappen van het Web van AEM as a Cloud Service (PWA).](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=nl-NL) Met een eenvoudige configuratie op site-niveau kunt u uw AEM-ervaring veranderen in een PWA!
 
 ### Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Pagina [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_page_v3) worden gevonden.
+De recentste technische documentatie over de Component van de Pagina [&#x200B; kan op GitHub &#x200B;](https://adobe.com/go/aem_cmp_tech_page_v3) worden gevonden.
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden &#x200B;](/help/developing/overview.md).
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
-Omdat de component de volledige pagina vertegenwoordigt, worden de montages die normaal in zouden zijn uitgeeft dialoog gevonden in het [ venster van de Eigenschappen van de Pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=nl-NL).
+Omdat de component de volledige pagina vertegenwoordigt, worden de montages die normaal in zouden zijn uitgeeft dialoog gevonden in het [&#x200B; venster van de Eigenschappen van de Pagina &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=nl-NL).
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
 Omdat de component de volledige pagina vertegenwoordigt, wordt de ontwerpdialoog betreden via **Informatie van de Pagina -> Beleid van de Pagina** wanneer het uitgeven van het paginamalplaatje.
 
-![ Beleid van de Pagina ](/help/assets/page-policy.png)
+![&#x200B; Beleid van de Pagina &#x200B;](/help/assets/page-policy.png)
 
 >[!NOTE]
 >
@@ -76,7 +76,7 @@ Met behulp van het venster Paginaontwerp kunt u de te laden clientbibliotheken e
 
 * **geef alternatieve taalverbindingen** terug - indien toegelaten, zullen de verbindingen met afwisselende taalversies van de pagina in de zelfde plaats aan het hoofd van de pagina worden toegevoegd.
 
-![ de ontwerpdialoog van de Component van de Pagina ](/help/assets/page-design.png)
+![&#x200B; de ontwerpdialoog van de Component van de Pagina &#x200B;](/help/assets/page-design.png)
 
 De bibliotheken kunnen voor zowel de **Bibliotheken van de Cliënt** als **het Hoofd van de Pagina van JavaScript van de Bibliotheken van de Cliënt** gebieden als volgt worden gevormd:
 
@@ -84,7 +84,7 @@ De bibliotheken kunnen voor zowel de **Bibliotheken van de Cliënt** als **het H
 * Als u een veld wilt verwijderen, klikt of tikt u op het prullenbakpictogram naast het veld dat u wilt verwijderen.
 * Als u de laadvolgorde wilt wijzigen, klikt of tikt u op de greep naast het te verplaatsen veld.
 
-Voor meer informatie over het gebruiken van cliënt-zijbibliotheken zie [ Gebruikend de Bibliotheken van de Kant van de Cliënt ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/developing/using/clientlibs.html).
+Voor meer informatie over het gebruiken van cliënt-zijbibliotheken zie [&#x200B; Gebruikend de Bibliotheken van de Kant van de Cliënt &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/developing/using/clientlibs.html).
 
 >[!CAUTION]
 >
@@ -96,4 +96,4 @@ De Component van de Pagina steunt het Systeem van de Stijl van AEM [&#128279;](/
 
 ## Adobe Client Data Layer {#data-layer}
 
-De Component van de Pagina steunt de [ Laag van Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)
+De Component van de Pagina steunt de [&#x200B; Laag van Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)

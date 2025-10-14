@@ -21,7 +21,7 @@ De component Snel zoeken biedt zoekmogelijkheden voor een website en biedt zoekr
 
 Met de component Snel zoeken kunnen sitebezoekers naar inhoud zoeken, de resultaten op hun plaats bekijken en eenvoudig naar de overeenkomende pagina&#39;s navigeren. Nieuwe resultaten worden dynamisch opgehaald terwijl de gebruiker door de zoekresultaten schuift.
 
-Het [ geeft dialoog uit ](#edit-dialog) staat de inhoudauteur toe om te bepalen waar in de inhoudsboom het onderzoek zou moeten beginnen. Gebruikend de [ ontwerpdialoog ](#design-dialog), kan de malplaatjeauteur de standaardwaarde voor plaatsen waar in de inhoudsboom het onderzoek evenals een maximumresultaatvastgestelde grootte en minimumlengte van de onderzoekstermijn zou moeten beginnen.
+Het [&#x200B; geeft dialoog uit &#x200B;](#edit-dialog) staat de inhoudauteur toe om te bepalen waar in de inhoudsboom het onderzoek zou moeten beginnen. Gebruikend de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog), kan de malplaatjeauteur de standaardwaarde voor plaatsen waar in de inhoudsboom het onderzoek evenals een maximumresultaatvastgestelde grootte en minimumlengte van de onderzoekstermijn zou moeten beginnen.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -32,9 +32,9 @@ In de volgende tabel worden alle ondersteunde versies van de component, de AEM-v
 | Componentversie | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
 | v2 | - | Compatibel | Compatibel | Compatibel |
-| [ v1 ](/help/components/v1/quick-search.md) | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel | - | Compatibel |
+| [&#x200B; v1 &#x200B;](/help/components/v1/quick-search.md) | Compatibel systeem met <br>[&#x200B; versie 2.17.4 &#x200B;](/help/versions.md) en vroeger | Compatibel | - | Compatibel |
 
-Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
+Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [&#x200B; Kern &#x200B;](/help/versions.md).
 
 ### Technische details {#technical-details}
 
@@ -42,18 +42,18 @@ Voor meer informatie over de versies en versies van de Component van de Kern, zi
 >
 >De component Search of een op AEM gebaseerde toepassing beschermen tegen DOS-aanvallen moet op een hoger niveau worden geïmplementeerd, bijvoorbeeld door `mod_security` op de dispatcher te gebruiken.
 
-De recentste technische documentatie over de Snelle Component van het Onderzoek [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_search_v2) worden gevonden.
+De recentste technische documentatie over de Snelle Component van het Onderzoek [&#x200B; kan op GitHub &#x200B;](https://adobe.com/go/aem_cmp_tech_search_v2) worden gevonden.
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden &#x200B;](/help/developing/overview.md).
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud definiëren waar in de inhoudsstructuur de zoekopdracht moet beginnen.
 
-![ Snelle component van het Onderzoek geeft dialoog uit ](/help/assets/quick-search-edit.png)
+![&#x200B; Snelle component van het Onderzoek geeft dialoog uit &#x200B;](/help/assets/quick-search-edit.png)
 
 **Wortel van het Onderzoek** - de wortelpagina van waar te om het onderzoek te beginnen. De hoofdmap van de zoekopdracht kan een standaardpagina of een hoofdstramien voor de blauwdruk zijn.
-* **identiteitskaart** - Deze optie staat controle van het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens toe.](/help/developing/data-layer/overview.md)
+* **identiteitskaart** - Deze optie staat controle van het unieke herkenningsteken van de component in HTML en in de [&#x200B; Laag van Gegevens toe.](/help/developing/data-layer/overview.md)
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
@@ -68,7 +68,7 @@ Met behulp van het ontwerpdialoogvenster kan de sjabloonauteur de standaardwaard
 
 ### Tabblad Eigenschappen {#properties-tab}
 
-![ Snelle het ontwerpdialoog van de Component van het Onderzoek van het Snelle ](/help/assets/quick-search-design.png)
+![&#x200B; Snelle het ontwerpdialoog van de Component van het Onderzoek van het Snelle &#x200B;](/help/assets/quick-search-design.png)
 
 * **Wortel van het Onderzoek**
 De standaardwaarde van zoekroot wanneer een inhoudsontwerper de component Snel zoeken op een inhoudspagina plaatst

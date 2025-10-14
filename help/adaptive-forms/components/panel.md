@@ -23,7 +23,7 @@ U kunt er ook gebruik van maken om verschillende op regels gebaseerde handelinge
 
 **Voorbeeld**
 
-![ voorbeeld ](/help/adaptive-forms/assets/panel-container.png)
+![&#x200B; voorbeeld &#x200B;](/help/adaptive-forms/assets/panel-container.png)
 
 ## Gebruik {#reasons-to-use-panel-container}
 
@@ -45,7 +45,7 @@ De Adaptive Forms Panel Container Core Component is in februari 2023 uitgebracht
 |---|---|
 | Componentversie | AEM as a Cloud Service |
 | — | — |
-| v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel | Compatibel |
+| v1 | Compatibel systeem met <br>[&#x200B; versie 2.0.4 &#x200B;](/help/adaptive-forms/version.md) en later | Compatibel | Compatibel |
 
 Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
 
@@ -55,7 +55,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Technische details {#technical-details}
 
-Krijg de recentste informatie over de AanpassingsComponent van de Kern van de Container van het Comité van Forms in de technische documentatie op [ GitHub ](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/panelcontainer/v1/panelcontainer). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern ](/help/developing/overview.md).
+Krijg de recentste informatie over de AanpassingsComponent van de Kern van de Container van het Comité van Forms in de technische documentatie op [&#x200B; GitHub &#x200B;](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/panelcontainer/v1/panelcontainer). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern &#x200B;](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -63,13 +63,13 @@ Met het dialoogvenster Configureren kunt u de containerervaring van het deelvens
 
 ### Tabblad Standaard {#basic-tab}
 
-![ Basis lusje ](/help/adaptive-forms/assets/basic-panel.png)
+![&#x200B; Basis lusje &#x200B;](/help/adaptive-forms/assets/basic-panel.png)
 
 - **Naam** - u kunt een vormcomponent gemakkelijk met zijn unieke naam zowel in de vorm als in de regelredacteur identificeren, maar de naam moet geen ruimten of speciale karakters bevatten.
 
 - **Titel** - met zijn Titel, kunt u een component in een vorm gemakkelijk identificeren en door gebrek, verschijnt de titel bovenop de component. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
-  Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
+  Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![&#x200B; pictogram Volledig scherm &#x200B;](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
   ![&#128279;](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0&rbrace;
 
@@ -105,7 +105,7 @@ Met het dialoogvenster Configureren kunt u de containerervaring van het deelvens
 
 ### Tab deelvenster herhalen {#repeat-panel}
 
-![ herhalingslusje ](/help/adaptive-forms/assets/repeat-panel.png)
+![&#x200B; herhalingslusje &#x200B;](/help/adaptive-forms/assets/repeat-panel.png)
 
 Met de opties voor herhaling kunt u de container van het deelvenster en de onderliggende componenten dupliceren, een minimum- en maximumaantal herhalingen definiëren en de replicatie van vergelijkbare secties in een formulier vergemakkelijken. Wanneer u communiceert met de containercomponent van het deelvenster en de instellingen opent, worden de volgende opties weergegeven:
 
@@ -113,11 +113,11 @@ Met de opties voor herhaling kunt u de container van het deelvenster en de onder
 - **Minimale herhalingen**: Vestigt het minimumaantal tijden de paneelcontainer kan worden herhaald. De waarde nul geeft aan dat het deelvenster Wizard niet wordt herhaald; de standaardwaarde is nul.
 - **Maximale herhalingen**: Plaatst het maximumaantal tijden de paneelcontainer kan worden herhaald. Deze waarde is standaard onbeperkt.
 
-Om herhaalbare secties binnen de paneelcontainer effectief te beheren, volg de stappen die in [ worden verstrekt die vormen met herhaalbare secties ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=nl-NL) artikel creëren.
+Om herhaalbare secties binnen de paneelcontainer effectief te beheren, volg de stappen die in [&#x200B; worden verstrekt die vormen met herhaalbare secties &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=nl-NL) artikel creëren.
 
 ### Het tabblad Help-inhoud {#help-content}
 
-![ Inhoud tabel van de Hulp ](/help/adaptive-forms/assets/helpcontent-panel.png)
+![&#x200B; Inhoud tabel van de Hulp &#x200B;](/help/adaptive-forms/assets/helpcontent-panel.png)
 
 - **Korte beschrijving** - een korte beschrijving is een korte tekstverklaring die extra informatie of verduidelijking over het doel van een specifiek vormgebied verstrekt. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. Laat **toe tonen altijd korte beschrijving** optie om het onder de component te tonen.
 
@@ -127,7 +127,7 @@ Om herhaalbare secties binnen de paneelcontainer effectief te beheren, volg de s
 
 ### Tabblad Toegankelijkheid {#accessibility}
 
-![ Toegankelijkheid tabel ](/help/adaptive-forms/assets/accessibilty-panel.png)
+![&#x200B; Toegankelijkheid tabel &#x200B;](/help/adaptive-forms/assets/accessibilty-panel.png)
 
 
 - **Tekst voor het schermlezers** - de Tekst voor het schermlezers verwijst naar extra tekst die specifiek bedoeld is om door ondersteunende technologieën, zoals het schermlezers te worden gelezen, die door visueel gehandicapte individuen wordt gebruikt. Deze tekst bevat een audiobeschrijving van het doel van het formulierveld en kan informatie bevatten over de titel, beschrijving, naam en relevante berichten (aangepaste tekst) van het veld. Met de schermlezertekst kunt u ervoor zorgen dat het formulier toegankelijk is voor alle gebruikers, inclusief gebruikers met een visuele handicap, en krijgt deze een volledig inzicht in het formulierveld en de vereisten ervan.
@@ -145,25 +145,25 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de deelvensterco
 
 ### Tabblad Toegestane componenten {#allowed-components-tab}
 
-![ dialoog van het Ontwerp stond componentenlusje ](/help/adaptive-forms/assets/panel-container-allowed-component.png) toe
+![&#x200B; dialoog van het Ontwerp stond componentenlusje &#x200B;](/help/adaptive-forms/assets/panel-container-allowed-component.png) toe
 
 Het **Toegestane lusje van Componenten** staat malplaatjeredacteur toe om de componenten te plaatsen die als punten aan de panelen in de component in de Aangepaste redacteur van Forms kunnen worden toegevoegd.
 
 ### Tabblad Standaardcomponenten {#default-components-tab}
 
-![ de dialoog standaardcomponentenlusje van het Ontwerp &lbrace;](/help/adaptive-forms/assets/panel-container-default-component.png)
+![&#x200B; de dialoog standaardcomponentenlusje van het Ontwerp &lbrace;](/help/adaptive-forms/assets/panel-container-default-component.png)
 
 Het **Standaardlusje van Componenten** staat de malplaatjeredacteur toe om de componenten te specificeren die door gebrek als punten in de component van de vormcontainer in de Aangepaste redacteur van Forms zichtbaar zijn.
 
 ### Tab Instellingen voor responsief {#responsive-tab}
 
-![ de dialoog van het Ontwerp ontvankelijke montages tabel ](/help/adaptive-forms/assets/panel-container-responsive-style-tab.png)
+![&#x200B; de dialoog van het Ontwerp ontvankelijke montages tabel &#x200B;](/help/adaptive-forms/assets/panel-container-responsive-style-tab.png)
 
 Het **Responsieve lusje van Montages** staat de malplaatjeredacteur toe om het aantal kolommen in het net binnen de component van de vormcontainer in de Adaptieve redacteur van Forms te specificeren.
 
 ### Containerinstellingen, tabblad
 
-![ het lusje van de Montages van de Container ](/help/adaptive-forms/assets/panel-container-container-settings.png)
+![&#x200B; het lusje van de Montages van de Container &#x200B;](/help/adaptive-forms/assets/panel-container-container-settings.png)
 
 - **Lay-out** - u kunt of een vaste lay-out (Eenvoudig) of een flexibele lay-out (het Responsieve Net) voor uw tovenaar hebben. De eenvoudige lay-out houdt alles vast op de plaats, terwijl het Responsieve Net u toestaat om de positie van componenten aan uw behoeften aan te passen. Gebruik bijvoorbeeld Responsief raster om &quot;Voornaam&quot;, &quot;Tweede naam&quot; en &quot;Achternaam&quot; in één rij uit te lijnen in een formulier.
 
@@ -177,7 +177,7 @@ Het **Responsieve lusje van Montages** staat de malplaatjeredacteur toe om het a
 
 De adaptieve Component van de Kern van de Bijlage van het Dossier van Forms steunt het systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
-![ Dialoog van het Ontwerp ](/help/adaptive-forms/assets/panel-container-styles-tab.png)
+![&#x200B; Dialoog van het Ontwerp &#x200B;](/help/adaptive-forms/assets/panel-container-styles-tab.png)
 
 - **StandaardCSS Klassen**: U kunt een standaardCSS klasse voor de AanpassingsComponent van de Kern van de Container van het Comité van Forms verstrekken.
 
@@ -185,7 +185,7 @@ De adaptieve Component van de Kern van de Bijlage van het Dossier van Forms steu
 
 ### Tabblad Aangepaste eigenschappen
 
-![ de Dialoog van Eigenschappen van de Douane ](/help/adaptive-forms/assets/panel-container-custom-properties.png)
+![&#x200B; de Dialoog van Eigenschappen van de Douane &#x200B;](/help/adaptive-forms/assets/panel-container-custom-properties.png)
 
 Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aan een Adaptief kernonderdeel van een formulier koppelen met behulp van de formuliersjabloon. De aangepaste eigenschappen worden weergegeven in de sectie Eigenschappen van de koploze uitvoering van de component. Hiermee kunt u dynamisch formuliergedrag maken dat wordt aangepast op basis van de waarden van aangepaste kenmerken. Ontwikkelaars kunnen bijvoorbeeld verschillende uitvoeringen van een Forms-component zonder koptekst ontwerpen voor mobiele apparaten, desktops of webplatforms, waardoor de gebruikerservaring op een groot aantal apparaten aanzienlijk wordt verbeterd.
 

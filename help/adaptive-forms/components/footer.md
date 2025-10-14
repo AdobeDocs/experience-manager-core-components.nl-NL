@@ -19,7 +19,7 @@ Een voettekstcomponent in een adaptief formulier is een gebied dat doorgaans ond
 
 **Voorbeeld**
 
-![ voorbeeld ](/help/adaptive-forms/assets/footer.png)
+![&#x200B; voorbeeld &#x200B;](/help/adaptive-forms/assets/footer.png)
 
 ## Gebruik {#reasons-to-use-footer}
 
@@ -41,7 +41,7 @@ De Adaptive Forms Footer Core Component is in februari 2023 uitgebracht als onde
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
-| v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
+| v1 | Compatibel systeem met <br>[&#x200B; versie 2.0.4 &#x200B;](/help/adaptive-forms/version.md) en later | Compatibel met <br>[&#x200B; versie 1.1.12 &#x200B;](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
 Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
 
@@ -51,14 +51,14 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Technische details {#technical-details}
 
-Krijg de recentste informatie over de Aangepaste Component van de Kern van de Voettekst van Forms in de technische documentatie op [ GitHub ](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/footer/v1/footer). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern ](/help/developing/overview.md).
+Krijg de recentste informatie over de Aangepaste Component van de Kern van de Voettekst van Forms in de technische documentatie op [&#x200B; GitHub &#x200B;](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/footer/v1/footer). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern &#x200B;](/help/developing/overview.md).
 
 
 ## Dialoogvenster configureren {#configure-dialog}
 
 Met het dialoogvenster Configureren kunt u de voettekstervaring voor bezoekers eenvoudig aanpassen. U kunt ook eenvoudig voettekstopties definiëren voor een naadloze gebruikerservaring.
 
-![ Eigenschappen tabel ](/help/adaptive-forms/assets/footer_propertiestab.png)
+![&#x200B; Eigenschappen tabel &#x200B;](/help/adaptive-forms/assets/footer_propertiestab.png)
 
 - **geef de doos van de Dialoog** uit
 Het dialoogvenster Bewerken bevat standaardgereedschappen voor tekstopmaak waarmee de gebruiker tekst voor de voettekst kan maken.
@@ -67,7 +67,7 @@ Het dialoogvenster Bewerken bevat standaardgereedschappen voor tekstopmaak waarm
 
 - **Cursief** - deze optie past cursief het formatteren op geselecteerde teksten toe of   Tekst die na de cursor is ingevoerd cursief maken. `Ctrl+I` is een sneltoets.
 
-![ Opties van de Opsommingstekens ](/help/adaptive-forms/assets/footer_bullet.png)
+![&#x200B; Opties van de Opsommingstekens &#x200B;](/help/adaptive-forms/assets/footer_bullet.png)
 
 
 - **Opsommingsteken**
@@ -80,7 +80,7 @@ Het dialoogvenster Bewerken bevat standaardgereedschappen voor tekstopmaak waarm
 
    - **pictogram van de Inspringing** - het verhoogt het inkepingsniveau van de geselecteerde tekst of de tekst ingegaan na de curseur.
 
-![ Opties van de Hyperlink ](/help/adaptive-forms/assets/footer_link.png)
+![&#x200B; Opties van de Hyperlink &#x200B;](/help/adaptive-forms/assets/footer_link.png)
 
 - **Hyperlink**
 

@@ -25,7 +25,7 @@ Met de component Inhoudsopgave kunnen sitebezoekers snel door de inhoud van uw p
 * Deze wordt volledig in cache geplaatst door de verzender voor snelle levering.
 * Het werkt met alle componenten op de pagina, niet alleen de Componenten van de Kern.
 
-Het [ geeft dialoog ](#edit-dialog) uit staat de inhoudauteur toe om de waaier van titels te bepalen die in ToC moeten worden gebruikt. Gebruikend de [ ontwerpdialoog ](#design-dialog), kan de malplaatjeauteur de standaardwaarde voor de titels plaatsen wanneer een inhoudsauteur een Component van de Inhoudslijst aan een pagina toevoegt evenals titels beperken inbegrepen in ToC die op klassennamen wordt gebaseerd.
+Het [&#x200B; geeft dialoog &#x200B;](#edit-dialog) uit staat de inhoudauteur toe om de waaier van titels te bepalen die in ToC moeten worden gebruikt. Gebruikend de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog), kan de malplaatjeauteur de standaardwaarde voor de titels plaatsen wanneer een inhoudsauteur een Component van de Inhoudslijst aan een pagina toevoegt evenals titels beperken inbegrepen in ToC die op klassennamen wordt gebaseerd.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -37,30 +37,30 @@ In de volgende tabel worden alle ondersteunde versies van de component, de AEM-v
 |---|---|---|---|
 | v1 | Compatibel | Compatibel | Compatibel |
 
-Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
+Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [&#x200B; Kern &#x200B;](/help/versions.md).
 
 >[!NOTE]
 >
 >In AEM as a Cloud Service moet uw beheerder een filter voor de component inschakelen om de inhoud van de component te kunnen renderen.
 >
->[ gelieve te zien de documentatie GitHub van de component ](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) voor meer informatie.
+>[&#x200B; gelieve te zien de documentatie GitHub van de component &#x200B;](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) voor meer informatie.
 
 ### Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Inhoudsopgave [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) worden gevonden.
+De recentste technische documentatie over de Component van de Inhoudsopgave [&#x200B; kan op GitHub &#x200B;](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) worden gevonden.
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden &#x200B;](/help/developing/overview.md).
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud de bereiken definiëren van titelniveaus die de component Inhoudsopgave als een ToC moet weergeven.
 
-![ Lijst van Inhoud geeft de Component dialoog uit ](/help/assets/tableofcontents-edit.png)
+![&#x200B; Lijst van Inhoud geeft de Component dialoog uit &#x200B;](/help/assets/tableofcontents-edit.png)
 
 **Type van Lijst** - Deze optie bepaalt als de lijst een genummerde lijst of een genummerde lijst zou moeten zijn.
 * **het Niveau van het Begin van de Titel** - Deze optie bepaalt het hoogste niveau van titels dat de Component van de Inhoudsopgave zou moeten teruggeven.
 * **Niveau van het Einde van de Titel** - Deze optie bepaalt het laagste niveau van titels dat de Component van de Inhoudsopgave zou moeten teruggeven.
-* **identiteitskaart** - Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens te controleren ](/help/developing/data-layer/overview.md).
+* **identiteitskaart** - Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [&#x200B; Laag van Gegevens te controleren &#x200B;](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
@@ -71,7 +71,7 @@ Met behulp van het ontwerpdialoogvenster kan de sjabloonauteur de standaardwaard
 
 ### Tabblad Eigenschappen {#properties-tab}
 
-![ Snelle het ontwerpdialoog van de Component van het Onderzoek van het Snelle ](/help/assets/tableofcontents-design.png)
+![&#x200B; Snelle het ontwerpdialoog van de Component van het Onderzoek van het Snelle &#x200B;](/help/assets/tableofcontents-design.png)
 
 * **Beperk het Type van Lijst** - Deze optie bepaalt het type van lijst dat de component zal produceren. Als u deze optie selecteert, kan de auteur van de inhoud alleen een ander lijsttype kiezen.
 * **Beperk het Niveau van het Begin** - Deze optie bepaalt het hoogste titelniveau dat de inhoudauteur voor het bepalen van ToC kan selecteren.
@@ -89,4 +89,4 @@ De component van de Lijst van Inhoud steunt het Systeem van de Stijl van AEM [&#
 
 ## Adobe Client Data Layer {#data-layer}
 
-De component van de Lijst van Inhoud steunt de [ Laag van Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)
+De component van de Lijst van Inhoud steunt de [&#x200B; Laag van Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)

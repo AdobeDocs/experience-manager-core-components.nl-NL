@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Componentrichtlijnen {#component-guidelines}
 
-De [ Componenten van de Kern ](overview.md) volgen implementatiepatronen die vrij verschillend van de stichtingscomponenten zijn.
+De [&#x200B; Componenten van de Kern &#x200B;](overview.md) volgen implementatiepatronen die vrij verschillend van de stichtingscomponenten zijn.
 
-Deze pagina verklaart deze patronen, en wanneer om hen te gebruiken om uw eigen authorable componenten te bouwen. De eerste sectie [ Algemene Patronen van de Component ](#general-component-patterns) is op om het even welk soort component van toepassing, terwijl de tweede sectie [ de Herbruikbare Patronen van de Component ](#reusable-component-patterns) op componenten van toepassing is die bedoeld zijn om over plaatsen of projecten, zoals de Componenten van de Kern bijvoorbeeld worden hergebruikt.
+Deze pagina verklaart deze patronen, en wanneer om hen te gebruiken om uw eigen authorable componenten te bouwen. De eerste sectie [&#x200B; Algemene Patronen van de Component &#x200B;](#general-component-patterns) is op om het even welk soort component van toepassing, terwijl de tweede sectie [&#x200B; de Herbruikbare Patronen van de Component &#x200B;](#reusable-component-patterns) op componenten van toepassing is die bedoeld zijn om over plaatsen of projecten, zoals de Componenten van de Kern bijvoorbeeld worden hergebruikt.
 
 {{traditional-aem}}
 
@@ -28,11 +28,11 @@ Componenten kunnen dialoogvensters met diverse opties hebben. Dit zou moeten wor
 
 Als een draadframe of ontwerp variaties van vergelijkbare elementen bevat, moeten deze variaties gewoonlijk niet als verschillende componenten worden geïmplementeerd, maar als één component met opties om te kiezen tussen de variaties.
 
-Om dit een stap verder te nemen, als de componenten over plaatsen of projecten worden hergebruikt, zie de [ pre-Configureerbare sectie van Mogelijkheden ](#pre-configurable-capabilities).
+Om dit een stap verder te nemen, als de componenten over plaatsen of projecten worden hergebruikt, zie de [&#x200B; pre-Configureerbare sectie van Mogelijkheden &#x200B;](#pre-configurable-capabilities).
 
 ### Scheiding van bezorgdheid {#separation-of-concerns}
 
-Het is doorgaans een goede gewoonte om de logica (of het model) van een component los te houden van de opmaaksjabloon (of weergave). Er zijn verscheidene manieren om dat te bereiken, nochtans geadviseerd te gebruiken [ het Verdelen Modellen ](https://sling.apache.org/documentation/bundles/models.html) voor de logica en [ Taal van het Malplaatje van HTML ](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=nl-NL) (HTML) voor de prijsverhoging, zoals de Componenten van de Kern ook doen.
+Het is doorgaans een goede gewoonte om de logica (of het model) van een component los te houden van de opmaaksjabloon (of weergave). Er zijn verscheidene manieren om dat te bereiken, nochtans geadviseerd te gebruiken [&#x200B; het Verdelen Modellen &#x200B;](https://sling.apache.org/documentation/bundles/models.html) voor de logica en [&#x200B; Taal van het Malplaatje van HTML &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=nl-NL) (HTML) voor de prijsverhoging, zoals de Componenten van de Kern ook doen.
 
 Sling Models is een reeks aantekeningen van Java om tot noodzakelijke variabelen van POJOs gemakkelijk toegang te hebben, en daarom een eenvoudige, krachtige, en efficiënte manier te bieden om Java logica voor componenten uit te voeren.
 
@@ -44,7 +44,7 @@ De richtlijnen in deze sectie kunnen ook voor om het even welk soort component w
 
 ### Vooraf configureerbare mogelijkheden {#pre-configurable-capabilities}
 
-Naast het dialoogvenster Bewerken dat wordt gebruikt door auteurs van pagina&#39;s, kunnen componenten ook een ontwerpdialoogvenster hebben waarin sjabloonauteurs ze vooraf kunnen configureren. De [ Redacteur van het Malplaatje ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL) staat aan opstelling toe al deze pre-configuraties, die &quot;Beleid&quot;worden genoemd.
+Naast het dialoogvenster Bewerken dat wordt gebruikt door auteurs van pagina&#39;s, kunnen componenten ook een ontwerpdialoogvenster hebben waarin sjabloonauteurs ze vooraf kunnen configureren. De [&#x200B; Redacteur van het Malplaatje &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL) staat aan opstelling toe al deze pre-configuraties, die &quot;Beleid&quot;worden genoemd.
 
 Om componenten zo herbruikbaar mogelijk te maken, zouden zij van zinvolle opties moeten worden voorzien om vooraf te vormen. Hierdoor kunnen functies van de componenten worden in- of uitgeschakeld, zodat deze voldoen aan de specifieke behoeften van verschillende sites.
 
@@ -56,11 +56,11 @@ Nochtans, voor de project-specifieke componenten om het even welke code niet te 
 
 >[!TIP]
 >
->Zie [ Gebruikend de Componenten van de Kern ](/help/get-started/using.md#create-proxy-components) voor details op hoe te om volmachtscomponenten tot stand te brengen.
+>Zie [&#x200B; Gebruikend de Componenten van de Kern &#x200B;](/help/get-started/using.md#create-proxy-components) voor details op hoe te om volmachtscomponenten tot stand te brengen.
 
 ### Componentversie {#component-versioning}
 
-Componenten moeten in de loop der tijd volledig compatibel blijven, maar soms zijn wijzigingen die niet compatibel kunnen worden gehouden noodzakelijk. Één oplossing aan deze tegengestelde behoeften is component het versioning door een aantal in hun middel typepad toe te voegen, en in volledig - gekwalificeerde de klassennamen van Java van hun implementaties. Dit versieaantal vertegenwoordigt een belangrijke versie zoals die door [ wordt bepaald semantische versioning richtlijnen ](https://semver.org/), die slechts voor veranderingen wordt verhoogd die niet achterwaarts-compatibel zijn.
+Componenten moeten in de loop der tijd volledig compatibel blijven, maar soms zijn wijzigingen die niet compatibel kunnen worden gehouden noodzakelijk. Één oplossing aan deze tegengestelde behoeften is component het versioning door een aantal in hun middel typepad toe te voegen, en in volledig - gekwalificeerde de klassennamen van Java van hun implementaties. Dit versieaantal vertegenwoordigt een belangrijke versie zoals die door [&#x200B; wordt bepaald semantische versioning richtlijnen &#x200B;](https://semver.org/), die slechts voor veranderingen wordt verhoogd die niet achterwaarts-compatibel zijn.
 
 Niet-compatibele wijzigingen in de volgende aspecten van componenten resulteren in een nieuwe versie ervan:
 
@@ -72,26 +72,26 @@ Niet-compatibele wijzigingen in de volgende aspecten van componenten resulteren 
 
 Voor verdere details, zie het [&#128279;](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-Policies) document van het Beleid van de Versioning  in GitHub.
 
-De versioning van de component leidt tot een vorm van contract die voor verbeteringen belangrijk is aangezien het verduidelijkt wanneer iets zou kunnen moeten worden verfrist. Zie ook de sectie [ Verenigbaarheid van de Verbetering van Aanpassingen ](customizing.md#upgrade-compatibility-of-customizations), die verklaart welke overwegingen verschillende vormen van aanpassingen voor een verbetering vereisen.
+De versioning van de component leidt tot een vorm van contract die voor verbeteringen belangrijk is aangezien het verduidelijkt wanneer iets zou kunnen moeten worden verfrist. Zie ook de sectie [&#x200B; Verenigbaarheid van de Verbetering van Aanpassingen &#x200B;](customizing.md#upgrade-compatibility-of-customizations), die verklaart welke overwegingen verschillende vormen van aanpassingen voor een verbetering vereisen.
 
-Om pijnlijke inhoudsmigraties te vermijden, is het belangrijk om aan versioned componenten van inhoudsmiddelen nooit direct te richten. Als vuistregel geldt dat een `sling:resourceType` van de inhoud nooit een versienummer moet hebben, anders moet de inhoud bij het upgraden ook opnieuw worden bekeken. De beste manier om dit te vermijden is het [ hierboven beschreven Patroon van de Component van de Volmacht ](#proxy-component-pattern) te volgen.
+Om pijnlijke inhoudsmigraties te vermijden, is het belangrijk om aan versioned componenten van inhoudsmiddelen nooit direct te richten. Als vuistregel geldt dat een `sling:resourceType` van de inhoud nooit een versienummer moet hebben, anders moet de inhoud bij het upgraden ook opnieuw worden bekeken. De beste manier om dit te vermijden is het [&#x200B; hierboven beschreven Patroon van de Component van de Volmacht &#x200B;](#proxy-component-pattern) te volgen.
 
 ### Modelinterfaces {#model-interfaces}
 
 Dit patroon gaat over de `data-sly-use` instructie van HTML om naar een Java-interface te wijzen, terwijl de implementatie van het Sling Model zich ook registreert bij het brontype van de component.
 
-Wanneer gecombineerd met het [ hierboven beschreven Patroon van de Component van de Volmacht ](#proxy-component-pattern), deze vorm van dubbele bindende aanbiedingen na aardige uitbreidingspunten:
+Wanneer gecombineerd met het [&#x200B; hierboven beschreven Patroon van de Component van de Volmacht &#x200B;](#proxy-component-pattern), deze vorm van dubbele bindende aanbiedingen na aardige uitbreidingspunten:
 
 1. Een site kan de implementatie van een Sling-model opnieuw definiëren door het te registreren bij het type resource van de proxycomponent, zonder rekening te houden met het HTML-bestand, dat nog steeds naar de interface kan verwijzen.
 1. Een site kan de HTML-opmaak van een component opnieuw definiëren, zonder rekening te houden met de implementatielogica waarnaar deze moet verwijzen.
 
 ## Alles samenvoegen {#putting-it-all-together}
 
-Hieronder volgt een overzicht van het volledige middeltype bindingsstructuur, die het voorbeeld van de Component van de Kern van de Titel neemt. Het illustreert hoe een plaats-specifieke volmachtscomponent toestaat om componentenversioning op te lossen, om te vermijden dat het inhoudsmiddel om het even welk versieaantal bevat. Het toont dan hoe het 2&rbrace; dossiergebruik van de component `title.html` [&#128279;](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=nl-NL) HTML &lbrace;aan de modelinterface, terwijl de implementatie aan de specifieke versie van de component door [ het Schipen Model ](https://sling.apache.org/documentation/bundles/models.html) annotaties bindt.
+Hieronder volgt een overzicht van het volledige middeltype bindingsstructuur, die het voorbeeld van de Component van de Kern van de Titel neemt. Het illustreert hoe een plaats-specifieke volmachtscomponent toestaat om componentenversioning op te lossen, om te vermijden dat het inhoudsmiddel om het even welk versieaantal bevat. Het toont dan hoe het 2&rbrace; dossiergebruik van de component `title.html` [&#128279;](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=nl-NL) HTML &lbrace;aan de modelinterface, terwijl de implementatie aan de specifieke versie van de component door [&#x200B; het Schipen Model &#x200B;](https://sling.apache.org/documentation/bundles/models.html) annotaties bindt.
 
-![ Bindend Overzicht van het Middel ](/help/assets/chlimage_1-32.png)
+![&#x200B; Bindend Overzicht van het Middel &#x200B;](/help/assets/chlimage_1-32.png)
 
-Hieronder is een ander overzicht, dat niet de details van implementatiePOJO toont, maar openbaart hoe de bijbehorende [ malplaatjes en het beleid ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=nl-NL) van verwijzingen worden voorzien.
+Hieronder is een ander overzicht, dat niet de details van implementatiePOJO toont, maar openbaart hoe de bijbehorende [&#x200B; malplaatjes en het beleid &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=nl-NL) van verwijzingen worden voorzien.
 
 De eigenschap `cq:allowedTemplates` geeft aan welke sjablonen voor een site kunnen worden gebruikt en de eigenschap `cq:template` geeft aan elke pagina door wat de bijbehorende sjabloon is. Elke sjabloon bestaat uit de volgende drie delen:
 
@@ -99,13 +99,13 @@ De eigenschap `cq:allowedTemplates` geeft aan welke sjablonen voor een site kunn
 * **aanvankelijk** - bevat de aanvankelijke inhoud die aan de pagina zal worden gedupliceerd wanneer het wordt gecreeerd.
 * **beleid** - bevat voor elke component de afbeelding aan een beleid, dat de pre-configuratie van de component is. Deze afbeelding maakt het mogelijk dat beleid opnieuw wordt gebruikt in verschillende sjablonen en dus centraal wordt beheerd.
 
-![ Malplaatjes en het Overzicht van het Beleid ](/help/assets/screen_shot_2018-12-07at093102.png)
+![&#x200B; Malplaatjes en het Overzicht van het Beleid &#x200B;](/help/assets/screen_shot_2018-12-07at093102.png)
 
 ## AEM Project Archetype {#aem-project-archetype}
 
-[ het Archetype van het Project van AEM ](/help/developing/archetype/overview.md) leidt tot een minimaal project van Adobe Experience Manager als uitgangspunt voor uw eigen projecten, met inbegrip van een voorbeeld van douaneHTML componenten met SlingModels voor de logica en juiste implementatie van de Componenten van de Kern met het geadviseerde volmachtspatroon.
+[&#x200B; het Archetype van het Project van AEM &#x200B;](/help/developing/archetype/overview.md) leidt tot een minimaal project van Adobe Experience Manager als uitgangspunt voor uw eigen projecten, met inbegrip van een voorbeeld van douaneHTML componenten met SlingModels voor de logica en juiste implementatie van de Componenten van de Kern met het geadviseerde volmachtspatroon.
 
 **Lees daarna:**
 
-* [ Gebruikend de Componenten van de Kern ](/help/get-started/using.md) - wordt in werking gesteld met de Componenten van de Kern in uw eigen project.
-* [ het Aanpassen van de Componenten van de Kern ](customizing.md) - leren hoe te om de kerncomponenten te stileren en aan te passen.
+* [&#x200B; Gebruikend de Componenten van de Kern &#x200B;](/help/get-started/using.md) - wordt in werking gesteld met de Componenten van de Kern in uw eigen project.
+* [&#x200B; het Aanpassen van de Componenten van de Kern &#x200B;](customizing.md) - leren hoe te om de kerncomponenten te stileren en aan te passen.

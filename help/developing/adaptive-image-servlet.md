@@ -25,13 +25,13 @@ Leer hoe de Core Components de Adaptive Image Servlet voor beeldlevering gebruik
 De component Image Core kan twee methoden gebruiken om afbeeldingen te leveren.
 
 * Standaard is dit de Adaptive Image Servlet.
-* [ Web-geoptimaliseerde beeldlevering ](/help/developing/web-optimized-image-delivery.md) is beschikbaar aan AEMaaCS en vermindert downloadgrootte door gemiddeld 25%.
+* [&#x200B; Web-geoptimaliseerde beeldlevering &#x200B;](/help/developing/web-optimized-image-delivery.md) is beschikbaar aan AEMaaCS en vermindert downloadgrootte door gemiddeld 25%.
 
 In dit document wordt de standaard adaptieve afbeeldingsserver beschreven.
 
 ## Overzicht {#overview}
 
-Standaard gebruikt de component Image de Adaptive Image Servlet van de Core-component om afbeeldingen te leveren. [ de Adaptieve Servlet van het Beeld ](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) is verantwoordelijk voor beeldverwerking en het stromen en kan door ontwikkelaars in hun [ aanpassingen van de Componenten van de Kern ](/help/developing/customizing.md) worden leveraged.
+Standaard gebruikt de component Image de Adaptive Image Servlet van de Core-component om afbeeldingen te leveren. [&#x200B; de Adaptieve Servlet van het Beeld &#x200B;](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) is verantwoordelijk voor beeldverwerking en het stromen en kan door ontwikkelaars in hun [&#x200B; aanpassingen van de Componenten van de Kern &#x200B;](/help/developing/customizing.md) worden leveraged.
 
 ## Selectie van vertoning {#rendition-selection}
 
@@ -54,6 +54,6 @@ Dit verbetert de prestaties en voorkomt dat sommige afbeeldingen niet correct wo
 
 ## Laatst gewijzigde koppen gebruiken {#last-modified}
 
-Voorwaardelijke verzoeken via de `Last-Modified` kopbal worden gesteund door de Adaptieve Servlet van het Beeld, maar het in het voorgeheugen onderbrengen van de `Last-Modified` kopbal [ moet in Dispatcher ](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=nl-NL#caching-http-response-headers) worden toegelaten.
+Voorwaardelijke verzoeken via de `Last-Modified` kopbal worden gesteund door de Adaptieve Servlet van het Beeld, maar het in het voorgeheugen onderbrengen van de `Last-Modified` kopbal [&#x200B; moet in Dispatcher &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=nl-NL#caching-http-response-headers) worden toegelaten.
 
-[ de 1&rbrace; de steekproefconfiguratie van Dispatcher van de Archetype van het Project van AEM &lbrace;bevat reeds deze configuratie.](/help/developing/archetype/overview.md)
+[&#x200B; de 1&rbrace; de steekproefconfiguratie van Dispatcher van de Archetype van het Project van AEM &lbrace;bevat reeds deze configuratie.](/help/developing/archetype/overview.md)

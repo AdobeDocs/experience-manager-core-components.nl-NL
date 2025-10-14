@@ -19,9 +19,9 @@ Om deze gebieden in de Laag van Gegevens te omvatten die door de Componenten van
 
 ## Voorbeeld: component Title {#example}
 
-Een Component van de Kern zoals de [ component van de Titel ](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/Title.java) breidt [ Component ](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/Title.java) uit die a `getData` methode heeft die door gebrek terugkeert [`ComponentData`.](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/datalayer/ComponentData.java)
+Een Component van de Kern zoals de [&#x200B; component van de Titel &#x200B;](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/Title.java) breidt [&#x200B; Component &#x200B;](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/Title.java) uit die a `getData` methode heeft die door gebrek terugkeert [`ComponentData`.](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/datalayer/ComponentData.java)
 
-`ComponentData` serialiseert vooraf bepaalde gebieden die uw component, zoals `getDataLayerLinkUrl` en `getDataLayerTitle` voor [`TitleImpl` kan uitvoeren. ](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/internal/models/v1/TitleImpl.java)
+`ComponentData` serialiseert vooraf bepaalde gebieden die uw component, zoals `getDataLayerLinkUrl` en `getDataLayerTitle` voor [`TitleImpl` kan uitvoeren. &#x200B;](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/internal/models/v1/TitleImpl.java)
 
 Het aangepaste Sling-model kan daarom een `getData` -methode hebben die een object retourneert dat `ComponentData` uitbreidt om meer velden te retourneren.
 

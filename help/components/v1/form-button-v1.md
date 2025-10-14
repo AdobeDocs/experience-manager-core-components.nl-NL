@@ -18,9 +18,9 @@ Met de component Core Component Form Button kunt u een knopveld in een formulier
 
 ## Gebruik {#usage}
 
-De component van de Knoop van de Vorm van de Component van de Kern staat voor de verwezenlijking van knoopgebied toe, vaak om de voorlegging van de vorm teweeg te brengen en is bedoeld om samen met de [ component van de vormcontainer ](form-container-v1.md) worden gebruikt.
+De component van de Knoop van de Vorm van de Component van de Kern staat voor de verwezenlijking van knoopgebied toe, vaak om de voorlegging van de vorm teweeg te brengen en is bedoeld om samen met de [&#x200B; component van de vormcontainer &#x200B;](form-container-v1.md) worden gebruikt.
 
-De knoopeigenschappen kunnen door de inhoudsredacteur in [ worden bepaald vormen dialoog ](#configure-dialog).
+De knoopeigenschappen kunnen door de inhoudsredacteur in [&#x200B; worden bepaald vormen dialoog &#x200B;](#configure-dialog).
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -41,7 +41,7 @@ In de volgende tabel wordt de compatibiliteit van versie 1 van de component Form
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende wordt steekproef genomen van [&#x200B; We.Retail &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Schermafbeelding {#screenshot}
 
@@ -85,7 +85,7 @@ Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/
 
 >[!NOTE]
 >
->Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Gelieve te zien de [ verenigbaarheidsinformatie voor de Componenten van de Kern v1 ](/help/versions.md) voor meer informatie.
+>Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Gelieve te zien de [&#x200B; verenigbaarheidsinformatie voor de Componenten van de Kern v1 &#x200B;](/help/versions.md) voor meer informatie.
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -109,8 +109,8 @@ Er is geen dialoogvenster voor het ontwerp van de component Form Button.
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Knoop van de Vorm [ kan op GitHub ](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v1/button) worden gevonden.
+De recentste technische documentatie over de Component van de Knoop van de Vorm [&#x200B; kan op GitHub &#x200B;](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v1/button) worden gevonden.
 
 Het volledige kerncomponentenproject kan van GitHub worden gedownload.
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden &#x200B;](/help/developing/overview.md).

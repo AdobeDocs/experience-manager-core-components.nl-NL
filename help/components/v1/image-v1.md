@@ -20,7 +20,7 @@ De Core Component Image is een adaptieve beeldcomponent die ter plekke kan worde
 
 Met de component Afbeelding kunt u afbeeldingselementen eenvoudig plaatsen en op locatie bewerken. Deze functie biedt een adaptieve selectie van afbeeldingen met uitgestelde laadtijd en uitsnijden voor de auteur van de inhoud.
 
-De toegestane beeldbreedten evenals het bebouwen en de extra montages kunnen door de malplaatjeauteur in de [ ontwerpdialoog ](#design-dialog) worden bepaald. De inhoudsredacteur kan activa in [ uploaden of selecteren vormt dialoog ](#configure-dialog) en bebouwt het beeld in [ uitgeeft dialoog ](#edit-dialog). Voor meer gebruiksgemak is het ook mogelijk de afbeelding op een eenvoudige plaats aan te passen.
+De toegestane beeldbreedten evenals het bebouwen en de extra montages kunnen door de malplaatjeauteur in de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog) worden bepaald. De inhoudsredacteur kan activa in [&#x200B; uploaden of selecteren vormt dialoog &#x200B;](#configure-dialog) en bebouwt het beeld in [&#x200B; uitgeeft dialoog &#x200B;](#edit-dialog). Voor meer gebruiksgemak is het ook mogelijk de afbeelding op een eenvoudige plaats aan te passen.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -41,7 +41,7 @@ In de volgende tabel wordt de compatibiliteit van versie 1 van de component Imag
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende wordt steekproef genomen van [&#x200B; We.Retail &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Schermafbeelding {#screenshot}
 
@@ -74,18 +74,18 @@ Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/
 
 >[!NOTE]
 >
->Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Gelieve te zien de [ verenigbaarheidsinformatie voor de Componenten van de Kern v1 ](/help/versions.md) voor meer informatie.
+>Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Gelieve te zien de [&#x200B; verenigbaarheidsinformatie voor de Componenten van de Kern v1 &#x200B;](/help/versions.md) voor meer informatie.
 
 ## Dialoogvenster configureren {#configure-dialog}
 
-Naast standaard [ geef dialoog ](#edit-dialog) uit en [ ontwerpdialoog ](#design-dialog), biedt de beeldcomponent een dialoog aan waar het beeld zelf samen met zijn beschrijving en basiseigenschappen wordt bepaald.
+Naast standaard [&#x200B; geef dialoog &#x200B;](#edit-dialog) uit en [&#x200B; ontwerpdialoog &#x200B;](#design-dialog), biedt de beeldcomponent een dialoog aan waar het beeld zelf samen met zijn beschrijving en basiseigenschappen wordt bepaald.
 
 ![](/help/assets/chlimage_1-50.png)
 
 * **activa van het Beeld**
-   * Daling een activa van [ activa browser ](https://helpx.adobe.com/nl/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title) of ontvang **doorbladert** optie om van een lokaal dossiersysteem te uploaden.
+   * Daling een activa van [&#x200B; activa browser &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title) of ontvang **doorbladert** optie om van een lokaal dossiersysteem te uploaden.
    * Tik of klik **Duidelijk** om het momenteel geselecteerde beeld te deselecteren.
-   * Tik of klik **uitgeven** [ om de vertoningen van de activa ](https://helpx.adobe.com/nl/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) in de activaredacteur te beheren.
+   * Tik of klik **uitgeven** [&#x200B; om de vertoningen van de activa &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) in de activaredacteur te beheren.
 
 * **Beeld is decoratief** - controleer als het beeld door ondersteunende technologie zou moeten worden genegeerd en daarom geen alternatieve tekst vereist. Dit geldt alleen voor decoratieve afbeeldingen.
 * **Alternatieve tekst** - Textueel alternatief van de betekenis of de functie van het beeld, voor visueel gehandicapte lezers.
@@ -195,9 +195,9 @@ Tik of klik op de knop Toevoegen om een andere grootte toe te voegen.
 
 Het laden van afbeeldingen wordt standaard uitgesteld totdat ze zichtbaar worden. Selecteer de optie **maak het laden** onbruikbaar om de beelden op paginading te laden.
 
-* **laat Web Geoptimaliseerde Beelden** toe - wanneer gecontroleerd, zal de [ Web-geoptimaliseerde dienst van de beeldlevering ](/help/developing/web-optimized-image-delivery.md) beelden in het formaat leveren WebP, die beeldgrootte door gemiddeld 25% verminderen.
+* **laat Web Geoptimaliseerde Beelden** toe - wanneer gecontroleerd, zal de [&#x200B; Web-geoptimaliseerde dienst van de beeldlevering &#x200B;](/help/developing/web-optimized-image-delivery.md) beelden in het formaat leveren WebP, die beeldgrootte door gemiddeld 25% verminderen.
    * Deze optie is alleen beschikbaar in AEMaaCS.
-   * Wanneer ongecontroleerd of de web-optimized dienst van de beeldlevering niet beschikbaar is [ wordt de Aangepaste Servlet van het Beeld ](/help/developing/adaptive-image-servlet.md) gebruikt.
+   * Wanneer ongecontroleerd of de web-optimized dienst van de beeldlevering niet beschikbaar is [&#x200B; wordt de Aangepaste Servlet van het Beeld &#x200B;](/help/developing/adaptive-image-servlet.md) gebruikt.
 
 ### Functies {#features}
 
@@ -205,7 +205,7 @@ Op het **lusje van Eigenschappen** kunt u bepalen welke opties aan de inhoudsaut
 
 * **laat Web Geoptimaliseerde Beelden** toe - wanneer gecontroleerd, zal de Web-geoptimaliseerde dienst van de beeldlevering beelden in het formaat WebP leveren, die beeldgrootte door gemiddeld 25% verminderen.
    * Deze optie is alleen beschikbaar in AEMaaCS.
-   * Wanneer ongecontroleerd of de web-optimized dienst van de beeldlevering niet beschikbaar is [ wordt de Aangepaste Servlet van het Beeld ](/help/developing/adaptive-image-servlet.md) gebruikt.
+   * Wanneer ongecontroleerd of de web-optimized dienst van de beeldlevering niet beschikbaar is [&#x200B; wordt de Aangepaste Servlet van het Beeld &#x200B;](/help/developing/adaptive-image-servlet.md) gebruikt.
 
 * Source
 
@@ -242,8 +242,8 @@ Gebruik deze optie om de inhoudauteur toe te staan om **Horizontaal te gebruiken
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van het Beeld [ kan op GitHub ](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v1/image) worden gevonden.
+De recentste technische documentatie over de Component van het Beeld [&#x200B; kan op GitHub &#x200B;](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v1/image) worden gevonden.
 
 Het volledige kerncomponentenproject kan van GitHub worden gedownload.
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden &#x200B;](/help/developing/overview.md).

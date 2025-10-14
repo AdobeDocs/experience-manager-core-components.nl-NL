@@ -20,7 +20,7 @@ De component van de Lijst van de Component van de Kern staat voor de gemakkelijk
 
 De component List kan worden gebruikt om bijvoorbeeld een dynamische lijst met onderliggende pagina&#39;s of een statische lijst met willekeurig gedefinieerde items te maken.
 
-Het type van beschikbare lijsten en het formatteren opties kunnen door de malplaatjeauteur in de [ ontwerpdialoog ](#design-dialog) worden bepaald. De inhoudsredacteur kan uit beschikbare lijsttypes selecteren en hoe te om de lijstelementen in [ uit te maken uitgeeft dialoog ](#edit-dialog).
+Het type van beschikbare lijsten en het formatteren opties kunnen door de malplaatjeauteur in de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog) worden bepaald. De inhoudsredacteur kan uit beschikbare lijsttypes selecteren en hoe te om de lijstelementen in [&#x200B; uit te maken uitgeeft dialoog &#x200B;](#edit-dialog).
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -41,7 +41,7 @@ In de volgende tabel wordt de compatibiliteit van v1 van de component List weerg
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende wordt steekproef genomen van [&#x200B; We.Retail &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Schermafbeelding {#screenshot}
 
@@ -135,7 +135,7 @@ Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/
 
 >[!NOTE]
 >
->Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Gelieve te zien de [ verenigbaarheidsinformatie voor de Componenten van de Kern v1 ](/help/versions.md) voor meer informatie.
+>Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Gelieve te zien de [&#x200B; verenigbaarheidsinformatie voor de Componenten van de Kern v1 &#x200B;](/help/versions.md) voor meer informatie.
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
@@ -150,7 +150,7 @@ De lijst kan op verschillende manieren worden samengesteld.
 * [Zoeken](#search-list)
 * [Tags](#tags)
 
-Ongeacht hoe de lijst wordt gebouwd, zijn er [ Opties van de Soort ](#sort-options) die altijd kunnen worden gevormd.
+Ongeacht hoe de lijst wordt gebouwd, zijn er [&#x200B; Opties van de Soort &#x200B;](#sort-options) die altijd kunnen worden gevormd.
 
 ![](/help/assets/chlimage_1-38.png)
 
@@ -255,14 +255,14 @@ Op het **lusje van de Montages van het Punt**, kunnen de het formatteren opties 
 
 ![](/help/assets/chlimage_1-46.png)
 
-* **Punten van de Verbinding** - laat de optie van Punten van de Verbinding in [ toe geef dialoog ](#edit-dialog) uit
-* **toon Beschrijvingen** - laat de optie van Beschrijvingen in [ toe uitgeeft dialoog ](#edit-dialog)
-* **toon Datum** - laat de optie van de Datum van de Show in [ toe geef dialoog ](#edit-dialog) uit
+* **Punten van de Verbinding** - laat de optie van Punten van de Verbinding in [&#x200B; toe geef dialoog &#x200B;](#edit-dialog) uit
+* **toon Beschrijvingen** - laat de optie van Beschrijvingen in [&#x200B; toe uitgeeft dialoog &#x200B;](#edit-dialog)
+* **toon Datum** - laat de optie van de Datum van de Show in [&#x200B; toe geef dialoog &#x200B;](#edit-dialog) uit
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Lijst [ kan op GitHub ](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list) worden gevonden.
+De recentste technische documentatie over de Component van de Lijst [&#x200B; kan op GitHub &#x200B;](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list) worden gevonden.
 
 Het volledige kerncomponentenproject kan van GitHub worden gedownload.
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden &#x200B;](/help/developing/overview.md).

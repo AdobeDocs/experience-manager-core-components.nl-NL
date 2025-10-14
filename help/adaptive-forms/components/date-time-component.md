@@ -16,7 +16,7 @@ Een component van de Datum &amp; van de Tijd in een AanpassingsVorm is een gebru
 
 **Voorbeeld**
 
-![ voorbeeld ](/help/adaptive-forms/assets/date-time-picker.png)
+![&#x200B; voorbeeld &#x200B;](/help/adaptive-forms/assets/date-time-picker.png)
 
 ## Gebruik {#reasons-to-use-date-time-picker}
 
@@ -35,13 +35,13 @@ De Adaptieve Component van de Kern van de Datum en van de Tijd van Forms werd vr
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
-| v1 | Compatibel systeem met <br>[ versie 2.24.6 ](/help/adaptive-forms/version.md) en later | |
+| v1 | Compatibel systeem met <br>[&#x200B; versie 2.24.6 &#x200B;](/help/adaptive-forms/version.md) en later | |
 
 Voor details op versies, zie {de Versies van de Componenten van 0} Kern [.](/help/adaptive-forms/version.md)
 
 ## Technische details {#technical-details}
 
-Krijg de recentste technische details op de Adaptieve Component van de Kern van de Datum en van de Tijd van Forms op [ GitHub ](https://github.com/adobe/aem-core-forms-components). Voor meer bij het ontwikkelen van de Componenten van de Kern, zie {de ontwikkelaarsdocumentatie van de Componenten van 0} Kern [.](/help/developing/overview.md)
+Krijg de recentste technische details op de Adaptieve Component van de Kern van de Datum en van de Tijd van Forms op [&#x200B; GitHub &#x200B;](https://github.com/adobe/aem-core-forms-components). Voor meer bij het ontwikkelen van de Componenten van de Kern, zie {de ontwikkelaarsdocumentatie van de Componenten van 0} Kern [.](/help/developing/overview.md)
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -49,15 +49,15 @@ In het dialoogvenster Configureren kunt u de datum en tijd aanpassen.
 
 ### Tabblad Standaard {#basic-tab}
 
-![ Basis lusje ](/help/adaptive-forms/assets/datetime_basictab.png)
+![&#x200B; Basis lusje &#x200B;](/help/adaptive-forms/assets/datetime_basictab.png)
 
 - **Naam** - de naam identificeert uniek de component in de regelredacteur. Speciale tekens en spaties zijn niet toegestaan in de naamtekenreeksen.
 
 - **Titel** - de Titel is een koord dat bij de bovenkant van een component in een Aangepaste Vorm verschijnt. De titel geeft de component in de boomstructuur van een adaptief formulier op unieke wijze aan. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
-  Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
+  Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![&#x200B; pictogram Volledig scherm &#x200B;](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
-  ![ de rijke tekststeun van 0&rbrace;](/help/adaptive-forms/assets/richtext-support-title.png)
+  ![&#x200B; de rijke tekststeun van 0&rbrace;](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Titel van de Huid** - selecteer deze optie om titel van het componenttype in een Aangepaste Vorm te verbergen.
 
@@ -73,7 +73,7 @@ In het dialoogvenster Configureren kunt u de datum en tijd aanpassen.
 
 ### Tabblad Validatie {#validation-tab}
 
-![ het lusje van de Bevestiging ](/help/adaptive-forms/assets/datetime_validation.png)
+![&#x200B; het lusje van de Bevestiging &#x200B;](/help/adaptive-forms/assets/datetime_validation.png)
 
 - **Vereist** - selecteer deze optie, als u de component in een Aangepaste Vorm wilt tonen. Nadat u de optie hebt geselecteerd, moet u een selectie maken voordat u een formulier kunt verzenden. U kunt niet de **Component van de Verbergen** selecteren of **Component** in het **Basis** lusje onbruikbaar maken wanneer deze optie wordt geselecteerd.
 
@@ -91,7 +91,7 @@ In het dialoogvenster Configureren kunt u de datum en tijd aanpassen.
 
 ### Het tabblad Help-inhoud {#help-content-tab}
 
-![ Inhoud tabel van de Hulp ](/help/adaptive-forms/assets/datetime_helptab.png)
+![&#x200B; Inhoud tabel van de Hulp &#x200B;](/help/adaptive-forms/assets/datetime_helptab.png)
 
 - **Korte beschrijving** - een korte beschrijving is een korte tekstverklaring die extra informatie of verduidelijking over het doel van een specifiek vormgebied verstrekt. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. Laat **toe tonen altijd korte beschrijving** optie om het onder de component te tonen.
 
@@ -102,7 +102,7 @@ In het dialoogvenster Configureren kunt u de datum en tijd aanpassen.
 
 ### Tabblad Toegankelijkheid {#accessibility-tab}
 
-![ Toegankelijkheid tabel ](/help/adaptive-forms/assets/datetime_accessibilitytab.png)
+![&#x200B; Toegankelijkheid tabel &#x200B;](/help/adaptive-forms/assets/datetime_accessibilitytab.png)
 
 - **Tekst voor het schermlezers** - de Tekst voor het schermlezers verwijst naar extra tekst die specifiek bedoeld is om door ondersteunende technologieën, zoals het schermlezers te worden gelezen, die door visueel gehandicapte individuen wordt gebruikt. Deze tekst bevat een audiobeschrijving van het doel van het formulierveld en kan informatie bevatten over de titel, beschrijving, naam en relevante berichten (aangepaste tekst) van het veld. Met de schermlezertekst kunt u ervoor zorgen dat het formulier toegankelijk is voor alle gebruikers, inclusief gebruikers met een visuele handicap, en krijgt deze een volledig inzicht in het formulierveld en de vereisten ervan.
    - **Tekst van de Douane**: Selecteer deze optie om de douanetekst voor de toegankelijkheidslabels van ARIA te gebruiken. Als u deze optie selecteert, wordt het dialoogvenster Aangepaste tekst weergegeven. U kunt relevante informatie toevoegen in het dialoogvenster Aangepaste tekst.
@@ -144,7 +144,7 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de component Dat
 
 Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve Component van de Kern van de Datum en van de Tijd van Forms steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
 
-![ lusje van de Stijl ](/help/adaptive-forms/assets/datepicker_styletab.png)
+![&#x200B; lusje van de Stijl &#x200B;](/help/adaptive-forms/assets/datepicker_styletab.png)
 
 - **StandaardCSS Klassen**: U kunt een standaardCSS klasse voor de Aangepaste Component van de Kern van de Datum en van de Tijd van Forms verstrekken.
 
@@ -152,7 +152,7 @@ Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en t
 
 ### Aangepaste eigenschappen
 
-![ de Dialoog van Eigenschappen van de Douane ](/help/adaptive-forms/assets/datepicker_customproperties.png)
+![&#x200B; de Dialoog van Eigenschappen van de Douane &#x200B;](/help/adaptive-forms/assets/datepicker_customproperties.png)
 
 Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aan een Adaptief kernonderdeel van een formulier koppelen met behulp van de formuliersjabloon. De aangepaste eigenschappen worden weergegeven in de sectie Eigenschappen van de koploze uitvoering van de component. Hiermee kunt u dynamisch formuliergedrag maken dat wordt aangepast op basis van de waarden van aangepaste kenmerken. Ontwikkelaars kunnen bijvoorbeeld verschillende uitvoeringen van een Forms-component zonder koptekst ontwerpen voor mobiele apparaten, desktops of webplatforms, waardoor de gebruikerservaring op een groot aantal apparaten aanzienlijk wordt verbeterd.
 

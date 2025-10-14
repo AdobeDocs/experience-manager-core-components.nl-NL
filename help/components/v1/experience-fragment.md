@@ -20,8 +20,8 @@ Met de Core Component Experience Fragment Component kan de auteur van de inhoud 
 
 Met de Core Component Experience Fragment Component kan de auteur van de inhoud uit bestaande ervaringsfragmentvariaties selecteren en er een op de inhoudspagina plaatsen. De component Experience Fragment ondersteunt ook een gelokaliseerde sitestructuur.
 
-* De eigenschappen van de component kunnen in [ worden bepaald vormen dialoog ](#configure-dialog).
-* De gebreken voor de component wanneer het toevoegen van het aan een pagina kunnen in de [ ontwerpdialoog ](#design-dialog) worden bepaald.
+* De eigenschappen van de component kunnen in [&#x200B; worden bepaald vormen dialoog &#x200B;](#configure-dialog).
+* De gebreken voor de component wanneer het toevoegen van het aan een pagina kunnen in de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog) worden bepaald.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -45,8 +45,8 @@ In dit geval wordt het fragment met dezelfde lokalisatie (taal, blauwdruk of liv
 
 Dit gedrag is beperkt tot Geniet van fragmentcomponenten die aan sjablonen zijn toegevoegd. De Componenten van het Fragment van de ervaring die aan individuele inhoudspagina&#39;s worden toegevoegd zullen de nauwkeurige vertoningen van het ervaringsfragment teruggeven die binnen de component worden gevormd.
 
-* Voor een voorbeeld van hoe de localisatieeigenschappen van de Component van het Fragment van de Ervaring werken, zie [ de sectie hieronder ](#example).
-* Voor een voorbeeld van hoe de localisatieeigenschappen van de Componenten van de Kern samenwerken, zie de [ Eigenschappen van de Localisatie van de pagina van de Componenten van de Kern ](/help/get-started/localization.md).
+* Voor een voorbeeld van hoe de localisatieeigenschappen van de Component van het Fragment van de Ervaring werken, zie [&#x200B; de sectie hieronder &#x200B;](#example).
+* Voor een voorbeeld van hoe de localisatieeigenschappen van de Componenten van de Kern samenwerken, zie de [&#x200B; Eigenschappen van de Localisatie van de pagina van de Componenten van de Kern &#x200B;](/help/get-started/localization.md).
 
 ### Voorbeeld {#example}
 
@@ -104,25 +104,25 @@ De component van het Fragment van de Ervaring zal proberen om een overeenkomstig
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Om de Component van het Fragment van de Ervaring te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output JSON, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library_xf).
+Om de Component van het Fragment van de Ervaring te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output JSON, bezoek de [&#x200B; Bibliotheek van de Component &#x200B;](https://adobe.com/go/aem_cmp_library_xf).
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van het Fragment van de Ervaring [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_xf_v1) worden gevonden.
+De recentste technische documentatie over de Component van het Fragment van de Ervaring [&#x200B; kan op GitHub &#x200B;](https://adobe.com/go/aem_cmp_tech_xf_v1) worden gevonden.
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden &#x200B;](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
 In het dialoogvenster Configureren kan de auteur van de inhoud de variatie van het ervaringsfragment selecteren die op de pagina moet worden weergegeven.
 
-![ Uitgeven van de Component van het Fragment van de Ervaring dialoog ](/help/assets/experience-fragment-edit.png)
+![&#x200B; Uitgeven van de Component van het Fragment van de Ervaring dialoog &#x200B;](/help/assets/experience-fragment-edit.png)
 
 Gebruik de **Open knoop van de Dialoog van de Selectie** om de componentenselecteur te openen om te kiezen welke de variatie van de fragmentcomponent om aan de inhoudspagina toe te voegen ervaart.
 
-Als u de Component van het Fragment van de Ervaring aan een malplaatje toevoegt, merk op dat het automatisch zal worden gelokaliseerd op voorwaarde dat de Fragmenten van de Ervaring worden gelokaliseerd, zodat wat op de pagina wordt teruggegeven van de component kan variëren u uitdrukkelijk selecteert. [ zie het voorbeeld hierboven ](#example) voor meer informatie.
+Als u de Component van het Fragment van de Ervaring aan een malplaatje toevoegt, merk op dat het automatisch zal worden gelokaliseerd op voorwaarde dat de Fragmenten van de Ervaring worden gelokaliseerd, zodat wat op de pagina wordt teruggegeven van de component kan variëren u uitdrukkelijk selecteert. [&#x200B; zie het voorbeeld hierboven &#x200B;](#example) voor meer informatie.
 
-U kunt ook een **identiteitskaart** bepalen. Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens ](/help/developing/data-layer/overview.md) te controleren.
+U kunt ook een **identiteitskaart** bepalen. Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [&#x200B; Laag van Gegevens &#x200B;](/help/developing/data-layer/overview.md) te controleren.
 
 * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
 * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.

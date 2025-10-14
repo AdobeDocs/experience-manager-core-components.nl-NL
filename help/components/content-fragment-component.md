@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Component Inhoudsfragment{#content-fragment-component}
 
-De component van het Fragment van de Inhoud van de Component van de Kern staat voor de vertoning van a [ inhoudsfragment ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=nl-NL) toe.
+De component van het Fragment van de Inhoud van de Component van de Kern staat voor de vertoning van a [&#x200B; inhoudsfragment &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=nl-NL) toe.
 
 >[!NOTE]
 >
@@ -23,11 +23,11 @@ De component van het Fragment van de Inhoud van de Component van de Kern staat v
 
 ## Gebruik {#usage}
 
-De component van het Fragment van de Inhoud van de Component van de Kern staat voor de opneming van a [ inhoudsfragment ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=nl-NL) op een pagina toe.
+De component van het Fragment van de Inhoud van de Component van de Kern staat voor de opneming van a [&#x200B; inhoudsfragment &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=nl-NL) op een pagina toe.
 
-* Het fragment en zijn eigenschappen kunnen in [ worden geselecteerd vormen dialoog ](#configure-dialog).
-* De types van middel om bepaalde beelden en netten te behandelen kunnen in de [ ontwerpdialoog ](#design-dialog) worden bepaald.
-* De Edit optie zal het geselecteerde fragment binnen de [ redacteur van het inhoudsfragment ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html?lang=nl-NL) openen.
+* Het fragment en zijn eigenschappen kunnen in [&#x200B; worden geselecteerd vormen dialoog &#x200B;](#configure-dialog).
+* De types van middel om bepaalde beelden en netten te behandelen kunnen in de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog) worden bepaald.
+* De Edit optie zal het geselecteerde fragment binnen de [&#x200B; redacteur van het inhoudsfragment &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html?lang=nl-NL) openen.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -37,7 +37,7 @@ In de volgende tabel worden alle ondersteunde versies van de component, de AEM-v
 
 | Componentversie | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |---|---|---|
-| v1 | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel | Compatibel | Compatibel |
+| v1 | Compatibel systeem met <br>[&#x200B; versie 2.17.4 &#x200B;](/help/versions.md) en vroeger | Compatibel | Compatibel | Compatibel |
 
 >[!NOTE]
 >
@@ -51,17 +51,17 @@ In de volgende tabel worden alle ondersteunde versies van de component, de AEM-v
 >
 >Hoewel beide v1 zijn, vereist om het even welke component van het Fragment van de Inhoud die van de omslag van uitbreidingen werd gebruikt een migratie van zijn verwante volmachtscomponenten om het nieuwe middeltype te gebruiken wanneer het bevorderen om 2.4.0 of hoger van de Componenten van de Kern vrij te geven.
 
-Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
+Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [&#x200B; Kern &#x200B;](/help/versions.md).
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Om de Component van het Fragment van de Inhoud te ervaren evenals voorbeelden van zijn configuratieopties evenals de output van HTML en JSON te zien, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library_cf).
+Om de Component van het Fragment van de Inhoud te ervaren evenals voorbeelden van zijn configuratieopties evenals de output van HTML en JSON te zien, bezoek de [&#x200B; Bibliotheek van de Component &#x200B;](https://adobe.com/go/aem_cmp_library_cf).
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van het Fragment van de Inhoud [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_cf_v1) worden gevonden.
+De recentste technische documentatie over de Component van het Fragment van de Inhoud [&#x200B; kan op GitHub &#x200B;](https://adobe.com/go/aem_cmp_tech_cf_v1) worden gevonden.
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden &#x200B;](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -69,7 +69,7 @@ In het dialoogvenster Configureren kan de auteur van de inhoud definiëren welk 
 
 ### Tabblad Eigenschappen {#properties-tab}
 
-![ Component van het Fragment van de Inhoud ](/help/assets/content-fragment-edit-properties.png)
+![&#x200B; Component van het Fragment van de Inhoud &#x200B;](/help/assets/content-fragment-edit-properties.png)
 
 * **het Fragment van de Inhoud**
 
@@ -89,7 +89,7 @@ In het dialoogvenster Configureren kan de auteur van de inhoud definiëren welk 
 
       * Bereiken opgeven voor alinea&#39;s die moeten worden weergegeven, gescheiden door een puntkomma
       * Als u bijvoorbeeld `1;3-5;7;9-*` de eerste, de derde tot de vijfde, de zevende en de negende alinea tot de laatste alinea wilt opnemen
-* **identiteitskaart** - Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens te controleren ](/help/developing/data-layer/overview.md).
+* **identiteitskaart** - Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [&#x200B; Laag van Gegevens te controleren &#x200B;](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
@@ -98,7 +98,7 @@ In het dialoogvenster Configureren kan de auteur van de inhoud definiëren welk 
 
 Dit lusje is niet beschikbaar wanneer **de Veelvoudige wijze van Elementen** wordt geselecteerd.
 
-![ Component van het Fragment van de Inhoud ](/help/assets/content-fragment-edit-paragraph.png)
+![&#x200B; Component van het Fragment van de Inhoud &#x200B;](/help/assets/content-fragment-edit-paragraph.png)
 
 * **Paragraaf** - sta selectie van alle paragrafen of een waaier toe
 * **de rubriek van het Handvat als hun eigen paragrafen**
@@ -107,7 +107,7 @@ Dit lusje is niet beschikbaar wanneer **de Veelvoudige wijze van Elementen** wor
 
 In het dialoogvenster Ontwerpen kan de sjabloonauteur de typen bronnen definiëren die worden gebruikt voor het verwerken van afbeeldingen met gemengde media en responsieve rasters.
 
-![ dialoog van het Ontwerp van de Component van het Fragment van de Inhoud ](/help/assets/content-fragment-design.png)
+![&#x200B; dialoog van het Ontwerp van de Component van het Fragment van de Inhoud &#x200B;](/help/assets/content-fragment-design.png)
 
 * **Intern ontvankelijk net**
 
@@ -115,4 +115,4 @@ In het dialoogvenster Ontwerpen kan de sjabloonauteur de typen bronnen definiër
 
 ## Adobe Client Data Layer {#data-layer}
 
-De component van het Fragment van de Inhoud steunt de [ Laag van de Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)
+De component van het Fragment van de Inhoud steunt de [&#x200B; Laag van de Gegevens van de Cliënt van Adobe.](/help/developing/data-layer/overview.md)

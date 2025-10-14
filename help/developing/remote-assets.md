@@ -30,7 +30,7 @@ Ondersteuning voor externe middelen met Dynamic Media met OpenAPI vereist:
 
 Het wordt over het algemeen aanbevolen om al uw productie AEM instanties in werking te stellen die HTTPs gebruiken. Uw lokale ontwikkelomgevingen kunnen echter niet als zodanig worden ingesteld. Externe elementen die Dynamic Media met OpenAPI gebruiken, kunnen echter alleen functioneren als HTTPS is vereist.
 
-[ Gebruik deze gids ](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html?lang=nl-NL) om HTTPS te vormen waar u wenst om verre activa, met inbegrip van ontwikkelomgevingen te gebruiken.
+[&#x200B; Gebruik deze gids &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html?lang=nl-NL) om HTTPS te vormen waar u wenst om verre activa, met inbegrip van ontwikkelomgevingen te gebruiken.
 
 ## OSGi configureren {#osgi}
 
@@ -43,12 +43,12 @@ imsOrg="<ims-org>@AdobeOrg"
 repositoryId="<repo-id>.adobeaemcloud.com"
 ```
 
-![ het volgende de configuratievenster van Dynamic Media Config OSGi van de Generatie ](/help/assets/remote-assets-osgi.png)
+![&#x200B; het volgende de configuratievenster van Dynamic Media Config OSGi van de Generatie &#x200B;](/help/assets/remote-assets-osgi.png)
 
 Voor details op hoe te om OSGi te vormen, gelieve de volgende documenten te zien:
 
-* [ het Vormen OSGi voor Adobe Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi.html?lang=nl-NL) voor AEM as a Cloud Service
-* [ Vormend OSGi ](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/configuring/configuring-osgi.html?lang=nl-NL) voor AEM 6.5
+* [&#x200B; het Vormen OSGi voor Adobe Experience Manager as a Cloud Service &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi.html?lang=nl-NL) voor AEM as a Cloud Service
+* [&#x200B; Vormend OSGi &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/configuring/configuring-osgi.html?lang=nl-NL) voor AEM 6.5
 
 ## Configuratie controleren {#verify}
 
@@ -69,16 +69,16 @@ Nadat de Core Components en de WKND-site zijn geïnstalleerd, kunt u de functie 
 
 1. Als de configuratie correct is, zal een drop-down met de opties **Lokale** en **Verre** verschijnen. Selecteer **Verre**.
 
-   ![ Verre en lokale oogst opties voor beeldselectie ](/help/assets/remote-asset-selection.png)
+   ![&#x200B; Verre en lokale oogst opties voor beeldselectie &#x200B;](/help/assets/remote-asset-selection.png)
 
 1. Er wordt een dialoogvenster geopend waarin u zich bij de externe service moet verifiëren.
 
 1. Zodra voor authentiek verklaard, zal middelenbrowser van de verre dienst openen. Selecteer de gewenste activa en tik of klik **Uitgezocht**.
 
-   ![ Selecterend een ver middel ](/help/assets/remote-asset-picker.png)
+   ![&#x200B; Selecterend een ver middel &#x200B;](/help/assets/remote-asset-picker.png)
 
 Het externe element wordt toegevoegd aan uw lokale AEM en u hebt gecontroleerd dat de functie correct is geconfigureerd.
 
 ## Externe Assets gebruiken {#using}
 
-Zodra gevormd, kunnen de verre activa worden geselecteerd waar u activa gebruikend de Componenten van de Kern zoals in de [ Component van het Beeld ](/help/components/image.md) en de [ Component van de Taser ](/help/components/teaser.md) zou selecteren.
+Zodra gevormd, kunnen de verre activa worden geselecteerd waar u activa gebruikend de Componenten van de Kern zoals in de [&#x200B; Component van het Beeld &#x200B;](/help/components/image.md) en de [&#x200B; Component van de Taser &#x200B;](/help/components/teaser.md) zou selecteren.

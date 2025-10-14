@@ -20,15 +20,15 @@ De componenten van de Kern komen met een aantal cliëntbibliotheken en bieden de
 De componenten van de Kern verstrekken de volgende cliëntbibliotheken uit-van-de-doos.
 
 * De **plaats** clientlibs verstrekken het minimalistische functionele gedrag van de componenten die op de plaats moeten worden toegepast.
-   * Zij dienen als uitgangspunt om projecten te versnellen, met implementaties die worden aangemoedigd om uit te breiden en [ hen ](/help/developing/customizing.md) aan te passen om de gewenste verschijning en de functionaliteit te bereiken.
+   * Zij dienen als uitgangspunt om projecten te versnellen, met implementaties die worden aangemoedigd om uit te breiden en [&#x200B; hen &#x200B;](/help/developing/customizing.md) aan te passen om de gewenste verschijning en de functionaliteit te bereiken.
 * De **redacteur** clientlibs worden toegepast op de auteursdialoog om zijn verwachte functionaliteit en verschijning te verzekeren.
 * De **editorhaak** clientlibs worden toegepast op de plaats wanneer geladen op geef wijze uit.
    * Ze bevatten JavaScript-code die wordt uitgevoerd op gebeurtenissen die door de editor worden geactiveerd, waardoor de initialisatie van dynamische functionaliteit wordt vergemakkelijkt.
-* Sommige componenten kunnen specifieke extra clientlibs hebben die voor gebruik in bepaalde situaties worden ontworpen, zoals wanneer tewerkgesteld naast [ Dynamic Media ](/help/components/image.md#dynamic-media) bijvoorbeeld.
+* Sommige componenten kunnen specifieke extra clientlibs hebben die voor gebruik in bepaalde situaties worden ontworpen, zoals wanneer tewerkgesteld naast [&#x200B; Dynamic Media &#x200B;](/help/components/image.md#dynamic-media) bijvoorbeeld.
 
 ## Inclusief clientbibliotheken {#including}
 
-Er zijn een aantal verschillende manieren om [ cliëntbibliotheken ](/help/developing/archetype/front-end.md#clientlibs) afhankelijk van uw gebruiksgeval te omvatten. Het volgende is voorbeelden met steekproef [ HTML fragmenten ](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=nl-NL) voor elk.
+Er zijn een aantal verschillende manieren om [&#x200B; cliëntbibliotheken &#x200B;](/help/developing/archetype/front-end.md#clientlibs) afhankelijk van uw gebruiksgeval te omvatten. Het volgende is voorbeelden met steekproef [&#x200B; HTML fragmenten &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=nl-NL) voor elk.
 
 ### Aanbevolen standaardgebruik {#recommended-default-usage}
 
@@ -108,7 +108,7 @@ CSS `link` -kenmerken die kunnen worden doorgegeven aan `jsAndCssIncludes` en `c
 
 ### Invoering {#inlining}
 
-In sommige gevallen, of voor optimalisering, of voor e-mail of [ AMP, ](amp.md) zou het kunnen worden vereist om CSS of JS in de output van HTML te inline.
+In sommige gevallen, of voor optimalisering, of voor e-mail of [&#x200B; AMP, &#x200B;](amp.md) zou het kunnen worden vereist om CSS of JS in de output van HTML te inline.
 
 Als u de CSS wilt inline, kunt u `cssInline` gebruiken. In dat geval moet u het omringende `style` -element schrijven:
 
@@ -130,9 +130,9 @@ Op dezelfde manier kunt u `jsInline` gebruiken om de JS in te line te plaatsen. 
 
 ### CSS en JavaScript met behoud van context laden {#context-aware-loading}
 
-De [ Component van de Pagina ](/help/components/page.md) steunt ook ladend ontwikkelaar-bepaalde context-bewuste CSS, JavaScript, of meta markeringen.
+De [&#x200B; Component van de Pagina &#x200B;](/help/components/page.md) steunt ook ladend ontwikkelaar-bepaalde context-bewuste CSS, JavaScript, of meta markeringen.
 
-Dit wordt gedaan door a [ context-bewuste middel ](context-aware-configs.md) voor `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` het gebruiken van de volgende structuur te creëren:
+Dit wordt gedaan door a [&#x200B; context-bewuste middel &#x200B;](context-aware-configs.md) voor `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` het gebruiken van de volgende structuur te creëren:
 
 ```text
 com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
@@ -149,4 +149,4 @@ com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
     ...
 ```
 
-[ zie de technische documentatie voor de Component van de Pagina voor meer informatie.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page#loading-of-context-aware-cssjs)
+[&#x200B; zie de technische documentatie voor de Component van de Pagina voor meer informatie.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page#loading-of-context-aware-cssjs)

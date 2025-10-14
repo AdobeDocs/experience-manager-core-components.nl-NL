@@ -29,13 +29,13 @@ E-mails maken deel uit van de merkervaring en de reis van de klant. Met de Email
 
 ## Functies {#features}
 
-* De E-mail van de Kern Componenten zijn gebaseerd op de [ Componenten van de Kern, ](/help/introduction.md) en steunt daarom ook [ Bewerkbare Malplaatjes ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL) en het [ Systeem van de Stijl.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=nl-NL)
-* Er zijn [ tien e-mail-geoptimaliseerde productie-klaar componenten ](#components) aan auteur e-mailinhoud.
-* De componenten van de Kern E-mail verstrekken geavanceerde verpersoonlijking dankzij de toevoeging van [ variabelen van Adobe Campaign ](campaign-variables.md) op de meeste dialooggebieden.
-* De flexibele [ component van de Segmentatie ](/help/email/components/segmentation.md) staat voor geavanceerde segmentatie van uw inhoud toe.
-* De de e-mailcomponenten van de Kern verstrekken optimale e-mail-vriendelijke output van HTML dankzij de [ CSS stijlen inliner, ](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner:-Technical-documentation) [ de attributen inliner van HTML, ](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner) en [ HTML sanitizer.](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing)
+* De E-mail van de Kern Componenten zijn gebaseerd op de [&#x200B; Componenten van de Kern, &#x200B;](/help/introduction.md) en steunt daarom ook [&#x200B; Bewerkbare Malplaatjes &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL) en het [&#x200B; Systeem van de Stijl.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=nl-NL)
+* Er zijn [&#x200B; tien e-mail-geoptimaliseerde productie-klaar componenten &#x200B;](#components) aan auteur e-mailinhoud.
+* De componenten van de Kern E-mail verstrekken geavanceerde verpersoonlijking dankzij de toevoeging van [&#x200B; variabelen van Adobe Campaign &#x200B;](campaign-variables.md) op de meeste dialooggebieden.
+* De flexibele [&#x200B; component van de Segmentatie &#x200B;](/help/email/components/segmentation.md) staat voor geavanceerde segmentatie van uw inhoud toe.
+* De de e-mailcomponenten van de Kern verstrekken optimale e-mail-vriendelijke output van HTML dankzij de [&#x200B; CSS stijlen inliner, &#x200B;](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner:-Technical-documentation) [&#x200B; de attributen inliner van HTML, &#x200B;](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner) en [&#x200B; HTML sanitizer.](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing)
 * U kunt e-mailinhoud maken op een willekeurige locatie onder `/content` .
-* De componenten van de Kern E-mail zijn [ open bron.](https://github.com/adobe/aem-core-email-components)
+* De componenten van de Kern E-mail zijn [&#x200B; open bron.](https://github.com/adobe/aem-core-email-components)
 
 ## Vereisten {#requirements}
 
@@ -43,7 +43,7 @@ De onderdelen van de e-mailkern voldoen aan de volgende vereisten.
 
 | AEM | Adobe Campaign | Kernonderdelen |
 |---|---|---|
-| AEM 6.5.14.0+ <br> op-gebouw of AMS | Adobe Campaign Classic <br> Adobe Campaign Standard | [ Versie 2.21.2 ](/help/versions.md)+ |
+| AEM 6.5.14.0+ <br> op-gebouw of AMS | Adobe Campaign Classic <br> Adobe Campaign Standard | [&#x200B; Versie 2.21.2 &#x200B;](/help/versions.md)+ |
 
 >[!NOTE]
 >
@@ -66,4 +66,4 @@ De huidige versie van de e-mailkerncomponenten bevat de volgende onderdelen.
 
 ## Installatie en gebruik {#installation-usage}
 
-Zie [ Gebruikend het E-mailCore Componenten ](using.md) document voor details bij het installeren van de Componenten van de Kern E-mail.
+Zie [&#x200B; Gebruikend het E-mailCore Componenten &#x200B;](using.md) document voor details bij het installeren van de Componenten van de Kern E-mail.

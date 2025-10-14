@@ -20,8 +20,8 @@ Met de E-mailervaringsfragmentcomponent kan de auteur van de inhoud een Experien
 
 Met de E-mailervaringsfragmentcomponent kan de auteur van de inhoud bestaande Experience-fragmentvariaties selecteren en deze in de inhoud plaatsen. Een ervaringsfragment is een groep inhoud die zowel inhoud als lay-out bevat en die via kanalen opnieuw kan worden gebruikt.
 
-* De eigenschappen van de component kunnen in [ worden bepaald vormen dialoog ](#configure-dialog).
-* De gebreken voor de component wanneer het toevoegen van het aan inhoud kunnen in de [ ontwerpdialoog ](#design-dialog) worden bepaald.
+* De eigenschappen van de component kunnen in [&#x200B; worden bepaald vormen dialoog &#x200B;](#configure-dialog).
+* De gebreken voor de component wanneer het toevoegen van het aan inhoud kunnen in de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog) worden bepaald.
 
 De component E-mailervaringsfragment ondersteunt een gelokaliseerde sitestructuur.
 
@@ -35,22 +35,22 @@ In de volgende tabel worden alle ondersteunde versies van de component, de AEM-v
 |---|---|---|---|
 | v1 | Compatibel | - | - |
 
-Voor meer informatie over de versies en de versies van de Component van de Kern E-mailE-mail van de Component, zie het document [ Versies van de Componenten van de Kern.](/help/email/versions.md)
+Voor meer informatie over de versies en de versies van de Component van de Kern E-mailE-mail van de Component, zie het document [&#x200B; Versies van de Componenten van de Kern.](/help/email/versions.md)
 
 ## Ondersteuning voor gelokaliseerde sitestructuur {#localized-site-structure}
 
 De E-mailervaringsfragmentcomponent is aangepast aan gelokaliseerde inhoudsstructuren en geeft het juiste ervaringsfragment weer op basis van de lokalisatie van de inhoud. Hiervoor moet het ervaringsfragment aan de volgende voorwaarden voldoen.
 
-* De component van het Fragment van de Ervaring E-mail wordt toegevoegd aan a [ paginamalplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/templates.html?lang=nl-NL)
+* De component van het Fragment van de Ervaring E-mail wordt toegevoegd aan a [&#x200B; paginamalplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/templates.html?lang=nl-NL)
 * Die sjabloon wordt gebruikt om een nieuwe inhoudspagina te maken die deel uitmaakt van een gelokaliseerde structuur onder `/content/<site>` .
 * Het ervaringsfragment waarnaar op een inhoudspagina wordt verwezen, maakt deel uit van een gelokaliseerde Experience-fragmentstructuur onder `/content/experience-fragments` die dezelfde patronen volgt als de onderstaande site `/content/<site>` , inclusief het gebruik van dezelfde componentnamen.
 
-In dit geval, zal het fragment met de zelfde localisatie ([ taal, blauwdruk, of levende exemplaar ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/msm-and-translation.html?lang=nl-NL)) zoals de huidige pagina als deel van het malplaatje worden teruggegeven.
+In dit geval, zal het fragment met de zelfde localisatie ([&#x200B; taal, blauwdruk, of levende exemplaar &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/msm-and-translation.html?lang=nl-NL)) zoals de huidige pagina als deel van het malplaatje worden teruggegeven.
 
 Dit gedrag is beperkt tot E-mailervaringsfragmentcomponenten die aan sjablonen zijn toegevoegd. De Componenten van het Fragment van de ervaring die aan individuele inhoudspagina&#39;s worden toegevoegd zullen de nauwkeurige die Uitvoeringen van het Fragment van de Ervaring teruggeven binnen de component worden gevormd.
 
-* Voor een voorbeeld van hoe de localisatieeigenschappen van de Component van het Fragment van de Ervaring werken, zie [ de sectie hieronder ](#example).
-* Voor een voorbeeld van hoe de localisatieeigenschappen van de Componenten van de Kern samenwerken, zie de [ Eigenschappen van de Localisatie van de pagina van de Componenten van de Kern ](/help/get-started/localization.md).
+* Voor een voorbeeld van hoe de localisatieeigenschappen van de Component van het Fragment van de Ervaring werken, zie [&#x200B; de sectie hieronder &#x200B;](#example).
+* Voor een voorbeeld van hoe de localisatieeigenschappen van de Componenten van de Kern samenwerken, zie de [&#x200B; Eigenschappen van de Localisatie van de pagina van de Componenten van de Kern &#x200B;](/help/get-started/localization.md).
 
 ### Voorbeeld {#example}
 
@@ -108,19 +108,19 @@ De E-mailervaringsfragmentcomponent probeert een overeenkomende gelokaliseerde c
 
 ## Technische details {#technical-details}
 
-Lees de recentste [ technische documentatie over de Component van het Fragment van de Ervaring ](https://www.adobe.com/go/aem_cmp_xf_v1).
+Lees de recentste [&#x200B; technische documentatie over de Component van het Fragment van de Ervaring &#x200B;](https://www.adobe.com/go/aem_cmp_xf_v1).
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden.](/help/developing/overview.md)
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden.](/help/developing/overview.md)
 
 ## Dialoogvenster configureren {#configure-dialog}
 
 In het dialoogvenster Configureren kan de auteur van de inhoud de variant van het ervaringsfragment selecteren die in de inhoud moet worden gerenderd.
 
-![ E-mailE-mail de bewerkingsdialoog van de Component van het Fragment van de Ervaring ](/help/email/assets/email-experience-fragment-edit.png)
+![&#x200B; E-mailE-mail de bewerkingsdialoog van de Component van het Fragment van de Ervaring &#x200B;](/help/email/assets/email-experience-fragment-edit.png)
 
 Gebruik de **Open Dialoog van de Selectie** knoop om de componentenselecteur te openen om te kiezen welke de componentenvariatie van het Fragment van de Ervaring aan de inhoudspagina toe te voegen.
 
-Als u de Component van het Fragment van de Ervaring E-mail aan een malplaatje toevoegt, zal het automatisch gelokaliseerd zijn op voorwaarde dat de Fragmenten van de Ervaring worden gelokaliseerd, zodat wat op de pagina wordt teruggegeven van de component kan variëren u uitdrukkelijk selecteert. [ zie het voorbeeld hierboven ](#example) voor meer informatie.
+Als u de Component van het Fragment van de Ervaring E-mail aan een malplaatje toevoegt, zal het automatisch gelokaliseerd zijn op voorwaarde dat de Fragmenten van de Ervaring worden gelokaliseerd, zodat wat op de pagina wordt teruggegeven van de component kan variëren u uitdrukkelijk selecteert. [&#x200B; zie het voorbeeld hierboven &#x200B;](#example) voor meer informatie.
 
 U kunt ook een **identiteitskaart** bepalen. Met deze optie kunt u de unieke id van de component in het HTML-bestand bepalen.
 
@@ -134,7 +134,7 @@ De component van het Fragment van de Ervaring E-mail steunt het Systeem van de S
 
 Gebruik de vervolgkeuzelijst om de stijlen te selecteren die u op de component wilt toepassen. Selecties in het dialoogvenster Bewerken hebben hetzelfde effect als de selecties op de werkbalk van de component.
 
-De stijlen moeten voor deze component in de [ ontwerpdialoog ](#design-dialog) worden gevormd opdat het lusje beschikbaar is.
+De stijlen moeten voor deze component in de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog) worden gevormd opdat het lusje beschikbaar is.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 

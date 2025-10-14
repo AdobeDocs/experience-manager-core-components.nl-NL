@@ -18,9 +18,9 @@ Met de component Core Component Form Options kunt u vooraf gedefinieerde opties 
 
 ## Gebruik {#usage}
 
-De component van de Opties van de Vorm van de Component van de Kern staat voor de voorlegging van verschillende types van opties toe die op vele verschillende manieren worden voorgesteld en is bedoeld om samen met de [ component van de vormcontainer ](form-container-v1.md) worden gebruikt.
+De component van de Opties van de Vorm van de Component van de Kern staat voor de voorlegging van verschillende types van opties toe die op vele verschillende manieren worden voorgesteld en is bedoeld om samen met de [&#x200B; component van de vormcontainer &#x200B;](form-container-v1.md) worden gebruikt.
 
-De presentatie van de opties, de etiketten, en de individuele opties kunnen door de inhoudsredacteur in [ worden bepaald vormt dialoog ](#configure-dialog).
+De presentatie van de opties, de etiketten, en de individuele opties kunnen door de inhoudsredacteur in [&#x200B; worden bepaald vormt dialoog &#x200B;](#configure-dialog).
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -41,7 +41,7 @@ In de volgende tabel wordt de compatibiliteit van versie 1 van de component Form
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende wordt steekproef genomen van [&#x200B; We.Retail &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Schermafbeelding {#screenshot}
 
@@ -111,7 +111,7 @@ Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/
 
 >[!NOTE]
 >
->Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Gelieve te zien de [ verenigbaarheidsinformatie voor de Componenten van de Kern v1 ](/help/versions.md) voor meer informatie.
+>Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Gelieve te zien de [&#x200B; verenigbaarheidsinformatie voor de Componenten van de Kern v1 &#x200B;](/help/versions.md) voor meer informatie.
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -150,8 +150,8 @@ Er is geen dialoogvenster voor het ontwerp van de component Formulieropties.
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Opties van de Vorm [ kan op GitHub ](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options) worden gevonden.
+De recentste technische documentatie over de Component van de Opties van de Vorm [&#x200B; kan op GitHub &#x200B;](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options) worden gevonden.
 
 Het volledige kerncomponentenproject kan van GitHub worden gedownload.
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden &#x200B;](/help/developing/overview.md).

@@ -30,7 +30,7 @@ Het attribuut `data-cmp-data-layer-enabled` kan client-kant worden gevraagd om t
 
 >[!TIP]
 >
->Voor verdere technische details over de integratie van de Laag van Gegevens van de Cliënt van de Adobe met de Componenten van de Kern en hoe te om de Laag van Gegevens op uw douanecomponenten toe te laten, zie het [`DATA_LAYER_INTEGRATION.md` ](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) dossier in de bewaarplaats van de Componenten van de Kern.
+>Voor verdere technische details over de integratie van de Laag van Gegevens van de Cliënt van de Adobe met de Componenten van de Kern en hoe te om de Laag van Gegevens op uw douanecomponenten toe te laten, zie het [`DATA_LAYER_INTEGRATION.md` &#x200B;](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) dossier in de bewaarplaats van de Componenten van de Kern.
 
 ## Integratie met Adobe Analytics en Adobe Target {#analytics-target}
 
@@ -40,10 +40,10 @@ In combinatie met Adobe Analytics en Adobe Target wordt de Client Data Layer van
 
 Leer om de ingebouwde eigenschappen van de Laag van Gegevens van de Cliënt van de Adobe met AEM Componenten van de Kern te gebruiken om gegevens over een pagina in Adobe Experience Manager Sites te verzamelen. Experience Platform Launch en de extensie Adobe Analytics worden gebruikt om regels te maken voor het verzenden van paginagegevens naar Adobe Analytics.
 
-[ Mening hier het leerprogramma.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html?lang=nl-NL)
+[&#x200B; Mening hier het leerprogramma.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html?lang=nl-NL)
 
 ### Aangeklikte componenten bijhouden met Adobe Analytics {#track-clicked-components}
 
 Gebruik de gebeurtenis-gedreven Laag van de Gegevens van de Adobe van de Cliënt met AEM Componenten van de Kern om kliks van specifieke componenten op een plaats van Adobe Experience Manager te volgen. Leer hoe te om regels in Experience Platform Launch te gebruiken om op klikgebeurtenissen te luisteren, filter door component en verzend de gegevens naar een Adobe Analytics met een baken van de spoorverbinding.
 
-[ Mening hier het leerprogramma.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html?lang=nl-NL)
+[&#x200B; Mening hier het leerprogramma.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html?lang=nl-NL)

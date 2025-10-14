@@ -20,8 +20,8 @@ Met de component Core Components Embed kunt u externe inhoud insluiten in een AE
 
 Met de component Core Component Embed kan de auteur van de inhoud geselecteerde externe inhoud definiëren die moet worden ingesloten op een AEM-inhoudspagina. Daarnaast is er een optie voor het definiëren van HTML met vrije vorm die ook moet worden ingesloten.
 
-* De eigenschappen van de component kunnen in [ worden bepaald vormen dialoog ](#configure-dialog).
-* De gebreken voor de component wanneer het toevoegen van het aan een pagina kunnen in de [ ontwerpdialoog ](#design-dialog) worden bepaald.
+* De eigenschappen van de component kunnen in [&#x200B; worden bepaald vormen dialoog &#x200B;](#configure-dialog).
+* De gebreken voor de component wanneer het toevoegen van het aan een pagina kunnen in de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog) worden bepaald.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -31,17 +31,17 @@ In dit document wordt versie 1 van de Embed-component beschreven. Deze is in sep
 >
 >In dit document wordt versie 1 van de component Embed beschreven.
 >
->Voor details van de huidige versie van de Embed Component, zie [ Component ](/help/components/embed.md) document inbedden.
+>Voor details van de huidige versie van de Embed Component, zie [&#x200B; Component &#x200B;](/help/components/embed.md) document inbedden.
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Om de Embed Component te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library_embed).
+Om de Embed Component te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [&#x200B; Bibliotheek van de Component &#x200B;](https://adobe.com/go/aem_cmp_library_embed).
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over Embed Component [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_embed_v1) worden gevonden.
+De recentste technische documentatie over Embed Component [&#x200B; kan op GitHub &#x200B;](https://adobe.com/go/aem_cmp_tech_embed_v1) worden gevonden.
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden &#x200B;](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -51,7 +51,7 @@ In het dialoogvenster voor configureren kan de auteur van de inhoud de externe b
 * [Insluitbaar](#embeddable)
 * [HTML](#html)
 
-Voor elk type van inbedbaar, kunt u identiteitskaart van de a.u. **&#x200B;**&#x200B;bepalen. Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens ](/help/developing/data-layer/overview.md) te controleren.
+Voor elk type van inbedbaar, kunt u identiteitskaart van de a.u. **&#x200B;**&#x200B;bepalen. Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [&#x200B; Laag van Gegevens &#x200B;](/help/developing/data-layer/overview.md) te controleren.
 
 * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
 * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
@@ -63,12 +63,12 @@ De eenvoudigste insluiting is de URL. Plak eenvoudig URL van het middel u wenst 
 
 De component Embed wordt geleverd bij processors voor de volgende typen bronnen:
 
-* Middelen die aan de [ norm inbedden ](https://oembed.com/) met inbegrip van Post Facebook, Instagram, SoundCloud, Twitter, en YouTube voldoen
+* Middelen die aan de [&#x200B; norm inbedden &#x200B;](https://oembed.com/) met inbegrip van Post Facebook, Instagram, SoundCloud, Twitter, en YouTube voldoen
 * Pinterest
 
-De ontwikkelaars kunnen extra bewerkers URL door [ na de ontwikkelaarsdocumentatie van de Embed Component toevoegen.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
+De ontwikkelaars kunnen extra bewerkers URL door [&#x200B; na de ontwikkelaarsdocumentatie van de Embed Component toevoegen.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
-![ bedt Component geeft dialoog voor URL uit ](/help/assets/embed-url.png)
+![&#x200B; bedt Component geeft dialoog voor URL uit &#x200B;](/help/assets/embed-url.png)
 
 ### Insluitbaar {#embeddable}
 
@@ -85,20 +85,20 @@ Het **Inbeddable** gebied bepaalt het type van bewerker u wilt gebruiken. In het
 * **laat Inline Playback (iOS) toe** - Deze parameter controleert of video&#39;s inline (op) of volledig scherm (weg) in een speler HTML5 op iOS spelen.
 * **Onbeperkte Verwante Verwante Video&#39;s** - als deze optie gehandicapt is, zullen de verwante video&#39;s uit het zelfde kanaal komen zoals de video die enkel werd gespeeld, anders zullen zij uit om het even welk kanaal komen.
 
-Merk op dat &quot;toelaten&quot;opties door de [ Dialoog van het Ontwerp ](#design-dialog) moeten worden geactiveerd en als standaardwaarden kunnen worden geplaatst.
+Merk op dat &quot;toelaten&quot;opties door de [&#x200B; Dialoog van het Ontwerp &#x200B;](#design-dialog) moeten worden geactiveerd en als standaardwaarden kunnen worden geplaatst.
 
-Andere inbeddables zouden gelijkaardige gebieden aanbieden en kunnen door een ontwikkelaar door [ na de ontwikkelaarsdocumentatie van de Embed Component worden bepaald.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
+Andere inbeddables zouden gelijkaardige gebieden aanbieden en kunnen door een ontwikkelaar door [&#x200B; na de ontwikkelaarsdocumentatie van de Embed Component worden bepaald.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
-![ bedt de Edit dialoog van de Component voor ingebedde Lijsten ](/help/assets/embed-embeddable.png)
+![&#x200B; bedt de Edit dialoog van de Component voor ingebedde Lijsten &#x200B;](/help/assets/embed-embeddable.png)
 
 >[!NOTE]
->Embeddables moet op het malplaatjeniveau via de [ Dialoog van het Ontwerp ](#design-dialog) worden toegelaten om aan de paginaauteur beschikbaar te zijn.
+>Embeddables moet op het malplaatjeniveau via de [&#x200B; Dialoog van het Ontwerp &#x200B;](#design-dialog) worden toegelaten om aan de paginaauteur beschikbaar te zijn.
 
 ### HTML {#html}
 
 Met de component Embed kunt u HTML met vrije vorm toevoegen aan uw pagina.
 
-![ bed Component&#39;s uitgeeft dialoog voor HTML ](/help/assets/embed-html.png) in
+![&#x200B; bed Component&#39;s uitgeeft dialoog voor HTML &#x200B;](/help/assets/embed-html.png) in
 
 >[!NOTE]
 >Eventuele onveilige tags, zoals scripts, worden gefilterd vanaf de ingevoerde HTML en niet weergegeven op de resulterende pagina.
@@ -111,7 +111,7 @@ De HTML-opmaakcode die de auteur kan invoeren, wordt voor beveiligingsdoeleinden
 
 De regels zijn echter gecompliceerder omdat de Embed-component volgt op de filterregelset van het globale HTML AntiSamy-sanitatieframework van AEM, die u kunt vinden op `/libs/cq/xssprotection/config.xml` . Dit kan voor project-specifieke configuratie door een ontwikkelaar indien vereist worden bedekt.
 
-De extra veiligheidsinformatie kan in de [ de ontwikkelaarsdocumentatie van AEM voor op-gebouw installaties ](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=nl-NL) evenals [ installaties van AEM as a Cloud Service worden gevonden.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html?lang=nl-NL)
+De extra veiligheidsinformatie kan in de [&#x200B; de ontwikkelaarsdocumentatie van AEM voor op-gebouw installaties &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=nl-NL) evenals [&#x200B; installaties van AEM as a Cloud Service worden gevonden.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html?lang=nl-NL)
 
 >[!NOTE]
 >Hoewel de regels van het AntiSamy sanitation framework kunnen worden geconfigureerd door `/libs/cq/xssprotection/config.xml` te bedekken, zijn deze wijzigingen van invloed op al het HTML- en JSP-gedrag en niet alleen op de Embed Core Component.
@@ -122,7 +122,7 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de opties definiëren die bes
 
 ### Tabblad Insluitbare typen {#embeddable-types-tab}
 
-![ bed de het ontwerpdialoog van de Component ](/help/assets/embed-design.png) in
+![&#x200B; bed de het ontwerpdialoog van de Component &#x200B;](/help/assets/embed-design.png) in
 
 * **maak URL** onbruikbaar - maakt de **URL** optie voor de inhoudauteur onbruikbaar wanneer geselecteerd
 * **maak Inbeddables** onbruikbaar - maakt de **Inbeddable** optie voor de inhoudauteur wanneer geselecteerd onbruikbaar, ongeacht welke ingebedde bewerkers worden toegestaan.
@@ -131,7 +131,7 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de opties definiëren die bes
 
 ### YouTube Tab {#youtube-tab}
 
-![ YouTube lusje van de Embed het ontwerpdialoog van de Component ](/help/assets/embed-design-youtube.png)
+![&#x200B; YouTube lusje van de Embed het ontwerpdialoog van de Component &#x200B;](/help/assets/embed-design-youtube.png)
 
 * **staat configuratie van stomme gedrag** toe - staat inhoudauteur toe om **te vormen toelaten Dempen** optie in de component wanneer YouTube inbedt type wordt geselecteerd
    * **Standaardwaarde van dempen** - plaatst automatisch **Dempen** optie toelaten wanneer YouTube inbedt type wordt geselecteerd

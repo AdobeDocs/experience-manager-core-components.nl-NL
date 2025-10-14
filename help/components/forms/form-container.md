@@ -18,11 +18,11 @@ Met de Core Component Form Container Component kunnen eenvoudige verzendformulie
 
 Met de component Form Container kunt u formulieren en functies voor eenvoudige informatieverzending maken door eenvoudige WCM-formulieren te ondersteunen en door een geneste structuur te gebruiken om extra formuliercomponenten toe te staan.
 
-Door [ te gebruiken vormt dialoog ](#configure-dialog) de inhoudsleider kan de actie bepalen die door vormvoorlegging wordt teweeggebracht, URl die de voorlegging zou moeten behandelen, en of een werkschema zou moeten worden teweeggebracht. De malplaatjeauteur kan de [ ontwerpdialoog ](#design-dialog) gebruiken om de toegestane componenten en hun afbeeldingen te bepalen gelijkend op de ontwerpdialoog voor de [ standaardlay-outcontainer in de malplaatjedacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL).
+Door [&#x200B; te gebruiken vormt dialoog &#x200B;](#configure-dialog) de inhoudsleider kan de actie bepalen die door vormvoorlegging wordt teweeggebracht, URl die de voorlegging zou moeten behandelen, en of een werkschema zou moeten worden teweeggebracht. De malplaatjeauteur kan de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog) gebruiken om de toegestane componenten en hun afbeeldingen te bepalen gelijkend op de ontwerpdialoog voor de [&#x200B; standaardlay-outcontainer in de malplaatjedacteur &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL).
 
 >[!NOTE]
 >
->De kerncomponenten Form Container Component ondersteunen alleen het gebruik van basiscomponenten van componenten (knop, tekst, verborgen enz.). Het gebruiken van [ stichtingscomponenten ](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html?lang=nl-NL) vormcomponenten binnen de kerncomponenten van container (en vice versa) wordt niet gesteund.
+>De kerncomponenten Form Container Component ondersteunen alleen het gebruik van basiscomponenten van componenten (knop, tekst, verborgen enz.). Het gebruiken van [&#x200B; stichtingscomponenten &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html?lang=nl-NL) vormcomponenten binnen de kerncomponenten van container (en vice versa) wordt niet gesteund.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -32,20 +32,20 @@ In de volgende tabel worden alle ondersteunde versies van de component, de AEM-v
 
 | Componentversie | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
-| v2 | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel | Compatibel | Compatibel |
-| [ v1 ](/help/components/v1/form-container-v1.md) | Compatibel | Compatibel | - | Compatibel |
+| v2 | Compatibel systeem met <br>[&#x200B; versie 2.17.4 &#x200B;](/help/versions.md) en vroeger | Compatibel | Compatibel | Compatibel |
+| [&#x200B; v1 &#x200B;](/help/components/v1/form-container-v1.md) | Compatibel | Compatibel | - | Compatibel |
 
-Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
+Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [&#x200B; Kern &#x200B;](/help/versions.md).
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Om de Component van de Container van de Vorm te ervaren evenals voorbeelden van zijn configuratieopties evenals uitvoer te zien HTML en JSON, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library_form_container).
+Om de Component van de Container van de Vorm te ervaren evenals voorbeelden van zijn configuratieopties evenals uitvoer te zien HTML en JSON, bezoek de [&#x200B; Bibliotheek van de Component &#x200B;](https://adobe.com/go/aem_cmp_library_form_container).
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Container van de Vorm [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_form_container_v2) worden gevonden.
+De recentste technische documentatie over de Component van de Container van de Vorm [&#x200B; kan op GitHub &#x200B;](https://adobe.com/go/aem_cmp_tech_form_container_v2) worden gevonden.
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden &#x200B;](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -57,25 +57,25 @@ Afhankelijk van het geselecteerde **Type van Actie**, zullen de beschikbare opti
 * [Mail](#mail)
 * [Winkelinhoud](#store-content)
 
-Ongeacht het type, zijn er [ algemene montages ](#general-settings) die op elke actie van toepassing zijn.
+Ongeacht het type, zijn er [&#x200B; algemene montages &#x200B;](#general-settings) die op elke actie van toepassing zijn.
 
 ### Formuliergegevens verzenden {#post-data}
 
 Wanneer het formulier wordt verzonden, worden de ingediende gegevens door het actietype voor postformuliergegevens doorgegeven aan een derde als JSON voor verwerking.
 
-![ de opties van de Gegevens van de Vorm in de Edit dialoog van de Component van de Container van de Vorm ](/help/assets/form-container-edit-post.png)
+![&#x200B; de opties van de Gegevens van de Vorm in de Edit dialoog van de Component van de Container van de Vorm &#x200B;](/help/assets/form-container-edit-post.png)
 
 * **Eindpunt** - de volledig-gekwalificeerde dienst HTTPS die de gegevens zal verwerken
 * **Bericht van de Fout** - Bericht om te tonen als de voorlegging niet succesvol is
 
 >[!TIP]
->Er zijn extra time-outopties die een systeembeheerder kan aanpassen om de verwerking van doorgestuurde formuliergegevens af te handelen. [ zie de technische documentatie op GitHub voor meer informatie.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
+>Er zijn extra time-outopties die een systeembeheerder kan aanpassen om de verwerking van doorgestuurde formuliergegevens af te handelen. [&#x200B; zie de technische documentatie op GitHub voor meer informatie.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
 ### Mail {#mail}
 
 Wanneer het formulier wordt verzonden, verzendt het type e-mailactie een e-mail naar aangewezen ontvangers.
 
-![ de opties van de Post in de Edit dialoog van de Component van de Container van de Vorm ](/help/assets/form-container-edit-mail.png)
+![&#x200B; de opties van de Post in de Edit dialoog van de Component van de Container van de Vorm &#x200B;](/help/assets/form-container-edit-mail.png)
 
 * **Onderwerp** - Het onderwerp van e-mail dat als vormvoorlegging zal worden verzonden
 * **van** - de van e-mailadres van e-mail die op vormvoorlegging zal worden verzonden
@@ -90,7 +90,7 @@ Wanneer het formulier wordt verzonden, verzendt het type e-mailactie een e-mail 
 
 Wanneer het formulier wordt verzonden, wordt de inhoud van het formulier opgeslagen in een aangewezen opslagplaats.
 
-![ de inhoudopties van de opslag in de Edit dialoog van de Container van de Vorm ](/help/assets/form-container-edit-store.png)
+![&#x200B; de inhoudopties van de opslag in de Edit dialoog van de Container van de Vorm &#x200B;](/help/assets/form-container-edit-store.png)
 
 * **Weg van de Inhoud** - de weg van de bewaarplaats van de Inhoud waar de voorgelegde inhoud wordt opgeslagen
 * **Gegevens van de Mening** - Tik of klik om opgeslagen voorgelegde gegevens als JSON te bekijken
@@ -100,26 +100,26 @@ Wanneer het formulier wordt verzonden, wordt de inhoud van het formulier opgesla
 >
 >Om het beheer van gebruikersgegevens eenvoudiger te maken en scheiding van zorgen af te dwingen, wordt het over het algemeen niet aanbevolen door gebruikers gegenereerde inhoud in de opslagplaats op te slaan.
 >
->In plaats daarvan gebruik het [ de actietype van de Gegevens van de Vorm van het Post ](#post-data) om gebruikersinhoud tot een specifieke dienstverlener over te gaan.
+>In plaats daarvan gebruik het [&#x200B; de actietype van de Gegevens van de Vorm van het Post &#x200B;](#post-data) om gebruikersinhoud tot een specifieke dienstverlener over te gaan.
 
 ### Algemene instellingen {#general-settings}
 
 Ongeacht het geselecteerde handelingstype, kan een pagina van dank u altijd worden bepaald.
 
-![ Algemene opties in de Edit dialoog van de Component van de Container van de Vorm ](/help/assets/form-container-edit-general.png)
+![&#x200B; Algemene opties in de Edit dialoog van de Component van de Container van de Vorm &#x200B;](/help/assets/form-container-edit-general.png)
 
 * **Dank u pagina** - de gebruiker zal aan de gespecificeerde pagina na voltooiing van de vormvoorlegging worden opnieuw gericht.
    * Gebruik het dialoogvenster Selectie om een bron in AEM te selecteren.
    * Geef de absolute URL op als de pagina Bedankt niet in AEM staat. Niet-absolute URL&#39;s worden geïnterpreteerd ten opzichte van AEM.
    * Laat leeg om het formulier na verzending opnieuw weer te geven.
-* **identiteitskaart** - Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens te controleren ](/help/developing/data-layer/overview.md).
+* **identiteitskaart** - Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [&#x200B; Laag van Gegevens te controleren &#x200B;](/help/developing/data-layer/overview.md).
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
-De ontwerpdialoog staat de malplaatjeauteur toe om de toegestane componenten en hun afbeeldingen voor de container te bepalen gelijkend op de ontwerpdialoog voor de [ standaardlay-outcontainer in de malplaatjedacteur ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL).
+De ontwerpdialoog staat de malplaatjeauteur toe om de toegestane componenten en hun afbeeldingen voor de container te bepalen gelijkend op de ontwerpdialoog voor de [&#x200B; standaardlay-outcontainer in de malplaatjedacteur &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL).
 
 ### Tabblad Stijlen {#styles-tab}
 

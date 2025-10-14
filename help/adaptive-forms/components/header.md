@@ -19,7 +19,7 @@ Een koptekstcomponent in een adaptief formulier is een sectie boven aan het form
 
 **Voorbeeld**
 
-![ voorbeeld ](/help/adaptive-forms/assets/header.png)
+![&#x200B; voorbeeld &#x200B;](/help/adaptive-forms/assets/header.png)
 
 ## Gebruik {#reasons-to-use-header}
 
@@ -39,7 +39,7 @@ De Adaptive Forms header Core Component is in februari 2023 uitgebracht als onde
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
-| v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
+| v1 | Compatibel systeem met <br>[&#x200B; versie 2.0.4 &#x200B;](/help/adaptive-forms/version.md) en later | Compatibel met <br>[&#x200B; versie 1.1.12 &#x200B;](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
 Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
 
@@ -50,7 +50,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Technische details {#technical-details}
 
-Krijg de recentste informatie over de Adaptieve Component van de Kern van de Kopbal van Forms in de technische documentatie op [ GitHub ](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageheader/v1/pageheader). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern ](/help/developing/overview.md).
+Krijg de recentste informatie over de Adaptieve Component van de Kern van de Kopbal van Forms in de technische documentatie op [&#x200B; GitHub &#x200B;](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageheader/v1/pageheader). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern &#x200B;](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -60,7 +60,7 @@ Met het dialoogvenster Configureren kunt u de headerervaring voor bezoekers eenv
 
 Dit gedeelte van de koptekst bevat de koptekst en de afbeelding.
 
-![ Imagetab ](/help/adaptive-forms/assets/header_image.png)
+![&#x200B; Imagetab &#x200B;](/help/adaptive-forms/assets/header_image.png)
 
 - **Activa van het Beeld** - deze optie staat toe om activa zoals beeld met muisbelemmering en daling te laten vallen. U kunt een dossier van een lokaal dossiersysteem ook uploaden gebruikend **doorbladert** knoop. Nadat u een afbeelding hebt toegevoegd, staan er drie knoppen onder aan de afbeelding. Nadat u een afbeelding hebt toegevoegd, staan er drie knoppen onder aan de afbeelding:
    - **geef** uit - Tik of klik **geef** uit om de vertoningen van de activa in de Redacteur van Assets te beheren.
@@ -72,7 +72,7 @@ Dit gedeelte van de koptekst bevat de koptekst en de afbeelding.
 - **Beschrijving** - een beschrijving is een korte tekstverklaring die extra informatie of verduidelijking over het doel van een specifiek beeld verstrekt.
 - **Grootte (px)** - het helpt in het aanpassen van de lengte en de breedte van het beeld door de pixel te verhogen of te verminderen.
 
-![ toegankelijkheidslusje ](/help/adaptive-forms/assets/header_accessibility.png)
+![&#x200B; toegankelijkheidslusje &#x200B;](/help/adaptive-forms/assets/header_accessibility.png)
 
 - **Alternatieve Tekst** - Deze optie wordt gebruikt om de tekst in te gaan die een kort en beschrijvend tekstalternatief voor het beeld verstrekt, dat het beeld aan visueel gehandicapte gebruikers beschrijft.
 
