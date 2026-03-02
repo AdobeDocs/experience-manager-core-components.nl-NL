@@ -44,7 +44,7 @@ ht-degree: 0%
    + [Voortgangsbalk](/help/components/progress-bar.md)
    + [Snel zoeken](/help/components/quick-search.md)
    + [Scheidingsteken](/help/components/separator.md)
-   + [ Sociale Media die ](/help/components/sharing.md) delen
+   + [&#x200B; Sociale Media die  delen](/help/components/sharing.md)
    + [Inhoudsopgave](/help/components/tableofcontents.md)
    + [Tekst](/help/components/text.md)
    + [Tabs](/help/components/tabs.md)
@@ -64,7 +64,7 @@ ht-degree: 0%
       + [Insluiten (v1)](/help/components/v1/embed.md)
       + [Experience Fragment (v1)](/help/components/v1/experience-fragment.md)
       + [Afbeelding (v1)](/help/components/v1/image-v1.md)
-      + [ Navigatie van de Taal (v1) ](/help/components/v1/language-navigation.md)
+      + [&#x200B; Navigatie van de Taal (v1) &#x200B;](/help/components/v1/language-navigation.md)
       + [Lijst (v1)](/help/components/v1/list-v1.md)
       + [Navigatie (v1)](/help/components/v1/navigation.md)
       + [Pagina (v1)](/help/components/v1/page-v1.md)
@@ -85,7 +85,7 @@ ht-degree: 0%
       + [Pagina (v2)](/help/components/v2/page.md)
       + [Titel (v2)](/help/components/v2/title.md)
    + v3-componenten {#v3-components}
-      + [ Lijst (v3) ](/help/components/v3/list.md)
+      + [&#x200B; Lijst (v3) &#x200B;](/help/components/v3/list.md)
 + E-mailcomponenten {#email}
    + [Inleiding](/help/email/introduction.md)
    + [De e-mailkerncomponenten gebruiken](/help/email/using.md)

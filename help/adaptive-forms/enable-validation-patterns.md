@@ -58,7 +58,7 @@ In Adobe Experience Manager (Adobe Experience Manager) Forms worden specifieke v
 ### Stap 4: Definieer en sla het beleid op
 
 1. De schakelaar terug naar het **Beleid** lusje (of controleer de linker montages).
-2. Op het **gebied van de Titel van het Beleid 0} {, ga een duidelijke naam (bijvoorbeeld, `new-textinput-default-policy`) in.**
+2. Op het **gebied van de Titel van het Beleid 0&rbrace; &lbrace;, ga een duidelijke naam (bijvoorbeeld, `new-textinput-default-policy`) in.**
 3. Klik **Gedaan** (controleteken) pictogram in de hoogste juiste hoek om uw veranderingen te bewaren.
 
 ## Deel 2: Een formulier maken en Validatiepatronen gebruiken
@@ -74,7 +74,7 @@ Nu validatiepatronen zijn ingeschakeld in de sjabloon, kunt u een adaptief formu
 3. Selecteer **Aangepaste Vorm** van de dropdown opties.
 4. Kies het malplaatje waar u de bevestigingspatronen (bijvoorbeeld, **Lege**) toeliet en **daarna** klikt.
 5. Op het Add scherm van Eigenschappen:
-   - Ga a **Titel** voor uw vorm (bijvoorbeeld, &quot;testPolicy&quot;) in. Het **gebied van de Naam** {automatisch-bevolkt gebaseerd op de titel.
+   - Ga a **Titel** voor uw vorm (bijvoorbeeld, &quot;testPolicy&quot;) in. Het **gebied van de Naam** &lbrace;automatisch-bevolkt gebaseerd op de titel.
    - Verzeker de correcte **Bibliotheek van de Cliënt van het Thema** wordt geselecteerd (bijvoorbeeld, `adaptiveform.theme.canvas3`).
 6. Klik **creëren**. Er verschijnt een succesbericht.
 7. Klik **uitgeven** om de vorm in de redacteur te openen.
@@ -83,7 +83,7 @@ Nu validatiepatronen zijn ingeschakeld in de sjabloon, kunt u een adaptief formu
 
 1. In de vormredacteur, bepaal de plaats van **van Componenten** browser in linkerzijbalk.
 2. Gebruik de onderzoeksbar om de **Aangepaste component van de Doos van de Tekst van de Vorm te vinden**. Als u &quot;text&quot; typt, wordt de lijst gefilterd.
-3. Klik en sleep de **component van de Doos van de Tekst van de Vorm van 0} de Aanpassings op het belangrijkste canvasgebied.**
+3. Klik en sleep de **component van de Doos van de Tekst van de Vorm van 0&rbrace; de Aanpassings op het belangrijkste canvasgebied.**
 
 ### Stap 3: Component-opmaak configureren
 
@@ -105,7 +105,7 @@ Nu validatiepatronen zijn ingeschakeld in de sjabloon, kunt u een adaptief formu
 Controleren of validatiepatronen correct werken:
 
 1. Geef een voorbeeld van het formulier weer in de editor.
-2. Ga testgegevens in de **component van de Input van de Tekst 0} in.**
+2. Ga testgegevens in de **component van de Input van de Tekst 0&rbrace; in.**
 3. Bevestig dat:
    - De ingeschakelde validatiepatronen worden weergegeven op de tabbladen Indelingen en Validatie van de component.
    - Ongeldige invoer activeert de juiste foutberichten.
