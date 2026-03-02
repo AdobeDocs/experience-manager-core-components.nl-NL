@@ -1,14 +1,14 @@
 ---
 sub-product: AEM Core Components
-user-guide-title: AEM-kerncomponenten
-breadcrumb-title: Gids voor kerncomponenten
+user-guide-title: AEM Core-componenten
+breadcrumb-title: Handleiding voor kerncomponenten
 feature: Core Components
-user-guide-description: Met de uitbreidbare kerncomponenten kunnen ontwerpers eenvoudig content maken voor traditionele AEM-projecten.
+user-guide-description: Voor traditionele AEM-projecten gebruikt u de uitbreidbare Core Components (Kerncomponenten) om auteurs gemakkelijk inhoud te laten maken.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: bf6953f24388ed08cd5a66bb51011b3ac82fb58e
+source-git-commit: 1ac3d987337f8279e762ab5357d32bb732dea0be
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 6%
+source-wordcount: '428'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 6%
 + [Introductie van kerncomponenten](/help/introduction.md)
 + [Responsief ontwerp](/help/responsive.md)
 + [Paden naar succes](/help/developing/success.md)
-+ [&#x200B; Bibliotheek van de Component &#x200B;](https://adobe.com/go/aem_cmp_library)
++ [Componentbibliotheek](https://adobe.com/go/aem_cmp_library)
 + [Versies](/help/versions.md)
 + Aan de slag {#get-started}
    + [Ontwerpen met kerncomponenten](/help/get-started/authoring.md)
@@ -28,7 +28,7 @@ ht-degree: 6%
    + [Accordeon](/help/components/accordion.md)
    + [Broodkruimel](/help/components/breadcrumb.md)
    + [Knop](/help/components/button.md)
-   + [Carrousel](/help/components/carousel.md)
+   + [Carousel](/help/components/carousel.md)
    + [Container](/help/components/container.md)
    + [Inhoudsfragment](/help/components/content-fragment-component.md)
    + [Lijst met inhoudsfragmenten](/help/components/content-fragment-list.md)
@@ -44,7 +44,7 @@ ht-degree: 6%
    + [Voortgangsbalk](/help/components/progress-bar.md)
    + [Snel zoeken](/help/components/quick-search.md)
    + [Scheidingsteken](/help/components/separator.md)
-   + [&#x200B; Sociale Media die  delen](/help/components/sharing.md)
+   + [ Sociale Media die ](/help/components/sharing.md) delen
    + [Inhoudsopgave](/help/components/tableofcontents.md)
    + [Tekst](/help/components/text.md)
    + [Tabs](/help/components/tabs.md)
@@ -64,7 +64,7 @@ ht-degree: 6%
       + [Insluiten (v1)](/help/components/v1/embed.md)
       + [Experience Fragment (v1)](/help/components/v1/experience-fragment.md)
       + [Afbeelding (v1)](/help/components/v1/image-v1.md)
-      + [&#x200B; Navigatie van de Taal (v1) &#x200B;](/help/components/v1/language-navigation.md)
+      + [ Navigatie van de Taal (v1) ](/help/components/v1/language-navigation.md)
       + [Lijst (v1)](/help/components/v1/list-v1.md)
       + [Navigatie (v1)](/help/components/v1/navigation.md)
       + [Pagina (v1)](/help/components/v1/page-v1.md)
@@ -85,7 +85,7 @@ ht-degree: 6%
       + [Pagina (v2)](/help/components/v2/page.md)
       + [Titel (v2)](/help/components/v2/title.md)
    + v3-componenten {#v3-components}
-      + [&#x200B; Lijst (v3) &#x200B;](/help/components/v3/list.md)
+      + [ Lijst (v3) ](/help/components/v3/list.md)
 + E-mailcomponenten {#email}
    + [Inleiding](/help/email/introduction.md)
    + [De e-mailkerncomponenten gebruiken](/help/email/using.md)
@@ -141,10 +141,11 @@ ht-degree: 6%
       + [Voettekst](/help/adaptive-forms/components/footer.md)
    + [Aangepaste Forms Core-componenten aanpassen](/help/developing/customize-adaptive-forms-core-components.md)
    + [Voorbeeldthema&#39;s en sjablonen](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
+   + [Validatiepatronen voor tekstinvoer inschakelen](/help/adaptive-forms/enable-validation-patterns.md)
 + Ontwikkelen {#developing}
    + [Basiscomponenten ontwikkelen](/help/developing/overview.md)
-   + [&#x200B; Wegen aan Succes &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=nl-NL)
-   + [&#x200B; WKND het Leerprogramma van de Ontwikkelaar &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=nl-NL)
+   + [Paden naar succes](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
+   + [Zelfstudie voor WKND-ontwikkelaars](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Kerncomponenten aanpassen](/help/developing/customizing.md)
    + [Componentrichtlijnen](/help/developing/guidelines.md)
    + [AMP-ondersteuning](/help/developing/amp.md)
