@@ -144,8 +144,8 @@ ht-degree: 0%
    + [Validatiepatronen voor tekstinvoer inschakelen](/help/adaptive-forms/enable-validation-patterns.md)
 + Ontwikkelen {#developing}
    + [Basiscomponenten ontwikkelen](/help/developing/overview.md)
-   + [Paden naar succes](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
-   + [Zelfstudie voor WKND-ontwikkelaars](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+   + [Paden naar succes](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=nl-NL)
+   + [Zelfstudie voor WKND-ontwikkelaars](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=nl-NL)
    + [Kerncomponenten aanpassen](/help/developing/customizing.md)
    + [Componentrichtlijnen](/help/developing/guidelines.md)
    + [AMP-ondersteuning](/help/developing/amp.md)
