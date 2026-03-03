@@ -117,7 +117,7 @@ Met de opties voor herhaling kunt u de container van het deelvenster en de onder
 - **Minimale herhalingen**: Vestigt het minimumaantal tijden de paneelcontainer kan worden herhaald. De waarde nul geeft aan dat het deelvenster Wizard niet wordt herhaald; de standaardwaarde is nul.
 - **Maximale herhalingen**: Plaatst het maximumaantal tijden de paneelcontainer kan worden herhaald. Deze waarde is standaard onbeperkt.
 
-Om herhaalbare secties binnen de paneelcontainer effectief te beheren, volg de stappen die in [&#x200B; worden verstrekt die vormen met herhaalbare secties &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) artikel creëren.
+Om herhaalbare secties binnen de paneelcontainer effectief te beheren, volg de stappen die in [&#x200B; worden verstrekt die vormen met herhaalbare secties &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=nl-NL) artikel creëren.
 
 ### Het tabblad Help-inhoud {#help-content}
 
@@ -205,7 +205,7 @@ Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aa
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=nl-NL)
 
 -->
 
