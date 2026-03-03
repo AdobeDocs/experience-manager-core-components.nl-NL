@@ -3,9 +3,9 @@ title: Adaptieve Forms Core-component - Checkbox-groep
 description: De Adaptive Forms Checkbox Group Core-component gebruiken of aanpassen.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+source-git-commit: e9354f24e1f2f8cd1e899dbd999e80406b5ce2bc
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: '2315'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ Een groep selectievakjes in een adaptief formulier is een set verwante selectiev
 
 **Voorbeeld**
 
-![&#x200B; checkbox groepsvoorbeeld &#x200B;](/help/adaptive-forms/assets/checkbox-group.png)
+![ checkbox groepsvoorbeeld ](/help/adaptive-forms/assets/checkbox-group.png)
 
 **de Dialoog van Eigenschappen**
 
-![&#x200B; checkbox dialoog van het bezit van de groep &#x200B;](/help/adaptive-forms/assets/checkbox-group-properties.png)
+![ checkbox dialoog van het bezit van de groep ](/help/adaptive-forms/assets/checkbox-group-properties.png)
 
 In dit voorbeeld, wordt het element van Opties gebruikt om checkboxes samen te groeperen. Het **tekstelement van de Vertoning** wordt gebruikt om een etiket voor een punt te verstrekken en **Waarde van Gegevens** wordt gebruikt om de waarde te specificeren die wordt verzonden naar de server wanneer de vorm wordt voorgelegd.
 
@@ -53,9 +53,14 @@ De Adaptive Forms Checkbox groep Core Component is in februari 2023 uitgebracht 
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
-| v1 | Compatibel systeem met <br>[&#x200B; versie 2.0.4 &#x200B;](/help/adaptive-forms/version.md) en later | Compatibel met <br>[&#x200B; versie 1.1.12 &#x200B;](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
+| v2 | Compatibel systeem met <br>[ versie 3.0.142 ](/help/adaptive-forms/version.md) en later | |
+| v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
+
+>[!NOTE]
+>
+> De versie v1 van de Component van de Kern van de Groep van de Checkbox steunt WCAG 2.1, die zich op het maken van inhoud door beste praktijken voor bruikbaarheid en leesbaarheid concentreert toegankelijk te maken. De versie v2 ondersteunt WCAG 2.2, die een stap verder gaat door duidelijke, voorspelbare en ondubbelzinnige toegankelijkheid te benadrukken door logische en semantische groepering van verwante gebieden, die het een kritieke vereiste voor inclusief vormontwerp maken.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -63,7 +68,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Technische details {#technical-details}
 
-Krijg de recentste informatie over de AanpassingsComponent van de Kern van de Groep van de Forms Checkbox in de technische documentatie op [&#x200B; GitHub &#x200B;](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkboxgroup/v1/checkboxgroup). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern &#x200B;](/help/developing/overview.md).
+Krijg de recentste informatie over de AanpassingsComponent van de Kern van de Groep van de Forms Checkbox in de technische documentatie op [ GitHub ](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkboxgroup/v1/checkboxgroup). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern ](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -72,16 +77,16 @@ Met het dialoogvenster Configureren kunt u de ervaring van het selectievakje voo
 
 ### Tabblad Standaard {#basic-tab}
 
-![&#x200B; Basis lusje &#x200B;](/help/adaptive-forms/assets/checkbox_basictab.png)
+![ Basis lusje ](/help/adaptive-forms/assets/checkbox_basictab.png)
 
 - **Naam** - de naam identificeert uniek de component in de regelredacteur.De speciale karakters en de ruimten worden niet toegestaan in de naamkoorden.
 
 - **Titel** - met zijn Titel, kunt u een component in een vorm gemakkelijk identificeren en door gebrek, verschijnt de titel bovenop de component. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
 
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
-  Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het `Fullscreen` ![&#x200B; pictogram Volledig scherm &#x200B;](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
+  Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het `Fullscreen` ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
-  ![&#128279;](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0&rbrace;
+  ](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0}![
 
 - **Verberg Titel** - selecteer de optie om de Titel van de component te verbergen.
 
@@ -94,10 +99,10 @@ Met het dialoogvenster Configureren kunt u de ervaring van het selectievakje voo
 
   U kunt de opties voor checkbox groep ook formatteren gebruikend **Verrijkte Tekst voor Opties** toestaan.
 
-  ![&#x200B; Rijke tekststeun voor opties &#x200B;](/help/adaptive-forms/assets/richtext-for-options.png)
+  ![ Rijke tekststeun voor opties ](/help/adaptive-forms/assets/richtext-for-options.png)
 
-  Zodra u checkbox voor **selecteert sta RTF voor het formatteren van Opties** toe zichtbaar worden om de opties van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het `Fullscreen` ![&#x200B; pictogram Volledig scherm &#x200B;](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
-  ![&#x200B; Rijke tekststeun voor opties &#x200B;](/help/adaptive-forms/assets/richtextoptions-support.png)
+  Zodra u checkbox voor **selecteert sta RTF voor het formatteren van Opties** toe zichtbaar worden om de opties van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het `Fullscreen` ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
+  ![ Rijke tekststeun voor opties ](/help/adaptive-forms/assets/richtextoptions-support.png)
 
 - **Bind Verwijzing** - A bindt verwijzing is een verwijzing naar een gegevenselement dat in een externe gegevensbron wordt opgeslagen en in een vorm wordt gebruikt. Met de bind-verwijzing kunt u gegevens dynamisch binden aan formuliervelden, zodat in het formulier de meest actuele gegevens uit de gegevensbron kunnen worden weergegeven. Een bind-verwijzing kan bijvoorbeeld worden gebruikt om de naam en het adres van een klant in een formulier weer te geven op basis van de id van de klant die in het formulier is ingevoerd. De bind verwijzing kan ook worden gebruikt om de gegevensbron met gegevens bij te werken ingegaan in de vorm. Op deze manier kunt u in AEM Forms formulieren maken die interageren met externe gegevensbronnen, zodat u een naadloze gebruikerservaring hebt voor het verzamelen en beheren van gegevens.
 
@@ -116,7 +121,7 @@ Met het dialoogvenster Configureren kunt u de ervaring van het selectievakje voo
 
 ### Tabblad Validatie {#validation-tab}
 
-![&#x200B; het lusje van de Bevestiging &#x200B;](/help/adaptive-forms/assets/checkbox_validationtab.png)
+![ het lusje van de Bevestiging ](/help/adaptive-forms/assets/checkbox_validationtab.png)
 
 - **Vereist** - selecteer deze optie, als u de component in een Aangepaste Vorm wilt tonen. Nadat u de optie hebt geselecteerd, moet u een selectie maken voordat u een formulier kunt verzenden. U kunt niet de **Component van de Verbergen** selecteren of **Component** in het **Basis** lusje onbruikbaar maken wanneer deze optie wordt geselecteerd.
 
@@ -126,7 +131,7 @@ Met het dialoogvenster Configureren kunt u de ervaring van het selectievakje voo
 
 ### Het tabblad Help-inhoud {#helpcontent-tab}
 
-![&#x200B; Inhoud tabel van de Hulp &#x200B;](/help/adaptive-forms/assets/checkbox_helptab.png)
+![ Inhoud tabel van de Hulp ](/help/adaptive-forms/assets/checkbox_helptab.png)
 
 - **Korte beschrijving** - een korte beschrijving is een korte tekstverklaring die extra informatie of verduidelijking over het doel van een specifiek vormgebied verstrekt. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. Laat **toe tonen altijd korte beschrijving** optie om het onder de component te tonen.
 
@@ -136,7 +141,7 @@ Met het dialoogvenster Configureren kunt u de ervaring van het selectievakje voo
 
 ### Tabblad Toegankelijkheid {#accessibility-tab}
 
-![&#x200B; Toegankelijkheid tabel &#x200B;](/help/adaptive-forms/assets/checkbox_accessibility.png)
+![ Toegankelijkheid tabel ](/help/adaptive-forms/assets/checkbox_accessibility.png)
 
 - **Tekst voor het schermlezers** - de Tekst voor het schermlezers verwijst naar extra tekst die specifiek bedoeld is om door ondersteunende technologieën, zoals het schermlezers te worden gelezen, die door visueel gehandicapte individuen wordt gebruikt. Deze tekst bevat een audiobeschrijving van het doel van het formulierveld en kan informatie bevatten over de titel, beschrijving, naam en relevante berichten (aangepaste tekst) van het veld. Met de schermlezertekst kunt u ervoor zorgen dat het formulier toegankelijk is voor alle gebruikers, inclusief gebruikers met een visuele handicap, en krijgt deze een volledig inzicht in het formulierveld en de vereisten ervan.
    - **Tekst van de Douane**: Selecteer deze optie om de douanetekst voor de toegankelijkheidslabels van ARIA te gebruiken. Als u deze optie selecteert, wordt het dialoogvenster Aangepaste tekst weergegeven. U kunt relevante informatie toevoegen in het dialoogvenster Aangepaste tekst.
@@ -151,9 +156,9 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de component Gro
 
 ### Tabblad Stijlen {#styles-tab}
 
-De adaptieve Component van de Kern van de Groep van de Forms Checkbox steunt het systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+De adaptieve Component van de Kern van de Groep van de Forms Checkbox steunt het systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
-![&#x200B; Dialoog van het Ontwerp &#x200B;](/help/adaptive-forms/assets/checkbox-style.png)
+![ Dialoog van het Ontwerp ](/help/adaptive-forms/assets/checkbox-style.png)
 
 - **StandaardCSS Klassen**: U kunt een standaardCSS klasse voor de Aangepaste Component van de Kern van de Groep van de Groep van Forms verstrekken Checkbox.
 
@@ -161,7 +166,7 @@ De adaptieve Component van de Kern van de Groep van de Forms Checkbox steunt het
 
 ### Aangepaste eigenschappen
 
-![&#x200B; de Dialoog van Eigenschappen van de Douane &#x200B;](/help/adaptive-forms/assets/checkbox-customproperties.png)
+![ de Dialoog van Eigenschappen van de Douane ](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
 Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aan een Adaptief kernonderdeel van een formulier koppelen met behulp van de formuliersjabloon. De aangepaste eigenschappen worden weergegeven in de sectie Eigenschappen van de koploze uitvoering van de component. Hiermee kunt u dynamisch formuliergedrag maken dat wordt aangepast op basis van de waarden van aangepaste kenmerken. Ontwikkelaars kunnen bijvoorbeeld verschillende uitvoeringen van een Forms-component zonder koptekst ontwerpen voor mobiele apparaten, desktops of webplatforms, waardoor de gebruikerservaring op een groot aantal apparaten aanzienlijk wordt verbeterd.
 
@@ -173,9 +178,19 @@ Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aa
 
    - **herschikt**: Tik of klik en sleep om de orde van de naam van het douanebezit en de waarde van het douanebezit te herschikken.
 
+## Ondersteuning voor Veldset en Legend voor Selectievakjesgroep(v2)
+
+<span class="preview"> Deze functie is beschikbaar via het programma Vroege toegang. Om toegang te verzoeken, verzend een e-mail van uw officieel adres naar [ aem-forms-ea@adobe.com ](mailto:aem-forms-ea@adobe.com). </span>
+
+Aangepaste Forms Core-componenten gebruiken semantische `<fieldset>` en `<legend>` HTML-elementen om de toegankelijkheid voor groepen selectievakjes te verbeteren. Met deze elementen kunnen schermlezers de formulierstructuur nauwkeurig interpreteren en de relaties tussen groepslabels en hun opties weergeven.
+
+De component Checkbox group(v2) wordt binnen een `<fieldset>` -element gerenderd, waarbij het groeplabel in een `<legend>` als eerste onderliggende element wordt opgenomen. Deze structuur zorgt ervoor dat schermlezers het groeplabel bekendmaken voordat ze afzonderlijke opties voor selectievakjes lezen, zodat gebruikers met ondersteunende hulpmiddelen gemakkelijker de context en het doel van elke optie kunnen begrijpen.
+
+![ checkbox veldset ](/help/adaptive-forms/assets/checkbox-fieldset.png)
+
 ## Verwante artikelen {#related-articles}
 
-{{more-like-this}})
+{{more-like-this}}
 
 ## Zie ook {#see-also}
 
