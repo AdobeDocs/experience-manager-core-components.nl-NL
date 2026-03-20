@@ -49,4 +49,4 @@ Artikel
 * `description`
 * `index: false` (alleen voor vorige versies van componenten)
 
-De extra informatie over de meta-gegevens kan in de [ interne auteursgids worden gevonden.](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/features/metadata.html#solution)
+De extra informatie over de meta-gegevens kan in de [&#x200B; interne auteursgids worden gevonden.](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/features/metadata.html#solution)

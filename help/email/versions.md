@@ -16,11 +16,11 @@ ht-degree: 10%
 
 De huidige versie van de Email Core Components is 1.3.0 en is compatibel met AEM 6.5, zowel op locatie als AMS.
 
-Zie de [ sectie van Vereisten ](/help/email/introduction.md#requirements) van het document van de Inleiding van de Componenten E-mailKern en de [ sectie van de Installatie ](/help/email/using.md#installing-the-email-core-components) van het Gebruiken van het E-mailDocument van de Componenten van de Kern voor meer informatie over vereisten en installatie, respectievelijk.
+Zie de [&#x200B; sectie van Vereisten &#x200B;](/help/email/introduction.md#requirements) van het document van de Inleiding van de Componenten E-mailKern en de [&#x200B; sectie van de Installatie &#x200B;](/help/email/using.md#installing-the-email-core-components) van het Gebruiken van het E-mailDocument van de Componenten van de Kern voor meer informatie over vereisten en installatie, respectievelijk.
 
 ## Historie en compatibiliteit vrijgeven {#release-history-and-compatibility}
 
-De e-mailCore-onderdelen zijn ontworpen om flexibel te zijn en compatibel te zijn met alle ondersteunde AEM-versies. De volledige details van de versiegeschiedenis van de Componenten van de Kern E-mail [ kunnen op GitHub worden gevonden.](https://github.com/adobe/aem-core-email-components/releases) In de volgende tabel vindt u echter een overzicht van de releases van de Email Core Components en hun compatibiliteit met AEM-versies en Java-versies.
+De e-mailCore-onderdelen zijn ontworpen om flexibel te zijn en compatibel te zijn met alle ondersteunde AEM-versies. De volledige details van de versiegeschiedenis van de Componenten van de Kern E-mail [&#x200B; kunnen op GitHub worden gevonden.](https://github.com/adobe/aem-core-email-components/releases) In de volgende tabel vindt u echter een overzicht van de releases van de Email Core Components en hun compatibiliteit met AEM-versies en Java-versies.
 
 | Geen | Beschrijving | AEM 6.5 | AEM 6.5 LTS | Kernonderdelen | Java | Releasedatum |
 |---|---|---|---|---|---|---|

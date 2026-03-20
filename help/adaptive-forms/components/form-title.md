@@ -19,7 +19,7 @@ In een adaptief formulier verwijst een &quot;titel&quot; naar de tekst die boven
 
 **Voorbeeld**
 
-![ voorbeeld van titel ](/help/adaptive-forms/assets/title.png)
+![&#x200B; voorbeeld van titel &#x200B;](/help/adaptive-forms/assets/title.png)
 
 ## Gebruik {#reasons-to-use-title-in-an-adaptive-form}
 
@@ -45,9 +45,9 @@ De Adaptive Forms Title Core Component is in februari 2023 uitgebracht als onder
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
-| v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
+| v1 | Compatibel systeem met <br>[&#x200B; versie 2.0.4 &#x200B;](/help/adaptive-forms/version.md) en later | Compatibel met <br>[&#x200B; versie 1.1.12 &#x200B;](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
 
 <!--
 ## Sample Component Output {#sample-component-output}
@@ -58,13 +58,13 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Technische details {#technical-details}
 
-Krijg de recentste informatie over de AanpassingsComponent van de Kern van de Titel van Forms in de technische documentatie over [ GitHub ](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/title/v1/title). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern ](/help/developing/overview.md).
+Krijg de recentste informatie over de AanpassingsComponent van de Kern van de Titel van Forms in de technische documentatie over [&#x200B; GitHub &#x200B;](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/title/v1/title). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern &#x200B;](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
 Met het dialoogvenster Configureren kunt u uw ervaringen met titels eenvoudig aanpassen voor bezoekers. U kunt ook eenvoudig titels definiëren voor een naadloze gebruikerservaring.
 
-![ Basis lusje ](/help/adaptive-forms/assets/title_properties.png)
+![&#x200B; Basis lusje &#x200B;](/help/adaptive-forms/assets/title_properties.png)
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud de titeltekst definiëren en het kopniveau selecteren.
 
@@ -83,7 +83,7 @@ Het tabblad Ontwerp wordt gebruikt om CSS-stijlen voor de component Titel van he
 
 Op het tabblad Titel kunnen sjabloonauteurs de standaardelementen en toegestane HTML-kopelementen voor formulierauteurs instellen:
 
-![ lusje van de de dialoogtitel van het Ontwerp ](/help/adaptive-forms/assets/title_heading.png)
+![&#x200B; lusje van de de dialoogtitel van het Ontwerp &#x200B;](/help/adaptive-forms/assets/title_heading.png)
 
 - **Toegestane Elementen van de Kop**: Een lijst met veelvoudige opties die de malplaatjeauteur laat kiezen welke rubrieken auteur voor Titel kunnen vormen.
 
@@ -91,9 +91,9 @@ Op het tabblad Titel kunnen sjabloonauteurs de standaardelementen en toegestane 
 
 ### Tabblad Stijlen {#styles-tab}
 
-Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve de datum-plukkerComponent van de Kern van Forms steunt het systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
+Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve de datum-plukkerComponent van de Kern van Forms steunt het systeem van de Stijl van AEM [&#x200B; &#x200B;](/help/get-started/authoring.md#component-styling).
 
-![ lusje van de de dialoogtitel van het Ontwerp ](/help/adaptive-forms/assets/title_styles.png)
+![&#x200B; lusje van de de dialoogtitel van het Ontwerp &#x200B;](/help/adaptive-forms/assets/title_styles.png)
 
 - **StandaardCSS Klassen**: U kunt een standaardCSS klasse voor de Aangepaste Component van de Kern van de Titel van Forms verstrekken.
 
@@ -103,7 +103,7 @@ Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en t
 
 Op het tabblad Indelingen kunt u standaard- en aangepaste datumnotaties opgeven.
 
-![ het Lusje van het Formaat ](/help/adaptive-forms/assets/title_styles.png)
+![&#x200B; het Lusje van het Formaat &#x200B;](/help/adaptive-forms/assets/title_styles.png)
 
 <!--
 

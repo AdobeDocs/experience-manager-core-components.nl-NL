@@ -30,7 +30,7 @@ Ondersteuning voor externe elementen met gebruik van Dynamic Media met OpenAPI i
 
 Over het algemeen wordt aangeraden al uw productie-AEM-instanties uit te voeren met gebruik van HTTP&#39;s. Uw lokale ontwikkelomgevingen kunnen echter niet als zodanig worden ingesteld. Externe elementen die gebruik maken van Dynamic Media met OpenAPI hebben echter HTTPS nodig om te kunnen functioneren.
 
-[ Gebruik deze gids ](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html) om HTTPS te vormen waar u wenst om verre activa, met inbegrip van ontwikkelomgevingen te gebruiken.
+[&#x200B; Gebruik deze gids &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html) om HTTPS te vormen waar u wenst om verre activa, met inbegrip van ontwikkelomgevingen te gebruiken.
 
 ## OSGi configureren {#osgi}
 
@@ -43,19 +43,19 @@ imsOrg="<ims-org>@AdobeOrg"
 repositoryId="<repo-id>.adobeaemcloud.com"
 ```
 
-![ het Next Generation Dynamische de configuratievenster van Media Config OSGi ](/help/assets/remote-assets-osgi.png)
+![&#x200B; het Next Generation Dynamische de configuratievenster van Media Config OSGi &#x200B;](/help/assets/remote-assets-osgi.png)
 
 Voor details op hoe te om OSGi te vormen, gelieve de volgende documenten te zien:
 
-* [ het Vormen OSGi voor Adobe Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi.html) voor AEM as a Cloud Service
-* [ het Vormen OSGi ](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/configuring/configuring-osgi.html) voor AEM 6.5
+* [&#x200B; het Vormen OSGi voor Adobe Experience Manager as a Cloud Service &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi.html) voor AEM as a Cloud Service
+* [&#x200B; het Vormen OSGi &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/configuring/configuring-osgi.html) voor AEM 6.5
 
 ## Configuratie controleren {#verify}
 
 Nu kunt u controleren of de functie voor externe elementen werkt met Dynamic Media met OpenAPI. Hiertoe kunt u de WKND-voorbeeldsite en Core Components installeren.
 
-* ](https://github.com/adobe/aem-core-wcm-components/releases/download/core.wcm.components.reactor-2.23.2/core.wcm.components.all-2.23.2.zip) versie 2.23.2 van de Componenten van de Kern van 0} {wordt vereist.[
-* {de plaats van de Steekproef van 0} WKND ](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-3.2.0/aem-guides-wknd.all-3.2.0-classic.zip) versie 3.2.0 of later wordt vereist.[
+* [&#128279;](https://github.com/adobe/aem-core-wcm-components/releases/download/core.wcm.components.reactor-2.23.2/core.wcm.components.all-2.23.2.zip) versie 2.23.2 van de Componenten van de Kern van 0&rbrace; &lbrace;wordt vereist.
+* {de plaats van de Steekproef van 0} WKND [&#128279;](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-3.2.0/aem-guides-wknd.all-3.2.0-classic.zip) versie 3.2.0 of later wordt vereist.
 
 Nadat de Core Components en de WKND-site zijn geïnstalleerd, kunt u de functie op elke WKND-pagina testen.
 
@@ -65,20 +65,20 @@ Nadat de Core Components en de WKND-site zijn geïnstalleerd, kunt u de functie 
 
 1. Voeg een afbeeldingscomponent aan de pagina toe.
 
-1. In Configure dialoog van de component, uncheck de optie **erven geprezen beeld van pagina** op het **3} lusje van Activa {en klik** Keuze **.**
+1. In Configure dialoog van de component, uncheck de optie **erven geprezen beeld van pagina** op het **3&rbrace; lusje van Activa &lbrace;en klik** Keuze **.**
 
 1. Als de configuratie correct is, zal een drop-down met de opties **Lokale** en **Verre** verschijnen. Selecteer **Verre**.
 
-   ![ Verre en lokale oogst opties voor beeldselectie ](/help/assets/remote-asset-selection.png)
+   ![&#x200B; Verre en lokale oogst opties voor beeldselectie &#x200B;](/help/assets/remote-asset-selection.png)
 
 1. Er wordt een dialoogvenster geopend waarin u zich bij de externe service moet verifiëren.
 
 1. Zodra voor authentiek verklaard, zal middelenbrowser van de verre dienst openen. Selecteer de gewenste activa en tik of klik **Uitgezocht**.
 
-   ![ Selecterend een ver middel ](/help/assets/remote-asset-picker.png)
+   ![&#x200B; Selecterend een ver middel &#x200B;](/help/assets/remote-asset-picker.png)
 
 Het externe element wordt toegevoegd aan uw lokale AEM-pagina en u hebt gecontroleerd of de functie correct is geconfigureerd.
 
 ## Externe Assets gebruiken {#using}
 
-Zodra gevormd, kunnen de verre activa worden geselecteerd waar u activa gebruikend de Componenten van de Kern zoals in de [ Component van het Beeld ](/help/components/image.md) en de [ Component van de Taser ](/help/components/teaser.md) zou selecteren.
+Zodra gevormd, kunnen de verre activa worden geselecteerd waar u activa gebruikend de Componenten van de Kern zoals in de [&#x200B; Component van het Beeld &#x200B;](/help/components/image.md) en de [&#x200B; Component van de Taser &#x200B;](/help/components/teaser.md) zou selecteren.

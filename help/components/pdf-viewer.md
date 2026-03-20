@@ -29,23 +29,23 @@ In de volgende tabel worden alle ondersteunde versies van de component, de AEM-v
 
 | Componentversie | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |---|---|---|
-| v1 | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel | Compatibel | Compatibel |
+| v1 | Compatibel systeem met <br>[&#x200B; versie 2.17.4 &#x200B;](/help/versions.md) en vroeger | Compatibel | Compatibel | Compatibel |
 
-Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
+Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [&#x200B; Kern &#x200B;](/help/versions.md).
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Om de Component van de Kijker van PDF te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [ Bibliotheek van de Component ](https://adobe.com/go/aem_cmp_library_pdfviewer).
+Om de Component van de Kijker van PDF te ervaren evenals voorbeelden van zijn configuratieopties evenals HTML en output te zien JSON, bezoek de [&#x200B; Bibliotheek van de Component &#x200B;](https://adobe.com/go/aem_cmp_library_pdfviewer).
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Kijker van PDF [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1) worden gevonden.
+De recentste technische documentatie over de Component van de Kijker van PDF [&#x200B; kan op GitHub &#x200B;](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1) worden gevonden.
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden &#x200B;](/help/developing/overview.md).
 
 >[!NOTE]
 >
->De de hefboomwerkingen van de Component van de Kijker van PDF [ de Diensten APIs van het Document van Adobe ](https://www.adobe.io/apis/documentcloud/dcsdk.html) en vereist uw beheerder om a [ context bewuste configuratie ](/help/developing/context-aware-configs.md) te vormen om deze diensten te gebruiken. Controleer de technische documentatie van de component voor [ details op deze configuratie.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
+>De de hefboomwerkingen van de Component van de Kijker van PDF [&#x200B; de Diensten APIs van het Document van Adobe &#x200B;](https://www.adobe.io/apis/documentcloud/dcsdk.html) en vereist uw beheerder om a [&#x200B; context bewuste configuratie &#x200B;](/help/developing/context-aware-configs.md) te vormen om deze diensten te gebruiken. Controleer de technische documentatie van de component voor [&#x200B; details op deze configuratie.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -55,25 +55,25 @@ In het dialoogvenster Configureren kan de auteur van de inhoud de viewer defini�
 
 Op het tabblad Configuratie kan de auteur definiëren welke PDF moet worden weergegeven. Het pad kan worden gedefinieerd als een element in AEM of als een absoluut pad naar een andere bron.
 
-![ lusje van de Configuratie van uitgeeft dialoog van de Component van de Kijker van PDF ](/help/assets/pdf-viewer-edit-configuration.png)
+![&#x200B; lusje van de Configuratie van uitgeeft dialoog van de Component van de Kijker van PDF &#x200B;](/help/assets/pdf-viewer-edit-configuration.png)
 
 ### Tab aanpassen {#customize-tab}
 
 Op het tabblad Aanpassen kan de auteur de opties definiëren die beschikbaar zijn in de viewer voor de lezer en kunt u aangeven hoe de viewer moet worden weergegeven.
 
-![ pas lusje van uit uitgeeft dialoog van de Component van de Kijker van PDF ](/help/assets/pdf-viewer-edit-customize.png) aan
+![&#x200B; pas lusje van uit uitgeeft dialoog van de Component van de Kijker van PDF &#x200B;](/help/assets/pdf-viewer-edit-customize.png) aan
 
 Het aantal beschikbare opties hangt van het **Type** af dat wordt geselecteerd.
 
-* [ Volledig Venster ](#full-window) - het het bekijken gebied geeft in volledige browser terug. Dit is het meest geschikt voor opslag- en productiviteitstoepassingen.
-* [ Verdeelde Container ](#sized-container) - het het bekijken gebied geeft in volledige browser terug. Dit is het meest geschikt voor opslag- en productiviteitstoepassingen.
-* [ In-Lijn ](#in-line) - Alle die pagina&#39;s van PDF in lijn binnen een Web-pagina worden teruggegeven. Dit is het meest geschikt voor het lezen van toepassingen.
+* [&#x200B; Volledig Venster &#x200B;](#full-window) - het het bekijken gebied geeft in volledige browser terug. Dit is het meest geschikt voor opslag- en productiviteitstoepassingen.
+* [&#x200B; Verdeelde Container &#x200B;](#sized-container) - het het bekijken gebied geeft in volledige browser terug. Dit is het meest geschikt voor opslag- en productiviteitstoepassingen.
+* [&#x200B; In-Lijn &#x200B;](#in-line) - Alle die pagina&#39;s van PDF in lijn binnen een Web-pagina worden teruggegeven. Dit is het meest geschikt voor het lezen van toepassingen.
 
 #### Volledig venster {#full-window}
 
 Het weergavegebied wordt weergegeven in de volledige browser. Dit is het meest geschikt voor opslag- en productiviteitstoepassingen.
 
-![ pas lusje volledige vensteroptie van de uit te geven dialoog van de Component van de Kijker van PDF ](/help/assets/pdf-viewer-edit-customize-full.png) aan
+![&#x200B; pas lusje volledige vensteroptie van de uit te geven dialoog van de Component van de Kijker van PDF &#x200B;](/help/assets/pdf-viewer-edit-customize-full.png) aan
 
 * **Modus Standaard van de Mening** - hoe de kijker aan de pagina zal worden aangepast waar het wordt getoond
    * Pagina passend maken
@@ -91,7 +91,7 @@ Het weergavegebied wordt weergegeven in de volledige browser. Dit is het meest g
 
 Het weergavegebied wordt weergegeven in de volledige browser. Dit is het meest geschikt voor opslag- en productiviteitstoepassingen.
 
-![ aanpassen lusje gerangschikte containeroptie van uitgeeft dialoog van de Component van de Kijker van PDF ](/help/assets/pdf-viewer-edit-customize-sized-container.png)
+![&#x200B; aanpassen lusje gerangschikte containeroptie van uitgeeft dialoog van de Component van de Kijker van PDF &#x200B;](/help/assets/pdf-viewer-edit-customize-sized-container.png)
 
 * **Volledig Scherm** - wanneer toegelaten, zal de kijker de volledige hoogte/breedte van viewport opnemen.
 * **Download PDF** - wanneer toegelaten, wordt de downloadknoop getoond.
@@ -104,7 +104,7 @@ Het weergavegebied wordt weergegeven in de volledige browser. Dit is het meest g
 
 Alle PDF-pagina&#39;s worden op één regel binnen een webpagina weergegeven. Dit is het meest geschikt voor het lezen van toepassingen.
 
-![ aanpassen lusje gerangschikte containeroptie van uitgeeft dialoog van de Component van de Kijker van PDF ](/help/assets/pdf-viewer-edit-customize-inline.png)
+![&#x200B; aanpassen lusje gerangschikte containeroptie van uitgeeft dialoog van de Component van de Kijker van PDF &#x200B;](/help/assets/pdf-viewer-edit-customize-inline.png)
 
 * **Download PDF** - wanneer toegelaten, wordt de downloadknoop getoond.
 * **de Druk PDF** - wanneer toegelaten, wordt de drukknoop getoond.

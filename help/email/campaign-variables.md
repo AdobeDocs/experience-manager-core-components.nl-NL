@@ -26,21 +26,21 @@ De lijst met beschikbare personalisatievelden is gesynchroniseerd met uw Adobe C
 
 Het dialoogvenster Adobe Campaign-variabele selecteren is beschikbaar in veel bewerkingsdialoogvensters van de e-mailkerncomponenten. Om het eenvoudig te gebruiken klik op het **Uitgezochte de Variabele van Adobe Campaign** pictogram naast het toepasselijke gebied. Dit pictogram kan twee vormen aannemen.
 
-![ knoop van Adobe Campaign ](/help/email/assets/campaign-button.png)
-![ Uitgezochte Adobe Campaign veranderlijk pictogram ](/help/email/assets/select-adobe-campaign-variable-icon.png)
+![&#x200B; knoop van Adobe Campaign &#x200B;](/help/email/assets/campaign-button.png)
+![&#x200B; Uitgezochte Adobe Campaign veranderlijk pictogram &#x200B;](/help/email/assets/select-adobe-campaign-variable-icon.png)
 
 Het klikken van beide pictogrammen opent **Uitgezochte de Variabele van Adobe Campaign** dialoog.
 
-![ Uitgezochte de Variabele van Adobe Campaign dialoog ](assets/select-campaign-variable-dialog.png)
+![&#x200B; Uitgezochte de Variabele van Adobe Campaign dialoog &#x200B;](assets/select-campaign-variable-dialog.png)
 
 Gebruik de kolomweergave om de variabele te zoeken die u wilt invoegen. Wanneer u op een knooppunt in een kolom klikt, worden de onderliggende items in een nieuwe kolom rechts van het knooppunt weergegeven. Op deze manier kunt u door de structuur van de variabele-inhoud navigeren.
 
 Selecteer de variabele die u wilt invoegen en klik op het vinkje rechtsboven in het dialoogvenster.
 
-![ geselecteerde Variabele van Adobe Campaign ](assets/select-campaign-variable-dialog-selected.png)
+![&#x200B; geselecteerde Variabele van Adobe Campaign &#x200B;](assets/select-campaign-variable-dialog-selected.png)
 
 De variabele wordt vervolgens ingevoegd in het veld van het dialoogvenster Bewerken van de E-mailkerncomponent.
 
-![ variabele van de Campagne die in wordt opgenomen uitgeeft dialoog ](assets/campaign-variable.png)
+![&#x200B; variabele van de Campagne die in wordt opgenomen uitgeeft dialoog &#x200B;](assets/campaign-variable.png)
 
 Klik op de X linksboven in het dialoogvenster om het dialoogvenster te annuleren en te sluiten.

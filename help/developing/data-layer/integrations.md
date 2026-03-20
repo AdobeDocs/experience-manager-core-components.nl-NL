@@ -30,7 +30,7 @@ Het attribuut `data-cmp-data-layer-enabled` kan client-kant worden gevraagd om t
 
 >[!TIP]
 >
->Voor verdere technische details over de integratie van de Laag van Gegevens van de Cliënt van Adobe met de Componenten van de Kern en hoe te om de Laag van Gegevens op uw douanecomponenten toe te laten, zie het [`DATA_LAYER_INTEGRATION.md` ](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) dossier in de bewaarplaats van de Componenten van de Kern.
+>Voor verdere technische details over de integratie van de Laag van Gegevens van de Cliënt van Adobe met de Componenten van de Kern en hoe te om de Laag van Gegevens op uw douanecomponenten toe te laten, zie het [`DATA_LAYER_INTEGRATION.md` &#x200B;](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) dossier in de bewaarplaats van de Componenten van de Kern.
 
 ## Integratie met Adobe Analytics en Adobe Target {#analytics-target}
 
