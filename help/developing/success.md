@@ -41,7 +41,7 @@ Verwijzing de [&#x200B; Bibliotheek van de Component &#x200B;](https://adobe.com
 
 ### De UI-kit voor Adobe XD gebruiken {#ui-kit}
 
-Zodra er een bewezen behoefte aan een douanecomponent is, hefboomwerking de uitrusting UI voor Adobe XD, [&#x200B; die hier kan worden gedownload, &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) zodat de ontwerpers kunnen beginnen draadframes en de ontwerpen met de Componenten van de Kern te bouwen als bouwstenen.
+Zodra er een bewezen behoefte aan een douanecomponent is, hefboomwerking de uitrusting UI voor Adobe XD, [&#x200B; die hier kan worden gedownload, &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=nl-NL) zodat de ontwerpers kunnen beginnen draadframes en de ontwerpen met de Componenten van de Kern te bouwen als bouwstenen.
 
 ## Laat krachtige functies onverlet {#powerful-features}
 
@@ -49,13 +49,13 @@ De eigenschappen van AEM en de Componenten van de Kern kunnen zeer krachtig, maa
 
 ### Inhoudsfragmenten {#content-fragments}
 
-[&#x200B; de Fragmenten van de Inhoud &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html) staan u toe om kanaal-neutrale inhoud, samen met (misschien kanaal-specifieke) variaties tot stand te brengen. Vervolgens kunt u deze fragmenten en de variaties ervan gebruiken bij het ontwerpen van de inhoudspagina&#39;s.
+[&#x200B; de Fragmenten van de Inhoud &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html?lang=nl-NL) staan u toe om kanaal-neutrale inhoud, samen met (misschien kanaal-specifieke) variaties tot stand te brengen. Vervolgens kunt u deze fragmenten en de variaties ervan gebruiken bij het ontwerpen van de inhoudspagina&#39;s.
 
 Samen met de bijgewerkte JSON-exportfunctie kunnen gestructureerde inhoudsfragmenten ook worden gebruikt om AEM-inhoud via Content Services te leveren aan andere kanalen dan AEM-pagina&#39;s.
 
 ### Fragmentsjablonen ervaren {#experience-fragment-templates}
 
-Als een auteur onderdelen (een fragment van een ervaring) van een pagina opnieuw wil gebruiken. Zonder [&#x200B; Fragmenten van de Ervaring, &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/experience-fragments.html) zou de auteur dat fragment moeten kopiëren en kleven. Het maken en onderhouden van deze kopiëren/plakken-ervaringen kost veel tijd en is vaak het gevolg van gebruikersfouten. De Fragmenten van de ervaring elimineren de behoefte aan exemplaar/deeg.
+Als een auteur onderdelen (een fragment van een ervaring) van een pagina opnieuw wil gebruiken. Zonder [&#x200B; Fragmenten van de Ervaring, &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/experience-fragments.html?lang=nl-NL) zou de auteur dat fragment moeten kopiëren en kleven. Het maken en onderhouden van deze kopiëren/plakken-ervaringen kost veel tijd en is vaak het gevolg van gebruikersfouten. De Fragmenten van de ervaring elimineren de behoefte aan exemplaar/deeg.
 
 ### De component Embed {#embed-component}
 

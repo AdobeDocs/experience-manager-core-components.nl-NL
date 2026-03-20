@@ -22,7 +22,7 @@ Om aan de slag te gaan met de Componenten van de Kern in uw eigen project, zijn 
 >[!TIP]
 >
 >Voor bredere instructies over hoe te om van begin met de projectopstelling, de Componenten van de Kern, Bewerkbare Malplaatjes, de Bibliotheken van de Cliënt en de componentenontwikkeling te beginnen, zou de volgende multi-part leerprogramma van belang kunnen zijn:\
->[&#x200B; Begonnen het worden met AEM Sites - WKND Leerprogramma &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+>[&#x200B; Begonnen het worden met AEM Sites - WKND Leerprogramma &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=nl-NL)
 
 >[!TIP]
 >
@@ -52,7 +52,7 @@ Bij het gebruik van de Core Components in AEMaaCS moet u rekening houden met een
 
 De kerncomponenten maken geen deel uit van de snelstartprocedure wanneer de productiemodus wordt gestart (zonder voorbeeldinhoud). Daarom moet uw eerste stap [&#x200B; het recentste vrijgegeven inhoudspakket van GitHub &#x200B;](https://github.com/adobe/aem-core-wcm-components/releases/latest) downloaden en het op uw milieu&#39;s van AEM installeren.
 
-Er zijn verscheidene manieren om dit te automatiseren, maar de eenvoudigste manier om een inhoudspakket op een instantie snel te installeren is door de Manager van het Pakket te gebruiken; zie [&#x200B; Pakketten installeren &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages). Ook, zodra u een publiceer instantie zult hebben die eveneens loopt, zult u dat pakket aan de uitgever moeten herhalen; zie [&#x200B; het Repliceren van Pakketten &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages).
+Er zijn verscheidene manieren om dit te automatiseren, maar de eenvoudigste manier om een inhoudspakket op een instantie snel te installeren is door de Manager van het Pakket te gebruiken; zie [&#x200B; Pakketten installeren &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=nl-NL#installing-packages). Ook, zodra u een publiceer instantie zult hebben die eveneens loopt, zult u dat pakket aan de uitgever moeten herhalen; zie [&#x200B; het Repliceren van Pakketten &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=nl-NL#replicating-packages).
 
 ## Proxycomponenten maken {#create-proxy-components}
 
@@ -88,7 +88,7 @@ Bijvoorbeeld, bekijk de [&#x200B; titelcomponent van de plaats WKND &#x200B;](ht
 
 ## De kernstijlen laden {#load-the-core-styles}
 
-1. Als nog niet gedaan, creeer de Bibliotheek van de a [&#x200B; Cliënt &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html) die alle CSS en JS- dossiers bevat die voor uw plaats nodig zijn.
+1. Als nog niet gedaan, creeer de Bibliotheek van de a [&#x200B; Cliënt &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=nl-NL) die alle CSS en JS- dossiers bevat die voor uw plaats nodig zijn.
 1. Voor de Bibliotheek van de Cliënt van uw plaats, voeg de gebiedsdelen aan de Componenten van de Kern toe die nodig zouden kunnen zijn. Dit wordt gedaan door een eigenschap `embed` toe te voegen.
 
    Als u bijvoorbeeld de clientbibliotheken van alle v1 Core-componenten wilt opnemen, moet u de volgende eigenschap toevoegen:
@@ -107,7 +107,7 @@ Controleer of uw proxycomponenten en clientbibliotheken zijn geïmplementeerd in
 
 ## De componenten toestaan {#allow-the-components}
 
-De volgende stappen worden uitgevoerd in de [&#x200B; Redacteur van het Malplaatje &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
+De volgende stappen worden uitgevoerd in de [&#x200B; Redacteur van het Malplaatje &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL).
 
 1. Selecteer in de Sjablooneditor de container met layout en open het bijbehorende beleid.
 1. Selecteer in de lijst Toegestane componenten de proxycomponenten die eerder zijn gemaakt. Deze moeten worden weergegeven onder de componentgroep die aan deze componenten is toegewezen. Breng de wijzigingen vervolgens aan.

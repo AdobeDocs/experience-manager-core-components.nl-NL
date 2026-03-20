@@ -118,7 +118,7 @@ In het algemeen worden alle script- en `style` -elementen en alle `on*` - en `st
 
 De regels zijn echter gecompliceerder omdat de Embed-component volgt op de filterregelset van het globale HTML AntiSamy-sanitatieframework van AEM, die u kunt vinden op `/libs/cq/xssprotection/config.xml` . Dit kan voor project-specifieke configuratie door een ontwikkelaar indien vereist worden bedekt.
 
-De extra veiligheidsinformatie kan in de [&#x200B; de ontwikkelaarsdocumentatie van AEM voor op-gebouw installaties &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html) evenals [&#x200B; installaties van AEM as a Cloud Service worden gevonden.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)
+De extra veiligheidsinformatie kan in de [&#x200B; de ontwikkelaarsdocumentatie van AEM voor op-gebouw installaties &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=nl-NL) evenals [&#x200B; installaties van AEM as a Cloud Service worden gevonden.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html?lang=nl-NL)
 
 >[!NOTE]
 >

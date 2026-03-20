@@ -148,7 +148,7 @@ De reeks talen is niet zichtbaar door gebrek, maar de gebruikers kunnen een doua
 
    >[!NOTE]
    >
-   > Voor verdere informatie over hoe te om een AanpassingsVorm aan een specifieke scène te vertalen, [&#x200B; klik hier &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+   > Voor verdere informatie over hoe te om een AanpassingsVorm aan een specifieke scène te vertalen, [&#x200B; klik hier &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
@@ -204,7 +204,7 @@ Opmaak toevoegen aan het sjabloonbeleid:
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=nl-NL)
 
 -->
 

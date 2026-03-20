@@ -20,7 +20,7 @@ Met de Core Component Form Container Component kunnen eenvoudige verzendformulie
 
 Met de component Form Container konden eenvoudige formulieren en functies voor het verzenden van informatie worden gemaakt door eenvoudige WCM-formulieren te ondersteunen en door een geneste structuur te gebruiken om extra formuliercomponenten toe te staan.
 
-Door het [&#x200B; plaatsen dialoog &#x200B;](#settings-dialog) te gebruiken kan de inhoudsredacteur bepalen welk type van actievorm indiensttrekkers, waar de voorgelegde inhoud zou moeten worden opgeslagen, en als een werkschema zou moeten worden teweeggebracht. De malplaatjeauteur kan de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog) gebruiken om toe te staan componenten en hun afbeeldingen gelijkend op de ontwerpdialoog voor de [&#x200B; standaardlay-outcontainer in de malplaatjedacteur &#x200B;](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) te bepalen.
+Door het [&#x200B; plaatsen dialoog &#x200B;](#settings-dialog) te gebruiken kan de inhoudsredacteur bepalen welk type van actievorm indiensttrekkers, waar de voorgelegde inhoud zou moeten worden opgeslagen, en als een werkschema zou moeten worden teweeggebracht. De malplaatjeauteur kan de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog) gebruiken om toe te staan componenten en hun afbeeldingen gelijkend op de ontwerpdialoog voor de [&#x200B; standaardlay-outcontainer in de malplaatjedacteur &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-4/sites/authoring/using/templates.html) te bepalen.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -105,7 +105,7 @@ De gebruiker wordt na het verzenden van het formulier omgeleid naar de opgegeven
 
 ## Ontwerpdialoogvenster {#design-dialog}
 
-De ontwerpdialoog staat de malplaatjeauteur toe om de toegestane componenten en hun afbeeldingen voor de container te bepalen gelijkend op de ontwerpdialoog voor de [&#x200B; standaardlay-outcontainer in de malplaatjedacteur &#x200B;](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843).
+De ontwerpdialoog staat de malplaatjeauteur toe om de toegestane componenten en hun afbeeldingen voor de container te bepalen gelijkend op de ontwerpdialoog voor de [&#x200B; standaardlay-outcontainer in de malplaatjedacteur &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843).
 
 ## Technische details {#technical-details}
 

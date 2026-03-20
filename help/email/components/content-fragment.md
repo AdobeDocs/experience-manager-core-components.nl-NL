@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Component E-mailinhoudsfragment {#email-content-fragment-component}
 
-De component van het Fragment van de Inhoud E-mail staat voor de vertoning van a [&#x200B; inhoudsfragment &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) in uw inhoud toe.
+De component van het Fragment van de Inhoud E-mail staat voor de vertoning van a [&#x200B; inhoudsfragment &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=nl-NL) in uw inhoud toe.
 
 ## Gebruik {#usage}
 
-De component van het Fragment van de Inhoud E-mail staat voor de opneming van a [&#x200B; inhoudsfragment &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) in uw e-mailinhoud toe. Inhoudsfragmenten zijn gestructureerde inhoud met meerdere kanalen die centraal kan worden ontworpen en eenvoudig opnieuw kan worden gebruikt.
+De component van het Fragment van de Inhoud E-mail staat voor de opneming van a [&#x200B; inhoudsfragment &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=nl-NL) in uw e-mailinhoud toe. Inhoudsfragmenten zijn gestructureerde inhoud met meerdere kanalen die centraal kan worden ontworpen en eenvoudig opnieuw kan worden gebruikt.
 
 * Het fragment en zijn eigenschappen kunnen in [&#x200B; worden geselecteerd vormen dialoog.](#configure-dialog)
 * De types van middel om bepaalde beelden en netten te behandelen kunnen in de [&#x200B; ontwerpdialoog worden bepaald.](#design-dialog)
@@ -85,7 +85,7 @@ Tapping of het klikken van **geeft** knoop uit opent de redacteur van het inhoud
 
 ![&#x200B; de fragmentredacteur van de Inhoud voor e-mail &#x200B;](/help/email/assets/email-content-fragment-editor.png)
 
-Voor meer informatie over het uitgeven en het ontwerpen van inhoudsfragmenten, zie het document [&#x200B; Authoring Inhoud van het Fragment.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-variations.html)
+Voor meer informatie over het uitgeven en het ontwerpen van inhoudsfragmenten, zie het document [&#x200B; Authoring Inhoud van het Fragment.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-variations.html?lang=nl-NL)
 
 ## Ontwerpdialoogvenster {#design-dialog}
 

@@ -18,7 +18,7 @@ De context-bewuste configuraties zijn a [&#x200B; eigenschap van het Verdelen &#
 
 Uw site heeft mogelijk verschillende configuraties voor verschillende sitegebieden nodig, bijvoorbeeld waar bepaalde parameters kunnen worden gedeeld, waarvoor overerving voor geneste contexten en globale terugvalwaarden vereist is. AEM maakt gebruik van configuraties waarbij rekening wordt gehouden met de verkoopcontext, waardoor deze mogelijkheid wordt ingeschakeld.
 
-Voor details over configuraties in AEM, [&#x200B; zie de Browser van Configuraties en van de Configuratie documentatie.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/configurations.html)
+Voor details over configuraties in AEM, [&#x200B; zie de Browser van Configuraties en van de Configuratie documentatie.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/configurations.html?lang=nl-NL)
 
 ## In de kerncomponenten gebruiken {#core-components}
 

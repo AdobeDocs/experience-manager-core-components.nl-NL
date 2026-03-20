@@ -68,7 +68,7 @@ Gebruikend [&#x200B; Storybook &#x200B;](https://storybook.js.org) kunt u meer a
 
 ## Clientlibs-overzicht {#clientlibs}
 
-De frontend module wordt ter beschikking gesteld gebruikend een [&#x200B; AEM clientlib.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html). Wanneer het NPM-constructiescript wordt uitgevoerd, wordt de app gemaakt en wordt het `aem-clientlib-generator` -pakket de resulterende samengestelde uitvoer verwerkt en in een dergelijke client getransformeerd.
+De frontend module wordt ter beschikking gesteld gebruikend een [&#x200B; AEM clientlib.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=nl-NL). Wanneer het NPM-constructiescript wordt uitgevoerd, wordt de app gemaakt en wordt het `aem-clientlib-generator` -pakket de resulterende samengestelde uitvoer verwerkt en in een dergelijke client getransformeerd.
 
 Een clientlib bestaat uit de volgende bestanden en mappen:
 
@@ -80,4 +80,4 @@ Een clientlib bestaat uit de volgende bestanden en mappen:
 
 >[!TIP]
 >
->Leer meer over hoe AEM clientlibs in de [&#x200B; de ontwikkelingsdocumentatie van AEM &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html) behandelt hoe te om hen in de [&#x200B; documentatie van de Componenten van de Kern te omvatten.](/help/developing/including-clientlibs.md)
+>Leer meer over hoe AEM clientlibs in de [&#x200B; de ontwikkelingsdocumentatie van AEM &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=nl-NL) behandelt hoe te om hen in de [&#x200B; documentatie van de Componenten van de Kern te omvatten.](/help/developing/including-clientlibs.md)

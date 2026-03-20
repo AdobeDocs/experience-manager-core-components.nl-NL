@@ -40,10 +40,10 @@ In combinatie met Adobe Analytics en Adobe Target wordt de Adobe Client Data Lay
 
 Leer de ingebouwde functies van de Adobe Client Data Layer met AEM Core Components te gebruiken om gegevens over een pagina in Adobe Experience Manager Sites te verzamelen. Experience Platform Launch en de Adobe Analytics-extensie worden gebruikt om regels te maken voor het verzenden van paginagegevens naar Adobe Analytics.
 
-[Bekijk de zelfstudie hier.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html)
+[Bekijk de zelfstudie hier.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html?lang=nl-NL)
 
 ### Aangeklikte componenten bijhouden met Adobe Analytics {#track-clicked-components}
 
 Gebruik de gebeurtenisgestuurde Adobe Client Data Layer met AEM Core Components om kliks van specifieke componenten op een Adobe Experience Manager-site bij te houden. Leer hoe te om regels in de Lancering van het Platform van de Ervaring te gebruiken om op klikgebeurtenissen te luisteren, filter door component te filtreren en de gegevens naar een Adobe Analytics met een baken van de spoorverbinding te verzenden.
 
-[Bekijk de zelfstudie hier.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html)
+[Bekijk de zelfstudie hier.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html?lang=nl-NL)

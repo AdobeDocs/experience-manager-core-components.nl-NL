@@ -28,7 +28,7 @@ De componenten van de Kern verstrekken de volgende cliëntbibliotheken uit-van-d
 
 ## Inclusief clientbibliotheken {#including}
 
-Er zijn een aantal verschillende manieren om [&#x200B; cliëntbibliotheken &#x200B;](/help/developing/archetype/front-end.md#clientlibs) afhankelijk van uw gebruiksgeval te omvatten. Het volgende is voorbeelden met steekproef [&#x200B; HTML fragmenten &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) voor elk.
+Er zijn een aantal verschillende manieren om [&#x200B; cliëntbibliotheken &#x200B;](/help/developing/archetype/front-end.md#clientlibs) afhankelijk van uw gebruiksgeval te omvatten. Het volgende is voorbeelden met steekproef [&#x200B; HTML fragmenten &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=nl-NL) voor elk.
 
 ### Aanbevolen standaardgebruik {#recommended-default-usage}
 

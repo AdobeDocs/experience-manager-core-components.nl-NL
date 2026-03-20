@@ -30,7 +30,7 @@ Ondersteuning voor externe elementen met gebruik van Dynamic Media met OpenAPI i
 
 Over het algemeen wordt aangeraden al uw productie-AEM-instanties uit te voeren met gebruik van HTTP&#39;s. Uw lokale ontwikkelomgevingen kunnen echter niet als zodanig worden ingesteld. Externe elementen die gebruik maken van Dynamic Media met OpenAPI hebben echter HTTPS nodig om te kunnen functioneren.
 
-[&#x200B; Gebruik deze gids &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html) om HTTPS te vormen waar u wenst om verre activa, met inbegrip van ontwikkelomgevingen te gebruiken.
+[&#x200B; Gebruik deze gids &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html?lang=nl-NL) om HTTPS te vormen waar u wenst om verre activa, met inbegrip van ontwikkelomgevingen te gebruiken.
 
 ## OSGi configureren {#osgi}
 
@@ -47,8 +47,8 @@ repositoryId="<repo-id>.adobeaemcloud.com"
 
 Voor details op hoe te om OSGi te vormen, gelieve de volgende documenten te zien:
 
-* [&#x200B; het Vormen OSGi voor Adobe Experience Manager as a Cloud Service &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi.html) voor AEM as a Cloud Service
-* [&#x200B; het Vormen OSGi &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/configuring/configuring-osgi.html) voor AEM 6.5
+* [&#x200B; het Vormen OSGi voor Adobe Experience Manager as a Cloud Service &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi.html?lang=nl-NL) voor AEM as a Cloud Service
+* [&#x200B; het Vormen OSGi &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/configuring/configuring-osgi.html?lang=nl-NL) voor AEM 6.5
 
 ## Configuratie controleren {#verify}
 

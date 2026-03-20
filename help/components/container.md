@@ -54,7 +54,7 @@ In het dialoogvenster configureren kan de auteur van de inhoud het containeritem
 
 * **Lay-out** - deze optie bepaalt het gedrag of het lay-outgedrag van de Component van de Container.
    * **Eenvoudig** - bepaalt een container als eenvoudige inzameling van componenten
-   * **Responsief Net** - bepaalt een container als [&#x200B; AEM Responsieve Lay-out &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
+   * **Responsief Net** - bepaalt een container als [&#x200B; AEM Responsieve Lay-out &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html?lang=nl-NL)
 * **Achtergrondkleur** - bepaalt of als vrij-vormRGB waarden of door de kleurkiezer te gebruiken, [&#x200B; afhankelijk van configuratie &#x200B;](#background-tab)
 * **Achtergrondbeeld** - bepaalt een achtergrondkleur voor de container, [&#x200B; afhankelijk van configuratie &#x200B;](#background-tab)
 * **identiteitskaart** - Deze optie staat toe om het unieke herkenningsteken van de component in HTML en in de [&#x200B; Laag van Gegevens te controleren &#x200B;](/help/developing/data-layer/overview.md).
@@ -70,11 +70,11 @@ In het ontwerpdialoogvenster kan de sjabloonauteur de opties definiëren die bes
 
 Het **Toegestane lusje van Componenten** wordt gebruikt om te bepalen welke componenten als punten aan de Component van de Container door de inhoudauteur kunnen worden toegevoegd.
 
-De toegelaten Componenten lusjefuncties op de zelfde manier zoals het lusje van de zelfde naam wanneer [&#x200B; het bepalen van het beleid en de eigenschappen van een Container van de Lay-out in de Redacteur van het Malplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+De toegelaten Componenten lusjefuncties op de zelfde manier zoals het lusje van de zelfde naam wanneer [&#x200B; het bepalen van het beleid en de eigenschappen van een Container van de Lay-out in de Redacteur van het Malplaatje.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL)
 
 ### Tabblad Standaardcomponenten {#default-components-tab}
 
-Het lusje Standaard van Componenten wordt gebruikt om te bepalen welke component aan de component wordt toegevoegd wanneer een bepaald activatype op de container wordt gelaten vallen, gelijkend op [&#x200B; hoe de standaardcomponenten op het paginamalplaatje &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) worden bepaald.
+Het lusje Standaard van Componenten wordt gebruikt om te bepalen welke component aan de component wordt toegevoegd wanneer een bepaald activatype op de container wordt gelaten vallen, gelijkend op [&#x200B; hoe de standaardcomponenten op het paginamalplaatje &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL) worden bepaald.
 
 ### Tab Instellingen voor responsief {#responsive-settings-tab}
 

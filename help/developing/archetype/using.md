@@ -26,7 +26,7 @@ Het richt zich op algemene gebruikspatronen en wat het archetype voor u doet. Vo
 
 Met de projectarchetype wordt het gemakkelijk om zich op AEM te gaan ontwikkelen. U kunt uw eerste stappen met archetype op een aantal manieren nemen.
 
-* **WKND Leerprogramma** - voor een grote inleiding aan het ontwikkelen op AEM met inbegrip van hoe te hefboomwerking het archetype zien [&#x200B; Begonnen het worden met AEM Sites - WKND Leerprogramma &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) voor een praktisch voorbeeld dat u door het gebruiken van archetype loopt om een eenvoudig project uit te voeren.
+* **WKND Leerprogramma** - voor een grote inleiding aan het ontwikkelen op AEM met inbegrip van hoe te hefboomwerking het archetype zien [&#x200B; Begonnen het worden met AEM Sites - WKND Leerprogramma &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=nl-NL) voor een praktisch voorbeeld dat u door het gebruiken van archetype loopt om een eenvoudig project uit te voeren.
 * **het Leerprogramma van de Gebeurtenissen van WKND** - als u bijzonder in de ontwikkeling van één enkele paginatoepassing (SPA) op AEM geinteresseerd bent, ben zeker om het specifieke [&#x200B; WKND leerprogramma van Gebeurtenissen te controleren.](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)
 * **Begin op uw eigen!** - U kunt het [&#x200B; huidige projectarchetype gemakkelijk downloaden beschikbaar op GitHub &#x200B;](https://github.com/adobe/aem-project-archetype) en uw eerste project op uw tot stand brengen.
 
@@ -87,7 +87,7 @@ De `<dependencyManagement>` sectie van ouderPOM bepaalt alle gebiedsdelen en ver
 
 #### Uber-Jar {#uber-jar}
 
-Één van de belangrijkste gebiedsdelen is [&#x200B; Java API Jar van AEM.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) Dit omvat alle AEM API&#39;s met slechts één afhankelijkheidsvermelding voor de versie van AEM.
+Één van de belangrijkste gebiedsdelen is [&#x200B; Java API Jar van AEM.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=nl-NL) Dit omvat alle AEM API&#39;s met slechts één afhankelijkheidsvermelding voor de versie van AEM.
 
 >[!NOTE]
 >

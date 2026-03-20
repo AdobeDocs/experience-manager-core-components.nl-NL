@@ -54,9 +54,9 @@ In het dialoogvenster Configureren kan de auteur van de inhoud het downloaditem 
 De selectie van een downloadactiva is zeer gelijkaardig aan de functionaliteit van de [&#x200B; Component van het Beeld &#x200B;](image-v1.md) en eveneens hefboomwerkingen AEM DAM.
 
 * **Activa van de Download**
-   * Daling een activa van [&#x200B; activa browser &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) of ontvang **doorbladert** optie om van een lokaal dossiersysteem te uploaden.
+   * Daling een activa van [&#x200B; activa browser &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=nl-NL) of ontvang **doorbladert** optie om van een lokaal dossiersysteem te uploaden.
    * Tik of klik **Duidelijk** om het momenteel geselecteerde beeld te deselecteren.
-   * Tik of klik **uitgeven** [&#x200B; om de vertoningen van de activa &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in de activaredacteur te beheren.
+   * Tik of klik **uitgeven** [&#x200B; om de vertoningen van de activa &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=nl-NL) in de activaredacteur te beheren.
 
 ### Tabblad Eigenschappen {#properties-tab}
 
