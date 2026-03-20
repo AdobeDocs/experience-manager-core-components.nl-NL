@@ -1,11 +1,11 @@
 ---
 title: Adaptieve Forms Core-component - Knop Herstellen
 description: De kerncomponent van de knop Adaptive Forms Reset gebruiken of aanpassen.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1569'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Een resetknop in een adaptief formulier is een knop waarmee gebruikers alle formuliervelden kunnen wissen of opnieuw instellen op de standaardwaarden. Wanneer op de knop Herstellen wordt geklikt, worden alle gegevens die in de formuliervelden zijn ingevoerd, verwijderd en keren de velden terug naar hun oorspronkelijke staat. De resetknop wordt meestal gebruikt als een alternatief voor de verzendknop en biedt een manier om opnieuw te beginnen als gebruikers onjuiste of ongewenste gegevens in het formulier hebben ingevoerd.
 
-![&#x200B; voorbeeld &#x200B;](/help/adaptive-forms/assets/example-reset.png)
+![ voorbeeld ](/help/adaptive-forms/assets/example-reset.png)
 
 {{traditional-aem}}
 
@@ -39,17 +39,19 @@ De Adaptive Forms Reset-knop Core Component is in februari 2023 uitgebracht als 
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
-| v1 | Compatibel systeem met <br>[&#x200B; versie 2.0.4 &#x200B;](/help/adaptive-forms/version.md) en later | Compatibel met <br>[&#x200B; versie 1.1.12 &#x200B;](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
+| v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## Technische details {#technical-details}
 
-Krijg de recentste informatie over de Adaptieve de knoopComponent van de Kern van het Terugstellen van Forms in de technische documentatie op [&#x200B; GitHub &#x200B;](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/button/v1/button). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern &#x200B;](/help/developing/overview.md).
+Krijg de recentste informatie over de Adaptieve de knoopComponent van de Kern van het Terugstellen van Forms in de technische documentatie op [ GitHub ](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/button/v1/button). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern ](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -57,15 +59,15 @@ Met het dialoogvenster Configureren kunt u de knopervaring voor bezoekers eenvou
 
 ### Tabblad Standaard {#basic-tab}
 
-![&#x200B; BasisLusje &#x200B;](/help/adaptive-forms/assets/button_basictab.png)
+![ BasisLusje ](/help/adaptive-forms/assets/button_basictab.png)
 
 - **Naam** - u kunt een vormcomponent gemakkelijk met zijn unieke naam zowel in de vorm als in de regelredacteur identificeren, maar de naam moet geen ruimten of speciale karakters bevatten.
 
 - **Titel** - met zijn Titel, kunt u een component in een vorm gemakkelijk identificeren en door gebrek, verschijnt de titel bovenop de component. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
-  Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![&#x200B; pictogram Volledig scherm &#x200B;](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
+  Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
-  ![&#128279;](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0&rbrace;
+  ](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0}![
 
 - **Bind Verwijzing** - A bindt verwijzing is een verwijzing naar een gegevenselement dat in een externe gegevensbron wordt opgeslagen en in een vorm wordt gebruikt. Met de bind-verwijzing kunt u gegevens dynamisch binden aan formuliervelden, zodat in het formulier de meest actuele gegevens uit de gegevensbron kunnen worden weergegeven. Een bind-verwijzing kan bijvoorbeeld worden gebruikt om de naam en het adres van een klant in een formulier weer te geven op basis van de id van de klant die in het formulier is ingevoerd. De bind verwijzing kan ook worden gebruikt om de gegevensbron met gegevens bij te werken ingegaan in de vorm. Op deze manier kunt u in AEM Forms formulieren maken die interageren met externe gegevensbronnen, zodat u een naadloze gebruikerservaring hebt voor het verzamelen en beheren van gegevens.
 - **Teken als Niet-gebonden Element van de Vorm**: Selecteer de optie om een vormgebied te vormen niet verbonden aan om het even welk schema. Met deze optie kunt u gegevens opslaan zonder de gegevensbron bij te werken. Het laat u ook toe om gegevens op een douanemethode, los van standaardgegevensbestandintegratie te behandelen.
@@ -76,7 +78,7 @@ Met het dialoogvenster Configureren kunt u de knopervaring voor bezoekers eenvou
 
 ### Het tabblad Help-inhoud {#help-content}
 
-![&#x200B; Inhoud tabel van de Hulp &#x200B;](/help/adaptive-forms/assets/button_helptab.png)
+![ Inhoud tabel van de Hulp ](/help/adaptive-forms/assets/button_helptab.png)
 
 - **Korte beschrijving** - een korte beschrijving is een korte tekstverklaring die extra informatie of verduidelijking over het doel van een specifiek vormgebied verstrekt. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. Laat **toe tonen altijd korte beschrijving** optie om het onder de component te tonen.
 - **toont altijd korte beschrijving** - laat de optie toe om de Korte beschrijving onder de component te tonen.
@@ -84,7 +86,7 @@ Met het dialoogvenster Configureren kunt u de knopervaring voor bezoekers eenvou
 
 ### Toegankelijkheid {#accessibility}
 
-![&#x200B; Toegankelijkheid tabel &#x200B;](/help/adaptive-forms/assets/button_accessibilitytab.png)
+![ Toegankelijkheid tabel ](/help/adaptive-forms/assets/button_accessibilitytab.png)
 
 - **Tekst voor het schermlezers** - de Tekst voor het schermlezers verwijst naar extra tekst die specifiek bedoeld is om door ondersteunende technologieën, zoals het schermlezers te worden gelezen, die door visueel gehandicapte individuen wordt gebruikt. Deze tekst bevat een audiobeschrijving van het doel van het formulierveld en kan informatie bevatten over de titel, beschrijving, naam en relevante berichten (aangepaste tekst) van het veld. Met de schermlezertekst kunt u ervoor zorgen dat het formulier toegankelijk is voor alle gebruikers, inclusief gebruikers met een visuele handicap, en krijgt deze een volledig inzicht in het formulierveld en de vereisten ervan.
    - **Tekst van de Douane**: Selecteer deze optie om de douanetekst voor de toegankelijkheidslabels van ARIA te gebruiken. Als u deze optie selecteert, wordt het dialoogvenster Aangepaste tekst weergegeven. U kunt relevante informatie toevoegen in het dialoogvenster Aangepaste tekst.
@@ -100,9 +102,9 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de knopcomponent
 
 ### Tabblad Stijlen {#styles-tab}
 
-Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve de knoopcomponent van de Kern van het Terugstellen van Forms steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve de knoopcomponent van de Kern van het Terugstellen van Forms steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
-![&#x200B; Dialoog van het Ontwerp &#x200B;](/help/adaptive-forms/assets/checkbox-style.png)
+![ Dialoog van het Ontwerp ](/help/adaptive-forms/assets/checkbox-style.png)
 
 - **StandaardCSS Klassen**: U kunt een standaardCSS klasse voor de Aangepaste de knoopComponent van de Kern van het Terugstellen van Forms verstrekken.
 
@@ -110,7 +112,7 @@ Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en t
 
 ### Aangepaste eigenschappen
 
-![&#x200B; de Dialoog van Eigenschappen van de Douane &#x200B;](/help/adaptive-forms/assets/checkbox-customproperties.png)
+![ de Dialoog van Eigenschappen van de Douane ](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
 Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aan een Adaptief kernonderdeel van een formulier koppelen met behulp van de formuliersjabloon. De aangepaste eigenschappen worden weergegeven in de sectie Eigenschappen van de koploze uitvoering van de component. Hiermee kunt u dynamisch formuliergedrag maken dat wordt aangepast op basis van de waarden van aangepaste kenmerken. Ontwikkelaars kunnen bijvoorbeeld verschillende uitvoeringen van een Forms-component zonder koptekst ontwerpen voor mobiele apparaten, desktops of webplatforms, waardoor de gebruikerservaring op een groot aantal apparaten aanzienlijk wordt verbeterd.
 

@@ -3,12 +3,12 @@ product: adobe experience manager
 solution: Experience Manager, Experience Manager Sites
 type: Documentation
 description: Documentatie voor de Adobe Experience Manager Core-componenten
-git-repo: https://github.com/AdobeDocs/experience-manager-core-components.nl-NL
-index: y
+git-repo: https://github.com/AdobeDocs/experience-manager-core-components.en
+index: true
 recommendations: noDisplay
-source-git-commit: 55e5ef9271b07d8fffc7b396c890af1637309ff3
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ metadata.md
 
 * `product`
 * `git-repo`
-* `index: y`
+* `index: true`
 * `solution-title`
 * `solution-hub-url`
 * `getting-started-title`
@@ -47,6 +47,6 @@ Artikel
 
 * `title`
 * `description`
-* `index: n` (alleen voor vorige versies van componenten)
+* `index: false` (alleen voor vorige versies van componenten)
 
-Aanvullende informatie over de metagegevens vindt u in het gedeelte [interne ontwerphandleiding.](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/features/metadata.html#solution)
+De extra informatie over de meta-gegevens kan in de [ interne auteursgids worden gevonden.](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/features/metadata.html#solution)

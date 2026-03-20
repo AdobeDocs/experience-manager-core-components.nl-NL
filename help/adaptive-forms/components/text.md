@@ -1,11 +1,11 @@
 ---
 title: Adaptive Forms Core Component - Tekst
 description: De Adaptive Forms Text Core-component gebruiken of aanpassen.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '1016'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Hierdoor kan de structuur van een formulier ook worden opgedeeld in logische sec
 
 **Voorbeeld**
 
-![&#x200B; voorbeeld van tekst &#x200B;](/help/adaptive-forms/assets/text.png)
+![ voorbeeld van tekst ](/help/adaptive-forms/assets/text.png)
 
 ## Gebruik {#reasons-to-use-text-label}
 
@@ -41,17 +41,19 @@ De Adaptive Forms Text Core Component is in februari 2023 uitgebracht als onderd
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
-| v1 | Compatibel systeem met <br>[&#x200B; versie 2.0.4 &#x200B;](/help/adaptive-forms/version.md) en later | Compatibel met <br>[&#x200B; versie 1.1.12 &#x200B;](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
+| v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## Technische details {#technical-details}
 
-Krijg de recentste informatie over de AanpassingsComponent van de Kern van de Tekst van Forms in de technische documentatie op [&#x200B; GitHub &#x200B;](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/text/v1/text). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern &#x200B;](/help/developing/overview.md).
+Krijg de recentste informatie over de AanpassingsComponent van de Kern van de Tekst van Forms in de technische documentatie op [ GitHub ](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/text/v1/text). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern ](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -59,7 +61,7 @@ Met het dialoogvenster Configureren kunt u de tekstervaring voor bezoekers eenvo
 
 ### Het tabblad Basis
 
-![&#x200B; Basis lusje &#x200B;](/help/adaptive-forms/assets/text_properties.png)
+![ Basis lusje ](/help/adaptive-forms/assets/text_properties.png)
 
 - **Naam** - u kunt een vormcomponent gemakkelijk met zijn unieke naam zowel in de vorm als in de regelredacteur identificeren, maar de naam moet geen ruimten of speciale karakters bevatten.
 
@@ -74,9 +76,9 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de component Tex
 
 ### Tabblad Stijlen {#styles-tab}
 
-Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve Component van de Kern van de Tekst van Forms steunt het systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve Component van de Kern van de Tekst van Forms steunt het systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
-![&#x200B; Dialoog van het Ontwerp &#x200B;](/help/adaptive-forms/assets/checkbox-style.png)
+![ Dialoog van het Ontwerp ](/help/adaptive-forms/assets/checkbox-style.png)
 
 - **StandaardCSS Klassen**: U kunt een standaardCSS klasse voor de Aangepaste Component van de Kern van de Tekst van Forms verstrekken.
 
@@ -84,7 +86,7 @@ Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en t
 
 ### Aangepaste eigenschappen
 
-![&#x200B; de Dialoog van Eigenschappen van de Douane &#x200B;](/help/adaptive-forms/assets/checkbox-customproperties.png)
+![ de Dialoog van Eigenschappen van de Douane ](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
 Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aan een Adaptief kernonderdeel van een formulier koppelen met behulp van de formuliersjabloon. De aangepaste eigenschappen worden weergegeven in de sectie Eigenschappen van de koploze uitvoering van de component. Hiermee kunt u dynamisch formuliergedrag maken dat wordt aangepast op basis van de waarden van aangepaste kenmerken. Ontwikkelaars kunnen bijvoorbeeld verschillende uitvoeringen van een Forms-component zonder koptekst ontwerpen voor mobiele apparaten, desktops of webplatforms, waardoor de gebruikerservaring op een groot aantal apparaten aanzienlijk wordt verbeterd.
 

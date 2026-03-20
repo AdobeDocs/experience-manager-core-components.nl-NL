@@ -1,11 +1,11 @@
 ---
 title: Adaptieve Forms Core-component - Voettekst
 description: De Adaptive Forms Footer Core-component gebruiken of aanpassen.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Een voettekstcomponent in een adaptief formulier is een gebied dat doorgaans ond
 
 **Voorbeeld**
 
-![&#x200B; voorbeeld &#x200B;](/help/adaptive-forms/assets/footer.png)
+![ voorbeeld ](/help/adaptive-forms/assets/footer.png)
 
 ## Gebruik {#reasons-to-use-footer}
 
@@ -41,24 +41,26 @@ De Adaptive Forms Footer Core Component is in februari 2023 uitgebracht als onde
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
-| v1 | Compatibel systeem met <br>[&#x200B; versie 2.0.4 &#x200B;](/help/adaptive-forms/version.md) en later | Compatibel met <br>[&#x200B; versie 1.1.12 &#x200B;](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
+| v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## Technische details {#technical-details}
 
-Krijg de recentste informatie over de Aangepaste Component van de Kern van de Voettekst van Forms in de technische documentatie op [&#x200B; GitHub &#x200B;](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/footer/v1/footer). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern &#x200B;](/help/developing/overview.md).
+Krijg de recentste informatie over de Aangepaste Component van de Kern van de Voettekst van Forms in de technische documentatie op [ GitHub ](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/footer/v1/footer). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern ](/help/developing/overview.md).
 
 
 ## Dialoogvenster configureren {#configure-dialog}
 
 Met het dialoogvenster Configureren kunt u de voettekstervaring voor bezoekers eenvoudig aanpassen. U kunt ook eenvoudig voettekstopties definiëren voor een naadloze gebruikerservaring.
 
-![&#x200B; Eigenschappen tabel &#x200B;](/help/adaptive-forms/assets/footer_propertiestab.png)
+![ Eigenschappen tabel ](/help/adaptive-forms/assets/footer_propertiestab.png)
 
 - **geef de doos van de Dialoog** uit
 Het dialoogvenster Bewerken bevat standaardgereedschappen voor tekstopmaak waarmee de gebruiker tekst voor de voettekst kan maken.
@@ -67,7 +69,7 @@ Het dialoogvenster Bewerken bevat standaardgereedschappen voor tekstopmaak waarm
 
 - **Cursief** - deze optie past cursief het formatteren op geselecteerde teksten toe of   Tekst die na de cursor is ingevoerd cursief maken. `Ctrl+I` is een sneltoets.
 
-![&#x200B; Opties van de Opsommingstekens &#x200B;](/help/adaptive-forms/assets/footer_bullet.png)
+![ Opties van de Opsommingstekens ](/help/adaptive-forms/assets/footer_bullet.png)
 
 
 - **Opsommingsteken**
@@ -80,7 +82,7 @@ Het dialoogvenster Bewerken bevat standaardgereedschappen voor tekstopmaak waarm
 
    - **pictogram van de Inspringing** - het verhoogt het inkepingsniveau van de geselecteerde tekst of de tekst ingegaan na de curseur.
 
-![&#x200B; Opties van de Hyperlink &#x200B;](/help/adaptive-forms/assets/footer_link.png)
+![ Opties van de Hyperlink ](/help/adaptive-forms/assets/footer_link.png)
 
 - **Hyperlink**
 
@@ -112,7 +114,7 @@ Het dialoogvenster Bewerken bevat standaardgereedschappen voor tekstopmaak waarm
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=nl-NL)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

@@ -1,11 +1,11 @@
 ---
 title: Adaptieve Forms Core-component - Afbeelding
 description: De Adaptive Forms Image Core-component gebruiken of aanpassen.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Voor toegankelijkheid, is het belangrijk om **Afwisselende tekst** aan het beeld
 
 **Voorbeeld**
 
-![&#x200B; voorbeeld &#x200B;](/help/adaptive-forms/assets/image.png)
+![ voorbeeld ](/help/adaptive-forms/assets/image.png)
 
 
 ## Gebruik {#reasons-to-use-image-in-a-form}
@@ -42,25 +42,27 @@ De Adaptive Forms Image Core Component is in februari 2023 uitgebracht als onder
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
-| v1 | Compatibel systeem met <br>[&#x200B; versie 2.0.4 &#x200B;](/help/adaptive-forms/version.md) en later | Compatibel met <br>[&#x200B; versie 1.1.12 &#x200B;](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
+| v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## Technische details {#technical-details}
 
-Krijg de recentste informatie over de AanpassingsComponent van de Kern van het Beeld van Forms in de technische documentatie op [&#x200B; GitHub &#x200B;](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/image/v1/image). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern &#x200B;](/help/developing/overview.md).
+Krijg de recentste informatie over de AanpassingsComponent van de Kern van het Beeld van Forms in de technische documentatie op [ GitHub ](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/image/v1/image). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern ](/help/developing/overview.md).
 
 
 ## Dialoogvenster configureren {#configure-dialog}
 
 Met het dialoogvenster Configureren kunt u uw beeldervaring eenvoudig aanpassen voor bezoekers. U kunt ook eenvoudig afbeeldingsopties definiëren voor een naadloze gebruikerservaring.
 
-![&#x200B; Eigenschappen tabel &#x200B;](/help/adaptive-forms/assets/image_properties.png)
+![ Eigenschappen tabel ](/help/adaptive-forms/assets/image_properties.png)
 
 - **Naam** - u kunt een vormcomponent gemakkelijk met zijn unieke naam zowel in de vorm als in de regelredacteur identificeren, maar de naam moet geen ruimten of speciale karakters bevatten.
 
@@ -81,7 +83,8 @@ Met het dialoogvenster Configureren kunt u uw beeldervaring eenvoudig aanpassen 
 
 - **de Component van de Huid** - selecteer de optie om de component van de vorm te verbergen. De component blijft toegankelijk voor andere doeleinden, zoals het gebruiken voor berekeningen in de Redacteur van de Regel. Dit is handig wanneer u informatie wilt opslaan die niet hoeft te worden bekeken of rechtstreeks door de gebruiker hoeft te worden gewijzigd.
 
-<!--   **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
+<!--
+**Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
 -->
 
 ## Ontwerpdialoogvenster {#design-dialog}
@@ -90,9 +93,9 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de component Ima
 
 ### Tabblad Stijlen {#styles-tab}
 
-Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve Component van de Kern van het Beeld van Forms steunt het systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve Component van de Kern van het Beeld van Forms steunt het systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
-![&#x200B; Dialoog van het Ontwerp &#x200B;](/help/adaptive-forms/assets/checkbox-style.png)
+![ Dialoog van het Ontwerp ](/help/adaptive-forms/assets/checkbox-style.png)
 
 - **StandaardCSS Klassen**: U kunt een standaardCSS klasse voor de Aangepaste Component van de Kern van het Beeld van Forms verstrekken.
 
@@ -100,7 +103,7 @@ Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en t
 
 ### Aangepaste eigenschappen
 
-![&#x200B; de Dialoog van Eigenschappen van de Douane &#x200B;](/help/adaptive-forms/assets/checkbox-customproperties.png)
+![ de Dialoog van Eigenschappen van de Douane ](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
 Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aan een Adaptief kernonderdeel van een formulier koppelen met behulp van de formuliersjabloon. De aangepaste eigenschappen worden weergegeven in de sectie Eigenschappen van de koploze uitvoering van de component. Hiermee kunt u dynamisch formuliergedrag maken dat wordt aangepast op basis van de waarden van aangepaste kenmerken. Ontwikkelaars kunnen bijvoorbeeld verschillende uitvoeringen van een Forms-component zonder koptekst ontwerpen voor mobiele apparaten, desktops of webplatforms, waardoor de gebruikerservaring op een groot aantal apparaten aanzienlijk wordt verbeterd.
 

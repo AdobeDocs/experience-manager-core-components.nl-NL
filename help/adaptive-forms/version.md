@@ -1,11 +1,11 @@
 ---
 title: AEM Adaptive Forms Core-componentversies
 description: AEM Core Components worden gepubliceerd als releases die meerdere versies van dezelfde kerncomponenten kunnen bevatten. In dit document wordt uitgelegd welke versies en versies worden uitgebracht en hoe u de compatibiliteit met Core Components en AEM begrijpt.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ Identificeer de nauwkeurige versies van zowel Forms Core Components als de eigen
 
 ## AEM Forms als Cloud Service-versiegeschiedenis {#aem-as-cs-version-history}
 
-De versies van de Componenten van de Kern die met AEM as a Cloud Service compatibel zijn zijn beschikbaar op [&#x200B; GitHub samen met uitvoerige details van hun versies &#x200B;](https://github.com/adobe/aem-core-forms-components/releases).
+De versies van de Componenten van de Kern die met AEM as a Cloud Service compatibel zijn zijn beschikbaar op [ GitHub samen met uitvoerige details van hun versies ](https://github.com/adobe/aem-core-forms-components/releases).
 
-Om de de versiegeschiedenis van de Componenten van de Kern voor AEM as a Cloud Service te zien, [&#x200B; klik hier &#x200B;](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md).
+Om de de versiegeschiedenis van de Componenten van de Kern voor AEM as a Cloud Service te zien, [ klik hier ](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md).
 
 
 <!--
@@ -117,9 +117,9 @@ Om de de versiegeschiedenis van de Componenten van de Kern voor AEM as a Cloud S
 
 ## AEM 6.5 Forms-versiegeschiedenis {#aem-as-form-version-history}
 
-De versies van de Componenten van de Kern die met AEM 6.5 Vorm op gebouw en AMS compatibel zijn die op [&#x200B; GitHub samen met uitvoerige details van hun versies &#x200B;](https://github.com/adobe/aem-core-forms-components/releases) beschikbaar zijn.
+De versies van de Componenten van de Kern die met AEM 6.5 Vorm op gebouw en AMS compatibel zijn die op [ GitHub samen met uitvoerige details van hun versies ](https://github.com/adobe/aem-core-forms-components/releases) beschikbaar zijn.
 
-Om de de versiegeschiedenis van de Componenten van de Kern voor AEM 6.5 Vorm op gebouw en AMS te zien, [&#x200B; klik hier &#x200B;](https://github.com/adobe/aem-core-forms-components/blob/release/650/VERSIONS.md).
+Om de de versiegeschiedenis van de Componenten van de Kern voor AEM 6.5 Vorm op gebouw en AMS te zien, [ klik hier ](https://github.com/adobe/aem-core-forms-components/blob/release/650/VERSIONS.md).
 
 <!--
 | Forms Core Components | WCM Core Components | AEM 6.5 | Java  | Maven  |  

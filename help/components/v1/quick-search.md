@@ -1,12 +1,12 @@
 ---
 title: Component Snel zoeken (v1)
 description: De component Snel zoeken biedt zoekmogelijkheden voor een website en biedt zoekresultaten zodat bezoekers de site kunnen doorzoeken en de resultaten kunnen filteren.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 60a043b7-d82c-4bc1-b91a-b77f748f7bc2
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ De component Snel zoeken biedt zoekmogelijkheden voor een website en biedt zoekr
 
 Met de component Snel zoeken kunnen sitebezoekers naar inhoud zoeken, de resultaten op hun plaats bekijken en eenvoudig naar de overeenkomende pagina&#39;s navigeren. Nieuwe resultaten worden dynamisch opgehaald terwijl de gebruiker door de zoekresultaten schuift.
 
-Het [&#x200B; geeft dialoog uit &#x200B;](#edit-dialog) staat de inhoudauteur toe om te bepalen waar in de inhoudsboom het onderzoek zou moeten beginnen. Gebruikend de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog), kan de malplaatjeauteur de standaardwaarde voor plaatsen waar in de inhoudsboom het onderzoek evenals een maximumresultaatvastgestelde grootte en minimumlengte van de onderzoekstermijn zou moeten beginnen.
+Het [ geeft dialoog uit ](#edit-dialog) staat de inhoudauteur toe om te bepalen waar in de inhoudsboom het onderzoek zou moeten beginnen. Gebruikend de [ ontwerpdialoog ](#design-dialog), kan de malplaatjeauteur de standaardwaarde voor plaatsen waar in de inhoudsboom het onderzoek evenals een maximumresultaatvastgestelde grootte en minimumlengte van de onderzoekstermijn zou moeten beginnen.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -30,14 +30,14 @@ In de volgende tabel worden alle ondersteunde versies van de component, de AEM-v
 
 | Componentversie | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v1 | Compatibel systeem met <br>[&#x200B; versie 2.17.4 &#x200B;](/help/versions.md) en vroeger | Compatibel | Compatibel |
+| v1 | Compatibel systeem met <br>[ versie 2.17.4 ](/help/versions.md) en vroeger | Compatibel | Compatibel |
 
 >[!CAUTION]
 >
 >In dit document wordt versie 1 van de Quick Search-component beschreven.
->&#x200B;>Voor details van de huidige versie van de Snelle Component van het Onderzoek, zie het [&#x200B; Snelle document van de Component van het Onderzoek &#x200B;](/help/components/quick-search.md).
+>Voor details van de huidige versie van de Snelle Component van het Onderzoek, zie het [ Snelle document van de Component van het Onderzoek ](/help/components/quick-search.md).
 
-Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [&#x200B; Kern &#x200B;](/help/versions.md).
+Voor meer informatie over de versies en versies van de Component van de Kern, zie de Versies van de Componenten van de Document [ Kern ](/help/versions.md).
 
 ### Technische details {#technical-details}
 
@@ -45,18 +45,18 @@ Voor meer informatie over de versies en versies van de Component van de Kern, zi
 >
 >De component Search of een op AEM gebaseerde toepassing beschermen tegen DOS-aanvallen moet op een hoger niveau worden geïmplementeerd, bijvoorbeeld door `mod_security` op de dispatcher te gebruiken.
 
-De recentste technische documentatie over de Snelle Component van het Onderzoek [&#x200B; kan op GitHub &#x200B;](https://adobe.com/go/aem_cmp_tech_search_v1) worden gevonden.
+De recentste technische documentatie over de Snelle Component van het Onderzoek [ kan op GitHub ](https://adobe.com/go/aem_cmp_tech_search_v1) worden gevonden.
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden &#x200B;](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
 In het dialoogvenster Bewerken kan de auteur van de inhoud definiëren waar in de inhoudsstructuur de zoekopdracht moet beginnen.
 
-![&#x200B; Snelle component van het Onderzoek geeft dialoog uit &#x200B;](/help/assets/quick-search-edit.png)
+![ Snelle component van het Onderzoek geeft dialoog uit ](/help/assets/quick-search-edit.png)
 
 **Wortel van het Onderzoek** - de wortelpagina van waar te om het onderzoek te beginnen. De hoofdmap van de zoekopdracht kan een standaardpagina of een hoofdstramien voor de blauwdruk zijn.
-* **identiteitskaart** - Deze optie staat controle van het unieke herkenningsteken van de component in HTML en in de [&#x200B; Laag van Gegevens toe.](/help/developing/data-layer/overview.md)
+* **identiteitskaart** - Deze optie staat controle van het unieke herkenningsteken van de component in HTML en in de [ Laag van Gegevens toe.](/help/developing/data-layer/overview.md)
    * Als deze leeg blijft, wordt automatisch een unieke id voor u gegenereerd. U kunt deze vinden door de resulterende pagina te inspecteren.
    * Als een id is opgegeven, is het de verantwoordelijkheid van de auteur om ervoor te zorgen dat deze uniek is.
    * Het wijzigen van de id kan gevolgen hebben voor het bijhouden van CSS-, JS- en gegevenslagen.
@@ -71,7 +71,7 @@ Met behulp van het ontwerpdialoogvenster kan de sjabloonauteur de standaardwaard
 
 ### Tabblad Eigenschappen {#properties-tab}
 
-![&#x200B; Snelle het ontwerpdialoog van de Component van het Onderzoek van het Snelle &#x200B;](/help/assets/quick-search-design.png)
+![ Snelle het ontwerpdialoog van de Component van het Onderzoek van het Snelle ](/help/assets/quick-search-design.png)
 
 * **Wortel van het Onderzoek**
 De standaardwaarde van zoekroot wanneer een inhoudsontwerper de component Snel zoeken op een inhoudspagina plaatst
@@ -90,4 +90,4 @@ Minimale lengte van de zoekterm om de zoekopdracht te starten
 
 ### Tabblad Stijlen {#styles-tab}
 
-De Snelle Component van het Onderzoek steunt het Systeem van de Stijl van AEM [&#128279;](/help/get-started/authoring.md#component-styling).
+De Snelle Component van het Onderzoek steunt het Systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).

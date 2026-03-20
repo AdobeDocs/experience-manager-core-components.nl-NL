@@ -1,12 +1,12 @@
 ---
 title: Breadcrumb-component (v1)
 description: De component van de Breadcrumb van de Component van de Kern is een navigatiecomponent die een broodkruimel van verbindingen bouwt die op de plaats van de pagina in de inhoudshiërarchie wordt gebaseerd.
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 4845e649-033a-43a8-b5ee-892a3f2a8b98
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ De component van de Breadcrumb van de Component van de Kern is een navigatiecomp
 
 De component Breadcrumb geeft de positie van de huidige pagina binnen de sitehiërarchie weer, zodat bezoekers van de pagina vanuit hun huidige locatie kunnen navigeren in de paginahiërarchie. Deze functie is vaak geïntegreerd in kop- en voetteksten van pagina&#39;s.
 
-De beschikbare opties zoals het standaardnavigatieniveau en de capaciteit om de huidige pagina of verborgen pagina&#39;s te tonen kunnen door de malplaatjeauteur in de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog) worden bepaald. De inhoudsredacteur kan dan kiezen als de verborgen pagina&#39;s al dan niet zouden moeten worden getoond en het daadwerkelijke navigatieniveau voor de component in [&#x200B; uitgeeft dialoog &#x200B;](#edit-dialog).
+De beschikbare opties zoals het standaardnavigatieniveau en de capaciteit om de huidige pagina of verborgen pagina&#39;s te tonen kunnen door de malplaatjeauteur in de [ ontwerpdialoog ](#design-dialog) worden bepaald. De inhoudsredacteur kan dan kiezen als de verborgen pagina&#39;s al dan niet zouden moeten worden getoond en het daadwerkelijke navigatieniveau voor de component in [ uitgeeft dialoog ](#edit-dialog).
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -30,17 +30,17 @@ In de volgende tabel wordt de compatibiliteit van v1 van de component Breadcrumb
 
 | AEM-versie | Breadcrumb-component v1 |
 |--- |--- |
-| 6,3 | Compatibel |
-| 6,4 | Compatibel |
+| 6.3 | Compatibel |
+| 6.4 | Compatibel |
 
 >[!CAUTION]
 >
 >In dit document wordt versie 1 van de component Breadcrumb beschreven.
->&#x200B;>Voor details van de huidige versie van de Component Breadcrumb, zie het [&#128279;](/help/components/breadcrumb.md) document van de Component 0&rbrace; Breadcrumb.
+>Voor details van de huidige versie van de Component Breadcrumb, zie het ](/help/components/breadcrumb.md) document van de Component 0} Breadcrumb.[
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende wordt steekproef genomen van [&#x200B; We.Retail &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Schermafbeelding {#screenshot}
 
@@ -85,7 +85,7 @@ Het volgende wordt steekproef genomen van [&#x200B; We.Retail &#x200B;](https://
 
 >[!NOTE]
 >
->Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Gelieve te zien de [&#x200B; verenigbaarheidsinformatie voor de Componenten van de Kern v1 &#x200B;](/help/versions.md) voor meer informatie.
+>Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Gelieve te zien de [ verenigbaarheidsinformatie voor de Componenten van de Kern v1 ](/help/versions.md) voor meer informatie.
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
@@ -118,8 +118,8 @@ In het ontwerpdialoogvenster kan de sjabloonauteur definiëren wat de standaardw
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component Breadcrumb [&#x200B; kan op GitHub &#x200B;](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v1/breadcrumb) worden gevonden.
+De recentste technische documentatie over de Component Breadcrumb [ kan op GitHub ](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v1/breadcrumb) worden gevonden.
 
 Het volledige kerncomponentenproject kan van GitHub worden gedownload.
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden &#x200B;](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).

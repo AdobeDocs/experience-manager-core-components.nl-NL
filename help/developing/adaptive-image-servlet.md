@@ -1,11 +1,11 @@
 ---
 title: Adaptieve afbeeldingsserver
 description: Leer hoe de Core Components de Adaptive Image Servlet voor beeldlevering gebruikt en hoe u het gebruik ervan kunt optimaliseren.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 3f6e40c4dbfbd1287213d9d16d96183d24f2ad0a
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ Leer hoe de Core Components de Adaptive Image Servlet voor beeldlevering gebruik
 De component Image Core kan twee methoden gebruiken om afbeeldingen te leveren.
 
 * Standaard is dit de Adaptive Image Servlet.
-* [&#x200B; Web-geoptimaliseerde beeldlevering &#x200B;](/help/developing/web-optimized-image-delivery.md) is beschikbaar aan AEMaaCS en vermindert downloadgrootte door gemiddeld 25%.
+* [ Web-geoptimaliseerde beeldlevering ](/help/developing/web-optimized-image-delivery.md) is beschikbaar aan AEMaaCS en vermindert downloadgrootte door gemiddeld 25%.
 
 In dit document wordt de standaard adaptieve afbeeldingsserver beschreven.
 
 ## Overzicht {#overview}
 
-Standaard gebruikt de component Image de Adaptive Image Servlet van de Core-component om afbeeldingen te leveren. [&#x200B; de Adaptieve Servlet van het Beeld &#x200B;](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) is verantwoordelijk voor beeldverwerking en het stromen en kan door ontwikkelaars in hun [&#x200B; aanpassingen van de Componenten van de Kern &#x200B;](/help/developing/customizing.md) worden leveraged.
+Standaard gebruikt de component Image de Adaptive Image Servlet van de Core-component om afbeeldingen te leveren. [De Adaptieve Servlet van het Beeld ](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) is verantwoordelijk voor beeldverwerking en het stromen en kan door ontwikkelaars in hun [ aanpassingen van de Componenten van de Kern ](/help/developing/customizing.md) worden leveraged.
 
 ## Selectie van vertoning {#rendition-selection}
 
@@ -39,7 +39,7 @@ De Adaptive Image Server selecteert automatisch de meest geschikte vertoning op 
 
 1. De Adaptive Image Server controleert bij alle beschikbare uitvoeringen van het afbeeldingselement.
 1. Alleen elementen met dezelfde mime/hetzelfde type als het oorspronkelijke element waarnaar wordt verwezen, worden geselecteerd.
-   * Als het oorspronkelijke element bijvoorbeeld een PNG-bestand was, wordt alleen rekening gehouden met PNG-uitvoeringen.
+   * E.g. als het oorspronkelijke element een PNG-bestand was, wordt alleen rekening gehouden met PNG-uitvoeringen.
 1. Van deze uitvoeringen worden de afmetingen in overweging genomen en worden deze vergeleken met de grootte van de container waarin de afbeelding moet worden weergegeven.
 1. Als de vertoning >= de containergrootte is, wordt het toegevoegd aan een lijst van kandidaatvertoningen.
 1. Als de vertoning kleiner is dan de containergrootte, wordt deze genegeerd.
@@ -54,6 +54,6 @@ Dit verbetert de prestaties en voorkomt dat sommige afbeeldingen niet correct wo
 
 ## Laatst gewijzigde koppen gebruiken {#last-modified}
 
-Voorwaardelijke verzoeken via de `Last-Modified` kopbal worden gesteund door de Adaptieve Servlet van het Beeld, maar het in het voorgeheugen onderbrengen van de `Last-Modified` kopbal [&#x200B; moet in Dispatcher &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=nl-NL#caching-http-response-headers) worden toegelaten.
+Voorwaardelijke verzoeken via de `Last-Modified` kopbal worden gesteund door de Adaptieve Servlet van het Beeld, maar het in het voorgeheugen onderbrengen van de `Last-Modified` kopbal [ moet in Dispatcher ](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers) worden toegelaten.
 
-[&#x200B; de 1&rbrace; de steekproefconfiguratie van Dispatcher van de Archetype van het Project van AEM &lbrace;bevat reeds deze configuratie.](/help/developing/archetype/overview.md)
+[ de 1} de steekproefconfiguratie van Dispatcher van de Archetype van het Project van AEM {bevat reeds deze configuratie.](/help/developing/archetype/overview.md)

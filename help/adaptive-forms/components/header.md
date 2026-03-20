@@ -1,11 +1,11 @@
 ---
 title: Adaptive Forms Core Component - Koptekst
 description: De Adaptive Forms Header Core-component gebruiken of aanpassen.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Een koptekstcomponent in een adaptief formulier is een sectie boven aan het form
 
 **Voorbeeld**
 
-![&#x200B; voorbeeld &#x200B;](/help/adaptive-forms/assets/header.png)
+![ voorbeeld ](/help/adaptive-forms/assets/header.png)
 
 ## Gebruik {#reasons-to-use-header}
 
@@ -39,18 +39,20 @@ De Adaptive Forms header Core Component is in februari 2023 uitgebracht als onde
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
-| v1 | Compatibel systeem met <br>[&#x200B; versie 2.0.4 &#x200B;](/help/adaptive-forms/version.md) en later | Compatibel met <br>[&#x200B; versie 1.1.12 &#x200B;](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
+| v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#128279;](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0&rbrace;.
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## Technische details {#technical-details}
 
-Krijg de recentste informatie over de Adaptieve Component van de Kern van de Kopbal van Forms in de technische documentatie op [&#x200B; GitHub &#x200B;](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageheader/v1/pageheader). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern &#x200B;](/help/developing/overview.md).
+Krijg de recentste informatie over de Adaptieve Component van de Kern van de Kopbal van Forms in de technische documentatie op [ GitHub ](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageheader/v1/pageheader). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern ](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -60,7 +62,7 @@ Met het dialoogvenster Configureren kunt u de headerervaring voor bezoekers eenv
 
 Dit gedeelte van de koptekst bevat de koptekst en de afbeelding.
 
-![&#x200B; Imagetab &#x200B;](/help/adaptive-forms/assets/header_image.png)
+![ Imagetab ](/help/adaptive-forms/assets/header_image.png)
 
 - **Activa van het Beeld** - deze optie staat toe om activa zoals beeld met muisbelemmering en daling te laten vallen. U kunt een dossier van een lokaal dossiersysteem ook uploaden gebruikend **doorbladert** knoop. Nadat u een afbeelding hebt toegevoegd, staan er drie knoppen onder aan de afbeelding. Nadat u een afbeelding hebt toegevoegd, staan er drie knoppen onder aan de afbeelding:
    - **geef** uit - Tik of klik **geef** uit om de vertoningen van de activa in de Redacteur van Assets te beheren.
@@ -72,7 +74,7 @@ Dit gedeelte van de koptekst bevat de koptekst en de afbeelding.
 - **Beschrijving** - een beschrijving is een korte tekstverklaring die extra informatie of verduidelijking over het doel van een specifiek beeld verstrekt.
 - **Grootte (px)** - het helpt in het aanpassen van de lengte en de breedte van het beeld door de pixel te verhogen of te verminderen.
 
-![&#x200B; toegankelijkheidslusje &#x200B;](/help/adaptive-forms/assets/header_accessibility.png)
+![ toegankelijkheidslusje ](/help/adaptive-forms/assets/header_accessibility.png)
 
 - **Alternatieve Tekst** - Deze optie wordt gebruikt om de tekst in te gaan die een kort en beschrijvend tekstalternatief voor het beeld verstrekt, dat het beeld aan visueel gehandicapte gebruikers beschrijft.
 
@@ -86,7 +88,7 @@ In deze sectie kunt u de tekst invoeren die in de koptekst moet worden opgenomen
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=nl-NL)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

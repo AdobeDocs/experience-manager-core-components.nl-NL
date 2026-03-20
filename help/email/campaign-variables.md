@@ -1,12 +1,12 @@
 ---
 title: Campagnevariabelen
 description: Gebruik campagnevariabelen als plaatsaanduidingen om persoonlijke e-mailinhoud samen te stellen.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 124ff5bf-6612-4baf-b0ff-6b1a95b455c1
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -26,21 +26,21 @@ De lijst met beschikbare personalisatievelden is gesynchroniseerd met uw Adobe C
 
 Het dialoogvenster Adobe Campaign-variabele selecteren is beschikbaar in veel bewerkingsdialoogvensters van de e-mailkerncomponenten. Om het eenvoudig te gebruiken klik op het **Uitgezochte de Variabele van Adobe Campaign** pictogram naast het toepasselijke gebied. Dit pictogram kan twee vormen aannemen.
 
-![&#x200B; knoop van Adobe Campaign &#x200B;](/help/email/assets/campaign-button.png)
-![&#x200B; Uitgezochte Adobe Campaign veranderlijk pictogram &#x200B;](/help/email/assets/select-adobe-campaign-variable-icon.png)
+![ knoop van Adobe Campaign ](/help/email/assets/campaign-button.png)
+![ Uitgezochte Adobe Campaign veranderlijk pictogram ](/help/email/assets/select-adobe-campaign-variable-icon.png)
 
 Het klikken van beide pictogrammen opent **Uitgezochte de Variabele van Adobe Campaign** dialoog.
 
-![&#x200B; Uitgezochte de Variabele van Adobe Campaign dialoog &#x200B;](assets/select-campaign-variable-dialog.png)
+![ Uitgezochte de Variabele van Adobe Campaign dialoog ](assets/select-campaign-variable-dialog.png)
 
 Gebruik de kolomweergave om de variabele te zoeken die u wilt invoegen. Wanneer u op een knooppunt in een kolom klikt, worden de onderliggende items in een nieuwe kolom rechts van het knooppunt weergegeven. Op deze manier kunt u door de structuur van de variabele-inhoud navigeren.
 
 Selecteer de variabele die u wilt invoegen en klik op het vinkje rechtsboven in het dialoogvenster.
 
-![&#x200B; geselecteerde Variabele van Adobe Campaign &#x200B;](assets/select-campaign-variable-dialog-selected.png)
+![ geselecteerde Variabele van Adobe Campaign ](assets/select-campaign-variable-dialog-selected.png)
 
 De variabele wordt vervolgens ingevoegd in het veld van het dialoogvenster Bewerken van de E-mailkerncomponent.
 
-![&#x200B; variabele van de Campagne die in wordt opgenomen uitgeeft dialoog &#x200B;](assets/campaign-variable.png)
+![ variabele van de Campagne die in wordt opgenomen uitgeeft dialoog ](assets/campaign-variable.png)
 
 Klik op de X linksboven in het dialoogvenster om het dialoogvenster te annuleren en te sluiten.

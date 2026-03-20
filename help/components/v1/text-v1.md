@@ -1,12 +1,12 @@
 ---
 title: Tekstcomponent (v1)
 description: De component Text is een component voor tekstbewerking en -compositie met tekstopmaak die op locatie kan worden bewerkt.
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: c9fe3052-a33d-412e-9456-52c9a0cea292
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1674'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ De component Text is een component voor tekstbewerking en -compositie met teksto
 
 De component Text biedt een robuuste teksteditor met tekstopmaak die het mogelijk maakt tekst eenvoudig te bewerken in een vereenvoudigde, inline editor en in een volledige schermopmaak.
 
-Het [&#x200B; geeft dialoog &#x200B;](#edit-dialog) eigenschappen in-lijn uit het uitgeven met beperkte opties met volledige functionaliteit beschikbaar in het volledig scherm uitgeeft dialoog. Gebruikend de [&#x200B; ontwerpdialoog &#x200B;](#design-dialog), tekst het formatteren opties zoals rubrieken, speciale karakters, en paragraafstijlen kunnen voor het malplaatje voor de inhoudauteur worden gevormd.
+Het [ geeft dialoog ](#edit-dialog) eigenschappen in-lijn uit het uitgeven met beperkte opties met volledige functionaliteit beschikbaar in het volledig scherm uitgeeft dialoog. Gebruikend de [ ontwerpdialoog ](#design-dialog), tekst het formatteren opties zoals rubrieken, speciale karakters, en paragraafstijlen kunnen voor het malplaatje voor de inhoudauteur worden gevormd.
 
 ## Versie en compatibiliteit {#version-and-compatibility}
 
@@ -30,18 +30,18 @@ In de volgende tabel wordt de compatibiliteit van v1 van de tekstcomponent weerg
 
 | AEM-versie | Tekstcomponent v1 |
 |--- |--- |
-| 6,3 | Compatibel |
-| 6,4 | Compatibel |
+| 6.3 | Compatibel |
+| 6.4 | Compatibel |
 
 >[!CAUTION]
 >
 >In dit document wordt versie 1 van de tekstcomponent beschreven.
 >
->Voor details van de huidige versie van de Component van de Tekst, zie het [&#128279;](/help/components/text.md) document van de Component van de Tekst 0&rbrace; &lbrace;.
+>Voor details van de huidige versie van de Component van de Tekst, zie het ](/help/components/text.md) document van de Component van de Tekst 0} {.[
 
 ## Uitvoer van voorbeeldcomponent {#sample-component-output}
 
-Het volgende wordt steekproef genomen van [&#x200B; We.Retail &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/we-retail.html).
+Het volgende wordt steekproef genomen van [ We.Retail ](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Schermafbeelding {#screenshot}
 
@@ -69,7 +69,7 @@ Het volgende wordt steekproef genomen van [&#x200B; We.Retail &#x200B;](https://
 
 >[!NOTE]
 >
->Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Gelieve te zien de [&#x200B; verenigbaarheidsinformatie voor de Componenten van de Kern v1 &#x200B;](/help/versions.md) voor meer informatie.
+>Voor JSON-export van de Core Components is release 1.1.0 van de Core Components vereist. Gelieve te zien de [ verenigbaarheidsinformatie voor de Componenten van de Kern v1 ](/help/versions.md) voor meer informatie.
 
 ## Dialoogvenster Bewerken {#edit-dialog}
 
@@ -367,8 +367,8 @@ De optie voor het invoegen van speciale tekens kan voor de component worden geac
 
 ## Technische details {#technical-details}
 
-De recentste technische documentatie over de Component van de Tekst [&#x200B; kan op GitHub &#x200B;](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text) worden gevonden.
+De recentste technische documentatie over de Component van de Tekst [ kan op GitHub ](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text) worden gevonden.
 
 Het volledige kerncomponentenproject kan van GitHub worden gedownload.
 
-De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden &#x200B;](/help/developing/overview.md).
+De verdere details over het ontwikkelen van de Componenten van de Kern kunnen in de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern worden gevonden ](/help/developing/overview.md).

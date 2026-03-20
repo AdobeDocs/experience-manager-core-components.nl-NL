@@ -1,11 +1,11 @@
 ---
 title: Adaptive Forms Core Component - Nummerinvoer
 description: De Adaptive Forms Number input Core Component gebruiken of aanpassen.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: f0c4d6adf7266bdb6ebc7cde49656efaf3027624
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '2384'
+source-wordcount: '2442'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Voor toegankelijkheid is het belangrijk om &#39;label&#39; op te geven dat het d
 
 **Voorbeeld**
 
-![&#x200B; voorbeeld &#x200B;](/help/adaptive-forms/assets/numeric-stepper.png)
+![ voorbeeld ](/help/adaptive-forms/assets/numeric-stepper.png)
 
 ## Gebruik {#reasons-to-use-number-input-numeric-stepper}
 
@@ -43,18 +43,20 @@ De Adaptive Forms Numeric box Core Component is in februari 2023 uitgebracht als
 
 | Componentversie | AEM as a Cloud Service | AEM 6.5.16.0 Forms of hoger |
 |---|---|---|
-| v1 | Compatibel systeem met <br>[&#x200B; versie 2.0.4 &#x200B;](/help/adaptive-forms/version.md) en later | Compatibel met <br>[&#x200B; versie 1.1.12 &#x200B;](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
+| v1 | Compatibel systeem met <br>[ versie 2.0.4 ](/help/adaptive-forms/version.md) en later | Compatibel met <br>[ versie 1.1.12 ](/help/adaptive-forms/version.md) en later maar minder dan 2.0.0. |
 
-Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het [&#x200B; document van de Versies van de Componenten van de Kern 0&rbrace;.](/help/adaptive-forms/version.md)
+Voor informatie over de versies en versies van de Component van de Kern, verwijs naar het ](/help/adaptive-forms/version.md) document van de Versies van de Componenten van de Kern 0}.[
 
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## Technische details {#technical-details}
 
-Krijg de recentste informatie over de Adaptieve de inputcomponent van de Kern van het Aantal van Forms in de technische documentatie op [&#x200B; GitHub &#x200B;](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/numberinput/v1/numberinput). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern &#x200B;](/help/developing/overview.md).
+Krijg de recentste informatie over de Adaptieve de inputcomponent van de Kern van het Aantal van Forms in de technische documentatie op [ GitHub ](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/numberinput/v1/numberinput). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern ](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
@@ -62,15 +64,15 @@ Met het dialoogvenster Configureren kunt u de gebruikersinvoer voor bezoekers ee
 
 ### Tabblad Standaard {#basic-tab}
 
-![&#x200B; BasisLusje &#x200B;](/help/adaptive-forms/assets/numberinput_basictab.png)
+![ BasisLusje ](/help/adaptive-forms/assets/numberinput_basictab.png)
 
 - **Naam** - u kunt een vormcomponent gemakkelijk met zijn unieke naam zowel in de vorm als in de regelredacteur identificeren, maar de naam moet geen ruimten of speciale karakters bevatten.
 
 - **Titel** - met zijn Titel, kunt u een component in een vorm gemakkelijk identificeren en door gebrek, verschijnt de titel bovenop de component. Als u geen titel toevoegt, wordt de naam van de component weergegeven in plaats van de titeltekst.
 - **staat RTF voor Titel** toe - Deze eigenschappen laat gebruikers toe om gewone teksttitels te formatteren, die eigenschappen zoals vette, cursieve, onderstreepte tekst, diverse doopvonten, doopvontgrootte, kleuren, en extra optie opnemen om visuele presentatie en aanpassing te verbeteren. Deze functie biedt meer flexibiliteit en creatieve controle bij het opvallen van titels in documenten, websites of toepassingen.\
-  Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![&#x200B; pictogram Volledig scherm &#x200B;](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
+  Op het selecteren van checkbox voor **staat RTF-tekst voor Titel** toe, wordt het formatteren opties zichtbaar om de titel van de component te stileren. Om tot alle beschikbare het formatteren opties toegang te hebben, kunt u op het ![ pictogram Volledig scherm ](/help/adaptive-forms/assets/fullscreen-icon.png) tabel klikken.
 
-  ![&#x200B; de rijke tekststeun van 0&rbrace;](/help/adaptive-forms/assets/richtext-support-title.png)
+  ](/help/adaptive-forms/assets/richtext-support-title.png) de rijke tekststeun van 0}![
 
 - **Verberg Titel** - selecteer de optie om de Titel van de component te verbergen.
 - **Plaatsaanduidingstekst** - De placeholder tekst in een vormcomponent verwijst naar een kort etiket of een herinnering die binnen een inputgebied als wenk aan de gebruiker verschijnt op welk type van informatie naar verwachting op dat gebied zal zijn ingegaan. Plaatsaanduidingstekst verdwijnt wanneer de gebruiker in het veld typt en verschijnt opnieuw als het veld leeg blijft. De klasse biedt een visuele aanwijzing voor de gebruiker, maar fungeert niet als een permanent label of een permanente waarde voor het veld.
@@ -84,7 +86,7 @@ Met het dialoogvenster Configureren kunt u de gebruikersinvoer voor bezoekers ee
 
 ### Tabblad Validatie {#validation-tab}
 
-![&#x200B; het lusje van de Bevestiging &#x200B;](/help/adaptive-forms/assets/numberinput_validationtab.png)
+![ het lusje van de Bevestiging ](/help/adaptive-forms/assets/numberinput_validationtab.png)
 
 - **Vereist** - selecteer deze optie, als u de component in een Aangepaste Vorm wilt tonen. Nadat u de optie hebt geselecteerd, moet u een waarde invoeren voordat u verdergaat met het verzenden van een formulier. U kunt niet de **Component van de Verbergen** selecteren of **Component** in het **Basis** lusje onbruikbaar maken wanneer deze optie wordt geselecteerd.
 
@@ -106,7 +108,7 @@ Met het dialoogvenster Configureren kunt u de gebruikersinvoer voor bezoekers ee
 
 ### Het tabblad Help-inhoud {#help-content}
 
-![&#x200B; Inhoud tabel van de Hulp &#x200B;](/help/adaptive-forms/assets/numberinput_helptab.png)
+![ Inhoud tabel van de Hulp ](/help/adaptive-forms/assets/numberinput_helptab.png)
 
 - **Korte beschrijving** - een korte beschrijving is een korte tekstverklaring die extra informatie of verduidelijking over het doel van een specifiek vormgebied verstrekt. Het helpt de gebruiker begrijpen welk type gegevens in het gebied moeten worden ingegaan en kan richtlijnen of voorbeelden verstrekken helpen ervoor zorgen dat de ingevoerde informatie geldig is en aan de gewenste criteria voldoet. Korte beschrijvingen blijven standaard verborgen. Laat **toe tonen altijd korte beschrijving** optie om het onder de component te tonen.
 
@@ -116,7 +118,7 @@ Met het dialoogvenster Configureren kunt u de gebruikersinvoer voor bezoekers ee
 
 ### Tabblad Toegankelijkheid {#accessibility}
 
-![&#x200B; Toegankelijkheid tabel &#x200B;](/help/adaptive-forms/assets/numberinput_accessibility.png)
+![ Toegankelijkheid tabel ](/help/adaptive-forms/assets/numberinput_accessibility.png)
 
 - **Tekst voor het schermlezers** - de Tekst voor het schermlezers verwijst naar extra tekst die bedoeld is om door ondersteunende technologieën, zoals het schermlezers te worden gelezen, die door visueel gehandicapte individuen wordt gebruikt. Deze tekst bevat een audiobeschrijving van het doel van het formulierveld en kan informatie bevatten over de titel, beschrijving, naam en relevante berichten (aangepaste tekst) van het veld. Met de schermlezertekst kunt u ervoor zorgen dat het formulier toegankelijk is voor alle gebruikers, inclusief gebruikers met een visuele handicap, en krijgt deze een volledig inzicht in het formulierveld en de vereisten ervan.
    - **Tekst van de Douane**: Selecteer deze optie om de douanetekst voor de toegankelijkheidslabels van ARIA te gebruiken. Als u deze optie selecteert, wordt het dialoogvenster Aangepaste tekst weergegeven. U kunt relevante informatie toevoegen in het dialoogvenster Aangepaste tekst.
@@ -127,7 +129,7 @@ Met het dialoogvenster Configureren kunt u de gebruikersinvoer voor bezoekers ee
 
 ### Tabblad Opmaak {#formats-configure-tab}
 
-![&#x200B; Toegankelijkheid tabel &#x200B;](/help/adaptive-forms/assets/numberinput_formattab.png)
+![ Toegankelijkheid tabel ](/help/adaptive-forms/assets/numberinput_formattab.png)
 
 - **formaat van de Vertoning** - Deze optie staat u toe om optie van verschillende geheel-numerieke types voor vertoning te selecteren. Wanneer de gebruiker om het even welke optie van het **Type** drop-down menu selecteert, wordt de **optie van het Formaat** zichtbaar in het paneel. U kunt een specifieke indeling kiezen waarin getallen worden weergegeven aan de gebruiker.
 - **Taal** - deze eigenschap wordt gebruikt voor het formatteren van het specifieke gebied. Wanneer een gebruiker om het even welke taaloptie van het **Type** drop-down menu selecteert, verschijnt de **IETF BCP 47 taalmarkering** optie in het paneel. U kunt de taal voor veldopmaak kiezen wanneer u een adaptief formulier in een specifieke taal vertaalt.
@@ -137,13 +139,13 @@ De reeks talen is niet zichtbaar door gebrek, maar de gebruikers kunnen een doua
 1. Open de bijbehorende sjabloon die aan een adaptief formulier is gekoppeld in de sjablooneditor.
 2. Selecteer het bestaande beleid als `numberinput-default-policy` in de keuzelijst.
 
-   ![&#x200B; het malplaatjebeleid van de Plukker van de Datum &#x200B;](/help/adaptive-forms/assets/numberinput-template-policy.png)
+   ![ het malplaatjebeleid van de Plukker van de Datum ](/help/adaptive-forms/assets/numberinput-template-policy.png)
 
 3. Klik **Gedaan**.
 
    >[!NOTE]
    >
-   > Voor verdere informatie over hoe te om een AanpassingsVorm aan een specifieke scène te vertalen, [&#x200B; klik hier &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+   > Voor verdere informatie over hoe te om een AanpassingsVorm aan een specifieke scène te vertalen, [ klik hier ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
 
 
 ## Ontwerpdialoogvenster {#design-dialog}
@@ -152,9 +154,9 @@ Het dialoogvenster Ontwerpen wordt gebruikt om CSS-stijlen voor de component Num
 
 ### Tabblad Stijlen {#styles-tab}
 
-Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve de inputcomponent van de Kern van het Aantal van Forms steunt het systeem van de Stijl van AEM [&#x200B; &#x200B;](/help/get-started/authoring.md#component-styling).
+Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en te beheren. De adaptieve de inputcomponent van de Kern van het Aantal van Forms steunt het systeem van de Stijl van AEM [ ](/help/get-started/authoring.md#component-styling).
 
-![&#x200B; lusje van de Stijl &#x200B;](/help/adaptive-forms/assets/datepicker_styletab.png)
+![ lusje van de Stijl ](/help/adaptive-forms/assets/datepicker_styletab.png)
 
 - **StandaardCSS Klassen**: U kunt een standaardCSS klasse voor de Aangepaste Component van de Kern van de Doos van Forms verstrekken Numerieke.
 
@@ -162,7 +164,7 @@ Het tabblad wordt gebruikt om CSS-stijlen voor een component te definiëren en t
 
 ### Aangepaste eigenschappen
 
-![&#x200B; de Dialoog van Eigenschappen van de Douane &#x200B;](/help/adaptive-forms/assets/datepicker_customproperties.png)
+![ de Dialoog van Eigenschappen van de Douane ](/help/adaptive-forms/assets/datepicker_customproperties.png)
 
 Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aan een Adaptief kernonderdeel van een formulier koppelen met behulp van de formuliersjabloon. De aangepaste eigenschappen worden weergegeven in de sectie Eigenschappen van de koploze uitvoering van de component. Hiermee kunt u dynamisch formuliergedrag maken dat wordt aangepast op basis van de waarden van aangepaste kenmerken. Ontwikkelaars kunnen bijvoorbeeld verschillende uitvoeringen van een Forms-component zonder koptekst ontwerpen voor mobiele apparaten, desktops of webplatforms, waardoor de gebruikerservaring op een groot aantal apparaten aanzienlijk wordt verbeterd.
 
@@ -178,7 +180,7 @@ Met aangepaste eigenschappen kunt u aangepaste kenmerken (sleutelwaardeparen) aa
 
 Op het tabblad Indelingen kunt u standaard- en aangepaste datumnotaties opgeven. Bovendien, kunt u nieuw formaat van het douaneaantal ook toevoegen gebruikend **voeg** knoop toe.
 
-![&#x200B; Formattab &#x200B;](/help/adaptive-forms/assets/emailinput_formattab.png)
+![ Formattab ](/help/adaptive-forms/assets/emailinput_formattab.png)
 
 #### Formaten toevoegen in het Sjabloonbeleid van de component
 
@@ -190,17 +192,17 @@ Opmaak toevoegen aan het sjabloonbeleid:
 
 1. Open de bijbehorende sjabloon die aan een adaptief formulier of sites is gekoppeld in de sjablooneditor.
 2. In de **Toegestane sectie van Componenten**, selecteer de **[!UICONTROL Number Input]** component.
-   ![&#x200B; het malplaatjebeleid van de Plukker van de Datum &#x200B;](/help/adaptive-forms/assets/number-input-policy.png)
+   ![ het malplaatjebeleid van de Plukker van de Datum ](/help/adaptive-forms/assets/number-input-policy.png)
 3. Klik op het pictogram **[!UICONTROL Add]** om een nieuw beleid voor de component Nummerinvoer te maken.
 4. Ga een naam voor het beleid in en selecteer alle vereiste formaten onder het **Formaat** lusje.
-   ![&#x200B; creeer Beleid &#x200B;](/help/adaptive-forms/assets/date-picker-format-policy.png)
-5. Klik op **[!UICONTROL Done]**.
+   ![ creeer Beleid ](/help/adaptive-forms/assets/date-picker-format-policy.png)
+5. Klik op **[!UICONTROL Done]** .
 
 <!--
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=nl-NL)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

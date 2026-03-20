@@ -1,13 +1,13 @@
 ---
 title: Adaptive Forms Core Component - Revisiecomponent
 description: De Adaptive Forms Review Core-component gebruiken of aanpassen.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 hide: true
 hidefromtoc: true
 exl-id: acd230ed-284b-4df2-98e0-a0090cd73611
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Met de Revisiecomponent in Adaptive Forms kunnen gebruikers de ingevoerde gegeve
 
 **Voorbeeld**
 
-![&#x200B; Component van het Overzicht &#x200B;](/help/adaptive-forms/assets/review-component.png){width=50%, align=center}
+![ Component van het Overzicht ](/help/adaptive-forms/assets/review-component.png){width=50%, align=center}
 
 ## Gebruik
 
@@ -36,13 +36,13 @@ Hieronder ziet u de redenen om de revisiecomponent in een adaptieve vorm te gebr
 
 ## Technische details {#technical-details}
 
-Krijg de recentste informatie over de AanpassingsComponent van de Kern van de Controle van Forms in de technische documentatie over [&#x200B; GitHub &#x200B;](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [&#x200B; de ontwikkelaarsdocumentatie van de Componenten van de Kern &#x200B;](/help/developing/overview.md).
+Krijg de recentste informatie over de AanpassingsComponent van de Kern van de Controle van Forms in de technische documentatie over [ GitHub ](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput). Voor meer bij het ontwikkelen van de Componenten van de Kern, controleer de [ de ontwikkelaarsdocumentatie van de Componenten van de Kern ](/help/developing/overview.md).
 
 ## Dialoogvenster configureren {#configure-dialog}
 
 U kunt de ervaring voor bezoekers gemakkelijk aanpassen met het dialoogvenster Configureren voor een naadloze gebruikerservaring.
 
-![&#x200B; Vorm Dialoog &#x200B;](/help/adaptive-forms/assets/review-component-configure-dialog.png)
+![ Vorm Dialoog ](/help/adaptive-forms/assets/review-component-configure-dialog.png)
 
 - **Naam** - u kunt een vormcomponent gemakkelijk met zijn unieke naam zowel in de vorm als in de regelredacteur identificeren, maar de naam moet geen ruimten of speciale karakters bevatten.
 
@@ -54,7 +54,7 @@ U kunt de ervaring voor bezoekers gemakkelijk aanpassen met het dialoogvenster C
    - Wanneer de gebruikers het **Gebied en van het Comité** optie selecteren, kunnen zij het uitgeven pictogram naast een gebied klikken om specifieke informatie te wijzigen of naast een paneel om alle gebieden binnen dat paneel uit te geven.
    - Wanneer de gebruikers **niets** selecteren optie, kunnen zij om het even welk gebied of paneel binnen de volledige vorm uitgeven.
 
-  Door gebrek, wordt de **1&rbrace; optie van het Comité &lbrace;geselecteerd.**
+  Door gebrek, wordt de **1} optie van het Comité {geselecteerd.**
 
 - **de Panelen van de Verbinding** - de **optie van de Vensters van de Verbinding** staat gebruikers toe om de panelen voor overzicht te selecteren. Wanneer deelvensters zijn gekoppeld, kunnen gebruikers de ingevoerde informatie van de geselecteerde deelvensters controleren en deze wijzigen voordat ze de gegevens verzenden.
 
