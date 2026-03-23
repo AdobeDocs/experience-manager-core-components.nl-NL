@@ -29,7 +29,7 @@ E-mails maken deel uit van de merkervaring en de reis van de klant. Met de Email
 
 ## Functies {#features}
 
-* De E-mail van de Kern Componenten zijn gebaseerd op de [&#x200B; Componenten van de Kern, &#x200B;](/help/introduction.md) en steunt daarom ook [&#x200B; Bewerkbare Malplaatjes &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) en het [&#x200B; Systeem van de Stijl.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)
+* De E-mail van de Kern Componenten zijn gebaseerd op de [&#x200B; Componenten van de Kern, &#x200B;](/help/introduction.md) en steunt daarom ook [&#x200B; Bewerkbare Malplaatjes &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=nl-NL) en het [&#x200B; Systeem van de Stijl.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=nl-NL)
 * Er zijn [&#x200B; tien e-mail-geoptimaliseerde productie-klaar componenten &#x200B;](#components) aan auteur e-mailinhoud.
 * De componenten van de Kern E-mail verstrekken geavanceerde verpersoonlijking dankzij de toevoeging van [&#x200B; variabelen van Adobe Campaign &#x200B;](campaign-variables.md) op de meeste dialooggebieden.
 * De flexibele [&#x200B; component van de Segmentatie &#x200B;](/help/email/components/segmentation.md) staat voor geavanceerde segmentatie van uw inhoud toe.
